@@ -14,7 +14,7 @@
     "negative_examples": [
       {
         "text": "我名字叫王明",
-        "error": "Incorrect structure for the target pattern"
+        "error": "For this beginner pattern, use 我叫王明. 名字 means name, but this lesson is teaching the shorter 我 + 叫 + NAME structure."
       }
     ]
   },
@@ -33,7 +33,7 @@
     "negative_examples": [
       {
         "text": "我是很學生",
-        "error": "很 is not used before this noun in a basic identity statement"
+        "error": "很 is used before adjectives, not before a noun like 學生 in this identity pattern."
       }
     ]
   },
@@ -51,7 +51,7 @@
     "negative_examples": [
       {
         "text": "嗎你是老師",
-        "error": "嗎 belongs at the end of a yes/no question"
+        "error": "Put 嗎 at the end of the sentence to make a yes/no question."
       }
     ]
   }

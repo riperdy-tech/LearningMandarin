@@ -44,9 +44,7 @@ const navItems: Array<{ key: ViewKey; label: string; icon: React.ElementType }> 
 export function CourseApp({ data }: { data: CourseData }) {
   const [selectedLessonId, setSelectedLessonId] = useState(data.lessons[0]?.id ?? "");
   const [view, setView] = useState<ViewKey>("lesson");
-  const [mastery, setMastery] = useState<Record<string, number>>({
-    [data.lessons[0]?.id ?? ""]: 35
-  });
+  const [mastery, setMastery] = useState<Record<string, number>>({});
   const speech = useMandarinSpeech();
 
   const selectedLesson = useMemo(
@@ -64,10 +62,10 @@ export function CourseApp({ data }: { data: CourseData }) {
     data.lessons.reduce((sum, lesson) => sum + (mastery[lesson.id] ?? 0), 0) /
     Math.max(data.lessons.length, 1);
 
-  function handlePracticeComplete(points: number) {
+  function handlePracticeComplete() {
     setMastery((current) => ({
       ...current,
-      [selectedLesson.id]: Math.min(100, (current[selectedLesson.id] ?? 0) + points)
+      [selectedLesson.id]: 100
     }));
   }
 
@@ -140,7 +138,7 @@ export function CourseApp({ data }: { data: CourseData }) {
                 <Badge className="bg-persimmon-100 text-persimmon-600 ring-persimmon-500/20">
                   {selectedLesson.xp} XP
                 </Badge>
-                <Badge>{Math.round(selectedLesson.mastery_threshold * 100)}% mastery</Badge>
+                <Badge>Complete lesson to record mastery</Badge>
               </div>
               <h2 className="mt-3 text-2xl font-black text-ink sm:text-3xl">
                 {selectedLesson.title}
@@ -205,7 +203,6 @@ export function CourseApp({ data }: { data: CourseData }) {
             {view === "pronunciation" && (
               <PronunciationPanel
                 items={lessonPack.pronunciation}
-                onComplete={handlePracticeComplete}
                 speak={speech.speak}
                 vocab={data.vocab}
               />
@@ -226,11 +223,12 @@ function LessonPractice({
 }: {
   lesson: LessonItem;
   pack: LessonPack;
-  onComplete: (points: number) => void;
+  onComplete: () => void;
   speak: (text: string, mode?: SpeechMode) => void;
 }) {
   const [selectedAnswer, setSelectedAnswer] = useState("");
   const [checked, setChecked] = useState(false);
+  const [completed, setCompleted] = useState(false);
   const [orderedTokens, setOrderedTokens] = useState<string[]>([]);
   const sentence = pack.sentences[0];
   const promptVocab = pack.vocab[0];
@@ -241,6 +239,9 @@ function LessonPractice({
 
   const isMcqCorrect = selectedAnswer === promptVocab?.id;
   const isReorderCorrect = sentence ? orderedTokens.join("") === sentence.tokens.join("") : false;
+  const hasMcqAnswer = selectedAnswer.length > 0;
+  const hasFullSequence = sentence ? orderedTokens.length === sentence.tokens.length : false;
+  const lessonReady = isMcqCorrect && isReorderCorrect;
 
   return (
     <div className="grid gap-5 xl:grid-cols-[minmax(0,1fr)_22rem]">
@@ -278,6 +279,7 @@ function LessonPractice({
                   onClick={() => {
                     setSelectedAnswer(option.id);
                     setChecked(false);
+                    setCompleted(false);
                   }}
                   type="button"
                 >
@@ -299,6 +301,7 @@ function LessonPractice({
                   onClick={() => {
                     setOrderedTokens([]);
                     setChecked(false);
+                    setCompleted(false);
                   }}
                   size="sm"
                   variant="secondary"
@@ -317,9 +320,11 @@ function LessonPractice({
                     <button
                       className="rounded-lg bg-ink px-4 py-2 han text-lg font-bold text-white"
                       key={`${token}-${index}`}
-                      onClick={() =>
-                        setOrderedTokens((current) => current.filter((_, i) => i !== index))
-                      }
+                      onClick={() => {
+                        setOrderedTokens((current) => current.filter((_, i) => i !== index));
+                        setChecked(false);
+                        setCompleted(false);
+                      }}
                       type="button"
                     >
                       {token}
@@ -336,6 +341,7 @@ function LessonPractice({
                     onClick={() => {
                       setOrderedTokens((current) => [...current, token]);
                       setChecked(false);
+                      setCompleted(false);
                     }}
                     type="button"
                   >
@@ -348,21 +354,32 @@ function LessonPractice({
 
           <div className="flex flex-wrap items-center justify-between gap-3">
             <div className="text-sm font-bold">
-              {checked && isMcqCorrect && isReorderCorrect && (
-                <span className="text-jade-700">Correct. Mastery increased.</span>
+              {checked && lessonReady && (
+                <span className="text-jade-700">Lesson complete. Mastery recorded.</span>
               )}
-              {checked && (!isMcqCorrect || !isReorderCorrect) && (
-                <span className="text-persimmon-600">Not yet. Check the answer and try again.</span>
+              {checked && !lessonReady && (
+                <span className="text-persimmon-600">
+                  {getLessonFeedback({
+                    hasFullSequence,
+                    hasMcqAnswer,
+                    isMcqCorrect,
+                    isReorderCorrect
+                  })}
+                </span>
               )}
             </div>
             <Button
+              disabled={completed}
               onClick={() => {
                 setChecked(true);
-                if (isMcqCorrect && isReorderCorrect) onComplete(20);
+                if (lessonReady) {
+                  setCompleted(true);
+                  onComplete();
+                }
               }}
             >
               <Check className="h-4 w-4" />
-              Check
+              {completed ? "Completed" : "Check"}
             </Button>
           </div>
         </CardContent>
@@ -408,10 +425,9 @@ function VocabularyGrid({
               <div>
                 <div className="han text-5xl font-black text-ink">{item.char}</div>
                 <p className="mt-2 text-lg font-bold text-jade-700">{item.pinyin}</p>
-                <p className="text-sm font-semibold text-ink/50">{item.pinyin_numeric}</p>
               </div>
               <div className="flex items-center gap-2">
-                <Badge>{item.cefr}</Badge>
+                <Badge>{item.frequency} frequency</Badge>
                 <AudioButton label={`Play ${item.char}`} onClick={() => speak(item.char, "word")} />
               </div>
             </div>
@@ -538,7 +554,8 @@ function GrammarPanel({
             </div>
             {item.negative_examples[0] && (
               <div className="mt-5 rounded-lg bg-persimmon-100 p-4">
-                <p className="han text-xl font-black text-persimmon-600">
+                <p className="text-sm font-black uppercase text-persimmon-600">Common learner mix-up</p>
+                <p className="mt-2 han text-xl font-black text-ink">
                   {item.negative_examples[0].text}
                 </p>
                 <p className="mt-1 text-sm font-bold text-ink/60">
@@ -555,15 +572,14 @@ function GrammarPanel({
 
 function PronunciationPanel({
   items,
-  onComplete,
   speak,
   vocab
 }: {
   items: PronunciationItem[];
-  onComplete: (points: number) => void;
   speak: (text: string, mode?: SpeechMode) => void;
   vocab: VocabularyItem[];
 }) {
+  const [attempted, setAttempted] = useState(false);
   const [active, setActive] = useState(items[0]?.id ?? "");
   const activeItem = items.find((item) => item.id === active) ?? items[0];
   const [phoneme, setPhoneme] = useState(78);
@@ -645,11 +661,16 @@ function PronunciationPanel({
               <p className="font-bold">
                 {passed ? "Pronunciation passed" : "Practice the tone contour and try again"}
               </p>
-              <Button onClick={() => passed && onComplete(12)} variant={passed ? "default" : "secondary"}>
+              <Button onClick={() => setAttempted(true)} variant={passed ? "default" : "secondary"}>
                 <Mic className="h-4 w-4" />
                 Record attempt
               </Button>
             </div>
+            {attempted && (
+              <p className="mt-3 text-sm font-bold text-ink/55">
+                Attempt saved for this practice screen. Lesson mastery is only recorded from the Lesson tab.
+              </p>
+            )}
           </div>
         )}
       </CardContent>
@@ -732,18 +753,22 @@ function WritingPanel({
                 </div>
               </div>
             </div>
-            <div className="mt-6">
-              <p className="text-sm font-bold text-ink/60">Visual stroke sequence</p>
-              <div className="mt-3 grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
+            <div className="mt-6 rounded-lg bg-skyglass p-5">
+              <p className="text-sm font-bold text-ink/60">Beginner writing path</p>
+              <h4 className="mt-1 text-xl font-black text-ink">Write one stroke at a time</h4>
+              <p className="mt-2 max-w-3xl text-sm font-semibold text-ink/65">
+                These cards show the ordered stroke names for this character. For the exact animated hand path, open the stroke-order reference above; exact animation requires real vector stroke data, which we should add as the next writing-data layer.
+              </p>
+              <div className="mt-4 grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
                 {active.strokes.map((stroke, index) => (
                   <div className="rounded-lg bg-black/[0.035] p-3" key={`${stroke}-visual-${index}`}>
                     <div className="relative grid aspect-square place-items-center rounded-lg bg-white ring-1 ring-black/10">
-                      <span className="han text-6xl font-black text-ink/15">{active.char}</span>
+                      <span className="han text-6xl font-black text-ink/10">{active.char}</span>
                       <span className="absolute left-2 top-2 rounded-full bg-jade-600 px-2 py-1 text-xs font-black text-white">
                         {index + 1}
                       </span>
-                      <span className="absolute bottom-2 right-2 text-2xl font-black text-persimmon-600">
-                        {strokeDirectionSymbol(stroke)}
+                      <span className="absolute bottom-2 left-2 right-2 rounded bg-paper px-2 py-1 text-center text-sm font-black text-ink">
+                        Add stroke {index + 1}
                       </span>
                     </div>
                     <p className="mt-2 text-sm font-bold text-ink">{stroke}</p>
@@ -940,16 +965,6 @@ function getPronunciationWordInfo(word: string, vocab: VocabularyItem[]) {
   return info ? { ...info, inVocabulary: false } : null;
 }
 
-function strokeDirectionSymbol(stroke: string) {
-  if (stroke.includes("撇")) return "↙";
-  if (stroke.includes("捺") || stroke.includes("点")) return "↘";
-  if (stroke.includes("竖")) return "↓";
-  if (stroke.includes("提")) return "↗";
-  if (stroke.includes("横")) return "→";
-  if (stroke.includes("钩")) return "⌞";
-  return "→";
-}
-
 function InfoTile({ label, value }: { label: string; value: string }) {
   return (
     <div className="rounded-lg bg-black/[0.035] p-3">
@@ -957,6 +972,40 @@ function InfoTile({ label, value }: { label: string; value: string }) {
       <p className="mt-1 break-words font-bold text-ink">{value}</p>
     </div>
   );
+}
+
+function getLessonFeedback({
+  hasFullSequence,
+  hasMcqAnswer,
+  isMcqCorrect,
+  isReorderCorrect
+}: {
+  hasFullSequence: boolean;
+  hasMcqAnswer: boolean;
+  isMcqCorrect: boolean;
+  isReorderCorrect: boolean;
+}) {
+  if (!hasMcqAnswer && isReorderCorrect) {
+    return "Sentence order is correct. Choose the word meaning above to complete the lesson.";
+  }
+
+  if (!hasMcqAnswer) {
+    return "Choose the word meaning above, then check again.";
+  }
+
+  if (!isMcqCorrect && isReorderCorrect) {
+    return "Sentence order is correct. The word meaning choice needs another look.";
+  }
+
+  if (!hasFullSequence) {
+    return "Finish building the sentence before checking.";
+  }
+
+  if (!isReorderCorrect) {
+    return "The sentence order needs another look.";
+  }
+
+  return "One answer needs another look.";
 }
 
 function MetricSlider({
