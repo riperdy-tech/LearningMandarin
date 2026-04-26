@@ -1,0 +1,46 @@
+[
+  {
+    "id": "PR_M1_001",
+    "type": "tone_pair",
+    "pair": [
+      "ni3",
+      "ni2"
+    ],
+    "description": "3rd vs 2nd tone confusion",
+    "test_words": [
+      "你",
+      "泥"
+    ],
+    "audio_ids": [
+      "AUD_PR_M1_W1_001",
+      "AUD_PR_M1_W1_002"
+    ],
+    "scoring": {
+      "tone_weight": 0.6,
+      "phoneme_weight": 0.4,
+      "pass_threshold": 0.75
+    }
+  },
+  {
+    "id": "PR_M1_002",
+    "type": "initial_contrast",
+    "pair": [
+      "zh",
+      "z"
+    ],
+    "description": "retroflex vs alveolar",
+    "test_words": [
+      "知",
+      "资"
+    ],
+    "audio_ids": [
+      "AUD_PR_M1_W1_003",
+      "AUD_PR_M1_W1_004"
+    ],
+    "scoring": {
+      "tone_weight": 0.3,
+      "phoneme_weight": 0.7,
+      "pass_threshold": 0.75
+    }
+  }
+]

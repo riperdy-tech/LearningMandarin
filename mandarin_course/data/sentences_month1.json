@@ -1,0 +1,74 @@
+[
+  {
+    "id": "SEN_M1_W1_001",
+    "text": "你好，我叫王明。",
+    "pinyin": "nǐ hǎo, wǒ jiào wáng míng.",
+    "pinyin_numeric": "ni3 hao3 wo3 jiao4 wang2 ming2",
+    "translation_en": "Hello, my name is Wang Ming.",
+    "translation_ko": "안녕하세요 저는 왕밍입니다.",
+    "tokens": [
+      "你好",
+      "我",
+      "叫",
+      "王明"
+    ],
+    "grammar_ids": [
+      "GR_M1_001"
+    ],
+    "audio_id": "AUD_SEN_M1_W1_001",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_W1_002",
+    "text": "我是學生。",
+    "pinyin": "wǒ shì xuéshēng.",
+    "pinyin_numeric": "wo3 shi4 xue2 sheng1",
+    "translation_en": "I am a student.",
+    "translation_ko": "나는 학생이다.",
+    "tokens": [
+      "我",
+      "是",
+      "學生"
+    ],
+    "grammar_ids": [
+      "GR_M1_002"
+    ],
+    "audio_id": "AUD_SEN_M1_W1_002",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_W1_003",
+    "text": "你是老師嗎？",
+    "pinyin": "nǐ shì lǎoshī ma?",
+    "pinyin_numeric": "ni3 shi4 lao3 shi1 ma0",
+    "translation_en": "Are you a teacher?",
+    "translation_ko": "당신은 선생님입니까?",
+    "tokens": [
+      "你",
+      "是",
+      "老師",
+      "嗎"
+    ],
+    "grammar_ids": [
+      "GR_M1_003"
+    ],
+    "audio_id": "AUD_SEN_M1_W1_003",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_W1_005",
+    "text": "我很好。",
+    "pinyin": "wǒ hěn hǎo.",
+    "pinyin_numeric": "wo3 hen3 hao3",
+    "translation_en": "I am fine.",
+    "translation_ko": "나는 잘 지냅니다.",
+    "tokens": [
+      "我",
+      "很",
+      "好"
+    ],
+    "grammar_ids": [],
+    "audio_id": "AUD_SEN_M1_W1_005",
+    "difficulty": 1
+  }
+]

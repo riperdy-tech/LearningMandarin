@@ -1,0 +1,60 @@
+{
+  "version": "month1_v1",
+  "pronunciation": {
+    "formula": {
+      "score": "0.5 * phoneme_accuracy + 0.3 * tone_accuracy + 0.1 * fluency + 0.1 * completeness",
+      "weights": {
+        "phoneme_accuracy": 0.5,
+        "tone_accuracy": 0.3,
+        "fluency": 0.1,
+        "completeness": 0.1
+      }
+    },
+    "phoneme_matching_rules": {
+      "ni3": [
+        "ni3",
+        "ni2"
+      ],
+      "hao3": [
+        "hao3",
+        "hao2"
+      ]
+    },
+    "error_classification": {
+      "tone_error": "tone mismatch",
+      "phoneme_error": "initial/final mismatch",
+      "missing_syllable": "incomplete speech",
+      "extra_syllable": "over-speaking"
+    },
+    "pass_threshold_default": 0.75
+  },
+  "lesson_mastery": {
+    "default_threshold": 0.85,
+    "minimum_attempts": 1,
+    "xp_award_requires_mastery": true
+  },
+  "exercise_scoring": {
+    "listen": {
+      "correct": 1,
+      "incorrect": 0
+    },
+    "repeat": {
+      "uses_pronunciation_engine": true
+    },
+    "mcq": {
+      "correct": 1,
+      "incorrect": 0
+    },
+    "reorder": {
+      "all_tokens_correct": 1,
+      "partial_credit": true
+    },
+    "speaking": {
+      "uses_pronunciation_engine": true
+    },
+    "writing": {
+      "stroke_order_weight": 0.6,
+      "stroke_shape_weight": 0.4
+    }
+  }
+}

@@ -1,0 +1,102 @@
+[
+  {
+    "id": "LESSON_M1_W1_L1",
+    "week": 1,
+    "order": 1,
+    "title": "Greetings & Introduction",
+    "xp": 100,
+    "skills": [
+      "greeting",
+      "self_intro"
+    ],
+    "vocab_ids": [
+      "VOC_M1_W1_001",
+      "VOC_M1_W1_002",
+      "VOC_M1_W1_004"
+    ],
+    "sentence_ids": [
+      "SEN_M1_W1_001"
+    ],
+    "grammar_ids": [
+      "GR_M1_001"
+    ],
+    "pronunciation_ids": [
+      "PR_M1_001"
+    ],
+    "exercise_flow": [
+      "listen",
+      "repeat",
+      "mcq",
+      "reorder",
+      "speaking"
+    ],
+    "mastery_threshold": 0.85
+  },
+  {
+    "id": "LESSON_M1_W1_L2",
+    "week": 1,
+    "order": 2,
+    "title": "Identity Statements",
+    "xp": 100,
+    "skills": [
+      "identity",
+      "profession"
+    ],
+    "vocab_ids": [
+      "VOC_M1_W1_002",
+      "VOC_M1_W1_005"
+    ],
+    "sentence_ids": [
+      "SEN_M1_W1_002"
+    ],
+    "grammar_ids": [
+      "GR_M1_002"
+    ],
+    "pronunciation_ids": [
+      "PR_M1_002"
+    ],
+    "exercise_flow": [
+      "listen",
+      "repeat",
+      "mcq",
+      "reorder",
+      "speaking"
+    ],
+    "mastery_threshold": 0.85
+  },
+  {
+    "id": "LESSON_M1_W1_L3",
+    "week": 1,
+    "order": 3,
+    "title": "Yes/No Questions",
+    "xp": 100,
+    "skills": [
+      "questions",
+      "teacher_student"
+    ],
+    "vocab_ids": [
+      "VOC_M1_W1_003",
+      "VOC_M1_W1_005",
+      "VOC_M1_W1_006",
+      "VOC_M1_W1_007"
+    ],
+    "sentence_ids": [
+      "SEN_M1_W1_003"
+    ],
+    "grammar_ids": [
+      "GR_M1_003"
+    ],
+    "pronunciation_ids": [
+      "PR_M1_001",
+      "PR_M1_002"
+    ],
+    "exercise_flow": [
+      "listen",
+      "repeat",
+      "mcq",
+      "reorder",
+      "speaking"
+    ],
+    "mastery_threshold": 0.85
+  }
+]

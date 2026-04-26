@@ -1,0 +1,50 @@
+{
+  "version": "month1_v1",
+  "input": {
+    "expected": "pinyin_numeric syllable sequence",
+    "recognized": "speech-to-pinyin_numeric syllable sequence",
+    "metrics": [
+      "phoneme_accuracy",
+      "tone_accuracy",
+      "fluency",
+      "completeness"
+    ]
+  },
+  "phoneme_matching_rules": {
+    "ni3": [
+      "ni3",
+      "ni2"
+    ],
+    "hao3": [
+      "hao3",
+      "hao2"
+    ]
+  },
+  "error_classification": {
+    "tone_error": "tone mismatch",
+    "phoneme_error": "initial/final mismatch",
+    "missing_syllable": "incomplete speech",
+    "extra_syllable": "over-speaking"
+  },
+  "scoring_formula": {
+    "score": "0.5 * phoneme_accuracy + 0.3 * tone_accuracy + 0.1 * fluency + 0.1 * completeness",
+    "weights": {
+      "phoneme_accuracy": 0.5,
+      "tone_accuracy": 0.3,
+      "fluency": 0.1,
+      "completeness": 0.1
+    }
+  },
+  "classification_order": [
+    "missing_syllable",
+    "extra_syllable",
+    "phoneme_error",
+    "tone_error"
+  ],
+  "feedback_rules": {
+    "tone_error": "Listen again and match the pitch contour.",
+    "phoneme_error": "Focus on the initial and final sounds.",
+    "missing_syllable": "Say every syllable in the prompt.",
+    "extra_syllable": "Keep the response to the target prompt only."
+  }
+}

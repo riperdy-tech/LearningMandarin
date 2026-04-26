@@ -1,0 +1,114 @@
+[
+  {
+    "char": "你",
+    "strokes": [
+      "撇",
+      "竖",
+      "撇",
+      "横撇",
+      "竖钩",
+      "撇",
+      "点"
+    ],
+    "stroke_count": 7,
+    "radical": "亻",
+    "difficulty": 1
+  },
+  {
+    "char": "好",
+    "strokes": [
+      "撇点",
+      "撇",
+      "横",
+      "横撇",
+      "竖钩",
+      "横"
+    ],
+    "stroke_count": 6,
+    "radical": "女",
+    "difficulty": 1
+  },
+  {
+    "char": "我",
+    "strokes": [
+      "撇",
+      "横",
+      "竖钩",
+      "提",
+      "斜钩",
+      "撇",
+      "点"
+    ],
+    "stroke_count": 7,
+    "radical": "戈",
+    "difficulty": 1
+  },
+  {
+    "char": "叫",
+    "strokes": [
+      "竖",
+      "横折",
+      "横",
+      "竖提",
+      "竖"
+    ],
+    "stroke_count": 5,
+    "radical": "口",
+    "difficulty": 1
+  },
+  {
+    "char": "是",
+    "strokes": [
+      "竖",
+      "横折",
+      "横",
+      "横",
+      "横",
+      "竖",
+      "横",
+      "撇",
+      "捺"
+    ],
+    "stroke_count": 9,
+    "radical": "日",
+    "difficulty": 1
+  },
+  {
+    "char": "嗎",
+    "strokes": [
+      "竖",
+      "横折",
+      "横",
+      "横",
+      "竖",
+      "横",
+      "横",
+      "竖",
+      "横折钩",
+      "点",
+      "点",
+      "点",
+      "点"
+    ],
+    "stroke_count": 13,
+    "radical": "口",
+    "difficulty": 2
+  },
+  {
+    "char": "很",
+    "strokes": [
+      "撇",
+      "撇",
+      "竖",
+      "横折",
+      "横",
+      "横",
+      "竖提",
+      "撇",
+      "捺"
+    ],
+    "stroke_count": 9,
+    "radical": "彳",
+    "difficulty": 2
+  }
+]

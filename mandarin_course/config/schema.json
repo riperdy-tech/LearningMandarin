@@ -1,0 +1,470 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Mandarin Course Month 1 Schema",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "vocabulary": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/vocabulary_item"
+      }
+    },
+    "sentences": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/sentence_item"
+      }
+    },
+    "grammar": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/grammar_item"
+      }
+    },
+    "pronunciation": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/pronunciation_item"
+      }
+    },
+    "writing": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/writing_item"
+      }
+    },
+    "lessons": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/lesson_item"
+      }
+    },
+    "audio_manifest": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/audio_item"
+      }
+    }
+  },
+  "$defs": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "vocabulary_item": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "char",
+        "pinyin",
+        "pinyin_numeric",
+        "phonemes",
+        "pos",
+        "meaning_en",
+        "meaning_ko",
+        "frequency",
+        "cefr",
+        "hsk_level",
+        "example_ids",
+        "audio_id"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "char": {
+          "type": "string"
+        },
+        "pinyin": {
+          "type": "string"
+        },
+        "pinyin_numeric": {
+          "type": "string"
+        },
+        "phonemes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "pos": {
+          "type": "string"
+        },
+        "meaning_en": {
+          "type": "string"
+        },
+        "meaning_ko": {
+          "type": "string"
+        },
+        "frequency": {
+          "enum": [
+            "high",
+            "medium",
+            "low"
+          ]
+        },
+        "cefr": {
+          "type": "string"
+        },
+        "hsk_level": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "example_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "audio_id": {
+          "$ref": "#/$defs/id"
+        }
+      }
+    },
+    "sentence_item": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "text",
+        "pinyin",
+        "pinyin_numeric",
+        "translation_en",
+        "translation_ko",
+        "tokens",
+        "grammar_ids",
+        "audio_id",
+        "difficulty"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "text": {
+          "type": "string"
+        },
+        "pinyin": {
+          "type": "string"
+        },
+        "pinyin_numeric": {
+          "type": "string"
+        },
+        "translation_en": {
+          "type": "string"
+        },
+        "translation_ko": {
+          "type": "string"
+        },
+        "tokens": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "grammar_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "audio_id": {
+          "$ref": "#/$defs/id"
+        },
+        "difficulty": {
+          "type": "integer",
+          "minimum": 1
+        }
+      }
+    },
+    "grammar_item": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "pattern",
+        "structure",
+        "explanation_en",
+        "example_ids",
+        "negative_examples"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "pattern": {
+          "type": "string"
+        },
+        "structure": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "explanation_en": {
+          "type": "string"
+        },
+        "example_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "negative_examples": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "text",
+              "error"
+            ],
+            "properties": {
+              "text": {
+                "type": "string"
+              },
+              "error": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "pronunciation_item": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "type",
+        "pair",
+        "description",
+        "test_words",
+        "audio_ids",
+        "scoring"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "type": {
+          "type": "string"
+        },
+        "pair": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 2
+        },
+        "description": {
+          "type": "string"
+        },
+        "test_words": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "audio_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "scoring": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "tone_weight",
+            "phoneme_weight",
+            "pass_threshold"
+          ],
+          "properties": {
+            "tone_weight": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "phoneme_weight": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "pass_threshold": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            }
+          }
+        }
+      }
+    },
+    "writing_item": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "char",
+        "strokes",
+        "stroke_count",
+        "radical",
+        "difficulty"
+      ],
+      "properties": {
+        "char": {
+          "type": "string",
+          "minLength": 1
+        },
+        "strokes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "stroke_count": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "radical": {
+          "type": "string"
+        },
+        "difficulty": {
+          "type": "integer",
+          "minimum": 1
+        }
+      }
+    },
+    "lesson_item": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "week",
+        "order",
+        "title",
+        "xp",
+        "skills",
+        "vocab_ids",
+        "sentence_ids",
+        "grammar_ids",
+        "pronunciation_ids",
+        "exercise_flow",
+        "mastery_threshold"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "week": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "order": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "title": {
+          "type": "string"
+        },
+        "xp": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "skills": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "vocab_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "sentence_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "grammar_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "pronunciation_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "exercise_flow": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "listen",
+              "repeat",
+              "mcq",
+              "reorder",
+              "speaking",
+              "writing"
+            ]
+          }
+        },
+        "mastery_threshold": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        }
+      }
+    },
+    "audio_item": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "kind",
+        "ref_id",
+        "text",
+        "pinyin_numeric",
+        "path",
+        "status"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "kind": {
+          "enum": [
+            "vocab",
+            "sentence",
+            "pronunciation"
+          ]
+        },
+        "ref_id": {
+          "$ref": "#/$defs/id"
+        },
+        "text": {
+          "type": "string"
+        },
+        "pinyin_numeric": {
+          "type": "string"
+        },
+        "path": {
+          "type": "string"
+        },
+        "status": {
+          "enum": [
+            "placeholder",
+            "recorded",
+            "generated",
+            "missing"
+          ]
+        }
+      }
+    }
+  }
+}

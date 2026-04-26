@@ -1,0 +1,137 @@
+[
+  {
+    "id": "AUD_VOC_M1_W1_001",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_W1_001",
+    "text": "你好",
+    "pinyin_numeric": "ni3 hao3",
+    "path": "audio/month1/week1/vocab/AUD_VOC_M1_W1_001.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_W1_002",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_W1_002",
+    "text": "我",
+    "pinyin_numeric": "wo3",
+    "path": "audio/month1/week1/vocab/AUD_VOC_M1_W1_002.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_W1_003",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_W1_003",
+    "text": "你",
+    "pinyin_numeric": "ni3",
+    "path": "audio/month1/week1/vocab/AUD_VOC_M1_W1_003.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_W1_004",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_W1_004",
+    "text": "叫",
+    "pinyin_numeric": "jiao4",
+    "path": "audio/month1/week1/vocab/AUD_VOC_M1_W1_004.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_W1_005",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_W1_005",
+    "text": "是",
+    "pinyin_numeric": "shi4",
+    "path": "audio/month1/week1/vocab/AUD_VOC_M1_W1_005.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_W1_006",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_W1_006",
+    "text": "嗎",
+    "pinyin_numeric": "ma0",
+    "path": "audio/month1/week1/vocab/AUD_VOC_M1_W1_006.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_W1_007",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_W1_007",
+    "text": "很",
+    "pinyin_numeric": "hen3",
+    "path": "audio/month1/week1/vocab/AUD_VOC_M1_W1_007.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_W1_001",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_W1_001",
+    "text": "你好，我叫王明。",
+    "pinyin_numeric": "ni3 hao3 wo3 jiao4 wang2 ming2",
+    "path": "audio/month1/week1/sentences/AUD_SEN_M1_W1_001.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_W1_002",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_W1_002",
+    "text": "我是學生。",
+    "pinyin_numeric": "wo3 shi4 xue2 sheng1",
+    "path": "audio/month1/week1/sentences/AUD_SEN_M1_W1_002.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_W1_003",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_W1_003",
+    "text": "你是老師嗎？",
+    "pinyin_numeric": "ni3 shi4 lao3 shi1 ma0",
+    "path": "audio/month1/week1/sentences/AUD_SEN_M1_W1_003.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_W1_005",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_W1_005",
+    "text": "我很好。",
+    "pinyin_numeric": "wo3 hen3 hao3",
+    "path": "audio/month1/week1/sentences/AUD_SEN_M1_W1_005.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_PR_M1_W1_001",
+    "kind": "pronunciation",
+    "ref_id": "PR_M1_001",
+    "text": "你",
+    "pinyin_numeric": "ni3",
+    "path": "audio/month1/week1/pronunciation/AUD_PR_M1_W1_001.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_PR_M1_W1_002",
+    "kind": "pronunciation",
+    "ref_id": "PR_M1_001",
+    "text": "泥",
+    "pinyin_numeric": "ni2",
+    "path": "audio/month1/week1/pronunciation/AUD_PR_M1_W1_002.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_PR_M1_W1_003",
+    "kind": "pronunciation",
+    "ref_id": "PR_M1_002",
+    "text": "知",
+    "pinyin_numeric": "zhi1",
+    "path": "audio/month1/week1/pronunciation/AUD_PR_M1_W1_003.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_PR_M1_W1_004",
+    "kind": "pronunciation",
+    "ref_id": "PR_M1_002",
+    "text": "资",
+    "pinyin_numeric": "zi1",
+    "path": "audio/month1/week1/pronunciation/AUD_PR_M1_W1_004.mp3",
+    "status": "placeholder"
+  }
+]

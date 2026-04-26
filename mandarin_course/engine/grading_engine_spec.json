@@ -1,0 +1,50 @@
+{
+  "version": "month1_v1",
+  "mastery_threshold": 0.85,
+  "exercise_types": {
+    "listen": {
+      "input": "audio_id",
+      "answer": "selected_vocab_or_sentence_id",
+      "grading": "exact_match"
+    },
+    "repeat": {
+      "input": "audio_id",
+      "answer": "spoken_response",
+      "grading": "pronunciation_engine"
+    },
+    "mcq": {
+      "input": "prompt_id",
+      "answer": "selected_option_id",
+      "grading": "exact_match"
+    },
+    "reorder": {
+      "input": "sentence_id",
+      "answer": "ordered_tokens",
+      "grading": "token_order_match"
+    },
+    "speaking": {
+      "input": "sentence_id",
+      "answer": "spoken_response",
+      "grading": "pronunciation_engine"
+    },
+    "writing": {
+      "input": "char",
+      "answer": "stroke_sequence",
+      "grading": "stroke_order_match"
+    }
+  },
+  "score_aggregation": {
+    "lesson_score": "average exercise score",
+    "mastered": "lesson_score >= mastery_threshold",
+    "xp_awarded": "full xp when mastered, otherwise 0"
+  },
+  "reorder_partial_credit": {
+    "enabled": true,
+    "formula": "correct_token_positions / total_tokens"
+  },
+  "writing_partial_credit": {
+    "stroke_order_weight": 0.6,
+    "stroke_count_weight": 0.2,
+    "radical_recognition_weight": 0.2
+  }
+}

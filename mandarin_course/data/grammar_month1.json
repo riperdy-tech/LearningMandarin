@@ -1,0 +1,58 @@
+[
+  {
+    "id": "GR_M1_001",
+    "pattern": "我 + 叫 + NAME",
+    "structure": [
+      "subject",
+      "verb",
+      "object"
+    ],
+    "explanation_en": "Used for introducing one's name",
+    "example_ids": [
+      "SEN_M1_W1_001"
+    ],
+    "negative_examples": [
+      {
+        "text": "我名字叫王明",
+        "error": "Incorrect structure for the target pattern"
+      }
+    ]
+  },
+  {
+    "id": "GR_M1_002",
+    "pattern": "我 + 是 + NOUN",
+    "structure": [
+      "subject",
+      "linking verb",
+      "noun"
+    ],
+    "explanation_en": "Basic identity statement",
+    "example_ids": [
+      "SEN_M1_W1_002"
+    ],
+    "negative_examples": [
+      {
+        "text": "我是很學生",
+        "error": "很 is not used before this noun in a basic identity statement"
+      }
+    ]
+  },
+  {
+    "id": "GR_M1_003",
+    "pattern": "statement + 嗎",
+    "structure": [
+      "statement",
+      "particle"
+    ],
+    "explanation_en": "Turns statement into yes/no question",
+    "example_ids": [
+      "SEN_M1_W1_003"
+    ],
+    "negative_examples": [
+      {
+        "text": "嗎你是老師",
+        "error": "嗎 belongs at the end of a yes/no question"
+      }
+    ]
+  }
+]

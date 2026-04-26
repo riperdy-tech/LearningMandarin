@@ -1,0 +1,48 @@
+{
+  "app": {
+    "name": "Mandarin Course",
+    "month_label": "Month 1",
+    "week_label": "Week 1"
+  },
+  "navigation": {
+    "lessons": "Lessons",
+    "vocabulary": "Vocabulary",
+    "sentences": "Sentences",
+    "grammar": "Grammar",
+    "pronunciation": "Pronunciation",
+    "writing": "Writing",
+    "review": "Review"
+  },
+  "lesson": {
+    "start": "Start",
+    "continue": "Continue",
+    "complete": "Complete",
+    "xp": "XP",
+    "mastery": "Mastery"
+  },
+  "exercise": {
+    "listen": "Listen",
+    "repeat": "Repeat",
+    "mcq": "Choose",
+    "reorder": "Reorder",
+    "speaking": "Speak",
+    "writing": "Write",
+    "check": "Check",
+    "next": "Next",
+    "try_again": "Try again"
+  },
+  "feedback": {
+    "correct": "Correct",
+    "incorrect": "Not yet",
+    "mastered": "Mastered",
+    "needs_review": "Needs review",
+    "pronunciation_pass": "Pronunciation passed",
+    "pronunciation_retry": "Practice the sound and try again"
+  },
+  "languages": {
+    "english": "English",
+    "korean": "Korean",
+    "pinyin": "Pinyin",
+    "characters": "Characters"
+  }
+}

@@ -1,0 +1,136 @@
+[
+  {
+    "id": "VOC_M1_W1_001",
+    "char": "你好",
+    "pinyin": "nǐ hǎo",
+    "pinyin_numeric": "ni3 hao3",
+    "phonemes": [
+      "ni3",
+      "hao3"
+    ],
+    "pos": "interjection",
+    "meaning_en": "hello",
+    "meaning_ko": "안녕하세요",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_W1_001"
+    ],
+    "audio_id": "AUD_VOC_M1_W1_001"
+  },
+  {
+    "id": "VOC_M1_W1_002",
+    "char": "我",
+    "pinyin": "wǒ",
+    "pinyin_numeric": "wo3",
+    "phonemes": [
+      "wo3"
+    ],
+    "pos": "pronoun",
+    "meaning_en": "I",
+    "meaning_ko": "나",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_W1_002"
+    ],
+    "audio_id": "AUD_VOC_M1_W1_002"
+  },
+  {
+    "id": "VOC_M1_W1_003",
+    "char": "你",
+    "pinyin": "nǐ",
+    "pinyin_numeric": "ni3",
+    "phonemes": [
+      "ni3"
+    ],
+    "pos": "pronoun",
+    "meaning_en": "you",
+    "meaning_ko": "너",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_W1_003"
+    ],
+    "audio_id": "AUD_VOC_M1_W1_003"
+  },
+  {
+    "id": "VOC_M1_W1_004",
+    "char": "叫",
+    "pinyin": "jiào",
+    "pinyin_numeric": "jiao4",
+    "phonemes": [
+      "jiao4"
+    ],
+    "pos": "verb",
+    "meaning_en": "to be called",
+    "meaning_ko": "~라고 부르다",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_W1_001"
+    ],
+    "audio_id": "AUD_VOC_M1_W1_004"
+  },
+  {
+    "id": "VOC_M1_W1_005",
+    "char": "是",
+    "pinyin": "shì",
+    "pinyin_numeric": "shi4",
+    "phonemes": [
+      "shi4"
+    ],
+    "pos": "verb",
+    "meaning_en": "to be",
+    "meaning_ko": "이다",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_W1_002"
+    ],
+    "audio_id": "AUD_VOC_M1_W1_005"
+  },
+  {
+    "id": "VOC_M1_W1_006",
+    "char": "嗎",
+    "pinyin": "ma",
+    "pinyin_numeric": "ma0",
+    "phonemes": [
+      "ma0"
+    ],
+    "pos": "particle",
+    "meaning_en": "question particle",
+    "meaning_ko": "~냐?",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_W1_003"
+    ],
+    "audio_id": "AUD_VOC_M1_W1_006"
+  },
+  {
+    "id": "VOC_M1_W1_007",
+    "char": "很",
+    "pinyin": "hěn",
+    "pinyin_numeric": "hen3",
+    "phonemes": [
+      "hen3"
+    ],
+    "pos": "adverb",
+    "meaning_en": "very",
+    "meaning_ko": "매우",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_W1_005"
+    ],
+    "audio_id": "AUD_VOC_M1_W1_007"
+  }
+]
