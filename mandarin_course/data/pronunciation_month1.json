@@ -1,19 +1,19 @@
 [
   {
-    "id": "PR_M1_001",
-    "type": "tone_pair",
+    "id": "PR_M1_D01",
+    "type": "shadowing_focus",
     "pair": [
       "ni3",
-      "ni2"
+      "hao3"
     ],
-    "description": "3rd vs 2nd tone confusion",
+    "description": "Shadow Day 1 sentences as complete phrases, not isolated word pieces.",
     "test_words": [
       "你",
-      "泥"
+      "我"
     ],
     "audio_ids": [
-      "AUD_PR_M1_W1_001",
-      "AUD_PR_M1_W1_002"
+      "AUD_PR_M1_D01_01",
+      "AUD_PR_M1_D01_02"
     ],
     "scoring": {
       "tone_weight": 0.6,
@@ -22,24 +22,640 @@
     }
   },
   {
-    "id": "PR_M1_002",
-    "type": "initial_contrast",
+    "id": "PR_M1_D02",
+    "type": "shadowing_focus",
     "pair": [
-      "zh",
-      "z"
+      "ni3",
+      "shi4"
     ],
-    "description": "retroflex vs alveolar",
+    "description": "Shadow Day 2 sentences as complete phrases, not isolated word pieces.",
     "test_words": [
-      "知",
-      "资"
+      "你",
+      "他"
     ],
     "audio_ids": [
-      "AUD_PR_M1_W1_003",
-      "AUD_PR_M1_W1_004"
+      "AUD_PR_M1_D02_01",
+      "AUD_PR_M1_D02_02"
     ],
     "scoring": {
-      "tone_weight": 0.3,
-      "phoneme_weight": 0.7,
+      "tone_weight": 0.6,
+      "phoneme_weight": 0.4,
+      "pass_threshold": 0.75
+    }
+  },
+  {
+    "id": "PR_M1_D03",
+    "type": "shadowing_focus",
+    "pair": [
+      "wo3",
+      "you3"
+    ],
+    "description": "Shadow Day 3 sentences as complete phrases, not isolated word pieces.",
+    "test_words": [
+      "我",
+      "這"
+    ],
+    "audio_ids": [
+      "AUD_PR_M1_D03_01",
+      "AUD_PR_M1_D03_02"
+    ],
+    "scoring": {
+      "tone_weight": 0.6,
+      "phoneme_weight": 0.4,
+      "pass_threshold": 0.75
+    }
+  },
+  {
+    "id": "PR_M1_D04",
+    "type": "shadowing_focus",
+    "pair": [
+      "jintian1",
+      "wo3"
+    ],
+    "description": "Shadow Day 4 sentences as complete phrases, not isolated word pieces.",
+    "test_words": [
+      "今",
+      "明"
+    ],
+    "audio_ids": [
+      "AUD_PR_M1_D04_01",
+      "AUD_PR_M1_D04_02"
+    ],
+    "scoring": {
+      "tone_weight": 0.6,
+      "phoneme_weight": 0.4,
+      "pass_threshold": 0.75
+    }
+  },
+  {
+    "id": "PR_M1_D05",
+    "type": "shadowing_focus",
+    "pair": [
+      "wo3",
+      "jia1"
+    ],
+    "description": "Shadow Day 5 sentences as complete phrases, not isolated word pieces.",
+    "test_words": [
+      "我",
+      "他"
+    ],
+    "audio_ids": [
+      "AUD_PR_M1_D05_01",
+      "AUD_PR_M1_D05_02"
+    ],
+    "scoring": {
+      "tone_weight": 0.6,
+      "phoneme_weight": 0.4,
+      "pass_threshold": 0.75
+    }
+  },
+  {
+    "id": "PR_M1_D06",
+    "type": "shadowing_focus",
+    "pair": [
+      "wo3",
+      "xiang3"
+    ],
+    "description": "Shadow Day 6 sentences as complete phrases, not isolated word pieces.",
+    "test_words": [
+      "我",
+      "他"
+    ],
+    "audio_ids": [
+      "AUD_PR_M1_D06_01",
+      "AUD_PR_M1_D06_02"
+    ],
+    "scoring": {
+      "tone_weight": 0.6,
+      "phoneme_weight": 0.4,
+      "pass_threshold": 0.75
+    }
+  },
+  {
+    "id": "PR_M1_D07",
+    "type": "shadowing_focus",
+    "pair": [
+      "ni3",
+      "hao3"
+    ],
+    "description": "Shadow Day 7 sentences as complete phrases, not isolated word pieces.",
+    "test_words": [
+      "你",
+      "我"
+    ],
+    "audio_ids": [
+      "AUD_PR_M1_D07_01",
+      "AUD_PR_M1_D07_02"
+    ],
+    "scoring": {
+      "tone_weight": 0.6,
+      "phoneme_weight": 0.4,
+      "pass_threshold": 0.75
+    }
+  },
+  {
+    "id": "PR_M1_D08",
+    "type": "shadowing_focus",
+    "pair": [
+      "wo3",
+      "yao4"
+    ],
+    "description": "Shadow Day 8 sentences as complete phrases, not isolated word pieces.",
+    "test_words": [
+      "我",
+      "你"
+    ],
+    "audio_ids": [
+      "AUD_PR_M1_D08_01",
+      "AUD_PR_M1_D08_02"
+    ],
+    "scoring": {
+      "tone_weight": 0.6,
+      "phoneme_weight": 0.4,
+      "pass_threshold": 0.75
+    }
+  },
+  {
+    "id": "PR_M1_D09",
+    "type": "shadowing_focus",
+    "pair": [
+      "wo3",
+      "xiang3"
+    ],
+    "description": "Shadow Day 9 sentences as complete phrases, not isolated word pieces.",
+    "test_words": [
+      "我",
+      "他"
+    ],
+    "audio_ids": [
+      "AUD_PR_M1_D09_01",
+      "AUD_PR_M1_D09_02"
+    ],
+    "scoring": {
+      "tone_weight": 0.6,
+      "phoneme_weight": 0.4,
+      "pass_threshold": 0.75
+    }
+  },
+  {
+    "id": "PR_M1_D10",
+    "type": "shadowing_focus",
+    "pair": [
+      "ni3",
+      "zuo4"
+    ],
+    "description": "Shadow Day 10 sentences as complete phrases, not isolated word pieces.",
+    "test_words": [
+      "你",
+      "他"
+    ],
+    "audio_ids": [
+      "AUD_PR_M1_D10_01",
+      "AUD_PR_M1_D10_02"
+    ],
+    "scoring": {
+      "tone_weight": 0.6,
+      "phoneme_weight": 0.4,
+      "pass_threshold": 0.75
+    }
+  },
+  {
+    "id": "PR_M1_D11",
+    "type": "shadowing_focus",
+    "pair": [
+      "wo3",
+      "bu4"
+    ],
+    "description": "Shadow Day 11 sentences as complete phrases, not isolated word pieces.",
+    "test_words": [
+      "我",
+      "他"
+    ],
+    "audio_ids": [
+      "AUD_PR_M1_D11_01",
+      "AUD_PR_M1_D11_02"
+    ],
+    "scoring": {
+      "tone_weight": 0.6,
+      "phoneme_weight": 0.4,
+      "pass_threshold": 0.75
+    }
+  },
+  {
+    "id": "PR_M1_D12",
+    "type": "shadowing_focus",
+    "pair": [
+      "jintian1",
+      "hen3"
+    ],
+    "description": "Shadow Day 12 sentences as complete phrases, not isolated word pieces.",
+    "test_words": [
+      "今",
+      "他"
+    ],
+    "audio_ids": [
+      "AUD_PR_M1_D12_01",
+      "AUD_PR_M1_D12_02"
+    ],
+    "scoring": {
+      "tone_weight": 0.6,
+      "phoneme_weight": 0.4,
+      "pass_threshold": 0.75
+    }
+  },
+  {
+    "id": "PR_M1_D13",
+    "type": "shadowing_focus",
+    "pair": [
+      "wo3",
+      "you3"
+    ],
+    "description": "Shadow Day 13 sentences as complete phrases, not isolated word pieces.",
+    "test_words": [
+      "我",
+      "他"
+    ],
+    "audio_ids": [
+      "AUD_PR_M1_D13_01",
+      "AUD_PR_M1_D13_02"
+    ],
+    "scoring": {
+      "tone_weight": 0.6,
+      "phoneme_weight": 0.4,
+      "pass_threshold": 0.75
+    }
+  },
+  {
+    "id": "PR_M1_D14",
+    "type": "shadowing_focus",
+    "pair": [
+      "ni3",
+      "xiang3"
+    ],
+    "description": "Shadow Day 14 sentences as complete phrases, not isolated word pieces.",
+    "test_words": [
+      "你",
+      "我"
+    ],
+    "audio_ids": [
+      "AUD_PR_M1_D14_01",
+      "AUD_PR_M1_D14_02"
+    ],
+    "scoring": {
+      "tone_weight": 0.6,
+      "phoneme_weight": 0.4,
+      "pass_threshold": 0.75
+    }
+  },
+  {
+    "id": "PR_M1_D15",
+    "type": "shadowing_focus",
+    "pair": [
+      "xianzai4",
+      "ji3"
+    ],
+    "description": "Shadow Day 15 sentences as complete phrases, not isolated word pieces.",
+    "test_words": [
+      "現",
+      "現"
+    ],
+    "audio_ids": [
+      "AUD_PR_M1_D15_01",
+      "AUD_PR_M1_D15_02"
+    ],
+    "scoring": {
+      "tone_weight": 0.6,
+      "phoneme_weight": 0.4,
+      "pass_threshold": 0.75
+    }
+  },
+  {
+    "id": "PR_M1_D16",
+    "type": "shadowing_focus",
+    "pair": [
+      "wo3",
+      "hen3"
+    ],
+    "description": "Shadow Day 16 sentences as complete phrases, not isolated word pieces.",
+    "test_words": [
+      "我",
+      "你"
+    ],
+    "audio_ids": [
+      "AUD_PR_M1_D16_01",
+      "AUD_PR_M1_D16_02"
+    ],
+    "scoring": {
+      "tone_weight": 0.6,
+      "phoneme_weight": 0.4,
+      "pass_threshold": 0.75
+    }
+  },
+  {
+    "id": "PR_M1_D17",
+    "type": "shadowing_focus",
+    "pair": [
+      "wo3",
+      "keyi3"
+    ],
+    "description": "Shadow Day 17 sentences as complete phrases, not isolated word pieces.",
+    "test_words": [
+      "我",
+      "我"
+    ],
+    "audio_ids": [
+      "AUD_PR_M1_D17_01",
+      "AUD_PR_M1_D17_02"
+    ],
+    "scoring": {
+      "tone_weight": 0.6,
+      "phoneme_weight": 0.4,
+      "pass_threshold": 0.75
+    }
+  },
+  {
+    "id": "PR_M1_D18",
+    "type": "shadowing_focus",
+    "pair": [
+      "wo3",
+      "xihuan3"
+    ],
+    "description": "Shadow Day 18 sentences as complete phrases, not isolated word pieces.",
+    "test_words": [
+      "我",
+      "他"
+    ],
+    "audio_ids": [
+      "AUD_PR_M1_D18_01",
+      "AUD_PR_M1_D18_02"
+    ],
+    "scoring": {
+      "tone_weight": 0.6,
+      "phoneme_weight": 0.4,
+      "pass_threshold": 0.75
+    }
+  },
+  {
+    "id": "PR_M1_D19",
+    "type": "shadowing_focus",
+    "pair": [
+      "wo3",
+      "xiang3"
+    ],
+    "description": "Shadow Day 19 sentences as complete phrases, not isolated word pieces.",
+    "test_words": [
+      "我",
+      "他"
+    ],
+    "audio_ids": [
+      "AUD_PR_M1_D19_01",
+      "AUD_PR_M1_D19_02"
+    ],
+    "scoring": {
+      "tone_weight": 0.6,
+      "phoneme_weight": 0.4,
+      "pass_threshold": 0.75
+    }
+  },
+  {
+    "id": "PR_M1_D20",
+    "type": "shadowing_focus",
+    "pair": [
+      "wo3",
+      "zai4"
+    ],
+    "description": "Shadow Day 20 sentences as complete phrases, not isolated word pieces.",
+    "test_words": [
+      "我",
+      "學"
+    ],
+    "audio_ids": [
+      "AUD_PR_M1_D20_01",
+      "AUD_PR_M1_D20_02"
+    ],
+    "scoring": {
+      "tone_weight": 0.6,
+      "phoneme_weight": 0.4,
+      "pass_threshold": 0.75
+    }
+  },
+  {
+    "id": "PR_M1_D21",
+    "type": "shadowing_focus",
+    "pair": [
+      "mingtian1",
+      "xiawu3"
+    ],
+    "description": "Shadow Day 21 sentences as complete phrases, not isolated word pieces.",
+    "test_words": [
+      "明",
+      "然"
+    ],
+    "audio_ids": [
+      "AUD_PR_M1_D21_01",
+      "AUD_PR_M1_D21_02"
+    ],
+    "scoring": {
+      "tone_weight": 0.6,
+      "phoneme_weight": 0.4,
+      "pass_threshold": 0.75
+    }
+  },
+  {
+    "id": "PR_M1_D22",
+    "type": "shadowing_focus",
+    "pair": [
+      "women3",
+      "xiawu3"
+    ],
+    "description": "Shadow Day 22 sentences as complete phrases, not isolated word pieces.",
+    "test_words": [
+      "我",
+      "他"
+    ],
+    "audio_ids": [
+      "AUD_PR_M1_D22_01",
+      "AUD_PR_M1_D22_02"
+    ],
+    "scoring": {
+      "tone_weight": 0.6,
+      "phoneme_weight": 0.4,
+      "pass_threshold": 0.75
+    }
+  },
+  {
+    "id": "PR_M1_D23",
+    "type": "shadowing_focus",
+    "pair": [
+      "jintian1",
+      "bi3"
+    ],
+    "description": "Shadow Day 23 sentences as complete phrases, not isolated word pieces.",
+    "test_words": [
+      "今",
+      "這"
+    ],
+    "audio_ids": [
+      "AUD_PR_M1_D23_01",
+      "AUD_PR_M1_D23_02"
+    ],
+    "scoring": {
+      "tone_weight": 0.6,
+      "phoneme_weight": 0.4,
+      "pass_threshold": 0.75
+    }
+  },
+  {
+    "id": "PR_M1_D24",
+    "type": "shadowing_focus",
+    "pair": [
+      "yinhang2",
+      "zai4"
+    ],
+    "description": "Shadow Day 24 sentences as complete phrases, not isolated word pieces.",
+    "test_words": [
+      "銀",
+      "圖"
+    ],
+    "audio_ids": [
+      "AUD_PR_M1_D24_01",
+      "AUD_PR_M1_D24_02"
+    ],
+    "scoring": {
+      "tone_weight": 0.6,
+      "phoneme_weight": 0.4,
+      "pass_threshold": 0.75
+    }
+  },
+  {
+    "id": "PR_M1_D25",
+    "type": "shadowing_focus",
+    "pair": [
+      "wo3",
+      "xuyao4"
+    ],
+    "description": "Shadow Day 25 sentences as complete phrases, not isolated word pieces.",
+    "test_words": [
+      "我",
+      "抱"
+    ],
+    "audio_ids": [
+      "AUD_PR_M1_D25_01",
+      "AUD_PR_M1_D25_02"
+    ],
+    "scoring": {
+      "tone_weight": 0.6,
+      "phoneme_weight": 0.4,
+      "pass_threshold": 0.75
+    }
+  },
+  {
+    "id": "PR_M1_D26",
+    "type": "shadowing_focus",
+    "pair": [
+      "qing3",
+      "jin4"
+    ],
+    "description": "Shadow Day 26 sentences as complete phrases, not isolated word pieces.",
+    "test_words": [
+      "請",
+      "請"
+    ],
+    "audio_ids": [
+      "AUD_PR_M1_D26_01",
+      "AUD_PR_M1_D26_02"
+    ],
+    "scoring": {
+      "tone_weight": 0.6,
+      "phoneme_weight": 0.4,
+      "pass_threshold": 0.75
+    }
+  },
+  {
+    "id": "PR_M1_D27",
+    "type": "shadowing_focus",
+    "pair": [
+      "wo3",
+      "de0"
+    ],
+    "description": "Shadow Day 27 sentences as complete phrases, not isolated word pieces.",
+    "test_words": [
+      "我",
+      "我"
+    ],
+    "audio_ids": [
+      "AUD_PR_M1_D27_01",
+      "AUD_PR_M1_D27_02"
+    ],
+    "scoring": {
+      "tone_weight": 0.6,
+      "phoneme_weight": 0.4,
+      "pass_threshold": 0.75
+    }
+  },
+  {
+    "id": "PR_M1_D28",
+    "type": "shadowing_focus",
+    "pair": [
+      "mingtian1",
+      "wo3"
+    ],
+    "description": "Shadow Day 28 sentences as complete phrases, not isolated word pieces.",
+    "test_words": [
+      "明",
+      "我"
+    ],
+    "audio_ids": [
+      "AUD_PR_M1_D28_01",
+      "AUD_PR_M1_D28_02"
+    ],
+    "scoring": {
+      "tone_weight": 0.6,
+      "phoneme_weight": 0.4,
+      "pass_threshold": 0.75
+    }
+  },
+  {
+    "id": "PR_M1_D29",
+    "type": "shadowing_focus",
+    "pair": [
+      "jintian1",
+      "zaoshang3"
+    ],
+    "description": "Shadow Day 29 sentences as complete phrases, not isolated word pieces.",
+    "test_words": [
+      "今",
+      "然"
+    ],
+    "audio_ids": [
+      "AUD_PR_M1_D29_01",
+      "AUD_PR_M1_D29_02"
+    ],
+    "scoring": {
+      "tone_weight": 0.6,
+      "phoneme_weight": 0.4,
+      "pass_threshold": 0.75
+    }
+  },
+  {
+    "id": "PR_M1_D30",
+    "type": "shadowing_focus",
+    "pair": [
+      "ni3",
+      "hao3"
+    ],
+    "description": "Shadow Day 30 sentences as complete phrases, not isolated word pieces.",
+    "test_words": [
+      "你",
+      "我"
+    ],
+    "audio_ids": [
+      "AUD_PR_M1_D30_01",
+      "AUD_PR_M1_D30_02"
+    ],
+    "scoring": {
+      "tone_weight": 0.6,
+      "phoneme_weight": 0.4,
       "pass_threshold": 0.75
     }
   }

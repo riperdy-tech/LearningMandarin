@@ -46,6 +46,7 @@ type TrainerStep = {
   title: string;
   kind: TrainerStepKind;
   target_count?: number;
+  duration_minutes?: number;
 };
 
 type LessonPack = ReturnType<typeof buildLessonPack>;
@@ -53,12 +54,12 @@ type LessonPack = ReturnType<typeof buildLessonPack>;
 const PROGRESS_KEY = "taiwan-mandarin-progress-v1";
 
 const DEFAULT_DAILY_FLOW: TrainerStep[] = [
-  { id: "pattern_review", title: "Pattern review", kind: "pattern_review", target_count: 1 },
-  { id: "new_words", title: "New words inside sentences", kind: "new_words", target_count: 3 },
-  { id: "substitution", title: "Sentence substitution drill", kind: "substitution", target_count: 3 },
-  { id: "listen_shadow", title: "Listen and shadow", kind: "listen_shadow", target_count: 1 },
-  { id: "memory_speaking", title: "Speak from memory", kind: "memory_speaking", target_count: 1 },
-  { id: "review_summary", title: "Quick review summary", kind: "review_summary", target_count: 1 }
+  { id: "pattern_review", title: "Grammar & examples", kind: "pattern_review", target_count: 1, duration_minutes: 10 },
+  { id: "new_words", title: "Vocabulary in sentences", kind: "new_words", target_count: 7, duration_minutes: 10 },
+  { id: "substitution", title: "Sentence generation", kind: "substitution", target_count: 10, duration_minutes: 20 },
+  { id: "listen_shadow", title: "Listening and shadowing", kind: "listen_shadow", target_count: 4, duration_minutes: 10 },
+  { id: "memory_speaking", title: "Speak from memory", kind: "memory_speaking", target_count: 3, duration_minutes: 5 },
+  { id: "review_summary", title: "Quick review summary", kind: "review_summary", target_count: 1, duration_minutes: 5 }
 ];
 
 const emptyProgress: LocalProgress = {
@@ -98,6 +99,7 @@ export function CourseApp({ data }: { data: CourseData }) {
   const activeStep = dailyFlow.find((step) => step.id === activeStepId) ?? dailyFlow[0];
   const allStepsDone = dailyFlow.every((step) => completedSteps.includes(step.id));
   const generatedSentences = buildGeneratedSentences(lessonPack);
+  const totalMinutes = dailyFlow.reduce((sum, step) => sum + (step.duration_minutes ?? 0), 0);
 
   function markStep(stepId: string) {
     setProgress((current) => {
@@ -246,6 +248,7 @@ export function CourseApp({ data }: { data: CourseData }) {
               <div>
                 <div className="flex flex-wrap items-center gap-2">
                   <Badge>Month 1 · Week {selectedLesson.week}</Badge>
+                  <Badge>{totalMinutes} min plan</Badge>
                   <Badge className="bg-persimmon-100 text-persimmon-600 ring-persimmon-500/20">
                     {selectedLesson.xp} XP
                   </Badge>
@@ -284,6 +287,7 @@ export function CourseApp({ data }: { data: CourseData }) {
               generatedSentences={generatedSentences}
               lessonCompleted={lessonCompleted}
               lessonPack={lessonPack}
+              lookupVocab={data.vocab}
               markStep={markStep}
               onCompleteLesson={completeLesson}
               onSelectPattern={setSelectedPattern}
@@ -329,6 +333,7 @@ function TrainerStepPanel({
   generatedSentences,
   lessonCompleted,
   lessonPack,
+  lookupVocab,
   markStep,
   onCompleteLesson,
   onSelectPattern,
@@ -345,6 +350,7 @@ function TrainerStepPanel({
   generatedSentences: GeneratedSentence[];
   lessonCompleted: boolean;
   lessonPack: LessonPack;
+  lookupVocab: VocabularyItem[];
   markStep: (stepId: string) => void;
   onCompleteLesson: () => void;
   onSelectPattern: (grammar: GrammarItem) => void;
@@ -362,6 +368,9 @@ function TrainerStepPanel({
           <div>
             <p className="text-sm font-black text-jade-700">Daily step</p>
             <h3 className="text-2xl font-black text-ink">{activeStep.title}</h3>
+            {activeStep.duration_minutes && (
+              <p className="mt-1 text-sm font-bold text-ink/50">{activeStep.duration_minutes} minutes</p>
+            )}
           </div>
           <StepDoneButton completed={completed} onClick={() => markStep(activeStep.id)} />
         </div>
@@ -379,6 +388,7 @@ function TrainerStepPanel({
 
         {activeStep.kind === "new_words" && (
           <NewWordsInSentences
+            lookupVocab={lookupVocab}
             onSelectVocab={onSelectVocab}
             sentences={lessonPack.sentences}
             speak={speak}
@@ -482,6 +492,7 @@ function PatternReview({
 }
 
 function NewWordsInSentences({
+  lookupVocab,
   onSelectVocab,
   sentences,
   speak,
@@ -489,6 +500,7 @@ function NewWordsInSentences({
   vocab,
   weakWords
 }: {
+  lookupVocab: VocabularyItem[];
   onSelectVocab: (vocab: VocabularyItem) => void;
   sentences: SentenceItem[];
   speak: (text: string, mode?: SpeechMode) => void;
@@ -548,7 +560,7 @@ function NewWordsInSentences({
             onSelectVocab={onSelectVocab}
             sentence={sentence}
             speak={speak}
-            vocab={vocab}
+            vocab={lookupVocab}
           />
         ))}
       </div>

@@ -1,214 +1,2741 @@
 [
   {
-    "id": "LESSON_M1_W1_L1",
+    "id": "LESSON_M1_D01",
     "week": 1,
     "order": 1,
-    "title": "Greetings & Introduction",
+    "title": "Greetings and pronouns",
     "xp": 100,
     "skills": [
-      "greeting",
-      "self_intro"
+      "taiwan_mandarin",
+      "sentence_output",
+      "day_01"
     ],
     "vocab_ids": [
-      "VOC_M1_W1_001",
-      "VOC_M1_W1_002",
-      "VOC_M1_W1_004"
+      "VOC_M1_001",
+      "VOC_M1_002",
+      "VOC_M1_003",
+      "VOC_M1_004",
+      "VOC_M1_005",
+      "VOC_M1_006",
+      "VOC_M1_007",
+      "VOC_M1_008"
     ],
     "sentence_ids": [
-      "SEN_M1_W1_001"
+      "SEN_M1_D01_01",
+      "SEN_M1_D01_02",
+      "SEN_M1_D01_03",
+      "SEN_M1_D01_04",
+      "SEN_M1_D01_05",
+      "SEN_M1_D01_06",
+      "SEN_M1_D01_07",
+      "SEN_M1_D01_08"
     ],
     "grammar_ids": [
-      "GR_M1_001"
+      "GR_M1_D01"
     ],
     "pronunciation_ids": [
-      "PR_M1_001"
+      "PR_M1_D01"
     ],
     "exercise_flow": [
-      "listen",
-      "repeat",
-      "mcq",
-      "reorder",
-      "speaking"
+      "pattern_review",
+      "new_words",
+      "substitution",
+      "listen_shadow",
+      "memory_speaking",
+      "review_summary"
     ],
     "daily_flow": [
       {
         "id": "pattern_review",
-        "title": "Pattern review",
+        "title": "Grammar & examples",
         "kind": "pattern_review",
-        "target_count": 1
+        "target_count": 1,
+        "duration_minutes": 10
       },
       {
         "id": "new_words",
-        "title": "New words inside sentences",
+        "title": "Vocabulary in sentences",
         "kind": "new_words",
-        "target_count": 3
+        "target_count": 8,
+        "duration_minutes": 10
       },
       {
         "id": "substitution",
-        "title": "Sentence substitution drill",
+        "title": "Sentence generation",
         "kind": "substitution",
-        "target_count": 3
+        "target_count": 10,
+        "duration_minutes": 20
       },
       {
         "id": "listen_shadow",
-        "title": "Listen and shadow",
+        "title": "Listening and shadowing",
         "kind": "listen_shadow",
-        "target_count": 1
+        "target_count": 8,
+        "duration_minutes": 10
       },
       {
         "id": "memory_speaking",
         "title": "Speak from memory",
         "kind": "memory_speaking",
-        "target_count": 1
+        "target_count": 3,
+        "duration_minutes": 5
       },
       {
         "id": "review_summary",
         "title": "Quick review summary",
         "kind": "review_summary",
-        "target_count": 1
+        "target_count": 1,
+        "duration_minutes": 5
       }
     ],
     "mastery_threshold": 0.85
   },
   {
-    "id": "LESSON_M1_W1_L2",
+    "id": "LESSON_M1_D02",
     "week": 1,
     "order": 2,
-    "title": "Identity Statements",
+    "title": "Numbers 1-5 and yes/no questions",
     "xp": 100,
     "skills": [
-      "identity",
-      "profession"
+      "taiwan_mandarin",
+      "sentence_output",
+      "day_02"
     ],
     "vocab_ids": [
-      "VOC_M1_W1_002",
-      "VOC_M1_W1_005"
+      "VOC_M1_009",
+      "VOC_M1_010",
+      "VOC_M1_011",
+      "VOC_M1_012",
+      "VOC_M1_013",
+      "VOC_M1_014",
+      "VOC_M1_015",
+      "VOC_M1_016"
     ],
     "sentence_ids": [
-      "SEN_M1_W1_002"
+      "SEN_M1_D02_01",
+      "SEN_M1_D02_02",
+      "SEN_M1_D02_03",
+      "SEN_M1_D02_04",
+      "SEN_M1_D02_05",
+      "SEN_M1_D02_06",
+      "SEN_M1_D02_07",
+      "SEN_M1_D02_08"
     ],
     "grammar_ids": [
-      "GR_M1_002"
+      "GR_M1_D02"
     ],
     "pronunciation_ids": [
-      "PR_M1_002"
+      "PR_M1_D02"
     ],
     "exercise_flow": [
-      "listen",
-      "repeat",
-      "mcq",
-      "reorder",
-      "speaking"
+      "pattern_review",
+      "new_words",
+      "substitution",
+      "listen_shadow",
+      "memory_speaking",
+      "review_summary"
     ],
     "daily_flow": [
       {
         "id": "pattern_review",
-        "title": "Pattern review",
+        "title": "Grammar & examples",
         "kind": "pattern_review",
-        "target_count": 1
+        "target_count": 1,
+        "duration_minutes": 10
       },
       {
         "id": "new_words",
-        "title": "New words inside sentences",
+        "title": "Vocabulary in sentences",
         "kind": "new_words",
-        "target_count": 2
+        "target_count": 8,
+        "duration_minutes": 10
       },
       {
         "id": "substitution",
-        "title": "Sentence substitution drill",
+        "title": "Sentence generation",
         "kind": "substitution",
-        "target_count": 2
+        "target_count": 10,
+        "duration_minutes": 20
       },
       {
         "id": "listen_shadow",
-        "title": "Listen and shadow",
+        "title": "Listening and shadowing",
         "kind": "listen_shadow",
-        "target_count": 1
+        "target_count": 8,
+        "duration_minutes": 10
       },
       {
         "id": "memory_speaking",
         "title": "Speak from memory",
         "kind": "memory_speaking",
-        "target_count": 1
+        "target_count": 3,
+        "duration_minutes": 5
       },
       {
         "id": "review_summary",
         "title": "Quick review summary",
         "kind": "review_summary",
-        "target_count": 1
+        "target_count": 1,
+        "duration_minutes": 5
       }
     ],
     "mastery_threshold": 0.85
   },
   {
-    "id": "LESSON_M1_W1_L3",
+    "id": "LESSON_M1_D03",
     "week": 1,
     "order": 3,
-    "title": "Yes/No Questions",
+    "title": "Numbers 6-10, 有 and possession",
     "xp": 100,
     "skills": [
-      "questions",
-      "teacher_student"
+      "taiwan_mandarin",
+      "sentence_output",
+      "day_03"
     ],
     "vocab_ids": [
-      "VOC_M1_W1_003",
-      "VOC_M1_W1_005",
-      "VOC_M1_W1_006",
-      "VOC_M1_W1_007"
+      "VOC_M1_017",
+      "VOC_M1_018",
+      "VOC_M1_019",
+      "VOC_M1_020",
+      "VOC_M1_021",
+      "VOC_M1_022",
+      "VOC_M1_023",
+      "VOC_M1_024",
+      "VOC_M1_025"
     ],
     "sentence_ids": [
-      "SEN_M1_W1_003"
+      "SEN_M1_D03_01",
+      "SEN_M1_D03_02",
+      "SEN_M1_D03_03",
+      "SEN_M1_D03_04",
+      "SEN_M1_D03_05",
+      "SEN_M1_D03_06",
+      "SEN_M1_D03_07",
+      "SEN_M1_D03_08"
     ],
     "grammar_ids": [
-      "GR_M1_003"
+      "GR_M1_D03"
     ],
     "pronunciation_ids": [
-      "PR_M1_001",
-      "PR_M1_002"
+      "PR_M1_D03"
     ],
     "exercise_flow": [
-      "listen",
-      "repeat",
-      "mcq",
-      "reorder",
-      "speaking"
+      "pattern_review",
+      "new_words",
+      "substitution",
+      "listen_shadow",
+      "memory_speaking",
+      "review_summary"
     ],
     "daily_flow": [
       {
         "id": "pattern_review",
-        "title": "Pattern review",
+        "title": "Grammar & examples",
         "kind": "pattern_review",
-        "target_count": 1
+        "target_count": 1,
+        "duration_minutes": 10
       },
       {
         "id": "new_words",
-        "title": "New words inside sentences",
+        "title": "Vocabulary in sentences",
         "kind": "new_words",
-        "target_count": 4
+        "target_count": 9,
+        "duration_minutes": 10
       },
       {
         "id": "substitution",
-        "title": "Sentence substitution drill",
+        "title": "Sentence generation",
         "kind": "substitution",
-        "target_count": 3
+        "target_count": 10,
+        "duration_minutes": 20
       },
       {
         "id": "listen_shadow",
-        "title": "Listen and shadow",
+        "title": "Listening and shadowing",
         "kind": "listen_shadow",
-        "target_count": 1
+        "target_count": 8,
+        "duration_minutes": 10
       },
       {
         "id": "memory_speaking",
         "title": "Speak from memory",
         "kind": "memory_speaking",
-        "target_count": 1
+        "target_count": 3,
+        "duration_minutes": 5
       },
       {
         "id": "review_summary",
         "title": "Quick review summary",
         "kind": "review_summary",
-        "target_count": 1
+        "target_count": 1,
+        "duration_minutes": 5
+      }
+    ],
+    "mastery_threshold": 0.85
+  },
+  {
+    "id": "LESSON_M1_D04",
+    "week": 1,
+    "order": 4,
+    "title": "Family words and time phrases",
+    "xp": 100,
+    "skills": [
+      "taiwan_mandarin",
+      "sentence_output",
+      "day_04"
+    ],
+    "vocab_ids": [
+      "VOC_M1_026",
+      "VOC_M1_027",
+      "VOC_M1_028",
+      "VOC_M1_029",
+      "VOC_M1_030",
+      "VOC_M1_031",
+      "VOC_M1_032",
+      "VOC_M1_033",
+      "VOC_M1_034"
+    ],
+    "sentence_ids": [
+      "SEN_M1_D04_01",
+      "SEN_M1_D04_02",
+      "SEN_M1_D04_03",
+      "SEN_M1_D04_04",
+      "SEN_M1_D04_05",
+      "SEN_M1_D04_06",
+      "SEN_M1_D04_07",
+      "SEN_M1_D04_08"
+    ],
+    "grammar_ids": [
+      "GR_M1_D04"
+    ],
+    "pronunciation_ids": [
+      "PR_M1_D04"
+    ],
+    "exercise_flow": [
+      "pattern_review",
+      "new_words",
+      "substitution",
+      "listen_shadow",
+      "memory_speaking",
+      "review_summary"
+    ],
+    "daily_flow": [
+      {
+        "id": "pattern_review",
+        "title": "Grammar & examples",
+        "kind": "pattern_review",
+        "target_count": 1,
+        "duration_minutes": 10
+      },
+      {
+        "id": "new_words",
+        "title": "Vocabulary in sentences",
+        "kind": "new_words",
+        "target_count": 9,
+        "duration_minutes": 10
+      },
+      {
+        "id": "substitution",
+        "title": "Sentence generation",
+        "kind": "substitution",
+        "target_count": 10,
+        "duration_minutes": 20
+      },
+      {
+        "id": "listen_shadow",
+        "title": "Listening and shadowing",
+        "kind": "listen_shadow",
+        "target_count": 8,
+        "duration_minutes": 10
+      },
+      {
+        "id": "memory_speaking",
+        "title": "Speak from memory",
+        "kind": "memory_speaking",
+        "target_count": 3,
+        "duration_minutes": 5
+      },
+      {
+        "id": "review_summary",
+        "title": "Quick review summary",
+        "kind": "review_summary",
+        "target_count": 1,
+        "duration_minutes": 5
+      }
+    ],
+    "mastery_threshold": 0.85
+  },
+  {
+    "id": "LESSON_M1_D05",
+    "week": 1,
+    "order": 5,
+    "title": "Numbers beyond 10 and family size",
+    "xp": 100,
+    "skills": [
+      "taiwan_mandarin",
+      "sentence_output",
+      "day_05"
+    ],
+    "vocab_ids": [
+      "VOC_M1_035",
+      "VOC_M1_036",
+      "VOC_M1_037",
+      "VOC_M1_038",
+      "VOC_M1_039",
+      "VOC_M1_040",
+      "VOC_M1_041",
+      "VOC_M1_042"
+    ],
+    "sentence_ids": [
+      "SEN_M1_D05_01",
+      "SEN_M1_D05_02",
+      "SEN_M1_D05_03",
+      "SEN_M1_D05_04",
+      "SEN_M1_D05_05",
+      "SEN_M1_D05_06",
+      "SEN_M1_D05_07",
+      "SEN_M1_D05_08"
+    ],
+    "grammar_ids": [
+      "GR_M1_D05"
+    ],
+    "pronunciation_ids": [
+      "PR_M1_D05"
+    ],
+    "exercise_flow": [
+      "pattern_review",
+      "new_words",
+      "substitution",
+      "listen_shadow",
+      "memory_speaking",
+      "review_summary"
+    ],
+    "daily_flow": [
+      {
+        "id": "pattern_review",
+        "title": "Grammar & examples",
+        "kind": "pattern_review",
+        "target_count": 1,
+        "duration_minutes": 10
+      },
+      {
+        "id": "new_words",
+        "title": "Vocabulary in sentences",
+        "kind": "new_words",
+        "target_count": 8,
+        "duration_minutes": 10
+      },
+      {
+        "id": "substitution",
+        "title": "Sentence generation",
+        "kind": "substitution",
+        "target_count": 10,
+        "duration_minutes": 20
+      },
+      {
+        "id": "listen_shadow",
+        "title": "Listening and shadowing",
+        "kind": "listen_shadow",
+        "target_count": 8,
+        "duration_minutes": 10
+      },
+      {
+        "id": "memory_speaking",
+        "title": "Speak from memory",
+        "kind": "memory_speaking",
+        "target_count": 3,
+        "duration_minutes": 5
+      },
+      {
+        "id": "review_summary",
+        "title": "Quick review summary",
+        "kind": "review_summary",
+        "target_count": 1,
+        "duration_minutes": 5
+      }
+    ],
+    "mastery_threshold": 0.85
+  },
+  {
+    "id": "LESSON_M1_D06",
+    "week": 1,
+    "order": 6,
+    "title": "Food words and the 我想 pattern",
+    "xp": 100,
+    "skills": [
+      "taiwan_mandarin",
+      "sentence_output",
+      "day_06"
+    ],
+    "vocab_ids": [
+      "VOC_M1_043",
+      "VOC_M1_044",
+      "VOC_M1_045",
+      "VOC_M1_046",
+      "VOC_M1_047",
+      "VOC_M1_048",
+      "VOC_M1_049",
+      "VOC_M1_050",
+      "VOC_M1_051",
+      "VOC_M1_052"
+    ],
+    "sentence_ids": [
+      "SEN_M1_D06_01",
+      "SEN_M1_D06_02",
+      "SEN_M1_D06_03",
+      "SEN_M1_D06_04",
+      "SEN_M1_D06_05",
+      "SEN_M1_D06_06",
+      "SEN_M1_D06_07",
+      "SEN_M1_D06_08"
+    ],
+    "grammar_ids": [
+      "GR_M1_D06"
+    ],
+    "pronunciation_ids": [
+      "PR_M1_D06"
+    ],
+    "exercise_flow": [
+      "pattern_review",
+      "new_words",
+      "substitution",
+      "listen_shadow",
+      "memory_speaking",
+      "review_summary"
+    ],
+    "daily_flow": [
+      {
+        "id": "pattern_review",
+        "title": "Grammar & examples",
+        "kind": "pattern_review",
+        "target_count": 1,
+        "duration_minutes": 10
+      },
+      {
+        "id": "new_words",
+        "title": "Vocabulary in sentences",
+        "kind": "new_words",
+        "target_count": 10,
+        "duration_minutes": 10
+      },
+      {
+        "id": "substitution",
+        "title": "Sentence generation",
+        "kind": "substitution",
+        "target_count": 10,
+        "duration_minutes": 20
+      },
+      {
+        "id": "listen_shadow",
+        "title": "Listening and shadowing",
+        "kind": "listen_shadow",
+        "target_count": 8,
+        "duration_minutes": 10
+      },
+      {
+        "id": "memory_speaking",
+        "title": "Speak from memory",
+        "kind": "memory_speaking",
+        "target_count": 3,
+        "duration_minutes": 5
+      },
+      {
+        "id": "review_summary",
+        "title": "Quick review summary",
+        "kind": "review_summary",
+        "target_count": 1,
+        "duration_minutes": 5
+      }
+    ],
+    "mastery_threshold": 0.85
+  },
+  {
+    "id": "LESSON_M1_D07",
+    "week": 1,
+    "order": 7,
+    "title": "Week 1 dialogue review",
+    "xp": 140,
+    "skills": [
+      "taiwan_mandarin",
+      "sentence_output",
+      "day_07"
+    ],
+    "vocab_ids": [
+      "VOC_M1_001",
+      "VOC_M1_002",
+      "VOC_M1_003",
+      "VOC_M1_007",
+      "VOC_M1_008",
+      "VOC_M1_039",
+      "VOC_M1_040",
+      "VOC_M1_050",
+      "VOC_M1_052",
+      "VOC_M1_051"
+    ],
+    "sentence_ids": [
+      "SEN_M1_D07_01",
+      "SEN_M1_D07_02",
+      "SEN_M1_D07_03",
+      "SEN_M1_D07_04",
+      "SEN_M1_D07_05",
+      "SEN_M1_D07_06",
+      "SEN_M1_D07_07",
+      "SEN_M1_D07_08"
+    ],
+    "grammar_ids": [
+      "GR_M1_D07"
+    ],
+    "pronunciation_ids": [
+      "PR_M1_D07"
+    ],
+    "exercise_flow": [
+      "pattern_review",
+      "new_words",
+      "substitution",
+      "listen_shadow",
+      "memory_speaking",
+      "review_summary"
+    ],
+    "daily_flow": [
+      {
+        "id": "pattern_review",
+        "title": "Grammar & examples",
+        "kind": "pattern_review",
+        "target_count": 1,
+        "duration_minutes": 10
+      },
+      {
+        "id": "new_words",
+        "title": "Vocabulary in sentences",
+        "kind": "new_words",
+        "target_count": 10,
+        "duration_minutes": 10
+      },
+      {
+        "id": "substitution",
+        "title": "Sentence generation",
+        "kind": "substitution",
+        "target_count": 10,
+        "duration_minutes": 20
+      },
+      {
+        "id": "listen_shadow",
+        "title": "Listening and shadowing",
+        "kind": "listen_shadow",
+        "target_count": 8,
+        "duration_minutes": 10
+      },
+      {
+        "id": "memory_speaking",
+        "title": "Speak from memory",
+        "kind": "memory_speaking",
+        "target_count": 3,
+        "duration_minutes": 5
+      },
+      {
+        "id": "review_summary",
+        "title": "Quick review summary",
+        "kind": "review_summary",
+        "target_count": 1,
+        "duration_minutes": 5
+      }
+    ],
+    "mastery_threshold": 0.85
+  },
+  {
+    "id": "LESSON_M1_D08",
+    "week": 2,
+    "order": 8,
+    "title": "More food and drinks",
+    "xp": 100,
+    "skills": [
+      "taiwan_mandarin",
+      "sentence_output",
+      "day_08"
+    ],
+    "vocab_ids": [
+      "VOC_M1_053",
+      "VOC_M1_054",
+      "VOC_M1_055",
+      "VOC_M1_056",
+      "VOC_M1_057",
+      "VOC_M1_058",
+      "VOC_M1_059",
+      "VOC_M1_060",
+      "VOC_M1_061"
+    ],
+    "sentence_ids": [
+      "SEN_M1_D08_01",
+      "SEN_M1_D08_02",
+      "SEN_M1_D08_03",
+      "SEN_M1_D08_04",
+      "SEN_M1_D08_05",
+      "SEN_M1_D08_06",
+      "SEN_M1_D08_07",
+      "SEN_M1_D08_08"
+    ],
+    "grammar_ids": [
+      "GR_M1_D08"
+    ],
+    "pronunciation_ids": [
+      "PR_M1_D08"
+    ],
+    "exercise_flow": [
+      "pattern_review",
+      "new_words",
+      "substitution",
+      "listen_shadow",
+      "memory_speaking",
+      "review_summary"
+    ],
+    "daily_flow": [
+      {
+        "id": "pattern_review",
+        "title": "Grammar & examples",
+        "kind": "pattern_review",
+        "target_count": 1,
+        "duration_minutes": 10
+      },
+      {
+        "id": "new_words",
+        "title": "Vocabulary in sentences",
+        "kind": "new_words",
+        "target_count": 9,
+        "duration_minutes": 10
+      },
+      {
+        "id": "substitution",
+        "title": "Sentence generation",
+        "kind": "substitution",
+        "target_count": 10,
+        "duration_minutes": 20
+      },
+      {
+        "id": "listen_shadow",
+        "title": "Listening and shadowing",
+        "kind": "listen_shadow",
+        "target_count": 8,
+        "duration_minutes": 10
+      },
+      {
+        "id": "memory_speaking",
+        "title": "Speak from memory",
+        "kind": "memory_speaking",
+        "target_count": 3,
+        "duration_minutes": 5
+      },
+      {
+        "id": "review_summary",
+        "title": "Quick review summary",
+        "kind": "review_summary",
+        "target_count": 1,
+        "duration_minutes": 5
+      }
+    ],
+    "mastery_threshold": 0.85
+  },
+  {
+    "id": "LESSON_M1_D09",
+    "week": 2,
+    "order": 9,
+    "title": "Additional verbs",
+    "xp": 100,
+    "skills": [
+      "taiwan_mandarin",
+      "sentence_output",
+      "day_09"
+    ],
+    "vocab_ids": [
+      "VOC_M1_062",
+      "VOC_M1_063",
+      "VOC_M1_064",
+      "VOC_M1_065",
+      "VOC_M1_066",
+      "VOC_M1_067",
+      "VOC_M1_068",
+      "VOC_M1_069",
+      "VOC_M1_070"
+    ],
+    "sentence_ids": [
+      "SEN_M1_D09_01",
+      "SEN_M1_D09_02",
+      "SEN_M1_D09_03",
+      "SEN_M1_D09_04",
+      "SEN_M1_D09_05",
+      "SEN_M1_D09_06",
+      "SEN_M1_D09_07",
+      "SEN_M1_D09_08"
+    ],
+    "grammar_ids": [
+      "GR_M1_D09"
+    ],
+    "pronunciation_ids": [
+      "PR_M1_D09"
+    ],
+    "exercise_flow": [
+      "pattern_review",
+      "new_words",
+      "substitution",
+      "listen_shadow",
+      "memory_speaking",
+      "review_summary"
+    ],
+    "daily_flow": [
+      {
+        "id": "pattern_review",
+        "title": "Grammar & examples",
+        "kind": "pattern_review",
+        "target_count": 1,
+        "duration_minutes": 10
+      },
+      {
+        "id": "new_words",
+        "title": "Vocabulary in sentences",
+        "kind": "new_words",
+        "target_count": 9,
+        "duration_minutes": 10
+      },
+      {
+        "id": "substitution",
+        "title": "Sentence generation",
+        "kind": "substitution",
+        "target_count": 10,
+        "duration_minutes": 20
+      },
+      {
+        "id": "listen_shadow",
+        "title": "Listening and shadowing",
+        "kind": "listen_shadow",
+        "target_count": 8,
+        "duration_minutes": 10
+      },
+      {
+        "id": "memory_speaking",
+        "title": "Speak from memory",
+        "kind": "memory_speaking",
+        "target_count": 3,
+        "duration_minutes": 5
+      },
+      {
+        "id": "review_summary",
+        "title": "Quick review summary",
+        "kind": "review_summary",
+        "target_count": 1,
+        "duration_minutes": 5
+      }
+    ],
+    "mastery_threshold": 0.85
+  },
+  {
+    "id": "LESSON_M1_D10",
+    "week": 2,
+    "order": 10,
+    "title": "Question words and open questions",
+    "xp": 100,
+    "skills": [
+      "taiwan_mandarin",
+      "sentence_output",
+      "day_10"
+    ],
+    "vocab_ids": [
+      "VOC_M1_071",
+      "VOC_M1_072",
+      "VOC_M1_073",
+      "VOC_M1_074",
+      "VOC_M1_075",
+      "VOC_M1_076",
+      "VOC_M1_077",
+      "VOC_M1_078"
+    ],
+    "sentence_ids": [
+      "SEN_M1_D10_01",
+      "SEN_M1_D10_02",
+      "SEN_M1_D10_03",
+      "SEN_M1_D10_04",
+      "SEN_M1_D10_05",
+      "SEN_M1_D10_06",
+      "SEN_M1_D10_07",
+      "SEN_M1_D10_08"
+    ],
+    "grammar_ids": [
+      "GR_M1_D10"
+    ],
+    "pronunciation_ids": [
+      "PR_M1_D10"
+    ],
+    "exercise_flow": [
+      "pattern_review",
+      "new_words",
+      "substitution",
+      "listen_shadow",
+      "memory_speaking",
+      "review_summary"
+    ],
+    "daily_flow": [
+      {
+        "id": "pattern_review",
+        "title": "Grammar & examples",
+        "kind": "pattern_review",
+        "target_count": 1,
+        "duration_minutes": 10
+      },
+      {
+        "id": "new_words",
+        "title": "Vocabulary in sentences",
+        "kind": "new_words",
+        "target_count": 8,
+        "duration_minutes": 10
+      },
+      {
+        "id": "substitution",
+        "title": "Sentence generation",
+        "kind": "substitution",
+        "target_count": 10,
+        "duration_minutes": 20
+      },
+      {
+        "id": "listen_shadow",
+        "title": "Listening and shadowing",
+        "kind": "listen_shadow",
+        "target_count": 8,
+        "duration_minutes": 10
+      },
+      {
+        "id": "memory_speaking",
+        "title": "Speak from memory",
+        "kind": "memory_speaking",
+        "target_count": 3,
+        "duration_minutes": 5
+      },
+      {
+        "id": "review_summary",
+        "title": "Quick review summary",
+        "kind": "review_summary",
+        "target_count": 1,
+        "duration_minutes": 5
+      }
+    ],
+    "mastery_threshold": 0.85
+  },
+  {
+    "id": "LESSON_M1_D11",
+    "week": 2,
+    "order": 11,
+    "title": "Negation with 不 and 沒",
+    "xp": 100,
+    "skills": [
+      "taiwan_mandarin",
+      "sentence_output",
+      "day_11"
+    ],
+    "vocab_ids": [
+      "VOC_M1_079",
+      "VOC_M1_080",
+      "VOC_M1_081",
+      "VOC_M1_082",
+      "VOC_M1_083",
+      "VOC_M1_084",
+      "VOC_M1_085"
+    ],
+    "sentence_ids": [
+      "SEN_M1_D11_01",
+      "SEN_M1_D11_02",
+      "SEN_M1_D11_03",
+      "SEN_M1_D11_04",
+      "SEN_M1_D11_05",
+      "SEN_M1_D11_06",
+      "SEN_M1_D11_07",
+      "SEN_M1_D11_08"
+    ],
+    "grammar_ids": [
+      "GR_M1_D11"
+    ],
+    "pronunciation_ids": [
+      "PR_M1_D11"
+    ],
+    "exercise_flow": [
+      "pattern_review",
+      "new_words",
+      "substitution",
+      "listen_shadow",
+      "memory_speaking",
+      "review_summary"
+    ],
+    "daily_flow": [
+      {
+        "id": "pattern_review",
+        "title": "Grammar & examples",
+        "kind": "pattern_review",
+        "target_count": 1,
+        "duration_minutes": 10
+      },
+      {
+        "id": "new_words",
+        "title": "Vocabulary in sentences",
+        "kind": "new_words",
+        "target_count": 7,
+        "duration_minutes": 10
+      },
+      {
+        "id": "substitution",
+        "title": "Sentence generation",
+        "kind": "substitution",
+        "target_count": 10,
+        "duration_minutes": 20
+      },
+      {
+        "id": "listen_shadow",
+        "title": "Listening and shadowing",
+        "kind": "listen_shadow",
+        "target_count": 8,
+        "duration_minutes": 10
+      },
+      {
+        "id": "memory_speaking",
+        "title": "Speak from memory",
+        "kind": "memory_speaking",
+        "target_count": 3,
+        "duration_minutes": 5
+      },
+      {
+        "id": "review_summary",
+        "title": "Quick review summary",
+        "kind": "review_summary",
+        "target_count": 1,
+        "duration_minutes": 5
+      }
+    ],
+    "mastery_threshold": 0.85
+  },
+  {
+    "id": "LESSON_M1_D12",
+    "week": 2,
+    "order": 12,
+    "title": "Descriptive adjectives",
+    "xp": 100,
+    "skills": [
+      "taiwan_mandarin",
+      "sentence_output",
+      "day_12"
+    ],
+    "vocab_ids": [
+      "VOC_M1_086",
+      "VOC_M1_087",
+      "VOC_M1_088",
+      "VOC_M1_089",
+      "VOC_M1_090",
+      "VOC_M1_091",
+      "VOC_M1_092",
+      "VOC_M1_093",
+      "VOC_M1_094",
+      "VOC_M1_095",
+      "VOC_M1_096"
+    ],
+    "sentence_ids": [
+      "SEN_M1_D12_01",
+      "SEN_M1_D12_02",
+      "SEN_M1_D12_03",
+      "SEN_M1_D12_04",
+      "SEN_M1_D12_05",
+      "SEN_M1_D12_06",
+      "SEN_M1_D12_07",
+      "SEN_M1_D12_08"
+    ],
+    "grammar_ids": [
+      "GR_M1_D12"
+    ],
+    "pronunciation_ids": [
+      "PR_M1_D12"
+    ],
+    "exercise_flow": [
+      "pattern_review",
+      "new_words",
+      "substitution",
+      "listen_shadow",
+      "memory_speaking",
+      "review_summary"
+    ],
+    "daily_flow": [
+      {
+        "id": "pattern_review",
+        "title": "Grammar & examples",
+        "kind": "pattern_review",
+        "target_count": 1,
+        "duration_minutes": 10
+      },
+      {
+        "id": "new_words",
+        "title": "Vocabulary in sentences",
+        "kind": "new_words",
+        "target_count": 11,
+        "duration_minutes": 10
+      },
+      {
+        "id": "substitution",
+        "title": "Sentence generation",
+        "kind": "substitution",
+        "target_count": 10,
+        "duration_minutes": 20
+      },
+      {
+        "id": "listen_shadow",
+        "title": "Listening and shadowing",
+        "kind": "listen_shadow",
+        "target_count": 8,
+        "duration_minutes": 10
+      },
+      {
+        "id": "memory_speaking",
+        "title": "Speak from memory",
+        "kind": "memory_speaking",
+        "target_count": 3,
+        "duration_minutes": 5
+      },
+      {
+        "id": "review_summary",
+        "title": "Quick review summary",
+        "kind": "review_summary",
+        "target_count": 1,
+        "duration_minutes": 5
+      }
+    ],
+    "mastery_threshold": 0.85
+  },
+  {
+    "id": "LESSON_M1_D13",
+    "week": 2,
+    "order": 13,
+    "title": "Measure words for objects",
+    "xp": 100,
+    "skills": [
+      "taiwan_mandarin",
+      "sentence_output",
+      "day_13"
+    ],
+    "vocab_ids": [
+      "VOC_M1_097",
+      "VOC_M1_098",
+      "VOC_M1_099",
+      "VOC_M1_100",
+      "VOC_M1_101",
+      "VOC_M1_102",
+      "VOC_M1_103"
+    ],
+    "sentence_ids": [
+      "SEN_M1_D13_01",
+      "SEN_M1_D13_02",
+      "SEN_M1_D13_03",
+      "SEN_M1_D13_04",
+      "SEN_M1_D13_05",
+      "SEN_M1_D13_06",
+      "SEN_M1_D13_07",
+      "SEN_M1_D13_08"
+    ],
+    "grammar_ids": [
+      "GR_M1_D13"
+    ],
+    "pronunciation_ids": [
+      "PR_M1_D13"
+    ],
+    "exercise_flow": [
+      "pattern_review",
+      "new_words",
+      "substitution",
+      "listen_shadow",
+      "memory_speaking",
+      "review_summary"
+    ],
+    "daily_flow": [
+      {
+        "id": "pattern_review",
+        "title": "Grammar & examples",
+        "kind": "pattern_review",
+        "target_count": 1,
+        "duration_minutes": 10
+      },
+      {
+        "id": "new_words",
+        "title": "Vocabulary in sentences",
+        "kind": "new_words",
+        "target_count": 7,
+        "duration_minutes": 10
+      },
+      {
+        "id": "substitution",
+        "title": "Sentence generation",
+        "kind": "substitution",
+        "target_count": 10,
+        "duration_minutes": 20
+      },
+      {
+        "id": "listen_shadow",
+        "title": "Listening and shadowing",
+        "kind": "listen_shadow",
+        "target_count": 8,
+        "duration_minutes": 10
+      },
+      {
+        "id": "memory_speaking",
+        "title": "Speak from memory",
+        "kind": "memory_speaking",
+        "target_count": 3,
+        "duration_minutes": 5
+      },
+      {
+        "id": "review_summary",
+        "title": "Quick review summary",
+        "kind": "review_summary",
+        "target_count": 1,
+        "duration_minutes": 5
+      }
+    ],
+    "mastery_threshold": 0.85
+  },
+  {
+    "id": "LESSON_M1_D14",
+    "week": 2,
+    "order": 14,
+    "title": "Week 2 restaurant conversation",
+    "xp": 140,
+    "skills": [
+      "taiwan_mandarin",
+      "sentence_output",
+      "day_14"
+    ],
+    "vocab_ids": [
+      "VOC_M1_060",
+      "VOC_M1_052",
+      "VOC_M1_051",
+      "VOC_M1_061",
+      "VOC_M1_050",
+      "VOC_M1_054",
+      "VOC_M1_055",
+      "VOC_M1_057",
+      "VOC_M1_056",
+      "VOC_M1_099",
+      "VOC_M1_097"
+    ],
+    "sentence_ids": [
+      "SEN_M1_D14_01",
+      "SEN_M1_D14_02",
+      "SEN_M1_D14_03",
+      "SEN_M1_D14_04",
+      "SEN_M1_D14_05",
+      "SEN_M1_D14_06",
+      "SEN_M1_D14_07",
+      "SEN_M1_D14_08"
+    ],
+    "grammar_ids": [
+      "GR_M1_D14"
+    ],
+    "pronunciation_ids": [
+      "PR_M1_D14"
+    ],
+    "exercise_flow": [
+      "pattern_review",
+      "new_words",
+      "substitution",
+      "listen_shadow",
+      "memory_speaking",
+      "review_summary"
+    ],
+    "daily_flow": [
+      {
+        "id": "pattern_review",
+        "title": "Grammar & examples",
+        "kind": "pattern_review",
+        "target_count": 1,
+        "duration_minutes": 10
+      },
+      {
+        "id": "new_words",
+        "title": "Vocabulary in sentences",
+        "kind": "new_words",
+        "target_count": 11,
+        "duration_minutes": 10
+      },
+      {
+        "id": "substitution",
+        "title": "Sentence generation",
+        "kind": "substitution",
+        "target_count": 10,
+        "duration_minutes": 20
+      },
+      {
+        "id": "listen_shadow",
+        "title": "Listening and shadowing",
+        "kind": "listen_shadow",
+        "target_count": 8,
+        "duration_minutes": 10
+      },
+      {
+        "id": "memory_speaking",
+        "title": "Speak from memory",
+        "kind": "memory_speaking",
+        "target_count": 3,
+        "duration_minutes": 5
+      },
+      {
+        "id": "review_summary",
+        "title": "Quick review summary",
+        "kind": "review_summary",
+        "target_count": 1,
+        "duration_minutes": 5
+      }
+    ],
+    "mastery_threshold": 0.85
+  },
+  {
+    "id": "LESSON_M1_D15",
+    "week": 3,
+    "order": 15,
+    "title": "Time words and telling the day",
+    "xp": 100,
+    "skills": [
+      "taiwan_mandarin",
+      "sentence_output",
+      "day_15"
+    ],
+    "vocab_ids": [
+      "VOC_M1_104",
+      "VOC_M1_105",
+      "VOC_M1_106",
+      "VOC_M1_107",
+      "VOC_M1_108",
+      "VOC_M1_109",
+      "VOC_M1_110"
+    ],
+    "sentence_ids": [
+      "SEN_M1_D15_01",
+      "SEN_M1_D15_02",
+      "SEN_M1_D15_03",
+      "SEN_M1_D15_04",
+      "SEN_M1_D15_05",
+      "SEN_M1_D15_06",
+      "SEN_M1_D15_07",
+      "SEN_M1_D15_08"
+    ],
+    "grammar_ids": [
+      "GR_M1_D15"
+    ],
+    "pronunciation_ids": [
+      "PR_M1_D15"
+    ],
+    "exercise_flow": [
+      "pattern_review",
+      "new_words",
+      "substitution",
+      "listen_shadow",
+      "memory_speaking",
+      "review_summary"
+    ],
+    "daily_flow": [
+      {
+        "id": "pattern_review",
+        "title": "Grammar & examples",
+        "kind": "pattern_review",
+        "target_count": 1,
+        "duration_minutes": 10
+      },
+      {
+        "id": "new_words",
+        "title": "Vocabulary in sentences",
+        "kind": "new_words",
+        "target_count": 7,
+        "duration_minutes": 10
+      },
+      {
+        "id": "substitution",
+        "title": "Sentence generation",
+        "kind": "substitution",
+        "target_count": 10,
+        "duration_minutes": 20
+      },
+      {
+        "id": "listen_shadow",
+        "title": "Listening and shadowing",
+        "kind": "listen_shadow",
+        "target_count": 8,
+        "duration_minutes": 10
+      },
+      {
+        "id": "memory_speaking",
+        "title": "Speak from memory",
+        "kind": "memory_speaking",
+        "target_count": 3,
+        "duration_minutes": 5
+      },
+      {
+        "id": "review_summary",
+        "title": "Quick review summary",
+        "kind": "review_summary",
+        "target_count": 1,
+        "duration_minutes": 5
+      }
+    ],
+    "mastery_threshold": 0.85
+  },
+  {
+    "id": "LESSON_M1_D16",
+    "week": 3,
+    "order": 16,
+    "title": "The particle 呢 and quantity questions",
+    "xp": 100,
+    "skills": [
+      "taiwan_mandarin",
+      "sentence_output",
+      "day_16"
+    ],
+    "vocab_ids": [
+      "VOC_M1_111",
+      "VOC_M1_112",
+      "VOC_M1_113",
+      "VOC_M1_114",
+      "VOC_M1_115",
+      "VOC_M1_116",
+      "VOC_M1_117"
+    ],
+    "sentence_ids": [
+      "SEN_M1_D16_01",
+      "SEN_M1_D16_02",
+      "SEN_M1_D16_03",
+      "SEN_M1_D16_04",
+      "SEN_M1_D16_05",
+      "SEN_M1_D16_06",
+      "SEN_M1_D16_07",
+      "SEN_M1_D16_08"
+    ],
+    "grammar_ids": [
+      "GR_M1_D16"
+    ],
+    "pronunciation_ids": [
+      "PR_M1_D16"
+    ],
+    "exercise_flow": [
+      "pattern_review",
+      "new_words",
+      "substitution",
+      "listen_shadow",
+      "memory_speaking",
+      "review_summary"
+    ],
+    "daily_flow": [
+      {
+        "id": "pattern_review",
+        "title": "Grammar & examples",
+        "kind": "pattern_review",
+        "target_count": 1,
+        "duration_minutes": 10
+      },
+      {
+        "id": "new_words",
+        "title": "Vocabulary in sentences",
+        "kind": "new_words",
+        "target_count": 7,
+        "duration_minutes": 10
+      },
+      {
+        "id": "substitution",
+        "title": "Sentence generation",
+        "kind": "substitution",
+        "target_count": 10,
+        "duration_minutes": 20
+      },
+      {
+        "id": "listen_shadow",
+        "title": "Listening and shadowing",
+        "kind": "listen_shadow",
+        "target_count": 8,
+        "duration_minutes": 10
+      },
+      {
+        "id": "memory_speaking",
+        "title": "Speak from memory",
+        "kind": "memory_speaking",
+        "target_count": 3,
+        "duration_minutes": 5
+      },
+      {
+        "id": "review_summary",
+        "title": "Quick review summary",
+        "kind": "review_summary",
+        "target_count": 1,
+        "duration_minutes": 5
+      }
+    ],
+    "mastery_threshold": 0.85
+  },
+  {
+    "id": "LESSON_M1_D17",
+    "week": 3,
+    "order": 17,
+    "title": "Polite requests with 可以嗎",
+    "xp": 100,
+    "skills": [
+      "taiwan_mandarin",
+      "sentence_output",
+      "day_17"
+    ],
+    "vocab_ids": [
+      "VOC_M1_118",
+      "VOC_M1_119",
+      "VOC_M1_120",
+      "VOC_M1_121",
+      "VOC_M1_122",
+      "VOC_M1_123",
+      "VOC_M1_124"
+    ],
+    "sentence_ids": [
+      "SEN_M1_D17_01",
+      "SEN_M1_D17_02",
+      "SEN_M1_D17_03",
+      "SEN_M1_D17_04",
+      "SEN_M1_D17_05",
+      "SEN_M1_D17_06",
+      "SEN_M1_D17_07",
+      "SEN_M1_D17_08"
+    ],
+    "grammar_ids": [
+      "GR_M1_D17"
+    ],
+    "pronunciation_ids": [
+      "PR_M1_D17"
+    ],
+    "exercise_flow": [
+      "pattern_review",
+      "new_words",
+      "substitution",
+      "listen_shadow",
+      "memory_speaking",
+      "review_summary"
+    ],
+    "daily_flow": [
+      {
+        "id": "pattern_review",
+        "title": "Grammar & examples",
+        "kind": "pattern_review",
+        "target_count": 1,
+        "duration_minutes": 10
+      },
+      {
+        "id": "new_words",
+        "title": "Vocabulary in sentences",
+        "kind": "new_words",
+        "target_count": 7,
+        "duration_minutes": 10
+      },
+      {
+        "id": "substitution",
+        "title": "Sentence generation",
+        "kind": "substitution",
+        "target_count": 10,
+        "duration_minutes": 20
+      },
+      {
+        "id": "listen_shadow",
+        "title": "Listening and shadowing",
+        "kind": "listen_shadow",
+        "target_count": 8,
+        "duration_minutes": 10
+      },
+      {
+        "id": "memory_speaking",
+        "title": "Speak from memory",
+        "kind": "memory_speaking",
+        "target_count": 3,
+        "duration_minutes": 5
+      },
+      {
+        "id": "review_summary",
+        "title": "Quick review summary",
+        "kind": "review_summary",
+        "target_count": 1,
+        "duration_minutes": 5
+      }
+    ],
+    "mastery_threshold": 0.85
+  },
+  {
+    "id": "LESSON_M1_D18",
+    "week": 3,
+    "order": 18,
+    "title": "Likes and preferences",
+    "xp": 100,
+    "skills": [
+      "taiwan_mandarin",
+      "sentence_output",
+      "day_18"
+    ],
+    "vocab_ids": [
+      "VOC_M1_125",
+      "VOC_M1_126",
+      "VOC_M1_127",
+      "VOC_M1_128",
+      "VOC_M1_129",
+      "VOC_M1_130",
+      "VOC_M1_131"
+    ],
+    "sentence_ids": [
+      "SEN_M1_D18_01",
+      "SEN_M1_D18_02",
+      "SEN_M1_D18_03",
+      "SEN_M1_D18_04",
+      "SEN_M1_D18_05",
+      "SEN_M1_D18_06",
+      "SEN_M1_D18_07",
+      "SEN_M1_D18_08"
+    ],
+    "grammar_ids": [
+      "GR_M1_D18"
+    ],
+    "pronunciation_ids": [
+      "PR_M1_D18"
+    ],
+    "exercise_flow": [
+      "pattern_review",
+      "new_words",
+      "substitution",
+      "listen_shadow",
+      "memory_speaking",
+      "review_summary"
+    ],
+    "daily_flow": [
+      {
+        "id": "pattern_review",
+        "title": "Grammar & examples",
+        "kind": "pattern_review",
+        "target_count": 1,
+        "duration_minutes": 10
+      },
+      {
+        "id": "new_words",
+        "title": "Vocabulary in sentences",
+        "kind": "new_words",
+        "target_count": 7,
+        "duration_minutes": 10
+      },
+      {
+        "id": "substitution",
+        "title": "Sentence generation",
+        "kind": "substitution",
+        "target_count": 10,
+        "duration_minutes": 20
+      },
+      {
+        "id": "listen_shadow",
+        "title": "Listening and shadowing",
+        "kind": "listen_shadow",
+        "target_count": 8,
+        "duration_minutes": 10
+      },
+      {
+        "id": "memory_speaking",
+        "title": "Speak from memory",
+        "kind": "memory_speaking",
+        "target_count": 3,
+        "duration_minutes": 5
+      },
+      {
+        "id": "review_summary",
+        "title": "Quick review summary",
+        "kind": "review_summary",
+        "target_count": 1,
+        "duration_minutes": 5
+      }
+    ],
+    "mastery_threshold": 0.85
+  },
+  {
+    "id": "LESSON_M1_D19",
+    "week": 3,
+    "order": 19,
+    "title": "Sequencing actions",
+    "xp": 100,
+    "skills": [
+      "taiwan_mandarin",
+      "sentence_output",
+      "day_19"
+    ],
+    "vocab_ids": [
+      "VOC_M1_132",
+      "VOC_M1_133",
+      "VOC_M1_134",
+      "VOC_M1_135",
+      "VOC_M1_136",
+      "VOC_M1_137",
+      "VOC_M1_138"
+    ],
+    "sentence_ids": [
+      "SEN_M1_D19_01",
+      "SEN_M1_D19_02",
+      "SEN_M1_D19_03",
+      "SEN_M1_D19_04",
+      "SEN_M1_D19_05",
+      "SEN_M1_D19_06",
+      "SEN_M1_D19_07",
+      "SEN_M1_D19_08"
+    ],
+    "grammar_ids": [
+      "GR_M1_D19"
+    ],
+    "pronunciation_ids": [
+      "PR_M1_D19"
+    ],
+    "exercise_flow": [
+      "pattern_review",
+      "new_words",
+      "substitution",
+      "listen_shadow",
+      "memory_speaking",
+      "review_summary"
+    ],
+    "daily_flow": [
+      {
+        "id": "pattern_review",
+        "title": "Grammar & examples",
+        "kind": "pattern_review",
+        "target_count": 1,
+        "duration_minutes": 10
+      },
+      {
+        "id": "new_words",
+        "title": "Vocabulary in sentences",
+        "kind": "new_words",
+        "target_count": 7,
+        "duration_minutes": 10
+      },
+      {
+        "id": "substitution",
+        "title": "Sentence generation",
+        "kind": "substitution",
+        "target_count": 10,
+        "duration_minutes": 20
+      },
+      {
+        "id": "listen_shadow",
+        "title": "Listening and shadowing",
+        "kind": "listen_shadow",
+        "target_count": 8,
+        "duration_minutes": 10
+      },
+      {
+        "id": "memory_speaking",
+        "title": "Speak from memory",
+        "kind": "memory_speaking",
+        "target_count": 3,
+        "duration_minutes": 5
+      },
+      {
+        "id": "review_summary",
+        "title": "Quick review summary",
+        "kind": "review_summary",
+        "target_count": 1,
+        "duration_minutes": 5
+      }
+    ],
+    "mastery_threshold": 0.85
+  },
+  {
+    "id": "LESSON_M1_D20",
+    "week": 3,
+    "order": 20,
+    "title": "Location phrases with 在",
+    "xp": 100,
+    "skills": [
+      "taiwan_mandarin",
+      "sentence_output",
+      "day_20"
+    ],
+    "vocab_ids": [
+      "VOC_M1_139",
+      "VOC_M1_140",
+      "VOC_M1_141",
+      "VOC_M1_142",
+      "VOC_M1_143",
+      "VOC_M1_144",
+      "VOC_M1_145",
+      "VOC_M1_146"
+    ],
+    "sentence_ids": [
+      "SEN_M1_D20_01",
+      "SEN_M1_D20_02",
+      "SEN_M1_D20_03",
+      "SEN_M1_D20_04",
+      "SEN_M1_D20_05",
+      "SEN_M1_D20_06",
+      "SEN_M1_D20_07",
+      "SEN_M1_D20_08"
+    ],
+    "grammar_ids": [
+      "GR_M1_D20"
+    ],
+    "pronunciation_ids": [
+      "PR_M1_D20"
+    ],
+    "exercise_flow": [
+      "pattern_review",
+      "new_words",
+      "substitution",
+      "listen_shadow",
+      "memory_speaking",
+      "review_summary"
+    ],
+    "daily_flow": [
+      {
+        "id": "pattern_review",
+        "title": "Grammar & examples",
+        "kind": "pattern_review",
+        "target_count": 1,
+        "duration_minutes": 10
+      },
+      {
+        "id": "new_words",
+        "title": "Vocabulary in sentences",
+        "kind": "new_words",
+        "target_count": 8,
+        "duration_minutes": 10
+      },
+      {
+        "id": "substitution",
+        "title": "Sentence generation",
+        "kind": "substitution",
+        "target_count": 10,
+        "duration_minutes": 20
+      },
+      {
+        "id": "listen_shadow",
+        "title": "Listening and shadowing",
+        "kind": "listen_shadow",
+        "target_count": 8,
+        "duration_minutes": 10
+      },
+      {
+        "id": "memory_speaking",
+        "title": "Speak from memory",
+        "kind": "memory_speaking",
+        "target_count": 3,
+        "duration_minutes": 5
+      },
+      {
+        "id": "review_summary",
+        "title": "Quick review summary",
+        "kind": "review_summary",
+        "target_count": 1,
+        "duration_minutes": 5
+      }
+    ],
+    "mastery_threshold": 0.85
+  },
+  {
+    "id": "LESSON_M1_D21",
+    "week": 3,
+    "order": 21,
+    "title": "Week 3 outing role-play",
+    "xp": 140,
+    "skills": [
+      "taiwan_mandarin",
+      "sentence_output",
+      "day_21"
+    ],
+    "vocab_ids": [
+      "VOC_M1_104",
+      "VOC_M1_107",
+      "VOC_M1_118",
+      "VOC_M1_068",
+      "VOC_M1_132",
+      "VOC_M1_133",
+      "VOC_M1_139",
+      "VOC_M1_146",
+      "VOC_M1_047",
+      "VOC_M1_070"
+    ],
+    "sentence_ids": [
+      "SEN_M1_D21_01",
+      "SEN_M1_D21_02",
+      "SEN_M1_D21_03",
+      "SEN_M1_D21_04",
+      "SEN_M1_D21_05",
+      "SEN_M1_D21_06",
+      "SEN_M1_D21_07",
+      "SEN_M1_D21_08"
+    ],
+    "grammar_ids": [
+      "GR_M1_D21"
+    ],
+    "pronunciation_ids": [
+      "PR_M1_D21"
+    ],
+    "exercise_flow": [
+      "pattern_review",
+      "new_words",
+      "substitution",
+      "listen_shadow",
+      "memory_speaking",
+      "review_summary"
+    ],
+    "daily_flow": [
+      {
+        "id": "pattern_review",
+        "title": "Grammar & examples",
+        "kind": "pattern_review",
+        "target_count": 1,
+        "duration_minutes": 10
+      },
+      {
+        "id": "new_words",
+        "title": "Vocabulary in sentences",
+        "kind": "new_words",
+        "target_count": 10,
+        "duration_minutes": 10
+      },
+      {
+        "id": "substitution",
+        "title": "Sentence generation",
+        "kind": "substitution",
+        "target_count": 10,
+        "duration_minutes": 20
+      },
+      {
+        "id": "listen_shadow",
+        "title": "Listening and shadowing",
+        "kind": "listen_shadow",
+        "target_count": 8,
+        "duration_minutes": 10
+      },
+      {
+        "id": "memory_speaking",
+        "title": "Speak from memory",
+        "kind": "memory_speaking",
+        "target_count": 3,
+        "duration_minutes": 5
+      },
+      {
+        "id": "review_summary",
+        "title": "Quick review summary",
+        "kind": "review_summary",
+        "target_count": 1,
+        "duration_minutes": 5
+      }
+    ],
+    "mastery_threshold": 0.85
+  },
+  {
+    "id": "LESSON_M1_D22",
+    "week": 4,
+    "order": 22,
+    "title": "Places and transport",
+    "xp": 100,
+    "skills": [
+      "taiwan_mandarin",
+      "sentence_output",
+      "day_22"
+    ],
+    "vocab_ids": [
+      "VOC_M1_147",
+      "VOC_M1_148",
+      "VOC_M1_149",
+      "VOC_M1_150",
+      "VOC_M1_151",
+      "VOC_M1_152",
+      "VOC_M1_153",
+      "VOC_M1_154",
+      "VOC_M1_155",
+      "VOC_M1_156"
+    ],
+    "sentence_ids": [
+      "SEN_M1_D22_01",
+      "SEN_M1_D22_02",
+      "SEN_M1_D22_03",
+      "SEN_M1_D22_04",
+      "SEN_M1_D22_05",
+      "SEN_M1_D22_06",
+      "SEN_M1_D22_07",
+      "SEN_M1_D22_08"
+    ],
+    "grammar_ids": [
+      "GR_M1_D22"
+    ],
+    "pronunciation_ids": [
+      "PR_M1_D22"
+    ],
+    "exercise_flow": [
+      "pattern_review",
+      "new_words",
+      "substitution",
+      "listen_shadow",
+      "memory_speaking",
+      "review_summary"
+    ],
+    "daily_flow": [
+      {
+        "id": "pattern_review",
+        "title": "Grammar & examples",
+        "kind": "pattern_review",
+        "target_count": 1,
+        "duration_minutes": 10
+      },
+      {
+        "id": "new_words",
+        "title": "Vocabulary in sentences",
+        "kind": "new_words",
+        "target_count": 10,
+        "duration_minutes": 10
+      },
+      {
+        "id": "substitution",
+        "title": "Sentence generation",
+        "kind": "substitution",
+        "target_count": 10,
+        "duration_minutes": 20
+      },
+      {
+        "id": "listen_shadow",
+        "title": "Listening and shadowing",
+        "kind": "listen_shadow",
+        "target_count": 8,
+        "duration_minutes": 10
+      },
+      {
+        "id": "memory_speaking",
+        "title": "Speak from memory",
+        "kind": "memory_speaking",
+        "target_count": 3,
+        "duration_minutes": 5
+      },
+      {
+        "id": "review_summary",
+        "title": "Quick review summary",
+        "kind": "review_summary",
+        "target_count": 1,
+        "duration_minutes": 5
+      }
+    ],
+    "mastery_threshold": 0.85
+  },
+  {
+    "id": "LESSON_M1_D23",
+    "week": 4,
+    "order": 23,
+    "title": "Adjectives and comparisons",
+    "xp": 100,
+    "skills": [
+      "taiwan_mandarin",
+      "sentence_output",
+      "day_23"
+    ],
+    "vocab_ids": [
+      "VOC_M1_157",
+      "VOC_M1_158",
+      "VOC_M1_159",
+      "VOC_M1_160",
+      "VOC_M1_161",
+      "VOC_M1_162",
+      "VOC_M1_163"
+    ],
+    "sentence_ids": [
+      "SEN_M1_D23_01",
+      "SEN_M1_D23_02",
+      "SEN_M1_D23_03",
+      "SEN_M1_D23_04",
+      "SEN_M1_D23_05",
+      "SEN_M1_D23_06",
+      "SEN_M1_D23_07",
+      "SEN_M1_D23_08"
+    ],
+    "grammar_ids": [
+      "GR_M1_D23"
+    ],
+    "pronunciation_ids": [
+      "PR_M1_D23"
+    ],
+    "exercise_flow": [
+      "pattern_review",
+      "new_words",
+      "substitution",
+      "listen_shadow",
+      "memory_speaking",
+      "review_summary"
+    ],
+    "daily_flow": [
+      {
+        "id": "pattern_review",
+        "title": "Grammar & examples",
+        "kind": "pattern_review",
+        "target_count": 1,
+        "duration_minutes": 10
+      },
+      {
+        "id": "new_words",
+        "title": "Vocabulary in sentences",
+        "kind": "new_words",
+        "target_count": 7,
+        "duration_minutes": 10
+      },
+      {
+        "id": "substitution",
+        "title": "Sentence generation",
+        "kind": "substitution",
+        "target_count": 10,
+        "duration_minutes": 20
+      },
+      {
+        "id": "listen_shadow",
+        "title": "Listening and shadowing",
+        "kind": "listen_shadow",
+        "target_count": 8,
+        "duration_minutes": 10
+      },
+      {
+        "id": "memory_speaking",
+        "title": "Speak from memory",
+        "kind": "memory_speaking",
+        "target_count": 3,
+        "duration_minutes": 5
+      },
+      {
+        "id": "review_summary",
+        "title": "Quick review summary",
+        "kind": "review_summary",
+        "target_count": 1,
+        "duration_minutes": 5
+      }
+    ],
+    "mastery_threshold": 0.85
+  },
+  {
+    "id": "LESSON_M1_D24",
+    "week": 4,
+    "order": 24,
+    "title": "Directions around town",
+    "xp": 100,
+    "skills": [
+      "taiwan_mandarin",
+      "sentence_output",
+      "day_24"
+    ],
+    "vocab_ids": [
+      "VOC_M1_164",
+      "VOC_M1_165",
+      "VOC_M1_166",
+      "VOC_M1_167",
+      "VOC_M1_168",
+      "VOC_M1_169",
+      "VOC_M1_170"
+    ],
+    "sentence_ids": [
+      "SEN_M1_D24_01",
+      "SEN_M1_D24_02",
+      "SEN_M1_D24_03",
+      "SEN_M1_D24_04",
+      "SEN_M1_D24_05",
+      "SEN_M1_D24_06",
+      "SEN_M1_D24_07",
+      "SEN_M1_D24_08"
+    ],
+    "grammar_ids": [
+      "GR_M1_D24"
+    ],
+    "pronunciation_ids": [
+      "PR_M1_D24"
+    ],
+    "exercise_flow": [
+      "pattern_review",
+      "new_words",
+      "substitution",
+      "listen_shadow",
+      "memory_speaking",
+      "review_summary"
+    ],
+    "daily_flow": [
+      {
+        "id": "pattern_review",
+        "title": "Grammar & examples",
+        "kind": "pattern_review",
+        "target_count": 1,
+        "duration_minutes": 10
+      },
+      {
+        "id": "new_words",
+        "title": "Vocabulary in sentences",
+        "kind": "new_words",
+        "target_count": 7,
+        "duration_minutes": 10
+      },
+      {
+        "id": "substitution",
+        "title": "Sentence generation",
+        "kind": "substitution",
+        "target_count": 10,
+        "duration_minutes": 20
+      },
+      {
+        "id": "listen_shadow",
+        "title": "Listening and shadowing",
+        "kind": "listen_shadow",
+        "target_count": 8,
+        "duration_minutes": 10
+      },
+      {
+        "id": "memory_speaking",
+        "title": "Speak from memory",
+        "kind": "memory_speaking",
+        "target_count": 3,
+        "duration_minutes": 5
+      },
+      {
+        "id": "review_summary",
+        "title": "Quick review summary",
+        "kind": "review_summary",
+        "target_count": 1,
+        "duration_minutes": 5
+      }
+    ],
+    "mastery_threshold": 0.85
+  },
+  {
+    "id": "LESSON_M1_D25",
+    "week": 4,
+    "order": 25,
+    "title": "Needs and obligations",
+    "xp": 100,
+    "skills": [
+      "taiwan_mandarin",
+      "sentence_output",
+      "day_25"
+    ],
+    "vocab_ids": [
+      "VOC_M1_171",
+      "VOC_M1_172",
+      "VOC_M1_173",
+      "VOC_M1_174",
+      "VOC_M1_175",
+      "VOC_M1_176",
+      "VOC_M1_177",
+      "VOC_M1_178"
+    ],
+    "sentence_ids": [
+      "SEN_M1_D25_01",
+      "SEN_M1_D25_02",
+      "SEN_M1_D25_03",
+      "SEN_M1_D25_04",
+      "SEN_M1_D25_05",
+      "SEN_M1_D25_06",
+      "SEN_M1_D25_07",
+      "SEN_M1_D25_08"
+    ],
+    "grammar_ids": [
+      "GR_M1_D25"
+    ],
+    "pronunciation_ids": [
+      "PR_M1_D25"
+    ],
+    "exercise_flow": [
+      "pattern_review",
+      "new_words",
+      "substitution",
+      "listen_shadow",
+      "memory_speaking",
+      "review_summary"
+    ],
+    "daily_flow": [
+      {
+        "id": "pattern_review",
+        "title": "Grammar & examples",
+        "kind": "pattern_review",
+        "target_count": 1,
+        "duration_minutes": 10
+      },
+      {
+        "id": "new_words",
+        "title": "Vocabulary in sentences",
+        "kind": "new_words",
+        "target_count": 8,
+        "duration_minutes": 10
+      },
+      {
+        "id": "substitution",
+        "title": "Sentence generation",
+        "kind": "substitution",
+        "target_count": 10,
+        "duration_minutes": 20
+      },
+      {
+        "id": "listen_shadow",
+        "title": "Listening and shadowing",
+        "kind": "listen_shadow",
+        "target_count": 8,
+        "duration_minutes": 10
+      },
+      {
+        "id": "memory_speaking",
+        "title": "Speak from memory",
+        "kind": "memory_speaking",
+        "target_count": 3,
+        "duration_minutes": 5
+      },
+      {
+        "id": "review_summary",
+        "title": "Quick review summary",
+        "kind": "review_summary",
+        "target_count": 1,
+        "duration_minutes": 5
+      }
+    ],
+    "mastery_threshold": 0.85
+  },
+  {
+    "id": "LESSON_M1_D26",
+    "week": 4,
+    "order": 26,
+    "title": "Invitations and polite requests",
+    "xp": 100,
+    "skills": [
+      "taiwan_mandarin",
+      "sentence_output",
+      "day_26"
+    ],
+    "vocab_ids": [
+      "VOC_M1_179",
+      "VOC_M1_180",
+      "VOC_M1_181",
+      "VOC_M1_182",
+      "VOC_M1_183",
+      "VOC_M1_184",
+      "VOC_M1_185",
+      "VOC_M1_186"
+    ],
+    "sentence_ids": [
+      "SEN_M1_D26_01",
+      "SEN_M1_D26_02",
+      "SEN_M1_D26_03",
+      "SEN_M1_D26_04",
+      "SEN_M1_D26_05",
+      "SEN_M1_D26_06",
+      "SEN_M1_D26_07",
+      "SEN_M1_D26_08"
+    ],
+    "grammar_ids": [
+      "GR_M1_D26"
+    ],
+    "pronunciation_ids": [
+      "PR_M1_D26"
+    ],
+    "exercise_flow": [
+      "pattern_review",
+      "new_words",
+      "substitution",
+      "listen_shadow",
+      "memory_speaking",
+      "review_summary"
+    ],
+    "daily_flow": [
+      {
+        "id": "pattern_review",
+        "title": "Grammar & examples",
+        "kind": "pattern_review",
+        "target_count": 1,
+        "duration_minutes": 10
+      },
+      {
+        "id": "new_words",
+        "title": "Vocabulary in sentences",
+        "kind": "new_words",
+        "target_count": 8,
+        "duration_minutes": 10
+      },
+      {
+        "id": "substitution",
+        "title": "Sentence generation",
+        "kind": "substitution",
+        "target_count": 10,
+        "duration_minutes": 20
+      },
+      {
+        "id": "listen_shadow",
+        "title": "Listening and shadowing",
+        "kind": "listen_shadow",
+        "target_count": 8,
+        "duration_minutes": 10
+      },
+      {
+        "id": "memory_speaking",
+        "title": "Speak from memory",
+        "kind": "memory_speaking",
+        "target_count": 3,
+        "duration_minutes": 5
+      },
+      {
+        "id": "review_summary",
+        "title": "Quick review summary",
+        "kind": "review_summary",
+        "target_count": 1,
+        "duration_minutes": 5
+      }
+    ],
+    "mastery_threshold": 0.85
+  },
+  {
+    "id": "LESSON_M1_D27",
+    "week": 4,
+    "order": 27,
+    "title": "Hobbies and preferences",
+    "xp": 100,
+    "skills": [
+      "taiwan_mandarin",
+      "sentence_output",
+      "day_27"
+    ],
+    "vocab_ids": [
+      "VOC_M1_187",
+      "VOC_M1_188",
+      "VOC_M1_189",
+      "VOC_M1_190",
+      "VOC_M1_191",
+      "VOC_M1_192",
+      "VOC_M1_193"
+    ],
+    "sentence_ids": [
+      "SEN_M1_D27_01",
+      "SEN_M1_D27_02",
+      "SEN_M1_D27_03",
+      "SEN_M1_D27_04",
+      "SEN_M1_D27_05",
+      "SEN_M1_D27_06",
+      "SEN_M1_D27_07",
+      "SEN_M1_D27_08"
+    ],
+    "grammar_ids": [
+      "GR_M1_D27"
+    ],
+    "pronunciation_ids": [
+      "PR_M1_D27"
+    ],
+    "exercise_flow": [
+      "pattern_review",
+      "new_words",
+      "substitution",
+      "listen_shadow",
+      "memory_speaking",
+      "review_summary"
+    ],
+    "daily_flow": [
+      {
+        "id": "pattern_review",
+        "title": "Grammar & examples",
+        "kind": "pattern_review",
+        "target_count": 1,
+        "duration_minutes": 10
+      },
+      {
+        "id": "new_words",
+        "title": "Vocabulary in sentences",
+        "kind": "new_words",
+        "target_count": 7,
+        "duration_minutes": 10
+      },
+      {
+        "id": "substitution",
+        "title": "Sentence generation",
+        "kind": "substitution",
+        "target_count": 10,
+        "duration_minutes": 20
+      },
+      {
+        "id": "listen_shadow",
+        "title": "Listening and shadowing",
+        "kind": "listen_shadow",
+        "target_count": 8,
+        "duration_minutes": 10
+      },
+      {
+        "id": "memory_speaking",
+        "title": "Speak from memory",
+        "kind": "memory_speaking",
+        "target_count": 3,
+        "duration_minutes": 5
+      },
+      {
+        "id": "review_summary",
+        "title": "Quick review summary",
+        "kind": "review_summary",
+        "target_count": 1,
+        "duration_minutes": 5
+      }
+    ],
+    "mastery_threshold": 0.85
+  },
+  {
+    "id": "LESSON_M1_D28",
+    "week": 4,
+    "order": 28,
+    "title": "Plans and future events",
+    "xp": 100,
+    "skills": [
+      "taiwan_mandarin",
+      "sentence_output",
+      "day_28"
+    ],
+    "vocab_ids": [
+      "VOC_M1_194",
+      "VOC_M1_195",
+      "VOC_M1_196",
+      "VOC_M1_197",
+      "VOC_M1_198",
+      "VOC_M1_199",
+      "VOC_M1_200"
+    ],
+    "sentence_ids": [
+      "SEN_M1_D28_01",
+      "SEN_M1_D28_02",
+      "SEN_M1_D28_03",
+      "SEN_M1_D28_04",
+      "SEN_M1_D28_05",
+      "SEN_M1_D28_06",
+      "SEN_M1_D28_07",
+      "SEN_M1_D28_08"
+    ],
+    "grammar_ids": [
+      "GR_M1_D28"
+    ],
+    "pronunciation_ids": [
+      "PR_M1_D28"
+    ],
+    "exercise_flow": [
+      "pattern_review",
+      "new_words",
+      "substitution",
+      "listen_shadow",
+      "memory_speaking",
+      "review_summary"
+    ],
+    "daily_flow": [
+      {
+        "id": "pattern_review",
+        "title": "Grammar & examples",
+        "kind": "pattern_review",
+        "target_count": 1,
+        "duration_minutes": 10
+      },
+      {
+        "id": "new_words",
+        "title": "Vocabulary in sentences",
+        "kind": "new_words",
+        "target_count": 7,
+        "duration_minutes": 10
+      },
+      {
+        "id": "substitution",
+        "title": "Sentence generation",
+        "kind": "substitution",
+        "target_count": 10,
+        "duration_minutes": 20
+      },
+      {
+        "id": "listen_shadow",
+        "title": "Listening and shadowing",
+        "kind": "listen_shadow",
+        "target_count": 8,
+        "duration_minutes": 10
+      },
+      {
+        "id": "memory_speaking",
+        "title": "Speak from memory",
+        "kind": "memory_speaking",
+        "target_count": 3,
+        "duration_minutes": 5
+      },
+      {
+        "id": "review_summary",
+        "title": "Quick review summary",
+        "kind": "review_summary",
+        "target_count": 1,
+        "duration_minutes": 5
+      }
+    ],
+    "mastery_threshold": 0.85
+  },
+  {
+    "id": "LESSON_M1_D29",
+    "week": 5,
+    "order": 29,
+    "title": "Daily routine storytelling",
+    "xp": 140,
+    "skills": [
+      "taiwan_mandarin",
+      "sentence_output",
+      "day_29"
+    ],
+    "vocab_ids": [
+      "VOC_M1_110",
+      "VOC_M1_107",
+      "VOC_M1_132",
+      "VOC_M1_133",
+      "VOC_M1_139",
+      "VOC_M1_050",
+      "VOC_M1_079",
+      "VOC_M1_081",
+      "VOC_M1_076",
+      "VOC_M1_138"
+    ],
+    "sentence_ids": [
+      "SEN_M1_D29_01",
+      "SEN_M1_D29_02",
+      "SEN_M1_D29_03",
+      "SEN_M1_D29_04",
+      "SEN_M1_D29_05",
+      "SEN_M1_D29_06",
+      "SEN_M1_D29_07",
+      "SEN_M1_D29_08"
+    ],
+    "grammar_ids": [
+      "GR_M1_D29"
+    ],
+    "pronunciation_ids": [
+      "PR_M1_D29"
+    ],
+    "exercise_flow": [
+      "pattern_review",
+      "new_words",
+      "substitution",
+      "listen_shadow",
+      "memory_speaking",
+      "review_summary"
+    ],
+    "daily_flow": [
+      {
+        "id": "pattern_review",
+        "title": "Grammar & examples",
+        "kind": "pattern_review",
+        "target_count": 1,
+        "duration_minutes": 10
+      },
+      {
+        "id": "new_words",
+        "title": "Vocabulary in sentences",
+        "kind": "new_words",
+        "target_count": 10,
+        "duration_minutes": 10
+      },
+      {
+        "id": "substitution",
+        "title": "Sentence generation",
+        "kind": "substitution",
+        "target_count": 10,
+        "duration_minutes": 20
+      },
+      {
+        "id": "listen_shadow",
+        "title": "Listening and shadowing",
+        "kind": "listen_shadow",
+        "target_count": 8,
+        "duration_minutes": 10
+      },
+      {
+        "id": "memory_speaking",
+        "title": "Speak from memory",
+        "kind": "memory_speaking",
+        "target_count": 3,
+        "duration_minutes": 5
+      },
+      {
+        "id": "review_summary",
+        "title": "Quick review summary",
+        "kind": "review_summary",
+        "target_count": 1,
+        "duration_minutes": 5
+      }
+    ],
+    "mastery_threshold": 0.85
+  },
+  {
+    "id": "LESSON_M1_D30",
+    "week": 5,
+    "order": 30,
+    "title": "Final conversation review",
+    "xp": 140,
+    "skills": [
+      "taiwan_mandarin",
+      "sentence_output",
+      "day_30"
+    ],
+    "vocab_ids": [
+      "VOC_M1_001",
+      "VOC_M1_008",
+      "VOC_M1_039",
+      "VOC_M1_068",
+      "VOC_M1_050",
+      "VOC_M1_118",
+      "VOC_M1_139",
+      "VOC_M1_157",
+      "VOC_M1_171",
+      "VOC_M1_195"
+    ],
+    "sentence_ids": [
+      "SEN_M1_D30_01",
+      "SEN_M1_D30_02",
+      "SEN_M1_D30_03",
+      "SEN_M1_D30_04",
+      "SEN_M1_D30_05",
+      "SEN_M1_D30_06",
+      "SEN_M1_D30_07",
+      "SEN_M1_D30_08"
+    ],
+    "grammar_ids": [
+      "GR_M1_D30"
+    ],
+    "pronunciation_ids": [
+      "PR_M1_D30"
+    ],
+    "exercise_flow": [
+      "pattern_review",
+      "new_words",
+      "substitution",
+      "listen_shadow",
+      "memory_speaking",
+      "review_summary"
+    ],
+    "daily_flow": [
+      {
+        "id": "pattern_review",
+        "title": "Grammar & examples",
+        "kind": "pattern_review",
+        "target_count": 1,
+        "duration_minutes": 10
+      },
+      {
+        "id": "new_words",
+        "title": "Vocabulary in sentences",
+        "kind": "new_words",
+        "target_count": 10,
+        "duration_minutes": 10
+      },
+      {
+        "id": "substitution",
+        "title": "Sentence generation",
+        "kind": "substitution",
+        "target_count": 10,
+        "duration_minutes": 20
+      },
+      {
+        "id": "listen_shadow",
+        "title": "Listening and shadowing",
+        "kind": "listen_shadow",
+        "target_count": 8,
+        "duration_minutes": 10
+      },
+      {
+        "id": "memory_speaking",
+        "title": "Speak from memory",
+        "kind": "memory_speaking",
+        "target_count": 3,
+        "duration_minutes": 5
+      },
+      {
+        "id": "review_summary",
+        "title": "Quick review summary",
+        "kind": "review_summary",
+        "target_count": 1,
+        "duration_minutes": 5
       }
     ],
     "mastery_threshold": 0.85

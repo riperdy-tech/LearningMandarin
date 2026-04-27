@@ -1,74 +1,4823 @@
 [
   {
-    "id": "SEN_M1_W1_001",
-    "text": "你好，我叫王明。",
-    "pinyin": "nǐ hǎo, wǒ jiào wáng míng.",
-    "pinyin_numeric": "ni3 hao3 wo3 jiao4 wang2 ming2",
-    "translation_en": "Hello, my name is Wang Ming.",
-    "translation_ko": "안녕하세요 저는 왕밍입니다.",
+    "id": "SEN_M1_D01_01",
+    "text": "你好，我是李明。",
+    "pinyin": "Nǐ hǎo, wǒ shì Lǐ Míng.",
+    "pinyin_numeric": "Ni3 hao3, wo3 shi4 Li3 Ming2.",
+    "translation_en": "Hello, I am Li Ming.",
+    "translation_ko": "안녕하세요, 저는 리밍입니다.",
     "tokens": [
       "你好",
       "我",
-      "叫",
-      "王明"
+      "是",
+      "李",
+      "明"
     ],
     "grammar_ids": [
-      "GR_M1_001"
+      "GR_M1_D01"
     ],
-    "audio_id": "AUD_SEN_M1_W1_001",
+    "audio_id": "AUD_SEN_M1_D01_01",
     "difficulty": 1
   },
   {
-    "id": "SEN_M1_W1_002",
-    "text": "我是學生。",
-    "pinyin": "wǒ shì xuéshēng.",
-    "pinyin_numeric": "wo3 shi4 xue2 sheng1",
-    "translation_en": "I am a student.",
-    "translation_ko": "나는 학생이다.",
+    "id": "SEN_M1_D01_02",
+    "text": "我叫王芳。",
+    "pinyin": "Wǒ jiào Wáng Fāng.",
+    "pinyin_numeric": "Wo3 jiao4 Wang2 Fang1.",
+    "translation_en": "My name is Wang Fang.",
+    "translation_ko": "저는 왕팡이라고 합니다.",
+    "tokens": [
+      "我",
+      "叫",
+      "王",
+      "芳"
+    ],
+    "grammar_ids": [
+      "GR_M1_D01"
+    ],
+    "audio_id": "AUD_SEN_M1_D01_02",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D01_03",
+    "text": "你是學生嗎？",
+    "pinyin": "Nǐ shì xuéshēng ma?",
+    "pinyin_numeric": "Ni3 shi4 xuesheng1 ma0?",
+    "translation_en": "Are you a student?",
+    "translation_ko": "당신은 학생입니까?",
+    "tokens": [
+      "你",
+      "是",
+      "學",
+      "生",
+      "嗎"
+    ],
+    "grammar_ids": [
+      "GR_M1_D01"
+    ],
+    "audio_id": "AUD_SEN_M1_D01_03",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D01_04",
+    "text": "他是老師。",
+    "pinyin": "Tā shì lǎoshī.",
+    "pinyin_numeric": "Ta1 shi4 laoshi1.",
+    "translation_en": "He is a teacher.",
+    "translation_ko": "그는 선생님입니다.",
+    "tokens": [
+      "他",
+      "是",
+      "老",
+      "師"
+    ],
+    "grammar_ids": [
+      "GR_M1_D01"
+    ],
+    "audio_id": "AUD_SEN_M1_D01_04",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D01_05",
+    "text": "她是我的朋友。",
+    "pinyin": "Tā shì wǒ de péngyǒu.",
+    "pinyin_numeric": "Ta1 shi4 wo3 de0 pengyou3.",
+    "translation_en": "She is my friend.",
+    "translation_ko": "그녀는 제 친구입니다.",
+    "tokens": [
+      "她",
+      "是",
+      "我",
+      "的",
+      "朋",
+      "友"
+    ],
+    "grammar_ids": [
+      "GR_M1_D01"
+    ],
+    "audio_id": "AUD_SEN_M1_D01_05",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D01_06",
+    "text": "我們是朋友。",
+    "pinyin": "Wǒmen shì péngyǒu.",
+    "pinyin_numeric": "Women3 shi4 pengyou3.",
+    "translation_en": "We are friends.",
+    "translation_ko": "우리는 친구입니다.",
+    "tokens": [
+      "我們",
+      "是",
+      "朋",
+      "友"
+    ],
+    "grammar_ids": [
+      "GR_M1_D01"
+    ],
+    "audio_id": "AUD_SEN_M1_D01_06",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D01_07",
+    "text": "你叫什麼名字？",
+    "pinyin": "Nǐ jiào shénme míngzi?",
+    "pinyin_numeric": "Ni3 jiao4 shenme2 mingzi2?",
+    "translation_en": "What is your name?",
+    "translation_ko": "이름이 무엇입니까?",
+    "tokens": [
+      "你",
+      "叫",
+      "什",
+      "麼",
+      "名",
+      "字"
+    ],
+    "grammar_ids": [
+      "GR_M1_D01"
+    ],
+    "audio_id": "AUD_SEN_M1_D01_07",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D01_08",
+    "text": "我是韓國人。",
+    "pinyin": "Wǒ shì Hánguó rén.",
+    "pinyin_numeric": "Wo3 shi4 Hanguo2 ren2.",
+    "translation_en": "I am Korean.",
+    "translation_ko": "저는 한국 사람입니다.",
     "tokens": [
       "我",
       "是",
-      "學生"
+      "韓",
+      "國",
+      "人"
     ],
     "grammar_ids": [
-      "GR_M1_002"
+      "GR_M1_D01"
     ],
-    "audio_id": "AUD_SEN_M1_W1_002",
+    "audio_id": "AUD_SEN_M1_D01_08",
     "difficulty": 1
   },
   {
-    "id": "SEN_M1_W1_003",
+    "id": "SEN_M1_D02_01",
     "text": "你是老師嗎？",
-    "pinyin": "nǐ shì lǎoshī ma?",
-    "pinyin_numeric": "ni3 shi4 lao3 shi1 ma0",
+    "pinyin": "Nǐ shì lǎoshī ma?",
+    "pinyin_numeric": "Ni3 shi4 laoshi1 ma0?",
     "translation_en": "Are you a teacher?",
     "translation_ko": "당신은 선생님입니까?",
     "tokens": [
       "你",
       "是",
-      "老師",
+      "老",
+      "師",
       "嗎"
     ],
     "grammar_ids": [
-      "GR_M1_003"
+      "GR_M1_D02"
     ],
-    "audio_id": "AUD_SEN_M1_W1_003",
+    "audio_id": "AUD_SEN_M1_D02_01",
     "difficulty": 1
   },
   {
-    "id": "SEN_M1_W1_005",
-    "text": "我很好。",
-    "pinyin": "wǒ hěn hǎo.",
-    "pinyin_numeric": "wo3 hen3 hao3",
-    "translation_en": "I am fine.",
-    "translation_ko": "나는 잘 지냅니다.",
+    "id": "SEN_M1_D02_02",
+    "text": "他是學生嗎？",
+    "pinyin": "Tā shì xuéshēng ma?",
+    "pinyin_numeric": "Ta1 shi4 xuesheng1 ma0?",
+    "translation_en": "Is he a student?",
+    "translation_ko": "그는 학생입니까?",
+    "tokens": [
+      "他",
+      "是",
+      "學",
+      "生",
+      "嗎"
+    ],
+    "grammar_ids": [
+      "GR_M1_D02"
+    ],
+    "audio_id": "AUD_SEN_M1_D02_02",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D02_03",
+    "text": "這是一。",
+    "pinyin": "Zhè shì yī.",
+    "pinyin_numeric": "Zhe4 shi4 yi1.",
+    "translation_en": "This is one.",
+    "translation_ko": "이것은 1입니다.",
+    "tokens": [
+      "這",
+      "是",
+      "一"
+    ],
+    "grammar_ids": [
+      "GR_M1_D02"
+    ],
+    "audio_id": "AUD_SEN_M1_D02_03",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D02_04",
+    "text": "這是三嗎？",
+    "pinyin": "Zhè shì sān ma?",
+    "pinyin_numeric": "Zhe4 shi4 san1 ma0?",
+    "translation_en": "Is this three?",
+    "translation_ko": "이것은 3입니까?",
+    "tokens": [
+      "這",
+      "是",
+      "三",
+      "嗎"
+    ],
+    "grammar_ids": [
+      "GR_M1_D02"
+    ],
+    "audio_id": "AUD_SEN_M1_D02_04",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D02_05",
+    "text": "五加五是十。",
+    "pinyin": "Wǔ jiā wǔ shì shí.",
+    "pinyin_numeric": "Wu3 jia1 wu3 shi4 shi2.",
+    "translation_en": "Five plus five is ten.",
+    "translation_ko": "5 더하기 5는 10입니다.",
+    "tokens": [
+      "五",
+      "加",
+      "五",
+      "是",
+      "十"
+    ],
+    "grammar_ids": [
+      "GR_M1_D02"
+    ],
+    "audio_id": "AUD_SEN_M1_D02_05",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D02_06",
+    "text": "一、二、三、四、五。",
+    "pinyin": "Yī, èr, sān, sì, wǔ.",
+    "pinyin_numeric": "Yi1, er4, san1, si4, wu3.",
+    "translation_en": "One, two, three, four, five.",
+    "translation_ko": "하나, 둘, 셋, 넷, 다섯.",
+    "tokens": [
+      "一",
+      "二",
+      "三",
+      "四",
+      "五"
+    ],
+    "grammar_ids": [
+      "GR_M1_D02"
+    ],
+    "audio_id": "AUD_SEN_M1_D02_06",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D02_07",
+    "text": "你有五個朋友嗎？",
+    "pinyin": "Nǐ yǒu wǔ ge péngyǒu ma?",
+    "pinyin_numeric": "Ni3 you3 wu3 ge0 pengyou3 ma0?",
+    "translation_en": "Do you have five friends?",
+    "translation_ko": "친구가 다섯 명 있습니까?",
+    "tokens": [
+      "你",
+      "有",
+      "五",
+      "個",
+      "朋",
+      "友",
+      "嗎"
+    ],
+    "grammar_ids": [
+      "GR_M1_D02"
+    ],
+    "audio_id": "AUD_SEN_M1_D02_07",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D02_08",
+    "text": "我是二號。",
+    "pinyin": "Wǒ shì èr hào.",
+    "pinyin_numeric": "Wo3 shi4 er4 hao4.",
+    "translation_en": "I am number two.",
+    "translation_ko": "저는 2번입니다.",
     "tokens": [
       "我",
+      "是",
+      "二",
+      "號"
+    ],
+    "grammar_ids": [
+      "GR_M1_D02"
+    ],
+    "audio_id": "AUD_SEN_M1_D02_08",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D03_01",
+    "text": "我有兩本書。",
+    "pinyin": "Wǒ yǒu liǎng běn shū.",
+    "pinyin_numeric": "Wo3 you3 liang3 ben3 shu1.",
+    "translation_en": "I have two books.",
+    "translation_ko": "저는 책 두 권이 있습니다.",
+    "tokens": [
+      "我",
+      "有",
+      "兩",
+      "本",
+      "書"
+    ],
+    "grammar_ids": [
+      "GR_M1_D03"
+    ],
+    "audio_id": "AUD_SEN_M1_D03_01",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D03_02",
+    "text": "這是我的手機。",
+    "pinyin": "Zhè shì wǒ de shǒujī.",
+    "pinyin_numeric": "Zhe4 shi4 wo3 de0 shouji1.",
+    "translation_en": "This is my phone.",
+    "translation_ko": "이것은 제 휴대폰입니다.",
+    "tokens": [
+      "這",
+      "是",
+      "我",
+      "的",
+      "手機"
+    ],
+    "grammar_ids": [
+      "GR_M1_D03"
+    ],
+    "audio_id": "AUD_SEN_M1_D03_02",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D03_03",
+    "text": "那是你的書嗎？",
+    "pinyin": "Nà shì nǐ de shū ma?",
+    "pinyin_numeric": "Na4 shi4 ni3 de0 shu1 ma0?",
+    "translation_en": "Is that your book?",
+    "translation_ko": "저것은 당신의 책입니까?",
+    "tokens": [
+      "那",
+      "是",
+      "你",
+      "的",
+      "書",
+      "嗎"
+    ],
+    "grammar_ids": [
+      "GR_M1_D03"
+    ],
+    "audio_id": "AUD_SEN_M1_D03_03",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D03_04",
+    "text": "他有八個朋友。",
+    "pinyin": "Tā yǒu bā ge péngyǒu.",
+    "pinyin_numeric": "Ta1 you3 ba1 ge0 pengyou3.",
+    "translation_en": "He has eight friends.",
+    "translation_ko": "그는 친구가 여덟 명 있습니다.",
+    "tokens": [
+      "他",
+      "有",
+      "八",
+      "個",
+      "朋",
+      "友"
+    ],
+    "grammar_ids": [
+      "GR_M1_D03"
+    ],
+    "audio_id": "AUD_SEN_M1_D03_04",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D03_05",
+    "text": "她的手機很好。",
+    "pinyin": "Tā de shǒujī hěn hǎo.",
+    "pinyin_numeric": "Ta1 de0 shouji1 hen3 hao3.",
+    "translation_en": "Her phone is good.",
+    "translation_ko": "그녀의 휴대폰은 좋습니다.",
+    "tokens": [
+      "她",
+      "的",
+      "手機",
       "很",
       "好"
     ],
-    "grammar_ids": [],
-    "audio_id": "AUD_SEN_M1_W1_005",
+    "grammar_ids": [
+      "GR_M1_D03"
+    ],
+    "audio_id": "AUD_SEN_M1_D03_05",
     "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D03_06",
+    "text": "我們有九本書。",
+    "pinyin": "Wǒmen yǒu jiǔ běn shū.",
+    "pinyin_numeric": "Women3 you3 jiu3 ben3 shu1.",
+    "translation_en": "We have nine books.",
+    "translation_ko": "우리는 책 아홉 권이 있습니다.",
+    "tokens": [
+      "我們",
+      "有",
+      "九",
+      "本",
+      "書"
+    ],
+    "grammar_ids": [
+      "GR_M1_D03"
+    ],
+    "audio_id": "AUD_SEN_M1_D03_06",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D03_07",
+    "text": "這是一百嗎？",
+    "pinyin": "Zhè shì yì bǎi ma?",
+    "pinyin_numeric": "Zhe4 shi4 yi4 bai3 ma0?",
+    "translation_en": "Is this one hundred?",
+    "translation_ko": "이것은 100입니까?",
+    "tokens": [
+      "這",
+      "是",
+      "一",
+      "百",
+      "嗎"
+    ],
+    "grammar_ids": [
+      "GR_M1_D03"
+    ],
+    "audio_id": "AUD_SEN_M1_D03_07",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D03_08",
+    "text": "我的朋友有手機。",
+    "pinyin": "Wǒ de péngyǒu yǒu shǒujī.",
+    "pinyin_numeric": "Wo3 de0 pengyou3 you3 shouji1.",
+    "translation_en": "My friend has a phone.",
+    "translation_ko": "제 친구는 휴대폰이 있습니다.",
+    "tokens": [
+      "我",
+      "的",
+      "朋",
+      "友",
+      "有",
+      "手機"
+    ],
+    "grammar_ids": [
+      "GR_M1_D03"
+    ],
+    "audio_id": "AUD_SEN_M1_D03_08",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D04_01",
+    "text": "今天我在家。",
+    "pinyin": "Jīntiān wǒ zài jiā.",
+    "pinyin_numeric": "Jintian1 wo3 zai4 jia1.",
+    "translation_en": "Today I am at home.",
+    "translation_ko": "오늘 저는 집에 있습니다.",
+    "tokens": [
+      "今天",
+      "我",
+      "在",
+      "家"
+    ],
+    "grammar_ids": [
+      "GR_M1_D04"
+    ],
+    "audio_id": "AUD_SEN_M1_D04_01",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D04_02",
+    "text": "明天我去學校。",
+    "pinyin": "Míngtiān wǒ qù xuéxiào.",
+    "pinyin_numeric": "Mingtian1 wo3 qu4 xuexiao4.",
+    "translation_en": "Tomorrow I go to school.",
+    "translation_ko": "내일 저는 학교에 갑니다.",
+    "tokens": [
+      "明天",
+      "我",
+      "去",
+      "學",
+      "校"
+    ],
+    "grammar_ids": [
+      "GR_M1_D04"
+    ],
+    "audio_id": "AUD_SEN_M1_D04_02",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D04_03",
+    "text": "昨天媽媽在家。",
+    "pinyin": "Zuótiān māma zài jiā.",
+    "pinyin_numeric": "Zuotian1 mama1 zai4 jia1.",
+    "translation_en": "Mom was at home yesterday.",
+    "translation_ko": "어제 엄마는 집에 있었습니다.",
+    "tokens": [
+      "昨天",
+      "媽媽",
+      "在",
+      "家"
+    ],
+    "grammar_ids": [
+      "GR_M1_D04"
+    ],
+    "audio_id": "AUD_SEN_M1_D04_03",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D04_04",
+    "text": "我爸爸是老師。",
+    "pinyin": "Wǒ bàba shì lǎoshī.",
+    "pinyin_numeric": "Wo3 baba4 shi4 laoshi1.",
+    "translation_en": "My dad is a teacher.",
+    "translation_ko": "저희 아빠는 선생님입니다.",
+    "tokens": [
+      "我",
+      "爸爸",
+      "是",
+      "老",
+      "師"
+    ],
+    "grammar_ids": [
+      "GR_M1_D04"
+    ],
+    "audio_id": "AUD_SEN_M1_D04_04",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D04_05",
+    "text": "我姐姐有手機。",
+    "pinyin": "Wǒ jiějie yǒu shǒujī.",
+    "pinyin_numeric": "Wo3 jiejie3 you3 shouji1.",
+    "translation_en": "My older sister has a phone.",
+    "translation_ko": "제 누나는 휴대폰이 있습니다.",
+    "tokens": [
+      "我",
+      "姐姐",
+      "有",
+      "手機"
+    ],
+    "grammar_ids": [
+      "GR_M1_D04"
+    ],
+    "audio_id": "AUD_SEN_M1_D04_05",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D04_06",
+    "text": "他弟弟是學生。",
+    "pinyin": "Tā dìdi shì xuéshēng.",
+    "pinyin_numeric": "Ta1 didi4 shi4 xuesheng1.",
+    "translation_en": "His younger brother is a student.",
+    "translation_ko": "그의 남동생은 학생입니다.",
+    "tokens": [
+      "他",
+      "弟弟",
+      "是",
+      "學",
+      "生"
+    ],
+    "grammar_ids": [
+      "GR_M1_D04"
+    ],
+    "audio_id": "AUD_SEN_M1_D04_06",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D04_07",
+    "text": "今天妹妹很高興。",
+    "pinyin": "Jīntiān mèimei hěn gāoxìng.",
+    "pinyin_numeric": "Jintian1 meimei4 hen3 gaoxing4.",
+    "translation_en": "My younger sister is happy today.",
+    "translation_ko": "오늘 여동생은 기분이 좋습니다.",
+    "tokens": [
+      "今天",
+      "妹妹",
+      "很",
+      "高",
+      "興"
+    ],
+    "grammar_ids": [
+      "GR_M1_D04"
+    ],
+    "audio_id": "AUD_SEN_M1_D04_07",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D04_08",
+    "text": "明天哥哥來我家。",
+    "pinyin": "Míngtiān gēge lái wǒ jiā.",
+    "pinyin_numeric": "Mingtian1 gege1 lai2 wo3 jia1.",
+    "translation_en": "My older brother comes to my home tomorrow.",
+    "translation_ko": "내일 형이 우리 집에 옵니다.",
+    "tokens": [
+      "明天",
+      "哥哥",
+      "來",
+      "我",
+      "家"
+    ],
+    "grammar_ids": [
+      "GR_M1_D04"
+    ],
+    "audio_id": "AUD_SEN_M1_D04_08",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D05_01",
+    "text": "我家有五個人。",
+    "pinyin": "Wǒ jiā yǒu wǔ ge rén.",
+    "pinyin_numeric": "Wo3 jia1 you3 wu3 ge0 ren2.",
+    "translation_en": "There are five people in my family.",
+    "translation_ko": "우리 가족은 다섯 명입니다.",
+    "tokens": [
+      "我",
+      "家",
+      "有",
+      "五",
+      "個",
+      "人"
+    ],
+    "grammar_ids": [
+      "GR_M1_D05"
+    ],
+    "audio_id": "AUD_SEN_M1_D05_01",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D05_02",
+    "text": "他有一個姐姐和兩個弟弟。",
+    "pinyin": "Tā yǒu yí ge jiějie hé liǎng ge dìdi.",
+    "pinyin_numeric": "Ta1 you3 yi2 ge0 jiejie3 he2 liang3 ge0 didi4.",
+    "translation_en": "He has one older sister and two younger brothers.",
+    "translation_ko": "그는 누나 한 명과 남동생 두 명이 있습니다.",
+    "tokens": [
+      "他",
+      "有",
+      "一",
+      "個",
+      "姐姐",
+      "和",
+      "兩",
+      "個",
+      "弟弟"
+    ],
+    "grammar_ids": [
+      "GR_M1_D05"
+    ],
+    "audio_id": "AUD_SEN_M1_D05_02",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D05_03",
+    "text": "我有十二個朋友。",
+    "pinyin": "Wǒ yǒu shí'èr ge péngyǒu.",
+    "pinyin_numeric": "Wo3 you3 shi4'er ge0 pengyou3.",
+    "translation_en": "I have twelve friends.",
+    "translation_ko": "저는 친구가 열두 명 있습니다.",
+    "tokens": [
+      "我",
+      "有",
+      "十二",
+      "個",
+      "朋友"
+    ],
+    "grammar_ids": [
+      "GR_M1_D05"
+    ],
+    "audio_id": "AUD_SEN_M1_D05_03",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D05_04",
+    "text": "你家有幾個人？",
+    "pinyin": "Nǐ jiā yǒu jǐ ge rén?",
+    "pinyin_numeric": "Ni3 jia1 you3 ji3 ge0 ren2?",
+    "translation_en": "How many people are in your family?",
+    "translation_ko": "가족이 몇 명입니까?",
+    "tokens": [
+      "你",
+      "家",
+      "有",
+      "幾",
+      "個",
+      "人"
+    ],
+    "grammar_ids": [
+      "GR_M1_D05"
+    ],
+    "audio_id": "AUD_SEN_M1_D05_04",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D05_05",
+    "text": "我今年二十歲。",
+    "pinyin": "Wǒ jīnnián èrshí suì.",
+    "pinyin_numeric": "Wo3 jinnian2 ershi2 sui4.",
+    "translation_en": "I am twenty years old this year.",
+    "translation_ko": "저는 올해 스무 살입니다.",
+    "tokens": [
+      "我",
+      "今",
+      "年",
+      "二十",
+      "歲"
+    ],
+    "grammar_ids": [
+      "GR_M1_D05"
+    ],
+    "audio_id": "AUD_SEN_M1_D05_05",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D05_06",
+    "text": "這裡有十五個學生。",
+    "pinyin": "Zhèlǐ yǒu shíwǔ ge xuéshēng.",
+    "pinyin_numeric": "Zheli3 you3 shiwu3 ge0 xuesheng1.",
+    "translation_en": "There are fifteen students here.",
+    "translation_ko": "여기에 학생 열다섯 명이 있습니다.",
+    "tokens": [
+      "這",
+      "裡",
+      "有",
+      "十五",
+      "個",
+      "學",
+      "生"
+    ],
+    "grammar_ids": [
+      "GR_M1_D05"
+    ],
+    "audio_id": "AUD_SEN_M1_D05_06",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D05_07",
+    "text": "我們家有一個老師。",
+    "pinyin": "Wǒmen jiā yǒu yí ge lǎoshī.",
+    "pinyin_numeric": "Women3 jia1 you3 yi2 ge0 laoshi1.",
+    "translation_en": "Our family has one teacher.",
+    "translation_ko": "우리 가족에는 선생님 한 명이 있습니다.",
+    "tokens": [
+      "我們",
+      "家",
+      "有",
+      "一",
+      "個",
+      "老",
+      "師"
+    ],
+    "grammar_ids": [
+      "GR_M1_D05"
+    ],
+    "audio_id": "AUD_SEN_M1_D05_07",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D05_08",
+    "text": "他是我的朋友。",
+    "pinyin": "Tā shì wǒ de péngyǒu.",
+    "pinyin_numeric": "Ta1 shi4 wo3 de0 pengyou3.",
+    "translation_en": "He is my friend.",
+    "translation_ko": "그는 제 친구입니다.",
+    "tokens": [
+      "他",
+      "是",
+      "我",
+      "的",
+      "朋友"
+    ],
+    "grammar_ids": [
+      "GR_M1_D05"
+    ],
+    "audio_id": "AUD_SEN_M1_D05_08",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D06_01",
+    "text": "我想喝茶。",
+    "pinyin": "Wǒ xiǎng hē chá.",
+    "pinyin_numeric": "Wo3 xiang3 he1 cha2.",
+    "translation_en": "I want to drink tea.",
+    "translation_ko": "저는 차를 마시고 싶습니다.",
+    "tokens": [
+      "我",
+      "想",
+      "喝",
+      "茶"
+    ],
+    "grammar_ids": [
+      "GR_M1_D06"
+    ],
+    "audio_id": "AUD_SEN_M1_D06_01",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D06_02",
+    "text": "他餓了，他想吃麵。",
+    "pinyin": "Tā è le, tā xiǎng chī miàn.",
+    "pinyin_numeric": "Ta1 e4 le0, ta1 xiang3 chi1 mian4.",
+    "translation_en": "He is hungry; he wants to eat noodles.",
+    "translation_ko": "그는 배고파서 면을 먹고 싶어 합니다.",
+    "tokens": [
+      "他",
+      "餓",
+      "了",
+      "他",
+      "想",
+      "吃",
+      "麵"
+    ],
+    "grammar_ids": [
+      "GR_M1_D06"
+    ],
+    "audio_id": "AUD_SEN_M1_D06_02",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D06_03",
+    "text": "我渴了，我想喝水。",
+    "pinyin": "Wǒ kě le, wǒ xiǎng hē shuǐ.",
+    "pinyin_numeric": "Wo3 ke3 le0, wo3 xiang3 he1 shui3.",
+    "translation_en": "I am thirsty; I want to drink water.",
+    "translation_ko": "저는 목이 말라서 물을 마시고 싶습니다.",
+    "tokens": [
+      "我",
+      "渴",
+      "了",
+      "我",
+      "想",
+      "喝",
+      "水"
+    ],
+    "grammar_ids": [
+      "GR_M1_D06"
+    ],
+    "audio_id": "AUD_SEN_M1_D06_03",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D06_04",
+    "text": "你想喝咖啡嗎？",
+    "pinyin": "Nǐ xiǎng hē kāfēi ma?",
+    "pinyin_numeric": "Ni3 xiang3 he1 kafei1 ma0?",
+    "translation_en": "Do you want to drink coffee?",
+    "translation_ko": "커피를 마시고 싶습니까?",
+    "tokens": [
+      "你",
+      "想",
+      "喝",
+      "咖啡",
+      "嗎"
+    ],
+    "grammar_ids": [
+      "GR_M1_D06"
+    ],
+    "audio_id": "AUD_SEN_M1_D06_04",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D06_05",
+    "text": "我想吃米飯。",
+    "pinyin": "Wǒ xiǎng chī mǐfàn.",
+    "pinyin_numeric": "Wo3 xiang3 chi1 mifan4.",
+    "translation_en": "I want to eat rice.",
+    "translation_ko": "저는 밥을 먹고 싶습니다.",
+    "tokens": [
+      "我",
+      "想",
+      "吃",
+      "米飯"
+    ],
+    "grammar_ids": [
+      "GR_M1_D06"
+    ],
+    "audio_id": "AUD_SEN_M1_D06_05",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D06_06",
+    "text": "她不想喝咖啡。",
+    "pinyin": "Tā bù xiǎng hē kāfēi.",
+    "pinyin_numeric": "Ta1 bu4 xiang3 he1 kafei1.",
+    "translation_en": "She does not want to drink coffee.",
+    "translation_ko": "그녀는 커피를 마시고 싶어 하지 않습니다.",
+    "tokens": [
+      "她",
+      "不",
+      "想",
+      "喝",
+      "咖啡"
+    ],
+    "grammar_ids": [
+      "GR_M1_D06"
+    ],
+    "audio_id": "AUD_SEN_M1_D06_06",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D06_07",
+    "text": "我們今天想吃麵。",
+    "pinyin": "Wǒmen jīntiān xiǎng chī miàn.",
+    "pinyin_numeric": "Women3 jintian1 xiang3 chi1 mian4.",
+    "translation_en": "Today we want to eat noodles.",
+    "translation_ko": "오늘 우리는 면을 먹고 싶습니다.",
+    "tokens": [
+      "我們",
+      "今天",
+      "想",
+      "吃",
+      "麵"
+    ],
+    "grammar_ids": [
+      "GR_M1_D06"
+    ],
+    "audio_id": "AUD_SEN_M1_D06_07",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D06_08",
+    "text": "爸爸想喝茶。",
+    "pinyin": "Bàba xiǎng hē chá.",
+    "pinyin_numeric": "Baba4 xiang3 he1 cha2.",
+    "translation_en": "Dad wants to drink tea.",
+    "translation_ko": "아빠는 차를 마시고 싶어 합니다.",
+    "tokens": [
+      "爸爸",
+      "想",
+      "喝",
+      "茶"
+    ],
+    "grammar_ids": [
+      "GR_M1_D06"
+    ],
+    "audio_id": "AUD_SEN_M1_D06_08",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D07_01",
+    "text": "你好，你叫什麼名字？",
+    "pinyin": "Nǐ hǎo, nǐ jiào shénme míngzi?",
+    "pinyin_numeric": "Ni3 hao3, ni3 jiao4 shenme2 mingzi2?",
+    "translation_en": "Hello, what is your name?",
+    "translation_ko": "안녕하세요, 이름이 무엇입니까?",
+    "tokens": [
+      "你好",
+      "你",
+      "叫",
+      "什",
+      "麼",
+      "名",
+      "字"
+    ],
+    "grammar_ids": [
+      "GR_M1_D07"
+    ],
+    "audio_id": "AUD_SEN_M1_D07_01",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D07_02",
+    "text": "我叫王芳。你呢？",
+    "pinyin": "Wǒ jiào Wáng Fāng. Nǐ ne?",
+    "pinyin_numeric": "Wo3 jiao4 Wang2 Fang1. Ni3 ne0?",
+    "translation_en": "My name is Wang Fang. And you?",
+    "translation_ko": "저는 왕팡입니다. 당신은요?",
+    "tokens": [
+      "我",
+      "叫",
+      "王",
+      "芳",
+      "你",
+      "呢"
+    ],
+    "grammar_ids": [
+      "GR_M1_D07"
+    ],
+    "audio_id": "AUD_SEN_M1_D07_02",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D07_03",
+    "text": "我是李強。",
+    "pinyin": "Wǒ shì Lǐ Qiáng.",
+    "pinyin_numeric": "Wo3 shi4 Li3 Qiang2.",
+    "translation_en": "I am Li Qiang.",
+    "translation_ko": "저는 리창입니다.",
+    "tokens": [
+      "我",
+      "是",
+      "李",
+      "強"
+    ],
+    "grammar_ids": [
+      "GR_M1_D07"
+    ],
+    "audio_id": "AUD_SEN_M1_D07_03",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D07_04",
+    "text": "你家有幾個人？",
+    "pinyin": "Nǐ jiā yǒu jǐ ge rén?",
+    "pinyin_numeric": "Ni3 jia1 you3 ji3 ge0 ren2?",
+    "translation_en": "How many people are in your family?",
+    "translation_ko": "가족이 몇 명입니까?",
+    "tokens": [
+      "你",
+      "家",
+      "有",
+      "幾",
+      "個",
+      "人"
+    ],
+    "grammar_ids": [
+      "GR_M1_D07"
+    ],
+    "audio_id": "AUD_SEN_M1_D07_04",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D07_05",
+    "text": "我家有四個人。",
+    "pinyin": "Wǒ jiā yǒu sì ge rén.",
+    "pinyin_numeric": "Wo3 jia1 you3 si4 ge0 ren2.",
+    "translation_en": "There are four people in my family.",
+    "translation_ko": "우리 가족은 네 명입니다.",
+    "tokens": [
+      "我",
+      "家",
+      "有",
+      "四",
+      "個",
+      "人"
+    ],
+    "grammar_ids": [
+      "GR_M1_D07"
+    ],
+    "audio_id": "AUD_SEN_M1_D07_05",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D07_06",
+    "text": "今天你想做什麼？",
+    "pinyin": "Jīntiān nǐ xiǎng zuò shénme?",
+    "pinyin_numeric": "Jintian1 ni3 xiang3 zuo4 shenme2?",
+    "translation_en": "What do you want to do today?",
+    "translation_ko": "오늘 무엇을 하고 싶습니까?",
+    "tokens": [
+      "今天",
+      "你",
+      "想",
+      "做",
+      "什",
+      "麼"
+    ],
+    "grammar_ids": [
+      "GR_M1_D07"
+    ],
+    "audio_id": "AUD_SEN_M1_D07_06",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D07_07",
+    "text": "我想喝茶，也想吃麵。",
+    "pinyin": "Wǒ xiǎng hē chá, yě xiǎng chī miàn.",
+    "pinyin_numeric": "Wo3 xiang3 he1 cha2, ye3 xiang3 chi1 mian4.",
+    "translation_en": "I want to drink tea and also eat noodles.",
+    "translation_ko": "저는 차를 마시고 면도 먹고 싶습니다.",
+    "tokens": [
+      "我",
+      "想",
+      "喝",
+      "茶",
+      "也",
+      "想",
+      "吃",
+      "麵"
+    ],
+    "grammar_ids": [
+      "GR_M1_D07"
+    ],
+    "audio_id": "AUD_SEN_M1_D07_07",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D07_08",
+    "text": "明天我們去學校嗎？",
+    "pinyin": "Míngtiān wǒmen qù xuéxiào ma?",
+    "pinyin_numeric": "Mingtian1 women3 qu4 xuexiao4 ma0?",
+    "translation_en": "Are we going to school tomorrow?",
+    "translation_ko": "내일 우리는 학교에 갑니까?",
+    "tokens": [
+      "明天",
+      "我們",
+      "去",
+      "學",
+      "校",
+      "嗎"
+    ],
+    "grammar_ids": [
+      "GR_M1_D07"
+    ],
+    "audio_id": "AUD_SEN_M1_D07_08",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D08_01",
+    "text": "我要麵和茶。",
+    "pinyin": "Wǒ yào miàn hé chá.",
+    "pinyin_numeric": "Wo3 yao4 mian4 he2 cha2.",
+    "translation_en": "I would like noodles and tea.",
+    "translation_ko": "저는 면과 차를 원합니다.",
+    "tokens": [
+      "我",
+      "要",
+      "麵",
+      "和",
+      "茶"
+    ],
+    "grammar_ids": [
+      "GR_M1_D08"
+    ],
+    "audio_id": "AUD_SEN_M1_D08_01",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D08_02",
+    "text": "你要牛奶嗎？",
+    "pinyin": "Nǐ yào niúnǎi ma?",
+    "pinyin_numeric": "Ni3 yao4 niunai3 ma0?",
+    "translation_en": "Do you want milk?",
+    "translation_ko": "우유를 원합니까?",
+    "tokens": [
+      "你",
+      "要",
+      "牛奶",
+      "嗎"
+    ],
+    "grammar_ids": [
+      "GR_M1_D08"
+    ],
+    "audio_id": "AUD_SEN_M1_D08_02",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D08_03",
+    "text": "我想吃雞蛋。",
+    "pinyin": "Wǒ xiǎng chī jīdàn.",
+    "pinyin_numeric": "Wo3 xiang3 chi1 jidan4.",
+    "translation_en": "I want to eat eggs.",
+    "translation_ko": "저는 계란을 먹고 싶습니다.",
+    "tokens": [
+      "我",
+      "想",
+      "吃",
+      "雞蛋"
+    ],
+    "grammar_ids": [
+      "GR_M1_D08"
+    ],
+    "audio_id": "AUD_SEN_M1_D08_03",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D08_04",
+    "text": "這個菜很好吃。",
+    "pinyin": "Zhège cài hěn hǎochī.",
+    "pinyin_numeric": "Zhege4 cai4 hen3 haochi1.",
+    "translation_en": "This dish is tasty.",
+    "translation_ko": "이 요리는 맛있습니다.",
+    "tokens": [
+      "這",
+      "個",
+      "菜",
+      "很",
+      "好",
+      "吃"
+    ],
+    "grammar_ids": [
+      "GR_M1_D08"
+    ],
+    "audio_id": "AUD_SEN_M1_D08_04",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D08_05",
+    "text": "爸爸想吃魚和米飯。",
+    "pinyin": "Bàba xiǎng chī yú hé mǐfàn.",
+    "pinyin_numeric": "Baba4 xiang3 chi1 yu2 he2 mifan4.",
+    "translation_en": "Dad wants to eat fish and rice.",
+    "translation_ko": "아빠는 생선과 밥을 먹고 싶어 합니다.",
+    "tokens": [
+      "爸爸",
+      "想",
+      "吃",
+      "魚",
+      "和",
+      "米飯"
+    ],
+    "grammar_ids": [
+      "GR_M1_D08"
+    ],
+    "audio_id": "AUD_SEN_M1_D08_05",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D08_06",
+    "text": "我不吃肉。",
+    "pinyin": "Wǒ bù chī ròu.",
+    "pinyin_numeric": "Wo3 bu4 chi1 rou4.",
+    "translation_en": "I do not eat meat.",
+    "translation_ko": "저는 고기를 먹지 않습니다.",
+    "tokens": [
+      "我",
+      "不",
+      "吃",
+      "肉"
+    ],
+    "grammar_ids": [
+      "GR_M1_D08"
+    ],
+    "audio_id": "AUD_SEN_M1_D08_06",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D08_07",
+    "text": "我們去餐廳吃飯。",
+    "pinyin": "Wǒmen qù cāntīng chīfàn.",
+    "pinyin_numeric": "Women3 qu4 canting1 chifan4.",
+    "translation_en": "We go to a restaurant to eat.",
+    "translation_ko": "우리는 식당에 밥을 먹으러 갑니다.",
+    "tokens": [
+      "我們",
+      "去",
+      "餐廳",
+      "吃",
+      "飯"
+    ],
+    "grammar_ids": [
+      "GR_M1_D08"
+    ],
+    "audio_id": "AUD_SEN_M1_D08_07",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D08_08",
+    "text": "妹妹喜歡蘋果和水果。",
+    "pinyin": "Mèimei xǐhuan píngguǒ hé shuǐguǒ.",
+    "pinyin_numeric": "Meimei4 xihuan3 pingguo3 he2 shuiguo3.",
+    "translation_en": "My younger sister likes apples and fruit.",
+    "translation_ko": "여동생은 사과와 과일을 좋아합니다.",
+    "tokens": [
+      "妹妹",
+      "喜",
+      "歡",
+      "蘋果",
+      "和",
+      "水果"
+    ],
+    "grammar_ids": [
+      "GR_M1_D08"
+    ],
+    "audio_id": "AUD_SEN_M1_D08_08",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D09_01",
+    "text": "我想去學校學中文。",
+    "pinyin": "Wǒ xiǎng qù xuéxiào xué Zhōngwén.",
+    "pinyin_numeric": "Wo3 xiang3 qu4 xuexiao4 xue2 Zhongwen2.",
+    "translation_en": "I want to go to school to study Chinese.",
+    "translation_ko": "저는 학교에 가서 중국어를 배우고 싶습니다.",
+    "tokens": [
+      "我",
+      "想",
+      "去",
+      "學",
+      "校",
+      "學",
+      "中文"
+    ],
+    "grammar_ids": [
+      "GR_M1_D09"
+    ],
+    "audio_id": "AUD_SEN_M1_D09_01",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D09_02",
+    "text": "他會寫漢字。",
+    "pinyin": "Tā huì xiě Hànzì.",
+    "pinyin_numeric": "Ta1 hui4 xie3 Hanzi4.",
+    "translation_en": "He can write Chinese characters.",
+    "translation_ko": "그는 한자를 쓸 수 있습니다.",
+    "tokens": [
+      "他",
+      "會",
+      "寫",
+      "漢",
+      "字"
+    ],
+    "grammar_ids": [
+      "GR_M1_D09"
+    ],
+    "audio_id": "AUD_SEN_M1_D09_02",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D09_03",
+    "text": "我們聽音樂。",
+    "pinyin": "Wǒmen tīng yīnyuè.",
+    "pinyin_numeric": "Women3 ting1 yinyue4.",
+    "translation_en": "We listen to music.",
+    "translation_ko": "우리는 음악을 듣습니다.",
+    "tokens": [
+      "我們",
+      "聽",
+      "音",
+      "樂"
+    ],
+    "grammar_ids": [
+      "GR_M1_D09"
+    ],
+    "audio_id": "AUD_SEN_M1_D09_03",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D09_04",
+    "text": "她喜歡看電影。",
+    "pinyin": "Tā xǐhuan kàn diànyǐng.",
+    "pinyin_numeric": "Ta1 xihuan3 kan4 dianying3.",
+    "translation_en": "She likes watching movies.",
+    "translation_ko": "그녀는 영화를 보는 것을 좋아합니다.",
+    "tokens": [
+      "她",
+      "喜歡",
+      "看",
+      "電影"
+    ],
+    "grammar_ids": [
+      "GR_M1_D09"
+    ],
+    "audio_id": "AUD_SEN_M1_D09_04",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D09_05",
+    "text": "你會說中文嗎？",
+    "pinyin": "Nǐ huì shuō Zhōngwén ma?",
+    "pinyin_numeric": "Ni3 hui4 shuo1 Zhongwen2 ma0?",
+    "translation_en": "Can you speak Chinese?",
+    "translation_ko": "중국어를 할 수 있습니까?",
+    "tokens": [
+      "你",
+      "會",
+      "說",
+      "中文",
+      "嗎"
+    ],
+    "grammar_ids": [
+      "GR_M1_D09"
+    ],
+    "audio_id": "AUD_SEN_M1_D09_05",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D09_06",
+    "text": "我今天想寫名字。",
+    "pinyin": "Wǒ jīntiān xiǎng xiě míngzi.",
+    "pinyin_numeric": "Wo3 jintian1 xiang3 xie3 mingzi2.",
+    "translation_en": "Today I want to write my name.",
+    "translation_ko": "오늘 저는 제 이름을 쓰고 싶습니다.",
+    "tokens": [
+      "我",
+      "今天",
+      "想",
+      "寫",
+      "名",
+      "字"
+    ],
+    "grammar_ids": [
+      "GR_M1_D09"
+    ],
+    "audio_id": "AUD_SEN_M1_D09_06",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D09_07",
+    "text": "哥哥做飯。",
+    "pinyin": "Gēge zuò fàn.",
+    "pinyin_numeric": "Gege1 zuo4 fan4.",
+    "translation_en": "Older brother cooks.",
+    "translation_ko": "형은 밥을 합니다.",
+    "tokens": [
+      "哥哥",
+      "做",
+      "飯"
+    ],
+    "grammar_ids": [
+      "GR_M1_D09"
+    ],
+    "audio_id": "AUD_SEN_M1_D09_07",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D09_08",
+    "text": "我不想看電影。",
+    "pinyin": "Wǒ bù xiǎng kàn diànyǐng.",
+    "pinyin_numeric": "Wo3 bu4 xiang3 kan4 dianying3.",
+    "translation_en": "I do not want to watch a movie.",
+    "translation_ko": "저는 영화를 보고 싶지 않습니다.",
+    "tokens": [
+      "我",
+      "不",
+      "想",
+      "看",
+      "電影"
+    ],
+    "grammar_ids": [
+      "GR_M1_D09"
+    ],
+    "audio_id": "AUD_SEN_M1_D09_08",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D10_01",
+    "text": "你做什麼工作？",
+    "pinyin": "Nǐ zuò shénme gōngzuò?",
+    "pinyin_numeric": "Ni3 zuo4 shenme2 gongzuo4?",
+    "translation_en": "What work do you do?",
+    "translation_ko": "무슨 일을 합니까?",
+    "tokens": [
+      "你",
+      "做",
+      "什麼",
+      "工作"
+    ],
+    "grammar_ids": [
+      "GR_M1_D10"
+    ],
+    "audio_id": "AUD_SEN_M1_D10_01",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D10_02",
+    "text": "他是誰？",
+    "pinyin": "Tā shì shéi?",
+    "pinyin_numeric": "Ta1 shi4 shei2?",
+    "translation_en": "Who is he?",
+    "translation_ko": "그는 누구입니까?",
+    "tokens": [
+      "他",
+      "是",
+      "誰"
+    ],
+    "grammar_ids": [
+      "GR_M1_D10"
+    ],
+    "audio_id": "AUD_SEN_M1_D10_02",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D10_03",
+    "text": "你去哪裡？",
+    "pinyin": "Nǐ qù nǎlǐ?",
+    "pinyin_numeric": "Ni3 qu4 nali3?",
+    "translation_en": "Where are you going?",
+    "translation_ko": "어디에 갑니까?",
+    "tokens": [
+      "你",
+      "去",
+      "哪裡"
+    ],
+    "grammar_ids": [
+      "GR_M1_D10"
+    ],
+    "audio_id": "AUD_SEN_M1_D10_03",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D10_04",
+    "text": "你為什麼學中文？",
+    "pinyin": "Nǐ wèishéme xué Zhōngwén?",
+    "pinyin_numeric": "Ni3 weisheme2 xue2 Zhongwen2?",
+    "translation_en": "Why do you study Chinese?",
+    "translation_ko": "왜 중국어를 배웁니까?",
+    "tokens": [
+      "你",
+      "為什麼",
+      "學",
+      "中文"
+    ],
+    "grammar_ids": [
+      "GR_M1_D10"
+    ],
+    "audio_id": "AUD_SEN_M1_D10_04",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D10_05",
+    "text": "這個字怎麼說？",
+    "pinyin": "Zhège zì zěnme shuō?",
+    "pinyin_numeric": "Zhege4 zi4 zenme3 shuo1?",
+    "translation_en": "How do you say this character?",
+    "translation_ko": "이 글자는 어떻게 말합니까?",
+    "tokens": [
+      "這",
+      "個",
+      "字",
+      "怎麼",
+      "說"
+    ],
+    "grammar_ids": [
+      "GR_M1_D10"
+    ],
+    "audio_id": "AUD_SEN_M1_D10_05",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D10_06",
+    "text": "她叫什麼名字？",
+    "pinyin": "Tā jiào shénme míngzi?",
+    "pinyin_numeric": "Ta1 jiao4 shenme2 mingzi2?",
+    "translation_en": "What is her name?",
+    "translation_ko": "그녀의 이름은 무엇입니까?",
+    "tokens": [
+      "她",
+      "叫",
+      "什麼",
+      "名字"
+    ],
+    "grammar_ids": [
+      "GR_M1_D10"
+    ],
+    "audio_id": "AUD_SEN_M1_D10_06",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D10_07",
+    "text": "餐廳在哪裡？",
+    "pinyin": "Cāntīng zài nǎlǐ?",
+    "pinyin_numeric": "Canting1 zai4 nali3?",
+    "translation_en": "Where is the restaurant?",
+    "translation_ko": "식당은 어디에 있습니까?",
+    "tokens": [
+      "餐廳",
+      "在",
+      "哪裡"
+    ],
+    "grammar_ids": [
+      "GR_M1_D10"
+    ],
+    "audio_id": "AUD_SEN_M1_D10_07",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D10_08",
+    "text": "你喜歡什麼地方？",
+    "pinyin": "Nǐ xǐhuan shénme dìfang?",
+    "pinyin_numeric": "Ni3 xihuan3 shenme2 difang4?",
+    "translation_en": "What place do you like?",
+    "translation_ko": "어떤 장소를 좋아합니까?",
+    "tokens": [
+      "你",
+      "喜歡",
+      "什麼",
+      "地方"
+    ],
+    "grammar_ids": [
+      "GR_M1_D10"
+    ],
+    "audio_id": "AUD_SEN_M1_D10_08",
+    "difficulty": 1
+  },
+  {
+    "id": "SEN_M1_D11_01",
+    "text": "我不喝咖啡。",
+    "pinyin": "Wǒ bù hē kāfēi.",
+    "pinyin_numeric": "Wo3 bu4 he1 kafei1.",
+    "translation_en": "I do not drink coffee.",
+    "translation_ko": "저는 커피를 마시지 않습니다.",
+    "tokens": [
+      "我",
+      "不",
+      "喝",
+      "咖啡"
+    ],
+    "grammar_ids": [
+      "GR_M1_D11"
+    ],
+    "audio_id": "AUD_SEN_M1_D11_01",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D11_02",
+    "text": "他沒有貓。",
+    "pinyin": "Tā méiyǒu māo.",
+    "pinyin_numeric": "Ta1 meiyou3 mao1.",
+    "translation_en": "He does not have a cat.",
+    "translation_ko": "그는 고양이가 없습니다.",
+    "tokens": [
+      "他",
+      "沒有",
+      "貓"
+    ],
+    "grammar_ids": [
+      "GR_M1_D11"
+    ],
+    "audio_id": "AUD_SEN_M1_D11_02",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D11_03",
+    "text": "我不想吃肉。",
+    "pinyin": "Wǒ bù xiǎng chī ròu.",
+    "pinyin_numeric": "Wo3 bu4 xiang3 chi1 rou4.",
+    "translation_en": "I do not want to eat meat.",
+    "translation_ko": "저는 고기를 먹고 싶지 않습니다.",
+    "tokens": [
+      "我",
+      "不",
+      "想",
+      "吃",
+      "肉"
+    ],
+    "grammar_ids": [
+      "GR_M1_D11"
+    ],
+    "audio_id": "AUD_SEN_M1_D11_03",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D11_04",
+    "text": "她沒有手機。",
+    "pinyin": "Tā méiyǒu shǒujī.",
+    "pinyin_numeric": "Ta1 meiyou3 shouji1.",
+    "translation_en": "She does not have a phone.",
+    "translation_ko": "그녀는 휴대폰이 없습니다.",
+    "tokens": [
+      "她",
+      "沒有",
+      "手機"
+    ],
+    "grammar_ids": [
+      "GR_M1_D11"
+    ],
+    "audio_id": "AUD_SEN_M1_D11_04",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D11_05",
+    "text": "我們今天不去學校。",
+    "pinyin": "Wǒmen jīntiān bù qù xuéxiào.",
+    "pinyin_numeric": "Women3 jintian1 bu4 qu4 xuexiao4.",
+    "translation_en": "We are not going to school today.",
+    "translation_ko": "오늘 우리는 학교에 가지 않습니다.",
+    "tokens": [
+      "我們",
+      "今天",
+      "不",
+      "去",
+      "學",
+      "校"
+    ],
+    "grammar_ids": [
+      "GR_M1_D11"
+    ],
+    "audio_id": "AUD_SEN_M1_D11_05",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D11_06",
+    "text": "爸爸也不喝茶。",
+    "pinyin": "Bàba yě bù hē chá.",
+    "pinyin_numeric": "Baba4 ye3 bu4 he1 cha2.",
+    "translation_en": "Dad also does not drink tea.",
+    "translation_ko": "아빠도 차를 마시지 않습니다.",
+    "tokens": [
+      "爸爸",
+      "也",
+      "不",
+      "喝",
+      "茶"
+    ],
+    "grammar_ids": [
+      "GR_M1_D11"
+    ],
+    "audio_id": "AUD_SEN_M1_D11_06",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D11_07",
+    "text": "他們都沒有書。",
+    "pinyin": "Tāmen dōu méiyǒu shū.",
+    "pinyin_numeric": "Tamen1 dou1 meiyou3 shu1.",
+    "translation_en": "They all do not have books.",
+    "translation_ko": "그들은 모두 책이 없습니다.",
+    "tokens": [
+      "他",
+      "們",
+      "都",
+      "沒有",
+      "書"
+    ],
+    "grammar_ids": [
+      "GR_M1_D11"
+    ],
+    "audio_id": "AUD_SEN_M1_D11_07",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D11_08",
+    "text": "你不喜歡電影嗎？",
+    "pinyin": "Nǐ bù xǐhuan diànyǐng ma?",
+    "pinyin_numeric": "Ni3 bu4 xihuan3 dianying3 ma0?",
+    "translation_en": "Do you not like movies?",
+    "translation_ko": "영화를 좋아하지 않습니까?",
+    "tokens": [
+      "你",
+      "不",
+      "喜歡",
+      "電影",
+      "嗎"
+    ],
+    "grammar_ids": [
+      "GR_M1_D11"
+    ],
+    "audio_id": "AUD_SEN_M1_D11_08",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D12_01",
+    "text": "今天很熱。",
+    "pinyin": "Jīntiān hěn rè.",
+    "pinyin_numeric": "Jintian1 hen3 re4.",
+    "translation_en": "It is hot today.",
+    "translation_ko": "오늘은 덥습니다.",
+    "tokens": [
+      "今天",
+      "很",
+      "熱"
+    ],
+    "grammar_ids": [
+      "GR_M1_D12"
+    ],
+    "audio_id": "AUD_SEN_M1_D12_01",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D12_02",
+    "text": "他姐姐很漂亮。",
+    "pinyin": "Tā jiějie hěn piàoliang.",
+    "pinyin_numeric": "Ta1 jiejie3 hen3 piaoliang4.",
+    "translation_en": "His older sister is pretty.",
+    "translation_ko": "그의 누나는 예쁩니다.",
+    "tokens": [
+      "他",
+      "姐姐",
+      "很",
+      "漂亮"
+    ],
+    "grammar_ids": [
+      "GR_M1_D12"
+    ],
+    "audio_id": "AUD_SEN_M1_D12_02",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D12_03",
+    "text": "這個餐廳很貴。",
+    "pinyin": "Zhège cāntīng hěn guì.",
+    "pinyin_numeric": "Zhege4 canting1 hen3 gui4.",
+    "translation_en": "This restaurant is expensive.",
+    "translation_ko": "이 식당은 비쌉니다.",
+    "tokens": [
+      "這",
+      "個",
+      "餐廳",
+      "很",
+      "貴"
+    ],
+    "grammar_ids": [
+      "GR_M1_D12"
+    ],
+    "audio_id": "AUD_SEN_M1_D12_03",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D12_04",
+    "text": "我的家很小。",
+    "pinyin": "Wǒ de jiā hěn xiǎo.",
+    "pinyin_numeric": "Wo3 de0 jia1 hen3 xiao3.",
+    "translation_en": "My home is small.",
+    "translation_ko": "제 집은 작습니다.",
+    "tokens": [
+      "我",
+      "的",
+      "家",
+      "很",
+      "小"
+    ],
+    "grammar_ids": [
+      "GR_M1_D12"
+    ],
+    "audio_id": "AUD_SEN_M1_D12_04",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D12_05",
+    "text": "你的中文很好。",
+    "pinyin": "Nǐ de Zhōngwén hěn hǎo.",
+    "pinyin_numeric": "Ni3 de0 Zhongwen2 hen3 hao3.",
+    "translation_en": "Your Chinese is good.",
+    "translation_ko": "당신의 중국어는 좋습니다.",
+    "tokens": [
+      "你",
+      "的",
+      "中文",
+      "很",
+      "好"
+    ],
+    "grammar_ids": [
+      "GR_M1_D12"
+    ],
+    "audio_id": "AUD_SEN_M1_D12_05",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D12_06",
+    "text": "今天不冷。",
+    "pinyin": "Jīntiān bù lěng.",
+    "pinyin_numeric": "Jintian1 bu4 leng3.",
+    "translation_en": "Today is not cold.",
+    "translation_ko": "오늘은 춥지 않습니다.",
+    "tokens": [
+      "今天",
+      "不",
+      "冷"
+    ],
+    "grammar_ids": [
+      "GR_M1_D12"
+    ],
+    "audio_id": "AUD_SEN_M1_D12_06",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D12_07",
+    "text": "他有很多朋友。",
+    "pinyin": "Tā yǒu hěn duō péngyǒu.",
+    "pinyin_numeric": "Ta1 you3 hen3 duo1 pengyou3.",
+    "translation_en": "He has many friends.",
+    "translation_ko": "그는 친구가 많습니다.",
+    "tokens": [
+      "他",
+      "有",
+      "很",
+      "多",
+      "朋友"
+    ],
+    "grammar_ids": [
+      "GR_M1_D12"
+    ],
+    "audio_id": "AUD_SEN_M1_D12_07",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D12_08",
+    "text": "我妹妹很高興。",
+    "pinyin": "Wǒ mèimei hěn gāoxìng.",
+    "pinyin_numeric": "Wo3 meimei4 hen3 gaoxing4.",
+    "translation_en": "My younger sister is happy.",
+    "translation_ko": "제 여동생은 기분이 좋습니다.",
+    "tokens": [
+      "我",
+      "妹妹",
+      "很",
+      "高興"
+    ],
+    "grammar_ids": [
+      "GR_M1_D12"
+    ],
+    "audio_id": "AUD_SEN_M1_D12_08",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D13_01",
+    "text": "我有三本書。",
+    "pinyin": "Wǒ yǒu sān běn shū.",
+    "pinyin_numeric": "Wo3 you3 san1 ben3 shu1.",
+    "translation_en": "I have three books.",
+    "translation_ko": "저는 책 세 권이 있습니다.",
+    "tokens": [
+      "我",
+      "有",
+      "三",
+      "本書"
+    ],
+    "grammar_ids": [
+      "GR_M1_D13"
+    ],
+    "audio_id": "AUD_SEN_M1_D13_01",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D13_02",
+    "text": "他有兩隻貓。",
+    "pinyin": "Tā yǒu liǎng zhī māo.",
+    "pinyin_numeric": "Ta1 you3 liang3 zhi1 mao1.",
+    "translation_en": "He has two cats.",
+    "translation_ko": "그는 고양이 두 마리가 있습니다.",
+    "tokens": [
+      "他",
+      "有",
+      "兩",
+      "隻貓"
+    ],
+    "grammar_ids": [
+      "GR_M1_D13"
+    ],
+    "audio_id": "AUD_SEN_M1_D13_02",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D13_03",
+    "text": "我要一杯水。",
+    "pinyin": "Wǒ yào yì bēi shuǐ.",
+    "pinyin_numeric": "Wo3 yao4 yi4 bei1 shui3.",
+    "translation_en": "I would like a cup of water.",
+    "translation_ko": "물 한 잔 주세요.",
+    "tokens": [
+      "我",
+      "要",
+      "一",
+      "杯水"
+    ],
+    "grammar_ids": [
+      "GR_M1_D13"
+    ],
+    "audio_id": "AUD_SEN_M1_D13_03",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D13_04",
+    "text": "你要兩杯茶嗎？",
+    "pinyin": "Nǐ yào liǎng bēi chá ma?",
+    "pinyin_numeric": "Ni3 yao4 liang3 bei1 cha2 ma0?",
+    "translation_en": "Do you want two cups of tea?",
+    "translation_ko": "차 두 잔을 원합니까?",
+    "tokens": [
+      "你",
+      "要",
+      "兩",
+      "杯",
+      "茶",
+      "嗎"
+    ],
+    "grammar_ids": [
+      "GR_M1_D13"
+    ],
+    "audio_id": "AUD_SEN_M1_D13_04",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D13_05",
+    "text": "這裡有五本書。",
+    "pinyin": "Zhèlǐ yǒu wǔ běn shū.",
+    "pinyin_numeric": "Zheli3 you3 wu3 ben3 shu1.",
+    "translation_en": "There are five books here.",
+    "translation_ko": "여기에 책 다섯 권이 있습니다.",
+    "tokens": [
+      "這",
+      "裡",
+      "有",
+      "五",
+      "本書"
+    ],
+    "grammar_ids": [
+      "GR_M1_D13"
+    ],
+    "audio_id": "AUD_SEN_M1_D13_05",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D13_06",
+    "text": "妹妹沒有狗。",
+    "pinyin": "Mèimei méiyǒu gǒu.",
+    "pinyin_numeric": "Meimei4 meiyou3 gou3.",
+    "translation_en": "My younger sister does not have a dog.",
+    "translation_ko": "여동생은 개가 없습니다.",
+    "tokens": [
+      "妹妹",
+      "沒有",
+      "狗"
+    ],
+    "grammar_ids": [
+      "GR_M1_D13"
+    ],
+    "audio_id": "AUD_SEN_M1_D13_06",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D13_07",
+    "text": "我想買一本書。",
+    "pinyin": "Wǒ xiǎng mǎi yì běn shū.",
+    "pinyin_numeric": "Wo3 xiang3 mai3 yi4 ben3 shu1.",
+    "translation_en": "I want to buy one book.",
+    "translation_ko": "저는 책 한 권을 사고 싶습니다.",
+    "tokens": [
+      "我",
+      "想",
+      "買",
+      "一",
+      "本書"
+    ],
+    "grammar_ids": [
+      "GR_M1_D13"
+    ],
+    "audio_id": "AUD_SEN_M1_D13_07",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D13_08",
+    "text": "我們要三杯咖啡。",
+    "pinyin": "Wǒmen yào sān bēi kāfēi.",
+    "pinyin_numeric": "Women3 yao4 san1 bei1 kafei1.",
+    "translation_en": "We would like three cups of coffee.",
+    "translation_ko": "커피 세 잔 주세요.",
+    "tokens": [
+      "我們",
+      "要",
+      "三",
+      "杯",
+      "咖啡"
+    ],
+    "grammar_ids": [
+      "GR_M1_D13"
+    ],
+    "audio_id": "AUD_SEN_M1_D13_08",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D14_01",
+    "text": "你想吃什麼？",
+    "pinyin": "Nǐ xiǎng chī shénme?",
+    "pinyin_numeric": "Ni3 xiang3 chi1 shenme2?",
+    "translation_en": "What do you want to eat?",
+    "translation_ko": "무엇을 먹고 싶습니까?",
+    "tokens": [
+      "你",
+      "想",
+      "吃",
+      "什麼"
+    ],
+    "grammar_ids": [
+      "GR_M1_D14"
+    ],
+    "audio_id": "AUD_SEN_M1_D14_01",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D14_02",
+    "text": "我想吃魚，也想吃菜。",
+    "pinyin": "Wǒ xiǎng chī yú, yě xiǎng chī cài.",
+    "pinyin_numeric": "Wo3 xiang3 chi1 yu2, ye3 xiang3 chi1 cai4.",
+    "translation_en": "I want to eat fish and also vegetables.",
+    "translation_ko": "저는 생선도 먹고 채소도 먹고 싶습니다.",
+    "tokens": [
+      "我",
+      "想",
+      "吃",
+      "魚",
+      "也",
+      "想",
+      "吃",
+      "菜"
+    ],
+    "grammar_ids": [
+      "GR_M1_D14"
+    ],
+    "audio_id": "AUD_SEN_M1_D14_02",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D14_03",
+    "text": "你喝茶還是咖啡？",
+    "pinyin": "Nǐ hē chá háishi kāfēi?",
+    "pinyin_numeric": "Ni3 he1 cha2 haishi2 kafei1?",
+    "translation_en": "Do you drink tea or coffee?",
+    "translation_ko": "차를 마십니까, 커피를 마십니까?",
+    "tokens": [
+      "你",
+      "喝",
+      "茶",
+      "還",
+      "是",
+      "咖啡"
+    ],
+    "grammar_ids": [
+      "GR_M1_D14"
+    ],
+    "audio_id": "AUD_SEN_M1_D14_03",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D14_04",
+    "text": "我要一杯茶。",
+    "pinyin": "Wǒ yào yì bēi chá.",
+    "pinyin_numeric": "Wo3 yao4 yi4 bei1 cha2.",
+    "translation_en": "I would like one cup of tea.",
+    "translation_ko": "차 한 잔 주세요.",
+    "tokens": [
+      "我",
+      "要",
+      "一",
+      "杯",
+      "茶"
+    ],
+    "grammar_ids": [
+      "GR_M1_D14"
+    ],
+    "audio_id": "AUD_SEN_M1_D14_04",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D14_05",
+    "text": "這個菜很貴嗎？",
+    "pinyin": "Zhège cài hěn guì ma?",
+    "pinyin_numeric": "Zhege4 cai4 hen3 gui4 ma0?",
+    "translation_en": "Is this dish expensive?",
+    "translation_ko": "이 요리는 비쌉니까?",
+    "tokens": [
+      "這",
+      "個",
+      "菜",
+      "很",
+      "貴",
+      "嗎"
+    ],
+    "grammar_ids": [
+      "GR_M1_D14"
+    ],
+    "audio_id": "AUD_SEN_M1_D14_05",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D14_06",
+    "text": "我不吃肉。",
+    "pinyin": "Wǒ bù chī ròu.",
+    "pinyin_numeric": "Wo3 bu4 chi1 rou4.",
+    "translation_en": "I do not eat meat.",
+    "translation_ko": "저는 고기를 먹지 않습니다.",
+    "tokens": [
+      "我",
+      "不",
+      "吃",
+      "肉"
+    ],
+    "grammar_ids": [
+      "GR_M1_D14"
+    ],
+    "audio_id": "AUD_SEN_M1_D14_06",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D14_07",
+    "text": "這家餐廳很好。",
+    "pinyin": "Zhè jiā cāntīng hěn hǎo.",
+    "pinyin_numeric": "Zhe4 jia1 canting1 hen3 hao3.",
+    "translation_en": "This restaurant is good.",
+    "translation_ko": "이 식당은 좋습니다.",
+    "tokens": [
+      "這",
+      "家",
+      "餐廳",
+      "很",
+      "好"
+    ],
+    "grammar_ids": [
+      "GR_M1_D14"
+    ],
+    "audio_id": "AUD_SEN_M1_D14_07",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D14_08",
+    "text": "我們要兩杯水和一份麵。",
+    "pinyin": "Wǒmen yào liǎng bēi shuǐ hé yí fèn miàn.",
+    "pinyin_numeric": "Women3 yao4 liang3 bei1 shui3 he2 yi2 fen4 mian4.",
+    "translation_en": "We would like two cups of water and one serving of noodles.",
+    "translation_ko": "물 두 잔과 면 하나 주세요.",
+    "tokens": [
+      "我們",
+      "要",
+      "兩",
+      "杯水",
+      "和",
+      "一",
+      "份",
+      "麵"
+    ],
+    "grammar_ids": [
+      "GR_M1_D14"
+    ],
+    "audio_id": "AUD_SEN_M1_D14_08",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D15_01",
+    "text": "現在幾點？",
+    "pinyin": "Xiànzài jǐ diǎn?",
+    "pinyin_numeric": "Xianzai4 ji3 dian3?",
+    "translation_en": "What time is it now?",
+    "translation_ko": "지금 몇 시입니까?",
+    "tokens": [
+      "現在",
+      "幾",
+      "點"
+    ],
+    "grammar_ids": [
+      "GR_M1_D15"
+    ],
+    "audio_id": "AUD_SEN_M1_D15_01",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D15_02",
+    "text": "現在三點。",
+    "pinyin": "Xiànzài sān diǎn.",
+    "pinyin_numeric": "Xianzai4 san1 dian3.",
+    "translation_en": "It is three o'clock now.",
+    "translation_ko": "지금 세 시입니다.",
+    "tokens": [
+      "現在",
+      "三",
+      "點"
+    ],
+    "grammar_ids": [
+      "GR_M1_D15"
+    ],
+    "audio_id": "AUD_SEN_M1_D15_02",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D15_03",
+    "text": "今天星期幾？",
+    "pinyin": "Jīntiān xīngqī jǐ?",
+    "pinyin_numeric": "Jintian1 xingqi1 ji3?",
+    "translation_en": "What day of the week is today?",
+    "translation_ko": "오늘 무슨 요일입니까?",
+    "tokens": [
+      "今天",
+      "星期",
+      "幾"
+    ],
+    "grammar_ids": [
+      "GR_M1_D15"
+    ],
+    "audio_id": "AUD_SEN_M1_D15_03",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D15_04",
+    "text": "明天星期三。",
+    "pinyin": "Míngtiān xīngqīsān.",
+    "pinyin_numeric": "Mingtian1 xingqisan1.",
+    "translation_en": "Tomorrow is Wednesday.",
+    "translation_ko": "내일은 수요일입니다.",
+    "tokens": [
+      "明天",
+      "星期",
+      "三"
+    ],
+    "grammar_ids": [
+      "GR_M1_D15"
+    ],
+    "audio_id": "AUD_SEN_M1_D15_04",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D15_05",
+    "text": "我上午學中文。",
+    "pinyin": "Wǒ shàngwǔ xué Zhōngwén.",
+    "pinyin_numeric": "Wo3 shangwu3 xue2 Zhongwen2.",
+    "translation_en": "I study Chinese in the morning.",
+    "translation_ko": "저는 오전에 중국어를 공부합니다.",
+    "tokens": [
+      "我",
+      "上午",
+      "學",
+      "中文"
+    ],
+    "grammar_ids": [
+      "GR_M1_D15"
+    ],
+    "audio_id": "AUD_SEN_M1_D15_05",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D15_06",
+    "text": "下午我們去餐廳。",
+    "pinyin": "Xiàwǔ wǒmen qù cāntīng.",
+    "pinyin_numeric": "Xiawu3 women3 qu4 canting1.",
+    "translation_en": "In the afternoon we go to a restaurant.",
+    "translation_ko": "오후에 우리는 식당에 갑니다.",
+    "tokens": [
+      "下午",
+      "我們",
+      "去",
+      "餐廳"
+    ],
+    "grammar_ids": [
+      "GR_M1_D15"
+    ],
+    "audio_id": "AUD_SEN_M1_D15_06",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D15_07",
+    "text": "我今年二十歲。",
+    "pinyin": "Wǒ jīnnián èrshí suì.",
+    "pinyin_numeric": "Wo3 jinnian2 ershi2 sui4.",
+    "translation_en": "I am twenty this year.",
+    "translation_ko": "저는 올해 스무 살입니다.",
+    "tokens": [
+      "我",
+      "今",
+      "年",
+      "二十",
+      "歲"
+    ],
+    "grammar_ids": [
+      "GR_M1_D15"
+    ],
+    "audio_id": "AUD_SEN_M1_D15_07",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D15_08",
+    "text": "早上我喝咖啡。",
+    "pinyin": "Zǎoshang wǒ hē kāfēi.",
+    "pinyin_numeric": "Zaoshang3 wo3 he1 kafei1.",
+    "translation_en": "In the morning I drink coffee.",
+    "translation_ko": "아침에 저는 커피를 마십니다.",
+    "tokens": [
+      "早上",
+      "我",
+      "喝",
+      "咖啡"
+    ],
+    "grammar_ids": [
+      "GR_M1_D15"
+    ],
+    "audio_id": "AUD_SEN_M1_D15_08",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D16_01",
+    "text": "我很好，你呢？",
+    "pinyin": "Wǒ hěn hǎo, nǐ ne?",
+    "pinyin_numeric": "Wo3 hen3 hao3, ni3 ne0?",
+    "translation_en": "I am good. How about you?",
+    "translation_ko": "저는 좋아요. 당신은요?",
+    "tokens": [
+      "我",
+      "很",
+      "好",
+      "你",
+      "呢"
+    ],
+    "grammar_ids": [
+      "GR_M1_D16"
+    ],
+    "audio_id": "AUD_SEN_M1_D16_01",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D16_02",
+    "text": "你幾歲？",
+    "pinyin": "Nǐ jǐ suì?",
+    "pinyin_numeric": "Ni3 ji3 sui4?",
+    "translation_en": "How old are you?",
+    "translation_ko": "몇 살입니까?",
+    "tokens": [
+      "你",
+      "幾",
+      "歲"
+    ],
+    "grammar_ids": [
+      "GR_M1_D16"
+    ],
+    "audio_id": "AUD_SEN_M1_D16_02",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D16_03",
+    "text": "這個多少錢？",
+    "pinyin": "Zhège duōshao qián?",
+    "pinyin_numeric": "Zhege4 duoshao1 qian2?",
+    "translation_en": "How much does this cost?",
+    "translation_ko": "이것은 얼마입니까?",
+    "tokens": [
+      "這",
+      "個",
+      "多少",
+      "錢"
+    ],
+    "grammar_ids": [
+      "GR_M1_D16"
+    ],
+    "audio_id": "AUD_SEN_M1_D16_03",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D16_04",
+    "text": "一杯咖啡五十塊。",
+    "pinyin": "Yì bēi kāfēi wǔshí kuài.",
+    "pinyin_numeric": "Yi4 bei1 kafei1 wushi2 kuai4.",
+    "translation_en": "One cup of coffee is fifty dollars.",
+    "translation_ko": "커피 한 잔은 50위안입니다.",
+    "tokens": [
+      "一",
+      "杯",
+      "咖啡",
+      "五",
+      "十",
+      "塊"
+    ],
+    "grammar_ids": [
+      "GR_M1_D16"
+    ],
+    "audio_id": "AUD_SEN_M1_D16_04",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D16_05",
+    "text": "今天幾號？",
+    "pinyin": "Jīntiān jǐ hào?",
+    "pinyin_numeric": "Jintian1 ji3 hao4?",
+    "translation_en": "What date is today?",
+    "translation_ko": "오늘 며칠입니까?",
+    "tokens": [
+      "今天",
+      "幾",
+      "號"
+    ],
+    "grammar_ids": [
+      "GR_M1_D16"
+    ],
+    "audio_id": "AUD_SEN_M1_D16_05",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D16_06",
+    "text": "你家有幾個人？",
+    "pinyin": "Nǐ jiā yǒu jǐ ge rén?",
+    "pinyin_numeric": "Ni3 jia1 you3 ji3 ge0 ren2?",
+    "translation_en": "How many people are in your family?",
+    "translation_ko": "가족이 몇 명입니까?",
+    "tokens": [
+      "你",
+      "家",
+      "有",
+      "幾",
+      "個",
+      "人"
+    ],
+    "grammar_ids": [
+      "GR_M1_D16"
+    ],
+    "audio_id": "AUD_SEN_M1_D16_06",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D16_07",
+    "text": "這本書多少錢？",
+    "pinyin": "Zhè běn shū duōshao qián?",
+    "pinyin_numeric": "Zhe4 ben3 shu1 duoshao1 qian2?",
+    "translation_en": "How much is this book?",
+    "translation_ko": "이 책은 얼마입니까?",
+    "tokens": [
+      "這",
+      "本書",
+      "多少",
+      "錢"
+    ],
+    "grammar_ids": [
+      "GR_M1_D16"
+    ],
+    "audio_id": "AUD_SEN_M1_D16_07",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D16_08",
+    "text": "我想買蘋果，你呢？",
+    "pinyin": "Wǒ xiǎng mǎi píngguǒ, nǐ ne?",
+    "pinyin_numeric": "Wo3 xiang3 mai3 pingguo3, ni3 ne0?",
+    "translation_en": "I want to buy apples. How about you?",
+    "translation_ko": "저는 사과를 사고 싶습니다. 당신은요?",
+    "tokens": [
+      "我",
+      "想",
+      "買",
+      "蘋果",
+      "你",
+      "呢"
+    ],
+    "grammar_ids": [
+      "GR_M1_D16"
+    ],
+    "audio_id": "AUD_SEN_M1_D16_08",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D17_01",
+    "text": "我可以坐這裡嗎？",
+    "pinyin": "Wǒ kěyǐ zuò zhèlǐ ma?",
+    "pinyin_numeric": "Wo3 keyi3 zuo4 zheli3 ma0?",
+    "translation_en": "May I sit here?",
+    "translation_ko": "여기에 앉아도 됩니까?",
+    "tokens": [
+      "我",
+      "可以",
+      "坐",
+      "這裡",
+      "嗎"
+    ],
+    "grammar_ids": [
+      "GR_M1_D17"
+    ],
+    "audio_id": "AUD_SEN_M1_D17_01",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D17_02",
+    "text": "我可以用你的手機嗎？",
+    "pinyin": "Wǒ kěyǐ yòng nǐ de shǒujī ma?",
+    "pinyin_numeric": "Wo3 keyi3 yong4 ni3 de0 shouji1 ma0?",
+    "translation_en": "May I use your phone?",
+    "translation_ko": "당신의 휴대폰을 사용해도 됩니까?",
+    "tokens": [
+      "我",
+      "可以",
+      "用",
+      "你",
+      "的",
+      "手機",
+      "嗎"
+    ],
+    "grammar_ids": [
+      "GR_M1_D17"
+    ],
+    "audio_id": "AUD_SEN_M1_D17_02",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D17_03",
+    "text": "可以問一下嗎？",
+    "pinyin": "Kěyǐ wèn yíxià ma?",
+    "pinyin_numeric": "Keyi3 wen4 yixia4 ma0?",
+    "translation_en": "May I ask something?",
+    "translation_ko": "잠깐 질문해도 됩니까?",
+    "tokens": [
+      "可以",
+      "問",
+      "一下",
+      "嗎"
+    ],
+    "grammar_ids": [
+      "GR_M1_D17"
+    ],
+    "audio_id": "AUD_SEN_M1_D17_03",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D17_04",
+    "text": "你可以說慢一點嗎？",
+    "pinyin": "Nǐ kěyǐ shuō màn yìdiǎn ma?",
+    "pinyin_numeric": "Ni3 keyi3 shuo1 man4 yidian3 ma0?",
+    "translation_en": "Can you speak a little slower?",
+    "translation_ko": "조금 천천히 말해 줄 수 있습니까?",
+    "tokens": [
+      "你",
+      "可以",
+      "說",
+      "慢",
+      "一",
+      "點",
+      "嗎"
+    ],
+    "grammar_ids": [
+      "GR_M1_D17"
+    ],
+    "audio_id": "AUD_SEN_M1_D17_04",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D17_05",
+    "text": "我可以試試嗎？",
+    "pinyin": "Wǒ kěyǐ shìshi ma?",
+    "pinyin_numeric": "Wo3 keyi3 shishi4 ma0?",
+    "translation_en": "May I try it?",
+    "translation_ko": "제가 한번 해봐도 됩니까?",
+    "tokens": [
+      "我",
+      "可以",
+      "試",
+      "試",
+      "嗎"
+    ],
+    "grammar_ids": [
+      "GR_M1_D17"
+    ],
+    "audio_id": "AUD_SEN_M1_D17_05",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D17_06",
+    "text": "我們可以喝咖啡嗎？",
+    "pinyin": "Wǒmen kěyǐ hē kāfēi ma?",
+    "pinyin_numeric": "Women3 keyi3 he1 kafei1 ma0?",
+    "translation_en": "Can we drink coffee?",
+    "translation_ko": "우리 커피 마셔도 됩니까?",
+    "tokens": [
+      "我們",
+      "可以",
+      "喝",
+      "咖啡",
+      "嗎"
+    ],
+    "grammar_ids": [
+      "GR_M1_D17"
+    ],
+    "audio_id": "AUD_SEN_M1_D17_06",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D17_07",
+    "text": "這裡可以坐嗎？",
+    "pinyin": "Zhèlǐ kěyǐ zuò ma?",
+    "pinyin_numeric": "Zheli3 keyi3 zuo4 ma0?",
+    "translation_en": "Can people sit here?",
+    "translation_ko": "여기 앉아도 됩니까?",
+    "tokens": [
+      "這裡",
+      "可以",
+      "坐",
+      "嗎"
+    ],
+    "grammar_ids": [
+      "GR_M1_D17"
+    ],
+    "audio_id": "AUD_SEN_M1_D17_07",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D17_08",
+    "text": "你有問題嗎？",
+    "pinyin": "Nǐ yǒu wèntí ma?",
+    "pinyin_numeric": "Ni3 you3 wenti2 ma0?",
+    "translation_en": "Do you have a question?",
+    "translation_ko": "질문이 있습니까?",
+    "tokens": [
+      "你",
+      "有",
+      "問題",
+      "嗎"
+    ],
+    "grammar_ids": [
+      "GR_M1_D17"
+    ],
+    "audio_id": "AUD_SEN_M1_D17_08",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D18_01",
+    "text": "我喜歡看電影。",
+    "pinyin": "Wǒ xǐhuan kàn diànyǐng.",
+    "pinyin_numeric": "Wo3 xihuan3 kan4 dianying3.",
+    "translation_en": "I like watching movies.",
+    "translation_ko": "저는 영화 보는 것을 좋아합니다.",
+    "tokens": [
+      "我",
+      "喜歡",
+      "看",
+      "電影"
+    ],
+    "grammar_ids": [
+      "GR_M1_D18"
+    ],
+    "audio_id": "AUD_SEN_M1_D18_01",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D18_02",
+    "text": "他最愛吃台灣小吃。",
+    "pinyin": "Tā zuì ài chī Táiwān xiǎochī.",
+    "pinyin_numeric": "Ta1 zui4 ai4 chi1 Taiwan1 xiaochi1.",
+    "translation_en": "He loves Taiwanese snacks the most.",
+    "translation_ko": "그는 대만 간식을 가장 좋아합니다.",
+    "tokens": [
+      "他",
+      "最",
+      "愛",
+      "吃",
+      "台灣",
+      "小吃"
+    ],
+    "grammar_ids": [
+      "GR_M1_D18"
+    ],
+    "audio_id": "AUD_SEN_M1_D18_02",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D18_03",
+    "text": "她喜歡聽音樂。",
+    "pinyin": "Tā xǐhuan tīng yīnyuè.",
+    "pinyin_numeric": "Ta1 xihuan3 ting1 yinyue4.",
+    "translation_en": "She likes listening to music.",
+    "translation_ko": "그녀는 음악 듣는 것을 좋아합니다.",
+    "tokens": [
+      "她",
+      "喜歡",
+      "聽",
+      "音樂"
+    ],
+    "grammar_ids": [
+      "GR_M1_D18"
+    ],
+    "audio_id": "AUD_SEN_M1_D18_03",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D18_04",
+    "text": "我不喜歡喝咖啡。",
+    "pinyin": "Wǒ bù xǐhuan hē kāfēi.",
+    "pinyin_numeric": "Wo3 bu4 xihuan3 he1 kafei1.",
+    "translation_en": "I do not like drinking coffee.",
+    "translation_ko": "저는 커피 마시는 것을 좋아하지 않습니다.",
+    "tokens": [
+      "我",
+      "不",
+      "喜歡",
+      "喝",
+      "咖啡"
+    ],
+    "grammar_ids": [
+      "GR_M1_D18"
+    ],
+    "audio_id": "AUD_SEN_M1_D18_04",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D18_05",
+    "text": "你喜歡拍照嗎？",
+    "pinyin": "Nǐ xǐhuan pāizhào ma?",
+    "pinyin_numeric": "Ni3 xihuan3 paizhao4 ma0?",
+    "translation_en": "Do you like taking photos?",
+    "translation_ko": "사진 찍는 것을 좋아합니까?",
+    "tokens": [
+      "你",
+      "喜歡",
+      "拍照",
+      "嗎"
+    ],
+    "grammar_ids": [
+      "GR_M1_D18"
+    ],
+    "audio_id": "AUD_SEN_M1_D18_05",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D18_06",
+    "text": "我們愛台灣。",
+    "pinyin": "Wǒmen ài Táiwān.",
+    "pinyin_numeric": "Women3 ai4 Taiwan1.",
+    "translation_en": "We love Taiwan.",
+    "translation_ko": "우리는 대만을 사랑합니다.",
+    "tokens": [
+      "我們",
+      "愛",
+      "台灣"
+    ],
+    "grammar_ids": [
+      "GR_M1_D18"
+    ],
+    "audio_id": "AUD_SEN_M1_D18_06",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D18_07",
+    "text": "爸爸喜歡走路。",
+    "pinyin": "Bàba xǐhuan zǒulù.",
+    "pinyin_numeric": "Baba4 xihuan3 zoulu4.",
+    "translation_en": "Dad likes walking.",
+    "translation_ko": "아빠는 걷는 것을 좋아합니다.",
+    "tokens": [
+      "爸爸",
+      "喜歡",
+      "走路"
+    ],
+    "grammar_ids": [
+      "GR_M1_D18"
+    ],
+    "audio_id": "AUD_SEN_M1_D18_07",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D18_08",
+    "text": "我最喜歡茶。",
+    "pinyin": "Wǒ zuì xǐhuan chá.",
+    "pinyin_numeric": "Wo3 zui4 xihuan3 cha2.",
+    "translation_en": "I like tea the most.",
+    "translation_ko": "저는 차를 가장 좋아합니다.",
+    "tokens": [
+      "我",
+      "最",
+      "喜歡",
+      "茶"
+    ],
+    "grammar_ids": [
+      "GR_M1_D18"
+    ],
+    "audio_id": "AUD_SEN_M1_D18_08",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D19_01",
+    "text": "我想先喝水，再學中文。",
+    "pinyin": "Wǒ xiǎng xiān hē shuǐ, zài xué Zhōngwén.",
+    "pinyin_numeric": "Wo3 xiang3 xian1 he1 shui3, zai4 xue2 Zhongwen2.",
+    "translation_en": "I want to drink water first, then study Chinese.",
+    "translation_ko": "저는 먼저 물을 마시고 그다음 중국어를 공부하고 싶습니다.",
+    "tokens": [
+      "我",
+      "想",
+      "先",
+      "喝",
+      "水",
+      "再",
+      "學",
+      "中文"
+    ],
+    "grammar_ids": [
+      "GR_M1_D19"
+    ],
+    "audio_id": "AUD_SEN_M1_D19_01",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D19_02",
+    "text": "他早上起床，然後吃早餐。",
+    "pinyin": "Tā zǎoshang qǐchuáng, ránhòu chī zǎocān.",
+    "pinyin_numeric": "Ta1 zaoshang3 qichuang2, ranhou4 chi1 zaocan1.",
+    "translation_en": "He gets up in the morning, then eats breakfast.",
+    "translation_ko": "그는 아침에 일어나고 그다음 아침을 먹습니다.",
+    "tokens": [
+      "他",
+      "早上",
+      "起床",
+      "然後",
+      "吃",
+      "早餐"
+    ],
+    "grammar_ids": [
+      "GR_M1_D19"
+    ],
+    "audio_id": "AUD_SEN_M1_D19_02",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D19_03",
+    "text": "我先去公司，再去餐廳。",
+    "pinyin": "Wǒ xiān qù gōngsī, zài qù cāntīng.",
+    "pinyin_numeric": "Wo3 xian1 qu4 gongsi1, zai4 qu4 canting1.",
+    "translation_en": "I go to the office first, then to a restaurant.",
+    "translation_ko": "저는 먼저 회사에 가고 그다음 식당에 갑니다.",
+    "tokens": [
+      "我",
+      "先",
+      "去",
+      "公司",
+      "再",
+      "去",
+      "餐廳"
+    ],
+    "grammar_ids": [
+      "GR_M1_D19"
+    ],
+    "audio_id": "AUD_SEN_M1_D19_03",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D19_04",
+    "text": "我們先看電影，然後喝咖啡。",
+    "pinyin": "Wǒmen xiān kàn diànyǐng, ránhòu hē kāfēi.",
+    "pinyin_numeric": "Women3 xian1 kan4 dianying3, ranhou4 he1 kafei1.",
+    "translation_en": "We watch a movie first, then drink coffee.",
+    "translation_ko": "우리는 먼저 영화를 보고 그다음 커피를 마십니다.",
+    "tokens": [
+      "我們",
+      "先",
+      "看",
+      "電影",
+      "然後",
+      "喝",
+      "咖啡"
+    ],
+    "grammar_ids": [
+      "GR_M1_D19"
+    ],
+    "audio_id": "AUD_SEN_M1_D19_04",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D19_05",
+    "text": "最後我回家。",
+    "pinyin": "Zuìhòu wǒ huí jiā.",
+    "pinyin_numeric": "Zuihou4 wo3 hui2 jia1.",
+    "translation_en": "Lastly, I go home.",
+    "translation_ko": "마지막으로 저는 집에 돌아갑니다.",
+    "tokens": [
+      "最後",
+      "我",
+      "回",
+      "家"
+    ],
+    "grammar_ids": [
+      "GR_M1_D19"
+    ],
+    "audio_id": "AUD_SEN_M1_D19_05",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D19_06",
+    "text": "你先說，我再寫。",
+    "pinyin": "Nǐ xiān shuō, wǒ zài xiě.",
+    "pinyin_numeric": "Ni3 xian1 shuo1, wo3 zai4 xie3.",
+    "translation_en": "You speak first; then I write.",
+    "translation_ko": "당신이 먼저 말하면 제가 씁니다.",
+    "tokens": [
+      "你",
+      "先",
+      "說",
+      "我",
+      "再",
+      "寫"
+    ],
+    "grammar_ids": [
+      "GR_M1_D19"
+    ],
+    "audio_id": "AUD_SEN_M1_D19_06",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D19_07",
+    "text": "她先買書，再去學校。",
+    "pinyin": "Tā xiān mǎi shū, zài qù xuéxiào.",
+    "pinyin_numeric": "Ta1 xian1 mai3 shu1, zai4 qu4 xuexiao4.",
+    "translation_en": "She buys a book first, then goes to school.",
+    "translation_ko": "그녀는 먼저 책을 사고 그다음 학교에 갑니다.",
+    "tokens": [
+      "她",
+      "先",
+      "買",
+      "書",
+      "再",
+      "去",
+      "學",
+      "校"
+    ],
+    "grammar_ids": [
+      "GR_M1_D19"
+    ],
+    "audio_id": "AUD_SEN_M1_D19_07",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D19_08",
+    "text": "我們最後去公園走路。",
+    "pinyin": "Wǒmen zuìhòu qù gōngyuán zǒulù.",
+    "pinyin_numeric": "Women3 zuihou4 qu4 gongyuan2 zoulu4.",
+    "translation_en": "Lastly we go to the park to walk.",
+    "translation_ko": "마지막으로 우리는 공원에 걸으러 갑니다.",
+    "tokens": [
+      "我們",
+      "最後",
+      "去",
+      "公",
+      "園",
+      "走路"
+    ],
+    "grammar_ids": [
+      "GR_M1_D19"
+    ],
+    "audio_id": "AUD_SEN_M1_D19_08",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D20_01",
+    "text": "我在圖書館看書。",
+    "pinyin": "Wǒ zài túshūguǎn kàn shū.",
+    "pinyin_numeric": "Wo3 zai4 tushuguan3 kan4 shu1.",
+    "translation_en": "I am reading at the library.",
+    "translation_ko": "저는 도서관에서 책을 읽고 있습니다.",
+    "tokens": [
+      "我",
+      "在",
+      "圖書館",
+      "看",
+      "書"
+    ],
+    "grammar_ids": [
+      "GR_M1_D20"
+    ],
+    "audio_id": "AUD_SEN_M1_D20_01",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D20_02",
+    "text": "學校在醫院的左邊。",
+    "pinyin": "Xuéxiào zài yīyuàn de zuǒbiān.",
+    "pinyin_numeric": "Xuexiao4 zai4 yiyuan4 de0 zuobian1.",
+    "translation_en": "The school is to the left of the hospital.",
+    "translation_ko": "학교는 병원 왼쪽에 있습니다.",
+    "tokens": [
+      "學",
+      "校",
+      "在",
+      "醫",
+      "院",
+      "的",
+      "左",
+      "邊"
+    ],
+    "grammar_ids": [
+      "GR_M1_D20"
+    ],
+    "audio_id": "AUD_SEN_M1_D20_02",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D20_03",
+    "text": "超市在我們家前面。",
+    "pinyin": "Chāoshì zài wǒmen jiā qiánmiàn.",
+    "pinyin_numeric": "Chaoshi4 zai4 women3 jia1 qianmian4.",
+    "translation_en": "The supermarket is in front of our home.",
+    "translation_ko": "슈퍼마켓은 우리 집 앞에 있습니다.",
+    "tokens": [
+      "超",
+      "市",
+      "在",
+      "我們",
+      "家",
+      "前面"
+    ],
+    "grammar_ids": [
+      "GR_M1_D20"
+    ],
+    "audio_id": "AUD_SEN_M1_D20_03",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D20_04",
+    "text": "手機在桌子上。",
+    "pinyin": "Shǒujī zài zhuōzi shàng.",
+    "pinyin_numeric": "Shouji1 zai4 zhuozi1 shang4.",
+    "translation_en": "The phone is on the table.",
+    "translation_ko": "휴대폰은 책상 위에 있습니다.",
+    "tokens": [
+      "手機",
+      "在",
+      "桌",
+      "子",
+      "上"
+    ],
+    "grammar_ids": [
+      "GR_M1_D20"
+    ],
+    "audio_id": "AUD_SEN_M1_D20_04",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D20_05",
+    "text": "書在椅子下。",
+    "pinyin": "Shū zài yǐzi xià.",
+    "pinyin_numeric": "Shu1 zai4 yizi3 xia4.",
+    "translation_en": "The book is under the chair.",
+    "translation_ko": "책은 의자 아래에 있습니다.",
+    "tokens": [
+      "書",
+      "在",
+      "椅",
+      "子",
+      "下"
+    ],
+    "grammar_ids": [
+      "GR_M1_D20"
+    ],
+    "audio_id": "AUD_SEN_M1_D20_05",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D20_06",
+    "text": "你在哪裡工作？",
+    "pinyin": "Nǐ zài nǎlǐ gōngzuò?",
+    "pinyin_numeric": "Ni3 zai4 nali3 gongzuo4?",
+    "translation_en": "Where do you work?",
+    "translation_ko": "어디에서 일합니까?",
+    "tokens": [
+      "你",
+      "在",
+      "哪裡",
+      "工作"
+    ],
+    "grammar_ids": [
+      "GR_M1_D20"
+    ],
+    "audio_id": "AUD_SEN_M1_D20_06",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D20_07",
+    "text": "我在這裡等你。",
+    "pinyin": "Wǒ zài zhèlǐ děng nǐ.",
+    "pinyin_numeric": "Wo3 zai4 zheli3 deng3 ni3.",
+    "translation_en": "I wait for you here.",
+    "translation_ko": "저는 여기에서 당신을 기다립니다.",
+    "tokens": [
+      "我",
+      "在",
+      "這裡",
+      "等",
+      "你"
+    ],
+    "grammar_ids": [
+      "GR_M1_D20"
+    ],
+    "audio_id": "AUD_SEN_M1_D20_07",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D20_08",
+    "text": "他在那裡喝咖啡。",
+    "pinyin": "Tā zài nàlǐ hē kāfēi.",
+    "pinyin_numeric": "Ta1 zai4 nali3 he1 kafei1.",
+    "translation_en": "He drinks coffee there.",
+    "translation_ko": "그는 저기에서 커피를 마십니다.",
+    "tokens": [
+      "他",
+      "在",
+      "那裡",
+      "喝",
+      "咖啡"
+    ],
+    "grammar_ids": [
+      "GR_M1_D20"
+    ],
+    "audio_id": "AUD_SEN_M1_D20_08",
+    "difficulty": 2
+  },
+  {
+    "id": "SEN_M1_D21_01",
+    "text": "明天下午三點我們在公園見面。",
+    "pinyin": "Míngtiān xiàwǔ sān diǎn wǒmen zài gōngyuán jiànmiàn.",
+    "pinyin_numeric": "Mingtian1 xiawu3 san1 dian3 women3 zai4 gongyuan2 jianmian4.",
+    "translation_en": "Tomorrow at 3 PM we meet at the park.",
+    "translation_ko": "내일 오후 세 시에 우리는 공원에서 만납니다.",
+    "tokens": [
+      "明天",
+      "下午",
+      "三",
+      "點",
+      "我們",
+      "在",
+      "公",
+      "園",
+      "見",
+      "面"
+    ],
+    "grammar_ids": [
+      "GR_M1_D21"
+    ],
+    "audio_id": "AUD_SEN_M1_D21_01",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D21_02",
+    "text": "然後我們去咖啡店喝咖啡。",
+    "pinyin": "Ránhòu wǒmen qù kāfēi diàn hē kāfēi.",
+    "pinyin_numeric": "Ranhou4 women3 qu4 kafei1 dian4 he1 kafei1.",
+    "translation_en": "Then we go to a cafe to drink coffee.",
+    "translation_ko": "그다음 우리는 카페에 가서 커피를 마십니다.",
+    "tokens": [
+      "然後",
+      "我們",
+      "去",
+      "咖啡",
+      "店",
+      "喝",
+      "咖啡"
+    ],
+    "grammar_ids": [
+      "GR_M1_D21"
+    ],
+    "audio_id": "AUD_SEN_M1_D21_02",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D21_03",
+    "text": "你可以坐這裡嗎？",
+    "pinyin": "Nǐ kěyǐ zuò zhèlǐ ma?",
+    "pinyin_numeric": "Ni3 keyi3 zuo4 zheli3 ma0?",
+    "translation_en": "Can you sit here?",
+    "translation_ko": "여기에 앉을 수 있습니까?",
+    "tokens": [
+      "你",
+      "可以",
+      "坐",
+      "這裡",
+      "嗎"
+    ],
+    "grammar_ids": [
+      "GR_M1_D21"
+    ],
+    "audio_id": "AUD_SEN_M1_D21_03",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D21_04",
+    "text": "我想先看電影。",
+    "pinyin": "Wǒ xiǎng xiān kàn diànyǐng.",
+    "pinyin_numeric": "Wo3 xiang3 xian1 kan4 dianying3.",
+    "translation_en": "I want to watch a movie first.",
+    "translation_ko": "저는 먼저 영화를 보고 싶습니다.",
+    "tokens": [
+      "我",
+      "想",
+      "先",
+      "看",
+      "電影"
+    ],
+    "grammar_ids": [
+      "GR_M1_D21"
+    ],
+    "audio_id": "AUD_SEN_M1_D21_04",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D21_05",
+    "text": "她不喜歡喝咖啡。",
+    "pinyin": "Tā bù xǐhuan hē kāfēi.",
+    "pinyin_numeric": "Ta1 bu4 xihuan3 he1 kafei1.",
+    "translation_en": "She does not like drinking coffee.",
+    "translation_ko": "그녀는 커피 마시는 것을 좋아하지 않습니다.",
+    "tokens": [
+      "她",
+      "不",
+      "喜歡",
+      "喝",
+      "咖啡"
+    ],
+    "grammar_ids": [
+      "GR_M1_D21"
+    ],
+    "audio_id": "AUD_SEN_M1_D21_05",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D21_06",
+    "text": "我們最後去圖書館。",
+    "pinyin": "Wǒmen zuìhòu qù túshūguǎn.",
+    "pinyin_numeric": "Women3 zuihou4 qu4 tushuguan3.",
+    "translation_en": "Lastly we go to the library.",
+    "translation_ko": "마지막으로 우리는 도서관에 갑니다.",
+    "tokens": [
+      "我們",
+      "最後",
+      "去",
+      "圖書館"
+    ],
+    "grammar_ids": [
+      "GR_M1_D21"
+    ],
+    "audio_id": "AUD_SEN_M1_D21_06",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D21_07",
+    "text": "圖書館在哪裡？",
+    "pinyin": "Túshūguǎn zài nǎlǐ?",
+    "pinyin_numeric": "Tushuguan3 zai4 nali3?",
+    "translation_en": "Where is the library?",
+    "translation_ko": "도서관은 어디에 있습니까?",
+    "tokens": [
+      "圖書館",
+      "在",
+      "哪裡"
+    ],
+    "grammar_ids": [
+      "GR_M1_D21"
+    ],
+    "audio_id": "AUD_SEN_M1_D21_07",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D21_08",
+    "text": "今天的計畫很好。",
+    "pinyin": "Jīntiān de jìhuà hěn hǎo.",
+    "pinyin_numeric": "Jintian1 de0 jihua4 hen3 hao3.",
+    "translation_en": "Today's plan is good.",
+    "translation_ko": "오늘 계획은 좋습니다.",
+    "tokens": [
+      "今天",
+      "的",
+      "計",
+      "畫",
+      "很",
+      "好"
+    ],
+    "grammar_ids": [
+      "GR_M1_D21"
+    ],
+    "audio_id": "AUD_SEN_M1_D21_08",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D22_01",
+    "text": "我們下午去公園散步。",
+    "pinyin": "Wǒmen xiàwǔ qù gōngyuán sànbù.",
+    "pinyin_numeric": "Women3 xiawu3 qu4 gongyuan2 sanbu4.",
+    "translation_en": "We will go to the park for a walk this afternoon.",
+    "translation_ko": "우리는 오후에 공원에 산책하러 갑니다.",
+    "tokens": [
+      "我們",
+      "下午",
+      "去",
+      "公園",
+      "散",
+      "步"
+    ],
+    "grammar_ids": [
+      "GR_M1_D22"
+    ],
+    "audio_id": "AUD_SEN_M1_D22_01",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D22_02",
+    "text": "他明天坐火車來台中。",
+    "pinyin": "Tā míngtiān zuò huǒchē lái Táizhōng.",
+    "pinyin_numeric": "Ta1 mingtian1 zuo4 huoche1 lai2 Taizhong1.",
+    "translation_en": "He comes to Taichung by train tomorrow.",
+    "translation_ko": "그는 내일 기차를 타고 타이중에 옵니다.",
+    "tokens": [
+      "他",
+      "明天",
+      "坐",
+      "火車",
+      "來",
+      "台",
+      "中"
+    ],
+    "grammar_ids": [
+      "GR_M1_D22"
+    ],
+    "audio_id": "AUD_SEN_M1_D22_02",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D22_03",
+    "text": "你去商店嗎？",
+    "pinyin": "Nǐ qù shāngdiàn ma?",
+    "pinyin_numeric": "Ni3 qu4 shangdian4 ma0?",
+    "translation_en": "Are you going to the shop?",
+    "translation_ko": "가게에 갑니까?",
+    "tokens": [
+      "你",
+      "去",
+      "商店",
+      "嗎"
+    ],
+    "grammar_ids": [
+      "GR_M1_D22"
+    ],
+    "audio_id": "AUD_SEN_M1_D22_03",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D22_04",
+    "text": "醫院在哪裡？",
+    "pinyin": "Yīyuàn zài nǎlǐ?",
+    "pinyin_numeric": "Yiyuan4 zai4 nali3?",
+    "translation_en": "Where is the hospital?",
+    "translation_ko": "병원은 어디에 있습니까?",
+    "tokens": [
+      "醫院",
+      "在",
+      "哪裡"
+    ],
+    "grammar_ids": [
+      "GR_M1_D22"
+    ],
+    "audio_id": "AUD_SEN_M1_D22_04",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D22_05",
+    "text": "我坐捷運去學校。",
+    "pinyin": "Wǒ zuò jiéyùn qù xuéxiào.",
+    "pinyin_numeric": "Wo3 zuo4 jieyun4 qu4 xuexiao4.",
+    "translation_en": "I take the MRT to school.",
+    "translation_ko": "저는 MRT를 타고 학교에 갑니다.",
+    "tokens": [
+      "我",
+      "坐",
+      "捷運",
+      "去",
+      "學校"
+    ],
+    "grammar_ids": [
+      "GR_M1_D22"
+    ],
+    "audio_id": "AUD_SEN_M1_D22_05",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D22_06",
+    "text": "車站在公園前面。",
+    "pinyin": "Chēzhàn zài gōngyuán qiánmiàn.",
+    "pinyin_numeric": "Chezhan4 zai4 gongyuan2 qianmian4.",
+    "translation_en": "The station is in front of the park.",
+    "translation_ko": "역은 공원 앞에 있습니다.",
+    "tokens": [
+      "車站",
+      "在",
+      "公園",
+      "前面"
+    ],
+    "grammar_ids": [
+      "GR_M1_D22"
+    ],
+    "audio_id": "AUD_SEN_M1_D22_06",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D22_07",
+    "text": "爸爸坐飛機去台北。",
+    "pinyin": "Bàba zuò fēijī qù Táiběi.",
+    "pinyin_numeric": "Baba4 zuo4 feiji1 qu4 Taibei3.",
+    "translation_en": "Dad takes a plane to Taipei.",
+    "translation_ko": "아빠는 비행기를 타고 타이베이에 갑니다.",
+    "tokens": [
+      "爸爸",
+      "坐",
+      "飛機",
+      "去",
+      "台",
+      "北"
+    ],
+    "grammar_ids": [
+      "GR_M1_D22"
+    ],
+    "audio_id": "AUD_SEN_M1_D22_07",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D22_08",
+    "text": "你明天來我家嗎？",
+    "pinyin": "Nǐ míngtiān lái wǒ jiā ma?",
+    "pinyin_numeric": "Ni3 mingtian1 lai2 wo3 jia1 ma0?",
+    "translation_en": "Are you coming to my home tomorrow?",
+    "translation_ko": "내일 우리 집에 옵니까?",
+    "tokens": [
+      "你",
+      "明天",
+      "來",
+      "我",
+      "家",
+      "嗎"
+    ],
+    "grammar_ids": [
+      "GR_M1_D22"
+    ],
+    "audio_id": "AUD_SEN_M1_D22_08",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D23_01",
+    "text": "今天比昨天熱。",
+    "pinyin": "Jīntiān bǐ zuótiān rè.",
+    "pinyin_numeric": "Jintian1 bi3 zuotian1 re4.",
+    "translation_en": "Today is hotter than yesterday.",
+    "translation_ko": "오늘은 어제보다 덥습니다.",
+    "tokens": [
+      "今天",
+      "比",
+      "昨天",
+      "熱"
+    ],
+    "grammar_ids": [
+      "GR_M1_D23"
+    ],
+    "audio_id": "AUD_SEN_M1_D23_01",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D23_02",
+    "text": "這個菜比那個菜貴。",
+    "pinyin": "Zhège cài bǐ nàge cài guì.",
+    "pinyin_numeric": "Zhege4 cai4 bi3 nage4 cai4 gui4.",
+    "translation_en": "This dish is more expensive than that dish.",
+    "translation_ko": "이 요리는 저 요리보다 비쌉니다.",
+    "tokens": [
+      "這",
+      "個",
+      "菜",
+      "比",
+      "那個",
+      "菜",
+      "貴"
+    ],
+    "grammar_ids": [
+      "GR_M1_D23"
+    ],
+    "audio_id": "AUD_SEN_M1_D23_02",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D23_03",
+    "text": "捷運比火車快嗎？",
+    "pinyin": "Jiéyùn bǐ huǒchē kuài ma?",
+    "pinyin_numeric": "Jieyun4 bi3 huoche1 kuai4 ma0?",
+    "translation_en": "Is the MRT faster than the train?",
+    "translation_ko": "MRT가 기차보다 빠릅니까?",
+    "tokens": [
+      "捷運",
+      "比",
+      "火車",
+      "快",
+      "嗎"
+    ],
+    "grammar_ids": [
+      "GR_M1_D23"
+    ],
+    "audio_id": "AUD_SEN_M1_D23_03",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D23_04",
+    "text": "這杯咖啡比那杯茶便宜。",
+    "pinyin": "Zhè bēi kāfēi bǐ nà bēi chá piányi.",
+    "pinyin_numeric": "Zhe4 bei1 kafei1 bi3 na4 bei1 cha2 pianyi2.",
+    "translation_en": "This coffee is cheaper than that tea.",
+    "translation_ko": "이 커피는 저 차보다 쌉니다.",
+    "tokens": [
+      "這",
+      "杯",
+      "咖啡",
+      "比",
+      "那",
+      "杯",
+      "茶",
+      "便宜"
+    ],
+    "grammar_ids": [
+      "GR_M1_D23"
+    ],
+    "audio_id": "AUD_SEN_M1_D23_04",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D23_05",
+    "text": "我的手機比你的手機新。",
+    "pinyin": "Wǒ de shǒujī bǐ nǐ de shǒujī xīn.",
+    "pinyin_numeric": "Wo3 de0 shouji1 bi3 ni3 de0 shouji1 xin1.",
+    "translation_en": "My phone is newer than your phone.",
+    "translation_ko": "제 휴대폰은 당신의 휴대폰보다 새롭습니다.",
+    "tokens": [
+      "我",
+      "的",
+      "手機",
+      "比",
+      "你",
+      "的",
+      "手機",
+      "新"
+    ],
+    "grammar_ids": [
+      "GR_M1_D23"
+    ],
+    "audio_id": "AUD_SEN_M1_D23_05",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D23_06",
+    "text": "今天比昨天冷。",
+    "pinyin": "Jīntiān bǐ zuótiān lěng.",
+    "pinyin_numeric": "Jintian1 bi3 zuotian1 leng3.",
+    "translation_en": "Today is colder than yesterday.",
+    "translation_ko": "오늘은 어제보다 춥습니다.",
+    "tokens": [
+      "今天",
+      "比",
+      "昨天",
+      "冷"
+    ],
+    "grammar_ids": [
+      "GR_M1_D23"
+    ],
+    "audio_id": "AUD_SEN_M1_D23_06",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D23_07",
+    "text": "他說中文比我好。",
+    "pinyin": "Tā shuō Zhōngwén bǐ wǒ hǎo.",
+    "pinyin_numeric": "Ta1 shuo1 Zhongwen2 bi3 wo3 hao3.",
+    "translation_en": "He speaks Chinese better than me.",
+    "translation_ko": "그는 저보다 중국어를 잘합니다.",
+    "tokens": [
+      "他",
+      "說",
+      "中文",
+      "比",
+      "我",
+      "好"
+    ],
+    "grammar_ids": [
+      "GR_M1_D23"
+    ],
+    "audio_id": "AUD_SEN_M1_D23_07",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D23_08",
+    "text": "這家餐廳更貴。",
+    "pinyin": "Zhè jiā cāntīng gèng guì.",
+    "pinyin_numeric": "Zhe4 jia1 canting1 geng4 gui4.",
+    "translation_en": "This restaurant is even more expensive.",
+    "translation_ko": "이 식당은 더 비쌉니다.",
+    "tokens": [
+      "這",
+      "家",
+      "餐廳",
+      "更",
+      "貴"
+    ],
+    "grammar_ids": [
+      "GR_M1_D23"
+    ],
+    "audio_id": "AUD_SEN_M1_D23_08",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D24_01",
+    "text": "銀行在商店的前面。",
+    "pinyin": "Yínháng zài shāngdiàn de qiánmiàn.",
+    "pinyin_numeric": "Yinhang2 zai4 shangdian4 de0 qianmian4.",
+    "translation_en": "The bank is in front of the shop.",
+    "translation_ko": "은행은 가게 앞에 있습니다.",
+    "tokens": [
+      "銀行",
+      "在",
+      "商店",
+      "的",
+      "前面"
+    ],
+    "grammar_ids": [
+      "GR_M1_D24"
+    ],
+    "audio_id": "AUD_SEN_M1_D24_01",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D24_02",
+    "text": "圖書館在學校的後面。",
+    "pinyin": "Túshūguǎn zài xuéxiào de hòumiàn.",
+    "pinyin_numeric": "Tushuguan3 zai4 xuexiao4 de0 houmian4.",
+    "translation_en": "The library is behind the school.",
+    "translation_ko": "도서관은 학교 뒤에 있습니다.",
+    "tokens": [
+      "圖書館",
+      "在",
+      "學校",
+      "的",
+      "後",
+      "面"
+    ],
+    "grammar_ids": [
+      "GR_M1_D24"
+    ],
+    "audio_id": "AUD_SEN_M1_D24_02",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D24_03",
+    "text": "廁所在哪裡？",
+    "pinyin": "Cèsuǒ zài nǎlǐ?",
+    "pinyin_numeric": "Cesuo3 zai4 nali3?",
+    "translation_en": "Where is the bathroom?",
+    "translation_ko": "화장실은 어디에 있습니까?",
+    "tokens": [
+      "廁所",
+      "在",
+      "哪裡"
+    ],
+    "grammar_ids": [
+      "GR_M1_D24"
+    ],
+    "audio_id": "AUD_SEN_M1_D24_03",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D24_04",
+    "text": "手機在包包裡面。",
+    "pinyin": "Shǒujī zài bāobāo lǐmiàn.",
+    "pinyin_numeric": "Shouji1 zai4 baobao1 limian4.",
+    "translation_en": "The phone is inside the bag.",
+    "translation_ko": "휴대폰은 가방 안에 있습니다.",
+    "tokens": [
+      "手機",
+      "在",
+      "包",
+      "包",
+      "裡面"
+    ],
+    "grammar_ids": [
+      "GR_M1_D24"
+    ],
+    "audio_id": "AUD_SEN_M1_D24_04",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D24_05",
+    "text": "他在外面等你。",
+    "pinyin": "Tā zài wàimiàn děng nǐ.",
+    "pinyin_numeric": "Ta1 zai4 waimian4 deng3 ni3.",
+    "translation_en": "He is waiting for you outside.",
+    "translation_ko": "그는 밖에서 당신을 기다립니다.",
+    "tokens": [
+      "他",
+      "在",
+      "外面",
+      "等",
+      "你"
+    ],
+    "grammar_ids": [
+      "GR_M1_D24"
+    ],
+    "audio_id": "AUD_SEN_M1_D24_05",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D24_06",
+    "text": "醫院在這條路的右邊。",
+    "pinyin": "Yīyuàn zài zhè tiáo lù de yòubiān.",
+    "pinyin_numeric": "Yiyuan4 zai4 zhe4 tiao2 lu4 de0 youbian1.",
+    "translation_en": "The hospital is on the right side of this road.",
+    "translation_ko": "병원은 이 길 오른쪽에 있습니다.",
+    "tokens": [
+      "醫院",
+      "在",
+      "這",
+      "條",
+      "路",
+      "的",
+      "右",
+      "邊"
+    ],
+    "grammar_ids": [
+      "GR_M1_D24"
+    ],
+    "audio_id": "AUD_SEN_M1_D24_06",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D24_07",
+    "text": "公園在車站的左邊。",
+    "pinyin": "Gōngyuán zài chēzhàn de zuǒbiān.",
+    "pinyin_numeric": "Gongyuan2 zai4 chezhan4 de0 zuobian1.",
+    "translation_en": "The park is to the left of the station.",
+    "translation_ko": "공원은 역 왼쪽에 있습니다.",
+    "tokens": [
+      "公園",
+      "在",
+      "車站",
+      "的",
+      "左",
+      "邊"
+    ],
+    "grammar_ids": [
+      "GR_M1_D24"
+    ],
+    "audio_id": "AUD_SEN_M1_D24_07",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D24_08",
+    "text": "餐廳在銀行後面。",
+    "pinyin": "Cāntīng zài yínháng hòumiàn.",
+    "pinyin_numeric": "Canting1 zai4 yinhang2 houmian4.",
+    "translation_en": "The restaurant is behind the bank.",
+    "translation_ko": "식당은 은행 뒤에 있습니다.",
+    "tokens": [
+      "餐廳",
+      "在",
+      "銀行",
+      "後",
+      "面"
+    ],
+    "grammar_ids": [
+      "GR_M1_D24"
+    ],
+    "audio_id": "AUD_SEN_M1_D24_08",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D25_01",
+    "text": "我需要去銀行取錢。",
+    "pinyin": "Wǒ xūyào qù yínháng qǔ qián.",
+    "pinyin_numeric": "Wo3 xuyao4 qu4 yinhang2 qu3 qian2.",
+    "translation_en": "I need to go to the bank to withdraw money.",
+    "translation_ko": "저는 은행에 가서 돈을 찾아야 합니다.",
+    "tokens": [
+      "我",
+      "需要",
+      "去",
+      "銀行",
+      "取",
+      "錢"
+    ],
+    "grammar_ids": [
+      "GR_M1_D25"
+    ],
+    "audio_id": "AUD_SEN_M1_D25_01",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D25_02",
+    "text": "抱歉，現在我必須走了。",
+    "pinyin": "Bàoqiàn, xiànzài wǒ bìxū zǒu le.",
+    "pinyin_numeric": "Baoqian4, xianzai4 wo3 bixu1 zou3 le0.",
+    "translation_en": "Sorry, I must leave now.",
+    "translation_ko": "미안합니다, 지금 저는 가야 합니다.",
+    "tokens": [
+      "抱歉",
+      "現在",
+      "我",
+      "必須",
+      "走",
+      "了"
+    ],
+    "grammar_ids": [
+      "GR_M1_D25"
+    ],
+    "audio_id": "AUD_SEN_M1_D25_02",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D25_03",
+    "text": "我得學中文。",
+    "pinyin": "Wǒ děi xué Zhōngwén.",
+    "pinyin_numeric": "Wo3 dei3 xue2 Zhongwen2.",
+    "translation_en": "I have to study Chinese.",
+    "translation_ko": "저는 중국어를 공부해야 합니다.",
+    "tokens": [
+      "我",
+      "得",
+      "學",
+      "中文"
+    ],
+    "grammar_ids": [
+      "GR_M1_D25"
+    ],
+    "audio_id": "AUD_SEN_M1_D25_03",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D25_04",
+    "text": "你需要發票嗎？",
+    "pinyin": "Nǐ xūyào fāpiào ma?",
+    "pinyin_numeric": "Ni3 xuyao4 fapiao4 ma0?",
+    "translation_en": "Do you need a receipt?",
+    "translation_ko": "영수증이 필요합니까?",
+    "tokens": [
+      "你",
+      "需要",
+      "發票",
+      "嗎"
+    ],
+    "grammar_ids": [
+      "GR_M1_D25"
+    ],
+    "audio_id": "AUD_SEN_M1_D25_04",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D25_05",
+    "text": "我需要一張悠遊卡。",
+    "pinyin": "Wǒ xūyào yì zhāng Yōuyóu Kǎ.",
+    "pinyin_numeric": "Wo3 xuyao4 yi4 zhang1 Youyou2 Ka3.",
+    "translation_en": "I need an EasyCard.",
+    "translation_ko": "저는 이지카드 한 장이 필요합니다.",
+    "tokens": [
+      "我",
+      "需要",
+      "一",
+      "張",
+      "悠遊卡"
+    ],
+    "grammar_ids": [
+      "GR_M1_D25"
+    ],
+    "audio_id": "AUD_SEN_M1_D25_05",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D25_06",
+    "text": "我們得坐捷運去學校。",
+    "pinyin": "Wǒmen děi zuò jiéyùn qù xuéxiào.",
+    "pinyin_numeric": "Women3 dei3 zuo4 jieyun4 qu4 xuexiao4.",
+    "translation_en": "We have to take the MRT to school.",
+    "translation_ko": "우리는 MRT를 타고 학교에 가야 합니다.",
+    "tokens": [
+      "我們",
+      "得",
+      "坐",
+      "捷運",
+      "去",
+      "學校"
+    ],
+    "grammar_ids": [
+      "GR_M1_D25"
+    ],
+    "audio_id": "AUD_SEN_M1_D25_06",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D25_07",
+    "text": "他必須早上去公司。",
+    "pinyin": "Tā bìxū zǎoshang qù gōngsī.",
+    "pinyin_numeric": "Ta1 bixu1 zaoshang3 qu4 gongsi1.",
+    "translation_en": "He must go to the office in the morning.",
+    "translation_ko": "그는 아침에 회사에 가야 합니다.",
+    "tokens": [
+      "他",
+      "必須",
+      "早上",
+      "去",
+      "公司"
+    ],
+    "grammar_ids": [
+      "GR_M1_D25"
+    ],
+    "audio_id": "AUD_SEN_M1_D25_07",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D25_08",
+    "text": "我需要拿手機。",
+    "pinyin": "Wǒ xūyào ná shǒujī.",
+    "pinyin_numeric": "Wo3 xuyao4 na2 shouji1.",
+    "translation_en": "I need to take my phone.",
+    "translation_ko": "저는 휴대폰을 가져가야 합니다.",
+    "tokens": [
+      "我",
+      "需要",
+      "拿",
+      "手機"
+    ],
+    "grammar_ids": [
+      "GR_M1_D25"
+    ],
+    "audio_id": "AUD_SEN_M1_D25_08",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D26_01",
+    "text": "請進！",
+    "pinyin": "Qǐng jìn!",
+    "pinyin_numeric": "Qing3 jin4!",
+    "translation_en": "Please come in!",
+    "translation_ko": "들어오세요!",
+    "tokens": [
+      "請",
+      "進"
+    ],
+    "grammar_ids": [
+      "GR_M1_D26"
+    ],
+    "audio_id": "AUD_SEN_M1_D26_01",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D26_02",
+    "text": "請幫我一下，可以嗎？",
+    "pinyin": "Qǐng bāng wǒ yíxià, kěyǐ ma?",
+    "pinyin_numeric": "Qing3 bang1 wo3 yixia4, keyi3 ma0?",
+    "translation_en": "Please help me for a moment, is that okay?",
+    "translation_ko": "잠깐 도와주실 수 있습니까?",
+    "tokens": [
+      "請",
+      "幫",
+      "我",
+      "一下",
+      "可以",
+      "嗎"
+    ],
+    "grammar_ids": [
+      "GR_M1_D26"
+    ],
+    "audio_id": "AUD_SEN_M1_D26_02",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D26_03",
+    "text": "請跟我來。",
+    "pinyin": "Qǐng gēn wǒ lái.",
+    "pinyin_numeric": "Qing3 gen1 wo3 lai2.",
+    "translation_en": "Please come with me.",
+    "translation_ko": "저를 따라오세요.",
+    "tokens": [
+      "請",
+      "跟",
+      "我",
+      "來"
+    ],
+    "grammar_ids": [
+      "GR_M1_D26"
+    ],
+    "audio_id": "AUD_SEN_M1_D26_03",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D26_04",
+    "text": "請等一下。",
+    "pinyin": "Qǐng děng yíxià.",
+    "pinyin_numeric": "Qing3 deng3 yixia4.",
+    "translation_en": "Please wait a moment.",
+    "translation_ko": "잠깐 기다려 주세요.",
+    "tokens": [
+      "請",
+      "等",
+      "一下"
+    ],
+    "grammar_ids": [
+      "GR_M1_D26"
+    ],
+    "audio_id": "AUD_SEN_M1_D26_04",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D26_05",
+    "text": "請給我菜單。",
+    "pinyin": "Qǐng gěi wǒ càidān.",
+    "pinyin_numeric": "Qing3 gei3 wo3 caidan1.",
+    "translation_en": "Please give me the menu.",
+    "translation_ko": "메뉴를 주세요.",
+    "tokens": [
+      "請",
+      "給",
+      "我",
+      "菜單"
+    ],
+    "grammar_ids": [
+      "GR_M1_D26"
+    ],
+    "audio_id": "AUD_SEN_M1_D26_05",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D26_06",
+    "text": "我要一個袋子。",
+    "pinyin": "Wǒ yào yí ge dàizi.",
+    "pinyin_numeric": "Wo3 yao4 yi2 ge0 daizi4.",
+    "translation_en": "I would like a bag.",
+    "translation_ko": "봉투 하나 주세요.",
+    "tokens": [
+      "我",
+      "要",
+      "一",
+      "個",
+      "袋子"
+    ],
+    "grammar_ids": [
+      "GR_M1_D26"
+    ],
+    "audio_id": "AUD_SEN_M1_D26_06",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D26_07",
+    "text": "你想一起喝咖啡嗎？",
+    "pinyin": "Nǐ xiǎng yìqǐ hē kāfēi ma?",
+    "pinyin_numeric": "Ni3 xiang3 yiqi3 he1 kafei1 ma0?",
+    "translation_en": "Do you want to drink coffee together?",
+    "translation_ko": "같이 커피를 마시고 싶습니까?",
+    "tokens": [
+      "你",
+      "想",
+      "一起",
+      "喝",
+      "咖啡",
+      "嗎"
+    ],
+    "grammar_ids": [
+      "GR_M1_D26"
+    ],
+    "audio_id": "AUD_SEN_M1_D26_07",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D26_08",
+    "text": "可以請你說慢一點嗎？",
+    "pinyin": "Kěyǐ qǐng nǐ shuō màn yìdiǎn ma?",
+    "pinyin_numeric": "Keyi3 qing3 ni3 shuo1 man4 yidian3 ma0?",
+    "translation_en": "Could you please speak a little slower?",
+    "translation_ko": "조금 천천히 말해 주실 수 있습니까?",
+    "tokens": [
+      "可以",
+      "請",
+      "你",
+      "說",
+      "慢",
+      "一",
+      "點",
+      "嗎"
+    ],
+    "grammar_ids": [
+      "GR_M1_D26"
+    ],
+    "audio_id": "AUD_SEN_M1_D26_08",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D27_01",
+    "text": "我的愛好是唱歌和跳舞。",
+    "pinyin": "Wǒ de àihào shì chànggē hé tiàowǔ.",
+    "pinyin_numeric": "Wo3 de0 aihao4 shi4 changge1 he2 tiaowu3.",
+    "translation_en": "My hobbies are singing and dancing.",
+    "translation_ko": "제 취미는 노래와 춤입니다.",
+    "tokens": [
+      "我",
+      "的",
+      "愛好",
+      "是",
+      "唱歌",
+      "和",
+      "跳舞"
+    ],
+    "grammar_ids": [
+      "GR_M1_D27"
+    ],
+    "audio_id": "AUD_SEN_M1_D27_01",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D27_02",
+    "text": "我喜歡旅遊，也喜歡拍照。",
+    "pinyin": "Wǒ xǐhuan lǚyóu, yě xǐhuan pāizhào.",
+    "pinyin_numeric": "Wo3 xihuan3 lüyou2, ye3 xihuan3 paizhao4.",
+    "translation_en": "I like traveling and also taking photos.",
+    "translation_ko": "저는 여행도 좋아하고 사진 찍기도 좋아합니다.",
+    "tokens": [
+      "我",
+      "喜歡",
+      "旅遊",
+      "也",
+      "喜歡",
+      "拍照"
+    ],
+    "grammar_ids": [
+      "GR_M1_D27"
+    ],
+    "audio_id": "AUD_SEN_M1_D27_02",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D27_03",
+    "text": "他不喜歡運動。",
+    "pinyin": "Tā bù xǐhuan yùndòng.",
+    "pinyin_numeric": "Ta1 bu4 xihuan3 yundong4.",
+    "translation_en": "He does not like exercising.",
+    "translation_ko": "그는 운동을 좋아하지 않습니다.",
+    "tokens": [
+      "他",
+      "不",
+      "喜歡",
+      "運動"
+    ],
+    "grammar_ids": [
+      "GR_M1_D27"
+    ],
+    "audio_id": "AUD_SEN_M1_D27_03",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D27_04",
+    "text": "你會游泳嗎？",
+    "pinyin": "Nǐ huì yóuyǒng ma?",
+    "pinyin_numeric": "Ni3 hui4 youyong3 ma0?",
+    "translation_en": "Can you swim?",
+    "translation_ko": "수영할 수 있습니까?",
+    "tokens": [
+      "你",
+      "會",
+      "游泳",
+      "嗎"
+    ],
+    "grammar_ids": [
+      "GR_M1_D27"
+    ],
+    "audio_id": "AUD_SEN_M1_D27_04",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D27_05",
+    "text": "妹妹最愛唱歌。",
+    "pinyin": "Mèimei zuì ài chànggē.",
+    "pinyin_numeric": "Meimei4 zui4 ai4 changge1.",
+    "translation_en": "My younger sister loves singing the most.",
+    "translation_ko": "여동생은 노래를 가장 좋아합니다.",
+    "tokens": [
+      "妹妹",
+      "最",
+      "愛",
+      "唱歌"
+    ],
+    "grammar_ids": [
+      "GR_M1_D27"
+    ],
+    "audio_id": "AUD_SEN_M1_D27_05",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D27_06",
+    "text": "我們下午去公園跑步。",
+    "pinyin": "Wǒmen xiàwǔ qù gōngyuán pǎobù.",
+    "pinyin_numeric": "Women3 xiawu3 qu4 gongyuan2 paobu4.",
+    "translation_en": "We go to the park to run in the afternoon.",
+    "translation_ko": "우리는 오후에 공원에 달리러 갑니다.",
+    "tokens": [
+      "我們",
+      "下午",
+      "去",
+      "公園",
+      "跑步"
+    ],
+    "grammar_ids": [
+      "GR_M1_D27"
+    ],
+    "audio_id": "AUD_SEN_M1_D27_06",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D27_07",
+    "text": "我的朋友喜歡跳舞。",
+    "pinyin": "Wǒ de péngyǒu xǐhuan tiàowǔ.",
+    "pinyin_numeric": "Wo3 de0 pengyou3 xihuan3 tiaowu3.",
+    "translation_en": "My friend likes dancing.",
+    "translation_ko": "제 친구는 춤추는 것을 좋아합니다.",
+    "tokens": [
+      "我",
+      "的",
+      "朋友",
+      "喜歡",
+      "跳舞"
+    ],
+    "grammar_ids": [
+      "GR_M1_D27"
+    ],
+    "audio_id": "AUD_SEN_M1_D27_07",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D27_08",
+    "text": "你的愛好是什麼？",
+    "pinyin": "Nǐ de àihào shì shénme?",
+    "pinyin_numeric": "Ni3 de0 aihao4 shi4 shenme2?",
+    "translation_en": "What is your hobby?",
+    "translation_ko": "취미가 무엇입니까?",
+    "tokens": [
+      "你",
+      "的",
+      "愛好",
+      "是",
+      "什麼"
+    ],
+    "grammar_ids": [
+      "GR_M1_D27"
+    ],
+    "audio_id": "AUD_SEN_M1_D27_08",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D28_01",
+    "text": "明天我會去台北。",
+    "pinyin": "Míngtiān wǒ huì qù Táiběi.",
+    "pinyin_numeric": "Mingtian1 wo3 hui4 qu4 Taibei3.",
+    "translation_en": "Tomorrow I will go to Taipei.",
+    "translation_ko": "내일 저는 타이베이에 갈 것입니다.",
+    "tokens": [
+      "明天",
+      "我",
+      "會",
+      "去",
+      "台北"
+    ],
+    "grammar_ids": [
+      "GR_M1_D28"
+    ],
+    "audio_id": "AUD_SEN_M1_D28_01",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D28_02",
+    "text": "我想學游泳。",
+    "pinyin": "Wǒ xiǎng xué yóuyǒng.",
+    "pinyin_numeric": "Wo3 xiang3 xue2 youyong3.",
+    "translation_en": "I want to learn to swim.",
+    "translation_ko": "저는 수영을 배우고 싶습니다.",
+    "tokens": [
+      "我",
+      "想",
+      "學",
+      "游泳"
+    ],
+    "grammar_ids": [
+      "GR_M1_D28"
+    ],
+    "audio_id": "AUD_SEN_M1_D28_02",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D28_03",
+    "text": "我們打算下個星期見面。",
+    "pinyin": "Wǒmen dǎsuàn xià ge xīngqī jiànmiàn.",
+    "pinyin_numeric": "Women3 dasuan4 xia4 ge0 xingqi1 jianmian4.",
+    "translation_en": "We plan to meet next week.",
+    "translation_ko": "우리는 다음 주에 만날 계획입니다.",
+    "tokens": [
+      "我們",
+      "打算",
+      "下個星期",
+      "見面"
+    ],
+    "grammar_ids": [
+      "GR_M1_D28"
+    ],
+    "audio_id": "AUD_SEN_M1_D28_03",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D28_04",
+    "text": "他希望學好中文。",
+    "pinyin": "Tā xīwàng xué hǎo Zhōngwén.",
+    "pinyin_numeric": "Ta1 xiwang4 xue2 hao3 Zhongwen2.",
+    "translation_en": "He hopes to learn Chinese well.",
+    "translation_ko": "그는 중국어를 잘 배우고 싶어 합니다.",
+    "tokens": [
+      "他",
+      "希望",
+      "學",
+      "好",
+      "中文"
+    ],
+    "grammar_ids": [
+      "GR_M1_D28"
+    ],
+    "audio_id": "AUD_SEN_M1_D28_04",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D28_05",
+    "text": "你明天要做什麼？",
+    "pinyin": "Nǐ míngtiān yào zuò shénme?",
+    "pinyin_numeric": "Ni3 mingtian1 yao4 zuo4 shenme2?",
+    "translation_en": "What are you going to do tomorrow?",
+    "translation_ko": "내일 무엇을 할 예정입니까?",
+    "tokens": [
+      "你",
+      "明天",
+      "要",
+      "做",
+      "什麼"
+    ],
+    "grammar_ids": [
+      "GR_M1_D28"
+    ],
+    "audio_id": "AUD_SEN_M1_D28_05",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D28_06",
+    "text": "我會坐捷運去公司。",
+    "pinyin": "Wǒ huì zuò jiéyùn qù gōngsī.",
+    "pinyin_numeric": "Wo3 hui4 zuo4 jieyun4 qu4 gongsi1.",
+    "translation_en": "I will take the MRT to the office.",
+    "translation_ko": "저는 MRT를 타고 회사에 갈 것입니다.",
+    "tokens": [
+      "我",
+      "會",
+      "坐",
+      "捷運",
+      "去",
+      "公司"
+    ],
+    "grammar_ids": [
+      "GR_M1_D28"
+    ],
+    "audio_id": "AUD_SEN_M1_D28_06",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D28_07",
+    "text": "我們的計畫很好。",
+    "pinyin": "Wǒmen de jìhuà hěn hǎo.",
+    "pinyin_numeric": "Women3 de0 jihua4 hen3 hao3.",
+    "translation_en": "Our plan is good.",
+    "translation_ko": "우리의 계획은 좋습니다.",
+    "tokens": [
+      "我們",
+      "的",
+      "計畫",
+      "很",
+      "好"
+    ],
+    "grammar_ids": [
+      "GR_M1_D28"
+    ],
+    "audio_id": "AUD_SEN_M1_D28_07",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D28_08",
+    "text": "她不打算喝咖啡。",
+    "pinyin": "Tā bù dǎsuàn hē kāfēi.",
+    "pinyin_numeric": "Ta1 bu4 dasuan4 he1 kafei1.",
+    "translation_en": "She does not plan to drink coffee.",
+    "translation_ko": "그녀는 커피를 마실 계획이 없습니다.",
+    "tokens": [
+      "她",
+      "不",
+      "打算",
+      "喝",
+      "咖啡"
+    ],
+    "grammar_ids": [
+      "GR_M1_D28"
+    ],
+    "audio_id": "AUD_SEN_M1_D28_08",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D29_01",
+    "text": "今天早上我先喝水。",
+    "pinyin": "Jīntiān zǎoshang wǒ xiān hē shuǐ.",
+    "pinyin_numeric": "Jintian1 zaoshang3 wo3 xian1 he1 shui3.",
+    "translation_en": "This morning I drink water first.",
+    "translation_ko": "오늘 아침 저는 먼저 물을 마십니다.",
+    "tokens": [
+      "今天",
+      "早上",
+      "我",
+      "先",
+      "喝",
+      "水"
+    ],
+    "grammar_ids": [
+      "GR_M1_D29"
+    ],
+    "audio_id": "AUD_SEN_M1_D29_01",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D29_02",
+    "text": "然後我在家學中文。",
+    "pinyin": "Ránhòu wǒ zài jiā xué Zhōngwén.",
+    "pinyin_numeric": "Ranhou4 wo3 zai4 jia1 xue2 Zhongwen2.",
+    "translation_en": "Then I study Chinese at home.",
+    "translation_ko": "그다음 저는 집에서 중국어를 공부합니다.",
+    "tokens": [
+      "然後",
+      "我",
+      "在",
+      "家",
+      "學",
+      "中文"
+    ],
+    "grammar_ids": [
+      "GR_M1_D29"
+    ],
+    "audio_id": "AUD_SEN_M1_D29_02",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D29_03",
+    "text": "下午我去公司工作。",
+    "pinyin": "Xiàwǔ wǒ qù gōngsī gōngzuò.",
+    "pinyin_numeric": "Xiawu3 wo3 qu4 gongsi1 gongzuo4.",
+    "translation_en": "In the afternoon I go to the office to work.",
+    "translation_ko": "오후에 저는 회사에 일하러 갑니다.",
+    "tokens": [
+      "下午",
+      "我",
+      "去",
+      "公司",
+      "工作"
+    ],
+    "grammar_ids": [
+      "GR_M1_D29"
+    ],
+    "audio_id": "AUD_SEN_M1_D29_03",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D29_04",
+    "text": "我不喝咖啡，因為我想喝茶。",
+    "pinyin": "Wǒ bù hē kāfēi, yīnwèi wǒ xiǎng hē chá.",
+    "pinyin_numeric": "Wo3 bu4 he1 kafei1, yinwei4 wo3 xiang3 he1 cha2.",
+    "translation_en": "I do not drink coffee because I want tea.",
+    "translation_ko": "저는 차를 마시고 싶어서 커피를 마시지 않습니다.",
+    "tokens": [
+      "我",
+      "不",
+      "喝",
+      "咖啡",
+      "因",
+      "為",
+      "我",
+      "想",
+      "喝",
+      "茶"
+    ],
+    "grammar_ids": [
+      "GR_M1_D29"
+    ],
+    "audio_id": "AUD_SEN_M1_D29_04",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D29_05",
+    "text": "晚上我沒有課。",
+    "pinyin": "Wǎnshàng wǒ méiyǒu kè.",
+    "pinyin_numeric": "Wanshang4 wo3 meiyou3 ke4.",
+    "translation_en": "In the evening I do not have class.",
+    "translation_ko": "저녁에 저는 수업이 없습니다.",
+    "tokens": [
+      "晚",
+      "上",
+      "我",
+      "沒有",
+      "課"
+    ],
+    "grammar_ids": [
+      "GR_M1_D29"
+    ],
+    "audio_id": "AUD_SEN_M1_D29_05",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D29_06",
+    "text": "我在圖書館看書。",
+    "pinyin": "Wǒ zài túshūguǎn kàn shū.",
+    "pinyin_numeric": "Wo3 zai4 tushuguan3 kan4 shu1.",
+    "translation_en": "I read at the library.",
+    "translation_ko": "저는 도서관에서 책을 읽습니다.",
+    "tokens": [
+      "我",
+      "在",
+      "圖書館",
+      "看",
+      "書"
+    ],
+    "grammar_ids": [
+      "GR_M1_D29"
+    ],
+    "audio_id": "AUD_SEN_M1_D29_06",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D29_07",
+    "text": "最後我回家吃飯。",
+    "pinyin": "Zuìhòu wǒ huí jiā chīfàn.",
+    "pinyin_numeric": "Zuihou4 wo3 hui2 jia1 chifan4.",
+    "translation_en": "Finally I go home to eat.",
+    "translation_ko": "마지막으로 집에 돌아가 밥을 먹습니다.",
+    "tokens": [
+      "最後",
+      "我",
+      "回",
+      "家",
+      "吃",
+      "飯"
+    ],
+    "grammar_ids": [
+      "GR_M1_D29"
+    ],
+    "audio_id": "AUD_SEN_M1_D29_07",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D29_08",
+    "text": "我的一天很忙，但是很好。",
+    "pinyin": "Wǒ de yì tiān hěn máng, dànshì hěn hǎo.",
+    "pinyin_numeric": "Wo3 de0 yi4 tian1 hen3 mang2, danshi4 hen3 hao3.",
+    "translation_en": "My day is busy, but good.",
+    "translation_ko": "제 하루는 바쁘지만 좋습니다.",
+    "tokens": [
+      "我",
+      "的",
+      "一",
+      "天",
+      "很",
+      "忙",
+      "但",
+      "是",
+      "很",
+      "好"
+    ],
+    "grammar_ids": [
+      "GR_M1_D29"
+    ],
+    "audio_id": "AUD_SEN_M1_D29_08",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D30_01",
+    "text": "你好，我叫李明。",
+    "pinyin": "Nǐ hǎo, wǒ jiào Lǐ Míng.",
+    "pinyin_numeric": "Ni3 hao3, wo3 jiao4 Li3 Ming2.",
+    "translation_en": "Hello, my name is Li Ming.",
+    "translation_ko": "안녕하세요, 저는 리밍입니다.",
+    "tokens": [
+      "你好",
+      "我",
+      "叫",
+      "李",
+      "明"
+    ],
+    "grammar_ids": [
+      "GR_M1_D30"
+    ],
+    "audio_id": "AUD_SEN_M1_D30_01",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D30_02",
+    "text": "我家有四個人。",
+    "pinyin": "Wǒ jiā yǒu sì ge rén.",
+    "pinyin_numeric": "Wo3 jia1 you3 si4 ge0 ren2.",
+    "translation_en": "There are four people in my family.",
+    "translation_ko": "우리 가족은 네 명입니다.",
+    "tokens": [
+      "我",
+      "家",
+      "有",
+      "四",
+      "個",
+      "人"
+    ],
+    "grammar_ids": [
+      "GR_M1_D30"
+    ],
+    "audio_id": "AUD_SEN_M1_D30_02",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D30_03",
+    "text": "我喜歡台灣小吃。",
+    "pinyin": "Wǒ xǐhuan Táiwān xiǎochī.",
+    "pinyin_numeric": "Wo3 xihuan3 Taiwan1 xiaochi1.",
+    "translation_en": "I like Taiwanese snacks.",
+    "translation_ko": "저는 대만 간식을 좋아합니다.",
+    "tokens": [
+      "我",
+      "喜歡",
+      "台灣",
+      "小吃"
+    ],
+    "grammar_ids": [
+      "GR_M1_D30"
+    ],
+    "audio_id": "AUD_SEN_M1_D30_03",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D30_04",
+    "text": "今天下午我想去公園。",
+    "pinyin": "Jīntiān xiàwǔ wǒ xiǎng qù gōngyuán.",
+    "pinyin_numeric": "Jintian1 xiawu3 wo3 xiang3 qu4 gongyuan2.",
+    "translation_en": "This afternoon I want to go to the park.",
+    "translation_ko": "오늘 오후 저는 공원에 가고 싶습니다.",
+    "tokens": [
+      "今天",
+      "下午",
+      "我",
+      "想",
+      "去",
+      "公園"
+    ],
+    "grammar_ids": [
+      "GR_M1_D30"
+    ],
+    "audio_id": "AUD_SEN_M1_D30_04",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D30_05",
+    "text": "我可以坐這裡嗎？",
+    "pinyin": "Wǒ kěyǐ zuò zhèlǐ ma?",
+    "pinyin_numeric": "Wo3 keyi3 zuo4 zheli3 ma0?",
+    "translation_en": "May I sit here?",
+    "translation_ko": "여기에 앉아도 됩니까?",
+    "tokens": [
+      "我",
+      "可以",
+      "坐",
+      "這裡",
+      "嗎"
+    ],
+    "grammar_ids": [
+      "GR_M1_D30"
+    ],
+    "audio_id": "AUD_SEN_M1_D30_05",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D30_06",
+    "text": "圖書館在學校後面。",
+    "pinyin": "Túshūguǎn zài xuéxiào hòumiàn.",
+    "pinyin_numeric": "Tushuguan3 zai4 xuexiao4 houmian4.",
+    "translation_en": "The library is behind the school.",
+    "translation_ko": "도서관은 학교 뒤에 있습니다.",
+    "tokens": [
+      "圖書館",
+      "在",
+      "學校",
+      "後",
+      "面"
+    ],
+    "grammar_ids": [
+      "GR_M1_D30"
+    ],
+    "audio_id": "AUD_SEN_M1_D30_06",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D30_07",
+    "text": "今天比昨天熱。",
+    "pinyin": "Jīntiān bǐ zuótiān rè.",
+    "pinyin_numeric": "Jintian1 bi3 zuotian1 re4.",
+    "translation_en": "Today is hotter than yesterday.",
+    "translation_ko": "오늘은 어제보다 덥습니다.",
+    "tokens": [
+      "今天",
+      "比",
+      "昨天",
+      "熱"
+    ],
+    "grammar_ids": [
+      "GR_M1_D30"
+    ],
+    "audio_id": "AUD_SEN_M1_D30_07",
+    "difficulty": 3
+  },
+  {
+    "id": "SEN_M1_D30_08",
+    "text": "明天我打算坐捷運去台北。",
+    "pinyin": "Míngtiān wǒ dǎsuàn zuò jiéyùn qù Táiběi.",
+    "pinyin_numeric": "Mingtian1 wo3 dasuan4 zuo4 jieyun4 qu4 Taibei3.",
+    "translation_en": "Tomorrow I plan to take the MRT to Taipei.",
+    "translation_ko": "내일 저는 MRT를 타고 타이베이에 갈 계획입니다.",
+    "tokens": [
+      "明天",
+      "我",
+      "打算",
+      "坐",
+      "捷運",
+      "去",
+      "台北"
+    ],
+    "grammar_ids": [
+      "GR_M1_D30"
+    ],
+    "audio_id": "AUD_SEN_M1_D30_08",
+    "difficulty": 3
   }
 ]

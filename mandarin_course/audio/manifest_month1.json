@@ -1,137 +1,4502 @@
 [
   {
-    "id": "AUD_VOC_M1_W1_001",
+    "id": "AUD_VOC_M1_001",
     "kind": "vocab",
-    "ref_id": "VOC_M1_W1_001",
+    "ref_id": "VOC_M1_001",
     "text": "你好",
     "pinyin_numeric": "ni3 hao3",
-    "path": "audio/month1/week1/vocab/AUD_VOC_M1_W1_001.mp3",
+    "path": "audio/month1/vocab/AUD_VOC_M1_001.mp3",
     "status": "placeholder"
   },
   {
-    "id": "AUD_VOC_M1_W1_002",
+    "id": "AUD_VOC_M1_002",
     "kind": "vocab",
-    "ref_id": "VOC_M1_W1_002",
+    "ref_id": "VOC_M1_002",
     "text": "我",
     "pinyin_numeric": "wo3",
-    "path": "audio/month1/week1/vocab/AUD_VOC_M1_W1_002.mp3",
+    "path": "audio/month1/vocab/AUD_VOC_M1_002.mp3",
     "status": "placeholder"
   },
   {
-    "id": "AUD_VOC_M1_W1_003",
+    "id": "AUD_VOC_M1_003",
     "kind": "vocab",
-    "ref_id": "VOC_M1_W1_003",
+    "ref_id": "VOC_M1_003",
     "text": "你",
     "pinyin_numeric": "ni3",
-    "path": "audio/month1/week1/vocab/AUD_VOC_M1_W1_003.mp3",
+    "path": "audio/month1/vocab/AUD_VOC_M1_003.mp3",
     "status": "placeholder"
   },
   {
-    "id": "AUD_VOC_M1_W1_004",
+    "id": "AUD_VOC_M1_004",
     "kind": "vocab",
-    "ref_id": "VOC_M1_W1_004",
-    "text": "叫",
-    "pinyin_numeric": "jiao4",
-    "path": "audio/month1/week1/vocab/AUD_VOC_M1_W1_004.mp3",
+    "ref_id": "VOC_M1_004",
+    "text": "他",
+    "pinyin_numeric": "ta1",
+    "path": "audio/month1/vocab/AUD_VOC_M1_004.mp3",
     "status": "placeholder"
   },
   {
-    "id": "AUD_VOC_M1_W1_005",
+    "id": "AUD_VOC_M1_005",
     "kind": "vocab",
-    "ref_id": "VOC_M1_W1_005",
+    "ref_id": "VOC_M1_005",
+    "text": "她",
+    "pinyin_numeric": "ta1",
+    "path": "audio/month1/vocab/AUD_VOC_M1_005.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_006",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_006",
+    "text": "我們",
+    "pinyin_numeric": "women3",
+    "path": "audio/month1/vocab/AUD_VOC_M1_006.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_007",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_007",
     "text": "是",
     "pinyin_numeric": "shi4",
-    "path": "audio/month1/week1/vocab/AUD_VOC_M1_W1_005.mp3",
+    "path": "audio/month1/vocab/AUD_VOC_M1_007.mp3",
     "status": "placeholder"
   },
   {
-    "id": "AUD_VOC_M1_W1_006",
+    "id": "AUD_VOC_M1_008",
     "kind": "vocab",
-    "ref_id": "VOC_M1_W1_006",
+    "ref_id": "VOC_M1_008",
+    "text": "叫",
+    "pinyin_numeric": "jiao4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_008.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D01_01",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D01_01",
+    "text": "你好，我是李明。",
+    "pinyin_numeric": "Ni3 hao3, wo3 shi4 Li3 Ming2.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D01_01.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D01_02",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D01_02",
+    "text": "我叫王芳。",
+    "pinyin_numeric": "Wo3 jiao4 Wang2 Fang1.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D01_02.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D01_03",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D01_03",
+    "text": "你是學生嗎？",
+    "pinyin_numeric": "Ni3 shi4 xuesheng1 ma0?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D01_03.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D01_04",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D01_04",
+    "text": "他是老師。",
+    "pinyin_numeric": "Ta1 shi4 laoshi1.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D01_04.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D01_05",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D01_05",
+    "text": "她是我的朋友。",
+    "pinyin_numeric": "Ta1 shi4 wo3 de0 pengyou3.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D01_05.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D01_06",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D01_06",
+    "text": "我們是朋友。",
+    "pinyin_numeric": "Women3 shi4 pengyou3.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D01_06.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D01_07",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D01_07",
+    "text": "你叫什麼名字？",
+    "pinyin_numeric": "Ni3 jiao4 shenme2 mingzi2?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D01_07.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D01_08",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D01_08",
+    "text": "我是韓國人。",
+    "pinyin_numeric": "Wo3 shi4 Hanguo2 ren2.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D01_08.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_PR_M1_D01_01",
+    "kind": "pronunciation",
+    "ref_id": "PR_M1_D01",
+    "text": "你",
+    "pinyin_numeric": "",
+    "path": "audio/month1/pronunciation/AUD_PR_M1_D01_01.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_PR_M1_D01_02",
+    "kind": "pronunciation",
+    "ref_id": "PR_M1_D01",
+    "text": "我",
+    "pinyin_numeric": "",
+    "path": "audio/month1/pronunciation/AUD_PR_M1_D01_02.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_009",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_009",
+    "text": "一",
+    "pinyin_numeric": "yi1",
+    "path": "audio/month1/vocab/AUD_VOC_M1_009.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_010",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_010",
+    "text": "二",
+    "pinyin_numeric": "er4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_010.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_011",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_011",
+    "text": "三",
+    "pinyin_numeric": "san1",
+    "path": "audio/month1/vocab/AUD_VOC_M1_011.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_012",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_012",
+    "text": "四",
+    "pinyin_numeric": "si4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_012.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_013",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_013",
+    "text": "五",
+    "pinyin_numeric": "wu3",
+    "path": "audio/month1/vocab/AUD_VOC_M1_013.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_014",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_014",
+    "text": "零",
+    "pinyin_numeric": "ling2",
+    "path": "audio/month1/vocab/AUD_VOC_M1_014.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_015",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_015",
+    "text": "十",
+    "pinyin_numeric": "shi2",
+    "path": "audio/month1/vocab/AUD_VOC_M1_015.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_016",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_016",
     "text": "嗎",
     "pinyin_numeric": "ma0",
-    "path": "audio/month1/week1/vocab/AUD_VOC_M1_W1_006.mp3",
+    "path": "audio/month1/vocab/AUD_VOC_M1_016.mp3",
     "status": "placeholder"
   },
   {
-    "id": "AUD_VOC_M1_W1_007",
+    "id": "AUD_SEN_M1_D02_01",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D02_01",
+    "text": "你是老師嗎？",
+    "pinyin_numeric": "Ni3 shi4 laoshi1 ma0?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D02_01.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D02_02",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D02_02",
+    "text": "他是學生嗎？",
+    "pinyin_numeric": "Ta1 shi4 xuesheng1 ma0?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D02_02.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D02_03",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D02_03",
+    "text": "這是一。",
+    "pinyin_numeric": "Zhe4 shi4 yi1.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D02_03.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D02_04",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D02_04",
+    "text": "這是三嗎？",
+    "pinyin_numeric": "Zhe4 shi4 san1 ma0?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D02_04.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D02_05",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D02_05",
+    "text": "五加五是十。",
+    "pinyin_numeric": "Wu3 jia1 wu3 shi4 shi2.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D02_05.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D02_06",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D02_06",
+    "text": "一、二、三、四、五。",
+    "pinyin_numeric": "Yi1, er4, san1, si4, wu3.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D02_06.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D02_07",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D02_07",
+    "text": "你有五個朋友嗎？",
+    "pinyin_numeric": "Ni3 you3 wu3 ge0 pengyou3 ma0?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D02_07.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D02_08",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D02_08",
+    "text": "我是二號。",
+    "pinyin_numeric": "Wo3 shi4 er4 hao4.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D02_08.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_PR_M1_D02_01",
+    "kind": "pronunciation",
+    "ref_id": "PR_M1_D02",
+    "text": "你",
+    "pinyin_numeric": "",
+    "path": "audio/month1/pronunciation/AUD_PR_M1_D02_01.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_PR_M1_D02_02",
+    "kind": "pronunciation",
+    "ref_id": "PR_M1_D02",
+    "text": "他",
+    "pinyin_numeric": "",
+    "path": "audio/month1/pronunciation/AUD_PR_M1_D02_02.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_017",
     "kind": "vocab",
-    "ref_id": "VOC_M1_W1_007",
+    "ref_id": "VOC_M1_017",
+    "text": "六",
+    "pinyin_numeric": "liu4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_017.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_018",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_018",
+    "text": "七",
+    "pinyin_numeric": "qi1",
+    "path": "audio/month1/vocab/AUD_VOC_M1_018.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_019",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_019",
+    "text": "八",
+    "pinyin_numeric": "ba1",
+    "path": "audio/month1/vocab/AUD_VOC_M1_019.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_020",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_020",
+    "text": "九",
+    "pinyin_numeric": "jiu3",
+    "path": "audio/month1/vocab/AUD_VOC_M1_020.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_021",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_021",
+    "text": "百",
+    "pinyin_numeric": "bai3",
+    "path": "audio/month1/vocab/AUD_VOC_M1_021.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_022",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_022",
+    "text": "有",
+    "pinyin_numeric": "you3",
+    "path": "audio/month1/vocab/AUD_VOC_M1_022.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_023",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_023",
+    "text": "的",
+    "pinyin_numeric": "de0",
+    "path": "audio/month1/vocab/AUD_VOC_M1_023.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_024",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_024",
+    "text": "書",
+    "pinyin_numeric": "shu1",
+    "path": "audio/month1/vocab/AUD_VOC_M1_024.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_025",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_025",
+    "text": "手機",
+    "pinyin_numeric": "shouji1",
+    "path": "audio/month1/vocab/AUD_VOC_M1_025.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D03_01",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D03_01",
+    "text": "我有兩本書。",
+    "pinyin_numeric": "Wo3 you3 liang3 ben3 shu1.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D03_01.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D03_02",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D03_02",
+    "text": "這是我的手機。",
+    "pinyin_numeric": "Zhe4 shi4 wo3 de0 shouji1.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D03_02.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D03_03",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D03_03",
+    "text": "那是你的書嗎？",
+    "pinyin_numeric": "Na4 shi4 ni3 de0 shu1 ma0?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D03_03.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D03_04",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D03_04",
+    "text": "他有八個朋友。",
+    "pinyin_numeric": "Ta1 you3 ba1 ge0 pengyou3.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D03_04.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D03_05",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D03_05",
+    "text": "她的手機很好。",
+    "pinyin_numeric": "Ta1 de0 shouji1 hen3 hao3.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D03_05.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D03_06",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D03_06",
+    "text": "我們有九本書。",
+    "pinyin_numeric": "Women3 you3 jiu3 ben3 shu1.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D03_06.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D03_07",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D03_07",
+    "text": "這是一百嗎？",
+    "pinyin_numeric": "Zhe4 shi4 yi4 bai3 ma0?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D03_07.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D03_08",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D03_08",
+    "text": "我的朋友有手機。",
+    "pinyin_numeric": "Wo3 de0 pengyou3 you3 shouji1.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D03_08.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_PR_M1_D03_01",
+    "kind": "pronunciation",
+    "ref_id": "PR_M1_D03",
+    "text": "我",
+    "pinyin_numeric": "",
+    "path": "audio/month1/pronunciation/AUD_PR_M1_D03_01.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_PR_M1_D03_02",
+    "kind": "pronunciation",
+    "ref_id": "PR_M1_D03",
+    "text": "這",
+    "pinyin_numeric": "",
+    "path": "audio/month1/pronunciation/AUD_PR_M1_D03_02.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_026",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_026",
+    "text": "爸爸",
+    "pinyin_numeric": "baba4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_026.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_027",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_027",
+    "text": "媽媽",
+    "pinyin_numeric": "mama1",
+    "path": "audio/month1/vocab/AUD_VOC_M1_027.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_028",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_028",
+    "text": "哥哥",
+    "pinyin_numeric": "gege1",
+    "path": "audio/month1/vocab/AUD_VOC_M1_028.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_029",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_029",
+    "text": "姐姐",
+    "pinyin_numeric": "jiejie3",
+    "path": "audio/month1/vocab/AUD_VOC_M1_029.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_030",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_030",
+    "text": "弟弟",
+    "pinyin_numeric": "didi4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_030.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_031",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_031",
+    "text": "妹妹",
+    "pinyin_numeric": "meimei4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_031.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_032",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_032",
+    "text": "今天",
+    "pinyin_numeric": "jintian1",
+    "path": "audio/month1/vocab/AUD_VOC_M1_032.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_033",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_033",
+    "text": "明天",
+    "pinyin_numeric": "mingtian1",
+    "path": "audio/month1/vocab/AUD_VOC_M1_033.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_034",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_034",
+    "text": "昨天",
+    "pinyin_numeric": "zuotian1",
+    "path": "audio/month1/vocab/AUD_VOC_M1_034.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D04_01",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D04_01",
+    "text": "今天我在家。",
+    "pinyin_numeric": "Jintian1 wo3 zai4 jia1.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D04_01.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D04_02",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D04_02",
+    "text": "明天我去學校。",
+    "pinyin_numeric": "Mingtian1 wo3 qu4 xuexiao4.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D04_02.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D04_03",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D04_03",
+    "text": "昨天媽媽在家。",
+    "pinyin_numeric": "Zuotian1 mama1 zai4 jia1.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D04_03.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D04_04",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D04_04",
+    "text": "我爸爸是老師。",
+    "pinyin_numeric": "Wo3 baba4 shi4 laoshi1.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D04_04.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D04_05",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D04_05",
+    "text": "我姐姐有手機。",
+    "pinyin_numeric": "Wo3 jiejie3 you3 shouji1.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D04_05.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D04_06",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D04_06",
+    "text": "他弟弟是學生。",
+    "pinyin_numeric": "Ta1 didi4 shi4 xuesheng1.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D04_06.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D04_07",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D04_07",
+    "text": "今天妹妹很高興。",
+    "pinyin_numeric": "Jintian1 meimei4 hen3 gaoxing4.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D04_07.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D04_08",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D04_08",
+    "text": "明天哥哥來我家。",
+    "pinyin_numeric": "Mingtian1 gege1 lai2 wo3 jia1.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D04_08.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_PR_M1_D04_01",
+    "kind": "pronunciation",
+    "ref_id": "PR_M1_D04",
+    "text": "今",
+    "pinyin_numeric": "",
+    "path": "audio/month1/pronunciation/AUD_PR_M1_D04_01.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_PR_M1_D04_02",
+    "kind": "pronunciation",
+    "ref_id": "PR_M1_D04",
+    "text": "明",
+    "pinyin_numeric": "",
+    "path": "audio/month1/pronunciation/AUD_PR_M1_D04_02.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_035",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_035",
+    "text": "十一",
+    "pinyin_numeric": "shiyi1",
+    "path": "audio/month1/vocab/AUD_VOC_M1_035.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_036",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_036",
+    "text": "十二",
+    "pinyin_numeric": "shi4'er",
+    "path": "audio/month1/vocab/AUD_VOC_M1_036.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_037",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_037",
+    "text": "十五",
+    "pinyin_numeric": "shiwu3",
+    "path": "audio/month1/vocab/AUD_VOC_M1_037.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_038",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_038",
+    "text": "二十",
+    "pinyin_numeric": "ershi2",
+    "path": "audio/month1/vocab/AUD_VOC_M1_038.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_039",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_039",
+    "text": "家",
+    "pinyin_numeric": "jia1",
+    "path": "audio/month1/vocab/AUD_VOC_M1_039.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_040",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_040",
+    "text": "人",
+    "pinyin_numeric": "ren2",
+    "path": "audio/month1/vocab/AUD_VOC_M1_040.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_041",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_041",
+    "text": "個",
+    "pinyin_numeric": "ge0",
+    "path": "audio/month1/vocab/AUD_VOC_M1_041.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_042",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_042",
+    "text": "朋友",
+    "pinyin_numeric": "pengyou3",
+    "path": "audio/month1/vocab/AUD_VOC_M1_042.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D05_01",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D05_01",
+    "text": "我家有五個人。",
+    "pinyin_numeric": "Wo3 jia1 you3 wu3 ge0 ren2.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D05_01.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D05_02",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D05_02",
+    "text": "他有一個姐姐和兩個弟弟。",
+    "pinyin_numeric": "Ta1 you3 yi2 ge0 jiejie3 he2 liang3 ge0 didi4.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D05_02.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D05_03",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D05_03",
+    "text": "我有十二個朋友。",
+    "pinyin_numeric": "Wo3 you3 shi4'er ge0 pengyou3.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D05_03.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D05_04",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D05_04",
+    "text": "你家有幾個人？",
+    "pinyin_numeric": "Ni3 jia1 you3 ji3 ge0 ren2?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D05_04.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D05_05",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D05_05",
+    "text": "我今年二十歲。",
+    "pinyin_numeric": "Wo3 jinnian2 ershi2 sui4.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D05_05.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D05_06",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D05_06",
+    "text": "這裡有十五個學生。",
+    "pinyin_numeric": "Zheli3 you3 shiwu3 ge0 xuesheng1.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D05_06.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D05_07",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D05_07",
+    "text": "我們家有一個老師。",
+    "pinyin_numeric": "Women3 jia1 you3 yi2 ge0 laoshi1.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D05_07.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D05_08",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D05_08",
+    "text": "他是我的朋友。",
+    "pinyin_numeric": "Ta1 shi4 wo3 de0 pengyou3.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D05_08.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_PR_M1_D05_01",
+    "kind": "pronunciation",
+    "ref_id": "PR_M1_D05",
+    "text": "我",
+    "pinyin_numeric": "",
+    "path": "audio/month1/pronunciation/AUD_PR_M1_D05_01.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_PR_M1_D05_02",
+    "kind": "pronunciation",
+    "ref_id": "PR_M1_D05",
+    "text": "他",
+    "pinyin_numeric": "",
+    "path": "audio/month1/pronunciation/AUD_PR_M1_D05_02.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_043",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_043",
+    "text": "米飯",
+    "pinyin_numeric": "mifan4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_043.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_044",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_044",
+    "text": "麵",
+    "pinyin_numeric": "mian4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_044.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_045",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_045",
+    "text": "水",
+    "pinyin_numeric": "shui3",
+    "path": "audio/month1/vocab/AUD_VOC_M1_045.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_046",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_046",
+    "text": "茶",
+    "pinyin_numeric": "cha2",
+    "path": "audio/month1/vocab/AUD_VOC_M1_046.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_047",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_047",
+    "text": "咖啡",
+    "pinyin_numeric": "kafei1",
+    "path": "audio/month1/vocab/AUD_VOC_M1_047.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_048",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_048",
+    "text": "餓",
+    "pinyin_numeric": "e4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_048.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_049",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_049",
+    "text": "渴",
+    "pinyin_numeric": "ke3",
+    "path": "audio/month1/vocab/AUD_VOC_M1_049.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_050",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_050",
+    "text": "想",
+    "pinyin_numeric": "xiang3",
+    "path": "audio/month1/vocab/AUD_VOC_M1_050.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_051",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_051",
+    "text": "喝",
+    "pinyin_numeric": "he1",
+    "path": "audio/month1/vocab/AUD_VOC_M1_051.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_052",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_052",
+    "text": "吃",
+    "pinyin_numeric": "chi1",
+    "path": "audio/month1/vocab/AUD_VOC_M1_052.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D06_01",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D06_01",
+    "text": "我想喝茶。",
+    "pinyin_numeric": "Wo3 xiang3 he1 cha2.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D06_01.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D06_02",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D06_02",
+    "text": "他餓了，他想吃麵。",
+    "pinyin_numeric": "Ta1 e4 le0, ta1 xiang3 chi1 mian4.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D06_02.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D06_03",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D06_03",
+    "text": "我渴了，我想喝水。",
+    "pinyin_numeric": "Wo3 ke3 le0, wo3 xiang3 he1 shui3.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D06_03.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D06_04",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D06_04",
+    "text": "你想喝咖啡嗎？",
+    "pinyin_numeric": "Ni3 xiang3 he1 kafei1 ma0?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D06_04.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D06_05",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D06_05",
+    "text": "我想吃米飯。",
+    "pinyin_numeric": "Wo3 xiang3 chi1 mifan4.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D06_05.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D06_06",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D06_06",
+    "text": "她不想喝咖啡。",
+    "pinyin_numeric": "Ta1 bu4 xiang3 he1 kafei1.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D06_06.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D06_07",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D06_07",
+    "text": "我們今天想吃麵。",
+    "pinyin_numeric": "Women3 jintian1 xiang3 chi1 mian4.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D06_07.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D06_08",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D06_08",
+    "text": "爸爸想喝茶。",
+    "pinyin_numeric": "Baba4 xiang3 he1 cha2.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D06_08.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_PR_M1_D06_01",
+    "kind": "pronunciation",
+    "ref_id": "PR_M1_D06",
+    "text": "我",
+    "pinyin_numeric": "",
+    "path": "audio/month1/pronunciation/AUD_PR_M1_D06_01.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_PR_M1_D06_02",
+    "kind": "pronunciation",
+    "ref_id": "PR_M1_D06",
+    "text": "他",
+    "pinyin_numeric": "",
+    "path": "audio/month1/pronunciation/AUD_PR_M1_D06_02.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D07_01",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D07_01",
+    "text": "你好，你叫什麼名字？",
+    "pinyin_numeric": "Ni3 hao3, ni3 jiao4 shenme2 mingzi2?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D07_01.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D07_02",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D07_02",
+    "text": "我叫王芳。你呢？",
+    "pinyin_numeric": "Wo3 jiao4 Wang2 Fang1. Ni3 ne0?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D07_02.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D07_03",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D07_03",
+    "text": "我是李強。",
+    "pinyin_numeric": "Wo3 shi4 Li3 Qiang2.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D07_03.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D07_04",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D07_04",
+    "text": "你家有幾個人？",
+    "pinyin_numeric": "Ni3 jia1 you3 ji3 ge0 ren2?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D07_04.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D07_05",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D07_05",
+    "text": "我家有四個人。",
+    "pinyin_numeric": "Wo3 jia1 you3 si4 ge0 ren2.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D07_05.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D07_06",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D07_06",
+    "text": "今天你想做什麼？",
+    "pinyin_numeric": "Jintian1 ni3 xiang3 zuo4 shenme2?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D07_06.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D07_07",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D07_07",
+    "text": "我想喝茶，也想吃麵。",
+    "pinyin_numeric": "Wo3 xiang3 he1 cha2, ye3 xiang3 chi1 mian4.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D07_07.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D07_08",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D07_08",
+    "text": "明天我們去學校嗎？",
+    "pinyin_numeric": "Mingtian1 women3 qu4 xuexiao4 ma0?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D07_08.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_PR_M1_D07_01",
+    "kind": "pronunciation",
+    "ref_id": "PR_M1_D07",
+    "text": "你",
+    "pinyin_numeric": "",
+    "path": "audio/month1/pronunciation/AUD_PR_M1_D07_01.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_PR_M1_D07_02",
+    "kind": "pronunciation",
+    "ref_id": "PR_M1_D07",
+    "text": "我",
+    "pinyin_numeric": "",
+    "path": "audio/month1/pronunciation/AUD_PR_M1_D07_02.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_053",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_053",
+    "text": "牛奶",
+    "pinyin_numeric": "niunai3",
+    "path": "audio/month1/vocab/AUD_VOC_M1_053.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_054",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_054",
+    "text": "菜",
+    "pinyin_numeric": "cai4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_054.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_055",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_055",
+    "text": "肉",
+    "pinyin_numeric": "rou4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_055.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_056",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_056",
+    "text": "雞蛋",
+    "pinyin_numeric": "jidan4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_056.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_057",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_057",
+    "text": "魚",
+    "pinyin_numeric": "yu2",
+    "path": "audio/month1/vocab/AUD_VOC_M1_057.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_058",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_058",
+    "text": "水果",
+    "pinyin_numeric": "shuiguo3",
+    "path": "audio/month1/vocab/AUD_VOC_M1_058.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_059",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_059",
+    "text": "蘋果",
+    "pinyin_numeric": "pingguo3",
+    "path": "audio/month1/vocab/AUD_VOC_M1_059.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_060",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_060",
+    "text": "餐廳",
+    "pinyin_numeric": "canting1",
+    "path": "audio/month1/vocab/AUD_VOC_M1_060.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_061",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_061",
+    "text": "要",
+    "pinyin_numeric": "yao4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_061.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D08_01",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D08_01",
+    "text": "我要麵和茶。",
+    "pinyin_numeric": "Wo3 yao4 mian4 he2 cha2.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D08_01.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D08_02",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D08_02",
+    "text": "你要牛奶嗎？",
+    "pinyin_numeric": "Ni3 yao4 niunai3 ma0?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D08_02.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D08_03",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D08_03",
+    "text": "我想吃雞蛋。",
+    "pinyin_numeric": "Wo3 xiang3 chi1 jidan4.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D08_03.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D08_04",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D08_04",
+    "text": "這個菜很好吃。",
+    "pinyin_numeric": "Zhege4 cai4 hen3 haochi1.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D08_04.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D08_05",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D08_05",
+    "text": "爸爸想吃魚和米飯。",
+    "pinyin_numeric": "Baba4 xiang3 chi1 yu2 he2 mifan4.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D08_05.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D08_06",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D08_06",
+    "text": "我不吃肉。",
+    "pinyin_numeric": "Wo3 bu4 chi1 rou4.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D08_06.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D08_07",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D08_07",
+    "text": "我們去餐廳吃飯。",
+    "pinyin_numeric": "Women3 qu4 canting1 chifan4.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D08_07.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D08_08",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D08_08",
+    "text": "妹妹喜歡蘋果和水果。",
+    "pinyin_numeric": "Meimei4 xihuan3 pingguo3 he2 shuiguo3.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D08_08.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_PR_M1_D08_01",
+    "kind": "pronunciation",
+    "ref_id": "PR_M1_D08",
+    "text": "我",
+    "pinyin_numeric": "",
+    "path": "audio/month1/pronunciation/AUD_PR_M1_D08_01.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_PR_M1_D08_02",
+    "kind": "pronunciation",
+    "ref_id": "PR_M1_D08",
+    "text": "你",
+    "pinyin_numeric": "",
+    "path": "audio/month1/pronunciation/AUD_PR_M1_D08_02.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_062",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_062",
+    "text": "看",
+    "pinyin_numeric": "kan4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_062.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_063",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_063",
+    "text": "聽",
+    "pinyin_numeric": "ting1",
+    "path": "audio/month1/vocab/AUD_VOC_M1_063.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_064",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_064",
+    "text": "說",
+    "pinyin_numeric": "shuo1",
+    "path": "audio/month1/vocab/AUD_VOC_M1_064.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_065",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_065",
+    "text": "寫",
+    "pinyin_numeric": "xie3",
+    "path": "audio/month1/vocab/AUD_VOC_M1_065.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_066",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_066",
+    "text": "學",
+    "pinyin_numeric": "xue2",
+    "path": "audio/month1/vocab/AUD_VOC_M1_066.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_067",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_067",
+    "text": "做",
+    "pinyin_numeric": "zuo4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_067.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_068",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_068",
+    "text": "喜歡",
+    "pinyin_numeric": "xihuan3",
+    "path": "audio/month1/vocab/AUD_VOC_M1_068.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_069",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_069",
+    "text": "中文",
+    "pinyin_numeric": "Zhongwen2",
+    "path": "audio/month1/vocab/AUD_VOC_M1_069.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_070",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_070",
+    "text": "電影",
+    "pinyin_numeric": "dianying3",
+    "path": "audio/month1/vocab/AUD_VOC_M1_070.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D09_01",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D09_01",
+    "text": "我想去學校學中文。",
+    "pinyin_numeric": "Wo3 xiang3 qu4 xuexiao4 xue2 Zhongwen2.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D09_01.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D09_02",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D09_02",
+    "text": "他會寫漢字。",
+    "pinyin_numeric": "Ta1 hui4 xie3 Hanzi4.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D09_02.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D09_03",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D09_03",
+    "text": "我們聽音樂。",
+    "pinyin_numeric": "Women3 ting1 yinyue4.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D09_03.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D09_04",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D09_04",
+    "text": "她喜歡看電影。",
+    "pinyin_numeric": "Ta1 xihuan3 kan4 dianying3.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D09_04.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D09_05",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D09_05",
+    "text": "你會說中文嗎？",
+    "pinyin_numeric": "Ni3 hui4 shuo1 Zhongwen2 ma0?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D09_05.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D09_06",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D09_06",
+    "text": "我今天想寫名字。",
+    "pinyin_numeric": "Wo3 jintian1 xiang3 xie3 mingzi2.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D09_06.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D09_07",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D09_07",
+    "text": "哥哥做飯。",
+    "pinyin_numeric": "Gege1 zuo4 fan4.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D09_07.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D09_08",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D09_08",
+    "text": "我不想看電影。",
+    "pinyin_numeric": "Wo3 bu4 xiang3 kan4 dianying3.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D09_08.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_PR_M1_D09_01",
+    "kind": "pronunciation",
+    "ref_id": "PR_M1_D09",
+    "text": "我",
+    "pinyin_numeric": "",
+    "path": "audio/month1/pronunciation/AUD_PR_M1_D09_01.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_PR_M1_D09_02",
+    "kind": "pronunciation",
+    "ref_id": "PR_M1_D09",
+    "text": "他",
+    "pinyin_numeric": "",
+    "path": "audio/month1/pronunciation/AUD_PR_M1_D09_02.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_071",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_071",
+    "text": "什麼",
+    "pinyin_numeric": "shenme2",
+    "path": "audio/month1/vocab/AUD_VOC_M1_071.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_072",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_072",
+    "text": "誰",
+    "pinyin_numeric": "shei2",
+    "path": "audio/month1/vocab/AUD_VOC_M1_072.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_073",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_073",
+    "text": "哪裡",
+    "pinyin_numeric": "nali3",
+    "path": "audio/month1/vocab/AUD_VOC_M1_073.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_074",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_074",
+    "text": "為什麼",
+    "pinyin_numeric": "weisheme2",
+    "path": "audio/month1/vocab/AUD_VOC_M1_074.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_075",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_075",
+    "text": "怎麼",
+    "pinyin_numeric": "zenme3",
+    "path": "audio/month1/vocab/AUD_VOC_M1_075.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_076",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_076",
+    "text": "工作",
+    "pinyin_numeric": "gongzuo4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_076.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_077",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_077",
+    "text": "名字",
+    "pinyin_numeric": "mingzi2",
+    "path": "audio/month1/vocab/AUD_VOC_M1_077.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_078",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_078",
+    "text": "地方",
+    "pinyin_numeric": "difang4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_078.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D10_01",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D10_01",
+    "text": "你做什麼工作？",
+    "pinyin_numeric": "Ni3 zuo4 shenme2 gongzuo4?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D10_01.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D10_02",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D10_02",
+    "text": "他是誰？",
+    "pinyin_numeric": "Ta1 shi4 shei2?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D10_02.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D10_03",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D10_03",
+    "text": "你去哪裡？",
+    "pinyin_numeric": "Ni3 qu4 nali3?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D10_03.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D10_04",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D10_04",
+    "text": "你為什麼學中文？",
+    "pinyin_numeric": "Ni3 weisheme2 xue2 Zhongwen2?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D10_04.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D10_05",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D10_05",
+    "text": "這個字怎麼說？",
+    "pinyin_numeric": "Zhege4 zi4 zenme3 shuo1?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D10_05.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D10_06",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D10_06",
+    "text": "她叫什麼名字？",
+    "pinyin_numeric": "Ta1 jiao4 shenme2 mingzi2?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D10_06.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D10_07",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D10_07",
+    "text": "餐廳在哪裡？",
+    "pinyin_numeric": "Canting1 zai4 nali3?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D10_07.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D10_08",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D10_08",
+    "text": "你喜歡什麼地方？",
+    "pinyin_numeric": "Ni3 xihuan3 shenme2 difang4?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D10_08.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_PR_M1_D10_01",
+    "kind": "pronunciation",
+    "ref_id": "PR_M1_D10",
+    "text": "你",
+    "pinyin_numeric": "",
+    "path": "audio/month1/pronunciation/AUD_PR_M1_D10_01.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_PR_M1_D10_02",
+    "kind": "pronunciation",
+    "ref_id": "PR_M1_D10",
+    "text": "他",
+    "pinyin_numeric": "",
+    "path": "audio/month1/pronunciation/AUD_PR_M1_D10_02.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_079",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_079",
+    "text": "不",
+    "pinyin_numeric": "bu4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_079.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_080",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_080",
+    "text": "沒",
+    "pinyin_numeric": "mei2",
+    "path": "audio/month1/vocab/AUD_VOC_M1_080.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_081",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_081",
+    "text": "沒有",
+    "pinyin_numeric": "meiyou3",
+    "path": "audio/month1/vocab/AUD_VOC_M1_081.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_082",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_082",
+    "text": "貓",
+    "pinyin_numeric": "mao1",
+    "path": "audio/month1/vocab/AUD_VOC_M1_082.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_083",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_083",
+    "text": "狗",
+    "pinyin_numeric": "gou3",
+    "path": "audio/month1/vocab/AUD_VOC_M1_083.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_084",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_084",
+    "text": "也",
+    "pinyin_numeric": "ye3",
+    "path": "audio/month1/vocab/AUD_VOC_M1_084.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_085",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_085",
+    "text": "都",
+    "pinyin_numeric": "dou1",
+    "path": "audio/month1/vocab/AUD_VOC_M1_085.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D11_01",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D11_01",
+    "text": "我不喝咖啡。",
+    "pinyin_numeric": "Wo3 bu4 he1 kafei1.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D11_01.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D11_02",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D11_02",
+    "text": "他沒有貓。",
+    "pinyin_numeric": "Ta1 meiyou3 mao1.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D11_02.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D11_03",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D11_03",
+    "text": "我不想吃肉。",
+    "pinyin_numeric": "Wo3 bu4 xiang3 chi1 rou4.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D11_03.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D11_04",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D11_04",
+    "text": "她沒有手機。",
+    "pinyin_numeric": "Ta1 meiyou3 shouji1.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D11_04.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D11_05",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D11_05",
+    "text": "我們今天不去學校。",
+    "pinyin_numeric": "Women3 jintian1 bu4 qu4 xuexiao4.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D11_05.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D11_06",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D11_06",
+    "text": "爸爸也不喝茶。",
+    "pinyin_numeric": "Baba4 ye3 bu4 he1 cha2.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D11_06.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D11_07",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D11_07",
+    "text": "他們都沒有書。",
+    "pinyin_numeric": "Tamen1 dou1 meiyou3 shu1.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D11_07.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D11_08",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D11_08",
+    "text": "你不喜歡電影嗎？",
+    "pinyin_numeric": "Ni3 bu4 xihuan3 dianying3 ma0?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D11_08.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_PR_M1_D11_01",
+    "kind": "pronunciation",
+    "ref_id": "PR_M1_D11",
+    "text": "我",
+    "pinyin_numeric": "",
+    "path": "audio/month1/pronunciation/AUD_PR_M1_D11_01.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_PR_M1_D11_02",
+    "kind": "pronunciation",
+    "ref_id": "PR_M1_D11",
+    "text": "他",
+    "pinyin_numeric": "",
+    "path": "audio/month1/pronunciation/AUD_PR_M1_D11_02.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_086",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_086",
+    "text": "大",
+    "pinyin_numeric": "da4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_086.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_087",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_087",
+    "text": "小",
+    "pinyin_numeric": "xiao3",
+    "path": "audio/month1/vocab/AUD_VOC_M1_087.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_088",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_088",
+    "text": "好",
+    "pinyin_numeric": "hao3",
+    "path": "audio/month1/vocab/AUD_VOC_M1_088.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_089",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_089",
+    "text": "多",
+    "pinyin_numeric": "duo1",
+    "path": "audio/month1/vocab/AUD_VOC_M1_089.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_090",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_090",
+    "text": "少",
+    "pinyin_numeric": "shao3",
+    "path": "audio/month1/vocab/AUD_VOC_M1_090.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_091",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_091",
+    "text": "熱",
+    "pinyin_numeric": "re4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_091.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_092",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_092",
+    "text": "冷",
+    "pinyin_numeric": "leng3",
+    "path": "audio/month1/vocab/AUD_VOC_M1_092.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_093",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_093",
+    "text": "高興",
+    "pinyin_numeric": "gaoxing4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_093.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_094",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_094",
+    "text": "漂亮",
+    "pinyin_numeric": "piaoliang4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_094.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_095",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_095",
+    "text": "貴",
+    "pinyin_numeric": "gui4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_095.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_096",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_096",
     "text": "很",
     "pinyin_numeric": "hen3",
-    "path": "audio/month1/week1/vocab/AUD_VOC_M1_W1_007.mp3",
+    "path": "audio/month1/vocab/AUD_VOC_M1_096.mp3",
     "status": "placeholder"
   },
   {
-    "id": "AUD_SEN_M1_W1_001",
+    "id": "AUD_SEN_M1_D12_01",
     "kind": "sentence",
-    "ref_id": "SEN_M1_W1_001",
-    "text": "你好，我叫王明。",
-    "pinyin_numeric": "ni3 hao3 wo3 jiao4 wang2 ming2",
-    "path": "audio/month1/week1/sentences/AUD_SEN_M1_W1_001.mp3",
+    "ref_id": "SEN_M1_D12_01",
+    "text": "今天很熱。",
+    "pinyin_numeric": "Jintian1 hen3 re4.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D12_01.mp3",
     "status": "placeholder"
   },
   {
-    "id": "AUD_SEN_M1_W1_002",
+    "id": "AUD_SEN_M1_D12_02",
     "kind": "sentence",
-    "ref_id": "SEN_M1_W1_002",
-    "text": "我是學生。",
-    "pinyin_numeric": "wo3 shi4 xue2 sheng1",
-    "path": "audio/month1/week1/sentences/AUD_SEN_M1_W1_002.mp3",
+    "ref_id": "SEN_M1_D12_02",
+    "text": "他姐姐很漂亮。",
+    "pinyin_numeric": "Ta1 jiejie3 hen3 piaoliang4.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D12_02.mp3",
     "status": "placeholder"
   },
   {
-    "id": "AUD_SEN_M1_W1_003",
+    "id": "AUD_SEN_M1_D12_03",
     "kind": "sentence",
-    "ref_id": "SEN_M1_W1_003",
-    "text": "你是老師嗎？",
-    "pinyin_numeric": "ni3 shi4 lao3 shi1 ma0",
-    "path": "audio/month1/week1/sentences/AUD_SEN_M1_W1_003.mp3",
+    "ref_id": "SEN_M1_D12_03",
+    "text": "這個餐廳很貴。",
+    "pinyin_numeric": "Zhege4 canting1 hen3 gui4.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D12_03.mp3",
     "status": "placeholder"
   },
   {
-    "id": "AUD_SEN_M1_W1_005",
+    "id": "AUD_SEN_M1_D12_04",
     "kind": "sentence",
-    "ref_id": "SEN_M1_W1_005",
-    "text": "我很好。",
-    "pinyin_numeric": "wo3 hen3 hao3",
-    "path": "audio/month1/week1/sentences/AUD_SEN_M1_W1_005.mp3",
+    "ref_id": "SEN_M1_D12_04",
+    "text": "我的家很小。",
+    "pinyin_numeric": "Wo3 de0 jia1 hen3 xiao3.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D12_04.mp3",
     "status": "placeholder"
   },
   {
-    "id": "AUD_PR_M1_W1_001",
+    "id": "AUD_SEN_M1_D12_05",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D12_05",
+    "text": "你的中文很好。",
+    "pinyin_numeric": "Ni3 de0 Zhongwen2 hen3 hao3.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D12_05.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D12_06",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D12_06",
+    "text": "今天不冷。",
+    "pinyin_numeric": "Jintian1 bu4 leng3.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D12_06.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D12_07",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D12_07",
+    "text": "他有很多朋友。",
+    "pinyin_numeric": "Ta1 you3 hen3 duo1 pengyou3.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D12_07.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D12_08",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D12_08",
+    "text": "我妹妹很高興。",
+    "pinyin_numeric": "Wo3 meimei4 hen3 gaoxing4.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D12_08.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_PR_M1_D12_01",
     "kind": "pronunciation",
-    "ref_id": "PR_M1_001",
-    "text": "你",
-    "pinyin_numeric": "ni3",
-    "path": "audio/month1/week1/pronunciation/AUD_PR_M1_W1_001.mp3",
+    "ref_id": "PR_M1_D12",
+    "text": "今",
+    "pinyin_numeric": "",
+    "path": "audio/month1/pronunciation/AUD_PR_M1_D12_01.mp3",
     "status": "placeholder"
   },
   {
-    "id": "AUD_PR_M1_W1_002",
+    "id": "AUD_PR_M1_D12_02",
     "kind": "pronunciation",
-    "ref_id": "PR_M1_001",
-    "text": "泥",
-    "pinyin_numeric": "ni2",
-    "path": "audio/month1/week1/pronunciation/AUD_PR_M1_W1_002.mp3",
+    "ref_id": "PR_M1_D12",
+    "text": "他",
+    "pinyin_numeric": "",
+    "path": "audio/month1/pronunciation/AUD_PR_M1_D12_02.mp3",
     "status": "placeholder"
   },
   {
-    "id": "AUD_PR_M1_W1_003",
-    "kind": "pronunciation",
-    "ref_id": "PR_M1_002",
-    "text": "知",
+    "id": "AUD_VOC_M1_097",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_097",
+    "text": "本",
+    "pinyin_numeric": "ben3",
+    "path": "audio/month1/vocab/AUD_VOC_M1_097.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_098",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_098",
+    "text": "隻",
     "pinyin_numeric": "zhi1",
-    "path": "audio/month1/week1/pronunciation/AUD_PR_M1_W1_003.mp3",
+    "path": "audio/month1/vocab/AUD_VOC_M1_098.mp3",
     "status": "placeholder"
   },
   {
-    "id": "AUD_PR_M1_W1_004",
+    "id": "AUD_VOC_M1_099",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_099",
+    "text": "杯",
+    "pinyin_numeric": "bei1",
+    "path": "audio/month1/vocab/AUD_VOC_M1_099.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_100",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_100",
+    "text": "兩",
+    "pinyin_numeric": "liang3",
+    "path": "audio/month1/vocab/AUD_VOC_M1_100.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_101",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_101",
+    "text": "隻貓",
+    "pinyin_numeric": "zhi1 mao1",
+    "path": "audio/month1/vocab/AUD_VOC_M1_101.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_102",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_102",
+    "text": "杯水",
+    "pinyin_numeric": "bei1 shui3",
+    "path": "audio/month1/vocab/AUD_VOC_M1_102.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_103",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_103",
+    "text": "本書",
+    "pinyin_numeric": "ben3 shu1",
+    "path": "audio/month1/vocab/AUD_VOC_M1_103.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D13_01",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D13_01",
+    "text": "我有三本書。",
+    "pinyin_numeric": "Wo3 you3 san1 ben3 shu1.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D13_01.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D13_02",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D13_02",
+    "text": "他有兩隻貓。",
+    "pinyin_numeric": "Ta1 you3 liang3 zhi1 mao1.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D13_02.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D13_03",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D13_03",
+    "text": "我要一杯水。",
+    "pinyin_numeric": "Wo3 yao4 yi4 bei1 shui3.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D13_03.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D13_04",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D13_04",
+    "text": "你要兩杯茶嗎？",
+    "pinyin_numeric": "Ni3 yao4 liang3 bei1 cha2 ma0?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D13_04.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D13_05",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D13_05",
+    "text": "這裡有五本書。",
+    "pinyin_numeric": "Zheli3 you3 wu3 ben3 shu1.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D13_05.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D13_06",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D13_06",
+    "text": "妹妹沒有狗。",
+    "pinyin_numeric": "Meimei4 meiyou3 gou3.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D13_06.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D13_07",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D13_07",
+    "text": "我想買一本書。",
+    "pinyin_numeric": "Wo3 xiang3 mai3 yi4 ben3 shu1.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D13_07.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D13_08",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D13_08",
+    "text": "我們要三杯咖啡。",
+    "pinyin_numeric": "Women3 yao4 san1 bei1 kafei1.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D13_08.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_PR_M1_D13_01",
     "kind": "pronunciation",
-    "ref_id": "PR_M1_002",
-    "text": "资",
-    "pinyin_numeric": "zi1",
-    "path": "audio/month1/week1/pronunciation/AUD_PR_M1_W1_004.mp3",
+    "ref_id": "PR_M1_D13",
+    "text": "我",
+    "pinyin_numeric": "",
+    "path": "audio/month1/pronunciation/AUD_PR_M1_D13_01.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_PR_M1_D13_02",
+    "kind": "pronunciation",
+    "ref_id": "PR_M1_D13",
+    "text": "他",
+    "pinyin_numeric": "",
+    "path": "audio/month1/pronunciation/AUD_PR_M1_D13_02.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D14_01",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D14_01",
+    "text": "你想吃什麼？",
+    "pinyin_numeric": "Ni3 xiang3 chi1 shenme2?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D14_01.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D14_02",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D14_02",
+    "text": "我想吃魚，也想吃菜。",
+    "pinyin_numeric": "Wo3 xiang3 chi1 yu2, ye3 xiang3 chi1 cai4.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D14_02.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D14_03",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D14_03",
+    "text": "你喝茶還是咖啡？",
+    "pinyin_numeric": "Ni3 he1 cha2 haishi2 kafei1?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D14_03.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D14_04",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D14_04",
+    "text": "我要一杯茶。",
+    "pinyin_numeric": "Wo3 yao4 yi4 bei1 cha2.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D14_04.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D14_05",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D14_05",
+    "text": "這個菜很貴嗎？",
+    "pinyin_numeric": "Zhege4 cai4 hen3 gui4 ma0?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D14_05.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D14_06",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D14_06",
+    "text": "我不吃肉。",
+    "pinyin_numeric": "Wo3 bu4 chi1 rou4.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D14_06.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D14_07",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D14_07",
+    "text": "這家餐廳很好。",
+    "pinyin_numeric": "Zhe4 jia1 canting1 hen3 hao3.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D14_07.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D14_08",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D14_08",
+    "text": "我們要兩杯水和一份麵。",
+    "pinyin_numeric": "Women3 yao4 liang3 bei1 shui3 he2 yi2 fen4 mian4.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D14_08.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_PR_M1_D14_01",
+    "kind": "pronunciation",
+    "ref_id": "PR_M1_D14",
+    "text": "你",
+    "pinyin_numeric": "",
+    "path": "audio/month1/pronunciation/AUD_PR_M1_D14_01.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_PR_M1_D14_02",
+    "kind": "pronunciation",
+    "ref_id": "PR_M1_D14",
+    "text": "我",
+    "pinyin_numeric": "",
+    "path": "audio/month1/pronunciation/AUD_PR_M1_D14_02.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_104",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_104",
+    "text": "現在",
+    "pinyin_numeric": "xianzai4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_104.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_105",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_105",
+    "text": "點",
+    "pinyin_numeric": "dian3",
+    "path": "audio/month1/vocab/AUD_VOC_M1_105.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_106",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_106",
+    "text": "上午",
+    "pinyin_numeric": "shangwu3",
+    "path": "audio/month1/vocab/AUD_VOC_M1_106.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_107",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_107",
+    "text": "下午",
+    "pinyin_numeric": "xiawu3",
+    "path": "audio/month1/vocab/AUD_VOC_M1_107.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_108",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_108",
+    "text": "星期",
+    "pinyin_numeric": "xingqi1",
+    "path": "audio/month1/vocab/AUD_VOC_M1_108.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_109",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_109",
+    "text": "年",
+    "pinyin_numeric": "nian2",
+    "path": "audio/month1/vocab/AUD_VOC_M1_109.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_110",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_110",
+    "text": "早上",
+    "pinyin_numeric": "zaoshang3",
+    "path": "audio/month1/vocab/AUD_VOC_M1_110.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D15_01",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D15_01",
+    "text": "現在幾點？",
+    "pinyin_numeric": "Xianzai4 ji3 dian3?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D15_01.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D15_02",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D15_02",
+    "text": "現在三點。",
+    "pinyin_numeric": "Xianzai4 san1 dian3.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D15_02.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D15_03",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D15_03",
+    "text": "今天星期幾？",
+    "pinyin_numeric": "Jintian1 xingqi1 ji3?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D15_03.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D15_04",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D15_04",
+    "text": "明天星期三。",
+    "pinyin_numeric": "Mingtian1 xingqisan1.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D15_04.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D15_05",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D15_05",
+    "text": "我上午學中文。",
+    "pinyin_numeric": "Wo3 shangwu3 xue2 Zhongwen2.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D15_05.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D15_06",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D15_06",
+    "text": "下午我們去餐廳。",
+    "pinyin_numeric": "Xiawu3 women3 qu4 canting1.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D15_06.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D15_07",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D15_07",
+    "text": "我今年二十歲。",
+    "pinyin_numeric": "Wo3 jinnian2 ershi2 sui4.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D15_07.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D15_08",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D15_08",
+    "text": "早上我喝咖啡。",
+    "pinyin_numeric": "Zaoshang3 wo3 he1 kafei1.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D15_08.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_PR_M1_D15_01",
+    "kind": "pronunciation",
+    "ref_id": "PR_M1_D15",
+    "text": "現",
+    "pinyin_numeric": "",
+    "path": "audio/month1/pronunciation/AUD_PR_M1_D15_01.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_PR_M1_D15_02",
+    "kind": "pronunciation",
+    "ref_id": "PR_M1_D15",
+    "text": "現",
+    "pinyin_numeric": "",
+    "path": "audio/month1/pronunciation/AUD_PR_M1_D15_02.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_111",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_111",
+    "text": "呢",
+    "pinyin_numeric": "ne0",
+    "path": "audio/month1/vocab/AUD_VOC_M1_111.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_112",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_112",
+    "text": "幾",
+    "pinyin_numeric": "ji3",
+    "path": "audio/month1/vocab/AUD_VOC_M1_112.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_113",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_113",
+    "text": "多少",
+    "pinyin_numeric": "duoshao1",
+    "path": "audio/month1/vocab/AUD_VOC_M1_113.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_114",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_114",
+    "text": "錢",
+    "pinyin_numeric": "qian2",
+    "path": "audio/month1/vocab/AUD_VOC_M1_114.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_115",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_115",
+    "text": "歲",
+    "pinyin_numeric": "sui4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_115.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_116",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_116",
+    "text": "塊",
+    "pinyin_numeric": "kuai4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_116.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_117",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_117",
+    "text": "號",
+    "pinyin_numeric": "hao4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_117.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D16_01",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D16_01",
+    "text": "我很好，你呢？",
+    "pinyin_numeric": "Wo3 hen3 hao3, ni3 ne0?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D16_01.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D16_02",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D16_02",
+    "text": "你幾歲？",
+    "pinyin_numeric": "Ni3 ji3 sui4?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D16_02.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D16_03",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D16_03",
+    "text": "這個多少錢？",
+    "pinyin_numeric": "Zhege4 duoshao1 qian2?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D16_03.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D16_04",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D16_04",
+    "text": "一杯咖啡五十塊。",
+    "pinyin_numeric": "Yi4 bei1 kafei1 wushi2 kuai4.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D16_04.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D16_05",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D16_05",
+    "text": "今天幾號？",
+    "pinyin_numeric": "Jintian1 ji3 hao4?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D16_05.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D16_06",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D16_06",
+    "text": "你家有幾個人？",
+    "pinyin_numeric": "Ni3 jia1 you3 ji3 ge0 ren2?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D16_06.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D16_07",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D16_07",
+    "text": "這本書多少錢？",
+    "pinyin_numeric": "Zhe4 ben3 shu1 duoshao1 qian2?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D16_07.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D16_08",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D16_08",
+    "text": "我想買蘋果，你呢？",
+    "pinyin_numeric": "Wo3 xiang3 mai3 pingguo3, ni3 ne0?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D16_08.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_PR_M1_D16_01",
+    "kind": "pronunciation",
+    "ref_id": "PR_M1_D16",
+    "text": "我",
+    "pinyin_numeric": "",
+    "path": "audio/month1/pronunciation/AUD_PR_M1_D16_01.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_PR_M1_D16_02",
+    "kind": "pronunciation",
+    "ref_id": "PR_M1_D16",
+    "text": "你",
+    "pinyin_numeric": "",
+    "path": "audio/month1/pronunciation/AUD_PR_M1_D16_02.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_118",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_118",
+    "text": "可以",
+    "pinyin_numeric": "keyi3",
+    "path": "audio/month1/vocab/AUD_VOC_M1_118.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_119",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_119",
+    "text": "用",
+    "pinyin_numeric": "yong4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_119.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_120",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_120",
+    "text": "坐",
+    "pinyin_numeric": "zuo4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_120.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_121",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_121",
+    "text": "試",
+    "pinyin_numeric": "shi4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_121.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_122",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_122",
+    "text": "這裡",
+    "pinyin_numeric": "zheli3",
+    "path": "audio/month1/vocab/AUD_VOC_M1_122.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_123",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_123",
+    "text": "一下",
+    "pinyin_numeric": "yixia4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_123.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_124",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_124",
+    "text": "問題",
+    "pinyin_numeric": "wenti2",
+    "path": "audio/month1/vocab/AUD_VOC_M1_124.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D17_01",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D17_01",
+    "text": "我可以坐這裡嗎？",
+    "pinyin_numeric": "Wo3 keyi3 zuo4 zheli3 ma0?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D17_01.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D17_02",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D17_02",
+    "text": "我可以用你的手機嗎？",
+    "pinyin_numeric": "Wo3 keyi3 yong4 ni3 de0 shouji1 ma0?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D17_02.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D17_03",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D17_03",
+    "text": "可以問一下嗎？",
+    "pinyin_numeric": "Keyi3 wen4 yixia4 ma0?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D17_03.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D17_04",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D17_04",
+    "text": "你可以說慢一點嗎？",
+    "pinyin_numeric": "Ni3 keyi3 shuo1 man4 yidian3 ma0?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D17_04.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D17_05",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D17_05",
+    "text": "我可以試試嗎？",
+    "pinyin_numeric": "Wo3 keyi3 shishi4 ma0?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D17_05.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D17_06",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D17_06",
+    "text": "我們可以喝咖啡嗎？",
+    "pinyin_numeric": "Women3 keyi3 he1 kafei1 ma0?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D17_06.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D17_07",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D17_07",
+    "text": "這裡可以坐嗎？",
+    "pinyin_numeric": "Zheli3 keyi3 zuo4 ma0?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D17_07.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D17_08",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D17_08",
+    "text": "你有問題嗎？",
+    "pinyin_numeric": "Ni3 you3 wenti2 ma0?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D17_08.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_PR_M1_D17_01",
+    "kind": "pronunciation",
+    "ref_id": "PR_M1_D17",
+    "text": "我",
+    "pinyin_numeric": "",
+    "path": "audio/month1/pronunciation/AUD_PR_M1_D17_01.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_PR_M1_D17_02",
+    "kind": "pronunciation",
+    "ref_id": "PR_M1_D17",
+    "text": "我",
+    "pinyin_numeric": "",
+    "path": "audio/month1/pronunciation/AUD_PR_M1_D17_02.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_125",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_125",
+    "text": "愛",
+    "pinyin_numeric": "ai4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_125.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_126",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_126",
+    "text": "最",
+    "pinyin_numeric": "zui4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_126.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_127",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_127",
+    "text": "台灣",
+    "pinyin_numeric": "Taiwan1",
+    "path": "audio/month1/vocab/AUD_VOC_M1_127.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_128",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_128",
+    "text": "小吃",
+    "pinyin_numeric": "xiaochi1",
+    "path": "audio/month1/vocab/AUD_VOC_M1_128.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_129",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_129",
+    "text": "音樂",
+    "pinyin_numeric": "yinyue4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_129.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_130",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_130",
+    "text": "拍照",
+    "pinyin_numeric": "paizhao4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_130.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_131",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_131",
+    "text": "走路",
+    "pinyin_numeric": "zoulu4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_131.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D18_01",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D18_01",
+    "text": "我喜歡看電影。",
+    "pinyin_numeric": "Wo3 xihuan3 kan4 dianying3.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D18_01.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D18_02",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D18_02",
+    "text": "他最愛吃台灣小吃。",
+    "pinyin_numeric": "Ta1 zui4 ai4 chi1 Taiwan1 xiaochi1.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D18_02.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D18_03",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D18_03",
+    "text": "她喜歡聽音樂。",
+    "pinyin_numeric": "Ta1 xihuan3 ting1 yinyue4.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D18_03.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D18_04",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D18_04",
+    "text": "我不喜歡喝咖啡。",
+    "pinyin_numeric": "Wo3 bu4 xihuan3 he1 kafei1.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D18_04.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D18_05",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D18_05",
+    "text": "你喜歡拍照嗎？",
+    "pinyin_numeric": "Ni3 xihuan3 paizhao4 ma0?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D18_05.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D18_06",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D18_06",
+    "text": "我們愛台灣。",
+    "pinyin_numeric": "Women3 ai4 Taiwan1.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D18_06.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D18_07",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D18_07",
+    "text": "爸爸喜歡走路。",
+    "pinyin_numeric": "Baba4 xihuan3 zoulu4.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D18_07.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D18_08",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D18_08",
+    "text": "我最喜歡茶。",
+    "pinyin_numeric": "Wo3 zui4 xihuan3 cha2.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D18_08.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_PR_M1_D18_01",
+    "kind": "pronunciation",
+    "ref_id": "PR_M1_D18",
+    "text": "我",
+    "pinyin_numeric": "",
+    "path": "audio/month1/pronunciation/AUD_PR_M1_D18_01.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_PR_M1_D18_02",
+    "kind": "pronunciation",
+    "ref_id": "PR_M1_D18",
+    "text": "他",
+    "pinyin_numeric": "",
+    "path": "audio/month1/pronunciation/AUD_PR_M1_D18_02.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_132",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_132",
+    "text": "先",
+    "pinyin_numeric": "xian1",
+    "path": "audio/month1/vocab/AUD_VOC_M1_132.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_133",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_133",
+    "text": "然後",
+    "pinyin_numeric": "ranhou4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_133.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_134",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_134",
+    "text": "再",
+    "pinyin_numeric": "zai4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_134.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_135",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_135",
+    "text": "最後",
+    "pinyin_numeric": "zuihou4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_135.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_136",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_136",
+    "text": "起床",
+    "pinyin_numeric": "qichuang2",
+    "path": "audio/month1/vocab/AUD_VOC_M1_136.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_137",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_137",
+    "text": "早餐",
+    "pinyin_numeric": "zaocan1",
+    "path": "audio/month1/vocab/AUD_VOC_M1_137.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_138",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_138",
+    "text": "公司",
+    "pinyin_numeric": "gongsi1",
+    "path": "audio/month1/vocab/AUD_VOC_M1_138.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D19_01",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D19_01",
+    "text": "我想先喝水，再學中文。",
+    "pinyin_numeric": "Wo3 xiang3 xian1 he1 shui3, zai4 xue2 Zhongwen2.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D19_01.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D19_02",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D19_02",
+    "text": "他早上起床，然後吃早餐。",
+    "pinyin_numeric": "Ta1 zaoshang3 qichuang2, ranhou4 chi1 zaocan1.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D19_02.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D19_03",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D19_03",
+    "text": "我先去公司，再去餐廳。",
+    "pinyin_numeric": "Wo3 xian1 qu4 gongsi1, zai4 qu4 canting1.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D19_03.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D19_04",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D19_04",
+    "text": "我們先看電影，然後喝咖啡。",
+    "pinyin_numeric": "Women3 xian1 kan4 dianying3, ranhou4 he1 kafei1.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D19_04.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D19_05",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D19_05",
+    "text": "最後我回家。",
+    "pinyin_numeric": "Zuihou4 wo3 hui2 jia1.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D19_05.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D19_06",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D19_06",
+    "text": "你先說，我再寫。",
+    "pinyin_numeric": "Ni3 xian1 shuo1, wo3 zai4 xie3.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D19_06.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D19_07",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D19_07",
+    "text": "她先買書，再去學校。",
+    "pinyin_numeric": "Ta1 xian1 mai3 shu1, zai4 qu4 xuexiao4.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D19_07.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D19_08",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D19_08",
+    "text": "我們最後去公園走路。",
+    "pinyin_numeric": "Women3 zuihou4 qu4 gongyuan2 zoulu4.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D19_08.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_PR_M1_D19_01",
+    "kind": "pronunciation",
+    "ref_id": "PR_M1_D19",
+    "text": "我",
+    "pinyin_numeric": "",
+    "path": "audio/month1/pronunciation/AUD_PR_M1_D19_01.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_PR_M1_D19_02",
+    "kind": "pronunciation",
+    "ref_id": "PR_M1_D19",
+    "text": "他",
+    "pinyin_numeric": "",
+    "path": "audio/month1/pronunciation/AUD_PR_M1_D19_02.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_139",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_139",
+    "text": "在",
+    "pinyin_numeric": "zai4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_139.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_140",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_140",
+    "text": "上",
+    "pinyin_numeric": "shang4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_140.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_141",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_141",
+    "text": "下",
+    "pinyin_numeric": "xia4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_141.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_142",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_142",
+    "text": "前面",
+    "pinyin_numeric": "qianmian4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_142.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_143",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_143",
+    "text": "左",
+    "pinyin_numeric": "zuo3",
+    "path": "audio/month1/vocab/AUD_VOC_M1_143.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_144",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_144",
+    "text": "右",
+    "pinyin_numeric": "you4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_144.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_145",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_145",
+    "text": "那裡",
+    "pinyin_numeric": "nali3",
+    "path": "audio/month1/vocab/AUD_VOC_M1_145.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_146",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_146",
+    "text": "圖書館",
+    "pinyin_numeric": "tushuguan3",
+    "path": "audio/month1/vocab/AUD_VOC_M1_146.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D20_01",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D20_01",
+    "text": "我在圖書館看書。",
+    "pinyin_numeric": "Wo3 zai4 tushuguan3 kan4 shu1.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D20_01.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D20_02",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D20_02",
+    "text": "學校在醫院的左邊。",
+    "pinyin_numeric": "Xuexiao4 zai4 yiyuan4 de0 zuobian1.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D20_02.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D20_03",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D20_03",
+    "text": "超市在我們家前面。",
+    "pinyin_numeric": "Chaoshi4 zai4 women3 jia1 qianmian4.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D20_03.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D20_04",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D20_04",
+    "text": "手機在桌子上。",
+    "pinyin_numeric": "Shouji1 zai4 zhuozi1 shang4.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D20_04.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D20_05",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D20_05",
+    "text": "書在椅子下。",
+    "pinyin_numeric": "Shu1 zai4 yizi3 xia4.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D20_05.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D20_06",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D20_06",
+    "text": "你在哪裡工作？",
+    "pinyin_numeric": "Ni3 zai4 nali3 gongzuo4?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D20_06.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D20_07",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D20_07",
+    "text": "我在這裡等你。",
+    "pinyin_numeric": "Wo3 zai4 zheli3 deng3 ni3.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D20_07.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D20_08",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D20_08",
+    "text": "他在那裡喝咖啡。",
+    "pinyin_numeric": "Ta1 zai4 nali3 he1 kafei1.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D20_08.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_PR_M1_D20_01",
+    "kind": "pronunciation",
+    "ref_id": "PR_M1_D20",
+    "text": "我",
+    "pinyin_numeric": "",
+    "path": "audio/month1/pronunciation/AUD_PR_M1_D20_01.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_PR_M1_D20_02",
+    "kind": "pronunciation",
+    "ref_id": "PR_M1_D20",
+    "text": "學",
+    "pinyin_numeric": "",
+    "path": "audio/month1/pronunciation/AUD_PR_M1_D20_02.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D21_01",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D21_01",
+    "text": "明天下午三點我們在公園見面。",
+    "pinyin_numeric": "Mingtian1 xiawu3 san1 dian3 women3 zai4 gongyuan2 jianmian4.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D21_01.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D21_02",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D21_02",
+    "text": "然後我們去咖啡店喝咖啡。",
+    "pinyin_numeric": "Ranhou4 women3 qu4 kafei1 dian4 he1 kafei1.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D21_02.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D21_03",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D21_03",
+    "text": "你可以坐這裡嗎？",
+    "pinyin_numeric": "Ni3 keyi3 zuo4 zheli3 ma0?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D21_03.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D21_04",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D21_04",
+    "text": "我想先看電影。",
+    "pinyin_numeric": "Wo3 xiang3 xian1 kan4 dianying3.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D21_04.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D21_05",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D21_05",
+    "text": "她不喜歡喝咖啡。",
+    "pinyin_numeric": "Ta1 bu4 xihuan3 he1 kafei1.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D21_05.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D21_06",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D21_06",
+    "text": "我們最後去圖書館。",
+    "pinyin_numeric": "Women3 zuihou4 qu4 tushuguan3.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D21_06.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D21_07",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D21_07",
+    "text": "圖書館在哪裡？",
+    "pinyin_numeric": "Tushuguan3 zai4 nali3?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D21_07.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D21_08",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D21_08",
+    "text": "今天的計畫很好。",
+    "pinyin_numeric": "Jintian1 de0 jihua4 hen3 hao3.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D21_08.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_PR_M1_D21_01",
+    "kind": "pronunciation",
+    "ref_id": "PR_M1_D21",
+    "text": "明",
+    "pinyin_numeric": "",
+    "path": "audio/month1/pronunciation/AUD_PR_M1_D21_01.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_PR_M1_D21_02",
+    "kind": "pronunciation",
+    "ref_id": "PR_M1_D21",
+    "text": "然",
+    "pinyin_numeric": "",
+    "path": "audio/month1/pronunciation/AUD_PR_M1_D21_02.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_147",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_147",
+    "text": "商店",
+    "pinyin_numeric": "shangdian4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_147.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_148",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_148",
+    "text": "醫院",
+    "pinyin_numeric": "yiyuan4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_148.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_149",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_149",
+    "text": "學校",
+    "pinyin_numeric": "xuexiao4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_149.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_150",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_150",
+    "text": "公園",
+    "pinyin_numeric": "gongyuan2",
+    "path": "audio/month1/vocab/AUD_VOC_M1_150.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_151",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_151",
+    "text": "車站",
+    "pinyin_numeric": "chezhan4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_151.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_152",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_152",
+    "text": "飛機",
+    "pinyin_numeric": "feiji1",
+    "path": "audio/month1/vocab/AUD_VOC_M1_152.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_153",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_153",
+    "text": "火車",
+    "pinyin_numeric": "huoche1",
+    "path": "audio/month1/vocab/AUD_VOC_M1_153.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_154",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_154",
+    "text": "捷運",
+    "pinyin_numeric": "jieyun4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_154.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_155",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_155",
+    "text": "來",
+    "pinyin_numeric": "lai2",
+    "path": "audio/month1/vocab/AUD_VOC_M1_155.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_156",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_156",
+    "text": "去",
+    "pinyin_numeric": "qu4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_156.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D22_01",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D22_01",
+    "text": "我們下午去公園散步。",
+    "pinyin_numeric": "Women3 xiawu3 qu4 gongyuan2 sanbu4.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D22_01.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D22_02",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D22_02",
+    "text": "他明天坐火車來台中。",
+    "pinyin_numeric": "Ta1 mingtian1 zuo4 huoche1 lai2 Taizhong1.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D22_02.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D22_03",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D22_03",
+    "text": "你去商店嗎？",
+    "pinyin_numeric": "Ni3 qu4 shangdian4 ma0?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D22_03.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D22_04",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D22_04",
+    "text": "醫院在哪裡？",
+    "pinyin_numeric": "Yiyuan4 zai4 nali3?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D22_04.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D22_05",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D22_05",
+    "text": "我坐捷運去學校。",
+    "pinyin_numeric": "Wo3 zuo4 jieyun4 qu4 xuexiao4.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D22_05.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D22_06",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D22_06",
+    "text": "車站在公園前面。",
+    "pinyin_numeric": "Chezhan4 zai4 gongyuan2 qianmian4.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D22_06.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D22_07",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D22_07",
+    "text": "爸爸坐飛機去台北。",
+    "pinyin_numeric": "Baba4 zuo4 feiji1 qu4 Taibei3.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D22_07.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D22_08",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D22_08",
+    "text": "你明天來我家嗎？",
+    "pinyin_numeric": "Ni3 mingtian1 lai2 wo3 jia1 ma0?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D22_08.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_PR_M1_D22_01",
+    "kind": "pronunciation",
+    "ref_id": "PR_M1_D22",
+    "text": "我",
+    "pinyin_numeric": "",
+    "path": "audio/month1/pronunciation/AUD_PR_M1_D22_01.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_PR_M1_D22_02",
+    "kind": "pronunciation",
+    "ref_id": "PR_M1_D22",
+    "text": "他",
+    "pinyin_numeric": "",
+    "path": "audio/month1/pronunciation/AUD_PR_M1_D22_02.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_157",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_157",
+    "text": "比",
+    "pinyin_numeric": "bi3",
+    "path": "audio/month1/vocab/AUD_VOC_M1_157.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_158",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_158",
+    "text": "慢",
+    "pinyin_numeric": "man4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_158.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_159",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_159",
+    "text": "便宜",
+    "pinyin_numeric": "pianyi2",
+    "path": "audio/month1/vocab/AUD_VOC_M1_159.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_160",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_160",
+    "text": "更",
+    "pinyin_numeric": "geng4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_160.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_161",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_161",
+    "text": "新",
+    "pinyin_numeric": "xin1",
+    "path": "audio/month1/vocab/AUD_VOC_M1_161.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_162",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_162",
+    "text": "舊",
+    "pinyin_numeric": "jiu4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_162.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_163",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_163",
+    "text": "那個",
+    "pinyin_numeric": "nage4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_163.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D23_01",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D23_01",
+    "text": "今天比昨天熱。",
+    "pinyin_numeric": "Jintian1 bi3 zuotian1 re4.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D23_01.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D23_02",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D23_02",
+    "text": "這個菜比那個菜貴。",
+    "pinyin_numeric": "Zhege4 cai4 bi3 nage4 cai4 gui4.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D23_02.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D23_03",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D23_03",
+    "text": "捷運比火車快嗎？",
+    "pinyin_numeric": "Jieyun4 bi3 huoche1 kuai4 ma0?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D23_03.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D23_04",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D23_04",
+    "text": "這杯咖啡比那杯茶便宜。",
+    "pinyin_numeric": "Zhe4 bei1 kafei1 bi3 na4 bei1 cha2 pianyi2.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D23_04.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D23_05",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D23_05",
+    "text": "我的手機比你的手機新。",
+    "pinyin_numeric": "Wo3 de0 shouji1 bi3 ni3 de0 shouji1 xin1.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D23_05.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D23_06",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D23_06",
+    "text": "今天比昨天冷。",
+    "pinyin_numeric": "Jintian1 bi3 zuotian1 leng3.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D23_06.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D23_07",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D23_07",
+    "text": "他說中文比我好。",
+    "pinyin_numeric": "Ta1 shuo1 Zhongwen2 bi3 wo3 hao3.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D23_07.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D23_08",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D23_08",
+    "text": "這家餐廳更貴。",
+    "pinyin_numeric": "Zhe4 jia1 canting1 geng4 gui4.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D23_08.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_PR_M1_D23_01",
+    "kind": "pronunciation",
+    "ref_id": "PR_M1_D23",
+    "text": "今",
+    "pinyin_numeric": "",
+    "path": "audio/month1/pronunciation/AUD_PR_M1_D23_01.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_PR_M1_D23_02",
+    "kind": "pronunciation",
+    "ref_id": "PR_M1_D23",
+    "text": "這",
+    "pinyin_numeric": "",
+    "path": "audio/month1/pronunciation/AUD_PR_M1_D23_02.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_164",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_164",
+    "text": "前",
+    "pinyin_numeric": "qian2",
+    "path": "audio/month1/vocab/AUD_VOC_M1_164.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_165",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_165",
+    "text": "後",
+    "pinyin_numeric": "hou4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_165.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_166",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_166",
+    "text": "裡面",
+    "pinyin_numeric": "limian4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_166.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_167",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_167",
+    "text": "外面",
+    "pinyin_numeric": "waimian4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_167.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_168",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_168",
+    "text": "銀行",
+    "pinyin_numeric": "yinhang2",
+    "path": "audio/month1/vocab/AUD_VOC_M1_168.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_169",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_169",
+    "text": "廁所",
+    "pinyin_numeric": "cesuo3",
+    "path": "audio/month1/vocab/AUD_VOC_M1_169.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_170",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_170",
+    "text": "路",
+    "pinyin_numeric": "lu4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_170.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D24_01",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D24_01",
+    "text": "銀行在商店的前面。",
+    "pinyin_numeric": "Yinhang2 zai4 shangdian4 de0 qianmian4.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D24_01.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D24_02",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D24_02",
+    "text": "圖書館在學校的後面。",
+    "pinyin_numeric": "Tushuguan3 zai4 xuexiao4 de0 houmian4.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D24_02.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D24_03",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D24_03",
+    "text": "廁所在哪裡？",
+    "pinyin_numeric": "Cesuo3 zai4 nali3?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D24_03.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D24_04",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D24_04",
+    "text": "手機在包包裡面。",
+    "pinyin_numeric": "Shouji1 zai4 baobao1 limian4.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D24_04.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D24_05",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D24_05",
+    "text": "他在外面等你。",
+    "pinyin_numeric": "Ta1 zai4 waimian4 deng3 ni3.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D24_05.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D24_06",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D24_06",
+    "text": "醫院在這條路的右邊。",
+    "pinyin_numeric": "Yiyuan4 zai4 zhe4 tiao2 lu4 de0 youbian1.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D24_06.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D24_07",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D24_07",
+    "text": "公園在車站的左邊。",
+    "pinyin_numeric": "Gongyuan2 zai4 chezhan4 de0 zuobian1.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D24_07.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D24_08",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D24_08",
+    "text": "餐廳在銀行後面。",
+    "pinyin_numeric": "Canting1 zai4 yinhang2 houmian4.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D24_08.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_PR_M1_D24_01",
+    "kind": "pronunciation",
+    "ref_id": "PR_M1_D24",
+    "text": "銀",
+    "pinyin_numeric": "",
+    "path": "audio/month1/pronunciation/AUD_PR_M1_D24_01.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_PR_M1_D24_02",
+    "kind": "pronunciation",
+    "ref_id": "PR_M1_D24",
+    "text": "圖",
+    "pinyin_numeric": "",
+    "path": "audio/month1/pronunciation/AUD_PR_M1_D24_02.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_171",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_171",
+    "text": "需要",
+    "pinyin_numeric": "xuyao4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_171.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_172",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_172",
+    "text": "得",
+    "pinyin_numeric": "dei3",
+    "path": "audio/month1/vocab/AUD_VOC_M1_172.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_173",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_173",
+    "text": "必須",
+    "pinyin_numeric": "bixu1",
+    "path": "audio/month1/vocab/AUD_VOC_M1_173.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_174",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_174",
+    "text": "走",
+    "pinyin_numeric": "zou3",
+    "path": "audio/month1/vocab/AUD_VOC_M1_174.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_175",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_175",
+    "text": "抱歉",
+    "pinyin_numeric": "baoqian4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_175.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_176",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_176",
+    "text": "拿",
+    "pinyin_numeric": "na2",
+    "path": "audio/month1/vocab/AUD_VOC_M1_176.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_177",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_177",
+    "text": "發票",
+    "pinyin_numeric": "fapiao4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_177.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_178",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_178",
+    "text": "悠遊卡",
+    "pinyin_numeric": "Youyou2 Ka3",
+    "path": "audio/month1/vocab/AUD_VOC_M1_178.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D25_01",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D25_01",
+    "text": "我需要去銀行取錢。",
+    "pinyin_numeric": "Wo3 xuyao4 qu4 yinhang2 qu3 qian2.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D25_01.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D25_02",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D25_02",
+    "text": "抱歉，現在我必須走了。",
+    "pinyin_numeric": "Baoqian4, xianzai4 wo3 bixu1 zou3 le0.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D25_02.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D25_03",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D25_03",
+    "text": "我得學中文。",
+    "pinyin_numeric": "Wo3 dei3 xue2 Zhongwen2.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D25_03.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D25_04",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D25_04",
+    "text": "你需要發票嗎？",
+    "pinyin_numeric": "Ni3 xuyao4 fapiao4 ma0?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D25_04.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D25_05",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D25_05",
+    "text": "我需要一張悠遊卡。",
+    "pinyin_numeric": "Wo3 xuyao4 yi4 zhang1 Youyou2 Ka3.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D25_05.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D25_06",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D25_06",
+    "text": "我們得坐捷運去學校。",
+    "pinyin_numeric": "Women3 dei3 zuo4 jieyun4 qu4 xuexiao4.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D25_06.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D25_07",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D25_07",
+    "text": "他必須早上去公司。",
+    "pinyin_numeric": "Ta1 bixu1 zaoshang3 qu4 gongsi1.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D25_07.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D25_08",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D25_08",
+    "text": "我需要拿手機。",
+    "pinyin_numeric": "Wo3 xuyao4 na2 shouji1.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D25_08.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_PR_M1_D25_01",
+    "kind": "pronunciation",
+    "ref_id": "PR_M1_D25",
+    "text": "我",
+    "pinyin_numeric": "",
+    "path": "audio/month1/pronunciation/AUD_PR_M1_D25_01.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_PR_M1_D25_02",
+    "kind": "pronunciation",
+    "ref_id": "PR_M1_D25",
+    "text": "抱",
+    "pinyin_numeric": "",
+    "path": "audio/month1/pronunciation/AUD_PR_M1_D25_02.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_179",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_179",
+    "text": "請",
+    "pinyin_numeric": "qing3",
+    "path": "audio/month1/vocab/AUD_VOC_M1_179.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_180",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_180",
+    "text": "進",
+    "pinyin_numeric": "jin4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_180.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_181",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_181",
+    "text": "幫",
+    "pinyin_numeric": "bang1",
+    "path": "audio/month1/vocab/AUD_VOC_M1_181.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_182",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_182",
+    "text": "跟",
+    "pinyin_numeric": "gen1",
+    "path": "audio/month1/vocab/AUD_VOC_M1_182.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_183",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_183",
+    "text": "一起",
+    "pinyin_numeric": "yiqi3",
+    "path": "audio/month1/vocab/AUD_VOC_M1_183.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_184",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_184",
+    "text": "等",
+    "pinyin_numeric": "deng3",
+    "path": "audio/month1/vocab/AUD_VOC_M1_184.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_185",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_185",
+    "text": "菜單",
+    "pinyin_numeric": "caidan1",
+    "path": "audio/month1/vocab/AUD_VOC_M1_185.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_186",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_186",
+    "text": "袋子",
+    "pinyin_numeric": "daizi4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_186.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D26_01",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D26_01",
+    "text": "請進！",
+    "pinyin_numeric": "Qing3 jin4!",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D26_01.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D26_02",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D26_02",
+    "text": "請幫我一下，可以嗎？",
+    "pinyin_numeric": "Qing3 bang1 wo3 yixia4, keyi3 ma0?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D26_02.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D26_03",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D26_03",
+    "text": "請跟我來。",
+    "pinyin_numeric": "Qing3 gen1 wo3 lai2.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D26_03.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D26_04",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D26_04",
+    "text": "請等一下。",
+    "pinyin_numeric": "Qing3 deng3 yixia4.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D26_04.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D26_05",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D26_05",
+    "text": "請給我菜單。",
+    "pinyin_numeric": "Qing3 gei3 wo3 caidan1.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D26_05.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D26_06",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D26_06",
+    "text": "我要一個袋子。",
+    "pinyin_numeric": "Wo3 yao4 yi2 ge0 daizi4.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D26_06.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D26_07",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D26_07",
+    "text": "你想一起喝咖啡嗎？",
+    "pinyin_numeric": "Ni3 xiang3 yiqi3 he1 kafei1 ma0?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D26_07.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D26_08",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D26_08",
+    "text": "可以請你說慢一點嗎？",
+    "pinyin_numeric": "Keyi3 qing3 ni3 shuo1 man4 yidian3 ma0?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D26_08.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_PR_M1_D26_01",
+    "kind": "pronunciation",
+    "ref_id": "PR_M1_D26",
+    "text": "請",
+    "pinyin_numeric": "",
+    "path": "audio/month1/pronunciation/AUD_PR_M1_D26_01.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_PR_M1_D26_02",
+    "kind": "pronunciation",
+    "ref_id": "PR_M1_D26",
+    "text": "請",
+    "pinyin_numeric": "",
+    "path": "audio/month1/pronunciation/AUD_PR_M1_D26_02.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_187",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_187",
+    "text": "愛好",
+    "pinyin_numeric": "aihao4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_187.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_188",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_188",
+    "text": "唱歌",
+    "pinyin_numeric": "changge1",
+    "path": "audio/month1/vocab/AUD_VOC_M1_188.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_189",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_189",
+    "text": "跳舞",
+    "pinyin_numeric": "tiaowu3",
+    "path": "audio/month1/vocab/AUD_VOC_M1_189.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_190",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_190",
+    "text": "運動",
+    "pinyin_numeric": "yundong4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_190.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_191",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_191",
+    "text": "旅遊",
+    "pinyin_numeric": "lüyou2",
+    "path": "audio/month1/vocab/AUD_VOC_M1_191.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_192",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_192",
+    "text": "跑步",
+    "pinyin_numeric": "paobu4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_192.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_193",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_193",
+    "text": "游泳",
+    "pinyin_numeric": "youyong3",
+    "path": "audio/month1/vocab/AUD_VOC_M1_193.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D27_01",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D27_01",
+    "text": "我的愛好是唱歌和跳舞。",
+    "pinyin_numeric": "Wo3 de0 aihao4 shi4 changge1 he2 tiaowu3.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D27_01.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D27_02",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D27_02",
+    "text": "我喜歡旅遊，也喜歡拍照。",
+    "pinyin_numeric": "Wo3 xihuan3 lüyou2, ye3 xihuan3 paizhao4.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D27_02.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D27_03",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D27_03",
+    "text": "他不喜歡運動。",
+    "pinyin_numeric": "Ta1 bu4 xihuan3 yundong4.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D27_03.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D27_04",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D27_04",
+    "text": "你會游泳嗎？",
+    "pinyin_numeric": "Ni3 hui4 youyong3 ma0?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D27_04.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D27_05",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D27_05",
+    "text": "妹妹最愛唱歌。",
+    "pinyin_numeric": "Meimei4 zui4 ai4 changge1.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D27_05.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D27_06",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D27_06",
+    "text": "我們下午去公園跑步。",
+    "pinyin_numeric": "Women3 xiawu3 qu4 gongyuan2 paobu4.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D27_06.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D27_07",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D27_07",
+    "text": "我的朋友喜歡跳舞。",
+    "pinyin_numeric": "Wo3 de0 pengyou3 xihuan3 tiaowu3.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D27_07.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D27_08",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D27_08",
+    "text": "你的愛好是什麼？",
+    "pinyin_numeric": "Ni3 de0 aihao4 shi4 shenme2?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D27_08.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_PR_M1_D27_01",
+    "kind": "pronunciation",
+    "ref_id": "PR_M1_D27",
+    "text": "我",
+    "pinyin_numeric": "",
+    "path": "audio/month1/pronunciation/AUD_PR_M1_D27_01.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_PR_M1_D27_02",
+    "kind": "pronunciation",
+    "ref_id": "PR_M1_D27",
+    "text": "我",
+    "pinyin_numeric": "",
+    "path": "audio/month1/pronunciation/AUD_PR_M1_D27_02.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_194",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_194",
+    "text": "會",
+    "pinyin_numeric": "hui4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_194.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_195",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_195",
+    "text": "打算",
+    "pinyin_numeric": "dasuan4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_195.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_196",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_196",
+    "text": "希望",
+    "pinyin_numeric": "xiwang4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_196.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_197",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_197",
+    "text": "台北",
+    "pinyin_numeric": "Taibei3",
+    "path": "audio/month1/vocab/AUD_VOC_M1_197.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_198",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_198",
+    "text": "見面",
+    "pinyin_numeric": "jianmian4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_198.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_199",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_199",
+    "text": "計畫",
+    "pinyin_numeric": "jihua4",
+    "path": "audio/month1/vocab/AUD_VOC_M1_199.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_M1_200",
+    "kind": "vocab",
+    "ref_id": "VOC_M1_200",
+    "text": "下個星期",
+    "pinyin_numeric": "xia4 ge0 xingqi1",
+    "path": "audio/month1/vocab/AUD_VOC_M1_200.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D28_01",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D28_01",
+    "text": "明天我會去台北。",
+    "pinyin_numeric": "Mingtian1 wo3 hui4 qu4 Taibei3.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D28_01.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D28_02",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D28_02",
+    "text": "我想學游泳。",
+    "pinyin_numeric": "Wo3 xiang3 xue2 youyong3.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D28_02.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D28_03",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D28_03",
+    "text": "我們打算下個星期見面。",
+    "pinyin_numeric": "Women3 dasuan4 xia4 ge0 xingqi1 jianmian4.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D28_03.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D28_04",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D28_04",
+    "text": "他希望學好中文。",
+    "pinyin_numeric": "Ta1 xiwang4 xue2 hao3 Zhongwen2.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D28_04.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D28_05",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D28_05",
+    "text": "你明天要做什麼？",
+    "pinyin_numeric": "Ni3 mingtian1 yao4 zuo4 shenme2?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D28_05.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D28_06",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D28_06",
+    "text": "我會坐捷運去公司。",
+    "pinyin_numeric": "Wo3 hui4 zuo4 jieyun4 qu4 gongsi1.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D28_06.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D28_07",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D28_07",
+    "text": "我們的計畫很好。",
+    "pinyin_numeric": "Women3 de0 jihua4 hen3 hao3.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D28_07.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D28_08",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D28_08",
+    "text": "她不打算喝咖啡。",
+    "pinyin_numeric": "Ta1 bu4 dasuan4 he1 kafei1.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D28_08.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_PR_M1_D28_01",
+    "kind": "pronunciation",
+    "ref_id": "PR_M1_D28",
+    "text": "明",
+    "pinyin_numeric": "",
+    "path": "audio/month1/pronunciation/AUD_PR_M1_D28_01.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_PR_M1_D28_02",
+    "kind": "pronunciation",
+    "ref_id": "PR_M1_D28",
+    "text": "我",
+    "pinyin_numeric": "",
+    "path": "audio/month1/pronunciation/AUD_PR_M1_D28_02.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D29_01",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D29_01",
+    "text": "今天早上我先喝水。",
+    "pinyin_numeric": "Jintian1 zaoshang3 wo3 xian1 he1 shui3.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D29_01.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D29_02",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D29_02",
+    "text": "然後我在家學中文。",
+    "pinyin_numeric": "Ranhou4 wo3 zai4 jia1 xue2 Zhongwen2.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D29_02.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D29_03",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D29_03",
+    "text": "下午我去公司工作。",
+    "pinyin_numeric": "Xiawu3 wo3 qu4 gongsi1 gongzuo4.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D29_03.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D29_04",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D29_04",
+    "text": "我不喝咖啡，因為我想喝茶。",
+    "pinyin_numeric": "Wo3 bu4 he1 kafei1, yinwei4 wo3 xiang3 he1 cha2.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D29_04.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D29_05",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D29_05",
+    "text": "晚上我沒有課。",
+    "pinyin_numeric": "Wanshang4 wo3 meiyou3 ke4.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D29_05.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D29_06",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D29_06",
+    "text": "我在圖書館看書。",
+    "pinyin_numeric": "Wo3 zai4 tushuguan3 kan4 shu1.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D29_06.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D29_07",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D29_07",
+    "text": "最後我回家吃飯。",
+    "pinyin_numeric": "Zuihou4 wo3 hui2 jia1 chifan4.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D29_07.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D29_08",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D29_08",
+    "text": "我的一天很忙，但是很好。",
+    "pinyin_numeric": "Wo3 de0 yi4 tian1 hen3 mang2, danshi4 hen3 hao3.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D29_08.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_PR_M1_D29_01",
+    "kind": "pronunciation",
+    "ref_id": "PR_M1_D29",
+    "text": "今",
+    "pinyin_numeric": "",
+    "path": "audio/month1/pronunciation/AUD_PR_M1_D29_01.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_PR_M1_D29_02",
+    "kind": "pronunciation",
+    "ref_id": "PR_M1_D29",
+    "text": "然",
+    "pinyin_numeric": "",
+    "path": "audio/month1/pronunciation/AUD_PR_M1_D29_02.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D30_01",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D30_01",
+    "text": "你好，我叫李明。",
+    "pinyin_numeric": "Ni3 hao3, wo3 jiao4 Li3 Ming2.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D30_01.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D30_02",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D30_02",
+    "text": "我家有四個人。",
+    "pinyin_numeric": "Wo3 jia1 you3 si4 ge0 ren2.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D30_02.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D30_03",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D30_03",
+    "text": "我喜歡台灣小吃。",
+    "pinyin_numeric": "Wo3 xihuan3 Taiwan1 xiaochi1.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D30_03.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D30_04",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D30_04",
+    "text": "今天下午我想去公園。",
+    "pinyin_numeric": "Jintian1 xiawu3 wo3 xiang3 qu4 gongyuan2.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D30_04.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D30_05",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D30_05",
+    "text": "我可以坐這裡嗎？",
+    "pinyin_numeric": "Wo3 keyi3 zuo4 zheli3 ma0?",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D30_05.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D30_06",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D30_06",
+    "text": "圖書館在學校後面。",
+    "pinyin_numeric": "Tushuguan3 zai4 xuexiao4 houmian4.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D30_06.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D30_07",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D30_07",
+    "text": "今天比昨天熱。",
+    "pinyin_numeric": "Jintian1 bi3 zuotian1 re4.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D30_07.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_M1_D30_08",
+    "kind": "sentence",
+    "ref_id": "SEN_M1_D30_08",
+    "text": "明天我打算坐捷運去台北。",
+    "pinyin_numeric": "Mingtian1 wo3 dasuan4 zuo4 jieyun4 qu4 Taibei3.",
+    "path": "audio/month1/sentences/AUD_SEN_M1_D30_08.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_PR_M1_D30_01",
+    "kind": "pronunciation",
+    "ref_id": "PR_M1_D30",
+    "text": "你",
+    "pinyin_numeric": "",
+    "path": "audio/month1/pronunciation/AUD_PR_M1_D30_01.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_PR_M1_D30_02",
+    "kind": "pronunciation",
+    "ref_id": "PR_M1_D30",
+    "text": "我",
+    "pinyin_numeric": "",
+    "path": "audio/month1/pronunciation/AUD_PR_M1_D30_02.mp3",
     "status": "placeholder"
   }
 ]

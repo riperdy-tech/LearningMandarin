@@ -1,113 +1,222 @@
 [
   {
-    "id": "GR_M1_001",
-    "pattern": "我 + 叫 + NAME",
-    "structure": [
-      "subject",
-      "verb",
-      "object"
-    ],
-    "explanation_en": "Used for introducing one's name",
-    "example_ids": [
-      "SEN_M1_W1_001"
-    ],
-    "slots": [
-      {
-        "name": "NAME",
-        "role": "name",
-        "values": [
-          {
-            "text": "王明",
-            "pinyin": "wáng míng",
-            "meaning_en": "Wang Ming",
-            "meaning_ko": "왕밍"
-          }
-        ]
-      }
-    ],
-    "drill_examples": [
-      {
-        "text": "我叫王明。",
-        "pinyin": "wǒ jiào wáng míng.",
-        "translation_en": "My name is Wang Ming.",
-        "translation_ko": "저는 왕밍입니다.",
-        "slot_values": {
-          "NAME": "王明"
-        }
-      }
-    ],
-    "negative_examples": [
-      {
-        "text": "我名字叫王明",
-        "error": "For this beginner pattern, use 我叫王明. 名字 means name, but this lesson is teaching the shorter 我 + 叫 + NAME structure."
-      }
-    ]
-  },
-  {
-    "id": "GR_M1_002",
-    "pattern": "我 + 是 + NOUN",
+    "id": "GR_M1_D01",
+    "pattern": "Subject + 是 + identity",
     "structure": [
       "subject",
       "linking verb",
-      "noun"
+      "identity"
     ],
-    "explanation_en": "Basic identity statement",
+    "explanation_en": "Use 是 to connect a person with an identity, role, or name. This is the first output pattern for introductions.",
     "example_ids": [
-      "SEN_M1_W1_002"
+      "SEN_M1_D01_01",
+      "SEN_M1_D01_02",
+      "SEN_M1_D01_03",
+      "SEN_M1_D01_04"
     ],
     "slots": [
       {
-        "name": "NOUN",
-        "role": "noun",
+        "name": "lesson_words",
+        "role": "object",
         "values": [
           {
-            "text": "學生",
-            "pinyin": "xuéshēng",
-            "meaning_en": "student",
-            "meaning_ko": "학생"
+            "text": "你好",
+            "pinyin": "nǐ hǎo",
+            "meaning_en": "hello",
+            "meaning_ko": "안녕하세요",
+            "vocab_id": "VOC_M1_001"
+          },
+          {
+            "text": "我",
+            "pinyin": "wǒ",
+            "meaning_en": "I; me",
+            "meaning_ko": "나",
+            "vocab_id": "VOC_M1_002"
+          },
+          {
+            "text": "你",
+            "pinyin": "nǐ",
+            "meaning_en": "you",
+            "meaning_ko": "너; 당신",
+            "vocab_id": "VOC_M1_003"
+          },
+          {
+            "text": "他",
+            "pinyin": "tā",
+            "meaning_en": "he; him",
+            "meaning_ko": "그",
+            "vocab_id": "VOC_M1_004"
+          },
+          {
+            "text": "她",
+            "pinyin": "tā",
+            "meaning_en": "she; her",
+            "meaning_ko": "그녀",
+            "vocab_id": "VOC_M1_005"
+          },
+          {
+            "text": "我們",
+            "pinyin": "wǒmen",
+            "meaning_en": "we; us",
+            "meaning_ko": "우리",
+            "vocab_id": "VOC_M1_006"
+          },
+          {
+            "text": "是",
+            "pinyin": "shì",
+            "meaning_en": "to be",
+            "meaning_ko": "이다",
+            "vocab_id": "VOC_M1_007"
+          },
+          {
+            "text": "叫",
+            "pinyin": "jiào",
+            "meaning_en": "to be called",
+            "meaning_ko": "~라고 부르다",
+            "vocab_id": "VOC_M1_008"
           }
         ]
       }
     ],
     "drill_examples": [
       {
-        "text": "我是學生。",
-        "pinyin": "wǒ shì xuéshēng.",
-        "translation_en": "I am a student.",
-        "translation_ko": "나는 학생이다.",
-        "slot_values": {
-          "NOUN": "學生"
-        }
+        "text": "你好，我是李明。",
+        "pinyin": "Nǐ hǎo, wǒ shì Lǐ Míng.",
+        "translation_en": "Hello, I am Li Ming.",
+        "translation_ko": "안녕하세요, 저는 리밍입니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "我叫王芳。",
+        "pinyin": "Wǒ jiào Wáng Fāng.",
+        "translation_en": "My name is Wang Fang.",
+        "translation_ko": "저는 왕팡이라고 합니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "你是學生嗎？",
+        "pinyin": "Nǐ shì xuéshēng ma?",
+        "translation_en": "Are you a student?",
+        "translation_ko": "당신은 학생입니까?",
+        "slot_values": {}
+      },
+      {
+        "text": "他是老師。",
+        "pinyin": "Tā shì lǎoshī.",
+        "translation_en": "He is a teacher.",
+        "translation_ko": "그는 선생님입니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "她是我的朋友。",
+        "pinyin": "Tā shì wǒ de péngyǒu.",
+        "translation_en": "She is my friend.",
+        "translation_ko": "그녀는 제 친구입니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "我們是朋友。",
+        "pinyin": "Wǒmen shì péngyǒu.",
+        "translation_en": "We are friends.",
+        "translation_ko": "우리는 친구입니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "你叫什麼名字？",
+        "pinyin": "Nǐ jiào shénme míngzi?",
+        "translation_en": "What is your name?",
+        "translation_ko": "이름이 무엇입니까?",
+        "slot_values": {}
+      },
+      {
+        "text": "我是韓國人。",
+        "pinyin": "Wǒ shì Hánguó rén.",
+        "translation_en": "I am Korean.",
+        "translation_ko": "저는 한국 사람입니다.",
+        "slot_values": {}
       }
     ],
     "negative_examples": [
       {
-        "text": "我是很學生",
-        "error": "很 is used before adjectives, not before a noun like 學生 in this identity pattern."
+        "text": "English word order copied directly",
+        "error": "Use the Mandarin pattern shown above instead of translating word-for-word."
       }
     ]
   },
   {
-    "id": "GR_M1_003",
-    "pattern": "statement + 嗎",
+    "id": "GR_M1_D02",
+    "pattern": "Statement + 嗎？",
     "structure": [
       "statement",
-      "particle"
+      "question particle"
     ],
-    "explanation_en": "Turns statement into yes/no question",
+    "explanation_en": "Add 嗎 to the end of a statement to make a yes/no question. Keep the word order the same.",
     "example_ids": [
-      "SEN_M1_W1_003"
+      "SEN_M1_D02_01",
+      "SEN_M1_D02_02",
+      "SEN_M1_D02_03",
+      "SEN_M1_D02_04"
     ],
     "slots": [
       {
-        "name": "statement",
-        "role": "statement",
+        "name": "lesson_words",
+        "role": "object",
         "values": [
           {
-            "text": "你是老師",
-            "pinyin": "nǐ shì lǎoshī",
-            "meaning_en": "you are a teacher",
-            "meaning_ko": "당신은 선생님이다"
+            "text": "一",
+            "pinyin": "yī",
+            "meaning_en": "one",
+            "meaning_ko": "하나",
+            "vocab_id": "VOC_M1_009"
+          },
+          {
+            "text": "二",
+            "pinyin": "èr",
+            "meaning_en": "two",
+            "meaning_ko": "둘",
+            "vocab_id": "VOC_M1_010"
+          },
+          {
+            "text": "三",
+            "pinyin": "sān",
+            "meaning_en": "three",
+            "meaning_ko": "셋",
+            "vocab_id": "VOC_M1_011"
+          },
+          {
+            "text": "四",
+            "pinyin": "sì",
+            "meaning_en": "four",
+            "meaning_ko": "넷",
+            "vocab_id": "VOC_M1_012"
+          },
+          {
+            "text": "五",
+            "pinyin": "wǔ",
+            "meaning_en": "five",
+            "meaning_ko": "다섯",
+            "vocab_id": "VOC_M1_013"
+          },
+          {
+            "text": "零",
+            "pinyin": "líng",
+            "meaning_en": "zero",
+            "meaning_ko": "영",
+            "vocab_id": "VOC_M1_014"
+          },
+          {
+            "text": "十",
+            "pinyin": "shí",
+            "meaning_en": "ten",
+            "meaning_ko": "열",
+            "vocab_id": "VOC_M1_015"
+          },
+          {
+            "text": "嗎",
+            "pinyin": "ma",
+            "meaning_en": "yes/no question particle",
+            "meaning_ko": "의문 조사",
+            "vocab_id": "VOC_M1_016"
           }
         ]
       }
@@ -115,18 +224,4176 @@
     "drill_examples": [
       {
         "text": "你是老師嗎？",
-        "pinyin": "nǐ shì lǎoshī ma?",
+        "pinyin": "Nǐ shì lǎoshī ma?",
         "translation_en": "Are you a teacher?",
         "translation_ko": "당신은 선생님입니까?",
-        "slot_values": {
-          "statement": "你是老師"
-        }
+        "slot_values": {}
+      },
+      {
+        "text": "他是學生嗎？",
+        "pinyin": "Tā shì xuéshēng ma?",
+        "translation_en": "Is he a student?",
+        "translation_ko": "그는 학생입니까?",
+        "slot_values": {}
+      },
+      {
+        "text": "這是一。",
+        "pinyin": "Zhè shì yī.",
+        "translation_en": "This is one.",
+        "translation_ko": "이것은 1입니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "這是三嗎？",
+        "pinyin": "Zhè shì sān ma?",
+        "translation_en": "Is this three?",
+        "translation_ko": "이것은 3입니까?",
+        "slot_values": {}
+      },
+      {
+        "text": "五加五是十。",
+        "pinyin": "Wǔ jiā wǔ shì shí.",
+        "translation_en": "Five plus five is ten.",
+        "translation_ko": "5 더하기 5는 10입니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "一、二、三、四、五。",
+        "pinyin": "Yī, èr, sān, sì, wǔ.",
+        "translation_en": "One, two, three, four, five.",
+        "translation_ko": "하나, 둘, 셋, 넷, 다섯.",
+        "slot_values": {}
+      },
+      {
+        "text": "你有五個朋友嗎？",
+        "pinyin": "Nǐ yǒu wǔ ge péngyǒu ma?",
+        "translation_en": "Do you have five friends?",
+        "translation_ko": "친구가 다섯 명 있습니까?",
+        "slot_values": {}
+      },
+      {
+        "text": "我是二號。",
+        "pinyin": "Wǒ shì èr hào.",
+        "translation_en": "I am number two.",
+        "translation_ko": "저는 2번입니다.",
+        "slot_values": {}
       }
     ],
     "negative_examples": [
       {
-        "text": "嗎你是老師",
-        "error": "Put 嗎 at the end of the sentence to make a yes/no question."
+        "text": "English word order copied directly",
+        "error": "Use the Mandarin pattern shown above instead of translating word-for-word."
+      }
+    ]
+  },
+  {
+    "id": "GR_M1_D03",
+    "pattern": "Pronoun + 的 + noun",
+    "structure": [
+      "owner",
+      "possessive particle",
+      "noun"
+    ],
+    "explanation_en": "Use 的 after a pronoun or noun to show possession: 我的手機, 他的書, 我們的家.",
+    "example_ids": [
+      "SEN_M1_D03_01",
+      "SEN_M1_D03_02",
+      "SEN_M1_D03_03",
+      "SEN_M1_D03_04"
+    ],
+    "slots": [
+      {
+        "name": "lesson_words",
+        "role": "object",
+        "values": [
+          {
+            "text": "六",
+            "pinyin": "liù",
+            "meaning_en": "six",
+            "meaning_ko": "여섯",
+            "vocab_id": "VOC_M1_017"
+          },
+          {
+            "text": "七",
+            "pinyin": "qī",
+            "meaning_en": "seven",
+            "meaning_ko": "일곱",
+            "vocab_id": "VOC_M1_018"
+          },
+          {
+            "text": "八",
+            "pinyin": "bā",
+            "meaning_en": "eight",
+            "meaning_ko": "여덟",
+            "vocab_id": "VOC_M1_019"
+          },
+          {
+            "text": "九",
+            "pinyin": "jiǔ",
+            "meaning_en": "nine",
+            "meaning_ko": "아홉",
+            "vocab_id": "VOC_M1_020"
+          },
+          {
+            "text": "百",
+            "pinyin": "bǎi",
+            "meaning_en": "hundred",
+            "meaning_ko": "백",
+            "vocab_id": "VOC_M1_021"
+          },
+          {
+            "text": "有",
+            "pinyin": "yǒu",
+            "meaning_en": "to have; there is",
+            "meaning_ko": "있다",
+            "vocab_id": "VOC_M1_022"
+          },
+          {
+            "text": "的",
+            "pinyin": "de",
+            "meaning_en": "possessive particle",
+            "meaning_ko": "~의",
+            "vocab_id": "VOC_M1_023"
+          },
+          {
+            "text": "書",
+            "pinyin": "shū",
+            "meaning_en": "book",
+            "meaning_ko": "책",
+            "vocab_id": "VOC_M1_024"
+          },
+          {
+            "text": "手機",
+            "pinyin": "shǒujī",
+            "meaning_en": "mobile phone",
+            "meaning_ko": "휴대폰",
+            "vocab_id": "VOC_M1_025"
+          }
+        ]
+      }
+    ],
+    "drill_examples": [
+      {
+        "text": "我有兩本書。",
+        "pinyin": "Wǒ yǒu liǎng běn shū.",
+        "translation_en": "I have two books.",
+        "translation_ko": "저는 책 두 권이 있습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "這是我的手機。",
+        "pinyin": "Zhè shì wǒ de shǒujī.",
+        "translation_en": "This is my phone.",
+        "translation_ko": "이것은 제 휴대폰입니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "那是你的書嗎？",
+        "pinyin": "Nà shì nǐ de shū ma?",
+        "translation_en": "Is that your book?",
+        "translation_ko": "저것은 당신의 책입니까?",
+        "slot_values": {}
+      },
+      {
+        "text": "他有八個朋友。",
+        "pinyin": "Tā yǒu bā ge péngyǒu.",
+        "translation_en": "He has eight friends.",
+        "translation_ko": "그는 친구가 여덟 명 있습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "她的手機很好。",
+        "pinyin": "Tā de shǒujī hěn hǎo.",
+        "translation_en": "Her phone is good.",
+        "translation_ko": "그녀의 휴대폰은 좋습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "我們有九本書。",
+        "pinyin": "Wǒmen yǒu jiǔ běn shū.",
+        "translation_en": "We have nine books.",
+        "translation_ko": "우리는 책 아홉 권이 있습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "這是一百嗎？",
+        "pinyin": "Zhè shì yì bǎi ma?",
+        "translation_en": "Is this one hundred?",
+        "translation_ko": "이것은 100입니까?",
+        "slot_values": {}
+      },
+      {
+        "text": "我的朋友有手機。",
+        "pinyin": "Wǒ de péngyǒu yǒu shǒujī.",
+        "translation_en": "My friend has a phone.",
+        "translation_ko": "제 친구는 휴대폰이 있습니다.",
+        "slot_values": {}
+      }
+    ],
+    "negative_examples": [
+      {
+        "text": "English word order copied directly",
+        "error": "Use the Mandarin pattern shown above instead of translating word-for-word."
+      }
+    ]
+  },
+  {
+    "id": "GR_M1_D04",
+    "pattern": "Time + subject + verb phrase",
+    "structure": [
+      "time",
+      "subject",
+      "verb phrase"
+    ],
+    "explanation_en": "Mandarin often puts time before the subject or right after it. Use 今天, 明天, and 昨天 to anchor the sentence.",
+    "example_ids": [
+      "SEN_M1_D04_01",
+      "SEN_M1_D04_02",
+      "SEN_M1_D04_03",
+      "SEN_M1_D04_04"
+    ],
+    "slots": [
+      {
+        "name": "lesson_words",
+        "role": "object",
+        "values": [
+          {
+            "text": "爸爸",
+            "pinyin": "bàba",
+            "meaning_en": "dad; father",
+            "meaning_ko": "아빠",
+            "vocab_id": "VOC_M1_026"
+          },
+          {
+            "text": "媽媽",
+            "pinyin": "māma",
+            "meaning_en": "mom; mother",
+            "meaning_ko": "엄마",
+            "vocab_id": "VOC_M1_027"
+          },
+          {
+            "text": "哥哥",
+            "pinyin": "gēge",
+            "meaning_en": "older brother",
+            "meaning_ko": "오빠; 형",
+            "vocab_id": "VOC_M1_028"
+          },
+          {
+            "text": "姐姐",
+            "pinyin": "jiějie",
+            "meaning_en": "older sister",
+            "meaning_ko": "언니; 누나",
+            "vocab_id": "VOC_M1_029"
+          },
+          {
+            "text": "弟弟",
+            "pinyin": "dìdi",
+            "meaning_en": "younger brother",
+            "meaning_ko": "남동생",
+            "vocab_id": "VOC_M1_030"
+          },
+          {
+            "text": "妹妹",
+            "pinyin": "mèimei",
+            "meaning_en": "younger sister",
+            "meaning_ko": "여동생",
+            "vocab_id": "VOC_M1_031"
+          },
+          {
+            "text": "今天",
+            "pinyin": "jīntiān",
+            "meaning_en": "today",
+            "meaning_ko": "오늘",
+            "vocab_id": "VOC_M1_032"
+          },
+          {
+            "text": "明天",
+            "pinyin": "míngtiān",
+            "meaning_en": "tomorrow",
+            "meaning_ko": "내일",
+            "vocab_id": "VOC_M1_033"
+          },
+          {
+            "text": "昨天",
+            "pinyin": "zuótiān",
+            "meaning_en": "yesterday",
+            "meaning_ko": "어제",
+            "vocab_id": "VOC_M1_034"
+          }
+        ]
+      }
+    ],
+    "drill_examples": [
+      {
+        "text": "今天我在家。",
+        "pinyin": "Jīntiān wǒ zài jiā.",
+        "translation_en": "Today I am at home.",
+        "translation_ko": "오늘 저는 집에 있습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "明天我去學校。",
+        "pinyin": "Míngtiān wǒ qù xuéxiào.",
+        "translation_en": "Tomorrow I go to school.",
+        "translation_ko": "내일 저는 학교에 갑니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "昨天媽媽在家。",
+        "pinyin": "Zuótiān māma zài jiā.",
+        "translation_en": "Mom was at home yesterday.",
+        "translation_ko": "어제 엄마는 집에 있었습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "我爸爸是老師。",
+        "pinyin": "Wǒ bàba shì lǎoshī.",
+        "translation_en": "My dad is a teacher.",
+        "translation_ko": "저희 아빠는 선생님입니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "我姐姐有手機。",
+        "pinyin": "Wǒ jiějie yǒu shǒujī.",
+        "translation_en": "My older sister has a phone.",
+        "translation_ko": "제 누나는 휴대폰이 있습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "他弟弟是學生。",
+        "pinyin": "Tā dìdi shì xuéshēng.",
+        "translation_en": "His younger brother is a student.",
+        "translation_ko": "그의 남동생은 학생입니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "今天妹妹很高興。",
+        "pinyin": "Jīntiān mèimei hěn gāoxìng.",
+        "translation_en": "My younger sister is happy today.",
+        "translation_ko": "오늘 여동생은 기분이 좋습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "明天哥哥來我家。",
+        "pinyin": "Míngtiān gēge lái wǒ jiā.",
+        "translation_en": "My older brother comes to my home tomorrow.",
+        "translation_ko": "내일 형이 우리 집에 옵니다.",
+        "slot_values": {}
+      }
+    ],
+    "negative_examples": [
+      {
+        "text": "English word order copied directly",
+        "error": "Use the Mandarin pattern shown above instead of translating word-for-word."
+      }
+    ]
+  },
+  {
+    "id": "GR_M1_D05",
+    "pattern": "Number + 個 + person noun",
+    "structure": [
+      "number",
+      "measure word",
+      "noun"
+    ],
+    "explanation_en": "Use 個 as a general measure word for people. For family size, say 我家有 + number + 個人.",
+    "example_ids": [
+      "SEN_M1_D05_01",
+      "SEN_M1_D05_02",
+      "SEN_M1_D05_03",
+      "SEN_M1_D05_04"
+    ],
+    "slots": [
+      {
+        "name": "lesson_words",
+        "role": "object",
+        "values": [
+          {
+            "text": "十一",
+            "pinyin": "shíyī",
+            "meaning_en": "eleven",
+            "meaning_ko": "열하나",
+            "vocab_id": "VOC_M1_035"
+          },
+          {
+            "text": "十二",
+            "pinyin": "shí'èr",
+            "meaning_en": "twelve",
+            "meaning_ko": "열둘",
+            "vocab_id": "VOC_M1_036"
+          },
+          {
+            "text": "十五",
+            "pinyin": "shíwǔ",
+            "meaning_en": "fifteen",
+            "meaning_ko": "열다섯",
+            "vocab_id": "VOC_M1_037"
+          },
+          {
+            "text": "二十",
+            "pinyin": "èrshí",
+            "meaning_en": "twenty",
+            "meaning_ko": "스물",
+            "vocab_id": "VOC_M1_038"
+          },
+          {
+            "text": "家",
+            "pinyin": "jiā",
+            "meaning_en": "home; family",
+            "meaning_ko": "집; 가족",
+            "vocab_id": "VOC_M1_039"
+          },
+          {
+            "text": "人",
+            "pinyin": "rén",
+            "meaning_en": "person; people",
+            "meaning_ko": "사람",
+            "vocab_id": "VOC_M1_040"
+          },
+          {
+            "text": "個",
+            "pinyin": "ge",
+            "meaning_en": "general measure word",
+            "meaning_ko": "개; 명",
+            "vocab_id": "VOC_M1_041"
+          },
+          {
+            "text": "朋友",
+            "pinyin": "péngyǒu",
+            "meaning_en": "friend",
+            "meaning_ko": "친구",
+            "vocab_id": "VOC_M1_042"
+          }
+        ]
+      }
+    ],
+    "drill_examples": [
+      {
+        "text": "我家有五個人。",
+        "pinyin": "Wǒ jiā yǒu wǔ ge rén.",
+        "translation_en": "There are five people in my family.",
+        "translation_ko": "우리 가족은 다섯 명입니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "他有一個姐姐和兩個弟弟。",
+        "pinyin": "Tā yǒu yí ge jiějie hé liǎng ge dìdi.",
+        "translation_en": "He has one older sister and two younger brothers.",
+        "translation_ko": "그는 누나 한 명과 남동생 두 명이 있습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "我有十二個朋友。",
+        "pinyin": "Wǒ yǒu shí'èr ge péngyǒu.",
+        "translation_en": "I have twelve friends.",
+        "translation_ko": "저는 친구가 열두 명 있습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "你家有幾個人？",
+        "pinyin": "Nǐ jiā yǒu jǐ ge rén?",
+        "translation_en": "How many people are in your family?",
+        "translation_ko": "가족이 몇 명입니까?",
+        "slot_values": {}
+      },
+      {
+        "text": "我今年二十歲。",
+        "pinyin": "Wǒ jīnnián èrshí suì.",
+        "translation_en": "I am twenty years old this year.",
+        "translation_ko": "저는 올해 스무 살입니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "這裡有十五個學生。",
+        "pinyin": "Zhèlǐ yǒu shíwǔ ge xuéshēng.",
+        "translation_en": "There are fifteen students here.",
+        "translation_ko": "여기에 학생 열다섯 명이 있습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "我們家有一個老師。",
+        "pinyin": "Wǒmen jiā yǒu yí ge lǎoshī.",
+        "translation_en": "Our family has one teacher.",
+        "translation_ko": "우리 가족에는 선생님 한 명이 있습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "他是我的朋友。",
+        "pinyin": "Tā shì wǒ de péngyǒu.",
+        "translation_en": "He is my friend.",
+        "translation_ko": "그는 제 친구입니다.",
+        "slot_values": {}
+      }
+    ],
+    "negative_examples": [
+      {
+        "text": "English word order copied directly",
+        "error": "Use the Mandarin pattern shown above instead of translating word-for-word."
+      }
+    ]
+  },
+  {
+    "id": "GR_M1_D06",
+    "pattern": "我想 + verb phrase",
+    "structure": [
+      "subject",
+      "want",
+      "verb phrase"
+    ],
+    "explanation_en": "Use 想 before a verb to say what you want to do: 我想喝茶, 我想吃麵.",
+    "example_ids": [
+      "SEN_M1_D06_01",
+      "SEN_M1_D06_02",
+      "SEN_M1_D06_03",
+      "SEN_M1_D06_04"
+    ],
+    "slots": [
+      {
+        "name": "lesson_words",
+        "role": "object",
+        "values": [
+          {
+            "text": "米飯",
+            "pinyin": "mǐfàn",
+            "meaning_en": "rice",
+            "meaning_ko": "밥",
+            "vocab_id": "VOC_M1_043"
+          },
+          {
+            "text": "麵",
+            "pinyin": "miàn",
+            "meaning_en": "noodles",
+            "meaning_ko": "면",
+            "vocab_id": "VOC_M1_044"
+          },
+          {
+            "text": "水",
+            "pinyin": "shuǐ",
+            "meaning_en": "water",
+            "meaning_ko": "물",
+            "vocab_id": "VOC_M1_045"
+          },
+          {
+            "text": "茶",
+            "pinyin": "chá",
+            "meaning_en": "tea",
+            "meaning_ko": "차",
+            "vocab_id": "VOC_M1_046"
+          },
+          {
+            "text": "咖啡",
+            "pinyin": "kāfēi",
+            "meaning_en": "coffee",
+            "meaning_ko": "커피",
+            "vocab_id": "VOC_M1_047"
+          },
+          {
+            "text": "餓",
+            "pinyin": "è",
+            "meaning_en": "hungry",
+            "meaning_ko": "배고프다",
+            "vocab_id": "VOC_M1_048"
+          },
+          {
+            "text": "渴",
+            "pinyin": "kě",
+            "meaning_en": "thirsty",
+            "meaning_ko": "목마르다",
+            "vocab_id": "VOC_M1_049"
+          },
+          {
+            "text": "想",
+            "pinyin": "xiǎng",
+            "meaning_en": "to want; to think",
+            "meaning_ko": "원하다; 생각하다",
+            "vocab_id": "VOC_M1_050"
+          },
+          {
+            "text": "喝",
+            "pinyin": "hē",
+            "meaning_en": "to drink",
+            "meaning_ko": "마시다",
+            "vocab_id": "VOC_M1_051"
+          },
+          {
+            "text": "吃",
+            "pinyin": "chī",
+            "meaning_en": "to eat",
+            "meaning_ko": "먹다",
+            "vocab_id": "VOC_M1_052"
+          }
+        ]
+      }
+    ],
+    "drill_examples": [
+      {
+        "text": "我想喝茶。",
+        "pinyin": "Wǒ xiǎng hē chá.",
+        "translation_en": "I want to drink tea.",
+        "translation_ko": "저는 차를 마시고 싶습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "他餓了，他想吃麵。",
+        "pinyin": "Tā è le, tā xiǎng chī miàn.",
+        "translation_en": "He is hungry; he wants to eat noodles.",
+        "translation_ko": "그는 배고파서 면을 먹고 싶어 합니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "我渴了，我想喝水。",
+        "pinyin": "Wǒ kě le, wǒ xiǎng hē shuǐ.",
+        "translation_en": "I am thirsty; I want to drink water.",
+        "translation_ko": "저는 목이 말라서 물을 마시고 싶습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "你想喝咖啡嗎？",
+        "pinyin": "Nǐ xiǎng hē kāfēi ma?",
+        "translation_en": "Do you want to drink coffee?",
+        "translation_ko": "커피를 마시고 싶습니까?",
+        "slot_values": {}
+      },
+      {
+        "text": "我想吃米飯。",
+        "pinyin": "Wǒ xiǎng chī mǐfàn.",
+        "translation_en": "I want to eat rice.",
+        "translation_ko": "저는 밥을 먹고 싶습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "她不想喝咖啡。",
+        "pinyin": "Tā bù xiǎng hē kāfēi.",
+        "translation_en": "She does not want to drink coffee.",
+        "translation_ko": "그녀는 커피를 마시고 싶어 하지 않습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "我們今天想吃麵。",
+        "pinyin": "Wǒmen jīntiān xiǎng chī miàn.",
+        "translation_en": "Today we want to eat noodles.",
+        "translation_ko": "오늘 우리는 면을 먹고 싶습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "爸爸想喝茶。",
+        "pinyin": "Bàba xiǎng hē chá.",
+        "translation_en": "Dad wants to drink tea.",
+        "translation_ko": "아빠는 차를 마시고 싶어 합니다.",
+        "slot_values": {}
+      }
+    ],
+    "negative_examples": [
+      {
+        "text": "English word order copied directly",
+        "error": "Use the Mandarin pattern shown above instead of translating word-for-word."
+      }
+    ]
+  },
+  {
+    "id": "GR_M1_D07",
+    "pattern": "Greeting + intro + question",
+    "structure": [
+      "greeting",
+      "self introduction",
+      "follow-up question"
+    ],
+    "explanation_en": "Combine the week one patterns into a short spoken exchange. The goal is fluency, not new grammar.",
+    "example_ids": [
+      "SEN_M1_D07_01",
+      "SEN_M1_D07_02",
+      "SEN_M1_D07_03",
+      "SEN_M1_D07_04"
+    ],
+    "slots": [
+      {
+        "name": "lesson_words",
+        "role": "object",
+        "values": [
+          {
+            "text": "你好",
+            "pinyin": "nǐ hǎo",
+            "meaning_en": "hello",
+            "meaning_ko": "안녕하세요",
+            "vocab_id": "VOC_M1_001"
+          },
+          {
+            "text": "我",
+            "pinyin": "wǒ",
+            "meaning_en": "I; me",
+            "meaning_ko": "나",
+            "vocab_id": "VOC_M1_002"
+          },
+          {
+            "text": "你",
+            "pinyin": "nǐ",
+            "meaning_en": "you",
+            "meaning_ko": "너; 당신",
+            "vocab_id": "VOC_M1_003"
+          },
+          {
+            "text": "是",
+            "pinyin": "shì",
+            "meaning_en": "to be",
+            "meaning_ko": "이다",
+            "vocab_id": "VOC_M1_007"
+          },
+          {
+            "text": "叫",
+            "pinyin": "jiào",
+            "meaning_en": "to be called",
+            "meaning_ko": "~라고 부르다",
+            "vocab_id": "VOC_M1_008"
+          },
+          {
+            "text": "家",
+            "pinyin": "jiā",
+            "meaning_en": "home; family",
+            "meaning_ko": "집; 가족",
+            "vocab_id": "VOC_M1_039"
+          },
+          {
+            "text": "人",
+            "pinyin": "rén",
+            "meaning_en": "person; people",
+            "meaning_ko": "사람",
+            "vocab_id": "VOC_M1_040"
+          },
+          {
+            "text": "想",
+            "pinyin": "xiǎng",
+            "meaning_en": "to want; to think",
+            "meaning_ko": "원하다; 생각하다",
+            "vocab_id": "VOC_M1_050"
+          },
+          {
+            "text": "吃",
+            "pinyin": "chī",
+            "meaning_en": "to eat",
+            "meaning_ko": "먹다",
+            "vocab_id": "VOC_M1_052"
+          },
+          {
+            "text": "喝",
+            "pinyin": "hē",
+            "meaning_en": "to drink",
+            "meaning_ko": "마시다",
+            "vocab_id": "VOC_M1_051"
+          }
+        ]
+      }
+    ],
+    "drill_examples": [
+      {
+        "text": "你好，你叫什麼名字？",
+        "pinyin": "Nǐ hǎo, nǐ jiào shénme míngzi?",
+        "translation_en": "Hello, what is your name?",
+        "translation_ko": "안녕하세요, 이름이 무엇입니까?",
+        "slot_values": {}
+      },
+      {
+        "text": "我叫王芳。你呢？",
+        "pinyin": "Wǒ jiào Wáng Fāng. Nǐ ne?",
+        "translation_en": "My name is Wang Fang. And you?",
+        "translation_ko": "저는 왕팡입니다. 당신은요?",
+        "slot_values": {}
+      },
+      {
+        "text": "我是李強。",
+        "pinyin": "Wǒ shì Lǐ Qiáng.",
+        "translation_en": "I am Li Qiang.",
+        "translation_ko": "저는 리창입니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "你家有幾個人？",
+        "pinyin": "Nǐ jiā yǒu jǐ ge rén?",
+        "translation_en": "How many people are in your family?",
+        "translation_ko": "가족이 몇 명입니까?",
+        "slot_values": {}
+      },
+      {
+        "text": "我家有四個人。",
+        "pinyin": "Wǒ jiā yǒu sì ge rén.",
+        "translation_en": "There are four people in my family.",
+        "translation_ko": "우리 가족은 네 명입니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "今天你想做什麼？",
+        "pinyin": "Jīntiān nǐ xiǎng zuò shénme?",
+        "translation_en": "What do you want to do today?",
+        "translation_ko": "오늘 무엇을 하고 싶습니까?",
+        "slot_values": {}
+      },
+      {
+        "text": "我想喝茶，也想吃麵。",
+        "pinyin": "Wǒ xiǎng hē chá, yě xiǎng chī miàn.",
+        "translation_en": "I want to drink tea and also eat noodles.",
+        "translation_ko": "저는 차를 마시고 면도 먹고 싶습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "明天我們去學校嗎？",
+        "pinyin": "Míngtiān wǒmen qù xuéxiào ma?",
+        "translation_en": "Are we going to school tomorrow?",
+        "translation_ko": "내일 우리는 학교에 갑니까?",
+        "slot_values": {}
+      }
+    ],
+    "negative_examples": [
+      {
+        "text": "English word order copied directly",
+        "error": "Use the Mandarin pattern shown above instead of translating word-for-word."
+      }
+    ]
+  },
+  {
+    "id": "GR_M1_D08",
+    "pattern": "我要 + food/drink",
+    "structure": [
+      "subject",
+      "want/would like",
+      "food or drink"
+    ],
+    "explanation_en": "Use 要 for a practical ordering sentence. In Taiwan, 我要... is common and direct in shops and restaurants.",
+    "example_ids": [
+      "SEN_M1_D08_01",
+      "SEN_M1_D08_02",
+      "SEN_M1_D08_03",
+      "SEN_M1_D08_04"
+    ],
+    "slots": [
+      {
+        "name": "lesson_words",
+        "role": "object",
+        "values": [
+          {
+            "text": "牛奶",
+            "pinyin": "niúnǎi",
+            "meaning_en": "milk",
+            "meaning_ko": "우유",
+            "vocab_id": "VOC_M1_053"
+          },
+          {
+            "text": "菜",
+            "pinyin": "cài",
+            "meaning_en": "dish; vegetable",
+            "meaning_ko": "요리; 채소",
+            "vocab_id": "VOC_M1_054"
+          },
+          {
+            "text": "肉",
+            "pinyin": "ròu",
+            "meaning_en": "meat",
+            "meaning_ko": "고기",
+            "vocab_id": "VOC_M1_055"
+          },
+          {
+            "text": "雞蛋",
+            "pinyin": "jīdàn",
+            "meaning_en": "egg",
+            "meaning_ko": "계란",
+            "vocab_id": "VOC_M1_056"
+          },
+          {
+            "text": "魚",
+            "pinyin": "yú",
+            "meaning_en": "fish",
+            "meaning_ko": "생선",
+            "vocab_id": "VOC_M1_057"
+          },
+          {
+            "text": "水果",
+            "pinyin": "shuǐguǒ",
+            "meaning_en": "fruit",
+            "meaning_ko": "과일",
+            "vocab_id": "VOC_M1_058"
+          },
+          {
+            "text": "蘋果",
+            "pinyin": "píngguǒ",
+            "meaning_en": "apple",
+            "meaning_ko": "사과",
+            "vocab_id": "VOC_M1_059"
+          },
+          {
+            "text": "餐廳",
+            "pinyin": "cāntīng",
+            "meaning_en": "restaurant",
+            "meaning_ko": "식당",
+            "vocab_id": "VOC_M1_060"
+          },
+          {
+            "text": "要",
+            "pinyin": "yào",
+            "meaning_en": "to want; need; will",
+            "meaning_ko": "원하다; 필요하다",
+            "vocab_id": "VOC_M1_061"
+          }
+        ]
+      }
+    ],
+    "drill_examples": [
+      {
+        "text": "我要麵和茶。",
+        "pinyin": "Wǒ yào miàn hé chá.",
+        "translation_en": "I would like noodles and tea.",
+        "translation_ko": "저는 면과 차를 원합니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "你要牛奶嗎？",
+        "pinyin": "Nǐ yào niúnǎi ma?",
+        "translation_en": "Do you want milk?",
+        "translation_ko": "우유를 원합니까?",
+        "slot_values": {}
+      },
+      {
+        "text": "我想吃雞蛋。",
+        "pinyin": "Wǒ xiǎng chī jīdàn.",
+        "translation_en": "I want to eat eggs.",
+        "translation_ko": "저는 계란을 먹고 싶습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "這個菜很好吃。",
+        "pinyin": "Zhège cài hěn hǎochī.",
+        "translation_en": "This dish is tasty.",
+        "translation_ko": "이 요리는 맛있습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "爸爸想吃魚和米飯。",
+        "pinyin": "Bàba xiǎng chī yú hé mǐfàn.",
+        "translation_en": "Dad wants to eat fish and rice.",
+        "translation_ko": "아빠는 생선과 밥을 먹고 싶어 합니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "我不吃肉。",
+        "pinyin": "Wǒ bù chī ròu.",
+        "translation_en": "I do not eat meat.",
+        "translation_ko": "저는 고기를 먹지 않습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "我們去餐廳吃飯。",
+        "pinyin": "Wǒmen qù cāntīng chīfàn.",
+        "translation_en": "We go to a restaurant to eat.",
+        "translation_ko": "우리는 식당에 밥을 먹으러 갑니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "妹妹喜歡蘋果和水果。",
+        "pinyin": "Mèimei xǐhuan píngguǒ hé shuǐguǒ.",
+        "translation_en": "My younger sister likes apples and fruit.",
+        "translation_ko": "여동생은 사과와 과일을 좋아합니다.",
+        "slot_values": {}
+      }
+    ],
+    "negative_examples": [
+      {
+        "text": "English word order copied directly",
+        "error": "Use the Mandarin pattern shown above instead of translating word-for-word."
+      }
+    ]
+  },
+  {
+    "id": "GR_M1_D09",
+    "pattern": "Subject + verb + object",
+    "structure": [
+      "subject",
+      "verb",
+      "object"
+    ],
+    "explanation_en": "Mandarin verbs do not conjugate. Build output by swapping subjects, verbs, and useful objects.",
+    "example_ids": [
+      "SEN_M1_D09_01",
+      "SEN_M1_D09_02",
+      "SEN_M1_D09_03",
+      "SEN_M1_D09_04"
+    ],
+    "slots": [
+      {
+        "name": "lesson_words",
+        "role": "object",
+        "values": [
+          {
+            "text": "看",
+            "pinyin": "kàn",
+            "meaning_en": "to look; watch; read",
+            "meaning_ko": "보다; 읽다",
+            "vocab_id": "VOC_M1_062"
+          },
+          {
+            "text": "聽",
+            "pinyin": "tīng",
+            "meaning_en": "to listen",
+            "meaning_ko": "듣다",
+            "vocab_id": "VOC_M1_063"
+          },
+          {
+            "text": "說",
+            "pinyin": "shuō",
+            "meaning_en": "to speak; say",
+            "meaning_ko": "말하다",
+            "vocab_id": "VOC_M1_064"
+          },
+          {
+            "text": "寫",
+            "pinyin": "xiě",
+            "meaning_en": "to write",
+            "meaning_ko": "쓰다",
+            "vocab_id": "VOC_M1_065"
+          },
+          {
+            "text": "學",
+            "pinyin": "xué",
+            "meaning_en": "to study; learn",
+            "meaning_ko": "배우다",
+            "vocab_id": "VOC_M1_066"
+          },
+          {
+            "text": "做",
+            "pinyin": "zuò",
+            "meaning_en": "to do; make",
+            "meaning_ko": "하다; 만들다",
+            "vocab_id": "VOC_M1_067"
+          },
+          {
+            "text": "喜歡",
+            "pinyin": "xǐhuan",
+            "meaning_en": "to like",
+            "meaning_ko": "좋아하다",
+            "vocab_id": "VOC_M1_068"
+          },
+          {
+            "text": "中文",
+            "pinyin": "Zhōngwén",
+            "meaning_en": "Chinese language",
+            "meaning_ko": "중국어",
+            "vocab_id": "VOC_M1_069"
+          },
+          {
+            "text": "電影",
+            "pinyin": "diànyǐng",
+            "meaning_en": "movie",
+            "meaning_ko": "영화",
+            "vocab_id": "VOC_M1_070"
+          }
+        ]
+      }
+    ],
+    "drill_examples": [
+      {
+        "text": "我想去學校學中文。",
+        "pinyin": "Wǒ xiǎng qù xuéxiào xué Zhōngwén.",
+        "translation_en": "I want to go to school to study Chinese.",
+        "translation_ko": "저는 학교에 가서 중국어를 배우고 싶습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "他會寫漢字。",
+        "pinyin": "Tā huì xiě Hànzì.",
+        "translation_en": "He can write Chinese characters.",
+        "translation_ko": "그는 한자를 쓸 수 있습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "我們聽音樂。",
+        "pinyin": "Wǒmen tīng yīnyuè.",
+        "translation_en": "We listen to music.",
+        "translation_ko": "우리는 음악을 듣습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "她喜歡看電影。",
+        "pinyin": "Tā xǐhuan kàn diànyǐng.",
+        "translation_en": "She likes watching movies.",
+        "translation_ko": "그녀는 영화를 보는 것을 좋아합니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "你會說中文嗎？",
+        "pinyin": "Nǐ huì shuō Zhōngwén ma?",
+        "translation_en": "Can you speak Chinese?",
+        "translation_ko": "중국어를 할 수 있습니까?",
+        "slot_values": {}
+      },
+      {
+        "text": "我今天想寫名字。",
+        "pinyin": "Wǒ jīntiān xiǎng xiě míngzi.",
+        "translation_en": "Today I want to write my name.",
+        "translation_ko": "오늘 저는 제 이름을 쓰고 싶습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "哥哥做飯。",
+        "pinyin": "Gēge zuò fàn.",
+        "translation_en": "Older brother cooks.",
+        "translation_ko": "형은 밥을 합니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "我不想看電影。",
+        "pinyin": "Wǒ bù xiǎng kàn diànyǐng.",
+        "translation_en": "I do not want to watch a movie.",
+        "translation_ko": "저는 영화를 보고 싶지 않습니다.",
+        "slot_values": {}
+      }
+    ],
+    "negative_examples": [
+      {
+        "text": "English word order copied directly",
+        "error": "Use the Mandarin pattern shown above instead of translating word-for-word."
+      }
+    ]
+  },
+  {
+    "id": "GR_M1_D10",
+    "pattern": "Question word stays in answer position",
+    "structure": [
+      "subject",
+      "verb",
+      "question word"
+    ],
+    "explanation_en": "Put the question word where the answer would go. Do not move it to the front like English.",
+    "example_ids": [
+      "SEN_M1_D10_01",
+      "SEN_M1_D10_02",
+      "SEN_M1_D10_03",
+      "SEN_M1_D10_04"
+    ],
+    "slots": [
+      {
+        "name": "lesson_words",
+        "role": "object",
+        "values": [
+          {
+            "text": "什麼",
+            "pinyin": "shénme",
+            "meaning_en": "what",
+            "meaning_ko": "무엇",
+            "vocab_id": "VOC_M1_071"
+          },
+          {
+            "text": "誰",
+            "pinyin": "shéi",
+            "meaning_en": "who",
+            "meaning_ko": "누구",
+            "vocab_id": "VOC_M1_072"
+          },
+          {
+            "text": "哪裡",
+            "pinyin": "nǎlǐ",
+            "meaning_en": "where",
+            "meaning_ko": "어디",
+            "vocab_id": "VOC_M1_073"
+          },
+          {
+            "text": "為什麼",
+            "pinyin": "wèishéme",
+            "meaning_en": "why",
+            "meaning_ko": "왜",
+            "vocab_id": "VOC_M1_074"
+          },
+          {
+            "text": "怎麼",
+            "pinyin": "zěnme",
+            "meaning_en": "how",
+            "meaning_ko": "어떻게",
+            "vocab_id": "VOC_M1_075"
+          },
+          {
+            "text": "工作",
+            "pinyin": "gōngzuò",
+            "meaning_en": "work; job",
+            "meaning_ko": "일; 직업",
+            "vocab_id": "VOC_M1_076"
+          },
+          {
+            "text": "名字",
+            "pinyin": "míngzi",
+            "meaning_en": "name",
+            "meaning_ko": "이름",
+            "vocab_id": "VOC_M1_077"
+          },
+          {
+            "text": "地方",
+            "pinyin": "dìfang",
+            "meaning_en": "place",
+            "meaning_ko": "장소",
+            "vocab_id": "VOC_M1_078"
+          }
+        ]
+      }
+    ],
+    "drill_examples": [
+      {
+        "text": "你做什麼工作？",
+        "pinyin": "Nǐ zuò shénme gōngzuò?",
+        "translation_en": "What work do you do?",
+        "translation_ko": "무슨 일을 합니까?",
+        "slot_values": {}
+      },
+      {
+        "text": "他是誰？",
+        "pinyin": "Tā shì shéi?",
+        "translation_en": "Who is he?",
+        "translation_ko": "그는 누구입니까?",
+        "slot_values": {}
+      },
+      {
+        "text": "你去哪裡？",
+        "pinyin": "Nǐ qù nǎlǐ?",
+        "translation_en": "Where are you going?",
+        "translation_ko": "어디에 갑니까?",
+        "slot_values": {}
+      },
+      {
+        "text": "你為什麼學中文？",
+        "pinyin": "Nǐ wèishéme xué Zhōngwén?",
+        "translation_en": "Why do you study Chinese?",
+        "translation_ko": "왜 중국어를 배웁니까?",
+        "slot_values": {}
+      },
+      {
+        "text": "這個字怎麼說？",
+        "pinyin": "Zhège zì zěnme shuō?",
+        "translation_en": "How do you say this character?",
+        "translation_ko": "이 글자는 어떻게 말합니까?",
+        "slot_values": {}
+      },
+      {
+        "text": "她叫什麼名字？",
+        "pinyin": "Tā jiào shénme míngzi?",
+        "translation_en": "What is her name?",
+        "translation_ko": "그녀의 이름은 무엇입니까?",
+        "slot_values": {}
+      },
+      {
+        "text": "餐廳在哪裡？",
+        "pinyin": "Cāntīng zài nǎlǐ?",
+        "translation_en": "Where is the restaurant?",
+        "translation_ko": "식당은 어디에 있습니까?",
+        "slot_values": {}
+      },
+      {
+        "text": "你喜歡什麼地方？",
+        "pinyin": "Nǐ xǐhuan shénme dìfang?",
+        "translation_en": "What place do you like?",
+        "translation_ko": "어떤 장소를 좋아합니까?",
+        "slot_values": {}
+      }
+    ],
+    "negative_examples": [
+      {
+        "text": "English word order copied directly",
+        "error": "Use the Mandarin pattern shown above instead of translating word-for-word."
+      }
+    ]
+  },
+  {
+    "id": "GR_M1_D11",
+    "pattern": "不 + verb/adjective; 沒有 + noun",
+    "structure": [
+      "negator",
+      "verb or adjective"
+    ],
+    "explanation_en": "Use 不 for general negation and 沒有 for not having something. For 有, the negative is 沒有.",
+    "example_ids": [
+      "SEN_M1_D11_01",
+      "SEN_M1_D11_02",
+      "SEN_M1_D11_03",
+      "SEN_M1_D11_04"
+    ],
+    "slots": [
+      {
+        "name": "lesson_words",
+        "role": "object",
+        "values": [
+          {
+            "text": "不",
+            "pinyin": "bù",
+            "meaning_en": "not",
+            "meaning_ko": "아니다; 안",
+            "vocab_id": "VOC_M1_079"
+          },
+          {
+            "text": "沒",
+            "pinyin": "méi",
+            "meaning_en": "not; did not",
+            "meaning_ko": "없다; 안 했다",
+            "vocab_id": "VOC_M1_080"
+          },
+          {
+            "text": "沒有",
+            "pinyin": "méiyǒu",
+            "meaning_en": "do not have; there is not",
+            "meaning_ko": "없다",
+            "vocab_id": "VOC_M1_081"
+          },
+          {
+            "text": "貓",
+            "pinyin": "māo",
+            "meaning_en": "cat",
+            "meaning_ko": "고양이",
+            "vocab_id": "VOC_M1_082"
+          },
+          {
+            "text": "狗",
+            "pinyin": "gǒu",
+            "meaning_en": "dog",
+            "meaning_ko": "개",
+            "vocab_id": "VOC_M1_083"
+          },
+          {
+            "text": "也",
+            "pinyin": "yě",
+            "meaning_en": "also",
+            "meaning_ko": "또한",
+            "vocab_id": "VOC_M1_084"
+          },
+          {
+            "text": "都",
+            "pinyin": "dōu",
+            "meaning_en": "all; both",
+            "meaning_ko": "모두",
+            "vocab_id": "VOC_M1_085"
+          }
+        ]
+      }
+    ],
+    "drill_examples": [
+      {
+        "text": "我不喝咖啡。",
+        "pinyin": "Wǒ bù hē kāfēi.",
+        "translation_en": "I do not drink coffee.",
+        "translation_ko": "저는 커피를 마시지 않습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "他沒有貓。",
+        "pinyin": "Tā méiyǒu māo.",
+        "translation_en": "He does not have a cat.",
+        "translation_ko": "그는 고양이가 없습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "我不想吃肉。",
+        "pinyin": "Wǒ bù xiǎng chī ròu.",
+        "translation_en": "I do not want to eat meat.",
+        "translation_ko": "저는 고기를 먹고 싶지 않습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "她沒有手機。",
+        "pinyin": "Tā méiyǒu shǒujī.",
+        "translation_en": "She does not have a phone.",
+        "translation_ko": "그녀는 휴대폰이 없습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "我們今天不去學校。",
+        "pinyin": "Wǒmen jīntiān bù qù xuéxiào.",
+        "translation_en": "We are not going to school today.",
+        "translation_ko": "오늘 우리는 학교에 가지 않습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "爸爸也不喝茶。",
+        "pinyin": "Bàba yě bù hē chá.",
+        "translation_en": "Dad also does not drink tea.",
+        "translation_ko": "아빠도 차를 마시지 않습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "他們都沒有書。",
+        "pinyin": "Tāmen dōu méiyǒu shū.",
+        "translation_en": "They all do not have books.",
+        "translation_ko": "그들은 모두 책이 없습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "你不喜歡電影嗎？",
+        "pinyin": "Nǐ bù xǐhuan diànyǐng ma?",
+        "translation_en": "Do you not like movies?",
+        "translation_ko": "영화를 좋아하지 않습니까?",
+        "slot_values": {}
+      }
+    ],
+    "negative_examples": [
+      {
+        "text": "English word order copied directly",
+        "error": "Use the Mandarin pattern shown above instead of translating word-for-word."
+      }
+    ]
+  },
+  {
+    "id": "GR_M1_D12",
+    "pattern": "Subject + 很 + adjective",
+    "structure": [
+      "subject",
+      "linking adverb",
+      "adjective"
+    ],
+    "explanation_en": "Use 很 before adjectives in basic descriptive sentences. It often acts like a natural link, not always a strong 'very'.",
+    "example_ids": [
+      "SEN_M1_D12_01",
+      "SEN_M1_D12_02",
+      "SEN_M1_D12_03",
+      "SEN_M1_D12_04"
+    ],
+    "slots": [
+      {
+        "name": "lesson_words",
+        "role": "object",
+        "values": [
+          {
+            "text": "大",
+            "pinyin": "dà",
+            "meaning_en": "big",
+            "meaning_ko": "크다",
+            "vocab_id": "VOC_M1_086"
+          },
+          {
+            "text": "小",
+            "pinyin": "xiǎo",
+            "meaning_en": "small",
+            "meaning_ko": "작다",
+            "vocab_id": "VOC_M1_087"
+          },
+          {
+            "text": "好",
+            "pinyin": "hǎo",
+            "meaning_en": "good",
+            "meaning_ko": "좋다",
+            "vocab_id": "VOC_M1_088"
+          },
+          {
+            "text": "多",
+            "pinyin": "duō",
+            "meaning_en": "many; much",
+            "meaning_ko": "많다",
+            "vocab_id": "VOC_M1_089"
+          },
+          {
+            "text": "少",
+            "pinyin": "shǎo",
+            "meaning_en": "few; little",
+            "meaning_ko": "적다",
+            "vocab_id": "VOC_M1_090"
+          },
+          {
+            "text": "熱",
+            "pinyin": "rè",
+            "meaning_en": "hot",
+            "meaning_ko": "덥다; 뜨겁다",
+            "vocab_id": "VOC_M1_091"
+          },
+          {
+            "text": "冷",
+            "pinyin": "lěng",
+            "meaning_en": "cold",
+            "meaning_ko": "춥다; 차갑다",
+            "vocab_id": "VOC_M1_092"
+          },
+          {
+            "text": "高興",
+            "pinyin": "gāoxìng",
+            "meaning_en": "happy",
+            "meaning_ko": "기쁘다",
+            "vocab_id": "VOC_M1_093"
+          },
+          {
+            "text": "漂亮",
+            "pinyin": "piàoliang",
+            "meaning_en": "pretty",
+            "meaning_ko": "예쁘다",
+            "vocab_id": "VOC_M1_094"
+          },
+          {
+            "text": "貴",
+            "pinyin": "guì",
+            "meaning_en": "expensive",
+            "meaning_ko": "비싸다",
+            "vocab_id": "VOC_M1_095"
+          },
+          {
+            "text": "很",
+            "pinyin": "hěn",
+            "meaning_en": "very; linking adverb",
+            "meaning_ko": "매우",
+            "vocab_id": "VOC_M1_096"
+          }
+        ]
+      }
+    ],
+    "drill_examples": [
+      {
+        "text": "今天很熱。",
+        "pinyin": "Jīntiān hěn rè.",
+        "translation_en": "It is hot today.",
+        "translation_ko": "오늘은 덥습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "他姐姐很漂亮。",
+        "pinyin": "Tā jiějie hěn piàoliang.",
+        "translation_en": "His older sister is pretty.",
+        "translation_ko": "그의 누나는 예쁩니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "這個餐廳很貴。",
+        "pinyin": "Zhège cāntīng hěn guì.",
+        "translation_en": "This restaurant is expensive.",
+        "translation_ko": "이 식당은 비쌉니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "我的家很小。",
+        "pinyin": "Wǒ de jiā hěn xiǎo.",
+        "translation_en": "My home is small.",
+        "translation_ko": "제 집은 작습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "你的中文很好。",
+        "pinyin": "Nǐ de Zhōngwén hěn hǎo.",
+        "translation_en": "Your Chinese is good.",
+        "translation_ko": "당신의 중국어는 좋습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "今天不冷。",
+        "pinyin": "Jīntiān bù lěng.",
+        "translation_en": "Today is not cold.",
+        "translation_ko": "오늘은 춥지 않습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "他有很多朋友。",
+        "pinyin": "Tā yǒu hěn duō péngyǒu.",
+        "translation_en": "He has many friends.",
+        "translation_ko": "그는 친구가 많습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "我妹妹很高興。",
+        "pinyin": "Wǒ mèimei hěn gāoxìng.",
+        "translation_en": "My younger sister is happy.",
+        "translation_ko": "제 여동생은 기분이 좋습니다.",
+        "slot_values": {}
+      }
+    ],
+    "negative_examples": [
+      {
+        "text": "English word order copied directly",
+        "error": "Use the Mandarin pattern shown above instead of translating word-for-word."
+      }
+    ]
+  },
+  {
+    "id": "GR_M1_D13",
+    "pattern": "Number + measure word + noun",
+    "structure": [
+      "number",
+      "measure word",
+      "noun"
+    ],
+    "explanation_en": "Mandarin counts nouns with measure words. Start with 個 for people, 本 for books, 隻 for animals, and 杯 for cups.",
+    "example_ids": [
+      "SEN_M1_D13_01",
+      "SEN_M1_D13_02",
+      "SEN_M1_D13_03",
+      "SEN_M1_D13_04"
+    ],
+    "slots": [
+      {
+        "name": "lesson_words",
+        "role": "object",
+        "values": [
+          {
+            "text": "本",
+            "pinyin": "běn",
+            "meaning_en": "measure word for books",
+            "meaning_ko": "권",
+            "vocab_id": "VOC_M1_097"
+          },
+          {
+            "text": "隻",
+            "pinyin": "zhī",
+            "meaning_en": "measure word for animals",
+            "meaning_ko": "마리",
+            "vocab_id": "VOC_M1_098"
+          },
+          {
+            "text": "杯",
+            "pinyin": "bēi",
+            "meaning_en": "cup; glass",
+            "meaning_ko": "잔",
+            "vocab_id": "VOC_M1_099"
+          },
+          {
+            "text": "兩",
+            "pinyin": "liǎng",
+            "meaning_en": "two used before measure words",
+            "meaning_ko": "둘; 두",
+            "vocab_id": "VOC_M1_100"
+          },
+          {
+            "text": "隻貓",
+            "pinyin": "zhī māo",
+            "meaning_en": "cat with measure word",
+            "meaning_ko": "고양이 한 마리",
+            "vocab_id": "VOC_M1_101"
+          },
+          {
+            "text": "杯水",
+            "pinyin": "bēi shuǐ",
+            "meaning_en": "cup of water",
+            "meaning_ko": "물 한 잔",
+            "vocab_id": "VOC_M1_102"
+          },
+          {
+            "text": "本書",
+            "pinyin": "běn shū",
+            "meaning_en": "book with measure word",
+            "meaning_ko": "책 한 권",
+            "vocab_id": "VOC_M1_103"
+          }
+        ]
+      }
+    ],
+    "drill_examples": [
+      {
+        "text": "我有三本書。",
+        "pinyin": "Wǒ yǒu sān běn shū.",
+        "translation_en": "I have three books.",
+        "translation_ko": "저는 책 세 권이 있습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "他有兩隻貓。",
+        "pinyin": "Tā yǒu liǎng zhī māo.",
+        "translation_en": "He has two cats.",
+        "translation_ko": "그는 고양이 두 마리가 있습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "我要一杯水。",
+        "pinyin": "Wǒ yào yì bēi shuǐ.",
+        "translation_en": "I would like a cup of water.",
+        "translation_ko": "물 한 잔 주세요.",
+        "slot_values": {}
+      },
+      {
+        "text": "你要兩杯茶嗎？",
+        "pinyin": "Nǐ yào liǎng bēi chá ma?",
+        "translation_en": "Do you want two cups of tea?",
+        "translation_ko": "차 두 잔을 원합니까?",
+        "slot_values": {}
+      },
+      {
+        "text": "這裡有五本書。",
+        "pinyin": "Zhèlǐ yǒu wǔ běn shū.",
+        "translation_en": "There are five books here.",
+        "translation_ko": "여기에 책 다섯 권이 있습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "妹妹沒有狗。",
+        "pinyin": "Mèimei méiyǒu gǒu.",
+        "translation_en": "My younger sister does not have a dog.",
+        "translation_ko": "여동생은 개가 없습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "我想買一本書。",
+        "pinyin": "Wǒ xiǎng mǎi yì běn shū.",
+        "translation_en": "I want to buy one book.",
+        "translation_ko": "저는 책 한 권을 사고 싶습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "我們要三杯咖啡。",
+        "pinyin": "Wǒmen yào sān bēi kāfēi.",
+        "translation_en": "We would like three cups of coffee.",
+        "translation_ko": "커피 세 잔 주세요.",
+        "slot_values": {}
+      }
+    ],
+    "negative_examples": [
+      {
+        "text": "English word order copied directly",
+        "error": "Use the Mandarin pattern shown above instead of translating word-for-word."
+      }
+    ]
+  },
+  {
+    "id": "GR_M1_D14",
+    "pattern": "Question + choice + order",
+    "structure": [
+      "question",
+      "preference",
+      "order"
+    ],
+    "explanation_en": "Use week two words to order food, ask preferences, and count items with measure words.",
+    "example_ids": [
+      "SEN_M1_D14_01",
+      "SEN_M1_D14_02",
+      "SEN_M1_D14_03",
+      "SEN_M1_D14_04"
+    ],
+    "slots": [
+      {
+        "name": "lesson_words",
+        "role": "object",
+        "values": [
+          {
+            "text": "餐廳",
+            "pinyin": "cāntīng",
+            "meaning_en": "restaurant",
+            "meaning_ko": "식당",
+            "vocab_id": "VOC_M1_060"
+          },
+          {
+            "text": "吃",
+            "pinyin": "chī",
+            "meaning_en": "to eat",
+            "meaning_ko": "먹다",
+            "vocab_id": "VOC_M1_052"
+          },
+          {
+            "text": "喝",
+            "pinyin": "hē",
+            "meaning_en": "to drink",
+            "meaning_ko": "마시다",
+            "vocab_id": "VOC_M1_051"
+          },
+          {
+            "text": "要",
+            "pinyin": "yào",
+            "meaning_en": "to want; need; will",
+            "meaning_ko": "원하다; 필요하다",
+            "vocab_id": "VOC_M1_061"
+          },
+          {
+            "text": "想",
+            "pinyin": "xiǎng",
+            "meaning_en": "to want; to think",
+            "meaning_ko": "원하다; 생각하다",
+            "vocab_id": "VOC_M1_050"
+          },
+          {
+            "text": "菜",
+            "pinyin": "cài",
+            "meaning_en": "dish; vegetable",
+            "meaning_ko": "요리; 채소",
+            "vocab_id": "VOC_M1_054"
+          },
+          {
+            "text": "肉",
+            "pinyin": "ròu",
+            "meaning_en": "meat",
+            "meaning_ko": "고기",
+            "vocab_id": "VOC_M1_055"
+          },
+          {
+            "text": "魚",
+            "pinyin": "yú",
+            "meaning_en": "fish",
+            "meaning_ko": "생선",
+            "vocab_id": "VOC_M1_057"
+          },
+          {
+            "text": "雞蛋",
+            "pinyin": "jīdàn",
+            "meaning_en": "egg",
+            "meaning_ko": "계란",
+            "vocab_id": "VOC_M1_056"
+          },
+          {
+            "text": "杯",
+            "pinyin": "bēi",
+            "meaning_en": "cup; glass",
+            "meaning_ko": "잔",
+            "vocab_id": "VOC_M1_099"
+          },
+          {
+            "text": "本",
+            "pinyin": "běn",
+            "meaning_en": "measure word for books",
+            "meaning_ko": "권",
+            "vocab_id": "VOC_M1_097"
+          }
+        ]
+      }
+    ],
+    "drill_examples": [
+      {
+        "text": "你想吃什麼？",
+        "pinyin": "Nǐ xiǎng chī shénme?",
+        "translation_en": "What do you want to eat?",
+        "translation_ko": "무엇을 먹고 싶습니까?",
+        "slot_values": {}
+      },
+      {
+        "text": "我想吃魚，也想吃菜。",
+        "pinyin": "Wǒ xiǎng chī yú, yě xiǎng chī cài.",
+        "translation_en": "I want to eat fish and also vegetables.",
+        "translation_ko": "저는 생선도 먹고 채소도 먹고 싶습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "你喝茶還是咖啡？",
+        "pinyin": "Nǐ hē chá háishi kāfēi?",
+        "translation_en": "Do you drink tea or coffee?",
+        "translation_ko": "차를 마십니까, 커피를 마십니까?",
+        "slot_values": {}
+      },
+      {
+        "text": "我要一杯茶。",
+        "pinyin": "Wǒ yào yì bēi chá.",
+        "translation_en": "I would like one cup of tea.",
+        "translation_ko": "차 한 잔 주세요.",
+        "slot_values": {}
+      },
+      {
+        "text": "這個菜很貴嗎？",
+        "pinyin": "Zhège cài hěn guì ma?",
+        "translation_en": "Is this dish expensive?",
+        "translation_ko": "이 요리는 비쌉니까?",
+        "slot_values": {}
+      },
+      {
+        "text": "我不吃肉。",
+        "pinyin": "Wǒ bù chī ròu.",
+        "translation_en": "I do not eat meat.",
+        "translation_ko": "저는 고기를 먹지 않습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "這家餐廳很好。",
+        "pinyin": "Zhè jiā cāntīng hěn hǎo.",
+        "translation_en": "This restaurant is good.",
+        "translation_ko": "이 식당은 좋습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "我們要兩杯水和一份麵。",
+        "pinyin": "Wǒmen yào liǎng bēi shuǐ hé yí fèn miàn.",
+        "translation_en": "We would like two cups of water and one serving of noodles.",
+        "translation_ko": "물 두 잔과 면 하나 주세요.",
+        "slot_values": {}
+      }
+    ],
+    "negative_examples": [
+      {
+        "text": "English word order copied directly",
+        "error": "Use the Mandarin pattern shown above instead of translating word-for-word."
+      }
+    ]
+  },
+  {
+    "id": "GR_M1_D15",
+    "pattern": "現在 + time question",
+    "structure": [
+      "time word",
+      "question word",
+      "time noun"
+    ],
+    "explanation_en": "Use 現在幾點 and 今天星期幾 for practical time questions. Time words still come early in the sentence.",
+    "example_ids": [
+      "SEN_M1_D15_01",
+      "SEN_M1_D15_02",
+      "SEN_M1_D15_03",
+      "SEN_M1_D15_04"
+    ],
+    "slots": [
+      {
+        "name": "lesson_words",
+        "role": "object",
+        "values": [
+          {
+            "text": "現在",
+            "pinyin": "xiànzài",
+            "meaning_en": "now",
+            "meaning_ko": "지금",
+            "vocab_id": "VOC_M1_104"
+          },
+          {
+            "text": "點",
+            "pinyin": "diǎn",
+            "meaning_en": "o'clock",
+            "meaning_ko": "시",
+            "vocab_id": "VOC_M1_105"
+          },
+          {
+            "text": "上午",
+            "pinyin": "shàngwǔ",
+            "meaning_en": "morning; AM",
+            "meaning_ko": "오전",
+            "vocab_id": "VOC_M1_106"
+          },
+          {
+            "text": "下午",
+            "pinyin": "xiàwǔ",
+            "meaning_en": "afternoon; PM",
+            "meaning_ko": "오후",
+            "vocab_id": "VOC_M1_107"
+          },
+          {
+            "text": "星期",
+            "pinyin": "xīngqī",
+            "meaning_en": "week; weekday",
+            "meaning_ko": "요일; 주",
+            "vocab_id": "VOC_M1_108"
+          },
+          {
+            "text": "年",
+            "pinyin": "nián",
+            "meaning_en": "year",
+            "meaning_ko": "년",
+            "vocab_id": "VOC_M1_109"
+          },
+          {
+            "text": "早上",
+            "pinyin": "zǎoshang",
+            "meaning_en": "morning",
+            "meaning_ko": "아침",
+            "vocab_id": "VOC_M1_110"
+          }
+        ]
+      }
+    ],
+    "drill_examples": [
+      {
+        "text": "現在幾點？",
+        "pinyin": "Xiànzài jǐ diǎn?",
+        "translation_en": "What time is it now?",
+        "translation_ko": "지금 몇 시입니까?",
+        "slot_values": {}
+      },
+      {
+        "text": "現在三點。",
+        "pinyin": "Xiànzài sān diǎn.",
+        "translation_en": "It is three o'clock now.",
+        "translation_ko": "지금 세 시입니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "今天星期幾？",
+        "pinyin": "Jīntiān xīngqī jǐ?",
+        "translation_en": "What day of the week is today?",
+        "translation_ko": "오늘 무슨 요일입니까?",
+        "slot_values": {}
+      },
+      {
+        "text": "明天星期三。",
+        "pinyin": "Míngtiān xīngqīsān.",
+        "translation_en": "Tomorrow is Wednesday.",
+        "translation_ko": "내일은 수요일입니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "我上午學中文。",
+        "pinyin": "Wǒ shàngwǔ xué Zhōngwén.",
+        "translation_en": "I study Chinese in the morning.",
+        "translation_ko": "저는 오전에 중국어를 공부합니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "下午我們去餐廳。",
+        "pinyin": "Xiàwǔ wǒmen qù cāntīng.",
+        "translation_en": "In the afternoon we go to a restaurant.",
+        "translation_ko": "오후에 우리는 식당에 갑니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "我今年二十歲。",
+        "pinyin": "Wǒ jīnnián èrshí suì.",
+        "translation_en": "I am twenty this year.",
+        "translation_ko": "저는 올해 스무 살입니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "早上我喝咖啡。",
+        "pinyin": "Zǎoshang wǒ hē kāfēi.",
+        "translation_en": "In the morning I drink coffee.",
+        "translation_ko": "아침에 저는 커피를 마십니다.",
+        "slot_values": {}
+      }
+    ],
+    "negative_examples": [
+      {
+        "text": "English word order copied directly",
+        "error": "Use the Mandarin pattern shown above instead of translating word-for-word."
+      }
+    ]
+  },
+  {
+    "id": "GR_M1_D16",
+    "pattern": "Question + 呢？",
+    "structure": [
+      "previous topic",
+      "return question particle"
+    ],
+    "explanation_en": "Use 呢 to bounce a question back or ask 'what about...?' Use 幾 for small countable numbers and 多少 for open quantities or prices.",
+    "example_ids": [
+      "SEN_M1_D16_01",
+      "SEN_M1_D16_02",
+      "SEN_M1_D16_03",
+      "SEN_M1_D16_04"
+    ],
+    "slots": [
+      {
+        "name": "lesson_words",
+        "role": "object",
+        "values": [
+          {
+            "text": "呢",
+            "pinyin": "ne",
+            "meaning_en": "and you? what about?",
+            "meaning_ko": "너는? ~는?",
+            "vocab_id": "VOC_M1_111"
+          },
+          {
+            "text": "幾",
+            "pinyin": "jǐ",
+            "meaning_en": "how many; which number",
+            "meaning_ko": "몇",
+            "vocab_id": "VOC_M1_112"
+          },
+          {
+            "text": "多少",
+            "pinyin": "duōshao",
+            "meaning_en": "how many; how much",
+            "meaning_ko": "얼마나; 얼마",
+            "vocab_id": "VOC_M1_113"
+          },
+          {
+            "text": "錢",
+            "pinyin": "qián",
+            "meaning_en": "money",
+            "meaning_ko": "돈",
+            "vocab_id": "VOC_M1_114"
+          },
+          {
+            "text": "歲",
+            "pinyin": "suì",
+            "meaning_en": "years old",
+            "meaning_ko": "살",
+            "vocab_id": "VOC_M1_115"
+          },
+          {
+            "text": "塊",
+            "pinyin": "kuài",
+            "meaning_en": "dollar; piece",
+            "meaning_ko": "원; 덩어리",
+            "vocab_id": "VOC_M1_116"
+          },
+          {
+            "text": "號",
+            "pinyin": "hào",
+            "meaning_en": "number; date",
+            "meaning_ko": "번호; 일",
+            "vocab_id": "VOC_M1_117"
+          }
+        ]
+      }
+    ],
+    "drill_examples": [
+      {
+        "text": "我很好，你呢？",
+        "pinyin": "Wǒ hěn hǎo, nǐ ne?",
+        "translation_en": "I am good. How about you?",
+        "translation_ko": "저는 좋아요. 당신은요?",
+        "slot_values": {}
+      },
+      {
+        "text": "你幾歲？",
+        "pinyin": "Nǐ jǐ suì?",
+        "translation_en": "How old are you?",
+        "translation_ko": "몇 살입니까?",
+        "slot_values": {}
+      },
+      {
+        "text": "這個多少錢？",
+        "pinyin": "Zhège duōshao qián?",
+        "translation_en": "How much does this cost?",
+        "translation_ko": "이것은 얼마입니까?",
+        "slot_values": {}
+      },
+      {
+        "text": "一杯咖啡五十塊。",
+        "pinyin": "Yì bēi kāfēi wǔshí kuài.",
+        "translation_en": "One cup of coffee is fifty dollars.",
+        "translation_ko": "커피 한 잔은 50위안입니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "今天幾號？",
+        "pinyin": "Jīntiān jǐ hào?",
+        "translation_en": "What date is today?",
+        "translation_ko": "오늘 며칠입니까?",
+        "slot_values": {}
+      },
+      {
+        "text": "你家有幾個人？",
+        "pinyin": "Nǐ jiā yǒu jǐ ge rén?",
+        "translation_en": "How many people are in your family?",
+        "translation_ko": "가족이 몇 명입니까?",
+        "slot_values": {}
+      },
+      {
+        "text": "這本書多少錢？",
+        "pinyin": "Zhè běn shū duōshao qián?",
+        "translation_en": "How much is this book?",
+        "translation_ko": "이 책은 얼마입니까?",
+        "slot_values": {}
+      },
+      {
+        "text": "我想買蘋果，你呢？",
+        "pinyin": "Wǒ xiǎng mǎi píngguǒ, nǐ ne?",
+        "translation_en": "I want to buy apples. How about you?",
+        "translation_ko": "저는 사과를 사고 싶습니다. 당신은요?",
+        "slot_values": {}
+      }
+    ],
+    "negative_examples": [
+      {
+        "text": "English word order copied directly",
+        "error": "Use the Mandarin pattern shown above instead of translating word-for-word."
+      }
+    ]
+  },
+  {
+    "id": "GR_M1_D17",
+    "pattern": "我可以 + verb phrase + 嗎？",
+    "structure": [
+      "subject",
+      "permission modal",
+      "verb phrase",
+      "question particle"
+    ],
+    "explanation_en": "Use 可以 before a verb to ask if something is allowed. It is a practical pattern for Taiwan shops, classrooms, and travel.",
+    "example_ids": [
+      "SEN_M1_D17_01",
+      "SEN_M1_D17_02",
+      "SEN_M1_D17_03",
+      "SEN_M1_D17_04"
+    ],
+    "slots": [
+      {
+        "name": "lesson_words",
+        "role": "object",
+        "values": [
+          {
+            "text": "可以",
+            "pinyin": "kěyǐ",
+            "meaning_en": "can; may",
+            "meaning_ko": "할 수 있다; 해도 된다",
+            "vocab_id": "VOC_M1_118"
+          },
+          {
+            "text": "用",
+            "pinyin": "yòng",
+            "meaning_en": "to use",
+            "meaning_ko": "사용하다",
+            "vocab_id": "VOC_M1_119"
+          },
+          {
+            "text": "坐",
+            "pinyin": "zuò",
+            "meaning_en": "to sit; ride",
+            "meaning_ko": "앉다; 타다",
+            "vocab_id": "VOC_M1_120"
+          },
+          {
+            "text": "試",
+            "pinyin": "shì",
+            "meaning_en": "to try",
+            "meaning_ko": "시도하다",
+            "vocab_id": "VOC_M1_121"
+          },
+          {
+            "text": "這裡",
+            "pinyin": "zhèlǐ",
+            "meaning_en": "here",
+            "meaning_ko": "여기",
+            "vocab_id": "VOC_M1_122"
+          },
+          {
+            "text": "一下",
+            "pinyin": "yíxià",
+            "meaning_en": "for a moment",
+            "meaning_ko": "잠깐",
+            "vocab_id": "VOC_M1_123"
+          },
+          {
+            "text": "問題",
+            "pinyin": "wèntí",
+            "meaning_en": "question; problem",
+            "meaning_ko": "질문; 문제",
+            "vocab_id": "VOC_M1_124"
+          }
+        ]
+      }
+    ],
+    "drill_examples": [
+      {
+        "text": "我可以坐這裡嗎？",
+        "pinyin": "Wǒ kěyǐ zuò zhèlǐ ma?",
+        "translation_en": "May I sit here?",
+        "translation_ko": "여기에 앉아도 됩니까?",
+        "slot_values": {}
+      },
+      {
+        "text": "我可以用你的手機嗎？",
+        "pinyin": "Wǒ kěyǐ yòng nǐ de shǒujī ma?",
+        "translation_en": "May I use your phone?",
+        "translation_ko": "당신의 휴대폰을 사용해도 됩니까?",
+        "slot_values": {}
+      },
+      {
+        "text": "可以問一下嗎？",
+        "pinyin": "Kěyǐ wèn yíxià ma?",
+        "translation_en": "May I ask something?",
+        "translation_ko": "잠깐 질문해도 됩니까?",
+        "slot_values": {}
+      },
+      {
+        "text": "你可以說慢一點嗎？",
+        "pinyin": "Nǐ kěyǐ shuō màn yìdiǎn ma?",
+        "translation_en": "Can you speak a little slower?",
+        "translation_ko": "조금 천천히 말해 줄 수 있습니까?",
+        "slot_values": {}
+      },
+      {
+        "text": "我可以試試嗎？",
+        "pinyin": "Wǒ kěyǐ shìshi ma?",
+        "translation_en": "May I try it?",
+        "translation_ko": "제가 한번 해봐도 됩니까?",
+        "slot_values": {}
+      },
+      {
+        "text": "我們可以喝咖啡嗎？",
+        "pinyin": "Wǒmen kěyǐ hē kāfēi ma?",
+        "translation_en": "Can we drink coffee?",
+        "translation_ko": "우리 커피 마셔도 됩니까?",
+        "slot_values": {}
+      },
+      {
+        "text": "這裡可以坐嗎？",
+        "pinyin": "Zhèlǐ kěyǐ zuò ma?",
+        "translation_en": "Can people sit here?",
+        "translation_ko": "여기 앉아도 됩니까?",
+        "slot_values": {}
+      },
+      {
+        "text": "你有問題嗎？",
+        "pinyin": "Nǐ yǒu wèntí ma?",
+        "translation_en": "Do you have a question?",
+        "translation_ko": "질문이 있습니까?",
+        "slot_values": {}
+      }
+    ],
+    "negative_examples": [
+      {
+        "text": "English word order copied directly",
+        "error": "Use the Mandarin pattern shown above instead of translating word-for-word."
+      }
+    ]
+  },
+  {
+    "id": "GR_M1_D18",
+    "pattern": "Subject + 喜歡 / 愛 + activity",
+    "structure": [
+      "subject",
+      "preference verb",
+      "activity"
+    ],
+    "explanation_en": "Use 喜歡 for likes and 愛 for stronger preferences. Add 最 to say what someone likes the most.",
+    "example_ids": [
+      "SEN_M1_D18_01",
+      "SEN_M1_D18_02",
+      "SEN_M1_D18_03",
+      "SEN_M1_D18_04"
+    ],
+    "slots": [
+      {
+        "name": "lesson_words",
+        "role": "object",
+        "values": [
+          {
+            "text": "愛",
+            "pinyin": "ài",
+            "meaning_en": "to love",
+            "meaning_ko": "사랑하다",
+            "vocab_id": "VOC_M1_125"
+          },
+          {
+            "text": "最",
+            "pinyin": "zuì",
+            "meaning_en": "most",
+            "meaning_ko": "가장",
+            "vocab_id": "VOC_M1_126"
+          },
+          {
+            "text": "台灣",
+            "pinyin": "Táiwān",
+            "meaning_en": "Taiwan",
+            "meaning_ko": "대만",
+            "vocab_id": "VOC_M1_127"
+          },
+          {
+            "text": "小吃",
+            "pinyin": "xiǎochī",
+            "meaning_en": "snack; street food",
+            "meaning_ko": "간식; 길거리 음식",
+            "vocab_id": "VOC_M1_128"
+          },
+          {
+            "text": "音樂",
+            "pinyin": "yīnyuè",
+            "meaning_en": "music",
+            "meaning_ko": "음악",
+            "vocab_id": "VOC_M1_129"
+          },
+          {
+            "text": "拍照",
+            "pinyin": "pāizhào",
+            "meaning_en": "to take photos",
+            "meaning_ko": "사진 찍다",
+            "vocab_id": "VOC_M1_130"
+          },
+          {
+            "text": "走路",
+            "pinyin": "zǒulù",
+            "meaning_en": "to walk",
+            "meaning_ko": "걷다",
+            "vocab_id": "VOC_M1_131"
+          }
+        ]
+      }
+    ],
+    "drill_examples": [
+      {
+        "text": "我喜歡看電影。",
+        "pinyin": "Wǒ xǐhuan kàn diànyǐng.",
+        "translation_en": "I like watching movies.",
+        "translation_ko": "저는 영화 보는 것을 좋아합니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "他最愛吃台灣小吃。",
+        "pinyin": "Tā zuì ài chī Táiwān xiǎochī.",
+        "translation_en": "He loves Taiwanese snacks the most.",
+        "translation_ko": "그는 대만 간식을 가장 좋아합니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "她喜歡聽音樂。",
+        "pinyin": "Tā xǐhuan tīng yīnyuè.",
+        "translation_en": "She likes listening to music.",
+        "translation_ko": "그녀는 음악 듣는 것을 좋아합니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "我不喜歡喝咖啡。",
+        "pinyin": "Wǒ bù xǐhuan hē kāfēi.",
+        "translation_en": "I do not like drinking coffee.",
+        "translation_ko": "저는 커피 마시는 것을 좋아하지 않습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "你喜歡拍照嗎？",
+        "pinyin": "Nǐ xǐhuan pāizhào ma?",
+        "translation_en": "Do you like taking photos?",
+        "translation_ko": "사진 찍는 것을 좋아합니까?",
+        "slot_values": {}
+      },
+      {
+        "text": "我們愛台灣。",
+        "pinyin": "Wǒmen ài Táiwān.",
+        "translation_en": "We love Taiwan.",
+        "translation_ko": "우리는 대만을 사랑합니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "爸爸喜歡走路。",
+        "pinyin": "Bàba xǐhuan zǒulù.",
+        "translation_en": "Dad likes walking.",
+        "translation_ko": "아빠는 걷는 것을 좋아합니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "我最喜歡茶。",
+        "pinyin": "Wǒ zuì xǐhuan chá.",
+        "translation_en": "I like tea the most.",
+        "translation_ko": "저는 차를 가장 좋아합니다.",
+        "slot_values": {}
+      }
+    ],
+    "negative_examples": [
+      {
+        "text": "English word order copied directly",
+        "error": "Use the Mandarin pattern shown above instead of translating word-for-word."
+      }
+    ]
+  },
+  {
+    "id": "GR_M1_D19",
+    "pattern": "先 + action，再 + action",
+    "structure": [
+      "first action",
+      "then action"
+    ],
+    "explanation_en": "Use 先, 然後, 再, and 最後 to organize a spoken sequence. This is the bridge from single sentences to short stories.",
+    "example_ids": [
+      "SEN_M1_D19_01",
+      "SEN_M1_D19_02",
+      "SEN_M1_D19_03",
+      "SEN_M1_D19_04"
+    ],
+    "slots": [
+      {
+        "name": "lesson_words",
+        "role": "object",
+        "values": [
+          {
+            "text": "先",
+            "pinyin": "xiān",
+            "meaning_en": "first",
+            "meaning_ko": "먼저",
+            "vocab_id": "VOC_M1_132"
+          },
+          {
+            "text": "然後",
+            "pinyin": "ránhòu",
+            "meaning_en": "then",
+            "meaning_ko": "그다음",
+            "vocab_id": "VOC_M1_133"
+          },
+          {
+            "text": "再",
+            "pinyin": "zài",
+            "meaning_en": "then; again",
+            "meaning_ko": "다시; 그다음",
+            "vocab_id": "VOC_M1_134"
+          },
+          {
+            "text": "最後",
+            "pinyin": "zuìhòu",
+            "meaning_en": "lastly",
+            "meaning_ko": "마지막으로",
+            "vocab_id": "VOC_M1_135"
+          },
+          {
+            "text": "起床",
+            "pinyin": "qǐchuáng",
+            "meaning_en": "to get up",
+            "meaning_ko": "일어나다",
+            "vocab_id": "VOC_M1_136"
+          },
+          {
+            "text": "早餐",
+            "pinyin": "zǎocān",
+            "meaning_en": "breakfast",
+            "meaning_ko": "아침 식사",
+            "vocab_id": "VOC_M1_137"
+          },
+          {
+            "text": "公司",
+            "pinyin": "gōngsī",
+            "meaning_en": "company; office",
+            "meaning_ko": "회사",
+            "vocab_id": "VOC_M1_138"
+          }
+        ]
+      }
+    ],
+    "drill_examples": [
+      {
+        "text": "我想先喝水，再學中文。",
+        "pinyin": "Wǒ xiǎng xiān hē shuǐ, zài xué Zhōngwén.",
+        "translation_en": "I want to drink water first, then study Chinese.",
+        "translation_ko": "저는 먼저 물을 마시고 그다음 중국어를 공부하고 싶습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "他早上起床，然後吃早餐。",
+        "pinyin": "Tā zǎoshang qǐchuáng, ránhòu chī zǎocān.",
+        "translation_en": "He gets up in the morning, then eats breakfast.",
+        "translation_ko": "그는 아침에 일어나고 그다음 아침을 먹습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "我先去公司，再去餐廳。",
+        "pinyin": "Wǒ xiān qù gōngsī, zài qù cāntīng.",
+        "translation_en": "I go to the office first, then to a restaurant.",
+        "translation_ko": "저는 먼저 회사에 가고 그다음 식당에 갑니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "我們先看電影，然後喝咖啡。",
+        "pinyin": "Wǒmen xiān kàn diànyǐng, ránhòu hē kāfēi.",
+        "translation_en": "We watch a movie first, then drink coffee.",
+        "translation_ko": "우리는 먼저 영화를 보고 그다음 커피를 마십니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "最後我回家。",
+        "pinyin": "Zuìhòu wǒ huí jiā.",
+        "translation_en": "Lastly, I go home.",
+        "translation_ko": "마지막으로 저는 집에 돌아갑니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "你先說，我再寫。",
+        "pinyin": "Nǐ xiān shuō, wǒ zài xiě.",
+        "translation_en": "You speak first; then I write.",
+        "translation_ko": "당신이 먼저 말하면 제가 씁니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "她先買書，再去學校。",
+        "pinyin": "Tā xiān mǎi shū, zài qù xuéxiào.",
+        "translation_en": "She buys a book first, then goes to school.",
+        "translation_ko": "그녀는 먼저 책을 사고 그다음 학교에 갑니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "我們最後去公園走路。",
+        "pinyin": "Wǒmen zuìhòu qù gōngyuán zǒulù.",
+        "translation_en": "Lastly we go to the park to walk.",
+        "translation_ko": "마지막으로 우리는 공원에 걸으러 갑니다.",
+        "slot_values": {}
+      }
+    ],
+    "negative_examples": [
+      {
+        "text": "English word order copied directly",
+        "error": "Use the Mandarin pattern shown above instead of translating word-for-word."
+      }
+    ]
+  },
+  {
+    "id": "GR_M1_D20",
+    "pattern": "Subject + 在 + place + action",
+    "structure": [
+      "subject",
+      "location marker",
+      "place",
+      "action"
+    ],
+    "explanation_en": "Use 在 before a place to say where an action happens. For positions, use A 在 B 的 left/right/front.",
+    "example_ids": [
+      "SEN_M1_D20_01",
+      "SEN_M1_D20_02",
+      "SEN_M1_D20_03",
+      "SEN_M1_D20_04"
+    ],
+    "slots": [
+      {
+        "name": "lesson_words",
+        "role": "object",
+        "values": [
+          {
+            "text": "在",
+            "pinyin": "zài",
+            "meaning_en": "at; in; located at",
+            "meaning_ko": "~에 있다",
+            "vocab_id": "VOC_M1_139"
+          },
+          {
+            "text": "上",
+            "pinyin": "shàng",
+            "meaning_en": "on; above",
+            "meaning_ko": "위",
+            "vocab_id": "VOC_M1_140"
+          },
+          {
+            "text": "下",
+            "pinyin": "xià",
+            "meaning_en": "under; below",
+            "meaning_ko": "아래",
+            "vocab_id": "VOC_M1_141"
+          },
+          {
+            "text": "前面",
+            "pinyin": "qiánmiàn",
+            "meaning_en": "in front",
+            "meaning_ko": "앞",
+            "vocab_id": "VOC_M1_142"
+          },
+          {
+            "text": "左",
+            "pinyin": "zuǒ",
+            "meaning_en": "left",
+            "meaning_ko": "왼쪽",
+            "vocab_id": "VOC_M1_143"
+          },
+          {
+            "text": "右",
+            "pinyin": "yòu",
+            "meaning_en": "right",
+            "meaning_ko": "오른쪽",
+            "vocab_id": "VOC_M1_144"
+          },
+          {
+            "text": "那裡",
+            "pinyin": "nàlǐ",
+            "meaning_en": "there",
+            "meaning_ko": "저기",
+            "vocab_id": "VOC_M1_145"
+          },
+          {
+            "text": "圖書館",
+            "pinyin": "túshūguǎn",
+            "meaning_en": "library",
+            "meaning_ko": "도서관",
+            "vocab_id": "VOC_M1_146"
+          }
+        ]
+      }
+    ],
+    "drill_examples": [
+      {
+        "text": "我在圖書館看書。",
+        "pinyin": "Wǒ zài túshūguǎn kàn shū.",
+        "translation_en": "I am reading at the library.",
+        "translation_ko": "저는 도서관에서 책을 읽고 있습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "學校在醫院的左邊。",
+        "pinyin": "Xuéxiào zài yīyuàn de zuǒbiān.",
+        "translation_en": "The school is to the left of the hospital.",
+        "translation_ko": "학교는 병원 왼쪽에 있습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "超市在我們家前面。",
+        "pinyin": "Chāoshì zài wǒmen jiā qiánmiàn.",
+        "translation_en": "The supermarket is in front of our home.",
+        "translation_ko": "슈퍼마켓은 우리 집 앞에 있습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "手機在桌子上。",
+        "pinyin": "Shǒujī zài zhuōzi shàng.",
+        "translation_en": "The phone is on the table.",
+        "translation_ko": "휴대폰은 책상 위에 있습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "書在椅子下。",
+        "pinyin": "Shū zài yǐzi xià.",
+        "translation_en": "The book is under the chair.",
+        "translation_ko": "책은 의자 아래에 있습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "你在哪裡工作？",
+        "pinyin": "Nǐ zài nǎlǐ gōngzuò?",
+        "translation_en": "Where do you work?",
+        "translation_ko": "어디에서 일합니까?",
+        "slot_values": {}
+      },
+      {
+        "text": "我在這裡等你。",
+        "pinyin": "Wǒ zài zhèlǐ děng nǐ.",
+        "translation_en": "I wait for you here.",
+        "translation_ko": "저는 여기에서 당신을 기다립니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "他在那裡喝咖啡。",
+        "pinyin": "Tā zài nàlǐ hē kāfēi.",
+        "translation_en": "He drinks coffee there.",
+        "translation_ko": "그는 저기에서 커피를 마십니다.",
+        "slot_values": {}
+      }
+    ],
+    "negative_examples": [
+      {
+        "text": "English word order copied directly",
+        "error": "Use the Mandarin pattern shown above instead of translating word-for-word."
+      }
+    ]
+  },
+  {
+    "id": "GR_M1_D21",
+    "pattern": "Time + place + plan",
+    "structure": [
+      "time",
+      "meeting place",
+      "sequence"
+    ],
+    "explanation_en": "Plan a small outing by combining time, location, permission, preference, and sequence patterns.",
+    "example_ids": [
+      "SEN_M1_D21_01",
+      "SEN_M1_D21_02",
+      "SEN_M1_D21_03",
+      "SEN_M1_D21_04"
+    ],
+    "slots": [
+      {
+        "name": "lesson_words",
+        "role": "object",
+        "values": [
+          {
+            "text": "現在",
+            "pinyin": "xiànzài",
+            "meaning_en": "now",
+            "meaning_ko": "지금",
+            "vocab_id": "VOC_M1_104"
+          },
+          {
+            "text": "下午",
+            "pinyin": "xiàwǔ",
+            "meaning_en": "afternoon; PM",
+            "meaning_ko": "오후",
+            "vocab_id": "VOC_M1_107"
+          },
+          {
+            "text": "可以",
+            "pinyin": "kěyǐ",
+            "meaning_en": "can; may",
+            "meaning_ko": "할 수 있다; 해도 된다",
+            "vocab_id": "VOC_M1_118"
+          },
+          {
+            "text": "喜歡",
+            "pinyin": "xǐhuan",
+            "meaning_en": "to like",
+            "meaning_ko": "좋아하다",
+            "vocab_id": "VOC_M1_068"
+          },
+          {
+            "text": "先",
+            "pinyin": "xiān",
+            "meaning_en": "first",
+            "meaning_ko": "먼저",
+            "vocab_id": "VOC_M1_132"
+          },
+          {
+            "text": "然後",
+            "pinyin": "ránhòu",
+            "meaning_en": "then",
+            "meaning_ko": "그다음",
+            "vocab_id": "VOC_M1_133"
+          },
+          {
+            "text": "在",
+            "pinyin": "zài",
+            "meaning_en": "at; in; located at",
+            "meaning_ko": "~에 있다",
+            "vocab_id": "VOC_M1_139"
+          },
+          {
+            "text": "圖書館",
+            "pinyin": "túshūguǎn",
+            "meaning_en": "library",
+            "meaning_ko": "도서관",
+            "vocab_id": "VOC_M1_146"
+          },
+          {
+            "text": "咖啡",
+            "pinyin": "kāfēi",
+            "meaning_en": "coffee",
+            "meaning_ko": "커피",
+            "vocab_id": "VOC_M1_047"
+          },
+          {
+            "text": "電影",
+            "pinyin": "diànyǐng",
+            "meaning_en": "movie",
+            "meaning_ko": "영화",
+            "vocab_id": "VOC_M1_070"
+          }
+        ]
+      }
+    ],
+    "drill_examples": [
+      {
+        "text": "明天下午三點我們在公園見面。",
+        "pinyin": "Míngtiān xiàwǔ sān diǎn wǒmen zài gōngyuán jiànmiàn.",
+        "translation_en": "Tomorrow at 3 PM we meet at the park.",
+        "translation_ko": "내일 오후 세 시에 우리는 공원에서 만납니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "然後我們去咖啡店喝咖啡。",
+        "pinyin": "Ránhòu wǒmen qù kāfēi diàn hē kāfēi.",
+        "translation_en": "Then we go to a cafe to drink coffee.",
+        "translation_ko": "그다음 우리는 카페에 가서 커피를 마십니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "你可以坐這裡嗎？",
+        "pinyin": "Nǐ kěyǐ zuò zhèlǐ ma?",
+        "translation_en": "Can you sit here?",
+        "translation_ko": "여기에 앉을 수 있습니까?",
+        "slot_values": {}
+      },
+      {
+        "text": "我想先看電影。",
+        "pinyin": "Wǒ xiǎng xiān kàn diànyǐng.",
+        "translation_en": "I want to watch a movie first.",
+        "translation_ko": "저는 먼저 영화를 보고 싶습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "她不喜歡喝咖啡。",
+        "pinyin": "Tā bù xǐhuan hē kāfēi.",
+        "translation_en": "She does not like drinking coffee.",
+        "translation_ko": "그녀는 커피 마시는 것을 좋아하지 않습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "我們最後去圖書館。",
+        "pinyin": "Wǒmen zuìhòu qù túshūguǎn.",
+        "translation_en": "Lastly we go to the library.",
+        "translation_ko": "마지막으로 우리는 도서관에 갑니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "圖書館在哪裡？",
+        "pinyin": "Túshūguǎn zài nǎlǐ?",
+        "translation_en": "Where is the library?",
+        "translation_ko": "도서관은 어디에 있습니까?",
+        "slot_values": {}
+      },
+      {
+        "text": "今天的計畫很好。",
+        "pinyin": "Jīntiān de jìhuà hěn hǎo.",
+        "translation_en": "Today's plan is good.",
+        "translation_ko": "오늘 계획은 좋습니다.",
+        "slot_values": {}
+      }
+    ],
+    "negative_examples": [
+      {
+        "text": "English word order copied directly",
+        "error": "Use the Mandarin pattern shown above instead of translating word-for-word."
+      }
+    ]
+  },
+  {
+    "id": "GR_M1_D22",
+    "pattern": "Subject + 去 / 來 + place",
+    "structure": [
+      "subject",
+      "motion verb",
+      "place"
+    ],
+    "explanation_en": "Use 去 for going away from the speaker and 來 for coming toward the speaker. Add transport with 坐.",
+    "example_ids": [
+      "SEN_M1_D22_01",
+      "SEN_M1_D22_02",
+      "SEN_M1_D22_03",
+      "SEN_M1_D22_04"
+    ],
+    "slots": [
+      {
+        "name": "lesson_words",
+        "role": "object",
+        "values": [
+          {
+            "text": "商店",
+            "pinyin": "shāngdiàn",
+            "meaning_en": "shop",
+            "meaning_ko": "가게",
+            "vocab_id": "VOC_M1_147"
+          },
+          {
+            "text": "醫院",
+            "pinyin": "yīyuàn",
+            "meaning_en": "hospital",
+            "meaning_ko": "병원",
+            "vocab_id": "VOC_M1_148"
+          },
+          {
+            "text": "學校",
+            "pinyin": "xuéxiào",
+            "meaning_en": "school",
+            "meaning_ko": "학교",
+            "vocab_id": "VOC_M1_149"
+          },
+          {
+            "text": "公園",
+            "pinyin": "gōngyuán",
+            "meaning_en": "park",
+            "meaning_ko": "공원",
+            "vocab_id": "VOC_M1_150"
+          },
+          {
+            "text": "車站",
+            "pinyin": "chēzhàn",
+            "meaning_en": "station",
+            "meaning_ko": "역",
+            "vocab_id": "VOC_M1_151"
+          },
+          {
+            "text": "飛機",
+            "pinyin": "fēijī",
+            "meaning_en": "airplane",
+            "meaning_ko": "비행기",
+            "vocab_id": "VOC_M1_152"
+          },
+          {
+            "text": "火車",
+            "pinyin": "huǒchē",
+            "meaning_en": "train",
+            "meaning_ko": "기차",
+            "vocab_id": "VOC_M1_153"
+          },
+          {
+            "text": "捷運",
+            "pinyin": "jiéyùn",
+            "meaning_en": "MRT; metro",
+            "meaning_ko": "지하철; MRT",
+            "vocab_id": "VOC_M1_154"
+          },
+          {
+            "text": "來",
+            "pinyin": "lái",
+            "meaning_en": "to come",
+            "meaning_ko": "오다",
+            "vocab_id": "VOC_M1_155"
+          },
+          {
+            "text": "去",
+            "pinyin": "qù",
+            "meaning_en": "to go",
+            "meaning_ko": "가다",
+            "vocab_id": "VOC_M1_156"
+          }
+        ]
+      }
+    ],
+    "drill_examples": [
+      {
+        "text": "我們下午去公園散步。",
+        "pinyin": "Wǒmen xiàwǔ qù gōngyuán sànbù.",
+        "translation_en": "We will go to the park for a walk this afternoon.",
+        "translation_ko": "우리는 오후에 공원에 산책하러 갑니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "他明天坐火車來台中。",
+        "pinyin": "Tā míngtiān zuò huǒchē lái Táizhōng.",
+        "translation_en": "He comes to Taichung by train tomorrow.",
+        "translation_ko": "그는 내일 기차를 타고 타이중에 옵니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "你去商店嗎？",
+        "pinyin": "Nǐ qù shāngdiàn ma?",
+        "translation_en": "Are you going to the shop?",
+        "translation_ko": "가게에 갑니까?",
+        "slot_values": {}
+      },
+      {
+        "text": "醫院在哪裡？",
+        "pinyin": "Yīyuàn zài nǎlǐ?",
+        "translation_en": "Where is the hospital?",
+        "translation_ko": "병원은 어디에 있습니까?",
+        "slot_values": {}
+      },
+      {
+        "text": "我坐捷運去學校。",
+        "pinyin": "Wǒ zuò jiéyùn qù xuéxiào.",
+        "translation_en": "I take the MRT to school.",
+        "translation_ko": "저는 MRT를 타고 학교에 갑니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "車站在公園前面。",
+        "pinyin": "Chēzhàn zài gōngyuán qiánmiàn.",
+        "translation_en": "The station is in front of the park.",
+        "translation_ko": "역은 공원 앞에 있습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "爸爸坐飛機去台北。",
+        "pinyin": "Bàba zuò fēijī qù Táiběi.",
+        "translation_en": "Dad takes a plane to Taipei.",
+        "translation_ko": "아빠는 비행기를 타고 타이베이에 갑니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "你明天來我家嗎？",
+        "pinyin": "Nǐ míngtiān lái wǒ jiā ma?",
+        "translation_en": "Are you coming to my home tomorrow?",
+        "translation_ko": "내일 우리 집에 옵니까?",
+        "slot_values": {}
+      }
+    ],
+    "negative_examples": [
+      {
+        "text": "English word order copied directly",
+        "error": "Use the Mandarin pattern shown above instead of translating word-for-word."
+      }
+    ]
+  },
+  {
+    "id": "GR_M1_D23",
+    "pattern": "A + 比 + B + adjective",
+    "structure": [
+      "item A",
+      "comparison marker",
+      "item B",
+      "adjective"
+    ],
+    "explanation_en": "Use 比 to compare two things. The adjective comes after the compared item: 今天比昨天熱.",
+    "example_ids": [
+      "SEN_M1_D23_01",
+      "SEN_M1_D23_02",
+      "SEN_M1_D23_03",
+      "SEN_M1_D23_04"
+    ],
+    "slots": [
+      {
+        "name": "lesson_words",
+        "role": "object",
+        "values": [
+          {
+            "text": "比",
+            "pinyin": "bǐ",
+            "meaning_en": "than; compare",
+            "meaning_ko": "~보다",
+            "vocab_id": "VOC_M1_157"
+          },
+          {
+            "text": "慢",
+            "pinyin": "màn",
+            "meaning_en": "slow",
+            "meaning_ko": "느리다",
+            "vocab_id": "VOC_M1_158"
+          },
+          {
+            "text": "便宜",
+            "pinyin": "piányi",
+            "meaning_en": "cheap",
+            "meaning_ko": "싸다",
+            "vocab_id": "VOC_M1_159"
+          },
+          {
+            "text": "更",
+            "pinyin": "gèng",
+            "meaning_en": "even more",
+            "meaning_ko": "더",
+            "vocab_id": "VOC_M1_160"
+          },
+          {
+            "text": "新",
+            "pinyin": "xīn",
+            "meaning_en": "new",
+            "meaning_ko": "새로운",
+            "vocab_id": "VOC_M1_161"
+          },
+          {
+            "text": "舊",
+            "pinyin": "jiù",
+            "meaning_en": "old",
+            "meaning_ko": "낡은",
+            "vocab_id": "VOC_M1_162"
+          },
+          {
+            "text": "那個",
+            "pinyin": "nàge",
+            "meaning_en": "that one",
+            "meaning_ko": "저것",
+            "vocab_id": "VOC_M1_163"
+          }
+        ]
+      }
+    ],
+    "drill_examples": [
+      {
+        "text": "今天比昨天熱。",
+        "pinyin": "Jīntiān bǐ zuótiān rè.",
+        "translation_en": "Today is hotter than yesterday.",
+        "translation_ko": "오늘은 어제보다 덥습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "這個菜比那個菜貴。",
+        "pinyin": "Zhège cài bǐ nàge cài guì.",
+        "translation_en": "This dish is more expensive than that dish.",
+        "translation_ko": "이 요리는 저 요리보다 비쌉니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "捷運比火車快嗎？",
+        "pinyin": "Jiéyùn bǐ huǒchē kuài ma?",
+        "translation_en": "Is the MRT faster than the train?",
+        "translation_ko": "MRT가 기차보다 빠릅니까?",
+        "slot_values": {}
+      },
+      {
+        "text": "這杯咖啡比那杯茶便宜。",
+        "pinyin": "Zhè bēi kāfēi bǐ nà bēi chá piányi.",
+        "translation_en": "This coffee is cheaper than that tea.",
+        "translation_ko": "이 커피는 저 차보다 쌉니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "我的手機比你的手機新。",
+        "pinyin": "Wǒ de shǒujī bǐ nǐ de shǒujī xīn.",
+        "translation_en": "My phone is newer than your phone.",
+        "translation_ko": "제 휴대폰은 당신의 휴대폰보다 새롭습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "今天比昨天冷。",
+        "pinyin": "Jīntiān bǐ zuótiān lěng.",
+        "translation_en": "Today is colder than yesterday.",
+        "translation_ko": "오늘은 어제보다 춥습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "他說中文比我好。",
+        "pinyin": "Tā shuō Zhōngwén bǐ wǒ hǎo.",
+        "translation_en": "He speaks Chinese better than me.",
+        "translation_ko": "그는 저보다 중국어를 잘합니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "這家餐廳更貴。",
+        "pinyin": "Zhè jiā cāntīng gèng guì.",
+        "translation_en": "This restaurant is even more expensive.",
+        "translation_ko": "이 식당은 더 비쌉니다.",
+        "slot_values": {}
+      }
+    ],
+    "negative_examples": [
+      {
+        "text": "English word order copied directly",
+        "error": "Use the Mandarin pattern shown above instead of translating word-for-word."
+      }
+    ]
+  },
+  {
+    "id": "GR_M1_D24",
+    "pattern": "A + 在 + B + 的 + direction",
+    "structure": [
+      "thing A",
+      "located at",
+      "thing B",
+      "possessive marker",
+      "direction"
+    ],
+    "explanation_en": "Use 在...的... to say where one place is relative to another place.",
+    "example_ids": [
+      "SEN_M1_D24_01",
+      "SEN_M1_D24_02",
+      "SEN_M1_D24_03",
+      "SEN_M1_D24_04"
+    ],
+    "slots": [
+      {
+        "name": "lesson_words",
+        "role": "object",
+        "values": [
+          {
+            "text": "前",
+            "pinyin": "qián",
+            "meaning_en": "front",
+            "meaning_ko": "앞",
+            "vocab_id": "VOC_M1_164"
+          },
+          {
+            "text": "後",
+            "pinyin": "hòu",
+            "meaning_en": "back; behind",
+            "meaning_ko": "뒤",
+            "vocab_id": "VOC_M1_165"
+          },
+          {
+            "text": "裡面",
+            "pinyin": "lǐmiàn",
+            "meaning_en": "inside",
+            "meaning_ko": "안쪽",
+            "vocab_id": "VOC_M1_166"
+          },
+          {
+            "text": "外面",
+            "pinyin": "wàimiàn",
+            "meaning_en": "outside",
+            "meaning_ko": "밖",
+            "vocab_id": "VOC_M1_167"
+          },
+          {
+            "text": "銀行",
+            "pinyin": "yínháng",
+            "meaning_en": "bank",
+            "meaning_ko": "은행",
+            "vocab_id": "VOC_M1_168"
+          },
+          {
+            "text": "廁所",
+            "pinyin": "cèsuǒ",
+            "meaning_en": "bathroom",
+            "meaning_ko": "화장실",
+            "vocab_id": "VOC_M1_169"
+          },
+          {
+            "text": "路",
+            "pinyin": "lù",
+            "meaning_en": "road",
+            "meaning_ko": "길",
+            "vocab_id": "VOC_M1_170"
+          }
+        ]
+      }
+    ],
+    "drill_examples": [
+      {
+        "text": "銀行在商店的前面。",
+        "pinyin": "Yínháng zài shāngdiàn de qiánmiàn.",
+        "translation_en": "The bank is in front of the shop.",
+        "translation_ko": "은행은 가게 앞에 있습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "圖書館在學校的後面。",
+        "pinyin": "Túshūguǎn zài xuéxiào de hòumiàn.",
+        "translation_en": "The library is behind the school.",
+        "translation_ko": "도서관은 학교 뒤에 있습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "廁所在哪裡？",
+        "pinyin": "Cèsuǒ zài nǎlǐ?",
+        "translation_en": "Where is the bathroom?",
+        "translation_ko": "화장실은 어디에 있습니까?",
+        "slot_values": {}
+      },
+      {
+        "text": "手機在包包裡面。",
+        "pinyin": "Shǒujī zài bāobāo lǐmiàn.",
+        "translation_en": "The phone is inside the bag.",
+        "translation_ko": "휴대폰은 가방 안에 있습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "他在外面等你。",
+        "pinyin": "Tā zài wàimiàn děng nǐ.",
+        "translation_en": "He is waiting for you outside.",
+        "translation_ko": "그는 밖에서 당신을 기다립니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "醫院在這條路的右邊。",
+        "pinyin": "Yīyuàn zài zhè tiáo lù de yòubiān.",
+        "translation_en": "The hospital is on the right side of this road.",
+        "translation_ko": "병원은 이 길 오른쪽에 있습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "公園在車站的左邊。",
+        "pinyin": "Gōngyuán zài chēzhàn de zuǒbiān.",
+        "translation_en": "The park is to the left of the station.",
+        "translation_ko": "공원은 역 왼쪽에 있습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "餐廳在銀行後面。",
+        "pinyin": "Cāntīng zài yínháng hòumiàn.",
+        "translation_en": "The restaurant is behind the bank.",
+        "translation_ko": "식당은 은행 뒤에 있습니다.",
+        "slot_values": {}
+      }
+    ],
+    "negative_examples": [
+      {
+        "text": "English word order copied directly",
+        "error": "Use the Mandarin pattern shown above instead of translating word-for-word."
+      }
+    ]
+  },
+  {
+    "id": "GR_M1_D25",
+    "pattern": "我需要 / 我得 / 我必須 + action",
+    "structure": [
+      "subject",
+      "necessity modal",
+      "action"
+    ],
+    "explanation_en": "Use 需要 for 'need to', 得 for everyday 'have to', and 必須 for stronger 'must'.",
+    "example_ids": [
+      "SEN_M1_D25_01",
+      "SEN_M1_D25_02",
+      "SEN_M1_D25_03",
+      "SEN_M1_D25_04"
+    ],
+    "slots": [
+      {
+        "name": "lesson_words",
+        "role": "object",
+        "values": [
+          {
+            "text": "需要",
+            "pinyin": "xūyào",
+            "meaning_en": "to need",
+            "meaning_ko": "필요하다",
+            "vocab_id": "VOC_M1_171"
+          },
+          {
+            "text": "得",
+            "pinyin": "děi",
+            "meaning_en": "must; have to",
+            "meaning_ko": "~해야 한다",
+            "vocab_id": "VOC_M1_172"
+          },
+          {
+            "text": "必須",
+            "pinyin": "bìxū",
+            "meaning_en": "must",
+            "meaning_ko": "반드시 해야 한다",
+            "vocab_id": "VOC_M1_173"
+          },
+          {
+            "text": "走",
+            "pinyin": "zǒu",
+            "meaning_en": "to leave; walk",
+            "meaning_ko": "떠나다; 걷다",
+            "vocab_id": "VOC_M1_174"
+          },
+          {
+            "text": "抱歉",
+            "pinyin": "bàoqiàn",
+            "meaning_en": "sorry",
+            "meaning_ko": "미안합니다",
+            "vocab_id": "VOC_M1_175"
+          },
+          {
+            "text": "拿",
+            "pinyin": "ná",
+            "meaning_en": "to take; hold",
+            "meaning_ko": "가지다; 들다",
+            "vocab_id": "VOC_M1_176"
+          },
+          {
+            "text": "發票",
+            "pinyin": "fāpiào",
+            "meaning_en": "receipt; invoice",
+            "meaning_ko": "영수증",
+            "vocab_id": "VOC_M1_177"
+          },
+          {
+            "text": "悠遊卡",
+            "pinyin": "Yōuyóu Kǎ",
+            "meaning_en": "EasyCard",
+            "meaning_ko": "이지카드",
+            "vocab_id": "VOC_M1_178"
+          }
+        ]
+      }
+    ],
+    "drill_examples": [
+      {
+        "text": "我需要去銀行取錢。",
+        "pinyin": "Wǒ xūyào qù yínháng qǔ qián.",
+        "translation_en": "I need to go to the bank to withdraw money.",
+        "translation_ko": "저는 은행에 가서 돈을 찾아야 합니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "抱歉，現在我必須走了。",
+        "pinyin": "Bàoqiàn, xiànzài wǒ bìxū zǒu le.",
+        "translation_en": "Sorry, I must leave now.",
+        "translation_ko": "미안합니다, 지금 저는 가야 합니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "我得學中文。",
+        "pinyin": "Wǒ děi xué Zhōngwén.",
+        "translation_en": "I have to study Chinese.",
+        "translation_ko": "저는 중국어를 공부해야 합니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "你需要發票嗎？",
+        "pinyin": "Nǐ xūyào fāpiào ma?",
+        "translation_en": "Do you need a receipt?",
+        "translation_ko": "영수증이 필요합니까?",
+        "slot_values": {}
+      },
+      {
+        "text": "我需要一張悠遊卡。",
+        "pinyin": "Wǒ xūyào yì zhāng Yōuyóu Kǎ.",
+        "translation_en": "I need an EasyCard.",
+        "translation_ko": "저는 이지카드 한 장이 필요합니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "我們得坐捷運去學校。",
+        "pinyin": "Wǒmen děi zuò jiéyùn qù xuéxiào.",
+        "translation_en": "We have to take the MRT to school.",
+        "translation_ko": "우리는 MRT를 타고 학교에 가야 합니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "他必須早上去公司。",
+        "pinyin": "Tā bìxū zǎoshang qù gōngsī.",
+        "translation_en": "He must go to the office in the morning.",
+        "translation_ko": "그는 아침에 회사에 가야 합니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "我需要拿手機。",
+        "pinyin": "Wǒ xūyào ná shǒujī.",
+        "translation_en": "I need to take my phone.",
+        "translation_ko": "저는 휴대폰을 가져가야 합니다.",
+        "slot_values": {}
+      }
+    ],
+    "negative_examples": [
+      {
+        "text": "English word order copied directly",
+        "error": "Use the Mandarin pattern shown above instead of translating word-for-word."
+      }
+    ]
+  },
+  {
+    "id": "GR_M1_D26",
+    "pattern": "請 + verb phrase",
+    "structure": [
+      "polite marker",
+      "verb phrase"
+    ],
+    "explanation_en": "Use 請 before a command or invitation to soften it. Combine with 可以嗎 for a polite check.",
+    "example_ids": [
+      "SEN_M1_D26_01",
+      "SEN_M1_D26_02",
+      "SEN_M1_D26_03",
+      "SEN_M1_D26_04"
+    ],
+    "slots": [
+      {
+        "name": "lesson_words",
+        "role": "object",
+        "values": [
+          {
+            "text": "請",
+            "pinyin": "qǐng",
+            "meaning_en": "please; invite",
+            "meaning_ko": "부디; 청하다",
+            "vocab_id": "VOC_M1_179"
+          },
+          {
+            "text": "進",
+            "pinyin": "jìn",
+            "meaning_en": "to enter",
+            "meaning_ko": "들어가다",
+            "vocab_id": "VOC_M1_180"
+          },
+          {
+            "text": "幫",
+            "pinyin": "bāng",
+            "meaning_en": "to help",
+            "meaning_ko": "돕다",
+            "vocab_id": "VOC_M1_181"
+          },
+          {
+            "text": "跟",
+            "pinyin": "gēn",
+            "meaning_en": "with; follow",
+            "meaning_ko": "~와; 따라가다",
+            "vocab_id": "VOC_M1_182"
+          },
+          {
+            "text": "一起",
+            "pinyin": "yìqǐ",
+            "meaning_en": "together",
+            "meaning_ko": "함께",
+            "vocab_id": "VOC_M1_183"
+          },
+          {
+            "text": "等",
+            "pinyin": "děng",
+            "meaning_en": "to wait",
+            "meaning_ko": "기다리다",
+            "vocab_id": "VOC_M1_184"
+          },
+          {
+            "text": "菜單",
+            "pinyin": "càidān",
+            "meaning_en": "menu",
+            "meaning_ko": "메뉴",
+            "vocab_id": "VOC_M1_185"
+          },
+          {
+            "text": "袋子",
+            "pinyin": "dàizi",
+            "meaning_en": "bag",
+            "meaning_ko": "봉투; 가방",
+            "vocab_id": "VOC_M1_186"
+          }
+        ]
+      }
+    ],
+    "drill_examples": [
+      {
+        "text": "請進！",
+        "pinyin": "Qǐng jìn!",
+        "translation_en": "Please come in!",
+        "translation_ko": "들어오세요!",
+        "slot_values": {}
+      },
+      {
+        "text": "請幫我一下，可以嗎？",
+        "pinyin": "Qǐng bāng wǒ yíxià, kěyǐ ma?",
+        "translation_en": "Please help me for a moment, is that okay?",
+        "translation_ko": "잠깐 도와주실 수 있습니까?",
+        "slot_values": {}
+      },
+      {
+        "text": "請跟我來。",
+        "pinyin": "Qǐng gēn wǒ lái.",
+        "translation_en": "Please come with me.",
+        "translation_ko": "저를 따라오세요.",
+        "slot_values": {}
+      },
+      {
+        "text": "請等一下。",
+        "pinyin": "Qǐng děng yíxià.",
+        "translation_en": "Please wait a moment.",
+        "translation_ko": "잠깐 기다려 주세요.",
+        "slot_values": {}
+      },
+      {
+        "text": "請給我菜單。",
+        "pinyin": "Qǐng gěi wǒ càidān.",
+        "translation_en": "Please give me the menu.",
+        "translation_ko": "메뉴를 주세요.",
+        "slot_values": {}
+      },
+      {
+        "text": "我要一個袋子。",
+        "pinyin": "Wǒ yào yí ge dàizi.",
+        "translation_en": "I would like a bag.",
+        "translation_ko": "봉투 하나 주세요.",
+        "slot_values": {}
+      },
+      {
+        "text": "你想一起喝咖啡嗎？",
+        "pinyin": "Nǐ xiǎng yìqǐ hē kāfēi ma?",
+        "translation_en": "Do you want to drink coffee together?",
+        "translation_ko": "같이 커피를 마시고 싶습니까?",
+        "slot_values": {}
+      },
+      {
+        "text": "可以請你說慢一點嗎？",
+        "pinyin": "Kěyǐ qǐng nǐ shuō màn yìdiǎn ma?",
+        "translation_en": "Could you please speak a little slower?",
+        "translation_ko": "조금 천천히 말해 주실 수 있습니까?",
+        "slot_values": {}
+      }
+    ],
+    "negative_examples": [
+      {
+        "text": "English word order copied directly",
+        "error": "Use the Mandarin pattern shown above instead of translating word-for-word."
+      }
+    ]
+  },
+  {
+    "id": "GR_M1_D27",
+    "pattern": "我的愛好是 + activity",
+    "structure": [
+      "possessive noun",
+      "is",
+      "activity"
+    ],
+    "explanation_en": "Use 愛好 for hobbies and combine 喜歡/愛 with activities to talk about free time.",
+    "example_ids": [
+      "SEN_M1_D27_01",
+      "SEN_M1_D27_02",
+      "SEN_M1_D27_03",
+      "SEN_M1_D27_04"
+    ],
+    "slots": [
+      {
+        "name": "lesson_words",
+        "role": "object",
+        "values": [
+          {
+            "text": "愛好",
+            "pinyin": "àihào",
+            "meaning_en": "hobby",
+            "meaning_ko": "취미",
+            "vocab_id": "VOC_M1_187"
+          },
+          {
+            "text": "唱歌",
+            "pinyin": "chànggē",
+            "meaning_en": "to sing",
+            "meaning_ko": "노래하다",
+            "vocab_id": "VOC_M1_188"
+          },
+          {
+            "text": "跳舞",
+            "pinyin": "tiàowǔ",
+            "meaning_en": "to dance",
+            "meaning_ko": "춤추다",
+            "vocab_id": "VOC_M1_189"
+          },
+          {
+            "text": "運動",
+            "pinyin": "yùndòng",
+            "meaning_en": "to exercise; sport",
+            "meaning_ko": "운동하다; 운동",
+            "vocab_id": "VOC_M1_190"
+          },
+          {
+            "text": "旅遊",
+            "pinyin": "lǚyóu",
+            "meaning_en": "to travel",
+            "meaning_ko": "여행하다",
+            "vocab_id": "VOC_M1_191"
+          },
+          {
+            "text": "跑步",
+            "pinyin": "pǎobù",
+            "meaning_en": "to run",
+            "meaning_ko": "달리다",
+            "vocab_id": "VOC_M1_192"
+          },
+          {
+            "text": "游泳",
+            "pinyin": "yóuyǒng",
+            "meaning_en": "to swim",
+            "meaning_ko": "수영하다",
+            "vocab_id": "VOC_M1_193"
+          }
+        ]
+      }
+    ],
+    "drill_examples": [
+      {
+        "text": "我的愛好是唱歌和跳舞。",
+        "pinyin": "Wǒ de àihào shì chànggē hé tiàowǔ.",
+        "translation_en": "My hobbies are singing and dancing.",
+        "translation_ko": "제 취미는 노래와 춤입니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "我喜歡旅遊，也喜歡拍照。",
+        "pinyin": "Wǒ xǐhuan lǚyóu, yě xǐhuan pāizhào.",
+        "translation_en": "I like traveling and also taking photos.",
+        "translation_ko": "저는 여행도 좋아하고 사진 찍기도 좋아합니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "他不喜歡運動。",
+        "pinyin": "Tā bù xǐhuan yùndòng.",
+        "translation_en": "He does not like exercising.",
+        "translation_ko": "그는 운동을 좋아하지 않습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "你會游泳嗎？",
+        "pinyin": "Nǐ huì yóuyǒng ma?",
+        "translation_en": "Can you swim?",
+        "translation_ko": "수영할 수 있습니까?",
+        "slot_values": {}
+      },
+      {
+        "text": "妹妹最愛唱歌。",
+        "pinyin": "Mèimei zuì ài chànggē.",
+        "translation_en": "My younger sister loves singing the most.",
+        "translation_ko": "여동생은 노래를 가장 좋아합니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "我們下午去公園跑步。",
+        "pinyin": "Wǒmen xiàwǔ qù gōngyuán pǎobù.",
+        "translation_en": "We go to the park to run in the afternoon.",
+        "translation_ko": "우리는 오후에 공원에 달리러 갑니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "我的朋友喜歡跳舞。",
+        "pinyin": "Wǒ de péngyǒu xǐhuan tiàowǔ.",
+        "translation_en": "My friend likes dancing.",
+        "translation_ko": "제 친구는 춤추는 것을 좋아합니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "你的愛好是什麼？",
+        "pinyin": "Nǐ de àihào shì shénme?",
+        "translation_en": "What is your hobby?",
+        "translation_ko": "취미가 무엇입니까?",
+        "slot_values": {}
+      }
+    ],
+    "negative_examples": [
+      {
+        "text": "English word order copied directly",
+        "error": "Use the Mandarin pattern shown above instead of translating word-for-word."
+      }
+    ]
+  },
+  {
+    "id": "GR_M1_D28",
+    "pattern": "Subject + 會 / 要 / 打算 + action",
+    "structure": [
+      "subject",
+      "future or plan marker",
+      "action"
+    ],
+    "explanation_en": "Use 會 for will/can, 要 for going to, 想 for intent, and 打算 for plans.",
+    "example_ids": [
+      "SEN_M1_D28_01",
+      "SEN_M1_D28_02",
+      "SEN_M1_D28_03",
+      "SEN_M1_D28_04"
+    ],
+    "slots": [
+      {
+        "name": "lesson_words",
+        "role": "object",
+        "values": [
+          {
+            "text": "會",
+            "pinyin": "huì",
+            "meaning_en": "will; can",
+            "meaning_ko": "~할 것이다; 할 수 있다",
+            "vocab_id": "VOC_M1_194"
+          },
+          {
+            "text": "打算",
+            "pinyin": "dǎsuàn",
+            "meaning_en": "to plan",
+            "meaning_ko": "계획하다",
+            "vocab_id": "VOC_M1_195"
+          },
+          {
+            "text": "希望",
+            "pinyin": "xīwàng",
+            "meaning_en": "to hope",
+            "meaning_ko": "바라다",
+            "vocab_id": "VOC_M1_196"
+          },
+          {
+            "text": "台北",
+            "pinyin": "Táiběi",
+            "meaning_en": "Taipei",
+            "meaning_ko": "타이베이",
+            "vocab_id": "VOC_M1_197"
+          },
+          {
+            "text": "見面",
+            "pinyin": "jiànmiàn",
+            "meaning_en": "to meet",
+            "meaning_ko": "만나다",
+            "vocab_id": "VOC_M1_198"
+          },
+          {
+            "text": "計畫",
+            "pinyin": "jìhuà",
+            "meaning_en": "plan",
+            "meaning_ko": "계획",
+            "vocab_id": "VOC_M1_199"
+          },
+          {
+            "text": "下個星期",
+            "pinyin": "xià ge xīngqī",
+            "meaning_en": "next week",
+            "meaning_ko": "다음 주",
+            "vocab_id": "VOC_M1_200"
+          }
+        ]
+      }
+    ],
+    "drill_examples": [
+      {
+        "text": "明天我會去台北。",
+        "pinyin": "Míngtiān wǒ huì qù Táiběi.",
+        "translation_en": "Tomorrow I will go to Taipei.",
+        "translation_ko": "내일 저는 타이베이에 갈 것입니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "我想學游泳。",
+        "pinyin": "Wǒ xiǎng xué yóuyǒng.",
+        "translation_en": "I want to learn to swim.",
+        "translation_ko": "저는 수영을 배우고 싶습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "我們打算下個星期見面。",
+        "pinyin": "Wǒmen dǎsuàn xià ge xīngqī jiànmiàn.",
+        "translation_en": "We plan to meet next week.",
+        "translation_ko": "우리는 다음 주에 만날 계획입니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "他希望學好中文。",
+        "pinyin": "Tā xīwàng xué hǎo Zhōngwén.",
+        "translation_en": "He hopes to learn Chinese well.",
+        "translation_ko": "그는 중국어를 잘 배우고 싶어 합니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "你明天要做什麼？",
+        "pinyin": "Nǐ míngtiān yào zuò shénme?",
+        "translation_en": "What are you going to do tomorrow?",
+        "translation_ko": "내일 무엇을 할 예정입니까?",
+        "slot_values": {}
+      },
+      {
+        "text": "我會坐捷運去公司。",
+        "pinyin": "Wǒ huì zuò jiéyùn qù gōngsī.",
+        "translation_en": "I will take the MRT to the office.",
+        "translation_ko": "저는 MRT를 타고 회사에 갈 것입니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "我們的計畫很好。",
+        "pinyin": "Wǒmen de jìhuà hěn hǎo.",
+        "translation_en": "Our plan is good.",
+        "translation_ko": "우리의 계획은 좋습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "她不打算喝咖啡。",
+        "pinyin": "Tā bù dǎsuàn hē kāfēi.",
+        "translation_en": "She does not plan to drink coffee.",
+        "translation_ko": "그녀는 커피를 마실 계획이 없습니다.",
+        "slot_values": {}
+      }
+    ],
+    "negative_examples": [
+      {
+        "text": "English word order copied directly",
+        "error": "Use the Mandarin pattern shown above instead of translating word-for-word."
+      }
+    ]
+  },
+  {
+    "id": "GR_M1_D29",
+    "pattern": "Time + sequence + location + reason",
+    "structure": [
+      "time",
+      "sequence connectors",
+      "location",
+      "short reason"
+    ],
+    "explanation_en": "Use this day to turn separate sentence patterns into a short daily routine paragraph.",
+    "example_ids": [
+      "SEN_M1_D29_01",
+      "SEN_M1_D29_02",
+      "SEN_M1_D29_03",
+      "SEN_M1_D29_04"
+    ],
+    "slots": [
+      {
+        "name": "lesson_words",
+        "role": "object",
+        "values": [
+          {
+            "text": "早上",
+            "pinyin": "zǎoshang",
+            "meaning_en": "morning",
+            "meaning_ko": "아침",
+            "vocab_id": "VOC_M1_110"
+          },
+          {
+            "text": "下午",
+            "pinyin": "xiàwǔ",
+            "meaning_en": "afternoon; PM",
+            "meaning_ko": "오후",
+            "vocab_id": "VOC_M1_107"
+          },
+          {
+            "text": "先",
+            "pinyin": "xiān",
+            "meaning_en": "first",
+            "meaning_ko": "먼저",
+            "vocab_id": "VOC_M1_132"
+          },
+          {
+            "text": "然後",
+            "pinyin": "ránhòu",
+            "meaning_en": "then",
+            "meaning_ko": "그다음",
+            "vocab_id": "VOC_M1_133"
+          },
+          {
+            "text": "在",
+            "pinyin": "zài",
+            "meaning_en": "at; in; located at",
+            "meaning_ko": "~에 있다",
+            "vocab_id": "VOC_M1_139"
+          },
+          {
+            "text": "想",
+            "pinyin": "xiǎng",
+            "meaning_en": "to want; to think",
+            "meaning_ko": "원하다; 생각하다",
+            "vocab_id": "VOC_M1_050"
+          },
+          {
+            "text": "不",
+            "pinyin": "bù",
+            "meaning_en": "not",
+            "meaning_ko": "아니다; 안",
+            "vocab_id": "VOC_M1_079"
+          },
+          {
+            "text": "沒有",
+            "pinyin": "méiyǒu",
+            "meaning_en": "do not have; there is not",
+            "meaning_ko": "없다",
+            "vocab_id": "VOC_M1_081"
+          },
+          {
+            "text": "工作",
+            "pinyin": "gōngzuò",
+            "meaning_en": "work; job",
+            "meaning_ko": "일; 직업",
+            "vocab_id": "VOC_M1_076"
+          },
+          {
+            "text": "公司",
+            "pinyin": "gōngsī",
+            "meaning_en": "company; office",
+            "meaning_ko": "회사",
+            "vocab_id": "VOC_M1_138"
+          }
+        ]
+      }
+    ],
+    "drill_examples": [
+      {
+        "text": "今天早上我先喝水。",
+        "pinyin": "Jīntiān zǎoshang wǒ xiān hē shuǐ.",
+        "translation_en": "This morning I drink water first.",
+        "translation_ko": "오늘 아침 저는 먼저 물을 마십니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "然後我在家學中文。",
+        "pinyin": "Ránhòu wǒ zài jiā xué Zhōngwén.",
+        "translation_en": "Then I study Chinese at home.",
+        "translation_ko": "그다음 저는 집에서 중국어를 공부합니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "下午我去公司工作。",
+        "pinyin": "Xiàwǔ wǒ qù gōngsī gōngzuò.",
+        "translation_en": "In the afternoon I go to the office to work.",
+        "translation_ko": "오후에 저는 회사에 일하러 갑니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "我不喝咖啡，因為我想喝茶。",
+        "pinyin": "Wǒ bù hē kāfēi, yīnwèi wǒ xiǎng hē chá.",
+        "translation_en": "I do not drink coffee because I want tea.",
+        "translation_ko": "저는 차를 마시고 싶어서 커피를 마시지 않습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "晚上我沒有課。",
+        "pinyin": "Wǎnshàng wǒ méiyǒu kè.",
+        "translation_en": "In the evening I do not have class.",
+        "translation_ko": "저녁에 저는 수업이 없습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "我在圖書館看書。",
+        "pinyin": "Wǒ zài túshūguǎn kàn shū.",
+        "translation_en": "I read at the library.",
+        "translation_ko": "저는 도서관에서 책을 읽습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "最後我回家吃飯。",
+        "pinyin": "Zuìhòu wǒ huí jiā chīfàn.",
+        "translation_en": "Finally I go home to eat.",
+        "translation_ko": "마지막으로 집에 돌아가 밥을 먹습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "我的一天很忙，但是很好。",
+        "pinyin": "Wǒ de yì tiān hěn máng, dànshì hěn hǎo.",
+        "translation_en": "My day is busy, but good.",
+        "translation_ko": "제 하루는 바쁘지만 좋습니다.",
+        "slot_values": {}
+      }
+    ],
+    "negative_examples": [
+      {
+        "text": "English word order copied directly",
+        "error": "Use the Mandarin pattern shown above instead of translating word-for-word."
+      }
+    ]
+  },
+  {
+    "id": "GR_M1_D30",
+    "pattern": "Intro + family + food + schedule + plan",
+    "structure": [
+      "introduction",
+      "topic expansion",
+      "future plan"
+    ],
+    "explanation_en": "This final Month 1 loop combines the most usable output patterns into a five-minute conversation.",
+    "example_ids": [
+      "SEN_M1_D30_01",
+      "SEN_M1_D30_02",
+      "SEN_M1_D30_03",
+      "SEN_M1_D30_04"
+    ],
+    "slots": [
+      {
+        "name": "lesson_words",
+        "role": "object",
+        "values": [
+          {
+            "text": "你好",
+            "pinyin": "nǐ hǎo",
+            "meaning_en": "hello",
+            "meaning_ko": "안녕하세요",
+            "vocab_id": "VOC_M1_001"
+          },
+          {
+            "text": "叫",
+            "pinyin": "jiào",
+            "meaning_en": "to be called",
+            "meaning_ko": "~라고 부르다",
+            "vocab_id": "VOC_M1_008"
+          },
+          {
+            "text": "家",
+            "pinyin": "jiā",
+            "meaning_en": "home; family",
+            "meaning_ko": "집; 가족",
+            "vocab_id": "VOC_M1_039"
+          },
+          {
+            "text": "喜歡",
+            "pinyin": "xǐhuan",
+            "meaning_en": "to like",
+            "meaning_ko": "좋아하다",
+            "vocab_id": "VOC_M1_068"
+          },
+          {
+            "text": "想",
+            "pinyin": "xiǎng",
+            "meaning_en": "to want; to think",
+            "meaning_ko": "원하다; 생각하다",
+            "vocab_id": "VOC_M1_050"
+          },
+          {
+            "text": "可以",
+            "pinyin": "kěyǐ",
+            "meaning_en": "can; may",
+            "meaning_ko": "할 수 있다; 해도 된다",
+            "vocab_id": "VOC_M1_118"
+          },
+          {
+            "text": "在",
+            "pinyin": "zài",
+            "meaning_en": "at; in; located at",
+            "meaning_ko": "~에 있다",
+            "vocab_id": "VOC_M1_139"
+          },
+          {
+            "text": "比",
+            "pinyin": "bǐ",
+            "meaning_en": "than; compare",
+            "meaning_ko": "~보다",
+            "vocab_id": "VOC_M1_157"
+          },
+          {
+            "text": "需要",
+            "pinyin": "xūyào",
+            "meaning_en": "to need",
+            "meaning_ko": "필요하다",
+            "vocab_id": "VOC_M1_171"
+          },
+          {
+            "text": "打算",
+            "pinyin": "dǎsuàn",
+            "meaning_en": "to plan",
+            "meaning_ko": "계획하다",
+            "vocab_id": "VOC_M1_195"
+          }
+        ]
+      }
+    ],
+    "drill_examples": [
+      {
+        "text": "你好，我叫李明。",
+        "pinyin": "Nǐ hǎo, wǒ jiào Lǐ Míng.",
+        "translation_en": "Hello, my name is Li Ming.",
+        "translation_ko": "안녕하세요, 저는 리밍입니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "我家有四個人。",
+        "pinyin": "Wǒ jiā yǒu sì ge rén.",
+        "translation_en": "There are four people in my family.",
+        "translation_ko": "우리 가족은 네 명입니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "我喜歡台灣小吃。",
+        "pinyin": "Wǒ xǐhuan Táiwān xiǎochī.",
+        "translation_en": "I like Taiwanese snacks.",
+        "translation_ko": "저는 대만 간식을 좋아합니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "今天下午我想去公園。",
+        "pinyin": "Jīntiān xiàwǔ wǒ xiǎng qù gōngyuán.",
+        "translation_en": "This afternoon I want to go to the park.",
+        "translation_ko": "오늘 오후 저는 공원에 가고 싶습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "我可以坐這裡嗎？",
+        "pinyin": "Wǒ kěyǐ zuò zhèlǐ ma?",
+        "translation_en": "May I sit here?",
+        "translation_ko": "여기에 앉아도 됩니까?",
+        "slot_values": {}
+      },
+      {
+        "text": "圖書館在學校後面。",
+        "pinyin": "Túshūguǎn zài xuéxiào hòumiàn.",
+        "translation_en": "The library is behind the school.",
+        "translation_ko": "도서관은 학교 뒤에 있습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "今天比昨天熱。",
+        "pinyin": "Jīntiān bǐ zuótiān rè.",
+        "translation_en": "Today is hotter than yesterday.",
+        "translation_ko": "오늘은 어제보다 덥습니다.",
+        "slot_values": {}
+      },
+      {
+        "text": "明天我打算坐捷運去台北。",
+        "pinyin": "Míngtiān wǒ dǎsuàn zuò jiéyùn qù Táiběi.",
+        "translation_en": "Tomorrow I plan to take the MRT to Taipei.",
+        "translation_ko": "내일 저는 MRT를 타고 타이베이에 갈 계획입니다.",
+        "slot_values": {}
+      }
+    ],
+    "negative_examples": [
+      {
+        "text": "English word order copied directly",
+        "error": "Use the Mandarin pattern shown above instead of translating word-for-word."
       }
     ]
   }

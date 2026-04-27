@@ -1,114 +1,2488 @@
 [
   {
+    "char": "一",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 1,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "七",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 1,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "三",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 3,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "上",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 3,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "下",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 3,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "不",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 4,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "中",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 4,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "九",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 1,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "也",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 3,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "二",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 2,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "五",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 4,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "亮",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 9,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "人",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 2,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "什",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 4,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "今",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 4,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "他",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 5,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "以",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 5,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "作",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 1,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
     "char": "你",
     "strokes": [
-      "撇",
-      "竖",
-      "撇",
-      "横撇",
-      "竖钩",
-      "撇",
-      "点"
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
     ],
     "stroke_count": 7,
-    "radical": "亻",
+    "radical": "reference",
     "difficulty": 1
   },
   {
-    "char": "好",
+    "char": "來",
     "strokes": [
-      "撇点",
-      "撇",
-      "横",
-      "横撇",
-      "竖钩",
-      "横"
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 1,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "便",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 9,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "個",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 10,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "們",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 10,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "做",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 11,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "先",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
     ],
     "stroke_count": 6,
-    "radical": "女",
+    "radical": "reference",
     "difficulty": 1
   },
   {
-    "char": "我",
+    "char": "兩",
     "strokes": [
-      "撇",
-      "横",
-      "竖钩",
-      "提",
-      "斜钩",
-      "撇",
-      "点"
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 8,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "八",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 1,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "公",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 4,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "六",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 4,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "再",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 6,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "冷",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
     ],
     "stroke_count": 7,
-    "radical": "戈",
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "前",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 9,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "動",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 11,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "北",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 5,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "十",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 2,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "午",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 4,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "卡",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 5,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "去",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 1,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "友",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 1,
+    "radical": "reference",
     "difficulty": 1
   },
   {
     "char": "叫",
     "strokes": [
-      "竖",
-      "横折",
-      "横",
-      "竖提",
-      "竖"
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
     ],
     "stroke_count": 5,
-    "radical": "口",
+    "radical": "reference",
     "difficulty": 1
   },
   {
-    "char": "是",
+    "char": "可",
     "strokes": [
-      "竖",
-      "横折",
-      "横",
-      "横",
-      "横",
-      "竖",
-      "横",
-      "撇",
-      "捺"
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
     ],
-    "stroke_count": 9,
-    "radical": "日",
+    "stroke_count": 5,
+    "radical": "reference",
     "difficulty": 1
+  },
+  {
+    "char": "台",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 5,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "右",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 5,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "司",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 5,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "吃",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 1,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "名",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 1,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "呢",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 8,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "咖",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 8,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "哥",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 10,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "哪",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 10,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "唱",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 11,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "商",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 11,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "問",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 11,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "啡",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 11,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "喜",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 12,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "喝",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 1,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "單",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 12,
+    "radical": "reference",
+    "difficulty": 2
   },
   {
     "char": "嗎",
     "strokes": [
-      "竖",
-      "横折",
-      "横",
-      "横",
-      "竖",
-      "横",
-      "横",
-      "竖",
-      "横折钩",
-      "点",
-      "点",
-      "点",
-      "点"
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 1,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "四",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 1,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "園",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
     ],
     "stroke_count": 13,
-    "radical": "口",
+    "radical": "reference",
     "difficulty": 2
+  },
+  {
+    "char": "圖",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 14,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "在",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 6,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "地",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 1,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "坐",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 7,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "塊",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 12,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "外",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 1,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "多",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 6,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "大",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 3,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "天",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 4,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "奶",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 5,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "她",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 6,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "好",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 6,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "妹",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 8,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "姐",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 8,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "媽",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 13,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "子",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 3,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "字",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 1,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "學",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 16,
+    "radical": "reference",
+    "difficulty": 3
+  },
+  {
+    "char": "宜",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 8,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "家",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 10,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "寫",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 15,
+    "radical": "reference",
+    "difficulty": 3
+  },
+  {
+    "char": "小",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 3,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "少",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 4,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "工",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 1,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "左",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 5,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "希",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 7,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "幫",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 17,
+    "radical": "reference",
+    "difficulty": 3
+  },
+  {
+    "char": "年",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 6,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "幾",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 12,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "床",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 7,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "店",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 8,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "廁",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 12,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "廳",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 25,
+    "radical": "reference",
+    "difficulty": 3
+  },
+  {
+    "char": "弟",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 7,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "影",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 1,
+    "radical": "reference",
+    "difficulty": 1
   },
   {
     "char": "很",
     "strokes": [
-      "撇",
-      "撇",
-      "竖",
-      "横折",
-      "横",
-      "横",
-      "竖提",
-      "撇",
-      "捺"
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 1,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "後",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
     ],
     "stroke_count": 9,
-    "radical": "彳",
+    "radical": "reference",
     "difficulty": 2
+  },
+  {
+    "char": "得",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 11,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "必",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 5,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "怎",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 9,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "悠",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 11,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "想",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 1,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "愛",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 13,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "慢",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 14,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "我",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 7,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "所",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 8,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "手",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 4,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "打",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 5,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "抱",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 8,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "拍",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 8,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "拿",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 10,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "捷",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 11,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "文",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 1,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "新",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 13,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "方",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 1,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "旅",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 10,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "早",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 6,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "明",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 8,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "星",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 9,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "昨",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 9,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "是",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 9,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "更",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 1,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "書",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 10,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "最",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 12,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "會",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 13,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "有",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 6,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "朋",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 1,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "望",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 11,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "期",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 12,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "本",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 5,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "杯",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 8,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "果",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 8,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "校",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 10,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "樂",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 15,
+    "radical": "reference",
+    "difficulty": 3
+  },
+  {
+    "char": "機",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 16,
+    "radical": "reference",
+    "difficulty": 3
+  },
+  {
+    "char": "歉",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 14,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "歌",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 14,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "歡",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 22,
+    "radical": "reference",
+    "difficulty": 3
+  },
+  {
+    "char": "步",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 7,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "歲",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 13,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "比",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 4,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "水",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 4,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "沒",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 7,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "泳",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 1,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "渴",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 12,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "游",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 1,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "漂",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 14,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "灣",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 25,
+    "radical": "reference",
+    "difficulty": 3
+  },
+  {
+    "char": "火",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 4,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "為",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 9,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "然",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 12,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "照",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 13,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "熱",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 15,
+    "radical": "reference",
+    "difficulty": 3
+  },
+  {
+    "char": "爸",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 8,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "牛",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 4,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "狗",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 8,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "現",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 11,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "用",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 5,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "畫",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 12,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "發",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 12,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "百",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 1,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "的",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 8,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "看",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 9,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "票",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 11,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "站",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 10,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "等",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 12,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "算",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 14,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "米",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 6,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "聽",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 22,
+    "radical": "reference",
+    "difficulty": 3
+  },
+  {
+    "char": "肉",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 6,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "興",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 16,
+    "radical": "reference",
+    "difficulty": 3
+  },
+  {
+    "char": "舊",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 17,
+    "radical": "reference",
+    "difficulty": 3
+  },
+  {
+    "char": "舞",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 14,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "茶",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 9,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "菜",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 11,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "蘋",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 1,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "號",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 13,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "蛋",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 11,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "行",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 6,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "袋",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 11,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "裡",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 12,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "要",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 9,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "見",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 7,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "計",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 9,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "試",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 13,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "說",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 14,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "誰",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 15,
+    "radical": "reference",
+    "difficulty": 3
+  },
+  {
+    "char": "請",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 15,
+    "radical": "reference",
+    "difficulty": 3
+  },
+  {
+    "char": "貓",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 15,
+    "radical": "reference",
+    "difficulty": 3
+  },
+  {
+    "char": "貴",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 12,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "走",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 7,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "起",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 10,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "跑",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 12,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "跟",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 13,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "路",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 13,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "跳",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 13,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "車",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 7,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "這",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 1,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "進",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 12,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "遊",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 12,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "運",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 13,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "那",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 1,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "都",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 10,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "醫",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 18,
+    "radical": "reference",
+    "difficulty": 3
+  },
+  {
+    "char": "銀",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 14,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "錢",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 16,
+    "radical": "reference",
+    "difficulty": 3
+  },
+  {
+    "char": "院",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 10,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "隻",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 10,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "雞",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 18,
+    "radical": "reference",
+    "difficulty": 3
+  },
+  {
+    "char": "零",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 1,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "電",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 1,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "需",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 14,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "面",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 1,
+    "radical": "reference",
+    "difficulty": 1
+  },
+  {
+    "char": "音",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 9,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "須",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 12,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "題",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 18,
+    "radical": "reference",
+    "difficulty": 3
+  },
+  {
+    "char": "飛",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 9,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "飯",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 12,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "餐",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 16,
+    "radical": "reference",
+    "difficulty": 3
+  },
+  {
+    "char": "餓",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 15,
+    "radical": "reference",
+    "difficulty": 3
+  },
+  {
+    "char": "館",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 16,
+    "radical": "reference",
+    "difficulty": 3
+  },
+  {
+    "char": "高",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 10,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "魚",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 11,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "麵",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 20,
+    "radical": "reference",
+    "difficulty": 3
+  },
+  {
+    "char": "麼",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 14,
+    "radical": "reference",
+    "difficulty": 2
+  },
+  {
+    "char": "點",
+    "strokes": [
+      "Open a linked stroke-order reference for exact animation",
+      "Trace slowly in the shown order",
+      "Write it again inside a lesson sentence"
+    ],
+    "stroke_count": 17,
+    "radical": "reference",
+    "difficulty": 3
   }
 ]

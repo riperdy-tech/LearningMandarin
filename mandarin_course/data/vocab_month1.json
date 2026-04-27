@@ -1,6 +1,6 @@
 [
   {
-    "id": "VOC_M1_W1_001",
+    "id": "VOC_M1_001",
     "char": "你好",
     "pinyin": "nǐ hǎo",
     "pinyin_numeric": "ni3 hao3",
@@ -15,12 +15,14 @@
     "cefr": "A1",
     "hsk_level": 1,
     "example_ids": [
-      "SEN_M1_W1_001"
+      "SEN_M1_D01_01",
+      "SEN_M1_D07_01",
+      "SEN_M1_D30_01"
     ],
-    "audio_id": "AUD_VOC_M1_W1_001"
+    "audio_id": "AUD_VOC_M1_001"
   },
   {
-    "id": "VOC_M1_W1_002",
+    "id": "VOC_M1_002",
     "char": "我",
     "pinyin": "wǒ",
     "pinyin_numeric": "wo3",
@@ -28,18 +30,108 @@
       "wo3"
     ],
     "pos": "pronoun",
-    "meaning_en": "I",
+    "meaning_en": "I; me",
     "meaning_ko": "나",
     "frequency": "high",
     "cefr": "A1",
     "hsk_level": 1,
     "example_ids": [
-      "SEN_M1_W1_002"
+      "SEN_M1_D01_01",
+      "SEN_M1_D01_02",
+      "SEN_M1_D01_05",
+      "SEN_M1_D01_08",
+      "SEN_M1_D02_08",
+      "SEN_M1_D03_01",
+      "SEN_M1_D03_02",
+      "SEN_M1_D03_08",
+      "SEN_M1_D04_01",
+      "SEN_M1_D04_02",
+      "SEN_M1_D04_04",
+      "SEN_M1_D04_05",
+      "SEN_M1_D04_08",
+      "SEN_M1_D05_01",
+      "SEN_M1_D05_03",
+      "SEN_M1_D05_05",
+      "SEN_M1_D05_08",
+      "SEN_M1_D06_01",
+      "SEN_M1_D06_03",
+      "SEN_M1_D06_05",
+      "SEN_M1_D07_02",
+      "SEN_M1_D07_03",
+      "SEN_M1_D07_05",
+      "SEN_M1_D07_07",
+      "SEN_M1_D08_01",
+      "SEN_M1_D08_03",
+      "SEN_M1_D08_06",
+      "SEN_M1_D09_01",
+      "SEN_M1_D09_06",
+      "SEN_M1_D09_08",
+      "SEN_M1_D11_01",
+      "SEN_M1_D11_03",
+      "SEN_M1_D12_04",
+      "SEN_M1_D12_08",
+      "SEN_M1_D13_01",
+      "SEN_M1_D13_03",
+      "SEN_M1_D13_07",
+      "SEN_M1_D14_02",
+      "SEN_M1_D14_04",
+      "SEN_M1_D14_06",
+      "SEN_M1_D15_05",
+      "SEN_M1_D15_07",
+      "SEN_M1_D15_08",
+      "SEN_M1_D16_01",
+      "SEN_M1_D16_08",
+      "SEN_M1_D17_01",
+      "SEN_M1_D17_02",
+      "SEN_M1_D17_05",
+      "SEN_M1_D18_01",
+      "SEN_M1_D18_04",
+      "SEN_M1_D18_08",
+      "SEN_M1_D19_01",
+      "SEN_M1_D19_03",
+      "SEN_M1_D19_05",
+      "SEN_M1_D19_06",
+      "SEN_M1_D20_01",
+      "SEN_M1_D20_07",
+      "SEN_M1_D21_04",
+      "SEN_M1_D22_05",
+      "SEN_M1_D22_08",
+      "SEN_M1_D23_05",
+      "SEN_M1_D23_07",
+      "SEN_M1_D25_01",
+      "SEN_M1_D25_02",
+      "SEN_M1_D25_03",
+      "SEN_M1_D25_05",
+      "SEN_M1_D25_08",
+      "SEN_M1_D26_02",
+      "SEN_M1_D26_03",
+      "SEN_M1_D26_05",
+      "SEN_M1_D26_06",
+      "SEN_M1_D27_01",
+      "SEN_M1_D27_02",
+      "SEN_M1_D27_07",
+      "SEN_M1_D28_01",
+      "SEN_M1_D28_02",
+      "SEN_M1_D28_06",
+      "SEN_M1_D29_01",
+      "SEN_M1_D29_02",
+      "SEN_M1_D29_03",
+      "SEN_M1_D29_04",
+      "SEN_M1_D29_05",
+      "SEN_M1_D29_06",
+      "SEN_M1_D29_07",
+      "SEN_M1_D29_08",
+      "SEN_M1_D30_01",
+      "SEN_M1_D30_02",
+      "SEN_M1_D30_03",
+      "SEN_M1_D30_04",
+      "SEN_M1_D30_05",
+      "SEN_M1_D30_08"
     ],
-    "audio_id": "AUD_VOC_M1_W1_002"
+    "audio_id": "AUD_VOC_M1_002"
   },
   {
-    "id": "VOC_M1_W1_003",
+    "id": "VOC_M1_003",
     "char": "你",
     "pinyin": "nǐ",
     "pinyin_numeric": "ni3",
@@ -48,36 +140,171 @@
     ],
     "pos": "pronoun",
     "meaning_en": "you",
-    "meaning_ko": "너",
+    "meaning_ko": "너; 당신",
     "frequency": "high",
     "cefr": "A1",
     "hsk_level": 1,
     "example_ids": [
-      "SEN_M1_W1_003"
+      "SEN_M1_D01_03",
+      "SEN_M1_D01_07",
+      "SEN_M1_D02_01",
+      "SEN_M1_D02_07",
+      "SEN_M1_D03_03",
+      "SEN_M1_D05_04",
+      "SEN_M1_D06_04",
+      "SEN_M1_D07_01",
+      "SEN_M1_D07_02",
+      "SEN_M1_D07_04",
+      "SEN_M1_D07_06",
+      "SEN_M1_D08_02",
+      "SEN_M1_D09_05",
+      "SEN_M1_D10_01",
+      "SEN_M1_D10_03",
+      "SEN_M1_D10_04",
+      "SEN_M1_D10_08",
+      "SEN_M1_D11_08",
+      "SEN_M1_D12_05",
+      "SEN_M1_D13_04",
+      "SEN_M1_D14_01",
+      "SEN_M1_D14_03",
+      "SEN_M1_D16_01",
+      "SEN_M1_D16_02",
+      "SEN_M1_D16_06",
+      "SEN_M1_D16_08",
+      "SEN_M1_D17_02",
+      "SEN_M1_D17_04",
+      "SEN_M1_D17_08",
+      "SEN_M1_D18_05",
+      "SEN_M1_D19_06",
+      "SEN_M1_D20_06",
+      "SEN_M1_D20_07",
+      "SEN_M1_D21_03",
+      "SEN_M1_D22_03",
+      "SEN_M1_D22_08",
+      "SEN_M1_D23_05",
+      "SEN_M1_D24_05",
+      "SEN_M1_D25_04",
+      "SEN_M1_D26_07",
+      "SEN_M1_D26_08",
+      "SEN_M1_D27_04",
+      "SEN_M1_D27_08",
+      "SEN_M1_D28_05"
     ],
-    "audio_id": "AUD_VOC_M1_W1_003"
+    "audio_id": "AUD_VOC_M1_003"
   },
   {
-    "id": "VOC_M1_W1_004",
-    "char": "叫",
-    "pinyin": "jiào",
-    "pinyin_numeric": "jiao4",
+    "id": "VOC_M1_004",
+    "char": "他",
+    "pinyin": "tā",
+    "pinyin_numeric": "ta1",
     "phonemes": [
-      "jiao4"
+      "ta1"
     ],
-    "pos": "verb",
-    "meaning_en": "to be called",
-    "meaning_ko": "~라고 부르다",
+    "pos": "pronoun",
+    "meaning_en": "he; him",
+    "meaning_ko": "그",
     "frequency": "high",
     "cefr": "A1",
     "hsk_level": 1,
     "example_ids": [
-      "SEN_M1_W1_001"
+      "SEN_M1_D01_04",
+      "SEN_M1_D02_02",
+      "SEN_M1_D03_04",
+      "SEN_M1_D04_06",
+      "SEN_M1_D05_02",
+      "SEN_M1_D05_08",
+      "SEN_M1_D06_02",
+      "SEN_M1_D09_02",
+      "SEN_M1_D10_02",
+      "SEN_M1_D11_02",
+      "SEN_M1_D11_07",
+      "SEN_M1_D12_02",
+      "SEN_M1_D12_07",
+      "SEN_M1_D13_02",
+      "SEN_M1_D18_02",
+      "SEN_M1_D19_02",
+      "SEN_M1_D20_08",
+      "SEN_M1_D22_02",
+      "SEN_M1_D23_07",
+      "SEN_M1_D24_05",
+      "SEN_M1_D25_07",
+      "SEN_M1_D27_03",
+      "SEN_M1_D28_04"
     ],
-    "audio_id": "AUD_VOC_M1_W1_004"
+    "audio_id": "AUD_VOC_M1_004"
   },
   {
-    "id": "VOC_M1_W1_005",
+    "id": "VOC_M1_005",
+    "char": "她",
+    "pinyin": "tā",
+    "pinyin_numeric": "ta1",
+    "phonemes": [
+      "ta1"
+    ],
+    "pos": "pronoun",
+    "meaning_en": "she; her",
+    "meaning_ko": "그녀",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D01_05",
+      "SEN_M1_D03_05",
+      "SEN_M1_D06_06",
+      "SEN_M1_D09_04",
+      "SEN_M1_D10_06",
+      "SEN_M1_D11_04",
+      "SEN_M1_D18_03",
+      "SEN_M1_D19_07",
+      "SEN_M1_D21_05",
+      "SEN_M1_D28_08"
+    ],
+    "audio_id": "AUD_VOC_M1_005"
+  },
+  {
+    "id": "VOC_M1_006",
+    "char": "我們",
+    "pinyin": "wǒmen",
+    "pinyin_numeric": "women3",
+    "phonemes": [
+      "women3"
+    ],
+    "pos": "pronoun",
+    "meaning_en": "we; us",
+    "meaning_ko": "우리",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D01_06",
+      "SEN_M1_D03_06",
+      "SEN_M1_D05_07",
+      "SEN_M1_D06_07",
+      "SEN_M1_D07_08",
+      "SEN_M1_D08_07",
+      "SEN_M1_D09_03",
+      "SEN_M1_D11_05",
+      "SEN_M1_D13_08",
+      "SEN_M1_D14_08",
+      "SEN_M1_D15_06",
+      "SEN_M1_D17_06",
+      "SEN_M1_D18_06",
+      "SEN_M1_D19_04",
+      "SEN_M1_D19_08",
+      "SEN_M1_D20_03",
+      "SEN_M1_D21_01",
+      "SEN_M1_D21_02",
+      "SEN_M1_D21_06",
+      "SEN_M1_D22_01",
+      "SEN_M1_D25_06",
+      "SEN_M1_D27_06",
+      "SEN_M1_D28_03",
+      "SEN_M1_D28_07"
+    ],
+    "audio_id": "AUD_VOC_M1_006"
+  },
+  {
+    "id": "VOC_M1_007",
     "char": "是",
     "pinyin": "shì",
     "pinyin_numeric": "shi4",
@@ -91,12 +318,219 @@
     "cefr": "A1",
     "hsk_level": 1,
     "example_ids": [
-      "SEN_M1_W1_002"
+      "SEN_M1_D01_01",
+      "SEN_M1_D01_03",
+      "SEN_M1_D01_04",
+      "SEN_M1_D01_05",
+      "SEN_M1_D01_06",
+      "SEN_M1_D01_08",
+      "SEN_M1_D02_01",
+      "SEN_M1_D02_02",
+      "SEN_M1_D02_03",
+      "SEN_M1_D02_04",
+      "SEN_M1_D02_05",
+      "SEN_M1_D02_08",
+      "SEN_M1_D03_02",
+      "SEN_M1_D03_03",
+      "SEN_M1_D03_07",
+      "SEN_M1_D04_04",
+      "SEN_M1_D04_06",
+      "SEN_M1_D05_08",
+      "SEN_M1_D07_03",
+      "SEN_M1_D10_02",
+      "SEN_M1_D14_03",
+      "SEN_M1_D27_01",
+      "SEN_M1_D27_08",
+      "SEN_M1_D29_08"
     ],
-    "audio_id": "AUD_VOC_M1_W1_005"
+    "audio_id": "AUD_VOC_M1_007"
   },
   {
-    "id": "VOC_M1_W1_006",
+    "id": "VOC_M1_008",
+    "char": "叫",
+    "pinyin": "jiào",
+    "pinyin_numeric": "jiao4",
+    "phonemes": [
+      "jiao4"
+    ],
+    "pos": "verb",
+    "meaning_en": "to be called",
+    "meaning_ko": "~라고 부르다",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D01_02",
+      "SEN_M1_D01_07",
+      "SEN_M1_D07_01",
+      "SEN_M1_D07_02",
+      "SEN_M1_D10_06",
+      "SEN_M1_D30_01"
+    ],
+    "audio_id": "AUD_VOC_M1_008"
+  },
+  {
+    "id": "VOC_M1_009",
+    "char": "一",
+    "pinyin": "yī",
+    "pinyin_numeric": "yi1",
+    "phonemes": [
+      "yi1"
+    ],
+    "pos": "number",
+    "meaning_en": "one",
+    "meaning_ko": "하나",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D02_03",
+      "SEN_M1_D02_06",
+      "SEN_M1_D03_07",
+      "SEN_M1_D05_02",
+      "SEN_M1_D05_07",
+      "SEN_M1_D13_03",
+      "SEN_M1_D13_07",
+      "SEN_M1_D14_04",
+      "SEN_M1_D14_08",
+      "SEN_M1_D16_04",
+      "SEN_M1_D17_04",
+      "SEN_M1_D25_05",
+      "SEN_M1_D26_06",
+      "SEN_M1_D26_08",
+      "SEN_M1_D29_08"
+    ],
+    "audio_id": "AUD_VOC_M1_009"
+  },
+  {
+    "id": "VOC_M1_010",
+    "char": "二",
+    "pinyin": "èr",
+    "pinyin_numeric": "er4",
+    "phonemes": [
+      "er4"
+    ],
+    "pos": "number",
+    "meaning_en": "two",
+    "meaning_ko": "둘",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D02_06",
+      "SEN_M1_D02_08"
+    ],
+    "audio_id": "AUD_VOC_M1_010"
+  },
+  {
+    "id": "VOC_M1_011",
+    "char": "三",
+    "pinyin": "sān",
+    "pinyin_numeric": "san1",
+    "phonemes": [
+      "san1"
+    ],
+    "pos": "number",
+    "meaning_en": "three",
+    "meaning_ko": "셋",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D02_04",
+      "SEN_M1_D02_06",
+      "SEN_M1_D13_01",
+      "SEN_M1_D13_08",
+      "SEN_M1_D15_02",
+      "SEN_M1_D15_04",
+      "SEN_M1_D21_01"
+    ],
+    "audio_id": "AUD_VOC_M1_011"
+  },
+  {
+    "id": "VOC_M1_012",
+    "char": "四",
+    "pinyin": "sì",
+    "pinyin_numeric": "si4",
+    "phonemes": [
+      "si4"
+    ],
+    "pos": "number",
+    "meaning_en": "four",
+    "meaning_ko": "넷",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D02_06",
+      "SEN_M1_D07_05",
+      "SEN_M1_D30_02"
+    ],
+    "audio_id": "AUD_VOC_M1_012"
+  },
+  {
+    "id": "VOC_M1_013",
+    "char": "五",
+    "pinyin": "wǔ",
+    "pinyin_numeric": "wu3",
+    "phonemes": [
+      "wu3"
+    ],
+    "pos": "number",
+    "meaning_en": "five",
+    "meaning_ko": "다섯",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D02_05",
+      "SEN_M1_D02_06",
+      "SEN_M1_D02_07",
+      "SEN_M1_D05_01",
+      "SEN_M1_D13_05",
+      "SEN_M1_D16_04"
+    ],
+    "audio_id": "AUD_VOC_M1_013"
+  },
+  {
+    "id": "VOC_M1_014",
+    "char": "零",
+    "pinyin": "líng",
+    "pinyin_numeric": "ling2",
+    "phonemes": [
+      "ling2"
+    ],
+    "pos": "number",
+    "meaning_en": "zero",
+    "meaning_ko": "영",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_M1_014"
+  },
+  {
+    "id": "VOC_M1_015",
+    "char": "十",
+    "pinyin": "shí",
+    "pinyin_numeric": "shi2",
+    "phonemes": [
+      "shi2"
+    ],
+    "pos": "number",
+    "meaning_en": "ten",
+    "meaning_ko": "열",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D02_05",
+      "SEN_M1_D16_04"
+    ],
+    "audio_id": "AUD_VOC_M1_015"
+  },
+  {
+    "id": "VOC_M1_016",
     "char": "嗎",
     "pinyin": "ma",
     "pinyin_numeric": "ma0",
@@ -104,18 +538,1882 @@
       "ma0"
     ],
     "pos": "particle",
-    "meaning_en": "question particle",
-    "meaning_ko": "~냐?",
+    "meaning_en": "yes/no question particle",
+    "meaning_ko": "의문 조사",
     "frequency": "high",
     "cefr": "A1",
     "hsk_level": 1,
     "example_ids": [
-      "SEN_M1_W1_003"
+      "SEN_M1_D02_01",
+      "SEN_M1_D02_02",
+      "SEN_M1_D02_04",
+      "SEN_M1_D02_07",
+      "SEN_M1_D03_03",
+      "SEN_M1_D03_07",
+      "SEN_M1_D06_04",
+      "SEN_M1_D07_08",
+      "SEN_M1_D08_02",
+      "SEN_M1_D09_05",
+      "SEN_M1_D11_08",
+      "SEN_M1_D13_04",
+      "SEN_M1_D14_05",
+      "SEN_M1_D17_01",
+      "SEN_M1_D17_02",
+      "SEN_M1_D17_03",
+      "SEN_M1_D17_04",
+      "SEN_M1_D17_05",
+      "SEN_M1_D17_06",
+      "SEN_M1_D17_07",
+      "SEN_M1_D17_08",
+      "SEN_M1_D18_05",
+      "SEN_M1_D21_03",
+      "SEN_M1_D22_03",
+      "SEN_M1_D22_08",
+      "SEN_M1_D23_03",
+      "SEN_M1_D25_04",
+      "SEN_M1_D26_02",
+      "SEN_M1_D26_07",
+      "SEN_M1_D26_08",
+      "SEN_M1_D27_04",
+      "SEN_M1_D30_05"
     ],
-    "audio_id": "AUD_VOC_M1_W1_006"
+    "audio_id": "AUD_VOC_M1_016"
   },
   {
-    "id": "VOC_M1_W1_007",
+    "id": "VOC_M1_017",
+    "char": "六",
+    "pinyin": "liù",
+    "pinyin_numeric": "liu4",
+    "phonemes": [
+      "liu4"
+    ],
+    "pos": "number",
+    "meaning_en": "six",
+    "meaning_ko": "여섯",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_M1_017"
+  },
+  {
+    "id": "VOC_M1_018",
+    "char": "七",
+    "pinyin": "qī",
+    "pinyin_numeric": "qi1",
+    "phonemes": [
+      "qi1"
+    ],
+    "pos": "number",
+    "meaning_en": "seven",
+    "meaning_ko": "일곱",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_M1_018"
+  },
+  {
+    "id": "VOC_M1_019",
+    "char": "八",
+    "pinyin": "bā",
+    "pinyin_numeric": "ba1",
+    "phonemes": [
+      "ba1"
+    ],
+    "pos": "number",
+    "meaning_en": "eight",
+    "meaning_ko": "여덟",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D03_04"
+    ],
+    "audio_id": "AUD_VOC_M1_019"
+  },
+  {
+    "id": "VOC_M1_020",
+    "char": "九",
+    "pinyin": "jiǔ",
+    "pinyin_numeric": "jiu3",
+    "phonemes": [
+      "jiu3"
+    ],
+    "pos": "number",
+    "meaning_en": "nine",
+    "meaning_ko": "아홉",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D03_06"
+    ],
+    "audio_id": "AUD_VOC_M1_020"
+  },
+  {
+    "id": "VOC_M1_021",
+    "char": "百",
+    "pinyin": "bǎi",
+    "pinyin_numeric": "bai3",
+    "phonemes": [
+      "bai3"
+    ],
+    "pos": "number",
+    "meaning_en": "hundred",
+    "meaning_ko": "백",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D03_07"
+    ],
+    "audio_id": "AUD_VOC_M1_021"
+  },
+  {
+    "id": "VOC_M1_022",
+    "char": "有",
+    "pinyin": "yǒu",
+    "pinyin_numeric": "you3",
+    "phonemes": [
+      "you3"
+    ],
+    "pos": "verb",
+    "meaning_en": "to have; there is",
+    "meaning_ko": "있다",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D03_01",
+      "SEN_M1_D03_04",
+      "SEN_M1_D03_06",
+      "SEN_M1_D03_08",
+      "SEN_M1_D04_05",
+      "SEN_M1_D05_01",
+      "SEN_M1_D05_02",
+      "SEN_M1_D05_03",
+      "SEN_M1_D05_04",
+      "SEN_M1_D05_06",
+      "SEN_M1_D05_07",
+      "SEN_M1_D07_04",
+      "SEN_M1_D07_05",
+      "SEN_M1_D12_07",
+      "SEN_M1_D13_01",
+      "SEN_M1_D13_02",
+      "SEN_M1_D13_05",
+      "SEN_M1_D16_06",
+      "SEN_M1_D17_08",
+      "SEN_M1_D30_02"
+    ],
+    "audio_id": "AUD_VOC_M1_022"
+  },
+  {
+    "id": "VOC_M1_023",
+    "char": "的",
+    "pinyin": "de",
+    "pinyin_numeric": "de0",
+    "phonemes": [
+      "de0"
+    ],
+    "pos": "particle",
+    "meaning_en": "possessive particle",
+    "meaning_ko": "~의",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D03_02",
+      "SEN_M1_D03_03",
+      "SEN_M1_D03_05",
+      "SEN_M1_D03_08",
+      "SEN_M1_D05_08",
+      "SEN_M1_D12_04",
+      "SEN_M1_D12_05",
+      "SEN_M1_D17_02",
+      "SEN_M1_D20_02",
+      "SEN_M1_D21_08",
+      "SEN_M1_D23_05",
+      "SEN_M1_D24_01",
+      "SEN_M1_D24_02",
+      "SEN_M1_D24_06",
+      "SEN_M1_D24_07",
+      "SEN_M1_D27_01",
+      "SEN_M1_D27_07",
+      "SEN_M1_D27_08",
+      "SEN_M1_D28_07",
+      "SEN_M1_D29_08"
+    ],
+    "audio_id": "AUD_VOC_M1_023"
+  },
+  {
+    "id": "VOC_M1_024",
+    "char": "書",
+    "pinyin": "shū",
+    "pinyin_numeric": "shu1",
+    "phonemes": [
+      "shu1"
+    ],
+    "pos": "noun",
+    "meaning_en": "book",
+    "meaning_ko": "책",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D03_01",
+      "SEN_M1_D03_03",
+      "SEN_M1_D03_06",
+      "SEN_M1_D11_07",
+      "SEN_M1_D19_07",
+      "SEN_M1_D20_01",
+      "SEN_M1_D20_05",
+      "SEN_M1_D29_06"
+    ],
+    "audio_id": "AUD_VOC_M1_024"
+  },
+  {
+    "id": "VOC_M1_025",
+    "char": "手機",
+    "pinyin": "shǒujī",
+    "pinyin_numeric": "shouji1",
+    "phonemes": [
+      "shouji1"
+    ],
+    "pos": "noun",
+    "meaning_en": "mobile phone",
+    "meaning_ko": "휴대폰",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D03_02",
+      "SEN_M1_D03_05",
+      "SEN_M1_D03_08",
+      "SEN_M1_D04_05",
+      "SEN_M1_D11_04",
+      "SEN_M1_D17_02",
+      "SEN_M1_D20_04",
+      "SEN_M1_D23_05",
+      "SEN_M1_D24_04",
+      "SEN_M1_D25_08"
+    ],
+    "audio_id": "AUD_VOC_M1_025"
+  },
+  {
+    "id": "VOC_M1_026",
+    "char": "爸爸",
+    "pinyin": "bàba",
+    "pinyin_numeric": "baba4",
+    "phonemes": [
+      "baba4"
+    ],
+    "pos": "noun",
+    "meaning_en": "dad; father",
+    "meaning_ko": "아빠",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D04_04",
+      "SEN_M1_D06_08",
+      "SEN_M1_D08_05",
+      "SEN_M1_D11_06",
+      "SEN_M1_D18_07",
+      "SEN_M1_D22_07"
+    ],
+    "audio_id": "AUD_VOC_M1_026"
+  },
+  {
+    "id": "VOC_M1_027",
+    "char": "媽媽",
+    "pinyin": "māma",
+    "pinyin_numeric": "mama1",
+    "phonemes": [
+      "mama1"
+    ],
+    "pos": "noun",
+    "meaning_en": "mom; mother",
+    "meaning_ko": "엄마",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D04_03"
+    ],
+    "audio_id": "AUD_VOC_M1_027"
+  },
+  {
+    "id": "VOC_M1_028",
+    "char": "哥哥",
+    "pinyin": "gēge",
+    "pinyin_numeric": "gege1",
+    "phonemes": [
+      "gege1"
+    ],
+    "pos": "noun",
+    "meaning_en": "older brother",
+    "meaning_ko": "오빠; 형",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D04_08",
+      "SEN_M1_D09_07"
+    ],
+    "audio_id": "AUD_VOC_M1_028"
+  },
+  {
+    "id": "VOC_M1_029",
+    "char": "姐姐",
+    "pinyin": "jiějie",
+    "pinyin_numeric": "jiejie3",
+    "phonemes": [
+      "jiejie3"
+    ],
+    "pos": "noun",
+    "meaning_en": "older sister",
+    "meaning_ko": "언니; 누나",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D04_05",
+      "SEN_M1_D05_02",
+      "SEN_M1_D12_02"
+    ],
+    "audio_id": "AUD_VOC_M1_029"
+  },
+  {
+    "id": "VOC_M1_030",
+    "char": "弟弟",
+    "pinyin": "dìdi",
+    "pinyin_numeric": "didi4",
+    "phonemes": [
+      "didi4"
+    ],
+    "pos": "noun",
+    "meaning_en": "younger brother",
+    "meaning_ko": "남동생",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D04_06",
+      "SEN_M1_D05_02"
+    ],
+    "audio_id": "AUD_VOC_M1_030"
+  },
+  {
+    "id": "VOC_M1_031",
+    "char": "妹妹",
+    "pinyin": "mèimei",
+    "pinyin_numeric": "meimei4",
+    "phonemes": [
+      "meimei4"
+    ],
+    "pos": "noun",
+    "meaning_en": "younger sister",
+    "meaning_ko": "여동생",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D04_07",
+      "SEN_M1_D08_08",
+      "SEN_M1_D12_08",
+      "SEN_M1_D13_06",
+      "SEN_M1_D27_05"
+    ],
+    "audio_id": "AUD_VOC_M1_031"
+  },
+  {
+    "id": "VOC_M1_032",
+    "char": "今天",
+    "pinyin": "jīntiān",
+    "pinyin_numeric": "jintian1",
+    "phonemes": [
+      "jintian1"
+    ],
+    "pos": "time",
+    "meaning_en": "today",
+    "meaning_ko": "오늘",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D04_01",
+      "SEN_M1_D04_07",
+      "SEN_M1_D06_07",
+      "SEN_M1_D07_06",
+      "SEN_M1_D09_06",
+      "SEN_M1_D11_05",
+      "SEN_M1_D12_01",
+      "SEN_M1_D12_06",
+      "SEN_M1_D15_03",
+      "SEN_M1_D16_05",
+      "SEN_M1_D21_08",
+      "SEN_M1_D23_01",
+      "SEN_M1_D23_06",
+      "SEN_M1_D29_01",
+      "SEN_M1_D30_04",
+      "SEN_M1_D30_07"
+    ],
+    "audio_id": "AUD_VOC_M1_032"
+  },
+  {
+    "id": "VOC_M1_033",
+    "char": "明天",
+    "pinyin": "míngtiān",
+    "pinyin_numeric": "mingtian1",
+    "phonemes": [
+      "mingtian1"
+    ],
+    "pos": "time",
+    "meaning_en": "tomorrow",
+    "meaning_ko": "내일",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D04_02",
+      "SEN_M1_D04_08",
+      "SEN_M1_D07_08",
+      "SEN_M1_D15_04",
+      "SEN_M1_D21_01",
+      "SEN_M1_D22_02",
+      "SEN_M1_D22_08",
+      "SEN_M1_D28_01",
+      "SEN_M1_D28_05",
+      "SEN_M1_D30_08"
+    ],
+    "audio_id": "AUD_VOC_M1_033"
+  },
+  {
+    "id": "VOC_M1_034",
+    "char": "昨天",
+    "pinyin": "zuótiān",
+    "pinyin_numeric": "zuotian1",
+    "phonemes": [
+      "zuotian1"
+    ],
+    "pos": "time",
+    "meaning_en": "yesterday",
+    "meaning_ko": "어제",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D04_03",
+      "SEN_M1_D23_01",
+      "SEN_M1_D23_06",
+      "SEN_M1_D30_07"
+    ],
+    "audio_id": "AUD_VOC_M1_034"
+  },
+  {
+    "id": "VOC_M1_035",
+    "char": "十一",
+    "pinyin": "shíyī",
+    "pinyin_numeric": "shiyi1",
+    "phonemes": [
+      "shiyi1"
+    ],
+    "pos": "number",
+    "meaning_en": "eleven",
+    "meaning_ko": "열하나",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_M1_035"
+  },
+  {
+    "id": "VOC_M1_036",
+    "char": "十二",
+    "pinyin": "shí'èr",
+    "pinyin_numeric": "shi4'er",
+    "phonemes": [
+      "shi4",
+      "er"
+    ],
+    "pos": "number",
+    "meaning_en": "twelve",
+    "meaning_ko": "열둘",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D05_03"
+    ],
+    "audio_id": "AUD_VOC_M1_036"
+  },
+  {
+    "id": "VOC_M1_037",
+    "char": "十五",
+    "pinyin": "shíwǔ",
+    "pinyin_numeric": "shiwu3",
+    "phonemes": [
+      "shiwu3"
+    ],
+    "pos": "number",
+    "meaning_en": "fifteen",
+    "meaning_ko": "열다섯",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D05_06"
+    ],
+    "audio_id": "AUD_VOC_M1_037"
+  },
+  {
+    "id": "VOC_M1_038",
+    "char": "二十",
+    "pinyin": "èrshí",
+    "pinyin_numeric": "ershi2",
+    "phonemes": [
+      "ershi2"
+    ],
+    "pos": "number",
+    "meaning_en": "twenty",
+    "meaning_ko": "스물",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D05_05",
+      "SEN_M1_D15_07"
+    ],
+    "audio_id": "AUD_VOC_M1_038"
+  },
+  {
+    "id": "VOC_M1_039",
+    "char": "家",
+    "pinyin": "jiā",
+    "pinyin_numeric": "jia1",
+    "phonemes": [
+      "jia1"
+    ],
+    "pos": "noun",
+    "meaning_en": "home; family",
+    "meaning_ko": "집; 가족",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D05_01",
+      "SEN_M1_D05_04",
+      "SEN_M1_D05_07",
+      "SEN_M1_D07_04",
+      "SEN_M1_D07_05",
+      "SEN_M1_D12_04",
+      "SEN_M1_D14_07",
+      "SEN_M1_D16_06",
+      "SEN_M1_D19_05",
+      "SEN_M1_D20_03",
+      "SEN_M1_D22_08",
+      "SEN_M1_D23_08",
+      "SEN_M1_D29_02",
+      "SEN_M1_D29_07",
+      "SEN_M1_D30_02"
+    ],
+    "audio_id": "AUD_VOC_M1_039"
+  },
+  {
+    "id": "VOC_M1_040",
+    "char": "人",
+    "pinyin": "rén",
+    "pinyin_numeric": "ren2",
+    "phonemes": [
+      "ren2"
+    ],
+    "pos": "noun",
+    "meaning_en": "person; people",
+    "meaning_ko": "사람",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D05_01",
+      "SEN_M1_D05_04",
+      "SEN_M1_D07_04",
+      "SEN_M1_D07_05",
+      "SEN_M1_D16_06",
+      "SEN_M1_D30_02"
+    ],
+    "audio_id": "AUD_VOC_M1_040"
+  },
+  {
+    "id": "VOC_M1_041",
+    "char": "個",
+    "pinyin": "ge",
+    "pinyin_numeric": "ge0",
+    "phonemes": [
+      "ge0"
+    ],
+    "pos": "measure",
+    "meaning_en": "general measure word",
+    "meaning_ko": "개; 명",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D05_01",
+      "SEN_M1_D05_02",
+      "SEN_M1_D05_03",
+      "SEN_M1_D05_04",
+      "SEN_M1_D05_06",
+      "SEN_M1_D05_07",
+      "SEN_M1_D07_04",
+      "SEN_M1_D07_05",
+      "SEN_M1_D08_04",
+      "SEN_M1_D10_05",
+      "SEN_M1_D12_03",
+      "SEN_M1_D14_05",
+      "SEN_M1_D16_03",
+      "SEN_M1_D16_06",
+      "SEN_M1_D23_02",
+      "SEN_M1_D26_06",
+      "SEN_M1_D30_02"
+    ],
+    "audio_id": "AUD_VOC_M1_041"
+  },
+  {
+    "id": "VOC_M1_042",
+    "char": "朋友",
+    "pinyin": "péngyǒu",
+    "pinyin_numeric": "pengyou3",
+    "phonemes": [
+      "pengyou3"
+    ],
+    "pos": "noun",
+    "meaning_en": "friend",
+    "meaning_ko": "친구",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D05_03",
+      "SEN_M1_D05_08",
+      "SEN_M1_D12_07",
+      "SEN_M1_D27_07"
+    ],
+    "audio_id": "AUD_VOC_M1_042"
+  },
+  {
+    "id": "VOC_M1_043",
+    "char": "米飯",
+    "pinyin": "mǐfàn",
+    "pinyin_numeric": "mifan4",
+    "phonemes": [
+      "mifan4"
+    ],
+    "pos": "noun",
+    "meaning_en": "rice",
+    "meaning_ko": "밥",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D06_05",
+      "SEN_M1_D08_05"
+    ],
+    "audio_id": "AUD_VOC_M1_043"
+  },
+  {
+    "id": "VOC_M1_044",
+    "char": "麵",
+    "pinyin": "miàn",
+    "pinyin_numeric": "mian4",
+    "phonemes": [
+      "mian4"
+    ],
+    "pos": "noun",
+    "meaning_en": "noodles",
+    "meaning_ko": "면",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D06_02",
+      "SEN_M1_D06_07",
+      "SEN_M1_D07_07",
+      "SEN_M1_D08_01",
+      "SEN_M1_D14_08"
+    ],
+    "audio_id": "AUD_VOC_M1_044"
+  },
+  {
+    "id": "VOC_M1_045",
+    "char": "水",
+    "pinyin": "shuǐ",
+    "pinyin_numeric": "shui3",
+    "phonemes": [
+      "shui3"
+    ],
+    "pos": "noun",
+    "meaning_en": "water",
+    "meaning_ko": "물",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D06_03",
+      "SEN_M1_D19_01",
+      "SEN_M1_D29_01"
+    ],
+    "audio_id": "AUD_VOC_M1_045"
+  },
+  {
+    "id": "VOC_M1_046",
+    "char": "茶",
+    "pinyin": "chá",
+    "pinyin_numeric": "cha2",
+    "phonemes": [
+      "cha2"
+    ],
+    "pos": "noun",
+    "meaning_en": "tea",
+    "meaning_ko": "차",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D06_01",
+      "SEN_M1_D06_08",
+      "SEN_M1_D07_07",
+      "SEN_M1_D08_01",
+      "SEN_M1_D11_06",
+      "SEN_M1_D13_04",
+      "SEN_M1_D14_03",
+      "SEN_M1_D14_04",
+      "SEN_M1_D18_08",
+      "SEN_M1_D23_04",
+      "SEN_M1_D29_04"
+    ],
+    "audio_id": "AUD_VOC_M1_046"
+  },
+  {
+    "id": "VOC_M1_047",
+    "char": "咖啡",
+    "pinyin": "kāfēi",
+    "pinyin_numeric": "kafei1",
+    "phonemes": [
+      "kafei1"
+    ],
+    "pos": "noun",
+    "meaning_en": "coffee",
+    "meaning_ko": "커피",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D06_04",
+      "SEN_M1_D06_06",
+      "SEN_M1_D11_01",
+      "SEN_M1_D13_08",
+      "SEN_M1_D14_03",
+      "SEN_M1_D15_08",
+      "SEN_M1_D16_04",
+      "SEN_M1_D17_06",
+      "SEN_M1_D18_04",
+      "SEN_M1_D19_04",
+      "SEN_M1_D20_08",
+      "SEN_M1_D21_02",
+      "SEN_M1_D21_05",
+      "SEN_M1_D23_04",
+      "SEN_M1_D26_07",
+      "SEN_M1_D28_08",
+      "SEN_M1_D29_04"
+    ],
+    "audio_id": "AUD_VOC_M1_047"
+  },
+  {
+    "id": "VOC_M1_048",
+    "char": "餓",
+    "pinyin": "è",
+    "pinyin_numeric": "e4",
+    "phonemes": [
+      "e4"
+    ],
+    "pos": "adjective",
+    "meaning_en": "hungry",
+    "meaning_ko": "배고프다",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D06_02"
+    ],
+    "audio_id": "AUD_VOC_M1_048"
+  },
+  {
+    "id": "VOC_M1_049",
+    "char": "渴",
+    "pinyin": "kě",
+    "pinyin_numeric": "ke3",
+    "phonemes": [
+      "ke3"
+    ],
+    "pos": "adjective",
+    "meaning_en": "thirsty",
+    "meaning_ko": "목마르다",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D06_03"
+    ],
+    "audio_id": "AUD_VOC_M1_049"
+  },
+  {
+    "id": "VOC_M1_050",
+    "char": "想",
+    "pinyin": "xiǎng",
+    "pinyin_numeric": "xiang3",
+    "phonemes": [
+      "xiang3"
+    ],
+    "pos": "verb",
+    "meaning_en": "to want; to think",
+    "meaning_ko": "원하다; 생각하다",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D06_01",
+      "SEN_M1_D06_02",
+      "SEN_M1_D06_03",
+      "SEN_M1_D06_04",
+      "SEN_M1_D06_05",
+      "SEN_M1_D06_06",
+      "SEN_M1_D06_07",
+      "SEN_M1_D06_08",
+      "SEN_M1_D07_06",
+      "SEN_M1_D07_07",
+      "SEN_M1_D08_03",
+      "SEN_M1_D08_05",
+      "SEN_M1_D09_01",
+      "SEN_M1_D09_06",
+      "SEN_M1_D09_08",
+      "SEN_M1_D11_03",
+      "SEN_M1_D13_07",
+      "SEN_M1_D14_01",
+      "SEN_M1_D14_02",
+      "SEN_M1_D16_08",
+      "SEN_M1_D19_01",
+      "SEN_M1_D21_04",
+      "SEN_M1_D26_07",
+      "SEN_M1_D28_02",
+      "SEN_M1_D29_04",
+      "SEN_M1_D30_04"
+    ],
+    "audio_id": "AUD_VOC_M1_050"
+  },
+  {
+    "id": "VOC_M1_051",
+    "char": "喝",
+    "pinyin": "hē",
+    "pinyin_numeric": "he1",
+    "phonemes": [
+      "he1"
+    ],
+    "pos": "verb",
+    "meaning_en": "to drink",
+    "meaning_ko": "마시다",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D06_01",
+      "SEN_M1_D06_03",
+      "SEN_M1_D06_04",
+      "SEN_M1_D06_06",
+      "SEN_M1_D06_08",
+      "SEN_M1_D07_07",
+      "SEN_M1_D11_01",
+      "SEN_M1_D11_06",
+      "SEN_M1_D14_03",
+      "SEN_M1_D15_08",
+      "SEN_M1_D17_06",
+      "SEN_M1_D18_04",
+      "SEN_M1_D19_01",
+      "SEN_M1_D19_04",
+      "SEN_M1_D20_08",
+      "SEN_M1_D21_02",
+      "SEN_M1_D21_05",
+      "SEN_M1_D26_07",
+      "SEN_M1_D28_08",
+      "SEN_M1_D29_01",
+      "SEN_M1_D29_04"
+    ],
+    "audio_id": "AUD_VOC_M1_051"
+  },
+  {
+    "id": "VOC_M1_052",
+    "char": "吃",
+    "pinyin": "chī",
+    "pinyin_numeric": "chi1",
+    "phonemes": [
+      "chi1"
+    ],
+    "pos": "verb",
+    "meaning_en": "to eat",
+    "meaning_ko": "먹다",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D06_02",
+      "SEN_M1_D06_05",
+      "SEN_M1_D06_07",
+      "SEN_M1_D07_07",
+      "SEN_M1_D08_03",
+      "SEN_M1_D08_04",
+      "SEN_M1_D08_05",
+      "SEN_M1_D08_06",
+      "SEN_M1_D08_07",
+      "SEN_M1_D11_03",
+      "SEN_M1_D14_01",
+      "SEN_M1_D14_02",
+      "SEN_M1_D14_06",
+      "SEN_M1_D18_02",
+      "SEN_M1_D19_02",
+      "SEN_M1_D29_07"
+    ],
+    "audio_id": "AUD_VOC_M1_052"
+  },
+  {
+    "id": "VOC_M1_053",
+    "char": "牛奶",
+    "pinyin": "niúnǎi",
+    "pinyin_numeric": "niunai3",
+    "phonemes": [
+      "niunai3"
+    ],
+    "pos": "noun",
+    "meaning_en": "milk",
+    "meaning_ko": "우유",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D08_02"
+    ],
+    "audio_id": "AUD_VOC_M1_053"
+  },
+  {
+    "id": "VOC_M1_054",
+    "char": "菜",
+    "pinyin": "cài",
+    "pinyin_numeric": "cai4",
+    "phonemes": [
+      "cai4"
+    ],
+    "pos": "noun",
+    "meaning_en": "dish; vegetable",
+    "meaning_ko": "요리; 채소",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D08_04",
+      "SEN_M1_D14_02",
+      "SEN_M1_D14_05",
+      "SEN_M1_D23_02"
+    ],
+    "audio_id": "AUD_VOC_M1_054"
+  },
+  {
+    "id": "VOC_M1_055",
+    "char": "肉",
+    "pinyin": "ròu",
+    "pinyin_numeric": "rou4",
+    "phonemes": [
+      "rou4"
+    ],
+    "pos": "noun",
+    "meaning_en": "meat",
+    "meaning_ko": "고기",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D08_06",
+      "SEN_M1_D11_03",
+      "SEN_M1_D14_06"
+    ],
+    "audio_id": "AUD_VOC_M1_055"
+  },
+  {
+    "id": "VOC_M1_056",
+    "char": "雞蛋",
+    "pinyin": "jīdàn",
+    "pinyin_numeric": "jidan4",
+    "phonemes": [
+      "jidan4"
+    ],
+    "pos": "noun",
+    "meaning_en": "egg",
+    "meaning_ko": "계란",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D08_03"
+    ],
+    "audio_id": "AUD_VOC_M1_056"
+  },
+  {
+    "id": "VOC_M1_057",
+    "char": "魚",
+    "pinyin": "yú",
+    "pinyin_numeric": "yu2",
+    "phonemes": [
+      "yu2"
+    ],
+    "pos": "noun",
+    "meaning_en": "fish",
+    "meaning_ko": "생선",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D08_05",
+      "SEN_M1_D14_02"
+    ],
+    "audio_id": "AUD_VOC_M1_057"
+  },
+  {
+    "id": "VOC_M1_058",
+    "char": "水果",
+    "pinyin": "shuǐguǒ",
+    "pinyin_numeric": "shuiguo3",
+    "phonemes": [
+      "shuiguo3"
+    ],
+    "pos": "noun",
+    "meaning_en": "fruit",
+    "meaning_ko": "과일",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D08_08"
+    ],
+    "audio_id": "AUD_VOC_M1_058"
+  },
+  {
+    "id": "VOC_M1_059",
+    "char": "蘋果",
+    "pinyin": "píngguǒ",
+    "pinyin_numeric": "pingguo3",
+    "phonemes": [
+      "pingguo3"
+    ],
+    "pos": "noun",
+    "meaning_en": "apple",
+    "meaning_ko": "사과",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D08_08",
+      "SEN_M1_D16_08"
+    ],
+    "audio_id": "AUD_VOC_M1_059"
+  },
+  {
+    "id": "VOC_M1_060",
+    "char": "餐廳",
+    "pinyin": "cāntīng",
+    "pinyin_numeric": "canting1",
+    "phonemes": [
+      "canting1"
+    ],
+    "pos": "noun",
+    "meaning_en": "restaurant",
+    "meaning_ko": "식당",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D08_07",
+      "SEN_M1_D10_07",
+      "SEN_M1_D12_03",
+      "SEN_M1_D14_07",
+      "SEN_M1_D15_06",
+      "SEN_M1_D19_03",
+      "SEN_M1_D23_08",
+      "SEN_M1_D24_08"
+    ],
+    "audio_id": "AUD_VOC_M1_060"
+  },
+  {
+    "id": "VOC_M1_061",
+    "char": "要",
+    "pinyin": "yào",
+    "pinyin_numeric": "yao4",
+    "phonemes": [
+      "yao4"
+    ],
+    "pos": "verb",
+    "meaning_en": "to want; need; will",
+    "meaning_ko": "원하다; 필요하다",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D08_01",
+      "SEN_M1_D08_02",
+      "SEN_M1_D13_03",
+      "SEN_M1_D13_04",
+      "SEN_M1_D13_08",
+      "SEN_M1_D14_04",
+      "SEN_M1_D14_08",
+      "SEN_M1_D26_06",
+      "SEN_M1_D28_05"
+    ],
+    "audio_id": "AUD_VOC_M1_061"
+  },
+  {
+    "id": "VOC_M1_062",
+    "char": "看",
+    "pinyin": "kàn",
+    "pinyin_numeric": "kan4",
+    "phonemes": [
+      "kan4"
+    ],
+    "pos": "verb",
+    "meaning_en": "to look; watch; read",
+    "meaning_ko": "보다; 읽다",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D09_04",
+      "SEN_M1_D09_08",
+      "SEN_M1_D18_01",
+      "SEN_M1_D19_04",
+      "SEN_M1_D20_01",
+      "SEN_M1_D21_04",
+      "SEN_M1_D29_06"
+    ],
+    "audio_id": "AUD_VOC_M1_062"
+  },
+  {
+    "id": "VOC_M1_063",
+    "char": "聽",
+    "pinyin": "tīng",
+    "pinyin_numeric": "ting1",
+    "phonemes": [
+      "ting1"
+    ],
+    "pos": "verb",
+    "meaning_en": "to listen",
+    "meaning_ko": "듣다",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D09_03",
+      "SEN_M1_D18_03"
+    ],
+    "audio_id": "AUD_VOC_M1_063"
+  },
+  {
+    "id": "VOC_M1_064",
+    "char": "說",
+    "pinyin": "shuō",
+    "pinyin_numeric": "shuo1",
+    "phonemes": [
+      "shuo1"
+    ],
+    "pos": "verb",
+    "meaning_en": "to speak; say",
+    "meaning_ko": "말하다",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D09_05",
+      "SEN_M1_D10_05",
+      "SEN_M1_D17_04",
+      "SEN_M1_D19_06",
+      "SEN_M1_D23_07",
+      "SEN_M1_D26_08"
+    ],
+    "audio_id": "AUD_VOC_M1_064"
+  },
+  {
+    "id": "VOC_M1_065",
+    "char": "寫",
+    "pinyin": "xiě",
+    "pinyin_numeric": "xie3",
+    "phonemes": [
+      "xie3"
+    ],
+    "pos": "verb",
+    "meaning_en": "to write",
+    "meaning_ko": "쓰다",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D09_02",
+      "SEN_M1_D09_06",
+      "SEN_M1_D19_06"
+    ],
+    "audio_id": "AUD_VOC_M1_065"
+  },
+  {
+    "id": "VOC_M1_066",
+    "char": "學",
+    "pinyin": "xué",
+    "pinyin_numeric": "xue2",
+    "phonemes": [
+      "xue2"
+    ],
+    "pos": "verb",
+    "meaning_en": "to study; learn",
+    "meaning_ko": "배우다",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D09_01",
+      "SEN_M1_D10_04",
+      "SEN_M1_D11_05",
+      "SEN_M1_D15_05",
+      "SEN_M1_D19_01",
+      "SEN_M1_D19_07",
+      "SEN_M1_D20_02",
+      "SEN_M1_D25_03",
+      "SEN_M1_D28_02",
+      "SEN_M1_D28_04",
+      "SEN_M1_D29_02"
+    ],
+    "audio_id": "AUD_VOC_M1_066"
+  },
+  {
+    "id": "VOC_M1_067",
+    "char": "做",
+    "pinyin": "zuò",
+    "pinyin_numeric": "zuo4",
+    "phonemes": [
+      "zuo4"
+    ],
+    "pos": "verb",
+    "meaning_en": "to do; make",
+    "meaning_ko": "하다; 만들다",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D09_07",
+      "SEN_M1_D10_01",
+      "SEN_M1_D28_05"
+    ],
+    "audio_id": "AUD_VOC_M1_067"
+  },
+  {
+    "id": "VOC_M1_068",
+    "char": "喜歡",
+    "pinyin": "xǐhuan",
+    "pinyin_numeric": "xihuan3",
+    "phonemes": [
+      "xihuan3"
+    ],
+    "pos": "verb",
+    "meaning_en": "to like",
+    "meaning_ko": "좋아하다",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D09_04",
+      "SEN_M1_D10_08",
+      "SEN_M1_D11_08",
+      "SEN_M1_D18_01",
+      "SEN_M1_D18_03",
+      "SEN_M1_D18_04",
+      "SEN_M1_D18_05",
+      "SEN_M1_D18_07",
+      "SEN_M1_D18_08",
+      "SEN_M1_D21_05",
+      "SEN_M1_D27_02",
+      "SEN_M1_D27_03",
+      "SEN_M1_D27_07",
+      "SEN_M1_D30_03"
+    ],
+    "audio_id": "AUD_VOC_M1_068"
+  },
+  {
+    "id": "VOC_M1_069",
+    "char": "中文",
+    "pinyin": "Zhōngwén",
+    "pinyin_numeric": "Zhongwen2",
+    "phonemes": [
+      "zhongwen2"
+    ],
+    "pos": "noun",
+    "meaning_en": "Chinese language",
+    "meaning_ko": "중국어",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D09_01",
+      "SEN_M1_D09_05",
+      "SEN_M1_D10_04",
+      "SEN_M1_D12_05",
+      "SEN_M1_D15_05",
+      "SEN_M1_D19_01",
+      "SEN_M1_D23_07",
+      "SEN_M1_D25_03",
+      "SEN_M1_D28_04",
+      "SEN_M1_D29_02"
+    ],
+    "audio_id": "AUD_VOC_M1_069"
+  },
+  {
+    "id": "VOC_M1_070",
+    "char": "電影",
+    "pinyin": "diànyǐng",
+    "pinyin_numeric": "dianying3",
+    "phonemes": [
+      "dianying3"
+    ],
+    "pos": "noun",
+    "meaning_en": "movie",
+    "meaning_ko": "영화",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D09_04",
+      "SEN_M1_D09_08",
+      "SEN_M1_D11_08",
+      "SEN_M1_D18_01",
+      "SEN_M1_D19_04",
+      "SEN_M1_D21_04"
+    ],
+    "audio_id": "AUD_VOC_M1_070"
+  },
+  {
+    "id": "VOC_M1_071",
+    "char": "什麼",
+    "pinyin": "shénme",
+    "pinyin_numeric": "shenme2",
+    "phonemes": [
+      "shenme2"
+    ],
+    "pos": "question",
+    "meaning_en": "what",
+    "meaning_ko": "무엇",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D10_01",
+      "SEN_M1_D10_06",
+      "SEN_M1_D10_08",
+      "SEN_M1_D14_01",
+      "SEN_M1_D27_08",
+      "SEN_M1_D28_05"
+    ],
+    "audio_id": "AUD_VOC_M1_071"
+  },
+  {
+    "id": "VOC_M1_072",
+    "char": "誰",
+    "pinyin": "shéi",
+    "pinyin_numeric": "shei2",
+    "phonemes": [
+      "shei2"
+    ],
+    "pos": "question",
+    "meaning_en": "who",
+    "meaning_ko": "누구",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D10_02"
+    ],
+    "audio_id": "AUD_VOC_M1_072"
+  },
+  {
+    "id": "VOC_M1_073",
+    "char": "哪裡",
+    "pinyin": "nǎlǐ",
+    "pinyin_numeric": "nali3",
+    "phonemes": [
+      "nali3"
+    ],
+    "pos": "question",
+    "meaning_en": "where",
+    "meaning_ko": "어디",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D10_03",
+      "SEN_M1_D10_07",
+      "SEN_M1_D20_06",
+      "SEN_M1_D21_07",
+      "SEN_M1_D22_04",
+      "SEN_M1_D24_03"
+    ],
+    "audio_id": "AUD_VOC_M1_073"
+  },
+  {
+    "id": "VOC_M1_074",
+    "char": "為什麼",
+    "pinyin": "wèishéme",
+    "pinyin_numeric": "weisheme2",
+    "phonemes": [
+      "weisheme2"
+    ],
+    "pos": "question",
+    "meaning_en": "why",
+    "meaning_ko": "왜",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D10_04"
+    ],
+    "audio_id": "AUD_VOC_M1_074"
+  },
+  {
+    "id": "VOC_M1_075",
+    "char": "怎麼",
+    "pinyin": "zěnme",
+    "pinyin_numeric": "zenme3",
+    "phonemes": [
+      "zenme3"
+    ],
+    "pos": "question",
+    "meaning_en": "how",
+    "meaning_ko": "어떻게",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D10_05"
+    ],
+    "audio_id": "AUD_VOC_M1_075"
+  },
+  {
+    "id": "VOC_M1_076",
+    "char": "工作",
+    "pinyin": "gōngzuò",
+    "pinyin_numeric": "gongzuo4",
+    "phonemes": [
+      "gongzuo4"
+    ],
+    "pos": "noun",
+    "meaning_en": "work; job",
+    "meaning_ko": "일; 직업",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D10_01",
+      "SEN_M1_D20_06",
+      "SEN_M1_D29_03"
+    ],
+    "audio_id": "AUD_VOC_M1_076"
+  },
+  {
+    "id": "VOC_M1_077",
+    "char": "名字",
+    "pinyin": "míngzi",
+    "pinyin_numeric": "mingzi2",
+    "phonemes": [
+      "mingzi2"
+    ],
+    "pos": "noun",
+    "meaning_en": "name",
+    "meaning_ko": "이름",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D10_06"
+    ],
+    "audio_id": "AUD_VOC_M1_077"
+  },
+  {
+    "id": "VOC_M1_078",
+    "char": "地方",
+    "pinyin": "dìfang",
+    "pinyin_numeric": "difang4",
+    "phonemes": [
+      "difang4"
+    ],
+    "pos": "noun",
+    "meaning_en": "place",
+    "meaning_ko": "장소",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D10_08"
+    ],
+    "audio_id": "AUD_VOC_M1_078"
+  },
+  {
+    "id": "VOC_M1_079",
+    "char": "不",
+    "pinyin": "bù",
+    "pinyin_numeric": "bu4",
+    "phonemes": [
+      "bu4"
+    ],
+    "pos": "adverb",
+    "meaning_en": "not",
+    "meaning_ko": "아니다; 안",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D11_01",
+      "SEN_M1_D11_03",
+      "SEN_M1_D11_05",
+      "SEN_M1_D11_06",
+      "SEN_M1_D11_08",
+      "SEN_M1_D12_06",
+      "SEN_M1_D14_06",
+      "SEN_M1_D18_04",
+      "SEN_M1_D21_05",
+      "SEN_M1_D27_03",
+      "SEN_M1_D28_08",
+      "SEN_M1_D29_04"
+    ],
+    "audio_id": "AUD_VOC_M1_079"
+  },
+  {
+    "id": "VOC_M1_080",
+    "char": "沒",
+    "pinyin": "méi",
+    "pinyin_numeric": "mei2",
+    "phonemes": [
+      "mei2"
+    ],
+    "pos": "adverb",
+    "meaning_en": "not; did not",
+    "meaning_ko": "없다; 안 했다",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_M1_080"
+  },
+  {
+    "id": "VOC_M1_081",
+    "char": "沒有",
+    "pinyin": "méiyǒu",
+    "pinyin_numeric": "meiyou3",
+    "phonemes": [
+      "meiyou3"
+    ],
+    "pos": "verb",
+    "meaning_en": "do not have; there is not",
+    "meaning_ko": "없다",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D11_02",
+      "SEN_M1_D11_04",
+      "SEN_M1_D11_07",
+      "SEN_M1_D13_06",
+      "SEN_M1_D29_05"
+    ],
+    "audio_id": "AUD_VOC_M1_081"
+  },
+  {
+    "id": "VOC_M1_082",
+    "char": "貓",
+    "pinyin": "māo",
+    "pinyin_numeric": "mao1",
+    "phonemes": [
+      "mao1"
+    ],
+    "pos": "noun",
+    "meaning_en": "cat",
+    "meaning_ko": "고양이",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D11_02"
+    ],
+    "audio_id": "AUD_VOC_M1_082"
+  },
+  {
+    "id": "VOC_M1_083",
+    "char": "狗",
+    "pinyin": "gǒu",
+    "pinyin_numeric": "gou3",
+    "phonemes": [
+      "gou3"
+    ],
+    "pos": "noun",
+    "meaning_en": "dog",
+    "meaning_ko": "개",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D13_06"
+    ],
+    "audio_id": "AUD_VOC_M1_083"
+  },
+  {
+    "id": "VOC_M1_084",
+    "char": "也",
+    "pinyin": "yě",
+    "pinyin_numeric": "ye3",
+    "phonemes": [
+      "ye3"
+    ],
+    "pos": "adverb",
+    "meaning_en": "also",
+    "meaning_ko": "또한",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D11_06",
+      "SEN_M1_D14_02",
+      "SEN_M1_D27_02"
+    ],
+    "audio_id": "AUD_VOC_M1_084"
+  },
+  {
+    "id": "VOC_M1_085",
+    "char": "都",
+    "pinyin": "dōu",
+    "pinyin_numeric": "dou1",
+    "phonemes": [
+      "dou1"
+    ],
+    "pos": "adverb",
+    "meaning_en": "all; both",
+    "meaning_ko": "모두",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D11_07"
+    ],
+    "audio_id": "AUD_VOC_M1_085"
+  },
+  {
+    "id": "VOC_M1_086",
+    "char": "大",
+    "pinyin": "dà",
+    "pinyin_numeric": "da4",
+    "phonemes": [
+      "da4"
+    ],
+    "pos": "adjective",
+    "meaning_en": "big",
+    "meaning_ko": "크다",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_M1_086"
+  },
+  {
+    "id": "VOC_M1_087",
+    "char": "小",
+    "pinyin": "xiǎo",
+    "pinyin_numeric": "xiao3",
+    "phonemes": [
+      "xiao3"
+    ],
+    "pos": "adjective",
+    "meaning_en": "small",
+    "meaning_ko": "작다",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D12_04"
+    ],
+    "audio_id": "AUD_VOC_M1_087"
+  },
+  {
+    "id": "VOC_M1_088",
+    "char": "好",
+    "pinyin": "hǎo",
+    "pinyin_numeric": "hao3",
+    "phonemes": [
+      "hao3"
+    ],
+    "pos": "adjective",
+    "meaning_en": "good",
+    "meaning_ko": "좋다",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D12_05",
+      "SEN_M1_D14_07",
+      "SEN_M1_D16_01",
+      "SEN_M1_D21_08",
+      "SEN_M1_D23_07",
+      "SEN_M1_D28_04",
+      "SEN_M1_D28_07",
+      "SEN_M1_D29_08"
+    ],
+    "audio_id": "AUD_VOC_M1_088"
+  },
+  {
+    "id": "VOC_M1_089",
+    "char": "多",
+    "pinyin": "duō",
+    "pinyin_numeric": "duo1",
+    "phonemes": [
+      "duo1"
+    ],
+    "pos": "adjective",
+    "meaning_en": "many; much",
+    "meaning_ko": "많다",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D12_07"
+    ],
+    "audio_id": "AUD_VOC_M1_089"
+  },
+  {
+    "id": "VOC_M1_090",
+    "char": "少",
+    "pinyin": "shǎo",
+    "pinyin_numeric": "shao3",
+    "phonemes": [
+      "shao3"
+    ],
+    "pos": "adjective",
+    "meaning_en": "few; little",
+    "meaning_ko": "적다",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_M1_090"
+  },
+  {
+    "id": "VOC_M1_091",
+    "char": "熱",
+    "pinyin": "rè",
+    "pinyin_numeric": "re4",
+    "phonemes": [
+      "re4"
+    ],
+    "pos": "adjective",
+    "meaning_en": "hot",
+    "meaning_ko": "덥다; 뜨겁다",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D12_01",
+      "SEN_M1_D23_01",
+      "SEN_M1_D30_07"
+    ],
+    "audio_id": "AUD_VOC_M1_091"
+  },
+  {
+    "id": "VOC_M1_092",
+    "char": "冷",
+    "pinyin": "lěng",
+    "pinyin_numeric": "leng3",
+    "phonemes": [
+      "leng3"
+    ],
+    "pos": "adjective",
+    "meaning_en": "cold",
+    "meaning_ko": "춥다; 차갑다",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D12_06",
+      "SEN_M1_D23_06"
+    ],
+    "audio_id": "AUD_VOC_M1_092"
+  },
+  {
+    "id": "VOC_M1_093",
+    "char": "高興",
+    "pinyin": "gāoxìng",
+    "pinyin_numeric": "gaoxing4",
+    "phonemes": [
+      "gaoxing4"
+    ],
+    "pos": "adjective",
+    "meaning_en": "happy",
+    "meaning_ko": "기쁘다",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D12_08"
+    ],
+    "audio_id": "AUD_VOC_M1_093"
+  },
+  {
+    "id": "VOC_M1_094",
+    "char": "漂亮",
+    "pinyin": "piàoliang",
+    "pinyin_numeric": "piaoliang4",
+    "phonemes": [
+      "piaoliang4"
+    ],
+    "pos": "adjective",
+    "meaning_en": "pretty",
+    "meaning_ko": "예쁘다",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D12_02"
+    ],
+    "audio_id": "AUD_VOC_M1_094"
+  },
+  {
+    "id": "VOC_M1_095",
+    "char": "貴",
+    "pinyin": "guì",
+    "pinyin_numeric": "gui4",
+    "phonemes": [
+      "gui4"
+    ],
+    "pos": "adjective",
+    "meaning_en": "expensive",
+    "meaning_ko": "비싸다",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D12_03",
+      "SEN_M1_D14_05",
+      "SEN_M1_D23_02",
+      "SEN_M1_D23_08"
+    ],
+    "audio_id": "AUD_VOC_M1_095"
+  },
+  {
+    "id": "VOC_M1_096",
     "char": "很",
     "pinyin": "hěn",
     "pinyin_numeric": "hen3",
@@ -123,14 +2421,2172 @@
       "hen3"
     ],
     "pos": "adverb",
-    "meaning_en": "very",
+    "meaning_en": "very; linking adverb",
     "meaning_ko": "매우",
     "frequency": "high",
     "cefr": "A1",
     "hsk_level": 1,
     "example_ids": [
-      "SEN_M1_W1_005"
+      "SEN_M1_D12_01",
+      "SEN_M1_D12_02",
+      "SEN_M1_D12_03",
+      "SEN_M1_D12_04",
+      "SEN_M1_D12_05",
+      "SEN_M1_D12_07",
+      "SEN_M1_D12_08",
+      "SEN_M1_D14_05",
+      "SEN_M1_D14_07",
+      "SEN_M1_D16_01",
+      "SEN_M1_D21_08",
+      "SEN_M1_D28_07",
+      "SEN_M1_D29_08"
     ],
-    "audio_id": "AUD_VOC_M1_W1_007"
+    "audio_id": "AUD_VOC_M1_096"
+  },
+  {
+    "id": "VOC_M1_097",
+    "char": "本",
+    "pinyin": "běn",
+    "pinyin_numeric": "ben3",
+    "phonemes": [
+      "ben3"
+    ],
+    "pos": "measure",
+    "meaning_en": "measure word for books",
+    "meaning_ko": "권",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_M1_097"
+  },
+  {
+    "id": "VOC_M1_098",
+    "char": "隻",
+    "pinyin": "zhī",
+    "pinyin_numeric": "zhi1",
+    "phonemes": [
+      "zhi1"
+    ],
+    "pos": "measure",
+    "meaning_en": "measure word for animals",
+    "meaning_ko": "마리",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_M1_098"
+  },
+  {
+    "id": "VOC_M1_099",
+    "char": "杯",
+    "pinyin": "bēi",
+    "pinyin_numeric": "bei1",
+    "phonemes": [
+      "bei1"
+    ],
+    "pos": "measure",
+    "meaning_en": "cup; glass",
+    "meaning_ko": "잔",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D13_04",
+      "SEN_M1_D13_08",
+      "SEN_M1_D14_04",
+      "SEN_M1_D16_04",
+      "SEN_M1_D23_04"
+    ],
+    "audio_id": "AUD_VOC_M1_099"
+  },
+  {
+    "id": "VOC_M1_100",
+    "char": "兩",
+    "pinyin": "liǎng",
+    "pinyin_numeric": "liang3",
+    "phonemes": [
+      "liang3"
+    ],
+    "pos": "number",
+    "meaning_en": "two used before measure words",
+    "meaning_ko": "둘; 두",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D13_02",
+      "SEN_M1_D13_04",
+      "SEN_M1_D14_08"
+    ],
+    "audio_id": "AUD_VOC_M1_100"
+  },
+  {
+    "id": "VOC_M1_101",
+    "char": "隻貓",
+    "pinyin": "zhī māo",
+    "pinyin_numeric": "zhi1 mao1",
+    "phonemes": [
+      "zhi1",
+      "mao1"
+    ],
+    "pos": "phrase",
+    "meaning_en": "cat with measure word",
+    "meaning_ko": "고양이 한 마리",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D13_02"
+    ],
+    "audio_id": "AUD_VOC_M1_101"
+  },
+  {
+    "id": "VOC_M1_102",
+    "char": "杯水",
+    "pinyin": "bēi shuǐ",
+    "pinyin_numeric": "bei1 shui3",
+    "phonemes": [
+      "bei1",
+      "shui3"
+    ],
+    "pos": "phrase",
+    "meaning_en": "cup of water",
+    "meaning_ko": "물 한 잔",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D13_03",
+      "SEN_M1_D14_08"
+    ],
+    "audio_id": "AUD_VOC_M1_102"
+  },
+  {
+    "id": "VOC_M1_103",
+    "char": "本書",
+    "pinyin": "běn shū",
+    "pinyin_numeric": "ben3 shu1",
+    "phonemes": [
+      "ben3",
+      "shu1"
+    ],
+    "pos": "phrase",
+    "meaning_en": "book with measure word",
+    "meaning_ko": "책 한 권",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D13_01",
+      "SEN_M1_D13_05",
+      "SEN_M1_D13_07",
+      "SEN_M1_D16_07"
+    ],
+    "audio_id": "AUD_VOC_M1_103"
+  },
+  {
+    "id": "VOC_M1_104",
+    "char": "現在",
+    "pinyin": "xiànzài",
+    "pinyin_numeric": "xianzai4",
+    "phonemes": [
+      "xianzai4"
+    ],
+    "pos": "time",
+    "meaning_en": "now",
+    "meaning_ko": "지금",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D15_01",
+      "SEN_M1_D15_02",
+      "SEN_M1_D25_02"
+    ],
+    "audio_id": "AUD_VOC_M1_104"
+  },
+  {
+    "id": "VOC_M1_105",
+    "char": "點",
+    "pinyin": "diǎn",
+    "pinyin_numeric": "dian3",
+    "phonemes": [
+      "dian3"
+    ],
+    "pos": "time",
+    "meaning_en": "o'clock",
+    "meaning_ko": "시",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D15_01",
+      "SEN_M1_D15_02",
+      "SEN_M1_D17_04",
+      "SEN_M1_D21_01",
+      "SEN_M1_D26_08"
+    ],
+    "audio_id": "AUD_VOC_M1_105"
+  },
+  {
+    "id": "VOC_M1_106",
+    "char": "上午",
+    "pinyin": "shàngwǔ",
+    "pinyin_numeric": "shangwu3",
+    "phonemes": [
+      "shangwu3"
+    ],
+    "pos": "time",
+    "meaning_en": "morning; AM",
+    "meaning_ko": "오전",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D15_05"
+    ],
+    "audio_id": "AUD_VOC_M1_106"
+  },
+  {
+    "id": "VOC_M1_107",
+    "char": "下午",
+    "pinyin": "xiàwǔ",
+    "pinyin_numeric": "xiawu3",
+    "phonemes": [
+      "xiawu3"
+    ],
+    "pos": "time",
+    "meaning_en": "afternoon; PM",
+    "meaning_ko": "오후",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D15_06",
+      "SEN_M1_D21_01",
+      "SEN_M1_D22_01",
+      "SEN_M1_D27_06",
+      "SEN_M1_D29_03",
+      "SEN_M1_D30_04"
+    ],
+    "audio_id": "AUD_VOC_M1_107"
+  },
+  {
+    "id": "VOC_M1_108",
+    "char": "星期",
+    "pinyin": "xīngqī",
+    "pinyin_numeric": "xingqi1",
+    "phonemes": [
+      "xingqi1"
+    ],
+    "pos": "time",
+    "meaning_en": "week; weekday",
+    "meaning_ko": "요일; 주",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D15_03",
+      "SEN_M1_D15_04"
+    ],
+    "audio_id": "AUD_VOC_M1_108"
+  },
+  {
+    "id": "VOC_M1_109",
+    "char": "年",
+    "pinyin": "nián",
+    "pinyin_numeric": "nian2",
+    "phonemes": [
+      "nian2"
+    ],
+    "pos": "time",
+    "meaning_en": "year",
+    "meaning_ko": "년",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D15_07"
+    ],
+    "audio_id": "AUD_VOC_M1_109"
+  },
+  {
+    "id": "VOC_M1_110",
+    "char": "早上",
+    "pinyin": "zǎoshang",
+    "pinyin_numeric": "zaoshang3",
+    "phonemes": [
+      "zaoshang3"
+    ],
+    "pos": "time",
+    "meaning_en": "morning",
+    "meaning_ko": "아침",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D15_08",
+      "SEN_M1_D19_02",
+      "SEN_M1_D25_07",
+      "SEN_M1_D29_01"
+    ],
+    "audio_id": "AUD_VOC_M1_110"
+  },
+  {
+    "id": "VOC_M1_111",
+    "char": "呢",
+    "pinyin": "ne",
+    "pinyin_numeric": "ne0",
+    "phonemes": [
+      "ne0"
+    ],
+    "pos": "particle",
+    "meaning_en": "and you? what about?",
+    "meaning_ko": "너는? ~는?",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D16_01",
+      "SEN_M1_D16_08"
+    ],
+    "audio_id": "AUD_VOC_M1_111"
+  },
+  {
+    "id": "VOC_M1_112",
+    "char": "幾",
+    "pinyin": "jǐ",
+    "pinyin_numeric": "ji3",
+    "phonemes": [
+      "ji3"
+    ],
+    "pos": "question",
+    "meaning_en": "how many; which number",
+    "meaning_ko": "몇",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D16_02",
+      "SEN_M1_D16_05",
+      "SEN_M1_D16_06"
+    ],
+    "audio_id": "AUD_VOC_M1_112"
+  },
+  {
+    "id": "VOC_M1_113",
+    "char": "多少",
+    "pinyin": "duōshao",
+    "pinyin_numeric": "duoshao1",
+    "phonemes": [
+      "duoshao1"
+    ],
+    "pos": "question",
+    "meaning_en": "how many; how much",
+    "meaning_ko": "얼마나; 얼마",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D16_03",
+      "SEN_M1_D16_07"
+    ],
+    "audio_id": "AUD_VOC_M1_113"
+  },
+  {
+    "id": "VOC_M1_114",
+    "char": "錢",
+    "pinyin": "qián",
+    "pinyin_numeric": "qian2",
+    "phonemes": [
+      "qian2"
+    ],
+    "pos": "noun",
+    "meaning_en": "money",
+    "meaning_ko": "돈",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D16_03",
+      "SEN_M1_D16_07",
+      "SEN_M1_D25_01"
+    ],
+    "audio_id": "AUD_VOC_M1_114"
+  },
+  {
+    "id": "VOC_M1_115",
+    "char": "歲",
+    "pinyin": "suì",
+    "pinyin_numeric": "sui4",
+    "phonemes": [
+      "sui4"
+    ],
+    "pos": "measure",
+    "meaning_en": "years old",
+    "meaning_ko": "살",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D16_02"
+    ],
+    "audio_id": "AUD_VOC_M1_115"
+  },
+  {
+    "id": "VOC_M1_116",
+    "char": "塊",
+    "pinyin": "kuài",
+    "pinyin_numeric": "kuai4",
+    "phonemes": [
+      "kuai4"
+    ],
+    "pos": "measure",
+    "meaning_en": "dollar; piece",
+    "meaning_ko": "원; 덩어리",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D16_04"
+    ],
+    "audio_id": "AUD_VOC_M1_116"
+  },
+  {
+    "id": "VOC_M1_117",
+    "char": "號",
+    "pinyin": "hào",
+    "pinyin_numeric": "hao4",
+    "phonemes": [
+      "hao4"
+    ],
+    "pos": "noun",
+    "meaning_en": "number; date",
+    "meaning_ko": "번호; 일",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D16_05"
+    ],
+    "audio_id": "AUD_VOC_M1_117"
+  },
+  {
+    "id": "VOC_M1_118",
+    "char": "可以",
+    "pinyin": "kěyǐ",
+    "pinyin_numeric": "keyi3",
+    "phonemes": [
+      "keyi3"
+    ],
+    "pos": "verb",
+    "meaning_en": "can; may",
+    "meaning_ko": "할 수 있다; 해도 된다",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D17_01",
+      "SEN_M1_D17_02",
+      "SEN_M1_D17_03",
+      "SEN_M1_D17_04",
+      "SEN_M1_D17_05",
+      "SEN_M1_D17_06",
+      "SEN_M1_D17_07",
+      "SEN_M1_D21_03",
+      "SEN_M1_D26_02",
+      "SEN_M1_D26_08",
+      "SEN_M1_D30_05"
+    ],
+    "audio_id": "AUD_VOC_M1_118"
+  },
+  {
+    "id": "VOC_M1_119",
+    "char": "用",
+    "pinyin": "yòng",
+    "pinyin_numeric": "yong4",
+    "phonemes": [
+      "yong4"
+    ],
+    "pos": "verb",
+    "meaning_en": "to use",
+    "meaning_ko": "사용하다",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D17_02"
+    ],
+    "audio_id": "AUD_VOC_M1_119"
+  },
+  {
+    "id": "VOC_M1_120",
+    "char": "坐",
+    "pinyin": "zuò",
+    "pinyin_numeric": "zuo4",
+    "phonemes": [
+      "zuo4"
+    ],
+    "pos": "verb",
+    "meaning_en": "to sit; ride",
+    "meaning_ko": "앉다; 타다",
+    "frequency": "high",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D17_01",
+      "SEN_M1_D17_07",
+      "SEN_M1_D21_03",
+      "SEN_M1_D22_02",
+      "SEN_M1_D22_05",
+      "SEN_M1_D22_07",
+      "SEN_M1_D25_06",
+      "SEN_M1_D28_06",
+      "SEN_M1_D30_05",
+      "SEN_M1_D30_08"
+    ],
+    "audio_id": "AUD_VOC_M1_120"
+  },
+  {
+    "id": "VOC_M1_121",
+    "char": "試",
+    "pinyin": "shì",
+    "pinyin_numeric": "shi4",
+    "phonemes": [
+      "shi4"
+    ],
+    "pos": "verb",
+    "meaning_en": "to try",
+    "meaning_ko": "시도하다",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D17_05"
+    ],
+    "audio_id": "AUD_VOC_M1_121"
+  },
+  {
+    "id": "VOC_M1_122",
+    "char": "這裡",
+    "pinyin": "zhèlǐ",
+    "pinyin_numeric": "zheli3",
+    "phonemes": [
+      "zheli3"
+    ],
+    "pos": "place",
+    "meaning_en": "here",
+    "meaning_ko": "여기",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D17_01",
+      "SEN_M1_D17_07",
+      "SEN_M1_D20_07",
+      "SEN_M1_D21_03",
+      "SEN_M1_D30_05"
+    ],
+    "audio_id": "AUD_VOC_M1_122"
+  },
+  {
+    "id": "VOC_M1_123",
+    "char": "一下",
+    "pinyin": "yíxià",
+    "pinyin_numeric": "yixia4",
+    "phonemes": [
+      "yixia4"
+    ],
+    "pos": "time",
+    "meaning_en": "for a moment",
+    "meaning_ko": "잠깐",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D17_03",
+      "SEN_M1_D26_02",
+      "SEN_M1_D26_04"
+    ],
+    "audio_id": "AUD_VOC_M1_123"
+  },
+  {
+    "id": "VOC_M1_124",
+    "char": "問題",
+    "pinyin": "wèntí",
+    "pinyin_numeric": "wenti2",
+    "phonemes": [
+      "wenti2"
+    ],
+    "pos": "noun",
+    "meaning_en": "question; problem",
+    "meaning_ko": "질문; 문제",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D17_08"
+    ],
+    "audio_id": "AUD_VOC_M1_124"
+  },
+  {
+    "id": "VOC_M1_125",
+    "char": "愛",
+    "pinyin": "ài",
+    "pinyin_numeric": "ai4",
+    "phonemes": [
+      "ai4"
+    ],
+    "pos": "verb",
+    "meaning_en": "to love",
+    "meaning_ko": "사랑하다",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D18_02",
+      "SEN_M1_D18_06",
+      "SEN_M1_D27_05"
+    ],
+    "audio_id": "AUD_VOC_M1_125"
+  },
+  {
+    "id": "VOC_M1_126",
+    "char": "最",
+    "pinyin": "zuì",
+    "pinyin_numeric": "zui4",
+    "phonemes": [
+      "zui4"
+    ],
+    "pos": "adverb",
+    "meaning_en": "most",
+    "meaning_ko": "가장",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D18_02",
+      "SEN_M1_D18_08",
+      "SEN_M1_D27_05"
+    ],
+    "audio_id": "AUD_VOC_M1_126"
+  },
+  {
+    "id": "VOC_M1_127",
+    "char": "台灣",
+    "pinyin": "Táiwān",
+    "pinyin_numeric": "Taiwan1",
+    "phonemes": [
+      "taiwan1"
+    ],
+    "pos": "place",
+    "meaning_en": "Taiwan",
+    "meaning_ko": "대만",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D18_02",
+      "SEN_M1_D18_06",
+      "SEN_M1_D30_03"
+    ],
+    "audio_id": "AUD_VOC_M1_127"
+  },
+  {
+    "id": "VOC_M1_128",
+    "char": "小吃",
+    "pinyin": "xiǎochī",
+    "pinyin_numeric": "xiaochi1",
+    "phonemes": [
+      "xiaochi1"
+    ],
+    "pos": "noun",
+    "meaning_en": "snack; street food",
+    "meaning_ko": "간식; 길거리 음식",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D18_02",
+      "SEN_M1_D30_03"
+    ],
+    "audio_id": "AUD_VOC_M1_128"
+  },
+  {
+    "id": "VOC_M1_129",
+    "char": "音樂",
+    "pinyin": "yīnyuè",
+    "pinyin_numeric": "yinyue4",
+    "phonemes": [
+      "yinyue4"
+    ],
+    "pos": "noun",
+    "meaning_en": "music",
+    "meaning_ko": "음악",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D18_03"
+    ],
+    "audio_id": "AUD_VOC_M1_129"
+  },
+  {
+    "id": "VOC_M1_130",
+    "char": "拍照",
+    "pinyin": "pāizhào",
+    "pinyin_numeric": "paizhao4",
+    "phonemes": [
+      "paizhao4"
+    ],
+    "pos": "verb",
+    "meaning_en": "to take photos",
+    "meaning_ko": "사진 찍다",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D18_05",
+      "SEN_M1_D27_02"
+    ],
+    "audio_id": "AUD_VOC_M1_130"
+  },
+  {
+    "id": "VOC_M1_131",
+    "char": "走路",
+    "pinyin": "zǒulù",
+    "pinyin_numeric": "zoulu4",
+    "phonemes": [
+      "zoulu4"
+    ],
+    "pos": "verb",
+    "meaning_en": "to walk",
+    "meaning_ko": "걷다",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D18_07",
+      "SEN_M1_D19_08"
+    ],
+    "audio_id": "AUD_VOC_M1_131"
+  },
+  {
+    "id": "VOC_M1_132",
+    "char": "先",
+    "pinyin": "xiān",
+    "pinyin_numeric": "xian1",
+    "phonemes": [
+      "xian1"
+    ],
+    "pos": "adverb",
+    "meaning_en": "first",
+    "meaning_ko": "먼저",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D19_01",
+      "SEN_M1_D19_03",
+      "SEN_M1_D19_04",
+      "SEN_M1_D19_06",
+      "SEN_M1_D19_07",
+      "SEN_M1_D21_04",
+      "SEN_M1_D29_01"
+    ],
+    "audio_id": "AUD_VOC_M1_132"
+  },
+  {
+    "id": "VOC_M1_133",
+    "char": "然後",
+    "pinyin": "ránhòu",
+    "pinyin_numeric": "ranhou4",
+    "phonemes": [
+      "ranhou4"
+    ],
+    "pos": "connector",
+    "meaning_en": "then",
+    "meaning_ko": "그다음",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D19_02",
+      "SEN_M1_D19_04",
+      "SEN_M1_D21_02",
+      "SEN_M1_D29_02"
+    ],
+    "audio_id": "AUD_VOC_M1_133"
+  },
+  {
+    "id": "VOC_M1_134",
+    "char": "再",
+    "pinyin": "zài",
+    "pinyin_numeric": "zai4",
+    "phonemes": [
+      "zai4"
+    ],
+    "pos": "adverb",
+    "meaning_en": "then; again",
+    "meaning_ko": "다시; 그다음",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D19_01",
+      "SEN_M1_D19_03",
+      "SEN_M1_D19_06",
+      "SEN_M1_D19_07"
+    ],
+    "audio_id": "AUD_VOC_M1_134"
+  },
+  {
+    "id": "VOC_M1_135",
+    "char": "最後",
+    "pinyin": "zuìhòu",
+    "pinyin_numeric": "zuihou4",
+    "phonemes": [
+      "zuihou4"
+    ],
+    "pos": "adverb",
+    "meaning_en": "lastly",
+    "meaning_ko": "마지막으로",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D19_05",
+      "SEN_M1_D19_08",
+      "SEN_M1_D21_06",
+      "SEN_M1_D29_07"
+    ],
+    "audio_id": "AUD_VOC_M1_135"
+  },
+  {
+    "id": "VOC_M1_136",
+    "char": "起床",
+    "pinyin": "qǐchuáng",
+    "pinyin_numeric": "qichuang2",
+    "phonemes": [
+      "qichuang2"
+    ],
+    "pos": "verb",
+    "meaning_en": "to get up",
+    "meaning_ko": "일어나다",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D19_02"
+    ],
+    "audio_id": "AUD_VOC_M1_136"
+  },
+  {
+    "id": "VOC_M1_137",
+    "char": "早餐",
+    "pinyin": "zǎocān",
+    "pinyin_numeric": "zaocan1",
+    "phonemes": [
+      "zaocan1"
+    ],
+    "pos": "noun",
+    "meaning_en": "breakfast",
+    "meaning_ko": "아침 식사",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D19_02"
+    ],
+    "audio_id": "AUD_VOC_M1_137"
+  },
+  {
+    "id": "VOC_M1_138",
+    "char": "公司",
+    "pinyin": "gōngsī",
+    "pinyin_numeric": "gongsi1",
+    "phonemes": [
+      "gongsi1"
+    ],
+    "pos": "noun",
+    "meaning_en": "company; office",
+    "meaning_ko": "회사",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D19_03",
+      "SEN_M1_D25_07",
+      "SEN_M1_D28_06",
+      "SEN_M1_D29_03"
+    ],
+    "audio_id": "AUD_VOC_M1_138"
+  },
+  {
+    "id": "VOC_M1_139",
+    "char": "在",
+    "pinyin": "zài",
+    "pinyin_numeric": "zai4",
+    "phonemes": [
+      "zai4"
+    ],
+    "pos": "preposition",
+    "meaning_en": "at; in; located at",
+    "meaning_ko": "~에 있다",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D20_01",
+      "SEN_M1_D20_02",
+      "SEN_M1_D20_03",
+      "SEN_M1_D20_04",
+      "SEN_M1_D20_05",
+      "SEN_M1_D20_06",
+      "SEN_M1_D20_07",
+      "SEN_M1_D20_08",
+      "SEN_M1_D21_01",
+      "SEN_M1_D21_07",
+      "SEN_M1_D22_04",
+      "SEN_M1_D22_06",
+      "SEN_M1_D24_01",
+      "SEN_M1_D24_02",
+      "SEN_M1_D24_03",
+      "SEN_M1_D24_04",
+      "SEN_M1_D24_05",
+      "SEN_M1_D24_06",
+      "SEN_M1_D24_07",
+      "SEN_M1_D24_08",
+      "SEN_M1_D29_02",
+      "SEN_M1_D29_06",
+      "SEN_M1_D30_06"
+    ],
+    "audio_id": "AUD_VOC_M1_139"
+  },
+  {
+    "id": "VOC_M1_140",
+    "char": "上",
+    "pinyin": "shàng",
+    "pinyin_numeric": "shang4",
+    "phonemes": [
+      "shang4"
+    ],
+    "pos": "place",
+    "meaning_en": "on; above",
+    "meaning_ko": "위",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D20_04",
+      "SEN_M1_D29_05"
+    ],
+    "audio_id": "AUD_VOC_M1_140"
+  },
+  {
+    "id": "VOC_M1_141",
+    "char": "下",
+    "pinyin": "xià",
+    "pinyin_numeric": "xia4",
+    "phonemes": [
+      "xia4"
+    ],
+    "pos": "place",
+    "meaning_en": "under; below",
+    "meaning_ko": "아래",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D20_05"
+    ],
+    "audio_id": "AUD_VOC_M1_141"
+  },
+  {
+    "id": "VOC_M1_142",
+    "char": "前面",
+    "pinyin": "qiánmiàn",
+    "pinyin_numeric": "qianmian4",
+    "phonemes": [
+      "qianmian4"
+    ],
+    "pos": "place",
+    "meaning_en": "in front",
+    "meaning_ko": "앞",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D20_03",
+      "SEN_M1_D22_06",
+      "SEN_M1_D24_01"
+    ],
+    "audio_id": "AUD_VOC_M1_142"
+  },
+  {
+    "id": "VOC_M1_143",
+    "char": "左",
+    "pinyin": "zuǒ",
+    "pinyin_numeric": "zuo3",
+    "phonemes": [
+      "zuo3"
+    ],
+    "pos": "place",
+    "meaning_en": "left",
+    "meaning_ko": "왼쪽",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D20_02",
+      "SEN_M1_D24_07"
+    ],
+    "audio_id": "AUD_VOC_M1_143"
+  },
+  {
+    "id": "VOC_M1_144",
+    "char": "右",
+    "pinyin": "yòu",
+    "pinyin_numeric": "you4",
+    "phonemes": [
+      "you4"
+    ],
+    "pos": "place",
+    "meaning_en": "right",
+    "meaning_ko": "오른쪽",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D24_06"
+    ],
+    "audio_id": "AUD_VOC_M1_144"
+  },
+  {
+    "id": "VOC_M1_145",
+    "char": "那裡",
+    "pinyin": "nàlǐ",
+    "pinyin_numeric": "nali3",
+    "phonemes": [
+      "nali3"
+    ],
+    "pos": "place",
+    "meaning_en": "there",
+    "meaning_ko": "저기",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D20_08"
+    ],
+    "audio_id": "AUD_VOC_M1_145"
+  },
+  {
+    "id": "VOC_M1_146",
+    "char": "圖書館",
+    "pinyin": "túshūguǎn",
+    "pinyin_numeric": "tushuguan3",
+    "phonemes": [
+      "tushuguan3"
+    ],
+    "pos": "place",
+    "meaning_en": "library",
+    "meaning_ko": "도서관",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D20_01",
+      "SEN_M1_D21_06",
+      "SEN_M1_D21_07",
+      "SEN_M1_D24_02",
+      "SEN_M1_D29_06",
+      "SEN_M1_D30_06"
+    ],
+    "audio_id": "AUD_VOC_M1_146"
+  },
+  {
+    "id": "VOC_M1_147",
+    "char": "商店",
+    "pinyin": "shāngdiàn",
+    "pinyin_numeric": "shangdian4",
+    "phonemes": [
+      "shangdian4"
+    ],
+    "pos": "place",
+    "meaning_en": "shop",
+    "meaning_ko": "가게",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D22_03",
+      "SEN_M1_D24_01"
+    ],
+    "audio_id": "AUD_VOC_M1_147"
+  },
+  {
+    "id": "VOC_M1_148",
+    "char": "醫院",
+    "pinyin": "yīyuàn",
+    "pinyin_numeric": "yiyuan4",
+    "phonemes": [
+      "yiyuan4"
+    ],
+    "pos": "place",
+    "meaning_en": "hospital",
+    "meaning_ko": "병원",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D22_04",
+      "SEN_M1_D24_06"
+    ],
+    "audio_id": "AUD_VOC_M1_148"
+  },
+  {
+    "id": "VOC_M1_149",
+    "char": "學校",
+    "pinyin": "xuéxiào",
+    "pinyin_numeric": "xuexiao4",
+    "phonemes": [
+      "xuexiao4"
+    ],
+    "pos": "place",
+    "meaning_en": "school",
+    "meaning_ko": "학교",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D22_05",
+      "SEN_M1_D24_02",
+      "SEN_M1_D25_06",
+      "SEN_M1_D30_06"
+    ],
+    "audio_id": "AUD_VOC_M1_149"
+  },
+  {
+    "id": "VOC_M1_150",
+    "char": "公園",
+    "pinyin": "gōngyuán",
+    "pinyin_numeric": "gongyuan2",
+    "phonemes": [
+      "gongyuan2"
+    ],
+    "pos": "place",
+    "meaning_en": "park",
+    "meaning_ko": "공원",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D22_01",
+      "SEN_M1_D22_06",
+      "SEN_M1_D24_07",
+      "SEN_M1_D27_06",
+      "SEN_M1_D30_04"
+    ],
+    "audio_id": "AUD_VOC_M1_150"
+  },
+  {
+    "id": "VOC_M1_151",
+    "char": "車站",
+    "pinyin": "chēzhàn",
+    "pinyin_numeric": "chezhan4",
+    "phonemes": [
+      "chezhan4"
+    ],
+    "pos": "place",
+    "meaning_en": "station",
+    "meaning_ko": "역",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D22_06",
+      "SEN_M1_D24_07"
+    ],
+    "audio_id": "AUD_VOC_M1_151"
+  },
+  {
+    "id": "VOC_M1_152",
+    "char": "飛機",
+    "pinyin": "fēijī",
+    "pinyin_numeric": "feiji1",
+    "phonemes": [
+      "feiji1"
+    ],
+    "pos": "noun",
+    "meaning_en": "airplane",
+    "meaning_ko": "비행기",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D22_07"
+    ],
+    "audio_id": "AUD_VOC_M1_152"
+  },
+  {
+    "id": "VOC_M1_153",
+    "char": "火車",
+    "pinyin": "huǒchē",
+    "pinyin_numeric": "huoche1",
+    "phonemes": [
+      "huoche1"
+    ],
+    "pos": "noun",
+    "meaning_en": "train",
+    "meaning_ko": "기차",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D22_02",
+      "SEN_M1_D23_03"
+    ],
+    "audio_id": "AUD_VOC_M1_153"
+  },
+  {
+    "id": "VOC_M1_154",
+    "char": "捷運",
+    "pinyin": "jiéyùn",
+    "pinyin_numeric": "jieyun4",
+    "phonemes": [
+      "jieyun4"
+    ],
+    "pos": "noun",
+    "meaning_en": "MRT; metro",
+    "meaning_ko": "지하철; MRT",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D22_05",
+      "SEN_M1_D23_03",
+      "SEN_M1_D25_06",
+      "SEN_M1_D28_06",
+      "SEN_M1_D30_08"
+    ],
+    "audio_id": "AUD_VOC_M1_154"
+  },
+  {
+    "id": "VOC_M1_155",
+    "char": "來",
+    "pinyin": "lái",
+    "pinyin_numeric": "lai2",
+    "phonemes": [
+      "lai2"
+    ],
+    "pos": "verb",
+    "meaning_en": "to come",
+    "meaning_ko": "오다",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D22_02",
+      "SEN_M1_D22_08",
+      "SEN_M1_D26_03"
+    ],
+    "audio_id": "AUD_VOC_M1_155"
+  },
+  {
+    "id": "VOC_M1_156",
+    "char": "去",
+    "pinyin": "qù",
+    "pinyin_numeric": "qu4",
+    "phonemes": [
+      "qu4"
+    ],
+    "pos": "verb",
+    "meaning_en": "to go",
+    "meaning_ko": "가다",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D22_01",
+      "SEN_M1_D22_03",
+      "SEN_M1_D22_05",
+      "SEN_M1_D22_07",
+      "SEN_M1_D25_01",
+      "SEN_M1_D25_06",
+      "SEN_M1_D25_07",
+      "SEN_M1_D27_06",
+      "SEN_M1_D28_01",
+      "SEN_M1_D28_06",
+      "SEN_M1_D29_03",
+      "SEN_M1_D30_04",
+      "SEN_M1_D30_08"
+    ],
+    "audio_id": "AUD_VOC_M1_156"
+  },
+  {
+    "id": "VOC_M1_157",
+    "char": "比",
+    "pinyin": "bǐ",
+    "pinyin_numeric": "bi3",
+    "phonemes": [
+      "bi3"
+    ],
+    "pos": "preposition",
+    "meaning_en": "than; compare",
+    "meaning_ko": "~보다",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D23_01",
+      "SEN_M1_D23_02",
+      "SEN_M1_D23_03",
+      "SEN_M1_D23_04",
+      "SEN_M1_D23_05",
+      "SEN_M1_D23_06",
+      "SEN_M1_D23_07",
+      "SEN_M1_D30_07"
+    ],
+    "audio_id": "AUD_VOC_M1_157"
+  },
+  {
+    "id": "VOC_M1_158",
+    "char": "慢",
+    "pinyin": "màn",
+    "pinyin_numeric": "man4",
+    "phonemes": [
+      "man4"
+    ],
+    "pos": "adjective",
+    "meaning_en": "slow",
+    "meaning_ko": "느리다",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D26_08"
+    ],
+    "audio_id": "AUD_VOC_M1_158"
+  },
+  {
+    "id": "VOC_M1_159",
+    "char": "便宜",
+    "pinyin": "piányi",
+    "pinyin_numeric": "pianyi2",
+    "phonemes": [
+      "pianyi2"
+    ],
+    "pos": "adjective",
+    "meaning_en": "cheap",
+    "meaning_ko": "싸다",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D23_04"
+    ],
+    "audio_id": "AUD_VOC_M1_159"
+  },
+  {
+    "id": "VOC_M1_160",
+    "char": "更",
+    "pinyin": "gèng",
+    "pinyin_numeric": "geng4",
+    "phonemes": [
+      "geng4"
+    ],
+    "pos": "adverb",
+    "meaning_en": "even more",
+    "meaning_ko": "더",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D23_08"
+    ],
+    "audio_id": "AUD_VOC_M1_160"
+  },
+  {
+    "id": "VOC_M1_161",
+    "char": "新",
+    "pinyin": "xīn",
+    "pinyin_numeric": "xin1",
+    "phonemes": [
+      "xin1"
+    ],
+    "pos": "adjective",
+    "meaning_en": "new",
+    "meaning_ko": "새로운",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D23_05"
+    ],
+    "audio_id": "AUD_VOC_M1_161"
+  },
+  {
+    "id": "VOC_M1_162",
+    "char": "舊",
+    "pinyin": "jiù",
+    "pinyin_numeric": "jiu4",
+    "phonemes": [
+      "jiu4"
+    ],
+    "pos": "adjective",
+    "meaning_en": "old",
+    "meaning_ko": "낡은",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_M1_162"
+  },
+  {
+    "id": "VOC_M1_163",
+    "char": "那個",
+    "pinyin": "nàge",
+    "pinyin_numeric": "nage4",
+    "phonemes": [
+      "nage4"
+    ],
+    "pos": "pronoun",
+    "meaning_en": "that one",
+    "meaning_ko": "저것",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D23_02"
+    ],
+    "audio_id": "AUD_VOC_M1_163"
+  },
+  {
+    "id": "VOC_M1_164",
+    "char": "前",
+    "pinyin": "qián",
+    "pinyin_numeric": "qian2",
+    "phonemes": [
+      "qian2"
+    ],
+    "pos": "place",
+    "meaning_en": "front",
+    "meaning_ko": "앞",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_M1_164"
+  },
+  {
+    "id": "VOC_M1_165",
+    "char": "後",
+    "pinyin": "hòu",
+    "pinyin_numeric": "hou4",
+    "phonemes": [
+      "hou4"
+    ],
+    "pos": "place",
+    "meaning_en": "back; behind",
+    "meaning_ko": "뒤",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D24_02",
+      "SEN_M1_D24_08",
+      "SEN_M1_D30_06"
+    ],
+    "audio_id": "AUD_VOC_M1_165"
+  },
+  {
+    "id": "VOC_M1_166",
+    "char": "裡面",
+    "pinyin": "lǐmiàn",
+    "pinyin_numeric": "limian4",
+    "phonemes": [
+      "limian4"
+    ],
+    "pos": "place",
+    "meaning_en": "inside",
+    "meaning_ko": "안쪽",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D24_04"
+    ],
+    "audio_id": "AUD_VOC_M1_166"
+  },
+  {
+    "id": "VOC_M1_167",
+    "char": "外面",
+    "pinyin": "wàimiàn",
+    "pinyin_numeric": "waimian4",
+    "phonemes": [
+      "waimian4"
+    ],
+    "pos": "place",
+    "meaning_en": "outside",
+    "meaning_ko": "밖",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D24_05"
+    ],
+    "audio_id": "AUD_VOC_M1_167"
+  },
+  {
+    "id": "VOC_M1_168",
+    "char": "銀行",
+    "pinyin": "yínháng",
+    "pinyin_numeric": "yinhang2",
+    "phonemes": [
+      "yinhang2"
+    ],
+    "pos": "place",
+    "meaning_en": "bank",
+    "meaning_ko": "은행",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D24_01",
+      "SEN_M1_D24_08",
+      "SEN_M1_D25_01"
+    ],
+    "audio_id": "AUD_VOC_M1_168"
+  },
+  {
+    "id": "VOC_M1_169",
+    "char": "廁所",
+    "pinyin": "cèsuǒ",
+    "pinyin_numeric": "cesuo3",
+    "phonemes": [
+      "cesuo3"
+    ],
+    "pos": "place",
+    "meaning_en": "bathroom",
+    "meaning_ko": "화장실",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D24_03"
+    ],
+    "audio_id": "AUD_VOC_M1_169"
+  },
+  {
+    "id": "VOC_M1_170",
+    "char": "路",
+    "pinyin": "lù",
+    "pinyin_numeric": "lu4",
+    "phonemes": [
+      "lu4"
+    ],
+    "pos": "noun",
+    "meaning_en": "road",
+    "meaning_ko": "길",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D24_06"
+    ],
+    "audio_id": "AUD_VOC_M1_170"
+  },
+  {
+    "id": "VOC_M1_171",
+    "char": "需要",
+    "pinyin": "xūyào",
+    "pinyin_numeric": "xuyao4",
+    "phonemes": [
+      "xuyao4"
+    ],
+    "pos": "verb",
+    "meaning_en": "to need",
+    "meaning_ko": "필요하다",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D25_01",
+      "SEN_M1_D25_04",
+      "SEN_M1_D25_05",
+      "SEN_M1_D25_08"
+    ],
+    "audio_id": "AUD_VOC_M1_171"
+  },
+  {
+    "id": "VOC_M1_172",
+    "char": "得",
+    "pinyin": "děi",
+    "pinyin_numeric": "dei3",
+    "phonemes": [
+      "dei3"
+    ],
+    "pos": "verb",
+    "meaning_en": "must; have to",
+    "meaning_ko": "~해야 한다",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D25_03",
+      "SEN_M1_D25_06"
+    ],
+    "audio_id": "AUD_VOC_M1_172"
+  },
+  {
+    "id": "VOC_M1_173",
+    "char": "必須",
+    "pinyin": "bìxū",
+    "pinyin_numeric": "bixu1",
+    "phonemes": [
+      "bixu1"
+    ],
+    "pos": "verb",
+    "meaning_en": "must",
+    "meaning_ko": "반드시 해야 한다",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D25_02",
+      "SEN_M1_D25_07"
+    ],
+    "audio_id": "AUD_VOC_M1_173"
+  },
+  {
+    "id": "VOC_M1_174",
+    "char": "走",
+    "pinyin": "zǒu",
+    "pinyin_numeric": "zou3",
+    "phonemes": [
+      "zou3"
+    ],
+    "pos": "verb",
+    "meaning_en": "to leave; walk",
+    "meaning_ko": "떠나다; 걷다",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D25_02"
+    ],
+    "audio_id": "AUD_VOC_M1_174"
+  },
+  {
+    "id": "VOC_M1_175",
+    "char": "抱歉",
+    "pinyin": "bàoqiàn",
+    "pinyin_numeric": "baoqian4",
+    "phonemes": [
+      "baoqian4"
+    ],
+    "pos": "interjection",
+    "meaning_en": "sorry",
+    "meaning_ko": "미안합니다",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D25_02"
+    ],
+    "audio_id": "AUD_VOC_M1_175"
+  },
+  {
+    "id": "VOC_M1_176",
+    "char": "拿",
+    "pinyin": "ná",
+    "pinyin_numeric": "na2",
+    "phonemes": [
+      "na2"
+    ],
+    "pos": "verb",
+    "meaning_en": "to take; hold",
+    "meaning_ko": "가지다; 들다",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D25_08"
+    ],
+    "audio_id": "AUD_VOC_M1_176"
+  },
+  {
+    "id": "VOC_M1_177",
+    "char": "發票",
+    "pinyin": "fāpiào",
+    "pinyin_numeric": "fapiao4",
+    "phonemes": [
+      "fapiao4"
+    ],
+    "pos": "noun",
+    "meaning_en": "receipt; invoice",
+    "meaning_ko": "영수증",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D25_04"
+    ],
+    "audio_id": "AUD_VOC_M1_177"
+  },
+  {
+    "id": "VOC_M1_178",
+    "char": "悠遊卡",
+    "pinyin": "Yōuyóu Kǎ",
+    "pinyin_numeric": "Youyou2 Ka3",
+    "phonemes": [
+      "youyou2",
+      "ka3"
+    ],
+    "pos": "noun",
+    "meaning_en": "EasyCard",
+    "meaning_ko": "이지카드",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D25_05"
+    ],
+    "audio_id": "AUD_VOC_M1_178"
+  },
+  {
+    "id": "VOC_M1_179",
+    "char": "請",
+    "pinyin": "qǐng",
+    "pinyin_numeric": "qing3",
+    "phonemes": [
+      "qing3"
+    ],
+    "pos": "verb",
+    "meaning_en": "please; invite",
+    "meaning_ko": "부디; 청하다",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D26_01",
+      "SEN_M1_D26_02",
+      "SEN_M1_D26_03",
+      "SEN_M1_D26_04",
+      "SEN_M1_D26_05",
+      "SEN_M1_D26_08"
+    ],
+    "audio_id": "AUD_VOC_M1_179"
+  },
+  {
+    "id": "VOC_M1_180",
+    "char": "進",
+    "pinyin": "jìn",
+    "pinyin_numeric": "jin4",
+    "phonemes": [
+      "jin4"
+    ],
+    "pos": "verb",
+    "meaning_en": "to enter",
+    "meaning_ko": "들어가다",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D26_01"
+    ],
+    "audio_id": "AUD_VOC_M1_180"
+  },
+  {
+    "id": "VOC_M1_181",
+    "char": "幫",
+    "pinyin": "bāng",
+    "pinyin_numeric": "bang1",
+    "phonemes": [
+      "bang1"
+    ],
+    "pos": "verb",
+    "meaning_en": "to help",
+    "meaning_ko": "돕다",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D26_02"
+    ],
+    "audio_id": "AUD_VOC_M1_181"
+  },
+  {
+    "id": "VOC_M1_182",
+    "char": "跟",
+    "pinyin": "gēn",
+    "pinyin_numeric": "gen1",
+    "phonemes": [
+      "gen1"
+    ],
+    "pos": "preposition",
+    "meaning_en": "with; follow",
+    "meaning_ko": "~와; 따라가다",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D26_03"
+    ],
+    "audio_id": "AUD_VOC_M1_182"
+  },
+  {
+    "id": "VOC_M1_183",
+    "char": "一起",
+    "pinyin": "yìqǐ",
+    "pinyin_numeric": "yiqi3",
+    "phonemes": [
+      "yiqi3"
+    ],
+    "pos": "adverb",
+    "meaning_en": "together",
+    "meaning_ko": "함께",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D26_07"
+    ],
+    "audio_id": "AUD_VOC_M1_183"
+  },
+  {
+    "id": "VOC_M1_184",
+    "char": "等",
+    "pinyin": "děng",
+    "pinyin_numeric": "deng3",
+    "phonemes": [
+      "deng3"
+    ],
+    "pos": "verb",
+    "meaning_en": "to wait",
+    "meaning_ko": "기다리다",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D26_04"
+    ],
+    "audio_id": "AUD_VOC_M1_184"
+  },
+  {
+    "id": "VOC_M1_185",
+    "char": "菜單",
+    "pinyin": "càidān",
+    "pinyin_numeric": "caidan1",
+    "phonemes": [
+      "caidan1"
+    ],
+    "pos": "noun",
+    "meaning_en": "menu",
+    "meaning_ko": "메뉴",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D26_05"
+    ],
+    "audio_id": "AUD_VOC_M1_185"
+  },
+  {
+    "id": "VOC_M1_186",
+    "char": "袋子",
+    "pinyin": "dàizi",
+    "pinyin_numeric": "daizi4",
+    "phonemes": [
+      "daizi4"
+    ],
+    "pos": "noun",
+    "meaning_en": "bag",
+    "meaning_ko": "봉투; 가방",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D26_06"
+    ],
+    "audio_id": "AUD_VOC_M1_186"
+  },
+  {
+    "id": "VOC_M1_187",
+    "char": "愛好",
+    "pinyin": "àihào",
+    "pinyin_numeric": "aihao4",
+    "phonemes": [
+      "aihao4"
+    ],
+    "pos": "noun",
+    "meaning_en": "hobby",
+    "meaning_ko": "취미",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D27_01",
+      "SEN_M1_D27_08"
+    ],
+    "audio_id": "AUD_VOC_M1_187"
+  },
+  {
+    "id": "VOC_M1_188",
+    "char": "唱歌",
+    "pinyin": "chànggē",
+    "pinyin_numeric": "changge1",
+    "phonemes": [
+      "changge1"
+    ],
+    "pos": "verb",
+    "meaning_en": "to sing",
+    "meaning_ko": "노래하다",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D27_01",
+      "SEN_M1_D27_05"
+    ],
+    "audio_id": "AUD_VOC_M1_188"
+  },
+  {
+    "id": "VOC_M1_189",
+    "char": "跳舞",
+    "pinyin": "tiàowǔ",
+    "pinyin_numeric": "tiaowu3",
+    "phonemes": [
+      "tiaowu3"
+    ],
+    "pos": "verb",
+    "meaning_en": "to dance",
+    "meaning_ko": "춤추다",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D27_01",
+      "SEN_M1_D27_07"
+    ],
+    "audio_id": "AUD_VOC_M1_189"
+  },
+  {
+    "id": "VOC_M1_190",
+    "char": "運動",
+    "pinyin": "yùndòng",
+    "pinyin_numeric": "yundong4",
+    "phonemes": [
+      "yundong4"
+    ],
+    "pos": "verb",
+    "meaning_en": "to exercise; sport",
+    "meaning_ko": "운동하다; 운동",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D27_03"
+    ],
+    "audio_id": "AUD_VOC_M1_190"
+  },
+  {
+    "id": "VOC_M1_191",
+    "char": "旅遊",
+    "pinyin": "lǚyóu",
+    "pinyin_numeric": "lüyou2",
+    "phonemes": [
+      "lüyou2"
+    ],
+    "pos": "verb",
+    "meaning_en": "to travel",
+    "meaning_ko": "여행하다",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D27_02"
+    ],
+    "audio_id": "AUD_VOC_M1_191"
+  },
+  {
+    "id": "VOC_M1_192",
+    "char": "跑步",
+    "pinyin": "pǎobù",
+    "pinyin_numeric": "paobu4",
+    "phonemes": [
+      "paobu4"
+    ],
+    "pos": "verb",
+    "meaning_en": "to run",
+    "meaning_ko": "달리다",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D27_06"
+    ],
+    "audio_id": "AUD_VOC_M1_192"
+  },
+  {
+    "id": "VOC_M1_193",
+    "char": "游泳",
+    "pinyin": "yóuyǒng",
+    "pinyin_numeric": "youyong3",
+    "phonemes": [
+      "youyong3"
+    ],
+    "pos": "verb",
+    "meaning_en": "to swim",
+    "meaning_ko": "수영하다",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D27_04",
+      "SEN_M1_D28_02"
+    ],
+    "audio_id": "AUD_VOC_M1_193"
+  },
+  {
+    "id": "VOC_M1_194",
+    "char": "會",
+    "pinyin": "huì",
+    "pinyin_numeric": "hui4",
+    "phonemes": [
+      "hui4"
+    ],
+    "pos": "verb",
+    "meaning_en": "will; can",
+    "meaning_ko": "~할 것이다; 할 수 있다",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D28_01",
+      "SEN_M1_D28_06"
+    ],
+    "audio_id": "AUD_VOC_M1_194"
+  },
+  {
+    "id": "VOC_M1_195",
+    "char": "打算",
+    "pinyin": "dǎsuàn",
+    "pinyin_numeric": "dasuan4",
+    "phonemes": [
+      "dasuan4"
+    ],
+    "pos": "verb",
+    "meaning_en": "to plan",
+    "meaning_ko": "계획하다",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D28_03",
+      "SEN_M1_D28_08",
+      "SEN_M1_D30_08"
+    ],
+    "audio_id": "AUD_VOC_M1_195"
+  },
+  {
+    "id": "VOC_M1_196",
+    "char": "希望",
+    "pinyin": "xīwàng",
+    "pinyin_numeric": "xiwang4",
+    "phonemes": [
+      "xiwang4"
+    ],
+    "pos": "verb",
+    "meaning_en": "to hope",
+    "meaning_ko": "바라다",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D28_04"
+    ],
+    "audio_id": "AUD_VOC_M1_196"
+  },
+  {
+    "id": "VOC_M1_197",
+    "char": "台北",
+    "pinyin": "Táiběi",
+    "pinyin_numeric": "Taibei3",
+    "phonemes": [
+      "taibei3"
+    ],
+    "pos": "place",
+    "meaning_en": "Taipei",
+    "meaning_ko": "타이베이",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D28_01",
+      "SEN_M1_D30_08"
+    ],
+    "audio_id": "AUD_VOC_M1_197"
+  },
+  {
+    "id": "VOC_M1_198",
+    "char": "見面",
+    "pinyin": "jiànmiàn",
+    "pinyin_numeric": "jianmian4",
+    "phonemes": [
+      "jianmian4"
+    ],
+    "pos": "verb",
+    "meaning_en": "to meet",
+    "meaning_ko": "만나다",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D28_03"
+    ],
+    "audio_id": "AUD_VOC_M1_198"
+  },
+  {
+    "id": "VOC_M1_199",
+    "char": "計畫",
+    "pinyin": "jìhuà",
+    "pinyin_numeric": "jihua4",
+    "phonemes": [
+      "jihua4"
+    ],
+    "pos": "noun",
+    "meaning_en": "plan",
+    "meaning_ko": "계획",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D28_07"
+    ],
+    "audio_id": "AUD_VOC_M1_199"
+  },
+  {
+    "id": "VOC_M1_200",
+    "char": "下個星期",
+    "pinyin": "xià ge xīngqī",
+    "pinyin_numeric": "xia4 ge0 xingqi1",
+    "phonemes": [
+      "xia4",
+      "ge0",
+      "xingqi1"
+    ],
+    "pos": "time",
+    "meaning_en": "next week",
+    "meaning_ko": "다음 주",
+    "frequency": "medium",
+    "cefr": "A1",
+    "hsk_level": 1,
+    "example_ids": [
+      "SEN_M1_D28_03"
+    ],
+    "audio_id": "AUD_VOC_M1_200"
   }
 ]

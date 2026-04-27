@@ -102,6 +102,7 @@ export type LessonItem = {
       | "memory_speaking"
       | "review_summary";
     target_count?: number;
+    duration_minutes?: number;
   }>;
   mastery_threshold: number;
 };

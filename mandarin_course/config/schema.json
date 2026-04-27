@@ -537,6 +537,10 @@
               "target_count": {
                 "type": "integer",
                 "minimum": 1
+              },
+              "duration_minutes": {
+                "type": "integer",
+                "minimum": 1
               }
             }
           }
