@@ -11,6 +11,31 @@
     "example_ids": [
       "SEN_M1_W1_001"
     ],
+    "slots": [
+      {
+        "name": "NAME",
+        "role": "name",
+        "values": [
+          {
+            "text": "王明",
+            "pinyin": "wáng míng",
+            "meaning_en": "Wang Ming",
+            "meaning_ko": "왕밍"
+          }
+        ]
+      }
+    ],
+    "drill_examples": [
+      {
+        "text": "我叫王明。",
+        "pinyin": "wǒ jiào wáng míng.",
+        "translation_en": "My name is Wang Ming.",
+        "translation_ko": "저는 왕밍입니다.",
+        "slot_values": {
+          "NAME": "王明"
+        }
+      }
+    ],
     "negative_examples": [
       {
         "text": "我名字叫王明",
@@ -30,6 +55,31 @@
     "example_ids": [
       "SEN_M1_W1_002"
     ],
+    "slots": [
+      {
+        "name": "NOUN",
+        "role": "noun",
+        "values": [
+          {
+            "text": "學生",
+            "pinyin": "xuéshēng",
+            "meaning_en": "student",
+            "meaning_ko": "학생"
+          }
+        ]
+      }
+    ],
+    "drill_examples": [
+      {
+        "text": "我是學生。",
+        "pinyin": "wǒ shì xuéshēng.",
+        "translation_en": "I am a student.",
+        "translation_ko": "나는 학생이다.",
+        "slot_values": {
+          "NOUN": "學生"
+        }
+      }
+    ],
     "negative_examples": [
       {
         "text": "我是很學生",
@@ -47,6 +97,31 @@
     "explanation_en": "Turns statement into yes/no question",
     "example_ids": [
       "SEN_M1_W1_003"
+    ],
+    "slots": [
+      {
+        "name": "statement",
+        "role": "statement",
+        "values": [
+          {
+            "text": "你是老師",
+            "pinyin": "nǐ shì lǎoshī",
+            "meaning_en": "you are a teacher",
+            "meaning_ko": "당신은 선생님이다"
+          }
+        ]
+      }
+    ],
+    "drill_examples": [
+      {
+        "text": "你是老師嗎？",
+        "pinyin": "nǐ shì lǎoshī ma?",
+        "translation_en": "Are you a teacher?",
+        "translation_ko": "당신은 선생님입니까?",
+        "slot_values": {
+          "statement": "你是老師"
+        }
+      }
     ],
     "negative_examples": [
       {

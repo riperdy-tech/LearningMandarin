@@ -33,6 +33,24 @@ export type GrammarItem = {
   structure: string[];
   explanation_en: string;
   example_ids: string[];
+  slots?: Array<{
+    name: string;
+    role: "subject" | "verb" | "noun" | "name" | "statement" | "location" | "adjective" | "object";
+    values: Array<{
+      text: string;
+      pinyin: string;
+      meaning_en: string;
+      meaning_ko?: string;
+      vocab_id?: string;
+    }>;
+  }>;
+  drill_examples?: Array<{
+    text: string;
+    pinyin: string;
+    translation_en: string;
+    translation_ko?: string;
+    slot_values?: Record<string, string>;
+  }>;
   negative_examples: Array<{
     text: string;
     error: string;
@@ -73,7 +91,39 @@ export type LessonItem = {
   grammar_ids: string[];
   pronunciation_ids: string[];
   exercise_flow: string[];
+  daily_flow?: Array<{
+    id: string;
+    title: string;
+    kind:
+      | "pattern_review"
+      | "new_words"
+      | "substitution"
+      | "listen_shadow"
+      | "memory_speaking"
+      | "review_summary";
+    target_count?: number;
+  }>;
   mastery_threshold: number;
+};
+
+export type LocalProgress = {
+  version: 1;
+  completed_lessons: Record<
+    string,
+    {
+      completed_at: string;
+      mastery: number;
+      attempts: number;
+    }
+  >;
+  lesson_steps: Record<string, string[]>;
+  weak_words: string[];
+  weak_patterns: string[];
+  due_review_ids: string[];
+  streak: {
+    count: number;
+    last_study_date: string | null;
+  };
 };
 
 export type UiText = {

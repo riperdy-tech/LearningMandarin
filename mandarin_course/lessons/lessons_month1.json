@@ -30,6 +30,44 @@
       "reorder",
       "speaking"
     ],
+    "daily_flow": [
+      {
+        "id": "pattern_review",
+        "title": "Pattern review",
+        "kind": "pattern_review",
+        "target_count": 1
+      },
+      {
+        "id": "new_words",
+        "title": "New words inside sentences",
+        "kind": "new_words",
+        "target_count": 3
+      },
+      {
+        "id": "substitution",
+        "title": "Sentence substitution drill",
+        "kind": "substitution",
+        "target_count": 3
+      },
+      {
+        "id": "listen_shadow",
+        "title": "Listen and shadow",
+        "kind": "listen_shadow",
+        "target_count": 1
+      },
+      {
+        "id": "memory_speaking",
+        "title": "Speak from memory",
+        "kind": "memory_speaking",
+        "target_count": 1
+      },
+      {
+        "id": "review_summary",
+        "title": "Quick review summary",
+        "kind": "review_summary",
+        "target_count": 1
+      }
+    ],
     "mastery_threshold": 0.85
   },
   {
@@ -61,6 +99,44 @@
       "mcq",
       "reorder",
       "speaking"
+    ],
+    "daily_flow": [
+      {
+        "id": "pattern_review",
+        "title": "Pattern review",
+        "kind": "pattern_review",
+        "target_count": 1
+      },
+      {
+        "id": "new_words",
+        "title": "New words inside sentences",
+        "kind": "new_words",
+        "target_count": 2
+      },
+      {
+        "id": "substitution",
+        "title": "Sentence substitution drill",
+        "kind": "substitution",
+        "target_count": 2
+      },
+      {
+        "id": "listen_shadow",
+        "title": "Listen and shadow",
+        "kind": "listen_shadow",
+        "target_count": 1
+      },
+      {
+        "id": "memory_speaking",
+        "title": "Speak from memory",
+        "kind": "memory_speaking",
+        "target_count": 1
+      },
+      {
+        "id": "review_summary",
+        "title": "Quick review summary",
+        "kind": "review_summary",
+        "target_count": 1
+      }
     ],
     "mastery_threshold": 0.85
   },
@@ -96,6 +172,44 @@
       "mcq",
       "reorder",
       "speaking"
+    ],
+    "daily_flow": [
+      {
+        "id": "pattern_review",
+        "title": "Pattern review",
+        "kind": "pattern_review",
+        "target_count": 1
+      },
+      {
+        "id": "new_words",
+        "title": "New words inside sentences",
+        "kind": "new_words",
+        "target_count": 4
+      },
+      {
+        "id": "substitution",
+        "title": "Sentence substitution drill",
+        "kind": "substitution",
+        "target_count": 3
+      },
+      {
+        "id": "listen_shadow",
+        "title": "Listen and shadow",
+        "kind": "listen_shadow",
+        "target_count": 1
+      },
+      {
+        "id": "memory_speaking",
+        "title": "Speak from memory",
+        "kind": "memory_speaking",
+        "target_count": 1
+      },
+      {
+        "id": "review_summary",
+        "title": "Quick review summary",
+        "kind": "review_summary",
+        "target_count": 1
+      }
     ],
     "mastery_threshold": 0.85
   }

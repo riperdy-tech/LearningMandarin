@@ -45,6 +45,9 @@
       "items": {
         "$ref": "#/$defs/audio_item"
       }
+    },
+    "local_progress": {
+      "$ref": "#/$defs/local_progress"
     }
   },
   "$defs": {
@@ -209,6 +212,96 @@
           "type": "array",
           "items": {
             "$ref": "#/$defs/id"
+          }
+        },
+        "slots": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "name",
+              "role",
+              "values"
+            ],
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "role": {
+                "enum": [
+                  "subject",
+                  "verb",
+                  "noun",
+                  "name",
+                  "statement",
+                  "location",
+                  "adjective",
+                  "object"
+                ]
+              },
+              "values": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "text",
+                    "pinyin",
+                    "meaning_en"
+                  ],
+                  "properties": {
+                    "text": {
+                      "type": "string"
+                    },
+                    "pinyin": {
+                      "type": "string"
+                    },
+                    "meaning_en": {
+                      "type": "string"
+                    },
+                    "meaning_ko": {
+                      "type": "string"
+                    },
+                    "vocab_id": {
+                      "$ref": "#/$defs/id"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "drill_examples": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "text",
+              "pinyin",
+              "translation_en"
+            ],
+            "properties": {
+              "text": {
+                "type": "string"
+              },
+              "pinyin": {
+                "type": "string"
+              },
+              "translation_en": {
+                "type": "string"
+              },
+              "translation_ko": {
+                "type": "string"
+              },
+              "slot_values": {
+                "type": "object",
+                "additionalProperties": {
+                  "type": "string"
+                }
+              }
+            }
           }
         },
         "negative_examples": {
@@ -414,6 +507,40 @@
             ]
           }
         },
+        "daily_flow": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "title",
+              "kind"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              },
+              "kind": {
+                "enum": [
+                  "pattern_review",
+                  "new_words",
+                  "substitution",
+                  "listen_shadow",
+                  "memory_speaking",
+                  "review_summary"
+                ]
+              },
+              "target_count": {
+                "type": "integer",
+                "minimum": 1
+              }
+            }
+          }
+        },
         "mastery_threshold": {
           "type": "number",
           "minimum": 0,
@@ -463,6 +590,97 @@
             "generated",
             "missing"
           ]
+        }
+      }
+    },
+    "local_progress": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "version",
+        "completed_lessons",
+        "lesson_steps",
+        "weak_words",
+        "weak_patterns",
+        "due_review_ids",
+        "streak"
+      ],
+      "properties": {
+        "version": {
+          "const": 1
+        },
+        "completed_lessons": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "completed_at",
+              "mastery",
+              "attempts"
+            ],
+            "properties": {
+              "completed_at": {
+                "type": "string"
+              },
+              "mastery": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1
+              },
+              "attempts": {
+                "type": "integer",
+                "minimum": 0
+              }
+            }
+          }
+        },
+        "lesson_steps": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "weak_words": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "weak_patterns": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "due_review_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "streak": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "count",
+            "last_study_date"
+          ],
+          "properties": {
+            "count": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "last_study_date": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          }
         }
       }
     }
