@@ -305,7 +305,7 @@ export function CourseApp({ data }: { data: CourseData }) {
             onSelectPattern={setSelectedPattern}
             onSelectVocab={setSelectedVocab}
             speak={speech.speak}
-            vocab={lessonPack.vocab}
+            vocab={lessonPack.contextVocab}
             writing={lessonPack.writing}
           />
         </section>
@@ -382,6 +382,7 @@ function TrainerStepPanel({
             onSelectPattern={onSelectPattern}
             speak={speak}
             toggleWeakPattern={toggleWeakPattern}
+            vocab={lookupVocab}
             weakPatterns={progress.weak_patterns}
           />
         )}
@@ -399,15 +400,15 @@ function TrainerStepPanel({
         )}
 
         {activeStep.kind === "substitution" && (
-          <SubstitutionDrill generatedSentences={generatedSentences} speak={speak} />
+          <SubstitutionDrill generatedSentences={generatedSentences} speak={speak} vocab={lookupVocab} />
         )}
 
         {activeStep.kind === "listen_shadow" && (
-          <ListenShadow sentences={lessonPack.sentences} speak={speak} />
+          <ListenShadow sentences={lessonPack.sentences} speak={speak} vocab={lookupVocab} />
         )}
 
         {activeStep.kind === "memory_speaking" && (
-          <MemorySpeaking generatedSentences={generatedSentences} speak={speak} />
+          <MemorySpeaking generatedSentences={generatedSentences} speak={speak} vocab={lookupVocab} />
         )}
 
         {activeStep.kind === "review_summary" && (
@@ -418,6 +419,8 @@ function TrainerStepPanel({
             progress={progress}
             resetProgress={resetProgress}
             sentences={generatedSentences}
+            speak={speak}
+            vocab={lookupVocab}
           />
         )}
       </CardContent>
@@ -430,12 +433,14 @@ function PatternReview({
   onSelectPattern,
   speak,
   toggleWeakPattern,
+  vocab,
   weakPatterns
 }: {
   grammar: GrammarItem[];
   onSelectPattern: (grammar: GrammarItem) => void;
   speak: (text: string, mode?: SpeechMode) => void;
   toggleWeakPattern: (id: string) => void;
+  vocab: VocabularyItem[];
   weakPatterns: string[];
 }) {
   return (
@@ -482,6 +487,7 @@ function PatternReview({
                 text={example.text}
                 translationEn={example.translation_en}
                 translationKo={example.translation_ko}
+                vocab={vocab}
               />
             ))}
           </div>
@@ -570,10 +576,12 @@ function NewWordsInSentences({
 
 function SubstitutionDrill({
   generatedSentences,
-  speak
+  speak,
+  vocab
 }: {
   generatedSentences: GeneratedSentence[];
   speak: (text: string, mode?: SpeechMode) => void;
+  vocab: VocabularyItem[];
 }) {
   const [activeIndex, setActiveIndex] = useState(0);
   const active = generatedSentences[activeIndex] ?? generatedSentences[0];
@@ -586,7 +594,12 @@ function SubstitutionDrill({
     <div className="grid gap-5 xl:grid-cols-[minmax(0,1fr)_18rem]">
       <div className="rounded-lg bg-skyglass p-5">
         <p className="text-sm font-black text-ink/55">Say it, then swap one part</p>
-        <div className="mt-4 han text-5xl font-black text-ink">{active.text}</div>
+        <ClickableChineseLine
+          className="mt-4 text-5xl font-black text-ink"
+          speak={speak}
+          text={active.text}
+          vocab={vocab}
+        />
         <p className="mt-3 text-xl font-black text-jade-700">{active.pinyin}</p>
         <p className="mt-2 text-lg font-bold text-ink">{active.translation_en}</p>
         {active.translation_ko && <p className="text-sm font-semibold text-ink/50">{active.translation_ko}</p>}
@@ -626,10 +639,12 @@ function SubstitutionDrill({
 
 function ListenShadow({
   sentences,
-  speak
+  speak,
+  vocab
 }: {
   sentences: SentenceItem[];
   speak: (text: string, mode?: SpeechMode) => void;
+  vocab: VocabularyItem[];
 }) {
   return (
     <div className="grid gap-3">
@@ -644,6 +659,7 @@ function ListenShadow({
           text={sentence.text}
           translationEn={sentence.translation_en}
           translationKo={sentence.translation_ko}
+          vocab={vocab}
         />
       ))}
     </div>
@@ -652,10 +668,12 @@ function ListenShadow({
 
 function MemorySpeaking({
   generatedSentences,
-  speak
+  speak,
+  vocab
 }: {
   generatedSentences: GeneratedSentence[];
   speak: (text: string, mode?: SpeechMode) => void;
+  vocab: VocabularyItem[];
 }) {
   const [revealed, setRevealed] = useState(false);
   const active = generatedSentences[0];
@@ -672,7 +690,12 @@ function MemorySpeaking({
       <div className="mt-5 min-h-32 rounded-lg border border-dashed border-ink/25 bg-white p-5">
         {revealed ? (
           <>
-            <div className="han text-5xl font-black text-ink">{active.text}</div>
+            <ClickableChineseLine
+              className="text-5xl font-black text-ink"
+              speak={speak}
+              text={active.text}
+              vocab={vocab}
+            />
             <p className="mt-2 text-xl font-black text-jade-700">{active.pinyin}</p>
           </>
         ) : (
@@ -700,7 +723,9 @@ function ReviewSummary({
   onCompleteLesson,
   progress,
   resetProgress,
-  sentences
+  sentences,
+  speak,
+  vocab
 }: {
   allStepsDone: boolean;
   lessonCompleted: boolean;
@@ -708,6 +733,8 @@ function ReviewSummary({
   progress: LocalProgress;
   resetProgress: () => void;
   sentences: GeneratedSentence[];
+  speak: (text: string, mode?: SpeechMode) => void;
+  vocab: VocabularyItem[];
 }) {
   const dueCount = progress.due_review_ids.length + progress.weak_words.length + progress.weak_patterns.length;
 
@@ -722,7 +749,12 @@ function ReviewSummary({
         <div className="mt-4 grid gap-2">
           {sentences.slice(0, 4).map((sentence) => (
             <div className="rounded-lg bg-white p-3" key={sentence.text}>
-              <p className="han text-xl font-black text-ink">{sentence.text}</p>
+              <ClickableChineseLine
+                className="text-xl font-black text-ink"
+                speak={speak}
+                text={sentence.text}
+                vocab={vocab}
+              />
               <p className="text-sm font-bold text-jade-700">{sentence.pinyin}</p>
             </div>
           ))}
@@ -766,6 +798,13 @@ function ReferenceStrip({
   const [activeWriting, setActiveWriting] = useState(writing[0]?.char ?? "");
   const writingItem = writing.find((item) => item.char === activeWriting) ?? writing[0];
 
+  useEffect(() => {
+    if (writing.length === 0) return;
+    if (!writing.some((item) => item.char === activeWriting)) {
+      setActiveWriting(writing[0].char);
+    }
+  }, [activeWriting, writing]);
+
   return (
     <div className="grid gap-5 xl:grid-cols-2">
       <Card className="bg-white/90">
@@ -777,7 +816,7 @@ function ReferenceStrip({
         </CardHeader>
         <CardContent className="space-y-4">
           <div>
-            <p className="text-xs font-black uppercase text-ink/45">Words</p>
+            <p className="text-xs font-black uppercase text-ink/45">Words used today</p>
             <div className="mt-2 flex flex-wrap gap-2">
               {vocab.map((item) => (
                 <button
@@ -894,7 +933,12 @@ function SentenceWithTokens({
     <div className="rounded-lg bg-white p-4 ring-1 ring-black/10">
       <div className="flex flex-wrap items-start justify-between gap-3">
         <div>
-          <div className="han text-3xl font-black text-ink">{sentence.text}</div>
+          <ClickableChineseLine
+            className="text-3xl font-black text-ink"
+            speak={speak}
+            text={sentence.text}
+            vocab={vocab}
+          />
           <p className="mt-1 text-lg font-black text-jade-700">{sentence.pinyin}</p>
           <p className="mt-1 font-bold text-ink">{sentence.translation_en}</p>
           <p className="text-sm font-semibold text-ink/50">{sentence.translation_ko}</p>
@@ -926,25 +970,80 @@ function SentenceCard({
   speak,
   text,
   translationEn,
-  translationKo
+  translationKo,
+  vocab
 }: {
   pinyin: string;
   speak: (text: string, mode?: SpeechMode) => void;
   text: string;
   translationEn: string;
   translationKo?: string;
+  vocab?: VocabularyItem[];
 }) {
   return (
     <div className="rounded-lg bg-white p-4 ring-1 ring-black/10">
       <div className="flex items-start justify-between gap-3">
         <div>
-          <p className="han text-2xl font-black text-ink">{text}</p>
+          {vocab ? (
+            <ClickableChineseLine
+              className="text-2xl font-black text-ink"
+              speak={speak}
+              text={text}
+              vocab={vocab}
+            />
+          ) : (
+            <p className="han text-2xl font-black text-ink">{text}</p>
+          )}
           <p className="mt-1 font-black text-jade-700">{pinyin}</p>
         </div>
         <AudioButton label={`Play ${text}`} onClick={() => speak(text, "sentence")} />
       </div>
       <p className="mt-3 font-bold text-ink">{translationEn}</p>
       {translationKo && <p className="text-sm font-semibold text-ink/50">{translationKo}</p>}
+    </div>
+  );
+}
+
+function ClickableChineseLine({
+  className,
+  speak,
+  text,
+  vocab
+}: {
+  className?: string;
+  speak: (text: string, mode?: SpeechMode) => void;
+  text: string;
+  vocab: VocabularyItem[];
+}) {
+  const [selected, setSelected] = useState<VocabularyItem | null>(null);
+  const segments = useMemo(() => segmentChineseText(text, vocab), [text, vocab]);
+
+  useEffect(() => setSelected(null), [text]);
+
+  return (
+    <div>
+      <div className={cn("han leading-tight", className)}>
+        {segments.map((segment, index) =>
+          segment.item ? (
+            <button
+              className="inline rounded-md px-1 text-left align-baseline transition hover:bg-jade-100 hover:text-jade-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-jade-500"
+              key={`${segment.text}-${index}`}
+              onClick={() => setSelected(segment.item ?? null)}
+              title={`${segment.item.pinyin} - ${segment.item.meaning_en}`}
+              type="button"
+            >
+              {segment.text}
+            </button>
+          ) : (
+            <span key={`${segment.text}-${index}`}>{segment.text}</span>
+          )
+        )}
+      </div>
+      {selected && (
+        <div className="mt-3 rounded-lg bg-jade-50 p-4 ring-1 ring-jade-500/20">
+          <VocabInfoBox item={selected} speak={speak} />
+        </div>
+      )}
     </div>
   );
 }
@@ -1207,10 +1306,21 @@ function buildLessonPack(data: CourseData, lesson: LessonItem) {
   const sentences = data.sentences.filter((item) => lesson.sentence_ids.includes(item.id));
   const grammar = data.grammar.filter((item) => lesson.grammar_ids.includes(item.id));
   const pronunciation = data.pronunciation.filter((item) => lesson.pronunciation_ids.includes(item.id));
-  const writingChars = new Set(vocab.flatMap((item) => item.char.split("")));
+  const contextVocab = collectContextVocab(data.vocab, vocab, sentences);
+  const writingChars = new Set<string>();
+  sentences.forEach((sentence) => {
+    Array.from(sentence.text).forEach((char) => {
+      if (isLikelyChinese(char)) writingChars.add(char);
+    });
+  });
+  contextVocab.forEach((item) => {
+    Array.from(item.char).forEach((char) => {
+      if (isLikelyChinese(char)) writingChars.add(char);
+    });
+  });
   const writing = data.writing.filter((item) => writingChars.has(item.char));
 
-  return { vocab, sentences, grammar, pronunciation, writing };
+  return { vocab, contextVocab, sentences, grammar, pronunciation, writing };
 }
 
 type GeneratedSentence = {
@@ -1301,6 +1411,46 @@ function findVocabForToken(vocab: VocabularyItem[], token: string) {
     vocab.find((item) => item.char === token) ??
     vocab.find((item) => token.includes(item.char) || item.char.includes(token))
   );
+}
+
+function collectContextVocab(allVocab: VocabularyItem[], lessonVocab: VocabularyItem[], sentences: SentenceItem[]) {
+  const ordered = [...lessonVocab];
+  const seen = new Set(ordered.map((item) => item.id));
+
+  function add(item?: VocabularyItem) {
+    if (!item || seen.has(item.id)) return;
+    seen.add(item.id);
+    ordered.push(item);
+  }
+
+  sentences.forEach((sentence) => {
+    sentence.tokens.forEach((token) => add(findVocabForToken(allVocab, token)));
+    segmentChineseText(sentence.text, allVocab).forEach((segment) => add(segment.item));
+  });
+
+  return ordered;
+}
+
+function segmentChineseText(text: string, vocab: VocabularyItem[]) {
+  const entries = vocab
+    .filter((item) => item.char && isLikelyChinese(item.char))
+    .sort((a, b) => b.char.length - a.char.length);
+  const segments: Array<{ text: string; item?: VocabularyItem }> = [];
+  let index = 0;
+
+  while (index < text.length) {
+    const item = entries.find((entry) => text.startsWith(entry.char, index));
+    if (item) {
+      segments.push({ text: item.char, item });
+      index += item.char.length;
+      continue;
+    }
+
+    segments.push({ text: text[index] });
+    index += 1;
+  }
+
+  return segments;
 }
 
 function tokenizePattern(pattern: string) {
