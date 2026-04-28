@@ -437,7 +437,7 @@ export function CourseApp({ data }: { data: CourseData }) {
 
       {selectedPattern && (
         <DetailDrawer title="Pattern detail" onClose={() => setSelectedPattern(null)}>
-          <PatternDetail grammar={selectedPattern} speak={speech.speak} vocab={data.vocab} />
+          <PatternDetail grammar={selectedPattern} sentences={data.sentences} speak={speech.speak} vocab={data.vocab} />
         </DetailDrawer>
       )}
 
@@ -511,6 +511,7 @@ function TrainerStepPanel({
           <PatternReview
             grammar={lessonPack.grammar}
             onSelectPattern={onSelectPattern}
+            sentences={lessonPack.sentences}
             speak={speak}
             toggleWeakPattern={toggleWeakPattern}
             vocab={lookupVocab}
@@ -562,6 +563,7 @@ function TrainerStepPanel({
 function PatternReview({
   grammar,
   onSelectPattern,
+  sentences,
   speak,
   toggleWeakPattern,
   vocab,
@@ -569,6 +571,7 @@ function PatternReview({
 }: {
   grammar: GrammarItem[];
   onSelectPattern: (grammar: GrammarItem) => void;
+  sentences: SentenceItem[];
   speak: SpeakFn;
   toggleWeakPattern: (id: string) => void;
   vocab: VocabularyItem[];
@@ -610,8 +613,9 @@ function PatternReview({
           </div>
 
           <div className="mt-4 grid gap-3 md:grid-cols-2">
-            {getPatternExamples(item).map((example) => (
+            {getPatternExamples(item, sentences).map((example) => (
               <SentenceCard
+                audioId={example.audio_id}
                 key={example.text}
                 pinyin={example.pinyin}
                 speak={speak}
@@ -1223,10 +1227,12 @@ function ClickableChineseLine({
 
 function PatternDetail({
   grammar,
+  sentences,
   speak,
   vocab
 }: {
   grammar: GrammarItem;
+  sentences: SentenceItem[];
   speak: SpeakFn;
   vocab: VocabularyItem[];
 }) {
@@ -1269,8 +1275,9 @@ function PatternDetail({
           ))}
         </div>
       )}
-      {getPatternExamples(grammar).map((example) => (
+      {getPatternExamples(grammar, sentences).map((example) => (
         <SentenceCard
+          audioId={example.audio_id}
           key={example.text}
           pinyin={example.pinyin}
           speak={speak}
@@ -1543,8 +1550,9 @@ function RepositoryDrawer({
                 <p className="font-black text-ink">{item.pattern}</p>
                 <p className="mt-1 text-sm font-semibold text-ink/65">{item.explanation_en}</p>
                 <div className="mt-3 grid gap-2 md:grid-cols-2">
-                  {getPatternExamples(item).slice(0, 2).map((example) => (
+                  {getPatternExamples(item, data.sentences).slice(0, 2).map((example) => (
                     <SentenceCard
+                      audioId={example.audio_id}
                       key={example.text}
                       pinyin={example.pinyin}
                       speak={speak}
@@ -1848,14 +1856,34 @@ function buildGeneratedSentences(pack: LessonPack): GeneratedSentence[] {
   });
 }
 
-function getPatternExamples(grammar: GrammarItem): GeneratedSentence[] {
-  return (grammar.drill_examples ?? []).map((example) => ({
+function getPatternExamples(grammar: GrammarItem, sentenceBank: SentenceItem[] = []): GeneratedSentence[] {
+  const authored = grammar.example_ids
+    .map((id) => sentenceBank.find((sentence) => sentence.id === id))
+    .filter((sentence): sentence is SentenceItem => Boolean(sentence))
+    .map((sentence) => ({
+      audio_id: sentence.audio_id,
+      text: sentence.text,
+      pinyin: sentence.pinyin,
+      translation_en: sentence.translation_en,
+      translation_ko: sentence.translation_ko,
+      source: "authored" as const
+    }));
+  const drills = (grammar.drill_examples ?? []).map((example) => ({
     text: example.text,
     pinyin: example.pinyin,
     translation_en: example.translation_en,
     translation_ko: example.translation_ko,
-    source: "generated"
+    source: "generated" as const
   }));
+  const seen = new Set<string>();
+
+  return [...authored, ...drills]
+    .filter((example) => isAlignedPatternExample(grammar.pattern, example.text))
+    .filter((example) => {
+      if (seen.has(example.text)) return false;
+      seen.add(example.text);
+      return true;
+    });
 }
 
 function getDailyFlow(lesson: LessonItem): TrainerStep[] {
@@ -1949,6 +1977,16 @@ function matchesGrammar(item: GrammarItem, query: string) {
     .join(" ")
     .toLowerCase()
     .includes(query);
+}
+
+function isAlignedPatternExample(pattern: string, sentenceText: string) {
+  const markers = extractPatternMarkers(pattern);
+  if (markers.length === 0) return true;
+  return markers.some((marker) => sentenceText.includes(marker));
+}
+
+function extractPatternMarkers(pattern: string) {
+  return Array.from(new Set(pattern.match(/[\u3400-\u9fff]+/g) ?? []));
 }
 
 function collectContextVocab(allVocab: VocabularyItem[], lessonVocab: VocabularyItem[], sentences: SentenceItem[]) {
