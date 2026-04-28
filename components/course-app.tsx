@@ -199,7 +199,7 @@ export function CourseApp({ data }: { data: CourseData }) {
   return (
     <main className="min-h-screen px-4 py-4 sm:px-6 lg:px-8">
       <div className="mx-auto grid max-w-7xl gap-5 lg:grid-cols-[19rem_minmax(0,1fr)]">
-        <aside className="space-y-5 lg:sticky lg:top-4 lg:self-start">
+        <aside className="space-y-5 lg:self-start">
           <Card className="bg-white/90 backdrop-blur">
             <CardContent className="p-5">
               <div className="flex items-center gap-3">
@@ -275,7 +275,7 @@ export function CourseApp({ data }: { data: CourseData }) {
                 <p className="mt-1 text-sm font-semibold">{selectedLesson.title}</p>
               </button>
               {lessonPickerOpen && (
-                <div className="mt-3 grid grid-cols-5 gap-2">
+                <div className="mt-3 max-h-96 space-y-2 overflow-auto pr-1">
                   {data.lessons.map((lesson) => {
                     const isActive = lesson.id === selectedLesson.id;
                     const done = Boolean(progress.completed_lessons[lesson.id]);
@@ -283,7 +283,7 @@ export function CourseApp({ data }: { data: CourseData }) {
                       <button
                         aria-label={`Day ${lesson.order}: ${lesson.title}`}
                         className={cn(
-                          "relative grid aspect-square place-items-center rounded-lg text-sm font-black transition",
+                          "w-full rounded-lg p-3 text-left transition",
                           isActive ? "bg-ink text-white" : "bg-white text-ink ring-1 ring-black/10 hover:bg-jade-50"
                         )}
                         key={lesson.id}
@@ -294,8 +294,18 @@ export function CourseApp({ data }: { data: CourseData }) {
                         }}
                         type="button"
                       >
-                        {lesson.order}
-                        {done && <span className="absolute right-1 top-1 h-2 w-2 rounded-full bg-jade-500" />}
+                        <div className="flex items-start justify-between gap-3">
+                          <div>
+                            <p className="text-xs font-black uppercase opacity-70">Day {lesson.order}</p>
+                            <p className="mt-0.5 text-sm font-black leading-snug">{lesson.title}</p>
+                          </div>
+                          {done ? <Check className="h-4 w-4 shrink-0 text-jade-500" /> : <Circle className="h-4 w-4 shrink-0 opacity-50" />}
+                        </div>
+                        {lesson.skills.length > 0 && (
+                          <p className="mt-2 line-clamp-2 text-xs font-semibold opacity-65">
+                            {lesson.skills.join(" / ").replaceAll("_", " ")}
+                          </p>
+                        )}
                       </button>
                     );
                   })}
@@ -1402,10 +1412,20 @@ function RepositoryDrawer({
 }) {
   const [query, setQuery] = useState("");
   const [tab, setTab] = useState<"words" | "sentences" | "grammar">("words");
+  const [selectedWordId, setSelectedWordId] = useState<string | null>(null);
   const normalizedQuery = query.trim().toLowerCase();
   const words = data.vocab.filter((item) => matchesVocab(item, normalizedQuery));
   const sentences = data.sentences.filter((item) => matchesSentence(item, normalizedQuery));
   const grammar = data.grammar.filter((item) => matchesGrammar(item, normalizedQuery));
+  const selectedWord = selectedWordId ? data.vocab.find((item) => item.id === selectedWordId) : null;
+
+  useEffect(() => {
+    if (tab !== "words") setSelectedWordId(null);
+  }, [tab]);
+
+  useEffect(() => {
+    if (selectedWordId && !words.some((item) => item.id === selectedWordId)) setSelectedWordId(null);
+  }, [selectedWordId, words]);
 
   return (
     <AppDrawer onClose={onClose} title="Repository" wide>
@@ -1438,34 +1458,58 @@ function RepositoryDrawer({
         </div>
 
         {tab === "words" && (
-          <div className="grid gap-2">
-            {words.map((item) => (
-              <div className="rounded-lg bg-white p-3 ring-1 ring-black/10" key={item.id}>
+          <div className="grid gap-3 lg:grid-cols-[minmax(0,1fr)_22rem]">
+            <div className="grid gap-2">
+              {words.map((item) => (
+              <div
+                className={cn(
+                  "rounded-lg bg-white p-3 ring-1 ring-black/10 transition",
+                  selectedWordId === item.id && "bg-jade-50 ring-jade-500/30"
+                )}
+                key={item.id}
+              >
                 <div className="flex flex-wrap items-start justify-between gap-3">
-                  <div>
+                  <button
+                    className="min-w-0 flex-1 text-left"
+                    onClick={() => setSelectedWordId((current) => (current === item.id ? null : item.id))}
+                    type="button"
+                  >
                     <p className="han text-3xl font-black text-ink">{item.char}</p>
                     <p className="font-black text-jade-700">{item.pinyin}</p>
                     <p className="font-semibold text-ink">{item.meaning_en}</p>
                     {item.meaning_ko && <p className="text-sm font-semibold text-ink/50">{item.meaning_ko}</p>}
                     <p className="mt-1 text-xs font-bold text-ink/40">{item.example_ids.length} related sentences</p>
-                  </div>
+                  </button>
                   <div className="flex flex-wrap gap-2">
                     <AudioButton label={`Play ${item.char}`} onClick={() => speak(item.char, "word", item.audio_id)} />
                     <Button
-                      onClick={() => {
-                        requestWritingFocus(firstChineseChar(item.char));
-                        onClose();
-                      }}
+                      onClick={() => setSelectedWordId((current) => (current === item.id ? null : item.id))}
                       size="sm"
                       variant="secondary"
                     >
-                      <PenLine className="h-4 w-4" />
-                      Writing
+                      {selectedWordId === item.id ? "Hide details" : "Details"}
                     </Button>
                   </div>
                 </div>
               </div>
             ))}
+            </div>
+            <div className="lg:sticky lg:top-4 lg:self-start">
+              {selectedWord ? (
+                <div className="rounded-lg bg-white p-4 ring-1 ring-jade-500/25">
+                  <p className="mb-3 text-sm font-black uppercase text-jade-700">Word detail</p>
+                  <VocabInfoBox
+                    afterShowWriting={onClose}
+                    item={selectedWord}
+                    speak={speak}
+                  />
+                </div>
+              ) : (
+                <div className="rounded-lg border border-dashed border-ink/20 bg-white/70 p-4 text-sm font-bold text-ink/50">
+                  Click any word to open its detail box here.
+                </div>
+              )}
+            </div>
           </div>
         )}
 
@@ -1647,6 +1691,7 @@ function useLocalProgress() {
 
 function useMandarinAudio(audioManifest: AudioItem[], speed: AudioSpeed) {
   const [voices, setVoices] = useState<SpeechSynthesisVoice[]>([]);
+  const ttsTimer = useRef<number | null>(null);
   const audioById = useMemo(
     () => new Map(audioManifest.map((item) => [item.id, item])),
     [audioManifest]
@@ -1659,7 +1704,10 @@ function useMandarinAudio(audioManifest: AudioItem[], speed: AudioSpeed) {
     loadVoices();
     window.speechSynthesis.addEventListener("voiceschanged", loadVoices);
 
-    return () => window.speechSynthesis.removeEventListener("voiceschanged", loadVoices);
+    return () => {
+      window.speechSynthesis.removeEventListener("voiceschanged", loadVoices);
+      if (ttsTimer.current !== null) window.clearTimeout(ttsTimer.current);
+    };
   }, []);
 
   const voice = useMemo(() => chooseMandarinVoice(voices), [voices]);
@@ -1667,16 +1715,21 @@ function useMandarinAudio(audioManifest: AudioItem[], speed: AudioSpeed) {
   function speak(text: string, mode: SpeechMode = "word", audioId?: string) {
     if (typeof window === "undefined" || !text.trim()) return;
 
+    const playTts = () => {
+      if (ttsTimer.current !== null) window.clearTimeout(ttsTimer.current);
+      ttsTimer.current = speakWithTts(text, mode, speed, voice ?? chooseMandarinVoice(window.speechSynthesis?.getVoices?.() ?? []));
+    };
     const entry = audioId ? audioById.get(audioId) : undefined;
-    if (entry && entry.status !== "placeholder" && entry.status !== "missing" && entry.path) {
+    if (entry && (entry.status === "recorded" || entry.status === "generated") && entry.path) {
       const audio = new Audio(resolveAudioPath(entry.path));
+      audio.preload = "auto";
       audio.playbackRate = AUDIO_SPEEDS[speed].playbackRate;
-      audio.onerror = () => speakWithTts(text, mode, speed, voice);
-      void audio.play().catch(() => speakWithTts(text, mode, speed, voice));
+      audio.onerror = playTts;
+      void audio.play().catch(playTts);
       return;
     }
 
-    speakWithTts(text, mode, speed, voice);
+    playTts();
   }
 
   return { speak };
@@ -1687,23 +1740,34 @@ function speakWithTts(
   mode: SpeechMode,
   speed: AudioSpeed,
   voice: SpeechSynthesisVoice | null
-) {
-  if (typeof window === "undefined" || !("speechSynthesis" in window) || !text.trim()) return;
+): number | null {
+  if (typeof window === "undefined" || !("speechSynthesis" in window) || !text.trim()) return null;
 
   const profile = AUDIO_SPEEDS[speed];
-  const utterance = new SpeechSynthesisUtterance(text);
-  utterance.lang = voice?.lang ?? "zh-TW";
-  utterance.rate =
-    mode === "sentence"
-      ? text.length > 12
-        ? profile.longSentenceRate
-        : profile.sentenceRate
-      : profile.wordRate;
-  utterance.pitch = 1;
-  if (voice) utterance.voice = voice;
+  const createUtterance = () => {
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = voice?.lang ?? "zh-TW";
+    utterance.rate =
+      mode === "sentence"
+        ? text.length > 12
+          ? profile.longSentenceRate
+          : profile.sentenceRate
+        : profile.wordRate;
+    utterance.pitch = 1;
+    if (voice) utterance.voice = voice;
+    return utterance;
+  };
 
-  window.speechSynthesis.cancel();
-  window.speechSynthesis.speak(utterance);
+  const synth = window.speechSynthesis;
+  synth.cancel();
+  synth.resume();
+  synth.speak(createUtterance());
+
+  return window.setTimeout(() => {
+    if (synth.speaking || synth.pending) return;
+    synth.resume();
+    synth.speak(createUtterance());
+  }, 120);
 }
 
 function resolveAudioPath(path: string) {
