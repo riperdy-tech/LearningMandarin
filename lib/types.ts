@@ -79,6 +79,16 @@ export type WritingItem = {
   difficulty: number;
 };
 
+export type AudioItem = {
+  id: string;
+  kind: "vocab" | "sentence" | "pronunciation";
+  ref_id: string;
+  text: string;
+  pinyin_numeric: string;
+  path: string;
+  status: "placeholder" | "recorded" | "generated" | "missing";
+};
+
 export type LessonItem = {
   id: string;
   week: number;
@@ -147,5 +157,6 @@ export type CourseData = {
   pronunciation: PronunciationItem[];
   writing: WritingItem[];
   lessons: LessonItem[];
+  audio: AudioItem[];
   ui: UiText;
 };

@@ -1,27 +1,30 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import {
   BookOpen,
+  ChevronDown,
   Check,
   Circle,
   ExternalLink,
   Flame,
-  Headphones,
-  Mic,
+  Gauge,
+  HelpCircle,
+  LibraryBig,
   PenLine,
-  Play,
   RotateCcw,
-  Sparkles,
+  Search,
   Target,
-  Volume2
+  Volume2,
+  X
 } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 import type {
+  AudioItem,
   CourseData,
   GrammarItem,
   LessonItem,
@@ -33,6 +36,8 @@ import type {
 import { cn } from "@/lib/utils";
 
 type SpeechMode = "word" | "sentence";
+type AudioSpeed = "slow" | "normal" | "shadow";
+type SpeakFn = (text: string, mode?: SpeechMode, audioId?: string) => void;
 type TrainerStepKind =
   | "pattern_review"
   | "new_words"
@@ -52,6 +57,7 @@ type TrainerStep = {
 type LessonPack = ReturnType<typeof buildLessonPack>;
 
 const PROGRESS_KEY = "taiwan-mandarin-progress-v1";
+const SHOW_WRITING_EVENT = "mandarin-show-writing";
 
 const DEFAULT_DAILY_FLOW: TrainerStep[] = [
   { id: "pattern_review", title: "Grammar & examples", kind: "pattern_review", target_count: 1, duration_minutes: 10 },
@@ -61,6 +67,24 @@ const DEFAULT_DAILY_FLOW: TrainerStep[] = [
   { id: "memory_speaking", title: "Speak from memory", kind: "memory_speaking", target_count: 3, duration_minutes: 5 },
   { id: "review_summary", title: "Quick review summary", kind: "review_summary", target_count: 1, duration_minutes: 5 }
 ];
+
+const STEP_GUIDES: Record<TrainerStepKind, string> = {
+  pattern_review: "Read the pattern once, click every Chinese word you do not know, then shadow two example sentences aloud.",
+  new_words: "Study these words inside sentence context. Play the word, then play the full sentence and say it back.",
+  substitution: "Say the sentence aloud, swap one part, then say the new version without looking at the English.",
+  listen_shadow: "Listen once, repeat slowly, then repeat naturally at full phrase level. Do not chop it into word pieces.",
+  memory_speaking: "Look only at the English prompt first. Produce the Chinese from memory, reveal, then correct your output.",
+  review_summary: "Review what felt weak, mark weak words or patterns, then complete the daily loop once all steps are practiced."
+};
+
+const AUDIO_SPEEDS: Record<
+  AudioSpeed,
+  { label: string; wordRate: number; sentenceRate: number; longSentenceRate: number; playbackRate: number }
+> = {
+  slow: { label: "Slow", wordRate: 0.68, sentenceRate: 0.62, longSentenceRate: 0.56, playbackRate: 0.78 },
+  normal: { label: "Normal", wordRate: 0.78, sentenceRate: 0.72, longSentenceRate: 0.66, playbackRate: 1 },
+  shadow: { label: "Shadow", wordRate: 0.64, sentenceRate: 0.58, longSentenceRate: 0.52, playbackRate: 0.7 }
+};
 
 const emptyProgress: LocalProgress = {
   version: 1,
@@ -80,8 +104,14 @@ export function CourseApp({ data }: { data: CourseData }) {
   const [activeStepId, setActiveStepId] = useState(DEFAULT_DAILY_FLOW[0].id);
   const [selectedVocab, setSelectedVocab] = useState<VocabularyItem | null>(null);
   const [selectedPattern, setSelectedPattern] = useState<GrammarItem | null>(null);
+  const [lessonPickerOpen, setLessonPickerOpen] = useState(false);
+  const [helpOpen, setHelpOpen] = useState(false);
+  const [repositoryOpen, setRepositoryOpen] = useState(false);
+  const [audioSpeed, setAudioSpeed] = useState<AudioSpeed>("normal");
+  const [selectedWritingChar, setSelectedWritingChar] = useState<string | null>(null);
+  const writingSupportRef = useRef<HTMLDivElement>(null);
   const [progress, setProgress] = useLocalProgress();
-  const speech = useMandarinSpeech();
+  const speech = useMandarinAudio(data.audio, audioSpeed);
 
   const selectedLesson = useMemo(
     () => data.lessons.find((lesson) => lesson.id === selectedLessonId) ?? data.lessons[0],
@@ -101,14 +131,29 @@ export function CourseApp({ data }: { data: CourseData }) {
   const generatedSentences = buildGeneratedSentences(lessonPack);
   const totalMinutes = dailyFlow.reduce((sum, step) => sum + (step.duration_minutes ?? 0), 0);
 
-  function markStep(stepId: string) {
+  useEffect(() => {
+    function handleShowWriting(event: Event) {
+      const char = (event as CustomEvent<string>).detail;
+      if (!char) return;
+      setSelectedWritingChar(char);
+      requestAnimationFrame(() => writingSupportRef.current?.scrollIntoView({ behavior: "smooth", block: "start" }));
+    }
+
+    window.addEventListener(SHOW_WRITING_EVENT, handleShowWriting);
+    return () => window.removeEventListener(SHOW_WRITING_EVENT, handleShowWriting);
+  }, []);
+
+  function toggleStep(stepId: string) {
     setProgress((current) => {
       const currentSteps = current.lesson_steps[selectedLesson.id] ?? [];
+      const nextSteps = currentSteps.includes(stepId)
+        ? currentSteps.filter((item) => item !== stepId)
+        : [...currentSteps, stepId];
       return {
         ...current,
         lesson_steps: {
           ...current.lesson_steps,
-          [selectedLesson.id]: Array.from(new Set([...currentSteps, stepId]))
+          [selectedLesson.id]: Array.from(new Set(nextSteps))
         }
       };
     });
@@ -154,7 +199,7 @@ export function CourseApp({ data }: { data: CourseData }) {
   return (
     <main className="min-h-screen px-4 py-4 sm:px-6 lg:px-8">
       <div className="mx-auto grid max-w-7xl gap-5 lg:grid-cols-[19rem_minmax(0,1fr)]">
-        <aside className="space-y-5">
+        <aside className="space-y-5 lg:sticky lg:top-4 lg:self-start">
           <Card className="bg-white/90 backdrop-blur">
             <CardContent className="p-5">
               <div className="flex items-center gap-3">
@@ -178,40 +223,7 @@ export function CourseApp({ data }: { data: CourseData }) {
 
           <Card className="bg-white/90 backdrop-blur">
             <CardHeader>
-              <p className="text-sm font-bold text-jade-700">Daily lessons</p>
-            </CardHeader>
-            <CardContent className="space-y-2">
-              {data.lessons.map((lesson) => {
-                const isActive = lesson.id === selectedLesson.id;
-                const done = Boolean(progress.completed_lessons[lesson.id]);
-                return (
-                  <button
-                    className={cn(
-                      "w-full rounded-lg p-3 text-left transition",
-                      isActive ? "bg-ink text-white shadow-lift" : "hover:bg-black/5"
-                    )}
-                    key={lesson.id}
-                    onClick={() => {
-                      setSelectedLessonId(lesson.id);
-                      setActiveStepId(getDailyFlow(lesson)[0].id);
-                    }}
-                    type="button"
-                  >
-                    <div className="flex items-center justify-between gap-3">
-                      <span className="text-sm font-black">Day {lesson.order}</span>
-                      {done ? <Check className="h-4 w-4" /> : <Circle className="h-4 w-4" />}
-                    </div>
-                    <p className="mt-1 text-sm font-semibold">{lesson.title}</p>
-                    <Progress value={done ? 100 : 0} className="mt-3" />
-                  </button>
-                );
-              })}
-            </CardContent>
-          </Card>
-
-          <Card className="bg-white/90 backdrop-blur">
-            <CardHeader>
-              <p className="text-sm font-bold text-jade-700">Today’s loop</p>
+              <p className="text-sm font-bold text-jade-700">Today's loop</p>
             </CardHeader>
             <CardContent className="space-y-2">
               {dailyFlow.map((step, index) => {
@@ -240,8 +252,87 @@ export function CourseApp({ data }: { data: CourseData }) {
               })}
             </CardContent>
           </Card>
-        </aside>
 
+          <Card className="bg-white/90 backdrop-blur">
+            <CardHeader>
+              <div className="flex items-center justify-between gap-3">
+                <p className="text-sm font-bold text-jade-700">Change day</p>
+                <Button onClick={() => setLessonPickerOpen((current) => !current)} size="sm" variant="ghost">
+                  <ChevronDown className={cn("h-4 w-4 transition", lessonPickerOpen && "rotate-180")} />
+                </Button>
+              </div>
+            </CardHeader>
+            <CardContent>
+              <button
+                className="w-full rounded-lg bg-black/[0.035] p-3 text-left transition hover:bg-black/10"
+                onClick={() => setLessonPickerOpen((current) => !current)}
+                type="button"
+              >
+                <div className="flex items-center justify-between gap-3">
+                  <span className="text-sm font-black">Day {selectedLesson.order}</span>
+                  {lessonCompleted ? <Check className="h-4 w-4 text-jade-700" /> : <Circle className="h-4 w-4 text-ink/45" />}
+                </div>
+                <p className="mt-1 text-sm font-semibold">{selectedLesson.title}</p>
+              </button>
+              {lessonPickerOpen && (
+                <div className="mt-3 grid grid-cols-5 gap-2">
+                  {data.lessons.map((lesson) => {
+                    const isActive = lesson.id === selectedLesson.id;
+                    const done = Boolean(progress.completed_lessons[lesson.id]);
+                    return (
+                      <button
+                        aria-label={`Day ${lesson.order}: ${lesson.title}`}
+                        className={cn(
+                          "relative grid aspect-square place-items-center rounded-lg text-sm font-black transition",
+                          isActive ? "bg-ink text-white" : "bg-white text-ink ring-1 ring-black/10 hover:bg-jade-50"
+                        )}
+                        key={lesson.id}
+                        onClick={() => {
+                          setSelectedLessonId(lesson.id);
+                          setActiveStepId(getDailyFlow(lesson)[0].id);
+                          setLessonPickerOpen(false);
+                        }}
+                        type="button"
+                      >
+                        {lesson.order}
+                        {done && <span className="absolute right-1 top-1 h-2 w-2 rounded-full bg-jade-500" />}
+                      </button>
+                    );
+                  })}
+                </div>
+              )}
+            </CardContent>
+          </Card>
+
+          <Card className="bg-white/90 backdrop-blur">
+            <CardHeader>
+              <div className="flex items-center gap-2">
+                <Gauge className="h-4 w-4 text-jade-700" />
+                <p className="text-sm font-bold text-jade-700">Audio speed</p>
+              </div>
+            </CardHeader>
+            <CardContent>
+              <div className="grid grid-cols-3 gap-2">
+                {(Object.keys(AUDIO_SPEEDS) as AudioSpeed[]).map((speed) => (
+                  <button
+                    className={cn(
+                      "rounded-lg px-2 py-2 text-xs font-black transition",
+                      audioSpeed === speed ? "bg-ink text-white" : "bg-white text-ink ring-1 ring-black/10 hover:bg-jade-50"
+                    )}
+                    key={speed}
+                    onClick={() => setAudioSpeed(speed)}
+                    type="button"
+                  >
+                    {AUDIO_SPEEDS[speed].label}
+                  </button>
+                ))}
+              </div>
+              <p className="mt-3 text-xs font-semibold text-ink/50">
+                MP3 audio uses this speed when available; missing audio falls back to Taiwan Mandarin TTS.
+              </p>
+            </CardContent>
+          </Card>
+        </aside>
         <section className="space-y-5">
           <Card className="bg-white/90 backdrop-blur">
             <CardContent className="flex flex-col gap-5 p-5 xl:flex-row xl:items-center xl:justify-between">
@@ -260,6 +351,16 @@ export function CourseApp({ data }: { data: CourseData }) {
                 <p className="mt-2 max-w-3xl font-semibold text-ink/65">
                   Learn words through reusable patterns, generate usable sentences, then speak them out loud.
                 </p>
+                <div className="mt-4 flex flex-wrap gap-2">
+                  <Button onClick={() => setHelpOpen(true)} size="sm" variant="secondary">
+                    <HelpCircle className="h-4 w-4" />
+                    How to use this page
+                  </Button>
+                  <Button onClick={() => setRepositoryOpen(true)} size="sm" variant="secondary">
+                    <LibraryBig className="h-4 w-4" />
+                    Repository
+                  </Button>
+                </div>
               </div>
               <div className="min-w-56">
                 <div className="flex items-center justify-between text-sm font-black">
@@ -288,7 +389,7 @@ export function CourseApp({ data }: { data: CourseData }) {
               lessonCompleted={lessonCompleted}
               lessonPack={lessonPack}
               lookupVocab={data.vocab}
-              markStep={markStep}
+              markStep={toggleStep}
               onCompleteLesson={completeLesson}
               onSelectPattern={setSelectedPattern}
               onSelectVocab={setSelectedVocab}
@@ -304,8 +405,11 @@ export function CourseApp({ data }: { data: CourseData }) {
             grammar={lessonPack.grammar}
             onSelectPattern={setSelectedPattern}
             onSelectVocab={setSelectedVocab}
+            selectedWritingChar={selectedWritingChar}
+            setSelectedWritingChar={setSelectedWritingChar}
             speak={speech.speak}
             vocab={lessonPack.contextVocab}
+            writingRef={writingSupportRef}
             writing={lessonPack.writing}
           />
         </section>
@@ -313,14 +417,28 @@ export function CourseApp({ data }: { data: CourseData }) {
 
       {selectedVocab && (
         <DetailDrawer title="Word detail" onClose={() => setSelectedVocab(null)}>
-          <VocabInfoBox item={selectedVocab} speak={speech.speak} />
+          <VocabInfoBox
+            afterShowWriting={() => setSelectedVocab(null)}
+            item={selectedVocab}
+            speak={speech.speak}
+          />
         </DetailDrawer>
       )}
 
       {selectedPattern && (
         <DetailDrawer title="Pattern detail" onClose={() => setSelectedPattern(null)}>
-          <PatternDetail grammar={selectedPattern} speak={speech.speak} />
+          <PatternDetail grammar={selectedPattern} speak={speech.speak} vocab={data.vocab} />
         </DetailDrawer>
+      )}
+
+      {helpOpen && <HelpDrawer onClose={() => setHelpOpen(false)} />}
+
+      {repositoryOpen && (
+        <RepositoryDrawer
+          data={data}
+          onClose={() => setRepositoryOpen(false)}
+          speak={speech.speak}
+        />
       )}
     </main>
   );
@@ -357,7 +475,7 @@ function TrainerStepPanel({
   onSelectVocab: (vocab: VocabularyItem) => void;
   progress: LocalProgress;
   resetProgress: () => void;
-  speak: (text: string, mode?: SpeechMode) => void;
+  speak: SpeakFn;
   toggleWeakPattern: (id: string) => void;
   toggleWeakWord: (id: string) => void;
 }) {
@@ -371,6 +489,9 @@ function TrainerStepPanel({
             {activeStep.duration_minutes && (
               <p className="mt-1 text-sm font-bold text-ink/50">{activeStep.duration_minutes} minutes</p>
             )}
+            <p className="mt-2 max-w-2xl text-sm font-semibold text-ink/60">
+              {STEP_GUIDES[activeStep.kind]}
+            </p>
           </div>
           <StepDoneButton completed={completed} onClick={() => markStep(activeStep.id)} />
         </div>
@@ -438,7 +559,7 @@ function PatternReview({
 }: {
   grammar: GrammarItem[];
   onSelectPattern: (grammar: GrammarItem) => void;
-  speak: (text: string, mode?: SpeechMode) => void;
+  speak: SpeakFn;
   toggleWeakPattern: (id: string) => void;
   vocab: VocabularyItem[];
   weakPatterns: string[];
@@ -509,7 +630,7 @@ function NewWordsInSentences({
   lookupVocab: VocabularyItem[];
   onSelectVocab: (vocab: VocabularyItem) => void;
   sentences: SentenceItem[];
-  speak: (text: string, mode?: SpeechMode) => void;
+  speak: SpeakFn;
   toggleWeakWord: (id: string) => void;
   vocab: VocabularyItem[];
   weakWords: string[];
@@ -534,7 +655,7 @@ function NewWordsInSentences({
                 className="grid h-10 w-10 place-items-center rounded-xl bg-white text-ink shadow-sm ring-1 ring-black/10"
                 onClick={(event) => {
                   event.stopPropagation();
-                  speak(item.char, "word");
+                  speak(item.char, "word", item.audio_id);
                 }}
                 type="button"
               >
@@ -580,7 +701,7 @@ function SubstitutionDrill({
   vocab
 }: {
   generatedSentences: GeneratedSentence[];
-  speak: (text: string, mode?: SpeechMode) => void;
+  speak: SpeakFn;
   vocab: VocabularyItem[];
 }) {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -604,7 +725,7 @@ function SubstitutionDrill({
         <p className="mt-2 text-lg font-bold text-ink">{active.translation_en}</p>
         {active.translation_ko && <p className="text-sm font-semibold text-ink/50">{active.translation_ko}</p>}
         <div className="mt-5 flex flex-wrap gap-2">
-          <Button onClick={() => speak(active.text, "sentence")} variant="warm">
+          <Button onClick={() => speak(active.text, "sentence", active.audio_id)} variant="warm">
             <Volume2 className="h-4 w-4" />
             Play sentence
           </Button>
@@ -643,7 +764,7 @@ function ListenShadow({
   vocab
 }: {
   sentences: SentenceItem[];
-  speak: (text: string, mode?: SpeechMode) => void;
+  speak: SpeakFn;
   vocab: VocabularyItem[];
 }) {
   return (
@@ -653,6 +774,7 @@ function ListenShadow({
       </p>
       {sentences.map((sentence) => (
         <SentenceCard
+          audioId={sentence.audio_id}
           key={sentence.id}
           pinyin={sentence.pinyin}
           speak={speak}
@@ -672,7 +794,7 @@ function MemorySpeaking({
   vocab
 }: {
   generatedSentences: GeneratedSentence[];
-  speak: (text: string, mode?: SpeechMode) => void;
+  speak: SpeakFn;
   vocab: VocabularyItem[];
 }) {
   const [revealed, setRevealed] = useState(false);
@@ -708,7 +830,7 @@ function MemorySpeaking({
         <Button onClick={() => setRevealed((current) => !current)} variant="secondary">
           {revealed ? "Hide answer" : "Reveal answer"}
         </Button>
-        <Button onClick={() => speak(active.text, "sentence")} variant="warm">
+        <Button onClick={() => speak(active.text, "sentence", active.audio_id)} variant="warm">
           <Volume2 className="h-4 w-4" />
           Play model
         </Button>
@@ -733,7 +855,7 @@ function ReviewSummary({
   progress: LocalProgress;
   resetProgress: () => void;
   sentences: GeneratedSentence[];
-  speak: (text: string, mode?: SpeechMode) => void;
+  speak: SpeakFn;
   vocab: VocabularyItem[];
 }) {
   const dueCount = progress.due_review_ids.length + progress.weak_words.length + progress.weak_patterns.length;
@@ -744,7 +866,7 @@ function ReviewSummary({
         <p className="text-sm font-black text-jade-700">Quick review summary</p>
         <h3 className="mt-2 text-2xl font-black text-ink">Useful sentence output</h3>
         <p className="mt-2 font-semibold text-ink/65">
-          Today’s win is not memorizing labels. It is producing these sentences quickly and naturally.
+          Today's win is not memorizing labels. It is producing these sentences quickly and naturally.
         </p>
         <div className="mt-4 grid gap-2">
           {sentences.slice(0, 4).map((sentence) => (
@@ -784,34 +906,46 @@ function ReferenceStrip({
   grammar,
   onSelectPattern,
   onSelectVocab,
+  selectedWritingChar,
+  setSelectedWritingChar,
   speak,
   vocab,
+  writingRef,
   writing
 }: {
   grammar: GrammarItem[];
   onSelectPattern: (grammar: GrammarItem) => void;
   onSelectVocab: (vocab: VocabularyItem) => void;
-  speak: (text: string, mode?: SpeechMode) => void;
+  selectedWritingChar: string | null;
+  setSelectedWritingChar: (char: string) => void;
+  speak: SpeakFn;
   vocab: VocabularyItem[];
+  writingRef: React.RefObject<HTMLDivElement | null>;
   writing: WritingItem[];
 }) {
-  const [activeWriting, setActiveWriting] = useState(writing[0]?.char ?? "");
+  const activeWriting = selectedWritingChar && writing.some((item) => item.char === selectedWritingChar)
+    ? selectedWritingChar
+    : writing[0]?.char ?? "";
   const writingItem = writing.find((item) => item.char === activeWriting) ?? writing[0];
+  const relatedWords = writingItem
+    ? vocab.filter((item) => item.char.includes(writingItem.char))
+    : [];
 
   useEffect(() => {
     if (writing.length === 0) return;
-    if (!writing.some((item) => item.char === activeWriting)) {
-      setActiveWriting(writing[0].char);
+    if (!activeWriting || !writing.some((item) => item.char === activeWriting)) {
+      setSelectedWritingChar(writing[0].char);
     }
-  }, [activeWriting, writing]);
+  }, [activeWriting, setSelectedWritingChar, writing]);
 
   return (
     <div className="grid gap-5 xl:grid-cols-2">
+      <div ref={writingRef}>
       <Card className="bg-white/90">
         <CardHeader>
           <div className="flex items-center gap-2">
             <BookOpen className="h-4 w-4 text-jade-700" />
-            <p className="text-sm font-black text-jade-700">Reference, not the main lesson</p>
+            <p className="text-sm font-black text-jade-700">Words and patterns used today</p>
           </div>
         </CardHeader>
         <CardContent className="space-y-4">
@@ -847,6 +981,7 @@ function ReferenceStrip({
           </div>
         </CardContent>
       </Card>
+      </div>
 
       <Card className="bg-white/90">
         <CardHeader>
@@ -868,7 +1003,7 @@ function ReferenceStrip({
                       item.char === writingItem.char ? "bg-ink text-white" : "bg-black/[0.035] hover:bg-black/10"
                     )}
                     key={item.char}
-                    onClick={() => setActiveWriting(item.char)}
+                    onClick={() => setSelectedWritingChar(item.char)}
                     type="button"
                   >
                     {item.char}
@@ -909,6 +1044,32 @@ function ReferenceStrip({
                     MDBG
                   </ReferenceLink>
                 </div>
+                <div className="mt-5">
+                  <p className="text-xs font-black uppercase text-ink/45">Words with this character</p>
+                  {relatedWords.length === 0 ? (
+                    <p className="mt-2 text-sm font-semibold text-ink/50">No related word is visible in today's lesson.</p>
+                  ) : (
+                    <div className="mt-2 grid gap-2">
+                      {relatedWords.map((item) => (
+                        <div className="rounded-lg bg-white p-3 ring-1 ring-black/10" key={item.id}>
+                          <div className="flex flex-wrap items-start justify-between gap-3">
+                            <button
+                              className="text-left"
+                              onClick={() => onSelectVocab(item)}
+                              type="button"
+                            >
+                              <span className="han block text-2xl font-black text-ink">{item.char}</span>
+                              <span className="block text-sm font-black text-jade-700">{item.pinyin}</span>
+                              <span className="block text-sm font-semibold text-ink">{item.meaning_en}</span>
+                              {item.meaning_ko && <span className="block text-xs font-semibold text-ink/50">{item.meaning_ko}</span>}
+                            </button>
+                            <AudioButton label={`Play ${item.char}`} onClick={() => speak(item.char, "word", item.audio_id)} />
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                </div>
               </div>
             </div>
           )}
@@ -926,7 +1087,7 @@ function SentenceWithTokens({
 }: {
   onSelectVocab: (vocab: VocabularyItem) => void;
   sentence: SentenceItem;
-  speak: (text: string, mode?: SpeechMode) => void;
+  speak: SpeakFn;
   vocab: VocabularyItem[];
 }) {
   return (
@@ -943,7 +1104,7 @@ function SentenceWithTokens({
           <p className="mt-1 font-bold text-ink">{sentence.translation_en}</p>
           <p className="text-sm font-semibold text-ink/50">{sentence.translation_ko}</p>
         </div>
-        <AudioButton label={`Play ${sentence.text}`} onClick={() => speak(sentence.text, "sentence")} />
+        <AudioButton label={`Play ${sentence.text}`} onClick={() => speak(sentence.text, "sentence", sentence.audio_id)} />
       </div>
       <div className="mt-4 flex flex-wrap gap-2">
         {sentence.tokens.map((token) => {
@@ -971,10 +1132,12 @@ function SentenceCard({
   text,
   translationEn,
   translationKo,
-  vocab
+  vocab,
+  audioId
 }: {
+  audioId?: string;
   pinyin: string;
-  speak: (text: string, mode?: SpeechMode) => void;
+  speak: SpeakFn;
   text: string;
   translationEn: string;
   translationKo?: string;
@@ -996,7 +1159,7 @@ function SentenceCard({
           )}
           <p className="mt-1 font-black text-jade-700">{pinyin}</p>
         </div>
-        <AudioButton label={`Play ${text}`} onClick={() => speak(text, "sentence")} />
+        <AudioButton label={`Play ${text}`} onClick={() => speak(text, "sentence", audioId)} />
       </div>
       <p className="mt-3 font-bold text-ink">{translationEn}</p>
       {translationKo && <p className="text-sm font-semibold text-ink/50">{translationKo}</p>}
@@ -1011,7 +1174,7 @@ function ClickableChineseLine({
   vocab
 }: {
   className?: string;
-  speak: (text: string, mode?: SpeechMode) => void;
+  speak: SpeakFn;
   text: string;
   vocab: VocabularyItem[];
 }) {
@@ -1050,10 +1213,12 @@ function ClickableChineseLine({
 
 function PatternDetail({
   grammar,
-  speak
+  speak,
+  vocab
 }: {
   grammar: GrammarItem;
-  speak: (text: string, mode?: SpeechMode) => void;
+  speak: SpeakFn;
+  vocab: VocabularyItem[];
 }) {
   return (
     <div className="space-y-4">
@@ -1102,6 +1267,7 @@ function PatternDetail({
           text={example.text}
           translationEn={example.translation_en}
           translationKo={example.translation_ko}
+          vocab={vocab}
         />
       ))}
     </div>
@@ -1109,12 +1275,20 @@ function PatternDetail({
 }
 
 function VocabInfoBox({
+  afterShowWriting,
   item,
   speak
 }: {
+  afterShowWriting?: () => void;
   item: VocabularyItem;
-  speak: (text: string, mode?: SpeechMode) => void;
+  speak: SpeakFn;
 }) {
+  const writingChars = Array.from(item.char).filter(isLikelyChinese);
+  function showWriting(char: string) {
+    requestWritingFocus(char);
+    afterShowWriting?.();
+  }
+
   return (
     <div>
       <div className="flex flex-wrap items-start justify-between gap-4">
@@ -1124,12 +1298,33 @@ function VocabInfoBox({
           <p className="mt-3 text-lg font-bold text-ink">{item.meaning_en}</p>
           <p className="text-sm font-semibold text-ink/50">{item.meaning_ko}</p>
         </div>
-        <AudioButton label={`Play ${item.char}`} onClick={() => speak(item.char, "word")} />
+        <AudioButton label={`Play ${item.char}`} onClick={() => speak(item.char, "word", item.audio_id)} />
       </div>
       <div className="mt-5 grid grid-cols-2 gap-3">
         <InfoTile label="Role" value={item.pos} />
         <InfoTile label="Use" value={`${item.frequency} frequency`} />
       </div>
+      {writingChars.length > 0 && (
+        <div className="mt-5 rounded-lg bg-white/70 p-3 ring-1 ring-black/10">
+          <p className="text-xs font-black uppercase text-ink/45">Writing</p>
+          <div className="mt-2 flex flex-wrap gap-2">
+            <Button onClick={() => showWriting(writingChars[0])} size="sm" variant="secondary">
+              <PenLine className="h-4 w-4" />
+              Show writing
+            </Button>
+            {writingChars.map((char) => (
+              <button
+                className="grid h-9 w-9 place-items-center rounded-lg bg-jade-50 han text-lg font-black text-jade-900 ring-1 ring-jade-500/20 hover:bg-jade-100"
+                key={char}
+                onClick={() => showWriting(char)}
+                type="button"
+              >
+                {char}
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
     </div>
   );
 }
@@ -1158,6 +1353,199 @@ function DetailDrawer({
   );
 }
 
+function HelpDrawer({ onClose }: { onClose: () => void }) {
+  return (
+    <AppDrawer onClose={onClose} title="How to use this page">
+      <div className="grid gap-4">
+        <GuideBlock
+          title="Daily loop"
+          text="Start at Grammar & examples, move down the loop, and mark each step practiced only after you have spoken out loud."
+        />
+        <GuideBlock
+          title="Clickable Chinese"
+          text="Click Chinese words inside examples to see meaning, pinyin, audio, and writing shortcuts without leaving the lesson."
+        />
+        <GuideBlock
+          title="Audio"
+          text="Use Slow for new sentences, Shadow for repeating after the model, and Normal when the sentence feels familiar."
+        />
+        <GuideBlock
+          title="Writing"
+          text="Use Show writing from any word detail, then trace the selected character and review related words that contain it."
+        />
+        <GuideBlock
+          title="Repository"
+          text="Open Repository when you want to search everything in Month 1 instead of only today's lesson."
+        />
+      </div>
+    </AppDrawer>
+  );
+}
+
+function GuideBlock({ title, text }: { title: string; text: string }) {
+  return (
+    <div className="rounded-lg bg-jade-50 p-4 ring-1 ring-jade-500/20">
+      <p className="font-black text-ink">{title}</p>
+      <p className="mt-1 text-sm font-semibold text-ink/65">{text}</p>
+    </div>
+  );
+}
+
+function RepositoryDrawer({
+  data,
+  onClose,
+  speak
+}: {
+  data: CourseData;
+  onClose: () => void;
+  speak: SpeakFn;
+}) {
+  const [query, setQuery] = useState("");
+  const [tab, setTab] = useState<"words" | "sentences" | "grammar">("words");
+  const normalizedQuery = query.trim().toLowerCase();
+  const words = data.vocab.filter((item) => matchesVocab(item, normalizedQuery));
+  const sentences = data.sentences.filter((item) => matchesSentence(item, normalizedQuery));
+  const grammar = data.grammar.filter((item) => matchesGrammar(item, normalizedQuery));
+
+  return (
+    <AppDrawer onClose={onClose} title="Repository" wide>
+      <div className="space-y-4">
+        <div className="flex flex-col gap-3 sm:flex-row">
+          <label className="flex min-h-11 flex-1 items-center gap-2 rounded-lg bg-white px-3 ring-1 ring-black/10">
+            <Search className="h-4 w-4 text-ink/45" />
+            <input
+              className="w-full bg-transparent text-sm font-semibold outline-none"
+              onChange={(event) => setQuery(event.target.value)}
+              placeholder="Search Chinese, pinyin, English, Korean, or ID"
+              value={query}
+            />
+          </label>
+          <div className="grid grid-cols-3 gap-2">
+            {(["words", "sentences", "grammar"] as const).map((item) => (
+              <button
+                className={cn(
+                  "rounded-lg px-3 py-2 text-sm font-black capitalize transition",
+                  tab === item ? "bg-ink text-white" : "bg-white text-ink ring-1 ring-black/10 hover:bg-jade-50"
+                )}
+                key={item}
+                onClick={() => setTab(item)}
+                type="button"
+              >
+                {item}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        {tab === "words" && (
+          <div className="grid gap-2">
+            {words.map((item) => (
+              <div className="rounded-lg bg-white p-3 ring-1 ring-black/10" key={item.id}>
+                <div className="flex flex-wrap items-start justify-between gap-3">
+                  <div>
+                    <p className="han text-3xl font-black text-ink">{item.char}</p>
+                    <p className="font-black text-jade-700">{item.pinyin}</p>
+                    <p className="font-semibold text-ink">{item.meaning_en}</p>
+                    {item.meaning_ko && <p className="text-sm font-semibold text-ink/50">{item.meaning_ko}</p>}
+                    <p className="mt-1 text-xs font-bold text-ink/40">{item.example_ids.length} related sentences</p>
+                  </div>
+                  <div className="flex flex-wrap gap-2">
+                    <AudioButton label={`Play ${item.char}`} onClick={() => speak(item.char, "word", item.audio_id)} />
+                    <Button
+                      onClick={() => {
+                        requestWritingFocus(firstChineseChar(item.char));
+                        onClose();
+                      }}
+                      size="sm"
+                      variant="secondary"
+                    >
+                      <PenLine className="h-4 w-4" />
+                      Writing
+                    </Button>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        )}
+
+        {tab === "sentences" && (
+          <div className="grid gap-2">
+            {sentences.map((item) => (
+              <div className="rounded-lg bg-white p-3 ring-1 ring-black/10" key={item.id}>
+                <div className="flex flex-wrap items-start justify-between gap-3">
+                  <div>
+                    <ClickableChineseLine
+                      className="text-2xl font-black text-ink"
+                      speak={speak}
+                      text={item.text}
+                      vocab={data.vocab}
+                    />
+                    <p className="mt-1 font-black text-jade-700">{item.pinyin}</p>
+                    <p className="font-semibold text-ink">{item.translation_en}</p>
+                    {item.translation_ko && <p className="text-sm font-semibold text-ink/50">{item.translation_ko}</p>}
+                  </div>
+                  <AudioButton label={`Play ${item.text}`} onClick={() => speak(item.text, "sentence", item.audio_id)} />
+                </div>
+              </div>
+            ))}
+          </div>
+        )}
+
+        {tab === "grammar" && (
+          <div className="grid gap-2">
+            {grammar.map((item) => (
+              <div className="rounded-lg bg-white p-3 ring-1 ring-black/10" key={item.id}>
+                <p className="font-black text-ink">{item.pattern}</p>
+                <p className="mt-1 text-sm font-semibold text-ink/65">{item.explanation_en}</p>
+                <div className="mt-3 grid gap-2 md:grid-cols-2">
+                  {getPatternExamples(item).slice(0, 2).map((example) => (
+                    <SentenceCard
+                      key={example.text}
+                      pinyin={example.pinyin}
+                      speak={speak}
+                      text={example.text}
+                      translationEn={example.translation_en}
+                      translationKo={example.translation_ko}
+                      vocab={data.vocab}
+                    />
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
+    </AppDrawer>
+  );
+}
+
+function AppDrawer({
+  children,
+  onClose,
+  title,
+  wide = false
+}: {
+  children: React.ReactNode;
+  onClose: () => void;
+  title: string;
+  wide?: boolean;
+}) {
+  return (
+    <div className="fixed inset-0 z-50 grid place-items-end bg-black/25 p-4 sm:place-items-center">
+      <div className={cn("max-h-[90vh] w-full overflow-auto rounded-lg bg-paper p-5 shadow-soft", wide ? "max-w-5xl" : "max-w-2xl")}>
+        <div className="mb-4 flex items-center justify-between gap-4">
+          <h3 className="text-xl font-black text-ink">{title}</h3>
+          <Button aria-label={`Close ${title}`} onClick={onClose} size="icon" variant="ghost">
+            <X className="h-5 w-5" />
+          </Button>
+        </div>
+        {children}
+      </div>
+    </div>
+  );
+}
+
 function StepDoneButton({
   completed,
   onClick
@@ -1168,7 +1556,7 @@ function StepDoneButton({
   return (
     <Button onClick={onClick} variant={completed ? "secondary" : "default"}>
       <Check className="h-4 w-4" />
-      {completed ? "Step practiced" : "Mark step practiced"}
+      {completed ? "Undo practiced" : "Mark step practiced"}
     </Button>
   );
 }
@@ -1257,8 +1645,12 @@ function useLocalProgress() {
   return [progress, setProgress] as const;
 }
 
-function useMandarinSpeech() {
+function useMandarinAudio(audioManifest: AudioItem[], speed: AudioSpeed) {
   const [voices, setVoices] = useState<SpeechSynthesisVoice[]>([]);
+  const audioById = useMemo(
+    () => new Map(audioManifest.map((item) => [item.id, item])),
+    [audioManifest]
+  );
 
   useEffect(() => {
     if (typeof window === "undefined" || !("speechSynthesis" in window)) return;
@@ -1272,20 +1664,53 @@ function useMandarinSpeech() {
 
   const voice = useMemo(() => chooseMandarinVoice(voices), [voices]);
 
-  function speak(text: string, mode: SpeechMode = "word") {
-    if (typeof window === "undefined" || !("speechSynthesis" in window) || !text.trim()) return;
+  function speak(text: string, mode: SpeechMode = "word", audioId?: string) {
+    if (typeof window === "undefined" || !text.trim()) return;
 
-    const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = voice?.lang ?? "zh-TW";
-    utterance.rate = mode === "sentence" ? 0.78 : 0.72;
-    utterance.pitch = 1;
-    if (voice) utterance.voice = voice;
+    const entry = audioId ? audioById.get(audioId) : undefined;
+    if (entry && entry.status !== "placeholder" && entry.status !== "missing" && entry.path) {
+      const audio = new Audio(resolveAudioPath(entry.path));
+      audio.playbackRate = AUDIO_SPEEDS[speed].playbackRate;
+      audio.onerror = () => speakWithTts(text, mode, speed, voice);
+      void audio.play().catch(() => speakWithTts(text, mode, speed, voice));
+      return;
+    }
 
-    window.speechSynthesis.cancel();
-    window.speechSynthesis.speak(utterance);
+    speakWithTts(text, mode, speed, voice);
   }
 
   return { speak };
+}
+
+function speakWithTts(
+  text: string,
+  mode: SpeechMode,
+  speed: AudioSpeed,
+  voice: SpeechSynthesisVoice | null
+) {
+  if (typeof window === "undefined" || !("speechSynthesis" in window) || !text.trim()) return;
+
+  const profile = AUDIO_SPEEDS[speed];
+  const utterance = new SpeechSynthesisUtterance(text);
+  utterance.lang = voice?.lang ?? "zh-TW";
+  utterance.rate =
+    mode === "sentence"
+      ? text.length > 12
+        ? profile.longSentenceRate
+        : profile.sentenceRate
+      : profile.wordRate;
+  utterance.pitch = 1;
+  if (voice) utterance.voice = voice;
+
+  window.speechSynthesis.cancel();
+  window.speechSynthesis.speak(utterance);
+}
+
+function resolveAudioPath(path: string) {
+  const normalized = path.startsWith("/") ? path : `/${path}`;
+  if (typeof window === "undefined") return normalized;
+  const basePath = window.location.pathname.startsWith("/LearningMandarin") ? "/LearningMandarin" : "";
+  return `${basePath}${normalized}`;
 }
 
 function chooseMandarinVoice(voices: SpeechSynthesisVoice[]) {
@@ -1324,6 +1749,7 @@ function buildLessonPack(data: CourseData, lesson: LessonItem) {
 }
 
 type GeneratedSentence = {
+  audio_id?: string;
   text: string;
   pinyin: string;
   translation_en: string;
@@ -1333,6 +1759,7 @@ type GeneratedSentence = {
 
 function buildGeneratedSentences(pack: LessonPack): GeneratedSentence[] {
   const authored = pack.sentences.map((sentence) => ({
+    audio_id: sentence.audio_id,
     text: sentence.text,
     pinyin: sentence.pinyin,
     translation_en: sentence.translation_en,
@@ -1411,6 +1838,53 @@ function findVocabForToken(vocab: VocabularyItem[], token: string) {
     vocab.find((item) => item.char === token) ??
     vocab.find((item) => token.includes(item.char) || item.char.includes(token))
   );
+}
+
+function requestWritingFocus(char: string) {
+  if (typeof window === "undefined" || !char) return;
+  window.dispatchEvent(new CustomEvent(SHOW_WRITING_EVENT, { detail: char }));
+}
+
+function firstChineseChar(text: string) {
+  return Array.from(text).find(isLikelyChinese) ?? "";
+}
+
+function matchesVocab(item: VocabularyItem, query: string) {
+  if (!query) return true;
+  return [item.id, item.char, item.pinyin, item.pinyin_numeric, item.meaning_en, item.meaning_ko, item.pos]
+    .join(" ")
+    .toLowerCase()
+    .includes(query);
+}
+
+function matchesSentence(item: SentenceItem, query: string) {
+  if (!query) return true;
+  return [
+    item.id,
+    item.text,
+    item.pinyin,
+    item.pinyin_numeric,
+    item.translation_en,
+    item.translation_ko,
+    item.tokens.join(" ")
+  ]
+    .join(" ")
+    .toLowerCase()
+    .includes(query);
+}
+
+function matchesGrammar(item: GrammarItem, query: string) {
+  if (!query) return true;
+  return [
+    item.id,
+    item.pattern,
+    item.explanation_en,
+    item.structure.join(" "),
+    item.drill_examples?.map((example) => `${example.text} ${example.pinyin} ${example.translation_en}`).join(" ") ?? ""
+  ]
+    .join(" ")
+    .toLowerCase()
+    .includes(query);
 }
 
 function collectContextVocab(allVocab: VocabularyItem[], lessonVocab: VocabularyItem[], sentences: SentenceItem[]) {
