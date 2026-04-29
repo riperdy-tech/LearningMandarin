@@ -87,66 +87,63 @@ const AUDIO_SPEEDS: Record<
 };
 
 const SUPPLEMENTAL_VISIBLE_VOCAB: VocabularyItem[] = [
-  {
-    id: "VOC_SUP_M1_KOREAN_PERSON",
-    char: "韓國人",
-    pinyin: "Hánguó rén",
-    pinyin_numeric: "hanguo2 ren2",
-    phonemes: ["hanguo2", "ren2"],
-    pos: "noun",
-    meaning_en: "Korean person; Korean",
-    meaning_ko: "한국 사람",
-    frequency: "medium",
-    cefr: "A1",
-    hsk_level: 1,
-    example_ids: ["SEN_M1_D01_08"],
-    audio_id: "AUD_SUP_M1_KOREAN_PERSON"
-  },
-  {
-    id: "VOC_SUP_M1_KOREA",
-    char: "韓國",
-    pinyin: "Hánguó",
-    pinyin_numeric: "hanguo2",
-    phonemes: ["hanguo2"],
-    pos: "place",
-    meaning_en: "Korea",
-    meaning_ko: "한국",
-    frequency: "medium",
-    cefr: "A1",
-    hsk_level: 1,
-    example_ids: ["SEN_M1_D01_08"],
-    audio_id: "AUD_SUP_M1_KOREA"
-  },
-  {
-    id: "VOC_SUP_M1_STUDENT",
-    char: "學生",
-    pinyin: "xuéshēng",
-    pinyin_numeric: "xue2 sheng1",
-    phonemes: ["xue2", "sheng1"],
-    pos: "noun",
-    meaning_en: "student",
-    meaning_ko: "학생",
-    frequency: "high",
-    cefr: "A1",
-    hsk_level: 1,
-    example_ids: ["SEN_M1_D01_03"],
-    audio_id: "AUD_SUP_M1_STUDENT"
-  },
-  {
-    id: "VOC_SUP_M1_TEACHER",
-    char: "老師",
-    pinyin: "lǎoshī",
-    pinyin_numeric: "lao3 shi1",
-    phonemes: ["lao3", "shi1"],
-    pos: "noun",
-    meaning_en: "teacher",
-    meaning_ko: "선생님",
-    frequency: "high",
-    cefr: "A1",
-    hsk_level: 1,
-    example_ids: ["SEN_M1_D01_04"],
-    audio_id: "AUD_SUP_M1_TEACHER"
-  }
+  supplementalVocab("KOREAN_PERSON", "韓國人", "Hánguó rén", "hanguo2 ren2", "noun", "Korean person; Korean", "한국 사람", ["SEN_M1_D01_08"]),
+  supplementalVocab("KOREA", "韓國", "Hánguó", "hanguo2", "place", "Korea", "한국", ["SEN_M1_D01_08"]),
+  supplementalVocab("STUDENT", "學生", "xuéshēng", "xue2 sheng1", "noun", "student", "학생", ["SEN_M1_D01_03"]),
+  supplementalVocab("TEACHER", "老師", "lǎoshī", "lao3 shi1", "noun", "teacher", "선생님", ["SEN_M1_D01_04"]),
+  supplementalVocab("LI_MING", "李明", "Lǐ Míng", "li3 ming2", "name", "Li Ming", "리밍", ["SEN_M1_D01_01"]),
+  supplementalVocab("WANG_FANG", "王芳", "Wáng Fāng", "wang2 fang1", "name", "Wang Fang", "왕팡", ["SEN_M1_D01_02"]),
+  supplementalVocab("LI_QIANG", "李強", "Lǐ Qiáng", "li3 qiang2", "name", "Li Qiang", "리창", ["SEN_M1_D07_03"]),
+  supplementalVocab("THIS", "這", "zhè", "zhe4", "pronoun", "this", "이것", []),
+  supplementalVocab("THAT", "那", "nà", "na4", "pronoun", "that", "저것", []),
+  supplementalVocab("HERE", "這裡", "zhèlǐ", "zhe4 li3", "place", "here", "여기", []),
+  supplementalVocab("THERE", "那裡", "nàlǐ", "na4 li3", "place", "there", "저기", []),
+  supplementalVocab("TODAY", "今天", "jīntiān", "jin1 tian1", "time", "today", "오늘", []),
+  supplementalVocab("THIS_YEAR", "今年", "jīnnián", "jin1 nian2", "time", "this year", "올해", []),
+  supplementalVocab("TOMORROW", "明天", "míngtiān", "ming2 tian1", "time", "tomorrow", "내일", []),
+  supplementalVocab("ONE_DAY", "一天", "yì tiān", "yi4 tian1", "time", "one day", "하루", ["SEN_M1_D29_08"]),
+  supplementalVocab("EVENING", "晚上", "wǎnshang", "wan3 shang0", "time", "evening; night", "저녁", ["SEN_M1_D29_05"]),
+  supplementalVocab("BECAUSE", "因為", "yīnwèi", "yin1 wei4", "conjunction", "because", "왜냐하면", ["SEN_M1_D29_04"]),
+  supplementalVocab("BUT", "但是", "dànshì", "dan4 shi4", "conjunction", "but", "하지만", ["SEN_M1_D29_08"]),
+  supplementalVocab("AND", "和", "hé", "he2", "conjunction", "and; with", "그리고", []),
+  supplementalVocab("WE", "我們", "wǒmen", "wo3 men0", "pronoun", "we; us", "우리", []),
+  supplementalVocab("THEY", "他們", "tāmen", "ta1 men0", "pronoun", "they; them", "그들", []),
+  supplementalVocab("PLUS", "加", "jiā", "jia1", "verb", "to add; plus", "더하다", ["SEN_M1_D02_05"]),
+  supplementalVocab("COMPLETION", "了", "le", "le0", "particle", "completed-action particle", "완료 조사", []),
+  supplementalVocab("STILL", "還", "hái", "hai2", "adverb", "still; also", "아직; 또한", []),
+  supplementalVocab("PORTION", "份", "fèn", "fen4", "measure word", "portion; serving", "인분", []),
+  supplementalVocab("ASK", "問", "wèn", "wen4", "verb", "to ask", "묻다", []),
+  supplementalVocab("BUY", "買", "mǎi", "mai3", "verb", "to buy", "사다", []),
+  supplementalVocab("RETURN", "回", "huí", "hui2", "verb", "to return", "돌아가다", []),
+  supplementalVocab("GIVE", "給", "gěi", "gei3", "verb", "to give", "주다", []),
+  supplementalVocab("TAKE", "取", "qǔ", "qu3", "verb", "to pick up; take", "찾다; 취하다", []),
+  supplementalVocab("SHEET", "張", "zhāng", "zhang1", "measure word", "sheet; flat-object measure word", "장", []),
+  supplementalVocab("FAST", "快", "kuài", "kuai4", "adjective", "fast", "빠르다", []),
+  supplementalVocab("STRIP_ROAD", "條", "tiáo", "tiao2", "measure word", "measure word for long thin things", "줄; 길 단위", []),
+  supplementalVocab("RICE_MEAL", "飯", "fàn", "fan4", "noun", "rice; meal", "밥; 식사", []),
+  supplementalVocab("EAT_MEAL", "吃飯", "chī fàn", "chi1 fan4", "verb phrase", "to eat a meal", "밥을 먹다", []),
+  supplementalVocab("CHINESE_CHARS", "漢字", "Hànzì", "han4 zi4", "noun", "Chinese characters", "한자", []),
+  supplementalVocab("CHARACTER", "字", "zì", "zi4", "noun", "character; word", "글자", []),
+  supplementalVocab("MUSIC", "音樂", "yīnyuè", "yin1 yue4", "noun", "music", "음악", []),
+  supplementalVocab("LIKE", "喜歡", "xǐhuan", "xi3 huan0", "verb", "to like", "좋아하다", []),
+  supplementalVocab("HAPPY", "高興", "gāoxìng", "gao1 xing4", "adjective", "happy", "기쁘다", []),
+  supplementalVocab("SCHOOL", "學校", "xuéxiào", "xue2 xiao4", "place", "school", "학교", []),
+  supplementalVocab("HOSPITAL", "醫院", "yīyuàn", "yi1 yuan4", "place", "hospital", "병원", []),
+  supplementalVocab("SUPERMARKET", "超市", "chāoshì", "chao1 shi4", "place", "supermarket", "슈퍼마켓", []),
+  supplementalVocab("PARK", "公園", "gōngyuán", "gong1 yuan2", "place", "park", "공원", []),
+  supplementalVocab("SHOP", "店", "diàn", "dian4", "noun", "shop; store", "가게", []),
+  supplementalVocab("TAICHUNG", "台中", "Táizhōng", "tai2 zhong1", "place", "Taichung", "타이중", []),
+  supplementalVocab("TAIPEI", "台北", "Táiběi", "tai2 bei3", "place", "Taipei", "타이베이", []),
+  supplementalVocab("MEET", "見面", "jiànmiàn", "jian4 mian4", "verb", "to meet", "만나다", []),
+  supplementalVocab("PLAN", "計畫", "jìhuà", "ji4 hua4", "noun", "plan", "계획", []),
+  supplementalVocab("WALK", "散步", "sànbù", "san4 bu4", "verb", "to take a walk", "산책하다", []),
+  supplementalVocab("TABLE", "桌子", "zhuōzi", "zhuo1 zi0", "noun", "table", "책상", []),
+  supplementalVocab("CHAIR", "椅子", "yǐzi", "yi3 zi0", "noun", "chair", "의자", []),
+  supplementalVocab("BAG", "包包", "bāobāo", "bao1 bao1", "noun", "bag", "가방", []),
+  supplementalVocab("SIDE", "邊", "biān", "bian1", "noun", "side", "쪽; 변", []),
+  supplementalVocab("FACE_SIDE", "面", "miàn", "mian4", "noun", "side; surface", "면; 쪽", []),
+  supplementalVocab("BUSY", "忙", "máng", "mang2", "adjective", "busy", "바쁘다", []),
+  supplementalVocab("CLASS", "課", "kè", "ke4", "noun", "class; lesson", "수업", [])
 ];
 
 const emptyProgress: LocalProgress = {
@@ -161,6 +158,33 @@ const emptyProgress: LocalProgress = {
     last_study_date: null
   }
 };
+
+function supplementalVocab(
+  id: string,
+  char: string,
+  pinyin: string,
+  pinyinNumeric: string,
+  pos: string,
+  meaningEn: string,
+  meaningKo: string,
+  exampleIds: string[]
+): VocabularyItem {
+  return {
+    id: `VOC_SUP_M1_${id}`,
+    char,
+    pinyin,
+    pinyin_numeric: pinyinNumeric,
+    phonemes: pinyinNumeric.split(/\s+/).filter(Boolean),
+    pos,
+    meaning_en: meaningEn,
+    meaning_ko: meaningKo,
+    frequency: "medium",
+    cefr: "A1",
+    hsk_level: 1,
+    example_ids: exampleIds,
+    audio_id: `AUD_SUP_M1_${id}`
+  };
+}
 
 export function CourseApp({ data }: { data: CourseData }) {
   const [selectedLessonId, setSelectedLessonId] = useState(data.lessons[0]?.id ?? "");
