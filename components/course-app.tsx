@@ -13,6 +13,7 @@ import {
   HelpCircle,
   LibraryBig,
   PenLine,
+  Printer,
   RotateCcw,
   Search,
   Target,
@@ -44,6 +45,7 @@ type TrainerStepKind =
   | "substitution"
   | "listen_shadow"
   | "memory_speaking"
+  | "reverse_translation"
   | "review_summary";
 
 type TrainerStep = {
@@ -65,7 +67,7 @@ const DEFAULT_DAILY_FLOW: TrainerStep[] = [
   { id: "substitution", title: "Sentence generation", kind: "substitution", target_count: 10, duration_minutes: 20 },
   { id: "listen_shadow", title: "Listening and shadowing", kind: "listen_shadow", target_count: 4, duration_minutes: 10 },
   { id: "memory_speaking", title: "Speak from memory", kind: "memory_speaking", target_count: 3, duration_minutes: 5 },
-  { id: "review_summary", title: "Quick review summary", kind: "review_summary", target_count: 1, duration_minutes: 5 }
+  { id: "reverse_translation", title: "Reverse sentence builder", kind: "reverse_translation", target_count: 5, duration_minutes: 5 }
 ];
 
 const STEP_GUIDES: Record<TrainerStepKind, string> = {
@@ -74,16 +76,17 @@ const STEP_GUIDES: Record<TrainerStepKind, string> = {
   substitution: "Say the sentence aloud, swap one part, then say the new version without looking at the English.",
   listen_shadow: "Listen once, repeat slowly, then repeat naturally at full phrase level. Do not chop it into word pieces.",
   memory_speaking: "Look only at the English prompt first. Produce the Chinese from memory, reveal, then correct your output.",
-  review_summary: "Review what felt weak, mark weak words or patterns, then complete the daily loop once all steps are practiced."
+  reverse_translation: "Use the English prompt only. Write or say the Chinese sentence first, then reveal the model answer.",
+  review_summary: "Use the English prompt only. Write or say the Chinese sentence first, then reveal the model answer."
 };
 
 const AUDIO_SPEEDS: Record<
   AudioSpeed,
   { label: string; wordRate: number; sentenceRate: number; longSentenceRate: number; playbackRate: number }
 > = {
-  slow: { label: "Slow", wordRate: 0.68, sentenceRate: 0.62, longSentenceRate: 0.56, playbackRate: 0.78 },
-  normal: { label: "Normal", wordRate: 0.78, sentenceRate: 0.72, longSentenceRate: 0.66, playbackRate: 1 },
-  shadow: { label: "Shadow", wordRate: 0.64, sentenceRate: 0.58, longSentenceRate: 0.52, playbackRate: 0.7 }
+  slow: { label: "Slow", wordRate: 0.52, sentenceRate: 0.48, longSentenceRate: 0.42, playbackRate: 0.65 },
+  normal: { label: "Normal", wordRate: 0.86, sentenceRate: 0.8, longSentenceRate: 0.72, playbackRate: 1 },
+  shadow: { label: "Shadow", wordRate: 0.64, sentenceRate: 0.58, longSentenceRate: 0.52, playbackRate: 0.78 }
 };
 
 const SUPPLEMENTAL_VISIBLE_VOCAB: VocabularyItem[] = [
@@ -216,7 +219,7 @@ export function CourseApp({ data }: { data: CourseData }) {
   const weekMastery = Math.round((completedLessonCount / Math.max(data.lessons.length, 1)) * 100);
   const activeStep = dailyFlow.find((step) => step.id === activeStepId) ?? dailyFlow[0];
   const allStepsDone = dailyFlow.every((step) => completedSteps.includes(step.id));
-  const generatedSentences = buildGeneratedSentences(lessonPack);
+  const generatedSentences = buildGeneratedSentences(data, selectedLesson, lessonPack, displayVocab);
   const totalMinutes = dailyFlow.reduce((sum, step) => sum + (step.duration_minutes ?? 0), 0);
 
   useEffect(() => {
@@ -458,6 +461,19 @@ export function CourseApp({ data }: { data: CourseData }) {
                     <LibraryBig className="h-4 w-4" />
                     Repository
                   </Button>
+                  <Button
+                    onClick={() =>
+                      openPrintableWordSheet(
+                        selectedLesson,
+                        lessonPack.contextVocab.length > 0 ? lessonPack.contextVocab : lessonPack.vocab
+                      )
+                    }
+                    size="sm"
+                    variant="secondary"
+                  >
+                    <Printer className="h-4 w-4" />
+                    Print word sheet
+                  </Button>
                 </div>
               </div>
               <div className="min-w-56">
@@ -603,6 +619,7 @@ function TrainerStepPanel({
       <CardContent>
         {activeStep.kind === "pattern_review" && (
           <PatternReview
+            extraExamples={generatedSentences}
             grammar={lessonPack.grammar}
             onSelectPattern={onSelectPattern}
             sentences={lessonPack.sentences}
@@ -615,6 +632,7 @@ function TrainerStepPanel({
 
         {activeStep.kind === "new_words" && (
           <NewWordsInSentences
+            extraExamples={generatedSentences}
             lookupVocab={lookupVocab}
             onSelectVocab={onSelectVocab}
             sentences={lessonPack.sentences}
@@ -632,7 +650,7 @@ function TrainerStepPanel({
         {activeStep.kind === "listen_shadow" && (
           <ListenShadow
             audioSpeed={audioSpeed}
-            sentences={lessonPack.sentences}
+            sentences={generatedSentences}
             setAudioSpeed={setAudioSpeed}
             speak={speak}
             vocab={lookupVocab}
@@ -643,8 +661,8 @@ function TrainerStepPanel({
           <MemorySpeaking generatedSentences={generatedSentences} speak={speak} vocab={lookupVocab} />
         )}
 
-        {activeStep.kind === "review_summary" && (
-          <ReviewSummary
+        {(activeStep.kind === "reverse_translation" || activeStep.kind === "review_summary") && (
+          <ReverseTranslationPractice
             allStepsDone={allStepsDone}
             lessonCompleted={lessonCompleted}
             onCompleteLesson={onCompleteLesson}
@@ -661,6 +679,7 @@ function TrainerStepPanel({
 }
 
 function PatternReview({
+  extraExamples,
   grammar,
   onSelectPattern,
   sentences,
@@ -669,6 +688,7 @@ function PatternReview({
   vocab,
   weakPatterns
 }: {
+  extraExamples: GeneratedSentence[];
   grammar: GrammarItem[];
   onSelectPattern: (grammar: GrammarItem) => void;
   sentences: SentenceItem[];
@@ -713,7 +733,7 @@ function PatternReview({
           </div>
 
           <div className="mt-4 grid gap-3 md:grid-cols-2">
-            {getPatternExamples(item, sentences).map((example) => (
+            {[...getPatternExamples(item, sentences), ...getFreshMixedExamples(extraExamples, item, 3)].map((example) => (
               <SentenceCard
                 audioId={example.audio_id}
                 key={example.text}
@@ -733,6 +753,7 @@ function PatternReview({
 }
 
 function NewWordsInSentences({
+  extraExamples,
   lookupVocab,
   onSelectVocab,
   sentences,
@@ -741,6 +762,7 @@ function NewWordsInSentences({
   vocab,
   weakWords
 }: {
+  extraExamples: GeneratedSentence[];
   lookupVocab: VocabularyItem[];
   onSelectVocab: (vocab: VocabularyItem) => void;
   sentences: SentenceItem[];
@@ -805,6 +827,28 @@ function NewWordsInSentences({
           />
         ))}
       </div>
+
+      {extraExamples.some((sentence) => sentence.source === "mixed") && (
+        <div className="rounded-lg bg-paper p-4 ring-1 ring-black/10">
+          <p className="text-xs font-black uppercase text-ink/45">Mixed review with learned words</p>
+          <div className="mt-3 grid gap-3 md:grid-cols-2">
+            {extraExamples
+              .filter((sentence) => sentence.source === "mixed")
+              .slice(0, 4)
+              .map((sentence) => (
+                <SentenceCard
+                  key={sentence.text}
+                  pinyin={sentence.pinyin}
+                  speak={speak}
+                  text={sentence.text}
+                  translationEn={sentence.translation_en}
+                  translationKo={sentence.translation_ko}
+                  vocab={lookupVocab}
+                />
+              ))}
+          </div>
+        </div>
+      )}
     </div>
   );
 }
@@ -834,6 +878,7 @@ function SubstitutionDrill({
             <p className="text-sm font-black text-ink/55">Say it, then swap one part</p>
             <p className="mt-1 text-xs font-black uppercase text-jade-700">
               Variation {activeIndex + 1} of {generatedSentences.length}
+              {active.source === "mixed" ? " · mixed from learned words" : ""}
             </p>
           </div>
           <Button onClick={() => setShowEnglish((current) => !current)} size="sm" variant="secondary">
@@ -904,7 +949,7 @@ function ListenShadow({
   vocab
 }: {
   audioSpeed: AudioSpeed;
-  sentences: SentenceItem[];
+  sentences: GeneratedSentence[];
   setAudioSpeed: (speed: AudioSpeed) => void;
   speak: SpeakFn;
   vocab: VocabularyItem[];
@@ -938,7 +983,7 @@ function ListenShadow({
         ))}
       </div>
       {sentences.map((sentence) => (
-        <div className="rounded-lg bg-paper p-4 ring-1 ring-black/10" key={sentence.id}>
+        <div className="rounded-lg bg-paper p-4 ring-1 ring-black/10" key={sentence.text}>
           <div className="flex flex-wrap items-start justify-between gap-3">
             <div className="min-w-0 flex-1">
               <ClickableChineseLine
@@ -960,7 +1005,10 @@ function ListenShadow({
               <AudioButton label={`Play ${sentence.text}`} onClick={() => speak(sentence.text, "sentence", sentence.audio_id)} />
             </div>
           </div>
-          <p className="mt-3 font-bold text-ink">{sentence.translation_en}</p>
+          {sentence.source === "mixed" && (
+            <p className="mt-3 text-xs font-black uppercase text-jade-700">Mixed from earlier words</p>
+          )}
+          <p className={cn("font-bold text-ink", sentence.source !== "mixed" && "mt-3")}>{sentence.translation_en}</p>
           {sentence.translation_ko && <p className="text-sm font-semibold text-ink/50">{sentence.translation_ko}</p>}
         </div>
       ))}
@@ -1045,7 +1093,7 @@ function MemorySpeaking({
   );
 }
 
-function ReviewSummary({
+function ReverseTranslationPractice({
   allStepsDone,
   lessonCompleted,
   onCompleteLesson,
@@ -1065,27 +1113,67 @@ function ReviewSummary({
   vocab: VocabularyItem[];
 }) {
   const dueCount = progress.due_review_ids.length + progress.weak_words.length + progress.weak_patterns.length;
+  const [revealed, setRevealed] = useState<Set<string>>(() => new Set());
+  const [answers, setAnswers] = useState<Record<string, string>>({});
+  const prompts = sentences.slice(0, Math.max(5, Math.min(sentences.length, 10)));
+
+  function toggleReveal(text: string) {
+    setRevealed((current) => {
+      const next = new Set(current);
+      if (next.has(text)) next.delete(text);
+      else next.add(text);
+      return next;
+    });
+  }
 
   return (
     <div className="grid gap-5 lg:grid-cols-[minmax(0,1fr)_18rem]">
       <div className="rounded-lg bg-jade-50 p-5 ring-1 ring-jade-500/20">
-        <p className="text-sm font-black text-jade-700">Quick review summary</p>
-        <h3 className="mt-2 text-2xl font-black text-ink">Useful sentence output</h3>
+        <p className="text-sm font-black text-jade-700">Reverse sentence builder</p>
+        <h3 className="mt-2 text-2xl font-black text-ink">Create Chinese from English</h3>
         <p className="mt-2 font-semibold text-ink/65">
-          Today's win is not memorizing labels. It is producing these sentences quickly and naturally.
+          This is the output test: read the English, write or say the Chinese from memory, then reveal the model.
         </p>
-        <div className="mt-4 grid gap-2">
-          {sentences.slice(0, 4).map((sentence) => (
-            <div className="rounded-lg bg-white p-3" key={sentence.text}>
-              <ClickableChineseLine
-                className="text-xl font-black text-ink"
-                speak={speak}
-                text={sentence.text}
-                vocab={vocab}
+        <div className="mt-4 grid gap-3">
+          {prompts.map((sentence, index) => {
+            const isRevealed = revealed.has(sentence.text);
+            return (
+            <div className="rounded-lg bg-white p-4 ring-1 ring-black/10" key={`${sentence.text}-${index}`}>
+              <div className="flex flex-wrap items-start justify-between gap-3">
+                <div>
+                  <p className="text-xs font-black uppercase text-jade-700">Prompt {index + 1}</p>
+                  <p className="mt-1 text-lg font-black text-ink">{sentence.translation_en}</p>
+                  {sentence.translation_ko && <p className="text-sm font-semibold text-ink/50">{sentence.translation_ko}</p>}
+                </div>
+                <div className="flex flex-wrap gap-2">
+                  <Button onClick={() => toggleReveal(sentence.text)} size="sm" variant="secondary">
+                    {isRevealed ? "Hide model" : "Reveal model"}
+                  </Button>
+                  <Button onClick={() => speak(sentence.text, "sentence", sentence.audio_id)} size="sm" variant="warm">
+                    <Volume2 className="h-4 w-4" />
+                    Play
+                  </Button>
+                </div>
+              </div>
+              <textarea
+                className="mt-3 min-h-20 w-full rounded-lg border border-ink/15 bg-paper p-3 han text-xl font-bold outline-none focus:border-jade-600"
+                onChange={(event) => setAnswers((current) => ({ ...current, [sentence.text]: event.target.value }))}
+                placeholder="Write the Chinese sentence here before revealing."
+                value={answers[sentence.text] ?? ""}
               />
-              <p className="text-sm font-bold text-jade-700">{sentence.pinyin}</p>
+              {isRevealed && (
+                <div className="mt-3 rounded-lg bg-jade-50 p-3">
+                  <ClickableChineseLine
+                    className="text-2xl font-black text-ink"
+                    speak={speak}
+                    text={sentence.text}
+                    vocab={vocab}
+                  />
+                  <p className="mt-1 font-black text-jade-700">{sentence.pinyin}</p>
+                </div>
+              )}
             </div>
-          ))}
+          )})}
         </div>
       </div>
       <div className="space-y-3">
@@ -1624,9 +1712,12 @@ function RepositoryDrawer({
   const [selectedWordId, setSelectedWordId] = useState<string | null>(null);
   const repositoryVocab = useMemo(() => mergeVocab(data.vocab, SUPPLEMENTAL_VISIBLE_VOCAB), [data.vocab]);
   const normalizedQuery = query.trim().toLowerCase();
-  const words = repositoryVocab.filter((item) => matchesVocab(item, normalizedQuery));
-  const sentences = data.sentences.filter((item) => matchesSentence(item, normalizedQuery));
-  const grammar = data.grammar.filter((item) => matchesGrammar(item, normalizedQuery));
+  const wordEntries = useMemo(() => buildWordRepositoryEntries(data, repositoryVocab), [data, repositoryVocab]);
+  const sentenceEntries = useMemo(() => buildSentenceRepositoryEntries(data), [data]);
+  const grammarEntries = useMemo(() => buildGrammarRepositoryEntries(data), [data]);
+  const words = wordEntries.filter((entry) => matchesVocab(entry.item, normalizedQuery));
+  const sentences = sentenceEntries.filter((entry) => matchesSentence(entry.item, normalizedQuery));
+  const grammar = grammarEntries.filter((entry) => matchesGrammar(entry.item, normalizedQuery));
   const selectedWord = selectedWordId ? repositoryVocab.find((item) => item.id === selectedWordId) : null;
 
   useEffect(() => {
@@ -1634,7 +1725,7 @@ function RepositoryDrawer({
   }, [tab]);
 
   useEffect(() => {
-    if (selectedWordId && !words.some((item) => item.id === selectedWordId)) setSelectedWordId(null);
+    if (selectedWordId && !words.some((entry) => entry.item.id === selectedWordId)) setSelectedWordId(null);
   }, [selectedWordId, words]);
 
   return (
@@ -1670,7 +1761,7 @@ function RepositoryDrawer({
         {tab === "words" && (
           <div className="grid gap-3 lg:grid-cols-[minmax(0,1fr)_22rem]">
             <div className="grid gap-2">
-              {words.map((item) => (
+              {words.map(({ item, lesson }) => (
               <div
                 className={cn(
                   "rounded-lg bg-white p-3 ring-1 ring-black/10 transition",
@@ -1688,7 +1779,9 @@ function RepositoryDrawer({
                     <p className="font-black text-jade-700">{item.pinyin}</p>
                     <p className="font-semibold text-ink">{item.meaning_en}</p>
                     {item.meaning_ko && <p className="text-sm font-semibold text-ink/50">{item.meaning_ko}</p>}
-                    <p className="mt-1 text-xs font-bold text-ink/40">{item.example_ids.length} related sentences</p>
+                    <p className="mt-1 text-xs font-bold text-ink/40">
+                      Day {lesson.order}: {lesson.title} · {item.example_ids.length} related sentences
+                    </p>
                   </button>
                   <div className="flex flex-wrap gap-2">
                     <AudioButton label={`Play ${item.char}`} onClick={() => speak(item.char, "word", item.audio_id)} />
@@ -1725,8 +1818,9 @@ function RepositoryDrawer({
 
         {tab === "sentences" && (
           <div className="grid gap-2">
-            {sentences.map((item) => (
+            {sentences.map(({ item, lesson }) => (
               <div className="rounded-lg bg-white p-3 ring-1 ring-black/10" key={item.id}>
+                <p className="mb-2 text-xs font-black uppercase text-jade-700">Day {lesson.order}: {lesson.title}</p>
                 <div className="flex flex-wrap items-start justify-between gap-3">
                   <div>
                     <ClickableChineseLine
@@ -1748,8 +1842,9 @@ function RepositoryDrawer({
 
         {tab === "grammar" && (
           <div className="grid gap-2">
-            {grammar.map((item) => (
+            {grammar.map(({ item, lesson }) => (
               <div className="rounded-lg bg-white p-3 ring-1 ring-black/10" key={item.id}>
+                <p className="mb-2 text-xs font-black uppercase text-jade-700">Day {lesson.order}: {lesson.title}</p>
                 <p className="font-black text-ink">{item.pattern}</p>
                 <p className="mt-1 text-sm font-semibold text-ink/65">{item.explanation_en}</p>
                 <div className="mt-3 grid gap-2 md:grid-cols-2">
@@ -1838,6 +1933,86 @@ function ReferenceLink({ children, href }: { children: React.ReactNode; href: st
   );
 }
 
+function openPrintableWordSheet(lesson: LessonItem, words: VocabularyItem[]) {
+  if (typeof window === "undefined") return;
+  const uniqueWords = words.filter(uniqueVocab);
+  const rows = uniqueWords
+    .map((word, index) => {
+      const characters = Array.from(word.char).filter(isLikelyChinese);
+      const characterCells = characters
+        .map((char) => `<span class="char-cell">${escapeHtml(char)}</span>`)
+        .join("");
+      const practiceCells = Array.from({ length: 10 }, () => `<span class="practice-cell"></span>`).join("");
+      return `
+        <tr>
+          <td class="number">${index + 1}</td>
+          <td>
+            <div class="word">${escapeHtml(word.char)}</div>
+            <div class="chars">${characterCells}</div>
+          </td>
+          <td>
+            <div class="pinyin">${escapeHtml(word.pinyin)}</div>
+            <div class="meaning">${escapeHtml(word.meaning_en)}</div>
+            ${word.meaning_ko ? `<div class="ko">${escapeHtml(word.meaning_ko)}</div>` : ""}
+          </td>
+          <td><div class="practice-grid">${practiceCells}</div></td>
+        </tr>`;
+    })
+    .join("");
+
+  const printable = window.open("", `word-sheet-day-${lesson.order}`, "width=1100,height=800");
+  if (!printable) return;
+  printable.document.write(`<!doctype html>
+    <html>
+      <head>
+        <meta charset="utf-8" />
+        <title>Day ${lesson.order} Word Practice Sheet</title>
+        <style>
+          @page { margin: 14mm; }
+          body { color: #17211c; font-family: Arial, "Noto Sans TC", "Microsoft JhengHei", sans-serif; margin: 0; }
+          header { align-items: center; border-bottom: 2px solid #17211c; display: flex; justify-content: space-between; gap: 16px; padding-bottom: 12px; }
+          h1 { font-size: 24px; margin: 0 0 4px; }
+          p { margin: 0; }
+          .meta { color: #496157; font-size: 13px; font-weight: 700; }
+          .print { background: #0f766e; border: 0; border-radius: 8px; color: white; cursor: pointer; font-weight: 800; padding: 10px 14px; }
+          table { border-collapse: collapse; margin-top: 18px; width: 100%; }
+          th { background: #e8f4ef; font-size: 12px; letter-spacing: .04em; text-align: left; text-transform: uppercase; }
+          th, td { border: 1px solid #b8c7bf; padding: 9px; vertical-align: top; }
+          .number { color: #62756d; font-weight: 800; text-align: center; width: 34px; }
+          .word { font-family: "Noto Serif TC", "Microsoft JhengHei", serif; font-size: 30px; font-weight: 900; line-height: 1.1; }
+          .pinyin { color: #0f766e; font-size: 16px; font-weight: 900; }
+          .meaning { font-size: 13px; font-weight: 800; margin-top: 4px; }
+          .ko { color: #68766f; font-size: 12px; font-weight: 700; margin-top: 2px; }
+          .chars { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 7px; }
+          .char-cell, .practice-cell { align-items: center; border: 1px solid #9fb0a8; display: inline-flex; justify-content: center; }
+          .char-cell { background: #f4faf7; font-family: "Noto Serif TC", "Microsoft JhengHei", serif; font-size: 20px; font-weight: 900; height: 34px; width: 34px; }
+          .practice-grid { display: grid; gap: 5px; grid-template-columns: repeat(5, 42px); }
+          .practice-cell { height: 42px; width: 42px; }
+          .note { color: #62756d; font-size: 12px; font-weight: 700; margin-top: 14px; }
+          @media print { .print { display: none; } }
+        </style>
+      </head>
+      <body>
+        <header>
+          <div>
+            <h1>Day ${lesson.order}: ${escapeHtml(lesson.title)}</h1>
+            <p class="meta">Printable Mandarin word practice sheet · ${uniqueWords.length} words from today's lesson context</p>
+          </div>
+          <button class="print" onclick="window.print()">Print</button>
+        </header>
+        <table>
+          <thead>
+            <tr><th>#</th><th>Word</th><th>Meaning</th><th>Practice cells</th></tr>
+          </thead>
+          <tbody>${rows}</tbody>
+        </table>
+        <p class="note">Study routine: say the word, write each character, then create one sentence aloud before moving to the next row.</p>
+      </body>
+    </html>`);
+  printable.document.close();
+  printable.focus();
+}
+
 function MetricCard({
   icon: Icon,
   label,
@@ -1903,10 +2078,19 @@ function useLocalProgress() {
 function useMandarinAudio(audioManifest: AudioItem[], speed: AudioSpeed) {
   const [voices, setVoices] = useState<SpeechSynthesisVoice[]>([]);
   const ttsTimer = useRef<number | null>(null);
+  const speedRef = useRef(speed);
+  const activeAudio = useRef<HTMLAudioElement | null>(null);
   const audioById = useMemo(
     () => new Map(audioManifest.map((item) => [item.id, item])),
     [audioManifest]
   );
+
+  useEffect(() => {
+    speedRef.current = speed;
+    if (activeAudio.current) {
+      activeAudio.current.playbackRate = AUDIO_SPEEDS[speed].playbackRate;
+    }
+  }, [speed]);
 
   useEffect(() => {
     if (typeof window === "undefined" || !("speechSynthesis" in window)) return;
@@ -1918,6 +2102,7 @@ function useMandarinAudio(audioManifest: AudioItem[], speed: AudioSpeed) {
     return () => {
       window.speechSynthesis.removeEventListener("voiceschanged", loadVoices);
       if (ttsTimer.current !== null) window.clearTimeout(ttsTimer.current);
+      activeAudio.current?.pause();
     };
   }, []);
 
@@ -1928,13 +2113,23 @@ function useMandarinAudio(audioManifest: AudioItem[], speed: AudioSpeed) {
 
     const playTts = () => {
       if (ttsTimer.current !== null) window.clearTimeout(ttsTimer.current);
-      ttsTimer.current = speakWithTts(text, mode, speed, voice ?? chooseMandarinVoice(window.speechSynthesis?.getVoices?.() ?? []));
+      activeAudio.current?.pause();
+      ttsTimer.current = speakWithTts(
+        text,
+        mode,
+        speedRef.current,
+        voice ?? chooseMandarinVoice(window.speechSynthesis?.getVoices?.() ?? [])
+      );
     };
     const entry = audioId ? audioById.get(audioId) : undefined;
     if (entry && (entry.status === "recorded" || entry.status === "generated") && entry.path) {
+      if (ttsTimer.current !== null) window.clearTimeout(ttsTimer.current);
+      window.speechSynthesis?.cancel();
+      activeAudio.current?.pause();
       const audio = new Audio(resolveAudioPath(entry.path));
+      activeAudio.current = audio;
       audio.preload = "auto";
-      audio.playbackRate = AUDIO_SPEEDS[speed].playbackRate;
+      audio.playbackRate = AUDIO_SPEEDS[speedRef.current].playbackRate;
       audio.onerror = playTts;
       void audio.play().catch(playTts);
       return;
@@ -2030,10 +2225,15 @@ type GeneratedSentence = {
   pinyin: string;
   translation_en: string;
   translation_ko?: string;
-  source: "authored" | "generated";
+  source: "authored" | "generated" | "mixed";
 };
 
-function buildGeneratedSentences(pack: LessonPack): GeneratedSentence[] {
+function buildGeneratedSentences(
+  data: CourseData,
+  lesson: LessonItem,
+  pack: LessonPack,
+  allVocab: VocabularyItem[]
+): GeneratedSentence[] {
   const authored = pack.sentences.map((sentence) => ({
     audio_id: sentence.audio_id,
     text: sentence.text,
@@ -2051,9 +2251,10 @@ function buildGeneratedSentences(pack: LessonPack): GeneratedSentence[] {
       source: "generated" as const
     }))
   );
+  const mixed = buildMixedSentences(data, lesson, allVocab);
 
   const seen = new Set<string>();
-  return [...authored, ...drills].filter((sentence) => {
+  return [...authored, ...drills, ...mixed].filter((sentence) => {
     if (seen.has(sentence.text)) return false;
     seen.add(sentence.text);
     return true;
@@ -2090,8 +2291,105 @@ function getPatternExamples(grammar: GrammarItem, sentenceBank: SentenceItem[] =
     });
 }
 
+function buildMixedSentences(data: CourseData, lesson: LessonItem, allVocab: VocabularyItem[]): GeneratedSentence[] {
+  const learnedIds = new Set<string>();
+  const learnedSentences = data.lessons
+    .filter((item) => item.order <= lesson.order)
+    .flatMap((item) => {
+      item.vocab_ids.forEach((id) => learnedIds.add(id));
+      return item.sentence_ids;
+    });
+
+  data.sentences
+    .filter((sentence) => learnedSentences.includes(sentence.id))
+    .forEach((sentence) => {
+      segmentChineseText(sentence.text, allVocab).forEach((segment) => {
+        if (segment.item) learnedIds.add(segment.item.id);
+      });
+    });
+
+  const vocab = allVocab.filter((item) => learnedIds.has(item.id));
+  const exact = (char: string) => vocab.find((item) => item.char === char);
+  const has = (char: string) => Boolean(exact(char));
+  const findOne = (...chars: string[]) => chars.map(exact).find(Boolean);
+  const byMeaning = (needles: string[]) =>
+    vocab.filter((item) => needles.some((needle) => item.meaning_en.toLowerCase().includes(needle)));
+  const take = (items: VocabularyItem[], offset = 0) => items[(lesson.order + offset) % Math.max(items.length, 1)];
+
+  const pronouns = ["我", "你", "他", "她", "我們", "他們"].map(exact).filter(Boolean) as VocabularyItem[];
+  const numbers = ["一", "二", "三", "四", "五", "六", "七", "八", "九", "十", "兩"].map(exact).filter(Boolean) as VocabularyItem[];
+  const identities = [
+    ...byMeaning(["student", "teacher", "person", "korean"]),
+    ...["學生", "老師", "韓國人"].map(exact).filter(Boolean) as VocabularyItem[]
+  ].filter(uniqueVocab);
+  const foods = byMeaning(["water", "tea", "coffee", "rice", "noodle", "milk", "dish", "meat", "egg", "fish", "fruit", "apple"]);
+  const objects = [
+    ...foods,
+    ...byMeaning(["book", "phone", "computer", "music", "character", "chinese", "bag", "table", "chair"])
+  ].filter(uniqueVocab);
+  const locations = [
+    ...byMeaning(["home", "school", "hospital", "supermarket", "park", "shop", "taipei", "taichung", "here", "there"]),
+    ...["家", "學校", "醫院", "超市", "公園", "台北", "台中", "這裡", "那裡"].map(exact).filter(Boolean) as VocabularyItem[]
+  ].filter(uniqueVocab);
+  const adjectives = byMeaning(["big", "small", "good", "many", "few", "hot", "cold", "happy", "busy", "fast"]);
+  const timeWords = ["今天", "明天", "早上", "晚上", "今年"].map(exact).filter(Boolean) as VocabularyItem[];
+  const verbs = ["喝", "吃", "看", "聽", "說", "寫", "學", "做", "去", "買", "喜歡"].map(exact).filter(Boolean) as VocabularyItem[];
+
+  const mixed: GeneratedSentence[] = [];
+  const add = (text: string, translation: string, translationKo?: string) => {
+    if (!isSentenceBuildable(text, vocab)) return;
+    mixed.push({
+      text,
+      pinyin: pinyinForText(text, vocab),
+      translation_en: translation,
+      translation_ko: translationKo,
+      source: "mixed"
+    });
+  };
+
+  const subject = take(pronouns, 0);
+  const subject2 = take(pronouns, 2);
+  const identity = take(identities, 1);
+  const object = take(objects, 2);
+  const object2 = take(objects, 5);
+  const location = take(locations, 3);
+  const adjective = take(adjectives, 4);
+  const time = take(timeWords, 5);
+  const number = take(numbers, 6);
+  const verb = take(verbs, 7);
+
+  if (subject && identity && has("是")) add(`${subject.char}是${identity.char}。`, `${cleanMeaning(subject)} is ${cleanMeaning(identity)}.`);
+  if (identity && has("是") && has("嗎")) add(`你是${identity.char}嗎？`, `Are you ${cleanMeaning(identity)}?`);
+  if (subject && object && has("的") && has("這") && has("是")) add(`這是${subject.char}的${object.char}。`, `This is ${cleanMeaning(subject)}'s ${cleanMeaning(object)}.`);
+  if (subject && object && number && has("有")) add(`${subject.char}有${number.char}個${object.char}。`, `${cleanMeaning(subject)} has ${cleanMeaning(number)} ${cleanMeaning(object)}.`);
+  if (subject && object && has("想") && has("喝")) add(`${subject.char}想喝${object.char}。`, `${cleanMeaning(subject)} wants to drink ${cleanMeaning(object)}.`);
+  if (subject && object && has("要")) add(`${subject.char}要${object.char}。`, `${cleanMeaning(subject)} wants ${cleanMeaning(object)}.`);
+  if (subject && object && has("喜歡")) add(`${subject.char}喜歡${object.char}。`, `${cleanMeaning(subject)} likes ${cleanMeaning(object)}.`);
+  if (subject && object && verb) add(`${subject.char}${verb.char}${object.char}。`, `${cleanMeaning(subject)} ${cleanMeaning(verb)} ${cleanMeaning(object)}.`);
+  if (subject2 && location && has("在")) add(`${subject2.char}在${location.char}。`, `${cleanMeaning(subject2)} is at ${cleanMeaning(location)}.`);
+  if (subject && location && has("想") && has("去")) add(`${subject.char}想去${location.char}。`, `${cleanMeaning(subject)} wants to go to ${cleanMeaning(location)}.`);
+  if (time && subject && object && has("喝")) add(`${time.char}${subject.char}喝${object.char}。`, `${cleanMeaning(time)}, ${cleanMeaning(subject)} drinks ${cleanMeaning(object)}.`);
+  if (object && adjective && has("很")) add(`${object.char}很${adjective.char}。`, `${cleanMeaning(object)} is very ${cleanMeaning(adjective)}.`);
+  if (subject && has("想") && has("什麼") && has("喝")) add(`${subject.char}想喝什麼？`, `What does ${cleanMeaning(subject)} want to drink?`);
+  if (subject && location && has("哪裡") && has("在")) add(`${location.char}在哪裡？`, `Where is ${cleanMeaning(location)}?`);
+
+  return mixed.slice(0, 16);
+}
+
+function getFreshMixedExamples(examples: GeneratedSentence[], grammar: GrammarItem, count: number) {
+  const currentPatternExamples = new Set(getPatternExamples(grammar).map((example) => example.text));
+  return examples
+    .filter((example) => example.source === "mixed" && !currentPatternExamples.has(example.text))
+    .slice(0, count);
+}
+
 function getDailyFlow(lesson: LessonItem): TrainerStep[] {
-  return (lesson.daily_flow as TrainerStep[] | undefined) ?? DEFAULT_DAILY_FLOW;
+  const flow = (lesson.daily_flow as TrainerStep[] | undefined) ?? DEFAULT_DAILY_FLOW;
+  return flow.map((step) =>
+    step.kind === "review_summary" || step.id === "review_summary"
+      ? { ...step, id: "reverse_translation", title: "Reverse sentence builder", kind: "reverse_translation" }
+      : step
+  );
 }
 
 function normalizeProgress(progress: LocalProgress): LocalProgress {
@@ -2136,6 +2434,50 @@ function findVocabForToken(vocab: VocabularyItem[], token: string) {
   );
 }
 
+function uniqueVocab(item: VocabularyItem, index: number, items: VocabularyItem[]) {
+  return items.findIndex((candidate) => candidate.id === item.id) === index;
+}
+
+function cleanMeaning(item: VocabularyItem) {
+  return item.meaning_en
+    .split(";")[0]
+    .replace(/^to /, "")
+    .replace(/^a /, "")
+    .replace(/^an /, "")
+    .trim()
+    .toLowerCase();
+}
+
+function isSentenceBuildable(text: string, vocab: VocabularyItem[]) {
+  return segmentChineseText(text, vocab)
+    .filter((segment) => isLikelyChinese(segment.text))
+    .every((segment) => Boolean(segment.item));
+}
+
+function pinyinForText(text: string, vocab: VocabularyItem[]) {
+  return segmentChineseText(text, vocab)
+    .map((segment) => {
+      if (segment.item) return segment.item.pinyin;
+      if (/。/.test(segment.text)) return ".";
+      if (/？/.test(segment.text)) return "?";
+      if (/，/.test(segment.text)) return ",";
+      return segment.text;
+    })
+    .join(" ")
+    .replace(/\s+([,.?])/g, "$1")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function escapeHtml(value: string) {
+  return value
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
+}
+
 function requestWritingFocus(char: string) {
   if (typeof window === "undefined" || !char) return;
   window.dispatchEvent(new CustomEvent(SHOW_WRITING_EVENT, { detail: char }));
@@ -2143,6 +2485,64 @@ function requestWritingFocus(char: string) {
 
 function firstChineseChar(text: string) {
   return Array.from(text).find(isLikelyChinese) ?? "";
+}
+
+type RepositoryEntry<T> = {
+  item: T;
+  lesson: LessonItem;
+};
+
+function buildWordRepositoryEntries(data: CourseData, repositoryVocab: VocabularyItem[]): RepositoryEntry<VocabularyItem>[] {
+  const entries: RepositoryEntry<VocabularyItem>[] = [];
+  const seen = new Set<string>();
+  const lessons = [...data.lessons].sort((a, b) => a.order - b.order);
+
+  lessons.forEach((lesson) => {
+    buildLessonPack(data, lesson).contextVocab.forEach((item) => {
+      if (seen.has(item.id)) return;
+      seen.add(item.id);
+      entries.push({ item, lesson });
+    });
+  });
+
+  const fallbackLesson = lessons[lessons.length - 1] ?? data.lessons[0];
+  repositoryVocab.forEach((item) => {
+    if (seen.has(item.id) || !fallbackLesson) return;
+    seen.add(item.id);
+    entries.push({ item, lesson: fallbackLesson });
+  });
+
+  return entries;
+}
+
+function buildSentenceRepositoryEntries(data: CourseData): RepositoryEntry<SentenceItem>[] {
+  const sentenceById = new Map(data.sentences.map((item) => [item.id, item]));
+  return [...data.lessons]
+    .sort((a, b) => a.order - b.order)
+    .flatMap((lesson) =>
+      lesson.sentence_ids
+        .map((id) => sentenceById.get(id))
+        .filter((item): item is SentenceItem => Boolean(item))
+        .map((item) => ({ item, lesson }))
+    );
+}
+
+function buildGrammarRepositoryEntries(data: CourseData): RepositoryEntry<GrammarItem>[] {
+  const grammarById = new Map(data.grammar.map((item) => [item.id, item]));
+  const seen = new Set<string>();
+  return [...data.lessons]
+    .sort((a, b) => a.order - b.order)
+    .flatMap((lesson) =>
+      lesson.grammar_ids
+        .map((id) => grammarById.get(id))
+        .filter((item): item is GrammarItem => Boolean(item))
+        .filter((item) => {
+          if (seen.has(item.id)) return false;
+          seen.add(item.id);
+          return true;
+        })
+        .map((item) => ({ item, lesson }))
+    );
 }
 
 function matchesVocab(item: VocabularyItem, query: string) {

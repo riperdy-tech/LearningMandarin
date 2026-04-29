@@ -110,6 +110,7 @@ export type LessonItem = {
       | "substitution"
       | "listen_shadow"
       | "memory_speaking"
+      | "reverse_translation"
       | "review_summary";
     target_count?: number;
     duration_minutes?: number;
