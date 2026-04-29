@@ -2028,7 +2028,7 @@ function renderRepositoryWordCard(word: VocabularyItem) {
 
 function PrintableSheetOverlay({ onClose, sheet }: { onClose: () => void; sheet: PrintableSheet }) {
   return (
-    <div className="fixed inset-0 z-[60] bg-paper">
+    <div className="printable-sheet-overlay fixed inset-0 z-[60] bg-paper">
       <div className="print:hidden flex items-center justify-between gap-4 border-b border-black/10 bg-white px-4 py-3 shadow-sm">
         <div>
           <p className="text-xs font-black uppercase text-jade-700">Printable sheet preview</p>
@@ -2092,8 +2092,9 @@ function PrintableSheetStyles() {
       .printable-page .repo-word { font-family: "Noto Serif TC", "Microsoft JhengHei", serif; font-size: 28px; font-weight: 900; line-height: 1; }
       .printable-page .note { border-top: 1px solid #b8c7bf; color: #62756d; font-size: 12px; font-weight: 700; margin-top: 14px; padding-top: 8px; }
       @media print {
-        body { background: #fff !important; }
-        body > *:not(.fixed) { display: none !important; }
+        html, body { background: #fff !important; height: auto !important; overflow: visible !important; }
+        main > :not(.printable-sheet-overlay) { display: none !important; }
+        .printable-sheet-overlay { background: #fff !important; inset: auto !important; position: static !important; z-index: auto !important; }
         .printable-page { height: auto !important; overflow: visible !important; padding: 0 !important; }
       }
     `}</style>
