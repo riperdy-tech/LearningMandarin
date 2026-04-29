@@ -57,6 +57,12 @@ type TrainerStep = {
 };
 
 type LessonPack = ReturnType<typeof buildLessonPack>;
+type PrintableSheet = {
+  body: string;
+  meta: string;
+  note: string;
+  title: string;
+};
 
 const PROGRESS_KEY = "taiwan-mandarin-progress-v1";
 const SHOW_WRITING_EVENT = "mandarin-show-writing";
@@ -197,6 +203,7 @@ export function CourseApp({ data }: { data: CourseData }) {
   const [lessonPickerOpen, setLessonPickerOpen] = useState(false);
   const [helpOpen, setHelpOpen] = useState(false);
   const [repositoryOpen, setRepositoryOpen] = useState(false);
+  const [printableSheet, setPrintableSheet] = useState<PrintableSheet | null>(null);
   const [audioSpeed, setAudioSpeed] = useState<AudioSpeed>("normal");
   const [selectedWritingChar, setSelectedWritingChar] = useState<string | null>(null);
   const writingSupportRef = useRef<HTMLDivElement>(null);
@@ -463,10 +470,10 @@ export function CourseApp({ data }: { data: CourseData }) {
                   </Button>
                   <Button
                     onClick={() =>
-                      openPrintableWordSheet(
+                      setPrintableSheet(createPrintableWordSheet(
                         selectedLesson,
                         lessonPack.contextVocab.length > 0 ? lessonPack.contextVocab : lessonPack.vocab
-                      )
+                      ))
                     }
                     size="sm"
                     variant="secondary"
@@ -553,9 +560,12 @@ export function CourseApp({ data }: { data: CourseData }) {
         <RepositoryDrawer
           data={data}
           onClose={() => setRepositoryOpen(false)}
+          onOpenPrintSheet={setPrintableSheet}
           speak={speech.speak}
         />
       )}
+
+      {printableSheet && <PrintableSheetOverlay onClose={() => setPrintableSheet(null)} sheet={printableSheet} />}
     </main>
   );
 }
@@ -1701,10 +1711,12 @@ function GuideBlock({ title, text }: { title: string; text: string }) {
 function RepositoryDrawer({
   data,
   onClose,
+  onOpenPrintSheet,
   speak
 }: {
   data: CourseData;
   onClose: () => void;
+  onOpenPrintSheet: (sheet: PrintableSheet) => void;
   speak: SpeakFn;
 }) {
   const [query, setQuery] = useState("");
@@ -1756,7 +1768,7 @@ function RepositoryDrawer({
               </button>
             ))}
           </div>
-          <Button onClick={() => openPrintableVocabRepository(wordEntries)} size="sm" variant="secondary">
+          <Button onClick={() => onOpenPrintSheet(createPrintableVocabRepository(wordEntries))} size="sm" variant="secondary">
             <Printer className="h-4 w-4" />
             Print full vocab
           </Button>
@@ -1937,25 +1949,19 @@ function ReferenceLink({ children, href }: { children: React.ReactNode; href: st
   );
 }
 
-function openPrintableWordSheet(lesson: LessonItem, words: VocabularyItem[]) {
-  if (typeof window === "undefined") return;
+function createPrintableWordSheet(lesson: LessonItem, words: VocabularyItem[]): PrintableSheet {
   const uniqueWords = words.filter(uniqueVocab);
   const cards = uniqueWords.map((word, index) => renderPracticeWordCard(word, index)).join("");
 
-  const printable = window.open("", `word-sheet-day-${lesson.order}`, "width=1100,height=800");
-  if (!printable) return;
-  printable.document.write(renderPrintableShell({
+  return {
     title: `Day ${lesson.order}: ${lesson.title}`,
     meta: `Printable Mandarin word practice sheet · ${uniqueWords.length} words from today's lesson context`,
     body: `<section class="word-sheet">${cards}</section>`,
     note: "Study routine: say the word, write each character inside the dotted Tian Zi Ge guides, then create one sentence aloud before moving to the next row."
-  }));
-  printable.document.close();
-  printable.focus();
+  };
 }
 
-function openPrintableVocabRepository(entries: RepositoryEntry<VocabularyItem>[]) {
-  if (typeof window === "undefined") return;
+function createPrintableVocabRepository(entries: RepositoryEntry<VocabularyItem>[]): PrintableSheet {
   const grouped = entries.reduce<Array<{ lesson: LessonItem; words: VocabularyItem[] }>>((groups, entry) => {
     const current = groups[groups.length - 1];
     if (current?.lesson.id === entry.lesson.id) {
@@ -1977,16 +1983,12 @@ function openPrintableVocabRepository(entries: RepositoryEntry<VocabularyItem>[]
     )
     .join("");
 
-  const printable = window.open("", "full-vocab-repository", "width=1100,height=800");
-  if (!printable) return;
-  printable.document.write(renderPrintableShell({
+  return {
     title: "Full Month 1 Vocabulary Repository",
     meta: `${entries.length} words ordered by first lesson appearance`,
     body,
     note: "Use this repository sheet for review. For handwriting-heavy practice, print an individual day sheet from the lesson header."
-  }));
-  printable.document.close();
-  printable.focus();
+  };
 }
 
 function renderPracticeWordCard(word: VocabularyItem, index: number) {
@@ -2024,68 +2026,78 @@ function renderRepositoryWordCard(word: VocabularyItem) {
     </article>`;
 }
 
-function renderPrintableShell({
-  body,
-  meta,
-  note,
-  title
-}: {
-  body: string;
-  meta: string;
-  note: string;
-  title: string;
-}) {
-  return `<!doctype html>
-    <html>
-      <head>
-        <meta charset="utf-8" />
-        <title>${escapeHtml(title)}</title>
-        <style>
-          @page { margin: 12mm; size: letter; }
-          * { box-sizing: border-box; }
-          body { color: #17211c; font-family: Arial, "Noto Sans TC", "Microsoft JhengHei", sans-serif; margin: 0; }
-          header { align-items: center; border-bottom: 2px solid #17211c; display: flex; justify-content: space-between; gap: 16px; padding-bottom: 10px; }
-          h1 { font-size: 22px; margin: 0 0 4px; }
-          h2 { break-after: avoid; border-bottom: 1px solid #b8c7bf; font-size: 16px; margin: 18px 0 8px; padding-bottom: 5px; }
-          p { margin: 0; }
-          .meta { color: #496157; font-size: 13px; font-weight: 700; }
-          .print { background: #0f766e; border: 0; border-radius: 8px; color: white; cursor: pointer; font-weight: 800; padding: 10px 14px; }
-          .word-sheet { display: grid; gap: 10px; margin-top: 14px; }
-          .practice-card { break-inside: avoid; border: 1.5px solid #9fb0a8; border-radius: 8px; display: grid; gap: 8px; grid-template-columns: 165px 70px minmax(0, 1fr); padding: 8px; }
-          .word-info { align-items: start; display: grid; gap: 8px; grid-template-columns: 24px minmax(0, 1fr); }
-          .number { color: #62756d; font-size: 12px; font-weight: 900; text-align: center; }
-          .word { font-family: "Noto Serif TC", "Microsoft JhengHei", serif; font-size: 28px; font-weight: 900; line-height: 1.05; }
-          .pinyin { color: #0f766e; font-size: 15px; font-weight: 900; line-height: 1.15; }
-          .meaning { font-size: 12px; font-weight: 800; line-height: 1.25; margin-top: 3px; }
-          .ko { color: #68766f; font-size: 11px; font-weight: 700; line-height: 1.2; margin-top: 2px; }
-          .model-row { align-content: start; display: flex; flex-wrap: wrap; gap: 5px; }
-          .practice-grid { display: grid; gap: 5px; grid-template-columns: repeat(6, 52px); justify-content: start; }
-          .tian-cell { background: #fff; border: 1.4px solid #54655d; display: inline-flex; height: 52px; justify-content: center; position: relative; width: 52px; }
-          .tian-cell::before, .tian-cell::after { content: ""; left: 0; pointer-events: none; position: absolute; top: 0; }
-          .tian-cell::before { border-top: 1px dotted #9baaa3; top: 50%; width: 100%; }
-          .tian-cell::after { border-left: 1px dotted #9baaa3; height: 100%; left: 50%; }
-          .model-cell { align-items: center; background: #f7fbf9; color: #25342d; font-family: "Noto Serif TC", "Microsoft JhengHei", serif; font-size: 34px; font-weight: 900; }
-          .model-cell span { position: relative; z-index: 1; }
-          .repo-day { break-inside: avoid; }
-          .repo-grid { display: grid; gap: 6px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
-          .repo-card { align-items: center; border: 1px solid #b8c7bf; border-radius: 8px; display: grid; gap: 8px; grid-template-columns: 68px minmax(0, 1fr); padding: 7px; }
-          .repo-word { font-family: "Noto Serif TC", "Microsoft JhengHei", serif; font-size: 28px; font-weight: 900; line-height: 1; }
-          .note { border-top: 1px solid #b8c7bf; color: #62756d; font-size: 12px; font-weight: 700; margin-top: 14px; padding-top: 8px; }
-          @media print { .print { display: none; } }
-        </style>
-      </head>
-      <body>
+function PrintableSheetOverlay({ onClose, sheet }: { onClose: () => void; sheet: PrintableSheet }) {
+  return (
+    <div className="fixed inset-0 z-[60] bg-paper">
+      <div className="print:hidden flex items-center justify-between gap-4 border-b border-black/10 bg-white px-4 py-3 shadow-sm">
+        <div>
+          <p className="text-xs font-black uppercase text-jade-700">Printable sheet preview</p>
+          <h3 className="text-lg font-black text-ink">{sheet.title}</h3>
+        </div>
+        <div className="flex flex-wrap gap-2">
+          <Button onClick={() => window.print()} variant="default">
+            <Printer className="h-4 w-4" />
+            Print
+          </Button>
+          <Button onClick={onClose} variant="secondary">
+            Close
+          </Button>
+        </div>
+      </div>
+      <PrintableSheetStyles />
+      <div className="printable-page h-[calc(100vh-69px)] overflow-auto p-5 print:h-auto print:overflow-visible print:p-0">
         <header>
           <div>
-            <h1>${escapeHtml(title)}</h1>
-            <p class="meta">${escapeHtml(meta)}</p>
+            <h1>{sheet.title}</h1>
+            <p className="meta">{sheet.meta}</p>
           </div>
-          <button class="print" onclick="window.print()">Print</button>
         </header>
-        ${body}
-        <p class="note">${escapeHtml(note)}</p>
-      </body>
-    </html>`;
+        <div dangerouslySetInnerHTML={{ __html: sheet.body }} />
+        <p className="note">{sheet.note}</p>
+      </div>
+    </div>
+  );
+}
+
+function PrintableSheetStyles() {
+  return (
+    <style>{`
+      @page { margin: 12mm; size: letter; }
+      .printable-page { background: #fff; color: #17211c; font-family: Arial, "Noto Sans TC", "Microsoft JhengHei", sans-serif; }
+      .printable-page * { box-sizing: border-box; }
+      .printable-page header { align-items: center; border-bottom: 2px solid #17211c; display: flex; justify-content: space-between; gap: 16px; padding-bottom: 10px; }
+      .printable-page h1 { font-size: 22px; margin: 0 0 4px; }
+      .printable-page h2 { break-after: avoid; border-bottom: 1px solid #b8c7bf; font-size: 16px; margin: 18px 0 8px; padding-bottom: 5px; }
+      .printable-page p { margin: 0; }
+      .printable-page .meta { color: #496157; font-size: 13px; font-weight: 700; }
+      .printable-page .word-sheet { display: grid; gap: 10px; margin-top: 14px; }
+      .printable-page .practice-card { break-inside: avoid; border: 1.5px solid #9fb0a8; border-radius: 8px; display: grid; gap: 8px; grid-template-columns: 165px 70px minmax(0, 1fr); padding: 8px; }
+      .printable-page .word-info { align-items: start; display: grid; gap: 8px; grid-template-columns: 24px minmax(0, 1fr); }
+      .printable-page .number { color: #62756d; font-size: 12px; font-weight: 900; text-align: center; }
+      .printable-page .word { font-family: "Noto Serif TC", "Microsoft JhengHei", serif; font-size: 28px; font-weight: 900; line-height: 1.05; }
+      .printable-page .pinyin { color: #0f766e; font-size: 15px; font-weight: 900; line-height: 1.15; }
+      .printable-page .meaning { font-size: 12px; font-weight: 800; line-height: 1.25; margin-top: 3px; }
+      .printable-page .ko { color: #68766f; font-size: 11px; font-weight: 700; line-height: 1.2; margin-top: 2px; }
+      .printable-page .model-row { align-content: start; display: flex; flex-wrap: wrap; gap: 5px; }
+      .printable-page .practice-grid { display: grid; gap: 5px; grid-template-columns: repeat(6, 52px); justify-content: start; }
+      .printable-page .tian-cell { background: #fff; border: 1.4px solid #54655d; display: inline-flex; height: 52px; justify-content: center; position: relative; width: 52px; }
+      .printable-page .tian-cell::before, .printable-page .tian-cell::after { content: ""; left: 0; pointer-events: none; position: absolute; top: 0; }
+      .printable-page .tian-cell::before { border-top: 1px dotted #9baaa3; top: 50%; width: 100%; }
+      .printable-page .tian-cell::after { border-left: 1px dotted #9baaa3; height: 100%; left: 50%; }
+      .printable-page .model-cell { align-items: center; background: #f7fbf9; color: #25342d; font-family: "Noto Serif TC", "Microsoft JhengHei", serif; font-size: 34px; font-weight: 900; }
+      .printable-page .model-cell span { position: relative; z-index: 1; }
+      .printable-page .repo-day { break-inside: avoid; }
+      .printable-page .repo-grid { display: grid; gap: 6px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .printable-page .repo-card { align-items: center; border: 1px solid #b8c7bf; border-radius: 8px; display: grid; gap: 8px; grid-template-columns: 68px minmax(0, 1fr); padding: 7px; }
+      .printable-page .repo-word { font-family: "Noto Serif TC", "Microsoft JhengHei", serif; font-size: 28px; font-weight: 900; line-height: 1; }
+      .printable-page .note { border-top: 1px solid #b8c7bf; color: #62756d; font-size: 12px; font-weight: 700; margin-top: 14px; padding-top: 8px; }
+      @media print {
+        body { background: #fff !important; }
+        body > *:not(.fixed) { display: none !important; }
+        .printable-page { height: auto !important; overflow: visible !important; padding: 0 !important; }
+      }
+    `}</style>
+  );
 }
 
 function MetricCard({
