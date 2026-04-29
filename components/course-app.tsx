@@ -65,6 +65,7 @@ type PrintableSheet = {
 };
 
 const PROGRESS_KEY = "taiwan-mandarin-progress-v1";
+const PRINT_SHEET_KEY = "taiwan-mandarin-print-sheet-v1";
 const SHOW_WRITING_EVENT = "mandarin-show-writing";
 
 const DEFAULT_DAILY_FLOW: TrainerStep[] = [
@@ -203,7 +204,6 @@ export function CourseApp({ data }: { data: CourseData }) {
   const [lessonPickerOpen, setLessonPickerOpen] = useState(false);
   const [helpOpen, setHelpOpen] = useState(false);
   const [repositoryOpen, setRepositoryOpen] = useState(false);
-  const [printableSheet, setPrintableSheet] = useState<PrintableSheet | null>(null);
   const [audioSpeed, setAudioSpeed] = useState<AudioSpeed>("normal");
   const [selectedWritingChar, setSelectedWritingChar] = useState<string | null>(null);
   const writingSupportRef = useRef<HTMLDivElement>(null);
@@ -470,7 +470,7 @@ export function CourseApp({ data }: { data: CourseData }) {
                   </Button>
                   <Button
                     onClick={() =>
-                      setPrintableSheet(createPrintableWordSheet(
+                      navigateToPrintSheet(createPrintableWordSheet(
                         selectedLesson,
                         lessonPack.contextVocab.length > 0 ? lessonPack.contextVocab : lessonPack.vocab
                       ))
@@ -560,12 +560,10 @@ export function CourseApp({ data }: { data: CourseData }) {
         <RepositoryDrawer
           data={data}
           onClose={() => setRepositoryOpen(false)}
-          onOpenPrintSheet={setPrintableSheet}
+          onOpenPrintSheet={navigateToPrintSheet}
           speak={speech.speak}
         />
       )}
-
-      {printableSheet && <PrintableSheetOverlay onClose={() => setPrintableSheet(null)} sheet={printableSheet} />}
     </main>
   );
 }
@@ -1991,6 +1989,12 @@ function createPrintableVocabRepository(entries: RepositoryEntry<VocabularyItem>
   };
 }
 
+function navigateToPrintSheet(sheet: PrintableSheet) {
+  if (typeof window === "undefined") return;
+  window.localStorage.setItem(PRINT_SHEET_KEY, JSON.stringify(sheet));
+  window.location.href = resolveAppPath("/print/");
+}
+
 function renderPracticeWordCard(word: VocabularyItem, index: number) {
   const characters = Array.from(word.char).filter(isLikelyChinese);
   const characterModels = characters
@@ -2265,6 +2269,13 @@ function speakWithTts(
 }
 
 function resolveAudioPath(path: string) {
+  const normalized = path.startsWith("/") ? path : `/${path}`;
+  if (typeof window === "undefined") return normalized;
+  const basePath = window.location.pathname.startsWith("/LearningMandarin") ? "/LearningMandarin" : "";
+  return `${basePath}${normalized}`;
+}
+
+function resolveAppPath(path: string) {
   const normalized = path.startsWith("/") ? path : `/${path}`;
   if (typeof window === "undefined") return normalized;
   const basePath = window.location.pathname.startsWith("/LearningMandarin") ? "/LearningMandarin" : "";
