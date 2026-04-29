@@ -86,6 +86,69 @@ const AUDIO_SPEEDS: Record<
   shadow: { label: "Shadow", wordRate: 0.64, sentenceRate: 0.58, longSentenceRate: 0.52, playbackRate: 0.7 }
 };
 
+const SUPPLEMENTAL_VISIBLE_VOCAB: VocabularyItem[] = [
+  {
+    id: "VOC_SUP_M1_KOREAN_PERSON",
+    char: "韓國人",
+    pinyin: "Hánguó rén",
+    pinyin_numeric: "hanguo2 ren2",
+    phonemes: ["hanguo2", "ren2"],
+    pos: "noun",
+    meaning_en: "Korean person; Korean",
+    meaning_ko: "한국 사람",
+    frequency: "medium",
+    cefr: "A1",
+    hsk_level: 1,
+    example_ids: ["SEN_M1_D01_08"],
+    audio_id: "AUD_SUP_M1_KOREAN_PERSON"
+  },
+  {
+    id: "VOC_SUP_M1_KOREA",
+    char: "韓國",
+    pinyin: "Hánguó",
+    pinyin_numeric: "hanguo2",
+    phonemes: ["hanguo2"],
+    pos: "place",
+    meaning_en: "Korea",
+    meaning_ko: "한국",
+    frequency: "medium",
+    cefr: "A1",
+    hsk_level: 1,
+    example_ids: ["SEN_M1_D01_08"],
+    audio_id: "AUD_SUP_M1_KOREA"
+  },
+  {
+    id: "VOC_SUP_M1_STUDENT",
+    char: "學生",
+    pinyin: "xuéshēng",
+    pinyin_numeric: "xue2 sheng1",
+    phonemes: ["xue2", "sheng1"],
+    pos: "noun",
+    meaning_en: "student",
+    meaning_ko: "학생",
+    frequency: "high",
+    cefr: "A1",
+    hsk_level: 1,
+    example_ids: ["SEN_M1_D01_03"],
+    audio_id: "AUD_SUP_M1_STUDENT"
+  },
+  {
+    id: "VOC_SUP_M1_TEACHER",
+    char: "老師",
+    pinyin: "lǎoshī",
+    pinyin_numeric: "lao3 shi1",
+    phonemes: ["lao3", "shi1"],
+    pos: "noun",
+    meaning_en: "teacher",
+    meaning_ko: "선생님",
+    frequency: "high",
+    cefr: "A1",
+    hsk_level: 1,
+    example_ids: ["SEN_M1_D01_04"],
+    audio_id: "AUD_SUP_M1_TEACHER"
+  }
+];
+
 const emptyProgress: LocalProgress = {
   version: 1,
   completed_lessons: {},
@@ -117,6 +180,7 @@ export function CourseApp({ data }: { data: CourseData }) {
     () => data.lessons.find((lesson) => lesson.id === selectedLessonId) ?? data.lessons[0],
     [data.lessons, selectedLessonId]
   );
+  const displayVocab = useMemo(() => mergeVocab(data.vocab, SUPPLEMENTAL_VISIBLE_VOCAB), [data.vocab]);
   const lessonPack = useMemo(() => buildLessonPack(data, selectedLesson), [data, selectedLesson]);
   const dailyFlow = getDailyFlow(selectedLesson);
   const completedSteps = progress.lesson_steps[selectedLesson.id] ?? [];
@@ -398,7 +462,7 @@ export function CourseApp({ data }: { data: CourseData }) {
               generatedSentences={generatedSentences}
               lessonCompleted={lessonCompleted}
               lessonPack={lessonPack}
-              lookupVocab={data.vocab}
+              lookupVocab={displayVocab}
               markStep={toggleStep}
               onCompleteLesson={completeLesson}
               onSelectPattern={setSelectedPattern}
@@ -406,6 +470,8 @@ export function CourseApp({ data }: { data: CourseData }) {
               progress={progress}
               resetProgress={resetProgress}
               speak={speech.speak}
+              audioSpeed={audioSpeed}
+              setAudioSpeed={setAudioSpeed}
               toggleWeakPattern={toggleWeakPattern}
               toggleWeakWord={toggleWeakWord}
             />
@@ -437,7 +503,7 @@ export function CourseApp({ data }: { data: CourseData }) {
 
       {selectedPattern && (
         <DetailDrawer title="Pattern detail" onClose={() => setSelectedPattern(null)}>
-          <PatternDetail grammar={selectedPattern} sentences={data.sentences} speak={speech.speak} vocab={data.vocab} />
+          <PatternDetail grammar={selectedPattern} sentences={data.sentences} speak={speech.speak} vocab={displayVocab} />
         </DetailDrawer>
       )}
 
@@ -469,6 +535,8 @@ function TrainerStepPanel({
   progress,
   resetProgress,
   speak,
+  audioSpeed,
+  setAudioSpeed,
   toggleWeakPattern,
   toggleWeakWord
 }: {
@@ -486,6 +554,8 @@ function TrainerStepPanel({
   progress: LocalProgress;
   resetProgress: () => void;
   speak: SpeakFn;
+  audioSpeed: AudioSpeed;
+  setAudioSpeed: (speed: AudioSpeed) => void;
   toggleWeakPattern: (id: string) => void;
   toggleWeakWord: (id: string) => void;
 }) {
@@ -536,7 +606,13 @@ function TrainerStepPanel({
         )}
 
         {activeStep.kind === "listen_shadow" && (
-          <ListenShadow sentences={lessonPack.sentences} speak={speak} vocab={lookupVocab} />
+          <ListenShadow
+            audioSpeed={audioSpeed}
+            sentences={lessonPack.sentences}
+            setAudioSpeed={setAudioSpeed}
+            speak={speak}
+            vocab={lookupVocab}
+          />
         )}
 
         {activeStep.kind === "memory_speaking" && (
@@ -719,6 +795,7 @@ function SubstitutionDrill({
   vocab: VocabularyItem[];
 }) {
   const [activeIndex, setActiveIndex] = useState(0);
+  const [showEnglish, setShowEnglish] = useState(false);
   const active = generatedSentences[activeIndex] ?? generatedSentences[0];
 
   if (!active) {
@@ -728,7 +805,17 @@ function SubstitutionDrill({
   return (
     <div className="grid gap-5 xl:grid-cols-[minmax(0,1fr)_18rem]">
       <div className="rounded-lg bg-skyglass p-5">
-        <p className="text-sm font-black text-ink/55">Say it, then swap one part</p>
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <div>
+            <p className="text-sm font-black text-ink/55">Say it, then swap one part</p>
+            <p className="mt-1 text-xs font-black uppercase text-jade-700">
+              Variation {activeIndex + 1} of {generatedSentences.length}
+            </p>
+          </div>
+          <Button onClick={() => setShowEnglish((current) => !current)} size="sm" variant="secondary">
+            {showEnglish ? "Hide English" : "Show English"}
+          </Button>
+        </div>
         <ClickableChineseLine
           className="mt-4 text-5xl font-black text-ink"
           speak={speak}
@@ -736,8 +823,16 @@ function SubstitutionDrill({
           vocab={vocab}
         />
         <p className="mt-3 text-xl font-black text-jade-700">{active.pinyin}</p>
-        <p className="mt-2 text-lg font-bold text-ink">{active.translation_en}</p>
-        {active.translation_ko && <p className="text-sm font-semibold text-ink/50">{active.translation_ko}</p>}
+        {showEnglish ? (
+          <>
+            <p className="mt-2 text-lg font-bold text-ink">{active.translation_en}</p>
+            {active.translation_ko && <p className="text-sm font-semibold text-ink/50">{active.translation_ko}</p>}
+          </>
+        ) : (
+          <p className="mt-2 text-sm font-bold text-ink/45">
+            English is hidden by default. Say the new Chinese version first, then reveal to check yourself.
+          </p>
+        )}
         <div className="mt-5 flex flex-wrap gap-2">
           <Button onClick={() => speak(active.text, "sentence", active.audio_id)} variant="warm">
             <Volume2 className="h-4 w-4" />
@@ -753,6 +848,7 @@ function SubstitutionDrill({
         </div>
       </div>
       <div className="space-y-2">
+        <p className="text-xs font-black uppercase text-ink/45">Available variations</p>
         {generatedSentences.map((sentence, index) => (
           <button
             className={cn(
@@ -764,7 +860,11 @@ function SubstitutionDrill({
             type="button"
           >
             <span className="han block text-lg">{sentence.text}</span>
-            <span className="text-sm opacity-70">{sentence.translation_en}</span>
+            {showEnglish ? (
+              <span className="text-sm opacity-70">{sentence.translation_en}</span>
+            ) : (
+              <span className="text-xs font-black uppercase opacity-55">Variation {index + 1}</span>
+            )}
           </button>
         ))}
       </div>
@@ -773,30 +873,72 @@ function SubstitutionDrill({
 }
 
 function ListenShadow({
+  audioSpeed,
   sentences,
+  setAudioSpeed,
   speak,
   vocab
 }: {
+  audioSpeed: AudioSpeed;
   sentences: SentenceItem[];
+  setAudioSpeed: (speed: AudioSpeed) => void;
   speak: SpeakFn;
   vocab: VocabularyItem[];
 }) {
+  const [showPinyin, setShowPinyin] = useState(false);
+
   return (
     <div className="grid gap-3">
-      <p className="font-semibold text-ink/65">
-        Listen once, repeat slowly, then repeat naturally. Use full sentences, not isolated words.
-      </p>
+      <div className="flex flex-wrap items-center justify-between gap-3">
+        <p className="max-w-2xl font-semibold text-ink/65">
+          Listen once, repeat slowly, then repeat naturally. Use full sentences, not isolated words.
+        </p>
+        <Button onClick={() => setShowPinyin((current) => !current)} size="sm" variant="secondary">
+          {showPinyin ? "Hide pinyin" : "Show pinyin"}
+        </Button>
+      </div>
+      <div className="flex flex-wrap items-center gap-2 rounded-lg bg-black/[0.035] p-3">
+        <span className="text-xs font-black uppercase text-ink/45">Sound speed</span>
+        {(Object.keys(AUDIO_SPEEDS) as AudioSpeed[]).map((speed) => (
+          <button
+            className={cn(
+              "rounded-lg px-3 py-2 text-xs font-black transition",
+              audioSpeed === speed ? "bg-ink text-white" : "bg-white text-ink ring-1 ring-black/10 hover:bg-jade-50"
+            )}
+            key={speed}
+            onClick={() => setAudioSpeed(speed)}
+            type="button"
+          >
+            {AUDIO_SPEEDS[speed].label}
+          </button>
+        ))}
+      </div>
       {sentences.map((sentence) => (
-        <SentenceCard
-          audioId={sentence.audio_id}
-          key={sentence.id}
-          pinyin={sentence.pinyin}
-          speak={speak}
-          text={sentence.text}
-          translationEn={sentence.translation_en}
-          translationKo={sentence.translation_ko}
-          vocab={vocab}
-        />
+        <div className="rounded-lg bg-paper p-4 ring-1 ring-black/10" key={sentence.id}>
+          <div className="flex flex-wrap items-start justify-between gap-3">
+            <div className="min-w-0 flex-1">
+              <ClickableChineseLine
+                className="text-2xl font-black text-ink"
+                speak={speak}
+                text={sentence.text}
+                vocab={vocab}
+              />
+              {showPinyin ? (
+                <p className="mt-1 font-black text-jade-700">{sentence.pinyin}</p>
+              ) : (
+                <p className="mt-1 text-xs font-black uppercase text-ink/35">Pinyin hidden</p>
+              )}
+            </div>
+            <div className="flex items-center gap-2">
+              <span className="rounded-lg bg-white px-3 py-2 text-xs font-black text-ink ring-1 ring-black/10">
+                {AUDIO_SPEEDS[audioSpeed].label}
+              </span>
+              <AudioButton label={`Play ${sentence.text}`} onClick={() => speak(sentence.text, "sentence", sentence.audio_id)} />
+            </div>
+          </div>
+          <p className="mt-3 font-bold text-ink">{sentence.translation_en}</p>
+          {sentence.translation_ko && <p className="text-sm font-semibold text-ink/50">{sentence.translation_ko}</p>}
+        </div>
       ))}
     </div>
   );
@@ -811,44 +953,70 @@ function MemorySpeaking({
   speak: SpeakFn;
   vocab: VocabularyItem[];
 }) {
-  const [revealed, setRevealed] = useState(false);
-  const active = generatedSentences[0];
+  const [revealed, setRevealed] = useState<Set<string>>(() => new Set());
+  const prompts = generatedSentences.slice(0, Math.max(6, Math.min(generatedSentences.length, 10)));
 
-  if (!active) {
+  if (prompts.length === 0) {
     return <EmptyState text="No memory prompt is available for this lesson yet." />;
   }
 
+  function toggleReveal(text: string) {
+    setRevealed((current) => {
+      const next = new Set(current);
+      if (next.has(text)) next.delete(text);
+      else next.add(text);
+      return next;
+    });
+  }
+
   return (
-    <div className="rounded-lg bg-paper p-5">
-      <p className="text-sm font-black text-ink/55">Speak from memory</p>
-      <p className="mt-2 text-xl font-black text-ink">{active.translation_en}</p>
-      {active.translation_ko && <p className="text-sm font-semibold text-ink/50">{active.translation_ko}</p>}
-      <div className="mt-5 min-h-32 rounded-lg border border-dashed border-ink/25 bg-white p-5">
-        {revealed ? (
-          <>
-            <ClickableChineseLine
-              className="text-5xl font-black text-ink"
-              speak={speak}
-              text={active.text}
-              vocab={vocab}
-            />
-            <p className="mt-2 text-xl font-black text-jade-700">{active.pinyin}</p>
-          </>
-        ) : (
-          <p className="text-sm font-bold text-ink/45">
-            Try saying the Chinese sentence before revealing the answer.
-          </p>
-        )}
+    <div className="space-y-3">
+      <div className="rounded-lg bg-paper p-5">
+        <p className="text-sm font-black text-ink/55">Speak from memory</p>
+        <p className="mt-2 font-semibold text-ink/65">
+          Work through each prompt: say the Chinese before revealing, then play the model and correct your rhythm.
+        </p>
       </div>
-      <div className="mt-5 flex flex-wrap gap-2">
-        <Button onClick={() => setRevealed((current) => !current)} variant="secondary">
-          {revealed ? "Hide answer" : "Reveal answer"}
-        </Button>
-        <Button onClick={() => speak(active.text, "sentence", active.audio_id)} variant="warm">
-          <Volume2 className="h-4 w-4" />
-          Play model
-        </Button>
-      </div>
+      {prompts.map((prompt, index) => {
+        const isRevealed = revealed.has(prompt.text);
+        return (
+          <div className="rounded-lg bg-paper p-5 ring-1 ring-black/10" key={`${prompt.text}-${index}`}>
+            <div className="flex flex-wrap items-start justify-between gap-3">
+              <div>
+                <p className="text-xs font-black uppercase text-jade-700">Prompt {index + 1}</p>
+                <p className="mt-2 text-xl font-black text-ink">{prompt.translation_en}</p>
+                {prompt.translation_ko && <p className="text-sm font-semibold text-ink/50">{prompt.translation_ko}</p>}
+              </div>
+              <div className="flex flex-wrap gap-2">
+                <Button onClick={() => toggleReveal(prompt.text)} size="sm" variant="secondary">
+                  {isRevealed ? "Hide answer" : "Reveal answer"}
+                </Button>
+                <Button onClick={() => speak(prompt.text, "sentence", prompt.audio_id)} size="sm" variant="warm">
+                  <Volume2 className="h-4 w-4" />
+                  Play model
+                </Button>
+              </div>
+            </div>
+            <div className="mt-4 min-h-24 rounded-lg border border-dashed border-ink/25 bg-white p-4">
+              {isRevealed ? (
+                <>
+                  <ClickableChineseLine
+                    className="text-3xl font-black text-ink"
+                    speak={speak}
+                    text={prompt.text}
+                    vocab={vocab}
+                  />
+                  <p className="mt-2 text-lg font-black text-jade-700">{prompt.pinyin}</p>
+                </>
+              ) : (
+                <p className="text-sm font-bold text-ink/45">
+                  Answer hidden. Produce the Chinese sentence out loud before revealing.
+                </p>
+              )}
+            </div>
+          </div>
+        );
+      })}
     </div>
   );
 }
@@ -1205,7 +1373,9 @@ function ClickableChineseLine({
             <button
               className="inline rounded-md px-1 text-left align-baseline transition hover:bg-jade-100 hover:text-jade-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-jade-500"
               key={`${segment.text}-${index}`}
-              onClick={() => setSelected(segment.item ?? null)}
+              onClick={() =>
+                setSelected((current) => (current?.id === segment.item?.id ? null : segment.item ?? null))
+              }
               title={`${segment.item.pinyin} - ${segment.item.meaning_en}`}
               type="button"
             >
@@ -1218,7 +1388,13 @@ function ClickableChineseLine({
       </div>
       {selected && (
         <div className="mt-3 rounded-lg bg-jade-50 p-4 ring-1 ring-jade-500/20">
-          <VocabInfoBox item={selected} speak={speak} />
+          <div className="mb-3 flex items-center justify-between gap-3">
+            <AudioButton label={`Play ${selected.char}`} onClick={() => speak(selected.char, "word", selected.audio_id)} />
+            <Button aria-label="Close word detail" onClick={() => setSelected(null)} size="icon" variant="ghost">
+              <X className="h-4 w-4" />
+            </Button>
+          </div>
+          <VocabInfoBox hideAudio item={selected} speak={speak} />
         </div>
       )}
     </div>
@@ -1293,10 +1469,12 @@ function PatternDetail({
 
 function VocabInfoBox({
   afterShowWriting,
+  hideAudio = false,
   item,
   speak
 }: {
   afterShowWriting?: () => void;
+  hideAudio?: boolean;
   item: VocabularyItem;
   speak: SpeakFn;
 }) {
@@ -1315,7 +1493,7 @@ function VocabInfoBox({
           <p className="mt-3 text-lg font-bold text-ink">{item.meaning_en}</p>
           <p className="text-sm font-semibold text-ink/50">{item.meaning_ko}</p>
         </div>
-        <AudioButton label={`Play ${item.char}`} onClick={() => speak(item.char, "word", item.audio_id)} />
+        {!hideAudio && <AudioButton label={`Play ${item.char}`} onClick={() => speak(item.char, "word", item.audio_id)} />}
       </div>
       <div className="mt-5 grid grid-cols-2 gap-3">
         <InfoTile label="Role" value={item.pos} />
@@ -1420,11 +1598,12 @@ function RepositoryDrawer({
   const [query, setQuery] = useState("");
   const [tab, setTab] = useState<"words" | "sentences" | "grammar">("words");
   const [selectedWordId, setSelectedWordId] = useState<string | null>(null);
+  const repositoryVocab = useMemo(() => mergeVocab(data.vocab, SUPPLEMENTAL_VISIBLE_VOCAB), [data.vocab]);
   const normalizedQuery = query.trim().toLowerCase();
-  const words = data.vocab.filter((item) => matchesVocab(item, normalizedQuery));
+  const words = repositoryVocab.filter((item) => matchesVocab(item, normalizedQuery));
   const sentences = data.sentences.filter((item) => matchesSentence(item, normalizedQuery));
   const grammar = data.grammar.filter((item) => matchesGrammar(item, normalizedQuery));
-  const selectedWord = selectedWordId ? data.vocab.find((item) => item.id === selectedWordId) : null;
+  const selectedWord = selectedWordId ? repositoryVocab.find((item) => item.id === selectedWordId) : null;
 
   useEffect(() => {
     if (tab !== "words") setSelectedWordId(null);
@@ -1530,7 +1709,7 @@ function RepositoryDrawer({
                       className="text-2xl font-black text-ink"
                       speak={speak}
                       text={item.text}
-                      vocab={data.vocab}
+                      vocab={repositoryVocab}
                     />
                     <p className="mt-1 font-black text-jade-700">{item.pinyin}</p>
                     <p className="font-semibold text-ink">{item.translation_en}</p>
@@ -1559,7 +1738,7 @@ function RepositoryDrawer({
                       text={example.text}
                       translationEn={example.translation_en}
                       translationKo={example.translation_ko}
-                      vocab={data.vocab}
+                      vocab={repositoryVocab}
                     />
                   ))}
                 </div>
@@ -1799,11 +1978,12 @@ function chooseMandarinVoice(voices: SpeechSynthesisVoice[]) {
 }
 
 function buildLessonPack(data: CourseData, lesson: LessonItem) {
-  const vocab = data.vocab.filter((item) => lesson.vocab_ids.includes(item.id));
+  const lookupVocab = mergeVocab(data.vocab, SUPPLEMENTAL_VISIBLE_VOCAB);
+  const vocab = lookupVocab.filter((item) => lesson.vocab_ids.includes(item.id));
   const sentences = data.sentences.filter((item) => lesson.sentence_ids.includes(item.id));
   const grammar = data.grammar.filter((item) => lesson.grammar_ids.includes(item.id));
   const pronunciation = data.pronunciation.filter((item) => lesson.pronunciation_ids.includes(item.id));
-  const contextVocab = collectContextVocab(data.vocab, vocab, sentences);
+  const contextVocab = collectContextVocab(lookupVocab, sentences, grammar);
   const writingChars = new Set<string>();
   sentences.forEach((sentence) => {
     Array.from(sentence.text).forEach((char) => {
@@ -1928,7 +2108,7 @@ function toggleWeakItem(
 function findVocabForToken(vocab: VocabularyItem[], token: string) {
   return (
     vocab.find((item) => item.char === token) ??
-    vocab.find((item) => token.includes(item.char) || item.char.includes(token))
+    vocab.find((item) => token.includes(item.char))
   );
 }
 
@@ -1989,9 +2169,14 @@ function extractPatternMarkers(pattern: string) {
   return Array.from(new Set(pattern.match(/[\u3400-\u9fff]+/g) ?? []));
 }
 
-function collectContextVocab(allVocab: VocabularyItem[], lessonVocab: VocabularyItem[], sentences: SentenceItem[]) {
-  const ordered = [...lessonVocab];
-  const seen = new Set(ordered.map((item) => item.id));
+function mergeVocab(primary: VocabularyItem[], supplemental: VocabularyItem[]) {
+  const seen = new Set(primary.map((item) => item.id));
+  return [...primary, ...supplemental.filter((item) => !seen.has(item.id))];
+}
+
+function collectContextVocab(allVocab: VocabularyItem[], sentences: SentenceItem[], grammar: GrammarItem[]) {
+  const ordered: VocabularyItem[] = [];
+  const seen = new Set<string>();
 
   function add(item?: VocabularyItem) {
     if (!item || seen.has(item.id)) return;
@@ -2000,8 +2185,12 @@ function collectContextVocab(allVocab: VocabularyItem[], lessonVocab: Vocabulary
   }
 
   sentences.forEach((sentence) => {
-    sentence.tokens.forEach((token) => add(findVocabForToken(allVocab, token)));
     segmentChineseText(sentence.text, allVocab).forEach((segment) => add(segment.item));
+  });
+  grammar.forEach((item) => {
+    (item.drill_examples ?? []).forEach((example) => {
+      segmentChineseText(example.text, allVocab).forEach((segment) => add(segment.item));
+    });
   });
 
   return ordered;
