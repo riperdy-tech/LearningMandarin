@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useId, useMemo, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import {
   BookOpen,
@@ -37,7 +37,7 @@ import type {
 import { cn } from "@/lib/utils";
 
 type SpeechMode = "word" | "sentence";
-type AudioSpeed = "slow" | "normal" | "shadow";
+type AudioSpeed = "slow" | "normal";
 type SpeakFn = (text: string, mode?: SpeechMode, audioId?: string) => void;
 type TrainerStepKind =
   | "pattern_review"
@@ -92,8 +92,7 @@ const AUDIO_SPEEDS: Record<
   { label: string; wordRate: number; sentenceRate: number; longSentenceRate: number; playbackRate: number }
 > = {
   slow: { label: "Slow", wordRate: 0.52, sentenceRate: 0.48, longSentenceRate: 0.42, playbackRate: 0.65 },
-  normal: { label: "Normal", wordRate: 0.86, sentenceRate: 0.8, longSentenceRate: 0.72, playbackRate: 1 },
-  shadow: { label: "Repeat", wordRate: 0.64, sentenceRate: 0.58, longSentenceRate: 0.52, playbackRate: 0.78 }
+  normal: { label: "Normal", wordRate: 0.86, sentenceRate: 0.8, longSentenceRate: 0.72, playbackRate: 1 }
 };
 
 const SUPPLEMENTAL_VISIBLE_VOCAB: VocabularyItem[] = [
@@ -439,7 +438,7 @@ export function CourseApp({ data }: { data: CourseData }) {
               </div>
             </CardHeader>
             <CardContent>
-              <div className="grid grid-cols-3 gap-2">
+              <div className="grid grid-cols-2 gap-2">
                 {(Object.keys(AUDIO_SPEEDS) as AudioSpeed[]).map((speed) => (
                   <button
                     className={cn(
@@ -455,7 +454,7 @@ export function CourseApp({ data }: { data: CourseData }) {
                 ))}
               </div>
               <p className="mt-3 text-xs font-semibold text-ink/50">
-                Repeat is slower than normal so you can speak after the model. Missing MP3s use browser Mandarin audio.
+                Slow mode lowers both MP3 and browser Mandarin TTS speed for sentence shadowing.
               </p>
             </CardContent>
           </Card>
@@ -1408,6 +1407,11 @@ type HanziWriterApi = {
     target: string,
     character: string,
     options: {
+      charDataLoader?: (
+        character: string,
+        onComplete: (data: unknown) => void,
+        onError: (reason?: unknown) => void
+      ) => void;
       delayBetweenStrokes?: number;
       height: number;
       padding?: number;
@@ -1420,23 +1424,37 @@ type HanziWriterApi = {
 };
 
 function StrokeAnimation({ char }: { char: string }) {
-  const targetId = useRef(`hanzi-writer-${Math.random().toString(36).slice(2)}`);
+  const reactId = useId();
+  const targetId = useMemo(() => `hanzi-writer-${reactId.replace(/:/g, "")}`, [reactId]);
   const writerRef = useRef<HanziWriterInstance | null>(null);
   const [status, setStatus] = useState<"loading" | "ready" | "error">("loading");
+  const strokeOrderHref = `https://www.strokeorder.com/chinese/${encodeURIComponent(char)}`;
 
   useEffect(() => {
     let cancelled = false;
-    const target = document.getElementById(targetId.current);
+    const target = document.getElementById(targetId);
     if (target) target.innerHTML = "";
     setStatus("loading");
 
     loadHanziWriter()
       .then((HanziWriter) => {
         if (cancelled) return;
-        writerRef.current = HanziWriter.create(targetId.current, char, {
+        writerRef.current = HanziWriter.create(targetId, char, {
           width: 154,
           height: 154,
           padding: 8,
+          charDataLoader: (character, onComplete, onError) => {
+            fetch(getHanziWriterDataUrl(character))
+              .then((response) => {
+                if (!response.ok) throw new Error(`Stroke data returned ${response.status}`);
+                return response.json();
+              })
+              .then(onComplete)
+              .catch((error) => {
+                if (!cancelled) setStatus("error");
+                onError(error);
+              });
+          },
           showOutline: true,
           showCharacter: false,
           strokeAnimationSpeed: 1,
@@ -1452,7 +1470,7 @@ function StrokeAnimation({ char }: { char: string }) {
     return () => {
       cancelled = true;
     };
-  }, [char]);
+  }, [char, targetId]);
 
   function replay() {
     writerRef.current?.hideCharacter({ duration: 0 });
@@ -1473,16 +1491,30 @@ function StrokeAnimation({ char }: { char: string }) {
         </Button>
       </div>
       <div className="mt-3 grid min-h-40 place-items-center rounded-lg bg-white">
-        <div id={targetId.current} />
+        <div id={targetId} />
         {status === "loading" && <p className="text-sm font-bold text-ink/45">Loading stroke data...</p>}
         {status === "error" && (
-          <p className="px-4 text-center text-sm font-bold text-ink/45">
-            Stroke animation data could not load. Use the StrokeOrder link below as a fallback.
-          </p>
+          <div className="px-4 text-center">
+            <p className="text-sm font-bold text-ink/45">
+              Stroke animation data could not load. The external character-data request may be blocked or missing.
+            </p>
+            <a
+              className="mt-2 inline-flex rounded-lg bg-white px-3 py-2 text-sm font-black text-jade-700 ring-1 ring-black/10 hover:bg-jade-50"
+              href={strokeOrderHref}
+              rel="noreferrer"
+              target="_blank"
+            >
+              Open StrokeOrder fallback
+            </a>
+          </div>
         )}
       </div>
     </div>
   );
+}
+
+function getHanziWriterDataUrl(char: string) {
+  return `https://cdn.jsdelivr.net/npm/hanzi-writer-data@latest/${encodeURIComponent(char)}.json`;
 }
 
 function loadHanziWriter(): Promise<HanziWriterApi> {
@@ -2132,10 +2164,16 @@ function navigateToPrintSheet(sheet: PrintableSheet) {
 
 function renderPracticeWordCard(word: VocabularyItem, index: number) {
   const characters = Array.from(word.char).filter(isLikelyChinese);
-  const characterModels = characters
-    .map((char) => `<span class="model-cell tian-cell"><span>${escapeHtml(char)}</span></span>`)
+  const characterPractice = characters
+    .map((char) => {
+      const practiceCells = Array.from({ length: 18 }, () => `<span class="practice-cell tian-cell"></span>`).join("");
+      return `
+        <div class="character-practice">
+          <span class="model-cell tian-cell"><span>${escapeHtml(char)}</span></span>
+          ${practiceCells}
+        </div>`;
+    })
     .join("");
-  const practiceCells = Array.from({ length: 24 }, () => `<span class="practice-cell tian-cell"></span>`).join("");
 
   return `
     <article class="practice-card">
@@ -2148,8 +2186,7 @@ function renderPracticeWordCard(word: VocabularyItem, index: number) {
           ${word.meaning_ko ? `<div class="ko">${escapeHtml(word.meaning_ko)}</div>` : ""}
         </div>
       </div>
-      <div class="model-row">${characterModels}</div>
-      <div class="practice-grid">${practiceCells}</div>
+      <div class="practice-lines">${characterPractice}</div>
     </article>`;
 }
 
@@ -2201,34 +2238,34 @@ function PrintableSheetOverlay({ onClose, sheet }: { onClose: () => void; sheet:
 function PrintableSheetStyles() {
   return (
     <style>{`
-      @page { margin: 12mm; size: letter; }
-      .printable-page { background: #fff; color: #17211c; font-family: Arial, "Noto Sans TC", "Microsoft JhengHei", sans-serif; }
+      @page { margin: 10mm; size: letter landscape; }
+      .printable-page { --cell: 48px; background: #fff; color: #17211c; font-family: Arial, "Noto Sans TC", "Microsoft JhengHei", sans-serif; }
       .printable-page * { box-sizing: border-box; }
       .printable-page header { align-items: center; border-bottom: 2px solid #17211c; display: flex; justify-content: space-between; gap: 16px; padding-bottom: 10px; }
       .printable-page h1 { font-size: 22px; margin: 0 0 4px; }
-      .printable-page h2 { break-after: avoid; border-bottom: 1px solid #b8c7bf; font-size: 16px; margin: 18px 0 8px; padding-bottom: 5px; }
+      .printable-page h2 { break-after: avoid; border-bottom: 1px solid #b8c7bf; font-size: 15px; margin: 12px 0 6px; padding-bottom: 4px; }
       .printable-page p { margin: 0; }
       .printable-page .meta { color: #496157; font-size: 13px; font-weight: 700; }
-      .printable-page .word-sheet { display: grid; gap: 10px; margin-top: 14px; }
-      .printable-page .practice-card { break-inside: avoid; border: 1.5px solid #9fb0a8; border-radius: 8px; display: grid; gap: 8px; grid-template-columns: 150px 60px minmax(0, 1fr); padding: 8px; }
-      .printable-page .word-info { align-items: start; display: grid; gap: 8px; grid-template-columns: 24px minmax(0, 1fr); }
+      .printable-page .word-sheet { display: grid; gap: 8px; margin-top: 14px; }
+      .printable-page .practice-card { break-inside: avoid; border: 1.5px solid #9fb0a8; border-radius: 8px; display: grid; gap: 10px; grid-template-columns: 140px minmax(0, 1fr); padding: 7px; }
+      .printable-page .word-info { align-items: start; display: grid; gap: 7px; grid-template-columns: 22px minmax(0, 1fr); }
       .printable-page .number { color: #62756d; font-size: 12px; font-weight: 900; text-align: center; }
       .printable-page .word { font-family: "Noto Serif TC", "Microsoft JhengHei", serif; font-size: 28px; font-weight: 900; line-height: 1.05; }
       .printable-page .pinyin { color: #0f766e; font-size: 15px; font-weight: 900; line-height: 1.15; }
       .printable-page .meaning { font-size: 12px; font-weight: 800; line-height: 1.25; margin-top: 3px; }
       .printable-page .ko { color: #68766f; font-size: 11px; font-weight: 700; line-height: 1.2; margin-top: 2px; }
-      .printable-page .model-row { align-content: start; display: flex; flex-wrap: wrap; gap: 5px; }
-      .printable-page .practice-grid { display: grid; gap: 5px; grid-template-columns: repeat(auto-fill, minmax(52px, 1fr)); justify-content: stretch; }
-      .printable-page .tian-cell { background: #fff; border: 1.4px solid #54655d; display: inline-flex; height: 52px; justify-content: center; position: relative; width: 52px; }
+      .printable-page .practice-lines { display: grid; gap: 4px; min-width: 0; }
+      .printable-page .character-practice { align-items: start; display: grid; gap: 5px; grid-template-columns: repeat(auto-fit, minmax(var(--cell), var(--cell))); min-width: 0; }
+      .printable-page .tian-cell { background: #fff; border: 1.35px solid #54655d; display: inline-flex; height: var(--cell); justify-content: center; position: relative; width: var(--cell); }
       .printable-page .tian-cell::before, .printable-page .tian-cell::after { content: ""; left: 0; pointer-events: none; position: absolute; top: 0; }
       .printable-page .tian-cell::before { border-top: 1px dotted #9baaa3; top: 50%; width: 100%; }
       .printable-page .tian-cell::after { border-left: 1px dotted #9baaa3; height: 100%; left: 50%; }
-      .printable-page .model-cell { align-items: center; background: #f7fbf9; color: #25342d; font-family: "Noto Serif TC", "Microsoft JhengHei", serif; font-size: 34px; font-weight: 900; }
+      .printable-page .model-cell { align-items: center; background: #f7fbf9; color: #25342d; font-family: "Noto Serif TC", "Microsoft JhengHei", serif; font-size: 32px; font-weight: 900; }
       .printable-page .model-cell span { position: relative; z-index: 1; }
       .printable-page .repo-day { break-inside: avoid; }
-      .printable-page .repo-grid { display: grid; gap: 6px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
-      .printable-page .repo-card { align-items: center; border: 1px solid #b8c7bf; border-radius: 8px; display: grid; gap: 8px; grid-template-columns: 68px minmax(0, 1fr); padding: 7px; }
-      .printable-page .repo-word { font-family: "Noto Serif TC", "Microsoft JhengHei", serif; font-size: 28px; font-weight: 900; line-height: 1; }
+      .printable-page .repo-grid { display: grid; gap: 5px; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
+      .printable-page .repo-card { align-items: center; border: 1px solid #b8c7bf; border-radius: 6px; display: grid; gap: 7px; grid-template-columns: 52px minmax(0, 1fr); min-height: 48px; padding: 5px; }
+      .printable-page .repo-word { font-family: "Noto Serif TC", "Microsoft JhengHei", serif; font-size: 26px; font-weight: 900; line-height: 1; }
       .printable-page .note { border-top: 1px solid #b8c7bf; color: #62756d; font-size: 12px; font-weight: 700; margin-top: 14px; padding-top: 8px; }
       @media print {
         html, body { background: #fff !important; height: auto !important; overflow: visible !important; }
