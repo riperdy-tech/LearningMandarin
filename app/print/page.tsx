@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useState } from "react";
 import { Printer } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -23,21 +23,19 @@ const fallbackSheet: PrintableSheet = {
 export default function PrintPage() {
   const [sheet, setSheet] = useState<PrintableSheet>(fallbackSheet);
   const [loaded, setLoaded] = useState(false);
+  const [orientation, setOrientation] = useState<"portrait" | "landscape">("landscape");
+  const [trainerHref, setTrainerHref] = useState("/");
 
   useEffect(() => {
     try {
       const raw = window.localStorage.getItem(PRINT_SHEET_KEY);
       if (raw) setSheet(JSON.parse(raw) as PrintableSheet);
+      setTrainerHref(window.location.pathname.startsWith("/LearningMandarin") ? "/LearningMandarin/" : "/");
     } catch {
       setSheet(fallbackSheet);
     } finally {
       setLoaded(true);
     }
-  }, []);
-
-  const trainerHref = useMemo(() => {
-    if (typeof window === "undefined") return "/";
-    return window.location.pathname.startsWith("/LearningMandarin") ? "/LearningMandarin/" : "/";
   }, []);
 
   return (
@@ -48,6 +46,12 @@ export default function PrintPage() {
           <h1 className="text-lg font-black text-ink">{sheet.title}</h1>
         </div>
         <div className="flex flex-wrap gap-2">
+          <Button
+            onClick={() => setOrientation((current) => (current === "landscape" ? "portrait" : "landscape"))}
+            variant="secondary"
+          >
+            {orientation === "landscape" ? "Landscape" : "Portrait"}
+          </Button>
           <Button onClick={() => window.print()}>
             <Printer className="h-4 w-4" />
             Print
@@ -58,7 +62,7 @@ export default function PrintPage() {
         </div>
       </div>
 
-      <PrintableSheetStyles />
+      <PrintableSheetStyles orientation={orientation} />
       <section className="printable-page p-5 print:p-0">
         <header>
           <div>
@@ -79,10 +83,10 @@ export default function PrintPage() {
   );
 }
 
-function PrintableSheetStyles() {
+function PrintableSheetStyles({ orientation }: { orientation: "portrait" | "landscape" }) {
   return (
     <style>{`
-      @page { margin: 12mm; size: letter; }
+      @page { margin: 10mm; size: letter ${orientation}; }
       .printable-page { background: #fff; color: #17211c; font-family: Arial, "Noto Sans TC", "Microsoft JhengHei", sans-serif; }
       .printable-page * { box-sizing: border-box; }
       .printable-page header { align-items: center; border-bottom: 2px solid #17211c; display: flex; justify-content: space-between; gap: 16px; padding-bottom: 10px; }
@@ -91,7 +95,7 @@ function PrintableSheetStyles() {
       .printable-page p { margin: 0; }
       .printable-page .meta { color: #496157; font-size: 13px; font-weight: 700; }
       .printable-page .word-sheet { display: grid; gap: 10px; margin-top: 14px; }
-      .printable-page .practice-card { break-inside: avoid; border: 1.5px solid #9fb0a8; border-radius: 8px; display: grid; gap: 8px; grid-template-columns: 165px 70px minmax(0, 1fr); padding: 8px; }
+      .printable-page .practice-card { break-inside: avoid; border: 1.5px solid #9fb0a8; border-radius: 8px; display: grid; gap: 8px; grid-template-columns: 150px 60px minmax(0, 1fr); padding: 8px; }
       .printable-page .word-info { align-items: start; display: grid; gap: 8px; grid-template-columns: 24px minmax(0, 1fr); }
       .printable-page .number { color: #62756d; font-size: 12px; font-weight: 900; text-align: center; }
       .printable-page .word { font-family: "Noto Serif TC", "Microsoft JhengHei", serif; font-size: 28px; font-weight: 900; line-height: 1.05; }
@@ -99,7 +103,7 @@ function PrintableSheetStyles() {
       .printable-page .meaning { font-size: 12px; font-weight: 800; line-height: 1.25; margin-top: 3px; }
       .printable-page .ko { color: #68766f; font-size: 11px; font-weight: 700; line-height: 1.2; margin-top: 2px; }
       .printable-page .model-row { align-content: start; display: flex; flex-wrap: wrap; gap: 5px; }
-      .printable-page .practice-grid { display: grid; gap: 5px; grid-template-columns: repeat(6, 52px); justify-content: start; }
+      .printable-page .practice-grid { display: grid; gap: 5px; grid-template-columns: repeat(auto-fill, minmax(52px, 1fr)); justify-content: stretch; }
       .printable-page .tian-cell { background: #fff; border: 1.4px solid #54655d; display: inline-flex; height: 52px; justify-content: center; position: relative; width: 52px; }
       .printable-page .tian-cell::before, .printable-page .tian-cell::after { content: ""; left: 0; pointer-events: none; position: absolute; top: 0; }
       .printable-page .tian-cell::before { border-top: 1px dotted #9baaa3; top: 50%; width: 100%; }

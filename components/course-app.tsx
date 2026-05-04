@@ -93,7 +93,7 @@ const AUDIO_SPEEDS: Record<
 > = {
   slow: { label: "Slow", wordRate: 0.52, sentenceRate: 0.48, longSentenceRate: 0.42, playbackRate: 0.65 },
   normal: { label: "Normal", wordRate: 0.86, sentenceRate: 0.8, longSentenceRate: 0.72, playbackRate: 1 },
-  shadow: { label: "Shadow", wordRate: 0.64, sentenceRate: 0.58, longSentenceRate: 0.52, playbackRate: 0.78 }
+  shadow: { label: "Repeat", wordRate: 0.64, sentenceRate: 0.58, longSentenceRate: 0.52, playbackRate: 0.78 }
 };
 
 const SUPPLEMENTAL_VISIBLE_VOCAB: VocabularyItem[] = [
@@ -202,6 +202,7 @@ export function CourseApp({ data }: { data: CourseData }) {
   const [selectedVocab, setSelectedVocab] = useState<VocabularyItem | null>(null);
   const [selectedPattern, setSelectedPattern] = useState<GrammarItem | null>(null);
   const [lessonPickerOpen, setLessonPickerOpen] = useState(false);
+  const [pickerWeek, setPickerWeek] = useState(data.lessons[0]?.week ?? 1);
   const [helpOpen, setHelpOpen] = useState(false);
   const [repositoryOpen, setRepositoryOpen] = useState(false);
   const [audioSpeed, setAudioSpeed] = useState<AudioSpeed>("normal");
@@ -223,11 +224,17 @@ export function CourseApp({ data }: { data: CourseData }) {
     ? Math.round((progress.completed_lessons[selectedLesson.id]?.mastery ?? 0) * 100)
     : 0;
   const completedLessonCount = Object.keys(progress.completed_lessons).length;
-  const weekMastery = Math.round((completedLessonCount / Math.max(data.lessons.length, 1)) * 100);
+  const weakItemCount = progress.weak_words.length + progress.weak_patterns.length;
+  const pickerWeeks = Array.from(new Set(data.lessons.map((lesson) => lesson.week))).sort((a, b) => a - b);
+  const pickerLessons = data.lessons.filter((lesson) => lesson.week === pickerWeek);
   const activeStep = dailyFlow.find((step) => step.id === activeStepId) ?? dailyFlow[0];
   const allStepsDone = dailyFlow.every((step) => completedSteps.includes(step.id));
   const generatedSentences = buildGeneratedSentences(data, selectedLesson, lessonPack, displayVocab);
   const totalMinutes = dailyFlow.reduce((sum, step) => sum + (step.duration_minutes ?? 0), 0);
+
+  useEffect(() => {
+    setPickerWeek(selectedLesson.week);
+  }, [selectedLesson.week]);
 
   useEffect(() => {
     function handleShowWriting(event: Event) {
@@ -312,9 +319,9 @@ export function CourseApp({ data }: { data: CourseData }) {
                 </div>
               </div>
               <div className="mt-5 grid gap-3">
-                <MetricCard label="Week mastery" value={`${weekMastery}%`} icon={Target} />
+                <MetricCard label="Completed days" value={`${completedLessonCount}/${data.lessons.length}`} icon={Target} />
                 <MetricCard label="Streak" value={`${progress.streak.count} days`} icon={Flame} />
-                <MetricCard label="Due review" value={`${progress.due_review_ids.length}`} icon={RotateCcw} />
+                <MetricCard label="Marked weak" value={`${weakItemCount}`} icon={RotateCcw} />
               </div>
             </CardContent>
           </Card>
@@ -373,8 +380,24 @@ export function CourseApp({ data }: { data: CourseData }) {
                 <p className="mt-1 text-sm font-semibold">{selectedLesson.title}</p>
               </button>
               {lessonPickerOpen && (
-                <div className="mt-3 max-h-96 space-y-2 overflow-auto pr-1">
-                  {data.lessons.map((lesson) => {
+                <div className="mt-3 space-y-3">
+                  <div className="grid grid-cols-2 gap-2">
+                    {pickerWeeks.map((week) => (
+                      <button
+                        className={cn(
+                          "rounded-lg px-3 py-2 text-xs font-black transition",
+                          pickerWeek === week ? "bg-ink text-white" : "bg-white text-ink ring-1 ring-black/10 hover:bg-jade-50"
+                        )}
+                        key={week}
+                        onClick={() => setPickerWeek(week)}
+                        type="button"
+                      >
+                        Week {week}
+                      </button>
+                    ))}
+                  </div>
+                  <div className="grid gap-2">
+                  {pickerLessons.map((lesson) => {
                     const isActive = lesson.id === selectedLesson.id;
                     const done = Boolean(progress.completed_lessons[lesson.id]);
                     return (
@@ -399,14 +422,10 @@ export function CourseApp({ data }: { data: CourseData }) {
                           </div>
                           {done ? <Check className="h-4 w-4 shrink-0 text-jade-500" /> : <Circle className="h-4 w-4 shrink-0 opacity-50" />}
                         </div>
-                        {lesson.skills.length > 0 && (
-                          <p className="mt-2 line-clamp-2 text-xs font-semibold opacity-65">
-                            {lesson.skills.join(" / ").replaceAll("_", " ")}
-                          </p>
-                        )}
                       </button>
                     );
                   })}
+                  </div>
                 </div>
               )}
             </CardContent>
@@ -436,7 +455,7 @@ export function CourseApp({ data }: { data: CourseData }) {
                 ))}
               </div>
               <p className="mt-3 text-xs font-semibold text-ink/50">
-                MP3 audio uses this speed when available; missing audio falls back to Taiwan Mandarin TTS.
+                Repeat is slower than normal so you can speak after the model. Missing MP3s use browser Mandarin audio.
               </p>
             </CardContent>
           </Card>
@@ -448,10 +467,7 @@ export function CourseApp({ data }: { data: CourseData }) {
                 <div className="flex flex-wrap items-center gap-2">
                   <Badge>Month 1 · Week {selectedLesson.week}</Badge>
                   <Badge>{totalMinutes} min plan</Badge>
-                  <Badge className="bg-persimmon-100 text-persimmon-600 ring-persimmon-500/20">
-                    {selectedLesson.xp} XP
-                  </Badge>
-                  <Badge>{lessonCompleted ? "Completed" : "Progress records after full loop"}</Badge>
+                  {lessonCompleted && <Badge>Completed</Badge>}
                 </div>
                 <h2 className="mt-3 text-2xl font-black text-ink sm:text-3xl">
                   {selectedLesson.title}
@@ -490,7 +506,7 @@ export function CourseApp({ data }: { data: CourseData }) {
                 </div>
                 <Progress value={lessonMastery} className="mt-2" />
                 <p className="mt-2 text-xs font-semibold text-ink/45">
-                  Step practice is saved, but mastery stays 0 until the loop is complete.
+                  Recorded only after you complete the daily loop.
                 </p>
               </div>
             </CardContent>
@@ -1326,6 +1342,7 @@ function ReferenceStrip({
                     </Button>
                   </div>
                 </div>
+                <StrokeAnimation char={writingItem.char} />
                 <div className="mt-4 flex flex-wrap gap-2">
                   {writingItem.strokes.map((stroke, index) => (
                     <span
@@ -1379,6 +1396,124 @@ function ReferenceStrip({
       </Card>
     </div>
   );
+}
+
+type HanziWriterInstance = {
+  animateCharacter: () => void;
+  hideCharacter: (options?: { duration?: number }) => void;
+};
+
+type HanziWriterApi = {
+  create: (
+    target: string,
+    character: string,
+    options: {
+      delayBetweenStrokes?: number;
+      height: number;
+      padding?: number;
+      showCharacter?: boolean;
+      showOutline?: boolean;
+      strokeAnimationSpeed?: number;
+      width: number;
+    }
+  ) => HanziWriterInstance;
+};
+
+function StrokeAnimation({ char }: { char: string }) {
+  const targetId = useRef(`hanzi-writer-${Math.random().toString(36).slice(2)}`);
+  const writerRef = useRef<HanziWriterInstance | null>(null);
+  const [status, setStatus] = useState<"loading" | "ready" | "error">("loading");
+
+  useEffect(() => {
+    let cancelled = false;
+    const target = document.getElementById(targetId.current);
+    if (target) target.innerHTML = "";
+    setStatus("loading");
+
+    loadHanziWriter()
+      .then((HanziWriter) => {
+        if (cancelled) return;
+        writerRef.current = HanziWriter.create(targetId.current, char, {
+          width: 154,
+          height: 154,
+          padding: 8,
+          showOutline: true,
+          showCharacter: false,
+          strokeAnimationSpeed: 1,
+          delayBetweenStrokes: 500
+        });
+        writerRef.current.animateCharacter();
+        setStatus("ready");
+      })
+      .catch(() => {
+        if (!cancelled) setStatus("error");
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [char]);
+
+  function replay() {
+    writerRef.current?.hideCharacter({ duration: 0 });
+    writerRef.current?.animateCharacter();
+  }
+
+  return (
+    <div className="mt-4 rounded-lg bg-paper p-4 ring-1 ring-black/10">
+      <div className="flex flex-wrap items-center justify-between gap-3">
+        <div>
+          <p className="text-xs font-black uppercase text-ink/45">Stroke animation</p>
+          <p className="mt-1 text-sm font-semibold text-ink/55">
+            Real stroke-order data loads online for the selected character.
+          </p>
+        </div>
+        <Button disabled={status !== "ready"} onClick={replay} size="sm" variant="secondary">
+          Replay
+        </Button>
+      </div>
+      <div className="mt-3 grid min-h-40 place-items-center rounded-lg bg-white">
+        <div id={targetId.current} />
+        {status === "loading" && <p className="text-sm font-bold text-ink/45">Loading stroke data...</p>}
+        {status === "error" && (
+          <p className="px-4 text-center text-sm font-bold text-ink/45">
+            Stroke animation data could not load. Use the StrokeOrder link below as a fallback.
+          </p>
+        )}
+      </div>
+    </div>
+  );
+}
+
+function loadHanziWriter(): Promise<HanziWriterApi> {
+  if (typeof window === "undefined") return Promise.reject(new Error("No browser"));
+  const existing = (window as typeof window & { HanziWriter?: HanziWriterApi }).HanziWriter;
+  if (existing) return Promise.resolve(existing);
+
+  return new Promise((resolve, reject) => {
+    const current = document.querySelector<HTMLScriptElement>("script[data-hanzi-writer]");
+    if (current) {
+      current.addEventListener("load", () => {
+        const loaded = (window as typeof window & { HanziWriter?: HanziWriterApi }).HanziWriter;
+        if (loaded) resolve(loaded);
+        else reject(new Error("Hanzi Writer did not initialize"));
+      });
+      current.addEventListener("error", () => reject(new Error("Hanzi Writer failed to load")));
+      return;
+    }
+
+    const script = document.createElement("script");
+    script.src = "https://cdn.jsdelivr.net/npm/hanzi-writer@3.5/dist/hanzi-writer.min.js";
+    script.async = true;
+    script.dataset.hanziWriter = "true";
+    script.onload = () => {
+      const loaded = (window as typeof window & { HanziWriter?: HanziWriterApi }).HanziWriter;
+      if (loaded) resolve(loaded);
+      else reject(new Error("Hanzi Writer did not initialize"));
+    };
+    script.onerror = () => reject(new Error("Hanzi Writer failed to load"));
+    document.head.appendChild(script);
+  });
 }
 
 function SentenceWithTokens({
@@ -2000,7 +2135,7 @@ function renderPracticeWordCard(word: VocabularyItem, index: number) {
   const characterModels = characters
     .map((char) => `<span class="model-cell tian-cell"><span>${escapeHtml(char)}</span></span>`)
     .join("");
-  const practiceCells = Array.from({ length: 12 }, () => `<span class="practice-cell tian-cell"></span>`).join("");
+  const practiceCells = Array.from({ length: 24 }, () => `<span class="practice-cell tian-cell"></span>`).join("");
 
   return `
     <article class="practice-card">
@@ -2075,7 +2210,7 @@ function PrintableSheetStyles() {
       .printable-page p { margin: 0; }
       .printable-page .meta { color: #496157; font-size: 13px; font-weight: 700; }
       .printable-page .word-sheet { display: grid; gap: 10px; margin-top: 14px; }
-      .printable-page .practice-card { break-inside: avoid; border: 1.5px solid #9fb0a8; border-radius: 8px; display: grid; gap: 8px; grid-template-columns: 165px 70px minmax(0, 1fr); padding: 8px; }
+      .printable-page .practice-card { break-inside: avoid; border: 1.5px solid #9fb0a8; border-radius: 8px; display: grid; gap: 8px; grid-template-columns: 150px 60px minmax(0, 1fr); padding: 8px; }
       .printable-page .word-info { align-items: start; display: grid; gap: 8px; grid-template-columns: 24px minmax(0, 1fr); }
       .printable-page .number { color: #62756d; font-size: 12px; font-weight: 900; text-align: center; }
       .printable-page .word { font-family: "Noto Serif TC", "Microsoft JhengHei", serif; font-size: 28px; font-weight: 900; line-height: 1.05; }
@@ -2083,7 +2218,7 @@ function PrintableSheetStyles() {
       .printable-page .meaning { font-size: 12px; font-weight: 800; line-height: 1.25; margin-top: 3px; }
       .printable-page .ko { color: #68766f; font-size: 11px; font-weight: 700; line-height: 1.2; margin-top: 2px; }
       .printable-page .model-row { align-content: start; display: flex; flex-wrap: wrap; gap: 5px; }
-      .printable-page .practice-grid { display: grid; gap: 5px; grid-template-columns: repeat(6, 52px); justify-content: start; }
+      .printable-page .practice-grid { display: grid; gap: 5px; grid-template-columns: repeat(auto-fill, minmax(52px, 1fr)); justify-content: stretch; }
       .printable-page .tian-cell { background: #fff; border: 1.4px solid #54655d; display: inline-flex; height: 52px; justify-content: center; position: relative; width: 52px; }
       .printable-page .tian-cell::before, .printable-page .tian-cell::after { content: ""; left: 0; pointer-events: none; position: absolute; top: 0; }
       .printable-page .tian-cell::before { border-top: 1px dotted #9baaa3; top: 50%; width: 100%; }
