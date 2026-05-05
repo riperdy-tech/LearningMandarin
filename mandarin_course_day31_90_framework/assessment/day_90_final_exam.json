@@ -1,0 +1,81 @@
+{
+  "day_90_final_exam": {
+    "exam_id": "FINAL_D90_COMMUNICATION_CHECK",
+    "tasks": [
+      {
+        "task_id": "D90_SPEAKING_001",
+        "name": "Service Interaction",
+        "scenario": "Order food, customize the order, ask price, respond to one clarification question.",
+        "minimum_turns": 8,
+        "required_functions": [
+          "order",
+          "customize",
+          "ask_price",
+          "clarify",
+          "thank"
+        ]
+      },
+      {
+        "task_id": "D90_SPEAKING_002",
+        "name": "Problem Solving",
+        "scenario": "Explain a housing, transport, or shopping problem and ask for help.",
+        "minimum_turns": 10,
+        "required_functions": [
+          "explain_problem",
+          "sequence_events",
+          "request_help",
+          "confirm_solution"
+        ]
+      },
+      {
+        "task_id": "D90_SPEAKING_003",
+        "name": "Social Conversation",
+        "scenario": "Talk with a local about background, hobbies, Taiwan life, and plans.",
+        "minimum_turns": 14,
+        "required_functions": [
+          "self_introduction",
+          "ask_followup",
+          "answer_followup",
+          "give_opinion",
+          "repair_misunderstanding"
+        ]
+      },
+      {
+        "task_id": "D90_LISTENING_001",
+        "name": "Natural Dialogue",
+        "scenario": "Understand a short natural-speed conversation about plans or a practical problem.",
+        "audio_length_seconds": 60,
+        "questions": 8
+      },
+      {
+        "task_id": "D90_READING_001",
+        "name": "Practical Reading",
+        "scenario": "Read a menu, sign, short message, or notice.",
+        "questions": 8
+      },
+      {
+        "task_id": "D90_WRITING_001",
+        "name": "Short Message",
+        "scenario": "Write a short Traditional Chinese message to ask, explain, apologize, or confirm.",
+        "minimum_characters": 40,
+        "maximum_characters": 120
+      }
+    ],
+    "final_pass_definition": {
+      "can_pass_if": [
+        "completes all practical tasks",
+        "uses repair phrases when stuck",
+        "maintains basic word order",
+        "uses known vocabulary without excessive English fallback",
+        "is understandable to a patient Taiwan Mandarin speaker"
+      ],
+      "cannot_pass_if": [
+        "can only repeat memorized sentences",
+        "cannot ask follow-up questions",
+        "cannot understand simple replies",
+        "cannot explain a basic problem",
+        "cannot recover from misunderstanding"
+      ]
+    }
+  }
+}

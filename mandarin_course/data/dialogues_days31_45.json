@@ -1,0 +1,6122 @@
+[
+  {
+    "id": "DLG_D31_01",
+    "lesson_id": "LESSON_D31",
+    "scenario": "counter_ordering",
+    "speaker_roles": [
+      "customer",
+      "staff"
+    ],
+    "grammar_ids": [
+      "GR_D31_CAN_REQUEST"
+    ],
+    "turns": [
+      {
+        "id": "DLG_D31_01_T1",
+        "speaker": "customer",
+        "text": "不好意思我想要小杯。",
+        "pinyin": "bùhǎoyìsi wǒ xiǎng yào xiǎo bēi.",
+        "pinyin_numeric": "bu4 hao3 yi4 si0 wo3 xiang3 yao4 xiao3 bei1",
+        "translation_en": "Excuse me, I would like this item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_020",
+          "VOC_M1_002",
+          "VOC_D31_001",
+          "VOC_D31_006"
+        ],
+        "audio_id": "AUD_DLG_D31_01_T1"
+      },
+      {
+        "id": "DLG_D31_01_T2",
+        "speaker": "staff",
+        "text": "可以嗎？",
+        "pinyin": "kěyǐ ma?",
+        "pinyin_numeric": "keyi3 ma0",
+        "translation_en": "Is that okay?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D31_01_T2"
+      },
+      {
+        "id": "DLG_D31_01_T3",
+        "speaker": "customer",
+        "text": "可以請給我紅茶。",
+        "pinyin": "kěyǐ qǐng gěi wǒ hóngchá.",
+        "pinyin_numeric": "keyi3 qing3 gei3 wo3 hong2 cha2",
+        "translation_en": "Yes, please give me the second item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_179",
+          "VOC_D31_005",
+          "VOC_D31_011"
+        ],
+        "audio_id": "AUD_DLG_D31_01_T3"
+      },
+      {
+        "id": "DLG_D31_01_T4",
+        "speaker": "staff",
+        "text": "需要小杯嗎？",
+        "pinyin": "xūyào xiǎo bēi ma?",
+        "pinyin_numeric": "xuyao4 xiao3 bei1 ma0",
+        "translation_en": "Do you need this item?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_171",
+          "VOC_D31_006",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D31_01_T4"
+      },
+      {
+        "id": "DLG_D31_01_T5",
+        "speaker": "customer",
+        "text": "不用謝謝。",
+        "pinyin": "búyòng xièxie.",
+        "pinyin_numeric": "bu2 yong4 xie4 xie0",
+        "translation_en": "No need, thank you.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_002",
+          "VOC_D31_003"
+        ],
+        "audio_id": "AUD_DLG_D31_01_T5"
+      },
+      {
+        "id": "DLG_D31_01_T6",
+        "speaker": "staff",
+        "text": "好沒問題。",
+        "pinyin": "hǎo méi wèntí.",
+        "pinyin_numeric": "hao3 mei2 wen4 ti2",
+        "translation_en": "Okay, no problem.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_088",
+          "VOC_D31_035"
+        ],
+        "audio_id": "AUD_DLG_D31_01_T6"
+      }
+    ],
+    "audio_ids": [
+      "AUD_DLG_D31_01_T1",
+      "AUD_DLG_D31_01_T2",
+      "AUD_DLG_D31_01_T3",
+      "AUD_DLG_D31_01_T4",
+      "AUD_DLG_D31_01_T5",
+      "AUD_DLG_D31_01_T6"
+    ],
+    "comprehension_questions": [
+      {
+        "id": "DLG_D31_01_Q1",
+        "question_en": "What does the customer want?",
+        "answer_en": "small cup"
+      },
+      {
+        "id": "DLG_D31_01_Q2",
+        "question_en": "How does the customer respond politely?",
+        "answer_en": "The customer uses 不好意思, 請, and 謝謝."
+      }
+    ],
+    "speaking_shadowing_prompts": [
+      "不好意思我想要小杯。",
+      "可以嗎？",
+      "可以請給我紅茶。",
+      "需要小杯嗎？",
+      "不用謝謝。",
+      "好沒問題。"
+    ],
+    "free_response_branching_prompts": [
+      "Change the requested item and say the turn again.",
+      "Ask one clarification question.",
+      "Politely reject one option."
+    ]
+  },
+  {
+    "id": "DLG_D31_02",
+    "lesson_id": "LESSON_D31",
+    "scenario": "clarifying_price",
+    "speaker_roles": [
+      "customer",
+      "staff"
+    ],
+    "grammar_ids": [
+      "GR_D31_WANT_OBJECT"
+    ],
+    "turns": [
+      {
+        "id": "DLG_D31_02_T1",
+        "speaker": "customer",
+        "text": "不好意思我想要中杯。",
+        "pinyin": "bùhǎoyìsi wǒ xiǎng yào zhōng bēi.",
+        "pinyin_numeric": "bu4 hao3 yi4 si0 wo3 xiang3 yao4 zhong1 bei1",
+        "translation_en": "Excuse me, I would like this item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_020",
+          "VOC_M1_002",
+          "VOC_D31_001",
+          "VOC_D31_007"
+        ],
+        "audio_id": "AUD_DLG_D31_02_T1"
+      },
+      {
+        "id": "DLG_D31_02_T2",
+        "speaker": "staff",
+        "text": "可以嗎？",
+        "pinyin": "kěyǐ ma?",
+        "pinyin_numeric": "keyi3 ma0",
+        "translation_en": "Is that okay?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D31_02_T2"
+      },
+      {
+        "id": "DLG_D31_02_T3",
+        "speaker": "customer",
+        "text": "可以請給我綠茶。",
+        "pinyin": "kěyǐ qǐng gěi wǒ lǜchá.",
+        "pinyin_numeric": "keyi3 qing3 gei3 wo3 lü4 cha2",
+        "translation_en": "Yes, please give me the second item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_179",
+          "VOC_D31_005",
+          "VOC_D31_012"
+        ],
+        "audio_id": "AUD_DLG_D31_02_T3"
+      },
+      {
+        "id": "DLG_D31_02_T4",
+        "speaker": "staff",
+        "text": "需要中杯嗎？",
+        "pinyin": "xūyào zhōng bēi ma?",
+        "pinyin_numeric": "xuyao4 zhong1 bei1 ma0",
+        "translation_en": "Do you need this item?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_171",
+          "VOC_D31_007",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D31_02_T4"
+      },
+      {
+        "id": "DLG_D31_02_T5",
+        "speaker": "customer",
+        "text": "不用謝謝。",
+        "pinyin": "búyòng xièxie.",
+        "pinyin_numeric": "bu2 yong4 xie4 xie0",
+        "translation_en": "No need, thank you.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_002",
+          "VOC_D31_003"
+        ],
+        "audio_id": "AUD_DLG_D31_02_T5"
+      },
+      {
+        "id": "DLG_D31_02_T6",
+        "speaker": "staff",
+        "text": "好沒問題。",
+        "pinyin": "hǎo méi wèntí.",
+        "pinyin_numeric": "hao3 mei2 wen4 ti2",
+        "translation_en": "Okay, no problem.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_088",
+          "VOC_D31_035"
+        ],
+        "audio_id": "AUD_DLG_D31_02_T6"
+      }
+    ],
+    "audio_ids": [
+      "AUD_DLG_D31_02_T1",
+      "AUD_DLG_D31_02_T2",
+      "AUD_DLG_D31_02_T3",
+      "AUD_DLG_D31_02_T4",
+      "AUD_DLG_D31_02_T5",
+      "AUD_DLG_D31_02_T6"
+    ],
+    "comprehension_questions": [
+      {
+        "id": "DLG_D31_02_Q1",
+        "question_en": "What does the customer want?",
+        "answer_en": "medium cup"
+      },
+      {
+        "id": "DLG_D31_02_Q2",
+        "question_en": "How does the customer respond politely?",
+        "answer_en": "The customer uses 不好意思, 請, and 謝謝."
+      }
+    ],
+    "speaking_shadowing_prompts": [
+      "不好意思我想要中杯。",
+      "可以嗎？",
+      "可以請給我綠茶。",
+      "需要中杯嗎？",
+      "不用謝謝。",
+      "好沒問題。"
+    ],
+    "free_response_branching_prompts": [
+      "Change the requested item and say the turn again.",
+      "Ask one clarification question.",
+      "Politely reject one option."
+    ]
+  },
+  {
+    "id": "DLG_D31_03",
+    "lesson_id": "LESSON_D31",
+    "scenario": "polite_request_retry",
+    "speaker_roles": [
+      "customer",
+      "staff"
+    ],
+    "grammar_ids": [
+      "GR_D31_POLITE_SOFTENER"
+    ],
+    "turns": [
+      {
+        "id": "DLG_D31_03_T1",
+        "speaker": "customer",
+        "text": "不好意思我想要大杯。",
+        "pinyin": "bùhǎoyìsi wǒ xiǎng yào dà bēi.",
+        "pinyin_numeric": "bu4 hao3 yi4 si0 wo3 xiang3 yao4 da4 bei1",
+        "translation_en": "Excuse me, I would like this item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_020",
+          "VOC_M1_002",
+          "VOC_D31_001",
+          "VOC_D31_008"
+        ],
+        "audio_id": "AUD_DLG_D31_03_T1"
+      },
+      {
+        "id": "DLG_D31_03_T2",
+        "speaker": "staff",
+        "text": "可以嗎？",
+        "pinyin": "kěyǐ ma?",
+        "pinyin_numeric": "keyi3 ma0",
+        "translation_en": "Is that okay?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D31_03_T2"
+      },
+      {
+        "id": "DLG_D31_03_T3",
+        "speaker": "customer",
+        "text": "可以請給我冰。",
+        "pinyin": "kěyǐ qǐng gěi wǒ bīng.",
+        "pinyin_numeric": "keyi3 qing3 gei3 wo3 bing1",
+        "translation_en": "Yes, please give me the second item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_179",
+          "VOC_D31_005",
+          "VOC_D31_013"
+        ],
+        "audio_id": "AUD_DLG_D31_03_T3"
+      },
+      {
+        "id": "DLG_D31_03_T4",
+        "speaker": "staff",
+        "text": "需要大杯嗎？",
+        "pinyin": "xūyào dà bēi ma?",
+        "pinyin_numeric": "xuyao4 da4 bei1 ma0",
+        "translation_en": "Do you need this item?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_171",
+          "VOC_D31_008",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D31_03_T4"
+      },
+      {
+        "id": "DLG_D31_03_T5",
+        "speaker": "customer",
+        "text": "不用謝謝。",
+        "pinyin": "búyòng xièxie.",
+        "pinyin_numeric": "bu2 yong4 xie4 xie0",
+        "translation_en": "No need, thank you.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_002",
+          "VOC_D31_003"
+        ],
+        "audio_id": "AUD_DLG_D31_03_T5"
+      },
+      {
+        "id": "DLG_D31_03_T6",
+        "speaker": "staff",
+        "text": "好沒問題。",
+        "pinyin": "hǎo méi wèntí.",
+        "pinyin_numeric": "hao3 mei2 wen4 ti2",
+        "translation_en": "Okay, no problem.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_088",
+          "VOC_D31_035"
+        ],
+        "audio_id": "AUD_DLG_D31_03_T6"
+      }
+    ],
+    "audio_ids": [
+      "AUD_DLG_D31_03_T1",
+      "AUD_DLG_D31_03_T2",
+      "AUD_DLG_D31_03_T3",
+      "AUD_DLG_D31_03_T4",
+      "AUD_DLG_D31_03_T5",
+      "AUD_DLG_D31_03_T6"
+    ],
+    "comprehension_questions": [
+      {
+        "id": "DLG_D31_03_Q1",
+        "question_en": "What does the customer want?",
+        "answer_en": "large cup"
+      },
+      {
+        "id": "DLG_D31_03_Q2",
+        "question_en": "How does the customer respond politely?",
+        "answer_en": "The customer uses 不好意思, 請, and 謝謝."
+      }
+    ],
+    "speaking_shadowing_prompts": [
+      "不好意思我想要大杯。",
+      "可以嗎？",
+      "可以請給我冰。",
+      "需要大杯嗎？",
+      "不用謝謝。",
+      "好沒問題。"
+    ],
+    "free_response_branching_prompts": [
+      "Change the requested item and say the turn again.",
+      "Ask one clarification question.",
+      "Politely reject one option."
+    ]
+  },
+  {
+    "id": "DLG_D32_01",
+    "lesson_id": "LESSON_D32",
+    "scenario": "checkout",
+    "speaker_roles": [
+      "customer",
+      "staff"
+    ],
+    "grammar_ids": [
+      "GR_D32_MEASURE_WORDS_BASIC"
+    ],
+    "turns": [
+      {
+        "id": "DLG_D32_01_T1",
+        "speaker": "customer",
+        "text": "不好意思我想要便利商店。",
+        "pinyin": "bùhǎoyìsi wǒ xiǎng yào biànlì shāngdiàn.",
+        "pinyin_numeric": "bu4 hao3 yi4 si0 wo3 xiang3 yao4 bian4 li4 shang1 dian4",
+        "translation_en": "Excuse me, I would like this item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_020",
+          "VOC_M1_002",
+          "VOC_D31_001",
+          "VOC_D32_001"
+        ],
+        "audio_id": "AUD_DLG_D32_01_T1"
+      },
+      {
+        "id": "DLG_D32_01_T2",
+        "speaker": "staff",
+        "text": "可以嗎？",
+        "pinyin": "kěyǐ ma?",
+        "pinyin_numeric": "keyi3 ma0",
+        "translation_en": "Is that okay?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D32_01_T2"
+      },
+      {
+        "id": "DLG_D32_01_T3",
+        "speaker": "customer",
+        "text": "可以請給我收據。",
+        "pinyin": "kěyǐ qǐng gěi wǒ shōujù.",
+        "pinyin_numeric": "keyi3 qing3 gei3 wo3 shou1 ju4",
+        "translation_en": "Yes, please give me the second item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_179",
+          "VOC_D31_005",
+          "VOC_D32_009"
+        ],
+        "audio_id": "AUD_DLG_D32_01_T3"
+      },
+      {
+        "id": "DLG_D32_01_T4",
+        "speaker": "staff",
+        "text": "需要便利商店嗎？",
+        "pinyin": "xūyào biànlì shāngdiàn ma?",
+        "pinyin_numeric": "xuyao4 bian4 li4 shang1 dian4 ma0",
+        "translation_en": "Do you need this item?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_171",
+          "VOC_D32_001",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D32_01_T4"
+      },
+      {
+        "id": "DLG_D32_01_T5",
+        "speaker": "customer",
+        "text": "不用謝謝。",
+        "pinyin": "búyòng xièxie.",
+        "pinyin_numeric": "bu2 yong4 xie4 xie0",
+        "translation_en": "No need, thank you.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_002",
+          "VOC_D31_003"
+        ],
+        "audio_id": "AUD_DLG_D32_01_T5"
+      },
+      {
+        "id": "DLG_D32_01_T6",
+        "speaker": "staff",
+        "text": "好沒問題。",
+        "pinyin": "hǎo méi wèntí.",
+        "pinyin_numeric": "hao3 mei2 wen4 ti2",
+        "translation_en": "Okay, no problem.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_088",
+          "VOC_D31_035"
+        ],
+        "audio_id": "AUD_DLG_D32_01_T6"
+      }
+    ],
+    "audio_ids": [
+      "AUD_DLG_D32_01_T1",
+      "AUD_DLG_D32_01_T2",
+      "AUD_DLG_D32_01_T3",
+      "AUD_DLG_D32_01_T4",
+      "AUD_DLG_D32_01_T5",
+      "AUD_DLG_D32_01_T6"
+    ],
+    "comprehension_questions": [
+      {
+        "id": "DLG_D32_01_Q1",
+        "question_en": "What does the customer want?",
+        "answer_en": "convenience store"
+      },
+      {
+        "id": "DLG_D32_01_Q2",
+        "question_en": "How does the customer respond politely?",
+        "answer_en": "The customer uses 不好意思, 請, and 謝謝."
+      }
+    ],
+    "speaking_shadowing_prompts": [
+      "不好意思我想要便利商店。",
+      "可以嗎？",
+      "可以請給我收據。",
+      "需要便利商店嗎？",
+      "不用謝謝。",
+      "好沒問題。"
+    ],
+    "free_response_branching_prompts": [
+      "Change the requested item and say the turn again.",
+      "Ask one clarification question.",
+      "Politely reject one option."
+    ]
+  },
+  {
+    "id": "DLG_D32_02",
+    "lesson_id": "LESSON_D32",
+    "scenario": "receipt_question",
+    "speaker_roles": [
+      "customer",
+      "staff"
+    ],
+    "grammar_ids": [
+      "GR_D32_YAO_BU_YAO"
+    ],
+    "turns": [
+      {
+        "id": "DLG_D32_02_T1",
+        "speaker": "customer",
+        "text": "不好意思我想要超商。",
+        "pinyin": "bùhǎoyìsi wǒ xiǎng yào chāoshāng.",
+        "pinyin_numeric": "bu4 hao3 yi4 si0 wo3 xiang3 yao4 chao1 shang1",
+        "translation_en": "Excuse me, I would like this item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_020",
+          "VOC_M1_002",
+          "VOC_D31_001",
+          "VOC_D32_002"
+        ],
+        "audio_id": "AUD_DLG_D32_02_T1"
+      },
+      {
+        "id": "DLG_D32_02_T2",
+        "speaker": "staff",
+        "text": "可以嗎？",
+        "pinyin": "kěyǐ ma?",
+        "pinyin_numeric": "keyi3 ma0",
+        "translation_en": "Is that okay?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D32_02_T2"
+      },
+      {
+        "id": "DLG_D32_02_T3",
+        "speaker": "customer",
+        "text": "可以請給我載具。",
+        "pinyin": "kěyǐ qǐng gěi wǒ zàijù.",
+        "pinyin_numeric": "keyi3 qing3 gei3 wo3 zai4 ju4",
+        "translation_en": "Yes, please give me the second item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_179",
+          "VOC_D31_005",
+          "VOC_D32_010"
+        ],
+        "audio_id": "AUD_DLG_D32_02_T3"
+      },
+      {
+        "id": "DLG_D32_02_T4",
+        "speaker": "staff",
+        "text": "需要超商嗎？",
+        "pinyin": "xūyào chāoshāng ma?",
+        "pinyin_numeric": "xuyao4 chao1 shang1 ma0",
+        "translation_en": "Do you need this item?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_171",
+          "VOC_D32_002",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D32_02_T4"
+      },
+      {
+        "id": "DLG_D32_02_T5",
+        "speaker": "customer",
+        "text": "不用謝謝。",
+        "pinyin": "búyòng xièxie.",
+        "pinyin_numeric": "bu2 yong4 xie4 xie0",
+        "translation_en": "No need, thank you.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_002",
+          "VOC_D31_003"
+        ],
+        "audio_id": "AUD_DLG_D32_02_T5"
+      },
+      {
+        "id": "DLG_D32_02_T6",
+        "speaker": "staff",
+        "text": "好沒問題。",
+        "pinyin": "hǎo méi wèntí.",
+        "pinyin_numeric": "hao3 mei2 wen4 ti2",
+        "translation_en": "Okay, no problem.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_088",
+          "VOC_D31_035"
+        ],
+        "audio_id": "AUD_DLG_D32_02_T6"
+      }
+    ],
+    "audio_ids": [
+      "AUD_DLG_D32_02_T1",
+      "AUD_DLG_D32_02_T2",
+      "AUD_DLG_D32_02_T3",
+      "AUD_DLG_D32_02_T4",
+      "AUD_DLG_D32_02_T5",
+      "AUD_DLG_D32_02_T6"
+    ],
+    "comprehension_questions": [
+      {
+        "id": "DLG_D32_02_Q1",
+        "question_en": "What does the customer want?",
+        "answer_en": "convenience store"
+      },
+      {
+        "id": "DLG_D32_02_Q2",
+        "question_en": "How does the customer respond politely?",
+        "answer_en": "The customer uses 不好意思, 請, and 謝謝."
+      }
+    ],
+    "speaking_shadowing_prompts": [
+      "不好意思我想要超商。",
+      "可以嗎？",
+      "可以請給我載具。",
+      "需要超商嗎？",
+      "不用謝謝。",
+      "好沒問題。"
+    ],
+    "free_response_branching_prompts": [
+      "Change the requested item and say the turn again.",
+      "Ask one clarification question.",
+      "Politely reject one option."
+    ]
+  },
+  {
+    "id": "DLG_D32_03",
+    "lesson_id": "LESSON_D32",
+    "scenario": "payment_problem",
+    "speaker_roles": [
+      "customer",
+      "staff"
+    ],
+    "grammar_ids": [
+      "GR_D32_THIS_THAT_REVIEW"
+    ],
+    "turns": [
+      {
+        "id": "DLG_D32_03_T1",
+        "speaker": "customer",
+        "text": "不好意思我想要現金。",
+        "pinyin": "bùhǎoyìsi wǒ xiǎng yào xiànjīn.",
+        "pinyin_numeric": "bu4 hao3 yi4 si0 wo3 xiang3 yao4 xian4 jin1",
+        "translation_en": "Excuse me, I would like this item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_020",
+          "VOC_M1_002",
+          "VOC_D31_001",
+          "VOC_D32_005"
+        ],
+        "audio_id": "AUD_DLG_D32_03_T1"
+      },
+      {
+        "id": "DLG_D32_03_T2",
+        "speaker": "staff",
+        "text": "可以嗎？",
+        "pinyin": "kěyǐ ma?",
+        "pinyin_numeric": "keyi3 ma0",
+        "translation_en": "Is that okay?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D32_03_T2"
+      },
+      {
+        "id": "DLG_D32_03_T3",
+        "speaker": "customer",
+        "text": "可以請給我會員。",
+        "pinyin": "kěyǐ qǐng gěi wǒ huìyuán.",
+        "pinyin_numeric": "keyi3 qing3 gei3 wo3 hui4 yuan2",
+        "translation_en": "Yes, please give me the second item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_179",
+          "VOC_D31_005",
+          "VOC_D32_011"
+        ],
+        "audio_id": "AUD_DLG_D32_03_T3"
+      },
+      {
+        "id": "DLG_D32_03_T4",
+        "speaker": "staff",
+        "text": "需要現金嗎？",
+        "pinyin": "xūyào xiànjīn ma?",
+        "pinyin_numeric": "xuyao4 xian4 jin1 ma0",
+        "translation_en": "Do you need this item?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_171",
+          "VOC_D32_005",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D32_03_T4"
+      },
+      {
+        "id": "DLG_D32_03_T5",
+        "speaker": "customer",
+        "text": "不用謝謝。",
+        "pinyin": "búyòng xièxie.",
+        "pinyin_numeric": "bu2 yong4 xie4 xie0",
+        "translation_en": "No need, thank you.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_002",
+          "VOC_D31_003"
+        ],
+        "audio_id": "AUD_DLG_D32_03_T5"
+      },
+      {
+        "id": "DLG_D32_03_T6",
+        "speaker": "staff",
+        "text": "好沒問題。",
+        "pinyin": "hǎo méi wèntí.",
+        "pinyin_numeric": "hao3 mei2 wen4 ti2",
+        "translation_en": "Okay, no problem.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_088",
+          "VOC_D31_035"
+        ],
+        "audio_id": "AUD_DLG_D32_03_T6"
+      }
+    ],
+    "audio_ids": [
+      "AUD_DLG_D32_03_T1",
+      "AUD_DLG_D32_03_T2",
+      "AUD_DLG_D32_03_T3",
+      "AUD_DLG_D32_03_T4",
+      "AUD_DLG_D32_03_T5",
+      "AUD_DLG_D32_03_T6"
+    ],
+    "comprehension_questions": [
+      {
+        "id": "DLG_D32_03_Q1",
+        "question_en": "What does the customer want?",
+        "answer_en": "cash"
+      },
+      {
+        "id": "DLG_D32_03_Q2",
+        "question_en": "How does the customer respond politely?",
+        "answer_en": "The customer uses 不好意思, 請, and 謝謝."
+      }
+    ],
+    "speaking_shadowing_prompts": [
+      "不好意思我想要現金。",
+      "可以嗎？",
+      "可以請給我會員。",
+      "需要現金嗎？",
+      "不用謝謝。",
+      "好沒問題。"
+    ],
+    "free_response_branching_prompts": [
+      "Change the requested item and say the turn again.",
+      "Ask one clarification question.",
+      "Politely reject one option."
+    ]
+  },
+  {
+    "id": "DLG_D33_01",
+    "lesson_id": "LESSON_D33",
+    "scenario": "ask_bathroom",
+    "speaker_roles": [
+      "customer",
+      "staff"
+    ],
+    "grammar_ids": [
+      "GR_D33_ZAI_LOCATION"
+    ],
+    "turns": [
+      {
+        "id": "DLG_D33_01_T1",
+        "speaker": "customer",
+        "text": "不好意思我想要洗手間。",
+        "pinyin": "bùhǎoyìsi wǒ xiǎng yào xǐshǒujiān.",
+        "pinyin_numeric": "bu4 hao3 yi4 si0 wo3 xiang3 yao4 xi3 shou3 jian1",
+        "translation_en": "Excuse me, I would like this item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_020",
+          "VOC_M1_002",
+          "VOC_D31_001",
+          "VOC_D33_001"
+        ],
+        "audio_id": "AUD_DLG_D33_01_T1"
+      },
+      {
+        "id": "DLG_D33_01_T2",
+        "speaker": "staff",
+        "text": "可以嗎？",
+        "pinyin": "kěyǐ ma?",
+        "pinyin_numeric": "keyi3 ma0",
+        "translation_en": "Is that okay?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D33_01_T2"
+      },
+      {
+        "id": "DLG_D33_01_T3",
+        "speaker": "customer",
+        "text": "可以請給我櫃台。",
+        "pinyin": "kěyǐ qǐng gěi wǒ guìtái.",
+        "pinyin_numeric": "keyi3 qing3 gei3 wo3 gui4 tai2",
+        "translation_en": "Yes, please give me the second item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_179",
+          "VOC_D31_005",
+          "VOC_D33_006"
+        ],
+        "audio_id": "AUD_DLG_D33_01_T3"
+      },
+      {
+        "id": "DLG_D33_01_T4",
+        "speaker": "staff",
+        "text": "需要洗手間嗎？",
+        "pinyin": "xūyào xǐshǒujiān ma?",
+        "pinyin_numeric": "xuyao4 xi3 shou3 jian1 ma0",
+        "translation_en": "Do you need this item?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_171",
+          "VOC_D33_001",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D33_01_T4"
+      },
+      {
+        "id": "DLG_D33_01_T5",
+        "speaker": "customer",
+        "text": "不用謝謝。",
+        "pinyin": "búyòng xièxie.",
+        "pinyin_numeric": "bu2 yong4 xie4 xie0",
+        "translation_en": "No need, thank you.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_002",
+          "VOC_D31_003"
+        ],
+        "audio_id": "AUD_DLG_D33_01_T5"
+      },
+      {
+        "id": "DLG_D33_01_T6",
+        "speaker": "staff",
+        "text": "好沒問題。",
+        "pinyin": "hǎo méi wèntí.",
+        "pinyin_numeric": "hao3 mei2 wen4 ti2",
+        "translation_en": "Okay, no problem.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_088",
+          "VOC_D31_035"
+        ],
+        "audio_id": "AUD_DLG_D33_01_T6"
+      }
+    ],
+    "audio_ids": [
+      "AUD_DLG_D33_01_T1",
+      "AUD_DLG_D33_01_T2",
+      "AUD_DLG_D33_01_T3",
+      "AUD_DLG_D33_01_T4",
+      "AUD_DLG_D33_01_T5",
+      "AUD_DLG_D33_01_T6"
+    ],
+    "comprehension_questions": [
+      {
+        "id": "DLG_D33_01_Q1",
+        "question_en": "What does the customer want?",
+        "answer_en": "restroom"
+      },
+      {
+        "id": "DLG_D33_01_Q2",
+        "question_en": "How does the customer respond politely?",
+        "answer_en": "The customer uses 不好意思, 請, and 謝謝."
+      }
+    ],
+    "speaking_shadowing_prompts": [
+      "不好意思我想要洗手間。",
+      "可以嗎？",
+      "可以請給我櫃台。",
+      "需要洗手間嗎？",
+      "不用謝謝。",
+      "好沒問題。"
+    ],
+    "free_response_branching_prompts": [
+      "Change the requested item and say the turn again.",
+      "Ask one clarification question.",
+      "Politely reject one option."
+    ]
+  },
+  {
+    "id": "DLG_D33_02",
+    "lesson_id": "LESSON_D33",
+    "scenario": "find_counter",
+    "speaker_roles": [
+      "customer",
+      "staff"
+    ],
+    "grammar_ids": [
+      "GR_D33_LOCATION_WORDS"
+    ],
+    "turns": [
+      {
+        "id": "DLG_D33_02_T1",
+        "speaker": "customer",
+        "text": "不好意思我想要電梯。",
+        "pinyin": "bùhǎoyìsi wǒ xiǎng yào diàntī.",
+        "pinyin_numeric": "bu4 hao3 yi4 si0 wo3 xiang3 yao4 dian4 ti1",
+        "translation_en": "Excuse me, I would like this item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_020",
+          "VOC_M1_002",
+          "VOC_D31_001",
+          "VOC_D33_002"
+        ],
+        "audio_id": "AUD_DLG_D33_02_T1"
+      },
+      {
+        "id": "DLG_D33_02_T2",
+        "speaker": "staff",
+        "text": "可以嗎？",
+        "pinyin": "kěyǐ ma?",
+        "pinyin_numeric": "keyi3 ma0",
+        "translation_en": "Is that okay?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D33_02_T2"
+      },
+      {
+        "id": "DLG_D33_02_T3",
+        "speaker": "customer",
+        "text": "可以請給我教室。",
+        "pinyin": "kěyǐ qǐng gěi wǒ jiàoshì.",
+        "pinyin_numeric": "keyi3 qing3 gei3 wo3 jiao4 shi4",
+        "translation_en": "Yes, please give me the second item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_179",
+          "VOC_D31_005",
+          "VOC_D33_007"
+        ],
+        "audio_id": "AUD_DLG_D33_02_T3"
+      },
+      {
+        "id": "DLG_D33_02_T4",
+        "speaker": "staff",
+        "text": "需要電梯嗎？",
+        "pinyin": "xūyào diàntī ma?",
+        "pinyin_numeric": "xuyao4 dian4 ti1 ma0",
+        "translation_en": "Do you need this item?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_171",
+          "VOC_D33_002",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D33_02_T4"
+      },
+      {
+        "id": "DLG_D33_02_T5",
+        "speaker": "customer",
+        "text": "不用謝謝。",
+        "pinyin": "búyòng xièxie.",
+        "pinyin_numeric": "bu2 yong4 xie4 xie0",
+        "translation_en": "No need, thank you.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_002",
+          "VOC_D31_003"
+        ],
+        "audio_id": "AUD_DLG_D33_02_T5"
+      },
+      {
+        "id": "DLG_D33_02_T6",
+        "speaker": "staff",
+        "text": "好沒問題。",
+        "pinyin": "hǎo méi wèntí.",
+        "pinyin_numeric": "hao3 mei2 wen4 ti2",
+        "translation_en": "Okay, no problem.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_088",
+          "VOC_D31_035"
+        ],
+        "audio_id": "AUD_DLG_D33_02_T6"
+      }
+    ],
+    "audio_ids": [
+      "AUD_DLG_D33_02_T1",
+      "AUD_DLG_D33_02_T2",
+      "AUD_DLG_D33_02_T3",
+      "AUD_DLG_D33_02_T4",
+      "AUD_DLG_D33_02_T5",
+      "AUD_DLG_D33_02_T6"
+    ],
+    "comprehension_questions": [
+      {
+        "id": "DLG_D33_02_Q1",
+        "question_en": "What does the customer want?",
+        "answer_en": "elevator"
+      },
+      {
+        "id": "DLG_D33_02_Q2",
+        "question_en": "How does the customer respond politely?",
+        "answer_en": "The customer uses 不好意思, 請, and 謝謝."
+      }
+    ],
+    "speaking_shadowing_prompts": [
+      "不好意思我想要電梯。",
+      "可以嗎？",
+      "可以請給我教室。",
+      "需要電梯嗎？",
+      "不用謝謝。",
+      "好沒問題。"
+    ],
+    "free_response_branching_prompts": [
+      "Change the requested item and say the turn again.",
+      "Ask one clarification question.",
+      "Politely reject one option."
+    ]
+  },
+  {
+    "id": "DLG_D33_03",
+    "lesson_id": "LESSON_D33",
+    "scenario": "wrong_floor",
+    "speaker_roles": [
+      "customer",
+      "staff"
+    ],
+    "grammar_ids": [
+      "GR_D33_CONG_DAO"
+    ],
+    "turns": [
+      {
+        "id": "DLG_D33_03_T1",
+        "speaker": "customer",
+        "text": "不好意思我想要樓梯。",
+        "pinyin": "bùhǎoyìsi wǒ xiǎng yào lóutī.",
+        "pinyin_numeric": "bu4 hao3 yi4 si0 wo3 xiang3 yao4 lou2 ti1",
+        "translation_en": "Excuse me, I would like this item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_020",
+          "VOC_M1_002",
+          "VOC_D31_001",
+          "VOC_D33_003"
+        ],
+        "audio_id": "AUD_DLG_D33_03_T1"
+      },
+      {
+        "id": "DLG_D33_03_T2",
+        "speaker": "staff",
+        "text": "可以嗎？",
+        "pinyin": "kěyǐ ma?",
+        "pinyin_numeric": "keyi3 ma0",
+        "translation_en": "Is that okay?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D33_03_T2"
+      },
+      {
+        "id": "DLG_D33_03_T3",
+        "speaker": "customer",
+        "text": "可以請給我辦公室。",
+        "pinyin": "kěyǐ qǐng gěi wǒ bàngōngshì.",
+        "pinyin_numeric": "keyi3 qing3 gei3 wo3 ban4 gong1 shi4",
+        "translation_en": "Yes, please give me the second item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_179",
+          "VOC_D31_005",
+          "VOC_D33_008"
+        ],
+        "audio_id": "AUD_DLG_D33_03_T3"
+      },
+      {
+        "id": "DLG_D33_03_T4",
+        "speaker": "staff",
+        "text": "需要樓梯嗎？",
+        "pinyin": "xūyào lóutī ma?",
+        "pinyin_numeric": "xuyao4 lou2 ti1 ma0",
+        "translation_en": "Do you need this item?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_171",
+          "VOC_D33_003",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D33_03_T4"
+      },
+      {
+        "id": "DLG_D33_03_T5",
+        "speaker": "customer",
+        "text": "不用謝謝。",
+        "pinyin": "búyòng xièxie.",
+        "pinyin_numeric": "bu2 yong4 xie4 xie0",
+        "translation_en": "No need, thank you.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_002",
+          "VOC_D31_003"
+        ],
+        "audio_id": "AUD_DLG_D33_03_T5"
+      },
+      {
+        "id": "DLG_D33_03_T6",
+        "speaker": "staff",
+        "text": "好沒問題。",
+        "pinyin": "hǎo méi wèntí.",
+        "pinyin_numeric": "hao3 mei2 wen4 ti2",
+        "translation_en": "Okay, no problem.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_088",
+          "VOC_D31_035"
+        ],
+        "audio_id": "AUD_DLG_D33_03_T6"
+      }
+    ],
+    "audio_ids": [
+      "AUD_DLG_D33_03_T1",
+      "AUD_DLG_D33_03_T2",
+      "AUD_DLG_D33_03_T3",
+      "AUD_DLG_D33_03_T4",
+      "AUD_DLG_D33_03_T5",
+      "AUD_DLG_D33_03_T6"
+    ],
+    "comprehension_questions": [
+      {
+        "id": "DLG_D33_03_Q1",
+        "question_en": "What does the customer want?",
+        "answer_en": "stairs"
+      },
+      {
+        "id": "DLG_D33_03_Q2",
+        "question_en": "How does the customer respond politely?",
+        "answer_en": "The customer uses 不好意思, 請, and 謝謝."
+      }
+    ],
+    "speaking_shadowing_prompts": [
+      "不好意思我想要樓梯。",
+      "可以嗎？",
+      "可以請給我辦公室。",
+      "需要樓梯嗎？",
+      "不用謝謝。",
+      "好沒問題。"
+    ],
+    "free_response_branching_prompts": [
+      "Change the requested item and say the turn again.",
+      "Ask one clarification question.",
+      "Politely reject one option."
+    ]
+  },
+  {
+    "id": "DLG_D34_01",
+    "lesson_id": "LESSON_D34",
+    "scenario": "order_noodles",
+    "speaker_roles": [
+      "customer",
+      "staff"
+    ],
+    "grammar_ids": [
+      "GR_D34_YAO_ORDERING"
+    ],
+    "turns": [
+      {
+        "id": "DLG_D34_01_T1",
+        "speaker": "customer",
+        "text": "不好意思我想要珍珠奶茶。",
+        "pinyin": "bùhǎoyìsi wǒ xiǎng yào zhēnzhū nǎichá.",
+        "pinyin_numeric": "bu4 hao3 yi4 si0 wo3 xiang3 yao4 zhen1 zhu1 nai3 cha2",
+        "translation_en": "Excuse me, I would like this item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_020",
+          "VOC_M1_002",
+          "VOC_D31_001",
+          "VOC_D34_001"
+        ],
+        "audio_id": "AUD_DLG_D34_01_T1"
+      },
+      {
+        "id": "DLG_D34_01_T2",
+        "speaker": "staff",
+        "text": "可以嗎？",
+        "pinyin": "kěyǐ ma?",
+        "pinyin_numeric": "keyi3 ma0",
+        "translation_en": "Is that okay?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D34_01_T2"
+      },
+      {
+        "id": "DLG_D34_01_T3",
+        "speaker": "customer",
+        "text": "可以請給我辣。",
+        "pinyin": "kěyǐ qǐng gěi wǒ là.",
+        "pinyin_numeric": "keyi3 qing3 gei3 wo3 la4",
+        "translation_en": "Yes, please give me the second item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_179",
+          "VOC_D31_005",
+          "VOC_D34_006"
+        ],
+        "audio_id": "AUD_DLG_D34_01_T3"
+      },
+      {
+        "id": "DLG_D34_01_T4",
+        "speaker": "staff",
+        "text": "需要珍珠奶茶嗎？",
+        "pinyin": "xūyào zhēnzhū nǎichá ma?",
+        "pinyin_numeric": "xuyao4 zhen1 zhu1 nai3 cha2 ma0",
+        "translation_en": "Do you need this item?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_171",
+          "VOC_D34_001",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D34_01_T4"
+      },
+      {
+        "id": "DLG_D34_01_T5",
+        "speaker": "customer",
+        "text": "不用謝謝。",
+        "pinyin": "búyòng xièxie.",
+        "pinyin_numeric": "bu2 yong4 xie4 xie0",
+        "translation_en": "No need, thank you.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_002",
+          "VOC_D31_003"
+        ],
+        "audio_id": "AUD_DLG_D34_01_T5"
+      },
+      {
+        "id": "DLG_D34_01_T6",
+        "speaker": "staff",
+        "text": "好沒問題。",
+        "pinyin": "hǎo méi wèntí.",
+        "pinyin_numeric": "hao3 mei2 wen4 ti2",
+        "translation_en": "Okay, no problem.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_088",
+          "VOC_D31_035"
+        ],
+        "audio_id": "AUD_DLG_D34_01_T6"
+      }
+    ],
+    "audio_ids": [
+      "AUD_DLG_D34_01_T1",
+      "AUD_DLG_D34_01_T2",
+      "AUD_DLG_D34_01_T3",
+      "AUD_DLG_D34_01_T4",
+      "AUD_DLG_D34_01_T5",
+      "AUD_DLG_D34_01_T6"
+    ],
+    "comprehension_questions": [
+      {
+        "id": "DLG_D34_01_Q1",
+        "question_en": "What does the customer want?",
+        "answer_en": "bubble milk tea"
+      },
+      {
+        "id": "DLG_D34_01_Q2",
+        "question_en": "How does the customer respond politely?",
+        "answer_en": "The customer uses 不好意思, 請, and 謝謝."
+      }
+    ],
+    "speaking_shadowing_prompts": [
+      "不好意思我想要珍珠奶茶。",
+      "可以嗎？",
+      "可以請給我辣。",
+      "需要珍珠奶茶嗎？",
+      "不用謝謝。",
+      "好沒問題。"
+    ],
+    "free_response_branching_prompts": [
+      "Change the requested item and say the turn again.",
+      "Ask one clarification question.",
+      "Politely reject one option."
+    ]
+  },
+  {
+    "id": "DLG_D34_02",
+    "lesson_id": "LESSON_D34",
+    "scenario": "drink_choice",
+    "speaker_roles": [
+      "customer",
+      "staff"
+    ],
+    "grammar_ids": [
+      "GR_D34_HAI_SHI_CHOICE"
+    ],
+    "turns": [
+      {
+        "id": "DLG_D34_02_T1",
+        "speaker": "customer",
+        "text": "不好意思我想要滷肉飯。",
+        "pinyin": "bùhǎoyìsi wǒ xiǎng yào lǔròufàn.",
+        "pinyin_numeric": "bu4 hao3 yi4 si0 wo3 xiang3 yao4 lu3 rou4 fan4",
+        "translation_en": "Excuse me, I would like this item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_020",
+          "VOC_M1_002",
+          "VOC_D31_001",
+          "VOC_D34_002"
+        ],
+        "audio_id": "AUD_DLG_D34_02_T1"
+      },
+      {
+        "id": "DLG_D34_02_T2",
+        "speaker": "staff",
+        "text": "可以嗎？",
+        "pinyin": "kěyǐ ma?",
+        "pinyin_numeric": "keyi3 ma0",
+        "translation_en": "Is that okay?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D34_02_T2"
+      },
+      {
+        "id": "DLG_D34_02_T3",
+        "speaker": "customer",
+        "text": "可以請給我招牌。",
+        "pinyin": "kěyǐ qǐng gěi wǒ zhāopái.",
+        "pinyin_numeric": "keyi3 qing3 gei3 wo3 zhao1 pai2",
+        "translation_en": "Yes, please give me the second item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_179",
+          "VOC_D31_005",
+          "VOC_D34_009"
+        ],
+        "audio_id": "AUD_DLG_D34_02_T3"
+      },
+      {
+        "id": "DLG_D34_02_T4",
+        "speaker": "staff",
+        "text": "需要滷肉飯嗎？",
+        "pinyin": "xūyào lǔròufàn ma?",
+        "pinyin_numeric": "xuyao4 lu3 rou4 fan4 ma0",
+        "translation_en": "Do you need this item?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_171",
+          "VOC_D34_002",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D34_02_T4"
+      },
+      {
+        "id": "DLG_D34_02_T5",
+        "speaker": "customer",
+        "text": "不用謝謝。",
+        "pinyin": "búyòng xièxie.",
+        "pinyin_numeric": "bu2 yong4 xie4 xie0",
+        "translation_en": "No need, thank you.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_002",
+          "VOC_D31_003"
+        ],
+        "audio_id": "AUD_DLG_D34_02_T5"
+      },
+      {
+        "id": "DLG_D34_02_T6",
+        "speaker": "staff",
+        "text": "好沒問題。",
+        "pinyin": "hǎo méi wèntí.",
+        "pinyin_numeric": "hao3 mei2 wen4 ti2",
+        "translation_en": "Okay, no problem.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_088",
+          "VOC_D31_035"
+        ],
+        "audio_id": "AUD_DLG_D34_02_T6"
+      }
+    ],
+    "audio_ids": [
+      "AUD_DLG_D34_02_T1",
+      "AUD_DLG_D34_02_T2",
+      "AUD_DLG_D34_02_T3",
+      "AUD_DLG_D34_02_T4",
+      "AUD_DLG_D34_02_T5",
+      "AUD_DLG_D34_02_T6"
+    ],
+    "comprehension_questions": [
+      {
+        "id": "DLG_D34_02_Q1",
+        "question_en": "What does the customer want?",
+        "answer_en": "braised pork rice"
+      },
+      {
+        "id": "DLG_D34_02_Q2",
+        "question_en": "How does the customer respond politely?",
+        "answer_en": "The customer uses 不好意思, 請, and 謝謝."
+      }
+    ],
+    "speaking_shadowing_prompts": [
+      "不好意思我想要滷肉飯。",
+      "可以嗎？",
+      "可以請給我招牌。",
+      "需要滷肉飯嗎？",
+      "不用謝謝。",
+      "好沒問題。"
+    ],
+    "free_response_branching_prompts": [
+      "Change the requested item and say the turn again.",
+      "Ask one clarification question.",
+      "Politely reject one option."
+    ]
+  },
+  {
+    "id": "DLG_D34_03",
+    "lesson_id": "LESSON_D34",
+    "scenario": "recommendation",
+    "speaker_roles": [
+      "customer",
+      "staff"
+    ],
+    "grammar_ids": [
+      "GR_D34_BU_YAO"
+    ],
+    "turns": [
+      {
+        "id": "DLG_D34_03_T1",
+        "speaker": "customer",
+        "text": "不好意思我想要牛肉麵。",
+        "pinyin": "bùhǎoyìsi wǒ xiǎng yào niúròu miàn.",
+        "pinyin_numeric": "bu4 hao3 yi4 si0 wo3 xiang3 yao4 niu2 rou4 mian4",
+        "translation_en": "Excuse me, I would like this item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_020",
+          "VOC_M1_002",
+          "VOC_D31_001",
+          "VOC_D34_003"
+        ],
+        "audio_id": "AUD_DLG_D34_03_T1"
+      },
+      {
+        "id": "DLG_D34_03_T2",
+        "speaker": "staff",
+        "text": "可以嗎？",
+        "pinyin": "kěyǐ ma?",
+        "pinyin_numeric": "keyi3 ma0",
+        "translation_en": "Is that okay?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D34_03_T2"
+      },
+      {
+        "id": "DLG_D34_03_T3",
+        "speaker": "customer",
+        "text": "可以請給我湯。",
+        "pinyin": "kěyǐ qǐng gěi wǒ tāng.",
+        "pinyin_numeric": "keyi3 qing3 gei3 wo3 tang1",
+        "translation_en": "Yes, please give me the second item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_179",
+          "VOC_D31_005",
+          "VOC_D34_010"
+        ],
+        "audio_id": "AUD_DLG_D34_03_T3"
+      },
+      {
+        "id": "DLG_D34_03_T4",
+        "speaker": "staff",
+        "text": "需要牛肉麵嗎？",
+        "pinyin": "xūyào niúròu miàn ma?",
+        "pinyin_numeric": "xuyao4 niu2 rou4 mian4 ma0",
+        "translation_en": "Do you need this item?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_171",
+          "VOC_D34_003",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D34_03_T4"
+      },
+      {
+        "id": "DLG_D34_03_T5",
+        "speaker": "customer",
+        "text": "不用謝謝。",
+        "pinyin": "búyòng xièxie.",
+        "pinyin_numeric": "bu2 yong4 xie4 xie0",
+        "translation_en": "No need, thank you.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_002",
+          "VOC_D31_003"
+        ],
+        "audio_id": "AUD_DLG_D34_03_T5"
+      },
+      {
+        "id": "DLG_D34_03_T6",
+        "speaker": "staff",
+        "text": "好沒問題。",
+        "pinyin": "hǎo méi wèntí.",
+        "pinyin_numeric": "hao3 mei2 wen4 ti2",
+        "translation_en": "Okay, no problem.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_088",
+          "VOC_D31_035"
+        ],
+        "audio_id": "AUD_DLG_D34_03_T6"
+      }
+    ],
+    "audio_ids": [
+      "AUD_DLG_D34_03_T1",
+      "AUD_DLG_D34_03_T2",
+      "AUD_DLG_D34_03_T3",
+      "AUD_DLG_D34_03_T4",
+      "AUD_DLG_D34_03_T5",
+      "AUD_DLG_D34_03_T6"
+    ],
+    "comprehension_questions": [
+      {
+        "id": "DLG_D34_03_Q1",
+        "question_en": "What does the customer want?",
+        "answer_en": "beef noodle soup"
+      },
+      {
+        "id": "DLG_D34_03_Q2",
+        "question_en": "How does the customer respond politely?",
+        "answer_en": "The customer uses 不好意思, 請, and 謝謝."
+      }
+    ],
+    "speaking_shadowing_prompts": [
+      "不好意思我想要牛肉麵。",
+      "可以嗎？",
+      "可以請給我湯。",
+      "需要牛肉麵嗎？",
+      "不用謝謝。",
+      "好沒問題。"
+    ],
+    "free_response_branching_prompts": [
+      "Change the requested item and say the turn again.",
+      "Ask one clarification question.",
+      "Politely reject one option."
+    ]
+  },
+  {
+    "id": "DLG_D35_01",
+    "lesson_id": "LESSON_D35",
+    "scenario": "no_spicy",
+    "speaker_roles": [
+      "customer",
+      "staff"
+    ],
+    "grammar_ids": [
+      "GR_D35_BU_YAO_FANG"
+    ],
+    "turns": [
+      {
+        "id": "DLG_D35_01_T1",
+        "speaker": "customer",
+        "text": "不好意思我想要不好吃。",
+        "pinyin": "bùhǎoyìsi wǒ xiǎng yào bù hǎochī.",
+        "pinyin_numeric": "bu4 hao3 yi4 si0 wo3 xiang3 yao4 bu4 hao3 chi1",
+        "translation_en": "Excuse me, I would like this item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_020",
+          "VOC_M1_002",
+          "VOC_D31_001",
+          "VOC_D35_017"
+        ],
+        "audio_id": "AUD_DLG_D35_01_T1"
+      },
+      {
+        "id": "DLG_D35_01_T2",
+        "speaker": "staff",
+        "text": "可以嗎？",
+        "pinyin": "kěyǐ ma?",
+        "pinyin_numeric": "keyi3 ma0",
+        "translation_en": "Is that okay?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D35_01_T2"
+      },
+      {
+        "id": "DLG_D35_01_T3",
+        "speaker": "customer",
+        "text": "可以請給我訂單。",
+        "pinyin": "kěyǐ qǐng gěi wǒ dìngdān.",
+        "pinyin_numeric": "keyi3 qing3 gei3 wo3 ding4 dan1",
+        "translation_en": "Yes, please give me the second item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_179",
+          "VOC_D31_005",
+          "VOC_D35_028"
+        ],
+        "audio_id": "AUD_DLG_D35_01_T3"
+      },
+      {
+        "id": "DLG_D35_01_T4",
+        "speaker": "staff",
+        "text": "需要不好吃嗎？",
+        "pinyin": "xūyào bù hǎochī ma?",
+        "pinyin_numeric": "xuyao4 bu4 hao3 chi1 ma0",
+        "translation_en": "Do you need this item?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_171",
+          "VOC_D35_017",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D35_01_T4"
+      },
+      {
+        "id": "DLG_D35_01_T5",
+        "speaker": "customer",
+        "text": "不用謝謝。",
+        "pinyin": "búyòng xièxie.",
+        "pinyin_numeric": "bu2 yong4 xie4 xie0",
+        "translation_en": "No need, thank you.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_002",
+          "VOC_D31_003"
+        ],
+        "audio_id": "AUD_DLG_D35_01_T5"
+      },
+      {
+        "id": "DLG_D35_01_T6",
+        "speaker": "staff",
+        "text": "好沒問題。",
+        "pinyin": "hǎo méi wèntí.",
+        "pinyin_numeric": "hao3 mei2 wen4 ti2",
+        "translation_en": "Okay, no problem.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_088",
+          "VOC_D31_035"
+        ],
+        "audio_id": "AUD_DLG_D35_01_T6"
+      }
+    ],
+    "audio_ids": [
+      "AUD_DLG_D35_01_T1",
+      "AUD_DLG_D35_01_T2",
+      "AUD_DLG_D35_01_T3",
+      "AUD_DLG_D35_01_T4",
+      "AUD_DLG_D35_01_T5",
+      "AUD_DLG_D35_01_T6"
+    ],
+    "comprehension_questions": [
+      {
+        "id": "DLG_D35_01_Q1",
+        "question_en": "What does the customer want?",
+        "answer_en": "not tasty"
+      },
+      {
+        "id": "DLG_D35_01_Q2",
+        "question_en": "How does the customer respond politely?",
+        "answer_en": "The customer uses 不好意思, 請, and 謝謝."
+      }
+    ],
+    "speaking_shadowing_prompts": [
+      "不好意思我想要不好吃。",
+      "可以嗎？",
+      "可以請給我訂單。",
+      "需要不好吃嗎？",
+      "不用謝謝。",
+      "好沒問題。"
+    ],
+    "free_response_branching_prompts": [
+      "Change the requested item and say the turn again.",
+      "Ask one clarification question.",
+      "Politely reject one option."
+    ]
+  },
+  {
+    "id": "DLG_D35_02",
+    "lesson_id": "LESSON_D35",
+    "scenario": "wrong_order",
+    "speaker_roles": [
+      "customer",
+      "staff"
+    ],
+    "grammar_ids": [
+      "GR_D35_KE_YI_MA"
+    ],
+    "turns": [
+      {
+        "id": "DLG_D35_02_T1",
+        "speaker": "customer",
+        "text": "不好意思我想要太鹹。",
+        "pinyin": "bùhǎoyìsi wǒ xiǎng yào tài xián.",
+        "pinyin_numeric": "bu4 hao3 yi4 si0 wo3 xiang3 yao4 tai4 xian2",
+        "translation_en": "Excuse me, I would like this item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_020",
+          "VOC_M1_002",
+          "VOC_D31_001",
+          "VOC_D35_018"
+        ],
+        "audio_id": "AUD_DLG_D35_02_T1"
+      },
+      {
+        "id": "DLG_D35_02_T2",
+        "speaker": "staff",
+        "text": "可以嗎？",
+        "pinyin": "kěyǐ ma?",
+        "pinyin_numeric": "keyi3 ma0",
+        "translation_en": "Is that okay?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D35_02_T2"
+      },
+      {
+        "id": "DLG_D35_02_T3",
+        "speaker": "customer",
+        "text": "可以請給我號碼牌。",
+        "pinyin": "kěyǐ qǐng gěi wǒ hàomǎpái.",
+        "pinyin_numeric": "keyi3 qing3 gei3 wo3 hao4 ma3 pai2",
+        "translation_en": "Yes, please give me the second item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_179",
+          "VOC_D31_005",
+          "VOC_D35_029"
+        ],
+        "audio_id": "AUD_DLG_D35_02_T3"
+      },
+      {
+        "id": "DLG_D35_02_T4",
+        "speaker": "staff",
+        "text": "需要太鹹嗎？",
+        "pinyin": "xūyào tài xián ma?",
+        "pinyin_numeric": "xuyao4 tai4 xian2 ma0",
+        "translation_en": "Do you need this item?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_171",
+          "VOC_D35_018",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D35_02_T4"
+      },
+      {
+        "id": "DLG_D35_02_T5",
+        "speaker": "customer",
+        "text": "不用謝謝。",
+        "pinyin": "búyòng xièxie.",
+        "pinyin_numeric": "bu2 yong4 xie4 xie0",
+        "translation_en": "No need, thank you.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_002",
+          "VOC_D31_003"
+        ],
+        "audio_id": "AUD_DLG_D35_02_T5"
+      },
+      {
+        "id": "DLG_D35_02_T6",
+        "speaker": "staff",
+        "text": "好沒問題。",
+        "pinyin": "hǎo méi wèntí.",
+        "pinyin_numeric": "hao3 mei2 wen4 ti2",
+        "translation_en": "Okay, no problem.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_088",
+          "VOC_D31_035"
+        ],
+        "audio_id": "AUD_DLG_D35_02_T6"
+      }
+    ],
+    "audio_ids": [
+      "AUD_DLG_D35_02_T1",
+      "AUD_DLG_D35_02_T2",
+      "AUD_DLG_D35_02_T3",
+      "AUD_DLG_D35_02_T4",
+      "AUD_DLG_D35_02_T5",
+      "AUD_DLG_D35_02_T6"
+    ],
+    "comprehension_questions": [
+      {
+        "id": "DLG_D35_02_Q1",
+        "question_en": "What does the customer want?",
+        "answer_en": "too salty"
+      },
+      {
+        "id": "DLG_D35_02_Q2",
+        "question_en": "How does the customer respond politely?",
+        "answer_en": "The customer uses 不好意思, 請, and 謝謝."
+      }
+    ],
+    "speaking_shadowing_prompts": [
+      "不好意思我想要太鹹。",
+      "可以嗎？",
+      "可以請給我號碼牌。",
+      "需要太鹹嗎？",
+      "不用謝謝。",
+      "好沒問題。"
+    ],
+    "free_response_branching_prompts": [
+      "Change the requested item and say the turn again.",
+      "Ask one clarification question.",
+      "Politely reject one option."
+    ]
+  },
+  {
+    "id": "DLG_D35_03",
+    "lesson_id": "LESSON_D35",
+    "scenario": "change_order",
+    "speaker_roles": [
+      "customer",
+      "staff"
+    ],
+    "grammar_ids": [
+      "GR_D35_CUO_LE"
+    ],
+    "turns": [
+      {
+        "id": "DLG_D35_03_T1",
+        "speaker": "customer",
+        "text": "不好意思我想要太甜。",
+        "pinyin": "bùhǎoyìsi wǒ xiǎng yào tài tián.",
+        "pinyin_numeric": "bu4 hao3 yi4 si0 wo3 xiang3 yao4 tai4 tian2",
+        "translation_en": "Excuse me, I would like this item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_020",
+          "VOC_M1_002",
+          "VOC_D31_001",
+          "VOC_D35_019"
+        ],
+        "audio_id": "AUD_DLG_D35_03_T1"
+      },
+      {
+        "id": "DLG_D35_03_T2",
+        "speaker": "staff",
+        "text": "可以嗎？",
+        "pinyin": "kěyǐ ma?",
+        "pinyin_numeric": "keyi3 ma0",
+        "translation_en": "Is that okay?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D35_03_T2"
+      },
+      {
+        "id": "DLG_D35_03_T3",
+        "speaker": "customer",
+        "text": "可以請給我桌號。",
+        "pinyin": "kěyǐ qǐng gěi wǒ zhuōhào.",
+        "pinyin_numeric": "keyi3 qing3 gei3 wo3 zhuo1 hao4",
+        "translation_en": "Yes, please give me the second item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_179",
+          "VOC_D31_005",
+          "VOC_D35_030"
+        ],
+        "audio_id": "AUD_DLG_D35_03_T3"
+      },
+      {
+        "id": "DLG_D35_03_T4",
+        "speaker": "staff",
+        "text": "需要太甜嗎？",
+        "pinyin": "xūyào tài tián ma?",
+        "pinyin_numeric": "xuyao4 tai4 tian2 ma0",
+        "translation_en": "Do you need this item?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_171",
+          "VOC_D35_019",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D35_03_T4"
+      },
+      {
+        "id": "DLG_D35_03_T5",
+        "speaker": "customer",
+        "text": "不用謝謝。",
+        "pinyin": "búyòng xièxie.",
+        "pinyin_numeric": "bu2 yong4 xie4 xie0",
+        "translation_en": "No need, thank you.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_002",
+          "VOC_D31_003"
+        ],
+        "audio_id": "AUD_DLG_D35_03_T5"
+      },
+      {
+        "id": "DLG_D35_03_T6",
+        "speaker": "staff",
+        "text": "好沒問題。",
+        "pinyin": "hǎo méi wèntí.",
+        "pinyin_numeric": "hao3 mei2 wen4 ti2",
+        "translation_en": "Okay, no problem.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_088",
+          "VOC_D31_035"
+        ],
+        "audio_id": "AUD_DLG_D35_03_T6"
+      }
+    ],
+    "audio_ids": [
+      "AUD_DLG_D35_03_T1",
+      "AUD_DLG_D35_03_T2",
+      "AUD_DLG_D35_03_T3",
+      "AUD_DLG_D35_03_T4",
+      "AUD_DLG_D35_03_T5",
+      "AUD_DLG_D35_03_T6"
+    ],
+    "comprehension_questions": [
+      {
+        "id": "DLG_D35_03_Q1",
+        "question_en": "What does the customer want?",
+        "answer_en": "too sweet"
+      },
+      {
+        "id": "DLG_D35_03_Q2",
+        "question_en": "How does the customer respond politely?",
+        "answer_en": "The customer uses 不好意思, 請, and 謝謝."
+      }
+    ],
+    "speaking_shadowing_prompts": [
+      "不好意思我想要太甜。",
+      "可以嗎？",
+      "可以請給我桌號。",
+      "需要太甜嗎？",
+      "不用謝謝。",
+      "好沒問題。"
+    ],
+    "free_response_branching_prompts": [
+      "Change the requested item and say the turn again.",
+      "Ask one clarification question.",
+      "Politely reject one option."
+    ]
+  },
+  {
+    "id": "DLG_D36_01",
+    "lesson_id": "LESSON_D36",
+    "scenario": "morning_routine",
+    "speaker_roles": [
+      "customer",
+      "staff"
+    ],
+    "grammar_ids": [
+      "GR_D36_EVERY_DAY"
+    ],
+    "turns": [
+      {
+        "id": "DLG_D36_01_T1",
+        "speaker": "customer",
+        "text": "不好意思我想要每天。",
+        "pinyin": "bùhǎoyìsi wǒ xiǎng yào měitiān.",
+        "pinyin_numeric": "bu4 hao3 yi4 si0 wo3 xiang3 yao4 mei3 tian1",
+        "translation_en": "Excuse me, I would like this item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_020",
+          "VOC_M1_002",
+          "VOC_D31_001",
+          "VOC_D36_001"
+        ],
+        "audio_id": "AUD_DLG_D36_01_T1"
+      },
+      {
+        "id": "DLG_D36_01_T2",
+        "speaker": "staff",
+        "text": "可以嗎？",
+        "pinyin": "kěyǐ ma?",
+        "pinyin_numeric": "keyi3 ma0",
+        "translation_en": "Is that okay?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D36_01_T2"
+      },
+      {
+        "id": "DLG_D36_01_T3",
+        "speaker": "customer",
+        "text": "可以請給我方便。",
+        "pinyin": "kěyǐ qǐng gěi wǒ fāngbiàn.",
+        "pinyin_numeric": "keyi3 qing3 gei3 wo3 fang1 bian4",
+        "translation_en": "Yes, please give me the second item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_179",
+          "VOC_D31_005",
+          "VOC_D36_014"
+        ],
+        "audio_id": "AUD_DLG_D36_01_T3"
+      },
+      {
+        "id": "DLG_D36_01_T4",
+        "speaker": "staff",
+        "text": "需要每天嗎？",
+        "pinyin": "xūyào měitiān ma?",
+        "pinyin_numeric": "xuyao4 mei3 tian1 ma0",
+        "translation_en": "Do you need this item?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_171",
+          "VOC_D36_001",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D36_01_T4"
+      },
+      {
+        "id": "DLG_D36_01_T5",
+        "speaker": "customer",
+        "text": "不用謝謝。",
+        "pinyin": "búyòng xièxie.",
+        "pinyin_numeric": "bu2 yong4 xie4 xie0",
+        "translation_en": "No need, thank you.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_002",
+          "VOC_D31_003"
+        ],
+        "audio_id": "AUD_DLG_D36_01_T5"
+      },
+      {
+        "id": "DLG_D36_01_T6",
+        "speaker": "staff",
+        "text": "好沒問題。",
+        "pinyin": "hǎo méi wèntí.",
+        "pinyin_numeric": "hao3 mei2 wen4 ti2",
+        "translation_en": "Okay, no problem.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_088",
+          "VOC_D31_035"
+        ],
+        "audio_id": "AUD_DLG_D36_01_T6"
+      }
+    ],
+    "audio_ids": [
+      "AUD_DLG_D36_01_T1",
+      "AUD_DLG_D36_01_T2",
+      "AUD_DLG_D36_01_T3",
+      "AUD_DLG_D36_01_T4",
+      "AUD_DLG_D36_01_T5",
+      "AUD_DLG_D36_01_T6"
+    ],
+    "comprehension_questions": [
+      {
+        "id": "DLG_D36_01_Q1",
+        "question_en": "What does the customer want?",
+        "answer_en": "every day"
+      },
+      {
+        "id": "DLG_D36_01_Q2",
+        "question_en": "How does the customer respond politely?",
+        "answer_en": "The customer uses 不好意思, 請, and 謝謝."
+      }
+    ],
+    "speaking_shadowing_prompts": [
+      "不好意思我想要每天。",
+      "可以嗎？",
+      "可以請給我方便。",
+      "需要每天嗎？",
+      "不用謝謝。",
+      "好沒問題。"
+    ],
+    "free_response_branching_prompts": [
+      "Change the requested item and say the turn again.",
+      "Ask one clarification question.",
+      "Politely reject one option."
+    ]
+  },
+  {
+    "id": "DLG_D36_02",
+    "lesson_id": "LESSON_D36",
+    "scenario": "workday",
+    "speaker_roles": [
+      "customer",
+      "staff"
+    ],
+    "grammar_ids": [
+      "GR_D36_TIME_BEFORE_VERB"
+    ],
+    "turns": [
+      {
+        "id": "DLG_D36_02_T1",
+        "speaker": "customer",
+        "text": "不好意思我想要中午。",
+        "pinyin": "bùhǎoyìsi wǒ xiǎng yào zhōngwǔ.",
+        "pinyin_numeric": "bu4 hao3 yi4 si0 wo3 xiang3 yao4 zhong1 wu3",
+        "translation_en": "Excuse me, I would like this item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_020",
+          "VOC_M1_002",
+          "VOC_D31_001",
+          "VOC_D36_002"
+        ],
+        "audio_id": "AUD_DLG_D36_02_T1"
+      },
+      {
+        "id": "DLG_D36_02_T2",
+        "speaker": "staff",
+        "text": "可以嗎？",
+        "pinyin": "kěyǐ ma?",
+        "pinyin_numeric": "keyi3 ma0",
+        "translation_en": "Is that okay?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D36_02_T2"
+      },
+      {
+        "id": "DLG_D36_02_T3",
+        "speaker": "customer",
+        "text": "可以請給我以前。",
+        "pinyin": "kěyǐ qǐng gěi wǒ yǐqián.",
+        "pinyin_numeric": "keyi3 qing3 gei3 wo3 yi3 qian2",
+        "translation_en": "Yes, please give me the second item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_179",
+          "VOC_D31_005",
+          "VOC_D36_034"
+        ],
+        "audio_id": "AUD_DLG_D36_02_T3"
+      },
+      {
+        "id": "DLG_D36_02_T4",
+        "speaker": "staff",
+        "text": "需要中午嗎？",
+        "pinyin": "xūyào zhōngwǔ ma?",
+        "pinyin_numeric": "xuyao4 zhong1 wu3 ma0",
+        "translation_en": "Do you need this item?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_171",
+          "VOC_D36_002",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D36_02_T4"
+      },
+      {
+        "id": "DLG_D36_02_T5",
+        "speaker": "customer",
+        "text": "不用謝謝。",
+        "pinyin": "búyòng xièxie.",
+        "pinyin_numeric": "bu2 yong4 xie4 xie0",
+        "translation_en": "No need, thank you.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_002",
+          "VOC_D31_003"
+        ],
+        "audio_id": "AUD_DLG_D36_02_T5"
+      },
+      {
+        "id": "DLG_D36_02_T6",
+        "speaker": "staff",
+        "text": "好沒問題。",
+        "pinyin": "hǎo méi wèntí.",
+        "pinyin_numeric": "hao3 mei2 wen4 ti2",
+        "translation_en": "Okay, no problem.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_088",
+          "VOC_D31_035"
+        ],
+        "audio_id": "AUD_DLG_D36_02_T6"
+      }
+    ],
+    "audio_ids": [
+      "AUD_DLG_D36_02_T1",
+      "AUD_DLG_D36_02_T2",
+      "AUD_DLG_D36_02_T3",
+      "AUD_DLG_D36_02_T4",
+      "AUD_DLG_D36_02_T5",
+      "AUD_DLG_D36_02_T6"
+    ],
+    "comprehension_questions": [
+      {
+        "id": "DLG_D36_02_Q1",
+        "question_en": "What does the customer want?",
+        "answer_en": "noon"
+      },
+      {
+        "id": "DLG_D36_02_Q2",
+        "question_en": "How does the customer respond politely?",
+        "answer_en": "The customer uses 不好意思, 請, and 謝謝."
+      }
+    ],
+    "speaking_shadowing_prompts": [
+      "不好意思我想要中午。",
+      "可以嗎？",
+      "可以請給我以前。",
+      "需要中午嗎？",
+      "不用謝謝。",
+      "好沒問題。"
+    ],
+    "free_response_branching_prompts": [
+      "Change the requested item and say the turn again.",
+      "Ask one clarification question.",
+      "Politely reject one option."
+    ]
+  },
+  {
+    "id": "DLG_D36_03",
+    "lesson_id": "LESSON_D36",
+    "scenario": "evening_plan",
+    "speaker_roles": [
+      "customer",
+      "staff"
+    ],
+    "grammar_ids": [
+      "GR_D36_XIAN_ZAI"
+    ],
+    "turns": [
+      {
+        "id": "DLG_D36_03_T1",
+        "speaker": "customer",
+        "text": "不好意思我想要晚上。",
+        "pinyin": "bùhǎoyìsi wǒ xiǎng yào wǎnshang.",
+        "pinyin_numeric": "bu4 hao3 yi4 si0 wo3 xiang3 yao4 wan3 shang0",
+        "translation_en": "Excuse me, I would like this item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_020",
+          "VOC_M1_002",
+          "VOC_D31_001",
+          "VOC_D36_003"
+        ],
+        "audio_id": "AUD_DLG_D36_03_T1"
+      },
+      {
+        "id": "DLG_D36_03_T2",
+        "speaker": "staff",
+        "text": "可以嗎？",
+        "pinyin": "kěyǐ ma?",
+        "pinyin_numeric": "keyi3 ma0",
+        "translation_en": "Is that okay?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D36_03_T2"
+      },
+      {
+        "id": "DLG_D36_03_T3",
+        "speaker": "customer",
+        "text": "可以請給我以後。",
+        "pinyin": "kěyǐ qǐng gěi wǒ yǐhòu.",
+        "pinyin_numeric": "keyi3 qing3 gei3 wo3 yi3 hou4",
+        "translation_en": "Yes, please give me the second item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_179",
+          "VOC_D31_005",
+          "VOC_D36_035"
+        ],
+        "audio_id": "AUD_DLG_D36_03_T3"
+      },
+      {
+        "id": "DLG_D36_03_T4",
+        "speaker": "staff",
+        "text": "需要晚上嗎？",
+        "pinyin": "xūyào wǎnshang ma?",
+        "pinyin_numeric": "xuyao4 wan3 shang0 ma0",
+        "translation_en": "Do you need this item?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_171",
+          "VOC_D36_003",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D36_03_T4"
+      },
+      {
+        "id": "DLG_D36_03_T5",
+        "speaker": "customer",
+        "text": "不用謝謝。",
+        "pinyin": "búyòng xièxie.",
+        "pinyin_numeric": "bu2 yong4 xie4 xie0",
+        "translation_en": "No need, thank you.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_002",
+          "VOC_D31_003"
+        ],
+        "audio_id": "AUD_DLG_D36_03_T5"
+      },
+      {
+        "id": "DLG_D36_03_T6",
+        "speaker": "staff",
+        "text": "好沒問題。",
+        "pinyin": "hǎo méi wèntí.",
+        "pinyin_numeric": "hao3 mei2 wen4 ti2",
+        "translation_en": "Okay, no problem.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_088",
+          "VOC_D31_035"
+        ],
+        "audio_id": "AUD_DLG_D36_03_T6"
+      }
+    ],
+    "audio_ids": [
+      "AUD_DLG_D36_03_T1",
+      "AUD_DLG_D36_03_T2",
+      "AUD_DLG_D36_03_T3",
+      "AUD_DLG_D36_03_T4",
+      "AUD_DLG_D36_03_T5",
+      "AUD_DLG_D36_03_T6"
+    ],
+    "comprehension_questions": [
+      {
+        "id": "DLG_D36_03_Q1",
+        "question_en": "What does the customer want?",
+        "answer_en": "evening"
+      },
+      {
+        "id": "DLG_D36_03_Q2",
+        "question_en": "How does the customer respond politely?",
+        "answer_en": "The customer uses 不好意思, 請, and 謝謝."
+      }
+    ],
+    "speaking_shadowing_prompts": [
+      "不好意思我想要晚上。",
+      "可以嗎？",
+      "可以請給我以後。",
+      "需要晚上嗎？",
+      "不用謝謝。",
+      "好沒問題。"
+    ],
+    "free_response_branching_prompts": [
+      "Change the requested item and say the turn again.",
+      "Ask one clarification question.",
+      "Politely reject one option."
+    ]
+  },
+  {
+    "id": "DLG_D37_01",
+    "lesson_id": "LESSON_D37",
+    "scenario": "invite_coffee",
+    "speaker_roles": [
+      "customer",
+      "staff"
+    ],
+    "grammar_ids": [
+      "GR_D37_XIANG_VERB"
+    ],
+    "turns": [
+      {
+        "id": "DLG_D37_01_T1",
+        "speaker": "customer",
+        "text": "不好意思我想要約會。",
+        "pinyin": "bùhǎoyìsi wǒ xiǎng yào yuēhuì.",
+        "pinyin_numeric": "bu4 hao3 yi4 si0 wo3 xiang3 yao4 yue1 hui4",
+        "translation_en": "Excuse me, I would like this item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_020",
+          "VOC_M1_002",
+          "VOC_D31_001",
+          "VOC_D37_001"
+        ],
+        "audio_id": "AUD_DLG_D37_01_T1"
+      },
+      {
+        "id": "DLG_D37_01_T2",
+        "speaker": "staff",
+        "text": "可以嗎？",
+        "pinyin": "kěyǐ ma?",
+        "pinyin_numeric": "keyi3 ma0",
+        "translation_en": "Is that okay?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D37_01_T2"
+      },
+      {
+        "id": "DLG_D37_01_T3",
+        "speaker": "customer",
+        "text": "可以請給我餐廳門口。",
+        "pinyin": "kěyǐ qǐng gěi wǒ cāntīng ménkǒu.",
+        "pinyin_numeric": "keyi3 qing3 gei3 wo3 can1 ting1 men2 kou3",
+        "translation_en": "Yes, please give me the second item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_179",
+          "VOC_D31_005",
+          "VOC_D37_021"
+        ],
+        "audio_id": "AUD_DLG_D37_01_T3"
+      },
+      {
+        "id": "DLG_D37_01_T4",
+        "speaker": "staff",
+        "text": "需要約會嗎？",
+        "pinyin": "xūyào yuēhuì ma?",
+        "pinyin_numeric": "xuyao4 yue1 hui4 ma0",
+        "translation_en": "Do you need this item?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_171",
+          "VOC_D37_001",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D37_01_T4"
+      },
+      {
+        "id": "DLG_D37_01_T5",
+        "speaker": "customer",
+        "text": "不用謝謝。",
+        "pinyin": "búyòng xièxie.",
+        "pinyin_numeric": "bu2 yong4 xie4 xie0",
+        "translation_en": "No need, thank you.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_002",
+          "VOC_D31_003"
+        ],
+        "audio_id": "AUD_DLG_D37_01_T5"
+      },
+      {
+        "id": "DLG_D37_01_T6",
+        "speaker": "staff",
+        "text": "好沒問題。",
+        "pinyin": "hǎo méi wèntí.",
+        "pinyin_numeric": "hao3 mei2 wen4 ti2",
+        "translation_en": "Okay, no problem.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_088",
+          "VOC_D31_035"
+        ],
+        "audio_id": "AUD_DLG_D37_01_T6"
+      }
+    ],
+    "audio_ids": [
+      "AUD_DLG_D37_01_T1",
+      "AUD_DLG_D37_01_T2",
+      "AUD_DLG_D37_01_T3",
+      "AUD_DLG_D37_01_T4",
+      "AUD_DLG_D37_01_T5",
+      "AUD_DLG_D37_01_T6"
+    ],
+    "comprehension_questions": [
+      {
+        "id": "DLG_D37_01_Q1",
+        "question_en": "What does the customer want?",
+        "answer_en": "date; appointment"
+      },
+      {
+        "id": "DLG_D37_01_Q2",
+        "question_en": "How does the customer respond politely?",
+        "answer_en": "The customer uses 不好意思, 請, and 謝謝."
+      }
+    ],
+    "speaking_shadowing_prompts": [
+      "不好意思我想要約會。",
+      "可以嗎？",
+      "可以請給我餐廳門口。",
+      "需要約會嗎？",
+      "不用謝謝。",
+      "好沒問題。"
+    ],
+    "free_response_branching_prompts": [
+      "Change the requested item and say the turn again.",
+      "Ask one clarification question.",
+      "Politely reject one option."
+    ]
+  },
+  {
+    "id": "DLG_D37_02",
+    "lesson_id": "LESSON_D37",
+    "scenario": "suggest_time",
+    "speaker_roles": [
+      "customer",
+      "staff"
+    ],
+    "grammar_ids": [
+      "GR_D37_YAO_FUTURE"
+    ],
+    "turns": [
+      {
+        "id": "DLG_D37_02_T1",
+        "speaker": "customer",
+        "text": "不好意思我想要準時。",
+        "pinyin": "bùhǎoyìsi wǒ xiǎng yào zhǔnshí.",
+        "pinyin_numeric": "bu4 hao3 yi4 si0 wo3 xiang3 yao4 zhun3 shi2",
+        "translation_en": "Excuse me, I would like this item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_020",
+          "VOC_M1_002",
+          "VOC_D31_001",
+          "VOC_D37_014"
+        ],
+        "audio_id": "AUD_DLG_D37_02_T1"
+      },
+      {
+        "id": "DLG_D37_02_T2",
+        "speaker": "staff",
+        "text": "可以嗎？",
+        "pinyin": "kěyǐ ma?",
+        "pinyin_numeric": "keyi3 ma0",
+        "translation_en": "Is that okay?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D37_02_T2"
+      },
+      {
+        "id": "DLG_D37_02_T3",
+        "speaker": "customer",
+        "text": "可以請給我下次。",
+        "pinyin": "kěyǐ qǐng gěi wǒ xià cì.",
+        "pinyin_numeric": "keyi3 qing3 gei3 wo3 xia4 ci4",
+        "translation_en": "Yes, please give me the second item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_179",
+          "VOC_D31_005",
+          "VOC_D37_025"
+        ],
+        "audio_id": "AUD_DLG_D37_02_T3"
+      },
+      {
+        "id": "DLG_D37_02_T4",
+        "speaker": "staff",
+        "text": "需要準時嗎？",
+        "pinyin": "xūyào zhǔnshí ma?",
+        "pinyin_numeric": "xuyao4 zhun3 shi2 ma0",
+        "translation_en": "Do you need this item?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_171",
+          "VOC_D37_014",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D37_02_T4"
+      },
+      {
+        "id": "DLG_D37_02_T5",
+        "speaker": "customer",
+        "text": "不用謝謝。",
+        "pinyin": "búyòng xièxie.",
+        "pinyin_numeric": "bu2 yong4 xie4 xie0",
+        "translation_en": "No need, thank you.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_002",
+          "VOC_D31_003"
+        ],
+        "audio_id": "AUD_DLG_D37_02_T5"
+      },
+      {
+        "id": "DLG_D37_02_T6",
+        "speaker": "staff",
+        "text": "好沒問題。",
+        "pinyin": "hǎo méi wèntí.",
+        "pinyin_numeric": "hao3 mei2 wen4 ti2",
+        "translation_en": "Okay, no problem.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_088",
+          "VOC_D31_035"
+        ],
+        "audio_id": "AUD_DLG_D37_02_T6"
+      }
+    ],
+    "audio_ids": [
+      "AUD_DLG_D37_02_T1",
+      "AUD_DLG_D37_02_T2",
+      "AUD_DLG_D37_02_T3",
+      "AUD_DLG_D37_02_T4",
+      "AUD_DLG_D37_02_T5",
+      "AUD_DLG_D37_02_T6"
+    ],
+    "comprehension_questions": [
+      {
+        "id": "DLG_D37_02_Q1",
+        "question_en": "What does the customer want?",
+        "answer_en": "on time"
+      },
+      {
+        "id": "DLG_D37_02_Q2",
+        "question_en": "How does the customer respond politely?",
+        "answer_en": "The customer uses 不好意思, 請, and 謝謝."
+      }
+    ],
+    "speaking_shadowing_prompts": [
+      "不好意思我想要準時。",
+      "可以嗎？",
+      "可以請給我下次。",
+      "需要準時嗎？",
+      "不用謝謝。",
+      "好沒問題。"
+    ],
+    "free_response_branching_prompts": [
+      "Change the requested item and say the turn again.",
+      "Ask one clarification question.",
+      "Politely reject one option."
+    ]
+  },
+  {
+    "id": "DLG_D37_03",
+    "lesson_id": "LESSON_D37",
+    "scenario": "busy_decline",
+    "speaker_roles": [
+      "customer",
+      "staff"
+    ],
+    "grammar_ids": [
+      "GR_D37_SHENME_SHIHOU"
+    ],
+    "turns": [
+      {
+        "id": "DLG_D37_03_T1",
+        "speaker": "customer",
+        "text": "不好意思我想要地點。",
+        "pinyin": "bùhǎoyìsi wǒ xiǎng yào dìdiǎn.",
+        "pinyin_numeric": "bu4 hao3 yi4 si0 wo3 xiang3 yao4 di4 dian3",
+        "translation_en": "Excuse me, I would like this item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_020",
+          "VOC_M1_002",
+          "VOC_D31_001",
+          "VOC_D37_018"
+        ],
+        "audio_id": "AUD_DLG_D37_03_T1"
+      },
+      {
+        "id": "DLG_D37_03_T2",
+        "speaker": "staff",
+        "text": "可以嗎？",
+        "pinyin": "kěyǐ ma?",
+        "pinyin_numeric": "keyi3 ma0",
+        "translation_en": "Is that okay?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D37_03_T2"
+      },
+      {
+        "id": "DLG_D37_03_T3",
+        "speaker": "customer",
+        "text": "可以請給我這次。",
+        "pinyin": "kěyǐ qǐng gěi wǒ zhè cì.",
+        "pinyin_numeric": "keyi3 qing3 gei3 wo3 zhe4 ci4",
+        "translation_en": "Yes, please give me the second item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_179",
+          "VOC_D31_005",
+          "VOC_D37_026"
+        ],
+        "audio_id": "AUD_DLG_D37_03_T3"
+      },
+      {
+        "id": "DLG_D37_03_T4",
+        "speaker": "staff",
+        "text": "需要地點嗎？",
+        "pinyin": "xūyào dìdiǎn ma?",
+        "pinyin_numeric": "xuyao4 di4 dian3 ma0",
+        "translation_en": "Do you need this item?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_171",
+          "VOC_D37_018",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D37_03_T4"
+      },
+      {
+        "id": "DLG_D37_03_T5",
+        "speaker": "customer",
+        "text": "不用謝謝。",
+        "pinyin": "búyòng xièxie.",
+        "pinyin_numeric": "bu2 yong4 xie4 xie0",
+        "translation_en": "No need, thank you.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_002",
+          "VOC_D31_003"
+        ],
+        "audio_id": "AUD_DLG_D37_03_T5"
+      },
+      {
+        "id": "DLG_D37_03_T6",
+        "speaker": "staff",
+        "text": "好沒問題。",
+        "pinyin": "hǎo méi wèntí.",
+        "pinyin_numeric": "hao3 mei2 wen4 ti2",
+        "translation_en": "Okay, no problem.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_088",
+          "VOC_D31_035"
+        ],
+        "audio_id": "AUD_DLG_D37_03_T6"
+      }
+    ],
+    "audio_ids": [
+      "AUD_DLG_D37_03_T1",
+      "AUD_DLG_D37_03_T2",
+      "AUD_DLG_D37_03_T3",
+      "AUD_DLG_D37_03_T4",
+      "AUD_DLG_D37_03_T5",
+      "AUD_DLG_D37_03_T6"
+    ],
+    "comprehension_questions": [
+      {
+        "id": "DLG_D37_03_Q1",
+        "question_en": "What does the customer want?",
+        "answer_en": "place"
+      },
+      {
+        "id": "DLG_D37_03_Q2",
+        "question_en": "How does the customer respond politely?",
+        "answer_en": "The customer uses 不好意思, 請, and 謝謝."
+      }
+    ],
+    "speaking_shadowing_prompts": [
+      "不好意思我想要地點。",
+      "可以嗎？",
+      "可以請給我這次。",
+      "需要地點嗎？",
+      "不用謝謝。",
+      "好沒問題。"
+    ],
+    "free_response_branching_prompts": [
+      "Change the requested item and say the turn again.",
+      "Ask one clarification question.",
+      "Politely reject one option."
+    ]
+  },
+  {
+    "id": "DLG_D38_01",
+    "lesson_id": "LESSON_D38",
+    "scenario": "mrt_route",
+    "speaker_roles": [
+      "customer",
+      "staff"
+    ],
+    "grammar_ids": [
+      "GR_D38_ZUO_TRANSPORT"
+    ],
+    "turns": [
+      {
+        "id": "DLG_D38_01_T1",
+        "speaker": "customer",
+        "text": "不好意思我想要公車。",
+        "pinyin": "bùhǎoyìsi wǒ xiǎng yào gōngchē.",
+        "pinyin_numeric": "bu4 hao3 yi4 si0 wo3 xiang3 yao4 gong1 che1",
+        "translation_en": "Excuse me, I would like this item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_020",
+          "VOC_M1_002",
+          "VOC_D31_001",
+          "VOC_D38_001"
+        ],
+        "audio_id": "AUD_DLG_D38_01_T1"
+      },
+      {
+        "id": "DLG_D38_01_T2",
+        "speaker": "staff",
+        "text": "可以嗎？",
+        "pinyin": "kěyǐ ma?",
+        "pinyin_numeric": "keyi3 ma0",
+        "translation_en": "Is that okay?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D38_01_T2"
+      },
+      {
+        "id": "DLG_D38_01_T3",
+        "speaker": "customer",
+        "text": "可以請給我票。",
+        "pinyin": "kěyǐ qǐng gěi wǒ piào.",
+        "pinyin_numeric": "keyi3 qing3 gei3 wo3 piao4",
+        "translation_en": "Yes, please give me the second item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_179",
+          "VOC_D31_005",
+          "VOC_D38_010"
+        ],
+        "audio_id": "AUD_DLG_D38_01_T3"
+      },
+      {
+        "id": "DLG_D38_01_T4",
+        "speaker": "staff",
+        "text": "需要公車嗎？",
+        "pinyin": "xūyào gōngchē ma?",
+        "pinyin_numeric": "xuyao4 gong1 che1 ma0",
+        "translation_en": "Do you need this item?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_171",
+          "VOC_D38_001",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D38_01_T4"
+      },
+      {
+        "id": "DLG_D38_01_T5",
+        "speaker": "customer",
+        "text": "不用謝謝。",
+        "pinyin": "búyòng xièxie.",
+        "pinyin_numeric": "bu2 yong4 xie4 xie0",
+        "translation_en": "No need, thank you.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_002",
+          "VOC_D31_003"
+        ],
+        "audio_id": "AUD_DLG_D38_01_T5"
+      },
+      {
+        "id": "DLG_D38_01_T6",
+        "speaker": "staff",
+        "text": "好沒問題。",
+        "pinyin": "hǎo méi wèntí.",
+        "pinyin_numeric": "hao3 mei2 wen4 ti2",
+        "translation_en": "Okay, no problem.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_088",
+          "VOC_D31_035"
+        ],
+        "audio_id": "AUD_DLG_D38_01_T6"
+      }
+    ],
+    "audio_ids": [
+      "AUD_DLG_D38_01_T1",
+      "AUD_DLG_D38_01_T2",
+      "AUD_DLG_D38_01_T3",
+      "AUD_DLG_D38_01_T4",
+      "AUD_DLG_D38_01_T5",
+      "AUD_DLG_D38_01_T6"
+    ],
+    "comprehension_questions": [
+      {
+        "id": "DLG_D38_01_Q1",
+        "question_en": "What does the customer want?",
+        "answer_en": "bus"
+      },
+      {
+        "id": "DLG_D38_01_Q2",
+        "question_en": "How does the customer respond politely?",
+        "answer_en": "The customer uses 不好意思, 請, and 謝謝."
+      }
+    ],
+    "speaking_shadowing_prompts": [
+      "不好意思我想要公車。",
+      "可以嗎？",
+      "可以請給我票。",
+      "需要公車嗎？",
+      "不用謝謝。",
+      "好沒問題。"
+    ],
+    "free_response_branching_prompts": [
+      "Change the requested item and say the turn again.",
+      "Ask one clarification question.",
+      "Politely reject one option."
+    ]
+  },
+  {
+    "id": "DLG_D38_02",
+    "lesson_id": "LESSON_D38",
+    "scenario": "bus_stop",
+    "speaker_roles": [
+      "customer",
+      "staff"
+    ],
+    "grammar_ids": [
+      "GR_D38_DAO_PLACE"
+    ],
+    "turns": [
+      {
+        "id": "DLG_D38_02_T1",
+        "speaker": "customer",
+        "text": "不好意思我想要計程車。",
+        "pinyin": "bùhǎoyìsi wǒ xiǎng yào jìchéngchē.",
+        "pinyin_numeric": "bu4 hao3 yi4 si0 wo3 xiang3 yao4 ji4 cheng2 che1",
+        "translation_en": "Excuse me, I would like this item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_020",
+          "VOC_M1_002",
+          "VOC_D31_001",
+          "VOC_D38_002"
+        ],
+        "audio_id": "AUD_DLG_D38_02_T1"
+      },
+      {
+        "id": "DLG_D38_02_T2",
+        "speaker": "staff",
+        "text": "可以嗎？",
+        "pinyin": "kěyǐ ma?",
+        "pinyin_numeric": "keyi3 ma0",
+        "translation_en": "Is that okay?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D38_02_T2"
+      },
+      {
+        "id": "DLG_D38_02_T3",
+        "speaker": "customer",
+        "text": "可以請給我車票。",
+        "pinyin": "kěyǐ qǐng gěi wǒ chēpiào.",
+        "pinyin_numeric": "keyi3 qing3 gei3 wo3 che1 piao4",
+        "translation_en": "Yes, please give me the second item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_179",
+          "VOC_D31_005",
+          "VOC_D38_011"
+        ],
+        "audio_id": "AUD_DLG_D38_02_T3"
+      },
+      {
+        "id": "DLG_D38_02_T4",
+        "speaker": "staff",
+        "text": "需要計程車嗎？",
+        "pinyin": "xūyào jìchéngchē ma?",
+        "pinyin_numeric": "xuyao4 ji4 cheng2 che1 ma0",
+        "translation_en": "Do you need this item?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_171",
+          "VOC_D38_002",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D38_02_T4"
+      },
+      {
+        "id": "DLG_D38_02_T5",
+        "speaker": "customer",
+        "text": "不用謝謝。",
+        "pinyin": "búyòng xièxie.",
+        "pinyin_numeric": "bu2 yong4 xie4 xie0",
+        "translation_en": "No need, thank you.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_002",
+          "VOC_D31_003"
+        ],
+        "audio_id": "AUD_DLG_D38_02_T5"
+      },
+      {
+        "id": "DLG_D38_02_T6",
+        "speaker": "staff",
+        "text": "好沒問題。",
+        "pinyin": "hǎo méi wèntí.",
+        "pinyin_numeric": "hao3 mei2 wen4 ti2",
+        "translation_en": "Okay, no problem.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_088",
+          "VOC_D31_035"
+        ],
+        "audio_id": "AUD_DLG_D38_02_T6"
+      }
+    ],
+    "audio_ids": [
+      "AUD_DLG_D38_02_T1",
+      "AUD_DLG_D38_02_T2",
+      "AUD_DLG_D38_02_T3",
+      "AUD_DLG_D38_02_T4",
+      "AUD_DLG_D38_02_T5",
+      "AUD_DLG_D38_02_T6"
+    ],
+    "comprehension_questions": [
+      {
+        "id": "DLG_D38_02_Q1",
+        "question_en": "What does the customer want?",
+        "answer_en": "taxi"
+      },
+      {
+        "id": "DLG_D38_02_Q2",
+        "question_en": "How does the customer respond politely?",
+        "answer_en": "The customer uses 不好意思, 請, and 謝謝."
+      }
+    ],
+    "speaking_shadowing_prompts": [
+      "不好意思我想要計程車。",
+      "可以嗎？",
+      "可以請給我車票。",
+      "需要計程車嗎？",
+      "不用謝謝。",
+      "好沒問題。"
+    ],
+    "free_response_branching_prompts": [
+      "Change the requested item and say the turn again.",
+      "Ask one clarification question.",
+      "Politely reject one option."
+    ]
+  },
+  {
+    "id": "DLG_D38_03",
+    "lesson_id": "LESSON_D38",
+    "scenario": "taxi_destination",
+    "speaker_roles": [
+      "customer",
+      "staff"
+    ],
+    "grammar_ids": [
+      "GR_D38_ZENME_QU"
+    ],
+    "turns": [
+      {
+        "id": "DLG_D38_03_T1",
+        "speaker": "customer",
+        "text": "不好意思我想要月台。",
+        "pinyin": "bùhǎoyìsi wǒ xiǎng yào yuètái.",
+        "pinyin_numeric": "bu4 hao3 yi4 si0 wo3 xiang3 yao4 yue4 tai2",
+        "translation_en": "Excuse me, I would like this item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_020",
+          "VOC_M1_002",
+          "VOC_D31_001",
+          "VOC_D38_003"
+        ],
+        "audio_id": "AUD_DLG_D38_03_T1"
+      },
+      {
+        "id": "DLG_D38_03_T2",
+        "speaker": "staff",
+        "text": "可以嗎？",
+        "pinyin": "kěyǐ ma?",
+        "pinyin_numeric": "keyi3 ma0",
+        "translation_en": "Is that okay?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D38_03_T2"
+      },
+      {
+        "id": "DLG_D38_03_T3",
+        "speaker": "customer",
+        "text": "可以請給我單程票。",
+        "pinyin": "kěyǐ qǐng gěi wǒ dānchéngpiào.",
+        "pinyin_numeric": "keyi3 qing3 gei3 wo3 dan1 cheng2 piao4",
+        "translation_en": "Yes, please give me the second item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_179",
+          "VOC_D31_005",
+          "VOC_D38_012"
+        ],
+        "audio_id": "AUD_DLG_D38_03_T3"
+      },
+      {
+        "id": "DLG_D38_03_T4",
+        "speaker": "staff",
+        "text": "需要月台嗎？",
+        "pinyin": "xūyào yuètái ma?",
+        "pinyin_numeric": "xuyao4 yue4 tai2 ma0",
+        "translation_en": "Do you need this item?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_171",
+          "VOC_D38_003",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D38_03_T4"
+      },
+      {
+        "id": "DLG_D38_03_T5",
+        "speaker": "customer",
+        "text": "不用謝謝。",
+        "pinyin": "búyòng xièxie.",
+        "pinyin_numeric": "bu2 yong4 xie4 xie0",
+        "translation_en": "No need, thank you.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_002",
+          "VOC_D31_003"
+        ],
+        "audio_id": "AUD_DLG_D38_03_T5"
+      },
+      {
+        "id": "DLG_D38_03_T6",
+        "speaker": "staff",
+        "text": "好沒問題。",
+        "pinyin": "hǎo méi wèntí.",
+        "pinyin_numeric": "hao3 mei2 wen4 ti2",
+        "translation_en": "Okay, no problem.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_088",
+          "VOC_D31_035"
+        ],
+        "audio_id": "AUD_DLG_D38_03_T6"
+      }
+    ],
+    "audio_ids": [
+      "AUD_DLG_D38_03_T1",
+      "AUD_DLG_D38_03_T2",
+      "AUD_DLG_D38_03_T3",
+      "AUD_DLG_D38_03_T4",
+      "AUD_DLG_D38_03_T5",
+      "AUD_DLG_D38_03_T6"
+    ],
+    "comprehension_questions": [
+      {
+        "id": "DLG_D38_03_Q1",
+        "question_en": "What does the customer want?",
+        "answer_en": "platform"
+      },
+      {
+        "id": "DLG_D38_03_Q2",
+        "question_en": "How does the customer respond politely?",
+        "answer_en": "The customer uses 不好意思, 請, and 謝謝."
+      }
+    ],
+    "speaking_shadowing_prompts": [
+      "不好意思我想要月台。",
+      "可以嗎？",
+      "可以請給我單程票。",
+      "需要月台嗎？",
+      "不用謝謝。",
+      "好沒問題。"
+    ],
+    "free_response_branching_prompts": [
+      "Change the requested item and say the turn again.",
+      "Ask one clarification question.",
+      "Politely reject one option."
+    ]
+  },
+  {
+    "id": "DLG_D39_01",
+    "lesson_id": "LESSON_D39",
+    "scenario": "missed_stop",
+    "speaker_roles": [
+      "customer",
+      "staff"
+    ],
+    "grammar_ids": [
+      "GR_D39_HUAN_CHE"
+    ],
+    "turns": [
+      {
+        "id": "DLG_D39_01_T1",
+        "speaker": "customer",
+        "text": "不好意思我想要反方向。",
+        "pinyin": "bùhǎoyìsi wǒ xiǎng yào fǎn fāngxiàng.",
+        "pinyin_numeric": "bu4 hao3 yi4 si0 wo3 xiang3 yao4 fan3 fang1 xiang4",
+        "translation_en": "Excuse me, I would like this item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_020",
+          "VOC_M1_002",
+          "VOC_D31_001",
+          "VOC_D39_005"
+        ],
+        "audio_id": "AUD_DLG_D39_01_T1"
+      },
+      {
+        "id": "DLG_D39_01_T2",
+        "speaker": "staff",
+        "text": "可以嗎？",
+        "pinyin": "kěyǐ ma?",
+        "pinyin_numeric": "keyi3 ma0",
+        "translation_en": "Is that okay?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D39_01_T2"
+      },
+      {
+        "id": "DLG_D39_01_T3",
+        "speaker": "customer",
+        "text": "可以請給我定位。",
+        "pinyin": "kěyǐ qǐng gěi wǒ dìngwèi.",
+        "pinyin_numeric": "keyi3 qing3 gei3 wo3 ding4 wei4",
+        "translation_en": "Yes, please give me the second item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_179",
+          "VOC_D31_005",
+          "VOC_D39_023"
+        ],
+        "audio_id": "AUD_DLG_D39_01_T3"
+      },
+      {
+        "id": "DLG_D39_01_T4",
+        "speaker": "staff",
+        "text": "需要反方向嗎？",
+        "pinyin": "xūyào fǎn fāngxiàng ma?",
+        "pinyin_numeric": "xuyao4 fan3 fang1 xiang4 ma0",
+        "translation_en": "Do you need this item?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_171",
+          "VOC_D39_005",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D39_01_T4"
+      },
+      {
+        "id": "DLG_D39_01_T5",
+        "speaker": "customer",
+        "text": "不用謝謝。",
+        "pinyin": "búyòng xièxie.",
+        "pinyin_numeric": "bu2 yong4 xie4 xie0",
+        "translation_en": "No need, thank you.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_002",
+          "VOC_D31_003"
+        ],
+        "audio_id": "AUD_DLG_D39_01_T5"
+      },
+      {
+        "id": "DLG_D39_01_T6",
+        "speaker": "staff",
+        "text": "好沒問題。",
+        "pinyin": "hǎo méi wèntí.",
+        "pinyin_numeric": "hao3 mei2 wen4 ti2",
+        "translation_en": "Okay, no problem.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_088",
+          "VOC_D31_035"
+        ],
+        "audio_id": "AUD_DLG_D39_01_T6"
+      }
+    ],
+    "audio_ids": [
+      "AUD_DLG_D39_01_T1",
+      "AUD_DLG_D39_01_T2",
+      "AUD_DLG_D39_01_T3",
+      "AUD_DLG_D39_01_T4",
+      "AUD_DLG_D39_01_T5",
+      "AUD_DLG_D39_01_T6"
+    ],
+    "comprehension_questions": [
+      {
+        "id": "DLG_D39_01_Q1",
+        "question_en": "What does the customer want?",
+        "answer_en": "opposite direction"
+      },
+      {
+        "id": "DLG_D39_01_Q2",
+        "question_en": "How does the customer respond politely?",
+        "answer_en": "The customer uses 不好意思, 請, and 謝謝."
+      }
+    ],
+    "speaking_shadowing_prompts": [
+      "不好意思我想要反方向。",
+      "可以嗎？",
+      "可以請給我定位。",
+      "需要反方向嗎？",
+      "不用謝謝。",
+      "好沒問題。"
+    ],
+    "free_response_branching_prompts": [
+      "Change the requested item and say the turn again.",
+      "Ask one clarification question.",
+      "Politely reject one option."
+    ]
+  },
+  {
+    "id": "DLG_D39_02",
+    "lesson_id": "LESSON_D39",
+    "scenario": "transfer_question",
+    "speaker_roles": [
+      "customer",
+      "staff"
+    ],
+    "grammar_ids": [
+      "GR_D39_CUO_DIRECTION"
+    ],
+    "turns": [
+      {
+        "id": "DLG_D39_02_T1",
+        "speaker": "customer",
+        "text": "不好意思我想要末班車。",
+        "pinyin": "bùhǎoyìsi wǒ xiǎng yào mòbānchē.",
+        "pinyin_numeric": "bu4 hao3 yi4 si0 wo3 xiang3 yao4 mo4 ban1 che1",
+        "translation_en": "Excuse me, I would like this item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_020",
+          "VOC_M1_002",
+          "VOC_D31_001",
+          "VOC_D39_012"
+        ],
+        "audio_id": "AUD_DLG_D39_02_T1"
+      },
+      {
+        "id": "DLG_D39_02_T2",
+        "speaker": "staff",
+        "text": "可以嗎？",
+        "pinyin": "kěyǐ ma?",
+        "pinyin_numeric": "keyi3 ma0",
+        "translation_en": "Is that okay?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D39_02_T2"
+      },
+      {
+        "id": "DLG_D39_02_T3",
+        "speaker": "customer",
+        "text": "可以請給我路口。",
+        "pinyin": "kěyǐ qǐng gěi wǒ lùkǒu.",
+        "pinyin_numeric": "keyi3 qing3 gei3 wo3 lu4 kou3",
+        "translation_en": "Yes, please give me the second item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_179",
+          "VOC_D31_005",
+          "VOC_D39_024"
+        ],
+        "audio_id": "AUD_DLG_D39_02_T3"
+      },
+      {
+        "id": "DLG_D39_02_T4",
+        "speaker": "staff",
+        "text": "需要末班車嗎？",
+        "pinyin": "xūyào mòbānchē ma?",
+        "pinyin_numeric": "xuyao4 mo4 ban1 che1 ma0",
+        "translation_en": "Do you need this item?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_171",
+          "VOC_D39_012",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D39_02_T4"
+      },
+      {
+        "id": "DLG_D39_02_T5",
+        "speaker": "customer",
+        "text": "不用謝謝。",
+        "pinyin": "búyòng xièxie.",
+        "pinyin_numeric": "bu2 yong4 xie4 xie0",
+        "translation_en": "No need, thank you.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_002",
+          "VOC_D31_003"
+        ],
+        "audio_id": "AUD_DLG_D39_02_T5"
+      },
+      {
+        "id": "DLG_D39_02_T6",
+        "speaker": "staff",
+        "text": "好沒問題。",
+        "pinyin": "hǎo méi wèntí.",
+        "pinyin_numeric": "hao3 mei2 wen4 ti2",
+        "translation_en": "Okay, no problem.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_088",
+          "VOC_D31_035"
+        ],
+        "audio_id": "AUD_DLG_D39_02_T6"
+      }
+    ],
+    "audio_ids": [
+      "AUD_DLG_D39_02_T1",
+      "AUD_DLG_D39_02_T2",
+      "AUD_DLG_D39_02_T3",
+      "AUD_DLG_D39_02_T4",
+      "AUD_DLG_D39_02_T5",
+      "AUD_DLG_D39_02_T6"
+    ],
+    "comprehension_questions": [
+      {
+        "id": "DLG_D39_02_Q1",
+        "question_en": "What does the customer want?",
+        "answer_en": "last train/bus"
+      },
+      {
+        "id": "DLG_D39_02_Q2",
+        "question_en": "How does the customer respond politely?",
+        "answer_en": "The customer uses 不好意思, 請, and 謝謝."
+      }
+    ],
+    "speaking_shadowing_prompts": [
+      "不好意思我想要末班車。",
+      "可以嗎？",
+      "可以請給我路口。",
+      "需要末班車嗎？",
+      "不用謝謝。",
+      "好沒問題。"
+    ],
+    "free_response_branching_prompts": [
+      "Change the requested item and say the turn again.",
+      "Ask one clarification question.",
+      "Politely reject one option."
+    ]
+  },
+  {
+    "id": "DLG_D39_03",
+    "lesson_id": "LESSON_D39",
+    "scenario": "wrong_direction",
+    "speaker_roles": [
+      "customer",
+      "staff"
+    ],
+    "grammar_ids": [
+      "GR_D39_HAI_MEI"
+    ],
+    "turns": [
+      {
+        "id": "DLG_D39_03_T1",
+        "speaker": "customer",
+        "text": "不好意思我想要首班車。",
+        "pinyin": "bùhǎoyìsi wǒ xiǎng yào shǒubānchē.",
+        "pinyin_numeric": "bu4 hao3 yi4 si0 wo3 xiang3 yao4 shou3 ban1 che1",
+        "translation_en": "Excuse me, I would like this item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_020",
+          "VOC_M1_002",
+          "VOC_D31_001",
+          "VOC_D39_013"
+        ],
+        "audio_id": "AUD_DLG_D39_03_T1"
+      },
+      {
+        "id": "DLG_D39_03_T2",
+        "speaker": "staff",
+        "text": "可以嗎？",
+        "pinyin": "kěyǐ ma?",
+        "pinyin_numeric": "keyi3 ma0",
+        "translation_en": "Is that okay?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D39_03_T2"
+      },
+      {
+        "id": "DLG_D39_03_T3",
+        "speaker": "customer",
+        "text": "可以請給我紅綠燈。",
+        "pinyin": "kěyǐ qǐng gěi wǒ hónglǜdēng.",
+        "pinyin_numeric": "keyi3 qing3 gei3 wo3 hong2 lü4 deng1",
+        "translation_en": "Yes, please give me the second item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_179",
+          "VOC_D31_005",
+          "VOC_D39_025"
+        ],
+        "audio_id": "AUD_DLG_D39_03_T3"
+      },
+      {
+        "id": "DLG_D39_03_T4",
+        "speaker": "staff",
+        "text": "需要首班車嗎？",
+        "pinyin": "xūyào shǒubānchē ma?",
+        "pinyin_numeric": "xuyao4 shou3 ban1 che1 ma0",
+        "translation_en": "Do you need this item?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_171",
+          "VOC_D39_013",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D39_03_T4"
+      },
+      {
+        "id": "DLG_D39_03_T5",
+        "speaker": "customer",
+        "text": "不用謝謝。",
+        "pinyin": "búyòng xièxie.",
+        "pinyin_numeric": "bu2 yong4 xie4 xie0",
+        "translation_en": "No need, thank you.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_002",
+          "VOC_D31_003"
+        ],
+        "audio_id": "AUD_DLG_D39_03_T5"
+      },
+      {
+        "id": "DLG_D39_03_T6",
+        "speaker": "staff",
+        "text": "好沒問題。",
+        "pinyin": "hǎo méi wèntí.",
+        "pinyin_numeric": "hao3 mei2 wen4 ti2",
+        "translation_en": "Okay, no problem.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_088",
+          "VOC_D31_035"
+        ],
+        "audio_id": "AUD_DLG_D39_03_T6"
+      }
+    ],
+    "audio_ids": [
+      "AUD_DLG_D39_03_T1",
+      "AUD_DLG_D39_03_T2",
+      "AUD_DLG_D39_03_T3",
+      "AUD_DLG_D39_03_T4",
+      "AUD_DLG_D39_03_T5",
+      "AUD_DLG_D39_03_T6"
+    ],
+    "comprehension_questions": [
+      {
+        "id": "DLG_D39_03_Q1",
+        "question_en": "What does the customer want?",
+        "answer_en": "first train/bus"
+      },
+      {
+        "id": "DLG_D39_03_Q2",
+        "question_en": "How does the customer respond politely?",
+        "answer_en": "The customer uses 不好意思, 請, and 謝謝."
+      }
+    ],
+    "speaking_shadowing_prompts": [
+      "不好意思我想要首班車。",
+      "可以嗎？",
+      "可以請給我紅綠燈。",
+      "需要首班車嗎？",
+      "不用謝謝。",
+      "好沒問題。"
+    ],
+    "free_response_branching_prompts": [
+      "Change the requested item and say the turn again.",
+      "Ask one clarification question.",
+      "Politely reject one option."
+    ]
+  },
+  {
+    "id": "DLG_D40_01",
+    "lesson_id": "LESSON_D40",
+    "scenario": "shop_to_transport_chain",
+    "speaker_roles": [
+      "customer",
+      "staff"
+    ],
+    "grammar_ids": [
+      "GR_D40_REVIEW_RECOMBINATION"
+    ],
+    "turns": [
+      {
+        "id": "DLG_D40_01_T1",
+        "speaker": "customer",
+        "text": "不好意思我想要重點。",
+        "pinyin": "bùhǎoyìsi wǒ xiǎng yào zhòngdiǎn.",
+        "pinyin_numeric": "bu4 hao3 yi4 si0 wo3 xiang3 yao4 zhong4 dian3",
+        "translation_en": "Excuse me, I would like this item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_020",
+          "VOC_M1_002",
+          "VOC_D31_001",
+          "VOC_D40_002"
+        ],
+        "audio_id": "AUD_DLG_D40_01_T1"
+      },
+      {
+        "id": "DLG_D40_01_T2",
+        "speaker": "staff",
+        "text": "可以嗎？",
+        "pinyin": "kěyǐ ma?",
+        "pinyin_numeric": "keyi3 ma0",
+        "translation_en": "Is that okay?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D40_01_T2"
+      },
+      {
+        "id": "DLG_D40_01_T3",
+        "speaker": "customer",
+        "text": "可以請給我句子。",
+        "pinyin": "kěyǐ qǐng gěi wǒ jùzi.",
+        "pinyin_numeric": "keyi3 qing3 gei3 wo3 ju4 zi0",
+        "translation_en": "Yes, please give me the second item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_179",
+          "VOC_D31_005",
+          "VOC_D40_009"
+        ],
+        "audio_id": "AUD_DLG_D40_01_T3"
+      },
+      {
+        "id": "DLG_D40_01_T4",
+        "speaker": "staff",
+        "text": "需要重點嗎？",
+        "pinyin": "xūyào zhòngdiǎn ma?",
+        "pinyin_numeric": "xuyao4 zhong4 dian3 ma0",
+        "translation_en": "Do you need this item?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_171",
+          "VOC_D40_002",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D40_01_T4"
+      },
+      {
+        "id": "DLG_D40_01_T5",
+        "speaker": "customer",
+        "text": "不用謝謝。",
+        "pinyin": "búyòng xièxie.",
+        "pinyin_numeric": "bu2 yong4 xie4 xie0",
+        "translation_en": "No need, thank you.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_002",
+          "VOC_D31_003"
+        ],
+        "audio_id": "AUD_DLG_D40_01_T5"
+      },
+      {
+        "id": "DLG_D40_01_T6",
+        "speaker": "staff",
+        "text": "好沒問題。",
+        "pinyin": "hǎo méi wèntí.",
+        "pinyin_numeric": "hao3 mei2 wen4 ti2",
+        "translation_en": "Okay, no problem.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_088",
+          "VOC_D31_035"
+        ],
+        "audio_id": "AUD_DLG_D40_01_T6"
+      }
+    ],
+    "audio_ids": [
+      "AUD_DLG_D40_01_T1",
+      "AUD_DLG_D40_01_T2",
+      "AUD_DLG_D40_01_T3",
+      "AUD_DLG_D40_01_T4",
+      "AUD_DLG_D40_01_T5",
+      "AUD_DLG_D40_01_T6"
+    ],
+    "comprehension_questions": [
+      {
+        "id": "DLG_D40_01_Q1",
+        "question_en": "What does the customer want?",
+        "answer_en": "key point"
+      },
+      {
+        "id": "DLG_D40_01_Q2",
+        "question_en": "How does the customer respond politely?",
+        "answer_en": "The customer uses 不好意思, 請, and 謝謝."
+      }
+    ],
+    "speaking_shadowing_prompts": [
+      "不好意思我想要重點。",
+      "可以嗎？",
+      "可以請給我句子。",
+      "需要重點嗎？",
+      "不用謝謝。",
+      "好沒問題。"
+    ],
+    "free_response_branching_prompts": [
+      "Change the requested item and say the turn again.",
+      "Ask one clarification question.",
+      "Politely reject one option."
+    ]
+  },
+  {
+    "id": "DLG_D40_02",
+    "lesson_id": "LESSON_D40",
+    "scenario": "restaurant_to_plan_chain",
+    "speaker_roles": [
+      "customer",
+      "staff"
+    ],
+    "grammar_ids": [
+      "GR_D40_REVIEW_RECOMBINATION"
+    ],
+    "turns": [
+      {
+        "id": "DLG_D40_02_T1",
+        "speaker": "customer",
+        "text": "不好意思我想要弱點。",
+        "pinyin": "bùhǎoyìsi wǒ xiǎng yào ruòdiǎn.",
+        "pinyin_numeric": "bu4 hao3 yi4 si0 wo3 xiang3 yao4 ruo4 dian3",
+        "translation_en": "Excuse me, I would like this item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_020",
+          "VOC_M1_002",
+          "VOC_D31_001",
+          "VOC_D40_003"
+        ],
+        "audio_id": "AUD_DLG_D40_02_T1"
+      },
+      {
+        "id": "DLG_D40_02_T2",
+        "speaker": "staff",
+        "text": "可以嗎？",
+        "pinyin": "kěyǐ ma?",
+        "pinyin_numeric": "keyi3 ma0",
+        "translation_en": "Is that okay?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D40_02_T2"
+      },
+      {
+        "id": "DLG_D40_02_T3",
+        "speaker": "customer",
+        "text": "可以請給我答案。",
+        "pinyin": "kěyǐ qǐng gěi wǒ dá'àn.",
+        "pinyin_numeric": "keyi3 qing3 gei3 wo3 da2 an4",
+        "translation_en": "Yes, please give me the second item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_179",
+          "VOC_D31_005",
+          "VOC_D40_010"
+        ],
+        "audio_id": "AUD_DLG_D40_02_T3"
+      },
+      {
+        "id": "DLG_D40_02_T4",
+        "speaker": "staff",
+        "text": "需要弱點嗎？",
+        "pinyin": "xūyào ruòdiǎn ma?",
+        "pinyin_numeric": "xuyao4 ruo4 dian3 ma0",
+        "translation_en": "Do you need this item?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_171",
+          "VOC_D40_003",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D40_02_T4"
+      },
+      {
+        "id": "DLG_D40_02_T5",
+        "speaker": "customer",
+        "text": "不用謝謝。",
+        "pinyin": "búyòng xièxie.",
+        "pinyin_numeric": "bu2 yong4 xie4 xie0",
+        "translation_en": "No need, thank you.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_002",
+          "VOC_D31_003"
+        ],
+        "audio_id": "AUD_DLG_D40_02_T5"
+      },
+      {
+        "id": "DLG_D40_02_T6",
+        "speaker": "staff",
+        "text": "好沒問題。",
+        "pinyin": "hǎo méi wèntí.",
+        "pinyin_numeric": "hao3 mei2 wen4 ti2",
+        "translation_en": "Okay, no problem.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_088",
+          "VOC_D31_035"
+        ],
+        "audio_id": "AUD_DLG_D40_02_T6"
+      }
+    ],
+    "audio_ids": [
+      "AUD_DLG_D40_02_T1",
+      "AUD_DLG_D40_02_T2",
+      "AUD_DLG_D40_02_T3",
+      "AUD_DLG_D40_02_T4",
+      "AUD_DLG_D40_02_T5",
+      "AUD_DLG_D40_02_T6"
+    ],
+    "comprehension_questions": [
+      {
+        "id": "DLG_D40_02_Q1",
+        "question_en": "What does the customer want?",
+        "answer_en": "weak point"
+      },
+      {
+        "id": "DLG_D40_02_Q2",
+        "question_en": "How does the customer respond politely?",
+        "answer_en": "The customer uses 不好意思, 請, and 謝謝."
+      }
+    ],
+    "speaking_shadowing_prompts": [
+      "不好意思我想要弱點。",
+      "可以嗎？",
+      "可以請給我答案。",
+      "需要弱點嗎？",
+      "不用謝謝。",
+      "好沒問題。"
+    ],
+    "free_response_branching_prompts": [
+      "Change the requested item and say the turn again.",
+      "Ask one clarification question.",
+      "Politely reject one option."
+    ]
+  },
+  {
+    "id": "DLG_D40_03",
+    "lesson_id": "LESSON_D40",
+    "scenario": "ask_clarify_chain",
+    "speaker_roles": [
+      "customer",
+      "staff"
+    ],
+    "grammar_ids": [
+      "GR_D40_REVIEW_RECOMBINATION"
+    ],
+    "turns": [
+      {
+        "id": "DLG_D40_03_T1",
+        "speaker": "customer",
+        "text": "不好意思我想要錯誤。",
+        "pinyin": "bùhǎoyìsi wǒ xiǎng yào cuòwù.",
+        "pinyin_numeric": "bu4 hao3 yi4 si0 wo3 xiang3 yao4 cuo4 wu4",
+        "translation_en": "Excuse me, I would like this item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_020",
+          "VOC_M1_002",
+          "VOC_D31_001",
+          "VOC_D40_004"
+        ],
+        "audio_id": "AUD_DLG_D40_03_T1"
+      },
+      {
+        "id": "DLG_D40_03_T2",
+        "speaker": "staff",
+        "text": "可以嗎？",
+        "pinyin": "kěyǐ ma?",
+        "pinyin_numeric": "keyi3 ma0",
+        "translation_en": "Is that okay?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D40_03_T2"
+      },
+      {
+        "id": "DLG_D40_03_T3",
+        "speaker": "customer",
+        "text": "可以請給我重點。",
+        "pinyin": "kěyǐ qǐng gěi wǒ zhòngdiǎn.",
+        "pinyin_numeric": "keyi3 qing3 gei3 wo3 zhong4 dian3",
+        "translation_en": "Yes, please give me the second item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_179",
+          "VOC_D31_005",
+          "VOC_D40_002"
+        ],
+        "audio_id": "AUD_DLG_D40_03_T3"
+      },
+      {
+        "id": "DLG_D40_03_T4",
+        "speaker": "staff",
+        "text": "需要錯誤嗎？",
+        "pinyin": "xūyào cuòwù ma?",
+        "pinyin_numeric": "xuyao4 cuo4 wu4 ma0",
+        "translation_en": "Do you need this item?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_171",
+          "VOC_D40_004",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D40_03_T4"
+      },
+      {
+        "id": "DLG_D40_03_T5",
+        "speaker": "customer",
+        "text": "不用謝謝。",
+        "pinyin": "búyòng xièxie.",
+        "pinyin_numeric": "bu2 yong4 xie4 xie0",
+        "translation_en": "No need, thank you.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_002",
+          "VOC_D31_003"
+        ],
+        "audio_id": "AUD_DLG_D40_03_T5"
+      },
+      {
+        "id": "DLG_D40_03_T6",
+        "speaker": "staff",
+        "text": "好沒問題。",
+        "pinyin": "hǎo méi wèntí.",
+        "pinyin_numeric": "hao3 mei2 wen4 ti2",
+        "translation_en": "Okay, no problem.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_088",
+          "VOC_D31_035"
+        ],
+        "audio_id": "AUD_DLG_D40_03_T6"
+      }
+    ],
+    "audio_ids": [
+      "AUD_DLG_D40_03_T1",
+      "AUD_DLG_D40_03_T2",
+      "AUD_DLG_D40_03_T3",
+      "AUD_DLG_D40_03_T4",
+      "AUD_DLG_D40_03_T5",
+      "AUD_DLG_D40_03_T6"
+    ],
+    "comprehension_questions": [
+      {
+        "id": "DLG_D40_03_Q1",
+        "question_en": "What does the customer want?",
+        "answer_en": "mistake"
+      },
+      {
+        "id": "DLG_D40_03_Q2",
+        "question_en": "How does the customer respond politely?",
+        "answer_en": "The customer uses 不好意思, 請, and 謝謝."
+      }
+    ],
+    "speaking_shadowing_prompts": [
+      "不好意思我想要錯誤。",
+      "可以嗎？",
+      "可以請給我重點。",
+      "需要錯誤嗎？",
+      "不用謝謝。",
+      "好沒問題。"
+    ],
+    "free_response_branching_prompts": [
+      "Change the requested item and say the turn again.",
+      "Ask one clarification question.",
+      "Politely reject one option."
+    ]
+  },
+  {
+    "id": "DLG_D41_01",
+    "lesson_id": "LESSON_D41",
+    "scenario": "why_late",
+    "speaker_roles": [
+      "customer",
+      "staff"
+    ],
+    "grammar_ids": [
+      "GR_D41_YINWEI_SUOYI"
+    ],
+    "turns": [
+      {
+        "id": "DLG_D41_01_T1",
+        "speaker": "customer",
+        "text": "不好意思我想要原因。",
+        "pinyin": "bùhǎoyìsi wǒ xiǎng yào yuányīn.",
+        "pinyin_numeric": "bu4 hao3 yi4 si0 wo3 xiang3 yao4 yuan2 yin1",
+        "translation_en": "Excuse me, I would like this item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_020",
+          "VOC_M1_002",
+          "VOC_D31_001",
+          "VOC_D41_001"
+        ],
+        "audio_id": "AUD_DLG_D41_01_T1"
+      },
+      {
+        "id": "DLG_D41_01_T2",
+        "speaker": "staff",
+        "text": "可以嗎？",
+        "pinyin": "kěyǐ ma?",
+        "pinyin_numeric": "keyi3 ma0",
+        "translation_en": "Is that okay?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D41_01_T2"
+      },
+      {
+        "id": "DLG_D41_01_T3",
+        "speaker": "customer",
+        "text": "可以請給我遲到原因。",
+        "pinyin": "kěyǐ qǐng gěi wǒ chídào yuányīn.",
+        "pinyin_numeric": "keyi3 qing3 gei3 wo3 chi2 dao4 yuan2 yin1",
+        "translation_en": "Yes, please give me the second item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_179",
+          "VOC_D31_005",
+          "VOC_D41_002"
+        ],
+        "audio_id": "AUD_DLG_D41_01_T3"
+      },
+      {
+        "id": "DLG_D41_01_T4",
+        "speaker": "staff",
+        "text": "需要原因嗎？",
+        "pinyin": "xūyào yuányīn ma?",
+        "pinyin_numeric": "xuyao4 yuan2 yin1 ma0",
+        "translation_en": "Do you need this item?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_171",
+          "VOC_D41_001",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D41_01_T4"
+      },
+      {
+        "id": "DLG_D41_01_T5",
+        "speaker": "customer",
+        "text": "不用謝謝。",
+        "pinyin": "búyòng xièxie.",
+        "pinyin_numeric": "bu2 yong4 xie4 xie0",
+        "translation_en": "No need, thank you.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_002",
+          "VOC_D31_003"
+        ],
+        "audio_id": "AUD_DLG_D41_01_T5"
+      },
+      {
+        "id": "DLG_D41_01_T6",
+        "speaker": "staff",
+        "text": "好沒問題。",
+        "pinyin": "hǎo méi wèntí.",
+        "pinyin_numeric": "hao3 mei2 wen4 ti2",
+        "translation_en": "Okay, no problem.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_088",
+          "VOC_D31_035"
+        ],
+        "audio_id": "AUD_DLG_D41_01_T6"
+      }
+    ],
+    "audio_ids": [
+      "AUD_DLG_D41_01_T1",
+      "AUD_DLG_D41_01_T2",
+      "AUD_DLG_D41_01_T3",
+      "AUD_DLG_D41_01_T4",
+      "AUD_DLG_D41_01_T5",
+      "AUD_DLG_D41_01_T6"
+    ],
+    "comprehension_questions": [
+      {
+        "id": "DLG_D41_01_Q1",
+        "question_en": "What does the customer want?",
+        "answer_en": "cause; reason"
+      },
+      {
+        "id": "DLG_D41_01_Q2",
+        "question_en": "How does the customer respond politely?",
+        "answer_en": "The customer uses 不好意思, 請, and 謝謝."
+      }
+    ],
+    "speaking_shadowing_prompts": [
+      "不好意思我想要原因。",
+      "可以嗎？",
+      "可以請給我遲到原因。",
+      "需要原因嗎？",
+      "不用謝謝。",
+      "好沒問題。"
+    ],
+    "free_response_branching_prompts": [
+      "Change the requested item and say the turn again.",
+      "Ask one clarification question.",
+      "Politely reject one option."
+    ]
+  },
+  {
+    "id": "DLG_D41_02",
+    "lesson_id": "LESSON_D41",
+    "scenario": "why_not_eat",
+    "speaker_roles": [
+      "customer",
+      "staff"
+    ],
+    "grammar_ids": [
+      "GR_D41_WEISHENME"
+    ],
+    "turns": [
+      {
+        "id": "DLG_D41_02_T1",
+        "speaker": "customer",
+        "text": "不好意思我想要遲到原因。",
+        "pinyin": "bùhǎoyìsi wǒ xiǎng yào chídào yuányīn.",
+        "pinyin_numeric": "bu4 hao3 yi4 si0 wo3 xiang3 yao4 chi2 dao4 yuan2 yin1",
+        "translation_en": "Excuse me, I would like this item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_020",
+          "VOC_M1_002",
+          "VOC_D31_001",
+          "VOC_D41_002"
+        ],
+        "audio_id": "AUD_DLG_D41_02_T1"
+      },
+      {
+        "id": "DLG_D41_02_T2",
+        "speaker": "staff",
+        "text": "可以嗎？",
+        "pinyin": "kěyǐ ma?",
+        "pinyin_numeric": "keyi3 ma0",
+        "translation_en": "Is that okay?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D41_02_T2"
+      },
+      {
+        "id": "DLG_D41_02_T3",
+        "speaker": "customer",
+        "text": "可以請給我口渴。",
+        "pinyin": "kěyǐ qǐng gěi wǒ kǒukě.",
+        "pinyin_numeric": "keyi3 qing3 gei3 wo3 kou3 ke3",
+        "translation_en": "Yes, please give me the second item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_179",
+          "VOC_D31_005",
+          "VOC_D41_004"
+        ],
+        "audio_id": "AUD_DLG_D41_02_T3"
+      },
+      {
+        "id": "DLG_D41_02_T4",
+        "speaker": "staff",
+        "text": "需要遲到原因嗎？",
+        "pinyin": "xūyào chídào yuányīn ma?",
+        "pinyin_numeric": "xuyao4 chi2 dao4 yuan2 yin1 ma0",
+        "translation_en": "Do you need this item?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_171",
+          "VOC_D41_002",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D41_02_T4"
+      },
+      {
+        "id": "DLG_D41_02_T5",
+        "speaker": "customer",
+        "text": "不用謝謝。",
+        "pinyin": "búyòng xièxie.",
+        "pinyin_numeric": "bu2 yong4 xie4 xie0",
+        "translation_en": "No need, thank you.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_002",
+          "VOC_D31_003"
+        ],
+        "audio_id": "AUD_DLG_D41_02_T5"
+      },
+      {
+        "id": "DLG_D41_02_T6",
+        "speaker": "staff",
+        "text": "好沒問題。",
+        "pinyin": "hǎo méi wèntí.",
+        "pinyin_numeric": "hao3 mei2 wen4 ti2",
+        "translation_en": "Okay, no problem.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_088",
+          "VOC_D31_035"
+        ],
+        "audio_id": "AUD_DLG_D41_02_T6"
+      }
+    ],
+    "audio_ids": [
+      "AUD_DLG_D41_02_T1",
+      "AUD_DLG_D41_02_T2",
+      "AUD_DLG_D41_02_T3",
+      "AUD_DLG_D41_02_T4",
+      "AUD_DLG_D41_02_T5",
+      "AUD_DLG_D41_02_T6"
+    ],
+    "comprehension_questions": [
+      {
+        "id": "DLG_D41_02_Q1",
+        "question_en": "What does the customer want?",
+        "answer_en": "reason for being late"
+      },
+      {
+        "id": "DLG_D41_02_Q2",
+        "question_en": "How does the customer respond politely?",
+        "answer_en": "The customer uses 不好意思, 請, and 謝謝."
+      }
+    ],
+    "speaking_shadowing_prompts": [
+      "不好意思我想要遲到原因。",
+      "可以嗎？",
+      "可以請給我口渴。",
+      "需要遲到原因嗎？",
+      "不用謝謝。",
+      "好沒問題。"
+    ],
+    "free_response_branching_prompts": [
+      "Change the requested item and say the turn again.",
+      "Ask one clarification question.",
+      "Politely reject one option."
+    ]
+  },
+  {
+    "id": "DLG_D41_03",
+    "lesson_id": "LESSON_D41",
+    "scenario": "why_buy",
+    "speaker_roles": [
+      "customer",
+      "staff"
+    ],
+    "grammar_ids": [
+      "GR_D41_SUOYI_POSITION"
+    ],
+    "turns": [
+      {
+        "id": "DLG_D41_03_T1",
+        "speaker": "customer",
+        "text": "不好意思我想要口渴。",
+        "pinyin": "bùhǎoyìsi wǒ xiǎng yào kǒukě.",
+        "pinyin_numeric": "bu4 hao3 yi4 si0 wo3 xiang3 yao4 kou3 ke3",
+        "translation_en": "Excuse me, I would like this item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_020",
+          "VOC_M1_002",
+          "VOC_D31_001",
+          "VOC_D41_004"
+        ],
+        "audio_id": "AUD_DLG_D41_03_T1"
+      },
+      {
+        "id": "DLG_D41_03_T2",
+        "speaker": "staff",
+        "text": "可以嗎？",
+        "pinyin": "kěyǐ ma?",
+        "pinyin_numeric": "keyi3 ma0",
+        "translation_en": "Is that okay?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D41_03_T2"
+      },
+      {
+        "id": "DLG_D41_03_T3",
+        "speaker": "customer",
+        "text": "可以請給我路上。",
+        "pinyin": "kěyǐ qǐng gěi wǒ lùshàng.",
+        "pinyin_numeric": "keyi3 qing3 gei3 wo3 lu4 shang4",
+        "translation_en": "Yes, please give me the second item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_179",
+          "VOC_D31_005",
+          "VOC_D41_034"
+        ],
+        "audio_id": "AUD_DLG_D41_03_T3"
+      },
+      {
+        "id": "DLG_D41_03_T4",
+        "speaker": "staff",
+        "text": "需要口渴嗎？",
+        "pinyin": "xūyào kǒukě ma?",
+        "pinyin_numeric": "xuyao4 kou3 ke3 ma0",
+        "translation_en": "Do you need this item?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_171",
+          "VOC_D41_004",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D41_03_T4"
+      },
+      {
+        "id": "DLG_D41_03_T5",
+        "speaker": "customer",
+        "text": "不用謝謝。",
+        "pinyin": "búyòng xièxie.",
+        "pinyin_numeric": "bu2 yong4 xie4 xie0",
+        "translation_en": "No need, thank you.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_002",
+          "VOC_D31_003"
+        ],
+        "audio_id": "AUD_DLG_D41_03_T5"
+      },
+      {
+        "id": "DLG_D41_03_T6",
+        "speaker": "staff",
+        "text": "好沒問題。",
+        "pinyin": "hǎo méi wèntí.",
+        "pinyin_numeric": "hao3 mei2 wen4 ti2",
+        "translation_en": "Okay, no problem.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_088",
+          "VOC_D31_035"
+        ],
+        "audio_id": "AUD_DLG_D41_03_T6"
+      }
+    ],
+    "audio_ids": [
+      "AUD_DLG_D41_03_T1",
+      "AUD_DLG_D41_03_T2",
+      "AUD_DLG_D41_03_T3",
+      "AUD_DLG_D41_03_T4",
+      "AUD_DLG_D41_03_T5",
+      "AUD_DLG_D41_03_T6"
+    ],
+    "comprehension_questions": [
+      {
+        "id": "DLG_D41_03_Q1",
+        "question_en": "What does the customer want?",
+        "answer_en": "thirsty"
+      },
+      {
+        "id": "DLG_D41_03_Q2",
+        "question_en": "How does the customer respond politely?",
+        "answer_en": "The customer uses 不好意思, 請, and 謝謝."
+      }
+    ],
+    "speaking_shadowing_prompts": [
+      "不好意思我想要口渴。",
+      "可以嗎？",
+      "可以請給我路上。",
+      "需要口渴嗎？",
+      "不用謝謝。",
+      "好沒問題。"
+    ],
+    "free_response_branching_prompts": [
+      "Change the requested item and say the turn again.",
+      "Ask one clarification question.",
+      "Politely reject one option."
+    ]
+  },
+  {
+    "id": "DLG_D42_01",
+    "lesson_id": "LESSON_D42",
+    "scenario": "favorite_food",
+    "speaker_roles": [
+      "customer",
+      "staff"
+    ],
+    "grammar_ids": [
+      "GR_D42_XIHUAN"
+    ],
+    "turns": [
+      {
+        "id": "DLG_D42_01_T1",
+        "speaker": "customer",
+        "text": "不好意思我想要口味。",
+        "pinyin": "bùhǎoyìsi wǒ xiǎng yào kǒuwèi.",
+        "pinyin_numeric": "bu4 hao3 yi4 si0 wo3 xiang3 yao4 kou3 wei4",
+        "translation_en": "Excuse me, I would like this item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_020",
+          "VOC_M1_002",
+          "VOC_D31_001",
+          "VOC_D42_006"
+        ],
+        "audio_id": "AUD_DLG_D42_01_T1"
+      },
+      {
+        "id": "DLG_D42_01_T2",
+        "speaker": "staff",
+        "text": "可以嗎？",
+        "pinyin": "kěyǐ ma?",
+        "pinyin_numeric": "keyi3 ma0",
+        "translation_en": "Is that okay?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D42_01_T2"
+      },
+      {
+        "id": "DLG_D42_01_T3",
+        "speaker": "customer",
+        "text": "可以請給我濃。",
+        "pinyin": "kěyǐ qǐng gěi wǒ nóng.",
+        "pinyin_numeric": "keyi3 qing3 gei3 wo3 nong2",
+        "translation_en": "Yes, please give me the second item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_179",
+          "VOC_D31_005",
+          "VOC_D42_011"
+        ],
+        "audio_id": "AUD_DLG_D42_01_T3"
+      },
+      {
+        "id": "DLG_D42_01_T4",
+        "speaker": "staff",
+        "text": "需要口味嗎？",
+        "pinyin": "xūyào kǒuwèi ma?",
+        "pinyin_numeric": "xuyao4 kou3 wei4 ma0",
+        "translation_en": "Do you need this item?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_171",
+          "VOC_D42_006",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D42_01_T4"
+      },
+      {
+        "id": "DLG_D42_01_T5",
+        "speaker": "customer",
+        "text": "不用謝謝。",
+        "pinyin": "búyòng xièxie.",
+        "pinyin_numeric": "bu2 yong4 xie4 xie0",
+        "translation_en": "No need, thank you.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_002",
+          "VOC_D31_003"
+        ],
+        "audio_id": "AUD_DLG_D42_01_T5"
+      },
+      {
+        "id": "DLG_D42_01_T6",
+        "speaker": "staff",
+        "text": "好沒問題。",
+        "pinyin": "hǎo méi wèntí.",
+        "pinyin_numeric": "hao3 mei2 wen4 ti2",
+        "translation_en": "Okay, no problem.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_088",
+          "VOC_D31_035"
+        ],
+        "audio_id": "AUD_DLG_D42_01_T6"
+      }
+    ],
+    "audio_ids": [
+      "AUD_DLG_D42_01_T1",
+      "AUD_DLG_D42_01_T2",
+      "AUD_DLG_D42_01_T3",
+      "AUD_DLG_D42_01_T4",
+      "AUD_DLG_D42_01_T5",
+      "AUD_DLG_D42_01_T6"
+    ],
+    "comprehension_questions": [
+      {
+        "id": "DLG_D42_01_Q1",
+        "question_en": "What does the customer want?",
+        "answer_en": "taste; flavor preference"
+      },
+      {
+        "id": "DLG_D42_01_Q2",
+        "question_en": "How does the customer respond politely?",
+        "answer_en": "The customer uses 不好意思, 請, and 謝謝."
+      }
+    ],
+    "speaking_shadowing_prompts": [
+      "不好意思我想要口味。",
+      "可以嗎？",
+      "可以請給我濃。",
+      "需要口味嗎？",
+      "不用謝謝。",
+      "好沒問題。"
+    ],
+    "free_response_branching_prompts": [
+      "Change the requested item and say the turn again.",
+      "Ask one clarification question.",
+      "Politely reject one option."
+    ]
+  },
+  {
+    "id": "DLG_D42_02",
+    "lesson_id": "LESSON_D42",
+    "scenario": "drink_preference",
+    "speaker_roles": [
+      "customer",
+      "staff"
+    ],
+    "grammar_ids": [
+      "GR_D42_BIJIAO_XIHUAN"
+    ],
+    "turns": [
+      {
+        "id": "DLG_D42_02_T1",
+        "speaker": "customer",
+        "text": "不好意思我想要甜的。",
+        "pinyin": "bùhǎoyìsi wǒ xiǎng yào tián de.",
+        "pinyin_numeric": "bu4 hao3 yi4 si0 wo3 xiang3 yao4 tian2 de0",
+        "translation_en": "Excuse me, I would like this item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_020",
+          "VOC_M1_002",
+          "VOC_D31_001",
+          "VOC_D42_007"
+        ],
+        "audio_id": "AUD_DLG_D42_02_T1"
+      },
+      {
+        "id": "DLG_D42_02_T2",
+        "speaker": "staff",
+        "text": "可以嗎？",
+        "pinyin": "kěyǐ ma?",
+        "pinyin_numeric": "keyi3 ma0",
+        "translation_en": "Is that okay?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D42_02_T2"
+      },
+      {
+        "id": "DLG_D42_02_T3",
+        "speaker": "customer",
+        "text": "可以請給我香。",
+        "pinyin": "kěyǐ qǐng gěi wǒ xiāng.",
+        "pinyin_numeric": "keyi3 qing3 gei3 wo3 xiang1",
+        "translation_en": "Yes, please give me the second item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_179",
+          "VOC_D31_005",
+          "VOC_D42_012"
+        ],
+        "audio_id": "AUD_DLG_D42_02_T3"
+      },
+      {
+        "id": "DLG_D42_02_T4",
+        "speaker": "staff",
+        "text": "需要甜的嗎？",
+        "pinyin": "xūyào tián de ma?",
+        "pinyin_numeric": "xuyao4 tian2 de0 ma0",
+        "translation_en": "Do you need this item?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_171",
+          "VOC_D42_007",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D42_02_T4"
+      },
+      {
+        "id": "DLG_D42_02_T5",
+        "speaker": "customer",
+        "text": "不用謝謝。",
+        "pinyin": "búyòng xièxie.",
+        "pinyin_numeric": "bu2 yong4 xie4 xie0",
+        "translation_en": "No need, thank you.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_002",
+          "VOC_D31_003"
+        ],
+        "audio_id": "AUD_DLG_D42_02_T5"
+      },
+      {
+        "id": "DLG_D42_02_T6",
+        "speaker": "staff",
+        "text": "好沒問題。",
+        "pinyin": "hǎo méi wèntí.",
+        "pinyin_numeric": "hao3 mei2 wen4 ti2",
+        "translation_en": "Okay, no problem.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_088",
+          "VOC_D31_035"
+        ],
+        "audio_id": "AUD_DLG_D42_02_T6"
+      }
+    ],
+    "audio_ids": [
+      "AUD_DLG_D42_02_T1",
+      "AUD_DLG_D42_02_T2",
+      "AUD_DLG_D42_02_T3",
+      "AUD_DLG_D42_02_T4",
+      "AUD_DLG_D42_02_T5",
+      "AUD_DLG_D42_02_T6"
+    ],
+    "comprehension_questions": [
+      {
+        "id": "DLG_D42_02_Q1",
+        "question_en": "What does the customer want?",
+        "answer_en": "sweet one"
+      },
+      {
+        "id": "DLG_D42_02_Q2",
+        "question_en": "How does the customer respond politely?",
+        "answer_en": "The customer uses 不好意思, 請, and 謝謝."
+      }
+    ],
+    "speaking_shadowing_prompts": [
+      "不好意思我想要甜的。",
+      "可以嗎？",
+      "可以請給我香。",
+      "需要甜的嗎？",
+      "不用謝謝。",
+      "好沒問題。"
+    ],
+    "free_response_branching_prompts": [
+      "Change the requested item and say the turn again.",
+      "Ask one clarification question.",
+      "Politely reject one option."
+    ]
+  },
+  {
+    "id": "DLG_D42_03",
+    "lesson_id": "LESSON_D42",
+    "scenario": "activity_choice",
+    "speaker_roles": [
+      "customer",
+      "staff"
+    ],
+    "grammar_ids": [
+      "GR_D42_HAI_SHI_VS_HUOZHE"
+    ],
+    "turns": [
+      {
+        "id": "DLG_D42_03_T1",
+        "speaker": "customer",
+        "text": "不好意思我想要鹹的。",
+        "pinyin": "bùhǎoyìsi wǒ xiǎng yào xián de.",
+        "pinyin_numeric": "bu4 hao3 yi4 si0 wo3 xiang3 yao4 xian2 de0",
+        "translation_en": "Excuse me, I would like this item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_020",
+          "VOC_M1_002",
+          "VOC_D31_001",
+          "VOC_D42_008"
+        ],
+        "audio_id": "AUD_DLG_D42_03_T1"
+      },
+      {
+        "id": "DLG_D42_03_T2",
+        "speaker": "staff",
+        "text": "可以嗎？",
+        "pinyin": "kěyǐ ma?",
+        "pinyin_numeric": "keyi3 ma0",
+        "translation_en": "Is that okay?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D42_03_T2"
+      },
+      {
+        "id": "DLG_D42_03_T3",
+        "speaker": "customer",
+        "text": "可以請給我新鮮。",
+        "pinyin": "kěyǐ qǐng gěi wǒ xīnxiān.",
+        "pinyin_numeric": "keyi3 qing3 gei3 wo3 xin1 xian1",
+        "translation_en": "Yes, please give me the second item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_179",
+          "VOC_D31_005",
+          "VOC_D42_013"
+        ],
+        "audio_id": "AUD_DLG_D42_03_T3"
+      },
+      {
+        "id": "DLG_D42_03_T4",
+        "speaker": "staff",
+        "text": "需要鹹的嗎？",
+        "pinyin": "xūyào xián de ma?",
+        "pinyin_numeric": "xuyao4 xian2 de0 ma0",
+        "translation_en": "Do you need this item?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_171",
+          "VOC_D42_008",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D42_03_T4"
+      },
+      {
+        "id": "DLG_D42_03_T5",
+        "speaker": "customer",
+        "text": "不用謝謝。",
+        "pinyin": "búyòng xièxie.",
+        "pinyin_numeric": "bu2 yong4 xie4 xie0",
+        "translation_en": "No need, thank you.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_002",
+          "VOC_D31_003"
+        ],
+        "audio_id": "AUD_DLG_D42_03_T5"
+      },
+      {
+        "id": "DLG_D42_03_T6",
+        "speaker": "staff",
+        "text": "好沒問題。",
+        "pinyin": "hǎo méi wèntí.",
+        "pinyin_numeric": "hao3 mei2 wen4 ti2",
+        "translation_en": "Okay, no problem.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_088",
+          "VOC_D31_035"
+        ],
+        "audio_id": "AUD_DLG_D42_03_T6"
+      }
+    ],
+    "audio_ids": [
+      "AUD_DLG_D42_03_T1",
+      "AUD_DLG_D42_03_T2",
+      "AUD_DLG_D42_03_T3",
+      "AUD_DLG_D42_03_T4",
+      "AUD_DLG_D42_03_T5",
+      "AUD_DLG_D42_03_T6"
+    ],
+    "comprehension_questions": [
+      {
+        "id": "DLG_D42_03_Q1",
+        "question_en": "What does the customer want?",
+        "answer_en": "salty one"
+      },
+      {
+        "id": "DLG_D42_03_Q2",
+        "question_en": "How does the customer respond politely?",
+        "answer_en": "The customer uses 不好意思, 請, and 謝謝."
+      }
+    ],
+    "speaking_shadowing_prompts": [
+      "不好意思我想要鹹的。",
+      "可以嗎？",
+      "可以請給我新鮮。",
+      "需要鹹的嗎？",
+      "不用謝謝。",
+      "好沒問題。"
+    ],
+    "free_response_branching_prompts": [
+      "Change the requested item and say the turn again.",
+      "Ask one clarification question.",
+      "Politely reject one option."
+    ]
+  },
+  {
+    "id": "DLG_D43_01",
+    "lesson_id": "LESSON_D43",
+    "scenario": "ask_size",
+    "speaker_roles": [
+      "customer",
+      "staff"
+    ],
+    "grammar_ids": [
+      "GR_D43_MEASURE_CLOTHES"
+    ],
+    "turns": [
+      {
+        "id": "DLG_D43_01_T1",
+        "speaker": "customer",
+        "text": "不好意思我想要衣服。",
+        "pinyin": "bùhǎoyìsi wǒ xiǎng yào yīfú.",
+        "pinyin_numeric": "bu4 hao3 yi4 si0 wo3 xiang3 yao4 yi1 fu2",
+        "translation_en": "Excuse me, I would like this item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_020",
+          "VOC_M1_002",
+          "VOC_D31_001",
+          "VOC_D43_001"
+        ],
+        "audio_id": "AUD_DLG_D43_01_T1"
+      },
+      {
+        "id": "DLG_D43_01_T2",
+        "speaker": "staff",
+        "text": "可以嗎？",
+        "pinyin": "kěyǐ ma?",
+        "pinyin_numeric": "keyi3 ma0",
+        "translation_en": "Is that okay?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D43_01_T2"
+      },
+      {
+        "id": "DLG_D43_01_T3",
+        "speaker": "customer",
+        "text": "可以請給我上衣。",
+        "pinyin": "kěyǐ qǐng gěi wǒ shàngyī.",
+        "pinyin_numeric": "keyi3 qing3 gei3 wo3 shang4 yi1",
+        "translation_en": "Yes, please give me the second item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_179",
+          "VOC_D31_005",
+          "VOC_D43_009"
+        ],
+        "audio_id": "AUD_DLG_D43_01_T3"
+      },
+      {
+        "id": "DLG_D43_01_T4",
+        "speaker": "staff",
+        "text": "需要衣服嗎？",
+        "pinyin": "xūyào yīfú ma?",
+        "pinyin_numeric": "xuyao4 yi1 fu2 ma0",
+        "translation_en": "Do you need this item?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_171",
+          "VOC_D43_001",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D43_01_T4"
+      },
+      {
+        "id": "DLG_D43_01_T5",
+        "speaker": "customer",
+        "text": "不用謝謝。",
+        "pinyin": "búyòng xièxie.",
+        "pinyin_numeric": "bu2 yong4 xie4 xie0",
+        "translation_en": "No need, thank you.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_002",
+          "VOC_D31_003"
+        ],
+        "audio_id": "AUD_DLG_D43_01_T5"
+      },
+      {
+        "id": "DLG_D43_01_T6",
+        "speaker": "staff",
+        "text": "好沒問題。",
+        "pinyin": "hǎo méi wèntí.",
+        "pinyin_numeric": "hao3 mei2 wen4 ti2",
+        "translation_en": "Okay, no problem.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_088",
+          "VOC_D31_035"
+        ],
+        "audio_id": "AUD_DLG_D43_01_T6"
+      }
+    ],
+    "audio_ids": [
+      "AUD_DLG_D43_01_T1",
+      "AUD_DLG_D43_01_T2",
+      "AUD_DLG_D43_01_T3",
+      "AUD_DLG_D43_01_T4",
+      "AUD_DLG_D43_01_T5",
+      "AUD_DLG_D43_01_T6"
+    ],
+    "comprehension_questions": [
+      {
+        "id": "DLG_D43_01_Q1",
+        "question_en": "What does the customer want?",
+        "answer_en": "clothes"
+      },
+      {
+        "id": "DLG_D43_01_Q2",
+        "question_en": "How does the customer respond politely?",
+        "answer_en": "The customer uses 不好意思, 請, and 謝謝."
+      }
+    ],
+    "speaking_shadowing_prompts": [
+      "不好意思我想要衣服。",
+      "可以嗎？",
+      "可以請給我上衣。",
+      "需要衣服嗎？",
+      "不用謝謝。",
+      "好沒問題。"
+    ],
+    "free_response_branching_prompts": [
+      "Change the requested item and say the turn again.",
+      "Ask one clarification question.",
+      "Politely reject one option."
+    ]
+  },
+  {
+    "id": "DLG_D43_02",
+    "lesson_id": "LESSON_D43",
+    "scenario": "too_expensive",
+    "speaker_roles": [
+      "customer",
+      "staff"
+    ],
+    "grammar_ids": [
+      "GR_D43_TAI_ADJ_LE"
+    ],
+    "turns": [
+      {
+        "id": "DLG_D43_02_T1",
+        "speaker": "customer",
+        "text": "不好意思我想要褲子。",
+        "pinyin": "bùhǎoyìsi wǒ xiǎng yào kùzi.",
+        "pinyin_numeric": "bu4 hao3 yi4 si0 wo3 xiang3 yao4 ku4 zi0",
+        "translation_en": "Excuse me, I would like this item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_020",
+          "VOC_M1_002",
+          "VOC_D31_001",
+          "VOC_D43_002"
+        ],
+        "audio_id": "AUD_DLG_D43_02_T1"
+      },
+      {
+        "id": "DLG_D43_02_T2",
+        "speaker": "staff",
+        "text": "可以嗎？",
+        "pinyin": "kěyǐ ma?",
+        "pinyin_numeric": "keyi3 ma0",
+        "translation_en": "Is that okay?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D43_02_T2"
+      },
+      {
+        "id": "DLG_D43_02_T3",
+        "speaker": "customer",
+        "text": "可以請給我外套。",
+        "pinyin": "kěyǐ qǐng gěi wǒ wàitào.",
+        "pinyin_numeric": "keyi3 qing3 gei3 wo3 wai4 tao4",
+        "translation_en": "Yes, please give me the second item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_179",
+          "VOC_D31_005",
+          "VOC_D43_010"
+        ],
+        "audio_id": "AUD_DLG_D43_02_T3"
+      },
+      {
+        "id": "DLG_D43_02_T4",
+        "speaker": "staff",
+        "text": "需要褲子嗎？",
+        "pinyin": "xūyào kùzi ma?",
+        "pinyin_numeric": "xuyao4 ku4 zi0 ma0",
+        "translation_en": "Do you need this item?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_171",
+          "VOC_D43_002",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D43_02_T4"
+      },
+      {
+        "id": "DLG_D43_02_T5",
+        "speaker": "customer",
+        "text": "不用謝謝。",
+        "pinyin": "búyòng xièxie.",
+        "pinyin_numeric": "bu2 yong4 xie4 xie0",
+        "translation_en": "No need, thank you.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_002",
+          "VOC_D31_003"
+        ],
+        "audio_id": "AUD_DLG_D43_02_T5"
+      },
+      {
+        "id": "DLG_D43_02_T6",
+        "speaker": "staff",
+        "text": "好沒問題。",
+        "pinyin": "hǎo méi wèntí.",
+        "pinyin_numeric": "hao3 mei2 wen4 ti2",
+        "translation_en": "Okay, no problem.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_088",
+          "VOC_D31_035"
+        ],
+        "audio_id": "AUD_DLG_D43_02_T6"
+      }
+    ],
+    "audio_ids": [
+      "AUD_DLG_D43_02_T1",
+      "AUD_DLG_D43_02_T2",
+      "AUD_DLG_D43_02_T3",
+      "AUD_DLG_D43_02_T4",
+      "AUD_DLG_D43_02_T5",
+      "AUD_DLG_D43_02_T6"
+    ],
+    "comprehension_questions": [
+      {
+        "id": "DLG_D43_02_Q1",
+        "question_en": "What does the customer want?",
+        "answer_en": "pants"
+      },
+      {
+        "id": "DLG_D43_02_Q2",
+        "question_en": "How does the customer respond politely?",
+        "answer_en": "The customer uses 不好意思, 請, and 謝謝."
+      }
+    ],
+    "speaking_shadowing_prompts": [
+      "不好意思我想要褲子。",
+      "可以嗎？",
+      "可以請給我外套。",
+      "需要褲子嗎？",
+      "不用謝謝。",
+      "好沒問題。"
+    ],
+    "free_response_branching_prompts": [
+      "Change the requested item and say the turn again.",
+      "Ask one clarification question.",
+      "Politely reject one option."
+    ]
+  },
+  {
+    "id": "DLG_D43_03",
+    "lesson_id": "LESSON_D43",
+    "scenario": "try_on",
+    "speaker_roles": [
+      "customer",
+      "staff"
+    ],
+    "grammar_ids": [
+      "GR_D43_YOU_MEIYOU_SIZE"
+    ],
+    "turns": [
+      {
+        "id": "DLG_D43_03_T1",
+        "speaker": "customer",
+        "text": "不好意思我想要鞋子。",
+        "pinyin": "bùhǎoyìsi wǒ xiǎng yào xiézi.",
+        "pinyin_numeric": "bu4 hao3 yi4 si0 wo3 xiang3 yao4 xie2 zi0",
+        "translation_en": "Excuse me, I would like this item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_020",
+          "VOC_M1_002",
+          "VOC_D31_001",
+          "VOC_D43_003"
+        ],
+        "audio_id": "AUD_DLG_D43_03_T1"
+      },
+      {
+        "id": "DLG_D43_03_T2",
+        "speaker": "staff",
+        "text": "可以嗎？",
+        "pinyin": "kěyǐ ma?",
+        "pinyin_numeric": "keyi3 ma0",
+        "translation_en": "Is that okay?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D43_03_T2"
+      },
+      {
+        "id": "DLG_D43_03_T3",
+        "speaker": "customer",
+        "text": "可以請給我裙子。",
+        "pinyin": "kěyǐ qǐng gěi wǒ qúnzi.",
+        "pinyin_numeric": "keyi3 qing3 gei3 wo3 qun2 zi0",
+        "translation_en": "Yes, please give me the second item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_179",
+          "VOC_D31_005",
+          "VOC_D43_011"
+        ],
+        "audio_id": "AUD_DLG_D43_03_T3"
+      },
+      {
+        "id": "DLG_D43_03_T4",
+        "speaker": "staff",
+        "text": "需要鞋子嗎？",
+        "pinyin": "xūyào xiézi ma?",
+        "pinyin_numeric": "xuyao4 xie2 zi0 ma0",
+        "translation_en": "Do you need this item?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_171",
+          "VOC_D43_003",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D43_03_T4"
+      },
+      {
+        "id": "DLG_D43_03_T5",
+        "speaker": "customer",
+        "text": "不用謝謝。",
+        "pinyin": "búyòng xièxie.",
+        "pinyin_numeric": "bu2 yong4 xie4 xie0",
+        "translation_en": "No need, thank you.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_002",
+          "VOC_D31_003"
+        ],
+        "audio_id": "AUD_DLG_D43_03_T5"
+      },
+      {
+        "id": "DLG_D43_03_T6",
+        "speaker": "staff",
+        "text": "好沒問題。",
+        "pinyin": "hǎo méi wèntí.",
+        "pinyin_numeric": "hao3 mei2 wen4 ti2",
+        "translation_en": "Okay, no problem.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_088",
+          "VOC_D31_035"
+        ],
+        "audio_id": "AUD_DLG_D43_03_T6"
+      }
+    ],
+    "audio_ids": [
+      "AUD_DLG_D43_03_T1",
+      "AUD_DLG_D43_03_T2",
+      "AUD_DLG_D43_03_T3",
+      "AUD_DLG_D43_03_T4",
+      "AUD_DLG_D43_03_T5",
+      "AUD_DLG_D43_03_T6"
+    ],
+    "comprehension_questions": [
+      {
+        "id": "DLG_D43_03_Q1",
+        "question_en": "What does the customer want?",
+        "answer_en": "shoes"
+      },
+      {
+        "id": "DLG_D43_03_Q2",
+        "question_en": "How does the customer respond politely?",
+        "answer_en": "The customer uses 不好意思, 請, and 謝謝."
+      }
+    ],
+    "speaking_shadowing_prompts": [
+      "不好意思我想要鞋子。",
+      "可以嗎？",
+      "可以請給我裙子。",
+      "需要鞋子嗎？",
+      "不用謝謝。",
+      "好沒問題。"
+    ],
+    "free_response_branching_prompts": [
+      "Change the requested item and say the turn again.",
+      "Ask one clarification question.",
+      "Politely reject one option."
+    ]
+  },
+  {
+    "id": "DLG_D44_01",
+    "lesson_id": "LESSON_D44",
+    "scenario": "hot_day",
+    "speaker_roles": [
+      "customer",
+      "staff"
+    ],
+    "grammar_ids": [
+      "GR_D44_TIANQI_HEN"
+    ],
+    "turns": [
+      {
+        "id": "DLG_D44_01_T1",
+        "speaker": "customer",
+        "text": "不好意思我想要天氣。",
+        "pinyin": "bùhǎoyìsi wǒ xiǎng yào tiānqì.",
+        "pinyin_numeric": "bu4 hao3 yi4 si0 wo3 xiang3 yao4 tian1 qi4",
+        "translation_en": "Excuse me, I would like this item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_020",
+          "VOC_M1_002",
+          "VOC_D31_001",
+          "VOC_D44_001"
+        ],
+        "audio_id": "AUD_DLG_D44_01_T1"
+      },
+      {
+        "id": "DLG_D44_01_T2",
+        "speaker": "staff",
+        "text": "可以嗎？",
+        "pinyin": "kěyǐ ma?",
+        "pinyin_numeric": "keyi3 ma0",
+        "translation_en": "Is that okay?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D44_01_T2"
+      },
+      {
+        "id": "DLG_D44_01_T3",
+        "speaker": "customer",
+        "text": "可以請給我開心。",
+        "pinyin": "kěyǐ qǐng gěi wǒ kāixīn.",
+        "pinyin_numeric": "keyi3 qing3 gei3 wo3 kai1 xin1",
+        "translation_en": "Yes, please give me the second item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_179",
+          "VOC_D31_005",
+          "VOC_D44_007"
+        ],
+        "audio_id": "AUD_DLG_D44_01_T3"
+      },
+      {
+        "id": "DLG_D44_01_T4",
+        "speaker": "staff",
+        "text": "需要天氣嗎？",
+        "pinyin": "xūyào tiānqì ma?",
+        "pinyin_numeric": "xuyao4 tian1 qi4 ma0",
+        "translation_en": "Do you need this item?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_171",
+          "VOC_D44_001",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D44_01_T4"
+      },
+      {
+        "id": "DLG_D44_01_T5",
+        "speaker": "customer",
+        "text": "不用謝謝。",
+        "pinyin": "búyòng xièxie.",
+        "pinyin_numeric": "bu2 yong4 xie4 xie0",
+        "translation_en": "No need, thank you.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_002",
+          "VOC_D31_003"
+        ],
+        "audio_id": "AUD_DLG_D44_01_T5"
+      },
+      {
+        "id": "DLG_D44_01_T6",
+        "speaker": "staff",
+        "text": "好沒問題。",
+        "pinyin": "hǎo méi wèntí.",
+        "pinyin_numeric": "hao3 mei2 wen4 ti2",
+        "translation_en": "Okay, no problem.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_088",
+          "VOC_D31_035"
+        ],
+        "audio_id": "AUD_DLG_D44_01_T6"
+      }
+    ],
+    "audio_ids": [
+      "AUD_DLG_D44_01_T1",
+      "AUD_DLG_D44_01_T2",
+      "AUD_DLG_D44_01_T3",
+      "AUD_DLG_D44_01_T4",
+      "AUD_DLG_D44_01_T5",
+      "AUD_DLG_D44_01_T6"
+    ],
+    "comprehension_questions": [
+      {
+        "id": "DLG_D44_01_Q1",
+        "question_en": "What does the customer want?",
+        "answer_en": "weather"
+      },
+      {
+        "id": "DLG_D44_01_Q2",
+        "question_en": "How does the customer respond politely?",
+        "answer_en": "The customer uses 不好意思, 請, and 謝謝."
+      }
+    ],
+    "speaking_shadowing_prompts": [
+      "不好意思我想要天氣。",
+      "可以嗎？",
+      "可以請給我開心。",
+      "需要天氣嗎？",
+      "不用謝謝。",
+      "好沒問題。"
+    ],
+    "free_response_branching_prompts": [
+      "Change the requested item and say the turn again.",
+      "Ask one clarification question.",
+      "Politely reject one option."
+    ]
+  },
+  {
+    "id": "DLG_D44_02",
+    "lesson_id": "LESSON_D44",
+    "scenario": "rainy_day",
+    "speaker_roles": [
+      "customer",
+      "staff"
+    ],
+    "grammar_ids": [
+      "GR_D44_YOU_DIAN"
+    ],
+    "turns": [
+      {
+        "id": "DLG_D44_02_T1",
+        "speaker": "customer",
+        "text": "不好意思我想要太陽。",
+        "pinyin": "bùhǎoyìsi wǒ xiǎng yào tàiyáng.",
+        "pinyin_numeric": "bu4 hao3 yi4 si0 wo3 xiang3 yao4 tai4 yang2",
+        "translation_en": "Excuse me, I would like this item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_020",
+          "VOC_M1_002",
+          "VOC_D31_001",
+          "VOC_D44_003"
+        ],
+        "audio_id": "AUD_DLG_D44_02_T1"
+      },
+      {
+        "id": "DLG_D44_02_T2",
+        "speaker": "staff",
+        "text": "可以嗎？",
+        "pinyin": "kěyǐ ma?",
+        "pinyin_numeric": "keyi3 ma0",
+        "translation_en": "Is that okay?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D44_02_T2"
+      },
+      {
+        "id": "DLG_D44_02_T3",
+        "speaker": "customer",
+        "text": "可以請給我緊張。",
+        "pinyin": "kěyǐ qǐng gěi wǒ jǐnzhāng.",
+        "pinyin_numeric": "keyi3 qing3 gei3 wo3 jin3 zhang1",
+        "translation_en": "Yes, please give me the second item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_179",
+          "VOC_D31_005",
+          "VOC_D44_008"
+        ],
+        "audio_id": "AUD_DLG_D44_02_T3"
+      },
+      {
+        "id": "DLG_D44_02_T4",
+        "speaker": "staff",
+        "text": "需要太陽嗎？",
+        "pinyin": "xūyào tàiyáng ma?",
+        "pinyin_numeric": "xuyao4 tai4 yang2 ma0",
+        "translation_en": "Do you need this item?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_171",
+          "VOC_D44_003",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D44_02_T4"
+      },
+      {
+        "id": "DLG_D44_02_T5",
+        "speaker": "customer",
+        "text": "不用謝謝。",
+        "pinyin": "búyòng xièxie.",
+        "pinyin_numeric": "bu2 yong4 xie4 xie0",
+        "translation_en": "No need, thank you.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_002",
+          "VOC_D31_003"
+        ],
+        "audio_id": "AUD_DLG_D44_02_T5"
+      },
+      {
+        "id": "DLG_D44_02_T6",
+        "speaker": "staff",
+        "text": "好沒問題。",
+        "pinyin": "hǎo méi wèntí.",
+        "pinyin_numeric": "hao3 mei2 wen4 ti2",
+        "translation_en": "Okay, no problem.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_088",
+          "VOC_D31_035"
+        ],
+        "audio_id": "AUD_DLG_D44_02_T6"
+      }
+    ],
+    "audio_ids": [
+      "AUD_DLG_D44_02_T1",
+      "AUD_DLG_D44_02_T2",
+      "AUD_DLG_D44_02_T3",
+      "AUD_DLG_D44_02_T4",
+      "AUD_DLG_D44_02_T5",
+      "AUD_DLG_D44_02_T6"
+    ],
+    "comprehension_questions": [
+      {
+        "id": "DLG_D44_02_Q1",
+        "question_en": "What does the customer want?",
+        "answer_en": "sun"
+      },
+      {
+        "id": "DLG_D44_02_Q2",
+        "question_en": "How does the customer respond politely?",
+        "answer_en": "The customer uses 不好意思, 請, and 謝謝."
+      }
+    ],
+    "speaking_shadowing_prompts": [
+      "不好意思我想要太陽。",
+      "可以嗎？",
+      "可以請給我緊張。",
+      "需要太陽嗎？",
+      "不用謝謝。",
+      "好沒問題。"
+    ],
+    "free_response_branching_prompts": [
+      "Change the requested item and say the turn again.",
+      "Ask one clarification question.",
+      "Politely reject one option."
+    ]
+  },
+  {
+    "id": "DLG_D44_03",
+    "lesson_id": "LESSON_D44",
+    "scenario": "tired_today",
+    "speaker_roles": [
+      "customer",
+      "staff"
+    ],
+    "grammar_ids": [
+      "GR_D44_TAI_LE"
+    ],
+    "turns": [
+      {
+        "id": "DLG_D44_03_T1",
+        "speaker": "customer",
+        "text": "不好意思我想要熱鬧。",
+        "pinyin": "bùhǎoyìsi wǒ xiǎng yào rènào.",
+        "pinyin_numeric": "bu4 hao3 yi4 si0 wo3 xiang3 yao4 re4 nao4",
+        "translation_en": "Excuse me, I would like this item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_020",
+          "VOC_M1_002",
+          "VOC_D31_001",
+          "VOC_D44_004"
+        ],
+        "audio_id": "AUD_DLG_D44_03_T1"
+      },
+      {
+        "id": "DLG_D44_03_T2",
+        "speaker": "staff",
+        "text": "可以嗎？",
+        "pinyin": "kěyǐ ma?",
+        "pinyin_numeric": "keyi3 ma0",
+        "translation_en": "Is that okay?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D44_03_T2"
+      },
+      {
+        "id": "DLG_D44_03_T3",
+        "speaker": "customer",
+        "text": "可以請給我舒服。",
+        "pinyin": "kěyǐ qǐng gěi wǒ shūfú.",
+        "pinyin_numeric": "keyi3 qing3 gei3 wo3 shu1 fu2",
+        "translation_en": "Yes, please give me the second item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_179",
+          "VOC_D31_005",
+          "VOC_D44_009"
+        ],
+        "audio_id": "AUD_DLG_D44_03_T3"
+      },
+      {
+        "id": "DLG_D44_03_T4",
+        "speaker": "staff",
+        "text": "需要熱鬧嗎？",
+        "pinyin": "xūyào rènào ma?",
+        "pinyin_numeric": "xuyao4 re4 nao4 ma0",
+        "translation_en": "Do you need this item?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_171",
+          "VOC_D44_004",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D44_03_T4"
+      },
+      {
+        "id": "DLG_D44_03_T5",
+        "speaker": "customer",
+        "text": "不用謝謝。",
+        "pinyin": "búyòng xièxie.",
+        "pinyin_numeric": "bu2 yong4 xie4 xie0",
+        "translation_en": "No need, thank you.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_002",
+          "VOC_D31_003"
+        ],
+        "audio_id": "AUD_DLG_D44_03_T5"
+      },
+      {
+        "id": "DLG_D44_03_T6",
+        "speaker": "staff",
+        "text": "好沒問題。",
+        "pinyin": "hǎo méi wèntí.",
+        "pinyin_numeric": "hao3 mei2 wen4 ti2",
+        "translation_en": "Okay, no problem.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_088",
+          "VOC_D31_035"
+        ],
+        "audio_id": "AUD_DLG_D44_03_T6"
+      }
+    ],
+    "audio_ids": [
+      "AUD_DLG_D44_03_T1",
+      "AUD_DLG_D44_03_T2",
+      "AUD_DLG_D44_03_T3",
+      "AUD_DLG_D44_03_T4",
+      "AUD_DLG_D44_03_T5",
+      "AUD_DLG_D44_03_T6"
+    ],
+    "comprehension_questions": [
+      {
+        "id": "DLG_D44_03_Q1",
+        "question_en": "What does the customer want?",
+        "answer_en": "lively"
+      },
+      {
+        "id": "DLG_D44_03_Q2",
+        "question_en": "How does the customer respond politely?",
+        "answer_en": "The customer uses 不好意思, 請, and 謝謝."
+      }
+    ],
+    "speaking_shadowing_prompts": [
+      "不好意思我想要熱鬧。",
+      "可以嗎？",
+      "可以請給我舒服。",
+      "需要熱鬧嗎？",
+      "不用謝謝。",
+      "好沒問題。"
+    ],
+    "free_response_branching_prompts": [
+      "Change the requested item and say the turn again.",
+      "Ask one clarification question.",
+      "Politely reject one option."
+    ]
+  },
+  {
+    "id": "DLG_D45_01",
+    "lesson_id": "LESSON_D45",
+    "scenario": "full_cafe_task",
+    "speaker_roles": [
+      "customer",
+      "staff"
+    ],
+    "grammar_ids": [
+      "GR_D45_ASSESSMENT_REVIEW"
+    ],
+    "turns": [
+      {
+        "id": "DLG_D45_01_T1",
+        "speaker": "customer",
+        "text": "不好意思我想要咖啡。",
+        "pinyin": "bùhǎoyìsi wǒ xiǎng yào kāfēi.",
+        "pinyin_numeric": "bu4 hao3 yi4 si0 wo3 xiang3 yao4 kafei1",
+        "translation_en": "Excuse me, I would like this item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_020",
+          "VOC_M1_002",
+          "VOC_D31_001",
+          "VOC_M1_047"
+        ],
+        "audio_id": "AUD_DLG_D45_01_T1"
+      },
+      {
+        "id": "DLG_D45_01_T2",
+        "speaker": "staff",
+        "text": "可以嗎？",
+        "pinyin": "kěyǐ ma?",
+        "pinyin_numeric": "keyi3 ma0",
+        "translation_en": "Is that okay?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D45_01_T2"
+      },
+      {
+        "id": "DLG_D45_01_T3",
+        "speaker": "customer",
+        "text": "可以請給我咖啡。",
+        "pinyin": "kěyǐ qǐng gěi wǒ kāfēi.",
+        "pinyin_numeric": "keyi3 qing3 gei3 wo3 kafei1",
+        "translation_en": "Yes, please give me the second item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_179",
+          "VOC_D31_005",
+          "VOC_M1_047"
+        ],
+        "audio_id": "AUD_DLG_D45_01_T3"
+      },
+      {
+        "id": "DLG_D45_01_T4",
+        "speaker": "staff",
+        "text": "需要咖啡嗎？",
+        "pinyin": "xūyào kāfēi ma?",
+        "pinyin_numeric": "xuyao4 kafei1 ma0",
+        "translation_en": "Do you need this item?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_171",
+          "VOC_M1_047",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D45_01_T4"
+      },
+      {
+        "id": "DLG_D45_01_T5",
+        "speaker": "customer",
+        "text": "不用謝謝。",
+        "pinyin": "búyòng xièxie.",
+        "pinyin_numeric": "bu2 yong4 xie4 xie0",
+        "translation_en": "No need, thank you.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_002",
+          "VOC_D31_003"
+        ],
+        "audio_id": "AUD_DLG_D45_01_T5"
+      },
+      {
+        "id": "DLG_D45_01_T6",
+        "speaker": "staff",
+        "text": "好沒問題。",
+        "pinyin": "hǎo méi wèntí.",
+        "pinyin_numeric": "hao3 mei2 wen4 ti2",
+        "translation_en": "Okay, no problem.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_088",
+          "VOC_D31_035"
+        ],
+        "audio_id": "AUD_DLG_D45_01_T6"
+      }
+    ],
+    "audio_ids": [
+      "AUD_DLG_D45_01_T1",
+      "AUD_DLG_D45_01_T2",
+      "AUD_DLG_D45_01_T3",
+      "AUD_DLG_D45_01_T4",
+      "AUD_DLG_D45_01_T5",
+      "AUD_DLG_D45_01_T6"
+    ],
+    "comprehension_questions": [
+      {
+        "id": "DLG_D45_01_Q1",
+        "question_en": "What does the customer want?",
+        "answer_en": "coffee"
+      },
+      {
+        "id": "DLG_D45_01_Q2",
+        "question_en": "How does the customer respond politely?",
+        "answer_en": "The customer uses 不好意思, 請, and 謝謝."
+      }
+    ],
+    "speaking_shadowing_prompts": [
+      "不好意思我想要咖啡。",
+      "可以嗎？",
+      "可以請給我咖啡。",
+      "需要咖啡嗎？",
+      "不用謝謝。",
+      "好沒問題。"
+    ],
+    "free_response_branching_prompts": [
+      "Change the requested item and say the turn again.",
+      "Ask one clarification question.",
+      "Politely reject one option."
+    ]
+  },
+  {
+    "id": "DLG_D45_02",
+    "lesson_id": "LESSON_D45",
+    "scenario": "full_direction_task",
+    "speaker_roles": [
+      "customer",
+      "staff"
+    ],
+    "grammar_ids": [
+      "GR_D45_ASSESSMENT_REVIEW"
+    ],
+    "turns": [
+      {
+        "id": "DLG_D45_02_T1",
+        "speaker": "customer",
+        "text": "不好意思我想要紅茶。",
+        "pinyin": "bùhǎoyìsi wǒ xiǎng yào hóngchá.",
+        "pinyin_numeric": "bu4 hao3 yi4 si0 wo3 xiang3 yao4 hong2 cha2",
+        "translation_en": "Excuse me, I would like this item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_020",
+          "VOC_M1_002",
+          "VOC_D31_001",
+          "VOC_D31_011"
+        ],
+        "audio_id": "AUD_DLG_D45_02_T1"
+      },
+      {
+        "id": "DLG_D45_02_T2",
+        "speaker": "staff",
+        "text": "可以嗎？",
+        "pinyin": "kěyǐ ma?",
+        "pinyin_numeric": "keyi3 ma0",
+        "translation_en": "Is that okay?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D45_02_T2"
+      },
+      {
+        "id": "DLG_D45_02_T3",
+        "speaker": "customer",
+        "text": "可以請給我紅茶。",
+        "pinyin": "kěyǐ qǐng gěi wǒ hóngchá.",
+        "pinyin_numeric": "keyi3 qing3 gei3 wo3 hong2 cha2",
+        "translation_en": "Yes, please give me the second item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_179",
+          "VOC_D31_005",
+          "VOC_D31_011"
+        ],
+        "audio_id": "AUD_DLG_D45_02_T3"
+      },
+      {
+        "id": "DLG_D45_02_T4",
+        "speaker": "staff",
+        "text": "需要紅茶嗎？",
+        "pinyin": "xūyào hóngchá ma?",
+        "pinyin_numeric": "xuyao4 hong2 cha2 ma0",
+        "translation_en": "Do you need this item?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_171",
+          "VOC_D31_011",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D45_02_T4"
+      },
+      {
+        "id": "DLG_D45_02_T5",
+        "speaker": "customer",
+        "text": "不用謝謝。",
+        "pinyin": "búyòng xièxie.",
+        "pinyin_numeric": "bu2 yong4 xie4 xie0",
+        "translation_en": "No need, thank you.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_002",
+          "VOC_D31_003"
+        ],
+        "audio_id": "AUD_DLG_D45_02_T5"
+      },
+      {
+        "id": "DLG_D45_02_T6",
+        "speaker": "staff",
+        "text": "好沒問題。",
+        "pinyin": "hǎo méi wèntí.",
+        "pinyin_numeric": "hao3 mei2 wen4 ti2",
+        "translation_en": "Okay, no problem.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_088",
+          "VOC_D31_035"
+        ],
+        "audio_id": "AUD_DLG_D45_02_T6"
+      }
+    ],
+    "audio_ids": [
+      "AUD_DLG_D45_02_T1",
+      "AUD_DLG_D45_02_T2",
+      "AUD_DLG_D45_02_T3",
+      "AUD_DLG_D45_02_T4",
+      "AUD_DLG_D45_02_T5",
+      "AUD_DLG_D45_02_T6"
+    ],
+    "comprehension_questions": [
+      {
+        "id": "DLG_D45_02_Q1",
+        "question_en": "What does the customer want?",
+        "answer_en": "black tea"
+      },
+      {
+        "id": "DLG_D45_02_Q2",
+        "question_en": "How does the customer respond politely?",
+        "answer_en": "The customer uses 不好意思, 請, and 謝謝."
+      }
+    ],
+    "speaking_shadowing_prompts": [
+      "不好意思我想要紅茶。",
+      "可以嗎？",
+      "可以請給我紅茶。",
+      "需要紅茶嗎？",
+      "不用謝謝。",
+      "好沒問題。"
+    ],
+    "free_response_branching_prompts": [
+      "Change the requested item and say the turn again.",
+      "Ask one clarification question.",
+      "Politely reject one option."
+    ]
+  },
+  {
+    "id": "DLG_D45_03",
+    "lesson_id": "LESSON_D45",
+    "scenario": "full_plan_task",
+    "speaker_roles": [
+      "customer",
+      "staff"
+    ],
+    "grammar_ids": [
+      "GR_D45_ASSESSMENT_REVIEW"
+    ],
+    "turns": [
+      {
+        "id": "DLG_D45_03_T1",
+        "speaker": "customer",
+        "text": "不好意思我想要捷運。",
+        "pinyin": "bùhǎoyìsi wǒ xiǎng yào jiéyùn.",
+        "pinyin_numeric": "bu4 hao3 yi4 si0 wo3 xiang3 yao4 jieyun4",
+        "translation_en": "Excuse me, I would like this item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_020",
+          "VOC_M1_002",
+          "VOC_D31_001",
+          "VOC_M1_154"
+        ],
+        "audio_id": "AUD_DLG_D45_03_T1"
+      },
+      {
+        "id": "DLG_D45_03_T2",
+        "speaker": "staff",
+        "text": "可以嗎？",
+        "pinyin": "kěyǐ ma?",
+        "pinyin_numeric": "keyi3 ma0",
+        "translation_en": "Is that okay?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D45_03_T2"
+      },
+      {
+        "id": "DLG_D45_03_T3",
+        "speaker": "customer",
+        "text": "可以請給我捷運。",
+        "pinyin": "kěyǐ qǐng gěi wǒ jiéyùn.",
+        "pinyin_numeric": "keyi3 qing3 gei3 wo3 jieyun4",
+        "translation_en": "Yes, please give me the second item.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_118",
+          "VOC_M1_179",
+          "VOC_D31_005",
+          "VOC_M1_154"
+        ],
+        "audio_id": "AUD_DLG_D45_03_T3"
+      },
+      {
+        "id": "DLG_D45_03_T4",
+        "speaker": "staff",
+        "text": "需要捷運嗎？",
+        "pinyin": "xūyào jiéyùn ma?",
+        "pinyin_numeric": "xuyao4 jieyun4 ma0",
+        "translation_en": "Do you need this item?",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_171",
+          "VOC_M1_154",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D45_03_T4"
+      },
+      {
+        "id": "DLG_D45_03_T5",
+        "speaker": "customer",
+        "text": "不用謝謝。",
+        "pinyin": "búyòng xièxie.",
+        "pinyin_numeric": "bu2 yong4 xie4 xie0",
+        "translation_en": "No need, thank you.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_D31_002",
+          "VOC_D31_003"
+        ],
+        "audio_id": "AUD_DLG_D45_03_T5"
+      },
+      {
+        "id": "DLG_D45_03_T6",
+        "speaker": "staff",
+        "text": "好沒問題。",
+        "pinyin": "hǎo méi wèntí.",
+        "pinyin_numeric": "hao3 mei2 wen4 ti2",
+        "translation_en": "Okay, no problem.",
+        "translation_ko": "대화 상황에 맞게 응답하세요.",
+        "token_ids": [
+          "VOC_M1_088",
+          "VOC_D31_035"
+        ],
+        "audio_id": "AUD_DLG_D45_03_T6"
+      }
+    ],
+    "audio_ids": [
+      "AUD_DLG_D45_03_T1",
+      "AUD_DLG_D45_03_T2",
+      "AUD_DLG_D45_03_T3",
+      "AUD_DLG_D45_03_T4",
+      "AUD_DLG_D45_03_T5",
+      "AUD_DLG_D45_03_T6"
+    ],
+    "comprehension_questions": [
+      {
+        "id": "DLG_D45_03_Q1",
+        "question_en": "What does the customer want?",
+        "answer_en": "MRT; metro"
+      },
+      {
+        "id": "DLG_D45_03_Q2",
+        "question_en": "How does the customer respond politely?",
+        "answer_en": "The customer uses 不好意思, 請, and 謝謝."
+      }
+    ],
+    "speaking_shadowing_prompts": [
+      "不好意思我想要捷運。",
+      "可以嗎？",
+      "可以請給我捷運。",
+      "需要捷運嗎？",
+      "不用謝謝。",
+      "好沒問題。"
+    ],
+    "free_response_branching_prompts": [
+      "Change the requested item and say the turn again.",
+      "Ask one clarification question.",
+      "Politely reject one option."
+    ]
+  }
+]

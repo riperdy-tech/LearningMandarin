@@ -1,0 +1,25 @@
+{
+  "grammar_explanation_contract": {
+    "minimum_required_sections": {
+      "core_function": "What communication task this grammar performs.",
+      "literal_structure": "The direct syntactic structure.",
+      "natural_usage": "How locals actually use it.",
+      "when_to_use": "At least 3 valid contexts.",
+      "when_not_to_use": "At least 3 invalid or unnatural contexts.",
+      "word_order_logic": "Why the parts appear in this order.",
+      "contrast_with_known_grammar": "Compare against at least 1 older structure.",
+      "english_contrast": "Explain why direct English mapping may fail.",
+      "korean_contrast": "Explain likely Korean-speaker transfer error.",
+      "taiwan_usage_note": "Mention Taiwan preference if applicable.",
+      "correct_examples": "At least 8 examples using only known vocab.",
+      "incorrect_examples": "At least 5 examples with clear correction.",
+      "micro_drills": "At least 10 controlled transformations.",
+      "production_drills": "At least 5 open-ended prompts.",
+      "error_feedback_map": "Specific feedback for predictable learner mistakes."
+    },
+    "insufficient_example_do_not_generate": {
+      "pattern": "我 + 是 + NOUN",
+      "explanation": "Used for identity."
+    }
+  }
+}

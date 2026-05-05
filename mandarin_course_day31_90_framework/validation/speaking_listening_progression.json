@@ -1,0 +1,50 @@
+{
+  "speaking_listening_progression": {
+    "days_31_45": {
+      "speech_mode": "controlled_to_guided",
+      "learner_output": "1-2 sentence turns",
+      "listening_speed": "slow natural",
+      "allowed_repetition": 2,
+      "required_repair_phrases": [
+        "請再說一次",
+        "不好意思，我聽不懂",
+        "可以說慢一點嗎？",
+        "你的意思是...嗎？"
+      ]
+    },
+    "days_46_60": {
+      "speech_mode": "guided_to_scenario",
+      "learner_output": "2-3 sentence turns",
+      "listening_speed": "slow-to-normal natural",
+      "allowed_repetition": 1,
+      "required_repair_phrases": [
+        "我剛剛沒聽清楚",
+        "你是說...嗎？",
+        "我想確認一下"
+      ]
+    },
+    "days_61_75": {
+      "speech_mode": "scenario_problem_solving",
+      "learner_output": "2-4 sentence turns",
+      "listening_speed": "normal clear",
+      "allowed_repetition": 1,
+      "required_repair_phrases": [
+        "我可以換一個說法",
+        "我的意思是...",
+        "不是這個，是..."
+      ]
+    },
+    "days_76_90": {
+      "speech_mode": "semi_spontaneous",
+      "learner_output": "3-5 sentence turns",
+      "listening_speed": "normal everyday clear",
+      "allowed_repetition": 0,
+      "required_repair_phrases": [
+        "我不太確定怎麼說",
+        "我換個方式說",
+        "我想一下",
+        "你可以舉個例子嗎？"
+      ]
+    }
+  }
+}

@@ -1,0 +1,1283 @@
+{
+  "days": [
+    {
+      "day": 31,
+      "unit": "Making Polite Requests",
+      "scenario": "asking for something at a café or shop",
+      "target_functions": [
+        "request",
+        "confirm",
+        "thank",
+        "clarify"
+      ],
+      "new_vocab_target": 35,
+      "grammar_ids_to_create": [
+        "GR_D31_CAN_REQUEST",
+        "GR_D31_WANT_OBJECT",
+        "GR_D31_POLITE_SOFTENER"
+      ],
+      "required_dialogues": [
+        "counter_ordering",
+        "clarifying_price",
+        "polite_request_retry"
+      ]
+    },
+    {
+      "day": 32,
+      "unit": "Convenience Store Survival",
+      "scenario": "buying items, asking about bags, receipts, payment",
+      "target_functions": [
+        "buy",
+        "ask_price",
+        "respond_yes_no",
+        "choose_payment"
+      ],
+      "new_vocab_target": 35,
+      "grammar_ids_to_create": [
+        "GR_D32_MEASURE_WORDS_BASIC",
+        "GR_D32_YAO_BU_YAO",
+        "GR_D32_THIS_THAT_REVIEW"
+      ],
+      "required_dialogues": [
+        "checkout",
+        "receipt_question",
+        "payment_problem"
+      ]
+    },
+    {
+      "day": 33,
+      "unit": "Directions Inside a Building",
+      "scenario": "finding bathroom, elevator, exit, counter, classroom",
+      "target_functions": [
+        "ask_location",
+        "understand_direction",
+        "repeat_back"
+      ],
+      "new_vocab_target": 35,
+      "grammar_ids_to_create": [
+        "GR_D33_ZAI_LOCATION",
+        "GR_D33_LOCATION_WORDS",
+        "GR_D33_CONG_DAO"
+      ],
+      "required_dialogues": [
+        "ask_bathroom",
+        "find_counter",
+        "wrong_floor"
+      ]
+    },
+    {
+      "day": 34,
+      "unit": "Restaurant Ordering I",
+      "scenario": "ordering food and drinks",
+      "target_functions": [
+        "order",
+        "choose",
+        "ask_recommendation",
+        "reject_politely"
+      ],
+      "new_vocab_target": 40,
+      "grammar_ids_to_create": [
+        "GR_D34_YAO_ORDERING",
+        "GR_D34_HAI_SHI_CHOICE",
+        "GR_D34_BU_YAO"
+      ],
+      "required_dialogues": [
+        "order_noodles",
+        "drink_choice",
+        "recommendation"
+      ]
+    },
+    {
+      "day": 35,
+      "unit": "Restaurant Ordering II",
+      "scenario": "customizing order and handling mistakes",
+      "target_functions": [
+        "customize",
+        "correct",
+        "complain_softly",
+        "request_change"
+      ],
+      "new_vocab_target": 40,
+      "grammar_ids_to_create": [
+        "GR_D35_BU_YAO_FANG",
+        "GR_D35_KE_YI_MA",
+        "GR_D35_CUO_LE"
+      ],
+      "required_dialogues": [
+        "no_spicy",
+        "wrong_order",
+        "change_order"
+      ]
+    },
+    {
+      "day": 36,
+      "unit": "Daily Routine",
+      "scenario": "describing a normal day",
+      "target_functions": [
+        "sequence",
+        "describe_habit",
+        "ask_schedule"
+      ],
+      "new_vocab_target": 35,
+      "grammar_ids_to_create": [
+        "GR_D36_EVERY_DAY",
+        "GR_D36_TIME_BEFORE_VERB",
+        "GR_D36_XIAN_ZAI"
+      ],
+      "required_dialogues": [
+        "morning_routine",
+        "workday",
+        "evening_plan"
+      ]
+    },
+    {
+      "day": 37,
+      "unit": "Making Plans",
+      "scenario": "planning to meet someone",
+      "target_functions": [
+        "invite",
+        "suggest_time",
+        "accept",
+        "decline"
+      ],
+      "new_vocab_target": 35,
+      "grammar_ids_to_create": [
+        "GR_D37_XIANG_VERB",
+        "GR_D37_YAO_FUTURE",
+        "GR_D37_SHENME_SHIHOU"
+      ],
+      "required_dialogues": [
+        "invite_coffee",
+        "suggest_time",
+        "busy_decline"
+      ]
+    },
+    {
+      "day": 38,
+      "unit": "Transportation I",
+      "scenario": "taking MRT, bus, taxi",
+      "target_functions": [
+        "ask_route",
+        "buy_ticket",
+        "confirm_destination"
+      ],
+      "new_vocab_target": 40,
+      "grammar_ids_to_create": [
+        "GR_D38_ZUO_TRANSPORT",
+        "GR_D38_DAO_PLACE",
+        "GR_D38_ZENME_QU"
+      ],
+      "required_dialogues": [
+        "mrt_route",
+        "bus_stop",
+        "taxi_destination"
+      ]
+    },
+    {
+      "day": 39,
+      "unit": "Transportation II",
+      "scenario": "delays, transfers, wrong direction",
+      "target_functions": [
+        "explain_problem",
+        "ask_transfer",
+        "understand_instruction"
+      ],
+      "new_vocab_target": 40,
+      "grammar_ids_to_create": [
+        "GR_D39_HUAN_CHE",
+        "GR_D39_CUO_DIRECTION",
+        "GR_D39_HAI_MEI"
+      ],
+      "required_dialogues": [
+        "missed_stop",
+        "transfer_question",
+        "wrong_direction"
+      ]
+    },
+    {
+      "day": 40,
+      "unit": "Phase Review 31–39",
+      "scenario": "mixed survival review",
+      "target_functions": [
+        "review",
+        "recombine",
+        "repair"
+      ],
+      "new_vocab_target": 10,
+      "grammar_ids_to_create": [
+        "GR_D40_REVIEW_RECOMBINATION"
+      ],
+      "required_dialogues": [
+        "shop_to_transport_chain",
+        "restaurant_to_plan_chain",
+        "ask_clarify_chain"
+      ]
+    },
+    {
+      "day": 41,
+      "unit": "Basic Reasons",
+      "scenario": "explaining why you want or do not want something",
+      "target_functions": [
+        "give_reason",
+        "ask_why",
+        "respond_because"
+      ],
+      "new_vocab_target": 35,
+      "grammar_ids_to_create": [
+        "GR_D41_YINWEI_SUOYI",
+        "GR_D41_WEISHENME",
+        "GR_D41_SUOYI_POSITION"
+      ],
+      "required_dialogues": [
+        "why_late",
+        "why_not_eat",
+        "why_buy"
+      ]
+    },
+    {
+      "day": 42,
+      "unit": "Preferences",
+      "scenario": "talking about likes, dislikes, and choices",
+      "target_functions": [
+        "like",
+        "dislike",
+        "prefer",
+        "compare_simple"
+      ],
+      "new_vocab_target": 35,
+      "grammar_ids_to_create": [
+        "GR_D42_XIHUAN",
+        "GR_D42_BIJIAO_XIHUAN",
+        "GR_D42_HAI_SHI_VS_HUOZHE"
+      ],
+      "required_dialogues": [
+        "favorite_food",
+        "drink_preference",
+        "activity_choice"
+      ]
+    },
+    {
+      "day": 43,
+      "unit": "Shopping for Clothes",
+      "scenario": "asking size, color, price, trying on",
+      "target_functions": [
+        "ask_size",
+        "ask_color",
+        "try_on",
+        "compare_price"
+      ],
+      "new_vocab_target": 45,
+      "grammar_ids_to_create": [
+        "GR_D43_MEASURE_CLOTHES",
+        "GR_D43_TAI_ADJ_LE",
+        "GR_D43_YOU_MEIYOU_SIZE"
+      ],
+      "required_dialogues": [
+        "ask_size",
+        "too_expensive",
+        "try_on"
+      ]
+    },
+    {
+      "day": 44,
+      "unit": "Weather and Mood",
+      "scenario": "small talk about weather and feelings",
+      "target_functions": [
+        "small_talk",
+        "describe_feeling",
+        "respond_socially"
+      ],
+      "new_vocab_target": 35,
+      "grammar_ids_to_create": [
+        "GR_D44_TIANQI_HEN",
+        "GR_D44_YOU_DIAN",
+        "GR_D44_TAI_LE"
+      ],
+      "required_dialogues": [
+        "hot_day",
+        "rainy_day",
+        "tired_today"
+      ]
+    },
+    {
+      "day": 45,
+      "unit": "Phase 3 Assessment",
+      "scenario": "survival fluency checkpoint",
+      "target_functions": [
+        "request",
+        "order",
+        "travel",
+        "plan",
+        "reason"
+      ],
+      "new_vocab_target": 0,
+      "grammar_ids_to_create": [
+        "GR_D45_ASSESSMENT_REVIEW"
+      ],
+      "required_dialogues": [
+        "full_cafe_task",
+        "full_direction_task",
+        "full_plan_task"
+      ],
+      "assessment": true
+    },
+    {
+      "day": 46,
+      "unit": "Past Events I",
+      "scenario": "talking about what you did yesterday",
+      "target_functions": [
+        "describe_past_action",
+        "ask_past_action"
+      ],
+      "new_vocab_target": 35,
+      "grammar_ids_to_create": [
+        "GR_D46_COMPLETED_LE",
+        "GR_D46_YESTERDAY_TIME",
+        "GR_D46_VERB_OBJECT_LE"
+      ],
+      "required_dialogues": [
+        "yesterday_activity",
+        "ate_dinner",
+        "went_out"
+      ]
+    },
+    {
+      "day": 47,
+      "unit": "Past Events II",
+      "scenario": "telling a short sequence",
+      "target_functions": [
+        "sequence_past",
+        "connect_events",
+        "ask_then_what"
+      ],
+      "new_vocab_target": 35,
+      "grammar_ids_to_create": [
+        "GR_D47_RANHOU",
+        "GR_D47_XIAN_RANHOU",
+        "GR_D47_LE_POSITION_REVIEW"
+      ],
+      "required_dialogues": [
+        "yesterday_sequence",
+        "after_work",
+        "weekend_story"
+      ]
+    },
+    {
+      "day": 48,
+      "unit": "Experience",
+      "scenario": "talking about things you have done before",
+      "target_functions": [
+        "experience",
+        "ask_experience",
+        "answer_never"
+      ],
+      "new_vocab_target": 35,
+      "grammar_ids_to_create": [
+        "GR_D48_GUO_EXPERIENCE",
+        "GR_D48_MEIYOU_GUO",
+        "GR_D48_YI_QIAN"
+      ],
+      "required_dialogues": [
+        "been_to_taipei",
+        "tried_food",
+        "never_done"
+      ]
+    },
+    {
+      "day": 49,
+      "unit": "Ongoing Actions",
+      "scenario": "what are you doing now?",
+      "target_functions": [
+        "describe_current_action",
+        "interrupt_politely",
+        "ask_availability"
+      ],
+      "new_vocab_target": 35,
+      "grammar_ids_to_create": [
+        "GR_D49_ZAI_PROGRESSIVE",
+        "GR_D49_ZHENGZAI",
+        "GR_D49_NOW_BUSY"
+      ],
+      "required_dialogues": [
+        "what_doing",
+        "cant_talk",
+        "studying_now"
+      ]
+    },
+    {
+      "day": 50,
+      "unit": "Ability and Learning",
+      "scenario": "talking about what you can do and are learning",
+      "target_functions": [
+        "ability",
+        "learned_skill",
+        "cannot_yet"
+      ],
+      "new_vocab_target": 35,
+      "grammar_ids_to_create": [
+        "GR_D50_HUI_ABILITY",
+        "GR_D50_BU_HUI",
+        "GR_D50_HAI_BU_TAI"
+      ],
+      "required_dialogues": [
+        "speak_chinese",
+        "can_cook",
+        "cannot_read"
+      ]
+    },
+    {
+      "day": 51,
+      "unit": "Describing People",
+      "scenario": "appearance, personality, basic relationships",
+      "target_functions": [
+        "describe_person",
+        "identify_person",
+        "ask_about_person"
+      ],
+      "new_vocab_target": 45,
+      "grammar_ids_to_create": [
+        "GR_D51_DE_MODIFIER",
+        "GR_D51_HEN_ADJ",
+        "GR_D51_NA_GE_REN"
+      ],
+      "required_dialogues": [
+        "who_is_that",
+        "describe_friend",
+        "describe_teacher"
+      ]
+    },
+    {
+      "day": 52,
+      "unit": "Comparisons",
+      "scenario": "comparing food, places, prices, convenience",
+      "target_functions": [
+        "compare",
+        "prefer",
+        "explain_choice"
+      ],
+      "new_vocab_target": 40,
+      "grammar_ids_to_create": [
+        "GR_D52_BI_COMPARISON",
+        "GR_D52_BIJIAO",
+        "GR_D52_MEIYOU_COMPARISON"
+      ],
+      "required_dialogues": [
+        "which_cheaper",
+        "which_better",
+        "taipei_vs_kaohsiung"
+      ]
+    },
+    {
+      "day": 53,
+      "unit": "Hobbies",
+      "scenario": "talking about free time",
+      "target_functions": [
+        "habit",
+        "frequency",
+        "invite_based_on_hobby"
+      ],
+      "new_vocab_target": 40,
+      "grammar_ids_to_create": [
+        "GR_D53_CHANGCHANG",
+        "GR_D53_YOU_SHIHOU",
+        "GR_D53_XIHUAN_VERB_OBJECT"
+      ],
+      "required_dialogues": [
+        "weekend_hobby",
+        "sports",
+        "watch_movie"
+      ]
+    },
+    {
+      "day": 54,
+      "unit": "Invitations and Rescheduling",
+      "scenario": "making, accepting, declining, and changing plans",
+      "target_functions": [
+        "invite",
+        "reschedule",
+        "soft_reject",
+        "suggest_alternative"
+      ],
+      "new_vocab_target": 40,
+      "grammar_ids_to_create": [
+        "GR_D54_YAOBUYA0",
+        "GR_D54_GAI_TIME",
+        "GR_D54_BUHAOYISI"
+      ],
+      "required_dialogues": [
+        "dinner_invite",
+        "reschedule_time",
+        "polite_decline"
+      ]
+    },
+    {
+      "day": 55,
+      "unit": "Phase Review 46–54",
+      "scenario": "past, ongoing, ability, comparison review",
+      "target_functions": [
+        "narrate",
+        "compare",
+        "invite",
+        "repair"
+      ],
+      "new_vocab_target": 10,
+      "grammar_ids_to_create": [
+        "GR_D55_REVIEW_NARRATION"
+      ],
+      "required_dialogues": [
+        "past_to_invite_chain",
+        "ability_to_plan_chain",
+        "compare_to_choice_chain"
+      ]
+    },
+    {
+      "day": 56,
+      "unit": "Health I",
+      "scenario": "describing symptoms",
+      "target_functions": [
+        "body_part",
+        "symptom",
+        "duration",
+        "severity"
+      ],
+      "new_vocab_target": 45,
+      "grammar_ids_to_create": [
+        "GR_D56_BODY_HURTS",
+        "GR_D56_YOU_DIAN_SYMPTOM",
+        "GR_D56_JI_TIAN"
+      ],
+      "required_dialogues": [
+        "headache",
+        "stomachache",
+        "cold_symptoms"
+      ]
+    },
+    {
+      "day": 57,
+      "unit": "Health II",
+      "scenario": "pharmacy and clinic",
+      "target_functions": [
+        "ask_medicine",
+        "explain_allergy",
+        "understand_instruction"
+      ],
+      "new_vocab_target": 45,
+      "grammar_ids_to_create": [
+        "GR_D57_YAO_MEDICINE",
+        "GR_D57_MEI_TIAN_TIMES",
+        "GR_D57_KEYI_BUKEYI_MEDICAL"
+      ],
+      "required_dialogues": [
+        "pharmacy",
+        "clinic_registration",
+        "medicine_instruction"
+      ]
+    },
+    {
+      "day": 58,
+      "unit": "Housing I",
+      "scenario": "describing apartment and room",
+      "target_functions": [
+        "describe_home",
+        "ask_facility",
+        "report_issue"
+      ],
+      "new_vocab_target": 45,
+      "grammar_ids_to_create": [
+        "GR_D58_YOU_FACILITY",
+        "GR_D58_LOCATION_EXISTENCE",
+        "GR_D58_BROKEN"
+      ],
+      "required_dialogues": [
+        "rent_room",
+        "ask_facility",
+        "broken_ac"
+      ]
+    },
+    {
+      "day": 59,
+      "unit": "Housing II",
+      "scenario": "talking to landlord or repair person",
+      "target_functions": [
+        "request_repair",
+        "schedule_visit",
+        "explain_problem"
+      ],
+      "new_vocab_target": 45,
+      "grammar_ids_to_create": [
+        "GR_D59_QING_HELP",
+        "GR_D59_SHENME_SHIHOU_KEYI",
+        "GR_D59_MAYBE_PROBLEM"
+      ],
+      "required_dialogues": [
+        "repair_request",
+        "schedule_repair",
+        "leak_problem"
+      ]
+    },
+    {
+      "day": 60,
+      "unit": "Phase 4 Assessment",
+      "scenario": "social narration checkpoint",
+      "target_functions": [
+        "past",
+        "experience",
+        "ongoing",
+        "comparison",
+        "health",
+        "housing"
+      ],
+      "new_vocab_target": 0,
+      "grammar_ids_to_create": [
+        "GR_D60_ASSESSMENT_REVIEW"
+      ],
+      "required_dialogues": [
+        "doctor_task",
+        "landlord_task",
+        "social_plan_task"
+      ],
+      "assessment": true
+    },
+    {
+      "day": 61,
+      "unit": "Problem Explanation I",
+      "scenario": "explaining what happened",
+      "target_functions": [
+        "problem",
+        "past_sequence",
+        "result"
+      ],
+      "new_vocab_target": 40,
+      "grammar_ids_to_create": [
+        "GR_D61_FASHENG",
+        "GR_D61_JIEGUO",
+        "GR_D61_YINWEI_SUOYI_REPAIR"
+      ],
+      "required_dialogues": [
+        "lost_wallet",
+        "missed_train",
+        "wrong_order_story"
+      ]
+    },
+    {
+      "day": 62,
+      "unit": "Problem Explanation II",
+      "scenario": "asking for help after a problem",
+      "target_functions": [
+        "ask_help",
+        "explain_need",
+        "give_contact_info"
+      ],
+      "new_vocab_target": 40,
+      "grammar_ids_to_create": [
+        "GR_D62_BANG_WO",
+        "GR_D62_XUYA0",
+        "GR_D62_KE_BI_KE_YI_HELP"
+      ],
+      "required_dialogues": [
+        "ask_staff_help",
+        "call_friend",
+        "need_address"
+      ]
+    },
+    {
+      "day": 63,
+      "unit": "Returns and Exchanges",
+      "scenario": "returning or exchanging an item",
+      "target_functions": [
+        "return",
+        "exchange",
+        "explain_defect",
+        "show_receipt"
+      ],
+      "new_vocab_target": 45,
+      "grammar_ids_to_create": [
+        "GR_D63_XIANG_RETURN",
+        "GR_D63_YOU_WENTI",
+        "GR_D63_KEBUKEYI_CHANGE"
+      ],
+      "required_dialogues": [
+        "return_item",
+        "exchange_size",
+        "no_receipt"
+      ]
+    },
+    {
+      "day": 64,
+      "unit": "Appointments",
+      "scenario": "booking and changing appointments",
+      "target_functions": [
+        "book",
+        "cancel",
+        "reschedule",
+        "confirm"
+      ],
+      "new_vocab_target": 40,
+      "grammar_ids_to_create": [
+        "GR_D64_YUYUE",
+        "GR_D64_GAI_SHIJIAN",
+        "GR_D64_QUE_REN"
+      ],
+      "required_dialogues": [
+        "book_clinic",
+        "change_time",
+        "confirm_reservation"
+      ]
+    },
+    {
+      "day": 65,
+      "unit": "Obligation and Advice",
+      "scenario": "what should or must be done",
+      "target_functions": [
+        "should",
+        "need",
+        "must",
+        "suggest"
+      ],
+      "new_vocab_target": 40,
+      "grammar_ids_to_create": [
+        "GR_D65_YINGGAI",
+        "GR_D65_XUYA0",
+        "GR_D65_BIXU"
+      ],
+      "required_dialogues": [
+        "doctor_advice",
+        "friend_advice",
+        "work_need"
+      ]
+    },
+    {
+      "day": 66,
+      "unit": "Conditional Plans",
+      "scenario": "if this happens, then do that",
+      "target_functions": [
+        "condition",
+        "plan_b",
+        "warning"
+      ],
+      "new_vocab_target": 40,
+      "grammar_ids_to_create": [
+        "GR_D66_RUGUO_JIU",
+        "GR_D66_BU_RAN",
+        "GR_D66_KENENG"
+      ],
+      "required_dialogues": [
+        "if_rain",
+        "if_late",
+        "if_closed"
+      ]
+    },
+    {
+      "day": 67,
+      "unit": "Contrast and Concession",
+      "scenario": "although something is true, another thing is also true",
+      "target_functions": [
+        "contrast",
+        "soft_disagreement",
+        "balanced_opinion"
+      ],
+      "new_vocab_target": 40,
+      "grammar_ids_to_create": [
+        "GR_D67_SUIRAN_KESHI",
+        "GR_D67_DANSHI_REVIEW",
+        "GR_D67_HAI_SHI_STILL"
+      ],
+      "required_dialogues": [
+        "expensive_but_good",
+        "busy_but_can",
+        "far_but_worth"
+      ]
+    },
+    {
+      "day": 68,
+      "unit": "Direction Complements I",
+      "scenario": "movement in and out, up and down",
+      "target_functions": [
+        "movement",
+        "instruction",
+        "location_change"
+      ],
+      "new_vocab_target": 45,
+      "grammar_ids_to_create": [
+        "GR_D68_LAI_QU",
+        "GR_D68_JIN_CHU",
+        "GR_D68_SHANG_XIA"
+      ],
+      "required_dialogues": [
+        "come_in",
+        "go_out",
+        "go_upstairs"
+      ]
+    },
+    {
+      "day": 69,
+      "unit": "Direction Complements II",
+      "scenario": "bringing, taking, coming back, going back",
+      "target_functions": [
+        "bring",
+        "take",
+        "return",
+        "deliver"
+      ],
+      "new_vocab_target": 45,
+      "grammar_ids_to_create": [
+        "GR_D69_DAI_LAI_DAI_QU",
+        "GR_D69_HUI_LAI_HUI_QU",
+        "GR_D69_NA_LAI_NA_QU"
+      ],
+      "required_dialogues": [
+        "bring_document",
+        "take_food_out",
+        "come_back_later"
+      ]
+    },
+    {
+      "day": 70,
+      "unit": "Phase Review 61–69",
+      "scenario": "transaction and problem-solving review",
+      "target_functions": [
+        "problem",
+        "help",
+        "condition",
+        "appointment",
+        "movement"
+      ],
+      "new_vocab_target": 10,
+      "grammar_ids_to_create": [
+        "GR_D70_REVIEW_PROBLEM_SOLVING"
+      ],
+      "required_dialogues": [
+        "clinic_problem_chain",
+        "lost_item_chain",
+        "appointment_change_chain"
+      ]
+    },
+    {
+      "day": 71,
+      "unit": "Work and Study I",
+      "scenario": "talking about job, school, schedule",
+      "target_functions": [
+        "describe_role",
+        "describe_schedule",
+        "ask_about_work"
+      ],
+      "new_vocab_target": 45,
+      "grammar_ids_to_create": [
+        "GR_D71_ZAI_COMPANY_WORK",
+        "GR_D71_DANG_ROLE",
+        "GR_D71_MANG_BU_MANG"
+      ],
+      "required_dialogues": [
+        "what_job",
+        "student_schedule",
+        "busy_week"
+      ]
+    },
+    {
+      "day": 72,
+      "unit": "Work and Study II",
+      "scenario": "simple tasks, meetings, deadlines",
+      "target_functions": [
+        "task",
+        "deadline",
+        "meeting",
+        "status"
+      ],
+      "new_vocab_target": 45,
+      "grammar_ids_to_create": [
+        "GR_D72_YAO_FINISH",
+        "GR_D72_ZAI_KAIHUI",
+        "GR_D72_HAI_MEI_FINISH"
+      ],
+      "required_dialogues": [
+        "meeting_time",
+        "task_status",
+        "deadline_problem"
+      ]
+    },
+    {
+      "day": 73,
+      "unit": "Opinions I",
+      "scenario": "saying what you think",
+      "target_functions": [
+        "think",
+        "feel",
+        "agree",
+        "disagree_softly"
+      ],
+      "new_vocab_target": 40,
+      "grammar_ids_to_create": [
+        "GR_D73_WO_JUEDE",
+        "GR_D73_WO_RENWEI_INTRO",
+        "GR_D73_BU_YIDING"
+      ],
+      "required_dialogues": [
+        "food_opinion",
+        "place_opinion",
+        "movie_opinion"
+      ]
+    },
+    {
+      "day": 74,
+      "unit": "Opinions II",
+      "scenario": "giving reasons and examples",
+      "target_functions": [
+        "reason",
+        "example",
+        "comparison",
+        "conclusion"
+      ],
+      "new_vocab_target": 40,
+      "grammar_ids_to_create": [
+        "GR_D74_BIJING",
+        "GR_D74_LIRU",
+        "GR_D74_SUOYI_CONCLUSION"
+      ],
+      "required_dialogues": [
+        "why_like_taiwan",
+        "why_choose_this",
+        "example_explanation"
+      ]
+    },
+    {
+      "day": 75,
+      "unit": "Phase 5 Assessment",
+      "scenario": "transactional independence checkpoint",
+      "target_functions": [
+        "problem_solving",
+        "appointment",
+        "condition",
+        "opinion",
+        "work_study"
+      ],
+      "new_vocab_target": 0,
+      "grammar_ids_to_create": [
+        "GR_D75_ASSESSMENT_REVIEW"
+      ],
+      "required_dialogues": [
+        "work_problem_task",
+        "return_item_task",
+        "opinion_task"
+      ],
+      "assessment": true
+    },
+    {
+      "day": 76,
+      "unit": "Storytelling I",
+      "scenario": "telling a simple personal story",
+      "target_functions": [
+        "background",
+        "sequence",
+        "result",
+        "feeling"
+      ],
+      "new_vocab_target": 40,
+      "grammar_ids_to_create": [
+        "GR_D76_BENLAI_HOULAI",
+        "GR_D76_YINWEI_RESULT",
+        "GR_D76_FEELING_AFTER_EVENT"
+      ],
+      "required_dialogues": [
+        "lost_then_found",
+        "trip_story",
+        "bad_day_story"
+      ]
+    },
+    {
+      "day": 77,
+      "unit": "Storytelling II",
+      "scenario": "telling stories with interruption and questions",
+      "target_functions": [
+        "continue_story",
+        "answer_followup",
+        "clarify_detail"
+      ],
+      "new_vocab_target": 40,
+      "grammar_ids_to_create": [
+        "GR_D77_RANHOU_NE",
+        "GR_D77_HOU_LAI",
+        "GR_D77_NI_DE_YISI_SHI"
+      ],
+      "required_dialogues": [
+        "friend_asks_followup",
+        "clarify_story",
+        "continue_story"
+      ]
+    },
+    {
+      "day": 78,
+      "unit": "Natural Conversation Fillers",
+      "scenario": "sounding less robotic in conversation",
+      "target_functions": [
+        "hesitate",
+        "confirm",
+        "soften",
+        "self_correct"
+      ],
+      "new_vocab_target": 35,
+      "grammar_ids_to_create": [
+        "GR_D78_NAGE_FILLER",
+        "GR_D78_DUI_DUI_DUI",
+        "GR_D78_WO_SHI_SHUO"
+      ],
+      "required_dialogues": [
+        "hesitation_order",
+        "self_correction",
+        "confirm_understanding"
+      ]
+    },
+    {
+      "day": 79,
+      "unit": "Clarification and Repair",
+      "scenario": "fixing misunderstanding",
+      "target_functions": [
+        "ask_repeat",
+        "ask_slowly",
+        "rephrase",
+        "confirm_meaning"
+      ],
+      "new_vocab_target": 35,
+      "grammar_ids_to_create": [
+        "GR_D79_QING_ZAI_SHUO_YI_CI",
+        "GR_D79_MAN_YI_DIAN",
+        "GR_D79_SHI_BU_SHI_MEAN"
+      ],
+      "required_dialogues": [
+        "didnt_understand",
+        "slow_down",
+        "confirm_meaning"
+      ]
+    },
+    {
+      "day": 80,
+      "unit": "Reading Practical Texts",
+      "scenario": "reading signs, messages, notices",
+      "target_functions": [
+        "read_notice",
+        "understand_rule",
+        "ask_about_text"
+      ],
+      "new_vocab_target": 45,
+      "grammar_ids_to_create": [
+        "GR_D80_QING_DO",
+        "GR_D80_BU_KE",
+        "GR_D80_NOTICE_STYLE"
+      ],
+      "required_dialogues": [
+        "read_sign",
+        "ask_notice",
+        "understand_rule"
+      ]
+    },
+    {
+      "day": 81,
+      "unit": "Phone Calls",
+      "scenario": "calling a shop, clinic, or friend",
+      "target_functions": [
+        "open_call",
+        "identify_self",
+        "state_purpose",
+        "confirm"
+      ],
+      "new_vocab_target": 40,
+      "grammar_ids_to_create": [
+        "GR_D81_WEI_PHONE",
+        "GR_D81_QING_WEN_CALL",
+        "GR_D81_WO_XIANG_YAO_CALL"
+      ],
+      "required_dialogues": [
+        "call_restaurant",
+        "call_clinic",
+        "call_friend"
+      ]
+    },
+    {
+      "day": 82,
+      "unit": "Messaging",
+      "scenario": "short chat messages in Traditional Chinese",
+      "target_functions": [
+        "write_short_message",
+        "ask_time",
+        "confirm_plan",
+        "apologize"
+      ],
+      "new_vocab_target": 35,
+      "grammar_ids_to_create": [
+        "GR_D82_MESSAGE_ELLIPSIS",
+        "GR_D82_SHORT_CONFIRM",
+        "GR_D82_BUHAOYISI_MESSAGE"
+      ],
+      "required_dialogues": [
+        "line_message_plan",
+        "late_message",
+        "confirm_address"
+      ]
+    },
+    {
+      "day": 83,
+      "unit": "Negotiating Choices",
+      "scenario": "choosing restaurant, time, route, option",
+      "target_functions": [
+        "suggest",
+        "counter_suggest",
+        "compare",
+        "decide"
+      ],
+      "new_vocab_target": 40,
+      "grammar_ids_to_create": [
+        "GR_D83_BU_RAN",
+        "GR_D83_YAOBU",
+        "GR_D83_JIU_ZHE_YANG"
+      ],
+      "required_dialogues": [
+        "choose_restaurant",
+        "choose_time",
+        "choose_route"
+      ]
+    },
+    {
+      "day": 84,
+      "unit": "Explaining Background",
+      "scenario": "where you are from, why you are learning, what you do",
+      "target_functions": [
+        "background",
+        "motivation",
+        "duration",
+        "goal"
+      ],
+      "new_vocab_target": 40,
+      "grammar_ids_to_create": [
+        "GR_D84_LAI_TAIWAN_DUOJIU",
+        "GR_D84_WEILE",
+        "GR_D84_XUE_ZHONGWEN_GOAL"
+      ],
+      "required_dialogues": [
+        "why_learn_chinese",
+        "how_long_taiwan",
+        "self_background"
+      ]
+    },
+    {
+      "day": 85,
+      "unit": "Extended Social Conversation",
+      "scenario": "meeting a local and chatting for several minutes",
+      "target_functions": [
+        "self_intro",
+        "ask_followup",
+        "respond",
+        "topic_shift"
+      ],
+      "new_vocab_target": 35,
+      "grammar_ids_to_create": [
+        "GR_D85_TOPIC_SHIFT",
+        "GR_D85_NI_NE",
+        "GR_D85_SHUNBIAN_WEN"
+      ],
+      "required_dialogues": [
+        "new_friend_chat",
+        "language_exchange",
+        "neighbor_chat"
+      ]
+    },
+    {
+      "day": 86,
+      "unit": "Integrated Scenario I",
+      "scenario": "arrive at a new place, ask directions, buy something, make small talk",
+      "target_functions": [
+        "integrated_survival",
+        "smalltalk",
+        "repair"
+      ],
+      "new_vocab_target": 15,
+      "grammar_ids_to_create": [
+        "GR_D86_INTEGRATION_REVIEW"
+      ],
+      "required_dialogues": [
+        "station_to_cafe_to_chat",
+        "wrong_place_repair",
+        "ask_buy_talk"
+      ]
+    },
+    {
+      "day": 87,
+      "unit": "Integrated Scenario II",
+      "scenario": "health or housing problem from start to resolution",
+      "target_functions": [
+        "explain_problem",
+        "ask_help",
+        "schedule",
+        "confirm"
+      ],
+      "new_vocab_target": 15,
+      "grammar_ids_to_create": [
+        "GR_D87_INTEGRATION_REVIEW"
+      ],
+      "required_dialogues": [
+        "clinic_full_task",
+        "repair_full_task",
+        "pharmacy_followup"
+      ]
+    },
+    {
+      "day": 88,
+      "unit": "Integrated Scenario III",
+      "scenario": "social plan with conflict and rescheduling",
+      "target_functions": [
+        "invite",
+        "decline",
+        "explain",
+        "reschedule",
+        "confirm"
+      ],
+      "new_vocab_target": 15,
+      "grammar_ids_to_create": [
+        "GR_D88_INTEGRATION_REVIEW"
+      ],
+      "required_dialogues": [
+        "friend_plan_conflict",
+        "late_reschedule",
+        "group_plan"
+      ]
+    },
+    {
+      "day": 89,
+      "unit": "Mock Conversation Day",
+      "scenario": "unrehearsed everyday conversation simulation",
+      "target_functions": [
+        "spontaneous_response",
+        "followup",
+        "repair",
+        "narration"
+      ],
+      "new_vocab_target": 0,
+      "grammar_ids_to_create": [
+        "GR_D89_MOCK_REVIEW"
+      ],
+      "required_dialogues": [
+        "random_topic_1",
+        "random_topic_2",
+        "random_topic_3"
+      ],
+      "assessment": true
+    },
+    {
+      "day": 90,
+      "unit": "Final Communication Assessment",
+      "scenario": "90-day final speaking, listening, reading, and writing checkpoint",
+      "target_functions": [
+        "independent_daily_communication"
+      ],
+      "new_vocab_target": 0,
+      "grammar_ids_to_create": [
+        "GR_D90_FINAL_REVIEW"
+      ],
+      "required_dialogues": [
+        "final_service_task",
+        "final_social_task",
+        "final_problem_task",
+        "final_narration_task"
+      ],
+      "assessment": true
+    }
+  ]
+}

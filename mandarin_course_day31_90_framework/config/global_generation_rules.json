@@ -1,0 +1,25 @@
+{
+  "global_generation_rules": {
+    "closed_vocab_policy": true,
+    "all_content_must_reference_vocab_ids": true,
+    "no_sentence_may_use_unknown_token": true,
+    "no_dialogue_may_use_unknown_token": true,
+    "no_exercise_may_use_unknown_token": true,
+    "no_audio_item_may_use_unknown_token": true,
+    "no_grammar_example_may_use_unknown_token": true,
+    "traditional_only": true,
+    "simplified_characters_allowed": false,
+    "taiwan_usage_preferred": true,
+    "pinyin_required": true,
+    "zhuyin_optional_but_supported": true,
+    "english_translation_required": true,
+    "korean_translation_optional": true,
+    "audio_manifest_required": true,
+    "pronunciation_scoring_required": true,
+    "srs_required": true,
+    "lesson_dependency_validation_required": true,
+    "grammar_explanation_minimum_depth": "full_usage_explanation",
+    "codex_must_not_invent_missing_data": true,
+    "if_dependency_missing": "throw_build_error"
+  }
+}

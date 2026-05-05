@@ -4,6 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "generate:days31-45": "node scripts/generate-days31-45.mjs",
+    "validate:course": "node scripts/validate-course.mjs",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",

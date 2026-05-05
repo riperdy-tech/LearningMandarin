@@ -1,0 +1,132 @@
+[
+  {
+    "id": "ASM_D60",
+    "lesson_id": "LESSON_D60",
+    "day": 60,
+    "title": "Phase 4 Assessment",
+    "scenario": "social narration checkpoint",
+    "tasks": [
+      {
+        "id": "ASM_D60_T1",
+        "type": "roleplay_response",
+        "prompt_en": "Demonstrate: past",
+        "minimum_turns": 3
+      },
+      {
+        "id": "ASM_D60_T2",
+        "type": "roleplay_response",
+        "prompt_en": "Demonstrate: experience",
+        "minimum_turns": 3
+      },
+      {
+        "id": "ASM_D60_T3",
+        "type": "roleplay_response",
+        "prompt_en": "Demonstrate: ongoing",
+        "minimum_turns": 3
+      },
+      {
+        "id": "ASM_D60_T4",
+        "type": "roleplay_response",
+        "prompt_en": "Demonstrate: comparison",
+        "minimum_turns": 3
+      },
+      {
+        "id": "ASM_D60_T5",
+        "type": "roleplay_response",
+        "prompt_en": "Demonstrate: health",
+        "minimum_turns": 3
+      }
+    ],
+    "pass_threshold": 0.75
+  },
+  {
+    "id": "ASM_D75",
+    "lesson_id": "LESSON_D75",
+    "day": 75,
+    "title": "Phase 5 Assessment",
+    "scenario": "transactional independence checkpoint",
+    "tasks": [
+      {
+        "id": "ASM_D75_T1",
+        "type": "roleplay_response",
+        "prompt_en": "Demonstrate: problem solving",
+        "minimum_turns": 3
+      },
+      {
+        "id": "ASM_D75_T2",
+        "type": "roleplay_response",
+        "prompt_en": "Demonstrate: appointment",
+        "minimum_turns": 3
+      },
+      {
+        "id": "ASM_D75_T3",
+        "type": "roleplay_response",
+        "prompt_en": "Demonstrate: condition",
+        "minimum_turns": 3
+      },
+      {
+        "id": "ASM_D75_T4",
+        "type": "roleplay_response",
+        "prompt_en": "Demonstrate: opinion",
+        "minimum_turns": 3
+      },
+      {
+        "id": "ASM_D75_T5",
+        "type": "roleplay_response",
+        "prompt_en": "Demonstrate: work study",
+        "minimum_turns": 3
+      }
+    ],
+    "pass_threshold": 0.75
+  },
+  {
+    "id": "ASM_D89",
+    "lesson_id": "LESSON_D89",
+    "day": 89,
+    "title": "Mock Conversation Day",
+    "scenario": "unrehearsed everyday conversation simulation",
+    "tasks": [
+      {
+        "id": "ASM_D89_T1",
+        "type": "roleplay_response",
+        "prompt_en": "Demonstrate: spontaneous response",
+        "minimum_turns": 3
+      },
+      {
+        "id": "ASM_D89_T2",
+        "type": "roleplay_response",
+        "prompt_en": "Demonstrate: followup",
+        "minimum_turns": 3
+      },
+      {
+        "id": "ASM_D89_T3",
+        "type": "roleplay_response",
+        "prompt_en": "Demonstrate: repair",
+        "minimum_turns": 3
+      },
+      {
+        "id": "ASM_D89_T4",
+        "type": "roleplay_response",
+        "prompt_en": "Demonstrate: narration",
+        "minimum_turns": 3
+      }
+    ],
+    "pass_threshold": 0.75
+  },
+  {
+    "id": "ASM_D90",
+    "lesson_id": "LESSON_D90",
+    "day": 90,
+    "title": "Final Communication Assessment",
+    "scenario": "90-day final speaking, listening, reading, and writing checkpoint",
+    "tasks": [
+      {
+        "id": "ASM_D90_T1",
+        "type": "roleplay_response",
+        "prompt_en": "Demonstrate: independent daily communication",
+        "minimum_turns": 3
+      }
+    ],
+    "pass_threshold": 0.75
+  }
+]

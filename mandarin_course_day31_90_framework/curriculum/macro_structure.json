@@ -1,0 +1,43 @@
+{
+  "day_31_to_90_structure": {
+    "total_days": 60,
+    "phase_count": 4,
+    "phase_length_days": 15,
+    "daily_required_new_vocab": {
+      "minimum": 25,
+      "target": 35,
+      "maximum": 50
+    },
+    "daily_required_sentence_bank": {
+      "minimum": 60,
+      "target": 90,
+      "maximum": 130
+    },
+    "daily_required_dialogues": {
+      "minimum": 2,
+      "target": 3,
+      "maximum": 5
+    },
+    "daily_required_grammar_points": {
+      "minimum": 2,
+      "target": 3,
+      "maximum": 4
+    },
+    "daily_required_speaking_drills": {
+      "minimum": 20,
+      "target": 35
+    },
+    "daily_required_listening_items": {
+      "minimum": 10,
+      "target": 20
+    },
+    "daily_required_review_items": {
+      "minimum": 30,
+      "target": 50
+    },
+    "daily_required_free_response_prompts": {
+      "minimum": 3,
+      "target": 5
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "assessment_days": [
+    45,
+    60,
+    75,
+    89,
+    90
+  ],
+  "assessment_schema": {
+    "speaking": {
+      "weight": 0.35,
+      "criteria": {
+        "task_completion": 0.25,
+        "pronunciation_tone": 0.2,
+        "grammar_control": 0.2,
+        "vocabulary_range": 0.15,
+        "fluency": 0.1,
+        "repair_strategy": 0.1
+      }
+    },
+    "listening": {
+      "weight": 0.25,
+      "criteria": {
+        "main_idea": 0.35,
+        "key_details": 0.35,
+        "natural_speed_tolerance": 0.15,
+        "inference": 0.15
+      }
+    },
+    "reading": {
+      "weight": 0.15,
+      "criteria": {
+        "practical_text_comprehension": 0.5,
+        "known_vocab_recognition": 0.25,
+        "grammar_parsing": 0.25
+      }
+    },
+    "writing": {
+      "weight": 0.15,
+      "criteria": {
+        "message_completion": 0.35,
+        "character_accuracy": 0.2,
+        "grammar_accuracy": 0.25,
+        "naturalness": 0.2
+      }
+    },
+    "adaptive_review": {
+      "weight": 0.1,
+      "criteria": {
+        "retention": 0.5,
+        "speed": 0.25,
+        "error_reduction": 0.25
+      }
+    }
+  },
+  "pass_thresholds": {
+    "daily_lesson": 0.85,
+    "phase_assessment": 0.8,
+    "final_day_90": 0.82
+  }
+}

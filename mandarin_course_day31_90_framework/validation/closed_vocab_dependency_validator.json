@@ -1,0 +1,55 @@
+{
+  "validator": {
+    "name": "closed_vocab_dependency_validator",
+    "input_files": [
+      "vocab_master.json",
+      "sentences_day_x.json",
+      "dialogues_day_x.json",
+      "grammar_day_x.json",
+      "exercises_day_x.json",
+      "audio_manifest_day_x.json"
+    ],
+    "validation_steps": [
+      {
+        "step": 1,
+        "name": "tokenize_traditional_text",
+        "description": "Tokenize every Traditional Chinese string into known lexical units."
+      },
+      {
+        "step": 2,
+        "name": "resolve_token_to_vocab_id",
+        "description": "Every token must map to exactly one vocab_id."
+      },
+      {
+        "step": 3,
+        "name": "reject_unknown_token",
+        "description": "If a token is absent from vocab_master.json, fail the build."
+      },
+      {
+        "step": 4,
+        "name": "reject_future_vocab",
+        "description": "If a token belongs to a future day, fail the lesson."
+      },
+      {
+        "step": 5,
+        "name": "validate_grammar_reference",
+        "description": "Every sentence grammar_id must exist in grammar_master.json."
+      },
+      {
+        "step": 6,
+        "name": "validate_audio_reference",
+        "description": "Every audio_id must exist in audio_manifest.json."
+      }
+    ],
+    "on_failure": {
+      "behavior": "hard_error",
+      "error_format": {
+        "error_type": "UNKNOWN_TOKEN_OR_DEPENDENCY",
+        "lesson_day": "integer",
+        "text": "string",
+        "unknown_token": "string",
+        "suggested_action": "Add token to same-day vocab or replace sentence."
+      }
+    }
+  }
+}

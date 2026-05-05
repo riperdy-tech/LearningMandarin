@@ -1,0 +1,32 @@
+{
+  "course_id": "traditional_mandarin_90_day_taiwan_intensive",
+  "framework_version": "2.0",
+  "scope": "Days 31 through 90 only",
+  "script": "Traditional Chinese",
+  "spoken_standard": "Taiwan Mandarin",
+  "assumes_existing_days": "1-30",
+  "target_after_day_90": {
+    "communication_goal": "Smooth everyday communication with locals across common daily-life, social, service, travel, housing, health, work, and opinion topics, excluding difficult technical, academic, political, literary, and rare vocabulary.",
+    "approximate_level": {
+      "actfl": "Intermediate Mid to Intermediate High behavior in familiar domains",
+      "cefr_equivalent_rough": "A2+ to early B1 conversational behavior"
+    },
+    "must_be_able_to": [
+      "handle multi-turn conversations in familiar situations",
+      "ask follow-up questions",
+      "clarify misunderstandings",
+      "describe past, present, and near-future events",
+      "express needs, preferences, comparisons, reasons, and simple opinions",
+      "understand short natural dialogues with some repeated or slowed input",
+      "read practical Traditional Chinese text such as menus, signs, messages, receipts, simple notices, and chat messages",
+      "write short messages, requests, self-introductions, and practical notes"
+    ],
+    "must_not_claim": [
+      "native fluency",
+      "advanced academic fluency",
+      "technical professional fluency",
+      "political debate ability",
+      "literary reading ability"
+    ]
+  }
+}

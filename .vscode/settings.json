@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^cd \"c:\\\\Users\\\\riper\\\\Downloads\\\\Learning Mandarin\" ; node scripts/validate-course\\.mjs 2>&1$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}

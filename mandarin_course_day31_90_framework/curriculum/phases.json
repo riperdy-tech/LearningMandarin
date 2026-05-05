@@ -1,0 +1,171 @@
+{
+  "phases": [
+    {
+      "phase_id": "PHASE_03",
+      "days": "31-45",
+      "title": "Survival Fluency Expansion",
+      "primary_goal": "Move from isolated sentence production to functional multi-turn exchanges.",
+      "communication_targets": [
+        "make requests politely",
+        "ask for clarification",
+        "talk about daily routine",
+        "handle restaurants, cafés, convenience stores, and markets",
+        "describe location and movement",
+        "talk about time, schedule, and availability",
+        "express basic preferences and reasons"
+      ],
+      "grammar_focus": [
+        "想 + verb",
+        "要 + noun / verb",
+        "可以 + verb",
+        "能不能 / 可不可以",
+        "在 + location + verb",
+        "從...到...",
+        "因為...所以...",
+        "可是 / 但是",
+        "還是 vs 或者",
+        "measure word expansion",
+        "了 for completed action introduction"
+      ],
+      "pronunciation_focus": [
+        "tone sandhi in 你好 / 很好 / 想買",
+        "neutral tone in common function words",
+        "third-tone chains",
+        "zh/ch/sh vs z/c/s",
+        "j/q/x initials",
+        "sentence-final particle intonation"
+      ],
+      "fluency_requirement": {
+        "average_spoken_turn_length": "1-2 sentences",
+        "dialogue_turns_per_task": "4-6",
+        "listening_speed": "slow natural",
+        "repair_strategy_required": true
+      }
+    },
+    {
+      "phase_id": "PHASE_04",
+      "days": "46-60",
+      "title": "Narration and Social Life",
+      "primary_goal": "Enable the learner to describe experiences, make plans, and participate in casual social exchanges.",
+      "communication_targets": [
+        "talk about yesterday, today, and tomorrow",
+        "make weekend plans",
+        "invite, accept, reject, and reschedule",
+        "describe people and places",
+        "talk about hobbies",
+        "talk about weather and mood",
+        "explain simple problems",
+        "give short reasons"
+      ],
+      "grammar_focus": [
+        "了 for change of state",
+        "過 for experience",
+        "正在 / 在 for ongoing action",
+        "會 for learned ability and future likelihood",
+        "比較 / 最",
+        "跟...一起",
+        "的 for noun modification",
+        "得 for degree complements introduction",
+        "太...了",
+        "有一點 / 一點都不"
+      ],
+      "pronunciation_focus": [
+        "了 neutral tone",
+        "不 tone sandhi",
+        "一 tone sandhi",
+        "longer phrase chunking",
+        "contrastive stress for correction"
+      ],
+      "fluency_requirement": {
+        "average_spoken_turn_length": "2-3 sentences",
+        "dialogue_turns_per_task": "6-8",
+        "listening_speed": "slow-to-normal natural",
+        "repair_strategy_required": true
+      }
+    },
+    {
+      "phase_id": "PHASE_05",
+      "days": "61-75",
+      "title": "Transactions and Problem Solving",
+      "primary_goal": "Train the learner to solve practical problems in Taiwan using Mandarin.",
+      "communication_targets": [
+        "renting and housing issues",
+        "doctor and pharmacy visits",
+        "transportation problems",
+        "lost items",
+        "appointments",
+        "returns and exchanges",
+        "asking for help",
+        "explaining what happened",
+        "giving simple complaints politely"
+      ],
+      "grammar_focus": [
+        "把 introduction for disposal",
+        "被 introduction for passive experience",
+        "先...再...",
+        "如果...就...",
+        "雖然...可是...",
+        "應該 / 需要 / 必須",
+        "可能 / 也許",
+        "結果",
+        "才 vs 就 introduction",
+        "direction complements: 來 / 去 / 上 / 下 / 進 / 出"
+      ],
+      "pronunciation_focus": [
+        "tone accuracy under longer utterances",
+        "sentence rhythm in complaint/request forms",
+        "reduced neutral tones in natural speech",
+        "common Taiwan reductions and casual particles"
+      ],
+      "fluency_requirement": {
+        "average_spoken_turn_length": "2-4 sentences",
+        "dialogue_turns_per_task": "8-10",
+        "listening_speed": "normal but clear",
+        "repair_strategy_required": true
+      }
+    },
+    {
+      "phase_id": "PHASE_06",
+      "days": "76-90",
+      "title": "Independent Daily Communication",
+      "primary_goal": "Make the learner capable of handling most non-technical everyday conversations with locals.",
+      "communication_targets": [
+        "tell short stories",
+        "describe personal background",
+        "talk about work or study in non-technical terms",
+        "discuss preferences and opinions",
+        "compare choices",
+        "negotiate simple arrangements",
+        "handle unexpected questions",
+        "summarize a short message or conversation",
+        "ask natural follow-up questions",
+        "recover from misunderstanding"
+      ],
+      "grammar_focus": [
+        "連...都...",
+        "除了...以外",
+        "不但...而且...",
+        "越來越...",
+        "又...又...",
+        "一邊...一邊...",
+        "差不多 / 大概",
+        "本來...後來...",
+        "對...來說",
+        "讓 / 使 introduction"
+      ],
+      "pronunciation_focus": [
+        "connected speech",
+        "topic-comment intonation",
+        "question intonation with particles",
+        "natural hesitation fillers",
+        "self-correction speech patterns"
+      ],
+      "fluency_requirement": {
+        "average_spoken_turn_length": "3-5 sentences",
+        "dialogue_turns_per_task": "10-14",
+        "listening_speed": "normal everyday clear Taiwan Mandarin",
+        "repair_strategy_required": true
+      }
+    }
+  ]
+}

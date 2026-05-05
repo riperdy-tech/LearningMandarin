@@ -1,0 +1,703 @@
+[
+  {
+    "id": "LOCKED_D46",
+    "week": 7,
+    "order": 46,
+    "title": "Past Events I",
+    "phase_id": "PHASE_04",
+    "scenario": "talking about what you did yesterday",
+    "communication_functions": [
+      "describe_past_action",
+      "ask_past_action"
+    ],
+    "status": "locked",
+    "unlock_note": "Framework ready. Full lesson data will be generated in a later rollout phase."
+  },
+  {
+    "id": "LOCKED_D47",
+    "week": 7,
+    "order": 47,
+    "title": "Past Events II",
+    "phase_id": "PHASE_04",
+    "scenario": "telling a short sequence",
+    "communication_functions": [
+      "sequence_past",
+      "connect_events",
+      "ask_then_what"
+    ],
+    "status": "locked",
+    "unlock_note": "Framework ready. Full lesson data will be generated in a later rollout phase."
+  },
+  {
+    "id": "LOCKED_D48",
+    "week": 7,
+    "order": 48,
+    "title": "Experience",
+    "phase_id": "PHASE_04",
+    "scenario": "talking about things you have done before",
+    "communication_functions": [
+      "experience",
+      "ask_experience",
+      "answer_never"
+    ],
+    "status": "locked",
+    "unlock_note": "Framework ready. Full lesson data will be generated in a later rollout phase."
+  },
+  {
+    "id": "LOCKED_D49",
+    "week": 7,
+    "order": 49,
+    "title": "Ongoing Actions",
+    "phase_id": "PHASE_04",
+    "scenario": "what are you doing now?",
+    "communication_functions": [
+      "describe_current_action",
+      "interrupt_politely",
+      "ask_availability"
+    ],
+    "status": "locked",
+    "unlock_note": "Framework ready. Full lesson data will be generated in a later rollout phase."
+  },
+  {
+    "id": "LOCKED_D50",
+    "week": 8,
+    "order": 50,
+    "title": "Ability and Learning",
+    "phase_id": "PHASE_04",
+    "scenario": "talking about what you can do and are learning",
+    "communication_functions": [
+      "ability",
+      "learned_skill",
+      "cannot_yet"
+    ],
+    "status": "locked",
+    "unlock_note": "Framework ready. Full lesson data will be generated in a later rollout phase."
+  },
+  {
+    "id": "LOCKED_D51",
+    "week": 8,
+    "order": 51,
+    "title": "Describing People",
+    "phase_id": "PHASE_04",
+    "scenario": "appearance, personality, basic relationships",
+    "communication_functions": [
+      "describe_person",
+      "identify_person",
+      "ask_about_person"
+    ],
+    "status": "locked",
+    "unlock_note": "Framework ready. Full lesson data will be generated in a later rollout phase."
+  },
+  {
+    "id": "LOCKED_D52",
+    "week": 8,
+    "order": 52,
+    "title": "Comparisons",
+    "phase_id": "PHASE_04",
+    "scenario": "comparing food, places, prices, convenience",
+    "communication_functions": [
+      "compare",
+      "prefer",
+      "explain_choice"
+    ],
+    "status": "locked",
+    "unlock_note": "Framework ready. Full lesson data will be generated in a later rollout phase."
+  },
+  {
+    "id": "LOCKED_D53",
+    "week": 8,
+    "order": 53,
+    "title": "Hobbies",
+    "phase_id": "PHASE_04",
+    "scenario": "talking about free time",
+    "communication_functions": [
+      "habit",
+      "frequency",
+      "invite_based_on_hobby"
+    ],
+    "status": "locked",
+    "unlock_note": "Framework ready. Full lesson data will be generated in a later rollout phase."
+  },
+  {
+    "id": "LOCKED_D54",
+    "week": 8,
+    "order": 54,
+    "title": "Invitations and Rescheduling",
+    "phase_id": "PHASE_04",
+    "scenario": "making, accepting, declining, and changing plans",
+    "communication_functions": [
+      "invite",
+      "reschedule",
+      "soft_reject",
+      "suggest_alternative"
+    ],
+    "status": "locked",
+    "unlock_note": "Framework ready. Full lesson data will be generated in a later rollout phase."
+  },
+  {
+    "id": "LOCKED_D55",
+    "week": 8,
+    "order": 55,
+    "title": "Phase Review 46–54",
+    "phase_id": "PHASE_04",
+    "scenario": "past, ongoing, ability, comparison review",
+    "communication_functions": [
+      "narrate",
+      "compare",
+      "invite",
+      "repair"
+    ],
+    "status": "locked",
+    "unlock_note": "Framework ready. Full lesson data will be generated in a later rollout phase."
+  },
+  {
+    "id": "LOCKED_D56",
+    "week": 8,
+    "order": 56,
+    "title": "Health I",
+    "phase_id": "PHASE_04",
+    "scenario": "describing symptoms",
+    "communication_functions": [
+      "body_part",
+      "symptom",
+      "duration",
+      "severity"
+    ],
+    "status": "locked",
+    "unlock_note": "Framework ready. Full lesson data will be generated in a later rollout phase."
+  },
+  {
+    "id": "LOCKED_D57",
+    "week": 9,
+    "order": 57,
+    "title": "Health II",
+    "phase_id": "PHASE_04",
+    "scenario": "pharmacy and clinic",
+    "communication_functions": [
+      "ask_medicine",
+      "explain_allergy",
+      "understand_instruction"
+    ],
+    "status": "locked",
+    "unlock_note": "Framework ready. Full lesson data will be generated in a later rollout phase."
+  },
+  {
+    "id": "LOCKED_D58",
+    "week": 9,
+    "order": 58,
+    "title": "Housing I",
+    "phase_id": "PHASE_04",
+    "scenario": "describing apartment and room",
+    "communication_functions": [
+      "describe_home",
+      "ask_facility",
+      "report_issue"
+    ],
+    "status": "locked",
+    "unlock_note": "Framework ready. Full lesson data will be generated in a later rollout phase."
+  },
+  {
+    "id": "LOCKED_D59",
+    "week": 9,
+    "order": 59,
+    "title": "Housing II",
+    "phase_id": "PHASE_04",
+    "scenario": "talking to landlord or repair person",
+    "communication_functions": [
+      "request_repair",
+      "schedule_visit",
+      "explain_problem"
+    ],
+    "status": "locked",
+    "unlock_note": "Framework ready. Full lesson data will be generated in a later rollout phase."
+  },
+  {
+    "id": "LOCKED_D60",
+    "week": 9,
+    "order": 60,
+    "title": "Phase 4 Assessment",
+    "phase_id": "PHASE_04",
+    "scenario": "social narration checkpoint",
+    "communication_functions": [
+      "past",
+      "experience",
+      "ongoing",
+      "comparison",
+      "health",
+      "housing"
+    ],
+    "status": "locked",
+    "unlock_note": "Framework ready. Full lesson data will be generated in a later rollout phase."
+  },
+  {
+    "id": "LOCKED_D61",
+    "week": 9,
+    "order": 61,
+    "title": "Problem Explanation I",
+    "phase_id": "PHASE_05",
+    "scenario": "explaining what happened",
+    "communication_functions": [
+      "problem",
+      "past_sequence",
+      "result"
+    ],
+    "status": "locked",
+    "unlock_note": "Framework ready. Full lesson data will be generated in a later rollout phase."
+  },
+  {
+    "id": "LOCKED_D62",
+    "week": 9,
+    "order": 62,
+    "title": "Problem Explanation II",
+    "phase_id": "PHASE_05",
+    "scenario": "asking for help after a problem",
+    "communication_functions": [
+      "ask_help",
+      "explain_need",
+      "give_contact_info"
+    ],
+    "status": "locked",
+    "unlock_note": "Framework ready. Full lesson data will be generated in a later rollout phase."
+  },
+  {
+    "id": "LOCKED_D63",
+    "week": 9,
+    "order": 63,
+    "title": "Returns and Exchanges",
+    "phase_id": "PHASE_05",
+    "scenario": "returning or exchanging an item",
+    "communication_functions": [
+      "return",
+      "exchange",
+      "explain_defect",
+      "show_receipt"
+    ],
+    "status": "locked",
+    "unlock_note": "Framework ready. Full lesson data will be generated in a later rollout phase."
+  },
+  {
+    "id": "LOCKED_D64",
+    "week": 10,
+    "order": 64,
+    "title": "Appointments",
+    "phase_id": "PHASE_05",
+    "scenario": "booking and changing appointments",
+    "communication_functions": [
+      "book",
+      "cancel",
+      "reschedule",
+      "confirm"
+    ],
+    "status": "locked",
+    "unlock_note": "Framework ready. Full lesson data will be generated in a later rollout phase."
+  },
+  {
+    "id": "LOCKED_D65",
+    "week": 10,
+    "order": 65,
+    "title": "Obligation and Advice",
+    "phase_id": "PHASE_05",
+    "scenario": "what should or must be done",
+    "communication_functions": [
+      "should",
+      "need",
+      "must",
+      "suggest"
+    ],
+    "status": "locked",
+    "unlock_note": "Framework ready. Full lesson data will be generated in a later rollout phase."
+  },
+  {
+    "id": "LOCKED_D66",
+    "week": 10,
+    "order": 66,
+    "title": "Conditional Plans",
+    "phase_id": "PHASE_05",
+    "scenario": "if this happens, then do that",
+    "communication_functions": [
+      "condition",
+      "plan_b",
+      "warning"
+    ],
+    "status": "locked",
+    "unlock_note": "Framework ready. Full lesson data will be generated in a later rollout phase."
+  },
+  {
+    "id": "LOCKED_D67",
+    "week": 10,
+    "order": 67,
+    "title": "Contrast and Concession",
+    "phase_id": "PHASE_05",
+    "scenario": "although something is true, another thing is also true",
+    "communication_functions": [
+      "contrast",
+      "soft_disagreement",
+      "balanced_opinion"
+    ],
+    "status": "locked",
+    "unlock_note": "Framework ready. Full lesson data will be generated in a later rollout phase."
+  },
+  {
+    "id": "LOCKED_D68",
+    "week": 10,
+    "order": 68,
+    "title": "Direction Complements I",
+    "phase_id": "PHASE_05",
+    "scenario": "movement in and out, up and down",
+    "communication_functions": [
+      "movement",
+      "instruction",
+      "location_change"
+    ],
+    "status": "locked",
+    "unlock_note": "Framework ready. Full lesson data will be generated in a later rollout phase."
+  },
+  {
+    "id": "LOCKED_D69",
+    "week": 10,
+    "order": 69,
+    "title": "Direction Complements II",
+    "phase_id": "PHASE_05",
+    "scenario": "bringing, taking, coming back, going back",
+    "communication_functions": [
+      "bring",
+      "take",
+      "return",
+      "deliver"
+    ],
+    "status": "locked",
+    "unlock_note": "Framework ready. Full lesson data will be generated in a later rollout phase."
+  },
+  {
+    "id": "LOCKED_D70",
+    "week": 10,
+    "order": 70,
+    "title": "Phase Review 61–69",
+    "phase_id": "PHASE_05",
+    "scenario": "transaction and problem-solving review",
+    "communication_functions": [
+      "problem",
+      "help",
+      "condition",
+      "appointment",
+      "movement"
+    ],
+    "status": "locked",
+    "unlock_note": "Framework ready. Full lesson data will be generated in a later rollout phase."
+  },
+  {
+    "id": "LOCKED_D71",
+    "week": 11,
+    "order": 71,
+    "title": "Work and Study I",
+    "phase_id": "PHASE_05",
+    "scenario": "talking about job, school, schedule",
+    "communication_functions": [
+      "describe_role",
+      "describe_schedule",
+      "ask_about_work"
+    ],
+    "status": "locked",
+    "unlock_note": "Framework ready. Full lesson data will be generated in a later rollout phase."
+  },
+  {
+    "id": "LOCKED_D72",
+    "week": 11,
+    "order": 72,
+    "title": "Work and Study II",
+    "phase_id": "PHASE_05",
+    "scenario": "simple tasks, meetings, deadlines",
+    "communication_functions": [
+      "task",
+      "deadline",
+      "meeting",
+      "status"
+    ],
+    "status": "locked",
+    "unlock_note": "Framework ready. Full lesson data will be generated in a later rollout phase."
+  },
+  {
+    "id": "LOCKED_D73",
+    "week": 11,
+    "order": 73,
+    "title": "Opinions I",
+    "phase_id": "PHASE_05",
+    "scenario": "saying what you think",
+    "communication_functions": [
+      "think",
+      "feel",
+      "agree",
+      "disagree_softly"
+    ],
+    "status": "locked",
+    "unlock_note": "Framework ready. Full lesson data will be generated in a later rollout phase."
+  },
+  {
+    "id": "LOCKED_D74",
+    "week": 11,
+    "order": 74,
+    "title": "Opinions II",
+    "phase_id": "PHASE_05",
+    "scenario": "giving reasons and examples",
+    "communication_functions": [
+      "reason",
+      "example",
+      "comparison",
+      "conclusion"
+    ],
+    "status": "locked",
+    "unlock_note": "Framework ready. Full lesson data will be generated in a later rollout phase."
+  },
+  {
+    "id": "LOCKED_D75",
+    "week": 11,
+    "order": 75,
+    "title": "Phase 5 Assessment",
+    "phase_id": "PHASE_05",
+    "scenario": "transactional independence checkpoint",
+    "communication_functions": [
+      "problem_solving",
+      "appointment",
+      "condition",
+      "opinion",
+      "work_study"
+    ],
+    "status": "locked",
+    "unlock_note": "Framework ready. Full lesson data will be generated in a later rollout phase."
+  },
+  {
+    "id": "LOCKED_D76",
+    "week": 11,
+    "order": 76,
+    "title": "Storytelling I",
+    "phase_id": "PHASE_06",
+    "scenario": "telling a simple personal story",
+    "communication_functions": [
+      "background",
+      "sequence",
+      "result",
+      "feeling"
+    ],
+    "status": "locked",
+    "unlock_note": "Framework ready. Full lesson data will be generated in a later rollout phase."
+  },
+  {
+    "id": "LOCKED_D77",
+    "week": 11,
+    "order": 77,
+    "title": "Storytelling II",
+    "phase_id": "PHASE_06",
+    "scenario": "telling stories with interruption and questions",
+    "communication_functions": [
+      "continue_story",
+      "answer_followup",
+      "clarify_detail"
+    ],
+    "status": "locked",
+    "unlock_note": "Framework ready. Full lesson data will be generated in a later rollout phase."
+  },
+  {
+    "id": "LOCKED_D78",
+    "week": 12,
+    "order": 78,
+    "title": "Natural Conversation Fillers",
+    "phase_id": "PHASE_06",
+    "scenario": "sounding less robotic in conversation",
+    "communication_functions": [
+      "hesitate",
+      "confirm",
+      "soften",
+      "self_correct"
+    ],
+    "status": "locked",
+    "unlock_note": "Framework ready. Full lesson data will be generated in a later rollout phase."
+  },
+  {
+    "id": "LOCKED_D79",
+    "week": 12,
+    "order": 79,
+    "title": "Clarification and Repair",
+    "phase_id": "PHASE_06",
+    "scenario": "fixing misunderstanding",
+    "communication_functions": [
+      "ask_repeat",
+      "ask_slowly",
+      "rephrase",
+      "confirm_meaning"
+    ],
+    "status": "locked",
+    "unlock_note": "Framework ready. Full lesson data will be generated in a later rollout phase."
+  },
+  {
+    "id": "LOCKED_D80",
+    "week": 12,
+    "order": 80,
+    "title": "Reading Practical Texts",
+    "phase_id": "PHASE_06",
+    "scenario": "reading signs, messages, notices",
+    "communication_functions": [
+      "read_notice",
+      "understand_rule",
+      "ask_about_text"
+    ],
+    "status": "locked",
+    "unlock_note": "Framework ready. Full lesson data will be generated in a later rollout phase."
+  },
+  {
+    "id": "LOCKED_D81",
+    "week": 12,
+    "order": 81,
+    "title": "Phone Calls",
+    "phase_id": "PHASE_06",
+    "scenario": "calling a shop, clinic, or friend",
+    "communication_functions": [
+      "open_call",
+      "identify_self",
+      "state_purpose",
+      "confirm"
+    ],
+    "status": "locked",
+    "unlock_note": "Framework ready. Full lesson data will be generated in a later rollout phase."
+  },
+  {
+    "id": "LOCKED_D82",
+    "week": 12,
+    "order": 82,
+    "title": "Messaging",
+    "phase_id": "PHASE_06",
+    "scenario": "short chat messages in Traditional Chinese",
+    "communication_functions": [
+      "write_short_message",
+      "ask_time",
+      "confirm_plan",
+      "apologize"
+    ],
+    "status": "locked",
+    "unlock_note": "Framework ready. Full lesson data will be generated in a later rollout phase."
+  },
+  {
+    "id": "LOCKED_D83",
+    "week": 12,
+    "order": 83,
+    "title": "Negotiating Choices",
+    "phase_id": "PHASE_06",
+    "scenario": "choosing restaurant, time, route, option",
+    "communication_functions": [
+      "suggest",
+      "counter_suggest",
+      "compare",
+      "decide"
+    ],
+    "status": "locked",
+    "unlock_note": "Framework ready. Full lesson data will be generated in a later rollout phase."
+  },
+  {
+    "id": "LOCKED_D84",
+    "week": 12,
+    "order": 84,
+    "title": "Explaining Background",
+    "phase_id": "PHASE_06",
+    "scenario": "where you are from, why you are learning, what you do",
+    "communication_functions": [
+      "background",
+      "motivation",
+      "duration",
+      "goal"
+    ],
+    "status": "locked",
+    "unlock_note": "Framework ready. Full lesson data will be generated in a later rollout phase."
+  },
+  {
+    "id": "LOCKED_D85",
+    "week": 13,
+    "order": 85,
+    "title": "Extended Social Conversation",
+    "phase_id": "PHASE_06",
+    "scenario": "meeting a local and chatting for several minutes",
+    "communication_functions": [
+      "self_intro",
+      "ask_followup",
+      "respond",
+      "topic_shift"
+    ],
+    "status": "locked",
+    "unlock_note": "Framework ready. Full lesson data will be generated in a later rollout phase."
+  },
+  {
+    "id": "LOCKED_D86",
+    "week": 13,
+    "order": 86,
+    "title": "Integrated Scenario I",
+    "phase_id": "PHASE_06",
+    "scenario": "arrive at a new place, ask directions, buy something, make small talk",
+    "communication_functions": [
+      "integrated_survival",
+      "smalltalk",
+      "repair"
+    ],
+    "status": "locked",
+    "unlock_note": "Framework ready. Full lesson data will be generated in a later rollout phase."
+  },
+  {
+    "id": "LOCKED_D87",
+    "week": 13,
+    "order": 87,
+    "title": "Integrated Scenario II",
+    "phase_id": "PHASE_06",
+    "scenario": "health or housing problem from start to resolution",
+    "communication_functions": [
+      "explain_problem",
+      "ask_help",
+      "schedule",
+      "confirm"
+    ],
+    "status": "locked",
+    "unlock_note": "Framework ready. Full lesson data will be generated in a later rollout phase."
+  },
+  {
+    "id": "LOCKED_D88",
+    "week": 13,
+    "order": 88,
+    "title": "Integrated Scenario III",
+    "phase_id": "PHASE_06",
+    "scenario": "social plan with conflict and rescheduling",
+    "communication_functions": [
+      "invite",
+      "decline",
+      "explain",
+      "reschedule",
+      "confirm"
+    ],
+    "status": "locked",
+    "unlock_note": "Framework ready. Full lesson data will be generated in a later rollout phase."
+  },
+  {
+    "id": "LOCKED_D89",
+    "week": 13,
+    "order": 89,
+    "title": "Mock Conversation Day",
+    "phase_id": "PHASE_06",
+    "scenario": "unrehearsed everyday conversation simulation",
+    "communication_functions": [
+      "spontaneous_response",
+      "followup",
+      "repair",
+      "narration"
+    ],
+    "status": "locked",
+    "unlock_note": "Framework ready. Full lesson data will be generated in a later rollout phase."
+  },
+  {
+    "id": "LOCKED_D90",
+    "week": 13,
+    "order": 90,
+    "title": "Final Communication Assessment",
+    "phase_id": "PHASE_06",
+    "scenario": "90-day final speaking, listening, reading, and writing checkpoint",
+    "communication_functions": [
+      "independent_daily_communication"
+    ],
+    "status": "locked",
+    "unlock_note": "Framework ready. Full lesson data will be generated in a later rollout phase."
+  }
+]

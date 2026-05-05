@@ -25,16 +25,24 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 import type {
+  AssessmentItem,
   AudioItem,
   CourseData,
+  DialogueItem,
   GrammarItem,
   LessonItem,
+  LockedLessonPreview,
+  ListeningItem,
   LocalProgress,
+  ReviewQueueItemType,
+  ReviewQueueState,
+  ReviewResult,
   SentenceItem,
+  SpeakingItem,
   VocabularyItem,
   WritingItem
 } from "@/lib/types";
-import { cn } from "@/lib/utils";
+import { cn, dedupeBy } from "@/lib/utils";
 
 type SpeechMode = "word" | "sentence";
 type AudioSpeed = "slow" | "normal";
@@ -57,6 +65,27 @@ type TrainerStep = {
 };
 
 type LessonPack = ReturnType<typeof buildLessonPack>;
+type LessonPickerItem =
+  | { kind: "lesson"; lesson: LessonItem; order: number; week: number; title: string; scenario?: string }
+  | { kind: "locked"; lesson: LockedLessonPreview; order: number; week: number; title: string; scenario?: string };
+type ReviewPromptKind = "english_to_chinese" | "meaning_recall" | "listen_identify" | "speak_memory" | "rebuild_sentence";
+type ReviewPrompt = {
+  key: string;
+  itemId: string;
+  itemType: ReviewQueueItemType;
+  kind: ReviewPromptKind;
+  sourceDay: number;
+  dueDate: string;
+  title: string;
+  prompt: string;
+  hint?: string;
+  answerText: string;
+  pinyin?: string;
+  translationEn?: string;
+  translationKo?: string;
+  audioId?: string;
+};
+type RepositoryReviewFilter = "all" | "due" | "weak_words" | "weak_grammar" | "forgotten" | "upcoming";
 type PrintableSheet = {
   body: string;
   meta: string;
@@ -67,6 +96,8 @@ type PrintableSheet = {
 const PROGRESS_KEY = "taiwan-mandarin-progress-v1";
 const PRINT_SHEET_KEY = "taiwan-mandarin-print-sheet-v1";
 const SHOW_WRITING_EVENT = "mandarin-show-writing";
+const REVIEW_INTERVAL_DAYS = [1, 3, 7, 14, 30];
+const REVIEW_BATCH_SIZE = 16;
 
 const DEFAULT_DAILY_FLOW: TrainerStep[] = [
   { id: "pattern_review", title: "Grammar & examples", kind: "pattern_review", target_count: 1, duration_minutes: 10 },
@@ -162,6 +193,8 @@ const emptyProgress: LocalProgress = {
   weak_words: [],
   weak_patterns: [],
   due_review_ids: [],
+  review_items: {},
+  recent_review_results: [],
   streak: {
     count: 0,
     last_study_date: null
@@ -224,11 +257,39 @@ export function CourseApp({ data }: { data: CourseData }) {
     : 0;
   const completedLessonCount = Object.keys(progress.completed_lessons).length;
   const weakItemCount = progress.weak_words.length + progress.weak_patterns.length;
-  const pickerWeeks = Array.from(new Set(data.lessons.map((lesson) => lesson.week))).sort((a, b) => a - b);
-  const pickerLessons = data.lessons.filter((lesson) => lesson.week === pickerWeek);
+  const lessonPickerItems = useMemo<LessonPickerItem[]>(
+    () =>
+      [
+        ...data.lessons.map((lesson) => ({
+          kind: "lesson" as const,
+          lesson,
+          order: lesson.order,
+          week: lesson.week,
+          title: lesson.title,
+          scenario: lesson.scenario
+        })),
+        ...data.locked_lessons.map((lesson) => ({
+          kind: "locked" as const,
+          lesson,
+          order: lesson.order,
+          week: lesson.week,
+          title: lesson.title,
+          scenario: lesson.scenario
+        }))
+      ].sort((a, b) => a.order - b.order),
+    [data.lessons, data.locked_lessons]
+  );
+  const pickerWeeks = Array.from(new Set(lessonPickerItems.map((lesson) => lesson.week))).sort((a, b) => a - b);
+  const pickerLessons = lessonPickerItems.filter((lesson) => lesson.week === pickerWeek);
   const activeStep = dailyFlow.find((step) => step.id === activeStepId) ?? dailyFlow[0];
   const allStepsDone = dailyFlow.every((step) => completedSteps.includes(step.id));
   const generatedSentences = buildGeneratedSentences(data, selectedLesson, lessonPack, displayVocab);
+  const todayKey = getTodayKey();
+  const reviewPrompts = useMemo(
+    () => buildDailyReviewPrompts(data, progress, selectedLesson, displayVocab, todayKey),
+    [data, progress, selectedLesson, displayVocab, todayKey]
+  );
+  const dueReviewCount = countDueReviews(progress, todayKey);
   const totalMinutes = dailyFlow.reduce((sum, step) => sum + (step.duration_minutes ?? 0), 0);
 
   useEffect(() => {
@@ -267,21 +328,22 @@ export function CourseApp({ data }: { data: CourseData }) {
     if (!allStepsDone || lessonCompleted) return;
     setProgress((current) => {
       const today = getTodayKey();
+      const next = enqueueLessonReviewItems(current, selectedLesson, lessonPack, today);
       return {
-        ...current,
+        ...next,
         completed_lessons: {
-          ...current.completed_lessons,
+          ...next.completed_lessons,
           [selectedLesson.id]: {
             completed_at: new Date().toISOString(),
             mastery: 1,
-            attempts: (current.completed_lessons[selectedLesson.id]?.attempts ?? 0) + 1
+            attempts: (next.completed_lessons[selectedLesson.id]?.attempts ?? 0) + 1
           }
         },
         streak: {
           count:
-            current.streak.last_study_date === today
-              ? current.streak.count
-              : current.streak.count + 1,
+            next.streak.last_study_date === today
+              ? next.streak.count
+              : next.streak.count + 1,
           last_study_date: today
         }
       };
@@ -293,11 +355,20 @@ export function CourseApp({ data }: { data: CourseData }) {
   }
 
   function toggleWeakWord(id: string) {
-    setProgress((current) => toggleWeakItem(current, "weak_words", id));
+    const item = displayVocab.find((word) => word.id === id);
+    setProgress((current) =>
+      toggleWeakItem(current, "weak_words", id, item ? createReviewQueueItem("word", id, findSourceDayForItem(data, "word", id), getTodayKey()) : undefined)
+    );
   }
 
   function toggleWeakPattern(id: string) {
-    setProgress((current) => toggleWeakItem(current, "weak_patterns", id));
+    setProgress((current) =>
+      toggleWeakItem(current, "weak_patterns", id, createReviewQueueItem("grammar", id, findSourceDayForItem(data, "grammar", id), getTodayKey()))
+    );
+  }
+
+  function gradeReview(key: string, result: ReviewResult) {
+    setProgress((current) => gradeReviewItem(current, key, result, getTodayKey()));
   }
 
   return (
@@ -320,6 +391,7 @@ export function CourseApp({ data }: { data: CourseData }) {
               <div className="mt-5 grid gap-3">
                 <MetricCard label="Completed days" value={`${completedLessonCount}/${data.lessons.length}`} icon={Target} />
                 <MetricCard label="Streak" value={`${progress.streak.count} days`} icon={Flame} />
+                <MetricCard label="Due review" value={`${dueReviewCount}`} icon={RotateCcw} />
                 <MetricCard label="Marked weak" value={`${weakItemCount}`} icon={RotateCcw} />
               </div>
             </CardContent>
@@ -396,28 +468,40 @@ export function CourseApp({ data }: { data: CourseData }) {
                     ))}
                   </div>
                   <div className="grid gap-2">
-                  {pickerLessons.map((lesson) => {
-                    const isActive = lesson.id === selectedLesson.id;
-                    const done = Boolean(progress.completed_lessons[lesson.id]);
+                  {pickerLessons.map((item) => {
+                    const lesson = item.lesson;
+                    const isLocked = item.kind === "locked";
+                    const lessonId = item.kind === "lesson" ? lesson.id : undefined;
+                    const isActive = lessonId === selectedLesson.id;
+                    const done = Boolean(lessonId && progress.completed_lessons[lessonId]);
                     return (
                       <button
-                        aria-label={`Day ${lesson.order}: ${lesson.title}`}
+                        aria-disabled={isLocked}
+                        aria-label={`Day ${lesson.order}: ${lesson.title}${isLocked ? " locked" : ""}`}
                         className={cn(
                           "w-full rounded-lg p-3 text-left transition",
-                          isActive ? "bg-ink text-white" : "bg-white text-ink ring-1 ring-black/10 hover:bg-jade-50"
+                          isActive && "bg-ink text-white",
+                          !isActive && !isLocked && "bg-white text-ink ring-1 ring-black/10 hover:bg-jade-50",
+                          isLocked && "cursor-not-allowed bg-black/[0.03] text-ink/55 ring-1 ring-black/10"
                         )}
                         key={lesson.id}
                         onClick={() => {
-                          setSelectedLessonId(lesson.id);
-                          setActiveStepId(getDailyFlow(lesson)[0].id);
+                          if (isLocked || !lessonId) return;
+                          const activeLesson = lesson as LessonItem;
+                          setSelectedLessonId(activeLesson.id);
+                          setActiveStepId(getDailyFlow(activeLesson)[0].id);
                           setLessonPickerOpen(false);
                         }}
                         type="button"
                       >
                         <div className="flex items-start justify-between gap-3">
                           <div>
-                            <p className="text-xs font-black uppercase opacity-70">Day {lesson.order}</p>
+                            <p className="text-xs font-black uppercase opacity-70">
+                              Day {lesson.order}
+                              {isLocked ? " · locked" : ""}
+                            </p>
                             <p className="mt-0.5 text-sm font-black leading-snug">{lesson.title}</p>
+                            {lesson.scenario && <p className="mt-1 text-xs font-semibold leading-snug opacity-70">{lesson.scenario}</p>}
                           </div>
                           {done ? <Check className="h-4 w-4 shrink-0 text-jade-500" /> : <Circle className="h-4 w-4 shrink-0 opacity-50" />}
                         </div>
@@ -464,7 +548,7 @@ export function CourseApp({ data }: { data: CourseData }) {
             <CardContent className="flex flex-col gap-5 p-5 xl:flex-row xl:items-center xl:justify-between">
               <div>
                 <div className="flex flex-wrap items-center gap-2">
-                  <Badge>Month 1 · Week {selectedLesson.week}</Badge>
+                  <Badge>Month {Math.ceil(selectedLesson.order / 30)} · Week {selectedLesson.week}</Badge>
                   <Badge>{totalMinutes} min plan</Badge>
                   {lessonCompleted && <Badge>Completed</Badge>}
                 </div>
@@ -511,6 +595,14 @@ export function CourseApp({ data }: { data: CourseData }) {
             </CardContent>
           </Card>
 
+          <ReviewBeforeToday
+            dueCount={dueReviewCount}
+            onGrade={gradeReview}
+            prompts={reviewPrompts}
+            speak={speech.speak}
+            vocab={displayVocab}
+          />
+
           <motion.div
             animate={{ opacity: 1, y: 0 }}
             initial={{ opacity: 0, y: 8 }}
@@ -538,6 +630,15 @@ export function CourseApp({ data }: { data: CourseData }) {
               toggleWeakWord={toggleWeakWord}
             />
           </motion.div>
+
+          {selectedLesson.order >= 31 && (
+            <RichScenarioPractice
+              lesson={selectedLesson}
+              lessonPack={lessonPack}
+              speak={speech.speak}
+              vocab={displayVocab}
+            />
+          )}
 
           <ReferenceStrip
             grammar={lessonPack.grammar}
@@ -576,10 +677,108 @@ export function CourseApp({ data }: { data: CourseData }) {
           data={data}
           onClose={() => setRepositoryOpen(false)}
           onOpenPrintSheet={navigateToPrintSheet}
+          progress={progress}
           speak={speech.speak}
         />
       )}
     </main>
+  );
+}
+
+function ReviewBeforeToday({
+  dueCount,
+  onGrade,
+  prompts,
+  speak,
+  vocab
+}: {
+  dueCount: number;
+  onGrade: (key: string, result: ReviewResult) => void;
+  prompts: ReviewPrompt[];
+  speak: SpeakFn;
+  vocab: VocabularyItem[];
+}) {
+  const [revealed, setRevealed] = useState<Set<string>>(() => new Set());
+  const visiblePrompts = prompts.slice(0, REVIEW_BATCH_SIZE);
+
+  function toggleReveal(key: string) {
+    setRevealed((current) => {
+      const next = new Set(current);
+      if (next.has(key)) next.delete(key);
+      else next.add(key);
+      return next;
+    });
+  }
+
+  return (
+    <Card className="border-jade-500/25 bg-white/95 backdrop-blur">
+      <CardHeader>
+        <div className="flex flex-wrap items-start justify-between gap-3">
+          <div>
+            <p className="text-sm font-black text-jade-700">Review before today</p>
+            <h3 className="text-2xl font-black text-ink">{dueCount > 0 ? `${dueCount} due recall items` : "Nothing due yet"}</h3>
+            <p className="mt-2 max-w-2xl text-sm font-semibold text-ink/60">
+              Spend about 10 minutes recalling older material first. This is a soft gate, so you can continue, but grading these cards is what protects memory.
+            </p>
+          </div>
+          <Badge>{visiblePrompts.length}/16 shown</Badge>
+        </div>
+      </CardHeader>
+      <CardContent>
+        {visiblePrompts.length === 0 ? (
+          <div className="rounded-lg border border-dashed border-ink/20 bg-jade-50 p-4 text-sm font-bold text-ink/60">
+            Complete a lesson to seed tomorrow's spaced review queue. Fresh progress starts at zero due review.
+          </div>
+        ) : (
+          <div className="grid gap-3">
+            {visiblePrompts.map((prompt, index) => {
+              const isRevealed = revealed.has(prompt.key);
+              return (
+                <div className="rounded-lg bg-jade-50 p-4 ring-1 ring-jade-500/20" key={prompt.key}>
+                  <div className="flex flex-wrap items-start justify-between gap-3">
+                    <div>
+                      <p className="text-xs font-black uppercase text-jade-700">
+                        {index + 1}. {formatReviewKind(prompt.kind)} · Day {prompt.sourceDay}
+                      </p>
+                      <p className="mt-1 text-lg font-black text-ink">{prompt.prompt}</p>
+                      {prompt.hint && <p className="mt-1 text-sm font-semibold text-ink/50">{prompt.hint}</p>}
+                    </div>
+                    <div className="flex flex-wrap gap-2">
+                      {prompt.kind === "listen_identify" && (
+                        <AudioButton label="Play review audio" onClick={() => speak(prompt.answerText, "sentence", prompt.audioId)} />
+                      )}
+                      <Button onClick={() => toggleReveal(prompt.key)} size="sm" variant="secondary">
+                        {isRevealed ? "Hide answer" : "Reveal"}
+                      </Button>
+                    </div>
+                  </div>
+                  {isRevealed && (
+                    <div className="mt-3 rounded-lg bg-white p-3 ring-1 ring-black/10">
+                      <ClickableChineseLine className="text-2xl font-black text-ink" speak={speak} text={prompt.answerText} vocab={vocab} />
+                      {prompt.pinyin && <p className="mt-1 font-black text-jade-700">{prompt.pinyin}</p>}
+                      {prompt.translationEn && <p className="font-semibold text-ink">{prompt.translationEn}</p>}
+                      {prompt.translationKo && <p className="text-sm font-semibold text-ink/50">{prompt.translationKo}</p>}
+                      <div className="mt-3 grid grid-cols-2 gap-2 sm:grid-cols-4">
+                        {(["forgot", "hard", "correct", "easy"] as ReviewResult[]).map((result) => (
+                          <Button
+                            key={result}
+                            onClick={() => onGrade(prompt.key, result)}
+                            size="sm"
+                            variant={result === "forgot" ? "warm" : result === "correct" || result === "easy" ? "default" : "secondary"}
+                          >
+                            {capitalize(result)}
+                          </Button>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+                </div>
+              );
+            })}
+          </div>
+        )}
+      </CardContent>
+    </Card>
   );
 }
 
@@ -701,6 +900,252 @@ function TrainerStepPanel({
   );
 }
 
+function RichScenarioPractice({
+  lesson,
+  lessonPack,
+  speak,
+  vocab
+}: {
+  lesson: LessonItem;
+  lessonPack: LessonPack;
+  speak: SpeakFn;
+  vocab: VocabularyItem[];
+}) {
+  return (
+    <div className="grid gap-5">
+      <Card className="bg-white/90">
+        <CardHeader>
+          <div className="flex flex-wrap items-start justify-between gap-3">
+            <div>
+              <p className="text-sm font-black uppercase text-jade-700">Phase 3 scenario</p>
+              <h3 className="mt-1 text-2xl font-black text-ink">{lesson.title}</h3>
+              {lesson.scenario && <p className="mt-2 max-w-3xl font-semibold text-ink/65">{lesson.scenario}</p>}
+            </div>
+            {lesson.assessment ? <Badge>Assessment day</Badge> : <Badge>{lessonPack.dialogues.length} dialogues</Badge>}
+          </div>
+        </CardHeader>
+        <CardContent>
+          <div className="flex flex-wrap gap-2">
+            {(lesson.communication_functions ?? []).map((item) => (
+              <span className="rounded-full bg-jade-50 px-3 py-2 text-xs font-black uppercase text-jade-900 ring-1 ring-jade-500/20" key={item}>
+                {item.replaceAll("_", " ")}
+              </span>
+            ))}
+          </div>
+          {lessonPack.review[0] && (
+            <p className="mt-3 text-sm font-semibold text-ink/55">
+              Review source days: {lessonPack.review[0].source_days.join(", ")}. {lessonPack.review[0].prompt_en}
+            </p>
+          )}
+        </CardContent>
+      </Card>
+
+      <div className="grid gap-5 xl:grid-cols-2">
+        <GrammarUsagePanel grammar={lessonPack.grammar} />
+        <ListeningSpeakingPanel listening={lessonPack.listening} speaking={lessonPack.speaking} speak={speak} vocab={vocab} />
+      </div>
+
+      <DialoguePractice dialogues={lessonPack.dialogues} speak={speak} vocab={vocab} />
+
+      {lessonPack.assessment && (
+        <AssessmentPanel assessment={lessonPack.assessment} dialogues={lessonPack.dialogues} sentences={lessonPack.sentences} speak={speak} vocab={vocab} />
+      )}
+    </div>
+  );
+}
+
+function GrammarUsagePanel({ grammar }: { grammar: GrammarItem[] }) {
+  return (
+    <Card className="bg-white/90">
+      <CardHeader>
+        <p className="text-sm font-black text-jade-700">Grammar usage notes</p>
+      </CardHeader>
+      <CardContent className="space-y-3">
+        {grammar.map((item) => (
+          <div className="rounded-lg bg-paper p-4 ring-1 ring-black/10" key={item.id}>
+            <p className="text-xs font-black uppercase text-ink/45">{item.title ?? item.id}</p>
+            <p className="mt-1 font-black text-ink">{item.pattern}</p>
+            <p className="mt-2 text-sm font-semibold text-ink/65">{item.explanation_en}</p>
+            <div className="mt-3 grid gap-3 md:grid-cols-2">
+              <MiniUsageList title="Use when" items={item.when_to_use ?? []} />
+              <MiniUsageList title="Avoid when" items={item.when_not_to_use ?? []} />
+            </div>
+          </div>
+        ))}
+      </CardContent>
+    </Card>
+  );
+}
+
+function MiniUsageList({ items, title }: { items: string[]; title: string }) {
+  return (
+    <div>
+      <p className="text-xs font-black uppercase text-ink/45">{title}</p>
+      <ul className="mt-1 space-y-1">
+        {items.slice(0, 3).map((item) => (
+          <li className="text-sm font-semibold text-ink/60" key={item}>
+            {item}
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
+function ListeningSpeakingPanel({
+  listening,
+  speaking,
+  speak,
+  vocab
+}: {
+  listening: ListeningItem[];
+  speaking: SpeakingItem[];
+  speak: SpeakFn;
+  vocab: VocabularyItem[];
+}) {
+  return (
+    <Card className="bg-white/90">
+      <CardHeader>
+        <p className="text-sm font-black text-jade-700">Listening and speaking tasks</p>
+      </CardHeader>
+      <CardContent className="space-y-4">
+        <div>
+          <p className="text-xs font-black uppercase text-ink/45">Listening set</p>
+          <div className="mt-2 grid gap-2">
+            {listening.slice(0, 5).map((item) => (
+              <div className="rounded-lg bg-paper p-3 ring-1 ring-black/10" key={item.id}>
+                <div className="flex flex-wrap items-start justify-between gap-3">
+                  <div>
+                    <p className="text-xs font-black uppercase text-jade-700">{item.type.replaceAll("_", " ")}</p>
+                    <ClickableChineseLine className="mt-1 text-xl font-black text-ink" speak={speak} text={item.text} vocab={vocab} />
+                    <p className="mt-1 text-sm font-black text-jade-700">{item.pinyin}</p>
+                  </div>
+                  <AudioButton label={`Play ${item.text}`} onClick={() => speak(item.text, "sentence", item.audio_id)} />
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+        <div>
+          <p className="text-xs font-black uppercase text-ink/45">Speaking prompts</p>
+          <div className="mt-2 grid gap-2">
+            {speaking.slice(0, 5).map((item) => (
+              <div className="rounded-lg bg-white p-3 ring-1 ring-black/10" key={item.id}>
+                <p className="text-xs font-black uppercase text-jade-700">{item.type.replaceAll("_", " ")}</p>
+                <p className="mt-1 text-sm font-semibold text-ink/65">{item.prompt_en}</p>
+                <ClickableChineseLine className="mt-2 text-xl font-black text-ink" speak={speak} text={item.model_answer} vocab={vocab} />
+                <p className="mt-1 text-sm font-black text-jade-700">{item.model_pinyin}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </CardContent>
+    </Card>
+  );
+}
+
+function DialoguePractice({
+  dialogues,
+  speak,
+  vocab
+}: {
+  dialogues: DialogueItem[];
+  speak: SpeakFn;
+  vocab: VocabularyItem[];
+}) {
+  if (dialogues.length === 0) return null;
+  return (
+    <Card className="bg-white/90">
+      <CardHeader>
+        <p className="text-sm font-black text-jade-700">Dialogue practice</p>
+      </CardHeader>
+      <CardContent className="grid gap-4">
+        {dialogues.map((dialogue) => (
+          <div className="rounded-lg bg-paper p-4 ring-1 ring-black/10" key={dialogue.id}>
+            <div className="flex flex-wrap items-center justify-between gap-3">
+              <div>
+                <p className="text-xs font-black uppercase text-ink/45">{dialogue.scenario.replaceAll("_", " ")}</p>
+                <p className="mt-1 text-sm font-semibold text-ink/60">Shadow each full turn, then answer the questions.</p>
+              </div>
+              <Badge>{dialogue.turns.length} turns</Badge>
+            </div>
+            <div className="mt-3 grid gap-2">
+              {dialogue.turns.map((turn) => (
+                <div className="rounded-lg bg-white p-3 ring-1 ring-black/10" key={turn.id}>
+                  <div className="flex flex-wrap items-start justify-between gap-3">
+                    <div>
+                      <p className="text-xs font-black uppercase text-jade-700">{turn.speaker}</p>
+                      <ClickableChineseLine className="mt-1 text-xl font-black text-ink" speak={speak} text={turn.text} vocab={vocab} />
+                      <p className="mt-1 text-sm font-black text-jade-700">{turn.pinyin}</p>
+                      <p className="text-sm font-semibold text-ink/60">{turn.translation_en}</p>
+                    </div>
+                    <AudioButton label={`Play ${turn.text}`} onClick={() => speak(turn.text, "sentence", turn.audio_id)} />
+                  </div>
+                </div>
+              ))}
+            </div>
+            <div className="mt-3 grid gap-2 md:grid-cols-2">
+              {dialogue.comprehension_questions.map((question) => (
+                <div className="rounded-lg bg-jade-50 p-3 ring-1 ring-jade-500/20" key={question.id}>
+                  <p className="text-sm font-black text-ink">{question.question_en}</p>
+                  <p className="mt-1 text-sm font-semibold text-ink/60">{question.answer_en}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        ))}
+      </CardContent>
+    </Card>
+  );
+}
+
+function AssessmentPanel({
+  assessment,
+  dialogues,
+  sentences,
+  speak,
+  vocab
+}: {
+  assessment: AssessmentItem;
+  dialogues: DialogueItem[];
+  sentences: SentenceItem[];
+  speak: SpeakFn;
+  vocab: VocabularyItem[];
+}) {
+  return (
+    <Card className="bg-white/90">
+      <CardHeader>
+        <p className="text-sm font-black text-jade-700">Assessment checkpoint</p>
+      </CardHeader>
+      <CardContent className="space-y-3">
+        <p className="font-semibold text-ink/65">{assessment.scenario}</p>
+        <div className="grid gap-3 md:grid-cols-3">
+          {assessment.tasks.map((task) => (
+            <div className="rounded-lg bg-paper p-4 ring-1 ring-black/10" key={task.id}>
+              <p className="text-xs font-black uppercase text-jade-700">{task.type}</p>
+              <p className="mt-2 text-sm font-semibold text-ink/65">{task.prompt_en}</p>
+              {task.minimum_turns && <p className="mt-2 text-sm font-black text-ink">Minimum turns: {task.minimum_turns}</p>}
+            </div>
+          ))}
+        </div>
+        <div className="rounded-lg bg-jade-50 p-4 ring-1 ring-jade-500/20">
+          <p className="text-xs font-black uppercase text-jade-700">Sample prompt</p>
+          {sentences[0] && (
+            <div className="mt-2 flex flex-wrap items-start justify-between gap-3">
+              <div>
+                <ClickableChineseLine className="text-xl font-black text-ink" speak={speak} text={sentences[0].text} vocab={vocab} />
+                <p className="text-sm font-black text-jade-700">{sentences[0].pinyin}</p>
+              </div>
+              <AudioButton label={`Play ${sentences[0].text}`} onClick={() => speak(sentences[0].text, "sentence", sentences[0].audio_id)} />
+            </div>
+          )}
+          {dialogues[0] && <p className="mt-2 text-sm font-semibold text-ink/60">Dialogue model: {dialogues[0].scenario.replaceAll("_", " ")}</p>}
+        </div>
+      </CardContent>
+    </Card>
+  );
+}
+
 function PatternReview({
   extraExamples,
   grammar,
@@ -756,7 +1201,10 @@ function PatternReview({
           </div>
 
           <div className="mt-4 grid gap-3 md:grid-cols-2">
-            {[...getPatternExamples(item, sentences), ...getFreshMixedExamples(extraExamples, item, 3)].map((example) => (
+            {[
+              ...getPatternExamples(item, sentences),
+              ...(item.id.startsWith("GR_D") ? [] : getFreshMixedExamples(extraExamples, item, 3))
+            ].map((example) => (
               <SentenceCard
                 audioId={example.audio_id}
                 key={example.text}
@@ -1135,7 +1583,7 @@ function ReverseTranslationPractice({
   speak: SpeakFn;
   vocab: VocabularyItem[];
 }) {
-  const dueCount = progress.due_review_ids.length + progress.weak_words.length + progress.weak_patterns.length;
+  const dueCount = countDueReviews(progress, getTodayKey());
   const [revealed, setRevealed] = useState<Set<string>>(() => new Set());
   const [answers, setAnswers] = useState<Record<string, string>>({});
   const prompts = sentences.slice(0, Math.max(5, Math.min(sentences.length, 10)));
@@ -1313,13 +1761,13 @@ function ReferenceStrip({
           ) : (
             <div className="grid gap-4 md:grid-cols-[9rem_minmax(0,1fr)]">
               <div className="grid grid-cols-3 gap-2 md:grid-cols-2">
-                {writing.map((item) => (
+                {writing.map((item, index) => (
                   <button
                     className={cn(
                       "aspect-square rounded-lg han text-3xl font-black transition",
                       item.char === writingItem.char ? "bg-ink text-white" : "bg-black/[0.035] hover:bg-black/10"
                     )}
-                    key={item.char}
+                    key={`${item.char}-${index}`}
                     onClick={() => setSelectedWritingChar(item.char)}
                     type="button"
                   >
@@ -1794,10 +2242,10 @@ function VocabInfoBox({
               <PenLine className="h-4 w-4" />
               Show writing
             </Button>
-            {writingChars.map((char) => (
+            {writingChars.map((char, index) => (
               <button
                 className="grid h-9 w-9 place-items-center rounded-lg bg-jade-50 han text-lg font-black text-jade-900 ring-1 ring-jade-500/20 hover:bg-jade-100"
-                key={char}
+                key={`${char}-${index}`}
                 onClick={() => showWriting(char)}
                 type="button"
               >
@@ -1849,7 +2297,7 @@ function HelpDrawer({ onClose }: { onClose: () => void }) {
         />
         <GuideBlock
           title="Audio"
-          text="Use Slow for new sentences, Shadow for repeating after the model, and Normal when the sentence feels familiar."
+          text="Use Slow for new sentences and Normal when the sentence feels familiar."
         />
         <GuideBlock
           title="Writing"
@@ -1857,7 +2305,7 @@ function HelpDrawer({ onClose }: { onClose: () => void }) {
         />
         <GuideBlock
           title="Repository"
-          text="Open Repository when you want to search everything in Month 1 instead of only today's lesson."
+          text="Open Repository when you want to search all loaded course words, sentences, and grammar instead of only today's lesson."
         />
       </div>
     </AppDrawer>
@@ -1877,24 +2325,34 @@ function RepositoryDrawer({
   data,
   onClose,
   onOpenPrintSheet,
+  progress,
   speak
 }: {
   data: CourseData;
   onClose: () => void;
   onOpenPrintSheet: (sheet: PrintableSheet) => void;
+  progress: LocalProgress;
   speak: SpeakFn;
 }) {
   const [query, setQuery] = useState("");
   const [tab, setTab] = useState<"words" | "sentences" | "grammar">("words");
+  const [reviewFilter, setReviewFilter] = useState<RepositoryReviewFilter>("all");
   const [selectedWordId, setSelectedWordId] = useState<string | null>(null);
   const repositoryVocab = useMemo(() => mergeVocab(data.vocab, SUPPLEMENTAL_VISIBLE_VOCAB), [data.vocab]);
   const normalizedQuery = query.trim().toLowerCase();
   const wordEntries = useMemo(() => buildWordRepositoryEntries(data, repositoryVocab), [data, repositoryVocab]);
   const sentenceEntries = useMemo(() => buildSentenceRepositoryEntries(data), [data]);
   const grammarEntries = useMemo(() => buildGrammarRepositoryEntries(data), [data]);
-  const words = wordEntries.filter((entry) => matchesVocab(entry.item, normalizedQuery));
-  const sentences = sentenceEntries.filter((entry) => matchesSentence(entry.item, normalizedQuery));
-  const grammar = grammarEntries.filter((entry) => matchesGrammar(entry.item, normalizedQuery));
+  const today = getTodayKey();
+  const words = wordEntries
+    .filter((entry) => matchesVocab(entry.item, normalizedQuery))
+    .filter((entry) => matchesRepositoryReviewFilter(progress, reviewFilter, "word", entry.item.id, today));
+  const sentences = sentenceEntries
+    .filter((entry) => matchesSentence(entry.item, normalizedQuery))
+    .filter((entry) => matchesRepositoryReviewFilter(progress, reviewFilter, "sentence", entry.item.id, today));
+  const grammar = grammarEntries
+    .filter((entry) => matchesGrammar(entry.item, normalizedQuery))
+    .filter((entry) => matchesRepositoryReviewFilter(progress, reviewFilter, "grammar", entry.item.id, today));
   const selectedWord = selectedWordId ? repositoryVocab.find((item) => item.id === selectedWordId) : null;
 
   useEffect(() => {
@@ -1937,6 +2395,29 @@ function RepositoryDrawer({
             <Printer className="h-4 w-4" />
             Print full vocab
           </Button>
+        </div>
+        <div className="flex flex-wrap items-center gap-2">
+          <span className="text-xs font-black uppercase text-ink/45">Review repository</span>
+          {([
+            ["all", "All"],
+            ["due", "Due today"],
+            ["weak_words", "Weak words"],
+            ["weak_grammar", "Weak grammar"],
+            ["forgotten", "Recently forgotten"],
+            ["upcoming", "Upcoming"]
+          ] as Array<[RepositoryReviewFilter, string]>).map(([value, label]) => (
+            <button
+              className={cn(
+                "rounded-full px-3 py-1.5 text-xs font-black transition",
+                reviewFilter === value ? "bg-jade-700 text-white" : "bg-white text-ink ring-1 ring-black/10 hover:bg-jade-50"
+              )}
+              key={value}
+              onClick={() => setReviewFilter(value)}
+              type="button"
+            >
+              {label}
+            </button>
+          ))}
         </div>
 
         {tab === "words" && (
@@ -2149,7 +2630,7 @@ function createPrintableVocabRepository(entries: RepositoryEntry<VocabularyItem>
     .join("");
 
   return {
-    title: "Full Month 1 Vocabulary Repository",
+    title: "Full Loaded Vocabulary Repository",
     meta: `${entries.length} words ordered by first lesson appearance`,
     body,
     note: "Use this repository sheet for review. For handwriting-heavy practice, print an individual day sheet from the lesson header."
@@ -2473,7 +2954,17 @@ function buildLessonPack(data: CourseData, lesson: LessonItem) {
   const sentences = data.sentences.filter((item) => lesson.sentence_ids.includes(item.id));
   const grammar = data.grammar.filter((item) => lesson.grammar_ids.includes(item.id));
   const pronunciation = data.pronunciation.filter((item) => lesson.pronunciation_ids.includes(item.id));
+  const dialogues = data.dialogues.filter((item) => lesson.dialogue_ids?.includes(item.id));
+  const listening = data.listening.filter((item) => lesson.listening_ids?.includes(item.id));
+  const speaking = data.speaking.filter((item) => lesson.speaking_ids?.includes(item.id));
+  const review = data.review.filter((item) => lesson.review_ids?.includes(item.id));
+  const assessment = data.assessment.find((item) => item.id === lesson.assessment_id);
   const contextVocab = collectContextVocab(lookupVocab, sentences, grammar);
+  dialogues.forEach((dialogue) => {
+    dialogue.turns.forEach((turn) => {
+      collectSegmentsIntoVocab(lookupVocab, turn.text, contextVocab);
+    });
+  });
   const writingChars = new Set<string>();
   sentences.forEach((sentence) => {
     Array.from(sentence.text).forEach((char) => {
@@ -2485,9 +2976,9 @@ function buildLessonPack(data: CourseData, lesson: LessonItem) {
       if (isLikelyChinese(char)) writingChars.add(char);
     });
   });
-  const writing = data.writing.filter((item) => writingChars.has(item.char));
+  const writing = dedupeBy(data.writing.filter((item) => writingChars.has(item.char)), (item) => item.char);
 
-  return { vocab, contextVocab, sentences, grammar, pronunciation, writing };
+  return { vocab, contextVocab, sentences, grammar, pronunciation, writing, dialogues, listening, speaking, review, assessment };
 }
 
 type GeneratedSentence = {
@@ -2664,13 +3155,19 @@ function getDailyFlow(lesson: LessonItem): TrainerStep[] {
 }
 
 function normalizeProgress(progress: LocalProgress): LocalProgress {
+  const reviewItems = progress.review_items ?? {};
+  const dueFromItems = Object.values(reviewItems)
+    .filter((item) => isDueOnOrBefore(item.due_date, getTodayKey()))
+    .map((item) => item.key);
   return {
     version: 1,
     completed_lessons: progress.completed_lessons ?? {},
     lesson_steps: progress.lesson_steps ?? {},
     weak_words: Array.from(new Set(progress.weak_words ?? [])),
     weak_patterns: Array.from(new Set(progress.weak_patterns ?? [])),
-    due_review_ids: Array.from(new Set(progress.due_review_ids ?? [])),
+    due_review_ids: Array.from(new Set([...(progress.due_review_ids ?? []), ...dueFromItems])),
+    review_items: reviewItems,
+    recent_review_results: (progress.recent_review_results ?? []).slice(-80),
     streak: {
       count: progress.streak?.count ?? 0,
       last_study_date: progress.streak?.last_study_date ?? null
@@ -2681,21 +3178,316 @@ function normalizeProgress(progress: LocalProgress): LocalProgress {
 function toggleWeakItem(
   progress: LocalProgress,
   key: "weak_words" | "weak_patterns",
-  id: string
+  id: string,
+  reviewItem?: ReviewQueueState
 ): LocalProgress {
   const current = new Set(progress[key]);
   if (current.has(id)) current.delete(id);
   else current.add(id);
 
   const due = new Set(progress.due_review_ids);
-  if (current.has(id)) due.add(id);
-  else due.delete(id);
+  const reviewItems = { ...progress.review_items };
+  if (current.has(id)) due.add(reviewItem?.key ?? id);
+  else {
+    due.delete(id);
+    if (reviewItem) due.delete(reviewItem.key);
+  }
+  if (current.has(id) && reviewItem) {
+    reviewItems[reviewItem.key] = {
+      ...(reviewItems[reviewItem.key] ?? reviewItem),
+      ...reviewItem,
+      due_date: getTodayKey(),
+      last_result: reviewItems[reviewItem.key]?.last_result
+    };
+    due.add(reviewItem.key);
+  }
 
   return {
     ...progress,
     [key]: Array.from(current),
-    due_review_ids: Array.from(due)
+    due_review_ids: Array.from(due),
+    review_items: reviewItems
   };
+}
+
+function enqueueLessonReviewItems(progress: LocalProgress, lesson: LessonItem, pack: LessonPack, today: string): LocalProgress {
+  const reviewItems = { ...progress.review_items };
+  const add = (type: ReviewQueueItemType, id: string) => {
+    const key = reviewKey(type, id);
+    if (reviewItems[key]) return;
+    reviewItems[key] = createReviewQueueItem(type, id, lesson.order, today);
+  };
+
+  pack.vocab.forEach((item) => add("word", item.id));
+  pack.grammar.forEach((item) => add("grammar", item.id));
+  pack.sentences.forEach((item) => add("sentence", item.id));
+  pack.dialogues.forEach((dialogue) => dialogue.turns.forEach((turn) => add("dialogue", turn.id)));
+
+  return refreshDueReviewIds({ ...progress, review_items: reviewItems }, today);
+}
+
+function createReviewQueueItem(type: ReviewQueueItemType, id: string, sourceDay: number, today: string): ReviewQueueState {
+  return {
+    key: reviewKey(type, id),
+    item_id: id,
+    item_type: type,
+    source_day: sourceDay,
+    due_date: addDays(today, REVIEW_INTERVAL_DAYS[0]),
+    interval_stage: 0,
+    ease_score: 2.5,
+    correct_count: 0,
+    forgot_count: 0,
+    last_reviewed_date: null,
+    target_days: REVIEW_INTERVAL_DAYS.map((offset) => sourceDay + offset)
+  };
+}
+
+function gradeReviewItem(progress: LocalProgress, key: string, result: ReviewResult, today: string): LocalProgress {
+  const item = progress.review_items[key];
+  if (!item) return progress;
+
+  const intervalStage =
+    result === "easy"
+      ? Math.min(item.interval_stage + 2, REVIEW_INTERVAL_DAYS.length - 1)
+      : result === "correct"
+        ? Math.min(item.interval_stage + 1, REVIEW_INTERVAL_DAYS.length - 1)
+        : result === "hard"
+          ? Math.max(item.interval_stage, 0)
+          : 0;
+  const nextInterval = result === "forgot" || result === "hard" ? 1 : REVIEW_INTERVAL_DAYS[intervalStage];
+  const easeDelta = result === "easy" ? 0.2 : result === "hard" ? -0.15 : result === "forgot" ? -0.3 : 0;
+  const nextItem: ReviewQueueState = {
+    ...item,
+    due_date: addDays(today, nextInterval),
+    interval_stage: intervalStage,
+    ease_score: Math.max(1.3, Number((item.ease_score + easeDelta).toFixed(2))),
+    correct_count: item.correct_count + (result === "easy" || result === "correct" ? 1 : 0),
+    forgot_count: item.forgot_count + (result === "forgot" ? 1 : 0),
+    last_reviewed_date: today,
+    last_result: result
+  };
+  const weakWords = new Set(progress.weak_words);
+  const weakPatterns = new Set(progress.weak_patterns);
+  if (nextItem.item_type === "word") {
+    if (result === "forgot") weakWords.add(nextItem.item_id);
+    if (result === "easy" || result === "correct") weakWords.delete(nextItem.item_id);
+  }
+  if (nextItem.item_type === "grammar") {
+    if (result === "forgot") weakPatterns.add(nextItem.item_id);
+    if (result === "easy" || result === "correct") weakPatterns.delete(nextItem.item_id);
+  }
+
+  const nextProgress = {
+    ...progress,
+    weak_words: Array.from(weakWords),
+    weak_patterns: Array.from(weakPatterns),
+    review_items: {
+      ...progress.review_items,
+      [key]: nextItem
+    },
+    recent_review_results: [
+      ...(progress.recent_review_results ?? []),
+      { key, result, reviewed_at: new Date().toISOString() }
+    ].slice(-80)
+  };
+  return refreshDueReviewIds(nextProgress, today);
+}
+
+function buildDailyReviewPrompts(
+  data: CourseData,
+  progress: LocalProgress,
+  lesson: LessonItem,
+  vocab: VocabularyItem[],
+  today: string
+): ReviewPrompt[] {
+  const states = Object.values(progress.review_items)
+    .filter((item) => isDueOnOrBefore(item.due_date, today))
+    .filter((item) => item.source_day < lesson.order || isWeakReviewState(progress, item));
+
+  return states
+    .sort((a, b) => reviewPriority(progress, a, today) - reviewPriority(progress, b, today))
+    .map((item) => resolveReviewPrompt(data, item, vocab))
+    .filter((item): item is ReviewPrompt => Boolean(item))
+    .slice(0, REVIEW_BATCH_SIZE);
+}
+
+function resolveReviewPrompt(data: CourseData, state: ReviewQueueState, vocab: VocabularyItem[]): ReviewPrompt | null {
+  const variant = stableIndex(state.key, 5);
+  if (state.item_type === "word") {
+    const item = vocab.find((word) => word.id === state.item_id) ?? data.vocab.find((word) => word.id === state.item_id);
+    if (!item) return null;
+    const kind: ReviewPromptKind = variant === 1 ? "meaning_recall" : variant === 2 ? "listen_identify" : "english_to_chinese";
+    return {
+      key: state.key,
+      itemId: state.item_id,
+      itemType: state.item_type,
+      kind,
+      sourceDay: state.source_day,
+      dueDate: state.due_date,
+      title: item.char,
+      prompt:
+        kind === "meaning_recall"
+          ? `What does ${item.char} mean?`
+          : kind === "listen_identify"
+            ? "Listen and identify the word."
+            : `Say this in Chinese: ${item.meaning_en}`,
+      hint: kind === "english_to_chinese" ? item.meaning_ko : undefined,
+      answerText: item.char,
+      pinyin: item.pinyin,
+      translationEn: item.meaning_en,
+      translationKo: item.meaning_ko,
+      audioId: item.audio_id
+    };
+  }
+
+  if (state.item_type === "grammar") {
+    const item = data.grammar.find((grammar) => grammar.id === state.item_id);
+    if (!item) return null;
+    const example = getPatternExamples(item, data.sentences)[0];
+    return {
+      key: state.key,
+      itemId: state.item_id,
+      itemType: state.item_type,
+      kind: "speak_memory",
+      sourceDay: state.source_day,
+      dueDate: state.due_date,
+      title: item.pattern,
+      prompt: `Create a sentence using: ${item.pattern}`,
+      hint: item.explanation_en,
+      answerText: example?.text ?? item.pattern,
+      pinyin: example?.pinyin,
+      translationEn: example?.translation_en ?? item.explanation_en,
+      translationKo: example?.translation_ko,
+      audioId: example?.audio_id
+    };
+  }
+
+  if (state.item_type === "sentence") {
+    const item = data.sentences.find((sentence) => sentence.id === state.item_id);
+    if (!item) return null;
+    return {
+      key: state.key,
+      itemId: state.item_id,
+      itemType: state.item_type,
+      kind: variant === 3 ? "rebuild_sentence" : "english_to_chinese",
+      sourceDay: state.source_day,
+      dueDate: state.due_date,
+      title: item.text,
+      prompt: item.translation_en,
+      hint: item.translation_ko,
+      answerText: item.text,
+      pinyin: item.pinyin,
+      translationEn: item.translation_en,
+      translationKo: item.translation_ko,
+      audioId: item.audio_id
+    };
+  }
+
+  const turn = data.dialogues.flatMap((dialogue) => dialogue.turns).find((item) => item.id === state.item_id);
+  if (!turn) return null;
+  return {
+    key: state.key,
+    itemId: state.item_id,
+    itemType: state.item_type,
+    kind: "listen_identify",
+    sourceDay: state.source_day,
+    dueDate: state.due_date,
+    title: turn.text,
+    prompt: `Listen, then shadow this ${turn.speaker.toLowerCase()} line from memory.`,
+    hint: turn.translation_en,
+    answerText: turn.text,
+    pinyin: turn.pinyin,
+    translationEn: turn.translation_en,
+    translationKo: turn.translation_ko,
+    audioId: turn.audio_id
+  };
+}
+
+function countDueReviews(progress: LocalProgress, today: string) {
+  return Object.values(progress.review_items).filter((item) => isDueOnOrBefore(item.due_date, today)).length;
+}
+
+function refreshDueReviewIds(progress: LocalProgress, today: string): LocalProgress {
+  return {
+    ...progress,
+    due_review_ids: Object.values(progress.review_items)
+      .filter((item) => isDueOnOrBefore(item.due_date, today))
+      .map((item) => item.key)
+  };
+}
+
+function matchesRepositoryReviewFilter(
+  progress: LocalProgress,
+  filter: RepositoryReviewFilter,
+  type: ReviewQueueItemType,
+  id: string,
+  today: string
+) {
+  if (filter === "all") return true;
+  if (filter === "weak_words") return type === "word" && progress.weak_words.includes(id);
+  if (filter === "weak_grammar") return type === "grammar" && progress.weak_patterns.includes(id);
+  const state = progress.review_items[reviewKey(type, id)];
+  if (!state) return false;
+  if (filter === "due") return isDueOnOrBefore(state.due_date, today);
+  if (filter === "forgotten") return state.last_result === "forgot" || state.forgot_count > 0;
+  if (filter === "upcoming") return state.due_date > today;
+  return true;
+}
+
+function isWeakReviewState(progress: LocalProgress, item: ReviewQueueState) {
+  return (
+    (item.item_type === "word" && progress.weak_words.includes(item.item_id)) ||
+    (item.item_type === "grammar" && progress.weak_patterns.includes(item.item_id))
+  );
+}
+
+function reviewPriority(progress: LocalProgress, item: ReviewQueueState, today: string) {
+  const weakPenalty = isWeakReviewState(progress, item) ? -100 : 0;
+  const forgotPenalty = item.last_result === "forgot" ? -50 : 0;
+  const overdueDays = Math.max(0, daysBetween(item.due_date, today));
+  return weakPenalty + forgotPenalty - overdueDays * 5 + item.source_day / 1000;
+}
+
+function findSourceDayForItem(data: CourseData, type: ReviewQueueItemType, id: string) {
+  const lesson = data.lessons.find((item) => {
+    if (type === "word") return item.vocab_ids.includes(id);
+    if (type === "grammar") return item.grammar_ids.includes(id);
+    if (type === "sentence") return item.sentence_ids.includes(id);
+    return item.dialogue_ids?.some((dialogueId) => data.dialogues.find((dialogue) => dialogue.id === dialogueId)?.turns.some((turn) => turn.id === id));
+  });
+  return lesson?.order ?? 1;
+}
+
+function reviewKey(type: ReviewQueueItemType, id: string) {
+  return `${type}:${id}`;
+}
+
+function addDays(dateKey: string, days: number) {
+  const date = new Date(`${dateKey}T00:00:00`);
+  date.setDate(date.getDate() + days);
+  return date.toISOString().slice(0, 10);
+}
+
+function daysBetween(startKey: string, endKey: string) {
+  const start = new Date(`${startKey}T00:00:00`).getTime();
+  const end = new Date(`${endKey}T00:00:00`).getTime();
+  return Math.round((end - start) / 86400000);
+}
+
+function isDueOnOrBefore(dateKey: string, today: string) {
+  return dateKey <= today;
+}
+
+function stableIndex(value: string, modulo: number) {
+  return Array.from(value).reduce((sum, char) => sum + char.charCodeAt(0), 0) % modulo;
+}
+
+function formatReviewKind(kind: ReviewPromptKind) {
+  return kind.replaceAll("_", " ");
+}
+
+function capitalize(value: string) {
+  return `${value.slice(0, 1).toUpperCase()}${value.slice(1)}`;
 }
 
 function findVocabForToken(vocab: VocabularyItem[], token: string) {
@@ -2889,6 +3681,15 @@ function collectContextVocab(allVocab: VocabularyItem[], sentences: SentenceItem
   });
 
   return ordered;
+}
+
+function collectSegmentsIntoVocab(allVocab: VocabularyItem[], text: string, target: VocabularyItem[]) {
+  const seen = new Set(target.map((item) => item.id));
+  segmentChineseText(text, allVocab).forEach((segment) => {
+    if (!segment.item || seen.has(segment.item.id)) return;
+    seen.add(segment.item.id);
+    target.push(segment.item);
+  });
 }
 
 function segmentChineseText(text: string, vocab: VocabularyItem[]) {

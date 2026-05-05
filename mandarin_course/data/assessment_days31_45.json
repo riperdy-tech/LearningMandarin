@@ -1,0 +1,47 @@
+[
+  {
+    "id": "ASM_D45",
+    "lesson_id": "LESSON_D45",
+    "day": 45,
+    "title": "Phase 3 Assessment",
+    "scenario": "survival fluency checkpoint",
+    "tasks": [
+      {
+        "id": "ASM_D45_SPEAK",
+        "type": "speaking",
+        "prompt_en": "Complete the full scenario aloud with follow-up questions.",
+        "minimum_turns": 6,
+        "related_dialogue_ids": [
+          "DLG_D45_01",
+          "DLG_D45_02",
+          "DLG_D45_03"
+        ]
+      },
+      {
+        "id": "ASM_D45_LISTEN",
+        "type": "listening",
+        "prompt_en": "Listen to the model sentences and answer key-detail questions.",
+        "sentence_ids": [
+          "SEN_D45_001",
+          "SEN_D45_002",
+          "SEN_D45_003",
+          "SEN_D45_004",
+          "SEN_D45_005",
+          "SEN_D45_006",
+          "SEN_D45_007",
+          "SEN_D45_008",
+          "SEN_D45_009",
+          "SEN_D45_010",
+          "SEN_D45_011",
+          "SEN_D45_012"
+        ]
+      },
+      {
+        "id": "ASM_D45_WRITE",
+        "type": "writing",
+        "prompt_en": "Write a short practical message using only known words."
+      }
+    ],
+    "pass_threshold": 0.8
+  }
+]

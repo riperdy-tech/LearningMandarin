@@ -1,0 +1,45 @@
+{
+  "method_review": {
+    "status": "acceptable_if_strengthened",
+    "not_acceptable_if": [
+      "each day only introduces a handful of words",
+      "grammar is presented only as formulas",
+      "sentence banks contain words absent from vocab",
+      "listening is just isolated sentence repetition",
+      "speaking drills only ask the learner to mimic, not respond",
+      "reviews are passive rather than production-based"
+    ],
+    "acceptable_if": [
+      "every lesson uses a closed-vocabulary validator",
+      "every new grammar point includes usage, non-usage, contrast, learner mistakes, and transformation drills",
+      "every day includes both controlled drills and open-response speaking",
+      "old vocabulary is recombined daily",
+      "listening speed increases over time",
+      "Days 31-90 shift from sentence learning to scenario handling"
+    ],
+    "day_1_to_30_role": {
+      "role": "foundation_layer",
+      "purpose": [
+        "pronunciation foundation",
+        "core word order",
+        "core particles",
+        "basic identity, family, time, location, food, shopping, directions, numbers, daily actions",
+        "first 700 to 1000 lexical items if intensive"
+      ],
+      "limitation": "Not enough for smooth communication unless Days 31-90 aggressively train recombination and scenario fluency."
+    },
+    "day_31_to_90_role": {
+      "role": "fluency_building_layer",
+      "purpose": [
+        "expand common domains",
+        "force reuse of old words",
+        "increase sentence length",
+        "train multi-turn dialogue",
+        "train misunderstanding repair",
+        "train real Taiwan daily situations",
+        "develop past/future narration",
+        "develop opinion and reason-giving"
+      ]
+    }
+  }
+}

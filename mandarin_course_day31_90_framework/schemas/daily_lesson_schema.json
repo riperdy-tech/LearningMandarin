@@ -1,0 +1,141 @@
+{
+  "daily_lesson_schema": {
+    "day": "integer",
+    "phase_id": "string",
+    "unit_title": "string",
+    "scenario": "string",
+    "communication_functions": [
+      "string"
+    ],
+    "dependency_rules": {
+      "may_use_prior_vocab": true,
+      "may_use_same_day_vocab": true,
+      "may_not_use_future_vocab": true,
+      "all_tokens_must_resolve_to_vocab_id": true
+    },
+    "vocab": {
+      "new_vocab_ids": [
+        "string"
+      ],
+      "review_vocab_ids": [
+        "string"
+      ],
+      "required_fields": [
+        "id",
+        "traditional",
+        "pinyin",
+        "pinyin_numeric",
+        "zhuyin",
+        "part_of_speech",
+        "english",
+        "korean",
+        "semantic_domain",
+        "register",
+        "taiwan_usage_note",
+        "example_sentence_ids",
+        "audio_id",
+        "srs_tags"
+      ]
+    },
+    "grammar": {
+      "grammar_ids": [
+        "string"
+      ],
+      "required_fields_per_grammar": [
+        "id",
+        "title",
+        "pattern",
+        "meaning",
+        "when_to_use",
+        "when_not_to_use",
+        "pragmatic_notes",
+        "word_order_notes",
+        "english_contrast",
+        "korean_contrast",
+        "correct_examples",
+        "incorrect_examples",
+        "transformation_drills",
+        "common_error_patterns",
+        "repair_feedback"
+      ]
+    },
+    "sentence_bank": {
+      "minimum_count": 60,
+      "target_count": 90,
+      "all_sentences_must_have": [
+        "id",
+        "traditional",
+        "pinyin",
+        "pinyin_numeric",
+        "zhuyin",
+        "english",
+        "korean",
+        "token_ids",
+        "grammar_ids",
+        "audio_id",
+        "difficulty",
+        "production_type"
+      ]
+    },
+    "dialogues": {
+      "minimum_count": 2,
+      "target_count": 3,
+      "each_dialogue_must_have": [
+        "id",
+        "scenario",
+        "speaker_roles",
+        "turns",
+        "audio_ids",
+        "comprehension_questions",
+        "speaking_shadowing_prompts",
+        "free_response_branching_prompts"
+      ]
+    },
+    "listening": {
+      "minimum_items": 10,
+      "must_include": [
+        "isolated_word",
+        "sentence",
+        "short_dialogue",
+        "natural_variant",
+        "distractor_variant"
+      ]
+    },
+    "speaking": {
+      "minimum_items": 20,
+      "must_include": [
+        "repeat_after_model",
+        "substitution_drill",
+        "answer_question",
+        "roleplay_response",
+        "free_response"
+      ]
+    },
+    "writing": {
+      "must_include": [
+        "new_character_practice",
+        "stroke_order_reference",
+        "word_copying",
+        "sentence_copying",
+        "short_message_production"
+      ]
+    },
+    "review": {
+      "srs_due_items": true,
+      "minimum_review_items": 30,
+      "review_sources": [
+        "prior_1_day",
+        "prior_3_days",
+        "prior_7_days",
+        "prior_14_days",
+        "prior_30_days"
+      ]
+    },
+    "assessment": {
+      "daily_mastery_threshold": 0.85,
+      "pronunciation_threshold": 0.78,
+      "listening_threshold": 0.8,
+      "production_threshold": 0.75
+    }
+  }
+}
