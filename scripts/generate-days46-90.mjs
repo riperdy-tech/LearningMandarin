@@ -410,13 +410,89 @@ function buildVocab(day, words) {
 
 // ── BUILD SENTENCES ────────────────────────────────────────────────────
 
+// English helpers: strip "to" prefix, pick first meaning from semicolons, conjugate
+function stripTo(s) {
+  const raw = (s || "").replace(/^to\s+/i, "");
+  // Pick first meaning if semicolon-separated
+  const semi = raw.indexOf(";");
+  return semi > 0 ? raw.substring(0, semi).trim() : raw;
+}
+function cleanKo(s) {
+  const semi = (s || "").indexOf(";");
+  return semi > 0 ? s.substring(0, semi).trim() : s;
+}
+
+// Detect if English is already conjugated (perfect, progressive, etc.)
+function isAlreadyConjugated(s) {
+  const raw = stripTo(s);
+  return /^(have|has|had|am|is|are|was|were|will|would|can|could|should|may|might|must)\s/.test(raw);
+}
+
+const IRREG_PAST = { go:"went", buy:"bought", eat:"ate", drink:"drank", see:"saw",
+  hear:"heard", find:"found", get:"got", take:"took", come:"came", give:"gave",
+  do:"did", have:"had", say:"said", tell:"told", sell:"sold", meet:"met",
+  sit:"sat", stand:"stood", run:"ran", swim:"swam", sing:"sang", write:"wrote",
+  read:"read", teach:"taught", think:"thought", bring:"brought", catch:"caught",
+  wear:"wore", speak:"spoke", break:"broke", drive:"drove", ride:"rode",
+  fly:"flew", know:"knew", grow:"grew", draw:"drew", fall:"fell", feel:"felt",
+  leave:"left", lose:"lost", make:"made", pay:"paid", put:"put", sleep:"slept",
+  spend:"spent", build:"built", send:"sent", win:"won", begin:"began",
+  forget:"forgot", wake:"woke", let:"let", set:"set", hit:"hit", cut:"cut",
+  cost:"cost", hurt:"hurt", shut:"shut", beat:"beat", become:"became",
+  choose:"chose", freeze:"froze", hide:"hid", hold:"held", keep:"kept",
+  lead:"led", lend:"lent", light:"lit", mean:"meant", rise:"rose", shake:"shook",
+  shoot:"shot", shut:"shut", sink:"sank", slide:"slid", stick:"stuck",
+  sweep:"swept", swing:"swung", tear:"tore", throw:"threw", understand:"understood" };
+
+function conjFirst(raw, tense) {
+  const s = stripTo(raw);
+  if (isAlreadyConjugated(s)) return s; // don't re-conjugate
+  const w = s.split(/\s+/);
+  if (w.length === 0) return s;
+  const first = w[0].toLowerCase();
+  if (IRREG_PAST[first]) w[0] = IRREG_PAST[first];
+  else if (/[bcdfgklmnpqrstvwxz]y$/i.test(first)) w[0] = first.slice(0,-1) + "ied";
+  else if (first.endsWith("e")) w[0] = first + "d";
+  else w[0] = first + "ed";
+  return w.join(" ");
+}
+
+function pastEn(raw) { return conjFirst(raw, "past"); }
+
+function progEn(raw) {
+  const s = stripTo(raw);
+  if (isAlreadyConjugated(s)) return s; // keep as-is
+  const w = s.split(/\s+/);
+  if (w.length === 0) return s;
+  const first = w[0].toLowerCase();
+  if (first.endsWith("ie")) w[0] = first.slice(0,-2) + "ying";
+  else if (first.endsWith("e")) w[0] = first.slice(0,-1) + "ing";
+  else if (/^[bcdfgklmnpqrstvwxz]+[aeiou][bcdfgklmnpqrtvwyz]$/i.test(first) && !first.endsWith("w") && !first.endsWith("x") && !first.endsWith("y"))
+    w[0] = first + first.slice(-1) + "ing";
+  else w[0] = first + "ing";
+  return w.join(" ");
+}
+
+function presEn(raw) {
+  const s = stripTo(raw);
+  if (isAlreadyConjugated(s)) return s; // keep as-is
+  const w = s.split(/\s+/);
+  if (w.length === 0) return s;
+  const first = w[0].toLowerCase();
+  if (/(?:ss|sh|ch|x|zz|[sz]h)$/i.test(first) || first.endsWith("o")) w[0] = first + "es";
+  else if (/[bcdfgklmnpqrstvwxz]y$/i.test(first)) w[0] = first.slice(0,-1) + "ies";
+  else w[0] = first + "s";
+  return w.join(" ");
+}
+
+function pastPartEn(raw) { return pastEn(raw); } // same for regular verbs, close enough
+
 function buildSentences(day, vocabItems, grammarIds) {
   const voc = vocabItems.map((v) => ({ char: v.char, pinyin: v.pinyin, num: v.pinyin_numeric, id: v.id, pos: v.pos, en: v.meaning_en, ko: v.meaning_ko }));
   const byChar = new Map(voc.map((v) => [v.char, v]));
-  
+
   // Build longest-match lookup for pinyin generation
   const sortedByLen = [...voc].sort((a, b) => b.char.length - a.char.length);
-  // Also sort global pinyin keys by length for longest match
   const globalSortedByLen = Object.keys(GLOBAL_PINYIN).sort((a, b) => b.length - a.length);
   function lookupPinyin(text) {
     let result = { py: "", nu: "", ids: [] };
@@ -425,7 +501,6 @@ function buildSentences(day, vocabItems, grammarIds) {
       const ch = text[i];
       if (!han(ch)) { result.py += ch; result.nu += ch; i++; continue; }
       let found = false;
-      // Try vocab first
       for (const v of sortedByLen) {
         if (text.startsWith(v.char, i)) {
           result.py += (result.py && !result.py.endsWith(" ") ? " " : "") + v.pinyin;
@@ -436,7 +511,6 @@ function buildSentences(day, vocabItems, grammarIds) {
           break;
         }
       }
-      // Try global pinyin fallback
       if (!found) {
         for (const gk of globalSortedByLen) {
           if (text.startsWith(gk, i)) {
@@ -452,55 +526,87 @@ function buildSentences(day, vocabItems, grammarIds) {
     }
     return result;
   }
-  
-  // Filter by POS
-  const verbs = voc.filter((v) => v.pos === "verb" || v.pos === "phrase" || v.pos.includes("verb") || v.pos === "modal");
-  const adjs = voc.filter((v) => v.pos === "adj" || v.pos === "adjective" || v.pos.includes("adj"));
+
+  // Strict POS filtering — NEVER fall back to verbs for adj/noun slots
+  const verbs = voc.filter((v) => 
+    (v.pos === "verb" || v.pos === "phrase" || v.pos === "modal") &&
+    !/^(adv|conj|prep|det|num|measure|particle|interjection)$/.test(v.pos)
+  );
+  const adjs = voc.filter((v) => v.pos === "adj" || v.pos.includes("adj"));
   const nouns = voc.filter((v) => v.pos === "noun" || v.pos === "place" || v.pos === "time");
-  const all = voc;
-  
-  const rv = () => (verbs.length > 0 ? verbs : all)[Math.floor(Math.random() * (verbs.length > 0 ? verbs : all).length)];
-  const ra = () => (adjs.length > 0 ? adjs : all)[Math.floor(Math.random() * (adjs.length > 0 ? adjs : all).length)];
-  const rn = () => (nouns.length > 0 ? nouns : all)[Math.floor(Math.random() * (nouns.length > 0 ? nouns : all).length)];
-  
+  // Pad adjective pool with common adjectives so we never use verbs in adj slots
+  const padAdjs = [
+    { char:"好", pinyin:"hǎo", num:"hao3", id:"PAD_ADJ_HAO", pos:"adj", en:"good", ko:"좋다" },
+    { char:"大", pinyin:"dà", num:"da4", id:"PAD_ADJ_DA", pos:"adj", en:"big", ko:"크다" },
+    { char:"小", pinyin:"xiǎo", num:"xiao3", id:"PAD_ADJ_XIAO", pos:"adj", en:"small", ko:"작다" },
+    { char:"多", pinyin:"duō", num:"duo1", id:"PAD_ADJ_DUO", pos:"adj", en:"many", ko:"많다" },
+    { char:"少", pinyin:"shǎo", num:"shao3", id:"PAD_ADJ_SHAO", pos:"adj", en:"few", ko:"적다" },
+    { char:"快", pinyin:"kuài", num:"kuai4", id:"PAD_ADJ_KUAI", pos:"adj", en:"fast", ko:"빠르다" },
+    { char:"慢", pinyin:"màn", num:"man4", id:"PAD_ADJ_MAN", pos:"adj", en:"slow", ko:"느리다" },
+    { char:"新", pinyin:"xīn", num:"xin1", id:"PAD_ADJ_XIN", pos:"adj", en:"new", ko:"새롭다" },
+    { char:"舊", pinyin:"jiù", num:"jiu4", id:"PAD_ADJ_JIU", pos:"adj", en:"old", ko:"낡다" },
+    { char:"熱", pinyin:"rè", num:"re4", id:"PAD_ADJ_RE", pos:"adj", en:"hot", ko:"덥다" },
+    { char:"冷", pinyin:"lěng", num:"leng3", id:"PAD_ADJ_LENG", pos:"adj", en:"cold", ko:"춥다" },
+    { char:"難", pinyin:"nán", num:"nan2", id:"PAD_ADJ_NAN", pos:"adj", en:"difficult", ko:"어렵다" },
+    { char:"簡單", pinyin:"jiǎndān", num:"jian3 dan1", id:"PAD_ADJ_JIANDAN", pos:"adj", en:"simple", ko:"간단하다" },
+    { char:"便宜", pinyin:"piányí", num:"pian2 yi2", id:"PAD_ADJ_PIANYI", pos:"adj", en:"cheap", ko:"싸다" },
+    { char:"貴", pinyin:"guì", num:"gui4", id:"PAD_ADJ_GUI", pos:"adj", en:"expensive", ko:"비싸다" },
+  ];
+  const padNouns = [
+    { char:"東西", pinyin:"dōngxī", num:"dong1 xi1", id:"PAD_NOUN_DONGXI", pos:"noun", en:"thing", ko:"물건" },
+    { char:"人", pinyin:"rén", num:"ren2", id:"PAD_NOUN_REN", pos:"noun", en:"person", ko:"사람" },
+    { char:"地方", pinyin:"dìfāng", num:"di4 fang1", id:"PAD_NOUN_DIFANG", pos:"noun", en:"place", ko:"장소" },
+    { char:"時間", pinyin:"shíjiān", num:"shi2 jian1", id:"PAD_NOUN_SHIJIAN", pos:"noun", en:"time", ko:"시간" },
+    { char:"錢", pinyin:"qián", num:"qian2", id:"PAD_NOUN_QIAN", pos:"noun", en:"money", ko:"돈" },
+    { char:"朋友", pinyin:"péngyǒu", num:"peng2 you3", id:"PAD_NOUN_PENGYOU", pos:"noun", en:"friend", ko:"친구" },
+    { char:"家", pinyin:"jiā", num:"jia1", id:"PAD_NOUN_JIA", pos:"noun", en:"home", ko:"집" },
+    { char:"書", pinyin:"shū", num:"shu1", id:"PAD_NOUN_SHU", pos:"noun", en:"book", ko:"책" },
+    { char:"水", pinyin:"shuǐ", num:"shui3", id:"PAD_NOUN_SHUI", pos:"noun", en:"water", ko:"물" },
+    { char:"食物", pinyin:"shíwù", num:"shi2 wu4", id:"PAD_NOUN_SHIWU", pos:"noun", en:"food", ko:"음식" },
+  ];
+  const fullAdjs = [...adjs, ...padAdjs];
+  const fullNouns = [...nouns, ...padNouns];
+  const rv = () => verbs[Math.floor(Math.random() * verbs.length)];
+  const ra = () => fullAdjs[Math.floor(Math.random() * fullAdjs.length)];
+  const rn = () => fullNouns[Math.floor(Math.random() * fullNouns.length)];
+
   const sentences = [];
-  
+
   for (let i = 0; i < 90; i++) {
     const p = i % 15;
     let text = "", enText = "", koText = "", v1 = null, v2 = null;
-    
+
     if (p === 0) {
-      v1 = rv(); text = `我${v1.char}了。`; enText = `I ${v1.en}.`; koText = `저는 ${v1.ko}.`;
+      v1 = rv(); text = `我${v1.char}了。`; enText = `I ${pastEn(v1.en)}.`; koText = `저는 ${cleanKo(v1.ko)}했습니다.`;
     } else if (p === 1) {
-      v1 = rv(); text = `你${v1.char}了嗎？`; enText = `Did you ${v1.en}?`; koText = `${v1.ko}?`;
+      v1 = rv(); text = `你${v1.char}了嗎？`; enText = `Did you ${stripTo(v1.en)}?`; koText = `${cleanKo(v1.ko)}했습니까?`;
     } else if (p === 2) {
-      v1 = rv(); v2 = rn(); text = `他${v1.char}${v2.char}。`; enText = `He ${v1.en} ${v2.en}.`; koText = `그는 ${v2.ko}${/을$|[을를]$/.test(v2.ko) ? "" : "을/를"} ${v1.ko}.`;
+      v1 = rv(); v2 = rn(); text = `他${v1.char}${v2.char}。`; enText = `He ${presEn(v1.en)} ${stripTo(v2.en)}.`; koText = `그는 ${cleanKo(v2.ko)}${/(을|를)$/.test(cleanKo(v2.ko)) ? "" : "을/를"} ${cleanKo(v1.ko)}합니다.`;
     } else if (p === 3) {
-      v1 = rv(); v2 = rn(); text = `我${v1.char}過${v2.char}。`; enText = `I have ${v1.en} ${v2.en} before.`; koText = `저는 ${v2.ko}${/을$|[을를]$/.test(v2.ko) ? "" : "을/를"} ${v1.ko}한 적이 있습니다.`;
+      v1 = rv(); v2 = rn(); text = `我${v1.char}過${v2.char}。`; enText = `I have ${pastPartEn(v1.en)} ${stripTo(v2.en)} before.`; koText = `저는 ${cleanKo(v2.ko)}${/(을|를)$/.test(cleanKo(v2.ko)) ? "" : "을/를"} ${cleanKo(v1.ko)}한 적이 있습니다.`;
     } else if (p === 4) {
-      v1 = ra(); text = `今天很${v1.char}。`; enText = `Today is very ${v1.en}.`; koText = `오늘은 매우 ${v1.ko}.`;
+      v1 = ra(); text = `今天很${v1.char}。`; enText = `Today is very ${stripTo(v1.en)}.`; koText = `오늘은 매우 ${cleanKo(v1.ko)}니다.`;
     } else if (p === 5) {
-      v1 = rn(); text = `你覺得${v1.char}怎麼樣？`; enText = `What do you think of ${v1.en}?`; koText = `${v1.ko}${/은$|는$/.test(v1.ko) ? "" : "은/는"} 어때요?`;
+      v1 = rn(); text = `你覺得${v1.char}怎麼樣？`; enText = `What do you think of ${stripTo(v1.en)}?`; koText = `${cleanKo(v1.ko)}${/(은|는)$/.test(cleanKo(v1.ko)) ? "" : "은/는"} 어때요?`;
     } else if (p === 6) {
-      v1 = rn(); text = `可以${v1.char}嗎？`; enText = `Can I ${v1.en}?`; koText = `${v1.ko}${/할$/.test(v1.ko) ? "" : "할 수 있어요?"}`;
+      v1 = rv(); text = `可以${v1.char}嗎？`; enText = `Can I ${stripTo(v1.en)}?`; koText = `${cleanKo(v1.ko)}${/할$/.test(cleanKo(v1.ko)) ? "" : "할 수 있어요?"}`;
     } else if (p === 7) {
-      v1 = ra(); text = `這個很${v1.char}。`; enText = `This is very ${v1.en}.`; koText = `이것은 매우 ${v1.ko}.`;
+      v1 = ra(); text = `這個很${v1.char}。`; enText = `This is very ${stripTo(v1.en)}.`; koText = `이것은 매우 ${cleanKo(v1.ko)}니다.`;
     } else if (p === 8) {
-      v1 = rn(); text = `我要${v1.char}。`; enText = `I want ${v1.en}.`; koText = `저는 ${v1.ko}${/을$|[을를]$/.test(v1.ko) ? "" : "을/를"} 원합니다.`;
+      v1 = rn(); text = `我要${v1.char}。`; enText = `I want ${stripTo(v1.en)}.`; koText = `저는 ${cleanKo(v1.ko)}${/(을|를)$/.test(cleanKo(v1.ko)) ? "" : "을/를"} 원합니다.`;
     } else if (p === 9) {
-      v1 = rv(); text = `他正在${v1.char}。`; enText = `He is ${v1.en}ing.`; koText = `그는 ${v1.ko}하고 있습니다.`;
+      v1 = rv(); text = `他正在${v1.char}。`; enText = `He is ${progEn(v1.en)}.`; koText = `그는 ${cleanKo(v1.ko)}하고 있습니다.`;
     } else if (p === 10) {
-      v1 = rn(); v2 = rn(); text = `${v1.char}比${v2.char}好。`; enText = `${v1.en} is better than ${v2.en}.`; koText = `${v1.ko}${/은$|는$/.test(v1.ko) ? "" : "은/는"} ${v2.ko}보다 좋습니다.`;
+      v1 = rn(); v2 = rn(); text = `${v1.char}比${v2.char}好。`; enText = `${stripTo(v1.en)} is better than ${stripTo(v2.en)}.`; koText = `${cleanKo(v1.ko)}${/(은|는)$/.test(cleanKo(v1.ko)) ? "" : "은/는"} ${cleanKo(v2.ko)}보다 좋습니다.`;
     } else if (p === 11) {
-      v1 = rv(); text = `你會${v1.char}嗎？`; enText = `Can you ${v1.en}?`; koText = `${v1.ko} 할 수 있나요?`;
+      v1 = rv(); text = `你會${v1.char}嗎？`; enText = `Can you ${stripTo(v1.en)}?`; koText = `${cleanKo(v1.ko)} 할 수 있나요?`;
     } else if (p === 12) {
-      v1 = rn(); text = `我需要${v1.char}。`; enText = `I need ${v1.en}.`; koText = `저는 ${v1.ko}${/이$|가$/.test(v1.ko) ? "" : "이/가"} 필요합니다.`;
+      v1 = rn(); text = `我需要${v1.char}。`; enText = `I need ${stripTo(v1.en)}.`; koText = `저는 ${cleanKo(v1.ko)}${/(이|가)$/.test(cleanKo(v1.ko)) ? "" : "이/가"} 필요합니다.`;
     } else if (p === 13) {
-      v1 = rv(); text = `昨天我${v1.char}了。`; enText = `Yesterday I ${v1.en}.`; koText = `어제 저는 ${v1.ko}.`;
+      v1 = rv(); text = `昨天我${v1.char}了。`; enText = `Yesterday I ${pastEn(v1.en)}.`; koText = `어제 저는 ${cleanKo(v1.ko)}했습니다.`;
     } else {
-      v1 = ra(); text = `這裡很${v1.char}。`; enText = `It is very ${v1.en} here.`; koText = `여기는 매우 ${v1.ko}.`;
+      v1 = ra(); text = `這裡很${v1.char}。`; enText = `It is very ${stripTo(v1.en)} here.`; koText = `여기는 매우 ${cleanKo(v1.ko)}니다.`;
     }
-    
     const lp = lookupPinyin(text);
     const toks = [...new Set(lp.ids)].filter(Boolean);
     
