@@ -425,7 +425,13 @@ function cleanKo(s) {
 // Detect if English is already conjugated (perfect, progressive, etc.)
 function isAlreadyConjugated(s) {
   const raw = stripTo(s);
-  return /^(have|has|had|am|is|are|was|were|will|would|can|could|should|may|might|must)\s/.test(raw);
+  // Already starts with an auxiliary
+  if (/^(have|has|had|am|is|are|was|were|will|would|can|could|should|may|might|must)\s/.test(raw)) return true;
+  // Gerund/participle that's not a base verb ending in -ing
+  const first = raw.split(/\s+/)[0].toLowerCase();
+  const ING_VERBS = new Set(["bring","sing","ring","sting","fling","sling","wring","spring","cling","swing","string","wing","king"]);
+  if (first.endsWith("ing") && !ING_VERBS.has(first)) return true;
+  return false;
 }
 
 const IRREG_PAST = { go:"went", buy:"bought", eat:"ate", drink:"drank", see:"saw",
@@ -532,6 +538,21 @@ function buildSentences(day, vocabItems, grammarIds) {
     (v.pos === "verb" || v.pos === "phrase" || v.pos === "modal") &&
     !/^(adv|conj|prep|det|num|measure|particle|interjection)$/.test(v.pos)
   );
+  // Characters that are never main verbs: pure modals, adverbs, negatives
+  const NEVER_MAIN_VERB = new Set([
+    "會", "要", "可以", "能", "應該", "得", "必須", "可能", // modals
+    "也", "都", "還", "就", "才", "又", "再", "只", "最", "太", "更", "比較", // adverbs
+    "沒有", "沒", "不", "不用", "不行", "不可以", "不要", // negatives
+    "已經", "正在", "一直", "總是", "常常", "有時候", "還是", "只是", "都是", // adverb phrases
+    "然後", "所以", "因為", "但是", "而且", "雖然", "如果", "還是", // conjunctions
+    "沒空", "沒關係", "不太會", "還不太", "快到了", "有空嗎", "現在不行", // negative/qualifier phrases
+    "工作中", "休息中", "是", // participles and irregular copula
+  ]);
+  // Also filter by English: if the English starts with neg/adv words, it's not a main verb
+  const BAD_EN_STARTS = /^(not|no|almost|still|already|just|only|also|very|too|more|less|maybe|perhaps|cannot|can't|don't|doesn't|didn't|won't)\s/i;
+  const mainVerbs = verbs.filter(v => !NEVER_MAIN_VERB.has(v.char) && !BAD_EN_STARTS.test(stripTo(v.en)));
+  // Modals (for templates that expect a modal-like meaning)
+  const modals = verbs.filter(v => v.pos === "modal" && !NEVER_MAIN_VERB.has(v.char));
   const adjs = voc.filter((v) => v.pos === "adj" || v.pos.includes("adj"));
   const nouns = voc.filter((v) => v.pos === "noun" || v.pos === "place" || v.pos === "time");
   // Pad adjective pool with common adjectives so we never use verbs in adj slots
@@ -566,7 +587,11 @@ function buildSentences(day, vocabItems, grammarIds) {
   ];
   const fullAdjs = [...adjs, ...padAdjs];
   const fullNouns = [...nouns, ...padNouns];
-  const rv = () => verbs[Math.floor(Math.random() * verbs.length)];
+  // Main verbs only for sentence templates (modals/adverbs/negatives never work as main verbs)
+  const rv = () => {
+    const pool = mainVerbs.length > 0 ? mainVerbs : verbs;
+    return pool[Math.floor(Math.random() * pool.length)];
+  };
   const ra = () => fullAdjs[Math.floor(Math.random() * fullAdjs.length)];
   const rn = () => fullNouns[Math.floor(Math.random() * fullNouns.length)];
 
