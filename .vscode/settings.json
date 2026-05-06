@@ -3,6 +3,14 @@
         "/^cd \"c:\\\\Users\\\\riper\\\\Downloads\\\\Learning Mandarin\" ; node scripts/validate-course\\.mjs 2>&1$/": {
             "approve": true,
             "matchCommandLine": true
+        },
+        "/^cd \"c:\\\\Users\\\\riper\\\\Downloads\\\\Learning Mandarin\" ; node scripts/generate-days46-90\\.mjs 2>&1$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^cd \"c:\\\\Users\\\\riper\\\\Downloads\\\\Learning Mandarin\" ; node scripts/validate-all-90\\.mjs 2>&1$/": {
+            "approve": true,
+            "matchCommandLine": true
         }
     }
 }

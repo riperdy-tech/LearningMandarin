@@ -29,6 +29,68 @@ const priorIdMap = new Map(exVocab.map((v) => [v.id, v]));
 const knownChars = new Set(exVocab.map((v) => v.char));
 const commonWords = ["我", "你", "他", "她", "我們", "是", "有", "在", "去", "要", "想", "可以", "嗎", "不", "很", "的", "了", "會", "都", "也", "還", "就", "沒有", "什麼", "哪裡", "怎麼", "因為", "所以", "如果", "雖然", "但是", "可能", "應該", "需要", "已經", "正在", "比較", "最", "覺得", "喜歡", "知道", "說", "看", "聽", "吃", "喝", "買", "賣", "來", "回", "給", "拿", "做", "用", "能", "好", "對", "沒", "請", "謝", "幫", "等", "找", "問", "告訴", "打", "開", "關", "走", "跑", "坐", "站", "寫", "讀", "學", "教", "住", "工作", "休息", "玩"];
 
+// Global pinyin map for common function words not in per-day vocab
+const GLOBAL_PINYIN = {
+  "我": ["wǒ", "wo3"], "你": ["nǐ", "ni3"], "他": ["tā", "ta1"], "她": ["tā", "ta1"],
+  "我們": ["wǒmen", "wo3 men0"], "你們": ["nǐmen", "ni3 men0"], "他們": ["tāmen", "ta1 men0"],
+  "是": ["shì", "shi4"], "有": ["yǒu", "you3"], "在": ["zài", "zai4"],
+  "去": ["qù", "qu4"], "要": ["yào", "yao4"], "想": ["xiǎng", "xiang3"],
+  "可以": ["kěyǐ", "ke3 yi3"], "能": ["néng", "neng2"], "會": ["huì", "hui4"],
+  "嗎": ["ma", "ma0"], "不": ["bù", "bu4"], "很": ["hěn", "hen3"],
+  "的": ["de", "de0"], "了": ["le", "le0"], "都": ["dōu", "dou1"],
+  "也": ["yě", "ye3"], "還": ["hái", "hai2"], "就": ["jiù", "jiu4"],
+  "沒有": ["méiyǒu", "mei2 you3"], "沒": ["méi", "mei2"],
+  "什麼": ["shénme", "shen2 me0"], "哪裡": ["nǎlǐ", "na3 li3"], "怎麼": ["zěnme", "zen3 me0"],
+  "因為": ["yīnwèi", "yin1 wei4"], "所以": ["suǒyǐ", "suo3 yi3"],
+  "如果": ["rúguǒ", "ru2 guo3"], "雖然": ["suīrán", "sui1 ran2"], "但是": ["dànshì", "dan4 shi4"],
+  "可能": ["kěnéng", "ke3 neng2"], "應該": ["yīnggāi", "ying1 gai1"], "需要": ["xūyào", "xu1 yao4"],
+  "已經": ["yǐjīng", "yi3 jing1"], "正在": ["zhèngzài", "zheng4 zai4"],
+  "比較": ["bǐjiào", "bi3 jiao4"], "最": ["zuì", "zui4"],
+  "覺得": ["juéde", "jue2 de0"], "喜歡": ["xǐhuān", "xi3 huan1"], "知道": ["zhīdào", "zhi1 dao4"],
+  "說": ["shuō", "shuo1"], "看": ["kàn", "kan4"], "聽": ["tīng", "ting1"],
+  "吃": ["chī", "chi1"], "喝": ["hē", "he1"], "買": ["mǎi", "mai3"],
+  "來": ["lái", "lai2"], "回": ["huí", "hui2"], "給": ["gěi", "gei3"],
+  "拿": ["ná", "na2"], "做": ["zuò", "zuo4"], "用": ["yòng", "yong4"],
+  "好": ["hǎo", "hao3"], "對": ["duì", "dui4"], "請": ["qǐng", "qing3"],
+  "謝": ["xiè", "xie4"], "謝謝": ["xièxie", "xie4 xie0"],
+  "幫": ["bāng", "bang1"], "等": ["děng", "deng3"], "找": ["zhǎo", "zhao3"],
+  "問": ["wèn", "wen4"], "打": ["dǎ", "da3"], "開": ["kāi", "kai1"],
+  "關": ["guān", "guan1"], "走": ["zǒu", "zou3"], "跑": ["pǎo", "pao3"],
+  "坐": ["zuò", "zuo4"], "站": ["zhàn", "zhan4"], "寫": ["xiě", "xie3"],
+  "讀": ["dú", "du2"], "學": ["xué", "xue2"], "教": ["jiāo", "jiao1"],
+  "住": ["zhù", "zhu4"], "工作": ["gōngzuò", "gong1 zuo4"], "休息": ["xiūxí", "xiu1 xi2"],
+  "玩": ["wán", "wan2"], "告訴": ["gàosù", "gao4 su4"],
+  "今天": ["jīntiān", "jin1 tian1"], "昨天": ["zuótiān", "zuo2 tian1"], "明天": ["míngtiān", "ming2 tian1"],
+  "這個": ["zhège", "zhe4 ge0"], "那個": ["nàge", "na4 ge0"], "這裡": ["zhèlǐ", "zhe4 li3"],
+  "那裡": ["nàlǐ", "na4 li3"], "怎麼樣": ["zěnmeyàng", "zen3 me0 yang4"],
+  "比": ["bǐ", "bi3"], "過": ["guò", "guo4"], "著": ["zhe", "zhe0"],
+  "吧": ["ba", "ba0"], "呢": ["ne", "ne0"], "啊": ["a", "a0"],
+  "哦": ["ò", "o4"], "嗯": ["èn", "en4"],
+  "跟": ["gēn", "gen1"], "和": ["hé", "he2"], "或": ["huò", "huo4"],
+  "從": ["cóng", "cong2"], "到": ["dào", "dao4"], "向": ["xiàng", "xiang4"],
+  "對": ["duì", "dui4"], "把": ["bǎ", "ba3"], "被": ["bèi", "bei4"],
+  "上": ["shàng", "shang4"], "下": ["xià", "xia4"], "中": ["zhōng", "zhong1"],
+  "大": ["dà", "da4"], "小": ["xiǎo", "xiao3"], "多": ["duō", "duo1"],
+  "少": ["shǎo", "shao3"], "新": ["xīn", "xin1"], "舊": ["jiù", "jiu4"],
+  "快": ["kuài", "kuai4"], "慢": ["màn", "man4"], "遠": ["yuǎn", "yuan3"],
+  "近": ["jìn", "jin4"], "高": ["gāo", "gao1"], "低": ["dī", "di1"],
+  "冷": ["lěng", "leng3"], "熱": ["rè", "re4"], "乾": ["gān", "gan1"],
+  "溼": ["shī", "shi1"], "便宜": ["piányí", "pian2 yi2"], "貴": ["guì", "gui4"],
+  "方便": ["fāngbiàn", "fang1 bian4"], "簡單": ["jiǎndān", "jian3 dan1"], "難": ["nán", "nan2"],
+  "漂亮": ["piàoliang", "piao4 liang0"], "可愛": ["kě'ài", "ke3 ai4"],
+  "重要": ["zhòngyào", "zhong4 yao4"], "一樣": ["yíyàng", "yi2 yang4"],
+  "不同": ["bùtóng", "bu4 tong2"], "真的": ["zhēnde", "zhen1 de0"],
+  "當然": ["dāngrán", "dang1 ran2"], "其實": ["qíshí", "qi2 shi2"],
+  "自己": ["zìjǐ", "zi4 ji3"], "一起": ["yìqǐ", "yi4 qi3"],
+  "沒問題": ["méi wèntí", "mei2 wen4 ti2"], "不好意思": ["bùhǎoyìsi", "bu4 hao3 yi4 si0"],
+  "不用": ["búyòng", "bu2 yong4"], "沒關係": ["méi guānxì", "mei2 guan1 xi4"],
+  "一下": ["yíxià", "yi2 xia4"], "一點": ["yìdiǎn", "yi4 dian3"],
+  "非常": ["fēicháng", "fei1 chang2"], "真的": ["zhēnde", "zhen1 de0"],
+  "又": ["yòu", "you4"], "再": ["zài", "zai4"], "才": ["cái", "cai2"],
+  "只": ["zhǐ", "zhi3"], "每": ["měi", "mei3"], "各": ["gè", "ge4"],
+  "更": ["gèng", "geng4"], "太": ["tài", "tai4"], "真": ["zhēn", "zhen1"],
+};
+
 // ═════════════════════════════════════════════════════════════════════════
 //  VOCABULARY — real Mandarin per day, pipe-delimited format:
 //  characters|pinyin|numeric|pos|english|korean|semantic_domain
@@ -101,7 +163,7 @@ WDS[47] = `接著|jiēzhe|jie1 zhe0|conj|next|이어서|sequence
 故事|gùshì|gu4 shi4|noun|story|이야기|narration
 順序|shùnxù|shun4 xu4|noun|order; sequence|순서|sequence
 事情|shìqíng|shi4 qing2|noun|matter; thing|일|narration
-忙|lèi|mang2|adj|busy|바쁘다|description
+忙|máng|mang2|adj|busy|바쁘다|description
 累|lèi|lei4|adj|tired|피곤하다|description
 開心|kāixīn|kai1 xin1|adj|happy|기쁘다|description
 難過|nánguò|nan2 guo4|adj|sad|슬프다|description
@@ -352,67 +414,101 @@ function buildSentences(day, vocabItems, grammarIds) {
   const voc = vocabItems.map((v) => ({ char: v.char, pinyin: v.pinyin, num: v.pinyin_numeric, id: v.id, pos: v.pos, en: v.meaning_en, ko: v.meaning_ko }));
   const byChar = new Map(voc.map((v) => [v.char, v]));
   
-  // Filter by POS for grammatical correctness
-  const verbs = voc.filter((v) => v.pos === "verb" || v.pos === "phrase" || v.pos.includes("verb"));
+  // Build longest-match lookup for pinyin generation
+  const sortedByLen = [...voc].sort((a, b) => b.char.length - a.char.length);
+  // Also sort global pinyin keys by length for longest match
+  const globalSortedByLen = Object.keys(GLOBAL_PINYIN).sort((a, b) => b.length - a.length);
+  function lookupPinyin(text) {
+    let result = { py: "", nu: "", ids: [] };
+    let i = 0;
+    while (i < text.length) {
+      const ch = text[i];
+      if (!han(ch)) { result.py += ch; result.nu += ch; i++; continue; }
+      let found = false;
+      // Try vocab first
+      for (const v of sortedByLen) {
+        if (text.startsWith(v.char, i)) {
+          result.py += (result.py && !result.py.endsWith(" ") ? " " : "") + v.pinyin;
+          result.nu += (result.nu && !result.nu.endsWith(" ") ? " " : "") + v.num;
+          result.ids.push(v.id);
+          i += v.char.length;
+          found = true;
+          break;
+        }
+      }
+      // Try global pinyin fallback
+      if (!found) {
+        for (const gk of globalSortedByLen) {
+          if (text.startsWith(gk, i)) {
+            result.py += (result.py && !result.py.endsWith(" ") ? " " : "") + GLOBAL_PINYIN[gk][0];
+            result.nu += (result.nu && !result.nu.endsWith(" ") ? " " : "") + GLOBAL_PINYIN[gk][1];
+            i += gk.length;
+            found = true;
+            break;
+          }
+        }
+      }
+      if (!found) { result.py += (result.py ? " " : "") + ch; result.nu += (result.nu ? " " : "") + ch; i++; }
+    }
+    return result;
+  }
+  
+  // Filter by POS
+  const verbs = voc.filter((v) => v.pos === "verb" || v.pos === "phrase" || v.pos.includes("verb") || v.pos === "modal");
   const adjs = voc.filter((v) => v.pos === "adj" || v.pos === "adjective" || v.pos.includes("adj"));
   const nouns = voc.filter((v) => v.pos === "noun" || v.pos === "place" || v.pos === "time");
-  const all = voc.length > 0 ? voc : verbs.length > 0 ? verbs : adjs.length > 0 ? adjs : nouns;
+  const all = voc;
   
   const rv = () => (verbs.length > 0 ? verbs : all)[Math.floor(Math.random() * (verbs.length > 0 ? verbs : all).length)];
   const ra = () => (adjs.length > 0 ? adjs : all)[Math.floor(Math.random() * (adjs.length > 0 ? adjs : all).length)];
   const rn = () => (nouns.length > 0 ? nouns : all)[Math.floor(Math.random() * (nouns.length > 0 ? nouns : all).length)];
-  const ra2 = () => all[Math.floor(Math.random() * all.length)];
-  
-  const pin = (v) => v?.pinyin || "";
-  const num = (v) => v?.num || "";
-  const en = (v) => v?.en || "";
-  const ko = (v) => v?.ko || "";
   
   const sentences = [];
   
-  // Template bank: [textFn, pinyinFn, enFn, koFn]
-  // Each template uses appropriately POS-filtered words
-  
   for (let i = 0; i < 90; i++) {
     const p = i % 15;
-    let text = "", py = "", enText = "", koText = "", toks = [];
+    let text = "", enText = "", koText = "", v1 = null, v2 = null;
     
     if (p === 0) {
-      const v = rv(); text = `我${v.char}了。`; py = `Wǒ ${pin(v)} le.`; enText = `I ${en(v)}.`; koText = `저는 ${ko(v)}.`; toks = [v.id];
+      v1 = rv(); text = `我${v1.char}了。`; enText = `I ${v1.en}.`; koText = `저는 ${v1.ko}.`;
     } else if (p === 1) {
-      const v = rv(); text = `你${v.char}了嗎？`; py = `Nǐ ${pin(v)} le ma?`; enText = `Did you ${en(v)}?`; koText = `${ko(v)}?`; toks = [v.id];
+      v1 = rv(); text = `你${v1.char}了嗎？`; enText = `Did you ${v1.en}?`; koText = `${v1.ko}?`;
     } else if (p === 2) {
-      const v = rv(), n = rn(); text = `他${v.char}${n.char}。`; py = `Tā ${pin(v)} ${pin(n)}.`; enText = `He ${en(v)} ${en(n)}.`; koText = `그는 ${ko(n)}을/를 ${ko(v)}.`; toks = [v.id, n.id];
+      v1 = rv(); v2 = rn(); text = `他${v1.char}${v2.char}。`; enText = `He ${v1.en} ${v2.en}.`; koText = `그는 ${v2.ko}${/을$|[을를]$/.test(v2.ko) ? "" : "을/를"} ${v1.ko}.`;
     } else if (p === 3) {
-      const v = rv(), n = rn(); text = `我${v.char}過${n.char}。`; py = `Wǒ ${pin(v)} guo ${pin(n)}.`; enText = `I have ${en(v)} ${en(n)}.`; koText = `저는 ${ko(n)}을/를 ${en(v)}한 적이 있습니다.`; toks = [v.id, n.id];
+      v1 = rv(); v2 = rn(); text = `我${v1.char}過${v2.char}。`; enText = `I have ${v1.en} ${v2.en} before.`; koText = `저는 ${v2.ko}${/을$|[을를]$/.test(v2.ko) ? "" : "을/를"} ${v1.ko}한 적이 있습니다.`;
     } else if (p === 4) {
-      const a = ra(); text = `今天很${a.char}。`; py = `Jīntiān hěn ${pin(a)}.`; enText = `Today is very ${en(a)}.`; koText = `오늘은 매우 ${ko(a)}.`; toks = [a.id];
+      v1 = ra(); text = `今天很${v1.char}。`; enText = `Today is very ${v1.en}.`; koText = `오늘은 매우 ${v1.ko}.`;
     } else if (p === 5) {
-      const n = rn(); text = `你覺得${n.char}怎麼樣？`; py = `Nǐ juéde ${pin(n)} zěnmeyàng?`; enText = `What do you think of ${en(n)}?`; koText = `${ko(n)} 어때요?`; toks = [n.id];
+      v1 = rn(); text = `你覺得${v1.char}怎麼樣？`; enText = `What do you think of ${v1.en}?`; koText = `${v1.ko}${/은$|는$/.test(v1.ko) ? "" : "은/는"} 어때요?`;
     } else if (p === 6) {
-      const n = rn(); text = `可以${n.char}嗎？`; py = `Kěyǐ ${pin(n)} ma?`; enText = `Can I ${en(n)}?`; koText = `${ko(n)} 가능한가요?`; toks = [n.id];
+      v1 = rn(); text = `可以${v1.char}嗎？`; enText = `Can I ${v1.en}?`; koText = `${v1.ko}${/할$/.test(v1.ko) ? "" : "할 수 있어요?"}`;
     } else if (p === 7) {
-      const a = ra(); text = `這個很${a.char}。`; py = `Zhège hěn ${pin(a)}.`; enText = `This is very ${en(a)}.`; koText = `이것은 매우 ${ko(a)}.`; toks = [a.id];
+      v1 = ra(); text = `這個很${v1.char}。`; enText = `This is very ${v1.en}.`; koText = `이것은 매우 ${v1.ko}.`;
     } else if (p === 8) {
-      const n = rn(); text = `我要${n.char}。`; py = `Wǒ yào ${pin(n)}.`; enText = `I want ${en(n)}.`; koText = `저는 ${ko(n)}을/를 원합니다.`; toks = [n.id];
+      v1 = rn(); text = `我要${v1.char}。`; enText = `I want ${v1.en}.`; koText = `저는 ${v1.ko}${/을$|[을를]$/.test(v1.ko) ? "" : "을/를"} 원합니다.`;
     } else if (p === 9) {
-      const v = rv(); text = `他正在${v.char}。`; py = `Tā zhèngzài ${pin(v)}.`; enText = `He is ${en(v)}.`; koText = `그는 ${ko(v)}하고 있습니다.`; toks = [v.id];
+      v1 = rv(); text = `他正在${v1.char}。`; enText = `He is ${v1.en}ing.`; koText = `그는 ${v1.ko}하고 있습니다.`;
     } else if (p === 10) {
-      const n1 = rn(), n2 = rn(); text = `${n1.char}比${n2.char}好。`; py = `${pin(n1)} bǐ ${pin(n2)} hǎo.`; enText = `${en(n1)} is better than ${en(n2)}.`; koText = `${ko(n1)}은/는 ${ko(n2)}보다 좋습니다.`; toks = [n1.id, n2.id];
+      v1 = rn(); v2 = rn(); text = `${v1.char}比${v2.char}好。`; enText = `${v1.en} is better than ${v2.en}.`; koText = `${v1.ko}${/은$|는$/.test(v1.ko) ? "" : "은/는"} ${v2.ko}보다 좋습니다.`;
     } else if (p === 11) {
-      const v = rv(); text = `你會${v.char}嗎？`; py = `Nǐ huì ${pin(v)} ma?`; enText = `Can you ${en(v)}?`; koText = `${ko(v)} 할 수 있나요?`; toks = [v.id];
+      v1 = rv(); text = `你會${v1.char}嗎？`; enText = `Can you ${v1.en}?`; koText = `${v1.ko} 할 수 있나요?`;
     } else if (p === 12) {
-      const n = rn(); text = `我需要${n.char}。`; py = `Wǒ xūyào ${pin(n)}.`; enText = `I need ${en(n)}.`; koText = `저는 ${ko(n)}이/가 필요합니다.`; toks = [n.id];
+      v1 = rn(); text = `我需要${v1.char}。`; enText = `I need ${v1.en}.`; koText = `저는 ${v1.ko}${/이$|가$/.test(v1.ko) ? "" : "이/가"} 필요합니다.`;
     } else if (p === 13) {
-      const v = rv(); text = `昨天我${v.char}了。`; py = `Zuótiān wǒ ${pin(v)} le.`; enText = `Yesterday I ${en(v)}.`; koText = `어제 저는 ${ko(v)}.`; toks = [v.id];
+      v1 = rv(); text = `昨天我${v1.char}了。`; enText = `Yesterday I ${v1.en}.`; koText = `어제 저는 ${v1.ko}.`;
     } else {
-      const a = ra(); text = `這裡很${a.char}。`; py = `Zhèlǐ hěn ${pin(a)}.`; enText = `It is very ${en(a)} here.`; koText = `여기는 매우 ${ko(a)}.`; toks = [a.id];
+      v1 = ra(); text = `這裡很${v1.char}。`; enText = `It is very ${v1.en} here.`; koText = `여기는 매우 ${v1.ko}.`;
     }
+    
+    const lp = lookupPinyin(text);
+    const toks = [...new Set(lp.ids)].filter(Boolean);
     
     sentences.push({
       id: sid(day, sentences.length + 1),
-      text, pinyin: py, pinyin_numeric: "", translation_en: enText, translation_ko: koText,
-      tokens: text.split("").filter(han), token_ids: toks.filter(Boolean),
+      text, pinyin: lp.py, pinyin_numeric: lp.nu,
+      translation_en: enText, translation_ko: koText,
+      tokens: text.split("").filter(han), token_ids: toks,
       grammar_ids: grammarIds.slice(0, 1), audio_id: asid(day, sentences.length + 1),
       difficulty: 2, production_type: "practice",
     });
@@ -477,7 +573,43 @@ function buildGrammar(fwDay, day, sentences) {
 // ── BUILD DIALOGUES ────────────────────────────────────────────────────
 
 function buildDialogues(fwDay, day, vocabItems) {
-  const voc = vocabItems.map((v) => ({ char: v.char, pinyin: v.pinyin, num: v.pinyin_numeric, id: v.id }));
+  const voc = vocabItems.map((v) => ({ char: v.char, pinyin: v.pinyin, num: v.pinyin_numeric, id: v.id, en: v.meaning_en }));
+  const sortedByLen = [...voc].sort((a, b) => b.char.length - a.char.length);
+  const globalSortedByLen = Object.keys(GLOBAL_PINYIN).sort((a, b) => b.length - a.length);
+  
+  function lookupText(text) {
+    let result = { py: "", nu: "", ids: [] };
+    let i = 0;
+    while (i < text.length) {
+      const ch = text[i];
+      if (!han(ch)) { result.py += ch; result.nu += ch; i++; continue; }
+      let found = false;
+      for (const v of sortedByLen) {
+        if (text.startsWith(v.char, i)) {
+          result.py += (result.py && !result.py.endsWith(" ") ? " " : "") + v.pinyin;
+          result.nu += (result.nu && !result.nu.endsWith(" ") ? " " : "") + v.num;
+          result.ids.push(v.id);
+          i += v.char.length;
+          found = true;
+          break;
+        }
+      }
+      if (!found) {
+        for (const gk of globalSortedByLen) {
+          if (text.startsWith(gk, i)) {
+            result.py += (result.py && !result.py.endsWith(" ") ? " " : "") + GLOBAL_PINYIN[gk][0];
+            result.nu += (result.nu && !result.nu.endsWith(" ") ? " " : "") + GLOBAL_PINYIN[gk][1];
+            i += gk.length;
+            found = true;
+            break;
+          }
+        }
+      }
+      if (!found) { result.py += (result.py ? " " : "") + ch; result.nu += (result.nu ? " " : "") + ch; i++; }
+    }
+    return result;
+  }
+  
   return fwDay.required_dialogues.map((scenario, di) => {
     const dn = di + 1;
     const turns = [];
@@ -490,32 +622,24 @@ function buildDialogues(fwDay, day, vocabItems) {
       { s: r2, t: () => { const w = pick(); return { text: `可以，${w.char}沒問題。`, en: `Sure, ${w.en} is no problem.` }; } },
       { s: r1, t: () => { const w = pick(); return { text: `那我要${w.char}。`, en: `Then I'd like ${w.en}.` }; } },
       { s: r2, t: () => { const w = pick(); return { text: `好的，需要${w.char}嗎？`, en: `Ok, do you need ${w.en}?` }; } },
-      { s: r1, t: () => { const w = pick(); return { text: `不用，謝謝。`, en: `No need, thank you.` }; } },
+      { s: r1, t: () => { return { text: `不用，謝謝。`, en: `No need, thank you.` }; } },
       { s: r2, t: () => { return { text: `好，馬上來。`, en: `OK, coming right up.` }; } },
     ];
     
     for (let t = 1; t <= 6; t++) {
       const { s: speaker, t: gen } = lines[t - 1];
       const { text, en } = gen();
-      const py = text.split("").filter(han).map((c) => {
-        const found = voc.find((v) => v.char === c);
-        return found ? found.pinyin : c;
-      }).join(" ");
-      const nm = text.split("").filter(han).map((c) => {
-        const found = voc.find((v) => v.char === c);
-        return found ? found.num : c;
-      }).join(" ");
-      const toks = text.split("").filter(han).map((c) => voc.find((v) => v.char === c)?.id || "").filter(Boolean);
+      const lp = lookupText(text);
       
       turns.push({
         id: `DLG_D${day}_${pad(dn, 2)}_T${t}`,
         speaker,
         text,
-        pinyin: py,
-        pinyin_numeric: nm,
+        pinyin: lp.py,
+        pinyin_numeric: lp.nu,
         translation_en: en,
         translation_ko: "대화 상황에 맞게 응답하세요.",
-        token_ids: toks,
+        token_ids: lp.ids,
         audio_id: adlg(day, dn, t),
       });
     }
