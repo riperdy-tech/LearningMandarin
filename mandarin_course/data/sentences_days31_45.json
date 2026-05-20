@@ -1,2255 +1,5 @@
 [
   {
-    "id": "SEN_D31_001",
-    "text": "我想要想要。",
-    "pinyin": "wǒ xiǎng yào xiǎng yào.",
-    "pinyin_numeric": "wo3 xiang3 yao4 xiang3 yao4",
-    "translation_en": "I / me would like would like / want.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "我",
-      "想要",
-      "想要"
-    ],
-    "token_ids": [
-      "VOC_M1_002",
-      "VOC_D31_001",
-      "VOC_D31_001"
-    ],
-    "grammar_ids": [
-      "GR_D31_CAN_REQUEST"
-    ],
-    "audio_id": "AUD_SEN_D31_001",
-    "difficulty": 2,
-    "production_type": "substitution"
-  },
-  {
-    "id": "SEN_D31_002",
-    "text": "請給我不用。",
-    "pinyin": "qǐng gěi wǒ búyòng.",
-    "pinyin_numeric": "qing3 gei3 wo3 bu2 yong4",
-    "translation_en": "Please bring/give no need.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "請",
-      "給我",
-      "不用"
-    ],
-    "token_ids": [
-      "VOC_M1_179",
-      "VOC_D31_005",
-      "VOC_D31_002"
-    ],
-    "grammar_ids": [
-      "GR_D31_WANT_OBJECT"
-    ],
-    "audio_id": "AUD_SEN_D31_002",
-    "difficulty": 2,
-    "production_type": "listening"
-  },
-  {
-    "id": "SEN_D31_003",
-    "text": "可以給我謝謝嗎？",
-    "pinyin": "kěyǐ gěi wǒ xièxie ma?",
-    "pinyin_numeric": "keyi3 gei3 wo3 xie4 xie0 ma0",
-    "translation_en": "Can I/you have thank you?",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "可以",
-      "給我",
-      "謝謝",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_M1_118",
-      "VOC_D31_005",
-      "VOC_D31_003",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D31_POLITE_SOFTENER"
-    ],
-    "audio_id": "AUD_SEN_D31_003",
-    "difficulty": 2,
-    "production_type": "memory"
-  },
-  {
-    "id": "SEN_D31_004",
-    "text": "她需要幫我。",
-    "pinyin": "tā xūyào bāng wǒ.",
-    "pinyin_numeric": "ta1 xuyao4 bang1 wo3",
-    "translation_en": "she / her needs help me.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "她",
-      "需要",
-      "幫我"
-    ],
-    "token_ids": [
-      "VOC_M1_005",
-      "VOC_M1_171",
-      "VOC_D31_004"
-    ],
-    "grammar_ids": [
-      "GR_D31_CAN_REQUEST"
-    ],
-    "audio_id": "AUD_SEN_D31_004",
-    "difficulty": 2,
-    "production_type": "substitution"
-  },
-  {
-    "id": "SEN_D31_005",
-    "text": "不好意思我們想要給我。",
-    "pinyin": "bùhǎoyìsi wǒmen xiǎng yào gěi wǒ.",
-    "pinyin_numeric": "bu4 hao3 yi4 si0 women3 xiang3 yao4 gei3 wo3",
-    "translation_en": "Excuse me, we / us would like give me.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "不好意思",
-      "我們",
-      "想要",
-      "給我"
-    ],
-    "token_ids": [
-      "VOC_D31_020",
-      "VOC_M1_006",
-      "VOC_D31_001",
-      "VOC_D31_005"
-    ],
-    "grammar_ids": [
-      "GR_D31_WANT_OBJECT"
-    ],
-    "audio_id": "AUD_SEN_D31_005",
-    "difficulty": 2,
-    "production_type": "listening"
-  },
-  {
-    "id": "SEN_D31_006",
-    "text": "你想要小杯嗎？",
-    "pinyin": "nǐ xiǎng yào xiǎo bēi ma?",
-    "pinyin_numeric": "ni3 xiang3 yao4 xiao3 bei1 ma0",
-    "translation_en": "Do you want small cup?",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "你",
-      "想要",
-      "小杯",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_D31_001",
-      "VOC_D31_006",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D31_POLITE_SOFTENER"
-    ],
-    "audio_id": "AUD_SEN_D31_006",
-    "difficulty": 2,
-    "production_type": "memory"
-  },
-  {
-    "id": "SEN_D31_007",
-    "text": "你想要中杯。",
-    "pinyin": "nǐ xiǎng yào zhōng bēi.",
-    "pinyin_numeric": "ni3 xiang3 yao4 zhong1 bei1",
-    "translation_en": "you would like medium cup.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "你",
-      "想要",
-      "中杯"
-    ],
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_D31_001",
-      "VOC_D31_007"
-    ],
-    "grammar_ids": [
-      "GR_D31_CAN_REQUEST"
-    ],
-    "audio_id": "AUD_SEN_D31_007",
-    "difficulty": 2,
-    "production_type": "substitution"
-  },
-  {
-    "id": "SEN_D31_008",
-    "text": "請給我大杯。",
-    "pinyin": "qǐng gěi wǒ dà bēi.",
-    "pinyin_numeric": "qing3 gei3 wo3 da4 bei1",
-    "translation_en": "Please bring/give large cup.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "請",
-      "給我",
-      "大杯"
-    ],
-    "token_ids": [
-      "VOC_M1_179",
-      "VOC_D31_005",
-      "VOC_D31_008"
-    ],
-    "grammar_ids": [
-      "GR_D31_WANT_OBJECT"
-    ],
-    "audio_id": "AUD_SEN_D31_008",
-    "difficulty": 2,
-    "production_type": "listening"
-  },
-  {
-    "id": "SEN_D31_009",
-    "text": "可以給我拿鐵嗎？",
-    "pinyin": "kěyǐ gěi wǒ nátiě ma?",
-    "pinyin_numeric": "keyi3 gei3 wo3 na2 tie3 ma0",
-    "translation_en": "Can I/you have latte?",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "可以",
-      "給我",
-      "拿鐵",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_M1_118",
-      "VOC_D31_005",
-      "VOC_D31_009",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D31_POLITE_SOFTENER"
-    ],
-    "audio_id": "AUD_SEN_D31_009",
-    "difficulty": 2,
-    "production_type": "memory"
-  },
-  {
-    "id": "SEN_D31_010",
-    "text": "我們需要豆漿。",
-    "pinyin": "wǒmen xūyào dòujiāng.",
-    "pinyin_numeric": "women3 xuyao4 dou4 jiang1",
-    "translation_en": "we / us needs soy milk.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "我們",
-      "需要",
-      "豆漿"
-    ],
-    "token_ids": [
-      "VOC_M1_006",
-      "VOC_M1_171",
-      "VOC_D31_010"
-    ],
-    "grammar_ids": [
-      "GR_D31_CAN_REQUEST"
-    ],
-    "audio_id": "AUD_SEN_D31_010",
-    "difficulty": 2,
-    "production_type": "substitution"
-  },
-  {
-    "id": "SEN_D31_011",
-    "text": "不好意思我想要紅茶。",
-    "pinyin": "bùhǎoyìsi wǒ xiǎng yào hóngchá.",
-    "pinyin_numeric": "bu4 hao3 yi4 si0 wo3 xiang3 yao4 hong2 cha2",
-    "translation_en": "Excuse me, I / me would like black tea.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "不好意思",
-      "我",
-      "想要",
-      "紅茶"
-    ],
-    "token_ids": [
-      "VOC_D31_020",
-      "VOC_M1_002",
-      "VOC_D31_001",
-      "VOC_D31_011"
-    ],
-    "grammar_ids": [
-      "GR_D31_WANT_OBJECT"
-    ],
-    "audio_id": "AUD_SEN_D31_011",
-    "difficulty": 2,
-    "production_type": "listening"
-  },
-  {
-    "id": "SEN_D31_012",
-    "text": "你想要綠茶嗎？",
-    "pinyin": "nǐ xiǎng yào lǜchá ma?",
-    "pinyin_numeric": "ni3 xiang3 yao4 lü4 cha2 ma0",
-    "translation_en": "Do you want green tea?",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "你",
-      "想要",
-      "綠茶",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_D31_001",
-      "VOC_D31_012",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D31_POLITE_SOFTENER"
-    ],
-    "audio_id": "AUD_SEN_D31_012",
-    "difficulty": 2,
-    "production_type": "memory"
-  },
-  {
-    "id": "SEN_D31_013",
-    "text": "他想要少冰。",
-    "pinyin": "tā xiǎng yào shǎo bīng.",
-    "pinyin_numeric": "ta1 xiang3 yao4 shao3 bing1",
-    "translation_en": "he / him would like less ice.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "他",
-      "想要",
-      "少冰"
-    ],
-    "token_ids": [
-      "VOC_M1_004",
-      "VOC_D31_001",
-      "VOC_D31_014"
-    ],
-    "grammar_ids": [
-      "GR_D31_CAN_REQUEST"
-    ],
-    "audio_id": "AUD_SEN_D31_013",
-    "difficulty": 2,
-    "production_type": "substitution"
-  },
-  {
-    "id": "SEN_D31_014",
-    "text": "請給我去冰。",
-    "pinyin": "qǐng gěi wǒ qù bīng.",
-    "pinyin_numeric": "qing3 gei3 wo3 qu4 bing1",
-    "translation_en": "Please bring/give no ice.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "請",
-      "給我",
-      "去冰"
-    ],
-    "token_ids": [
-      "VOC_M1_179",
-      "VOC_D31_005",
-      "VOC_D31_015"
-    ],
-    "grammar_ids": [
-      "GR_D31_WANT_OBJECT"
-    ],
-    "audio_id": "AUD_SEN_D31_014",
-    "difficulty": 2,
-    "production_type": "listening"
-  },
-  {
-    "id": "SEN_D31_015",
-    "text": "可以給我價錢嗎？",
-    "pinyin": "kěyǐ gěi wǒ jiàqián ma?",
-    "pinyin_numeric": "keyi3 gei3 wo3 jia4 qian2 ma0",
-    "translation_en": "Can I/you have price?",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "可以",
-      "給我",
-      "價錢",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_M1_118",
-      "VOC_D31_005",
-      "VOC_D31_018",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D31_POLITE_SOFTENER"
-    ],
-    "audio_id": "AUD_SEN_D31_015",
-    "difficulty": 2,
-    "production_type": "memory"
-  },
-  {
-    "id": "SEN_D31_016",
-    "text": "我需要不好意思。",
-    "pinyin": "wǒ xūyào bùhǎoyìsi.",
-    "pinyin_numeric": "wo3 xuyao4 bu4 hao3 yi4 si0",
-    "translation_en": "I / me needs excuse me / sorry.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "我",
-      "需要",
-      "不好意思"
-    ],
-    "token_ids": [
-      "VOC_M1_002",
-      "VOC_M1_171",
-      "VOC_D31_020"
-    ],
-    "grammar_ids": [
-      "GR_D31_CAN_REQUEST"
-    ],
-    "audio_id": "AUD_SEN_D31_016",
-    "difficulty": 2,
-    "production_type": "substitution"
-  },
-  {
-    "id": "SEN_D31_017",
-    "text": "不好意思你想要店員。",
-    "pinyin": "bùhǎoyìsi nǐ xiǎng yào diànyuán.",
-    "pinyin_numeric": "bu4 hao3 yi4 si0 ni3 xiang3 yao4 dian4 yuan2",
-    "translation_en": "Excuse me, you would like shop clerk.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "不好意思",
-      "你",
-      "想要",
-      "店員"
-    ],
-    "token_ids": [
-      "VOC_D31_020",
-      "VOC_M1_003",
-      "VOC_D31_001",
-      "VOC_D31_021"
-    ],
-    "grammar_ids": [
-      "GR_D31_WANT_OBJECT"
-    ],
-    "audio_id": "AUD_SEN_D31_017",
-    "difficulty": 2,
-    "production_type": "listening"
-  },
-  {
-    "id": "SEN_D31_018",
-    "text": "你想要客人嗎？",
-    "pinyin": "nǐ xiǎng yào kèrén ma?",
-    "pinyin_numeric": "ni3 xiang3 yao4 ke4 ren2 ma0",
-    "translation_en": "Do you want customer?",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "你",
-      "想要",
-      "客人",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_D31_001",
-      "VOC_D31_022",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D31_POLITE_SOFTENER"
-    ],
-    "audio_id": "AUD_SEN_D31_018",
-    "difficulty": 2,
-    "production_type": "memory"
-  },
-  {
-    "id": "SEN_D31_019",
-    "text": "她想要吸管。",
-    "pinyin": "tā xiǎng yào xīguǎn.",
-    "pinyin_numeric": "ta1 xiang3 yao4 xi1 guan3",
-    "translation_en": "she / her would like straw.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "她",
-      "想要",
-      "吸管"
-    ],
-    "token_ids": [
-      "VOC_M1_005",
-      "VOC_D31_001",
-      "VOC_D31_023"
-    ],
-    "grammar_ids": [
-      "GR_D31_CAN_REQUEST"
-    ],
-    "audio_id": "AUD_SEN_D31_019",
-    "difficulty": 2,
-    "production_type": "substitution"
-  },
-  {
-    "id": "SEN_D31_020",
-    "text": "請給我湯匙。",
-    "pinyin": "qǐng gěi wǒ tāngchí.",
-    "pinyin_numeric": "qing3 gei3 wo3 tang1 chi2",
-    "translation_en": "Please bring/give spoon.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "請",
-      "給我",
-      "湯匙"
-    ],
-    "token_ids": [
-      "VOC_M1_179",
-      "VOC_D31_005",
-      "VOC_D31_024"
-    ],
-    "grammar_ids": [
-      "GR_D31_WANT_OBJECT"
-    ],
-    "audio_id": "AUD_SEN_D31_020",
-    "difficulty": 2,
-    "production_type": "listening"
-  },
-  {
-    "id": "SEN_D31_021",
-    "text": "可以給我叉子嗎？",
-    "pinyin": "kěyǐ gěi wǒ chāzi ma?",
-    "pinyin_numeric": "keyi3 gei3 wo3 cha1 zi0 ma0",
-    "translation_en": "Can I/you have fork?",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "可以",
-      "給我",
-      "叉子",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_M1_118",
-      "VOC_D31_005",
-      "VOC_D31_025",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D31_POLITE_SOFTENER"
-    ],
-    "audio_id": "AUD_SEN_D31_021",
-    "difficulty": 2,
-    "production_type": "memory"
-  },
-  {
-    "id": "SEN_D31_022",
-    "text": "你需要衛生紙。",
-    "pinyin": "nǐ xūyào wèishēngzhǐ.",
-    "pinyin_numeric": "ni3 xuyao4 wei4 sheng1 zhi3",
-    "translation_en": "you needs tissue.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "你",
-      "需要",
-      "衛生紙"
-    ],
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_M1_171",
-      "VOC_D31_026"
-    ],
-    "grammar_ids": [
-      "GR_D31_CAN_REQUEST"
-    ],
-    "audio_id": "AUD_SEN_D31_022",
-    "difficulty": 2,
-    "production_type": "substitution"
-  },
-  {
-    "id": "SEN_D31_023",
-    "text": "不好意思他想要半糖。",
-    "pinyin": "bùhǎoyìsi tā xiǎng yào bàn táng.",
-    "pinyin_numeric": "bu4 hao3 yi4 si0 ta1 xiang3 yao4 ban4 tang2",
-    "translation_en": "Excuse me, he / him would like half sugar.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "不好意思",
-      "他",
-      "想要",
-      "半糖"
-    ],
-    "token_ids": [
-      "VOC_D31_020",
-      "VOC_M1_004",
-      "VOC_D31_001",
-      "VOC_D31_027"
-    ],
-    "grammar_ids": [
-      "GR_D31_WANT_OBJECT"
-    ],
-    "audio_id": "AUD_SEN_D31_023",
-    "difficulty": 2,
-    "production_type": "listening"
-  },
-  {
-    "id": "SEN_D31_024",
-    "text": "你想要微糖嗎？",
-    "pinyin": "nǐ xiǎng yào wēi táng ma?",
-    "pinyin_numeric": "ni3 xiang3 yao4 wei1 tang2 ma0",
-    "translation_en": "Do you want light sugar?",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "你",
-      "想要",
-      "微糖",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_D31_001",
-      "VOC_D31_028",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D31_POLITE_SOFTENER"
-    ],
-    "audio_id": "AUD_SEN_D31_024",
-    "difficulty": 2,
-    "production_type": "memory"
-  },
-  {
-    "id": "SEN_D31_025",
-    "text": "我們想要正常甜。",
-    "pinyin": "wǒmen xiǎng yào zhèngcháng tián.",
-    "pinyin_numeric": "women3 xiang3 yao4 zheng4 chang2 tian2",
-    "translation_en": "we / us would like regular sweetness.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "我們",
-      "想要",
-      "正常甜"
-    ],
-    "token_ids": [
-      "VOC_M1_006",
-      "VOC_D31_001",
-      "VOC_D31_029"
-    ],
-    "grammar_ids": [
-      "GR_D31_CAN_REQUEST"
-    ],
-    "audio_id": "AUD_SEN_D31_025",
-    "difficulty": 2,
-    "production_type": "substitution"
-  },
-  {
-    "id": "SEN_D31_026",
-    "text": "請給我加珍珠。",
-    "pinyin": "qǐng gěi wǒ jiā zhēnzhū.",
-    "pinyin_numeric": "qing3 gei3 wo3 jia1 zhen1 zhu1",
-    "translation_en": "Please bring/give add tapioca pearls.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "請",
-      "給我",
-      "加珍珠"
-    ],
-    "token_ids": [
-      "VOC_M1_179",
-      "VOC_D31_005",
-      "VOC_D31_030"
-    ],
-    "grammar_ids": [
-      "GR_D31_WANT_OBJECT"
-    ],
-    "audio_id": "AUD_SEN_D31_026",
-    "difficulty": 2,
-    "production_type": "listening"
-  },
-  {
-    "id": "SEN_D31_027",
-    "text": "可以給我等一下嗎？",
-    "pinyin": "kěyǐ gěi wǒ děng yíxià ma?",
-    "pinyin_numeric": "keyi3 gei3 wo3 deng3 yi2 xia4 ma0",
-    "translation_en": "Can I/you have wait a moment?",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "可以",
-      "給我",
-      "等一下",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_M1_118",
-      "VOC_D31_005",
-      "VOC_D31_032",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D31_POLITE_SOFTENER"
-    ],
-    "audio_id": "AUD_SEN_D31_027",
-    "difficulty": 2,
-    "production_type": "memory"
-  },
-  {
-    "id": "SEN_D31_028",
-    "text": "他需要再說一次。",
-    "pinyin": "tā xūyào zài shuō yí cì.",
-    "pinyin_numeric": "ta1 xuyao4 zai4 shuo1 yi2 ci4",
-    "translation_en": "he / him needs say it again.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "他",
-      "需要",
-      "再說一次"
-    ],
-    "token_ids": [
-      "VOC_M1_004",
-      "VOC_M1_171",
-      "VOC_D31_033"
-    ],
-    "grammar_ids": [
-      "GR_D31_CAN_REQUEST"
-    ],
-    "audio_id": "AUD_SEN_D31_028",
-    "difficulty": 2,
-    "production_type": "substitution"
-  },
-  {
-    "id": "SEN_D31_029",
-    "text": "不好意思她想要慢一點。",
-    "pinyin": "bùhǎoyìsi tā xiǎng yào màn yìdiǎn.",
-    "pinyin_numeric": "bu4 hao3 yi4 si0 ta1 xiang3 yao4 man4 yi4 dian3",
-    "translation_en": "Excuse me, she / her would like a little slower.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "不好意思",
-      "她",
-      "想要",
-      "慢一點"
-    ],
-    "token_ids": [
-      "VOC_D31_020",
-      "VOC_M1_005",
-      "VOC_D31_001",
-      "VOC_D31_034"
-    ],
-    "grammar_ids": [
-      "GR_D31_WANT_OBJECT"
-    ],
-    "audio_id": "AUD_SEN_D31_029",
-    "difficulty": 2,
-    "production_type": "listening"
-  },
-  {
-    "id": "SEN_D31_030",
-    "text": "你想要沒問題嗎？",
-    "pinyin": "nǐ xiǎng yào méi wèntí ma?",
-    "pinyin_numeric": "ni3 xiang3 yao4 mei2 wen4 ti2 ma0",
-    "translation_en": "Do you want no problem?",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "你",
-      "想要",
-      "沒問題",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_D31_001",
-      "VOC_D31_035",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D31_POLITE_SOFTENER"
-    ],
-    "audio_id": "AUD_SEN_D31_030",
-    "difficulty": 2,
-    "production_type": "memory"
-  },
-  {
-    "id": "SEN_D31_031",
-    "text": "我想要咖啡。",
-    "pinyin": "wǒ xiǎng yào kāfēi.",
-    "pinyin_numeric": "wo3 xiang3 yao4 kafei1",
-    "translation_en": "I / me would like coffee.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "我",
-      "想要",
-      "咖啡"
-    ],
-    "token_ids": [
-      "VOC_M1_002",
-      "VOC_D31_001",
-      "VOC_M1_047"
-    ],
-    "grammar_ids": [
-      "GR_D31_CAN_REQUEST"
-    ],
-    "audio_id": "AUD_SEN_D31_031",
-    "difficulty": 2,
-    "production_type": "substitution"
-  },
-  {
-    "id": "SEN_D31_032",
-    "text": "請給我紅茶。",
-    "pinyin": "qǐng gěi wǒ hóngchá.",
-    "pinyin_numeric": "qing3 gei3 wo3 hong2 cha2",
-    "translation_en": "Please bring/give black tea.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "請",
-      "給我",
-      "紅茶"
-    ],
-    "token_ids": [
-      "VOC_M1_179",
-      "VOC_D31_005",
-      "VOC_D31_011"
-    ],
-    "grammar_ids": [
-      "GR_D31_WANT_OBJECT"
-    ],
-    "audio_id": "AUD_SEN_D31_032",
-    "difficulty": 2,
-    "production_type": "listening"
-  },
-  {
-    "id": "SEN_D31_033",
-    "text": "可以給我捷運嗎？",
-    "pinyin": "kěyǐ gěi wǒ jiéyùn ma?",
-    "pinyin_numeric": "keyi3 gei3 wo3 jieyun4 ma0",
-    "translation_en": "Can I/you have MRT / metro?",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "可以",
-      "給我",
-      "捷運",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_M1_118",
-      "VOC_D31_005",
-      "VOC_M1_154",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D31_POLITE_SOFTENER"
-    ],
-    "audio_id": "AUD_SEN_D31_033",
-    "difficulty": 2,
-    "production_type": "memory"
-  },
-  {
-    "id": "SEN_D31_034",
-    "text": "她需要今天。",
-    "pinyin": "tā xūyào jīntiān.",
-    "pinyin_numeric": "ta1 xuyao4 jintian1",
-    "translation_en": "she / her needs today.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "她",
-      "需要",
-      "今天"
-    ],
-    "token_ids": [
-      "VOC_M1_005",
-      "VOC_M1_171",
-      "VOC_M1_032"
-    ],
-    "grammar_ids": [
-      "GR_D31_CAN_REQUEST"
-    ],
-    "audio_id": "AUD_SEN_D31_034",
-    "difficulty": 2,
-    "production_type": "substitution"
-  },
-  {
-    "id": "SEN_D31_035",
-    "text": "不好意思我們想要明天。",
-    "pinyin": "bùhǎoyìsi wǒmen xiǎng yào míngtiān.",
-    "pinyin_numeric": "bu4 hao3 yi4 si0 women3 xiang3 yao4 mingtian1",
-    "translation_en": "Excuse me, we / us would like tomorrow.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "不好意思",
-      "我們",
-      "想要",
-      "明天"
-    ],
-    "token_ids": [
-      "VOC_D31_020",
-      "VOC_M1_006",
-      "VOC_D31_001",
-      "VOC_M1_033"
-    ],
-    "grammar_ids": [
-      "GR_D31_WANT_OBJECT"
-    ],
-    "audio_id": "AUD_SEN_D31_035",
-    "difficulty": 2,
-    "production_type": "listening"
-  },
-  {
-    "id": "SEN_D31_036",
-    "text": "你想要想要嗎？",
-    "pinyin": "nǐ xiǎng yào xiǎng yào ma?",
-    "pinyin_numeric": "ni3 xiang3 yao4 xiang3 yao4 ma0",
-    "translation_en": "Do you want would like / want?",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "你",
-      "想要",
-      "想要",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_D31_001",
-      "VOC_D31_001",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D31_POLITE_SOFTENER"
-    ],
-    "audio_id": "AUD_SEN_D31_036",
-    "difficulty": 2,
-    "production_type": "memory"
-  },
-  {
-    "id": "SEN_D31_037",
-    "text": "你想要不用。",
-    "pinyin": "nǐ xiǎng yào búyòng.",
-    "pinyin_numeric": "ni3 xiang3 yao4 bu2 yong4",
-    "translation_en": "you would like no need.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "你",
-      "想要",
-      "不用"
-    ],
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_D31_001",
-      "VOC_D31_002"
-    ],
-    "grammar_ids": [
-      "GR_D31_CAN_REQUEST"
-    ],
-    "audio_id": "AUD_SEN_D31_037",
-    "difficulty": 2,
-    "production_type": "substitution"
-  },
-  {
-    "id": "SEN_D31_038",
-    "text": "請給我謝謝。",
-    "pinyin": "qǐng gěi wǒ xièxie.",
-    "pinyin_numeric": "qing3 gei3 wo3 xie4 xie0",
-    "translation_en": "Please bring/give thank you.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "請",
-      "給我",
-      "謝謝"
-    ],
-    "token_ids": [
-      "VOC_M1_179",
-      "VOC_D31_005",
-      "VOC_D31_003"
-    ],
-    "grammar_ids": [
-      "GR_D31_WANT_OBJECT"
-    ],
-    "audio_id": "AUD_SEN_D31_038",
-    "difficulty": 2,
-    "production_type": "listening"
-  },
-  {
-    "id": "SEN_D31_039",
-    "text": "可以給我幫我嗎？",
-    "pinyin": "kěyǐ gěi wǒ bāng wǒ ma?",
-    "pinyin_numeric": "keyi3 gei3 wo3 bang1 wo3 ma0",
-    "translation_en": "Can I/you have help me?",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "可以",
-      "給我",
-      "幫我",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_M1_118",
-      "VOC_D31_005",
-      "VOC_D31_004",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D31_POLITE_SOFTENER"
-    ],
-    "audio_id": "AUD_SEN_D31_039",
-    "difficulty": 2,
-    "production_type": "memory"
-  },
-  {
-    "id": "SEN_D31_040",
-    "text": "我們需要給我。",
-    "pinyin": "wǒmen xūyào gěi wǒ.",
-    "pinyin_numeric": "women3 xuyao4 gei3 wo3",
-    "translation_en": "we / us needs give me.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "我們",
-      "需要",
-      "給我"
-    ],
-    "token_ids": [
-      "VOC_M1_006",
-      "VOC_M1_171",
-      "VOC_D31_005"
-    ],
-    "grammar_ids": [
-      "GR_D31_CAN_REQUEST"
-    ],
-    "audio_id": "AUD_SEN_D31_040",
-    "difficulty": 2,
-    "production_type": "substitution"
-  },
-  {
-    "id": "SEN_D31_041",
-    "text": "不好意思我想要小杯。",
-    "pinyin": "bùhǎoyìsi wǒ xiǎng yào xiǎo bēi.",
-    "pinyin_numeric": "bu4 hao3 yi4 si0 wo3 xiang3 yao4 xiao3 bei1",
-    "translation_en": "Excuse me, I / me would like small cup.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "不好意思",
-      "我",
-      "想要",
-      "小杯"
-    ],
-    "token_ids": [
-      "VOC_D31_020",
-      "VOC_M1_002",
-      "VOC_D31_001",
-      "VOC_D31_006"
-    ],
-    "grammar_ids": [
-      "GR_D31_WANT_OBJECT"
-    ],
-    "audio_id": "AUD_SEN_D31_041",
-    "difficulty": 2,
-    "production_type": "listening"
-  },
-  {
-    "id": "SEN_D31_042",
-    "text": "你想要中杯嗎？",
-    "pinyin": "nǐ xiǎng yào zhōng bēi ma?",
-    "pinyin_numeric": "ni3 xiang3 yao4 zhong1 bei1 ma0",
-    "translation_en": "Do you want medium cup?",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "你",
-      "想要",
-      "中杯",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_D31_001",
-      "VOC_D31_007",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D31_POLITE_SOFTENER"
-    ],
-    "audio_id": "AUD_SEN_D31_042",
-    "difficulty": 2,
-    "production_type": "memory"
-  },
-  {
-    "id": "SEN_D31_043",
-    "text": "他想要大杯。",
-    "pinyin": "tā xiǎng yào dà bēi.",
-    "pinyin_numeric": "ta1 xiang3 yao4 da4 bei1",
-    "translation_en": "he / him would like large cup.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "他",
-      "想要",
-      "大杯"
-    ],
-    "token_ids": [
-      "VOC_M1_004",
-      "VOC_D31_001",
-      "VOC_D31_008"
-    ],
-    "grammar_ids": [
-      "GR_D31_CAN_REQUEST"
-    ],
-    "audio_id": "AUD_SEN_D31_043",
-    "difficulty": 2,
-    "production_type": "substitution"
-  },
-  {
-    "id": "SEN_D31_044",
-    "text": "請給我拿鐵。",
-    "pinyin": "qǐng gěi wǒ nátiě.",
-    "pinyin_numeric": "qing3 gei3 wo3 na2 tie3",
-    "translation_en": "Please bring/give latte.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "請",
-      "給我",
-      "拿鐵"
-    ],
-    "token_ids": [
-      "VOC_M1_179",
-      "VOC_D31_005",
-      "VOC_D31_009"
-    ],
-    "grammar_ids": [
-      "GR_D31_WANT_OBJECT"
-    ],
-    "audio_id": "AUD_SEN_D31_044",
-    "difficulty": 2,
-    "production_type": "listening"
-  },
-  {
-    "id": "SEN_D31_045",
-    "text": "可以給我豆漿嗎？",
-    "pinyin": "kěyǐ gěi wǒ dòujiāng ma?",
-    "pinyin_numeric": "keyi3 gei3 wo3 dou4 jiang1 ma0",
-    "translation_en": "Can I/you have soy milk?",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "可以",
-      "給我",
-      "豆漿",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_M1_118",
-      "VOC_D31_005",
-      "VOC_D31_010",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D31_POLITE_SOFTENER"
-    ],
-    "audio_id": "AUD_SEN_D31_045",
-    "difficulty": 2,
-    "production_type": "memory"
-  },
-  {
-    "id": "SEN_D31_046",
-    "text": "我需要紅茶。",
-    "pinyin": "wǒ xūyào hóngchá.",
-    "pinyin_numeric": "wo3 xuyao4 hong2 cha2",
-    "translation_en": "I / me needs black tea.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "我",
-      "需要",
-      "紅茶"
-    ],
-    "token_ids": [
-      "VOC_M1_002",
-      "VOC_M1_171",
-      "VOC_D31_011"
-    ],
-    "grammar_ids": [
-      "GR_D31_CAN_REQUEST"
-    ],
-    "audio_id": "AUD_SEN_D31_046",
-    "difficulty": 2,
-    "production_type": "substitution"
-  },
-  {
-    "id": "SEN_D31_047",
-    "text": "不好意思你想要綠茶。",
-    "pinyin": "bùhǎoyìsi nǐ xiǎng yào lǜchá.",
-    "pinyin_numeric": "bu4 hao3 yi4 si0 ni3 xiang3 yao4 lü4 cha2",
-    "translation_en": "Excuse me, you would like green tea.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "不好意思",
-      "你",
-      "想要",
-      "綠茶"
-    ],
-    "token_ids": [
-      "VOC_D31_020",
-      "VOC_M1_003",
-      "VOC_D31_001",
-      "VOC_D31_012"
-    ],
-    "grammar_ids": [
-      "GR_D31_WANT_OBJECT"
-    ],
-    "audio_id": "AUD_SEN_D31_047",
-    "difficulty": 2,
-    "production_type": "listening"
-  },
-  {
-    "id": "SEN_D31_048",
-    "text": "你想要少冰嗎？",
-    "pinyin": "nǐ xiǎng yào shǎo bīng ma?",
-    "pinyin_numeric": "ni3 xiang3 yao4 shao3 bing1 ma0",
-    "translation_en": "Do you want less ice?",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "你",
-      "想要",
-      "少冰",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_D31_001",
-      "VOC_D31_014",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D31_POLITE_SOFTENER"
-    ],
-    "audio_id": "AUD_SEN_D31_048",
-    "difficulty": 2,
-    "production_type": "memory"
-  },
-  {
-    "id": "SEN_D31_049",
-    "text": "她想要去冰。",
-    "pinyin": "tā xiǎng yào qù bīng.",
-    "pinyin_numeric": "ta1 xiang3 yao4 qu4 bing1",
-    "translation_en": "she / her would like no ice.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "她",
-      "想要",
-      "去冰"
-    ],
-    "token_ids": [
-      "VOC_M1_005",
-      "VOC_D31_001",
-      "VOC_D31_015"
-    ],
-    "grammar_ids": [
-      "GR_D31_CAN_REQUEST"
-    ],
-    "audio_id": "AUD_SEN_D31_049",
-    "difficulty": 2,
-    "production_type": "substitution"
-  },
-  {
-    "id": "SEN_D31_050",
-    "text": "請給我價錢。",
-    "pinyin": "qǐng gěi wǒ jiàqián.",
-    "pinyin_numeric": "qing3 gei3 wo3 jia4 qian2",
-    "translation_en": "Please bring/give price.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "請",
-      "給我",
-      "價錢"
-    ],
-    "token_ids": [
-      "VOC_M1_179",
-      "VOC_D31_005",
-      "VOC_D31_018"
-    ],
-    "grammar_ids": [
-      "GR_D31_WANT_OBJECT"
-    ],
-    "audio_id": "AUD_SEN_D31_050",
-    "difficulty": 2,
-    "production_type": "listening"
-  },
-  {
-    "id": "SEN_D31_051",
-    "text": "可以給我不好意思嗎？",
-    "pinyin": "kěyǐ gěi wǒ bùhǎoyìsi ma?",
-    "pinyin_numeric": "keyi3 gei3 wo3 bu4 hao3 yi4 si0 ma0",
-    "translation_en": "Can I/you have excuse me / sorry?",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "可以",
-      "給我",
-      "不好意思",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_M1_118",
-      "VOC_D31_005",
-      "VOC_D31_020",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D31_POLITE_SOFTENER"
-    ],
-    "audio_id": "AUD_SEN_D31_051",
-    "difficulty": 2,
-    "production_type": "memory"
-  },
-  {
-    "id": "SEN_D31_052",
-    "text": "你需要店員。",
-    "pinyin": "nǐ xūyào diànyuán.",
-    "pinyin_numeric": "ni3 xuyao4 dian4 yuan2",
-    "translation_en": "you needs shop clerk.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "你",
-      "需要",
-      "店員"
-    ],
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_M1_171",
-      "VOC_D31_021"
-    ],
-    "grammar_ids": [
-      "GR_D31_CAN_REQUEST"
-    ],
-    "audio_id": "AUD_SEN_D31_052",
-    "difficulty": 2,
-    "production_type": "substitution"
-  },
-  {
-    "id": "SEN_D31_053",
-    "text": "不好意思他想要客人。",
-    "pinyin": "bùhǎoyìsi tā xiǎng yào kèrén.",
-    "pinyin_numeric": "bu4 hao3 yi4 si0 ta1 xiang3 yao4 ke4 ren2",
-    "translation_en": "Excuse me, he / him would like customer.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "不好意思",
-      "他",
-      "想要",
-      "客人"
-    ],
-    "token_ids": [
-      "VOC_D31_020",
-      "VOC_M1_004",
-      "VOC_D31_001",
-      "VOC_D31_022"
-    ],
-    "grammar_ids": [
-      "GR_D31_WANT_OBJECT"
-    ],
-    "audio_id": "AUD_SEN_D31_053",
-    "difficulty": 2,
-    "production_type": "listening"
-  },
-  {
-    "id": "SEN_D31_054",
-    "text": "你想要吸管嗎？",
-    "pinyin": "nǐ xiǎng yào xīguǎn ma?",
-    "pinyin_numeric": "ni3 xiang3 yao4 xi1 guan3 ma0",
-    "translation_en": "Do you want straw?",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "你",
-      "想要",
-      "吸管",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_D31_001",
-      "VOC_D31_023",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D31_POLITE_SOFTENER"
-    ],
-    "audio_id": "AUD_SEN_D31_054",
-    "difficulty": 2,
-    "production_type": "memory"
-  },
-  {
-    "id": "SEN_D31_055",
-    "text": "我們想要湯匙。",
-    "pinyin": "wǒmen xiǎng yào tāngchí.",
-    "pinyin_numeric": "women3 xiang3 yao4 tang1 chi2",
-    "translation_en": "we / us would like spoon.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "我們",
-      "想要",
-      "湯匙"
-    ],
-    "token_ids": [
-      "VOC_M1_006",
-      "VOC_D31_001",
-      "VOC_D31_024"
-    ],
-    "grammar_ids": [
-      "GR_D31_CAN_REQUEST"
-    ],
-    "audio_id": "AUD_SEN_D31_055",
-    "difficulty": 2,
-    "production_type": "substitution"
-  },
-  {
-    "id": "SEN_D31_056",
-    "text": "請給我叉子。",
-    "pinyin": "qǐng gěi wǒ chāzi.",
-    "pinyin_numeric": "qing3 gei3 wo3 cha1 zi0",
-    "translation_en": "Please bring/give fork.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "請",
-      "給我",
-      "叉子"
-    ],
-    "token_ids": [
-      "VOC_M1_179",
-      "VOC_D31_005",
-      "VOC_D31_025"
-    ],
-    "grammar_ids": [
-      "GR_D31_WANT_OBJECT"
-    ],
-    "audio_id": "AUD_SEN_D31_056",
-    "difficulty": 2,
-    "production_type": "listening"
-  },
-  {
-    "id": "SEN_D31_057",
-    "text": "可以給我衛生紙嗎？",
-    "pinyin": "kěyǐ gěi wǒ wèishēngzhǐ ma?",
-    "pinyin_numeric": "keyi3 gei3 wo3 wei4 sheng1 zhi3 ma0",
-    "translation_en": "Can I/you have tissue?",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "可以",
-      "給我",
-      "衛生紙",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_M1_118",
-      "VOC_D31_005",
-      "VOC_D31_026",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D31_POLITE_SOFTENER"
-    ],
-    "audio_id": "AUD_SEN_D31_057",
-    "difficulty": 2,
-    "production_type": "memory"
-  },
-  {
-    "id": "SEN_D31_058",
-    "text": "他需要半糖。",
-    "pinyin": "tā xūyào bàn táng.",
-    "pinyin_numeric": "ta1 xuyao4 ban4 tang2",
-    "translation_en": "he / him needs half sugar.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "他",
-      "需要",
-      "半糖"
-    ],
-    "token_ids": [
-      "VOC_M1_004",
-      "VOC_M1_171",
-      "VOC_D31_027"
-    ],
-    "grammar_ids": [
-      "GR_D31_CAN_REQUEST"
-    ],
-    "audio_id": "AUD_SEN_D31_058",
-    "difficulty": 2,
-    "production_type": "substitution"
-  },
-  {
-    "id": "SEN_D31_059",
-    "text": "不好意思她想要微糖。",
-    "pinyin": "bùhǎoyìsi tā xiǎng yào wēi táng.",
-    "pinyin_numeric": "bu4 hao3 yi4 si0 ta1 xiang3 yao4 wei1 tang2",
-    "translation_en": "Excuse me, she / her would like light sugar.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "不好意思",
-      "她",
-      "想要",
-      "微糖"
-    ],
-    "token_ids": [
-      "VOC_D31_020",
-      "VOC_M1_005",
-      "VOC_D31_001",
-      "VOC_D31_028"
-    ],
-    "grammar_ids": [
-      "GR_D31_WANT_OBJECT"
-    ],
-    "audio_id": "AUD_SEN_D31_059",
-    "difficulty": 2,
-    "production_type": "listening"
-  },
-  {
-    "id": "SEN_D31_060",
-    "text": "你想要正常甜嗎？",
-    "pinyin": "nǐ xiǎng yào zhèngcháng tián ma?",
-    "pinyin_numeric": "ni3 xiang3 yao4 zheng4 chang2 tian2 ma0",
-    "translation_en": "Do you want regular sweetness?",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "你",
-      "想要",
-      "正常甜",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_D31_001",
-      "VOC_D31_029",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D31_POLITE_SOFTENER"
-    ],
-    "audio_id": "AUD_SEN_D31_060",
-    "difficulty": 2,
-    "production_type": "memory"
-  },
-  {
-    "id": "SEN_D31_061",
-    "text": "我想要加珍珠。",
-    "pinyin": "wǒ xiǎng yào jiā zhēnzhū.",
-    "pinyin_numeric": "wo3 xiang3 yao4 jia1 zhen1 zhu1",
-    "translation_en": "I / me would like add tapioca pearls.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "我",
-      "想要",
-      "加珍珠"
-    ],
-    "token_ids": [
-      "VOC_M1_002",
-      "VOC_D31_001",
-      "VOC_D31_030"
-    ],
-    "grammar_ids": [
-      "GR_D31_CAN_REQUEST"
-    ],
-    "audio_id": "AUD_SEN_D31_061",
-    "difficulty": 2,
-    "production_type": "substitution"
-  },
-  {
-    "id": "SEN_D31_062",
-    "text": "請給我等一下。",
-    "pinyin": "qǐng gěi wǒ děng yíxià.",
-    "pinyin_numeric": "qing3 gei3 wo3 deng3 yi2 xia4",
-    "translation_en": "Please bring/give wait a moment.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "請",
-      "給我",
-      "等一下"
-    ],
-    "token_ids": [
-      "VOC_M1_179",
-      "VOC_D31_005",
-      "VOC_D31_032"
-    ],
-    "grammar_ids": [
-      "GR_D31_WANT_OBJECT"
-    ],
-    "audio_id": "AUD_SEN_D31_062",
-    "difficulty": 2,
-    "production_type": "listening"
-  },
-  {
-    "id": "SEN_D31_063",
-    "text": "可以給我再說一次嗎？",
-    "pinyin": "kěyǐ gěi wǒ zài shuō yí cì ma?",
-    "pinyin_numeric": "keyi3 gei3 wo3 zai4 shuo1 yi2 ci4 ma0",
-    "translation_en": "Can I/you have say it again?",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "可以",
-      "給我",
-      "再說一次",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_M1_118",
-      "VOC_D31_005",
-      "VOC_D31_033",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D31_POLITE_SOFTENER"
-    ],
-    "audio_id": "AUD_SEN_D31_063",
-    "difficulty": 2,
-    "production_type": "memory"
-  },
-  {
-    "id": "SEN_D31_064",
-    "text": "她需要慢一點。",
-    "pinyin": "tā xūyào màn yìdiǎn.",
-    "pinyin_numeric": "ta1 xuyao4 man4 yi4 dian3",
-    "translation_en": "she / her needs a little slower.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "她",
-      "需要",
-      "慢一點"
-    ],
-    "token_ids": [
-      "VOC_M1_005",
-      "VOC_M1_171",
-      "VOC_D31_034"
-    ],
-    "grammar_ids": [
-      "GR_D31_CAN_REQUEST"
-    ],
-    "audio_id": "AUD_SEN_D31_064",
-    "difficulty": 2,
-    "production_type": "substitution"
-  },
-  {
-    "id": "SEN_D31_065",
-    "text": "不好意思我們想要沒問題。",
-    "pinyin": "bùhǎoyìsi wǒmen xiǎng yào méi wèntí.",
-    "pinyin_numeric": "bu4 hao3 yi4 si0 women3 xiang3 yao4 mei2 wen4 ti2",
-    "translation_en": "Excuse me, we / us would like no problem.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "不好意思",
-      "我們",
-      "想要",
-      "沒問題"
-    ],
-    "token_ids": [
-      "VOC_D31_020",
-      "VOC_M1_006",
-      "VOC_D31_001",
-      "VOC_D31_035"
-    ],
-    "grammar_ids": [
-      "GR_D31_WANT_OBJECT"
-    ],
-    "audio_id": "AUD_SEN_D31_065",
-    "difficulty": 2,
-    "production_type": "listening"
-  },
-  {
-    "id": "SEN_D31_066",
-    "text": "你想要咖啡嗎？",
-    "pinyin": "nǐ xiǎng yào kāfēi ma?",
-    "pinyin_numeric": "ni3 xiang3 yao4 kafei1 ma0",
-    "translation_en": "Do you want coffee?",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "你",
-      "想要",
-      "咖啡",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_D31_001",
-      "VOC_M1_047",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D31_POLITE_SOFTENER"
-    ],
-    "audio_id": "AUD_SEN_D31_066",
-    "difficulty": 2,
-    "production_type": "memory"
-  },
-  {
-    "id": "SEN_D31_067",
-    "text": "你想要紅茶。",
-    "pinyin": "nǐ xiǎng yào hóngchá.",
-    "pinyin_numeric": "ni3 xiang3 yao4 hong2 cha2",
-    "translation_en": "you would like black tea.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "你",
-      "想要",
-      "紅茶"
-    ],
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_D31_001",
-      "VOC_D31_011"
-    ],
-    "grammar_ids": [
-      "GR_D31_CAN_REQUEST"
-    ],
-    "audio_id": "AUD_SEN_D31_067",
-    "difficulty": 2,
-    "production_type": "substitution"
-  },
-  {
-    "id": "SEN_D31_068",
-    "text": "請給我捷運。",
-    "pinyin": "qǐng gěi wǒ jiéyùn.",
-    "pinyin_numeric": "qing3 gei3 wo3 jieyun4",
-    "translation_en": "Please bring/give MRT / metro.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "請",
-      "給我",
-      "捷運"
-    ],
-    "token_ids": [
-      "VOC_M1_179",
-      "VOC_D31_005",
-      "VOC_M1_154"
-    ],
-    "grammar_ids": [
-      "GR_D31_WANT_OBJECT"
-    ],
-    "audio_id": "AUD_SEN_D31_068",
-    "difficulty": 2,
-    "production_type": "listening"
-  },
-  {
-    "id": "SEN_D31_069",
-    "text": "可以給我今天嗎？",
-    "pinyin": "kěyǐ gěi wǒ jīntiān ma?",
-    "pinyin_numeric": "keyi3 gei3 wo3 jintian1 ma0",
-    "translation_en": "Can I/you have today?",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "可以",
-      "給我",
-      "今天",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_M1_118",
-      "VOC_D31_005",
-      "VOC_M1_032",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D31_POLITE_SOFTENER"
-    ],
-    "audio_id": "AUD_SEN_D31_069",
-    "difficulty": 2,
-    "production_type": "memory"
-  },
-  {
-    "id": "SEN_D31_070",
-    "text": "我們需要明天。",
-    "pinyin": "wǒmen xūyào míngtiān.",
-    "pinyin_numeric": "women3 xuyao4 mingtian1",
-    "translation_en": "we / us needs tomorrow.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "我們",
-      "需要",
-      "明天"
-    ],
-    "token_ids": [
-      "VOC_M1_006",
-      "VOC_M1_171",
-      "VOC_M1_033"
-    ],
-    "grammar_ids": [
-      "GR_D31_CAN_REQUEST"
-    ],
-    "audio_id": "AUD_SEN_D31_070",
-    "difficulty": 2,
-    "production_type": "substitution"
-  },
-  {
-    "id": "SEN_D31_071",
-    "text": "不好意思我想要想要。",
-    "pinyin": "bùhǎoyìsi wǒ xiǎng yào xiǎng yào.",
-    "pinyin_numeric": "bu4 hao3 yi4 si0 wo3 xiang3 yao4 xiang3 yao4",
-    "translation_en": "Excuse me, I / me would like would like / want.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "不好意思",
-      "我",
-      "想要",
-      "想要"
-    ],
-    "token_ids": [
-      "VOC_D31_020",
-      "VOC_M1_002",
-      "VOC_D31_001",
-      "VOC_D31_001"
-    ],
-    "grammar_ids": [
-      "GR_D31_WANT_OBJECT"
-    ],
-    "audio_id": "AUD_SEN_D31_071",
-    "difficulty": 2,
-    "production_type": "listening"
-  },
-  {
-    "id": "SEN_D31_072",
-    "text": "你想要不用嗎？",
-    "pinyin": "nǐ xiǎng yào búyòng ma?",
-    "pinyin_numeric": "ni3 xiang3 yao4 bu2 yong4 ma0",
-    "translation_en": "Do you want no need?",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "你",
-      "想要",
-      "不用",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_D31_001",
-      "VOC_D31_002",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D31_POLITE_SOFTENER"
-    ],
-    "audio_id": "AUD_SEN_D31_072",
-    "difficulty": 2,
-    "production_type": "memory"
-  },
-  {
-    "id": "SEN_D31_073",
-    "text": "他想要謝謝。",
-    "pinyin": "tā xiǎng yào xièxie.",
-    "pinyin_numeric": "ta1 xiang3 yao4 xie4 xie0",
-    "translation_en": "he / him would like thank you.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "他",
-      "想要",
-      "謝謝"
-    ],
-    "token_ids": [
-      "VOC_M1_004",
-      "VOC_D31_001",
-      "VOC_D31_003"
-    ],
-    "grammar_ids": [
-      "GR_D31_CAN_REQUEST"
-    ],
-    "audio_id": "AUD_SEN_D31_073",
-    "difficulty": 2,
-    "production_type": "substitution"
-  },
-  {
-    "id": "SEN_D31_074",
-    "text": "請給我幫我。",
-    "pinyin": "qǐng gěi wǒ bāng wǒ.",
-    "pinyin_numeric": "qing3 gei3 wo3 bang1 wo3",
-    "translation_en": "Please bring/give help me.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "請",
-      "給我",
-      "幫我"
-    ],
-    "token_ids": [
-      "VOC_M1_179",
-      "VOC_D31_005",
-      "VOC_D31_004"
-    ],
-    "grammar_ids": [
-      "GR_D31_WANT_OBJECT"
-    ],
-    "audio_id": "AUD_SEN_D31_074",
-    "difficulty": 2,
-    "production_type": "listening"
-  },
-  {
-    "id": "SEN_D31_075",
-    "text": "可以給我給我嗎？",
-    "pinyin": "kěyǐ gěi wǒ gěi wǒ ma?",
-    "pinyin_numeric": "keyi3 gei3 wo3 gei3 wo3 ma0",
-    "translation_en": "Can I/you have give me?",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "可以",
-      "給我",
-      "給我",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_M1_118",
-      "VOC_D31_005",
-      "VOC_D31_005",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D31_POLITE_SOFTENER"
-    ],
-    "audio_id": "AUD_SEN_D31_075",
-    "difficulty": 2,
-    "production_type": "memory"
-  },
-  {
-    "id": "SEN_D31_076",
-    "text": "我需要小杯。",
-    "pinyin": "wǒ xūyào xiǎo bēi.",
-    "pinyin_numeric": "wo3 xuyao4 xiao3 bei1",
-    "translation_en": "I / me needs small cup.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "我",
-      "需要",
-      "小杯"
-    ],
-    "token_ids": [
-      "VOC_M1_002",
-      "VOC_M1_171",
-      "VOC_D31_006"
-    ],
-    "grammar_ids": [
-      "GR_D31_CAN_REQUEST"
-    ],
-    "audio_id": "AUD_SEN_D31_076",
-    "difficulty": 2,
-    "production_type": "substitution"
-  },
-  {
-    "id": "SEN_D31_077",
-    "text": "不好意思你想要中杯。",
-    "pinyin": "bùhǎoyìsi nǐ xiǎng yào zhōng bēi.",
-    "pinyin_numeric": "bu4 hao3 yi4 si0 ni3 xiang3 yao4 zhong1 bei1",
-    "translation_en": "Excuse me, you would like medium cup.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "不好意思",
-      "你",
-      "想要",
-      "中杯"
-    ],
-    "token_ids": [
-      "VOC_D31_020",
-      "VOC_M1_003",
-      "VOC_D31_001",
-      "VOC_D31_007"
-    ],
-    "grammar_ids": [
-      "GR_D31_WANT_OBJECT"
-    ],
-    "audio_id": "AUD_SEN_D31_077",
-    "difficulty": 2,
-    "production_type": "listening"
-  },
-  {
-    "id": "SEN_D31_078",
-    "text": "你想要大杯嗎？",
-    "pinyin": "nǐ xiǎng yào dà bēi ma?",
-    "pinyin_numeric": "ni3 xiang3 yao4 da4 bei1 ma0",
-    "translation_en": "Do you want large cup?",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "你",
-      "想要",
-      "大杯",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_D31_001",
-      "VOC_D31_008",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D31_POLITE_SOFTENER"
-    ],
-    "audio_id": "AUD_SEN_D31_078",
-    "difficulty": 2,
-    "production_type": "memory"
-  },
-  {
-    "id": "SEN_D31_079",
-    "text": "她想要拿鐵。",
-    "pinyin": "tā xiǎng yào nátiě.",
-    "pinyin_numeric": "ta1 xiang3 yao4 na2 tie3",
-    "translation_en": "she / her would like latte.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "她",
-      "想要",
-      "拿鐵"
-    ],
-    "token_ids": [
-      "VOC_M1_005",
-      "VOC_D31_001",
-      "VOC_D31_009"
-    ],
-    "grammar_ids": [
-      "GR_D31_CAN_REQUEST"
-    ],
-    "audio_id": "AUD_SEN_D31_079",
-    "difficulty": 2,
-    "production_type": "substitution"
-  },
-  {
-    "id": "SEN_D31_080",
-    "text": "請給我豆漿。",
-    "pinyin": "qǐng gěi wǒ dòujiāng.",
-    "pinyin_numeric": "qing3 gei3 wo3 dou4 jiang1",
-    "translation_en": "Please bring/give soy milk.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "請",
-      "給我",
-      "豆漿"
-    ],
-    "token_ids": [
-      "VOC_M1_179",
-      "VOC_D31_005",
-      "VOC_D31_010"
-    ],
-    "grammar_ids": [
-      "GR_D31_WANT_OBJECT"
-    ],
-    "audio_id": "AUD_SEN_D31_080",
-    "difficulty": 2,
-    "production_type": "listening"
-  },
-  {
-    "id": "SEN_D31_081",
-    "text": "可以給我紅茶嗎？",
-    "pinyin": "kěyǐ gěi wǒ hóngchá ma?",
-    "pinyin_numeric": "keyi3 gei3 wo3 hong2 cha2 ma0",
-    "translation_en": "Can I/you have black tea?",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "可以",
-      "給我",
-      "紅茶",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_M1_118",
-      "VOC_D31_005",
-      "VOC_D31_011",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D31_POLITE_SOFTENER"
-    ],
-    "audio_id": "AUD_SEN_D31_081",
-    "difficulty": 2,
-    "production_type": "memory"
-  },
-  {
-    "id": "SEN_D31_082",
-    "text": "你需要綠茶。",
-    "pinyin": "nǐ xūyào lǜchá.",
-    "pinyin_numeric": "ni3 xuyao4 lü4 cha2",
-    "translation_en": "you needs green tea.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "你",
-      "需要",
-      "綠茶"
-    ],
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_M1_171",
-      "VOC_D31_012"
-    ],
-    "grammar_ids": [
-      "GR_D31_CAN_REQUEST"
-    ],
-    "audio_id": "AUD_SEN_D31_082",
-    "difficulty": 2,
-    "production_type": "substitution"
-  },
-  {
-    "id": "SEN_D31_083",
-    "text": "不好意思他想要少冰。",
-    "pinyin": "bùhǎoyìsi tā xiǎng yào shǎo bīng.",
-    "pinyin_numeric": "bu4 hao3 yi4 si0 ta1 xiang3 yao4 shao3 bing1",
-    "translation_en": "Excuse me, he / him would like less ice.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "不好意思",
-      "他",
-      "想要",
-      "少冰"
-    ],
-    "token_ids": [
-      "VOC_D31_020",
-      "VOC_M1_004",
-      "VOC_D31_001",
-      "VOC_D31_014"
-    ],
-    "grammar_ids": [
-      "GR_D31_WANT_OBJECT"
-    ],
-    "audio_id": "AUD_SEN_D31_083",
-    "difficulty": 2,
-    "production_type": "listening"
-  },
-  {
-    "id": "SEN_D31_084",
-    "text": "你想要去冰嗎？",
-    "pinyin": "nǐ xiǎng yào qù bīng ma?",
-    "pinyin_numeric": "ni3 xiang3 yao4 qu4 bing1 ma0",
-    "translation_en": "Do you want no ice?",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "你",
-      "想要",
-      "去冰",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_D31_001",
-      "VOC_D31_015",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D31_POLITE_SOFTENER"
-    ],
-    "audio_id": "AUD_SEN_D31_084",
-    "difficulty": 2,
-    "production_type": "memory"
-  },
-  {
-    "id": "SEN_D31_085",
-    "text": "我們想要價錢。",
-    "pinyin": "wǒmen xiǎng yào jiàqián.",
-    "pinyin_numeric": "women3 xiang3 yao4 jia4 qian2",
-    "translation_en": "we / us would like price.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "我們",
-      "想要",
-      "價錢"
-    ],
-    "token_ids": [
-      "VOC_M1_006",
-      "VOC_D31_001",
-      "VOC_D31_018"
-    ],
-    "grammar_ids": [
-      "GR_D31_CAN_REQUEST"
-    ],
-    "audio_id": "AUD_SEN_D31_085",
-    "difficulty": 2,
-    "production_type": "substitution"
-  },
-  {
-    "id": "SEN_D31_086",
-    "text": "請給我不好意思。",
-    "pinyin": "qǐng gěi wǒ bùhǎoyìsi.",
-    "pinyin_numeric": "qing3 gei3 wo3 bu4 hao3 yi4 si0",
-    "translation_en": "Please bring/give excuse me / sorry.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "請",
-      "給我",
-      "不好意思"
-    ],
-    "token_ids": [
-      "VOC_M1_179",
-      "VOC_D31_005",
-      "VOC_D31_020"
-    ],
-    "grammar_ids": [
-      "GR_D31_WANT_OBJECT"
-    ],
-    "audio_id": "AUD_SEN_D31_086",
-    "difficulty": 2,
-    "production_type": "listening"
-  },
-  {
-    "id": "SEN_D31_087",
-    "text": "可以給我店員嗎？",
-    "pinyin": "kěyǐ gěi wǒ diànyuán ma?",
-    "pinyin_numeric": "keyi3 gei3 wo3 dian4 yuan2 ma0",
-    "translation_en": "Can I/you have shop clerk?",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "可以",
-      "給我",
-      "店員",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_M1_118",
-      "VOC_D31_005",
-      "VOC_D31_021",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D31_POLITE_SOFTENER"
-    ],
-    "audio_id": "AUD_SEN_D31_087",
-    "difficulty": 2,
-    "production_type": "memory"
-  },
-  {
-    "id": "SEN_D31_088",
-    "text": "他需要客人。",
-    "pinyin": "tā xūyào kèrén.",
-    "pinyin_numeric": "ta1 xuyao4 ke4 ren2",
-    "translation_en": "he / him needs customer.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "他",
-      "需要",
-      "客人"
-    ],
-    "token_ids": [
-      "VOC_M1_004",
-      "VOC_M1_171",
-      "VOC_D31_022"
-    ],
-    "grammar_ids": [
-      "GR_D31_CAN_REQUEST"
-    ],
-    "audio_id": "AUD_SEN_D31_088",
-    "difficulty": 2,
-    "production_type": "substitution"
-  },
-  {
-    "id": "SEN_D31_089",
-    "text": "不好意思她想要吸管。",
-    "pinyin": "bùhǎoyìsi tā xiǎng yào xīguǎn.",
-    "pinyin_numeric": "bu4 hao3 yi4 si0 ta1 xiang3 yao4 xi1 guan3",
-    "translation_en": "Excuse me, she / her would like straw.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "不好意思",
-      "她",
-      "想要",
-      "吸管"
-    ],
-    "token_ids": [
-      "VOC_D31_020",
-      "VOC_M1_005",
-      "VOC_D31_001",
-      "VOC_D31_023"
-    ],
-    "grammar_ids": [
-      "GR_D31_WANT_OBJECT"
-    ],
-    "audio_id": "AUD_SEN_D31_089",
-    "difficulty": 2,
-    "production_type": "listening"
-  },
-  {
-    "id": "SEN_D31_090",
-    "text": "你想要湯匙嗎？",
-    "pinyin": "nǐ xiǎng yào tāngchí ma?",
-    "pinyin_numeric": "ni3 xiang3 yao4 tang1 chi2 ma0",
-    "translation_en": "Do you want spoon?",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "你",
-      "想要",
-      "湯匙",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_D31_001",
-      "VOC_D31_024",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D31_POLITE_SOFTENER"
-    ],
-    "audio_id": "AUD_SEN_D31_090",
-    "difficulty": 2,
-    "production_type": "memory"
-  },
-  {
     "id": "SEN_D32_001",
     "text": "我想要便利商店。",
     "pinyin": "wǒ xiǎng yào biànlì shāngdiàn.",
@@ -32844,5 +30594,1223 @@
     "audio_id": "AUD_SEN_D45_060",
     "difficulty": 3,
     "production_type": "memory"
+  },
+  {
+    "id": "SEN_D31_001",
+    "text": "你好，我想要一杯小杯的拿鐵，可以嗎？",
+    "pinyin": "Nǐ hǎo, wǒ xiǎng yào yī bēi xiǎo bēi de nátiě, kěyǐ ma?",
+    "pinyin_numeric": "ni3 hao3, wo3 xiang3 yao4 yi1 bei1 xiao3 bei1 de na2tie3, ke3yi3 ma0?",
+    "translation_en": "Hello, I would like a small latte, okay?",
+    "translation_ko": "안녕하세요, 작은 라떼 한 잔을 원하는데 괜찮을까요?",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_CAN_REQUEST"
+    ],
+    "audio_id": "AUD_SEN_D31_001",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_002",
+    "text": "麻煩你，可以幫我點一杯紅茶嗎？",
+    "pinyin": "Máfan nǐ, kěyǐ bāng wǒ diǎn yī bēi hóngchá ma?",
+    "pinyin_numeric": "ma2fan ni3, ke3yi3 bang1 wo3 dian3 yi1 bei1 hong2cha2 ma0?",
+    "translation_en": "Excuse me, could you help me order a black tea?",
+    "translation_ko": "실례합니다, 홍차 한 잔 주문하는 것을 도와주시겠어요?",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_CAN_REQUEST"
+    ],
+    "audio_id": "AUD_SEN_D31_002",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_003",
+    "text": "不好意思，可以給我一個袋子嗎？",
+    "pinyin": "Bù hǎo yìsi, kěyǐ gěi wǒ yī ge dàizi ma?",
+    "pinyin_numeric": "bu4 hao3 yi4si, ke3yi3 gei3 wo3 yi1 ge4 dai4zi ma0?",
+    "translation_en": "Excuse me, could you give me a bag?",
+    "translation_ko": "죄송합니다, 봉투 하나를 주시겠어요?",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_CAN_REQUEST"
+    ],
+    "audio_id": "AUD_SEN_D31_003",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_004",
+    "text": "請問，可以幫我加珍珠嗎？",
+    "pinyin": "Qǐngwèn, kěyǐ bāng wǒ jiā zhēnzhū ma?",
+    "pinyin_numeric": "qing3wen4, ke3yi3 bang1 wo3 jia1 zhen1zhu1 ma0?",
+    "translation_en": "Excuse me, could you add boba for me?",
+    "translation_ko": "실례합니다, 타피오카 펄을 추가해 주시겠어요?",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_CAN_REQUEST"
+    ],
+    "audio_id": "AUD_SEN_D31_004",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_005",
+    "text": "我想要一杯綠茶，半糖，可以嗎？",
+    "pinyin": "Wǒ xiǎng yào yī bēi lǜchá, bàn táng, kěyǐ ma?",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 lü4cha2, ban4 tang2, ke3yi3 ma0?",
+    "translation_en": "I would like a green tea, half sugar, okay?",
+    "translation_ko": "녹차 한 잔, 반당으로 원하는데 괜찮을까요?",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_CAN_REQUEST"
+    ],
+    "audio_id": "AUD_SEN_D31_005",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_006",
+    "text": "麻煩你，可以給我中杯的豆漿嗎？",
+    "pinyin": "Máfan nǐ, kěyǐ gěi wǒ zhōng bēi de dòujiāng ma?",
+    "pinyin_numeric": "ma2fan ni3, ke3yi3 gei3 wo3 zhong1 bei1 de dou4jiang1 ma0?",
+    "translation_en": "Excuse me, could you give me a medium soy milk?",
+    "translation_ko": "실례합니다, 중간 컵의 두유를 주시겠어요?",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_CAN_REQUEST"
+    ],
+    "audio_id": "AUD_SEN_D31_006",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_007",
+    "text": "不好意思，可以再說一次嗎？我聽不懂。",
+    "pinyin": "Bù hǎo yìsi, kěyǐ zài shuō yī cì ma? Wǒ tīng bù dǒng.",
+    "pinyin_numeric": "bu4 hao3 yi4si, ke3yi3 zai4 shuo1 yi1 ci4 ma0? Wo3 ting1 bu4 dong3.",
+    "translation_en": "Excuse me, could you say it again? I don't understand.",
+    "translation_ko": "죄송합니다, 한 번 더 말씀해 주시겠어요? 제가 이해하지 못했어요.",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_CAN_REQUEST"
+    ],
+    "audio_id": "AUD_SEN_D31_007",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_008",
+    "text": "請問，可以慢一點說嗎？",
+    "pinyin": "Qǐngwèn, kěyǐ màn yī diǎn shuō ma?",
+    "pinyin_numeric": "qing3wen4, ke3yi3 man4 yi1 dian3 shuo1 ma0?",
+    "translation_en": "Excuse me, could you speak a little slower?",
+    "translation_ko": "실례합니다, 조금 천천히 말씀해 주시겠어요?",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_CAN_REQUEST"
+    ],
+    "audio_id": "AUD_SEN_D31_008",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_009",
+    "text": "我想要一杯冰的紅茶，少冰，可以嗎？",
+    "pinyin": "Wǒ xiǎng yào yī bēi bīng de hóngchá, shǎo bīng, kěyǐ ma?",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 bing1 de hong2cha2, shao3 bing1, ke3yi3 ma0?",
+    "translation_en": "I would like an iced black tea, less ice, okay?",
+    "translation_ko": "얼음 홍차 한 잔, 얼음 적게로 원하는데 괜찮을까요?",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_CAN_REQUEST"
+    ],
+    "audio_id": "AUD_SEN_D31_009",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_010",
+    "text": "麻煩你，可以幫我外帶嗎？",
+    "pinyin": "Máfan nǐ, kěyǐ bāng wǒ wàidài ma?",
+    "pinyin_numeric": "ma2fan ni3, ke3yi3 bang1 wo3 wai4dai4 ma0?",
+    "translation_en": "Excuse me, could you help me with takeout?",
+    "translation_ko": "실례합니다, 포장해 주시겠어요?",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_CAN_REQUEST"
+    ],
+    "audio_id": "AUD_SEN_D31_010",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_011",
+    "text": "我想要一杯小杯的拿鐵。",
+    "pinyin": "Wǒ xiǎng yào yī bēi xiǎo bēi de ná tiě.",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 xiao3 bei1 de0 na2 tie3.",
+    "translation_en": "I want a small latte.",
+    "translation_ko": "작은 라떼 한 잔을 원합니다.",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_WANT_OBJECT"
+    ],
+    "audio_id": "AUD_SEN_D31_011",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_012",
+    "text": "我想要一杯中杯的紅茶，半糖。",
+    "pinyin": "Wǒ xiǎng yào yī bēi zhōng bēi de hóng chá, bàn táng.",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 zhong1 bei1 de0 hong2 cha2, ban4 tang2.",
+    "translation_en": "I want a medium black tea, half sugar.",
+    "translation_ko": "중간 크기의 홍차 반당을 원합니다.",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_WANT_OBJECT"
+    ],
+    "audio_id": "AUD_SEN_D31_012",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_014",
+    "text": "我想要一杯豆漿，內用。",
+    "pinyin": "Wǒ xiǎng yào yī bēi dòu jiāng, nèi yòng.",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 dou4 jiang1, nei4 yong4.",
+    "translation_en": "I want a cup of soy milk, for here.",
+    "translation_ko": "두유 한 잔을 매장에서 마시고 싶습니다.",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_WANT_OBJECT"
+    ],
+    "audio_id": "AUD_SEN_D31_014",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_015",
+    "text": "我想要一杯冰的拿鐵，少冰。",
+    "pinyin": "Wǒ xiǎng yào yī bēi bīng de ná tiě, shǎo bīng.",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 bing1 de0 na2 tie3, shao3 bing1.",
+    "translation_en": "I want an iced latte, less ice.",
+    "translation_ko": "얼음 적게 넣은 아이스 라떼 한 잔을 원합니다.",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_WANT_OBJECT"
+    ],
+    "audio_id": "AUD_SEN_D31_015",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_016",
+    "text": "我想要一杯大杯的拿鐵，加珍珠。",
+    "pinyin": "Wǒ xiǎng yào yī bēi dà bēi de ná tiě, jiā zhēn zhū.",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 da4 bei1 de0 na2 tie3, jia1 zhen1 zhu1.",
+    "translation_en": "I want a large latte with boba.",
+    "translation_ko": "큰 라떼에 타피오카 펄을 추가하고 싶습니다.",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_WANT_OBJECT"
+    ],
+    "audio_id": "AUD_SEN_D31_016",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_017",
+    "text": "我想要一杯中杯的紅茶，正常甜，外帶。",
+    "pinyin": "Wǒ xiǎng yào yī bēi zhōng bēi de hóng chá, zhèng cháng tián, wài dài.",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 zhong1 bei1 de0 hong2 cha2, zheng4 chang2 tian2, wai4 dai4.",
+    "translation_en": "I want a medium black tea, normal sweetness, to go.",
+    "translation_ko": "중간 크기의 홍차 보통 당도로 포장해 주세요.",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_WANT_OBJECT"
+    ],
+    "audio_id": "AUD_SEN_D31_017",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_018",
+    "text": "我想要一杯小杯的綠茶，微糖。",
+    "pinyin": "Wǒ xiǎng yào yī bēi xiǎo bēi de lǜ chá, wēi táng.",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 xiao3 bei1 de0 lv4 cha2, wei1 tang2.",
+    "translation_en": "I want a small green tea, low sugar.",
+    "translation_ko": "작은 녹차 한 잔을 약간 단맛으로 원합니다.",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_WANT_OBJECT"
+    ],
+    "audio_id": "AUD_SEN_D31_018",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_019",
+    "text": "我想要一杯冰的豆漿，外帶。",
+    "pinyin": "Wǒ xiǎng yào yī bēi bīng de dòu jiāng, wài dài.",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 bing1 de0 dou4 jiang1, wai4 dai4.",
+    "translation_en": "I want an iced soy milk, to go.",
+    "translation_ko": "차가운 두유 한 잔을 포장해 주세요.",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_WANT_OBJECT"
+    ],
+    "audio_id": "AUD_SEN_D31_019",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_020",
+    "text": "我想要一杯大杯的綠茶，少冰，加珍珠。",
+    "pinyin": "Wǒ xiǎng yào yī bēi dà bēi de lǜ chá, shǎo bīng, jiā zhēn zhū.",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 da4 bei1 de0 lv4 cha2, shao3 bing1, jia1 zhen1 zhu1.",
+    "translation_en": "I want a large green tea, less ice, with boba.",
+    "translation_ko": "큰 녹차 한 잔을 얼음 적게 타피오카 펄 추가로 원합니다.",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_WANT_OBJECT"
+    ],
+    "audio_id": "AUD_SEN_D31_020",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_021",
+    "text": "不好意思，我想要一杯小杯的拿鐵。",
+    "pinyin": "Bù hǎo yì si, wǒ xiǎng yào yī bēi xiǎo bēi de ná tiě.",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, wo3 xiang3 yao4 yi1 bei1 xiao3 bei1 de0 na2 tie3.",
+    "translation_en": "Excuse me, I would like a small latte.",
+    "translation_ko": "실례합니다, 작은 사이즈의 라떼 한 잔을 원합니다.",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_POLITE_SOFTENER"
+    ],
+    "audio_id": "AUD_SEN_D31_021",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_022",
+    "text": "不好意思，麻煩給我一個袋子。",
+    "pinyin": "Bù hǎo yì si, má fan gěi wǒ yī ge dài zi.",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, ma2 fan0 gei3 wo3 yi1 ge0 dai4 zi0.",
+    "translation_en": "Excuse me, could you please give me a bag?",
+    "translation_ko": "실례합니다, 봉투 하나 주시겠어요?",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_POLITE_SOFTENER"
+    ],
+    "audio_id": "AUD_SEN_D31_022",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_023",
+    "text": "不好意思，我要一杯紅茶，半糖少冰。",
+    "pinyin": "Bù hǎo yì si, wǒ yào yī bēi hóng chá, bàn táng shǎo bīng.",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, wo3 yao4 yi1 bei1 hong2 cha2, ban4 tang2 shao3 bing1.",
+    "translation_en": "Excuse me, I'd like a black tea, half sugar and less ice.",
+    "translation_ko": "실례합니다, 홍차 한 잔에 당도 반, 얼음 적게 주세요.",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_POLITE_SOFTENER"
+    ],
+    "audio_id": "AUD_SEN_D31_023",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_024",
+    "text": "不好意思，請問這個價錢是多少？",
+    "pinyin": "Bù hǎo yì si, qǐng wèn zhè ge jià qián shì duō shǎo?",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, qing3 wen4 zhe4 ge0 jia4 qian2 shi4 duo1 shao3?",
+    "translation_en": "Excuse me, how much is this?",
+    "translation_ko": "실례합니다, 이 가격이 얼마인가요?",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_POLITE_SOFTENER"
+    ],
+    "audio_id": "AUD_SEN_D31_024",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_025",
+    "text": "不好意思，我要一杯綠茶，去冰。",
+    "pinyin": "Bù hǎo yì si, wǒ yào yī bēi lǜ chá, qù bīng.",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, wo3 yao4 yi1 bei1 lü4 cha2, qu4 bing1.",
+    "translation_en": "Excuse me, I'd like a green tea, no ice.",
+    "translation_ko": "실례합니다, 녹차 한 잔에 얼음 빼 주세요.",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_POLITE_SOFTENER"
+    ],
+    "audio_id": "AUD_SEN_D31_025",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_026",
+    "text": "不好意思，麻煩幫我加珍珠。",
+    "pinyin": "Bù hǎo yì si, má fan bāng wǒ jiā zhēn zhū.",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, ma2 fan0 bang1 wo3 jia1 zhen1 zhu1.",
+    "translation_en": "Excuse me, please add boba for me.",
+    "translation_ko": "실례합니다, 타피오카 펄을 추가해 주세요.",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_POLITE_SOFTENER"
+    ],
+    "audio_id": "AUD_SEN_D31_026",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_027",
+    "text": "不好意思，我要外帶一杯豆漿。",
+    "pinyin": "Bù hǎo yì si, wǒ yào wài dài yī bēi dòu jiāng.",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, wo3 yao4 wai4 dai4 yi1 bei1 dou4 jiang1.",
+    "translation_en": "Excuse me, I'd like a soy milk to go.",
+    "translation_ko": "실례합니다, 두유 한 잔 포장해 주세요.",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_POLITE_SOFTENER"
+    ],
+    "audio_id": "AUD_SEN_D31_027",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_028",
+    "text": "不好意思，請給我一根吸管。",
+    "pinyin": "Bù hǎo yì si, qǐng gěi wǒ yī gēn xī guǎn.",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, qing3 gei3 wo3 yi1 gen1 xi1 guan3.",
+    "translation_en": "Excuse me, please give me a straw.",
+    "translation_ko": "실례합니다, 빨대 하나 주세요.",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_POLITE_SOFTENER"
+    ],
+    "audio_id": "AUD_SEN_D31_028",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_029",
+    "text": "不好意思，我要內用一杯拿鐵。",
+    "pinyin": "Bù hǎo yì si, wǒ yào nèi yòng yī bēi ná tiě.",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, wo3 yao4 nei4 yong4 yi1 bei1 na2 tie3.",
+    "translation_en": "Excuse me, I'd like a latte for here.",
+    "translation_ko": "실례합니다, 라떼 한 잔 매장에서 먹겠습니다.",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_POLITE_SOFTENER"
+    ],
+    "audio_id": "AUD_SEN_D31_029",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_030",
+    "text": "不好意思，麻煩等一下。",
+    "pinyin": "Bù hǎo yì si, má fan děng yī xià.",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, ma2 fan0 deng3 yi1 xia4.",
+    "translation_en": "Excuse me, please wait a moment.",
+    "translation_ko": "실례합니다, 잠시만 기다려 주세요.",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_POLITE_SOFTENER"
+    ],
+    "audio_id": "AUD_SEN_D31_030",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_031",
+    "text": "你好，我想要一杯小杯的拿鐵，可以嗎？",
+    "pinyin": "Nǐ hǎo, wǒ xiǎng yào yī bēi xiǎo bēi de ná tiě, kě yǐ ma?",
+    "pinyin_numeric": "ni3 hao3, wo3 xiang3 yao4 yi1 bei1 xiao3 bei1 de5 na2 tie3, ke3 yi3 ma0?",
+    "translation_en": "Hello, I would like a small latte, okay?",
+    "translation_ko": "안녕하세요, 작은 라떼 한 잔을 원하는데 괜찮을까요?",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_CAN_REQUEST"
+    ],
+    "audio_id": "AUD_SEN_D31_031",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_032",
+    "text": "麻煩你，可以幫我點一杯紅茶嗎？",
+    "pinyin": "Má fan nǐ, kě yǐ bāng wǒ diǎn yī bēi hóng chá ma?",
+    "pinyin_numeric": "ma2 fan5 ni3, ke3 yi3 bang1 wo3 dian3 yi1 bei1 hong2 cha2 ma0?",
+    "translation_en": "Excuse me, could you help me order a black tea?",
+    "translation_ko": "실례합니다, 홍차 한 잔 주문하는 것을 도와주시겠어요?",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_CAN_REQUEST"
+    ],
+    "audio_id": "AUD_SEN_D31_032",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_033",
+    "text": "不好意思，我想要一杯綠茶，半糖，可以嗎？",
+    "pinyin": "Bù hǎo yì si, wǒ xiǎng yào yī bēi lǜ chá, bàn táng, kě yǐ ma?",
+    "pinyin_numeric": "bu4 hao3 yi4 si5, wo3 xiang3 yao4 yi1 bei1 lü4 cha2, ban4 tang2, ke3 yi3 ma0?",
+    "translation_en": "Excuse me, I would like a green tea with half sugar, okay?",
+    "translation_ko": "죄송합니다, 반당으로 녹차 한 잔을 원하는데 괜찮을까요?",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_CAN_REQUEST"
+    ],
+    "audio_id": "AUD_SEN_D31_033",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_034",
+    "text": "店員，可以給我一個袋子嗎？謝謝。",
+    "pinyin": "Diàn yuán, kě yǐ gěi wǒ yī gè dài zi ma? Xiè xie.",
+    "pinyin_numeric": "dian4 yuan2, ke3 yi3 gei3 wo3 yi1 ge4 dai4 zi5 ma0? xie4 xie5.",
+    "translation_en": "Shop assistant, could you give me a bag? Thank you.",
+    "translation_ko": "점원님, 봉투 하나 주시겠어요? 감사합니다.",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_CAN_REQUEST"
+    ],
+    "audio_id": "AUD_SEN_D31_034",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_035",
+    "text": "請問，可以幫我加珍珠嗎？",
+    "pinyin": "Qǐng wèn, kě yǐ bāng wǒ jiā zhēn zhū ma?",
+    "pinyin_numeric": "qing3 wen4, ke3 yi3 bang1 wo3 jia1 zhen1 zhu1 ma0?",
+    "translation_en": "Excuse me, could you add boba for me?",
+    "translation_ko": "실례합니다, 펄을 추가해 주시겠어요?",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_CAN_REQUEST"
+    ],
+    "audio_id": "AUD_SEN_D31_035",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_036",
+    "text": "我想要一杯豆漿，去冰，可以嗎？",
+    "pinyin": "Wǒ xiǎng yào yī bēi dòu jiāng, qù bīng, kě yǐ ma?",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 dou4 jiang1, qu4 bing1, ke3 yi3 ma0?",
+    "translation_en": "I would like a soy milk, no ice, okay?",
+    "translation_ko": "두유 한 잔을 원하는데, 얼음 빼고 주시겠어요?",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_CAN_REQUEST"
+    ],
+    "audio_id": "AUD_SEN_D31_036",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_037",
+    "text": "不好意思，可以再說一次嗎？我聽不懂。",
+    "pinyin": "Bù hǎo yì si, kě yǐ zài shuō yī cì ma? Wǒ tīng bù dǒng.",
+    "pinyin_numeric": "bu4 hao3 yi4 si5, ke3 yi3 zai4 shuo1 yi1 ci4 ma0? wo3 ting1 bu4 dong3.",
+    "translation_en": "Excuse me, could you say it again? I didn't understand.",
+    "translation_ko": "죄송합니다, 한 번 더 말씀해 주시겠어요? 못 알아들었어요.",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_CAN_REQUEST"
+    ],
+    "audio_id": "AUD_SEN_D31_037",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_038",
+    "text": "麻煩你，可以給我一個湯匙嗎？",
+    "pinyin": "Má fan nǐ, kě yǐ gěi wǒ yī gè tāng chí ma?",
+    "pinyin_numeric": "ma2 fan5 ni3, ke3 yi3 gei3 wo3 yi1 ge4 tang1 chi2 ma0?",
+    "translation_en": "Excuse me, could you give me a spoon?",
+    "translation_ko": "실례합니다, 숟가락 하나 주시겠어요?",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_CAN_REQUEST"
+    ],
+    "audio_id": "AUD_SEN_D31_038",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_039",
+    "text": "我想要一杯大杯的拿鐵，內用，可以嗎？",
+    "pinyin": "Wǒ xiǎng yào yī bēi dà bēi de ná tiě, nèi yòng, kě yǐ ma?",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 da4 bei1 de5 na2 tie3, nei4 yong4, ke3 yi3 ma0?",
+    "translation_en": "I would like a large latte, for here, okay?",
+    "translation_ko": "큰 라떼 한 잔을 원하는데, 매장에서 먹을게요, 괜찮을까요?",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_CAN_REQUEST"
+    ],
+    "audio_id": "AUD_SEN_D31_039",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_040",
+    "text": "店員，可以幫我拿發票嗎？謝謝。",
+    "pinyin": "Diàn yuán, kě yǐ bāng wǒ ná fā piào ma? Xiè xie.",
+    "pinyin_numeric": "dian4 yuan2, ke3 yi3 bang1 wo3 na2 fa1 piao4 ma0? xie4 xie5.",
+    "translation_en": "Shop assistant, could you help me get the receipt? Thank you.",
+    "translation_ko": "점원님, 영수증을 받아 주시겠어요? 감사합니다.",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_CAN_REQUEST"
+    ],
+    "audio_id": "AUD_SEN_D31_040",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_041",
+    "text": "我想要一杯小杯的拿鐵。",
+    "pinyin": "Wǒ xiǎng yào yī bēi xiǎo bēi de ná tiě.",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 xiao3 bei1 de0 na2 tie3.",
+    "translation_en": "I would like a small latte.",
+    "translation_ko": "작은 라떼 한 잔을 원합니다.",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_WANT_OBJECT"
+    ],
+    "audio_id": "AUD_SEN_D31_041",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_042",
+    "text": "我想要一杯中杯的紅茶，半糖。",
+    "pinyin": "Wǒ xiǎng yào yī bēi zhōng bēi de hóng chá, bàn táng.",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 zhong1 bei1 de0 hong2 cha2, ban4 tang2.",
+    "translation_en": "I would like a medium black tea, half sugar.",
+    "translation_ko": "중간 크기의 홍차 반 당을 원합니다.",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_WANT_OBJECT"
+    ],
+    "audio_id": "AUD_SEN_D31_042",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_044",
+    "text": "我想要一杯豆漿，內用。",
+    "pinyin": "Wǒ xiǎng yào yī bēi dòu jiāng, nèi yòng.",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 dou4 jiang1, nei4 yong4.",
+    "translation_en": "I would like a cup of soy milk, for here.",
+    "translation_ko": "두유 한 잔을 매장에서 마시고 싶습니다.",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_WANT_OBJECT"
+    ],
+    "audio_id": "AUD_SEN_D31_044",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_045",
+    "text": "我想要一杯小杯的拿鐵，加珍珠。",
+    "pinyin": "Wǒ xiǎng yào yī bēi xiǎo bēi de ná tiě, jiā zhēn zhū.",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 xiao3 bei1 de0 na2 tie3, jia1 zhen1 zhu1.",
+    "translation_en": "I would like a small latte with boba.",
+    "translation_ko": "작은 라떼에 타피오카 펄을 추가하고 싶습니다.",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_WANT_OBJECT"
+    ],
+    "audio_id": "AUD_SEN_D31_045",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_046",
+    "text": "我想要一杯中杯的紅茶，微糖，少冰。",
+    "pinyin": "Wǒ xiǎng yào yī bēi zhōng bēi de hóng chá, wēi táng, shǎo bīng.",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 zhong1 bei1 de0 hong2 cha2, wei1 tang2, shao3 bing1.",
+    "translation_en": "I would like a medium black tea, low sugar, less ice.",
+    "translation_ko": "중간 크기의 홍차를 약간 단맛에 얼음 적게 원합니다.",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_WANT_OBJECT"
+    ],
+    "audio_id": "AUD_SEN_D31_046",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_047",
+    "text": "我想要一杯大杯的綠茶，正常甜，外帶。",
+    "pinyin": "Wǒ xiǎng yào yī bēi dà bēi de lǜ chá, zhèng cháng tián, wài dài.",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 da4 bei1 de0 lv4 cha2, zheng4 chang2 tian2, wai4 dai4.",
+    "translation_en": "I would like a large green tea, regular sweetness, to go.",
+    "translation_ko": "큰 녹차를 보통 단맛으로 포장해 주세요.",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_WANT_OBJECT"
+    ],
+    "audio_id": "AUD_SEN_D31_047",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_048",
+    "text": "我想要一杯小杯的豆漿，內用。",
+    "pinyin": "Wǒ xiǎng yào yī bēi xiǎo bēi de dòu jiāng, nèi yòng.",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 xiao3 bei1 de0 dou4 jiang1, nei4 yong4.",
+    "translation_en": "I would like a small soy milk, for here.",
+    "translation_ko": "작은 두유 한 잔을 매장에서 마시고 싶습니다.",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_WANT_OBJECT"
+    ],
+    "audio_id": "AUD_SEN_D31_048",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_049",
+    "text": "我想要一杯中杯的拿鐵，半糖，去冰。",
+    "pinyin": "Wǒ xiǎng yào yī bēi zhōng bēi de ná tiě, bàn táng, qù bīng.",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 zhong1 bei1 de0 na2 tie3, ban4 tang2, qu4 bing1.",
+    "translation_en": "I would like a medium latte, half sugar, no ice.",
+    "translation_ko": "중간 크기의 라떼를 반 당에 얼음 없이 원합니다.",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_WANT_OBJECT"
+    ],
+    "audio_id": "AUD_SEN_D31_049",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_050",
+    "text": "我想要一杯大杯的紅茶，加珍珠，外帶。",
+    "pinyin": "Wǒ xiǎng yào yī bēi dà bēi de hóng chá, jiā zhēn zhū, wài dài.",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 da4 bei1 de0 hong2 cha2, jia1 zhen1 zhu1, wai4 dai4.",
+    "translation_en": "I would like a large black tea with boba, to go.",
+    "translation_ko": "큰 홍차에 타피오카 펄을 추가해서 포장해 주세요.",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_WANT_OBJECT"
+    ],
+    "audio_id": "AUD_SEN_D31_050",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_051",
+    "text": "不好意思，我想要一杯小杯的拿鐵。",
+    "pinyin": "Bù hǎo yì si, wǒ xiǎng yào yī bēi xiǎo bēi de ná tiě.",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, wo3 xiang3 yao4 yi1 bei1 xiao3 bei1 de0 na2 tie3.",
+    "translation_en": "Excuse me, I would like a small latte.",
+    "translation_ko": "실례합니다, 작은 사이즈의 라떼 한 잔을 원합니다.",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_POLITE_SOFTENER"
+    ],
+    "audio_id": "AUD_SEN_D31_051",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_052",
+    "text": "不好意思，麻煩給我兩杯紅茶，一杯去冰，一杯少冰。",
+    "pinyin": "Bù hǎo yì si, má fan gěi wǒ liǎng bēi hóng chá, yī bēi qù bīng, yī bēi shǎo bīng.",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, ma2 fan0 gei3 wo3 liang3 bei1 hong2 cha2, yi1 bei1 qu4 bing1, yi1 bei1 shao3 bing1.",
+    "translation_en": "Excuse me, please give me two cups of black tea, one with no ice and one with less ice.",
+    "translation_ko": "실례합니다, 홍차 두 잔 주세요. 하나는 얼음 빼고, 하나는 얼음 적게 해 주세요.",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_POLITE_SOFTENER"
+    ],
+    "audio_id": "AUD_SEN_D31_052",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_053",
+    "text": "不好意思，請問這個價錢是多少？",
+    "pinyin": "Bù hǎo yì si, qǐng wèn zhè ge jià qián shì duō shǎo?",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, qing3 wen4 zhe4 ge0 jia4 qian2 shi4 duo1 shao3?",
+    "translation_en": "Excuse me, how much is this?",
+    "translation_ko": "실례합니다, 이 가격이 얼마인가요?",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_POLITE_SOFTENER"
+    ],
+    "audio_id": "AUD_SEN_D31_053",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_054",
+    "text": "不好意思，我要一杯豆漿，半糖，外帶。",
+    "pinyin": "Bù hǎo yì si, wǒ yào yī bēi dòu jiāng, bàn táng, wài dài.",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, wo3 yao4 yi1 bei1 dou4 jiang1, ban4 tang2, wai4 dai4.",
+    "translation_en": "Excuse me, I'd like a cup of soy milk, half sugar, to go.",
+    "translation_ko": "실례합니다, 두유 한 잔, 당도 반으로 해서 포장해 주세요.",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_POLITE_SOFTENER"
+    ],
+    "audio_id": "AUD_SEN_D31_054",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_055",
+    "text": "不好意思，可以幫我加珍珠嗎？",
+    "pinyin": "Bù hǎo yì si, kě yǐ bāng wǒ jiā zhēn zhū ma?",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, ke3 yi3 bang1 wo3 jia1 zhen1 zhu1 ma0?",
+    "translation_en": "Excuse me, can you add boba for me?",
+    "translation_ko": "실례합니다, 펄을 추가해 주시겠어요?",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_POLITE_SOFTENER"
+    ],
+    "audio_id": "AUD_SEN_D31_055",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_056",
+    "text": "不好意思，我要一杯綠茶，微糖，少冰，內用。",
+    "pinyin": "Bù hǎo yì si, wǒ yào yī bēi lǜ chá, wēi táng, shǎo bīng, nèi yòng.",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, wo3 yao4 yi1 bei1 lü4 cha2, wei1 tang2, shao3 bing1, nei4 yong4.",
+    "translation_en": "Excuse me, I'd like a cup of green tea, low sugar, less ice, for here.",
+    "translation_ko": "실례합니다, 녹차 한 잔, 당도 적게, 얼음 적게 해서 매장에서 먹겠습니다.",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_POLITE_SOFTENER"
+    ],
+    "audio_id": "AUD_SEN_D31_056",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_057",
+    "text": "不好意思，麻煩給我一個袋子。",
+    "pinyin": "Bù hǎo yì si, má fan gěi wǒ yī ge dài zi.",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, ma2 fan0 gei3 wo3 yi1 ge0 dai4 zi0.",
+    "translation_en": "Excuse me, please give me a bag.",
+    "translation_ko": "실례합니다, 봉투 하나 주세요.",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_POLITE_SOFTENER"
+    ],
+    "audio_id": "AUD_SEN_D31_057",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_058",
+    "text": "不好意思，可以再說一次嗎？我聽不太清楚。",
+    "pinyin": "Bù hǎo yì si, kě yǐ zài shuō yī cì ma? Wǒ tīng bù tài qīng chu.",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, ke3 yi3 zai4 shuo1 yi1 ci4 ma0? Wo3 ting1 bu4 tai4 qing1 chu0.",
+    "translation_en": "Excuse me, can you say that again? I didn't hear clearly.",
+    "translation_ko": "실례합니다, 한 번 더 말씀해 주시겠어요? 잘 안 들렸어요.",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_POLITE_SOFTENER"
+    ],
+    "audio_id": "AUD_SEN_D31_058",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_059",
+    "text": "不好意思，我要一杯大杯的拿鐵，正常甜，加珍珠，外帶。",
+    "pinyin": "Bù hǎo yì si, wǒ yào yī bēi dà bēi de ná tiě, zhèng cháng tián, jiā zhēn zhū, wài dài.",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, wo3 yao4 yi1 bei1 da4 bei1 de0 na2 tie3, zheng4 chang2 tian2, jia1 zhen1 zhu1, wai4 dai4.",
+    "translation_en": "Excuse me, I'd like a large latte, regular sweetness, with boba, to go.",
+    "translation_ko": "실례합니다, 큰 사이즈 라떼 한 잔, 당도 보통, 펄 추가해서 포장해 주세요.",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_POLITE_SOFTENER"
+    ],
+    "audio_id": "AUD_SEN_D31_059",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_060",
+    "text": "不好意思，請問你們有賣冰的拿鐵嗎？",
+    "pinyin": "Bù hǎo yì si, qǐng wèn nǐ men yǒu mài bīng de ná tiě ma?",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, qing3 wen4 ni3 men0 you3 mai4 bing1 de0 na2 tie3 ma0?",
+    "translation_en": "Excuse me, do you sell iced lattes?",
+    "translation_ko": "실례합니다, 아이스 라떼를 판매하시나요?",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_POLITE_SOFTENER"
+    ],
+    "audio_id": "AUD_SEN_D31_060",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_061",
+    "text": "可以給我一個袋子嗎？",
+    "pinyin": "Kěyǐ gěi wǒ yī gè dàizi ma?",
+    "pinyin_numeric": "ke3 yi3 gei3 wo3 yi1 ge4 dai4 zi0 ma0",
+    "translation_en": "Can you give me a bag?",
+    "translation_ko": "가방 하나 주실 수 있나요?",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_CAN_REQUEST"
+    ],
+    "audio_id": "AUD_SEN_D31_061",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_062",
+    "text": "可以幫我拿一杯水嗎？",
+    "pinyin": "Kěyǐ bāng wǒ ná yī bēi shuǐ ma?",
+    "pinyin_numeric": "ke3 yi3 bang1 wo3 na2 yi1 bei1 shui3 ma0",
+    "translation_en": "Can you help me get a glass of water?",
+    "translation_ko": "물 한 잔 가져다 주실 수 있나요?",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_CAN_REQUEST"
+    ],
+    "audio_id": "AUD_SEN_D31_062",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_063",
+    "text": "可以給我菜單嗎？",
+    "pinyin": "Kěyǐ gěi wǒ càidān ma?",
+    "pinyin_numeric": "ke3 yi3 gei3 wo3 cai4 dan1 ma0",
+    "translation_en": "Can you give me the menu?",
+    "translation_ko": "메뉴판 좀 주실 수 있나요?",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_CAN_REQUEST"
+    ],
+    "audio_id": "AUD_SEN_D31_063",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_064",
+    "text": "可以幫我點一杯拿鐵嗎？",
+    "pinyin": "Kěyǐ bāng wǒ diǎn yī bēi nǎtiě ma?",
+    "pinyin_numeric": "ke3 yi3 bang1 wo3 dian3 yi1 bei1 na3 tie3 ma0",
+    "translation_en": "Can you help me order a latte?",
+    "translation_ko": "라떼 한 잔 주문해 주실 수 있나요?",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_CAN_REQUEST"
+    ],
+    "audio_id": "AUD_SEN_D31_064",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_065",
+    "text": "可以給我發票嗎？",
+    "pinyin": "Kěyǐ gěi wǒ fāpiào ma?",
+    "pinyin_numeric": "ke3 yi3 gei3 wo3 fa1 piao4 ma0",
+    "translation_en": "Can you give me the receipt?",
+    "translation_ko": "영수증 주실 수 있나요?",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_CAN_REQUEST"
+    ],
+    "audio_id": "AUD_SEN_D31_065",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_066",
+    "text": "可以幫我加珍珠嗎？",
+    "pinyin": "Kěyǐ bāng wǒ jiā zhēnzhū ma?",
+    "pinyin_numeric": "ke3 yi3 bang1 wo3 jia1 zhen1 zhu1 ma0",
+    "translation_en": "Can you help me add boba pearls?",
+    "translation_ko": "타피오카 펄 추가해 주실 수 있나요?",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_CAN_REQUEST"
+    ],
+    "audio_id": "AUD_SEN_D31_066",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_067",
+    "text": "可以給我小杯的紅茶嗎？",
+    "pinyin": "Kěyǐ gěi wǒ xiǎo bēi de hóngchá ma?",
+    "pinyin_numeric": "ke3 yi3 gei3 wo3 xiao3 bei1 de0 hong2 cha2 ma0",
+    "translation_en": "Can you give me a small black tea?",
+    "translation_ko": "작은 컵 홍차 주실 수 있나요?",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_CAN_REQUEST"
+    ],
+    "audio_id": "AUD_SEN_D31_067",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_068",
+    "text": "可以幫我拿吸管嗎？",
+    "pinyin": "Kěyǐ bāng wǒ ná xīguǎn ma?",
+    "pinyin_numeric": "ke3 yi3 bang1 wo3 na2 xi1 guan3 ma0",
+    "translation_en": "Can you help me get a straw?",
+    "translation_ko": "빨대 좀 가져다 주실 수 있나요?",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_CAN_REQUEST"
+    ],
+    "audio_id": "AUD_SEN_D31_068",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_069",
+    "text": "可以給我半糖的豆漿嗎？",
+    "pinyin": "Kěyǐ gěi wǒ bàn táng de dòujiāng ma?",
+    "pinyin_numeric": "ke3 yi3 gei3 wo3 ban4 tang2 de0 dou4 jiang1 ma0",
+    "translation_en": "Can you give me half-sugar soy milk?",
+    "translation_ko": "반당 두유 주실 수 있나요?",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_CAN_REQUEST"
+    ],
+    "audio_id": "AUD_SEN_D31_069",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_070",
+    "text": "可以幫我外帶嗎？",
+    "pinyin": "Kěyǐ bāng wǒ wàidài ma?",
+    "pinyin_numeric": "ke3 yi3 bang1 wo3 wai4 dai4 ma0",
+    "translation_en": "Can you help me with takeout?",
+    "translation_ko": "포장해 주실 수 있나요?",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_CAN_REQUEST"
+    ],
+    "audio_id": "AUD_SEN_D31_070",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_071",
+    "text": "我想要一杯小杯的拿鐵。",
+    "pinyin": "Wǒ xiǎng yào yī bēi xiǎo bēi de ná tiě.",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 xiao3 bei1 de0 na2 tie3.",
+    "translation_en": "I would like a small latte.",
+    "translation_ko": "작은 라떼 한 잔을 원합니다.",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_WANT_OBJECT"
+    ],
+    "audio_id": "AUD_SEN_D31_071",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_072",
+    "text": "我想要一杯中杯的紅茶，半糖。",
+    "pinyin": "Wǒ xiǎng yào yī bēi zhōng bēi de hóng chá, bàn táng.",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 zhong1 bei1 de0 hong2 cha2, ban4 tang2.",
+    "translation_en": "I would like a medium black tea, half sugar.",
+    "translation_ko": "중간 크기의 홍차 한 잔, 반당으로 부탁합니다.",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_WANT_OBJECT"
+    ],
+    "audio_id": "AUD_SEN_D31_072",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_074",
+    "text": "我想要一杯豆漿，少冰。",
+    "pinyin": "Wǒ xiǎng yào yī bēi dòu jiāng, shǎo bīng.",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 dou4 jiang1, shao3 bing1.",
+    "translation_en": "I would like a cup of soy milk, less ice.",
+    "translation_ko": "두유 한 잔, 얼음 적게 주세요.",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_WANT_OBJECT"
+    ],
+    "audio_id": "AUD_SEN_D31_074",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_075",
+    "text": "我想要一杯拿鐵，加珍珠。",
+    "pinyin": "Wǒ xiǎng yào yī bēi ná tiě, jiā zhēn zhū.",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 na2 tie3, jia1 zhen1 zhu1.",
+    "translation_en": "I would like a latte with tapioca pearls.",
+    "translation_ko": "라떼 한 잔에 타피오카 펄을 추가해 주세요.",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_WANT_OBJECT"
+    ],
+    "audio_id": "AUD_SEN_D31_075",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_076",
+    "text": "我想要一杯小杯的紅茶，微糖。",
+    "pinyin": "Wǒ xiǎng yào yī bēi xiǎo bēi de hóng chá, wēi táng.",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 xiao3 bei1 de0 hong2 cha2, wei1 tang2.",
+    "translation_en": "I would like a small black tea, low sugar.",
+    "translation_ko": "작은 홍차 한 잔, 당도 약간만 부탁합니다.",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_WANT_OBJECT"
+    ],
+    "audio_id": "AUD_SEN_D31_076",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_077",
+    "text": "我想要一杯中杯的綠茶，正常甜。",
+    "pinyin": "Wǒ xiǎng yào yī bēi zhōng bēi de lǜ chá, zhèng cháng tián.",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 zhong1 bei1 de0 lü4 cha2, zheng4 chang2 tian2.",
+    "translation_en": "I would like a medium green tea, regular sweetness.",
+    "translation_ko": "중간 크기의 녹차 한 잔, 보통 당도로 주세요.",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_WANT_OBJECT"
+    ],
+    "audio_id": "AUD_SEN_D31_077",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_078",
+    "text": "我想要一杯大杯的豆漿，冰。",
+    "pinyin": "Wǒ xiǎng yào yī bēi dà bēi de dòu jiāng, bīng.",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 da4 bei1 de0 dou4 jiang1, bing1.",
+    "translation_en": "I would like a large soy milk, iced.",
+    "translation_ko": "큰 두유 한 잔, 얼음 넣어 주세요.",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_WANT_OBJECT"
+    ],
+    "audio_id": "AUD_SEN_D31_078",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_079",
+    "text": "我想要一杯小杯的拿鐵，半糖，少冰。",
+    "pinyin": "Wǒ xiǎng yào yī bēi xiǎo bēi de ná tiě, bàn táng, shǎo bīng.",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 xiao3 bei1 de0 na2 tie3, ban4 tang2, shao3 bing1.",
+    "translation_en": "I would like a small latte, half sugar, less ice.",
+    "translation_ko": "작은 라떼 한 잔, 반당, 얼음 적게 주세요.",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_WANT_OBJECT"
+    ],
+    "audio_id": "AUD_SEN_D31_079",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_080",
+    "text": "我想要一杯中杯的紅茶，加珍珠，去冰。",
+    "pinyin": "Wǒ xiǎng yào yī bēi zhōng bēi de hóng chá, jiā zhēn zhū, qù bīng.",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 zhong1 bei1 de0 hong2 cha2, jia1 zhen1 zhu1, qu4 bing1.",
+    "translation_en": "I would like a medium black tea with tapioca pearls, no ice.",
+    "translation_ko": "중간 크기의 홍차 한 잔에 타피오카 펄 추가, 얼음 없이 주세요.",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_WANT_OBJECT"
+    ],
+    "audio_id": "AUD_SEN_D31_080",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_081",
+    "text": "不好意思，我想要一杯小杯的拿鐵。",
+    "pinyin": "Bù hǎo yì si, wǒ xiǎng yào yī bēi xiǎo bēi de ná tiě.",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, wo3 xiang3 yao4 yi1 bei1 xiao3 bei1 de0 na2 tie3.",
+    "translation_en": "Excuse me, I would like a small latte.",
+    "translation_ko": "실례합니다, 작은 라떼 한 잔을 원합니다.",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_POLITE_SOFTENER"
+    ],
+    "audio_id": "AUD_SEN_D31_081",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_082",
+    "text": "不好意思，麻煩給我一個袋子。",
+    "pinyin": "Bù hǎo yì si, má fan gěi wǒ yī gè dài zi.",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, ma2 fan0 gei3 wo3 yi1 ge4 dai4 zi0.",
+    "translation_en": "Excuse me, could you please give me a bag?",
+    "translation_ko": "실례합니다, 봉투 하나 주시겠어요?",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_POLITE_SOFTENER"
+    ],
+    "audio_id": "AUD_SEN_D31_082",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_083",
+    "text": "不好意思，請問這個價錢是多少？",
+    "pinyin": "Bù hǎo yì si, qǐng wèn zhè ge jià qián shì duō shǎo?",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, qing3 wen4 zhe4 ge4 jia4 qian2 shi4 duo1 shao3?",
+    "translation_en": "Excuse me, how much does this cost?",
+    "translation_ko": "실례합니다, 이 가격이 얼마인가요?",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_POLITE_SOFTENER"
+    ],
+    "audio_id": "AUD_SEN_D31_083",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_084",
+    "text": "不好意思，我要一杯紅茶，半糖少冰。",
+    "pinyin": "Bù hǎo yì si, wǒ yào yī bēi hóng chá, bàn táng shǎo bīng.",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, wo3 yao4 yi1 bei1 hong2 cha2, ban4 tang2 shao3 bing1.",
+    "translation_en": "Excuse me, I'd like a black tea, half sugar and less ice.",
+    "translation_ko": "실례합니다, 홍차 한 잔에 당도 반, 얼음 적게 주세요.",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_POLITE_SOFTENER"
+    ],
+    "audio_id": "AUD_SEN_D31_084",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_085",
+    "text": "不好意思，可以幫我加珍珠嗎？",
+    "pinyin": "Bù hǎo yì si, kě yǐ bāng wǒ jiā zhēn zhū ma?",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, ke3 yi3 bang1 wo3 jia1 zhen1 zhu1 ma0?",
+    "translation_en": "Excuse me, could you add boba pearls for me?",
+    "translation_ko": "실례합니다, 타피오카 펄을 추가해 주시겠어요?",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_POLITE_SOFTENER"
+    ],
+    "audio_id": "AUD_SEN_D31_085",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_086",
+    "text": "不好意思，我要外帶一杯綠茶。",
+    "pinyin": "Bù hǎo yì si, wǒ yào wài dài yī bēi lǜ chá.",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, wo3 yao4 wai4 dai4 yi1 bei1 lü4 cha2.",
+    "translation_en": "Excuse me, I'd like a green tea to go.",
+    "translation_ko": "실례합니다, 녹차 한 잔 포장해 주세요.",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_POLITE_SOFTENER"
+    ],
+    "audio_id": "AUD_SEN_D31_086",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_087",
+    "text": "不好意思，請給我一根吸管。",
+    "pinyin": "Bù hǎo yì si, qǐng gěi wǒ yī gēn xī guǎn.",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, qing3 gei3 wo3 yi1 gen1 xi1 guan3.",
+    "translation_en": "Excuse me, please give me a straw.",
+    "translation_ko": "실례합니다, 빨대 하나 주세요.",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_POLITE_SOFTENER"
+    ],
+    "audio_id": "AUD_SEN_D31_087",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_088",
+    "text": "不好意思，我要內用一杯豆漿。",
+    "pinyin": "Bù hǎo yì si, wǒ yào nèi yòng yī bēi dòu jiāng.",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, wo3 yao4 nei4 yong4 yi1 bei1 dou4 jiang1.",
+    "translation_en": "Excuse me, I'd like a soy milk for here.",
+    "translation_ko": "실례합니다, 두유 한 잔 매장에서 먹겠습니다.",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_POLITE_SOFTENER"
+    ],
+    "audio_id": "AUD_SEN_D31_088",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_089",
+    "text": "不好意思，可以再說一次嗎？我聽不懂。",
+    "pinyin": "Bù hǎo yì si, kě yǐ zài shuō yī cì ma? Wǒ tīng bù dǒng.",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, ke3 yi3 zai4 shuo1 yi1 ci4 ma0? Wo3 ting1 bu4 dong3.",
+    "translation_en": "Excuse me, could you say that again? I didn't understand.",
+    "translation_ko": "실례합니다, 한 번 더 말씀해 주시겠어요? 이해하지 못했어요.",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_POLITE_SOFTENER"
+    ],
+    "audio_id": "AUD_SEN_D31_089",
+    "day_introduced": 31
+  },
+  {
+    "id": "SEN_D31_090",
+    "text": "不好意思，我要一杯大杯的拿鐵，正常甜去冰。",
+    "pinyin": "Bù hǎo yì si, wǒ yào yī bēi dà bēi de ná tiě, zhèng cháng tián qù bīng.",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, wo3 yao4 yi1 bei1 da4 bei1 de0 na2 tie3, zheng4 chang2 tian2 qu4 bing1.",
+    "translation_en": "Excuse me, I'd like a large latte with regular sweetness and no ice.",
+    "translation_ko": "실례합니다, 큰 라떼 한 잔에 당도 보통, 얼음 없이 주세요.",
+    "token_ids": [],
+    "grammar_ids": [
+      "GR_D31_POLITE_SOFTENER"
+    ],
+    "audio_id": "AUD_SEN_D31_090",
+    "day_introduced": 31
   }
 ]

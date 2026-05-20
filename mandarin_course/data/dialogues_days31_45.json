@@ -1,413 +1,5 @@
 [
   {
-    "id": "DLG_D31_01",
-    "lesson_id": "LESSON_D31",
-    "scenario": "counter_ordering",
-    "speaker_roles": [
-      "customer",
-      "staff"
-    ],
-    "grammar_ids": [
-      "GR_D31_CAN_REQUEST"
-    ],
-    "turns": [
-      {
-        "id": "DLG_D31_01_T1",
-        "speaker": "customer",
-        "text": "不好意思我想要小杯。",
-        "pinyin": "bùhǎoyìsi wǒ xiǎng yào xiǎo bēi.",
-        "pinyin_numeric": "bu4 hao3 yi4 si0 wo3 xiang3 yao4 xiao3 bei1",
-        "translation_en": "Excuse me, I would like this item.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D31_020",
-          "VOC_M1_002",
-          "VOC_D31_001",
-          "VOC_D31_006"
-        ],
-        "audio_id": "AUD_DLG_D31_01_T1"
-      },
-      {
-        "id": "DLG_D31_01_T2",
-        "speaker": "staff",
-        "text": "可以嗎？",
-        "pinyin": "kěyǐ ma?",
-        "pinyin_numeric": "keyi3 ma0",
-        "translation_en": "Is that okay?",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_M1_118",
-          "VOC_M1_016"
-        ],
-        "audio_id": "AUD_DLG_D31_01_T2"
-      },
-      {
-        "id": "DLG_D31_01_T3",
-        "speaker": "customer",
-        "text": "可以請給我紅茶。",
-        "pinyin": "kěyǐ qǐng gěi wǒ hóngchá.",
-        "pinyin_numeric": "keyi3 qing3 gei3 wo3 hong2 cha2",
-        "translation_en": "Yes, please give me the second item.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_M1_118",
-          "VOC_M1_179",
-          "VOC_D31_005",
-          "VOC_D31_011"
-        ],
-        "audio_id": "AUD_DLG_D31_01_T3"
-      },
-      {
-        "id": "DLG_D31_01_T4",
-        "speaker": "staff",
-        "text": "需要小杯嗎？",
-        "pinyin": "xūyào xiǎo bēi ma?",
-        "pinyin_numeric": "xuyao4 xiao3 bei1 ma0",
-        "translation_en": "Do you need this item?",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_M1_171",
-          "VOC_D31_006",
-          "VOC_M1_016"
-        ],
-        "audio_id": "AUD_DLG_D31_01_T4"
-      },
-      {
-        "id": "DLG_D31_01_T5",
-        "speaker": "customer",
-        "text": "不用謝謝。",
-        "pinyin": "búyòng xièxie.",
-        "pinyin_numeric": "bu2 yong4 xie4 xie0",
-        "translation_en": "No need, thank you.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D31_002",
-          "VOC_D31_003"
-        ],
-        "audio_id": "AUD_DLG_D31_01_T5"
-      },
-      {
-        "id": "DLG_D31_01_T6",
-        "speaker": "staff",
-        "text": "好沒問題。",
-        "pinyin": "hǎo méi wèntí.",
-        "pinyin_numeric": "hao3 mei2 wen4 ti2",
-        "translation_en": "Okay, no problem.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_M1_088",
-          "VOC_D31_035"
-        ],
-        "audio_id": "AUD_DLG_D31_01_T6"
-      }
-    ],
-    "audio_ids": [
-      "AUD_DLG_D31_01_T1",
-      "AUD_DLG_D31_01_T2",
-      "AUD_DLG_D31_01_T3",
-      "AUD_DLG_D31_01_T4",
-      "AUD_DLG_D31_01_T5",
-      "AUD_DLG_D31_01_T6"
-    ],
-    "comprehension_questions": [
-      {
-        "id": "DLG_D31_01_Q1",
-        "question_en": "What does the customer want?",
-        "answer_en": "small cup"
-      },
-      {
-        "id": "DLG_D31_01_Q2",
-        "question_en": "How does the customer respond politely?",
-        "answer_en": "The customer uses 不好意思, 請, and 謝謝."
-      }
-    ],
-    "speaking_shadowing_prompts": [
-      "不好意思我想要小杯。",
-      "可以嗎？",
-      "可以請給我紅茶。",
-      "需要小杯嗎？",
-      "不用謝謝。",
-      "好沒問題。"
-    ],
-    "free_response_branching_prompts": [
-      "Change the requested item and say the turn again.",
-      "Ask one clarification question.",
-      "Politely reject one option."
-    ]
-  },
-  {
-    "id": "DLG_D31_02",
-    "lesson_id": "LESSON_D31",
-    "scenario": "clarifying_price",
-    "speaker_roles": [
-      "customer",
-      "staff"
-    ],
-    "grammar_ids": [
-      "GR_D31_WANT_OBJECT"
-    ],
-    "turns": [
-      {
-        "id": "DLG_D31_02_T1",
-        "speaker": "customer",
-        "text": "不好意思我想要中杯。",
-        "pinyin": "bùhǎoyìsi wǒ xiǎng yào zhōng bēi.",
-        "pinyin_numeric": "bu4 hao3 yi4 si0 wo3 xiang3 yao4 zhong1 bei1",
-        "translation_en": "Excuse me, I would like this item.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D31_020",
-          "VOC_M1_002",
-          "VOC_D31_001",
-          "VOC_D31_007"
-        ],
-        "audio_id": "AUD_DLG_D31_02_T1"
-      },
-      {
-        "id": "DLG_D31_02_T2",
-        "speaker": "staff",
-        "text": "可以嗎？",
-        "pinyin": "kěyǐ ma?",
-        "pinyin_numeric": "keyi3 ma0",
-        "translation_en": "Is that okay?",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_M1_118",
-          "VOC_M1_016"
-        ],
-        "audio_id": "AUD_DLG_D31_02_T2"
-      },
-      {
-        "id": "DLG_D31_02_T3",
-        "speaker": "customer",
-        "text": "可以請給我綠茶。",
-        "pinyin": "kěyǐ qǐng gěi wǒ lǜchá.",
-        "pinyin_numeric": "keyi3 qing3 gei3 wo3 lü4 cha2",
-        "translation_en": "Yes, please give me the second item.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_M1_118",
-          "VOC_M1_179",
-          "VOC_D31_005",
-          "VOC_D31_012"
-        ],
-        "audio_id": "AUD_DLG_D31_02_T3"
-      },
-      {
-        "id": "DLG_D31_02_T4",
-        "speaker": "staff",
-        "text": "需要中杯嗎？",
-        "pinyin": "xūyào zhōng bēi ma?",
-        "pinyin_numeric": "xuyao4 zhong1 bei1 ma0",
-        "translation_en": "Do you need this item?",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_M1_171",
-          "VOC_D31_007",
-          "VOC_M1_016"
-        ],
-        "audio_id": "AUD_DLG_D31_02_T4"
-      },
-      {
-        "id": "DLG_D31_02_T5",
-        "speaker": "customer",
-        "text": "不用謝謝。",
-        "pinyin": "búyòng xièxie.",
-        "pinyin_numeric": "bu2 yong4 xie4 xie0",
-        "translation_en": "No need, thank you.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D31_002",
-          "VOC_D31_003"
-        ],
-        "audio_id": "AUD_DLG_D31_02_T5"
-      },
-      {
-        "id": "DLG_D31_02_T6",
-        "speaker": "staff",
-        "text": "好沒問題。",
-        "pinyin": "hǎo méi wèntí.",
-        "pinyin_numeric": "hao3 mei2 wen4 ti2",
-        "translation_en": "Okay, no problem.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_M1_088",
-          "VOC_D31_035"
-        ],
-        "audio_id": "AUD_DLG_D31_02_T6"
-      }
-    ],
-    "audio_ids": [
-      "AUD_DLG_D31_02_T1",
-      "AUD_DLG_D31_02_T2",
-      "AUD_DLG_D31_02_T3",
-      "AUD_DLG_D31_02_T4",
-      "AUD_DLG_D31_02_T5",
-      "AUD_DLG_D31_02_T6"
-    ],
-    "comprehension_questions": [
-      {
-        "id": "DLG_D31_02_Q1",
-        "question_en": "What does the customer want?",
-        "answer_en": "medium cup"
-      },
-      {
-        "id": "DLG_D31_02_Q2",
-        "question_en": "How does the customer respond politely?",
-        "answer_en": "The customer uses 不好意思, 請, and 謝謝."
-      }
-    ],
-    "speaking_shadowing_prompts": [
-      "不好意思我想要中杯。",
-      "可以嗎？",
-      "可以請給我綠茶。",
-      "需要中杯嗎？",
-      "不用謝謝。",
-      "好沒問題。"
-    ],
-    "free_response_branching_prompts": [
-      "Change the requested item and say the turn again.",
-      "Ask one clarification question.",
-      "Politely reject one option."
-    ]
-  },
-  {
-    "id": "DLG_D31_03",
-    "lesson_id": "LESSON_D31",
-    "scenario": "polite_request_retry",
-    "speaker_roles": [
-      "customer",
-      "staff"
-    ],
-    "grammar_ids": [
-      "GR_D31_POLITE_SOFTENER"
-    ],
-    "turns": [
-      {
-        "id": "DLG_D31_03_T1",
-        "speaker": "customer",
-        "text": "不好意思我想要大杯。",
-        "pinyin": "bùhǎoyìsi wǒ xiǎng yào dà bēi.",
-        "pinyin_numeric": "bu4 hao3 yi4 si0 wo3 xiang3 yao4 da4 bei1",
-        "translation_en": "Excuse me, I would like this item.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D31_020",
-          "VOC_M1_002",
-          "VOC_D31_001",
-          "VOC_D31_008"
-        ],
-        "audio_id": "AUD_DLG_D31_03_T1"
-      },
-      {
-        "id": "DLG_D31_03_T2",
-        "speaker": "staff",
-        "text": "可以嗎？",
-        "pinyin": "kěyǐ ma?",
-        "pinyin_numeric": "keyi3 ma0",
-        "translation_en": "Is that okay?",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_M1_118",
-          "VOC_M1_016"
-        ],
-        "audio_id": "AUD_DLG_D31_03_T2"
-      },
-      {
-        "id": "DLG_D31_03_T3",
-        "speaker": "customer",
-        "text": "可以請給我冰。",
-        "pinyin": "kěyǐ qǐng gěi wǒ bīng.",
-        "pinyin_numeric": "keyi3 qing3 gei3 wo3 bing1",
-        "translation_en": "Yes, please give me the second item.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_M1_118",
-          "VOC_M1_179",
-          "VOC_D31_005",
-          "VOC_D31_013"
-        ],
-        "audio_id": "AUD_DLG_D31_03_T3"
-      },
-      {
-        "id": "DLG_D31_03_T4",
-        "speaker": "staff",
-        "text": "需要大杯嗎？",
-        "pinyin": "xūyào dà bēi ma?",
-        "pinyin_numeric": "xuyao4 da4 bei1 ma0",
-        "translation_en": "Do you need this item?",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_M1_171",
-          "VOC_D31_008",
-          "VOC_M1_016"
-        ],
-        "audio_id": "AUD_DLG_D31_03_T4"
-      },
-      {
-        "id": "DLG_D31_03_T5",
-        "speaker": "customer",
-        "text": "不用謝謝。",
-        "pinyin": "búyòng xièxie.",
-        "pinyin_numeric": "bu2 yong4 xie4 xie0",
-        "translation_en": "No need, thank you.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D31_002",
-          "VOC_D31_003"
-        ],
-        "audio_id": "AUD_DLG_D31_03_T5"
-      },
-      {
-        "id": "DLG_D31_03_T6",
-        "speaker": "staff",
-        "text": "好沒問題。",
-        "pinyin": "hǎo méi wèntí.",
-        "pinyin_numeric": "hao3 mei2 wen4 ti2",
-        "translation_en": "Okay, no problem.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_M1_088",
-          "VOC_D31_035"
-        ],
-        "audio_id": "AUD_DLG_D31_03_T6"
-      }
-    ],
-    "audio_ids": [
-      "AUD_DLG_D31_03_T1",
-      "AUD_DLG_D31_03_T2",
-      "AUD_DLG_D31_03_T3",
-      "AUD_DLG_D31_03_T4",
-      "AUD_DLG_D31_03_T5",
-      "AUD_DLG_D31_03_T6"
-    ],
-    "comprehension_questions": [
-      {
-        "id": "DLG_D31_03_Q1",
-        "question_en": "What does the customer want?",
-        "answer_en": "large cup"
-      },
-      {
-        "id": "DLG_D31_03_Q2",
-        "question_en": "How does the customer respond politely?",
-        "answer_en": "The customer uses 不好意思, 請, and 謝謝."
-      }
-    ],
-    "speaking_shadowing_prompts": [
-      "不好意思我想要大杯。",
-      "可以嗎？",
-      "可以請給我冰。",
-      "需要大杯嗎？",
-      "不用謝謝。",
-      "好沒問題。"
-    ],
-    "free_response_branching_prompts": [
-      "Change the requested item and say the turn again.",
-      "Ask one clarification question.",
-      "Politely reject one option."
-    ]
-  },
-  {
     "id": "DLG_D32_01",
     "lesson_id": "LESSON_D32",
     "scenario": "checkout",
@@ -6118,5 +5710,295 @@
       "Ask one clarification question.",
       "Politely reject one option."
     ]
+  },
+  {
+    "id": "DLG_D31_01",
+    "lesson_id": "LESSON_D31",
+    "title": "在咖啡店點飲料",
+    "scenario": "asking for something at a café or shop",
+    "turns": [
+      {
+        "id": "DLG_D31_01_T1",
+        "speaker": "店員",
+        "text": "你好，請問想要喝什麼？",
+        "pinyin": "Nǐ hǎo, qǐng wèn xiǎng yào hē shénme?",
+        "pinyin_numeric": "Ni3 hao3, qing3 wen4 xiang3 yao4 he1 shen2 me?",
+        "translation_en": "Hello, what would you like to drink?",
+        "translation_ko": "안녕하세요, 무엇을 드시겠어요?",
+        "token_ids": [],
+        "audio_id": "AUD_DLG_D31_01_T1"
+      },
+      {
+        "id": "DLG_D31_01_T2",
+        "speaker": "客人",
+        "text": "你好，我想要一杯小杯的拿鐵，少冰。",
+        "pinyin": "Nǐ hǎo, wǒ xiǎng yào yī bēi xiǎo bēi de ná tiě, shǎo bīng.",
+        "pinyin_numeric": "Ni3 hao3, wo3 xiang3 yao4 yi1 bei1 xiao3 bei1 de na2 tie3, shao3 bing1.",
+        "translation_en": "Hello, I'd like a small latte with less ice.",
+        "translation_ko": "안녕하세요, 작은 사이즈 라떼 한 잔에 얼음 적게 해 주세요.",
+        "token_ids": [],
+        "audio_id": "AUD_DLG_D31_01_T2"
+      },
+      {
+        "id": "DLG_D31_01_T3",
+        "speaker": "店員",
+        "text": "好的，拿鐵小杯少冰。請問還要別的嗎？",
+        "pinyin": "Hǎo de, ná tiě xiǎo bēi shǎo bīng. Qǐng wèn hái yào bié de ma?",
+        "pinyin_numeric": "Hao3 de, na2 tie3 xiao3 bei1 shao3 bing1. Qing3 wen4 hai2 yao4 bie2 de ma?",
+        "translation_en": "Okay, small latte with less ice. Anything else?",
+        "translation_ko": "네, 작은 라떼에 얼음 적게요. 다른 것도 필요하신가요?",
+        "token_ids": [],
+        "audio_id": "AUD_DLG_D31_01_T3"
+      },
+      {
+        "id": "DLG_D31_01_T4",
+        "speaker": "客人",
+        "text": "不用了，謝謝。這樣就好。",
+        "pinyin": "Bù yòng le, xiè xiè. Zhè yàng jiù hǎo.",
+        "pinyin_numeric": "Bu4 yong4 le, xie4 xie4. Zhe4 yang4 jiu4 hao3.",
+        "translation_en": "No, thank you. That's all.",
+        "translation_ko": "괜찮습니다, 감사합니다. 이걸로 됐어요.",
+        "token_ids": [],
+        "audio_id": "AUD_DLG_D31_01_T4"
+      },
+      {
+        "id": "DLG_D31_01_T5",
+        "speaker": "店員",
+        "text": "好的，總共是八十塊。內用還是外帶？",
+        "pinyin": "Hǎo de, zǒng gòng shì bā shí kuài. Nèi yòng hái shì wài dài?",
+        "pinyin_numeric": "Hao3 de, zong3 gong4 shi4 ba1 shi2 kuai4. Nei4 yong4 hai2 shi4 wai4 dai4?",
+        "translation_en": "Okay, that's 80 dollars total. For here or to go?",
+        "translation_ko": "네, 총 80위안입니다. 드시고 가시나요, 포장하시나요?",
+        "token_ids": [],
+        "audio_id": "AUD_DLG_D31_01_T5"
+      },
+      {
+        "id": "DLG_D31_01_T6",
+        "speaker": "客人",
+        "text": "外帶，麻煩你。",
+        "pinyin": "Wài dài, má fan nǐ.",
+        "pinyin_numeric": "Wai4 dai4, ma2 fan5 ni3.",
+        "translation_en": "To go, please.",
+        "translation_ko": "포장해 주세요.",
+        "token_ids": [],
+        "audio_id": "AUD_DLG_D31_01_T6"
+      },
+      {
+        "id": "DLG_D31_01_T7",
+        "speaker": "店員",
+        "text": "沒問題，請等一下。",
+        "pinyin": "Méi wèn tí, qǐng děng yī xià.",
+        "pinyin_numeric": "Mei2 wen4 ti2, qing3 deng3 yi1 xia4.",
+        "translation_en": "No problem, please wait a moment.",
+        "translation_ko": "문제없습니다, 잠시만 기다려 주세요.",
+        "token_ids": [],
+        "audio_id": "AUD_DLG_D31_01_T7"
+      }
+    ],
+    "comprehension_questions": [
+      {
+        "question_en": "What did the customer order?",
+        "question_ko": "손님은 무엇을 주문했습니까?",
+        "options_en": [
+          "Small latte with less ice",
+          "Medium latte with no ice",
+          "Large latte with ice"
+        ],
+        "options_ko": [
+          "작은 라떼에 얼음 적게",
+          "중간 라떼에 얼음 없이",
+          "큰 라떼에 얼음 많이"
+        ],
+        "correct_index": 0
+      }
+    ],
+    "shadowing_prompt": "Repeat each line after the speaker, focusing on tone and rhythm.",
+    "free_response_prompt": "Pretend you are the customer. Order a small latte with less ice for takeout."
+  },
+  {
+    "id": "DLG_D31_02",
+    "lesson_id": "LESSON_D31",
+    "title": "確認價錢",
+    "scenario": "asking for something at a café or shop",
+    "turns": [
+      {
+        "id": "DLG_D31_02_T1",
+        "speaker": "客人",
+        "text": "不好意思，請問這個紅茶大杯的價錢是多少？",
+        "pinyin": "Bù hǎo yì si, qǐng wèn zhè ge hóng chá dà bēi de jià qián shì duō shǎo?",
+        "pinyin_numeric": "Bu4 hao3 yi4 si5, qing3 wen4 zhe4 ge5 hong2 cha2 da4 bei1 de jia4 qian2 shi4 duo1 shao3?",
+        "translation_en": "Excuse me, how much is this large black tea?",
+        "translation_ko": "실례합니다, 이 홍차 큰 사이즈는 가격이 얼마인가요?",
+        "token_ids": [],
+        "audio_id": "AUD_DLG_D31_02_T1"
+      },
+      {
+        "id": "DLG_D31_02_T2",
+        "speaker": "店員",
+        "text": "大杯紅茶是三十五塊。",
+        "pinyin": "Dà bēi hóng chá shì sān shí wǔ kuài.",
+        "pinyin_numeric": "Da4 bei1 hong2 cha2 shi4 san1 shi2 wu3 kuai4.",
+        "translation_en": "The large black tea is 35 dollars.",
+        "translation_ko": "큰 홍차는 35위안입니다.",
+        "token_ids": [],
+        "audio_id": "AUD_DLG_D31_02_T2"
+      },
+      {
+        "id": "DLG_D31_02_T3",
+        "speaker": "客人",
+        "text": "那中杯的呢？",
+        "pinyin": "Nà zhōng bēi de ne?",
+        "pinyin_numeric": "Na4 zhong1 bei1 de ne?",
+        "translation_en": "And the medium?",
+        "translation_ko": "그럼 중간 사이즈는요?",
+        "token_ids": [],
+        "audio_id": "AUD_DLG_D31_02_T3"
+      },
+      {
+        "id": "DLG_D31_02_T4",
+        "speaker": "店員",
+        "text": "中杯是二十五塊。",
+        "pinyin": "Zhōng bēi shì èr shí wǔ kuài.",
+        "pinyin_numeric": "Zhong1 bei1 shi4 er4 shi2 wu3 kuai4.",
+        "translation_en": "The medium is 25 dollars.",
+        "translation_ko": "중간 사이즈는 25위안입니다.",
+        "token_ids": [],
+        "audio_id": "AUD_DLG_D31_02_T4"
+      },
+      {
+        "id": "DLG_D31_02_T5",
+        "speaker": "客人",
+        "text": "好，我要一杯中杯紅茶，少冰，半糖。",
+        "pinyin": "Hǎo, wǒ yào yī bēi zhōng bēi hóng chá, shǎo bīng, bàn táng.",
+        "pinyin_numeric": "Hao3, wo3 yao4 yi1 bei1 zhong1 bei1 hong2 cha2, shao3 bing1, ban4 tang2.",
+        "translation_en": "Okay, I'll have a medium black tea, less ice, half sugar.",
+        "translation_ko": "네, 중간 사이즈 홍차 한 잔에 얼음 적게, 반 당으로 주세요.",
+        "token_ids": [],
+        "audio_id": "AUD_DLG_D31_02_T5"
+      },
+      {
+        "id": "DLG_D31_02_T6",
+        "speaker": "店員",
+        "text": "好的，中杯紅茶少冰半糖，總共二十五塊。",
+        "pinyin": "Hǎo de, zhōng bēi hóng chá shǎo bīng bàn táng, zǒng gòng èr shí wǔ kuài.",
+        "pinyin_numeric": "Hao3 de, zhong1 bei1 hong2 cha2 shao3 bing1 ban4 tang2, zong3 gong4 er4 shi2 wu3 kuai4.",
+        "translation_en": "Okay, medium black tea with less ice and half sugar, total 25 dollars.",
+        "translation_ko": "네, 중간 사이즈 홍차에 얼음 적게, 반 당, 총 25위안입니다.",
+        "token_ids": [],
+        "audio_id": "AUD_DLG_D31_02_T6"
+      }
+    ],
+    "comprehension_questions": [
+      {
+        "question_en": "How much is the medium black tea?",
+        "question_ko": "중간 사이즈 홍차는 얼마입니까?",
+        "options_en": [
+          "35 dollars",
+          "25 dollars",
+          "30 dollars"
+        ],
+        "options_ko": [
+          "35위안",
+          "25위안",
+          "30위안"
+        ],
+        "correct_index": 1
+      }
+    ],
+    "shadowing_prompt": "Repeat each line after the speaker, focusing on polite intonation.",
+    "free_response_prompt": "Pretend you are the customer. Ask for the price of a large black tea, then order a medium with less ice and half sugar."
+  },
+  {
+    "id": "DLG_D31_03",
+    "lesson_id": "LESSON_D31",
+    "title": "請再說一次",
+    "scenario": "asking for something at a café or shop",
+    "turns": [
+      {
+        "id": "DLG_D31_03_T1",
+        "speaker": "店員",
+        "text": "你好，請問想要喝什麼？",
+        "pinyin": "Nǐ hǎo, qǐng wèn xiǎng yào hē shénme?",
+        "pinyin_numeric": "Ni3 hao3, qing3 wen4 xiang3 yao4 he1 shen2 me?",
+        "translation_en": "Hello, what would you like to drink?",
+        "translation_ko": "안녕하세요, 무엇을 드시겠어요?",
+        "token_ids": [],
+        "audio_id": "AUD_DLG_D31_03_T1"
+      },
+      {
+        "id": "DLG_D31_03_T2",
+        "speaker": "客人",
+        "text": "不好意思，可以再說一次嗎？請說慢一點。",
+        "pinyin": "Bù hǎo yì si, kě yǐ zài shuō yī cì ma? Qǐng shuō màn yī diǎn.",
+        "pinyin_numeric": "Bu4 hao3 yi4 si5, ke3 yi3 zai4 shuo1 yi1 ci4 ma? Qing3 shuo1 man4 yi1 dian3.",
+        "translation_en": "Excuse me, could you say that again? Please speak a little slower.",
+        "translation_ko": "실례합니다, 한 번 더 말씀해 주시겠어요? 조금 천천히 말씀해 주세요.",
+        "token_ids": [],
+        "audio_id": "AUD_DLG_D31_03_T2"
+      },
+      {
+        "id": "DLG_D31_03_T3",
+        "speaker": "店員",
+        "text": "沒問題。請問...想要喝什麼？",
+        "pinyin": "Méi wèn tí. Qǐng wèn... xiǎng yào hē shénme?",
+        "pinyin_numeric": "Mei2 wen4 ti2. Qing3 wen4... xiang3 yao4 he1 shen2 me?",
+        "translation_en": "No problem. What... would you like to drink?",
+        "translation_ko": "문제없습니다. 무엇을... 드시겠어요?",
+        "token_ids": [],
+        "audio_id": "AUD_DLG_D31_03_T3"
+      },
+      {
+        "id": "DLG_D31_03_T4",
+        "speaker": "客人",
+        "text": "謝謝。我想要一杯小杯的豆漿，去冰。",
+        "pinyin": "Xiè xiè. Wǒ xiǎng yào yī bēi xiǎo bēi de dòu jiāng, qù bīng.",
+        "pinyin_numeric": "Xie4 xie4. Wo3 xiang3 yao4 yi1 bei1 xiao3 bei1 de dou4 jiang1, qu4 bing1.",
+        "translation_en": "Thank you. I'd like a small soy milk, no ice.",
+        "translation_ko": "감사합니다. 작은 사이즈 두유 한 잔에 얼음 빼 주세요.",
+        "token_ids": [],
+        "audio_id": "AUD_DLG_D31_03_T4"
+      },
+      {
+        "id": "DLG_D31_03_T5",
+        "speaker": "店員",
+        "text": "好的，小杯豆漿去冰。還要別的嗎？",
+        "pinyin": "Hǎo de, xiǎo bēi dòu jiāng qù bīng. Hái yào bié de ma?",
+        "pinyin_numeric": "Hao3 de, xiao3 bei1 dou4 jiang1 qu4 bing1. Hai2 yao4 bie2 de ma?",
+        "translation_en": "Okay, small soy milk no ice. Anything else?",
+        "translation_ko": "네, 작은 두유에 얼음 빼기요. 다른 것도 필요하신가요?",
+        "token_ids": [],
+        "audio_id": "AUD_DLG_D31_03_T5"
+      },
+      {
+        "id": "DLG_D31_03_T6",
+        "speaker": "客人",
+        "text": "不用了，謝謝。",
+        "pinyin": "Bù yòng le, xiè xiè.",
+        "pinyin_numeric": "Bu4 yong4 le, xie4 xie4.",
+        "translation_en": "No, thank you.",
+        "translation_ko": "괜찮습니다, 감사합니다.",
+        "token_ids": [],
+        "audio_id": "AUD_DLG_D31_03_T6"
+      }
+    ],
+    "comprehension_questions": [
+      {
+        "question_en": "What did the customer ask the staff to do?",
+        "question_ko": "손님은 직원에게 무엇을 요청했습니까?",
+        "options_en": [
+          "Speak slower and repeat",
+          "Give a discount",
+          "Change the order"
+        ],
+        "options_ko": [
+          "천천히 다시 말해 달라고",
+          "할인해 달라고",
+          "주문을 바꿔 달라고"
+        ],
+        "correct_index": 0
+      }
+    ],
+    "shadowing_prompt": "Repeat each line after the speaker, focusing on the polite request intonation.",
+    "free_response_prompt": "Pretend you are the customer. Politely ask the staff to repeat and speak slower, then order a small soy milk with no ice."
   }
 ]

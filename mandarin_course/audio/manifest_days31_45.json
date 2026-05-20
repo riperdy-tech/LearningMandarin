@@ -1,1472 +1,5 @@
 [
   {
-    "id": "AUD_VOC_D31_001",
-    "kind": "vocab",
-    "ref_id": "VOC_D31_001",
-    "text": "想要",
-    "pinyin_numeric": "xiang3 yao4",
-    "path": "audio/AUD_VOC_D31_001.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_VOC_D31_002",
-    "kind": "vocab",
-    "ref_id": "VOC_D31_002",
-    "text": "不用",
-    "pinyin_numeric": "bu2 yong4",
-    "path": "audio/AUD_VOC_D31_002.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_VOC_D31_003",
-    "kind": "vocab",
-    "ref_id": "VOC_D31_003",
-    "text": "謝謝",
-    "pinyin_numeric": "xie4 xie0",
-    "path": "audio/AUD_VOC_D31_003.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_VOC_D31_004",
-    "kind": "vocab",
-    "ref_id": "VOC_D31_004",
-    "text": "幫我",
-    "pinyin_numeric": "bang1 wo3",
-    "path": "audio/AUD_VOC_D31_004.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_VOC_D31_005",
-    "kind": "vocab",
-    "ref_id": "VOC_D31_005",
-    "text": "給我",
-    "pinyin_numeric": "gei3 wo3",
-    "path": "audio/AUD_VOC_D31_005.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_VOC_D31_006",
-    "kind": "vocab",
-    "ref_id": "VOC_D31_006",
-    "text": "小杯",
-    "pinyin_numeric": "xiao3 bei1",
-    "path": "audio/AUD_VOC_D31_006.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_VOC_D31_007",
-    "kind": "vocab",
-    "ref_id": "VOC_D31_007",
-    "text": "中杯",
-    "pinyin_numeric": "zhong1 bei1",
-    "path": "audio/AUD_VOC_D31_007.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_VOC_D31_008",
-    "kind": "vocab",
-    "ref_id": "VOC_D31_008",
-    "text": "大杯",
-    "pinyin_numeric": "da4 bei1",
-    "path": "audio/AUD_VOC_D31_008.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_VOC_D31_009",
-    "kind": "vocab",
-    "ref_id": "VOC_D31_009",
-    "text": "拿鐵",
-    "pinyin_numeric": "na2 tie3",
-    "path": "audio/AUD_VOC_D31_009.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_VOC_D31_010",
-    "kind": "vocab",
-    "ref_id": "VOC_D31_010",
-    "text": "豆漿",
-    "pinyin_numeric": "dou4 jiang1",
-    "path": "audio/AUD_VOC_D31_010.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_VOC_D31_011",
-    "kind": "vocab",
-    "ref_id": "VOC_D31_011",
-    "text": "紅茶",
-    "pinyin_numeric": "hong2 cha2",
-    "path": "audio/AUD_VOC_D31_011.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_VOC_D31_012",
-    "kind": "vocab",
-    "ref_id": "VOC_D31_012",
-    "text": "綠茶",
-    "pinyin_numeric": "lü4 cha2",
-    "path": "audio/AUD_VOC_D31_012.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_VOC_D31_013",
-    "kind": "vocab",
-    "ref_id": "VOC_D31_013",
-    "text": "冰",
-    "pinyin_numeric": "bing1",
-    "path": "audio/AUD_VOC_D31_013.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_VOC_D31_014",
-    "kind": "vocab",
-    "ref_id": "VOC_D31_014",
-    "text": "少冰",
-    "pinyin_numeric": "shao3 bing1",
-    "path": "audio/AUD_VOC_D31_014.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_VOC_D31_015",
-    "kind": "vocab",
-    "ref_id": "VOC_D31_015",
-    "text": "去冰",
-    "pinyin_numeric": "qu4 bing1",
-    "path": "audio/AUD_VOC_D31_015.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_VOC_D31_016",
-    "kind": "vocab",
-    "ref_id": "VOC_D31_016",
-    "text": "外帶",
-    "pinyin_numeric": "wai4 dai4",
-    "path": "audio/AUD_VOC_D31_016.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_VOC_D31_017",
-    "kind": "vocab",
-    "ref_id": "VOC_D31_017",
-    "text": "內用",
-    "pinyin_numeric": "nei4 yong4",
-    "path": "audio/AUD_VOC_D31_017.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_VOC_D31_018",
-    "kind": "vocab",
-    "ref_id": "VOC_D31_018",
-    "text": "價錢",
-    "pinyin_numeric": "jia4 qian2",
-    "path": "audio/AUD_VOC_D31_018.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_VOC_D31_019",
-    "kind": "vocab",
-    "ref_id": "VOC_D31_019",
-    "text": "麻煩",
-    "pinyin_numeric": "ma2 fan0",
-    "path": "audio/AUD_VOC_D31_019.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_VOC_D31_020",
-    "kind": "vocab",
-    "ref_id": "VOC_D31_020",
-    "text": "不好意思",
-    "pinyin_numeric": "bu4 hao3 yi4 si0",
-    "path": "audio/AUD_VOC_D31_020.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_VOC_D31_021",
-    "kind": "vocab",
-    "ref_id": "VOC_D31_021",
-    "text": "店員",
-    "pinyin_numeric": "dian4 yuan2",
-    "path": "audio/AUD_VOC_D31_021.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_VOC_D31_022",
-    "kind": "vocab",
-    "ref_id": "VOC_D31_022",
-    "text": "客人",
-    "pinyin_numeric": "ke4 ren2",
-    "path": "audio/AUD_VOC_D31_022.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_VOC_D31_023",
-    "kind": "vocab",
-    "ref_id": "VOC_D31_023",
-    "text": "吸管",
-    "pinyin_numeric": "xi1 guan3",
-    "path": "audio/AUD_VOC_D31_023.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_VOC_D31_024",
-    "kind": "vocab",
-    "ref_id": "VOC_D31_024",
-    "text": "湯匙",
-    "pinyin_numeric": "tang1 chi2",
-    "path": "audio/AUD_VOC_D31_024.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_VOC_D31_025",
-    "kind": "vocab",
-    "ref_id": "VOC_D31_025",
-    "text": "叉子",
-    "pinyin_numeric": "cha1 zi0",
-    "path": "audio/AUD_VOC_D31_025.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_VOC_D31_026",
-    "kind": "vocab",
-    "ref_id": "VOC_D31_026",
-    "text": "衛生紙",
-    "pinyin_numeric": "wei4 sheng1 zhi3",
-    "path": "audio/AUD_VOC_D31_026.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_VOC_D31_027",
-    "kind": "vocab",
-    "ref_id": "VOC_D31_027",
-    "text": "半糖",
-    "pinyin_numeric": "ban4 tang2",
-    "path": "audio/AUD_VOC_D31_027.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_VOC_D31_028",
-    "kind": "vocab",
-    "ref_id": "VOC_D31_028",
-    "text": "微糖",
-    "pinyin_numeric": "wei1 tang2",
-    "path": "audio/AUD_VOC_D31_028.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_VOC_D31_029",
-    "kind": "vocab",
-    "ref_id": "VOC_D31_029",
-    "text": "正常甜",
-    "pinyin_numeric": "zheng4 chang2 tian2",
-    "path": "audio/AUD_VOC_D31_029.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_VOC_D31_030",
-    "kind": "vocab",
-    "ref_id": "VOC_D31_030",
-    "text": "加珍珠",
-    "pinyin_numeric": "jia1 zhen1 zhu1",
-    "path": "audio/AUD_VOC_D31_030.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_VOC_D31_031",
-    "kind": "vocab",
-    "ref_id": "VOC_D31_031",
-    "text": "等候",
-    "pinyin_numeric": "deng3 hou4",
-    "path": "audio/AUD_VOC_D31_031.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_VOC_D31_032",
-    "kind": "vocab",
-    "ref_id": "VOC_D31_032",
-    "text": "等一下",
-    "pinyin_numeric": "deng3 yi2 xia4",
-    "path": "audio/AUD_VOC_D31_032.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_VOC_D31_033",
-    "kind": "vocab",
-    "ref_id": "VOC_D31_033",
-    "text": "再說一次",
-    "pinyin_numeric": "zai4 shuo1 yi2 ci4",
-    "path": "audio/AUD_VOC_D31_033.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_VOC_D31_034",
-    "kind": "vocab",
-    "ref_id": "VOC_D31_034",
-    "text": "慢一點",
-    "pinyin_numeric": "man4 yi4 dian3",
-    "path": "audio/AUD_VOC_D31_034.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_VOC_D31_035",
-    "kind": "vocab",
-    "ref_id": "VOC_D31_035",
-    "text": "沒問題",
-    "pinyin_numeric": "mei2 wen4 ti2",
-    "path": "audio/AUD_VOC_D31_035.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_001",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_001",
-    "text": "我想要想要。",
-    "pinyin_numeric": "wo3 xiang3 yao4 xiang3 yao4",
-    "path": "audio/AUD_SEN_D31_001.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_002",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_002",
-    "text": "請給我不用。",
-    "pinyin_numeric": "qing3 gei3 wo3 bu2 yong4",
-    "path": "audio/AUD_SEN_D31_002.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_003",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_003",
-    "text": "可以給我謝謝嗎？",
-    "pinyin_numeric": "keyi3 gei3 wo3 xie4 xie0 ma0",
-    "path": "audio/AUD_SEN_D31_003.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_004",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_004",
-    "text": "她需要幫我。",
-    "pinyin_numeric": "ta1 xuyao4 bang1 wo3",
-    "path": "audio/AUD_SEN_D31_004.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_005",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_005",
-    "text": "不好意思我們想要給我。",
-    "pinyin_numeric": "bu4 hao3 yi4 si0 women3 xiang3 yao4 gei3 wo3",
-    "path": "audio/AUD_SEN_D31_005.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_006",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_006",
-    "text": "你想要小杯嗎？",
-    "pinyin_numeric": "ni3 xiang3 yao4 xiao3 bei1 ma0",
-    "path": "audio/AUD_SEN_D31_006.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_007",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_007",
-    "text": "你想要中杯。",
-    "pinyin_numeric": "ni3 xiang3 yao4 zhong1 bei1",
-    "path": "audio/AUD_SEN_D31_007.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_008",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_008",
-    "text": "請給我大杯。",
-    "pinyin_numeric": "qing3 gei3 wo3 da4 bei1",
-    "path": "audio/AUD_SEN_D31_008.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_009",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_009",
-    "text": "可以給我拿鐵嗎？",
-    "pinyin_numeric": "keyi3 gei3 wo3 na2 tie3 ma0",
-    "path": "audio/AUD_SEN_D31_009.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_010",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_010",
-    "text": "我們需要豆漿。",
-    "pinyin_numeric": "women3 xuyao4 dou4 jiang1",
-    "path": "audio/AUD_SEN_D31_010.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_011",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_011",
-    "text": "不好意思我想要紅茶。",
-    "pinyin_numeric": "bu4 hao3 yi4 si0 wo3 xiang3 yao4 hong2 cha2",
-    "path": "audio/AUD_SEN_D31_011.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_012",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_012",
-    "text": "你想要綠茶嗎？",
-    "pinyin_numeric": "ni3 xiang3 yao4 lü4 cha2 ma0",
-    "path": "audio/AUD_SEN_D31_012.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_013",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_013",
-    "text": "他想要少冰。",
-    "pinyin_numeric": "ta1 xiang3 yao4 shao3 bing1",
-    "path": "audio/AUD_SEN_D31_013.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_014",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_014",
-    "text": "請給我去冰。",
-    "pinyin_numeric": "qing3 gei3 wo3 qu4 bing1",
-    "path": "audio/AUD_SEN_D31_014.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_015",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_015",
-    "text": "可以給我價錢嗎？",
-    "pinyin_numeric": "keyi3 gei3 wo3 jia4 qian2 ma0",
-    "path": "audio/AUD_SEN_D31_015.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_016",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_016",
-    "text": "我需要不好意思。",
-    "pinyin_numeric": "wo3 xuyao4 bu4 hao3 yi4 si0",
-    "path": "audio/AUD_SEN_D31_016.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_017",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_017",
-    "text": "不好意思你想要店員。",
-    "pinyin_numeric": "bu4 hao3 yi4 si0 ni3 xiang3 yao4 dian4 yuan2",
-    "path": "audio/AUD_SEN_D31_017.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_018",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_018",
-    "text": "你想要客人嗎？",
-    "pinyin_numeric": "ni3 xiang3 yao4 ke4 ren2 ma0",
-    "path": "audio/AUD_SEN_D31_018.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_019",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_019",
-    "text": "她想要吸管。",
-    "pinyin_numeric": "ta1 xiang3 yao4 xi1 guan3",
-    "path": "audio/AUD_SEN_D31_019.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_020",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_020",
-    "text": "請給我湯匙。",
-    "pinyin_numeric": "qing3 gei3 wo3 tang1 chi2",
-    "path": "audio/AUD_SEN_D31_020.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_021",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_021",
-    "text": "可以給我叉子嗎？",
-    "pinyin_numeric": "keyi3 gei3 wo3 cha1 zi0 ma0",
-    "path": "audio/AUD_SEN_D31_021.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_022",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_022",
-    "text": "你需要衛生紙。",
-    "pinyin_numeric": "ni3 xuyao4 wei4 sheng1 zhi3",
-    "path": "audio/AUD_SEN_D31_022.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_023",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_023",
-    "text": "不好意思他想要半糖。",
-    "pinyin_numeric": "bu4 hao3 yi4 si0 ta1 xiang3 yao4 ban4 tang2",
-    "path": "audio/AUD_SEN_D31_023.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_024",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_024",
-    "text": "你想要微糖嗎？",
-    "pinyin_numeric": "ni3 xiang3 yao4 wei1 tang2 ma0",
-    "path": "audio/AUD_SEN_D31_024.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_025",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_025",
-    "text": "我們想要正常甜。",
-    "pinyin_numeric": "women3 xiang3 yao4 zheng4 chang2 tian2",
-    "path": "audio/AUD_SEN_D31_025.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_026",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_026",
-    "text": "請給我加珍珠。",
-    "pinyin_numeric": "qing3 gei3 wo3 jia1 zhen1 zhu1",
-    "path": "audio/AUD_SEN_D31_026.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_027",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_027",
-    "text": "可以給我等一下嗎？",
-    "pinyin_numeric": "keyi3 gei3 wo3 deng3 yi2 xia4 ma0",
-    "path": "audio/AUD_SEN_D31_027.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_028",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_028",
-    "text": "他需要再說一次。",
-    "pinyin_numeric": "ta1 xuyao4 zai4 shuo1 yi2 ci4",
-    "path": "audio/AUD_SEN_D31_028.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_029",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_029",
-    "text": "不好意思她想要慢一點。",
-    "pinyin_numeric": "bu4 hao3 yi4 si0 ta1 xiang3 yao4 man4 yi4 dian3",
-    "path": "audio/AUD_SEN_D31_029.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_030",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_030",
-    "text": "你想要沒問題嗎？",
-    "pinyin_numeric": "ni3 xiang3 yao4 mei2 wen4 ti2 ma0",
-    "path": "audio/AUD_SEN_D31_030.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_031",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_031",
-    "text": "我想要咖啡。",
-    "pinyin_numeric": "wo3 xiang3 yao4 kafei1",
-    "path": "audio/AUD_SEN_D31_031.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_032",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_032",
-    "text": "請給我紅茶。",
-    "pinyin_numeric": "qing3 gei3 wo3 hong2 cha2",
-    "path": "audio/AUD_SEN_D31_032.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_033",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_033",
-    "text": "可以給我捷運嗎？",
-    "pinyin_numeric": "keyi3 gei3 wo3 jieyun4 ma0",
-    "path": "audio/AUD_SEN_D31_033.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_034",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_034",
-    "text": "她需要今天。",
-    "pinyin_numeric": "ta1 xuyao4 jintian1",
-    "path": "audio/AUD_SEN_D31_034.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_035",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_035",
-    "text": "不好意思我們想要明天。",
-    "pinyin_numeric": "bu4 hao3 yi4 si0 women3 xiang3 yao4 mingtian1",
-    "path": "audio/AUD_SEN_D31_035.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_036",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_036",
-    "text": "你想要想要嗎？",
-    "pinyin_numeric": "ni3 xiang3 yao4 xiang3 yao4 ma0",
-    "path": "audio/AUD_SEN_D31_036.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_037",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_037",
-    "text": "你想要不用。",
-    "pinyin_numeric": "ni3 xiang3 yao4 bu2 yong4",
-    "path": "audio/AUD_SEN_D31_037.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_038",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_038",
-    "text": "請給我謝謝。",
-    "pinyin_numeric": "qing3 gei3 wo3 xie4 xie0",
-    "path": "audio/AUD_SEN_D31_038.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_039",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_039",
-    "text": "可以給我幫我嗎？",
-    "pinyin_numeric": "keyi3 gei3 wo3 bang1 wo3 ma0",
-    "path": "audio/AUD_SEN_D31_039.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_040",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_040",
-    "text": "我們需要給我。",
-    "pinyin_numeric": "women3 xuyao4 gei3 wo3",
-    "path": "audio/AUD_SEN_D31_040.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_041",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_041",
-    "text": "不好意思我想要小杯。",
-    "pinyin_numeric": "bu4 hao3 yi4 si0 wo3 xiang3 yao4 xiao3 bei1",
-    "path": "audio/AUD_SEN_D31_041.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_042",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_042",
-    "text": "你想要中杯嗎？",
-    "pinyin_numeric": "ni3 xiang3 yao4 zhong1 bei1 ma0",
-    "path": "audio/AUD_SEN_D31_042.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_043",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_043",
-    "text": "他想要大杯。",
-    "pinyin_numeric": "ta1 xiang3 yao4 da4 bei1",
-    "path": "audio/AUD_SEN_D31_043.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_044",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_044",
-    "text": "請給我拿鐵。",
-    "pinyin_numeric": "qing3 gei3 wo3 na2 tie3",
-    "path": "audio/AUD_SEN_D31_044.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_045",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_045",
-    "text": "可以給我豆漿嗎？",
-    "pinyin_numeric": "keyi3 gei3 wo3 dou4 jiang1 ma0",
-    "path": "audio/AUD_SEN_D31_045.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_046",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_046",
-    "text": "我需要紅茶。",
-    "pinyin_numeric": "wo3 xuyao4 hong2 cha2",
-    "path": "audio/AUD_SEN_D31_046.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_047",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_047",
-    "text": "不好意思你想要綠茶。",
-    "pinyin_numeric": "bu4 hao3 yi4 si0 ni3 xiang3 yao4 lü4 cha2",
-    "path": "audio/AUD_SEN_D31_047.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_048",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_048",
-    "text": "你想要少冰嗎？",
-    "pinyin_numeric": "ni3 xiang3 yao4 shao3 bing1 ma0",
-    "path": "audio/AUD_SEN_D31_048.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_049",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_049",
-    "text": "她想要去冰。",
-    "pinyin_numeric": "ta1 xiang3 yao4 qu4 bing1",
-    "path": "audio/AUD_SEN_D31_049.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_050",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_050",
-    "text": "請給我價錢。",
-    "pinyin_numeric": "qing3 gei3 wo3 jia4 qian2",
-    "path": "audio/AUD_SEN_D31_050.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_051",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_051",
-    "text": "可以給我不好意思嗎？",
-    "pinyin_numeric": "keyi3 gei3 wo3 bu4 hao3 yi4 si0 ma0",
-    "path": "audio/AUD_SEN_D31_051.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_052",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_052",
-    "text": "你需要店員。",
-    "pinyin_numeric": "ni3 xuyao4 dian4 yuan2",
-    "path": "audio/AUD_SEN_D31_052.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_053",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_053",
-    "text": "不好意思他想要客人。",
-    "pinyin_numeric": "bu4 hao3 yi4 si0 ta1 xiang3 yao4 ke4 ren2",
-    "path": "audio/AUD_SEN_D31_053.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_054",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_054",
-    "text": "你想要吸管嗎？",
-    "pinyin_numeric": "ni3 xiang3 yao4 xi1 guan3 ma0",
-    "path": "audio/AUD_SEN_D31_054.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_055",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_055",
-    "text": "我們想要湯匙。",
-    "pinyin_numeric": "women3 xiang3 yao4 tang1 chi2",
-    "path": "audio/AUD_SEN_D31_055.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_056",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_056",
-    "text": "請給我叉子。",
-    "pinyin_numeric": "qing3 gei3 wo3 cha1 zi0",
-    "path": "audio/AUD_SEN_D31_056.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_057",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_057",
-    "text": "可以給我衛生紙嗎？",
-    "pinyin_numeric": "keyi3 gei3 wo3 wei4 sheng1 zhi3 ma0",
-    "path": "audio/AUD_SEN_D31_057.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_058",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_058",
-    "text": "他需要半糖。",
-    "pinyin_numeric": "ta1 xuyao4 ban4 tang2",
-    "path": "audio/AUD_SEN_D31_058.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_059",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_059",
-    "text": "不好意思她想要微糖。",
-    "pinyin_numeric": "bu4 hao3 yi4 si0 ta1 xiang3 yao4 wei1 tang2",
-    "path": "audio/AUD_SEN_D31_059.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_060",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_060",
-    "text": "你想要正常甜嗎？",
-    "pinyin_numeric": "ni3 xiang3 yao4 zheng4 chang2 tian2 ma0",
-    "path": "audio/AUD_SEN_D31_060.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_061",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_061",
-    "text": "我想要加珍珠。",
-    "pinyin_numeric": "wo3 xiang3 yao4 jia1 zhen1 zhu1",
-    "path": "audio/AUD_SEN_D31_061.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_062",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_062",
-    "text": "請給我等一下。",
-    "pinyin_numeric": "qing3 gei3 wo3 deng3 yi2 xia4",
-    "path": "audio/AUD_SEN_D31_062.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_063",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_063",
-    "text": "可以給我再說一次嗎？",
-    "pinyin_numeric": "keyi3 gei3 wo3 zai4 shuo1 yi2 ci4 ma0",
-    "path": "audio/AUD_SEN_D31_063.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_064",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_064",
-    "text": "她需要慢一點。",
-    "pinyin_numeric": "ta1 xuyao4 man4 yi4 dian3",
-    "path": "audio/AUD_SEN_D31_064.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_065",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_065",
-    "text": "不好意思我們想要沒問題。",
-    "pinyin_numeric": "bu4 hao3 yi4 si0 women3 xiang3 yao4 mei2 wen4 ti2",
-    "path": "audio/AUD_SEN_D31_065.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_066",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_066",
-    "text": "你想要咖啡嗎？",
-    "pinyin_numeric": "ni3 xiang3 yao4 kafei1 ma0",
-    "path": "audio/AUD_SEN_D31_066.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_067",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_067",
-    "text": "你想要紅茶。",
-    "pinyin_numeric": "ni3 xiang3 yao4 hong2 cha2",
-    "path": "audio/AUD_SEN_D31_067.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_068",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_068",
-    "text": "請給我捷運。",
-    "pinyin_numeric": "qing3 gei3 wo3 jieyun4",
-    "path": "audio/AUD_SEN_D31_068.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_069",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_069",
-    "text": "可以給我今天嗎？",
-    "pinyin_numeric": "keyi3 gei3 wo3 jintian1 ma0",
-    "path": "audio/AUD_SEN_D31_069.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_070",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_070",
-    "text": "我們需要明天。",
-    "pinyin_numeric": "women3 xuyao4 mingtian1",
-    "path": "audio/AUD_SEN_D31_070.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_071",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_071",
-    "text": "不好意思我想要想要。",
-    "pinyin_numeric": "bu4 hao3 yi4 si0 wo3 xiang3 yao4 xiang3 yao4",
-    "path": "audio/AUD_SEN_D31_071.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_072",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_072",
-    "text": "你想要不用嗎？",
-    "pinyin_numeric": "ni3 xiang3 yao4 bu2 yong4 ma0",
-    "path": "audio/AUD_SEN_D31_072.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_073",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_073",
-    "text": "他想要謝謝。",
-    "pinyin_numeric": "ta1 xiang3 yao4 xie4 xie0",
-    "path": "audio/AUD_SEN_D31_073.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_074",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_074",
-    "text": "請給我幫我。",
-    "pinyin_numeric": "qing3 gei3 wo3 bang1 wo3",
-    "path": "audio/AUD_SEN_D31_074.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_075",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_075",
-    "text": "可以給我給我嗎？",
-    "pinyin_numeric": "keyi3 gei3 wo3 gei3 wo3 ma0",
-    "path": "audio/AUD_SEN_D31_075.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_076",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_076",
-    "text": "我需要小杯。",
-    "pinyin_numeric": "wo3 xuyao4 xiao3 bei1",
-    "path": "audio/AUD_SEN_D31_076.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_077",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_077",
-    "text": "不好意思你想要中杯。",
-    "pinyin_numeric": "bu4 hao3 yi4 si0 ni3 xiang3 yao4 zhong1 bei1",
-    "path": "audio/AUD_SEN_D31_077.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_078",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_078",
-    "text": "你想要大杯嗎？",
-    "pinyin_numeric": "ni3 xiang3 yao4 da4 bei1 ma0",
-    "path": "audio/AUD_SEN_D31_078.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_079",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_079",
-    "text": "她想要拿鐵。",
-    "pinyin_numeric": "ta1 xiang3 yao4 na2 tie3",
-    "path": "audio/AUD_SEN_D31_079.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_080",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_080",
-    "text": "請給我豆漿。",
-    "pinyin_numeric": "qing3 gei3 wo3 dou4 jiang1",
-    "path": "audio/AUD_SEN_D31_080.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_081",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_081",
-    "text": "可以給我紅茶嗎？",
-    "pinyin_numeric": "keyi3 gei3 wo3 hong2 cha2 ma0",
-    "path": "audio/AUD_SEN_D31_081.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_082",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_082",
-    "text": "你需要綠茶。",
-    "pinyin_numeric": "ni3 xuyao4 lü4 cha2",
-    "path": "audio/AUD_SEN_D31_082.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_083",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_083",
-    "text": "不好意思他想要少冰。",
-    "pinyin_numeric": "bu4 hao3 yi4 si0 ta1 xiang3 yao4 shao3 bing1",
-    "path": "audio/AUD_SEN_D31_083.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_084",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_084",
-    "text": "你想要去冰嗎？",
-    "pinyin_numeric": "ni3 xiang3 yao4 qu4 bing1 ma0",
-    "path": "audio/AUD_SEN_D31_084.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_085",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_085",
-    "text": "我們想要價錢。",
-    "pinyin_numeric": "women3 xiang3 yao4 jia4 qian2",
-    "path": "audio/AUD_SEN_D31_085.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_086",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_086",
-    "text": "請給我不好意思。",
-    "pinyin_numeric": "qing3 gei3 wo3 bu4 hao3 yi4 si0",
-    "path": "audio/AUD_SEN_D31_086.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_087",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_087",
-    "text": "可以給我店員嗎？",
-    "pinyin_numeric": "keyi3 gei3 wo3 dian4 yuan2 ma0",
-    "path": "audio/AUD_SEN_D31_087.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_088",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_088",
-    "text": "他需要客人。",
-    "pinyin_numeric": "ta1 xuyao4 ke4 ren2",
-    "path": "audio/AUD_SEN_D31_088.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_089",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_089",
-    "text": "不好意思她想要吸管。",
-    "pinyin_numeric": "bu4 hao3 yi4 si0 ta1 xiang3 yao4 xi1 guan3",
-    "path": "audio/AUD_SEN_D31_089.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_090",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_090",
-    "text": "你想要湯匙嗎？",
-    "pinyin_numeric": "ni3 xiang3 yao4 tang1 chi2 ma0",
-    "path": "audio/AUD_SEN_D31_090.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_DLG_D31_01_T1",
-    "kind": "dialogue",
-    "ref_id": "DLG_D31_01",
-    "text": "不好意思我想要小杯。",
-    "pinyin_numeric": "bu4 hao3 yi4 si0 wo3 xiang3 yao4 xiao3 bei1",
-    "path": "audio/AUD_DLG_D31_01_T1.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_DLG_D31_01_T2",
-    "kind": "dialogue",
-    "ref_id": "DLG_D31_01",
-    "text": "可以嗎？",
-    "pinyin_numeric": "keyi3 ma0",
-    "path": "audio/AUD_DLG_D31_01_T2.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_DLG_D31_01_T3",
-    "kind": "dialogue",
-    "ref_id": "DLG_D31_01",
-    "text": "可以請給我紅茶。",
-    "pinyin_numeric": "keyi3 qing3 gei3 wo3 hong2 cha2",
-    "path": "audio/AUD_DLG_D31_01_T3.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_DLG_D31_01_T4",
-    "kind": "dialogue",
-    "ref_id": "DLG_D31_01",
-    "text": "需要小杯嗎？",
-    "pinyin_numeric": "xuyao4 xiao3 bei1 ma0",
-    "path": "audio/AUD_DLG_D31_01_T4.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_DLG_D31_01_T5",
-    "kind": "dialogue",
-    "ref_id": "DLG_D31_01",
-    "text": "不用謝謝。",
-    "pinyin_numeric": "bu2 yong4 xie4 xie0",
-    "path": "audio/AUD_DLG_D31_01_T5.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_DLG_D31_01_T6",
-    "kind": "dialogue",
-    "ref_id": "DLG_D31_01",
-    "text": "好沒問題。",
-    "pinyin_numeric": "hao3 mei2 wen4 ti2",
-    "path": "audio/AUD_DLG_D31_01_T6.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_DLG_D31_02_T1",
-    "kind": "dialogue",
-    "ref_id": "DLG_D31_02",
-    "text": "不好意思我想要中杯。",
-    "pinyin_numeric": "bu4 hao3 yi4 si0 wo3 xiang3 yao4 zhong1 bei1",
-    "path": "audio/AUD_DLG_D31_02_T1.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_DLG_D31_02_T2",
-    "kind": "dialogue",
-    "ref_id": "DLG_D31_02",
-    "text": "可以嗎？",
-    "pinyin_numeric": "keyi3 ma0",
-    "path": "audio/AUD_DLG_D31_02_T2.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_DLG_D31_02_T3",
-    "kind": "dialogue",
-    "ref_id": "DLG_D31_02",
-    "text": "可以請給我綠茶。",
-    "pinyin_numeric": "keyi3 qing3 gei3 wo3 lü4 cha2",
-    "path": "audio/AUD_DLG_D31_02_T3.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_DLG_D31_02_T4",
-    "kind": "dialogue",
-    "ref_id": "DLG_D31_02",
-    "text": "需要中杯嗎？",
-    "pinyin_numeric": "xuyao4 zhong1 bei1 ma0",
-    "path": "audio/AUD_DLG_D31_02_T4.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_DLG_D31_02_T5",
-    "kind": "dialogue",
-    "ref_id": "DLG_D31_02",
-    "text": "不用謝謝。",
-    "pinyin_numeric": "bu2 yong4 xie4 xie0",
-    "path": "audio/AUD_DLG_D31_02_T5.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_DLG_D31_02_T6",
-    "kind": "dialogue",
-    "ref_id": "DLG_D31_02",
-    "text": "好沒問題。",
-    "pinyin_numeric": "hao3 mei2 wen4 ti2",
-    "path": "audio/AUD_DLG_D31_02_T6.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_DLG_D31_03_T1",
-    "kind": "dialogue",
-    "ref_id": "DLG_D31_03",
-    "text": "不好意思我想要大杯。",
-    "pinyin_numeric": "bu4 hao3 yi4 si0 wo3 xiang3 yao4 da4 bei1",
-    "path": "audio/AUD_DLG_D31_03_T1.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_DLG_D31_03_T2",
-    "kind": "dialogue",
-    "ref_id": "DLG_D31_03",
-    "text": "可以嗎？",
-    "pinyin_numeric": "keyi3 ma0",
-    "path": "audio/AUD_DLG_D31_03_T2.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_DLG_D31_03_T3",
-    "kind": "dialogue",
-    "ref_id": "DLG_D31_03",
-    "text": "可以請給我冰。",
-    "pinyin_numeric": "keyi3 qing3 gei3 wo3 bing1",
-    "path": "audio/AUD_DLG_D31_03_T3.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_DLG_D31_03_T4",
-    "kind": "dialogue",
-    "ref_id": "DLG_D31_03",
-    "text": "需要大杯嗎？",
-    "pinyin_numeric": "xuyao4 da4 bei1 ma0",
-    "path": "audio/AUD_DLG_D31_03_T4.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_DLG_D31_03_T5",
-    "kind": "dialogue",
-    "ref_id": "DLG_D31_03",
-    "text": "不用謝謝。",
-    "pinyin_numeric": "bu2 yong4 xie4 xie0",
-    "path": "audio/AUD_DLG_D31_03_T5.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_DLG_D31_03_T6",
-    "kind": "dialogue",
-    "ref_id": "DLG_D31_03",
-    "text": "好沒問題。",
-    "pinyin_numeric": "hao3 mei2 wen4 ti2",
-    "path": "audio/AUD_DLG_D31_03_T6.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_LIS_D31_01",
-    "kind": "listening",
-    "ref_id": "LIS_D31_01",
-    "text": "想要",
-    "pinyin_numeric": "xiang3 yao4",
-    "path": "audio/AUD_LIS_D31_01.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_LIS_D31_02",
-    "kind": "listening",
-    "ref_id": "LIS_D31_02",
-    "text": "她需要幫我。",
-    "pinyin_numeric": "ta1 xuyao4 bang1 wo3",
-    "path": "audio/AUD_LIS_D31_02.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_LIS_D31_03",
-    "kind": "listening",
-    "ref_id": "LIS_D31_03",
-    "text": "你想要中杯。",
-    "pinyin_numeric": "ni3 xiang3 yao4 zhong1 bei1",
-    "path": "audio/AUD_LIS_D31_03.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_LIS_D31_04",
-    "kind": "listening",
-    "ref_id": "LIS_D31_04",
-    "text": "我們需要豆漿。",
-    "pinyin_numeric": "women3 xuyao4 dou4 jiang1",
-    "path": "audio/AUD_LIS_D31_04.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_LIS_D31_05",
-    "kind": "listening",
-    "ref_id": "LIS_D31_05",
-    "text": "他想要少冰。",
-    "pinyin_numeric": "ta1 xiang3 yao4 shao3 bing1",
-    "path": "audio/AUD_LIS_D31_05.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_LIS_D31_06",
-    "kind": "listening",
-    "ref_id": "LIS_D31_06",
-    "text": "小杯",
-    "pinyin_numeric": "xiao3 bei1",
-    "path": "audio/AUD_LIS_D31_06.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_LIS_D31_07",
-    "kind": "listening",
-    "ref_id": "LIS_D31_07",
-    "text": "她想要吸管。",
-    "pinyin_numeric": "ta1 xiang3 yao4 xi1 guan3",
-    "path": "audio/AUD_LIS_D31_07.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_LIS_D31_08",
-    "kind": "listening",
-    "ref_id": "LIS_D31_08",
-    "text": "你需要衛生紙。",
-    "pinyin_numeric": "ni3 xuyao4 wei4 sheng1 zhi3",
-    "path": "audio/AUD_LIS_D31_08.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_LIS_D31_09",
-    "kind": "listening",
-    "ref_id": "LIS_D31_09",
-    "text": "我們想要正常甜。",
-    "pinyin_numeric": "women3 xiang3 yao4 zheng4 chang2 tian2",
-    "path": "audio/AUD_LIS_D31_09.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_LIS_D31_10",
-    "kind": "listening",
-    "ref_id": "LIS_D31_10",
-    "text": "他需要再說一次。",
-    "pinyin_numeric": "ta1 xuyao4 zai4 shuo1 yi2 ci4",
-    "path": "audio/AUD_LIS_D31_10.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_LIS_D31_11",
-    "kind": "listening",
-    "ref_id": "LIS_D31_11",
-    "text": "紅茶",
-    "pinyin_numeric": "hong2 cha2",
-    "path": "audio/AUD_LIS_D31_11.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_LIS_D31_12",
-    "kind": "listening",
-    "ref_id": "LIS_D31_12",
-    "text": "她需要今天。",
-    "pinyin_numeric": "ta1 xuyao4 jintian1",
-    "path": "audio/AUD_LIS_D31_12.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_LIS_D31_13",
-    "kind": "listening",
-    "ref_id": "LIS_D31_13",
-    "text": "你想要不用。",
-    "pinyin_numeric": "ni3 xiang3 yao4 bu2 yong4",
-    "path": "audio/AUD_LIS_D31_13.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_LIS_D31_14",
-    "kind": "listening",
-    "ref_id": "LIS_D31_14",
-    "text": "我們需要給我。",
-    "pinyin_numeric": "women3 xuyao4 gei3 wo3",
-    "path": "audio/AUD_LIS_D31_14.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_LIS_D31_15",
-    "kind": "listening",
-    "ref_id": "LIS_D31_15",
-    "text": "他想要大杯。",
-    "pinyin_numeric": "ta1 xiang3 yao4 da4 bei1",
-    "path": "audio/AUD_LIS_D31_15.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_LIS_D31_16",
-    "kind": "listening",
-    "ref_id": "LIS_D31_16",
-    "text": "外帶",
-    "pinyin_numeric": "wai4 dai4",
-    "path": "audio/AUD_LIS_D31_16.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_LIS_D31_17",
-    "kind": "listening",
-    "ref_id": "LIS_D31_17",
-    "text": "她想要去冰。",
-    "pinyin_numeric": "ta1 xiang3 yao4 qu4 bing1",
-    "path": "audio/AUD_LIS_D31_17.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_LIS_D31_18",
-    "kind": "listening",
-    "ref_id": "LIS_D31_18",
-    "text": "你需要店員。",
-    "pinyin_numeric": "ni3 xuyao4 dian4 yuan2",
-    "path": "audio/AUD_LIS_D31_18.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_LIS_D31_19",
-    "kind": "listening",
-    "ref_id": "LIS_D31_19",
-    "text": "我們想要湯匙。",
-    "pinyin_numeric": "women3 xiang3 yao4 tang1 chi2",
-    "path": "audio/AUD_LIS_D31_19.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_LIS_D31_20",
-    "kind": "listening",
-    "ref_id": "LIS_D31_20",
-    "text": "他需要半糖。",
-    "pinyin_numeric": "ta1 xuyao4 ban4 tang2",
-    "path": "audio/AUD_LIS_D31_20.mp3",
-    "status": "placeholder"
-  },
-  {
     "id": "AUD_VOC_D32_001",
     "kind": "vocab",
     "ref_id": "VOC_D32_001",
@@ -21372,6 +19905,1477 @@
     "text": "他需要咖啡。",
     "pinyin_numeric": "ta1 xuyao4 kafei1",
     "path": "audio/AUD_LIS_D45_10.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D31_001",
+    "kind": "vocab",
+    "ref_id": "VOC_D31_001",
+    "text": "想要",
+    "pinyin_numeric": "xiang3 yao4",
+    "path": "audio/AUD_VOC_D31_001.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D31_002",
+    "kind": "vocab",
+    "ref_id": "VOC_D31_002",
+    "text": "不用",
+    "pinyin_numeric": "bu2 yong4",
+    "path": "audio/AUD_VOC_D31_002.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D31_003",
+    "kind": "vocab",
+    "ref_id": "VOC_D31_003",
+    "text": "謝謝",
+    "pinyin_numeric": "xie4 xie0",
+    "path": "audio/AUD_VOC_D31_003.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D31_004",
+    "kind": "vocab",
+    "ref_id": "VOC_D31_004",
+    "text": "幫我",
+    "pinyin_numeric": "bang1 wo3",
+    "path": "audio/AUD_VOC_D31_004.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D31_005",
+    "kind": "vocab",
+    "ref_id": "VOC_D31_005",
+    "text": "給我",
+    "pinyin_numeric": "gei3 wo3",
+    "path": "audio/AUD_VOC_D31_005.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D31_006",
+    "kind": "vocab",
+    "ref_id": "VOC_D31_006",
+    "text": "小杯",
+    "pinyin_numeric": "xiao3 bei1",
+    "path": "audio/AUD_VOC_D31_006.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D31_007",
+    "kind": "vocab",
+    "ref_id": "VOC_D31_007",
+    "text": "中杯",
+    "pinyin_numeric": "zhong1 bei1",
+    "path": "audio/AUD_VOC_D31_007.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D31_008",
+    "kind": "vocab",
+    "ref_id": "VOC_D31_008",
+    "text": "大杯",
+    "pinyin_numeric": "da4 bei1",
+    "path": "audio/AUD_VOC_D31_008.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D31_009",
+    "kind": "vocab",
+    "ref_id": "VOC_D31_009",
+    "text": "拿鐵",
+    "pinyin_numeric": "na2 tie3",
+    "path": "audio/AUD_VOC_D31_009.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D31_010",
+    "kind": "vocab",
+    "ref_id": "VOC_D31_010",
+    "text": "豆漿",
+    "pinyin_numeric": "dou4 jiang1",
+    "path": "audio/AUD_VOC_D31_010.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D31_011",
+    "kind": "vocab",
+    "ref_id": "VOC_D31_011",
+    "text": "紅茶",
+    "pinyin_numeric": "hong2 cha2",
+    "path": "audio/AUD_VOC_D31_011.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D31_012",
+    "kind": "vocab",
+    "ref_id": "VOC_D31_012",
+    "text": "綠茶",
+    "pinyin_numeric": "lü4 cha2",
+    "path": "audio/AUD_VOC_D31_012.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D31_013",
+    "kind": "vocab",
+    "ref_id": "VOC_D31_013",
+    "text": "冰",
+    "pinyin_numeric": "bing1",
+    "path": "audio/AUD_VOC_D31_013.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D31_014",
+    "kind": "vocab",
+    "ref_id": "VOC_D31_014",
+    "text": "少冰",
+    "pinyin_numeric": "shao3 bing1",
+    "path": "audio/AUD_VOC_D31_014.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D31_015",
+    "kind": "vocab",
+    "ref_id": "VOC_D31_015",
+    "text": "去冰",
+    "pinyin_numeric": "qu4 bing1",
+    "path": "audio/AUD_VOC_D31_015.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D31_016",
+    "kind": "vocab",
+    "ref_id": "VOC_D31_016",
+    "text": "外帶",
+    "pinyin_numeric": "wai4 dai4",
+    "path": "audio/AUD_VOC_D31_016.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D31_017",
+    "kind": "vocab",
+    "ref_id": "VOC_D31_017",
+    "text": "內用",
+    "pinyin_numeric": "nei4 yong4",
+    "path": "audio/AUD_VOC_D31_017.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D31_018",
+    "kind": "vocab",
+    "ref_id": "VOC_D31_018",
+    "text": "價錢",
+    "pinyin_numeric": "jia4 qian2",
+    "path": "audio/AUD_VOC_D31_018.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D31_019",
+    "kind": "vocab",
+    "ref_id": "VOC_D31_019",
+    "text": "麻煩",
+    "pinyin_numeric": "ma2 fan0",
+    "path": "audio/AUD_VOC_D31_019.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D31_020",
+    "kind": "vocab",
+    "ref_id": "VOC_D31_020",
+    "text": "不好意思",
+    "pinyin_numeric": "bu4 hao3 yi4 si0",
+    "path": "audio/AUD_VOC_D31_020.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D31_021",
+    "kind": "vocab",
+    "ref_id": "VOC_D31_021",
+    "text": "店員",
+    "pinyin_numeric": "dian4 yuan2",
+    "path": "audio/AUD_VOC_D31_021.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D31_022",
+    "kind": "vocab",
+    "ref_id": "VOC_D31_022",
+    "text": "客人",
+    "pinyin_numeric": "ke4 ren2",
+    "path": "audio/AUD_VOC_D31_022.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D31_023",
+    "kind": "vocab",
+    "ref_id": "VOC_D31_023",
+    "text": "吸管",
+    "pinyin_numeric": "xi1 guan3",
+    "path": "audio/AUD_VOC_D31_023.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D31_024",
+    "kind": "vocab",
+    "ref_id": "VOC_D31_024",
+    "text": "湯匙",
+    "pinyin_numeric": "tang1 chi2",
+    "path": "audio/AUD_VOC_D31_024.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D31_025",
+    "kind": "vocab",
+    "ref_id": "VOC_D31_025",
+    "text": "叉子",
+    "pinyin_numeric": "cha1 zi0",
+    "path": "audio/AUD_VOC_D31_025.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D31_026",
+    "kind": "vocab",
+    "ref_id": "VOC_D31_026",
+    "text": "衛生紙",
+    "pinyin_numeric": "wei4 sheng1 zhi3",
+    "path": "audio/AUD_VOC_D31_026.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D31_027",
+    "kind": "vocab",
+    "ref_id": "VOC_D31_027",
+    "text": "半糖",
+    "pinyin_numeric": "ban4 tang2",
+    "path": "audio/AUD_VOC_D31_027.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D31_028",
+    "kind": "vocab",
+    "ref_id": "VOC_D31_028",
+    "text": "微糖",
+    "pinyin_numeric": "wei1 tang2",
+    "path": "audio/AUD_VOC_D31_028.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D31_029",
+    "kind": "vocab",
+    "ref_id": "VOC_D31_029",
+    "text": "正常甜",
+    "pinyin_numeric": "zheng4 chang2 tian2",
+    "path": "audio/AUD_VOC_D31_029.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D31_030",
+    "kind": "vocab",
+    "ref_id": "VOC_D31_030",
+    "text": "加珍珠",
+    "pinyin_numeric": "jia1 zhen1 zhu1",
+    "path": "audio/AUD_VOC_D31_030.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D31_031",
+    "kind": "vocab",
+    "ref_id": "VOC_D31_031",
+    "text": "等候",
+    "pinyin_numeric": "deng3 hou4",
+    "path": "audio/AUD_VOC_D31_031.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D31_032",
+    "kind": "vocab",
+    "ref_id": "VOC_D31_032",
+    "text": "等一下",
+    "pinyin_numeric": "deng3 yi2 xia4",
+    "path": "audio/AUD_VOC_D31_032.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D31_033",
+    "kind": "vocab",
+    "ref_id": "VOC_D31_033",
+    "text": "再說一次",
+    "pinyin_numeric": "zai4 shuo1 yi2 ci4",
+    "path": "audio/AUD_VOC_D31_033.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D31_034",
+    "kind": "vocab",
+    "ref_id": "VOC_D31_034",
+    "text": "慢一點",
+    "pinyin_numeric": "man4 yi4 dian3",
+    "path": "audio/AUD_VOC_D31_034.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D31_035",
+    "kind": "vocab",
+    "ref_id": "VOC_D31_035",
+    "text": "沒問題",
+    "pinyin_numeric": "mei2 wen4 ti2",
+    "path": "audio/AUD_VOC_D31_035.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_001",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_001",
+    "text": "你好，我想要一杯小杯的拿鐵，可以嗎？",
+    "pinyin_numeric": "ni3 hao3, wo3 xiang3 yao4 yi1 bei1 xiao3 bei1 de na2tie3, ke3yi3 ma0?",
+    "path": "audio/AUD_SEN_D31_001.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_002",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_002",
+    "text": "麻煩你，可以幫我點一杯紅茶嗎？",
+    "pinyin_numeric": "ma2fan ni3, ke3yi3 bang1 wo3 dian3 yi1 bei1 hong2cha2 ma0?",
+    "path": "audio/AUD_SEN_D31_002.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_003",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_003",
+    "text": "不好意思，可以給我一個袋子嗎？",
+    "pinyin_numeric": "bu4 hao3 yi4si, ke3yi3 gei3 wo3 yi1 ge4 dai4zi ma0?",
+    "path": "audio/AUD_SEN_D31_003.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_004",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_004",
+    "text": "請問，可以幫我加珍珠嗎？",
+    "pinyin_numeric": "qing3wen4, ke3yi3 bang1 wo3 jia1 zhen1zhu1 ma0?",
+    "path": "audio/AUD_SEN_D31_004.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_005",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_005",
+    "text": "我想要一杯綠茶，半糖，可以嗎？",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 lü4cha2, ban4 tang2, ke3yi3 ma0?",
+    "path": "audio/AUD_SEN_D31_005.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_006",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_006",
+    "text": "麻煩你，可以給我中杯的豆漿嗎？",
+    "pinyin_numeric": "ma2fan ni3, ke3yi3 gei3 wo3 zhong1 bei1 de dou4jiang1 ma0?",
+    "path": "audio/AUD_SEN_D31_006.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_007",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_007",
+    "text": "不好意思，可以再說一次嗎？我聽不懂。",
+    "pinyin_numeric": "bu4 hao3 yi4si, ke3yi3 zai4 shuo1 yi1 ci4 ma0? Wo3 ting1 bu4 dong3.",
+    "path": "audio/AUD_SEN_D31_007.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_008",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_008",
+    "text": "請問，可以慢一點說嗎？",
+    "pinyin_numeric": "qing3wen4, ke3yi3 man4 yi1 dian3 shuo1 ma0?",
+    "path": "audio/AUD_SEN_D31_008.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_009",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_009",
+    "text": "我想要一杯冰的紅茶，少冰，可以嗎？",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 bing1 de hong2cha2, shao3 bing1, ke3yi3 ma0?",
+    "path": "audio/AUD_SEN_D31_009.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_010",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_010",
+    "text": "麻煩你，可以幫我外帶嗎？",
+    "pinyin_numeric": "ma2fan ni3, ke3yi3 bang1 wo3 wai4dai4 ma0?",
+    "path": "audio/AUD_SEN_D31_010.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_011",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_011",
+    "text": "我想要一杯小杯的拿鐵。",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 xiao3 bei1 de0 na2 tie3.",
+    "path": "audio/AUD_SEN_D31_011.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_012",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_012",
+    "text": "我想要一杯中杯的紅茶，半糖。",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 zhong1 bei1 de0 hong2 cha2, ban4 tang2.",
+    "path": "audio/AUD_SEN_D31_012.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_013",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_013",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 da4 bei1 de0 lv4 cha2, qu4 bing1.",
+    "path": "audio/AUD_SEN_D31_013.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_014",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_014",
+    "text": "我想要一杯豆漿，內用。",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 dou4 jiang1, nei4 yong4.",
+    "path": "audio/AUD_SEN_D31_014.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_015",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_015",
+    "text": "我想要一杯冰的拿鐵，少冰。",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 bing1 de0 na2 tie3, shao3 bing1.",
+    "path": "audio/AUD_SEN_D31_015.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_016",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_016",
+    "text": "我想要一杯大杯的拿鐵，加珍珠。",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 da4 bei1 de0 na2 tie3, jia1 zhen1 zhu1.",
+    "path": "audio/AUD_SEN_D31_016.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_017",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_017",
+    "text": "我想要一杯中杯的紅茶，正常甜，外帶。",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 zhong1 bei1 de0 hong2 cha2, zheng4 chang2 tian2, wai4 dai4.",
+    "path": "audio/AUD_SEN_D31_017.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_018",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_018",
+    "text": "我想要一杯小杯的綠茶，微糖。",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 xiao3 bei1 de0 lv4 cha2, wei1 tang2.",
+    "path": "audio/AUD_SEN_D31_018.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_019",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_019",
+    "text": "我想要一杯冰的豆漿，外帶。",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 bing1 de0 dou4 jiang1, wai4 dai4.",
+    "path": "audio/AUD_SEN_D31_019.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_020",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_020",
+    "text": "我想要一杯大杯的綠茶，少冰，加珍珠。",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 da4 bei1 de0 lv4 cha2, shao3 bing1, jia1 zhen1 zhu1.",
+    "path": "audio/AUD_SEN_D31_020.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_021",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_021",
+    "text": "不好意思，我想要一杯小杯的拿鐵。",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, wo3 xiang3 yao4 yi1 bei1 xiao3 bei1 de0 na2 tie3.",
+    "path": "audio/AUD_SEN_D31_021.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_022",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_022",
+    "text": "不好意思，麻煩給我一個袋子。",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, ma2 fan0 gei3 wo3 yi1 ge0 dai4 zi0.",
+    "path": "audio/AUD_SEN_D31_022.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_023",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_023",
+    "text": "不好意思，我要一杯紅茶，半糖少冰。",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, wo3 yao4 yi1 bei1 hong2 cha2, ban4 tang2 shao3 bing1.",
+    "path": "audio/AUD_SEN_D31_023.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_024",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_024",
+    "text": "不好意思，請問這個價錢是多少？",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, qing3 wen4 zhe4 ge0 jia4 qian2 shi4 duo1 shao3?",
+    "path": "audio/AUD_SEN_D31_024.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_025",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_025",
+    "text": "不好意思，我要一杯綠茶，去冰。",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, wo3 yao4 yi1 bei1 lü4 cha2, qu4 bing1.",
+    "path": "audio/AUD_SEN_D31_025.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_026",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_026",
+    "text": "不好意思，麻煩幫我加珍珠。",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, ma2 fan0 bang1 wo3 jia1 zhen1 zhu1.",
+    "path": "audio/AUD_SEN_D31_026.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_027",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_027",
+    "text": "不好意思，我要外帶一杯豆漿。",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, wo3 yao4 wai4 dai4 yi1 bei1 dou4 jiang1.",
+    "path": "audio/AUD_SEN_D31_027.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_028",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_028",
+    "text": "不好意思，請給我一根吸管。",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, qing3 gei3 wo3 yi1 gen1 xi1 guan3.",
+    "path": "audio/AUD_SEN_D31_028.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_029",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_029",
+    "text": "不好意思，我要內用一杯拿鐵。",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, wo3 yao4 nei4 yong4 yi1 bei1 na2 tie3.",
+    "path": "audio/AUD_SEN_D31_029.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_030",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_030",
+    "text": "不好意思，麻煩等一下。",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, ma2 fan0 deng3 yi1 xia4.",
+    "path": "audio/AUD_SEN_D31_030.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_031",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_031",
+    "text": "你好，我想要一杯小杯的拿鐵，可以嗎？",
+    "pinyin_numeric": "ni3 hao3, wo3 xiang3 yao4 yi1 bei1 xiao3 bei1 de5 na2 tie3, ke3 yi3 ma0?",
+    "path": "audio/AUD_SEN_D31_031.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_032",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_032",
+    "text": "麻煩你，可以幫我點一杯紅茶嗎？",
+    "pinyin_numeric": "ma2 fan5 ni3, ke3 yi3 bang1 wo3 dian3 yi1 bei1 hong2 cha2 ma0?",
+    "path": "audio/AUD_SEN_D31_032.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_033",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_033",
+    "text": "不好意思，我想要一杯綠茶，半糖，可以嗎？",
+    "pinyin_numeric": "bu4 hao3 yi4 si5, wo3 xiang3 yao4 yi1 bei1 lü4 cha2, ban4 tang2, ke3 yi3 ma0?",
+    "path": "audio/AUD_SEN_D31_033.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_034",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_034",
+    "text": "店員，可以給我一個袋子嗎？謝謝。",
+    "pinyin_numeric": "dian4 yuan2, ke3 yi3 gei3 wo3 yi1 ge4 dai4 zi5 ma0? xie4 xie5.",
+    "path": "audio/AUD_SEN_D31_034.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_035",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_035",
+    "text": "請問，可以幫我加珍珠嗎？",
+    "pinyin_numeric": "qing3 wen4, ke3 yi3 bang1 wo3 jia1 zhen1 zhu1 ma0?",
+    "path": "audio/AUD_SEN_D31_035.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_036",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_036",
+    "text": "我想要一杯豆漿，去冰，可以嗎？",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 dou4 jiang1, qu4 bing1, ke3 yi3 ma0?",
+    "path": "audio/AUD_SEN_D31_036.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_037",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_037",
+    "text": "不好意思，可以再說一次嗎？我聽不懂。",
+    "pinyin_numeric": "bu4 hao3 yi4 si5, ke3 yi3 zai4 shuo1 yi1 ci4 ma0? wo3 ting1 bu4 dong3.",
+    "path": "audio/AUD_SEN_D31_037.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_038",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_038",
+    "text": "麻煩你，可以給我一個湯匙嗎？",
+    "pinyin_numeric": "ma2 fan5 ni3, ke3 yi3 gei3 wo3 yi1 ge4 tang1 chi2 ma0?",
+    "path": "audio/AUD_SEN_D31_038.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_039",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_039",
+    "text": "我想要一杯大杯的拿鐵，內用，可以嗎？",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 da4 bei1 de5 na2 tie3, nei4 yong4, ke3 yi3 ma0?",
+    "path": "audio/AUD_SEN_D31_039.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_040",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_040",
+    "text": "店員，可以幫我拿發票嗎？謝謝。",
+    "pinyin_numeric": "dian4 yuan2, ke3 yi3 bang1 wo3 na2 fa1 piao4 ma0? xie4 xie5.",
+    "path": "audio/AUD_SEN_D31_040.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_041",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_041",
+    "text": "我想要一杯小杯的拿鐵。",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 xiao3 bei1 de0 na2 tie3.",
+    "path": "audio/AUD_SEN_D31_041.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_042",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_042",
+    "text": "我想要一杯中杯的紅茶，半糖。",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 zhong1 bei1 de0 hong2 cha2, ban4 tang2.",
+    "path": "audio/AUD_SEN_D31_042.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_043",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_043",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 da4 bei1 de0 lv4 cha2, qu4 bing1.",
+    "path": "audio/AUD_SEN_D31_043.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_044",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_044",
+    "text": "我想要一杯豆漿，內用。",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 dou4 jiang1, nei4 yong4.",
+    "path": "audio/AUD_SEN_D31_044.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_045",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_045",
+    "text": "我想要一杯小杯的拿鐵，加珍珠。",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 xiao3 bei1 de0 na2 tie3, jia1 zhen1 zhu1.",
+    "path": "audio/AUD_SEN_D31_045.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_046",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_046",
+    "text": "我想要一杯中杯的紅茶，微糖，少冰。",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 zhong1 bei1 de0 hong2 cha2, wei1 tang2, shao3 bing1.",
+    "path": "audio/AUD_SEN_D31_046.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_047",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_047",
+    "text": "我想要一杯大杯的綠茶，正常甜，外帶。",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 da4 bei1 de0 lv4 cha2, zheng4 chang2 tian2, wai4 dai4.",
+    "path": "audio/AUD_SEN_D31_047.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_048",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_048",
+    "text": "我想要一杯小杯的豆漿，內用。",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 xiao3 bei1 de0 dou4 jiang1, nei4 yong4.",
+    "path": "audio/AUD_SEN_D31_048.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_049",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_049",
+    "text": "我想要一杯中杯的拿鐵，半糖，去冰。",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 zhong1 bei1 de0 na2 tie3, ban4 tang2, qu4 bing1.",
+    "path": "audio/AUD_SEN_D31_049.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_050",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_050",
+    "text": "我想要一杯大杯的紅茶，加珍珠，外帶。",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 da4 bei1 de0 hong2 cha2, jia1 zhen1 zhu1, wai4 dai4.",
+    "path": "audio/AUD_SEN_D31_050.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_051",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_051",
+    "text": "不好意思，我想要一杯小杯的拿鐵。",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, wo3 xiang3 yao4 yi1 bei1 xiao3 bei1 de0 na2 tie3.",
+    "path": "audio/AUD_SEN_D31_051.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_052",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_052",
+    "text": "不好意思，麻煩給我兩杯紅茶，一杯去冰，一杯少冰。",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, ma2 fan0 gei3 wo3 liang3 bei1 hong2 cha2, yi1 bei1 qu4 bing1, yi1 bei1 shao3 bing1.",
+    "path": "audio/AUD_SEN_D31_052.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_053",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_053",
+    "text": "不好意思，請問這個價錢是多少？",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, qing3 wen4 zhe4 ge0 jia4 qian2 shi4 duo1 shao3?",
+    "path": "audio/AUD_SEN_D31_053.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_054",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_054",
+    "text": "不好意思，我要一杯豆漿，半糖，外帶。",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, wo3 yao4 yi1 bei1 dou4 jiang1, ban4 tang2, wai4 dai4.",
+    "path": "audio/AUD_SEN_D31_054.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_055",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_055",
+    "text": "不好意思，可以幫我加珍珠嗎？",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, ke3 yi3 bang1 wo3 jia1 zhen1 zhu1 ma0?",
+    "path": "audio/AUD_SEN_D31_055.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_056",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_056",
+    "text": "不好意思，我要一杯綠茶，微糖，少冰，內用。",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, wo3 yao4 yi1 bei1 lü4 cha2, wei1 tang2, shao3 bing1, nei4 yong4.",
+    "path": "audio/AUD_SEN_D31_056.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_057",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_057",
+    "text": "不好意思，麻煩給我一個袋子。",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, ma2 fan0 gei3 wo3 yi1 ge0 dai4 zi0.",
+    "path": "audio/AUD_SEN_D31_057.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_058",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_058",
+    "text": "不好意思，可以再說一次嗎？我聽不太清楚。",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, ke3 yi3 zai4 shuo1 yi1 ci4 ma0? Wo3 ting1 bu4 tai4 qing1 chu0.",
+    "path": "audio/AUD_SEN_D31_058.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_059",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_059",
+    "text": "不好意思，我要一杯大杯的拿鐵，正常甜，加珍珠，外帶。",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, wo3 yao4 yi1 bei1 da4 bei1 de0 na2 tie3, zheng4 chang2 tian2, jia1 zhen1 zhu1, wai4 dai4.",
+    "path": "audio/AUD_SEN_D31_059.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_060",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_060",
+    "text": "不好意思，請問你們有賣冰的拿鐵嗎？",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, qing3 wen4 ni3 men0 you3 mai4 bing1 de0 na2 tie3 ma0?",
+    "path": "audio/AUD_SEN_D31_060.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_061",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_061",
+    "text": "可以給我一個袋子嗎？",
+    "pinyin_numeric": "ke3 yi3 gei3 wo3 yi1 ge4 dai4 zi0 ma0",
+    "path": "audio/AUD_SEN_D31_061.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_062",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_062",
+    "text": "可以幫我拿一杯水嗎？",
+    "pinyin_numeric": "ke3 yi3 bang1 wo3 na2 yi1 bei1 shui3 ma0",
+    "path": "audio/AUD_SEN_D31_062.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_063",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_063",
+    "text": "可以給我菜單嗎？",
+    "pinyin_numeric": "ke3 yi3 gei3 wo3 cai4 dan1 ma0",
+    "path": "audio/AUD_SEN_D31_063.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_064",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_064",
+    "text": "可以幫我點一杯拿鐵嗎？",
+    "pinyin_numeric": "ke3 yi3 bang1 wo3 dian3 yi1 bei1 na3 tie3 ma0",
+    "path": "audio/AUD_SEN_D31_064.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_065",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_065",
+    "text": "可以給我發票嗎？",
+    "pinyin_numeric": "ke3 yi3 gei3 wo3 fa1 piao4 ma0",
+    "path": "audio/AUD_SEN_D31_065.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_066",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_066",
+    "text": "可以幫我加珍珠嗎？",
+    "pinyin_numeric": "ke3 yi3 bang1 wo3 jia1 zhen1 zhu1 ma0",
+    "path": "audio/AUD_SEN_D31_066.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_067",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_067",
+    "text": "可以給我小杯的紅茶嗎？",
+    "pinyin_numeric": "ke3 yi3 gei3 wo3 xiao3 bei1 de0 hong2 cha2 ma0",
+    "path": "audio/AUD_SEN_D31_067.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_068",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_068",
+    "text": "可以幫我拿吸管嗎？",
+    "pinyin_numeric": "ke3 yi3 bang1 wo3 na2 xi1 guan3 ma0",
+    "path": "audio/AUD_SEN_D31_068.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_069",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_069",
+    "text": "可以給我半糖的豆漿嗎？",
+    "pinyin_numeric": "ke3 yi3 gei3 wo3 ban4 tang2 de0 dou4 jiang1 ma0",
+    "path": "audio/AUD_SEN_D31_069.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_070",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_070",
+    "text": "可以幫我外帶嗎？",
+    "pinyin_numeric": "ke3 yi3 bang1 wo3 wai4 dai4 ma0",
+    "path": "audio/AUD_SEN_D31_070.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_071",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_071",
+    "text": "我想要一杯小杯的拿鐵。",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 xiao3 bei1 de0 na2 tie3.",
+    "path": "audio/AUD_SEN_D31_071.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_072",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_072",
+    "text": "我想要一杯中杯的紅茶，半糖。",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 zhong1 bei1 de0 hong2 cha2, ban4 tang2.",
+    "path": "audio/AUD_SEN_D31_072.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_073",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_073",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 da4 bei1 de0 lü4 cha2, qu4 bing1.",
+    "path": "audio/AUD_SEN_D31_073.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_074",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_074",
+    "text": "我想要一杯豆漿，少冰。",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 dou4 jiang1, shao3 bing1.",
+    "path": "audio/AUD_SEN_D31_074.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_075",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_075",
+    "text": "我想要一杯拿鐵，加珍珠。",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 na2 tie3, jia1 zhen1 zhu1.",
+    "path": "audio/AUD_SEN_D31_075.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_076",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_076",
+    "text": "我想要一杯小杯的紅茶，微糖。",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 xiao3 bei1 de0 hong2 cha2, wei1 tang2.",
+    "path": "audio/AUD_SEN_D31_076.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_077",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_077",
+    "text": "我想要一杯中杯的綠茶，正常甜。",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 zhong1 bei1 de0 lü4 cha2, zheng4 chang2 tian2.",
+    "path": "audio/AUD_SEN_D31_077.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_078",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_078",
+    "text": "我想要一杯大杯的豆漿，冰。",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 da4 bei1 de0 dou4 jiang1, bing1.",
+    "path": "audio/AUD_SEN_D31_078.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_079",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_079",
+    "text": "我想要一杯小杯的拿鐵，半糖，少冰。",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 xiao3 bei1 de0 na2 tie3, ban4 tang2, shao3 bing1.",
+    "path": "audio/AUD_SEN_D31_079.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_080",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_080",
+    "text": "我想要一杯中杯的紅茶，加珍珠，去冰。",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 zhong1 bei1 de0 hong2 cha2, jia1 zhen1 zhu1, qu4 bing1.",
+    "path": "audio/AUD_SEN_D31_080.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_081",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_081",
+    "text": "不好意思，我想要一杯小杯的拿鐵。",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, wo3 xiang3 yao4 yi1 bei1 xiao3 bei1 de0 na2 tie3.",
+    "path": "audio/AUD_SEN_D31_081.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_082",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_082",
+    "text": "不好意思，麻煩給我一個袋子。",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, ma2 fan0 gei3 wo3 yi1 ge4 dai4 zi0.",
+    "path": "audio/AUD_SEN_D31_082.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_083",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_083",
+    "text": "不好意思，請問這個價錢是多少？",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, qing3 wen4 zhe4 ge4 jia4 qian2 shi4 duo1 shao3?",
+    "path": "audio/AUD_SEN_D31_083.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_084",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_084",
+    "text": "不好意思，我要一杯紅茶，半糖少冰。",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, wo3 yao4 yi1 bei1 hong2 cha2, ban4 tang2 shao3 bing1.",
+    "path": "audio/AUD_SEN_D31_084.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_085",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_085",
+    "text": "不好意思，可以幫我加珍珠嗎？",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, ke3 yi3 bang1 wo3 jia1 zhen1 zhu1 ma0?",
+    "path": "audio/AUD_SEN_D31_085.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_086",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_086",
+    "text": "不好意思，我要外帶一杯綠茶。",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, wo3 yao4 wai4 dai4 yi1 bei1 lü4 cha2.",
+    "path": "audio/AUD_SEN_D31_086.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_087",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_087",
+    "text": "不好意思，請給我一根吸管。",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, qing3 gei3 wo3 yi1 gen1 xi1 guan3.",
+    "path": "audio/AUD_SEN_D31_087.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_088",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_088",
+    "text": "不好意思，我要內用一杯豆漿。",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, wo3 yao4 nei4 yong4 yi1 bei1 dou4 jiang1.",
+    "path": "audio/AUD_SEN_D31_088.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_089",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_089",
+    "text": "不好意思，可以再說一次嗎？我聽不懂。",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, ke3 yi3 zai4 shuo1 yi1 ci4 ma0? Wo3 ting1 bu4 dong3.",
+    "path": "audio/AUD_SEN_D31_089.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D31_090",
+    "kind": "sentence",
+    "ref_id": "SEN_D31_090",
+    "text": "不好意思，我要一杯大杯的拿鐵，正常甜去冰。",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, wo3 yao4 yi1 bei1 da4 bei1 de0 na2 tie3, zheng4 chang2 tian2 qu4 bing1.",
+    "path": "audio/AUD_SEN_D31_090.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_DLG_D31_01_T1",
+    "kind": "dialogue",
+    "ref_id": "DLG_D31_01",
+    "text": "你好，請問想要喝什麼？",
+    "pinyin_numeric": "Ni3 hao3, qing3 wen4 xiang3 yao4 he1 shen2 me?",
+    "path": "audio/AUD_DLG_D31_01_T1.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_DLG_D31_01_T2",
+    "kind": "dialogue",
+    "ref_id": "DLG_D31_01",
+    "text": "你好，我想要一杯小杯的拿鐵，少冰。",
+    "pinyin_numeric": "Ni3 hao3, wo3 xiang3 yao4 yi1 bei1 xiao3 bei1 de na2 tie3, shao3 bing1.",
+    "path": "audio/AUD_DLG_D31_01_T2.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_DLG_D31_01_T3",
+    "kind": "dialogue",
+    "ref_id": "DLG_D31_01",
+    "text": "好的，拿鐵小杯少冰。請問還要別的嗎？",
+    "pinyin_numeric": "Hao3 de, na2 tie3 xiao3 bei1 shao3 bing1. Qing3 wen4 hai2 yao4 bie2 de ma?",
+    "path": "audio/AUD_DLG_D31_01_T3.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_DLG_D31_01_T4",
+    "kind": "dialogue",
+    "ref_id": "DLG_D31_01",
+    "text": "不用了，謝謝。這樣就好。",
+    "pinyin_numeric": "Bu4 yong4 le, xie4 xie4. Zhe4 yang4 jiu4 hao3.",
+    "path": "audio/AUD_DLG_D31_01_T4.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_DLG_D31_01_T5",
+    "kind": "dialogue",
+    "ref_id": "DLG_D31_01",
+    "text": "好的，總共是八十塊。內用還是外帶？",
+    "pinyin_numeric": "Hao3 de, zong3 gong4 shi4 ba1 shi2 kuai4. Nei4 yong4 hai2 shi4 wai4 dai4?",
+    "path": "audio/AUD_DLG_D31_01_T5.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_DLG_D31_01_T6",
+    "kind": "dialogue",
+    "ref_id": "DLG_D31_01",
+    "text": "外帶，麻煩你。",
+    "pinyin_numeric": "Wai4 dai4, ma2 fan5 ni3.",
+    "path": "audio/AUD_DLG_D31_01_T6.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_DLG_D31_01_T7",
+    "kind": "dialogue",
+    "ref_id": "DLG_D31_01",
+    "text": "沒問題，請等一下。",
+    "pinyin_numeric": "Mei2 wen4 ti2, qing3 deng3 yi1 xia4.",
+    "path": "audio/AUD_DLG_D31_01_T7.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_DLG_D31_02_T1",
+    "kind": "dialogue",
+    "ref_id": "DLG_D31_02",
+    "text": "不好意思，請問這個紅茶大杯的價錢是多少？",
+    "pinyin_numeric": "Bu4 hao3 yi4 si5, qing3 wen4 zhe4 ge5 hong2 cha2 da4 bei1 de jia4 qian2 shi4 duo1 shao3?",
+    "path": "audio/AUD_DLG_D31_02_T1.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_DLG_D31_02_T2",
+    "kind": "dialogue",
+    "ref_id": "DLG_D31_02",
+    "text": "大杯紅茶是三十五塊。",
+    "pinyin_numeric": "Da4 bei1 hong2 cha2 shi4 san1 shi2 wu3 kuai4.",
+    "path": "audio/AUD_DLG_D31_02_T2.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_DLG_D31_02_T3",
+    "kind": "dialogue",
+    "ref_id": "DLG_D31_02",
+    "text": "那中杯的呢？",
+    "pinyin_numeric": "Na4 zhong1 bei1 de ne?",
+    "path": "audio/AUD_DLG_D31_02_T3.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_DLG_D31_02_T4",
+    "kind": "dialogue",
+    "ref_id": "DLG_D31_02",
+    "text": "中杯是二十五塊。",
+    "pinyin_numeric": "Zhong1 bei1 shi4 er4 shi2 wu3 kuai4.",
+    "path": "audio/AUD_DLG_D31_02_T4.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_DLG_D31_02_T5",
+    "kind": "dialogue",
+    "ref_id": "DLG_D31_02",
+    "text": "好，我要一杯中杯紅茶，少冰，半糖。",
+    "pinyin_numeric": "Hao3, wo3 yao4 yi1 bei1 zhong1 bei1 hong2 cha2, shao3 bing1, ban4 tang2.",
+    "path": "audio/AUD_DLG_D31_02_T5.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_DLG_D31_02_T6",
+    "kind": "dialogue",
+    "ref_id": "DLG_D31_02",
+    "text": "好的，中杯紅茶少冰半糖，總共二十五塊。",
+    "pinyin_numeric": "Hao3 de, zhong1 bei1 hong2 cha2 shao3 bing1 ban4 tang2, zong3 gong4 er4 shi2 wu3 kuai4.",
+    "path": "audio/AUD_DLG_D31_02_T6.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_DLG_D31_03_T1",
+    "kind": "dialogue",
+    "ref_id": "DLG_D31_03",
+    "text": "你好，請問想要喝什麼？",
+    "pinyin_numeric": "Ni3 hao3, qing3 wen4 xiang3 yao4 he1 shen2 me?",
+    "path": "audio/AUD_DLG_D31_03_T1.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_DLG_D31_03_T2",
+    "kind": "dialogue",
+    "ref_id": "DLG_D31_03",
+    "text": "不好意思，可以再說一次嗎？請說慢一點。",
+    "pinyin_numeric": "Bu4 hao3 yi4 si5, ke3 yi3 zai4 shuo1 yi1 ci4 ma? Qing3 shuo1 man4 yi1 dian3.",
+    "path": "audio/AUD_DLG_D31_03_T2.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_DLG_D31_03_T3",
+    "kind": "dialogue",
+    "ref_id": "DLG_D31_03",
+    "text": "沒問題。請問...想要喝什麼？",
+    "pinyin_numeric": "Mei2 wen4 ti2. Qing3 wen4... xiang3 yao4 he1 shen2 me?",
+    "path": "audio/AUD_DLG_D31_03_T3.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_DLG_D31_03_T4",
+    "kind": "dialogue",
+    "ref_id": "DLG_D31_03",
+    "text": "謝謝。我想要一杯小杯的豆漿，去冰。",
+    "pinyin_numeric": "Xie4 xie4. Wo3 xiang3 yao4 yi1 bei1 xiao3 bei1 de dou4 jiang1, qu4 bing1.",
+    "path": "audio/AUD_DLG_D31_03_T4.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_DLG_D31_03_T5",
+    "kind": "dialogue",
+    "ref_id": "DLG_D31_03",
+    "text": "好的，小杯豆漿去冰。還要別的嗎？",
+    "pinyin_numeric": "Hao3 de, xiao3 bei1 dou4 jiang1 qu4 bing1. Hai2 yao4 bie2 de ma?",
+    "path": "audio/AUD_DLG_D31_03_T5.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_DLG_D31_03_T6",
+    "kind": "dialogue",
+    "ref_id": "DLG_D31_03",
+    "text": "不用了，謝謝。",
+    "pinyin_numeric": "Bu4 yong4 le, xie4 xie4.",
+    "path": "audio/AUD_DLG_D31_03_T6.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_LIS_D31_01",
+    "kind": "listening",
+    "ref_id": "LIS_D31_01",
+    "text": "想要",
+    "pinyin_numeric": "xiang3 yao4",
+    "path": "audio/AUD_LIS_D31_01.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_LIS_D31_02",
+    "kind": "listening",
+    "ref_id": "LIS_D31_02",
+    "text": "請問，可以幫我加珍珠嗎？",
+    "pinyin_numeric": "qing3wen4, ke3yi3 bang1 wo3 jia1 zhen1zhu1 ma0?",
+    "path": "audio/AUD_LIS_D31_02.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_LIS_D31_03",
+    "kind": "listening",
+    "ref_id": "LIS_D31_03",
+    "text": "不好意思，可以再說一次嗎？我聽不懂。",
+    "pinyin_numeric": "bu4 hao3 yi4si, ke3yi3 zai4 shuo1 yi1 ci4 ma0? Wo3 ting1 bu4 dong3.",
+    "path": "audio/AUD_LIS_D31_03.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_LIS_D31_04",
+    "kind": "listening",
+    "ref_id": "LIS_D31_04",
+    "text": "麻煩你，可以幫我外帶嗎？",
+    "pinyin_numeric": "ma2fan ni3, ke3yi3 bang1 wo3 wai4dai4 ma0?",
+    "path": "audio/AUD_LIS_D31_04.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_LIS_D31_05",
+    "kind": "listening",
+    "ref_id": "LIS_D31_05",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 da4 bei1 de0 lv4 cha2, qu4 bing1.",
+    "path": "audio/AUD_LIS_D31_05.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_LIS_D31_06",
+    "kind": "listening",
+    "ref_id": "LIS_D31_06",
+    "text": "小杯",
+    "pinyin_numeric": "xiao3 bei1",
+    "path": "audio/AUD_LIS_D31_06.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_LIS_D31_07",
+    "kind": "listening",
+    "ref_id": "LIS_D31_07",
+    "text": "我想要一杯冰的豆漿，外帶。",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 bing1 de0 dou4 jiang1, wai4 dai4.",
+    "path": "audio/AUD_LIS_D31_07.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_LIS_D31_08",
+    "kind": "listening",
+    "ref_id": "LIS_D31_08",
+    "text": "不好意思，麻煩給我一個袋子。",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, ma2 fan0 gei3 wo3 yi1 ge0 dai4 zi0.",
+    "path": "audio/AUD_LIS_D31_08.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_LIS_D31_09",
+    "kind": "listening",
+    "ref_id": "LIS_D31_09",
+    "text": "不好意思，我要一杯綠茶，去冰。",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, wo3 yao4 yi1 bei1 lü4 cha2, qu4 bing1.",
+    "path": "audio/AUD_LIS_D31_09.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_LIS_D31_10",
+    "kind": "listening",
+    "ref_id": "LIS_D31_10",
+    "text": "不好意思，請給我一根吸管。",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, qing3 gei3 wo3 yi1 gen1 xi1 guan3.",
+    "path": "audio/AUD_LIS_D31_10.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_LIS_D31_11",
+    "kind": "listening",
+    "ref_id": "LIS_D31_11",
+    "text": "紅茶",
+    "pinyin_numeric": "hong2 cha2",
+    "path": "audio/AUD_LIS_D31_11.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_LIS_D31_12",
+    "kind": "listening",
+    "ref_id": "LIS_D31_12",
+    "text": "店員，可以給我一個袋子嗎？謝謝。",
+    "pinyin_numeric": "dian4 yuan2, ke3 yi3 gei3 wo3 yi1 ge4 dai4 zi5 ma0? xie4 xie5.",
+    "path": "audio/AUD_LIS_D31_12.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_LIS_D31_13",
+    "kind": "listening",
+    "ref_id": "LIS_D31_13",
+    "text": "不好意思，可以再說一次嗎？我聽不懂。",
+    "pinyin_numeric": "bu4 hao3 yi4 si5, ke3 yi3 zai4 shuo1 yi1 ci4 ma0? wo3 ting1 bu4 dong3.",
+    "path": "audio/AUD_LIS_D31_13.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_LIS_D31_14",
+    "kind": "listening",
+    "ref_id": "LIS_D31_14",
+    "text": "店員，可以幫我拿發票嗎？謝謝。",
+    "pinyin_numeric": "dian4 yuan2, ke3 yi3 bang1 wo3 na2 fa1 piao4 ma0? xie4 xie5.",
+    "path": "audio/AUD_LIS_D31_14.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_LIS_D31_15",
+    "kind": "listening",
+    "ref_id": "LIS_D31_15",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 da4 bei1 de0 lv4 cha2, qu4 bing1.",
+    "path": "audio/AUD_LIS_D31_15.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_LIS_D31_16",
+    "kind": "listening",
+    "ref_id": "LIS_D31_16",
+    "text": "外帶",
+    "pinyin_numeric": "wai4 dai4",
+    "path": "audio/AUD_LIS_D31_16.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_LIS_D31_17",
+    "kind": "listening",
+    "ref_id": "LIS_D31_17",
+    "text": "我想要一杯中杯的拿鐵，半糖，去冰。",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 zhong1 bei1 de0 na2 tie3, ban4 tang2, qu4 bing1.",
+    "path": "audio/AUD_LIS_D31_17.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_LIS_D31_18",
+    "kind": "listening",
+    "ref_id": "LIS_D31_18",
+    "text": "不好意思，麻煩給我兩杯紅茶，一杯去冰，一杯少冰。",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, ma2 fan0 gei3 wo3 liang3 bei1 hong2 cha2, yi1 bei1 qu4 bing1, yi1 bei1 shao3 bing1.",
+    "path": "audio/AUD_LIS_D31_18.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_LIS_D31_19",
+    "kind": "listening",
+    "ref_id": "LIS_D31_19",
+    "text": "不好意思，可以幫我加珍珠嗎？",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, ke3 yi3 bang1 wo3 jia1 zhen1 zhu1 ma0?",
+    "path": "audio/AUD_LIS_D31_19.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_LIS_D31_20",
+    "kind": "listening",
+    "ref_id": "LIS_D31_20",
+    "text": "不好意思，可以再說一次嗎？我聽不太清楚。",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, ke3 yi3 zai4 shuo1 yi1 ci4 ma0? Wo3 ting1 bu4 tai4 qing1 chu0.",
+    "path": "audio/AUD_LIS_D31_20.mp3",
     "status": "placeholder"
   }
 ]

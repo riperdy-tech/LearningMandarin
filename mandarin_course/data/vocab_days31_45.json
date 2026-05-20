@@ -1,1038 +1,5 @@
 [
   {
-    "id": "VOC_D31_001",
-    "char": "想要",
-    "pinyin": "xiǎng yào",
-    "pinyin_numeric": "xiang3 yao4",
-    "phonemes": [
-      "xiang3",
-      "yao4"
-    ],
-    "pos": "verb phrase",
-    "meaning_en": "would like; want",
-    "meaning_ko": "원하다",
-    "semantic_domain": "requests",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D31_001",
-      "SEN_D31_005",
-      "SEN_D31_006",
-      "SEN_D31_007"
-    ],
-    "audio_id": "AUD_VOC_D31_001",
-    "day_introduced": 31,
-    "srs_tags": [
-      "day_31",
-      "requests"
-    ]
-  },
-  {
-    "id": "VOC_D31_002",
-    "char": "不用",
-    "pinyin": "búyòng",
-    "pinyin_numeric": "bu2 yong4",
-    "phonemes": [
-      "bu2",
-      "yong4"
-    ],
-    "pos": "phrase",
-    "meaning_en": "no need",
-    "meaning_ko": "필요 없다",
-    "semantic_domain": "requests",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D31_002",
-      "SEN_D31_037",
-      "SEN_D31_072"
-    ],
-    "audio_id": "AUD_VOC_D31_002",
-    "day_introduced": 31,
-    "srs_tags": [
-      "day_31",
-      "requests"
-    ]
-  },
-  {
-    "id": "VOC_D31_003",
-    "char": "謝謝",
-    "pinyin": "xièxie",
-    "pinyin_numeric": "xie4 xie0",
-    "phonemes": [
-      "xie4",
-      "xie0"
-    ],
-    "pos": "phrase",
-    "meaning_en": "thank you",
-    "meaning_ko": "감사합니다",
-    "semantic_domain": "requests",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D31_003",
-      "SEN_D31_038",
-      "SEN_D31_073"
-    ],
-    "audio_id": "AUD_VOC_D31_003",
-    "day_introduced": 31,
-    "srs_tags": [
-      "day_31",
-      "requests"
-    ]
-  },
-  {
-    "id": "VOC_D31_004",
-    "char": "幫我",
-    "pinyin": "bāng wǒ",
-    "pinyin_numeric": "bang1 wo3",
-    "phonemes": [
-      "bang1",
-      "wo3"
-    ],
-    "pos": "verb phrase",
-    "meaning_en": "help me",
-    "meaning_ko": "저를 도와주다",
-    "semantic_domain": "requests",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D31_004",
-      "SEN_D31_039",
-      "SEN_D31_074"
-    ],
-    "audio_id": "AUD_VOC_D31_004",
-    "day_introduced": 31,
-    "srs_tags": [
-      "day_31",
-      "requests"
-    ]
-  },
-  {
-    "id": "VOC_D31_005",
-    "char": "給我",
-    "pinyin": "gěi wǒ",
-    "pinyin_numeric": "gei3 wo3",
-    "phonemes": [
-      "gei3",
-      "wo3"
-    ],
-    "pos": "verb phrase",
-    "meaning_en": "give me",
-    "meaning_ko": "저에게 주다",
-    "semantic_domain": "requests",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D31_002",
-      "SEN_D31_003",
-      "SEN_D31_005",
-      "SEN_D31_008"
-    ],
-    "audio_id": "AUD_VOC_D31_005",
-    "day_introduced": 31,
-    "srs_tags": [
-      "day_31",
-      "requests"
-    ]
-  },
-  {
-    "id": "VOC_D31_006",
-    "char": "小杯",
-    "pinyin": "xiǎo bēi",
-    "pinyin_numeric": "xiao3 bei1",
-    "phonemes": [
-      "xiao3",
-      "bei1"
-    ],
-    "pos": "noun",
-    "meaning_en": "small cup",
-    "meaning_ko": "작은 컵",
-    "semantic_domain": "cafe",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D31_006",
-      "SEN_D31_041",
-      "SEN_D31_076"
-    ],
-    "audio_id": "AUD_VOC_D31_006",
-    "day_introduced": 31,
-    "srs_tags": [
-      "day_31",
-      "cafe"
-    ]
-  },
-  {
-    "id": "VOC_D31_007",
-    "char": "中杯",
-    "pinyin": "zhōng bēi",
-    "pinyin_numeric": "zhong1 bei1",
-    "phonemes": [
-      "zhong1",
-      "bei1"
-    ],
-    "pos": "noun",
-    "meaning_en": "medium cup",
-    "meaning_ko": "중간 컵",
-    "semantic_domain": "cafe",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D31_007",
-      "SEN_D31_042",
-      "SEN_D31_077"
-    ],
-    "audio_id": "AUD_VOC_D31_007",
-    "day_introduced": 31,
-    "srs_tags": [
-      "day_31",
-      "cafe"
-    ]
-  },
-  {
-    "id": "VOC_D31_008",
-    "char": "大杯",
-    "pinyin": "dà bēi",
-    "pinyin_numeric": "da4 bei1",
-    "phonemes": [
-      "da4",
-      "bei1"
-    ],
-    "pos": "noun",
-    "meaning_en": "large cup",
-    "meaning_ko": "큰 컵",
-    "semantic_domain": "cafe",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D31_008",
-      "SEN_D31_043",
-      "SEN_D31_078"
-    ],
-    "audio_id": "AUD_VOC_D31_008",
-    "day_introduced": 31,
-    "srs_tags": [
-      "day_31",
-      "cafe"
-    ]
-  },
-  {
-    "id": "VOC_D31_009",
-    "char": "拿鐵",
-    "pinyin": "nátiě",
-    "pinyin_numeric": "na2 tie3",
-    "phonemes": [
-      "na2",
-      "tie3"
-    ],
-    "pos": "noun",
-    "meaning_en": "latte",
-    "meaning_ko": "라테",
-    "semantic_domain": "cafe",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D31_009",
-      "SEN_D31_044",
-      "SEN_D31_079"
-    ],
-    "audio_id": "AUD_VOC_D31_009",
-    "day_introduced": 31,
-    "srs_tags": [
-      "day_31",
-      "cafe"
-    ]
-  },
-  {
-    "id": "VOC_D31_010",
-    "char": "豆漿",
-    "pinyin": "dòujiāng",
-    "pinyin_numeric": "dou4 jiang1",
-    "phonemes": [
-      "dou4",
-      "jiang1"
-    ],
-    "pos": "noun",
-    "meaning_en": "soy milk",
-    "meaning_ko": "두유",
-    "semantic_domain": "cafe",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D31_010",
-      "SEN_D31_045",
-      "SEN_D31_080"
-    ],
-    "audio_id": "AUD_VOC_D31_010",
-    "day_introduced": 31,
-    "srs_tags": [
-      "day_31",
-      "cafe"
-    ]
-  },
-  {
-    "id": "VOC_D31_011",
-    "char": "紅茶",
-    "pinyin": "hóngchá",
-    "pinyin_numeric": "hong2 cha2",
-    "phonemes": [
-      "hong2",
-      "cha2"
-    ],
-    "pos": "noun",
-    "meaning_en": "black tea",
-    "meaning_ko": "홍차",
-    "semantic_domain": "cafe",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D31_011",
-      "SEN_D31_032",
-      "SEN_D31_046",
-      "SEN_D31_067"
-    ],
-    "audio_id": "AUD_VOC_D31_011",
-    "day_introduced": 31,
-    "srs_tags": [
-      "day_31",
-      "cafe"
-    ]
-  },
-  {
-    "id": "VOC_D31_012",
-    "char": "綠茶",
-    "pinyin": "lǜchá",
-    "pinyin_numeric": "lü4 cha2",
-    "phonemes": [
-      "lü4",
-      "cha2"
-    ],
-    "pos": "noun",
-    "meaning_en": "green tea",
-    "meaning_ko": "녹차",
-    "semantic_domain": "cafe",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D31_012",
-      "SEN_D31_047",
-      "SEN_D31_082"
-    ],
-    "audio_id": "AUD_VOC_D31_012",
-    "day_introduced": 31,
-    "srs_tags": [
-      "day_31",
-      "cafe"
-    ]
-  },
-  {
-    "id": "VOC_D31_013",
-    "char": "冰",
-    "pinyin": "bīng",
-    "pinyin_numeric": "bing1",
-    "phonemes": [
-      "bing1"
-    ],
-    "pos": "adjective",
-    "meaning_en": "iced",
-    "meaning_ko": "얼음; 아이스",
-    "semantic_domain": "cafe",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [],
-    "audio_id": "AUD_VOC_D31_013",
-    "day_introduced": 31,
-    "srs_tags": [
-      "day_31",
-      "cafe"
-    ]
-  },
-  {
-    "id": "VOC_D31_014",
-    "char": "少冰",
-    "pinyin": "shǎo bīng",
-    "pinyin_numeric": "shao3 bing1",
-    "phonemes": [
-      "shao3",
-      "bing1"
-    ],
-    "pos": "phrase",
-    "meaning_en": "less ice",
-    "meaning_ko": "얼음 적게",
-    "semantic_domain": "cafe",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D31_013",
-      "SEN_D31_048",
-      "SEN_D31_083"
-    ],
-    "audio_id": "AUD_VOC_D31_014",
-    "day_introduced": 31,
-    "srs_tags": [
-      "day_31",
-      "cafe"
-    ]
-  },
-  {
-    "id": "VOC_D31_015",
-    "char": "去冰",
-    "pinyin": "qù bīng",
-    "pinyin_numeric": "qu4 bing1",
-    "phonemes": [
-      "qu4",
-      "bing1"
-    ],
-    "pos": "phrase",
-    "meaning_en": "no ice",
-    "meaning_ko": "얼음 없이",
-    "semantic_domain": "cafe",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D31_014",
-      "SEN_D31_049",
-      "SEN_D31_084"
-    ],
-    "audio_id": "AUD_VOC_D31_015",
-    "day_introduced": 31,
-    "srs_tags": [
-      "day_31",
-      "cafe"
-    ]
-  },
-  {
-    "id": "VOC_D31_016",
-    "char": "外帶",
-    "pinyin": "wàidài",
-    "pinyin_numeric": "wai4 dai4",
-    "phonemes": [
-      "wai4",
-      "dai4"
-    ],
-    "pos": "verb",
-    "meaning_en": "take out",
-    "meaning_ko": "포장하다",
-    "semantic_domain": "cafe",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [],
-    "audio_id": "AUD_VOC_D31_016",
-    "day_introduced": 31,
-    "srs_tags": [
-      "day_31",
-      "cafe"
-    ]
-  },
-  {
-    "id": "VOC_D31_017",
-    "char": "內用",
-    "pinyin": "nèiyòng",
-    "pinyin_numeric": "nei4 yong4",
-    "phonemes": [
-      "nei4",
-      "yong4"
-    ],
-    "pos": "verb",
-    "meaning_en": "eat in",
-    "meaning_ko": "매장에서 먹다",
-    "semantic_domain": "cafe",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [],
-    "audio_id": "AUD_VOC_D31_017",
-    "day_introduced": 31,
-    "srs_tags": [
-      "day_31",
-      "cafe"
-    ]
-  },
-  {
-    "id": "VOC_D31_018",
-    "char": "價錢",
-    "pinyin": "jiàqián",
-    "pinyin_numeric": "jia4 qian2",
-    "phonemes": [
-      "jia4",
-      "qian2"
-    ],
-    "pos": "noun",
-    "meaning_en": "price",
-    "meaning_ko": "가격",
-    "semantic_domain": "shop",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D31_015",
-      "SEN_D31_050",
-      "SEN_D31_085"
-    ],
-    "audio_id": "AUD_VOC_D31_018",
-    "day_introduced": 31,
-    "srs_tags": [
-      "day_31",
-      "shop"
-    ]
-  },
-  {
-    "id": "VOC_D31_019",
-    "char": "麻煩",
-    "pinyin": "máfan",
-    "pinyin_numeric": "ma2 fan0",
-    "phonemes": [
-      "ma2",
-      "fan0"
-    ],
-    "pos": "verb",
-    "meaning_en": "to trouble; please",
-    "meaning_ko": "수고스럽게 하다",
-    "semantic_domain": "requests",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [],
-    "audio_id": "AUD_VOC_D31_019",
-    "day_introduced": 31,
-    "srs_tags": [
-      "day_31",
-      "requests"
-    ]
-  },
-  {
-    "id": "VOC_D31_020",
-    "char": "不好意思",
-    "pinyin": "bùhǎoyìsi",
-    "pinyin_numeric": "bu4 hao3 yi4 si0",
-    "phonemes": [
-      "bu4",
-      "hao3",
-      "yi4",
-      "si0"
-    ],
-    "pos": "phrase",
-    "meaning_en": "excuse me; sorry",
-    "meaning_ko": "죄송합니다",
-    "semantic_domain": "requests",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D31_005",
-      "SEN_D31_011",
-      "SEN_D31_016",
-      "SEN_D31_017"
-    ],
-    "audio_id": "AUD_VOC_D31_020",
-    "day_introduced": 31,
-    "srs_tags": [
-      "day_31",
-      "requests"
-    ]
-  },
-  {
-    "id": "VOC_D31_021",
-    "char": "店員",
-    "pinyin": "diànyuán",
-    "pinyin_numeric": "dian4 yuan2",
-    "phonemes": [
-      "dian4",
-      "yuan2"
-    ],
-    "pos": "noun",
-    "meaning_en": "shop clerk",
-    "meaning_ko": "점원",
-    "semantic_domain": "shop",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D31_017",
-      "SEN_D31_052",
-      "SEN_D31_087"
-    ],
-    "audio_id": "AUD_VOC_D31_021",
-    "day_introduced": 31,
-    "srs_tags": [
-      "day_31",
-      "shop"
-    ]
-  },
-  {
-    "id": "VOC_D31_022",
-    "char": "客人",
-    "pinyin": "kèrén",
-    "pinyin_numeric": "ke4 ren2",
-    "phonemes": [
-      "ke4",
-      "ren2"
-    ],
-    "pos": "noun",
-    "meaning_en": "customer",
-    "meaning_ko": "손님",
-    "semantic_domain": "shop",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D31_018",
-      "SEN_D31_053",
-      "SEN_D31_088"
-    ],
-    "audio_id": "AUD_VOC_D31_022",
-    "day_introduced": 31,
-    "srs_tags": [
-      "day_31",
-      "shop"
-    ]
-  },
-  {
-    "id": "VOC_D31_023",
-    "char": "吸管",
-    "pinyin": "xīguǎn",
-    "pinyin_numeric": "xi1 guan3",
-    "phonemes": [
-      "xi1",
-      "guan3"
-    ],
-    "pos": "noun",
-    "meaning_en": "straw",
-    "meaning_ko": "빨대",
-    "semantic_domain": "cafe",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D31_019",
-      "SEN_D31_054",
-      "SEN_D31_089"
-    ],
-    "audio_id": "AUD_VOC_D31_023",
-    "day_introduced": 31,
-    "srs_tags": [
-      "day_31",
-      "cafe"
-    ]
-  },
-  {
-    "id": "VOC_D31_024",
-    "char": "湯匙",
-    "pinyin": "tāngchí",
-    "pinyin_numeric": "tang1 chi2",
-    "phonemes": [
-      "tang1",
-      "chi2"
-    ],
-    "pos": "noun",
-    "meaning_en": "spoon",
-    "meaning_ko": "숟가락",
-    "semantic_domain": "cafe",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D31_020",
-      "SEN_D31_055",
-      "SEN_D31_090"
-    ],
-    "audio_id": "AUD_VOC_D31_024",
-    "day_introduced": 31,
-    "srs_tags": [
-      "day_31",
-      "cafe"
-    ]
-  },
-  {
-    "id": "VOC_D31_025",
-    "char": "叉子",
-    "pinyin": "chāzi",
-    "pinyin_numeric": "cha1 zi0",
-    "phonemes": [
-      "cha1",
-      "zi0"
-    ],
-    "pos": "noun",
-    "meaning_en": "fork",
-    "meaning_ko": "포크",
-    "semantic_domain": "cafe",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D31_021",
-      "SEN_D31_056"
-    ],
-    "audio_id": "AUD_VOC_D31_025",
-    "day_introduced": 31,
-    "srs_tags": [
-      "day_31",
-      "cafe"
-    ]
-  },
-  {
-    "id": "VOC_D31_026",
-    "char": "衛生紙",
-    "pinyin": "wèishēngzhǐ",
-    "pinyin_numeric": "wei4 sheng1 zhi3",
-    "phonemes": [
-      "wei4",
-      "sheng1",
-      "zhi3"
-    ],
-    "pos": "noun",
-    "meaning_en": "tissue",
-    "meaning_ko": "휴지",
-    "semantic_domain": "cafe",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D31_022",
-      "SEN_D31_057"
-    ],
-    "audio_id": "AUD_VOC_D31_026",
-    "day_introduced": 31,
-    "srs_tags": [
-      "day_31",
-      "cafe"
-    ]
-  },
-  {
-    "id": "VOC_D31_027",
-    "char": "半糖",
-    "pinyin": "bàn táng",
-    "pinyin_numeric": "ban4 tang2",
-    "phonemes": [
-      "ban4",
-      "tang2"
-    ],
-    "pos": "phrase",
-    "meaning_en": "half sugar",
-    "meaning_ko": "당도 반",
-    "semantic_domain": "cafe",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D31_023",
-      "SEN_D31_058"
-    ],
-    "audio_id": "AUD_VOC_D31_027",
-    "day_introduced": 31,
-    "srs_tags": [
-      "day_31",
-      "cafe"
-    ]
-  },
-  {
-    "id": "VOC_D31_028",
-    "char": "微糖",
-    "pinyin": "wēi táng",
-    "pinyin_numeric": "wei1 tang2",
-    "phonemes": [
-      "wei1",
-      "tang2"
-    ],
-    "pos": "phrase",
-    "meaning_en": "light sugar",
-    "meaning_ko": "당도 적게",
-    "semantic_domain": "cafe",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D31_024",
-      "SEN_D31_059"
-    ],
-    "audio_id": "AUD_VOC_D31_028",
-    "day_introduced": 31,
-    "srs_tags": [
-      "day_31",
-      "cafe"
-    ]
-  },
-  {
-    "id": "VOC_D31_029",
-    "char": "正常甜",
-    "pinyin": "zhèngcháng tián",
-    "pinyin_numeric": "zheng4 chang2 tian2",
-    "phonemes": [
-      "zheng4",
-      "chang2",
-      "tian2"
-    ],
-    "pos": "phrase",
-    "meaning_en": "regular sweetness",
-    "meaning_ko": "일반 당도",
-    "semantic_domain": "cafe",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D31_025",
-      "SEN_D31_060"
-    ],
-    "audio_id": "AUD_VOC_D31_029",
-    "day_introduced": 31,
-    "srs_tags": [
-      "day_31",
-      "cafe"
-    ]
-  },
-  {
-    "id": "VOC_D31_030",
-    "char": "加珍珠",
-    "pinyin": "jiā zhēnzhū",
-    "pinyin_numeric": "jia1 zhen1 zhu1",
-    "phonemes": [
-      "jia1",
-      "zhen1",
-      "zhu1"
-    ],
-    "pos": "verb phrase",
-    "meaning_en": "add tapioca pearls",
-    "meaning_ko": "펄 추가하다",
-    "semantic_domain": "cafe",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D31_026",
-      "SEN_D31_061"
-    ],
-    "audio_id": "AUD_VOC_D31_030",
-    "day_introduced": 31,
-    "srs_tags": [
-      "day_31",
-      "cafe"
-    ]
-  },
-  {
-    "id": "VOC_D31_031",
-    "char": "等候",
-    "pinyin": "děnghòu",
-    "pinyin_numeric": "deng3 hou4",
-    "phonemes": [
-      "deng3",
-      "hou4"
-    ],
-    "pos": "verb",
-    "meaning_en": "to wait",
-    "meaning_ko": "기다리다",
-    "semantic_domain": "requests",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [],
-    "audio_id": "AUD_VOC_D31_031",
-    "day_introduced": 31,
-    "srs_tags": [
-      "day_31",
-      "requests"
-    ]
-  },
-  {
-    "id": "VOC_D31_032",
-    "char": "等一下",
-    "pinyin": "děng yíxià",
-    "pinyin_numeric": "deng3 yi2 xia4",
-    "phonemes": [
-      "deng3",
-      "yi2",
-      "xia4"
-    ],
-    "pos": "phrase",
-    "meaning_en": "wait a moment",
-    "meaning_ko": "잠깐 기다리다",
-    "semantic_domain": "requests",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D31_027",
-      "SEN_D31_062"
-    ],
-    "audio_id": "AUD_VOC_D31_032",
-    "day_introduced": 31,
-    "srs_tags": [
-      "day_31",
-      "requests"
-    ]
-  },
-  {
-    "id": "VOC_D31_033",
-    "char": "再說一次",
-    "pinyin": "zài shuō yí cì",
-    "pinyin_numeric": "zai4 shuo1 yi2 ci4",
-    "phonemes": [
-      "zai4",
-      "shuo1",
-      "yi2",
-      "ci4"
-    ],
-    "pos": "phrase",
-    "meaning_en": "say it again",
-    "meaning_ko": "다시 말하다",
-    "semantic_domain": "repair",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D31_028",
-      "SEN_D31_063"
-    ],
-    "audio_id": "AUD_VOC_D31_033",
-    "day_introduced": 31,
-    "srs_tags": [
-      "day_31",
-      "repair"
-    ]
-  },
-  {
-    "id": "VOC_D31_034",
-    "char": "慢一點",
-    "pinyin": "màn yìdiǎn",
-    "pinyin_numeric": "man4 yi4 dian3",
-    "phonemes": [
-      "man4",
-      "yi4",
-      "dian3"
-    ],
-    "pos": "phrase",
-    "meaning_en": "a little slower",
-    "meaning_ko": "조금 천천히",
-    "semantic_domain": "repair",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D31_029",
-      "SEN_D31_064"
-    ],
-    "audio_id": "AUD_VOC_D31_034",
-    "day_introduced": 31,
-    "srs_tags": [
-      "day_31",
-      "repair"
-    ]
-  },
-  {
-    "id": "VOC_D31_035",
-    "char": "沒問題",
-    "pinyin": "méi wèntí",
-    "pinyin_numeric": "mei2 wen4 ti2",
-    "phonemes": [
-      "mei2",
-      "wen4",
-      "ti2"
-    ],
-    "pos": "phrase",
-    "meaning_en": "no problem",
-    "meaning_ko": "문제없다",
-    "semantic_domain": "repair",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D31_030",
-      "SEN_D31_065"
-    ],
-    "audio_id": "AUD_VOC_D31_035",
-    "day_introduced": 31,
-    "srs_tags": [
-      "day_31",
-      "repair"
-    ]
-  },
-  {
     "id": "VOC_D32_001",
     "char": "便利商店",
     "pinyin": "biànlì shāngdiàn",
@@ -14318,6 +13285,925 @@
     "srs_tags": [
       "day_44",
       "mood"
+    ]
+  },
+  {
+    "id": "VOC_D31_001",
+    "char": "想要",
+    "pinyin": "xiǎng yào",
+    "pinyin_numeric": "xiang3 yao4",
+    "phonemes": [
+      "xiang3",
+      "yao4"
+    ],
+    "pos": "verb phrase",
+    "meaning_en": "would like; want",
+    "meaning_ko": "원하다",
+    "semantic_domain": "requests",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D31_001",
+    "day_introduced": 31,
+    "srs_tags": [
+      "day_31",
+      "requests"
+    ]
+  },
+  {
+    "id": "VOC_D31_002",
+    "char": "不用",
+    "pinyin": "búyòng",
+    "pinyin_numeric": "bu2 yong4",
+    "phonemes": [
+      "bu2",
+      "yong4"
+    ],
+    "pos": "phrase",
+    "meaning_en": "no need",
+    "meaning_ko": "필요 없다",
+    "semantic_domain": "requests",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D31_002",
+    "day_introduced": 31,
+    "srs_tags": [
+      "day_31",
+      "requests"
+    ]
+  },
+  {
+    "id": "VOC_D31_003",
+    "char": "謝謝",
+    "pinyin": "xièxie",
+    "pinyin_numeric": "xie4 xie0",
+    "phonemes": [
+      "xie4",
+      "xie0"
+    ],
+    "pos": "phrase",
+    "meaning_en": "thank you",
+    "meaning_ko": "감사합니다",
+    "semantic_domain": "requests",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D31_003",
+    "day_introduced": 31,
+    "srs_tags": [
+      "day_31",
+      "requests"
+    ]
+  },
+  {
+    "id": "VOC_D31_004",
+    "char": "幫我",
+    "pinyin": "bāng wǒ",
+    "pinyin_numeric": "bang1 wo3",
+    "phonemes": [
+      "bang1",
+      "wo3"
+    ],
+    "pos": "verb phrase",
+    "meaning_en": "help me",
+    "meaning_ko": "저를 도와주다",
+    "semantic_domain": "requests",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D31_004",
+    "day_introduced": 31,
+    "srs_tags": [
+      "day_31",
+      "requests"
+    ]
+  },
+  {
+    "id": "VOC_D31_005",
+    "char": "給我",
+    "pinyin": "gěi wǒ",
+    "pinyin_numeric": "gei3 wo3",
+    "phonemes": [
+      "gei3",
+      "wo3"
+    ],
+    "pos": "verb phrase",
+    "meaning_en": "give me",
+    "meaning_ko": "저에게 주다",
+    "semantic_domain": "requests",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D31_005",
+    "day_introduced": 31,
+    "srs_tags": [
+      "day_31",
+      "requests"
+    ]
+  },
+  {
+    "id": "VOC_D31_006",
+    "char": "小杯",
+    "pinyin": "xiǎo bēi",
+    "pinyin_numeric": "xiao3 bei1",
+    "phonemes": [
+      "xiao3",
+      "bei1"
+    ],
+    "pos": "noun",
+    "meaning_en": "small cup",
+    "meaning_ko": "작은 컵",
+    "semantic_domain": "cafe",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D31_006",
+    "day_introduced": 31,
+    "srs_tags": [
+      "day_31",
+      "cafe"
+    ]
+  },
+  {
+    "id": "VOC_D31_007",
+    "char": "中杯",
+    "pinyin": "zhōng bēi",
+    "pinyin_numeric": "zhong1 bei1",
+    "phonemes": [
+      "zhong1",
+      "bei1"
+    ],
+    "pos": "noun",
+    "meaning_en": "medium cup",
+    "meaning_ko": "중간 컵",
+    "semantic_domain": "cafe",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D31_007",
+    "day_introduced": 31,
+    "srs_tags": [
+      "day_31",
+      "cafe"
+    ]
+  },
+  {
+    "id": "VOC_D31_008",
+    "char": "大杯",
+    "pinyin": "dà bēi",
+    "pinyin_numeric": "da4 bei1",
+    "phonemes": [
+      "da4",
+      "bei1"
+    ],
+    "pos": "noun",
+    "meaning_en": "large cup",
+    "meaning_ko": "큰 컵",
+    "semantic_domain": "cafe",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D31_008",
+    "day_introduced": 31,
+    "srs_tags": [
+      "day_31",
+      "cafe"
+    ]
+  },
+  {
+    "id": "VOC_D31_009",
+    "char": "拿鐵",
+    "pinyin": "nátiě",
+    "pinyin_numeric": "na2 tie3",
+    "phonemes": [
+      "na2",
+      "tie3"
+    ],
+    "pos": "noun",
+    "meaning_en": "latte",
+    "meaning_ko": "라테",
+    "semantic_domain": "cafe",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D31_009",
+    "day_introduced": 31,
+    "srs_tags": [
+      "day_31",
+      "cafe"
+    ]
+  },
+  {
+    "id": "VOC_D31_010",
+    "char": "豆漿",
+    "pinyin": "dòujiāng",
+    "pinyin_numeric": "dou4 jiang1",
+    "phonemes": [
+      "dou4",
+      "jiang1"
+    ],
+    "pos": "noun",
+    "meaning_en": "soy milk",
+    "meaning_ko": "두유",
+    "semantic_domain": "cafe",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D31_010",
+    "day_introduced": 31,
+    "srs_tags": [
+      "day_31",
+      "cafe"
+    ]
+  },
+  {
+    "id": "VOC_D31_011",
+    "char": "紅茶",
+    "pinyin": "hóngchá",
+    "pinyin_numeric": "hong2 cha2",
+    "phonemes": [
+      "hong2",
+      "cha2"
+    ],
+    "pos": "noun",
+    "meaning_en": "black tea",
+    "meaning_ko": "홍차",
+    "semantic_domain": "cafe",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D31_011",
+    "day_introduced": 31,
+    "srs_tags": [
+      "day_31",
+      "cafe"
+    ]
+  },
+  {
+    "id": "VOC_D31_012",
+    "char": "綠茶",
+    "pinyin": "lǜchá",
+    "pinyin_numeric": "lü4 cha2",
+    "phonemes": [
+      "lü4",
+      "cha2"
+    ],
+    "pos": "noun",
+    "meaning_en": "green tea",
+    "meaning_ko": "녹차",
+    "semantic_domain": "cafe",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D31_012",
+    "day_introduced": 31,
+    "srs_tags": [
+      "day_31",
+      "cafe"
+    ]
+  },
+  {
+    "id": "VOC_D31_013",
+    "char": "冰",
+    "pinyin": "bīng",
+    "pinyin_numeric": "bing1",
+    "phonemes": [
+      "bing1"
+    ],
+    "pos": "adjective",
+    "meaning_en": "iced",
+    "meaning_ko": "얼음; 아이스",
+    "semantic_domain": "cafe",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D31_013",
+    "day_introduced": 31,
+    "srs_tags": [
+      "day_31",
+      "cafe"
+    ]
+  },
+  {
+    "id": "VOC_D31_014",
+    "char": "少冰",
+    "pinyin": "shǎo bīng",
+    "pinyin_numeric": "shao3 bing1",
+    "phonemes": [
+      "shao3",
+      "bing1"
+    ],
+    "pos": "phrase",
+    "meaning_en": "less ice",
+    "meaning_ko": "얼음 적게",
+    "semantic_domain": "cafe",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D31_014",
+    "day_introduced": 31,
+    "srs_tags": [
+      "day_31",
+      "cafe"
+    ]
+  },
+  {
+    "id": "VOC_D31_015",
+    "char": "去冰",
+    "pinyin": "qù bīng",
+    "pinyin_numeric": "qu4 bing1",
+    "phonemes": [
+      "qu4",
+      "bing1"
+    ],
+    "pos": "phrase",
+    "meaning_en": "no ice",
+    "meaning_ko": "얼음 없이",
+    "semantic_domain": "cafe",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D31_015",
+    "day_introduced": 31,
+    "srs_tags": [
+      "day_31",
+      "cafe"
+    ]
+  },
+  {
+    "id": "VOC_D31_016",
+    "char": "外帶",
+    "pinyin": "wàidài",
+    "pinyin_numeric": "wai4 dai4",
+    "phonemes": [
+      "wai4",
+      "dai4"
+    ],
+    "pos": "verb",
+    "meaning_en": "take out",
+    "meaning_ko": "포장하다",
+    "semantic_domain": "cafe",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D31_016",
+    "day_introduced": 31,
+    "srs_tags": [
+      "day_31",
+      "cafe"
+    ]
+  },
+  {
+    "id": "VOC_D31_017",
+    "char": "內用",
+    "pinyin": "nèiyòng",
+    "pinyin_numeric": "nei4 yong4",
+    "phonemes": [
+      "nei4",
+      "yong4"
+    ],
+    "pos": "verb",
+    "meaning_en": "eat in",
+    "meaning_ko": "매장에서 먹다",
+    "semantic_domain": "cafe",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D31_017",
+    "day_introduced": 31,
+    "srs_tags": [
+      "day_31",
+      "cafe"
+    ]
+  },
+  {
+    "id": "VOC_D31_018",
+    "char": "價錢",
+    "pinyin": "jiàqián",
+    "pinyin_numeric": "jia4 qian2",
+    "phonemes": [
+      "jia4",
+      "qian2"
+    ],
+    "pos": "noun",
+    "meaning_en": "price",
+    "meaning_ko": "가격",
+    "semantic_domain": "shop",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D31_018",
+    "day_introduced": 31,
+    "srs_tags": [
+      "day_31",
+      "shop"
+    ]
+  },
+  {
+    "id": "VOC_D31_019",
+    "char": "麻煩",
+    "pinyin": "máfan",
+    "pinyin_numeric": "ma2 fan0",
+    "phonemes": [
+      "ma2",
+      "fan0"
+    ],
+    "pos": "verb",
+    "meaning_en": "to trouble; please",
+    "meaning_ko": "수고스럽게 하다",
+    "semantic_domain": "requests",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D31_019",
+    "day_introduced": 31,
+    "srs_tags": [
+      "day_31",
+      "requests"
+    ]
+  },
+  {
+    "id": "VOC_D31_020",
+    "char": "不好意思",
+    "pinyin": "bùhǎoyìsi",
+    "pinyin_numeric": "bu4 hao3 yi4 si0",
+    "phonemes": [
+      "bu4",
+      "hao3",
+      "yi4",
+      "si0"
+    ],
+    "pos": "phrase",
+    "meaning_en": "excuse me; sorry",
+    "meaning_ko": "죄송합니다",
+    "semantic_domain": "requests",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D31_020",
+    "day_introduced": 31,
+    "srs_tags": [
+      "day_31",
+      "requests"
+    ]
+  },
+  {
+    "id": "VOC_D31_021",
+    "char": "店員",
+    "pinyin": "diànyuán",
+    "pinyin_numeric": "dian4 yuan2",
+    "phonemes": [
+      "dian4",
+      "yuan2"
+    ],
+    "pos": "noun",
+    "meaning_en": "shop clerk",
+    "meaning_ko": "점원",
+    "semantic_domain": "shop",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D31_021",
+    "day_introduced": 31,
+    "srs_tags": [
+      "day_31",
+      "shop"
+    ]
+  },
+  {
+    "id": "VOC_D31_022",
+    "char": "客人",
+    "pinyin": "kèrén",
+    "pinyin_numeric": "ke4 ren2",
+    "phonemes": [
+      "ke4",
+      "ren2"
+    ],
+    "pos": "noun",
+    "meaning_en": "customer",
+    "meaning_ko": "손님",
+    "semantic_domain": "shop",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D31_022",
+    "day_introduced": 31,
+    "srs_tags": [
+      "day_31",
+      "shop"
+    ]
+  },
+  {
+    "id": "VOC_D31_023",
+    "char": "吸管",
+    "pinyin": "xīguǎn",
+    "pinyin_numeric": "xi1 guan3",
+    "phonemes": [
+      "xi1",
+      "guan3"
+    ],
+    "pos": "noun",
+    "meaning_en": "straw",
+    "meaning_ko": "빨대",
+    "semantic_domain": "cafe",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D31_023",
+    "day_introduced": 31,
+    "srs_tags": [
+      "day_31",
+      "cafe"
+    ]
+  },
+  {
+    "id": "VOC_D31_024",
+    "char": "湯匙",
+    "pinyin": "tāngchí",
+    "pinyin_numeric": "tang1 chi2",
+    "phonemes": [
+      "tang1",
+      "chi2"
+    ],
+    "pos": "noun",
+    "meaning_en": "spoon",
+    "meaning_ko": "숟가락",
+    "semantic_domain": "cafe",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D31_024",
+    "day_introduced": 31,
+    "srs_tags": [
+      "day_31",
+      "cafe"
+    ]
+  },
+  {
+    "id": "VOC_D31_025",
+    "char": "叉子",
+    "pinyin": "chāzi",
+    "pinyin_numeric": "cha1 zi0",
+    "phonemes": [
+      "cha1",
+      "zi0"
+    ],
+    "pos": "noun",
+    "meaning_en": "fork",
+    "meaning_ko": "포크",
+    "semantic_domain": "cafe",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D31_025",
+    "day_introduced": 31,
+    "srs_tags": [
+      "day_31",
+      "cafe"
+    ]
+  },
+  {
+    "id": "VOC_D31_026",
+    "char": "衛生紙",
+    "pinyin": "wèishēngzhǐ",
+    "pinyin_numeric": "wei4 sheng1 zhi3",
+    "phonemes": [
+      "wei4",
+      "sheng1",
+      "zhi3"
+    ],
+    "pos": "noun",
+    "meaning_en": "tissue",
+    "meaning_ko": "휴지",
+    "semantic_domain": "cafe",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D31_026",
+    "day_introduced": 31,
+    "srs_tags": [
+      "day_31",
+      "cafe"
+    ]
+  },
+  {
+    "id": "VOC_D31_027",
+    "char": "半糖",
+    "pinyin": "bàn táng",
+    "pinyin_numeric": "ban4 tang2",
+    "phonemes": [
+      "ban4",
+      "tang2"
+    ],
+    "pos": "phrase",
+    "meaning_en": "half sugar",
+    "meaning_ko": "당도 반",
+    "semantic_domain": "cafe",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D31_027",
+    "day_introduced": 31,
+    "srs_tags": [
+      "day_31",
+      "cafe"
+    ]
+  },
+  {
+    "id": "VOC_D31_028",
+    "char": "微糖",
+    "pinyin": "wēi táng",
+    "pinyin_numeric": "wei1 tang2",
+    "phonemes": [
+      "wei1",
+      "tang2"
+    ],
+    "pos": "phrase",
+    "meaning_en": "light sugar",
+    "meaning_ko": "당도 적게",
+    "semantic_domain": "cafe",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D31_028",
+    "day_introduced": 31,
+    "srs_tags": [
+      "day_31",
+      "cafe"
+    ]
+  },
+  {
+    "id": "VOC_D31_029",
+    "char": "正常甜",
+    "pinyin": "zhèngcháng tián",
+    "pinyin_numeric": "zheng4 chang2 tian2",
+    "phonemes": [
+      "zheng4",
+      "chang2",
+      "tian2"
+    ],
+    "pos": "phrase",
+    "meaning_en": "regular sweetness",
+    "meaning_ko": "일반 당도",
+    "semantic_domain": "cafe",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D31_029",
+    "day_introduced": 31,
+    "srs_tags": [
+      "day_31",
+      "cafe"
+    ]
+  },
+  {
+    "id": "VOC_D31_030",
+    "char": "加珍珠",
+    "pinyin": "jiā zhēnzhū",
+    "pinyin_numeric": "jia1 zhen1 zhu1",
+    "phonemes": [
+      "jia1",
+      "zhen1",
+      "zhu1"
+    ],
+    "pos": "verb phrase",
+    "meaning_en": "add tapioca pearls",
+    "meaning_ko": "펄 추가하다",
+    "semantic_domain": "cafe",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D31_030",
+    "day_introduced": 31,
+    "srs_tags": [
+      "day_31",
+      "cafe"
+    ]
+  },
+  {
+    "id": "VOC_D31_031",
+    "char": "等候",
+    "pinyin": "děnghòu",
+    "pinyin_numeric": "deng3 hou4",
+    "phonemes": [
+      "deng3",
+      "hou4"
+    ],
+    "pos": "verb",
+    "meaning_en": "to wait",
+    "meaning_ko": "기다리다",
+    "semantic_domain": "requests",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D31_031",
+    "day_introduced": 31,
+    "srs_tags": [
+      "day_31",
+      "requests"
+    ]
+  },
+  {
+    "id": "VOC_D31_032",
+    "char": "等一下",
+    "pinyin": "děng yíxià",
+    "pinyin_numeric": "deng3 yi2 xia4",
+    "phonemes": [
+      "deng3",
+      "yi2",
+      "xia4"
+    ],
+    "pos": "phrase",
+    "meaning_en": "wait a moment",
+    "meaning_ko": "잠깐 기다리다",
+    "semantic_domain": "requests",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D31_032",
+    "day_introduced": 31,
+    "srs_tags": [
+      "day_31",
+      "requests"
+    ]
+  },
+  {
+    "id": "VOC_D31_033",
+    "char": "再說一次",
+    "pinyin": "zài shuō yí cì",
+    "pinyin_numeric": "zai4 shuo1 yi2 ci4",
+    "phonemes": [
+      "zai4",
+      "shuo1",
+      "yi2",
+      "ci4"
+    ],
+    "pos": "phrase",
+    "meaning_en": "say it again",
+    "meaning_ko": "다시 말하다",
+    "semantic_domain": "repair",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D31_033",
+    "day_introduced": 31,
+    "srs_tags": [
+      "day_31",
+      "repair"
+    ]
+  },
+  {
+    "id": "VOC_D31_034",
+    "char": "慢一點",
+    "pinyin": "màn yìdiǎn",
+    "pinyin_numeric": "man4 yi4 dian3",
+    "phonemes": [
+      "man4",
+      "yi4",
+      "dian3"
+    ],
+    "pos": "phrase",
+    "meaning_en": "a little slower",
+    "meaning_ko": "조금 천천히",
+    "semantic_domain": "repair",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D31_034",
+    "day_introduced": 31,
+    "srs_tags": [
+      "day_31",
+      "repair"
+    ]
+  },
+  {
+    "id": "VOC_D31_035",
+    "char": "沒問題",
+    "pinyin": "méi wèntí",
+    "pinyin_numeric": "mei2 wen4 ti2",
+    "phonemes": [
+      "mei2",
+      "wen4",
+      "ti2"
+    ],
+    "pos": "phrase",
+    "meaning_en": "no problem",
+    "meaning_ko": "문제없다",
+    "semantic_domain": "repair",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 31 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D31_035",
+    "day_introduced": 31,
+    "srs_tags": [
+      "day_31",
+      "repair"
     ]
   }
 ]

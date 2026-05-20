@@ -1,701 +1,5 @@
 [
   {
-    "id": "GR_D31_CAN_REQUEST",
-    "pattern": "請 / 不好意思 + action + object",
-    "structure": [
-      "context",
-      "function word",
-      "predicate"
-    ],
-    "explanation_en": "Making Polite Requests: use this pattern to request in asking for something at a café or shop.",
-    "title": "Can Request",
-    "meaning": "A practical Taiwan Mandarin pattern for making polite requests.",
-    "when_to_use": [
-      "When the learner needs to handle asking for something at a café or shop.",
-      "When speaking politely with a clerk, friend, or service worker.",
-      "When turning known words into a usable spoken response."
-    ],
-    "when_not_to_use": [
-      "Do not use it as a direct English word-by-word translation.",
-      "Do not use it when a shorter yes/no answer is enough.",
-      "Do not use it with future-day vocabulary before it has been introduced."
-    ],
-    "pragmatic_notes": "Taiwan usage favors clear, polite, compact sentences with softeners such as 請, 不好意思, and 一下.",
-    "word_order_notes": "Time or context usually comes before the subject; the main request or action stays before the object.",
-    "english_contrast": "English often moves polite wording to the end; Mandarin usually places the request marker before the action.",
-    "korean_contrast": "Korean learners may overuse sentence-final politeness; Mandarin politeness is often lexical and word-order based.",
-    "example_ids": [
-      "SEN_D31_001",
-      "SEN_D31_004",
-      "SEN_D31_007",
-      "SEN_D31_010"
-    ],
-    "slots": [
-      {
-        "name": "object",
-        "role": "object",
-        "values": [
-          {
-            "text": "想要",
-            "pinyin": "xiǎng yào",
-            "meaning_en": "would like; want",
-            "meaning_ko": "원하다",
-            "vocab_id": "VOC_D31_001"
-          },
-          {
-            "text": "不用",
-            "pinyin": "búyòng",
-            "meaning_en": "no need",
-            "meaning_ko": "필요 없다",
-            "vocab_id": "VOC_D31_002"
-          },
-          {
-            "text": "謝謝",
-            "pinyin": "xièxie",
-            "meaning_en": "thank you",
-            "meaning_ko": "감사합니다",
-            "vocab_id": "VOC_D31_003"
-          },
-          {
-            "text": "幫我",
-            "pinyin": "bāng wǒ",
-            "meaning_en": "help me",
-            "meaning_ko": "저를 도와주다",
-            "vocab_id": "VOC_D31_004"
-          },
-          {
-            "text": "給我",
-            "pinyin": "gěi wǒ",
-            "meaning_en": "give me",
-            "meaning_ko": "저에게 주다",
-            "vocab_id": "VOC_D31_005"
-          },
-          {
-            "text": "小杯",
-            "pinyin": "xiǎo bēi",
-            "meaning_en": "small cup",
-            "meaning_ko": "작은 컵",
-            "vocab_id": "VOC_D31_006"
-          },
-          {
-            "text": "中杯",
-            "pinyin": "zhōng bēi",
-            "meaning_en": "medium cup",
-            "meaning_ko": "중간 컵",
-            "vocab_id": "VOC_D31_007"
-          },
-          {
-            "text": "大杯",
-            "pinyin": "dà bēi",
-            "meaning_en": "large cup",
-            "meaning_ko": "큰 컵",
-            "vocab_id": "VOC_D31_008"
-          }
-        ]
-      }
-    ],
-    "drill_examples": [
-      {
-        "text": "我想要想要。",
-        "pinyin": "wǒ xiǎng yào xiǎng yào.",
-        "translation_en": "I / me would like would like / want.",
-        "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요."
-      },
-      {
-        "text": "她需要幫我。",
-        "pinyin": "tā xūyào bāng wǒ.",
-        "translation_en": "she / her needs help me.",
-        "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요."
-      },
-      {
-        "text": "你想要中杯。",
-        "pinyin": "nǐ xiǎng yào zhōng bēi.",
-        "translation_en": "you would like medium cup.",
-        "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요."
-      },
-      {
-        "text": "我們需要豆漿。",
-        "pinyin": "wǒmen xūyào dòujiāng.",
-        "translation_en": "we / us needs soy milk.",
-        "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요."
-      },
-      {
-        "text": "他想要少冰。",
-        "pinyin": "tā xiǎng yào shǎo bīng.",
-        "translation_en": "he / him would like less ice.",
-        "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요."
-      },
-      {
-        "text": "我需要不好意思。",
-        "pinyin": "wǒ xūyào bùhǎoyìsi.",
-        "translation_en": "I / me needs excuse me / sorry.",
-        "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요."
-      },
-      {
-        "text": "她想要吸管。",
-        "pinyin": "tā xiǎng yào xīguǎn.",
-        "translation_en": "she / her would like straw.",
-        "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요."
-      },
-      {
-        "text": "你需要衛生紙。",
-        "pinyin": "nǐ xūyào wèishēngzhǐ.",
-        "translation_en": "you needs tissue.",
-        "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요."
-      }
-    ],
-    "correct_examples": [
-      {
-        "text": "我想要想要。",
-        "pinyin": "wǒ xiǎng yào xiǎng yào.",
-        "translation_en": "I / me would like would like / want."
-      },
-      {
-        "text": "她需要幫我。",
-        "pinyin": "tā xūyào bāng wǒ.",
-        "translation_en": "she / her needs help me."
-      },
-      {
-        "text": "你想要中杯。",
-        "pinyin": "nǐ xiǎng yào zhōng bēi.",
-        "translation_en": "you would like medium cup."
-      },
-      {
-        "text": "我們需要豆漿。",
-        "pinyin": "wǒmen xūyào dòujiāng.",
-        "translation_en": "we / us needs soy milk."
-      },
-      {
-        "text": "他想要少冰。",
-        "pinyin": "tā xiǎng yào shǎo bīng.",
-        "translation_en": "he / him would like less ice."
-      },
-      {
-        "text": "我需要不好意思。",
-        "pinyin": "wǒ xūyào bùhǎoyìsi.",
-        "translation_en": "I / me needs excuse me / sorry."
-      },
-      {
-        "text": "她想要吸管。",
-        "pinyin": "tā xiǎng yào xīguǎn.",
-        "translation_en": "she / her would like straw."
-      },
-      {
-        "text": "你需要衛生紙。",
-        "pinyin": "nǐ xūyào wèishēngzhǐ.",
-        "translation_en": "you needs tissue."
-      }
-    ],
-    "negative_examples": [
-      {
-        "text": "我想要請。",
-        "error": "The request marker should come before the action or request."
-      },
-      {
-        "text": "想要我可以嗎？",
-        "error": "The modal question needs a clear action before the object."
-      }
-    ],
-    "incorrect_examples": [
-      {
-        "text": "我想要請。",
-        "error": "The request marker should come before the action or request."
-      },
-      {
-        "text": "想要我可以嗎？",
-        "error": "The modal question needs a clear action before the object."
-      }
-    ],
-    "transformation_drills": [
-      "Change the object.",
-      "Change the speaker.",
-      "Turn the statement into a question.",
-      "Make the sentence more polite.",
-      "Answer with a reason."
-    ],
-    "production_drills": [
-      "Ask for something in the situation: asking for something at a café or shop.",
-      "Reject one option politely.",
-      "Ask a follow-up question.",
-      "Clarify a misunderstanding.",
-      "Give a short reason."
-    ],
-    "common_error_patterns": [
-      "Putting 嗎 after an incomplete phrase.",
-      "Using English word order for the object.",
-      "Skipping the measure word in service situations."
-    ],
-    "repair_feedback": {
-      "word_order": "Move the action before the object.",
-      "politeness": "Add 請 or 不好意思 before the request.",
-      "vocabulary": "Use only today or previously learned words."
-    }
-  },
-  {
-    "id": "GR_D31_WANT_OBJECT",
-    "pattern": "Subject + 想要 / 要 + object",
-    "structure": [
-      "context",
-      "function word",
-      "predicate"
-    ],
-    "explanation_en": "Making Polite Requests: use this pattern to confirm in asking for something at a café or shop.",
-    "title": "Want Object",
-    "meaning": "A practical Taiwan Mandarin pattern for making polite requests.",
-    "when_to_use": [
-      "When the learner needs to handle asking for something at a café or shop.",
-      "When speaking politely with a clerk, friend, or service worker.",
-      "When turning known words into a usable spoken response."
-    ],
-    "when_not_to_use": [
-      "Do not use it as a direct English word-by-word translation.",
-      "Do not use it when a shorter yes/no answer is enough.",
-      "Do not use it with future-day vocabulary before it has been introduced."
-    ],
-    "pragmatic_notes": "Taiwan usage favors clear, polite, compact sentences with softeners such as 請, 不好意思, and 一下.",
-    "word_order_notes": "Time or context usually comes before the subject; the main request or action stays before the object.",
-    "english_contrast": "English often moves polite wording to the end; Mandarin usually places the request marker before the action.",
-    "korean_contrast": "Korean learners may overuse sentence-final politeness; Mandarin politeness is often lexical and word-order based.",
-    "example_ids": [
-      "SEN_D31_002",
-      "SEN_D31_005",
-      "SEN_D31_008",
-      "SEN_D31_011"
-    ],
-    "slots": [
-      {
-        "name": "object",
-        "role": "object",
-        "values": [
-          {
-            "text": "想要",
-            "pinyin": "xiǎng yào",
-            "meaning_en": "would like; want",
-            "meaning_ko": "원하다",
-            "vocab_id": "VOC_D31_001"
-          },
-          {
-            "text": "不用",
-            "pinyin": "búyòng",
-            "meaning_en": "no need",
-            "meaning_ko": "필요 없다",
-            "vocab_id": "VOC_D31_002"
-          },
-          {
-            "text": "謝謝",
-            "pinyin": "xièxie",
-            "meaning_en": "thank you",
-            "meaning_ko": "감사합니다",
-            "vocab_id": "VOC_D31_003"
-          },
-          {
-            "text": "幫我",
-            "pinyin": "bāng wǒ",
-            "meaning_en": "help me",
-            "meaning_ko": "저를 도와주다",
-            "vocab_id": "VOC_D31_004"
-          },
-          {
-            "text": "給我",
-            "pinyin": "gěi wǒ",
-            "meaning_en": "give me",
-            "meaning_ko": "저에게 주다",
-            "vocab_id": "VOC_D31_005"
-          },
-          {
-            "text": "小杯",
-            "pinyin": "xiǎo bēi",
-            "meaning_en": "small cup",
-            "meaning_ko": "작은 컵",
-            "vocab_id": "VOC_D31_006"
-          },
-          {
-            "text": "中杯",
-            "pinyin": "zhōng bēi",
-            "meaning_en": "medium cup",
-            "meaning_ko": "중간 컵",
-            "vocab_id": "VOC_D31_007"
-          },
-          {
-            "text": "大杯",
-            "pinyin": "dà bēi",
-            "meaning_en": "large cup",
-            "meaning_ko": "큰 컵",
-            "vocab_id": "VOC_D31_008"
-          }
-        ]
-      }
-    ],
-    "drill_examples": [
-      {
-        "text": "請給我不用。",
-        "pinyin": "qǐng gěi wǒ búyòng.",
-        "translation_en": "Please bring/give no need.",
-        "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요."
-      },
-      {
-        "text": "不好意思我們想要給我。",
-        "pinyin": "bùhǎoyìsi wǒmen xiǎng yào gěi wǒ.",
-        "translation_en": "Excuse me, we / us would like give me.",
-        "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요."
-      },
-      {
-        "text": "請給我大杯。",
-        "pinyin": "qǐng gěi wǒ dà bēi.",
-        "translation_en": "Please bring/give large cup.",
-        "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요."
-      },
-      {
-        "text": "不好意思我想要紅茶。",
-        "pinyin": "bùhǎoyìsi wǒ xiǎng yào hóngchá.",
-        "translation_en": "Excuse me, I / me would like black tea.",
-        "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요."
-      },
-      {
-        "text": "請給我去冰。",
-        "pinyin": "qǐng gěi wǒ qù bīng.",
-        "translation_en": "Please bring/give no ice.",
-        "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요."
-      },
-      {
-        "text": "不好意思你想要店員。",
-        "pinyin": "bùhǎoyìsi nǐ xiǎng yào diànyuán.",
-        "translation_en": "Excuse me, you would like shop clerk.",
-        "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요."
-      },
-      {
-        "text": "請給我湯匙。",
-        "pinyin": "qǐng gěi wǒ tāngchí.",
-        "translation_en": "Please bring/give spoon.",
-        "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요."
-      },
-      {
-        "text": "不好意思他想要半糖。",
-        "pinyin": "bùhǎoyìsi tā xiǎng yào bàn táng.",
-        "translation_en": "Excuse me, he / him would like half sugar.",
-        "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요."
-      }
-    ],
-    "correct_examples": [
-      {
-        "text": "請給我不用。",
-        "pinyin": "qǐng gěi wǒ búyòng.",
-        "translation_en": "Please bring/give no need."
-      },
-      {
-        "text": "不好意思我們想要給我。",
-        "pinyin": "bùhǎoyìsi wǒmen xiǎng yào gěi wǒ.",
-        "translation_en": "Excuse me, we / us would like give me."
-      },
-      {
-        "text": "請給我大杯。",
-        "pinyin": "qǐng gěi wǒ dà bēi.",
-        "translation_en": "Please bring/give large cup."
-      },
-      {
-        "text": "不好意思我想要紅茶。",
-        "pinyin": "bùhǎoyìsi wǒ xiǎng yào hóngchá.",
-        "translation_en": "Excuse me, I / me would like black tea."
-      },
-      {
-        "text": "請給我去冰。",
-        "pinyin": "qǐng gěi wǒ qù bīng.",
-        "translation_en": "Please bring/give no ice."
-      },
-      {
-        "text": "不好意思你想要店員。",
-        "pinyin": "bùhǎoyìsi nǐ xiǎng yào diànyuán.",
-        "translation_en": "Excuse me, you would like shop clerk."
-      },
-      {
-        "text": "請給我湯匙。",
-        "pinyin": "qǐng gěi wǒ tāngchí.",
-        "translation_en": "Please bring/give spoon."
-      },
-      {
-        "text": "不好意思他想要半糖。",
-        "pinyin": "bùhǎoyìsi tā xiǎng yào bàn táng.",
-        "translation_en": "Excuse me, he / him would like half sugar."
-      }
-    ],
-    "negative_examples": [
-      {
-        "text": "我不用請。",
-        "error": "The request marker should come before the action or request."
-      },
-      {
-        "text": "不用我可以嗎？",
-        "error": "The modal question needs a clear action before the object."
-      }
-    ],
-    "incorrect_examples": [
-      {
-        "text": "我不用請。",
-        "error": "The request marker should come before the action or request."
-      },
-      {
-        "text": "不用我可以嗎？",
-        "error": "The modal question needs a clear action before the object."
-      }
-    ],
-    "transformation_drills": [
-      "Change the object.",
-      "Change the speaker.",
-      "Turn the statement into a question.",
-      "Make the sentence more polite.",
-      "Answer with a reason."
-    ],
-    "production_drills": [
-      "Ask for something in the situation: asking for something at a café or shop.",
-      "Reject one option politely.",
-      "Ask a follow-up question.",
-      "Clarify a misunderstanding.",
-      "Give a short reason."
-    ],
-    "common_error_patterns": [
-      "Putting 嗎 after an incomplete phrase.",
-      "Using English word order for the object.",
-      "Skipping the measure word in service situations."
-    ],
-    "repair_feedback": {
-      "word_order": "Move the action before the object.",
-      "politeness": "Add 請 or 不好意思 before the request.",
-      "vocabulary": "Use only today or previously learned words."
-    }
-  },
-  {
-    "id": "GR_D31_POLITE_SOFTENER",
-    "pattern": "請 / 不好意思 + action + object",
-    "structure": [
-      "context",
-      "function word",
-      "predicate"
-    ],
-    "explanation_en": "Making Polite Requests: use this pattern to thank in asking for something at a café or shop.",
-    "title": "Polite Softener",
-    "meaning": "A practical Taiwan Mandarin pattern for making polite requests.",
-    "when_to_use": [
-      "When the learner needs to handle asking for something at a café or shop.",
-      "When speaking politely with a clerk, friend, or service worker.",
-      "When turning known words into a usable spoken response."
-    ],
-    "when_not_to_use": [
-      "Do not use it as a direct English word-by-word translation.",
-      "Do not use it when a shorter yes/no answer is enough.",
-      "Do not use it with future-day vocabulary before it has been introduced."
-    ],
-    "pragmatic_notes": "Taiwan usage favors clear, polite, compact sentences with softeners such as 請, 不好意思, and 一下.",
-    "word_order_notes": "Time or context usually comes before the subject; the main request or action stays before the object.",
-    "english_contrast": "English often moves polite wording to the end; Mandarin usually places the request marker before the action.",
-    "korean_contrast": "Korean learners may overuse sentence-final politeness; Mandarin politeness is often lexical and word-order based.",
-    "example_ids": [
-      "SEN_D31_003",
-      "SEN_D31_006",
-      "SEN_D31_009",
-      "SEN_D31_012"
-    ],
-    "slots": [
-      {
-        "name": "object",
-        "role": "object",
-        "values": [
-          {
-            "text": "想要",
-            "pinyin": "xiǎng yào",
-            "meaning_en": "would like; want",
-            "meaning_ko": "원하다",
-            "vocab_id": "VOC_D31_001"
-          },
-          {
-            "text": "不用",
-            "pinyin": "búyòng",
-            "meaning_en": "no need",
-            "meaning_ko": "필요 없다",
-            "vocab_id": "VOC_D31_002"
-          },
-          {
-            "text": "謝謝",
-            "pinyin": "xièxie",
-            "meaning_en": "thank you",
-            "meaning_ko": "감사합니다",
-            "vocab_id": "VOC_D31_003"
-          },
-          {
-            "text": "幫我",
-            "pinyin": "bāng wǒ",
-            "meaning_en": "help me",
-            "meaning_ko": "저를 도와주다",
-            "vocab_id": "VOC_D31_004"
-          },
-          {
-            "text": "給我",
-            "pinyin": "gěi wǒ",
-            "meaning_en": "give me",
-            "meaning_ko": "저에게 주다",
-            "vocab_id": "VOC_D31_005"
-          },
-          {
-            "text": "小杯",
-            "pinyin": "xiǎo bēi",
-            "meaning_en": "small cup",
-            "meaning_ko": "작은 컵",
-            "vocab_id": "VOC_D31_006"
-          },
-          {
-            "text": "中杯",
-            "pinyin": "zhōng bēi",
-            "meaning_en": "medium cup",
-            "meaning_ko": "중간 컵",
-            "vocab_id": "VOC_D31_007"
-          },
-          {
-            "text": "大杯",
-            "pinyin": "dà bēi",
-            "meaning_en": "large cup",
-            "meaning_ko": "큰 컵",
-            "vocab_id": "VOC_D31_008"
-          }
-        ]
-      }
-    ],
-    "drill_examples": [
-      {
-        "text": "可以給我謝謝嗎？",
-        "pinyin": "kěyǐ gěi wǒ xièxie ma?",
-        "translation_en": "Can I/you have thank you?",
-        "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요."
-      },
-      {
-        "text": "你想要小杯嗎？",
-        "pinyin": "nǐ xiǎng yào xiǎo bēi ma?",
-        "translation_en": "Do you want small cup?",
-        "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요."
-      },
-      {
-        "text": "可以給我拿鐵嗎？",
-        "pinyin": "kěyǐ gěi wǒ nátiě ma?",
-        "translation_en": "Can I/you have latte?",
-        "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요."
-      },
-      {
-        "text": "你想要綠茶嗎？",
-        "pinyin": "nǐ xiǎng yào lǜchá ma?",
-        "translation_en": "Do you want green tea?",
-        "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요."
-      },
-      {
-        "text": "可以給我價錢嗎？",
-        "pinyin": "kěyǐ gěi wǒ jiàqián ma?",
-        "translation_en": "Can I/you have price?",
-        "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요."
-      },
-      {
-        "text": "你想要客人嗎？",
-        "pinyin": "nǐ xiǎng yào kèrén ma?",
-        "translation_en": "Do you want customer?",
-        "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요."
-      },
-      {
-        "text": "可以給我叉子嗎？",
-        "pinyin": "kěyǐ gěi wǒ chāzi ma?",
-        "translation_en": "Can I/you have fork?",
-        "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요."
-      },
-      {
-        "text": "你想要微糖嗎？",
-        "pinyin": "nǐ xiǎng yào wēi táng ma?",
-        "translation_en": "Do you want light sugar?",
-        "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요."
-      }
-    ],
-    "correct_examples": [
-      {
-        "text": "可以給我謝謝嗎？",
-        "pinyin": "kěyǐ gěi wǒ xièxie ma?",
-        "translation_en": "Can I/you have thank you?"
-      },
-      {
-        "text": "你想要小杯嗎？",
-        "pinyin": "nǐ xiǎng yào xiǎo bēi ma?",
-        "translation_en": "Do you want small cup?"
-      },
-      {
-        "text": "可以給我拿鐵嗎？",
-        "pinyin": "kěyǐ gěi wǒ nátiě ma?",
-        "translation_en": "Can I/you have latte?"
-      },
-      {
-        "text": "你想要綠茶嗎？",
-        "pinyin": "nǐ xiǎng yào lǜchá ma?",
-        "translation_en": "Do you want green tea?"
-      },
-      {
-        "text": "可以給我價錢嗎？",
-        "pinyin": "kěyǐ gěi wǒ jiàqián ma?",
-        "translation_en": "Can I/you have price?"
-      },
-      {
-        "text": "你想要客人嗎？",
-        "pinyin": "nǐ xiǎng yào kèrén ma?",
-        "translation_en": "Do you want customer?"
-      },
-      {
-        "text": "可以給我叉子嗎？",
-        "pinyin": "kěyǐ gěi wǒ chāzi ma?",
-        "translation_en": "Can I/you have fork?"
-      },
-      {
-        "text": "你想要微糖嗎？",
-        "pinyin": "nǐ xiǎng yào wēi táng ma?",
-        "translation_en": "Do you want light sugar?"
-      }
-    ],
-    "negative_examples": [
-      {
-        "text": "我謝謝請。",
-        "error": "The request marker should come before the action or request."
-      },
-      {
-        "text": "謝謝我可以嗎？",
-        "error": "The modal question needs a clear action before the object."
-      }
-    ],
-    "incorrect_examples": [
-      {
-        "text": "我謝謝請。",
-        "error": "The request marker should come before the action or request."
-      },
-      {
-        "text": "謝謝我可以嗎？",
-        "error": "The modal question needs a clear action before the object."
-      }
-    ],
-    "transformation_drills": [
-      "Change the object.",
-      "Change the speaker.",
-      "Turn the statement into a question.",
-      "Make the sentence more polite.",
-      "Answer with a reason."
-    ],
-    "production_drills": [
-      "Ask for something in the situation: asking for something at a café or shop.",
-      "Reject one option politely.",
-      "Ask a follow-up question.",
-      "Clarify a misunderstanding.",
-      "Give a short reason."
-    ],
-    "common_error_patterns": [
-      "Putting 嗎 after an incomplete phrase.",
-      "Using English word order for the object.",
-      "Skipping the measure word in service situations."
-    ],
-    "repair_feedback": {
-      "word_order": "Move the action before the object.",
-      "politeness": "Add 請 or 不好意思 before the request.",
-      "vocabulary": "Use only today or previously learned words."
-    }
-  },
-  {
     "id": "GR_D32_MEASURE_WORDS_BASIC",
     "pattern": "Subject + verb + object",
     "structure": [
@@ -9453,5 +8757,636 @@
       "politeness": "Add 請 or 不好意思 before the request.",
       "vocabulary": "Use only today or previously learned words."
     }
+  },
+  {
+    "id": "GR_D31_CAN_REQUEST",
+    "pattern": "可以 + [action] + [object] + 嗎？",
+    "structure": [
+      "可以",
+      "action",
+      "object",
+      "嗎"
+    ],
+    "explanation_en": "Use '可以...嗎？' to politely ask for permission or request an action. It is a standard polite form in Taiwan.",
+    "title": "Polite Request with 可以...嗎？",
+    "meaning": "May I...? / Can I...?",
+    "when_to_use": [
+      "When asking for permission to do something",
+      "When requesting an action from someone"
+    ],
+    "when_not_to_use": [
+      "When making a direct command or demand",
+      "When speaking to close friends in very casual settings"
+    ],
+    "pragmatic_notes": "In Taiwan, using '可以...嗎？' is considered polite and appropriate in shops and cafés. It softens the request and shows respect.",
+    "word_order_notes": "The structure is: 可以 + verb + object + 嗎. Do not place 嗎 before the verb.",
+    "english_contrast": "English uses 'Can I...?' or 'May I...?' at the beginning. Chinese places 可以 before the verb and 嗎 at the end.",
+    "korean_contrast": "Korean uses '~을/를 해도 될까요?' which is similar in politeness but placed at the end. Chinese uses a fixed structure with 可以.",
+    "example_ids": [
+      "SEN_D31_001",
+      "SEN_D31_002",
+      "SEN_D31_003",
+      "SEN_D31_004"
+    ],
+    "correct_examples": [
+      {
+        "text": "你好，我想要一杯小杯的拿鐵，可以嗎？",
+        "pinyin": "Nǐ hǎo, wǒ xiǎng yào yī bēi xiǎo bēi de nátiě, kěyǐ ma?",
+        "translation_en": "Hello, I would like a small latte, okay?"
+      },
+      {
+        "text": "麻煩你，可以幫我點一杯紅茶嗎？",
+        "pinyin": "Máfan nǐ, kěyǐ bāng wǒ diǎn yī bēi hóngchá ma?",
+        "translation_en": "Excuse me, could you help me order a black tea?"
+      },
+      {
+        "text": "不好意思，可以給我一個袋子嗎？",
+        "pinyin": "Bù hǎo yìsi, kěyǐ gěi wǒ yī ge dàizi ma?",
+        "translation_en": "Excuse me, could you give me a bag?"
+      },
+      {
+        "text": "請問，可以幫我加珍珠嗎？",
+        "pinyin": "Qǐngwèn, kěyǐ bāng wǒ jiā zhēnzhū ma?",
+        "translation_en": "Excuse me, could you add boba for me?"
+      },
+      {
+        "text": "我想要一杯綠茶，半糖，可以嗎？",
+        "pinyin": "Wǒ xiǎng yào yī bēi lǜchá, bàn táng, kěyǐ ma?",
+        "translation_en": "I would like a green tea, half sugar, okay?"
+      },
+      {
+        "text": "麻煩你，可以給我中杯的豆漿嗎？",
+        "pinyin": "Máfan nǐ, kěyǐ gěi wǒ zhōng bēi de dòujiāng ma?",
+        "translation_en": "Excuse me, could you give me a medium soy milk?"
+      },
+      {
+        "text": "不好意思，可以再說一次嗎？我聽不懂。",
+        "pinyin": "Bù hǎo yìsi, kěyǐ zài shuō yī cì ma? Wǒ tīng bù dǒng.",
+        "translation_en": "Excuse me, could you say it again? I don't understand."
+      },
+      {
+        "text": "請問，可以慢一點說嗎？",
+        "pinyin": "Qǐngwèn, kěyǐ màn yī diǎn shuō ma?",
+        "translation_en": "Excuse me, could you speak a little slower?"
+      }
+    ],
+    "drill_examples": [
+      {
+        "text": "你好，我想要一杯小杯的拿鐵，可以嗎？",
+        "pinyin": "Nǐ hǎo, wǒ xiǎng yào yī bēi xiǎo bēi de nátiě, kěyǐ ma?",
+        "translation_en": "Hello, I would like a small latte, okay?",
+        "translation_ko": "안녕하세요, 작은 라떼 한 잔을 원하는데 괜찮을까요?"
+      },
+      {
+        "text": "麻煩你，可以幫我點一杯紅茶嗎？",
+        "pinyin": "Máfan nǐ, kěyǐ bāng wǒ diǎn yī bēi hóngchá ma?",
+        "translation_en": "Excuse me, could you help me order a black tea?",
+        "translation_ko": "실례합니다, 홍차 한 잔 주문하는 것을 도와주시겠어요?"
+      },
+      {
+        "text": "不好意思，可以給我一個袋子嗎？",
+        "pinyin": "Bù hǎo yìsi, kěyǐ gěi wǒ yī ge dàizi ma?",
+        "translation_en": "Excuse me, could you give me a bag?",
+        "translation_ko": "죄송합니다, 봉투 하나를 주시겠어요?"
+      },
+      {
+        "text": "請問，可以幫我加珍珠嗎？",
+        "pinyin": "Qǐngwèn, kěyǐ bāng wǒ jiā zhēnzhū ma?",
+        "translation_en": "Excuse me, could you add boba for me?",
+        "translation_ko": "실례합니다, 타피오카 펄을 추가해 주시겠어요?"
+      },
+      {
+        "text": "我想要一杯綠茶，半糖，可以嗎？",
+        "pinyin": "Wǒ xiǎng yào yī bēi lǜchá, bàn táng, kěyǐ ma?",
+        "translation_en": "I would like a green tea, half sugar, okay?",
+        "translation_ko": "녹차 한 잔, 반당으로 원하는데 괜찮을까요?"
+      },
+      {
+        "text": "麻煩你，可以給我中杯的豆漿嗎？",
+        "pinyin": "Máfan nǐ, kěyǐ gěi wǒ zhōng bēi de dòujiāng ma?",
+        "translation_en": "Excuse me, could you give me a medium soy milk?",
+        "translation_ko": "실례합니다, 중간 컵의 두유를 주시겠어요?"
+      },
+      {
+        "text": "不好意思，可以再說一次嗎？我聽不懂。",
+        "pinyin": "Bù hǎo yìsi, kěyǐ zài shuō yī cì ma? Wǒ tīng bù dǒng.",
+        "translation_en": "Excuse me, could you say it again? I don't understand.",
+        "translation_ko": "죄송합니다, 한 번 더 말씀해 주시겠어요? 제가 이해하지 못했어요."
+      },
+      {
+        "text": "請問，可以慢一點說嗎？",
+        "pinyin": "Qǐngwèn, kěyǐ màn yī diǎn shuō ma?",
+        "translation_en": "Excuse me, could you speak a little slower?",
+        "translation_ko": "실례합니다, 조금 천천히 말씀해 주시겠어요?"
+      }
+    ],
+    "negative_examples": [
+      {
+        "text": "可以嗎我喝水？",
+        "error": "Word order is incorrect. 可以 must come before the verb, and 嗎 must be at the end."
+      }
+    ],
+    "incorrect_examples": [
+      {
+        "text": "我喝水可以嗎？",
+        "error": "While understandable, this is less natural. Standard polite request uses '可以 + verb + object + 嗎'."
+      }
+    ],
+    "transformation_drills": [
+      "Change '我要一杯水' to a polite request using 可以...嗎？"
+    ],
+    "production_drills": [
+      "Ask for permission to sit here using 可以...嗎？"
+    ],
+    "common_error_patterns": [
+      "Placing 嗎 before the verb",
+      "Omitting 可以 and using a direct command"
+    ],
+    "repair_feedback": {
+      "word_order": "Remember: 可以 + verb + object + 嗎",
+      "politeness": "Using 可以...嗎？ is polite; avoid direct commands like '給我水'.",
+      "vocabulary": "Use appropriate verbs like 喝, 吃, 坐, 看."
+    },
+    "slots": [
+      {
+        "name": "object",
+        "role": "object",
+        "values": [
+          {
+            "text": "想要",
+            "pinyin": "xiǎng yào",
+            "meaning_en": "would like; want",
+            "meaning_ko": "원하다",
+            "vocab_id": "VOC_D31_001"
+          },
+          {
+            "text": "不用",
+            "pinyin": "búyòng",
+            "meaning_en": "no need",
+            "meaning_ko": "필요 없다",
+            "vocab_id": "VOC_D31_002"
+          },
+          {
+            "text": "謝謝",
+            "pinyin": "xièxie",
+            "meaning_en": "thank you",
+            "meaning_ko": "감사합니다",
+            "vocab_id": "VOC_D31_003"
+          },
+          {
+            "text": "幫我",
+            "pinyin": "bāng wǒ",
+            "meaning_en": "help me",
+            "meaning_ko": "저를 도와주다",
+            "vocab_id": "VOC_D31_004"
+          },
+          {
+            "text": "給我",
+            "pinyin": "gěi wǒ",
+            "meaning_en": "give me",
+            "meaning_ko": "저에게 주다",
+            "vocab_id": "VOC_D31_005"
+          },
+          {
+            "text": "小杯",
+            "pinyin": "xiǎo bēi",
+            "meaning_en": "small cup",
+            "meaning_ko": "작은 컵",
+            "vocab_id": "VOC_D31_006"
+          },
+          {
+            "text": "中杯",
+            "pinyin": "zhōng bēi",
+            "meaning_en": "medium cup",
+            "meaning_ko": "중간 컵",
+            "vocab_id": "VOC_D31_007"
+          },
+          {
+            "text": "大杯",
+            "pinyin": "dà bēi",
+            "meaning_en": "large cup",
+            "meaning_ko": "큰 컵",
+            "vocab_id": "VOC_D31_008"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "GR_D31_WANT_OBJECT",
+    "pattern": "想要 + [object]",
+    "structure": [
+      "想要",
+      "object"
+    ],
+    "explanation_en": "Use '想要' to express what you want in a polite and indirect way. It is softer than '要' and common in service settings.",
+    "title": "Expressing Wants with 想要",
+    "meaning": "I would like...",
+    "when_to_use": [
+      "When ordering food or drinks",
+      "When expressing a desire politely"
+    ],
+    "when_not_to_use": [
+      "When making a direct demand",
+      "When the context requires a request for permission"
+    ],
+    "pragmatic_notes": "In Taiwan, '想要' is preferred over '要' in polite conversation. It shows consideration and is less assertive.",
+    "word_order_notes": "The structure is: 想要 + noun phrase. Do not add 嗎 after 想要; it is a statement, not a question.",
+    "english_contrast": "English uses 'I would like...' which is similar. Chinese uses '想要' directly before the object.",
+    "korean_contrast": "Korean uses '~을/를 원합니다' which is more formal. '想要' is less formal but still polite.",
+    "example_ids": [
+      "SEN_D31_011",
+      "SEN_D31_012",
+      "SEN_D31_013",
+      "SEN_D31_014"
+    ],
+    "correct_examples": [
+      {
+        "text": "我想要一杯小杯的拿鐵。",
+        "pinyin": "Wǒ xiǎng yào yī bēi xiǎo bēi de ná tiě.",
+        "translation_en": "I want a small latte."
+      },
+      {
+        "text": "我想要一杯中杯的紅茶，半糖。",
+        "pinyin": "Wǒ xiǎng yào yī bēi zhōng bēi de hóng chá, bàn táng.",
+        "translation_en": "I want a medium black tea, half sugar."
+      },
+      {
+        "pinyin": "Wǒ xiǎng yào yī bēi dà bēi de lǜ chá, qù bīng.",
+        "translation_en": "I want a large green tea, no ice."
+      },
+      {
+        "text": "我想要一杯豆漿，內用。",
+        "pinyin": "Wǒ xiǎng yào yī bēi dòu jiāng, nèi yòng.",
+        "translation_en": "I want a cup of soy milk, for here."
+      },
+      {
+        "text": "我想要一杯冰的拿鐵，少冰。",
+        "pinyin": "Wǒ xiǎng yào yī bēi bīng de ná tiě, shǎo bīng.",
+        "translation_en": "I want an iced latte, less ice."
+      },
+      {
+        "text": "我想要一杯大杯的拿鐵，加珍珠。",
+        "pinyin": "Wǒ xiǎng yào yī bēi dà bēi de ná tiě, jiā zhēn zhū.",
+        "translation_en": "I want a large latte with boba."
+      },
+      {
+        "text": "我想要一杯中杯的紅茶，正常甜，外帶。",
+        "pinyin": "Wǒ xiǎng yào yī bēi zhōng bēi de hóng chá, zhèng cháng tián, wài dài.",
+        "translation_en": "I want a medium black tea, normal sweetness, to go."
+      },
+      {
+        "text": "我想要一杯小杯的綠茶，微糖。",
+        "pinyin": "Wǒ xiǎng yào yī bēi xiǎo bēi de lǜ chá, wēi táng.",
+        "translation_en": "I want a small green tea, low sugar."
+      }
+    ],
+    "drill_examples": [
+      {
+        "text": "我想要一杯小杯的拿鐵。",
+        "pinyin": "Wǒ xiǎng yào yī bēi xiǎo bēi de ná tiě.",
+        "translation_en": "I want a small latte.",
+        "translation_ko": "작은 라떼 한 잔을 원합니다."
+      },
+      {
+        "text": "我想要一杯中杯的紅茶，半糖。",
+        "pinyin": "Wǒ xiǎng yào yī bēi zhōng bēi de hóng chá, bàn táng.",
+        "translation_en": "I want a medium black tea, half sugar.",
+        "translation_ko": "중간 크기의 홍차 반당을 원합니다."
+      },
+      {
+        "text": "我想要一杯豆漿，內用。",
+        "pinyin": "Wǒ xiǎng yào yī bēi dòu jiāng, nèi yòng.",
+        "translation_en": "I want a cup of soy milk, for here.",
+        "translation_ko": "두유 한 잔을 매장에서 마시고 싶습니다."
+      },
+      {
+        "text": "我想要一杯冰的拿鐵，少冰。",
+        "pinyin": "Wǒ xiǎng yào yī bēi bīng de ná tiě, shǎo bīng.",
+        "translation_en": "I want an iced latte, less ice.",
+        "translation_ko": "얼음 적게 넣은 아이스 라떼 한 잔을 원합니다."
+      },
+      {
+        "text": "我想要一杯大杯的拿鐵，加珍珠。",
+        "pinyin": "Wǒ xiǎng yào yī bēi dà bēi de ná tiě, jiā zhēn zhū.",
+        "translation_en": "I want a large latte with boba.",
+        "translation_ko": "큰 라떼에 타피오카 펄을 추가하고 싶습니다."
+      },
+      {
+        "text": "我想要一杯中杯的紅茶，正常甜，外帶。",
+        "pinyin": "Wǒ xiǎng yào yī bēi zhōng bēi de hóng chá, zhèng cháng tián, wài dài.",
+        "translation_en": "I want a medium black tea, normal sweetness, to go.",
+        "translation_ko": "중간 크기의 홍차 보통 당도로 포장해 주세요."
+      },
+      {
+        "text": "我想要一杯小杯的綠茶，微糖。",
+        "pinyin": "Wǒ xiǎng yào yī bēi xiǎo bēi de lǜ chá, wēi táng.",
+        "translation_en": "I want a small green tea, low sugar.",
+        "translation_ko": "작은 녹차 한 잔을 약간 단맛으로 원합니다."
+      }
+    ],
+    "negative_examples": [
+      {
+        "text": "想要嗎一杯咖啡？",
+        "error": "Incorrect word order. 想要 is not used in questions; use 可以...嗎？ instead."
+      }
+    ],
+    "incorrect_examples": [
+      {
+        "text": "我要一杯咖啡。",
+        "error": "While correct, '要' is more direct and less polite than '想要' in service contexts."
+      }
+    ],
+    "transformation_drills": [
+      "Change '我要一杯紅茶' to a more polite form using 想要"
+    ],
+    "production_drills": [
+      "Order a drink using 想要 at a café"
+    ],
+    "common_error_patterns": [
+      "Using 想要 in questions",
+      "Using 要 instead of 想要 in polite contexts"
+    ],
+    "repair_feedback": {
+      "word_order": "Use 想要 + object, not 想要 + 嗎",
+      "politeness": "Use 想要 instead of 要 to sound more polite",
+      "vocabulary": "Use object nouns like 咖啡, 茶, 水"
+    },
+    "slots": [
+      {
+        "name": "object",
+        "role": "object",
+        "values": [
+          {
+            "text": "想要",
+            "pinyin": "xiǎng yào",
+            "meaning_en": "would like; want",
+            "meaning_ko": "원하다",
+            "vocab_id": "VOC_D31_001"
+          },
+          {
+            "text": "不用",
+            "pinyin": "búyòng",
+            "meaning_en": "no need",
+            "meaning_ko": "필요 없다",
+            "vocab_id": "VOC_D31_002"
+          },
+          {
+            "text": "謝謝",
+            "pinyin": "xièxie",
+            "meaning_en": "thank you",
+            "meaning_ko": "감사합니다",
+            "vocab_id": "VOC_D31_003"
+          },
+          {
+            "text": "幫我",
+            "pinyin": "bāng wǒ",
+            "meaning_en": "help me",
+            "meaning_ko": "저를 도와주다",
+            "vocab_id": "VOC_D31_004"
+          },
+          {
+            "text": "給我",
+            "pinyin": "gěi wǒ",
+            "meaning_en": "give me",
+            "meaning_ko": "저에게 주다",
+            "vocab_id": "VOC_D31_005"
+          },
+          {
+            "text": "小杯",
+            "pinyin": "xiǎo bēi",
+            "meaning_en": "small cup",
+            "meaning_ko": "작은 컵",
+            "vocab_id": "VOC_D31_006"
+          },
+          {
+            "text": "中杯",
+            "pinyin": "zhōng bēi",
+            "meaning_en": "medium cup",
+            "meaning_ko": "중간 컵",
+            "vocab_id": "VOC_D31_007"
+          },
+          {
+            "text": "大杯",
+            "pinyin": "dà bēi",
+            "meaning_en": "large cup",
+            "meaning_ko": "큰 컵",
+            "vocab_id": "VOC_D31_008"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "GR_D31_POLITE_SOFTENER",
+    "pattern": "不好意思，[request]",
+    "structure": [
+      "不好意思",
+      "request"
+    ],
+    "explanation_en": "Start a polite request with '不好意思' to get attention or apologize for the interruption. It is a common softener in Taiwan.",
+    "title": "Polite Softener with 不好意思",
+    "meaning": "Excuse me, ... / Sorry to bother, ...",
+    "when_to_use": [
+      "When starting a request in a shop or café",
+      "When you need to get someone's attention"
+    ],
+    "when_not_to_use": [
+      "When apologizing for a mistake (use 對不起 instead)",
+      "In very formal written requests"
+    ],
+    "pragmatic_notes": "In Taiwan, '不好意思' is extremely common in daily interactions. It shows humility and politeness, especially when making a request.",
+    "word_order_notes": "Place '不好意思' at the beginning of the sentence, followed by the request. Do not put it in the middle or end.",
+    "english_contrast": "English uses 'Excuse me' or 'Sorry' at the beginning. Chinese uses '不好意思' similarly.",
+    "korean_contrast": "Korean uses '실례합니다' or '죄송합니다' which are more formal. '不好意思' is less formal but very common.",
+    "example_ids": [
+      "SEN_D31_021",
+      "SEN_D31_022",
+      "SEN_D31_023",
+      "SEN_D31_024"
+    ],
+    "correct_examples": [
+      {
+        "text": "不好意思，我想要一杯小杯的拿鐵。",
+        "pinyin": "Bù hǎo yì si, wǒ xiǎng yào yī bēi xiǎo bēi de ná tiě.",
+        "translation_en": "Excuse me, I would like a small latte."
+      },
+      {
+        "text": "不好意思，麻煩給我一個袋子。",
+        "pinyin": "Bù hǎo yì si, má fan gěi wǒ yī ge dài zi.",
+        "translation_en": "Excuse me, could you please give me a bag?"
+      },
+      {
+        "text": "不好意思，我要一杯紅茶，半糖少冰。",
+        "pinyin": "Bù hǎo yì si, wǒ yào yī bēi hóng chá, bàn táng shǎo bīng.",
+        "translation_en": "Excuse me, I'd like a black tea, half sugar and less ice."
+      },
+      {
+        "text": "不好意思，請問這個價錢是多少？",
+        "pinyin": "Bù hǎo yì si, qǐng wèn zhè ge jià qián shì duō shǎo?",
+        "translation_en": "Excuse me, how much is this?"
+      },
+      {
+        "text": "不好意思，我要一杯綠茶，去冰。",
+        "pinyin": "Bù hǎo yì si, wǒ yào yī bēi lǜ chá, qù bīng.",
+        "translation_en": "Excuse me, I'd like a green tea, no ice."
+      },
+      {
+        "text": "不好意思，麻煩幫我加珍珠。",
+        "pinyin": "Bù hǎo yì si, má fan bāng wǒ jiā zhēn zhū.",
+        "translation_en": "Excuse me, please add boba for me."
+      },
+      {
+        "text": "不好意思，我要外帶一杯豆漿。",
+        "pinyin": "Bù hǎo yì si, wǒ yào wài dài yī bēi dòu jiāng.",
+        "translation_en": "Excuse me, I'd like a soy milk to go."
+      },
+      {
+        "text": "不好意思，請給我一根吸管。",
+        "pinyin": "Bù hǎo yì si, qǐng gěi wǒ yī gēn xī guǎn.",
+        "translation_en": "Excuse me, please give me a straw."
+      }
+    ],
+    "drill_examples": [
+      {
+        "text": "不好意思，我想要一杯小杯的拿鐵。",
+        "pinyin": "Bù hǎo yì si, wǒ xiǎng yào yī bēi xiǎo bēi de ná tiě.",
+        "translation_en": "Excuse me, I would like a small latte.",
+        "translation_ko": "실례합니다, 작은 사이즈의 라떼 한 잔을 원합니다."
+      },
+      {
+        "text": "不好意思，麻煩給我一個袋子。",
+        "pinyin": "Bù hǎo yì si, má fan gěi wǒ yī ge dài zi.",
+        "translation_en": "Excuse me, could you please give me a bag?",
+        "translation_ko": "실례합니다, 봉투 하나 주시겠어요?"
+      },
+      {
+        "text": "不好意思，我要一杯紅茶，半糖少冰。",
+        "pinyin": "Bù hǎo yì si, wǒ yào yī bēi hóng chá, bàn táng shǎo bīng.",
+        "translation_en": "Excuse me, I'd like a black tea, half sugar and less ice.",
+        "translation_ko": "실례합니다, 홍차 한 잔에 당도 반, 얼음 적게 주세요."
+      },
+      {
+        "text": "不好意思，請問這個價錢是多少？",
+        "pinyin": "Bù hǎo yì si, qǐng wèn zhè ge jià qián shì duō shǎo?",
+        "translation_en": "Excuse me, how much is this?",
+        "translation_ko": "실례합니다, 이 가격이 얼마인가요?"
+      },
+      {
+        "text": "不好意思，我要一杯綠茶，去冰。",
+        "pinyin": "Bù hǎo yì si, wǒ yào yī bēi lǜ chá, qù bīng.",
+        "translation_en": "Excuse me, I'd like a green tea, no ice.",
+        "translation_ko": "실례합니다, 녹차 한 잔에 얼음 빼 주세요."
+      },
+      {
+        "text": "不好意思，麻煩幫我加珍珠。",
+        "pinyin": "Bù hǎo yì si, má fan bāng wǒ jiā zhēn zhū.",
+        "translation_en": "Excuse me, please add boba for me.",
+        "translation_ko": "실례합니다, 타피오카 펄을 추가해 주세요."
+      },
+      {
+        "text": "不好意思，我要外帶一杯豆漿。",
+        "pinyin": "Bù hǎo yì si, wǒ yào wài dài yī bēi dòu jiāng.",
+        "translation_en": "Excuse me, I'd like a soy milk to go.",
+        "translation_ko": "실례합니다, 두유 한 잔 포장해 주세요."
+      },
+      {
+        "text": "不好意思，請給我一根吸管。",
+        "pinyin": "Bù hǎo yì si, qǐng gěi wǒ yī gēn xī guǎn.",
+        "translation_en": "Excuse me, please give me a straw.",
+        "translation_ko": "실례합니다, 빨대 하나 주세요."
+      }
+    ],
+    "negative_examples": [
+      {
+        "text": "我想要一杯水不好意思。",
+        "error": "Incorrect word order. 不好意思 should come at the beginning, not the end."
+      }
+    ],
+    "incorrect_examples": [
+      {
+        "text": "不好意思，可以給我菜單嗎？",
+        "error": "This is actually correct! No error here."
+      }
+    ],
+    "transformation_drills": [
+      "Add 不好意思 to the beginning of '可以給我菜單嗎？'"
+    ],
+    "production_drills": [
+      "Use 不好意思 to ask for a bag at a shop"
+    ],
+    "common_error_patterns": [
+      "Placing 不好意思 at the end",
+      "Using 對不起 instead of 不好意思 for requests"
+    ],
+    "repair_feedback": {
+      "word_order": "Put 不好意思 at the start of the sentence",
+      "politeness": "Using 不好意思 makes the request more polite and natural",
+      "vocabulary": "Use 不好意思 for requests, not 對不起"
+    },
+    "slots": [
+      {
+        "name": "object",
+        "role": "object",
+        "values": [
+          {
+            "text": "想要",
+            "pinyin": "xiǎng yào",
+            "meaning_en": "would like; want",
+            "meaning_ko": "원하다",
+            "vocab_id": "VOC_D31_001"
+          },
+          {
+            "text": "不用",
+            "pinyin": "búyòng",
+            "meaning_en": "no need",
+            "meaning_ko": "필요 없다",
+            "vocab_id": "VOC_D31_002"
+          },
+          {
+            "text": "謝謝",
+            "pinyin": "xièxie",
+            "meaning_en": "thank you",
+            "meaning_ko": "감사합니다",
+            "vocab_id": "VOC_D31_003"
+          },
+          {
+            "text": "幫我",
+            "pinyin": "bāng wǒ",
+            "meaning_en": "help me",
+            "meaning_ko": "저를 도와주다",
+            "vocab_id": "VOC_D31_004"
+          },
+          {
+            "text": "給我",
+            "pinyin": "gěi wǒ",
+            "meaning_en": "give me",
+            "meaning_ko": "저에게 주다",
+            "vocab_id": "VOC_D31_005"
+          },
+          {
+            "text": "小杯",
+            "pinyin": "xiǎo bēi",
+            "meaning_en": "small cup",
+            "meaning_ko": "작은 컵",
+            "vocab_id": "VOC_D31_006"
+          },
+          {
+            "text": "中杯",
+            "pinyin": "zhōng bēi",
+            "meaning_en": "medium cup",
+            "meaning_ko": "중간 컵",
+            "vocab_id": "VOC_D31_007"
+          },
+          {
+            "text": "大杯",
+            "pinyin": "dà bēi",
+            "meaning_en": "large cup",
+            "meaning_ko": "큰 컵",
+            "vocab_id": "VOC_D31_008"
+          }
+        ]
+      }
+    ]
   }
 ]
