@@ -1,145 +1,5 @@
 [
   {
-    "id": "REV_D46",
-    "lesson_id": "LESSON_D46",
-    "source_days": [
-      45,
-      44,
-      43,
-      42,
-      41
-    ],
-    "minimum_review_items": 30,
-    "review_sources": [
-      "prior_1_days",
-      "prior_2_days",
-      "prior_3_days",
-      "prior_4_days",
-      "prior_5_days"
-    ],
-    "prompt_en": "Review older material by producing new sentences, not by reading passively."
-  },
-  {
-    "id": "REV_D47",
-    "lesson_id": "LESSON_D47",
-    "source_days": [
-      46,
-      45,
-      44,
-      43,
-      42
-    ],
-    "minimum_review_items": 30,
-    "review_sources": [
-      "prior_1_days",
-      "prior_2_days",
-      "prior_3_days",
-      "prior_4_days",
-      "prior_5_days"
-    ],
-    "prompt_en": "Review older material by producing new sentences, not by reading passively."
-  },
-  {
-    "id": "REV_D48",
-    "lesson_id": "LESSON_D48",
-    "source_days": [
-      47,
-      46,
-      45,
-      44,
-      43
-    ],
-    "minimum_review_items": 30,
-    "review_sources": [
-      "prior_1_days",
-      "prior_2_days",
-      "prior_3_days",
-      "prior_4_days",
-      "prior_5_days"
-    ],
-    "prompt_en": "Review older material by producing new sentences, not by reading passively."
-  },
-  {
-    "id": "REV_D49",
-    "lesson_id": "LESSON_D49",
-    "source_days": [
-      48,
-      47,
-      46,
-      45,
-      44
-    ],
-    "minimum_review_items": 30,
-    "review_sources": [
-      "prior_1_days",
-      "prior_2_days",
-      "prior_3_days",
-      "prior_4_days",
-      "prior_5_days"
-    ],
-    "prompt_en": "Review older material by producing new sentences, not by reading passively."
-  },
-  {
-    "id": "REV_D50",
-    "lesson_id": "LESSON_D50",
-    "source_days": [
-      49,
-      48,
-      47,
-      46,
-      45
-    ],
-    "minimum_review_items": 30,
-    "review_sources": [
-      "prior_1_days",
-      "prior_2_days",
-      "prior_3_days",
-      "prior_4_days",
-      "prior_5_days"
-    ],
-    "prompt_en": "Review older material by producing new sentences, not by reading passively."
-  },
-  {
-    "id": "REV_D51",
-    "lesson_id": "LESSON_D51",
-    "source_days": [
-      50,
-      49,
-      48,
-      47,
-      46
-    ],
-    "minimum_review_items": 30,
-    "review_sources": [
-      "prior_1_days",
-      "prior_2_days",
-      "prior_3_days",
-      "prior_4_days",
-      "prior_5_days"
-    ],
-    "prompt_en": "Review older material by producing new sentences, not by reading passively."
-  },
-  {
-    "id": "REV_D52",
-    "lesson_id": "LESSON_D52",
-    "source_days": [
-      51,
-      50,
-      49,
-      48,
-      47
-    ],
-    "minimum_review_items": 30,
-    "review_sources": [
-      "prior_1_days",
-      "prior_2_days",
-      "prior_3_days",
-      "prior_4_days",
-      "prior_5_days"
-    ],
-    "prompt_en": "Review older material by producing new sentences, not by reading passively."
-  },
-  {
     "id": "REV_D53",
     "lesson_id": "LESSON_D53",
     "source_days": [
@@ -898,5 +758,145 @@
       "prior_5_days"
     ],
     "prompt_en": "Review older material by producing new sentences, not by reading passively."
+  },
+  {
+    "id": "REV_D46",
+    "lesson_id": "LESSON_D46",
+    "source_days": [
+      45,
+      43,
+      39,
+      32,
+      16
+    ],
+    "minimum_review_items": 30,
+    "review_sources": [
+      "prior_1_day",
+      "prior_3_days",
+      "prior_7_days",
+      "prior_14_days",
+      "prior_30_days"
+    ],
+    "prompt_en": "Review older words by producing new sentences, not by reading passively."
+  },
+  {
+    "id": "REV_D47",
+    "lesson_id": "LESSON_D47",
+    "source_days": [
+      46,
+      44,
+      40,
+      33,
+      17
+    ],
+    "minimum_review_items": 30,
+    "review_sources": [
+      "prior_1_day",
+      "prior_3_days",
+      "prior_7_days",
+      "prior_14_days",
+      "prior_30_days"
+    ],
+    "prompt_en": "Review older words by producing new sentences, not by reading passively."
+  },
+  {
+    "id": "REV_D48",
+    "lesson_id": "LESSON_D48",
+    "source_days": [
+      47,
+      45,
+      41,
+      34,
+      18
+    ],
+    "minimum_review_items": 30,
+    "review_sources": [
+      "prior_1_day",
+      "prior_3_days",
+      "prior_7_days",
+      "prior_14_days",
+      "prior_30_days"
+    ],
+    "prompt_en": "Review older words by producing new sentences, not by reading passively."
+  },
+  {
+    "id": "REV_D49",
+    "lesson_id": "LESSON_D49",
+    "source_days": [
+      48,
+      46,
+      42,
+      35,
+      19
+    ],
+    "minimum_review_items": 30,
+    "review_sources": [
+      "prior_1_day",
+      "prior_3_days",
+      "prior_7_days",
+      "prior_14_days",
+      "prior_30_days"
+    ],
+    "prompt_en": "Review older words by producing new sentences, not by reading passively."
+  },
+  {
+    "id": "REV_D50",
+    "lesson_id": "LESSON_D50",
+    "source_days": [
+      49,
+      47,
+      43,
+      36,
+      20
+    ],
+    "minimum_review_items": 30,
+    "review_sources": [
+      "prior_1_day",
+      "prior_3_days",
+      "prior_7_days",
+      "prior_14_days",
+      "prior_30_days"
+    ],
+    "prompt_en": "Review older words by producing new sentences, not by reading passively."
+  },
+  {
+    "id": "REV_D51",
+    "lesson_id": "LESSON_D51",
+    "source_days": [
+      50,
+      48,
+      44,
+      37,
+      21
+    ],
+    "minimum_review_items": 30,
+    "review_sources": [
+      "prior_1_day",
+      "prior_3_days",
+      "prior_7_days",
+      "prior_14_days",
+      "prior_30_days"
+    ],
+    "prompt_en": "Review older words by producing new sentences, not by reading passively."
+  },
+  {
+    "id": "REV_D52",
+    "lesson_id": "LESSON_D52",
+    "source_days": [
+      51,
+      49,
+      45,
+      38,
+      22
+    ],
+    "minimum_review_items": 30,
+    "review_sources": [
+      "prior_1_day",
+      "prior_3_days",
+      "prior_7_days",
+      "prior_14_days",
+      "prior_30_days"
+    ],
+    "prompt_en": "Review older words by producing new sentences, not by reading passively."
   }
 ]

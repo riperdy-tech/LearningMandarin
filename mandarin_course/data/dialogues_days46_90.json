@@ -1,2471 +1,5 @@
 [
   {
-    "id": "DLG_D46_01",
-    "lesson_id": "LESSON_D46",
-    "scenario": "yesterday_activity",
-    "speaker_roles": [
-      "customer",
-      "clerk"
-    ],
-    "grammar_ids": [
-      "GR_D46_COMPLETED_LE"
-    ],
-    "turns": [
-      {
-        "id": "DLG_D46_01_T1",
-        "speaker": "customer",
-        "text": "請問上班可以嗎？",
-        "pinyin": "qǐng wèn shàngbān kěyǐ ma？",
-        "pinyin_numeric": "qing3 wen4 shang4 ban1 ke3 yi3 ma0？",
-        "translation_en": "Excuse me, can I go to work?",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D46_034"
-        ],
-        "audio_id": "AUD_DLG_D46_01_T1"
-      },
-      {
-        "id": "DLG_D46_01_T2",
-        "speaker": "clerk",
-        "text": "可以，吃晚餐沒問題。",
-        "pinyin": "kěyǐ， chī wǎncān méi wèntí。",
-        "pinyin_numeric": "ke3 yi3， chi1 wan3 can1 mei2 wen4 ti2。",
-        "translation_en": "Sure, eat dinner is no problem.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D46_033"
-        ],
-        "audio_id": "AUD_DLG_D46_01_T2"
-      },
-      {
-        "id": "DLG_D46_01_T3",
-        "speaker": "customer",
-        "text": "那我要帶。",
-        "pinyin": "那 wǒ yào dài。",
-        "pinyin_numeric": "那 wo3 yao4 dai4。",
-        "translation_en": "Then I'd like bring.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D46_018"
-        ],
-        "audio_id": "AUD_DLG_D46_01_T3"
-      },
-      {
-        "id": "DLG_D46_01_T4",
-        "speaker": "clerk",
-        "text": "好的，需要散步嗎？",
-        "pinyin": "hǎo de， xūyào sànbù ma？",
-        "pinyin_numeric": "hao3 de0， xu1 yao4 san4 bu4 ma0？",
-        "translation_en": "Ok, do you need take a walk?",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D46_027"
-        ],
-        "audio_id": "AUD_DLG_D46_01_T4"
-      },
-      {
-        "id": "DLG_D46_01_T5",
-        "speaker": "customer",
-        "text": "不用，謝謝。",
-        "pinyin": "búyòng， xièxie。",
-        "pinyin_numeric": "bu2 yong4， xie4 xie0。",
-        "translation_en": "No need, thank you.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [],
-        "audio_id": "AUD_DLG_D46_01_T5"
-      },
-      {
-        "id": "DLG_D46_01_T6",
-        "speaker": "clerk",
-        "text": "好，馬上來。",
-        "pinyin": "hǎo， 馬 shàng lái。",
-        "pinyin_numeric": "hao3， 馬 shang4 lai2。",
-        "translation_en": "OK, coming right up.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [],
-        "audio_id": "AUD_DLG_D46_01_T6"
-      }
-    ],
-    "audio_ids": [
-      "AUD_DLG_D46_01_T1",
-      "AUD_DLG_D46_01_T2",
-      "AUD_DLG_D46_01_T3",
-      "AUD_DLG_D46_01_T4",
-      "AUD_DLG_D46_01_T5",
-      "AUD_DLG_D46_01_T6"
-    ],
-    "comprehension_questions": [
-      {
-        "id": "DLG_D46_01_Q1",
-        "question_en": "What does the customer ask for?",
-        "answer_en": "Something related to yesterday activity."
-      },
-      {
-        "id": "DLG_D46_01_Q2",
-        "question_en": "How does the clerk respond?",
-        "answer_en": "Politely and helpfully."
-      }
-    ],
-    "speaking_shadowing_prompts": [
-      "Shadow each turn at natural speed.",
-      "Repeat without looking at the text."
-    ],
-    "free_response_branching_prompts": [
-      "Replace one word and continue.",
-      "Answer with your own real information."
-    ]
-  },
-  {
-    "id": "DLG_D46_02",
-    "lesson_id": "LESSON_D46",
-    "scenario": "ate_dinner",
-    "speaker_roles": [
-      "friend_a",
-      "friend_b"
-    ],
-    "grammar_ids": [
-      "GR_D46_COMPLETED_LE"
-    ],
-    "turns": [
-      {
-        "id": "DLG_D46_02_T1",
-        "speaker": "friend_a",
-        "text": "請問帶可以嗎？",
-        "pinyin": "qǐng wèn dài kěyǐ ma？",
-        "pinyin_numeric": "qing3 wen4 dai4 ke3 yi3 ma0？",
-        "translation_en": "Excuse me, can I bring?",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D46_018"
-        ],
-        "audio_id": "AUD_DLG_D46_02_T1"
-      },
-      {
-        "id": "DLG_D46_02_T2",
-        "speaker": "friend_b",
-        "text": "可以，下班沒問題。",
-        "pinyin": "kěyǐ， xiàbān méi wèntí。",
-        "pinyin_numeric": "ke3 yi3， xia4 ban1 mei2 wen4 ti2。",
-        "translation_en": "Sure, get off work is no problem.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D46_035"
-        ],
-        "audio_id": "AUD_DLG_D46_02_T2"
-      },
-      {
-        "id": "DLG_D46_02_T3",
-        "speaker": "friend_a",
-        "text": "那我要洗衣。",
-        "pinyin": "那 wǒ yào xǐyī。",
-        "pinyin_numeric": "那 wo3 yao4 xi3 yi1。",
-        "translation_en": "Then I'd like do laundry.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D46_009"
-        ],
-        "audio_id": "AUD_DLG_D46_02_T3"
-      },
-      {
-        "id": "DLG_D46_02_T4",
-        "speaker": "friend_b",
-        "text": "好的，需要整理嗎？",
-        "pinyin": "hǎo de， xūyào zhěnglǐ ma？",
-        "pinyin_numeric": "hao3 de0， xu1 yao4 zheng3 li3 ma0？",
-        "translation_en": "Ok, do you need tidy up?",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D46_011"
-        ],
-        "audio_id": "AUD_DLG_D46_02_T4"
-      },
-      {
-        "id": "DLG_D46_02_T5",
-        "speaker": "friend_a",
-        "text": "不用，謝謝。",
-        "pinyin": "búyòng， xièxie。",
-        "pinyin_numeric": "bu2 yong4， xie4 xie0。",
-        "translation_en": "No need, thank you.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [],
-        "audio_id": "AUD_DLG_D46_02_T5"
-      },
-      {
-        "id": "DLG_D46_02_T6",
-        "speaker": "friend_b",
-        "text": "好，馬上來。",
-        "pinyin": "hǎo， 馬 shàng lái。",
-        "pinyin_numeric": "hao3， 馬 shang4 lai2。",
-        "translation_en": "OK, coming right up.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [],
-        "audio_id": "AUD_DLG_D46_02_T6"
-      }
-    ],
-    "audio_ids": [
-      "AUD_DLG_D46_02_T1",
-      "AUD_DLG_D46_02_T2",
-      "AUD_DLG_D46_02_T3",
-      "AUD_DLG_D46_02_T4",
-      "AUD_DLG_D46_02_T5",
-      "AUD_DLG_D46_02_T6"
-    ],
-    "comprehension_questions": [
-      {
-        "id": "DLG_D46_02_Q1",
-        "question_en": "What does the friend_a ask for?",
-        "answer_en": "Something related to ate dinner."
-      },
-      {
-        "id": "DLG_D46_02_Q2",
-        "question_en": "How does the friend_b respond?",
-        "answer_en": "Politely and helpfully."
-      }
-    ],
-    "speaking_shadowing_prompts": [
-      "Shadow each turn at natural speed.",
-      "Repeat without looking at the text."
-    ],
-    "free_response_branching_prompts": [
-      "Replace one word and continue.",
-      "Answer with your own real information."
-    ]
-  },
-  {
-    "id": "DLG_D46_03",
-    "lesson_id": "LESSON_D46",
-    "scenario": "went_out",
-    "speaker_roles": [
-      "passenger",
-      "staff"
-    ],
-    "grammar_ids": [
-      "GR_D46_COMPLETED_LE"
-    ],
-    "turns": [
-      {
-        "id": "DLG_D46_03_T1",
-        "speaker": "passenger",
-        "text": "請問睡覺可以嗎？",
-        "pinyin": "qǐng wèn shuìjiào kěyǐ ma？",
-        "pinyin_numeric": "qing3 wen4 shui4 jiao4 ke3 yi3 ma0？",
-        "translation_en": "Excuse me, can I sleep?",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D46_020"
-        ],
-        "audio_id": "AUD_DLG_D46_03_T1"
-      },
-      {
-        "id": "DLG_D46_03_T2",
-        "speaker": "staff",
-        "text": "可以，上個月沒問題。",
-        "pinyin": "kěyǐ， shàng ge yuè méi wèntí。",
-        "pinyin_numeric": "ke3 yi3， shang4 ge0 yue4 mei2 wen4 ti2。",
-        "translation_en": "Sure, last month is no problem.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D46_003"
-        ],
-        "audio_id": "AUD_DLG_D46_03_T2"
-      },
-      {
-        "id": "DLG_D46_03_T3",
-        "speaker": "passenger",
-        "text": "那我要出門。",
-        "pinyin": "那 wǒ yào chūmén。",
-        "pinyin_numeric": "那 wo3 yao4 chu1 men2。",
-        "translation_en": "Then I'd like go out.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D46_005"
-        ],
-        "audio_id": "AUD_DLG_D46_03_T3"
-      },
-      {
-        "id": "DLG_D46_03_T4",
-        "speaker": "staff",
-        "text": "好的，需要打掃嗎？",
-        "pinyin": "hǎo de， xūyào dǎsǎo ma？",
-        "pinyin_numeric": "hao3 de0， xu1 yao4 da3 sao3 ma0？",
-        "translation_en": "Ok, do you need clean up?",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D46_010"
-        ],
-        "audio_id": "AUD_DLG_D46_03_T4"
-      },
-      {
-        "id": "DLG_D46_03_T5",
-        "speaker": "passenger",
-        "text": "不用，謝謝。",
-        "pinyin": "búyòng， xièxie。",
-        "pinyin_numeric": "bu2 yong4， xie4 xie0。",
-        "translation_en": "No need, thank you.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [],
-        "audio_id": "AUD_DLG_D46_03_T5"
-      },
-      {
-        "id": "DLG_D46_03_T6",
-        "speaker": "staff",
-        "text": "好，馬上來。",
-        "pinyin": "hǎo， 馬 shàng lái。",
-        "pinyin_numeric": "hao3， 馬 shang4 lai2。",
-        "translation_en": "OK, coming right up.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [],
-        "audio_id": "AUD_DLG_D46_03_T6"
-      }
-    ],
-    "audio_ids": [
-      "AUD_DLG_D46_03_T1",
-      "AUD_DLG_D46_03_T2",
-      "AUD_DLG_D46_03_T3",
-      "AUD_DLG_D46_03_T4",
-      "AUD_DLG_D46_03_T5",
-      "AUD_DLG_D46_03_T6"
-    ],
-    "comprehension_questions": [
-      {
-        "id": "DLG_D46_03_Q1",
-        "question_en": "What does the passenger ask for?",
-        "answer_en": "Something related to went out."
-      },
-      {
-        "id": "DLG_D46_03_Q2",
-        "question_en": "How does the staff respond?",
-        "answer_en": "Politely and helpfully."
-      }
-    ],
-    "speaking_shadowing_prompts": [
-      "Shadow each turn at natural speed.",
-      "Repeat without looking at the text."
-    ],
-    "free_response_branching_prompts": [
-      "Replace one word and continue.",
-      "Answer with your own real information."
-    ]
-  },
-  {
-    "id": "DLG_D47_01",
-    "lesson_id": "LESSON_D47",
-    "scenario": "yesterday_sequence",
-    "speaker_roles": [
-      "customer",
-      "clerk"
-    ],
-    "grammar_ids": [
-      "GR_D47_RANHOU"
-    ],
-    "turns": [
-      {
-        "id": "DLG_D47_01_T1",
-        "speaker": "customer",
-        "text": "請問事情可以嗎？",
-        "pinyin": "qǐng wèn shìqíng kěyǐ ma？",
-        "pinyin_numeric": "qing3 wen4 shi4 qing2 ke3 yi3 ma0？",
-        "translation_en": "Excuse me, can I matter; thing?",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D47_027"
-        ],
-        "audio_id": "AUD_DLG_D47_01_T1"
-      },
-      {
-        "id": "DLG_D47_01_T2",
-        "speaker": "clerk",
-        "text": "可以，忙沒問題。",
-        "pinyin": "kěyǐ， máng méi wèntí。",
-        "pinyin_numeric": "ke3 yi3， mang2 mei2 wen4 ti2。",
-        "translation_en": "Sure, busy is no problem.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D47_028"
-        ],
-        "audio_id": "AUD_DLG_D47_01_T2"
-      },
-      {
-        "id": "DLG_D47_01_T3",
-        "speaker": "customer",
-        "text": "那我要說完。",
-        "pinyin": "那 wǒ yào shuō wán。",
-        "pinyin_numeric": "那 wo3 yao4 shuo1 wan2。",
-        "translation_en": "Then I'd like finish speaking.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D47_015"
-        ],
-        "audio_id": "AUD_DLG_D47_01_T3"
-      },
-      {
-        "id": "DLG_D47_01_T4",
-        "speaker": "clerk",
-        "text": "好的，需要整天嗎？",
-        "pinyin": "hǎo de， xūyào zhěng tiān ma？",
-        "pinyin_numeric": "hao3 de0， xu1 yao4 zheng3 tian1 ma0？",
-        "translation_en": "Ok, do you need all day?",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D47_006"
-        ],
-        "audio_id": "AUD_DLG_D47_01_T4"
-      },
-      {
-        "id": "DLG_D47_01_T5",
-        "speaker": "customer",
-        "text": "不用，謝謝。",
-        "pinyin": "búyòng， xièxie。",
-        "pinyin_numeric": "bu2 yong4， xie4 xie0。",
-        "translation_en": "No need, thank you.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [],
-        "audio_id": "AUD_DLG_D47_01_T5"
-      },
-      {
-        "id": "DLG_D47_01_T6",
-        "speaker": "clerk",
-        "text": "好，馬上來。",
-        "pinyin": "hǎo， 馬 shàng lái。",
-        "pinyin_numeric": "hao3， 馬 shang4 lai2。",
-        "translation_en": "OK, coming right up.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [],
-        "audio_id": "AUD_DLG_D47_01_T6"
-      }
-    ],
-    "audio_ids": [
-      "AUD_DLG_D47_01_T1",
-      "AUD_DLG_D47_01_T2",
-      "AUD_DLG_D47_01_T3",
-      "AUD_DLG_D47_01_T4",
-      "AUD_DLG_D47_01_T5",
-      "AUD_DLG_D47_01_T6"
-    ],
-    "comprehension_questions": [
-      {
-        "id": "DLG_D47_01_Q1",
-        "question_en": "What does the customer ask for?",
-        "answer_en": "Something related to yesterday sequence."
-      },
-      {
-        "id": "DLG_D47_01_Q2",
-        "question_en": "How does the clerk respond?",
-        "answer_en": "Politely and helpfully."
-      }
-    ],
-    "speaking_shadowing_prompts": [
-      "Shadow each turn at natural speed.",
-      "Repeat without looking at the text."
-    ],
-    "free_response_branching_prompts": [
-      "Replace one word and continue.",
-      "Answer with your own real information."
-    ]
-  },
-  {
-    "id": "DLG_D47_02",
-    "lesson_id": "LESSON_D47",
-    "scenario": "after_work",
-    "speaker_roles": [
-      "friend_a",
-      "friend_b"
-    ],
-    "grammar_ids": [
-      "GR_D47_RANHOU"
-    ],
-    "turns": [
-      {
-        "id": "DLG_D47_02_T1",
-        "speaker": "friend_a",
-        "text": "請問做到可以嗎？",
-        "pinyin": "qǐng wèn zuò dào kěyǐ ma？",
-        "pinyin_numeric": "qing3 wen4 zuo4 dao4 ke3 yi3 ma0？",
-        "translation_en": "Excuse me, can I accomplished?",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D47_012"
-        ],
-        "audio_id": "AUD_DLG_D47_02_T1"
-      },
-      {
-        "id": "DLG_D47_02_T2",
-        "speaker": "friend_b",
-        "text": "可以，事情沒問題。",
-        "pinyin": "kěyǐ， shìqíng méi wèntí。",
-        "pinyin_numeric": "ke3 yi3， shi4 qing2 mei2 wen4 ti2。",
-        "translation_en": "Sure, matter; thing is no problem.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D47_027"
-        ],
-        "audio_id": "AUD_DLG_D47_02_T2"
-      },
-      {
-        "id": "DLG_D47_02_T3",
-        "speaker": "friend_a",
-        "text": "那我要接著。",
-        "pinyin": "那 wǒ yào jiēzhe。",
-        "pinyin_numeric": "那 wo3 yao4 jie1 zhe0。",
-        "translation_en": "Then I'd like next.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D47_001"
-        ],
-        "audio_id": "AUD_DLG_D47_02_T3"
-      },
-      {
-        "id": "DLG_D47_02_T4",
-        "speaker": "friend_b",
-        "text": "好的，需要接著嗎？",
-        "pinyin": "hǎo de， xūyào jiēzhe ma？",
-        "pinyin_numeric": "hao3 de0， xu1 yao4 jie1 zhe0 ma0？",
-        "translation_en": "Ok, do you need next?",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D47_001"
-        ],
-        "audio_id": "AUD_DLG_D47_02_T4"
-      },
-      {
-        "id": "DLG_D47_02_T5",
-        "speaker": "friend_a",
-        "text": "不用，謝謝。",
-        "pinyin": "búyòng， xièxie。",
-        "pinyin_numeric": "bu2 yong4， xie4 xie0。",
-        "translation_en": "No need, thank you.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [],
-        "audio_id": "AUD_DLG_D47_02_T5"
-      },
-      {
-        "id": "DLG_D47_02_T6",
-        "speaker": "friend_b",
-        "text": "好，馬上來。",
-        "pinyin": "hǎo， 馬 shàng lái。",
-        "pinyin_numeric": "hao3， 馬 shang4 lai2。",
-        "translation_en": "OK, coming right up.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [],
-        "audio_id": "AUD_DLG_D47_02_T6"
-      }
-    ],
-    "audio_ids": [
-      "AUD_DLG_D47_02_T1",
-      "AUD_DLG_D47_02_T2",
-      "AUD_DLG_D47_02_T3",
-      "AUD_DLG_D47_02_T4",
-      "AUD_DLG_D47_02_T5",
-      "AUD_DLG_D47_02_T6"
-    ],
-    "comprehension_questions": [
-      {
-        "id": "DLG_D47_02_Q1",
-        "question_en": "What does the friend_a ask for?",
-        "answer_en": "Something related to after work."
-      },
-      {
-        "id": "DLG_D47_02_Q2",
-        "question_en": "How does the friend_b respond?",
-        "answer_en": "Politely and helpfully."
-      }
-    ],
-    "speaking_shadowing_prompts": [
-      "Shadow each turn at natural speed.",
-      "Repeat without looking at the text."
-    ],
-    "free_response_branching_prompts": [
-      "Replace one word and continue.",
-      "Answer with your own real information."
-    ]
-  },
-  {
-    "id": "DLG_D47_03",
-    "lesson_id": "LESSON_D47",
-    "scenario": "weekend_story",
-    "speaker_roles": [
-      "passenger",
-      "staff"
-    ],
-    "grammar_ids": [
-      "GR_D47_RANHOU"
-    ],
-    "turns": [
-      {
-        "id": "DLG_D47_03_T1",
-        "speaker": "passenger",
-        "text": "請問用完可以嗎？",
-        "pinyin": "qǐng wèn yòng wán kěyǐ ma？",
-        "pinyin_numeric": "qing3 wen4 yong4 wan2 ke3 yi3 ma0？",
-        "translation_en": "Excuse me, can I use up?",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D47_013"
-        ],
-        "audio_id": "AUD_DLG_D47_03_T1"
-      },
-      {
-        "id": "DLG_D47_03_T2",
-        "speaker": "staff",
-        "text": "可以，開始沒問題。",
-        "pinyin": "kěyǐ， kāishǐ méi wèntí。",
-        "pinyin_numeric": "ke3 yi3， kai1 shi3 mei2 wen4 ti2。",
-        "translation_en": "Sure, start is no problem.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D47_017"
-        ],
-        "audio_id": "AUD_DLG_D47_03_T2"
-      },
-      {
-        "id": "DLG_D47_03_T3",
-        "speaker": "passenger",
-        "text": "那我要從頭開始。",
-        "pinyin": "那 wǒ yào cóng tóu kāishǐ。",
-        "pinyin_numeric": "那 wo3 yao4 cong2 tou2 kai1 shi3。",
-        "translation_en": "Then I'd like from the beginning.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D47_003"
-        ],
-        "audio_id": "AUD_DLG_D47_03_T3"
-      },
-      {
-        "id": "DLG_D47_03_T4",
-        "speaker": "staff",
-        "text": "好的，需要做到嗎？",
-        "pinyin": "hǎo de， xūyào zuò dào ma？",
-        "pinyin_numeric": "hao3 de0， xu1 yao4 zuo4 dao4 ma0？",
-        "translation_en": "Ok, do you need accomplished?",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D47_012"
-        ],
-        "audio_id": "AUD_DLG_D47_03_T4"
-      },
-      {
-        "id": "DLG_D47_03_T5",
-        "speaker": "passenger",
-        "text": "不用，謝謝。",
-        "pinyin": "búyòng， xièxie。",
-        "pinyin_numeric": "bu2 yong4， xie4 xie0。",
-        "translation_en": "No need, thank you.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [],
-        "audio_id": "AUD_DLG_D47_03_T5"
-      },
-      {
-        "id": "DLG_D47_03_T6",
-        "speaker": "staff",
-        "text": "好，馬上來。",
-        "pinyin": "hǎo， 馬 shàng lái。",
-        "pinyin_numeric": "hao3， 馬 shang4 lai2。",
-        "translation_en": "OK, coming right up.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [],
-        "audio_id": "AUD_DLG_D47_03_T6"
-      }
-    ],
-    "audio_ids": [
-      "AUD_DLG_D47_03_T1",
-      "AUD_DLG_D47_03_T2",
-      "AUD_DLG_D47_03_T3",
-      "AUD_DLG_D47_03_T4",
-      "AUD_DLG_D47_03_T5",
-      "AUD_DLG_D47_03_T6"
-    ],
-    "comprehension_questions": [
-      {
-        "id": "DLG_D47_03_Q1",
-        "question_en": "What does the passenger ask for?",
-        "answer_en": "Something related to weekend story."
-      },
-      {
-        "id": "DLG_D47_03_Q2",
-        "question_en": "How does the staff respond?",
-        "answer_en": "Politely and helpfully."
-      }
-    ],
-    "speaking_shadowing_prompts": [
-      "Shadow each turn at natural speed.",
-      "Repeat without looking at the text."
-    ],
-    "free_response_branching_prompts": [
-      "Replace one word and continue.",
-      "Answer with your own real information."
-    ]
-  },
-  {
-    "id": "DLG_D48_01",
-    "lesson_id": "LESSON_D48",
-    "scenario": "been_to_taipei",
-    "speaker_roles": [
-      "customer",
-      "clerk"
-    ],
-    "grammar_ids": [
-      "GR_D48_GUO_EXPERIENCE"
-    ],
-    "turns": [
-      {
-        "id": "DLG_D48_01_T1",
-        "speaker": "customer",
-        "text": "請問照片可以嗎？",
-        "pinyin": "qǐng wèn zhàopiàn kěyǐ ma？",
-        "pinyin_numeric": "qing3 wen4 zhao4 pian4 ke3 yi3 ma0？",
-        "translation_en": "Excuse me, can I photo?",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D48_032"
-        ],
-        "audio_id": "AUD_DLG_D48_01_T1"
-      },
-      {
-        "id": "DLG_D48_01_T2",
-        "speaker": "clerk",
-        "text": "可以，花蓮沒問題。",
-        "pinyin": "kěyǐ， Huālián méi wèntí。",
-        "pinyin_numeric": "ke3 yi3， hua1 lian2 mei2 wen4 ti2。",
-        "translation_en": "Sure, Hualien is no problem.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D48_018"
-        ],
-        "audio_id": "AUD_DLG_D48_01_T2"
-      },
-      {
-        "id": "DLG_D48_01_T3",
-        "speaker": "customer",
-        "text": "那我要好幾次。",
-        "pinyin": "那 wǒ yào hǎo jǐ cì。",
-        "pinyin_numeric": "那 wo3 yao4 hao3 ji3 ci4。",
-        "translation_en": "Then I'd like several times.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D48_010"
-        ],
-        "audio_id": "AUD_DLG_D48_01_T3"
-      },
-      {
-        "id": "DLG_D48_01_T4",
-        "speaker": "clerk",
-        "text": "好的，需要拍照嗎？",
-        "pinyin": "hǎo de， xūyào pāizhào ma？",
-        "pinyin_numeric": "hao3 de0， xu1 yao4 pai1 zhao4 ma0？",
-        "translation_en": "Ok, do you need take photos?",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D48_033"
-        ],
-        "audio_id": "AUD_DLG_D48_01_T4"
-      },
-      {
-        "id": "DLG_D48_01_T5",
-        "speaker": "customer",
-        "text": "不用，謝謝。",
-        "pinyin": "búyòng， xièxie。",
-        "pinyin_numeric": "bu2 yong4， xie4 xie0。",
-        "translation_en": "No need, thank you.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [],
-        "audio_id": "AUD_DLG_D48_01_T5"
-      },
-      {
-        "id": "DLG_D48_01_T6",
-        "speaker": "clerk",
-        "text": "好，馬上來。",
-        "pinyin": "hǎo， 馬 shàng lái。",
-        "pinyin_numeric": "hao3， 馬 shang4 lai2。",
-        "translation_en": "OK, coming right up.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [],
-        "audio_id": "AUD_DLG_D48_01_T6"
-      }
-    ],
-    "audio_ids": [
-      "AUD_DLG_D48_01_T1",
-      "AUD_DLG_D48_01_T2",
-      "AUD_DLG_D48_01_T3",
-      "AUD_DLG_D48_01_T4",
-      "AUD_DLG_D48_01_T5",
-      "AUD_DLG_D48_01_T6"
-    ],
-    "comprehension_questions": [
-      {
-        "id": "DLG_D48_01_Q1",
-        "question_en": "What does the customer ask for?",
-        "answer_en": "Something related to been to taipei."
-      },
-      {
-        "id": "DLG_D48_01_Q2",
-        "question_en": "How does the clerk respond?",
-        "answer_en": "Politely and helpfully."
-      }
-    ],
-    "speaking_shadowing_prompts": [
-      "Shadow each turn at natural speed.",
-      "Repeat without looking at the text."
-    ],
-    "free_response_branching_prompts": [
-      "Replace one word and continue.",
-      "Answer with your own real information."
-    ]
-  },
-  {
-    "id": "DLG_D48_02",
-    "lesson_id": "LESSON_D48",
-    "scenario": "tried_food",
-    "speaker_roles": [
-      "friend_a",
-      "friend_b"
-    ],
-    "grammar_ids": [
-      "GR_D48_GUO_EXPERIENCE"
-    ],
-    "turns": [
-      {
-        "id": "DLG_D48_02_T1",
-        "speaker": "friend_a",
-        "text": "請問去過可以嗎？",
-        "pinyin": "qǐng wèn qù guo kěyǐ ma？",
-        "pinyin_numeric": "qing3 wen4 qu4 guo4 ke3 yi3 ma0？",
-        "translation_en": "Excuse me, can I have been to?",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D48_001"
-        ],
-        "audio_id": "AUD_DLG_D48_02_T1"
-      },
-      {
-        "id": "DLG_D48_02_T2",
-        "speaker": "friend_b",
-        "text": "可以，海邊沒問題。",
-        "pinyin": "kěyǐ， hǎibiān méi wèntí。",
-        "pinyin_numeric": "ke3 yi3， hai3 bian1 mei2 wen4 ti2。",
-        "translation_en": "Sure, seaside is no problem.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D48_025"
-        ],
-        "audio_id": "AUD_DLG_D48_02_T2"
-      },
-      {
-        "id": "DLG_D48_02_T3",
-        "speaker": "friend_a",
-        "text": "那我要特產。",
-        "pinyin": "那 wǒ yào tèchǎn。",
-        "pinyin_numeric": "那 wo3 yao4 te4 chan3。",
-        "translation_en": "Then I'd like local specialty.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D48_030"
-        ],
-        "audio_id": "AUD_DLG_D48_02_T3"
-      },
-      {
-        "id": "DLG_D48_02_T4",
-        "speaker": "friend_b",
-        "text": "好的，需要山上嗎？",
-        "pinyin": "hǎo de， xūyào shān shàng ma？",
-        "pinyin_numeric": "hao3 de0， xu1 yao4 shan1 shang4 ma0？",
-        "translation_en": "Ok, do you need in the mountains?",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D48_026"
-        ],
-        "audio_id": "AUD_DLG_D48_02_T4"
-      },
-      {
-        "id": "DLG_D48_02_T5",
-        "speaker": "friend_a",
-        "text": "不用，謝謝。",
-        "pinyin": "búyòng， xièxie。",
-        "pinyin_numeric": "bu2 yong4， xie4 xie0。",
-        "translation_en": "No need, thank you.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [],
-        "audio_id": "AUD_DLG_D48_02_T5"
-      },
-      {
-        "id": "DLG_D48_02_T6",
-        "speaker": "friend_b",
-        "text": "好，馬上來。",
-        "pinyin": "hǎo， 馬 shàng lái。",
-        "pinyin_numeric": "hao3， 馬 shang4 lai2。",
-        "translation_en": "OK, coming right up.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [],
-        "audio_id": "AUD_DLG_D48_02_T6"
-      }
-    ],
-    "audio_ids": [
-      "AUD_DLG_D48_02_T1",
-      "AUD_DLG_D48_02_T2",
-      "AUD_DLG_D48_02_T3",
-      "AUD_DLG_D48_02_T4",
-      "AUD_DLG_D48_02_T5",
-      "AUD_DLG_D48_02_T6"
-    ],
-    "comprehension_questions": [
-      {
-        "id": "DLG_D48_02_Q1",
-        "question_en": "What does the friend_a ask for?",
-        "answer_en": "Something related to tried food."
-      },
-      {
-        "id": "DLG_D48_02_Q2",
-        "question_en": "How does the friend_b respond?",
-        "answer_en": "Politely and helpfully."
-      }
-    ],
-    "speaking_shadowing_prompts": [
-      "Shadow each turn at natural speed.",
-      "Repeat without looking at the text."
-    ],
-    "free_response_branching_prompts": [
-      "Replace one word and continue.",
-      "Answer with your own real information."
-    ]
-  },
-  {
-    "id": "DLG_D48_03",
-    "lesson_id": "LESSON_D48",
-    "scenario": "never_done",
-    "speaker_roles": [
-      "passenger",
-      "staff"
-    ],
-    "grammar_ids": [
-      "GR_D48_GUO_EXPERIENCE"
-    ],
-    "turns": [
-      {
-        "id": "DLG_D48_03_T1",
-        "speaker": "passenger",
-        "text": "請問花蓮可以嗎？",
-        "pinyin": "qǐng wèn Huālián kěyǐ ma？",
-        "pinyin_numeric": "qing3 wen4 hua1 lian2 ke3 yi3 ma0？",
-        "translation_en": "Excuse me, can I Hualien?",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D48_018"
-        ],
-        "audio_id": "AUD_DLG_D48_03_T1"
-      },
-      {
-        "id": "DLG_D48_03_T2",
-        "speaker": "staff",
-        "text": "可以，臺中沒問題。",
-        "pinyin": "kěyǐ， Táizhōng méi wèntí。",
-        "pinyin_numeric": "ke3 yi3， tai2 zhong1 mei2 wen4 ti2。",
-        "translation_en": "Sure, Taichung is no problem.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D48_015"
-        ],
-        "audio_id": "AUD_DLG_D48_03_T2"
-      },
-      {
-        "id": "DLG_D48_03_T3",
-        "speaker": "passenger",
-        "text": "那我要好幾次。",
-        "pinyin": "那 wǒ yào hǎo jǐ cì。",
-        "pinyin_numeric": "那 wo3 yao4 hao3 ji3 ci4。",
-        "translation_en": "Then I'd like several times.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D48_010"
-        ],
-        "audio_id": "AUD_DLG_D48_03_T3"
-      },
-      {
-        "id": "DLG_D48_03_T4",
-        "speaker": "staff",
-        "text": "好的，需要漂亮嗎？",
-        "pinyin": "hǎo de， xūyào piàoliang ma？",
-        "pinyin_numeric": "hao3 de0， xu1 yao4 piao4 liang0 ma0？",
-        "translation_en": "Ok, do you need beautiful?",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D48_035"
-        ],
-        "audio_id": "AUD_DLG_D48_03_T4"
-      },
-      {
-        "id": "DLG_D48_03_T5",
-        "speaker": "passenger",
-        "text": "不用，謝謝。",
-        "pinyin": "búyòng， xièxie。",
-        "pinyin_numeric": "bu2 yong4， xie4 xie0。",
-        "translation_en": "No need, thank you.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [],
-        "audio_id": "AUD_DLG_D48_03_T5"
-      },
-      {
-        "id": "DLG_D48_03_T6",
-        "speaker": "staff",
-        "text": "好，馬上來。",
-        "pinyin": "hǎo， 馬 shàng lái。",
-        "pinyin_numeric": "hao3， 馬 shang4 lai2。",
-        "translation_en": "OK, coming right up.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [],
-        "audio_id": "AUD_DLG_D48_03_T6"
-      }
-    ],
-    "audio_ids": [
-      "AUD_DLG_D48_03_T1",
-      "AUD_DLG_D48_03_T2",
-      "AUD_DLG_D48_03_T3",
-      "AUD_DLG_D48_03_T4",
-      "AUD_DLG_D48_03_T5",
-      "AUD_DLG_D48_03_T6"
-    ],
-    "comprehension_questions": [
-      {
-        "id": "DLG_D48_03_Q1",
-        "question_en": "What does the passenger ask for?",
-        "answer_en": "Something related to never done."
-      },
-      {
-        "id": "DLG_D48_03_Q2",
-        "question_en": "How does the staff respond?",
-        "answer_en": "Politely and helpfully."
-      }
-    ],
-    "speaking_shadowing_prompts": [
-      "Shadow each turn at natural speed.",
-      "Repeat without looking at the text."
-    ],
-    "free_response_branching_prompts": [
-      "Replace one word and continue.",
-      "Answer with your own real information."
-    ]
-  },
-  {
-    "id": "DLG_D49_01",
-    "lesson_id": "LESSON_D49",
-    "scenario": "what_doing",
-    "speaker_roles": [
-      "customer",
-      "clerk"
-    ],
-    "grammar_ids": [
-      "GR_D49_ZAI_PROGRESSIVE"
-    ],
-    "turns": [
-      {
-        "id": "DLG_D49_01_T1",
-        "speaker": "customer",
-        "text": "請問等一下見可以嗎？",
-        "pinyin": "qǐng wèn děng yíxià jiàn kěyǐ ma？",
-        "pinyin_numeric": "qing3 wen4 deng3 yi2 xia4 jian4 ke3 yi3 ma0？",
-        "translation_en": "Excuse me, can I see you soon?",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D49_027"
-        ],
-        "audio_id": "AUD_DLG_D49_01_T1"
-      },
-      {
-        "id": "DLG_D49_01_T2",
-        "speaker": "clerk",
-        "text": "可以，等一下見沒問題。",
-        "pinyin": "kěyǐ， děng yíxià jiàn méi wèntí。",
-        "pinyin_numeric": "ke3 yi3， deng3 yi2 xia4 jian4 mei2 wen4 ti2。",
-        "translation_en": "Sure, see you soon is no problem.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D49_027"
-        ],
-        "audio_id": "AUD_DLG_D49_01_T2"
-      },
-      {
-        "id": "DLG_D49_01_T3",
-        "speaker": "customer",
-        "text": "那我要還在上課。",
-        "pinyin": "那 wǒ yào hái zài shàngkè。",
-        "pinyin_numeric": "那 wo3 yao4 hai2 zai4 shang4 ke4。",
-        "translation_en": "Then I'd like still in class.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D49_026"
-        ],
-        "audio_id": "AUD_DLG_D49_01_T3"
-      },
-      {
-        "id": "DLG_D49_01_T4",
-        "speaker": "clerk",
-        "text": "好的，需要快到了嗎？",
-        "pinyin": "hǎo de， xūyào kuài dào le ma？",
-        "pinyin_numeric": "hao3 de0， xu1 yao4 kuai4 dao4 le0 ma0？",
-        "translation_en": "Ok, do you need almost there?",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D49_025"
-        ],
-        "audio_id": "AUD_DLG_D49_01_T4"
-      },
-      {
-        "id": "DLG_D49_01_T5",
-        "speaker": "customer",
-        "text": "不用，謝謝。",
-        "pinyin": "búyòng， xièxie。",
-        "pinyin_numeric": "bu2 yong4， xie4 xie0。",
-        "translation_en": "No need, thank you.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [],
-        "audio_id": "AUD_DLG_D49_01_T5"
-      },
-      {
-        "id": "DLG_D49_01_T6",
-        "speaker": "clerk",
-        "text": "好，馬上來。",
-        "pinyin": "hǎo， 馬 shàng lái。",
-        "pinyin_numeric": "hao3， 馬 shang4 lai2。",
-        "translation_en": "OK, coming right up.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [],
-        "audio_id": "AUD_DLG_D49_01_T6"
-      }
-    ],
-    "audio_ids": [
-      "AUD_DLG_D49_01_T1",
-      "AUD_DLG_D49_01_T2",
-      "AUD_DLG_D49_01_T3",
-      "AUD_DLG_D49_01_T4",
-      "AUD_DLG_D49_01_T5",
-      "AUD_DLG_D49_01_T6"
-    ],
-    "comprehension_questions": [
-      {
-        "id": "DLG_D49_01_Q1",
-        "question_en": "What does the customer ask for?",
-        "answer_en": "Something related to what doing."
-      },
-      {
-        "id": "DLG_D49_01_Q2",
-        "question_en": "How does the clerk respond?",
-        "answer_en": "Politely and helpfully."
-      }
-    ],
-    "speaking_shadowing_prompts": [
-      "Shadow each turn at natural speed.",
-      "Repeat without looking at the text."
-    ],
-    "free_response_branching_prompts": [
-      "Replace one word and continue.",
-      "Answer with your own real information."
-    ]
-  },
-  {
-    "id": "DLG_D49_02",
-    "lesson_id": "LESSON_D49",
-    "scenario": "cant_talk",
-    "speaker_roles": [
-      "friend_a",
-      "friend_b"
-    ],
-    "grammar_ids": [
-      "GR_D49_ZAI_PROGRESSIVE"
-    ],
-    "turns": [
-      {
-        "id": "DLG_D49_02_T1",
-        "speaker": "friend_a",
-        "text": "請問練習可以嗎？",
-        "pinyin": "qǐng wèn liànxí kěyǐ ma？",
-        "pinyin_numeric": "qing3 wen4 lian4 xi2 ke3 yi3 ma0？",
-        "translation_en": "Excuse me, can I practice?",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D49_019"
-        ],
-        "audio_id": "AUD_DLG_D49_02_T1"
-      },
-      {
-        "id": "DLG_D49_02_T2",
-        "speaker": "friend_b",
-        "text": "可以，有空沒問題。",
-        "pinyin": "kěyǐ， yǒu kòng méi wèntí。",
-        "pinyin_numeric": "ke3 yi3， you3 kong4 mei2 wen4 ti2。",
-        "translation_en": "Sure, have free time is no problem.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D49_034"
-        ],
-        "audio_id": "AUD_DLG_D49_02_T2"
-      },
-      {
-        "id": "DLG_D49_02_T3",
-        "speaker": "friend_a",
-        "text": "那我要等一下。",
-        "pinyin": "那 wǒ yào děng yíxià。",
-        "pinyin_numeric": "那 wo3 yao4 deng3 yi2 xia4。",
-        "translation_en": "Then I'd like wait a moment.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D49_008"
-        ],
-        "audio_id": "AUD_DLG_D49_02_T3"
-      },
-      {
-        "id": "DLG_D49_02_T4",
-        "speaker": "friend_b",
-        "text": "好的，需要看書嗎？",
-        "pinyin": "hǎo de， xūyào kàn shū ma？",
-        "pinyin_numeric": "hao3 de0， xu1 yao4 kan4 shu1 ma0？",
-        "translation_en": "Ok, do you need read a book?",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D49_017"
-        ],
-        "audio_id": "AUD_DLG_D49_02_T4"
-      },
-      {
-        "id": "DLG_D49_02_T5",
-        "speaker": "friend_a",
-        "text": "不用，謝謝。",
-        "pinyin": "búyòng， xièxie。",
-        "pinyin_numeric": "bu2 yong4， xie4 xie0。",
-        "translation_en": "No need, thank you.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [],
-        "audio_id": "AUD_DLG_D49_02_T5"
-      },
-      {
-        "id": "DLG_D49_02_T6",
-        "speaker": "friend_b",
-        "text": "好，馬上來。",
-        "pinyin": "hǎo， 馬 shàng lái。",
-        "pinyin_numeric": "hao3， 馬 shang4 lai2。",
-        "translation_en": "OK, coming right up.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [],
-        "audio_id": "AUD_DLG_D49_02_T6"
-      }
-    ],
-    "audio_ids": [
-      "AUD_DLG_D49_02_T1",
-      "AUD_DLG_D49_02_T2",
-      "AUD_DLG_D49_02_T3",
-      "AUD_DLG_D49_02_T4",
-      "AUD_DLG_D49_02_T5",
-      "AUD_DLG_D49_02_T6"
-    ],
-    "comprehension_questions": [
-      {
-        "id": "DLG_D49_02_Q1",
-        "question_en": "What does the friend_a ask for?",
-        "answer_en": "Something related to cant talk."
-      },
-      {
-        "id": "DLG_D49_02_Q2",
-        "question_en": "How does the friend_b respond?",
-        "answer_en": "Politely and helpfully."
-      }
-    ],
-    "speaking_shadowing_prompts": [
-      "Shadow each turn at natural speed.",
-      "Repeat without looking at the text."
-    ],
-    "free_response_branching_prompts": [
-      "Replace one word and continue.",
-      "Answer with your own real information."
-    ]
-  },
-  {
-    "id": "DLG_D49_03",
-    "lesson_id": "LESSON_D49",
-    "scenario": "studying_now",
-    "speaker_roles": [
-      "passenger",
-      "staff"
-    ],
-    "grammar_ids": [
-      "GR_D49_ZAI_PROGRESSIVE"
-    ],
-    "turns": [
-      {
-        "id": "DLG_D49_03_T1",
-        "speaker": "passenger",
-        "text": "請問回訊息可以嗎？",
-        "pinyin": "qǐng wèn huí xùnxí kěyǐ ma？",
-        "pinyin_numeric": "qing3 wen4 hui2 xun4 xi2 ke3 yi3 ma0？",
-        "translation_en": "Excuse me, can I reply to messages?",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D49_007"
-        ],
-        "audio_id": "AUD_DLG_D49_03_T1"
-      },
-      {
-        "id": "DLG_D49_03_T2",
-        "speaker": "staff",
-        "text": "可以，工作中沒問題。",
-        "pinyin": "kěyǐ， gōngzuò zhōng méi wèntí。",
-        "pinyin_numeric": "ke3 yi3， gong1 zuo4 zhong1 mei2 wen4 ti2。",
-        "translation_en": "Sure, working is no problem.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D49_022"
-        ],
-        "audio_id": "AUD_DLG_D49_03_T2"
-      },
-      {
-        "id": "DLG_D49_03_T3",
-        "speaker": "passenger",
-        "text": "那我要有空。",
-        "pinyin": "那 wǒ yào yǒu kòng。",
-        "pinyin_numeric": "那 wo3 yao4 you3 kong4。",
-        "translation_en": "Then I'd like have free time.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D49_034"
-        ],
-        "audio_id": "AUD_DLG_D49_03_T3"
-      },
-      {
-        "id": "DLG_D49_03_T4",
-        "speaker": "staff",
-        "text": "好的，需要還在上課嗎？",
-        "pinyin": "hǎo de， xūyào hái zài shàngkè ma？",
-        "pinyin_numeric": "hao3 de0， xu1 yao4 hai2 zai4 shang4 ke4 ma0？",
-        "translation_en": "Ok, do you need still in class?",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D49_026"
-        ],
-        "audio_id": "AUD_DLG_D49_03_T4"
-      },
-      {
-        "id": "DLG_D49_03_T5",
-        "speaker": "passenger",
-        "text": "不用，謝謝。",
-        "pinyin": "búyòng， xièxie。",
-        "pinyin_numeric": "bu2 yong4， xie4 xie0。",
-        "translation_en": "No need, thank you.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [],
-        "audio_id": "AUD_DLG_D49_03_T5"
-      },
-      {
-        "id": "DLG_D49_03_T6",
-        "speaker": "staff",
-        "text": "好，馬上來。",
-        "pinyin": "hǎo， 馬 shàng lái。",
-        "pinyin_numeric": "hao3， 馬 shang4 lai2。",
-        "translation_en": "OK, coming right up.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [],
-        "audio_id": "AUD_DLG_D49_03_T6"
-      }
-    ],
-    "audio_ids": [
-      "AUD_DLG_D49_03_T1",
-      "AUD_DLG_D49_03_T2",
-      "AUD_DLG_D49_03_T3",
-      "AUD_DLG_D49_03_T4",
-      "AUD_DLG_D49_03_T5",
-      "AUD_DLG_D49_03_T6"
-    ],
-    "comprehension_questions": [
-      {
-        "id": "DLG_D49_03_Q1",
-        "question_en": "What does the passenger ask for?",
-        "answer_en": "Something related to studying now."
-      },
-      {
-        "id": "DLG_D49_03_Q2",
-        "question_en": "How does the staff respond?",
-        "answer_en": "Politely and helpfully."
-      }
-    ],
-    "speaking_shadowing_prompts": [
-      "Shadow each turn at natural speed.",
-      "Repeat without looking at the text."
-    ],
-    "free_response_branching_prompts": [
-      "Replace one word and continue.",
-      "Answer with your own real information."
-    ]
-  },
-  {
-    "id": "DLG_D50_01",
-    "lesson_id": "LESSON_D50",
-    "scenario": "speak_chinese",
-    "speaker_roles": [
-      "customer",
-      "clerk"
-    ],
-    "grammar_ids": [
-      "GR_D50_HUI_ABILITY"
-    ],
-    "turns": [
-      {
-        "id": "DLG_D50_01_T1",
-        "speaker": "customer",
-        "text": "請問跳舞可以嗎？",
-        "pinyin": "qǐng wèn tiàowǔ kěyǐ ma？",
-        "pinyin_numeric": "qing3 wen4 tiao4 wu3 ke3 yi3 ma0？",
-        "translation_en": "Excuse me, can I dance?",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D50_021"
-        ],
-        "audio_id": "AUD_DLG_D50_01_T1"
-      },
-      {
-        "id": "DLG_D50_01_T2",
-        "speaker": "clerk",
-        "text": "可以，當然沒問題。",
-        "pinyin": "kěyǐ， dāngrán méi wèntí。",
-        "pinyin_numeric": "ke3 yi3， dang1 ran2 mei2 wen4 ti2。",
-        "translation_en": "Sure, of course is no problem.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D50_031"
-        ],
-        "audio_id": "AUD_DLG_D50_01_T2"
-      },
-      {
-        "id": "DLG_D50_01_T3",
-        "speaker": "customer",
-        "text": "那我要幫忙。",
-        "pinyin": "那 wǒ yào bāngmáng。",
-        "pinyin_numeric": "那 wo3 yao4 bang1 mang2。",
-        "translation_en": "Then I'd like help.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D50_033"
-        ],
-        "audio_id": "AUD_DLG_D50_01_T3"
-      },
-      {
-        "id": "DLG_D50_01_T4",
-        "speaker": "clerk",
-        "text": "好的，需要唱歌嗎？",
-        "pinyin": "hǎo de， xūyào chàng gē ma？",
-        "pinyin_numeric": "hao3 de0， xu1 yao4 chang4 ge1 ma0？",
-        "translation_en": "Ok, do you need sing?",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D50_020"
-        ],
-        "audio_id": "AUD_DLG_D50_01_T4"
-      },
-      {
-        "id": "DLG_D50_01_T5",
-        "speaker": "customer",
-        "text": "不用，謝謝。",
-        "pinyin": "búyòng， xièxie。",
-        "pinyin_numeric": "bu2 yong4， xie4 xie0。",
-        "translation_en": "No need, thank you.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [],
-        "audio_id": "AUD_DLG_D50_01_T5"
-      },
-      {
-        "id": "DLG_D50_01_T6",
-        "speaker": "clerk",
-        "text": "好，馬上來。",
-        "pinyin": "hǎo， 馬 shàng lái。",
-        "pinyin_numeric": "hao3， 馬 shang4 lai2。",
-        "translation_en": "OK, coming right up.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [],
-        "audio_id": "AUD_DLG_D50_01_T6"
-      }
-    ],
-    "audio_ids": [
-      "AUD_DLG_D50_01_T1",
-      "AUD_DLG_D50_01_T2",
-      "AUD_DLG_D50_01_T3",
-      "AUD_DLG_D50_01_T4",
-      "AUD_DLG_D50_01_T5",
-      "AUD_DLG_D50_01_T6"
-    ],
-    "comprehension_questions": [
-      {
-        "id": "DLG_D50_01_Q1",
-        "question_en": "What does the customer ask for?",
-        "answer_en": "Something related to speak chinese."
-      },
-      {
-        "id": "DLG_D50_01_Q2",
-        "question_en": "How does the clerk respond?",
-        "answer_en": "Politely and helpfully."
-      }
-    ],
-    "speaking_shadowing_prompts": [
-      "Shadow each turn at natural speed.",
-      "Repeat without looking at the text."
-    ],
-    "free_response_branching_prompts": [
-      "Replace one word and continue.",
-      "Answer with your own real information."
-    ]
-  },
-  {
-    "id": "DLG_D50_02",
-    "lesson_id": "LESSON_D50",
-    "scenario": "can_cook",
-    "speaker_roles": [
-      "friend_a",
-      "friend_b"
-    ],
-    "grammar_ids": [
-      "GR_D50_HUI_ABILITY"
-    ],
-    "turns": [
-      {
-        "id": "DLG_D50_02_T1",
-        "speaker": "friend_a",
-        "text": "請問練習可以嗎？",
-        "pinyin": "qǐng wèn liànxí kěyǐ ma？",
-        "pinyin_numeric": "qing3 wen4 lian4 xi2 ke3 yi3 ma0？",
-        "translation_en": "Excuse me, can I practice?",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D50_015"
-        ],
-        "audio_id": "AUD_DLG_D50_02_T1"
-      },
-      {
-        "id": "DLG_D50_02_T2",
-        "speaker": "friend_b",
-        "text": "可以，當然沒問題。",
-        "pinyin": "kěyǐ， dāngrán méi wèntí。",
-        "pinyin_numeric": "ke3 yi3， dang1 ran2 mei2 wen4 ti2。",
-        "translation_en": "Sure, of course is no problem.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D50_031"
-        ],
-        "audio_id": "AUD_DLG_D50_02_T2"
-      },
-      {
-        "id": "DLG_D50_02_T3",
-        "speaker": "friend_a",
-        "text": "那我要看懂。",
-        "pinyin": "那 wǒ yào kàn dǒng。",
-        "pinyin_numeric": "那 wo3 yao4 kan4 dong3。",
-        "translation_en": "Then I'd like understand by reading.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D50_011"
-        ],
-        "audio_id": "AUD_DLG_D50_02_T3"
-      },
-      {
-        "id": "DLG_D50_02_T4",
-        "speaker": "friend_b",
-        "text": "好的，需要簡單的嗎？",
-        "pinyin": "hǎo de， xūyào jiǎndān de ma？",
-        "pinyin_numeric": "hao3 de0， xu1 yao4 jian3 dan1 de0 ma0？",
-        "translation_en": "Ok, do you need simple ones?",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D50_034"
-        ],
-        "audio_id": "AUD_DLG_D50_02_T4"
-      },
-      {
-        "id": "DLG_D50_02_T5",
-        "speaker": "friend_a",
-        "text": "不用，謝謝。",
-        "pinyin": "búyòng， xièxie。",
-        "pinyin_numeric": "bu2 yong4， xie4 xie0。",
-        "translation_en": "No need, thank you.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [],
-        "audio_id": "AUD_DLG_D50_02_T5"
-      },
-      {
-        "id": "DLG_D50_02_T6",
-        "speaker": "friend_b",
-        "text": "好，馬上來。",
-        "pinyin": "hǎo， 馬 shàng lái。",
-        "pinyin_numeric": "hao3， 馬 shang4 lai2。",
-        "translation_en": "OK, coming right up.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [],
-        "audio_id": "AUD_DLG_D50_02_T6"
-      }
-    ],
-    "audio_ids": [
-      "AUD_DLG_D50_02_T1",
-      "AUD_DLG_D50_02_T2",
-      "AUD_DLG_D50_02_T3",
-      "AUD_DLG_D50_02_T4",
-      "AUD_DLG_D50_02_T5",
-      "AUD_DLG_D50_02_T6"
-    ],
-    "comprehension_questions": [
-      {
-        "id": "DLG_D50_02_Q1",
-        "question_en": "What does the friend_a ask for?",
-        "answer_en": "Something related to can cook."
-      },
-      {
-        "id": "DLG_D50_02_Q2",
-        "question_en": "How does the friend_b respond?",
-        "answer_en": "Politely and helpfully."
-      }
-    ],
-    "speaking_shadowing_prompts": [
-      "Shadow each turn at natural speed.",
-      "Repeat without looking at the text."
-    ],
-    "free_response_branching_prompts": [
-      "Replace one word and continue.",
-      "Answer with your own real information."
-    ]
-  },
-  {
-    "id": "DLG_D50_03",
-    "lesson_id": "LESSON_D50",
-    "scenario": "cannot_read",
-    "speaker_roles": [
-      "passenger",
-      "staff"
-    ],
-    "grammar_ids": [
-      "GR_D50_HUI_ABILITY"
-    ],
-    "turns": [
-      {
-        "id": "DLG_D50_03_T1",
-        "speaker": "passenger",
-        "text": "請問游泳可以嗎？",
-        "pinyin": "qǐng wèn yóuyǒng kěyǐ ma？",
-        "pinyin_numeric": "qing3 wen4 you2 yong3 ke3 yi3 ma0？",
-        "translation_en": "Excuse me, can I swim?",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D50_019"
-        ],
-        "audio_id": "AUD_DLG_D50_03_T1"
-      },
-      {
-        "id": "DLG_D50_03_T2",
-        "speaker": "staff",
-        "text": "可以，唱歌沒問題。",
-        "pinyin": "kěyǐ， chàng gē méi wèntí。",
-        "pinyin_numeric": "ke3 yi3， chang4 ge1 mei2 wen4 ti2。",
-        "translation_en": "Sure, sing is no problem.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D50_020"
-        ],
-        "audio_id": "AUD_DLG_D50_03_T2"
-      },
-      {
-        "id": "DLG_D50_03_T3",
-        "speaker": "passenger",
-        "text": "那我要說中文。",
-        "pinyin": "那 wǒ yào shuō Zhōngwén。",
-        "pinyin_numeric": "那 wo3 yao4 shuo1 zhong1 wen2。",
-        "translation_en": "Then I'd like speak Chinese.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D50_008"
-        ],
-        "audio_id": "AUD_DLG_D50_03_T3"
-      },
-      {
-        "id": "DLG_D50_03_T4",
-        "speaker": "staff",
-        "text": "好的，需要彈鋼琴嗎？",
-        "pinyin": "hǎo de， xūyào tán gāngqín ma？",
-        "pinyin_numeric": "hao3 de0， xu1 yao4 tan2 gang1 qin2 ma0？",
-        "translation_en": "Ok, do you need play piano?",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D50_022"
-        ],
-        "audio_id": "AUD_DLG_D50_03_T4"
-      },
-      {
-        "id": "DLG_D50_03_T5",
-        "speaker": "passenger",
-        "text": "不用，謝謝。",
-        "pinyin": "búyòng， xièxie。",
-        "pinyin_numeric": "bu2 yong4， xie4 xie0。",
-        "translation_en": "No need, thank you.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [],
-        "audio_id": "AUD_DLG_D50_03_T5"
-      },
-      {
-        "id": "DLG_D50_03_T6",
-        "speaker": "staff",
-        "text": "好，馬上來。",
-        "pinyin": "hǎo， 馬 shàng lái。",
-        "pinyin_numeric": "hao3， 馬 shang4 lai2。",
-        "translation_en": "OK, coming right up.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [],
-        "audio_id": "AUD_DLG_D50_03_T6"
-      }
-    ],
-    "audio_ids": [
-      "AUD_DLG_D50_03_T1",
-      "AUD_DLG_D50_03_T2",
-      "AUD_DLG_D50_03_T3",
-      "AUD_DLG_D50_03_T4",
-      "AUD_DLG_D50_03_T5",
-      "AUD_DLG_D50_03_T6"
-    ],
-    "comprehension_questions": [
-      {
-        "id": "DLG_D50_03_Q1",
-        "question_en": "What does the passenger ask for?",
-        "answer_en": "Something related to cannot read."
-      },
-      {
-        "id": "DLG_D50_03_Q2",
-        "question_en": "How does the staff respond?",
-        "answer_en": "Politely and helpfully."
-      }
-    ],
-    "speaking_shadowing_prompts": [
-      "Shadow each turn at natural speed.",
-      "Repeat without looking at the text."
-    ],
-    "free_response_branching_prompts": [
-      "Replace one word and continue.",
-      "Answer with your own real information."
-    ]
-  },
-  {
-    "id": "DLG_D51_01",
-    "lesson_id": "LESSON_D51",
-    "scenario": "who_is_that",
-    "speaker_roles": [
-      "customer",
-      "clerk"
-    ],
-    "grammar_ids": [
-      "GR_D51_DE_MODIFIER"
-    ],
-    "turns": [
-      {
-        "id": "DLG_D51_01_T1",
-        "speaker": "customer",
-        "text": "請問幽默可以嗎？",
-        "pinyin": "qǐng wèn yōumò kěyǐ ma？",
-        "pinyin_numeric": "qing3 wen4 you1 mo4 ke3 yi3 ma0？",
-        "translation_en": "Excuse me, can I humorous?",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D51_012"
-        ],
-        "audio_id": "AUD_DLG_D51_01_T1"
-      },
-      {
-        "id": "DLG_D51_01_T2",
-        "speaker": "clerk",
-        "text": "可以，看起來沒問題。",
-        "pinyin": "kěyǐ， kàn qǐlái méi wèntí。",
-        "pinyin_numeric": "ke3 yi3， kan4 qi3 lai2 mei2 wen4 ti2。",
-        "translation_en": "Sure, looks like is no problem.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D51_033"
-        ],
-        "audio_id": "AUD_DLG_D51_01_T2"
-      },
-      {
-        "id": "DLG_D51_01_T3",
-        "speaker": "customer",
-        "text": "那我要介紹。",
-        "pinyin": "那 wǒ yào jièshào。",
-        "pinyin_numeric": "那 wo3 yao4 jie4 shao4。",
-        "translation_en": "Then I'd like introduce.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D51_030"
-        ],
-        "audio_id": "AUD_DLG_D51_01_T3"
-      },
-      {
-        "id": "DLG_D51_01_T4",
-        "speaker": "clerk",
-        "text": "好的，需要年輕嗎？",
-        "pinyin": "hǎo de， xūyào niánqīng ma？",
-        "pinyin_numeric": "hao3 de0， xu1 yao4 nian2 qing1 ma0？",
-        "translation_en": "Ok, do you need young?",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D51_005"
-        ],
-        "audio_id": "AUD_DLG_D51_01_T4"
-      },
-      {
-        "id": "DLG_D51_01_T5",
-        "speaker": "customer",
-        "text": "不用，謝謝。",
-        "pinyin": "búyòng， xièxie。",
-        "pinyin_numeric": "bu2 yong4， xie4 xie0。",
-        "translation_en": "No need, thank you.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [],
-        "audio_id": "AUD_DLG_D51_01_T5"
-      },
-      {
-        "id": "DLG_D51_01_T6",
-        "speaker": "clerk",
-        "text": "好，馬上來。",
-        "pinyin": "hǎo， 馬 shàng lái。",
-        "pinyin_numeric": "hao3， 馬 shang4 lai2。",
-        "translation_en": "OK, coming right up.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [],
-        "audio_id": "AUD_DLG_D51_01_T6"
-      }
-    ],
-    "audio_ids": [
-      "AUD_DLG_D51_01_T1",
-      "AUD_DLG_D51_01_T2",
-      "AUD_DLG_D51_01_T3",
-      "AUD_DLG_D51_01_T4",
-      "AUD_DLG_D51_01_T5",
-      "AUD_DLG_D51_01_T6"
-    ],
-    "comprehension_questions": [
-      {
-        "id": "DLG_D51_01_Q1",
-        "question_en": "What does the customer ask for?",
-        "answer_en": "Something related to who is that."
-      },
-      {
-        "id": "DLG_D51_01_Q2",
-        "question_en": "How does the clerk respond?",
-        "answer_en": "Politely and helpfully."
-      }
-    ],
-    "speaking_shadowing_prompts": [
-      "Shadow each turn at natural speed.",
-      "Repeat without looking at the text."
-    ],
-    "free_response_branching_prompts": [
-      "Replace one word and continue.",
-      "Answer with your own real information."
-    ]
-  },
-  {
-    "id": "DLG_D51_02",
-    "lesson_id": "LESSON_D51",
-    "scenario": "describe_friend",
-    "speaker_roles": [
-      "friend_a",
-      "friend_b"
-    ],
-    "grammar_ids": [
-      "GR_D51_DE_MODIFIER"
-    ],
-    "turns": [
-      {
-        "id": "DLG_D51_02_T1",
-        "speaker": "friend_a",
-        "text": "請問穿著可以嗎？",
-        "pinyin": "qǐng wèn chuānzhuó kěyǐ ma？",
-        "pinyin_numeric": "qing3 wen4 chuan1 zhuo2 ke3 yi3 ma0？",
-        "translation_en": "Excuse me, can I attire?",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D51_018"
-        ],
-        "audio_id": "AUD_DLG_D51_02_T1"
-      },
-      {
-        "id": "DLG_D51_02_T2",
-        "speaker": "friend_b",
-        "text": "可以，害羞沒問題。",
-        "pinyin": "kěyǐ， hàixiū méi wèntí。",
-        "pinyin_numeric": "ke3 yi3， hai4 xiu1 mei2 wen4 ti2。",
-        "translation_en": "Sure, shy is no problem.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D51_025"
-        ],
-        "audio_id": "AUD_DLG_D51_02_T2"
-      },
-      {
-        "id": "DLG_D51_02_T3",
-        "speaker": "friend_a",
-        "text": "那我要看起來。",
-        "pinyin": "那 wǒ yào kàn qǐlái。",
-        "pinyin_numeric": "那 wo3 yao4 kan4 qi3 lai2。",
-        "translation_en": "Then I'd like looks like.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D51_033"
-        ],
-        "audio_id": "AUD_DLG_D51_02_T3"
-      },
-      {
-        "id": "DLG_D51_02_T4",
-        "speaker": "friend_b",
-        "text": "好的，需要害羞嗎？",
-        "pinyin": "hǎo de， xūyào hàixiū ma？",
-        "pinyin_numeric": "hao3 de0， xu1 yao4 hai4 xiu1 ma0？",
-        "translation_en": "Ok, do you need shy?",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D51_025"
-        ],
-        "audio_id": "AUD_DLG_D51_02_T4"
-      },
-      {
-        "id": "DLG_D51_02_T5",
-        "speaker": "friend_a",
-        "text": "不用，謝謝。",
-        "pinyin": "búyòng， xièxie。",
-        "pinyin_numeric": "bu2 yong4， xie4 xie0。",
-        "translation_en": "No need, thank you.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [],
-        "audio_id": "AUD_DLG_D51_02_T5"
-      },
-      {
-        "id": "DLG_D51_02_T6",
-        "speaker": "friend_b",
-        "text": "好，馬上來。",
-        "pinyin": "hǎo， 馬 shàng lái。",
-        "pinyin_numeric": "hao3， 馬 shang4 lai2。",
-        "translation_en": "OK, coming right up.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [],
-        "audio_id": "AUD_DLG_D51_02_T6"
-      }
-    ],
-    "audio_ids": [
-      "AUD_DLG_D51_02_T1",
-      "AUD_DLG_D51_02_T2",
-      "AUD_DLG_D51_02_T3",
-      "AUD_DLG_D51_02_T4",
-      "AUD_DLG_D51_02_T5",
-      "AUD_DLG_D51_02_T6"
-    ],
-    "comprehension_questions": [
-      {
-        "id": "DLG_D51_02_Q1",
-        "question_en": "What does the friend_a ask for?",
-        "answer_en": "Something related to describe friend."
-      },
-      {
-        "id": "DLG_D51_02_Q2",
-        "question_en": "How does the friend_b respond?",
-        "answer_en": "Politely and helpfully."
-      }
-    ],
-    "speaking_shadowing_prompts": [
-      "Shadow each turn at natural speed.",
-      "Repeat without looking at the text."
-    ],
-    "free_response_branching_prompts": [
-      "Replace one word and continue.",
-      "Answer with your own real information."
-    ]
-  },
-  {
-    "id": "DLG_D51_03",
-    "lesson_id": "LESSON_D51",
-    "scenario": "describe_teacher",
-    "speaker_roles": [
-      "passenger",
-      "staff"
-    ],
-    "grammar_ids": [
-      "GR_D51_DE_MODIFIER"
-    ],
-    "turns": [
-      {
-        "id": "DLG_D51_03_T1",
-        "speaker": "passenger",
-        "text": "請問個性可以嗎？",
-        "pinyin": "qǐng wèn gèxìng kěyǐ ma？",
-        "pinyin_numeric": "qing3 wen4 ge4 xing4 ke3 yi3 ma0？",
-        "translation_en": "Excuse me, can I personality?",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D51_010"
-        ],
-        "audio_id": "AUD_DLG_D51_03_T1"
-      },
-      {
-        "id": "DLG_D51_03_T2",
-        "speaker": "staff",
-        "text": "可以，害羞沒問題。",
-        "pinyin": "kěyǐ， hàixiū méi wèntí。",
-        "pinyin_numeric": "ke3 yi3， hai4 xiu1 mei2 wen4 ti2。",
-        "translation_en": "Sure, shy is no problem.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D51_025"
-        ],
-        "audio_id": "AUD_DLG_D51_03_T2"
-      },
-      {
-        "id": "DLG_D51_03_T3",
-        "speaker": "passenger",
-        "text": "那我要戴眼鏡。",
-        "pinyin": "那 wǒ yào dài yǎnjìng。",
-        "pinyin_numeric": "那 wo3 yao4 dai4 yan3 jing4。",
-        "translation_en": "Then I'd like wear glasses.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D51_009"
-        ],
-        "audio_id": "AUD_DLG_D51_03_T3"
-      },
-      {
-        "id": "DLG_D51_03_T4",
-        "speaker": "staff",
-        "text": "好的，需要長得嗎？",
-        "pinyin": "hǎo de， xūyào zhǎng de ma？",
-        "pinyin_numeric": "hao3 de0， xu1 yao4 zhang3 de0 ma0？",
-        "translation_en": "Ok, do you need looks (appearance)?",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D51_017"
-        ],
-        "audio_id": "AUD_DLG_D51_03_T4"
-      },
-      {
-        "id": "DLG_D51_03_T5",
-        "speaker": "passenger",
-        "text": "不用，謝謝。",
-        "pinyin": "búyòng， xièxie。",
-        "pinyin_numeric": "bu2 yong4， xie4 xie0。",
-        "translation_en": "No need, thank you.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [],
-        "audio_id": "AUD_DLG_D51_03_T5"
-      },
-      {
-        "id": "DLG_D51_03_T6",
-        "speaker": "staff",
-        "text": "好，馬上來。",
-        "pinyin": "hǎo， 馬 shàng lái。",
-        "pinyin_numeric": "hao3， 馬 shang4 lai2。",
-        "translation_en": "OK, coming right up.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [],
-        "audio_id": "AUD_DLG_D51_03_T6"
-      }
-    ],
-    "audio_ids": [
-      "AUD_DLG_D51_03_T1",
-      "AUD_DLG_D51_03_T2",
-      "AUD_DLG_D51_03_T3",
-      "AUD_DLG_D51_03_T4",
-      "AUD_DLG_D51_03_T5",
-      "AUD_DLG_D51_03_T6"
-    ],
-    "comprehension_questions": [
-      {
-        "id": "DLG_D51_03_Q1",
-        "question_en": "What does the passenger ask for?",
-        "answer_en": "Something related to describe teacher."
-      },
-      {
-        "id": "DLG_D51_03_Q2",
-        "question_en": "How does the staff respond?",
-        "answer_en": "Politely and helpfully."
-      }
-    ],
-    "speaking_shadowing_prompts": [
-      "Shadow each turn at natural speed.",
-      "Repeat without looking at the text."
-    ],
-    "free_response_branching_prompts": [
-      "Replace one word and continue.",
-      "Answer with your own real information."
-    ]
-  },
-  {
-    "id": "DLG_D52_01",
-    "lesson_id": "LESSON_D52",
-    "scenario": "which_cheaper",
-    "speaker_roles": [
-      "customer",
-      "clerk"
-    ],
-    "grammar_ids": [
-      "GR_D52_BI_COMPARISON"
-    ],
-    "turns": [
-      {
-        "id": "DLG_D52_01_T1",
-        "speaker": "customer",
-        "text": "請問因為可以嗎？",
-        "pinyin": "qǐng wèn yīnwèi kěyǐ ma？",
-        "pinyin_numeric": "qing3 wen4 yin1 wei4 keyi3 ma0？",
-        "translation_en": "Excuse me, can I because?",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D52_024",
-          "VOC_D52_012",
-          "VOC_D52_013"
-        ],
-        "audio_id": "AUD_DLG_D52_01_T1"
-      },
-      {
-        "id": "DLG_D52_01_T2",
-        "speaker": "clerk",
-        "text": "可以，所以沒問題。",
-        "pinyin": "kěyǐ， suǒyǐ méi wèntí。",
-        "pinyin_numeric": "keyi3， suo3 yi3 mei2 wen4 ti2。",
-        "translation_en": "Sure, so is no problem.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D52_012",
-          "VOC_D52_025"
-        ],
-        "audio_id": "AUD_DLG_D52_01_T2"
-      },
-      {
-        "id": "DLG_D52_01_T3",
-        "speaker": "customer",
-        "text": "那我要可以。",
-        "pinyin": "那 wǒ yào kěyǐ。",
-        "pinyin_numeric": "那 wo3 yao4 keyi3。",
-        "translation_en": "Then I'd like can; may.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D52_001",
-          "VOC_D52_010",
-          "VOC_D52_012"
-        ],
-        "audio_id": "AUD_DLG_D52_01_T3"
-      },
-      {
-        "id": "DLG_D52_01_T4",
-        "speaker": "clerk",
-        "text": "好的，需要我嗎？",
-        "pinyin": "hǎo de， xūyào wǒ ma？",
-        "pinyin_numeric": "hao3 de0， xuyao4 wo3 ma0？",
-        "translation_en": "Ok, do you need I; me?",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D52_016",
-          "VOC_D52_027",
-          "VOC_D52_001",
-          "VOC_D52_013"
-        ],
-        "audio_id": "AUD_DLG_D52_01_T4"
-      },
-      {
-        "id": "DLG_D52_01_T5",
-        "speaker": "customer",
-        "text": "不用，謝謝。",
-        "pinyin": "bù yòng， xièxie。",
-        "pinyin_numeric": "bu4 yong4， xie4 xie0。",
-        "translation_en": "No need, thank you.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D52_014"
-        ],
-        "audio_id": "AUD_DLG_D52_01_T5"
-      },
-      {
-        "id": "DLG_D52_01_T6",
-        "speaker": "clerk",
-        "text": "好，馬上來。",
-        "pinyin": "hǎo， 馬 shàng lái。",
-        "pinyin_numeric": "hao3， 馬 shang4 lai2。",
-        "translation_en": "OK, coming right up.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [],
-        "audio_id": "AUD_DLG_D52_01_T6"
-      }
-    ],
-    "audio_ids": [
-      "AUD_DLG_D52_01_T1",
-      "AUD_DLG_D52_01_T2",
-      "AUD_DLG_D52_01_T3",
-      "AUD_DLG_D52_01_T4",
-      "AUD_DLG_D52_01_T5",
-      "AUD_DLG_D52_01_T6"
-    ],
-    "comprehension_questions": [
-      {
-        "id": "DLG_D52_01_Q1",
-        "question_en": "What does the customer ask for?",
-        "answer_en": "Something related to which cheaper."
-      },
-      {
-        "id": "DLG_D52_01_Q2",
-        "question_en": "How does the clerk respond?",
-        "answer_en": "Politely and helpfully."
-      }
-    ],
-    "speaking_shadowing_prompts": [
-      "Shadow each turn at natural speed.",
-      "Repeat without looking at the text."
-    ],
-    "free_response_branching_prompts": [
-      "Replace one word and continue.",
-      "Answer with your own real information."
-    ]
-  },
-  {
-    "id": "DLG_D52_02",
-    "lesson_id": "LESSON_D52",
-    "scenario": "which_better",
-    "speaker_roles": [
-      "friend_a",
-      "friend_b"
-    ],
-    "grammar_ids": [
-      "GR_D52_BI_COMPARISON"
-    ],
-    "turns": [
-      {
-        "id": "DLG_D52_02_T1",
-        "speaker": "friend_a",
-        "text": "請問我們可以嗎？",
-        "pinyin": "qǐng wèn wǒmen kěyǐ ma？",
-        "pinyin_numeric": "qing3 wen4 women3 keyi3 ma0？",
-        "translation_en": "Excuse me, can I we; us?",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D52_005",
-          "VOC_D52_012",
-          "VOC_D52_013"
-        ],
-        "audio_id": "AUD_DLG_D52_02_T1"
-      },
-      {
-        "id": "DLG_D52_02_T2",
-        "speaker": "friend_b",
-        "text": "可以，有沒問題。",
-        "pinyin": "kěyǐ， yǒu méi wèntí。",
-        "pinyin_numeric": "keyi3， you3 mei2 wen4 ti2。",
-        "translation_en": "Sure, to have; there is is no problem.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D52_012",
-          "VOC_D52_007"
-        ],
-        "audio_id": "AUD_DLG_D52_02_T2"
-      },
-      {
-        "id": "DLG_D52_02_T3",
-        "speaker": "friend_a",
-        "text": "那我要嗎。",
-        "pinyin": "那 wǒ yào ma。",
-        "pinyin_numeric": "那 wo3 yao4 ma0。",
-        "translation_en": "Then I'd like yes/no question particle.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D52_001",
-          "VOC_D52_010",
-          "VOC_D52_013"
-        ],
-        "audio_id": "AUD_DLG_D52_02_T3"
-      },
-      {
-        "id": "DLG_D52_02_T4",
-        "speaker": "friend_b",
-        "text": "好的，需要應該嗎？",
-        "pinyin": "hǎo de， xūyào yīnggāi ma？",
-        "pinyin_numeric": "hao3 de0， xuyao4 ying1 gai1 ma0？",
-        "translation_en": "Ok, do you need should?",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D52_016",
-          "VOC_D52_027",
-          "VOC_D52_026",
-          "VOC_D52_013"
-        ],
-        "audio_id": "AUD_DLG_D52_02_T4"
-      },
-      {
-        "id": "DLG_D52_02_T5",
-        "speaker": "friend_a",
-        "text": "不用，謝謝。",
-        "pinyin": "bù yòng， xièxie。",
-        "pinyin_numeric": "bu4 yong4， xie4 xie0。",
-        "translation_en": "No need, thank you.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D52_014"
-        ],
-        "audio_id": "AUD_DLG_D52_02_T5"
-      },
-      {
-        "id": "DLG_D52_02_T6",
-        "speaker": "friend_b",
-        "text": "好，馬上來。",
-        "pinyin": "hǎo， 馬 shàng lái。",
-        "pinyin_numeric": "hao3， 馬 shang4 lai2。",
-        "translation_en": "OK, coming right up.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [],
-        "audio_id": "AUD_DLG_D52_02_T6"
-      }
-    ],
-    "audio_ids": [
-      "AUD_DLG_D52_02_T1",
-      "AUD_DLG_D52_02_T2",
-      "AUD_DLG_D52_02_T3",
-      "AUD_DLG_D52_02_T4",
-      "AUD_DLG_D52_02_T5",
-      "AUD_DLG_D52_02_T6"
-    ],
-    "comprehension_questions": [
-      {
-        "id": "DLG_D52_02_Q1",
-        "question_en": "What does the friend_a ask for?",
-        "answer_en": "Something related to which better."
-      },
-      {
-        "id": "DLG_D52_02_Q2",
-        "question_en": "How does the friend_b respond?",
-        "answer_en": "Politely and helpfully."
-      }
-    ],
-    "speaking_shadowing_prompts": [
-      "Shadow each turn at natural speed.",
-      "Repeat without looking at the text."
-    ],
-    "free_response_branching_prompts": [
-      "Replace one word and continue.",
-      "Answer with your own real information."
-    ]
-  },
-  {
-    "id": "DLG_D52_03",
-    "lesson_id": "LESSON_D52",
-    "scenario": "taipei_vs_kaohsiung",
-    "speaker_roles": [
-      "passenger",
-      "staff"
-    ],
-    "grammar_ids": [
-      "GR_D52_BI_COMPARISON"
-    ],
-    "turns": [
-      {
-        "id": "DLG_D52_03_T1",
-        "speaker": "passenger",
-        "text": "請問沒有可以嗎？",
-        "pinyin": "qǐng wèn méiyǒu kěyǐ ma？",
-        "pinyin_numeric": "qing3 wen4 meiyou3 keyi3 ma0？",
-        "translation_en": "Excuse me, can I do not have; there is not?",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D52_020",
-          "VOC_D52_012",
-          "VOC_D52_013"
-        ],
-        "audio_id": "AUD_DLG_D52_03_T1"
-      },
-      {
-        "id": "DLG_D52_03_T2",
-        "speaker": "staff",
-        "text": "可以，的沒問題。",
-        "pinyin": "kěyǐ， de méi wèntí。",
-        "pinyin_numeric": "keyi3， de0 mei2 wen4 ti2。",
-        "translation_en": "Sure, possessive particle is no problem.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D52_012",
-          "VOC_D52_016"
-        ],
-        "audio_id": "AUD_DLG_D52_03_T2"
-      },
-      {
-        "id": "DLG_D52_03_T3",
-        "speaker": "passenger",
-        "text": "那我要不。",
-        "pinyin": "那 wǒ yào bù。",
-        "pinyin_numeric": "那 wo3 yao4 bu4。",
-        "translation_en": "Then I'd like not.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D52_001",
-          "VOC_D52_010",
-          "VOC_D52_014"
-        ],
-        "audio_id": "AUD_DLG_D52_03_T3"
-      },
-      {
-        "id": "DLG_D52_03_T4",
-        "speaker": "staff",
-        "text": "好的，需要所以嗎？",
-        "pinyin": "hǎo de， xūyào suǒyǐ ma？",
-        "pinyin_numeric": "hao3 de0， xuyao4 suo3 yi3 ma0？",
-        "translation_en": "Ok, do you need so?",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D52_016",
-          "VOC_D52_027",
-          "VOC_D52_025",
-          "VOC_D52_013"
-        ],
-        "audio_id": "AUD_DLG_D52_03_T4"
-      },
-      {
-        "id": "DLG_D52_03_T5",
-        "speaker": "passenger",
-        "text": "不用，謝謝。",
-        "pinyin": "bù yòng， xièxie。",
-        "pinyin_numeric": "bu4 yong4， xie4 xie0。",
-        "translation_en": "No need, thank you.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D52_014"
-        ],
-        "audio_id": "AUD_DLG_D52_03_T5"
-      },
-      {
-        "id": "DLG_D52_03_T6",
-        "speaker": "staff",
-        "text": "好，馬上來。",
-        "pinyin": "hǎo， 馬 shàng lái。",
-        "pinyin_numeric": "hao3， 馬 shang4 lai2。",
-        "translation_en": "OK, coming right up.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [],
-        "audio_id": "AUD_DLG_D52_03_T6"
-      }
-    ],
-    "audio_ids": [
-      "AUD_DLG_D52_03_T1",
-      "AUD_DLG_D52_03_T2",
-      "AUD_DLG_D52_03_T3",
-      "AUD_DLG_D52_03_T4",
-      "AUD_DLG_D52_03_T5",
-      "AUD_DLG_D52_03_T6"
-    ],
-    "comprehension_questions": [
-      {
-        "id": "DLG_D52_03_Q1",
-        "question_en": "What does the passenger ask for?",
-        "answer_en": "Something related to taipei vs kaohsiung."
-      },
-      {
-        "id": "DLG_D52_03_Q2",
-        "question_en": "How does the staff respond?",
-        "answer_en": "Politely and helpfully."
-      }
-    ],
-    "speaking_shadowing_prompts": [
-      "Shadow each turn at natural speed.",
-      "Repeat without looking at the text."
-    ],
-    "free_response_branching_prompts": [
-      "Replace one word and continue.",
-      "Answer with your own real information."
-    ]
-  },
-  {
     "id": "DLG_D53_01",
     "lesson_id": "LESSON_D53",
     "scenario": "weekend_hobby",
@@ -16954,5 +14488,3221 @@
       "Replace one word and continue.",
       "Answer with your own real information."
     ]
+  },
+  {
+    "id": "DLG_D46_01",
+    "lesson_id": "LESSON_D46",
+    "title": "昨天做了什麼",
+    "scenario": "talking about what you did yesterday",
+    "turns": [
+      {
+        "id": "DLG_D46_01_T1",
+        "speaker": "A",
+        "text": "你昨天做了什麼？",
+        "pinyin": "Nǐ zuótiān zuò le shénme?",
+        "pinyin_numeric": "Ni3 zuo2tian1 zuo4 le5 shen2me5?",
+        "translation_en": "What did you do yesterday?",
+        "translation_ko": "어제 뭐 하셨어요?",
+        "token_ids": [
+          "VOC_M1_003",
+          "VOC_M1_034",
+          "VOC_M1_067",
+          "VOC_M1_071"
+        ],
+        "audio_id": "AUD_DLG_D46_01_T1"
+      },
+      {
+        "id": "DLG_D46_01_T2",
+        "speaker": "B",
+        "text": "我昨天早上先起床，然後刷牙洗臉，再吃早餐。",
+        "pinyin": "Wǒ zuótiān zǎoshang xiān qǐchuáng, ránhòu shuāyá xǐliǎn, zài chī zǎocān.",
+        "pinyin_numeric": "Wo3 zuo2tian1 zao3shang5 xian1 qi3chuang2, ran2hou4 shua1ya2 xi3lian3, zai4 chi1 zao3can1.",
+        "translation_en": "Yesterday morning I first got up, then brushed my teeth and washed my face, and then ate breakfast.",
+        "translation_ko": "어제 아침에 먼저 일어나서, 이를 닦고 세수한 다음, 아침을 먹었어요.",
+        "token_ids": [
+          "VOC_M1_002",
+          "VOC_M1_034",
+          "VOC_M1_110",
+          "VOC_M1_132",
+          "VOC_M1_136",
+          "VOC_M1_133",
+          "VOC_D36_016",
+          "VOC_D36_017",
+          "VOC_M1_134",
+          "VOC_D36_020"
+        ],
+        "audio_id": "AUD_DLG_D46_01_T2"
+      },
+      {
+        "id": "DLG_D46_01_T3",
+        "speaker": "A",
+        "text": "然後呢？",
+        "pinyin": "Ránhòu ne?",
+        "pinyin_numeric": "Ran2hou4 ne5?",
+        "translation_en": "And then?",
+        "translation_ko": "그리고요?",
+        "token_ids": [
+          "VOC_M1_133",
+          "VOC_M1_111"
+        ],
+        "audio_id": "AUD_DLG_D46_01_T3"
+      },
+      {
+        "id": "DLG_D46_01_T4",
+        "speaker": "B",
+        "text": "然後我去公司上班，中午吃午餐，下午繼續工作。",
+        "pinyin": "Ránhòu wǒ qù gōngsī shàngbān, zhōngwǔ chī wǔcān, xiàwǔ jìxù gōngzuò.",
+        "pinyin_numeric": "Ran2hou4 wo3 qu4 gong1si1 shang4ban1, zhong1wu3 chi1 wu3can1, xia4wu3 ji4xu4 gong1zuo4.",
+        "translation_en": "Then I went to the company to work, ate lunch at noon, and continued working in the afternoon.",
+        "translation_ko": "그리고 회사에 출근해서 점심을 먹고, 오후에는 계속 일했어요.",
+        "token_ids": [
+          "VOC_M1_133",
+          "VOC_M1_002",
+          "VOC_M1_156",
+          "VOC_M1_138",
+          "VOC_D36_005",
+          "VOC_D36_002",
+          "VOC_D36_021",
+          "VOC_M1_107",
+          "VOC_M1_076"
+        ],
+        "audio_id": "AUD_DLG_D46_01_T4"
+      },
+      {
+        "id": "DLG_D46_01_T5",
+        "speaker": "A",
+        "text": "你下班以後做了什麼？",
+        "pinyin": "Nǐ xiàbān yǐhòu zuò le shénme?",
+        "pinyin_numeric": "Ni3 xia4ban1 yi3hou4 zuo4 le5 shen2me5?",
+        "translation_en": "What did you do after work?",
+        "translation_ko": "퇴근 후에는 뭐 하셨어요?",
+        "token_ids": [
+          "VOC_M1_003",
+          "VOC_D36_006",
+          "VOC_D36_035",
+          "VOC_M1_067",
+          "VOC_M1_071"
+        ],
+        "audio_id": "AUD_DLG_D46_01_T5"
+      },
+      {
+        "id": "DLG_D46_01_T6",
+        "speaker": "B",
+        "text": "我下班以後先回家，然後煮飯吃晚餐，最後看電視休息。",
+        "pinyin": "Wǒ xiàbān yǐhòu xiān huíjiā, ránhòu zhǔfàn chī wǎncān, zuìhòu kàn diànshì xiūxí.",
+        "pinyin_numeric": "Wo3 xia4ban1 yi3hou4 xian1 hui2jia1, ran2hou4 zhu3fan4 chi1 wan3can1, zui4hou4 kan4 dian4shi4 xiu1xi5.",
+        "translation_en": "After work I first went home, then cooked and ate dinner, and finally watched TV and rested.",
+        "translation_ko": "퇴근 후에 먼저 집에 가서, 밥을 해서 저녁을 먹고, 마지막으로 TV를 보며 쉬었어요.",
+        "token_ids": [
+          "VOC_M1_002",
+          "VOC_D36_006",
+          "VOC_D36_035",
+          "VOC_M1_132",
+          "VOC_D36_026",
+          "VOC_M1_133",
+          "VOC_D46_008",
+          "VOC_D36_022",
+          "VOC_M1_135",
+          "VOC_D36_027",
+          "VOC_D36_024"
+        ],
+        "audio_id": "AUD_DLG_D46_01_T6"
+      }
+    ],
+    "comprehension_questions": [
+      {
+        "question_en": "What did B do after getting up yesterday morning?",
+        "question_ko": "B는 어제 아침에 일어난 후 무엇을 했습니까?",
+        "options_en": [
+          "Went to work",
+          "Brushed teeth and washed face",
+          "Ate lunch"
+        ],
+        "options_ko": [
+          "출근했다",
+          "이를 닦고 세수했다",
+          "점심을 먹었다"
+        ],
+        "correct_index": 1
+      }
+    ],
+    "shadowing_prompt": "Listen to each sentence and repeat it aloud, trying to match the tone and rhythm.",
+    "free_response_prompt": "Tell me about what you did yesterday. Use words like 先, 然後, and 最後."
+  },
+  {
+    "id": "DLG_D46_02",
+    "lesson_id": "LESSON_D46",
+    "title": "昨天晚餐吃了什麼",
+    "scenario": "talking about what you did yesterday",
+    "turns": [
+      {
+        "id": "DLG_D46_02_T1",
+        "speaker": "A",
+        "text": "你昨天晚餐吃了什麼？",
+        "pinyin": "Nǐ zuótiān wǎncān chī le shénme?",
+        "pinyin_numeric": "Ni3 zuo2tian1 wan3can1 chi1 le5 shen2me5?",
+        "translation_en": "What did you eat for dinner yesterday?",
+        "translation_ko": "어제 저녁에 무엇을 드셨어요?",
+        "token_ids": [
+          "VOC_M1_003",
+          "VOC_M1_034",
+          "VOC_M1_052",
+          "VOC_M1_071"
+        ],
+        "audio_id": "AUD_DLG_D46_02_T1"
+      },
+      {
+        "id": "DLG_D46_02_T2",
+        "speaker": "B",
+        "text": "我昨天晚餐吃了牛肉麵，還點了一份小菜。",
+        "pinyin": "Wǒ zuótiān wǎncān chī le niúròumiàn, hái diǎn le yī fèn xiǎocài.",
+        "pinyin_numeric": "Wo3 zuo2tian1 wan3can1 chi1 le5 niu2rou4mian4, hai2 dian3 le5 yi1 fen4 xiao3cai4.",
+        "translation_en": "I ate beef noodles for dinner yesterday, and also ordered a side dish.",
+        "translation_ko": "어제 저녁에 소고기 국수를 먹었고, 반찬도 하나 주문했어요.",
+        "token_ids": [
+          "VOC_M1_002",
+          "VOC_M1_034",
+          "VOC_M1_052",
+          "VOC_D34_003",
+          "VOC_M1_105",
+          "VOC_D34_035",
+          "VOC_D34_005"
+        ],
+        "audio_id": "AUD_DLG_D46_02_T2"
+      },
+      {
+        "id": "DLG_D46_02_T3",
+        "speaker": "A",
+        "text": "牛肉麵好吃嗎？",
+        "pinyin": "Niúròumiàn hǎochī ma?",
+        "pinyin_numeric": "Niu2rou4mian4 hao3chi1 ma5?",
+        "translation_en": "Was the beef noodles delicious?",
+        "translation_ko": "소고기 국수는 맛있었어요?",
+        "token_ids": [
+          "VOC_D34_003",
+          "VOC_M1_088",
+          "VOC_M1_052",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D46_02_T3"
+      },
+      {
+        "id": "DLG_D46_02_T4",
+        "speaker": "B",
+        "text": "很好吃，可是有點辣。我點的是招牌牛肉麵。",
+        "pinyin": "Hěn hǎochī, kěshì yǒudiǎn là. Wǒ diǎn de shì zhāopái niúròumiàn.",
+        "pinyin_numeric": "Hen3 hao3chi1, ke3shi4 you3dian3 la4. Wo3 dian3 de5 shi4 zhao1pai2 niu2rou4mian4.",
+        "translation_en": "It was very delicious, but a little spicy. I ordered the signature beef noodles.",
+        "translation_ko": "아주 맛있었는데, 조금 매웠어요. 시그니처 소고기 국수를 주문했어요.",
+        "token_ids": [
+          "VOC_M1_096",
+          "VOC_M1_088",
+          "VOC_M1_052",
+          "VOC_D35_023",
+          "VOC_D34_017",
+          "VOC_D34_006",
+          "VOC_M1_002",
+          "VOC_M1_105",
+          "VOC_M1_023",
+          "VOC_M1_007",
+          "VOC_D34_009",
+          "VOC_D34_003"
+        ],
+        "audio_id": "AUD_DLG_D46_02_T4"
+      },
+      {
+        "id": "DLG_D46_02_T5",
+        "speaker": "A",
+        "text": "你喜歡吃辣嗎？",
+        "pinyin": "Nǐ xǐhuān chī là ma?",
+        "pinyin_numeric": "Ni3 xi3huan1 chi1 la4 ma5?",
+        "translation_en": "Do you like eating spicy food?",
+        "translation_ko": "매운 음식 좋아하세요?",
+        "token_ids": [
+          "VOC_M1_003",
+          "VOC_M1_068",
+          "VOC_M1_052",
+          "VOC_D34_006",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D46_02_T5"
+      },
+      {
+        "id": "DLG_D46_02_T6",
+        "speaker": "B",
+        "text": "我喜歡吃一點辣，可是不要太辣。",
+        "pinyin": "Wǒ xǐhuān chī yīdiǎn là, kěshì bùyào tài là.",
+        "pinyin_numeric": "Wo3 xi3huan1 chi1 yi1dian3 la4, ke3shi4 bu4yao4 tai4 la4.",
+        "translation_en": "I like eating a little spicy, but not too spicy.",
+        "translation_ko": "조금 매운 건 좋아하는데, 너무 맵지는 않았으면 좋겠어요.",
+        "token_ids": [
+          "VOC_M1_002",
+          "VOC_M1_068",
+          "VOC_M1_052",
+          "VOC_M1_009",
+          "VOC_M1_105",
+          "VOC_D34_006",
+          "VOC_D35_023",
+          "VOC_D42_021"
+        ],
+        "audio_id": "AUD_DLG_D46_02_T6"
+      }
+    ],
+    "comprehension_questions": [
+      {
+        "question_en": "What did B eat for dinner yesterday?",
+        "question_ko": "B는 어제 저녁에 무엇을 먹었습니까?",
+        "options_en": [
+          "Rice",
+          "Beef noodles",
+          "Chicken"
+        ],
+        "options_ko": [
+          "밥",
+          "소고기 국수",
+          "치킨"
+        ],
+        "correct_index": 1
+      }
+    ],
+    "shadowing_prompt": "Listen to each sentence and repeat it aloud, focusing on the tones and natural pauses.",
+    "free_response_prompt": "Tell me what you ate for dinner yesterday. Was it delicious? Was it spicy?"
+  },
+  {
+    "id": "DLG_D46_03",
+    "lesson_id": "LESSON_D46",
+    "title": "昨天出門去了哪裡",
+    "scenario": "talking about what you did yesterday",
+    "turns": [
+      {
+        "id": "DLG_D46_03_T1",
+        "speaker": "A",
+        "text": "你昨天出門去了哪裡？",
+        "pinyin": "Nǐ zuótiān chūmén qù le nǎlǐ?",
+        "pinyin_numeric": "Ni3 zuo2tian1 chu1men2 qu4 le5 na3li3?",
+        "translation_en": "Where did you go out to yesterday?",
+        "translation_ko": "어디에 외출하셨어요?",
+        "token_ids": [
+          "VOC_M1_003",
+          "VOC_M1_034",
+          "VOC_D46_005",
+          "VOC_M1_156",
+          "VOC_M1_073"
+        ],
+        "audio_id": "AUD_DLG_D46_03_T1"
+      },
+      {
+        "id": "DLG_D46_03_T2",
+        "speaker": "B",
+        "text": "我昨天下午出門去公園散步，然後去商店買菜。",
+        "pinyin": "Wǒ zuótiān xiàwǔ chūmén qù gōngyuán sànbù, ránhòu qù shāngdiàn mǎicài.",
+        "pinyin_numeric": "Wo3 zuo2tian1 xia4wu3 chu1men2 qu4 gong1yuan2 san4bu4, ran2hou4 qu4 shang1dian4 mai3cai4.",
+        "translation_en": "Yesterday afternoon I went out to the park for a walk, and then went to the store to buy groceries.",
+        "translation_ko": "어제 오후에 공원에 산책하러 나갔다가, 가게에 가서 장을 봤어요.",
+        "token_ids": [
+          "VOC_M1_002",
+          "VOC_M1_034",
+          "VOC_M1_107",
+          "VOC_D46_005",
+          "VOC_M1_156",
+          "VOC_M1_150",
+          "VOC_D36_025",
+          "VOC_M1_133",
+          "VOC_M1_156",
+          "VOC_M1_147",
+          "VOC_D46_007"
+        ],
+        "audio_id": "AUD_DLG_D46_03_T2"
+      },
+      {
+        "id": "DLG_D46_03_T3",
+        "speaker": "A",
+        "text": "公園人多嗎？",
+        "pinyin": "Gōngyuán rén duō ma?",
+        "pinyin_numeric": "Gong1yuan2 ren2 duo1 ma5?",
+        "translation_en": "Were there many people in the park?",
+        "translation_ko": "공원에 사람이 많았어요?",
+        "token_ids": [
+          "VOC_M1_150",
+          "VOC_M1_040",
+          "VOC_M1_089",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D46_03_T3"
+      },
+      {
+        "id": "DLG_D46_03_T4",
+        "speaker": "B",
+        "text": "人不多，很安靜，天氣也很舒服。",
+        "pinyin": "Rén bù duō, hěn ānjìng, tiānqì yě hěn shūfú.",
+        "pinyin_numeric": "Ren2 bu4 duo1, hen3 an1jing4, tian1qi4 ye3 hen3 shu1fu2.",
+        "translation_en": "There weren't many people, it was very quiet, and the weather was also very comfortable.",
+        "translation_ko": "사람이 많지 않고, 아주 조용했으며, 날씨도 아주 쾌적했어요.",
+        "token_ids": [
+          "VOC_M1_040",
+          "VOC_M1_079",
+          "VOC_M1_089",
+          "VOC_M1_096",
+          "VOC_D42_027",
+          "VOC_D44_001",
+          "VOC_M1_084",
+          "VOC_D44_019"
+        ],
+        "audio_id": "AUD_DLG_D46_03_T4"
+      },
+      {
+        "id": "DLG_D46_03_T5",
+        "speaker": "A",
+        "text": "你買了什麼菜？",
+        "pinyin": "Nǐ mǎi le shénme cài?",
+        "pinyin_numeric": "Ni3 mai3 le5 shen2me5 cai4?",
+        "translation_en": "What groceries did you buy?",
+        "translation_ko": "무슨 채소를 샀어요?",
+        "token_ids": [
+          "VOC_M1_003",
+          "VOC_M1_071",
+          "VOC_M1_054"
+        ],
+        "audio_id": "AUD_DLG_D46_03_T5"
+      },
+      {
+        "id": "DLG_D46_03_T6",
+        "speaker": "B",
+        "text": "我買了青菜、雞蛋和水果，然後回家煮飯。",
+        "pinyin": "Wǒ mǎi le qīngcài, jīdàn hé shuǐguǒ, ránhòu huíjiā zhǔfàn.",
+        "pinyin_numeric": "Wo3 mai3 le5 qing1cai4, ji1dan4 he2 shui3guo3, ran2hou4 hui2jia1 zhu3fan4.",
+        "translation_en": "I bought greens, eggs, and fruit, and then went home to cook.",
+        "translation_ko": "채소, 계란, 과일을 샀고, 집에 가서 밥을 했어요.",
+        "token_ids": [
+          "VOC_M1_002",
+          "VOC_D35_037",
+          "VOC_M1_056",
+          "VOC_M1_058",
+          "VOC_M1_133",
+          "VOC_D36_026",
+          "VOC_D46_008"
+        ],
+        "audio_id": "AUD_DLG_D46_03_T6"
+      }
+    ],
+    "comprehension_questions": [
+      {
+        "question_en": "Where did B go first yesterday afternoon?",
+        "question_ko": "B는 어제 오후에 먼저 어디에 갔습니까?",
+        "options_en": [
+          "Store",
+          "Park",
+          "Home"
+        ],
+        "options_ko": [
+          "가게",
+          "공원",
+          "집"
+        ],
+        "correct_index": 1
+      }
+    ],
+    "shadowing_prompt": "Listen to each sentence and repeat it aloud, paying attention to the flow of the conversation.",
+    "free_response_prompt": "Tell me where you went out to yesterday. What did you do there? Was the weather nice?"
+  },
+  {
+    "id": "DLG_D47_01",
+    "lesson_id": "LESSON_D47",
+    "title": "昨天做了什麼？",
+    "scenario": "telling a short sequence",
+    "turns": [
+      {
+        "id": "DLG_D47_01_T1",
+        "speaker": "A",
+        "text": "你昨天做了什麼？可以從頭開始說嗎？",
+        "pinyin": "Nǐ zuótiān zuò le shénme? Kěyǐ cóng tóu kāishǐ shuō ma?",
+        "pinyin_numeric": "Ni3 zuo2tian1 zuo4 le shen2me? Ke3yi3 cong2 tou2 kai1shi3 shuo1 ma?",
+        "translation_en": "What did you do yesterday? Can you tell me from the beginning?",
+        "translation_ko": "어제 뭐 하셨어요? 처음부터 말씀해 주시겠어요?",
+        "token_ids": [
+          "VOC_M1_003",
+          "VOC_M1_034",
+          "VOC_M1_067",
+          "VOC_M1_071",
+          "VOC_M1_118",
+          "VOC_D47_003",
+          "VOC_M1_064",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D47_01_T1"
+      },
+      {
+        "id": "DLG_D47_01_T2",
+        "speaker": "B",
+        "text": "好。昨天早上我先起床，然後刷牙洗臉，接著吃早餐。",
+        "pinyin": "Hǎo. Zuótiān zǎoshang wǒ xiān qǐchuáng, ránhòu shuāyá xǐliǎn, jiēzhe chī zǎocān.",
+        "pinyin_numeric": "Hao3. Zuo2tian1 zao3shang4 wo3 xian1 qi3chuang2, ran2hou4 shua1ya2 xi3lian3, jie1zhe5 chi1 zao3can1.",
+        "translation_en": "Okay. Yesterday morning I first got up, then brushed my teeth and washed my face, and then ate breakfast.",
+        "translation_ko": "네. 어제 아침에 먼저 일어나서, 이를 닦고 세수한 다음에 아침을 먹었어요.",
+        "token_ids": [
+          "VOC_M1_088",
+          "VOC_M1_034",
+          "VOC_M1_110",
+          "VOC_M1_002",
+          "VOC_M1_132",
+          "VOC_M1_136",
+          "VOC_M1_133",
+          "VOC_D36_016",
+          "VOC_D36_017",
+          "VOC_D47_001",
+          "VOC_D36_020"
+        ],
+        "audio_id": "AUD_DLG_D47_01_T2"
+      },
+      {
+        "id": "DLG_D47_01_T3",
+        "speaker": "A",
+        "text": "然後呢？",
+        "pinyin": "Ránhòu ne?",
+        "pinyin_numeric": "Ran2hou4 ne5?",
+        "translation_en": "And then?",
+        "translation_ko": "그다음에는요?",
+        "token_ids": [
+          "VOC_M1_133",
+          "VOC_M1_111"
+        ],
+        "audio_id": "AUD_DLG_D47_01_T3"
+      },
+      {
+        "id": "DLG_D47_01_T4",
+        "speaker": "B",
+        "text": "然後我去公司上班，中午吃午餐，下午繼續工作，最後下班回家。",
+        "pinyin": "Ránhòu wǒ qù gōngsī shàngbān, zhōngwǔ chī wǔcān, xiàwǔ jìxù gōngzuò, zuìhòu xiàbān huí jiā.",
+        "pinyin_numeric": "Ran2hou4 wo3 qu4 gong1si1 shang4ban1, zhong1wu3 chi1 wu3can1, xia4wu3 ji4xu4 gong1zuo4, zui4hou4 xia4ban1 hui2 jia1.",
+        "translation_en": "Then I went to the company to work, ate lunch at noon, continued working in the afternoon, and finally got off work and went home.",
+        "translation_ko": "그다음에 회사에 출근해서, 점심에 점심을 먹고, 오후에 계속 일하다가, 마지막으로 퇴근해서 집에 갔어요.",
+        "token_ids": [
+          "VOC_M1_133",
+          "VOC_M1_002",
+          "VOC_M1_156",
+          "VOC_M1_138",
+          "VOC_D36_005",
+          "VOC_D36_002",
+          "VOC_D36_021",
+          "VOC_M1_107",
+          "VOC_M1_076",
+          "VOC_M1_135",
+          "VOC_D36_006",
+          "VOC_D36_026"
+        ],
+        "audio_id": "AUD_DLG_D47_01_T4"
+      },
+      {
+        "id": "DLG_D47_01_T5",
+        "speaker": "A",
+        "text": "聽起來很忙。你昨天有做別的事情嗎？",
+        "pinyin": "Tīng qǐlái hěn máng. Nǐ zuótiān yǒu zuò bié de shìqing ma?",
+        "pinyin_numeric": "Ting1 qi3lai2 hen3 mang2. Ni3 zuo2tian1 you3 zuo4 bie2 de shi4qing5 ma?",
+        "translation_en": "Sounds busy. Did you do anything else yesterday?",
+        "translation_ko": "바쁘셨나 봐요. 어제 다른 일도 하셨어요?",
+        "token_ids": [
+          "VOC_D42_033",
+          "VOC_M1_096",
+          "VOC_D34_019",
+          "VOC_M1_003",
+          "VOC_M1_034",
+          "VOC_M1_022",
+          "VOC_M1_067",
+          "VOC_M1_023",
+          "VOC_D47_027",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D47_01_T5"
+      },
+      {
+        "id": "DLG_D47_01_T6",
+        "speaker": "B",
+        "text": "有。回家以後，我先休息一下，然後看電視，接著洗澡，最後睡覺。",
+        "pinyin": "Yǒu. Huí jiā yǐhòu, wǒ xiān xiūxi yīxià, ránhòu kàn diànshì, jiēzhe xǐzǎo, zuìhòu shuìjiào.",
+        "pinyin_numeric": "You3. Hui2 jia1 yi3hou4, wo3 xian1 xiu1xi5 yi1xia4, ran2hou4 kan4 dian4shi4, jie1zhe5 xi3zao3, zui4hou4 shui4jiao4.",
+        "translation_en": "Yes. After going home, I first rested a bit, then watched TV, then took a shower, and finally slept.",
+        "translation_ko": "네. 집에 돌아와서, 먼저 좀 쉬고, 그다음에 TV를 보고, 이어서 샤워하고, 마지막으로 잤어요.",
+        "token_ids": [
+          "VOC_M1_022",
+          "VOC_D36_026",
+          "VOC_D36_035",
+          "VOC_M1_002",
+          "VOC_M1_132",
+          "VOC_D36_024",
+          "VOC_M1_123",
+          "VOC_M1_133",
+          "VOC_D36_027",
+          "VOC_D47_001",
+          "VOC_D36_018",
+          "VOC_M1_135",
+          "VOC_D36_004"
+        ],
+        "audio_id": "AUD_DLG_D47_01_T6"
+      }
+    ],
+    "comprehension_questions": [
+      {
+        "question_en": "What did the person do after getting up yesterday morning?",
+        "question_ko": "어제 아침에 일어난 후에 무엇을 했습니까?",
+        "options_en": [
+          "Brushed teeth and washed face",
+          "Went to work",
+          "Ate lunch"
+        ],
+        "options_ko": [
+          "이를 닦고 세수했다",
+          "출근했다",
+          "점심을 먹었다"
+        ],
+        "correct_index": 0
+      }
+    ],
+    "shadowing_prompt": "Repeat each sentence after the speaker, focusing on the sequence words like 先, 然後, 接著, 最後.",
+    "free_response_prompt": "Tell a short story about what you did yesterday, using 先, 然後, 接著, 最後."
+  },
+  {
+    "id": "DLG_D47_02",
+    "lesson_id": "LESSON_D47",
+    "title": "下班後做什麼？",
+    "scenario": "telling a short sequence",
+    "turns": [
+      {
+        "id": "DLG_D47_02_T1",
+        "speaker": "A",
+        "text": "你下班以後都做什麼？可以說一下順序嗎？",
+        "pinyin": "Nǐ xiàbān yǐhòu dōu zuò shénme? Kěyǐ shuō yīxià shùnxù ma?",
+        "pinyin_numeric": "Ni3 xia4ban1 yi3hou4 dou1 zuo4 shen2me? Ke3yi3 shuo1 yi1xia4 shun4xu4 ma?",
+        "translation_en": "What do you usually do after work? Can you tell me the sequence?",
+        "translation_ko": "퇴근 후에 보통 뭐 하세요? 순서를 말씀해 주시겠어요?",
+        "token_ids": [
+          "VOC_M1_003",
+          "VOC_D36_006",
+          "VOC_D36_035",
+          "VOC_M1_085",
+          "VOC_M1_067",
+          "VOC_M1_071",
+          "VOC_M1_118",
+          "VOC_M1_064",
+          "VOC_M1_123",
+          "VOC_D47_026",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D47_02_T1"
+      },
+      {
+        "id": "DLG_D47_02_T2",
+        "speaker": "B",
+        "text": "好。我下班以後，先走路去捷運站，然後搭捷運回家。",
+        "pinyin": "Hǎo. Wǒ xiàbān yǐhòu, xiān zǒulù qù jiéyùn zhàn, ránhòu dā jiéyùn huí jiā.",
+        "pinyin_numeric": "Hao3. Wo3 xia4ban1 yi3hou4, xian1 zou3lu4 qu4 jie2yun4 zhan4, ran2hou4 da1 jie2yun4 hui2 jia1.",
+        "translation_en": "Okay. After work, I first walk to the MRT station, then take the MRT home.",
+        "translation_ko": "네. 퇴근 후에, 먼저 걸어서 지하철역에 가고, 그다음에 지하철을 타고 집에 가요.",
+        "token_ids": [
+          "VOC_M1_088",
+          "VOC_M1_002",
+          "VOC_D36_006",
+          "VOC_D36_035",
+          "VOC_M1_132",
+          "VOC_M1_131",
+          "VOC_M1_156",
+          "VOC_M1_154",
+          "VOC_M1_133",
+          "VOC_D38_017",
+          "VOC_D36_026"
+        ],
+        "audio_id": "AUD_DLG_D47_02_T2"
+      },
+      {
+        "id": "DLG_D47_02_T3",
+        "speaker": "A",
+        "text": "回家以後呢？",
+        "pinyin": "Huí jiā yǐhòu ne?",
+        "pinyin_numeric": "Hui2 jia1 yi3hou4 ne5?",
+        "translation_en": "And after going home?",
+        "translation_ko": "집에 돌아간 다음에는요?",
+        "token_ids": [
+          "VOC_D36_026",
+          "VOC_D36_035",
+          "VOC_M1_111"
+        ],
+        "audio_id": "AUD_DLG_D47_02_T3"
+      },
+      {
+        "id": "DLG_D47_02_T4",
+        "speaker": "B",
+        "text": "回家以後，我先休息一下，然後吃晚餐，接著看書，最後準備明天的工作。",
+        "pinyin": "Huí jiā yǐhòu, wǒ xiān xiūxi yīxià, ránhòu chī wǎncān, jiēzhe kàn shū, zuìhòu zhǔnbèi míngtiān de gōngzuò.",
+        "pinyin_numeric": "Hui2 jia1 yi3hou4, wo3 xian1 xiu1xi5 yi1xia4, ran2hou4 chi1 wan3can1, jie1zhe5 kan4 shu1, zui4hou4 zhun3bei4 ming2tian1 de gong1zuo4.",
+        "translation_en": "After going home, I first rest a bit, then eat dinner, then read a book, and finally prepare for tomorrow's work.",
+        "translation_ko": "집에 돌아가면, 먼저 좀 쉬고, 그다음에 저녁을 먹고, 이어서 책을 보고, 마지막으로 내일 일을 준비해요.",
+        "token_ids": [
+          "VOC_D36_026",
+          "VOC_D36_035",
+          "VOC_M1_002",
+          "VOC_M1_132",
+          "VOC_D36_024",
+          "VOC_M1_123",
+          "VOC_M1_133",
+          "VOC_D36_022",
+          "VOC_D47_001",
+          "VOC_D36_029",
+          "VOC_M1_135",
+          "VOC_D36_031",
+          "VOC_M1_033",
+          "VOC_M1_023",
+          "VOC_M1_076"
+        ],
+        "audio_id": "AUD_DLG_D47_02_T4"
+      },
+      {
+        "id": "DLG_D47_02_T5",
+        "speaker": "A",
+        "text": "你每天都是這樣嗎？",
+        "pinyin": "Nǐ měitiān dōu shì zhèyàng ma?",
+        "pinyin_numeric": "Ni3 mei3tian1 dou1 shi4 zhe4yang4 ma?",
+        "translation_en": "Do you do this every day?",
+        "translation_ko": "매일 이렇게 하세요?",
+        "token_ids": [
+          "VOC_M1_003",
+          "VOC_D36_001",
+          "VOC_M1_085",
+          "VOC_M1_007",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D47_02_T5"
+      },
+      {
+        "id": "DLG_D47_02_T6",
+        "speaker": "B",
+        "text": "差不多。有時候會先洗澡再看書。",
+        "pinyin": "Chàbùduō. Yǒu shíhou huì xiān xǐzǎo zài kàn shū.",
+        "pinyin_numeric": "Cha4bu4duo1. You3 shi2hou4 hui4 xian1 xi3zao3 zai4 kan4 shu1.",
+        "translation_en": "More or less. Sometimes I take a shower first and then read.",
+        "translation_ko": "거의 그래요. 가끔은 먼저 샤워하고 책을 보기도 해요.",
+        "token_ids": [
+          "VOC_D42_028",
+          "VOC_M1_022",
+          "VOC_M1_194",
+          "VOC_M1_132",
+          "VOC_D36_018",
+          "VOC_M1_134",
+          "VOC_D36_029"
+        ],
+        "audio_id": "AUD_DLG_D47_02_T6"
+      }
+    ],
+    "comprehension_questions": [
+      {
+        "question_en": "What does the person do after work first?",
+        "question_ko": "퇴근 후에 가장 먼저 무엇을 합니까?",
+        "options_en": [
+          "Walk to the MRT station",
+          "Eat dinner",
+          "Read a book"
+        ],
+        "options_ko": [
+          "지하철역까지 걷는다",
+          "저녁을 먹는다",
+          "책을 본다"
+        ],
+        "correct_index": 0
+      }
+    ],
+    "shadowing_prompt": "Repeat each sentence, paying attention to the sequence: 先, 然後, 接著, 最後.",
+    "free_response_prompt": "Describe your after-work routine using 先, 然後, 接著, 最後."
+  },
+  {
+    "id": "DLG_D47_03",
+    "lesson_id": "LESSON_D47",
+    "title": "週末的故事",
+    "scenario": "telling a short sequence",
+    "turns": [
+      {
+        "id": "DLG_D47_03_T1",
+        "speaker": "A",
+        "text": "你上個週末做了什麼？可以從頭開始講故事嗎？",
+        "pinyin": "Nǐ shàng ge zhōumò zuò le shénme? Kěyǐ cóng tóu kāishǐ jiǎng gùshì ma?",
+        "pinyin_numeric": "Ni3 shang4 ge5 zhou1mo4 zuo4 le shen2me? Ke3yi3 cong2 tou2 kai1shi3 jiang3 gu4shi4 ma?",
+        "translation_en": "What did you do last weekend? Can you tell the story from the beginning?",
+        "translation_ko": "지난 주말에 뭐 하셨어요? 처음부터 이야기를 들려주시겠어요?",
+        "token_ids": [
+          "VOC_M1_003",
+          "VOC_M1_140",
+          "VOC_M1_041",
+          "VOC_D36_013",
+          "VOC_M1_067",
+          "VOC_M1_071",
+          "VOC_M1_118",
+          "VOC_D47_003",
+          "VOC_D47_002",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D47_03_T1"
+      },
+      {
+        "id": "DLG_D47_03_T2",
+        "speaker": "B",
+        "text": "好。禮拜六早上我先起床，然後吃早餐，接著和朋友一起去公園散步。",
+        "pinyin": "Hǎo. Lǐbài liù zǎoshang wǒ xiān qǐchuáng, ránhòu chī zǎocān, jiēzhe hé péngyou yīqǐ qù gōngyuán sànbù.",
+        "pinyin_numeric": "Hao3. Li3bai4 liu4 zao3shang4 wo3 xian1 qi3chuang2, ran2hou4 chi1 zao3can1, jie1zhe5 he2 peng2you5 yi1qi3 qu4 gong1yuan2 san4bu4.",
+        "translation_en": "Okay. Saturday morning I first got up, then ate breakfast, and then went for a walk in the park with a friend.",
+        "translation_ko": "네. 토요일 아침에 먼저 일어나서, 아침을 먹고, 이어서 친구와 함께 공원에 산책하러 갔어요.",
+        "token_ids": [
+          "VOC_M1_088",
+          "VOC_D47_023",
+          "VOC_M1_110",
+          "VOC_M1_002",
+          "VOC_M1_132",
+          "VOC_M1_136",
+          "VOC_M1_133",
+          "VOC_D36_020",
+          "VOC_D47_001",
+          "VOC_M1_042",
+          "VOC_D37_003",
+          "VOC_M1_150",
+          "VOC_D36_025"
+        ],
+        "audio_id": "AUD_DLG_D47_03_T2"
+      },
+      {
+        "id": "DLG_D47_03_T3",
+        "speaker": "A",
+        "text": "然後呢？",
+        "pinyin": "Ránhòu ne?",
+        "pinyin_numeric": "Ran2hou4 ne5?",
+        "translation_en": "And then?",
+        "translation_ko": "그다음에는요?",
+        "token_ids": [
+          "VOC_M1_133",
+          "VOC_M1_111"
+        ],
+        "audio_id": "AUD_DLG_D47_03_T3"
+      },
+      {
+        "id": "DLG_D47_03_T4",
+        "speaker": "B",
+        "text": "然後我們去小吃店吃午餐，我點了牛肉麵，朋友點了滷肉飯。",
+        "pinyin": "Ránhòu wǒmen qù xiǎochī diàn chī wǔcān, wǒ diǎn le niúròu miàn, péngyou diǎn le lǔròu fàn.",
+        "pinyin_numeric": "Ran2hou4 wo3men5 qu4 xiao3chi1 dian4 chi1 wu3can1, wo3 dian3 le niu2rou4 mian4, peng2you5 dian3 le lu3rou4 fan4.",
+        "translation_en": "Then we went to a small eatery for lunch. I ordered beef noodles, and my friend ordered braised pork rice.",
+        "translation_ko": "그다음에 우리는 작은 음식점에 가서 점심을 먹었어요. 저는 소고기 국수를 시키고, 친구는 루로우판을 시켰어요.",
+        "token_ids": [
+          "VOC_M1_133",
+          "VOC_M1_006",
+          "VOC_M1_156",
+          "VOC_D34_020",
+          "VOC_D36_021",
+          "VOC_M1_002",
+          "VOC_M1_105",
+          "VOC_D34_003",
+          "VOC_M1_042",
+          "VOC_M1_105",
+          "VOC_D34_002"
+        ],
+        "audio_id": "AUD_DLG_D47_03_T4"
+      },
+      {
+        "id": "DLG_D47_03_T5",
+        "speaker": "A",
+        "text": "聽起來很好吃。下午你們做什麼？",
+        "pinyin": "Tīng qǐlái hěn hǎochī. Xiàwǔ nǐmen zuò shénme?",
+        "pinyin_numeric": "Ting1 qi3lai2 hen3 hao3chi1. Xia4wu3 ni3men5 zuo4 shen2me?",
+        "translation_en": "Sounds delicious. What did you do in the afternoon?",
+        "translation_ko": "맛있겠네요. 오후에는 뭐 하셨어요?",
+        "token_ids": [
+          "VOC_D42_033",
+          "VOC_M1_096",
+          "VOC_M1_088",
+          "VOC_M1_052",
+          "VOC_M1_107",
+          "VOC_M1_003",
+          "VOC_M1_067",
+          "VOC_M1_071"
+        ],
+        "audio_id": "AUD_DLG_D47_03_T5"
+      },
+      {
+        "id": "DLG_D47_03_T6",
+        "speaker": "B",
+        "text": "下午我們去看電影，看完以後去逛街，最後一起回家。",
+        "pinyin": "Xiàwǔ wǒmen qù kàn diànyǐng, kàn wán yǐhòu qù guàngjiē, zuìhòu yīqǐ huí jiā.",
+        "pinyin_numeric": "Xia4wu3 wo3men5 qu4 kan4 dian4ying3, kan4 wan2 yi3hou4 qu4 guang4jie1, zui4hou4 yi1qi3 hui2 jia1.",
+        "translation_en": "In the afternoon we went to see a movie. After watching it, we went shopping, and finally went home together.",
+        "translation_ko": "오후에는 영화를 보러 갔어요. 다 본 후에 쇼핑하러 갔다가, 마지막으로 함께 집에 돌아왔어요.",
+        "token_ids": [
+          "VOC_M1_107",
+          "VOC_M1_006",
+          "VOC_M1_156",
+          "VOC_D37_006",
+          "VOC_M1_062",
+          "VOC_D36_035",
+          "VOC_M1_156",
+          "VOC_D37_007",
+          "VOC_M1_135",
+          "VOC_M1_183",
+          "VOC_D36_026"
+        ],
+        "audio_id": "AUD_DLG_D47_03_T6"
+      },
+      {
+        "id": "DLG_D47_03_T7",
+        "speaker": "A",
+        "text": "那天你開心嗎？",
+        "pinyin": "Nà tiān nǐ kāixīn ma?",
+        "pinyin_numeric": "Na4 tian1 ni3 kai1xin1 ma?",
+        "translation_en": "Were you happy that day?",
+        "translation_ko": "그날 기분이 좋았어요?",
+        "token_ids": [
+          "VOC_D47_004",
+          "VOC_M1_003",
+          "VOC_D44_007",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D47_03_T7"
+      },
+      {
+        "id": "DLG_D47_03_T8",
+        "speaker": "B",
+        "text": "很開心！和朋友一起出去玩很有意思。",
+        "pinyin": "Hěn kāixīn! Hé péngyou yīqǐ chūqù wán hěn yǒu yìsi.",
+        "pinyin_numeric": "Hen3 kai1xin1! He2 peng2you5 yi1qi3 chu1qu4 wan2 hen3 you3 yi4si5.",
+        "translation_en": "Very happy! Going out with friends was a lot of fun.",
+        "translation_ko": "아주 좋았어요! 친구와 함께 나가서 노는 게 정말 재미있었어요.",
+        "token_ids": [
+          "VOC_M1_096",
+          "VOC_D44_007",
+          "VOC_M1_042",
+          "VOC_M1_183",
+          "VOC_D47_021",
+          "VOC_M1_096",
+          "VOC_D47_032"
+        ],
+        "audio_id": "AUD_DLG_D47_03_T8"
+      }
+    ],
+    "comprehension_questions": [
+      {
+        "question_en": "What did the person eat for lunch on Saturday?",
+        "question_ko": "토요일 점심에 무엇을 먹었습니까?",
+        "options_en": [
+          "Beef noodles",
+          "Braised pork rice",
+          "Both"
+        ],
+        "options_ko": [
+          "소고기 국수",
+          "루로우판",
+          "둘 다"
+        ],
+        "correct_index": 0
+      }
+    ],
+    "shadowing_prompt": "Repeat each sentence, focusing on the sequence words and the story flow.",
+    "free_response_prompt": "Tell a story about your last weekend using 先, 然後, 接著, 最後."
+  },
+  {
+    "id": "DLG_D48_01",
+    "lesson_id": "LESSON_D48",
+    "title": "去過臺北嗎？",
+    "scenario": "talking about things you have done before",
+    "turns": [
+      {
+        "id": "DLG_D48_01_T1",
+        "speaker": "A",
+        "text": "你好，你以前去過臺北嗎？",
+        "pinyin": "Nǐ hǎo, nǐ yǐqián qùguò Táiběi ma?",
+        "pinyin_numeric": "Ni3 hao3, ni3 yi3qian2 qu4guo4 Tai2bei3 ma?",
+        "translation_en": "Hello, have you been to Taipei before?",
+        "translation_ko": "안녕하세요, 예전에 타이베이에 가본 적이 있나요?",
+        "token_ids": [
+          "VOC_M1_001",
+          "VOC_M1_003",
+          "VOC_D36_034",
+          "VOC_D48_001",
+          "VOC_D48_014",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D48_01_T1"
+      },
+      {
+        "id": "DLG_D48_01_T2",
+        "speaker": "B",
+        "text": "有啊，我去過好幾次。臺北很漂亮，我喜歡淡水跟九份。",
+        "pinyin": "Yǒu a, wǒ qùguò hǎo jǐ cì. Táiběi hěn piàoliang, wǒ xǐhuān Dànshuǐ gēn Jiǔfèn.",
+        "pinyin_numeric": "You3 a, wo3 qu4guo4 hao3 ji3 ci4. Tai2bei3 hen3 piao4liang, wo3 xi3huan1 Dan4shui3 gen1 Jiu3fen4.",
+        "translation_en": "Yes, I've been there several times. Taipei is very beautiful, I like Tamsui and Jiufen.",
+        "translation_ko": "네, 여러 번 가봤어요. 타이베이는 정말 예뻐요, 단수이와 주펀을 좋아해요.",
+        "token_ids": [
+          "VOC_M1_022",
+          "VOC_M1_002",
+          "VOC_D48_001",
+          "VOC_D48_010",
+          "VOC_D48_014",
+          "VOC_M1_096",
+          "VOC_M1_094",
+          "VOC_M1_002",
+          "VOC_M1_068",
+          "VOC_D48_021",
+          "VOC_M1_182",
+          "VOC_D48_020"
+        ],
+        "audio_id": "AUD_DLG_D48_01_T2"
+      },
+      {
+        "id": "DLG_D48_01_T3",
+        "speaker": "A",
+        "text": "那你吃過臺北的夜市小吃嗎？",
+        "pinyin": "Nà nǐ chīguò Táiběi de yèshì xiǎochī ma?",
+        "pinyin_numeric": "Na4 ni3 chi1guo4 Tai2bei3 de ye4shi4 xiao3chi1 ma?",
+        "translation_en": "Have you tried the night market snacks in Taipei?",
+        "translation_ko": "그럼 타이베이 야시장 간식을 먹어본 적이 있나요?",
+        "token_ids": [
+          "VOC_M1_003",
+          "VOC_D48_003",
+          "VOC_D48_014",
+          "VOC_M1_023",
+          "VOC_D34_021",
+          "VOC_M1_128",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D48_01_T3"
+      },
+      {
+        "id": "DLG_D48_01_T4",
+        "speaker": "B",
+        "text": "吃過！我最喜歡滷肉飯跟珍珠奶茶，很好吃。",
+        "pinyin": "Chīguò! Wǒ zuì xǐhuān lǔròufàn gēn zhēnzhū nǎichá, hěn hǎochī.",
+        "pinyin_numeric": "Chi1guo4! Wo3 zui4 xi3huan1 lu3rou4fan4 gen1 zhen1zhu1 nai3cha2, hen3 hao3chi1.",
+        "translation_en": "Yes, I have! I love braised pork rice and bubble tea the most, they're delicious.",
+        "translation_ko": "먹어봤어요! 루로우판과 버블티를 가장 좋아해요, 정말 맛있어요.",
+        "token_ids": [
+          "VOC_D48_003",
+          "VOC_M1_002",
+          "VOC_D42_003",
+          "VOC_D34_002",
+          "VOC_M1_182",
+          "VOC_D34_001",
+          "VOC_M1_096",
+          "VOC_M1_088",
+          "VOC_M1_052"
+        ],
+        "audio_id": "AUD_DLG_D48_01_T4"
+      },
+      {
+        "id": "DLG_D48_01_T5",
+        "speaker": "A",
+        "text": "聽起來很好玩。我從來沒有去過臺北，下次想去看看。",
+        "pinyin": "Tīng qǐlái hěn hǎowán. Wǒ cónglái méiyǒu qùguò Táiběi, xià cì xiǎng qù kànkan.",
+        "pinyin_numeric": "Ting1 qi3lai2 hen3 hao3wan2. Wo3 cong2lai2 mei2you3 qu4guo4 Tai2bei3, xia4 ci4 xiang3 qu4 kan4kan.",
+        "translation_en": "That sounds fun. I've never been to Taipei, I want to go next time.",
+        "translation_ko": "재미있을 것 같아요. 저는 타이베이에 가본 적이 한 번도 없어서, 다음에 가보고 싶어요.",
+        "token_ids": [
+          "VOC_D42_033",
+          "VOC_M1_096",
+          "VOC_D48_034",
+          "VOC_M1_002",
+          "VOC_D48_008",
+          "VOC_D48_001",
+          "VOC_D48_014",
+          "VOC_D37_025",
+          "VOC_M1_050",
+          "VOC_M1_156",
+          "VOC_M1_062",
+          "VOC_M1_062"
+        ],
+        "audio_id": "AUD_DLG_D48_01_T5"
+      },
+      {
+        "id": "DLG_D48_01_T6",
+        "speaker": "B",
+        "text": "你一定要去！我可以幫你介紹好玩的地方。",
+        "pinyin": "Nǐ yīdìng yào qù! Wǒ kěyǐ bāng nǐ jièshào hǎowán de dìfang.",
+        "pinyin_numeric": "Ni3 yi1ding4 yao4 qu4! Wo3 ke3yi3 bang1 ni3 jie4shao4 hao3wan2 de di4fang.",
+        "translation_en": "You must go! I can help introduce you to fun places.",
+        "translation_ko": "꼭 가보세요! 제가 재미있는 곳을 소개해 드릴게요.",
+        "token_ids": [
+          "VOC_M1_003",
+          "VOC_M1_009",
+          "VOC_M1_061",
+          "VOC_M1_156",
+          "VOC_M1_002",
+          "VOC_M1_118",
+          "VOC_M1_181",
+          "VOC_M1_003",
+          "VOC_D48_034",
+          "VOC_M1_023",
+          "VOC_M1_078"
+        ],
+        "audio_id": "AUD_DLG_D48_01_T6"
+      }
+    ],
+    "comprehension_questions": [
+      {
+        "question_en": "Has person B been to Taipei?",
+        "question_ko": "B는 타이베이에 가본 적이 있나요?",
+        "options_en": [
+          "Yes, several times",
+          "No, never",
+          "Only once"
+        ],
+        "options_ko": [
+          "네, 여러 번",
+          "아니요, 한 번도 없어요",
+          "한 번만"
+        ],
+        "correct_index": 0
+      }
+    ],
+    "shadowing_prompt": "Repeat each sentence after the speaker, focusing on the tone of '去過' and '吃過'.",
+    "free_response_prompt": "Tell me about a place you have been to in Taiwan. Use '去過' in your answer."
+  },
+  {
+    "id": "DLG_D48_02",
+    "lesson_id": "LESSON_D48",
+    "title": "你吃過牛肉麵嗎？",
+    "scenario": "talking about things you have done before",
+    "turns": [
+      {
+        "id": "DLG_D48_02_T1",
+        "speaker": "A",
+        "text": "你吃過臺灣的牛肉麵嗎？",
+        "pinyin": "Nǐ chīguò Táiwān de niúròumiàn ma?",
+        "pinyin_numeric": "Ni3 chi1guo4 Tai2wan1 de niu2rou4mian4 ma?",
+        "translation_en": "Have you tried Taiwanese beef noodle soup?",
+        "translation_ko": "대만의 소고기 국수를 먹어본 적이 있나요?",
+        "token_ids": [
+          "VOC_M1_003",
+          "VOC_D48_003",
+          "VOC_M1_023",
+          "VOC_D34_003",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D48_02_T1"
+      },
+      {
+        "id": "DLG_D48_02_T2",
+        "speaker": "B",
+        "text": "吃過一次，很好吃！湯很濃，肉很軟。",
+        "pinyin": "Chīguò yī cì, hěn hǎochī! Tāng hěn nóng, ròu hěn ruǎn.",
+        "pinyin_numeric": "Chi1guo4 yi1 ci4, hen3 hao3chi1! Tang1 hen3 nong2, rou4 hen3 ruan3.",
+        "translation_en": "I've tried it once, it's delicious! The broth is rich and the meat is tender.",
+        "translation_ko": "한 번 먹어봤는데 정말 맛있어요! 국물이 진하고 고기가 부드러워요.",
+        "token_ids": [
+          "VOC_D48_003",
+          "VOC_M1_009",
+          "VOC_M1_096",
+          "VOC_M1_088",
+          "VOC_M1_052",
+          "VOC_D34_010",
+          "VOC_M1_096",
+          "VOC_D42_011",
+          "VOC_M1_055",
+          "VOC_M1_096"
+        ],
+        "audio_id": "AUD_DLG_D48_02_T2"
+      },
+      {
+        "id": "DLG_D48_02_T3",
+        "speaker": "A",
+        "text": "那你喝過臺南的牛肉湯嗎？聽說也很棒。",
+        "pinyin": "Nà nǐ hēguò Táinán de niúròutāng ma? Tīngshuō yě hěn bàng.",
+        "pinyin_numeric": "Na4 ni3 he1guo4 Tai2nan2 de niu2rou4tang1 ma? Ting1shuo1 ye3 hen3 bang4.",
+        "translation_en": "Have you tried Tainan's beef soup? I heard it's also great.",
+        "translation_ko": "그럼 타이난의 소고기 국물은 마셔본 적이 있나요? 듣기로도 아주 좋다고 해요.",
+        "token_ids": [
+          "VOC_M1_003",
+          "VOC_D48_004",
+          "VOC_D48_017",
+          "VOC_M1_023",
+          "VOC_M1_055",
+          "VOC_D34_010",
+          "VOC_M1_016",
+          "VOC_M1_063",
+          "VOC_M1_064",
+          "VOC_M1_084",
+          "VOC_M1_096"
+        ],
+        "audio_id": "AUD_DLG_D48_02_T3"
+      },
+      {
+        "id": "DLG_D48_02_T4",
+        "speaker": "B",
+        "text": "沒有，我從來沒有喝過。但是我很想試試看。",
+        "pinyin": "Méiyǒu, wǒ cónglái méiyǒu hēguò. Dànshì wǒ hěn xiǎng shìshì kàn.",
+        "pinyin_numeric": "Mei2you3, wo3 cong2lai2 mei2you3 he1guo4. Dan4shi4 wo3 hen3 xiang3 shi4shi4 kan4.",
+        "translation_en": "No, I've never had it. But I really want to try it.",
+        "translation_ko": "아니요, 한 번도 마셔본 적이 없어요. 그런데 꼭 한번 먹어보고 싶어요.",
+        "token_ids": [
+          "VOC_M1_081",
+          "VOC_M1_002",
+          "VOC_D48_008",
+          "VOC_D48_004",
+          "VOC_M1_007",
+          "VOC_M1_002",
+          "VOC_M1_096",
+          "VOC_M1_050",
+          "VOC_M1_121",
+          "VOC_M1_121",
+          "VOC_M1_062"
+        ],
+        "audio_id": "AUD_DLG_D48_02_T4"
+      },
+      {
+        "id": "DLG_D48_02_T5",
+        "speaker": "A",
+        "text": "我推薦你去臺南，那邊的牛肉湯很新鮮。",
+        "pinyin": "Wǒ tuījiàn nǐ qù Táinán, nàbiān de niúròutāng hěn xīnxiān.",
+        "pinyin_numeric": "Wo3 tui1jian4 ni3 qu4 Tai2nan2, na4bian1 de niu2rou4tang1 hen3 xin1xian1.",
+        "translation_en": "I recommend you go to Tainan, the beef soup there is very fresh.",
+        "translation_ko": "타이난에 가보시길 추천해요, 거기 소고기 국물이 아주 신선해요.",
+        "token_ids": [
+          "VOC_M1_002",
+          "VOC_D34_008",
+          "VOC_M1_003",
+          "VOC_M1_156",
+          "VOC_D48_017",
+          "VOC_M1_023",
+          "VOC_M1_055",
+          "VOC_D34_010",
+          "VOC_M1_096",
+          "VOC_D42_013"
+        ],
+        "audio_id": "AUD_DLG_D48_02_T5"
+      },
+      {
+        "id": "DLG_D48_02_T6",
+        "speaker": "B",
+        "text": "好啊，下次去臺南我一定要吃吃看。",
+        "pinyin": "Hǎo a, xià cì qù Táinán wǒ yīdìng yào chī chī kàn.",
+        "pinyin_numeric": "Hao3 a, xia4 ci4 qu4 Tai2nan2 wo3 yi1ding4 yao4 chi1 chi1 kan4.",
+        "translation_en": "Okay, next time I go to Tainan I'll definitely try it.",
+        "translation_ko": "좋아요, 다음에 타이난에 가면 꼭 먹어볼게요.",
+        "token_ids": [
+          "VOC_D37_023",
+          "VOC_D37_025",
+          "VOC_M1_156",
+          "VOC_D48_017",
+          "VOC_M1_002",
+          "VOC_M1_009",
+          "VOC_M1_061",
+          "VOC_M1_052",
+          "VOC_M1_052",
+          "VOC_M1_062"
+        ],
+        "audio_id": "AUD_DLG_D48_02_T6"
+      }
+    ],
+    "comprehension_questions": [
+      {
+        "question_en": "What has person B never had?",
+        "question_ko": "B는 무엇을 마셔본 적이 없나요?",
+        "options_en": [
+          "Beef noodle soup",
+          "Tainan beef soup",
+          "Bubble tea"
+        ],
+        "options_ko": [
+          "소고기 국수",
+          "타이난 소고기 국물",
+          "버블티"
+        ],
+        "correct_index": 1
+      }
+    ],
+    "shadowing_prompt": "Repeat each sentence, paying attention to the pronunciation of '吃過' and '喝過'.",
+    "free_response_prompt": "Tell me about a food you have tried in Taiwan. Use '吃過' or '喝過'."
+  },
+  {
+    "id": "DLG_D48_03",
+    "lesson_id": "LESSON_D48",
+    "title": "從來沒有去過海邊",
+    "scenario": "talking about things you have done before",
+    "turns": [
+      {
+        "id": "DLG_D48_03_T1",
+        "speaker": "A",
+        "text": "你去過墾丁的海邊嗎？聽說那邊的風景很漂亮。",
+        "pinyin": "Nǐ qùguò Kěndīng de hǎibiān ma? Tīngshuō nàbiān de fēngjǐng hěn piàoliang.",
+        "pinyin_numeric": "Ni3 qu4guo4 Ken3ding1 de hai3bian1 ma? Ting1shuo1 na4bian1 de feng1jing3 hen3 piao4liang.",
+        "translation_en": "Have you been to the beach in Kenting? I heard the scenery there is beautiful.",
+        "translation_ko": "컨딩 해변에 가본 적이 있나요? 거기 풍경이 아름답다고 들었어요.",
+        "token_ids": [
+          "VOC_M1_003",
+          "VOC_D48_001",
+          "VOC_D48_019",
+          "VOC_M1_023",
+          "VOC_D48_025",
+          "VOC_M1_016",
+          "VOC_M1_063",
+          "VOC_M1_064",
+          "VOC_M1_023",
+          "VOC_D48_028",
+          "VOC_M1_096",
+          "VOC_M1_094"
+        ],
+        "audio_id": "AUD_DLG_D48_03_T1"
+      },
+      {
+        "id": "DLG_D48_03_T2",
+        "speaker": "B",
+        "text": "沒有，我從來沒有去過海邊。我都在臺北生活。",
+        "pinyin": "Méiyǒu, wǒ cónglái méiyǒu qùguò hǎibiān. Wǒ dōu zài Táiběi shēnghuó.",
+        "pinyin_numeric": "Mei2you3, wo3 cong2lai2 mei2you3 qu4guo4 hai3bian1. Wo3 dou1 zai4 Tai2bei3 sheng1huo2.",
+        "translation_en": "No, I've never been to the beach. I've always lived in Taipei.",
+        "translation_ko": "아니요, 저는 해변에 가본 적이 한 번도 없어요. 항상 타이베이에서 살았어요.",
+        "token_ids": [
+          "VOC_M1_081",
+          "VOC_M1_002",
+          "VOC_D48_008",
+          "VOC_D48_001",
+          "VOC_D48_025",
+          "VOC_M1_002",
+          "VOC_M1_085",
+          "VOC_M1_139",
+          "VOC_D48_014"
+        ],
+        "audio_id": "AUD_DLG_D48_03_T2"
+      },
+      {
+        "id": "DLG_D48_03_T3",
+        "speaker": "A",
+        "text": "真的嗎？那你應該去一次。墾丁的海邊很好玩。",
+        "pinyin": "Zhēn de ma? Nà nǐ yīnggāi qù yī cì. Kěndīng de hǎibiān hěn hǎowán.",
+        "pinyin_numeric": "Zhen1 de ma? Na4 ni3 ying1gai1 qu4 yi1 ci4. Ken3ding1 de hai3bian1 hen3 hao3wan2.",
+        "translation_en": "Really? Then you should go once. The beach in Kenting is very fun.",
+        "translation_ko": "정말요? 그럼 한 번 가보셔야 해요. 컨딩 해변은 정말 재미있어요.",
+        "token_ids": [
+          "VOC_D42_035",
+          "VOC_M1_016",
+          "VOC_M1_003",
+          "VOC_D35_024",
+          "VOC_M1_156",
+          "VOC_M1_009",
+          "VOC_D48_019",
+          "VOC_M1_023",
+          "VOC_D48_025",
+          "VOC_M1_096",
+          "VOC_D48_034"
+        ],
+        "audio_id": "AUD_DLG_D48_03_T3"
+      },
+      {
+        "id": "DLG_D48_03_T4",
+        "speaker": "B",
+        "text": "我也很想，但是最近工作很忙，沒有時間。",
+        "pinyin": "Wǒ yě hěn xiǎng, dànshì zuìjìn gōngzuò hěn máng, méiyǒu shíjiān.",
+        "pinyin_numeric": "Wo3 ye3 hen3 xiang3, dan4shi4 zui4jin4 gong1zuo4 hen3 mang2, mei2you3 shi2jian1.",
+        "translation_en": "I really want to, but I've been busy with work lately and don't have time.",
+        "translation_ko": "저도 정말 가고 싶지만, 요즘 일이 너무 바빠서 시간이 없어요.",
+        "token_ids": [
+          "VOC_M1_002",
+          "VOC_M1_084",
+          "VOC_M1_096",
+          "VOC_M1_050",
+          "VOC_M1_007",
+          "VOC_D37_027",
+          "VOC_M1_076",
+          "VOC_M1_096",
+          "VOC_D34_019",
+          "VOC_D41_015"
+        ],
+        "audio_id": "AUD_DLG_D48_03_T4"
+      },
+      {
+        "id": "DLG_D48_03_T5",
+        "speaker": "A",
+        "text": "沒關係，等你有空的時候再去。你可以先看照片。",
+        "pinyin": "Méiguānxi, děng nǐ yǒu kòng de shíhou zài qù. Nǐ kěyǐ xiān kàn zhàopiàn.",
+        "pinyin_numeric": "Mei2guan1xi, deng3 ni3 you3 kong4 de shi2hou zai4 qu4. Ni3 ke3yi3 xian1 kan4 zhao4pian4.",
+        "translation_en": "No problem, go when you have free time. You can look at photos first.",
+        "translation_ko": "괜찮아요, 시간이 날 때 가면 돼요. 먼저 사진을 보셔도 돼요.",
+        "token_ids": [
+          "VOC_M1_080",
+          "VOC_M1_184",
+          "VOC_M1_003",
+          "VOC_D36_010",
+          "VOC_M1_023",
+          "VOC_M1_134",
+          "VOC_M1_156",
+          "VOC_M1_003",
+          "VOC_M1_118",
+          "VOC_M1_132",
+          "VOC_M1_062",
+          "VOC_D48_032"
+        ],
+        "audio_id": "AUD_DLG_D48_03_T5"
+      },
+      {
+        "id": "DLG_D48_03_T6",
+        "speaker": "B",
+        "text": "好主意！我從來沒有看過墾丁的照片，等一下來看看。",
+        "pinyin": "Hǎo zhǔyì! Wǒ cónglái méiyǒu kànguò Kěndīng de zhàopiàn, děng yīxià lái kànkan.",
+        "pinyin_numeric": "Hao3 zhu3yi4! Wo3 cong2lai2 mei2you3 kan4guo4 Ken3ding1 de zhao4pian4, deng3 yi1xia4 lai2 kan4kan.",
+        "translation_en": "Good idea! I've never seen photos of Kenting, I'll take a look later.",
+        "translation_ko": "좋은 생각이에요! 컨딩 사진을 본 적이 한 번도 없어서, 잠시 후에 한번 볼게요.",
+        "token_ids": [
+          "VOC_M1_088",
+          "VOC_M1_002",
+          "VOC_D48_008",
+          "VOC_D48_002",
+          "VOC_D48_019",
+          "VOC_M1_023",
+          "VOC_D48_032",
+          "VOC_D31_032",
+          "VOC_M1_155",
+          "VOC_M1_062",
+          "VOC_M1_062"
+        ],
+        "audio_id": "AUD_DLG_D48_03_T6"
+      }
+    ],
+    "comprehension_questions": [
+      {
+        "question_en": "What has person B never done?",
+        "question_ko": "B는 무엇을 한 번도 해본 적이 없나요?",
+        "options_en": [
+          "Been to the beach",
+          "Eaten beef noodle soup",
+          "Been to Taipei"
+        ],
+        "options_ko": [
+          "해변에 가본 적",
+          "소고기 국수를 먹어본 적",
+          "타이베이에 가본 적"
+        ],
+        "correct_index": 0
+      }
+    ],
+    "shadowing_prompt": "Repeat each sentence, focusing on the phrase '從來沒有' and the tone of '去過'.",
+    "free_response_prompt": "Tell me about something you have never done in Taiwan. Use '從來沒有' in your answer."
+  },
+  {
+    "id": "DLG_D49_01",
+    "lesson_id": "LESSON_D49",
+    "title": "你現在在做什麼？",
+    "scenario": "what are you doing now?",
+    "turns": [
+      {
+        "id": "DLG_D49_01_T1",
+        "speaker": "A",
+        "text": "喂，你現在在做什麼？",
+        "pinyin": "Wèi, nǐ xiànzài zài zuò shénme?",
+        "pinyin_numeric": "Wei4, ni3 xian4zai4 zai4 zuo4 shen2me?",
+        "translation_en": "Hey, what are you doing now?",
+        "translation_ko": "여보세요, 지금 뭐 하고 있어요?",
+        "token_ids": [
+          "VOC_M1_003",
+          "VOC_M1_104",
+          "VOC_M1_139",
+          "VOC_D49_003"
+        ],
+        "audio_id": "AUD_DLG_D49_01_T1"
+      },
+      {
+        "id": "DLG_D49_01_T2",
+        "speaker": "B",
+        "text": "我現在正在看書。你呢？",
+        "pinyin": "Wǒ xiànzài zhèngzài kàn shū. Nǐ ne?",
+        "pinyin_numeric": "Wo3 xian4zai4 zheng4zai4 kan4 shu1. Ni3 ne?",
+        "translation_en": "I'm reading a book right now. And you?",
+        "translation_ko": "지금 책을 보고 있어요. 당신은요?",
+        "token_ids": [
+          "VOC_M1_002",
+          "VOC_M1_104",
+          "VOC_D49_001",
+          "VOC_D36_029",
+          "VOC_M1_003",
+          "VOC_M1_111"
+        ],
+        "audio_id": "AUD_DLG_D49_01_T2"
+      },
+      {
+        "id": "DLG_D49_01_T3",
+        "speaker": "A",
+        "text": "我現在在滑手機，沒有做什麼特別的事。",
+        "pinyin": "Wǒ xiànzài zài huá shǒujī, méiyǒu zuò shénme tèbié de shì.",
+        "pinyin_numeric": "Wo3 xian4zai4 zai4 hua2 shou3ji1, mei2you3 zuo4 shen2me te4bie2 de shi4.",
+        "translation_en": "I'm scrolling on my phone, not doing anything special.",
+        "translation_ko": "지금 핸드폰을 보고 있어요, 특별히 하는 일은 없어요.",
+        "token_ids": [
+          "VOC_M1_002",
+          "VOC_M1_104",
+          "VOC_M1_139",
+          "VOC_D49_005",
+          "VOC_M1_081",
+          "VOC_D49_003",
+          "VOC_M1_023"
+        ],
+        "audio_id": "AUD_DLG_D49_01_T3"
+      },
+      {
+        "id": "DLG_D49_01_T4",
+        "speaker": "B",
+        "text": "這樣啊。你等一下有空嗎？",
+        "pinyin": "Zhèyàng a. Nǐ děng yīxià yǒu kòng ma?",
+        "pinyin_numeric": "Zhe4yang4 a. Ni3 deng3 yi1xia4 you3 kong4 ma?",
+        "translation_en": "I see. Do you have time later?",
+        "translation_ko": "그렇군요. 잠시 후에 시간 있어요?",
+        "token_ids": [
+          "VOC_M1_003",
+          "VOC_D31_032",
+          "VOC_D49_009"
+        ],
+        "audio_id": "AUD_DLG_D49_01_T4"
+      },
+      {
+        "id": "DLG_D49_01_T5",
+        "speaker": "A",
+        "text": "有啊，怎麼了？",
+        "pinyin": "Yǒu a, zěnme le?",
+        "pinyin_numeric": "You3 a, zen3me le?",
+        "translation_en": "Yes, what's up?",
+        "translation_ko": "네, 왜요?",
+        "token_ids": [
+          "VOC_M1_022",
+          "VOC_M1_075"
+        ],
+        "audio_id": "AUD_DLG_D49_01_T5"
+      },
+      {
+        "id": "DLG_D49_01_T6",
+        "speaker": "B",
+        "text": "我想跟你一起喝咖啡，方便嗎？",
+        "pinyin": "Wǒ xiǎng gēn nǐ yīqǐ hē kāfēi, fāngbiàn ma?",
+        "pinyin_numeric": "Wo3 xiang3 gen1 ni3 yi1qi3 he1 ka1fei1, fang1bian4 ma?",
+        "translation_en": "I'd like to have coffee with you. Is that convenient?",
+        "translation_ko": "같이 커피 마시고 싶은데, 괜찮으세요?",
+        "token_ids": [
+          "VOC_M1_002",
+          "VOC_M1_050",
+          "VOC_M1_182",
+          "VOC_M1_003",
+          "VOC_M1_183",
+          "VOC_D37_004",
+          "VOC_D49_029"
+        ],
+        "audio_id": "AUD_DLG_D49_01_T6"
+      },
+      {
+        "id": "DLG_D49_01_T7",
+        "speaker": "A",
+        "text": "好啊，沒問題。我們等一下見。",
+        "pinyin": "Hǎo a, méi wèntí. Wǒmen děng yīxià jiàn.",
+        "pinyin_numeric": "Hao3 a, mei2 wen4ti2. Wo3men deng3 yi1xia4 jian4.",
+        "translation_en": "Sure, no problem. See you later.",
+        "translation_ko": "좋아요, 문제없어요. 잠시 후에 봐요.",
+        "token_ids": [
+          "VOC_D37_023",
+          "VOC_D31_035",
+          "VOC_M1_006",
+          "VOC_D49_027"
+        ],
+        "audio_id": "AUD_DLG_D49_01_T7"
+      }
+    ],
+    "comprehension_questions": [
+      {
+        "question_en": "What is person B doing now?",
+        "question_ko": "B는 지금 무엇을 하고 있습니까?",
+        "options_en": [
+          "Reading a book",
+          "Scrolling on phone",
+          "Drinking coffee"
+        ],
+        "options_ko": [
+          "책을 보고 있다",
+          "핸드폰을 보고 있다",
+          "커피를 마시고 있다"
+        ],
+        "correct_index": 0
+      }
+    ],
+    "shadowing_prompt": "Repeat each sentence after the speaker, focusing on the tone of '正在' and the question intonation.",
+    "free_response_prompt": "Answer the question: '你現在在做什麼？' in a complete sentence."
+  },
+  {
+    "id": "DLG_D49_02",
+    "lesson_id": "LESSON_D49",
+    "title": "現在不能講電話",
+    "scenario": "what are you doing now?",
+    "turns": [
+      {
+        "id": "DLG_D49_02_T1",
+        "speaker": "A",
+        "text": "喂，你現在方便講電話嗎？",
+        "pinyin": "Wèi, nǐ xiànzài fāngbiàn jiǎng diànhuà ma?",
+        "pinyin_numeric": "Wei4, ni3 xian4zai4 fang1bian4 jiang3 dian4hua4 ma?",
+        "translation_en": "Hey, is it convenient for you to talk on the phone now?",
+        "translation_ko": "여보세요, 지금 통화하기 괜찮으세요?",
+        "token_ids": [
+          "VOC_M1_003",
+          "VOC_M1_104",
+          "VOC_D36_014",
+          "VOC_D49_012",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D49_02_T1"
+      },
+      {
+        "id": "DLG_D49_02_T2",
+        "speaker": "B",
+        "text": "不好意思，我現在正在開會，不方便講電話。",
+        "pinyin": "Bù hǎoyìsi, wǒ xiànzài zhèngzài kāihuì, bù fāngbiàn jiǎng diànhuà.",
+        "pinyin_numeric": "Bu4 hao3yi4si, wo3 xian4zai4 zheng4zai4 kai1hui4, bu4 fang1bian4 jiang3 dian4hua4.",
+        "translation_en": "Sorry, I'm in a meeting right now, so it's not convenient to talk.",
+        "translation_ko": "죄송합니다, 지막 회의 중이라 통화하기 어려워요.",
+        "token_ids": [
+          "VOC_D31_020",
+          "VOC_M1_002",
+          "VOC_M1_104",
+          "VOC_D49_001",
+          "VOC_D49_013",
+          "VOC_D36_015",
+          "VOC_D49_012"
+        ],
+        "audio_id": "AUD_DLG_D49_02_T2"
+      },
+      {
+        "id": "DLG_D49_02_T3",
+        "speaker": "A",
+        "text": "沒關係，不急。你什麼時候有空？",
+        "pinyin": "Méi guānxi, bù jí. Nǐ shénme shíhou yǒu kòng?",
+        "pinyin_numeric": "Mei2 guan1xi, bu4 ji2. Ni3 shen2me shi2hou you3 kong4?",
+        "translation_en": "No problem, it's not urgent. When will you be free?",
+        "translation_ko": "괜찮아요, 급하지 않아요. 언제 시간 되세요?",
+        "token_ids": [
+          "VOC_D49_033",
+          "VOC_D49_030",
+          "VOC_M1_003",
+          "VOC_M1_071",
+          "VOC_D36_010"
+        ],
+        "audio_id": "AUD_DLG_D49_02_T3"
+      },
+      {
+        "id": "DLG_D49_02_T4",
+        "speaker": "B",
+        "text": "我大概再一個小時就開完會了。等一下再打給你，好嗎？",
+        "pinyin": "Wǒ dàgài zài yī ge xiǎoshí jiù kāi wán huì le. Děng yīxià zài dǎ gěi nǐ, hǎo ma?",
+        "pinyin_numeric": "Wo3 da4gai4 zai4 yi1 ge xiao3shi2 jiu4 kai1 wan2 hui4 le. Deng3 yi1xia4 zai4 da3 gei3 ni3, hao3 ma?",
+        "translation_en": "I'll probably finish the meeting in about an hour. I'll call you back later, okay?",
+        "translation_ko": "한 시간쯤 후에 회의가 끝날 것 같아요. 나중에 다시 전화드릴게요, 괜찮으세요?",
+        "token_ids": [
+          "VOC_M1_002",
+          "VOC_D38_039",
+          "VOC_M1_134",
+          "VOC_M1_009",
+          "VOC_M1_041",
+          "VOC_M1_087",
+          "VOC_M1_194",
+          "VOC_D31_032",
+          "VOC_M1_134",
+          "VOC_M1_003",
+          "VOC_M1_088",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D49_02_T4"
+      },
+      {
+        "id": "DLG_D49_02_T5",
+        "speaker": "A",
+        "text": "好，你慢慢來，不急。",
+        "pinyin": "Hǎo, nǐ mànmàn lái, bù jí.",
+        "pinyin_numeric": "Hao3, ni3 man4man4 lai2, bu4 ji2.",
+        "translation_en": "Okay, take your time, no rush.",
+        "translation_ko": "네, 천천히 하세요, 급하지 않아요.",
+        "token_ids": [
+          "VOC_M1_088",
+          "VOC_M1_003",
+          "VOC_D49_031",
+          "VOC_D49_030"
+        ],
+        "audio_id": "AUD_DLG_D49_02_T5"
+      }
+    ],
+    "comprehension_questions": [
+      {
+        "question_en": "Why can't person B talk on the phone now?",
+        "question_ko": "B는 왜 지금 통화할 수 없습니까?",
+        "options_en": [
+          "He is sleeping",
+          "He is in a meeting",
+          "He is eating"
+        ],
+        "options_ko": [
+          "자는 중이다",
+          "회의 중이다",
+          "식사 중이다"
+        ],
+        "correct_index": 1
+      }
+    ],
+    "shadowing_prompt": "Repeat each sentence, paying attention to the polite apology '不好意思' and the phrase '正在開會'.",
+    "free_response_prompt": "Answer the question: '你現在方便講電話嗎？' with a reason why you cannot talk."
+  },
+  {
+    "id": "DLG_D49_03",
+    "lesson_id": "LESSON_D49",
+    "title": "我正在複習中文",
+    "scenario": "what are you doing now?",
+    "turns": [
+      {
+        "id": "DLG_D49_03_T1",
+        "speaker": "A",
+        "text": "你現在在做什麼？",
+        "pinyin": "Nǐ xiànzài zài zuò shénme?",
+        "pinyin_numeric": "Ni3 xian4zai4 zai4 zuo4 shen2me?",
+        "translation_en": "What are you doing now?",
+        "translation_ko": "지금 뭐 하고 있어요?",
+        "token_ids": [
+          "VOC_M1_003",
+          "VOC_M1_104",
+          "VOC_M1_139",
+          "VOC_D49_003"
+        ],
+        "audio_id": "AUD_DLG_D49_03_T1"
+      },
+      {
+        "id": "DLG_D49_03_T2",
+        "speaker": "B",
+        "text": "我現在正在複習中文。明天有考試。",
+        "pinyin": "Wǒ xiànzài zhèngzài fùxí zhōngwén. Míngtiān yǒu kǎoshì.",
+        "pinyin_numeric": "Wo3 xian4zai4 zheng4zai4 fu4xi2 zhong1wen2. Ming2tian1 you3 kao3shi4.",
+        "translation_en": "I'm reviewing Chinese right now. I have an exam tomorrow.",
+        "translation_ko": "지금 중국어를 복습하고 있어요. 내일 시험이 있어요.",
+        "token_ids": [
+          "VOC_M1_002",
+          "VOC_M1_104",
+          "VOC_D49_001",
+          "VOC_D40_001",
+          "VOC_M1_069",
+          "VOC_M1_033",
+          "VOC_M1_022",
+          "VOC_M1_121"
+        ],
+        "audio_id": "AUD_DLG_D49_03_T2"
+      },
+      {
+        "id": "DLG_D49_03_T3",
+        "speaker": "A",
+        "text": "哇，你好認真。你複習了什麼？",
+        "pinyin": "Wā, nǐ hǎo rènzhēn. Nǐ fùxí le shénme?",
+        "pinyin_numeric": "Wa1, ni3 hao3 ren4zhen1. Ni3 fu4xi2 le shen2me?",
+        "translation_en": "Wow, you're so diligent. What have you reviewed?",
+        "translation_ko": "와, 정말 열심히네요. 뭘 복습했어요?",
+        "token_ids": [
+          "VOC_M1_001",
+          "VOC_M1_003",
+          "VOC_D40_001",
+          "VOC_M1_071"
+        ],
+        "audio_id": "AUD_DLG_D49_03_T3"
+      },
+      {
+        "id": "DLG_D49_03_T4",
+        "speaker": "B",
+        "text": "我複習了生詞和句子，也練習了寫字。",
+        "pinyin": "Wǒ fùxí le shēngcí hé jùzi, yě liànxí le xiě zì.",
+        "pinyin_numeric": "Wo3 fu4xi2 le sheng1ci2 he2 ju4zi, ye3 lian4xi2 le xie3 zi4.",
+        "translation_en": "I reviewed vocabulary and sentences, and also practiced writing characters.",
+        "translation_ko": "단어와 문장을 복습했고, 글자 쓰기도 연습했어요.",
+        "token_ids": [
+          "VOC_M1_002",
+          "VOC_D40_001",
+          "VOC_D40_009",
+          "VOC_M1_084",
+          "VOC_D49_019",
+          "VOC_D49_018"
+        ],
+        "audio_id": "AUD_DLG_D49_03_T4"
+      },
+      {
+        "id": "DLG_D49_03_T5",
+        "speaker": "A",
+        "text": "你覺得中文難嗎？",
+        "pinyin": "Nǐ juéde zhōngwén nán ma?",
+        "pinyin_numeric": "Ni3 jue2de zhong1wen2 nan2 ma?",
+        "translation_en": "Do you think Chinese is difficult?",
+        "translation_ko": "중국어가 어렵다고 생각해요?",
+        "token_ids": [
+          "VOC_M1_003",
+          "VOC_M1_172",
+          "VOC_M1_069",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D49_03_T5"
+      },
+      {
+        "id": "DLG_D49_03_T6",
+        "speaker": "B",
+        "text": "有一點難，可是很有意思。我喜歡學中文。",
+        "pinyin": "Yǒu yīdiǎn nán, kěshì hěn yǒu yìsi. Wǒ xǐhuān xué zhōngwén.",
+        "pinyin_numeric": "You3 yi1dian3 nan2, ke3shi4 hen3 you3 yi4si. Wo3 xi3huan1 xue2 zhong1wen2.",
+        "translation_en": "It's a little difficult, but very interesting. I like learning Chinese.",
+        "translation_ko": "조금 어렵지만, 아주 재미있어요. 저는 중국어 배우는 것을 좋아해요.",
+        "token_ids": [
+          "VOC_M1_022",
+          "VOC_M1_009",
+          "VOC_M1_105",
+          "VOC_D35_023",
+          "VOC_M1_096",
+          "VOC_D47_032",
+          "VOC_M1_002",
+          "VOC_M1_068",
+          "VOC_M1_066",
+          "VOC_M1_069"
+        ],
+        "audio_id": "AUD_DLG_D49_03_T6"
+      },
+      {
+        "id": "DLG_D49_03_T7",
+        "speaker": "A",
+        "text": "加油！你一定可以考得很好。",
+        "pinyin": "Jiāyóu! Nǐ yīdìng kěyǐ kǎo dé hěn hǎo.",
+        "pinyin_numeric": "Jia1you2! Ni3 yi1ding4 ke3yi3 kao3 de2 hen3 hao3.",
+        "translation_en": "Keep it up! I'm sure you'll do well on the exam.",
+        "translation_ko": "힘내세요! 분명히 시험 잘 볼 거예요.",
+        "token_ids": [
+          "VOC_M1_003",
+          "VOC_M1_009",
+          "VOC_M1_118",
+          "VOC_M1_172",
+          "VOC_M1_096",
+          "VOC_M1_088"
+        ],
+        "audio_id": "AUD_DLG_D49_03_T7"
+      },
+      {
+        "id": "DLG_D49_03_T8",
+        "speaker": "B",
+        "text": "謝謝你！希望明天考試順利。",
+        "pinyin": "Xièxiè nǐ! Xīwàng míngtiān kǎoshì shùnlì.",
+        "pinyin_numeric": "Xie4xie4 ni3! Xi1wang4 ming2tian1 kao3shi4 shun4li4.",
+        "translation_en": "Thank you! I hope the exam goes smoothly tomorrow.",
+        "translation_ko": "감사합니다! 내일 시험이 잘 되길 바래요.",
+        "token_ids": [
+          "VOC_D31_003",
+          "VOC_M1_003",
+          "VOC_M1_196",
+          "VOC_M1_033",
+          "VOC_M1_121"
+        ],
+        "audio_id": "AUD_DLG_D49_03_T8"
+      }
+    ],
+    "comprehension_questions": [
+      {
+        "question_en": "What is person B doing now?",
+        "question_ko": "B는 지금 무엇을 하고 있습니까?",
+        "options_en": [
+          "Watching TV",
+          "Reviewing Chinese",
+          "Eating dinner"
+        ],
+        "options_ko": [
+          "TV를 보고 있다",
+          "중국어를 복습하고 있다",
+          "저녁을 먹고 있다"
+        ],
+        "correct_index": 1
+      }
+    ],
+    "shadowing_prompt": "Repeat each sentence, focusing on the use of '正在複習' and the encouraging tone in '加油'.",
+    "free_response_prompt": "Answer the question: '你現在在做什麼？' by saying you are studying Chinese."
+  },
+  {
+    "id": "DLG_D50_01",
+    "lesson_id": "LESSON_D50",
+    "title": "說中文",
+    "scenario": "talking about what you can do and are learning",
+    "turns": [
+      {
+        "id": "DLG_D50_01_T1",
+        "speaker": "A",
+        "text": "你會說中文嗎？",
+        "pinyin": "Nǐ huì shuō zhōngwén ma?",
+        "pinyin_numeric": "Ni3 hui4 shuo1 zhong1wen2 ma5?",
+        "translation_en": "Can you speak Chinese?",
+        "translation_ko": "중국어를 할 줄 아세요?",
+        "token_ids": [
+          "VOC_M1_003",
+          "VOC_M1_194",
+          "VOC_D50_008",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D50_01_T1"
+      },
+      {
+        "id": "DLG_D50_01_T2",
+        "speaker": "B",
+        "text": "會一點，但是不太會。",
+        "pinyin": "Huì yīdiǎn, dànshì bù tài huì.",
+        "pinyin_numeric": "Hui4 yi1dian3, dan4shi4 bu4 tai4 hui4.",
+        "translation_en": "A little, but not very well.",
+        "translation_ko": "조금 할 줄 알지만, 잘하지는 못해요.",
+        "token_ids": [
+          "VOC_M1_194",
+          "VOC_D50_026",
+          "VOC_M1_007",
+          "VOC_D50_002"
+        ],
+        "audio_id": "AUD_DLG_D50_01_T2"
+      },
+      {
+        "id": "DLG_D50_01_T3",
+        "speaker": "A",
+        "text": "你學了幾個月？",
+        "pinyin": "Nǐ xué le jǐ ge yuè?",
+        "pinyin_numeric": "Ni3 xue2 le5 ji3 ge5 yue4?",
+        "translation_en": "How many months have you been studying?",
+        "translation_ko": "몇 달 동안 배웠어요?",
+        "token_ids": [
+          "VOC_M1_003",
+          "VOC_M1_066",
+          "VOC_D50_029"
+        ],
+        "audio_id": "AUD_DLG_D50_01_T3"
+      },
+      {
+        "id": "DLG_D50_01_T4",
+        "speaker": "B",
+        "text": "半年了，我還在慢慢學。",
+        "pinyin": "Bàn nián le, wǒ hái zài mànmàn xué.",
+        "pinyin_numeric": "Ban4 nian2 le5, wo3 hai2 zai4 man4man4 xue2.",
+        "translation_en": "Half a year. I'm still learning slowly.",
+        "translation_ko": "반년 됐어요. 아직 천천히 배우고 있어요.",
+        "token_ids": [
+          "VOC_D50_030",
+          "VOC_M1_002",
+          "VOC_M1_139",
+          "VOC_D50_005"
+        ],
+        "audio_id": "AUD_DLG_D50_01_T4"
+      },
+      {
+        "id": "DLG_D50_01_T5",
+        "speaker": "A",
+        "text": "你覺得說中文難嗎？",
+        "pinyin": "Nǐ juéde shuō zhōngwén nán ma?",
+        "pinyin_numeric": "Ni3 jue2de5 shuo1 zhong1wen2 nan2 ma5?",
+        "translation_en": "Do you think speaking Chinese is difficult?",
+        "translation_ko": "중국어 말하기가 어렵다고 생각하세요?",
+        "token_ids": [
+          "VOC_M1_003",
+          "VOC_M1_172",
+          "VOC_D50_008",
+          "VOC_D50_025",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D50_01_T5"
+      },
+      {
+        "id": "DLG_D50_01_T6",
+        "speaker": "B",
+        "text": "有一點難，可是我越來越進步了。",
+        "pinyin": "Yǒu yīdiǎn nán, kěshì wǒ yuèláiyuè jìnbù le.",
+        "pinyin_numeric": "You3 yi1dian3 nan2, ke3shi4 wo3 yue4lai2yue4 jin4bu4 le5.",
+        "translation_en": "It's a little difficult, but I'm making more and more progress.",
+        "translation_ko": "조금 어렵지만, 점점 더 발전하고 있어요.",
+        "token_ids": [
+          "VOC_M1_022",
+          "VOC_D50_026",
+          "VOC_D50_025",
+          "VOC_D35_023",
+          "VOC_M1_002",
+          "VOC_D50_027",
+          "VOC_D50_007"
+        ],
+        "audio_id": "AUD_DLG_D50_01_T6"
+      },
+      {
+        "id": "DLG_D50_01_T7",
+        "speaker": "A",
+        "text": "加油！你已經說得很好了。",
+        "pinyin": "Jiāyóu! Nǐ yǐjīng shuō de hěn hǎo le.",
+        "pinyin_numeric": "Jia1you2! Ni3 yi3jing1 shuo1 de5 hen3 hao3 le5.",
+        "translation_en": "Keep it up! You already speak very well.",
+        "translation_ko": "힘내세요! 벌써 잘 말하고 있어요.",
+        "token_ids": [
+          "VOC_M1_003",
+          "VOC_D50_028",
+          "VOC_M1_064",
+          "VOC_M1_172",
+          "VOC_M1_096",
+          "VOC_M1_088"
+        ],
+        "audio_id": "AUD_DLG_D50_01_T7"
+      },
+      {
+        "id": "DLG_D50_01_T8",
+        "speaker": "B",
+        "text": "謝謝，我會繼續努力。",
+        "pinyin": "Xièxie, wǒ huì jìxù nǔlì.",
+        "pinyin_numeric": "Xie4xie5, wo3 hui4 ji4xu4 nu3li4.",
+        "translation_en": "Thank you. I will keep working hard.",
+        "translation_ko": "감사합니다. 계속 노력할게요.",
+        "token_ids": [
+          "VOC_D31_003",
+          "VOC_M1_002",
+          "VOC_M1_194",
+          "VOC_D50_006"
+        ],
+        "audio_id": "AUD_DLG_D50_01_T8"
+      }
+    ],
+    "comprehension_questions": [
+      {
+        "question_en": "How long has B been learning Chinese?",
+        "question_ko": "B는 중국어를 얼마나 배웠습니까?",
+        "options_en": [
+          "Three months",
+          "Half a year",
+          "One year"
+        ],
+        "options_ko": [
+          "세 달",
+          "반년",
+          "일 년"
+        ],
+        "correct_index": 1
+      }
+    ],
+    "shadowing_prompt": "Repeat each sentence after the speaker, focusing on tone and rhythm.",
+    "free_response_prompt": "Tell me about your Chinese learning experience. How long have you been studying? What is difficult for you?"
+  },
+  {
+    "id": "DLG_D50_02",
+    "lesson_id": "LESSON_D50",
+    "title": "會煮菜",
+    "scenario": "talking about what you can do and are learning",
+    "turns": [
+      {
+        "id": "DLG_D50_02_T1",
+        "speaker": "A",
+        "text": "你會煮菜嗎？",
+        "pinyin": "Nǐ huì zhǔ cài ma?",
+        "pinyin_numeric": "Ni3 hui4 zhu3 cai4 ma5?",
+        "translation_en": "Can you cook?",
+        "translation_ko": "요리할 줄 아세요?",
+        "token_ids": [
+          "VOC_M1_003",
+          "VOC_M1_194",
+          "VOC_D50_016",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D50_02_T1"
+      },
+      {
+        "id": "DLG_D50_02_T2",
+        "speaker": "B",
+        "text": "會，我喜歡煮菜。",
+        "pinyin": "Huì, wǒ xǐhuān zhǔ cài.",
+        "pinyin_numeric": "Hui4, wo3 xi3huan1 zhu3 cai4.",
+        "translation_en": "Yes, I like cooking.",
+        "translation_ko": "네, 요리하는 것을 좋아해요.",
+        "token_ids": [
+          "VOC_M1_194",
+          "VOC_M1_002",
+          "VOC_M1_068",
+          "VOC_D50_016"
+        ],
+        "audio_id": "AUD_DLG_D50_02_T2"
+      },
+      {
+        "id": "DLG_D50_02_T3",
+        "speaker": "A",
+        "text": "你常常煮什麼？",
+        "pinyin": "Nǐ chángcháng zhǔ shénme?",
+        "pinyin_numeric": "Ni3 chang2chang2 zhu3 shen2me5?",
+        "translation_en": "What do you often cook?",
+        "translation_ko": "자주 무엇을 요리하세요?",
+        "token_ids": [
+          "VOC_M1_003",
+          "VOC_M1_071"
+        ],
+        "audio_id": "AUD_DLG_D50_02_T3"
+      },
+      {
+        "id": "DLG_D50_02_T4",
+        "speaker": "B",
+        "text": "我常常煮炒飯和青菜。",
+        "pinyin": "Wǒ chángcháng zhǔ chǎofàn hé qīngcài.",
+        "pinyin_numeric": "Wo3 chang2chang2 zhu3 chao3fan4 he2 qing1cai4.",
+        "translation_en": "I often make fried rice and vegetables.",
+        "translation_ko": "저는 자주 볶음밥과 채소를 요리해요.",
+        "token_ids": [
+          "VOC_M1_002",
+          "VOC_D35_035",
+          "VOC_D35_037"
+        ],
+        "audio_id": "AUD_DLG_D50_02_T4"
+      },
+      {
+        "id": "DLG_D50_02_T5",
+        "speaker": "A",
+        "text": "聽起來很簡單，可是我覺得煮菜很難。",
+        "pinyin": "Tīng qǐlái hěn jiǎndān, kěshì wǒ juéde zhǔ cài hěn nán.",
+        "pinyin_numeric": "Ting1 qi3lai2 hen3 jian3dan1, ke3shi4 wo3 jue2de5 zhu3 cai4 hen3 nan2.",
+        "translation_en": "Sounds simple, but I think cooking is hard.",
+        "translation_ko": "간단해 보이는데, 저는 요리가 어렵다고 생각해요.",
+        "token_ids": [
+          "VOC_D42_033",
+          "VOC_M1_096",
+          "VOC_D50_024",
+          "VOC_D35_023",
+          "VOC_D42_031",
+          "VOC_D50_016",
+          "VOC_M1_096",
+          "VOC_D50_025"
+        ],
+        "audio_id": "AUD_DLG_D50_02_T5"
+      },
+      {
+        "id": "DLG_D50_02_T6",
+        "speaker": "B",
+        "text": "不會啦，你慢慢學就會了。",
+        "pinyin": "Bù huì la, nǐ mànmàn xué jiù huì le.",
+        "pinyin_numeric": "Bu4 hui4 la5, ni3 man4man4 xue2 jiu4 hui4 le5.",
+        "translation_en": "No, it's not. If you learn slowly, you'll get it.",
+        "translation_ko": "아니에요. 천천히 배우면 할 수 있게 돼요.",
+        "token_ids": [
+          "VOC_M1_079",
+          "VOC_M1_194",
+          "VOC_M1_003",
+          "VOC_D50_005",
+          "VOC_M1_194"
+        ],
+        "audio_id": "AUD_DLG_D50_02_T6"
+      },
+      {
+        "id": "DLG_D50_02_T7",
+        "speaker": "A",
+        "text": "你可以教我嗎？",
+        "pinyin": "Nǐ kěyǐ jiāo wǒ ma?",
+        "pinyin_numeric": "Ni3 ke3yi3 jiao1 wo3 ma5?",
+        "translation_en": "Can you teach me?",
+        "translation_ko": "저를 가르쳐 주실 수 있나요?",
+        "token_ids": [
+          "VOC_M1_003",
+          "VOC_M1_118",
+          "VOC_D50_014",
+          "VOC_M1_002",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D50_02_T7"
+      },
+      {
+        "id": "DLG_D50_02_T8",
+        "speaker": "B",
+        "text": "當然可以！我們一起煮。",
+        "pinyin": "Dāngrán kěyǐ! Wǒmen yīqǐ zhǔ.",
+        "pinyin_numeric": "Dang1ran2 ke3yi3! Wo3men5 yi1qi3 zhu3.",
+        "translation_en": "Of course! Let's cook together.",
+        "translation_ko": "물론이죠! 같이 요리해요.",
+        "token_ids": [
+          "VOC_D50_031",
+          "VOC_M1_118",
+          "VOC_M1_006",
+          "VOC_M1_183"
+        ],
+        "audio_id": "AUD_DLG_D50_02_T8"
+      }
+    ],
+    "comprehension_questions": [
+      {
+        "question_en": "What does B often cook?",
+        "question_ko": "B는 자주 무엇을 요리합니까?",
+        "options_en": [
+          "Noodles and soup",
+          "Fried rice and vegetables",
+          "Fish and rice"
+        ],
+        "options_ko": [
+          "국수와 국",
+          "볶음밥과 채소",
+          "생선과 밥"
+        ],
+        "correct_index": 1
+      }
+    ],
+    "shadowing_prompt": "Repeat each sentence after the speaker, paying attention to the tone of questions and responses.",
+    "free_response_prompt": "Can you cook? What do you like to cook? Is cooking easy or difficult for you?"
+  },
+  {
+    "id": "DLG_D50_03",
+    "lesson_id": "LESSON_D50",
+    "title": "不會看中文",
+    "scenario": "talking about what you can do and are learning",
+    "turns": [
+      {
+        "id": "DLG_D50_03_T1",
+        "speaker": "A",
+        "text": "你會看中文嗎？",
+        "pinyin": "Nǐ huì kàn zhōngwén ma?",
+        "pinyin_numeric": "Ni3 hui4 kan4 zhong1wen2 ma5?",
+        "translation_en": "Can you read Chinese?",
+        "translation_ko": "중국어를 읽을 줄 아세요?",
+        "token_ids": [
+          "VOC_M1_003",
+          "VOC_M1_194",
+          "VOC_M1_062",
+          "VOC_M1_069",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D50_03_T1"
+      },
+      {
+        "id": "DLG_D50_03_T2",
+        "speaker": "B",
+        "text": "完全不會，我只會說一點。",
+        "pinyin": "Wánquán bù huì, wǒ zhǐ huì shuō yīdiǎn.",
+        "pinyin_numeric": "Wan2quan2 bu4 hui4, wo3 zhi3 hui4 shuo1 yi1dian3.",
+        "translation_en": "Not at all. I can only speak a little.",
+        "translation_ko": "전혀 못 해요. 조금 말할 줄만 알아요.",
+        "token_ids": [
+          "VOC_D50_003",
+          "VOC_M1_002",
+          "VOC_M1_194",
+          "VOC_M1_064",
+          "VOC_D50_026"
+        ],
+        "audio_id": "AUD_DLG_D50_03_T2"
+      },
+      {
+        "id": "DLG_D50_03_T3",
+        "speaker": "A",
+        "text": "那你看菜單的時候怎麼辦？",
+        "pinyin": "Nà nǐ kàn càidān de shíhou zěnme bàn?",
+        "pinyin_numeric": "Na4 ni3 kan4 cai4dan1 de5 shi2hou5 zen3me5 ban4?",
+        "translation_en": "Then what do you do when you look at a menu?",
+        "translation_ko": "그럼 메뉴를 볼 때 어떻게 해요?",
+        "token_ids": [
+          "VOC_M1_003",
+          "VOC_M1_062",
+          "VOC_M1_185",
+          "VOC_M1_023",
+          "VOC_D39_017"
+        ],
+        "audio_id": "AUD_DLG_D50_03_T3"
+      },
+      {
+        "id": "DLG_D50_03_T4",
+        "speaker": "B",
+        "text": "我請朋友幫忙，或者看照片。",
+        "pinyin": "Wǒ qǐng péngyǒu bāngmáng, huòzhě kàn zhàopiàn.",
+        "pinyin_numeric": "Wo3 qing3 peng2you3 bang1mang2, huo4zhe3 kan4 zhao4pian4.",
+        "translation_en": "I ask a friend for help, or I look at pictures.",
+        "translation_ko": "친구에게 도움을 요청하거나 사진을 봐요.",
+        "token_ids": [
+          "VOC_M1_002",
+          "VOC_M1_179",
+          "VOC_M1_042",
+          "VOC_D39_019",
+          "VOC_M1_062",
+          "VOC_D48_032"
+        ],
+        "audio_id": "AUD_DLG_D50_03_T4"
+      },
+      {
+        "id": "DLG_D50_03_T5",
+        "speaker": "A",
+        "text": "你想學看中文嗎？",
+        "pinyin": "Nǐ xiǎng xué kàn zhōngwén ma?",
+        "pinyin_numeric": "Ni3 xiang3 xue2 kan4 zhong1wen2 ma5?",
+        "translation_en": "Do you want to learn to read Chinese?",
+        "translation_ko": "중국어 읽기를 배우고 싶으세요?",
+        "token_ids": [
+          "VOC_M1_003",
+          "VOC_M1_050",
+          "VOC_M1_066",
+          "VOC_M1_062",
+          "VOC_M1_069",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D50_03_T5"
+      },
+      {
+        "id": "DLG_D50_03_T6",
+        "speaker": "B",
+        "text": "想，可是寫字很難。",
+        "pinyin": "Xiǎng, kěshì xiě zì hěn nán.",
+        "pinyin_numeric": "Xiang3, ke3shi4 xie3 zi4 hen3 nan2.",
+        "translation_en": "Yes, but writing characters is hard.",
+        "translation_ko": "네, 그런데 글자 쓰기는 어려워요.",
+        "token_ids": [
+          "VOC_M1_050",
+          "VOC_D35_023",
+          "VOC_D49_018",
+          "VOC_M1_096",
+          "VOC_D50_025"
+        ],
+        "audio_id": "AUD_DLG_D50_03_T6"
+      },
+      {
+        "id": "DLG_D50_03_T7",
+        "speaker": "A",
+        "text": "你可以先學簡單的字。",
+        "pinyin": "Nǐ kěyǐ xiān xué jiǎndān de zì.",
+        "pinyin_numeric": "Ni3 ke3yi3 xian1 xue2 jian3dan1 de5 zi4.",
+        "translation_en": "You can start by learning simple characters.",
+        "translation_ko": "간단한 글자부터 먼저 배울 수 있어요.",
+        "token_ids": [
+          "VOC_M1_003",
+          "VOC_M1_118",
+          "VOC_M1_132",
+          "VOC_M1_066",
+          "VOC_D50_034"
+        ],
+        "audio_id": "AUD_DLG_D50_03_T7"
+      },
+      {
+        "id": "DLG_D50_03_T8",
+        "speaker": "B",
+        "text": "好，我試試看。",
+        "pinyin": "Hǎo, wǒ shì shì kàn.",
+        "pinyin_numeric": "Hao3, wo3 shi4 shi4 kan4.",
+        "translation_en": "Okay, I'll give it a try.",
+        "translation_ko": "좋아요, 한번 해볼게요.",
+        "token_ids": [
+          "VOC_M1_088",
+          "VOC_M1_002",
+          "VOC_M1_121",
+          "VOC_M1_121",
+          "VOC_M1_062"
+        ],
+        "audio_id": "AUD_DLG_D50_03_T8"
+      }
+    ],
+    "comprehension_questions": [
+      {
+        "question_en": "Can B read Chinese?",
+        "question_ko": "B는 중국어를 읽을 수 있습니까?",
+        "options_en": [
+          "Yes, very well",
+          "A little",
+          "Not at all"
+        ],
+        "options_ko": [
+          "네, 아주 잘해요",
+          "조금요",
+          "전혀 못 해요"
+        ],
+        "correct_index": 2
+      }
+    ],
+    "shadowing_prompt": "Repeat each sentence after the speaker, focusing on the pronunciation of negative forms and questions.",
+    "free_response_prompt": "Can you read Chinese? Is it difficult for you? What do you do when you see Chinese characters you don't understand?"
+  },
+  {
+    "id": "DLG_D51_01",
+    "lesson_id": "LESSON_D51",
+    "title": "那個人是誰？",
+    "scenario": "appearance, personality, basic relationships",
+    "turns": [
+      {
+        "id": "DLG_D51_01_T1",
+        "speaker": "A",
+        "text": "那個人是誰？",
+        "pinyin": "Nà ge rén shì shéi?",
+        "pinyin_numeric": "Na4 ge ren2 shi4 shei2?",
+        "translation_en": "Who is that person?",
+        "translation_ko": "저 사람은 누구예요?",
+        "token_ids": [
+          "VOC_D51_016",
+          "VOC_M1_007",
+          "VOC_M1_072"
+        ],
+        "audio_id": "AUD_DLG_D51_01_T1"
+      },
+      {
+        "id": "DLG_D51_01_T2",
+        "speaker": "B",
+        "text": "那個人是我的朋友，他叫小明。",
+        "pinyin": "Nà ge rén shì wǒ de péngyǒu, tā jiào Xiǎo Míng.",
+        "pinyin_numeric": "Na4 ge ren2 shi4 wo3 de peng2you3, ta1 jiao4 Xiao3 Ming2.",
+        "translation_en": "That person is my friend. His name is Xiao Ming.",
+        "translation_ko": "저 사람은 제 친구예요. 이름은 샤오밍이에요.",
+        "token_ids": [
+          "VOC_D51_016",
+          "VOC_M1_007",
+          "VOC_M1_002",
+          "VOC_M1_023",
+          "VOC_M1_042",
+          "VOC_M1_004",
+          "VOC_M1_008",
+          "VOC_M1_087"
+        ],
+        "audio_id": "AUD_DLG_D51_01_T2"
+      },
+      {
+        "id": "DLG_D51_01_T3",
+        "speaker": "A",
+        "text": "他長得怎麼樣？",
+        "pinyin": "Tā zhǎng de zěnme yàng?",
+        "pinyin_numeric": "Ta1 zhang3 de zen3me yang4?",
+        "translation_en": "What does he look like?",
+        "translation_ko": "그는 어떻게 생겼어요?",
+        "token_ids": [
+          "VOC_M1_004",
+          "VOC_D51_017",
+          "VOC_M1_075"
+        ],
+        "audio_id": "AUD_DLG_D51_01_T3"
+      },
+      {
+        "id": "DLG_D51_01_T4",
+        "speaker": "B",
+        "text": "他長得很高，頭髮短短的，戴眼鏡。",
+        "pinyin": "Tā zhǎng de hěn gāo, tóufa duǎn duǎn de, dài yǎnjìng.",
+        "pinyin_numeric": "Ta1 zhang3 de hen3 gao1, tou2fa duan3 duan3 de, dai4 yan3jing4.",
+        "translation_en": "He is very tall, has short hair, and wears glasses.",
+        "translation_ko": "그는 키가 크고, 머리가 짧고, 안경을 썼어요.",
+        "token_ids": [
+          "VOC_M1_004",
+          "VOC_D51_017",
+          "VOC_M1_096",
+          "VOC_D51_001",
+          "VOC_D51_007",
+          "VOC_M1_023",
+          "VOC_D51_009"
+        ],
+        "audio_id": "AUD_DLG_D51_01_T4"
+      },
+      {
+        "id": "DLG_D51_01_T5",
+        "speaker": "A",
+        "text": "他的個性怎麼樣？",
+        "pinyin": "Tā de gèxìng zěnme yàng?",
+        "pinyin_numeric": "Ta1 de ge4xing4 zen3me yang4?",
+        "translation_en": "What is his personality like?",
+        "translation_ko": "그의 성격은 어때요?",
+        "token_ids": [
+          "VOC_M1_004",
+          "VOC_M1_023",
+          "VOC_D51_010",
+          "VOC_M1_075"
+        ],
+        "audio_id": "AUD_DLG_D51_01_T5"
+      },
+      {
+        "id": "DLG_D51_01_T6",
+        "speaker": "B",
+        "text": "他個性很友善，也很幽默，大家都喜歡他。",
+        "pinyin": "Tā gèxìng hěn yǒushàn, yě hěn yōumò, dàjiā dōu xǐhuān tā.",
+        "pinyin_numeric": "Ta1 ge4xing4 hen3 you3shan4, ye3 hen3 you1mo4, da4jia1 dou1 xi3huan1 ta1.",
+        "translation_en": "He is very friendly and humorous. Everyone likes him.",
+        "translation_ko": "그는 성격이 아주 친절하고 유머러스해서 모두가 좋아해요.",
+        "token_ids": [
+          "VOC_M1_004",
+          "VOC_D51_010",
+          "VOC_M1_096",
+          "VOC_D51_011",
+          "VOC_M1_084",
+          "VOC_M1_096",
+          "VOC_D51_012",
+          "VOC_M1_086",
+          "VOC_M1_039",
+          "VOC_M1_085",
+          "VOC_M1_068",
+          "VOC_M1_004"
+        ],
+        "audio_id": "AUD_DLG_D51_01_T6"
+      }
+    ],
+    "comprehension_questions": [
+      {
+        "question_en": "What does Xiao Ming look like?",
+        "question_ko": "샤오밍은 어떻게 생겼습니까?",
+        "options_en": [
+          "Short with long hair",
+          "Tall with short hair and glasses",
+          "Short with no glasses"
+        ],
+        "options_ko": [
+          "키가 작고 머리가 길다",
+          "키가 크고 머리가 짧으며 안경을 썼다",
+          "키가 작고 안경이 없다"
+        ],
+        "correct_index": 1
+      }
+    ],
+    "shadowing_prompt": "Repeat each sentence after the speaker, focusing on tone and rhythm.",
+    "free_response_prompt": "Describe a friend's appearance and personality in Chinese."
+  },
+  {
+    "id": "DLG_D51_02",
+    "lesson_id": "LESSON_D51",
+    "title": "介紹朋友",
+    "scenario": "appearance, personality, basic relationships",
+    "turns": [
+      {
+        "id": "DLG_D51_02_T1",
+        "speaker": "A",
+        "text": "你有認識新朋友嗎？",
+        "pinyin": "Nǐ yǒu rènshi xīn péngyǒu ma?",
+        "pinyin_numeric": "Ni3 you3 ren4shi xin1 peng2you3 ma?",
+        "translation_en": "Have you met any new friends?",
+        "translation_ko": "새 친구를 사귀었어요?",
+        "token_ids": [
+          "VOC_M1_003",
+          "VOC_M1_022",
+          "VOC_D51_029",
+          "VOC_M1_161",
+          "VOC_M1_042",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D51_02_T1"
+      },
+      {
+        "id": "DLG_D51_02_T2",
+        "speaker": "B",
+        "text": "有啊，我認識一個女生，她叫小美。",
+        "pinyin": "Yǒu a, wǒ rènshi yī ge nǚshēng, tā jiào Xiǎo Měi.",
+        "pinyin_numeric": "You3 a, wo3 ren4shi yi1 ge nü3sheng1, ta1 jiao4 Xiao3 Mei3.",
+        "translation_en": "Yes, I met a girl. Her name is Xiao Mei.",
+        "translation_ko": "네, 여자 친구를 한 명 사귀었어요. 이름은 샤오메이예요.",
+        "token_ids": [
+          "VOC_M1_022",
+          "VOC_M1_002",
+          "VOC_D51_029",
+          "VOC_M1_009",
+          "VOC_M1_041",
+          "VOC_M1_005",
+          "VOC_M1_008",
+          "VOC_M1_087"
+        ],
+        "audio_id": "AUD_DLG_D51_02_T2"
+      },
+      {
+        "id": "DLG_D51_02_T3",
+        "speaker": "A",
+        "text": "她長得怎麼樣？",
+        "pinyin": "Tā zhǎng de zěnme yàng?",
+        "pinyin_numeric": "Ta1 zhang3 de zen3me yang4?",
+        "translation_en": "What does she look like?",
+        "translation_ko": "그녀는 어떻게 생겼어요?",
+        "token_ids": [
+          "VOC_M1_005",
+          "VOC_D51_017",
+          "VOC_M1_075"
+        ],
+        "audio_id": "AUD_DLG_D51_02_T3"
+      },
+      {
+        "id": "DLG_D51_02_T4",
+        "speaker": "B",
+        "text": "她長得很可愛，眼睛大大的，頭髮長長的。",
+        "pinyin": "Tā zhǎng de hěn kě'ài, yǎnjīng dà dà de, tóufa cháng cháng de.",
+        "pinyin_numeric": "Ta1 zhang3 de hen3 ke3'ai4, yan3jing1 da4 da4 de, tou2fa chang2 chang2 de.",
+        "translation_en": "She looks very cute, with big eyes and long hair.",
+        "translation_ko": "그녀는 아주 귀여워요. 눈이 크고 머리가 길어요.",
+        "token_ids": [
+          "VOC_M1_005",
+          "VOC_D51_017",
+          "VOC_M1_096",
+          "VOC_D51_021",
+          "VOC_D51_008",
+          "VOC_M1_086",
+          "VOC_M1_086",
+          "VOC_M1_023",
+          "VOC_D51_007",
+          "VOC_M1_023"
+        ],
+        "audio_id": "AUD_DLG_D51_02_T4"
+      },
+      {
+        "id": "DLG_D51_02_T5",
+        "speaker": "A",
+        "text": "她的個性怎麼樣？",
+        "pinyin": "Tā de gèxìng zěnme yàng?",
+        "pinyin_numeric": "Ta1 de ge4xing4 zen3me yang4?",
+        "translation_en": "What is her personality like?",
+        "translation_ko": "그녀의 성격은 어때요?",
+        "token_ids": [
+          "VOC_M1_005",
+          "VOC_M1_023",
+          "VOC_D51_010",
+          "VOC_M1_075"
+        ],
+        "audio_id": "AUD_DLG_D51_02_T5"
+      },
+      {
+        "id": "DLG_D51_02_T6",
+        "speaker": "B",
+        "text": "她很活潑，也很溫柔，說話很好聽。",
+        "pinyin": "Tā hěn huópō, yě hěn wēnróu, shuōhuà hěn hǎotīng.",
+        "pinyin_numeric": "Ta1 hen3 huo2po1, ye3 hen3 wen1rou2, shuo1hua4 hen3 hao3ting1.",
+        "translation_en": "She is very lively and gentle. Her voice is pleasant.",
+        "translation_ko": "그녀는 아주 활발하고 부드러워요. 말하는 것도 듣기 좋아요.",
+        "token_ids": [
+          "VOC_M1_005",
+          "VOC_M1_096",
+          "VOC_D51_023",
+          "VOC_M1_084",
+          "VOC_M1_096",
+          "VOC_D51_022",
+          "VOC_D51_027",
+          "VOC_M1_096",
+          "VOC_M1_088",
+          "VOC_M1_063"
+        ],
+        "audio_id": "AUD_DLG_D51_02_T6"
+      },
+      {
+        "id": "DLG_D51_02_T7",
+        "speaker": "A",
+        "text": "聽起來她是一個很有趣的人。",
+        "pinyin": "Tīng qǐlái tā shì yī ge hěn yǒuqù de rén.",
+        "pinyin_numeric": "Ting1 qi3lai2 ta1 shi4 yi1 ge hen3 you3qu4 de ren2.",
+        "translation_en": "She sounds like a very interesting person.",
+        "translation_ko": "그녀는 아주 재미있는 사람인 것 같아요.",
+        "token_ids": [
+          "VOC_D42_033",
+          "VOC_M1_005",
+          "VOC_M1_007",
+          "VOC_M1_009",
+          "VOC_M1_041",
+          "VOC_M1_096",
+          "VOC_D51_015",
+          "VOC_M1_023",
+          "VOC_M1_040"
+        ],
+        "audio_id": "AUD_DLG_D51_02_T7"
+      }
+    ],
+    "comprehension_questions": [
+      {
+        "question_en": "What is Xiao Mei's personality like?",
+        "question_ko": "샤오메이의 성격은 어떻습니까?",
+        "options_en": [
+          "Shy and quiet",
+          "Lively and gentle",
+          "Serious and smart"
+        ],
+        "options_ko": [
+          "수줍고 조용하다",
+          "활발하고 부드럽다",
+          "진지하고 똑똑하다"
+        ],
+        "correct_index": 1
+      }
+    ],
+    "shadowing_prompt": "Repeat each sentence after the speaker, paying attention to the description words.",
+    "free_response_prompt": "Introduce a friend: describe their appearance and personality."
+  },
+  {
+    "id": "DLG_D51_03",
+    "lesson_id": "LESSON_D51",
+    "title": "描述老師",
+    "scenario": "appearance, personality, basic relationships",
+    "turns": [
+      {
+        "id": "DLG_D51_03_T1",
+        "speaker": "A",
+        "text": "你的中文老師怎麼樣？",
+        "pinyin": "Nǐ de Zhōngwén lǎoshī zěnme yàng?",
+        "pinyin_numeric": "Ni3 de Zhong1wen2 lao3shi1 zen3me yang4?",
+        "translation_en": "How is your Chinese teacher?",
+        "translation_ko": "중국어 선생님은 어떠세요?",
+        "token_ids": [
+          "VOC_M1_003",
+          "VOC_M1_023",
+          "VOC_M1_069",
+          "VOC_M1_075"
+        ],
+        "audio_id": "AUD_DLG_D51_03_T1"
+      },
+      {
+        "id": "DLG_D51_03_T2",
+        "speaker": "B",
+        "text": "我的中文老師很年輕，個子不高，瘦瘦的。",
+        "pinyin": "Wǒ de Zhōngwén lǎoshī hěn niánqīng, gèzi bù gāo, shòu shòu de.",
+        "pinyin_numeric": "Wo3 de Zhong1wen2 lao3shi1 hen3 nian2qing1, ge4zi bu4 gao1, shou4 shou4 de.",
+        "translation_en": "My Chinese teacher is very young, not tall, and thin.",
+        "translation_ko": "제 중국어 선생님은 아주 젊고, 키가 크지 않고, 날씬해요.",
+        "token_ids": [
+          "VOC_M1_002",
+          "VOC_M1_023",
+          "VOC_M1_069",
+          "VOC_M1_096",
+          "VOC_D51_005",
+          "VOC_M1_041",
+          "VOC_M1_079",
+          "VOC_D51_001",
+          "VOC_D51_004",
+          "VOC_D51_004",
+          "VOC_M1_023"
+        ],
+        "audio_id": "AUD_DLG_D51_03_T2"
+      },
+      {
+        "id": "DLG_D51_03_T3",
+        "speaker": "A",
+        "text": "他長得帥嗎？",
+        "pinyin": "Tā zhǎng de shuài ma?",
+        "pinyin_numeric": "Ta1 zhang3 de shuai4 ma?",
+        "translation_en": "Is he handsome?",
+        "translation_ko": "그는 잘생겼어요?",
+        "token_ids": [
+          "VOC_M1_004",
+          "VOC_D51_017",
+          "VOC_D51_020",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D51_03_T3"
+      },
+      {
+        "id": "DLG_D51_03_T4",
+        "speaker": "B",
+        "text": "他長得很帥，頭髮短短的，看起來很認真。",
+        "pinyin": "Tā zhǎng de hěn shuài, tóufa duǎn duǎn de, kàn qǐlái hěn rènzhēn.",
+        "pinyin_numeric": "Ta1 zhang3 de hen3 shuai4, tou2fa duan3 duan3 de, kan4 qi3lai2 hen3 ren4zhen1.",
+        "translation_en": "He is very handsome, with short hair, and looks serious.",
+        "translation_ko": "그는 아주 잘생겼어요. 머리가 짧고 진지해 보여요.",
+        "token_ids": [
+          "VOC_M1_004",
+          "VOC_D51_017",
+          "VOC_M1_096",
+          "VOC_D51_020",
+          "VOC_D51_007",
+          "VOC_M1_023",
+          "VOC_D42_032",
+          "VOC_M1_096",
+          "VOC_D51_013"
+        ],
+        "audio_id": "AUD_DLG_D51_03_T4"
+      },
+      {
+        "id": "DLG_D51_03_T5",
+        "speaker": "A",
+        "text": "他的個性怎麼樣？",
+        "pinyin": "Tā de gèxìng zěnme yàng?",
+        "pinyin_numeric": "Ta1 de ge4xing4 zen3me yang4?",
+        "translation_en": "What is his personality like?",
+        "translation_ko": "그의 성격은 어때요?",
+        "token_ids": [
+          "VOC_M1_004",
+          "VOC_M1_023",
+          "VOC_D51_010",
+          "VOC_M1_075"
+        ],
+        "audio_id": "AUD_DLG_D51_03_T5"
+      },
+      {
+        "id": "DLG_D51_03_T6",
+        "speaker": "B",
+        "text": "他個性很認真，也很聰明，上課很有趣。",
+        "pinyin": "Tā gèxìng hěn rènzhēn, yě hěn cōngmíng, shàngkè hěn yǒuqù.",
+        "pinyin_numeric": "Ta1 ge4xing4 hen3 ren4zhen1, ye3 hen3 cong1ming2, shang4ke4 hen3 you3qu4.",
+        "translation_en": "He is very serious and smart. His classes are interesting.",
+        "translation_ko": "그는 성격이 아주 진지하고 똑똑해요. 수업도 재미있어요.",
+        "token_ids": [
+          "VOC_M1_004",
+          "VOC_D51_010",
+          "VOC_M1_096",
+          "VOC_D51_013",
+          "VOC_M1_084",
+          "VOC_M1_096",
+          "VOC_D51_014",
+          "VOC_D36_007",
+          "VOC_M1_096",
+          "VOC_D51_015"
+        ],
+        "audio_id": "AUD_DLG_D51_03_T6"
+      },
+      {
+        "id": "DLG_D51_03_T7",
+        "speaker": "A",
+        "text": "聽起來你喜歡你的老師。",
+        "pinyin": "Tīng qǐlái nǐ xǐhuān nǐ de lǎoshī.",
+        "pinyin_numeric": "Ting1 qi3lai2 ni3 xi3huan1 ni3 de lao3shi1.",
+        "translation_en": "It sounds like you like your teacher.",
+        "translation_ko": "선생님을 좋아하는 것 같네요.",
+        "token_ids": [
+          "VOC_D42_033",
+          "VOC_M1_003",
+          "VOC_M1_068",
+          "VOC_M1_003",
+          "VOC_M1_023"
+        ],
+        "audio_id": "AUD_DLG_D51_03_T7"
+      },
+      {
+        "id": "DLG_D51_03_T8",
+        "speaker": "B",
+        "text": "對啊，他是一個很好的老師。",
+        "pinyin": "Duì a, tā shì yī ge hěn hǎo de lǎoshī.",
+        "pinyin_numeric": "Dui4 a, ta1 shi4 yi1 ge hen3 hao3 de lao3shi1.",
+        "translation_en": "Yes, he is a very good teacher.",
+        "translation_ko": "네, 그는 아주 좋은 선생님이에요.",
+        "token_ids": [
+          "VOC_M1_004",
+          "VOC_M1_007",
+          "VOC_M1_009",
+          "VOC_M1_041",
+          "VOC_M1_096",
+          "VOC_M1_088",
+          "VOC_M1_023"
+        ],
+        "audio_id": "AUD_DLG_D51_03_T8"
+      }
+    ],
+    "comprehension_questions": [
+      {
+        "question_en": "What is the teacher's personality like?",
+        "question_ko": "선생님의 성격은 어떻습니까?",
+        "options_en": [
+          "Funny and lazy",
+          "Serious and smart",
+          "Shy and quiet"
+        ],
+        "options_ko": [
+          "재미있고 게으르다",
+          "진지하고 똑똑하다",
+          "수줍고 조용하다"
+        ],
+        "correct_index": 1
+      }
+    ],
+    "shadowing_prompt": "Repeat each sentence after the speaker, focusing on describing appearance and personality.",
+    "free_response_prompt": "Describe your teacher: appearance, personality, and why you like them."
+  },
+  {
+    "id": "DLG_D52_01",
+    "lesson_id": "LESSON_D52",
+    "title": "哪個比較便宜？",
+    "scenario": "comparing food, places, prices, convenience",
+    "turns": [
+      {
+        "id": "DLG_D52_01_T1",
+        "speaker": "A",
+        "text": "你好，請問這個便當和那個飯糰，哪個比較便宜？",
+        "pinyin": "Nǐ hǎo, qǐng wèn zhège biàndāng hé nàge fàntuán, nǎge bǐjiào piányí?",
+        "pinyin_numeric": "Ni3 hao3, qing3 wen4 zhe4 ge4 bian4 dang1 he2 na4 ge4 fan4 tuan2, na3 ge4 bi3 jiao4 pian2 yi2?",
+        "translation_en": "Hello, may I ask, between this bento and that rice ball, which one is cheaper?",
+        "translation_ko": "안녕하세요, 이 도시락과 저 주먹밥 중에 어느 것이 더 싼가요?",
+        "token_ids": [
+          "VOC_M1_001",
+          "VOC_D33_026",
+          "VOC_M1_041",
+          "VOC_D32_017",
+          "VOC_M1_163",
+          "VOC_D32_018",
+          "VOC_M1_041",
+          "VOC_D41_020"
+        ],
+        "audio_id": "AUD_DLG_D52_01_T1"
+      },
+      {
+        "id": "DLG_D52_01_T2",
+        "speaker": "B",
+        "text": "飯糰比較便宜，一個只要三十塊。便當比較貴，要八十塊。",
+        "pinyin": "Fàntuán bǐjiào piányí, yīge zhǐ yào sānshí kuài. Biàndāng bǐjiào guì, yào bāshí kuài.",
+        "pinyin_numeric": "Fan4 tuan2 bi3 jiao4 pian2 yi2, yi1 ge4 zhi3 yao4 san1 shi2 kuai4. Bian4 dang1 bi3 jiao4 gui4, yao4 ba1 shi2 kuai4.",
+        "translation_en": "The rice ball is cheaper, only 30 dollars. The bento is more expensive, 80 dollars.",
+        "translation_ko": "주먹밥이 더 싸요, 하나에 30원이에요. 도시락은 더 비싸서 80원이에요.",
+        "token_ids": [
+          "VOC_D32_018",
+          "VOC_D41_020",
+          "VOC_M1_009",
+          "VOC_M1_041",
+          "VOC_M1_061",
+          "VOC_M1_011",
+          "VOC_M1_015",
+          "VOC_M1_116",
+          "VOC_D32_017",
+          "VOC_D52_001",
+          "VOC_M1_095",
+          "VOC_M1_061",
+          "VOC_M1_019",
+          "VOC_M1_015",
+          "VOC_M1_116"
+        ],
+        "audio_id": "AUD_DLG_D52_01_T2"
+      },
+      {
+        "id": "DLG_D52_01_T3",
+        "speaker": "A",
+        "text": "可是便當的份量比較多，我覺得比較划算。",
+        "pinyin": "Kěshì biàndāng de fènliàng bǐjiào duō, wǒ juéde bǐjiào huásuàn.",
+        "pinyin_numeric": "Ke3 shi4 bian4 dang1 de fen4 liang4 bi3 jiao4 duo1, wo3 jue2 de5 bi3 jiao4 hua2 suan4.",
+        "translation_en": "But the bento has a larger portion, I think it's more cost-effective.",
+        "translation_ko": "그런데 도시락 양이 더 많아서 더划算한 것 같아요.",
+        "token_ids": [
+          "VOC_D35_023",
+          "VOC_D32_017",
+          "VOC_M1_023",
+          "VOC_D52_017",
+          "VOC_D52_001",
+          "VOC_M1_089",
+          "VOC_D42_031",
+          "VOC_D52_001",
+          "VOC_D52_009"
+        ],
+        "audio_id": "AUD_DLG_D52_01_T3"
+      },
+      {
+        "id": "DLG_D52_01_T4",
+        "speaker": "B",
+        "text": "對，便當的份量差不多是飯糰的兩倍，所以價格也差很多。",
+        "pinyin": "Duì, biàndāng de fènliàng chàbùduō shì fàntuán de liǎng bèi, suǒyǐ jiàgé yě chà hěnduō.",
+        "pinyin_numeric": "Dui4, bian4 dang1 de fen4 liang4 cha4 bu4 duo1 shi4 fan4 tuan2 de liang3 bei4, suo3 yi3 jia4 ge2 ye3 cha4 hen3 duo1.",
+        "translation_en": "Yes, the bento's portion is about twice that of the rice ball, so the price is also very different.",
+        "translation_ko": "네, 도시락 양이 주먹밥의 약 두 배라서 가격도 많이 차이 나요.",
+        "token_ids": [
+          "VOC_D32_017",
+          "VOC_M1_023",
+          "VOC_D52_017",
+          "VOC_D42_028",
+          "VOC_M1_007",
+          "VOC_D32_018",
+          "VOC_M1_023",
+          "VOC_M1_100",
+          "VOC_D34_012",
+          "VOC_D52_026",
+          "VOC_M1_084",
+          "VOC_D52_002",
+          "VOC_M1_096",
+          "VOC_M1_089"
+        ],
+        "audio_id": "AUD_DLG_D52_01_T4"
+      },
+      {
+        "id": "DLG_D52_01_T5",
+        "speaker": "A",
+        "text": "那我決定買便當，因為比較值得。",
+        "pinyin": "Nà wǒ juédìng mǎi biàndāng, yīnwèi bǐjiào zhídé.",
+        "pinyin_numeric": "Na4 wo3 jue2 ding4 mai3 bian4 dang1, yin1 wei4 bi3 jiao4 zhi2 de2.",
+        "translation_en": "Then I decide to buy the bento, because it's more worth it.",
+        "translation_ko": "그럼 도시락을 사기로 결정할게요, 더 가치 있으니까요.",
+        "token_ids": [
+          "VOC_M1_002",
+          "VOC_D52_007",
+          "VOC_D32_017",
+          "VOC_D34_011",
+          "VOC_D52_001",
+          "VOC_D52_010"
+        ],
+        "audio_id": "AUD_DLG_D52_01_T5"
+      }
+    ],
+    "comprehension_questions": [
+      {
+        "question_en": "What did the customer decide to buy?",
+        "question_ko": "손님은 무엇을 사기로 결정했습니까?",
+        "options_en": [
+          "Rice ball",
+          "Bento",
+          "Both"
+        ],
+        "options_ko": [
+          "주먹밥",
+          "도시락",
+          "둘 다"
+        ],
+        "correct_index": 1
+      }
+    ],
+    "shadowing_prompt": "Repeat each sentence after the speaker, focusing on the tone of comparison words like 比較 and 差不多.",
+    "free_response_prompt": "Compare two items in a convenience store and explain which one you think is more cost-effective and why."
+  },
+  {
+    "id": "DLG_D52_02",
+    "lesson_id": "LESSON_D52",
+    "title": "哪個比較好？",
+    "scenario": "comparing food, places, prices, convenience",
+    "turns": [
+      {
+        "id": "DLG_D52_02_T1",
+        "speaker": "A",
+        "text": "這兩家餐廳，你覺得哪一家比較好？",
+        "pinyin": "Zhè liǎng jiā cāntīng, nǐ juéde nǎ yī jiā bǐjiào hǎo?",
+        "pinyin_numeric": "Zhe4 liang3 jia1 can1 ting1, ni3 jue2 de5 na3 yi1 jia1 bi3 jiao4 hao3?",
+        "translation_en": "Between these two restaurants, which one do you think is better?",
+        "translation_ko": "이 두 식당 중에 어느 쪽이 더 좋다고 생각하세요?",
+        "token_ids": [
+          "VOC_M1_100",
+          "VOC_M1_039",
+          "VOC_M1_060",
+          "VOC_M1_003",
+          "VOC_M1_172",
+          "VOC_M1_009",
+          "VOC_M1_039",
+          "VOC_D42_030"
+        ],
+        "audio_id": "AUD_DLG_D52_02_T1"
+      },
+      {
+        "id": "DLG_D52_02_T2",
+        "speaker": "B",
+        "text": "第一家環境比較好，氣氛很舒服。第二家價格比較便宜，服務也不錯。",
+        "pinyin": "Dì yī jiā huánjìng bǐjiào hǎo, qìfēn hěn shūfú. Dì èr jiā jiàgé bǐjiào piányí, fúwù yě bùcuò.",
+        "pinyin_numeric": "Di4 yi1 jia1 huan2 jing4 bi3 jiao4 hao3, qi4 fen1 hen3 shu1 fu2. Di4 er4 jia1 jia4 ge2 bi3 jiao4 pian2 yi2, fu2 wu4 ye3 bu4 cuo4.",
+        "translation_en": "The first one has a better environment, the atmosphere is very comfortable. The second one has cheaper prices, and the service is not bad.",
+        "translation_ko": "첫 번째 식당은 환경이 더 좋고 분위기가 아주 편안해요. 두 번째 식당은 가격이 더 싸고 서비스도 괜찮아요.",
+        "token_ids": [
+          "VOC_M1_009",
+          "VOC_M1_039",
+          "VOC_D52_018",
+          "VOC_D42_030",
+          "VOC_D52_019",
+          "VOC_D44_019",
+          "VOC_M1_010",
+          "VOC_M1_039",
+          "VOC_D52_026",
+          "VOC_D41_020",
+          "VOC_D52_020",
+          "VOC_M1_084",
+          "VOC_M1_079"
+        ],
+        "audio_id": "AUD_DLG_D52_02_T2"
+      },
+      {
+        "id": "DLG_D52_02_T3",
+        "speaker": "A",
+        "text": "那味道呢？哪一家的菜比較好吃？",
+        "pinyin": "Nà wèidào ne? Nǎ yī jiā de cài bǐjiào hǎochī?",
+        "pinyin_numeric": "Na4 wei4 dao4 ne5? Na3 yi1 jia1 de cai4 bi3 jiao4 hao3 chi1?",
+        "translation_en": "What about the taste? Which restaurant's food is more delicious?",
+        "translation_ko": "그럼 맛은요? 어느 식당 음식이 더 맛있어요?",
+        "token_ids": [
+          "VOC_D52_015",
+          "VOC_M1_111",
+          "VOC_M1_009",
+          "VOC_M1_039",
+          "VOC_M1_023",
+          "VOC_M1_054",
+          "VOC_D42_030",
+          "VOC_M1_052"
+        ],
+        "audio_id": "AUD_DLG_D52_02_T3"
+      },
+      {
+        "id": "DLG_D52_02_T4",
+        "speaker": "B",
+        "text": "我覺得味道差不多，都很新鮮。不過第一家的份量比較少，第二家比較多。",
+        "pinyin": "Wǒ juéde wèidào chàbùduō, dōu hěn xīnxiān. Búguò dì yī jiā de fènliàng bǐjiào shǎo, dì èr jiā bǐjiào duō.",
+        "pinyin_numeric": "Wo3 jue2 de5 wei4 dao4 cha4 bu4 duo1, dou1 hen3 xin1 xian1. Bu2 guo4 di4 yi1 jia1 de fen4 liang4 bi3 jiao4 shao3, di4 er4 jia1 bi3 jiao4 duo1.",
+        "translation_en": "I think the taste is similar, both are very fresh. But the first one has smaller portions, the second one has larger portions.",
+        "translation_ko": "맛은 비슷해요, 둘 다 아주 신선해요. 그런데 첫 번째는 양이 적고 두 번째는 양이 많아요.",
+        "token_ids": [
+          "VOC_D42_031",
+          "VOC_D52_015",
+          "VOC_D42_028",
+          "VOC_M1_085",
+          "VOC_M1_096",
+          "VOC_D42_013",
+          "VOC_M1_079",
+          "VOC_M1_009",
+          "VOC_M1_039",
+          "VOC_M1_023",
+          "VOC_D52_017",
+          "VOC_D52_001",
+          "VOC_M1_090",
+          "VOC_M1_010",
+          "VOC_M1_039",
+          "VOC_D52_001",
+          "VOC_M1_089"
+        ],
+        "audio_id": "AUD_DLG_D52_02_T4"
+      },
+      {
+        "id": "DLG_D52_02_T5",
+        "speaker": "A",
+        "text": "這樣的話，我寧願去第二家，因為比較划算。",
+        "pinyin": "Zhèyàng dehuà, wǒ nìngyuàn qù dì èr jiā, yīnwèi bǐjiào huásuàn.",
+        "pinyin_numeric": "Zhe4 yang4 de5 hua4, wo3 ning4 yuan4 qu4 di4 er4 jia1, yin1 wei4 bi3 jiao4 hua2 suan4.",
+        "translation_en": "In that case, I'd rather go to the second one, because it's more cost-effective.",
+        "translation_ko": "그렇다면 저는 두 번째 식당에 갈래요, 더划算하니까요.",
+        "token_ids": [
+          "VOC_M1_023",
+          "VOC_M1_002",
+          "VOC_D52_040",
+          "VOC_M1_156",
+          "VOC_M1_010",
+          "VOC_M1_039",
+          "VOC_D34_011",
+          "VOC_D52_001",
+          "VOC_D52_009"
+        ],
+        "audio_id": "AUD_DLG_D52_02_T5"
+      }
+    ],
+    "comprehension_questions": [
+      {
+        "question_en": "Which restaurant does the customer prefer?",
+        "question_ko": "손님은 어느 식당을 더 선호합니까?",
+        "options_en": [
+          "First restaurant",
+          "Second restaurant",
+          "Neither"
+        ],
+        "options_ko": [
+          "첫 번째 식당",
+          "두 번째 식당",
+          "둘 다 아님"
+        ],
+        "correct_index": 1
+      }
+    ],
+    "shadowing_prompt": "Repeat each sentence, paying attention to the comparison structure 比較 and the contrast word 不過.",
+    "free_response_prompt": "Compare two restaurants you know and explain which one you prefer and why."
+  },
+  {
+    "id": "DLG_D52_03",
+    "lesson_id": "LESSON_D52",
+    "title": "台北和高雄的比較",
+    "scenario": "comparing food, places, prices, convenience",
+    "turns": [
+      {
+        "id": "DLG_D52_03_T1",
+        "speaker": "A",
+        "text": "你覺得台北和高雄有什麼不同？",
+        "pinyin": "Nǐ juéde Táiběi hé Gāoxióng yǒu shénme bùtóng?",
+        "pinyin_numeric": "Ni3 jue2 de5 Tai2 bei3 he2 Gao1 xiong2 you3 shen2 me5 bu4 tong2?",
+        "translation_en": "What differences do you think there are between Taipei and Kaohsiung?",
+        "translation_ko": "타이베이와 가오슝은 어떤 차이가 있다고 생각하세요?",
+        "token_ids": [
+          "VOC_M1_003",
+          "VOC_M1_172",
+          "VOC_M1_197",
+          "VOC_D48_016",
+          "VOC_M1_022",
+          "VOC_M1_071",
+          "VOC_D52_005"
+        ],
+        "audio_id": "AUD_DLG_D52_03_T1"
+      },
+      {
+        "id": "DLG_D52_03_T2",
+        "speaker": "B",
+        "text": "台北比較熱鬧，交通很方便，捷運路線很多。高雄比較安靜，環境很舒服。",
+        "pinyin": "Táiběi bǐjiào rènào, jiāotōng hěn fāngbiàn, jiéyùn lùxiàn hěnduō. Gāoxióng bǐjiào ānjìng, huánjìng hěn shūfú.",
+        "pinyin_numeric": "Tai2 bei3 bi3 jiao4 re4 nao4, jiao1 tong1 hen3 fang1 bian4, jie2 yun4 lu4 xian4 hen3 duo1. Gao1 xiong2 bi3 jiao4 an1 jing4, huan2 jing4 hen3 shu1 fu2.",
+        "translation_en": "Taipei is more lively, transportation is very convenient, and there are many MRT lines. Kaohsiung is quieter, and the environment is very comfortable.",
+        "translation_ko": "타이베이는 더 번화하고 교통이 편리하며 지하철 노선이 많아요. 가오슝은 더 조용하고 환경이 편안해요.",
+        "token_ids": [
+          "VOC_M1_197",
+          "VOC_D52_001",
+          "VOC_D44_004",
+          "VOC_M1_096",
+          "VOC_D36_014",
+          "VOC_M1_154",
+          "VOC_D38_009",
+          "VOC_M1_096",
+          "VOC_M1_089",
+          "VOC_D48_016",
+          "VOC_D52_001",
+          "VOC_D42_027",
+          "VOC_D52_018",
+          "VOC_D44_019"
+        ],
+        "audio_id": "AUD_DLG_D52_03_T2"
+      },
+      {
+        "id": "DLG_D52_03_T3",
+        "speaker": "A",
+        "text": "那價格呢？台北的物價是不是比較貴？",
+        "pinyin": "Nà jiàgé ne? Táiběi de wùjià shì bùshì bǐjiào guì?",
+        "pinyin_numeric": "Na4 jia4 ge2 ne5? Tai2 bei3 de wu4 jia4 shi4 bu5 shi4 bi3 jiao4 gui4?",
+        "translation_en": "What about prices? Is the cost of living in Taipei more expensive?",
+        "translation_ko": "그럼 가격은요? 타이베이 물가가 더 비싸지 않나요?",
+        "token_ids": [
+          "VOC_D52_026",
+          "VOC_M1_111",
+          "VOC_M1_197",
+          "VOC_M1_023",
+          "VOC_M1_007",
+          "VOC_M1_079",
+          "VOC_M1_007",
+          "VOC_D52_001",
+          "VOC_M1_095"
+        ],
+        "audio_id": "AUD_DLG_D52_03_T3"
+      },
+      {
+        "id": "DLG_D52_03_T4",
+        "speaker": "B",
+        "text": "對，台北的價格比較高，尤其是餐廳和房子。高雄比較平價，同樣的東西便宜很多。",
+        "pinyin": "Duì, Táiběi de jiàgé bǐjiào gāo, yóuqí shì cāntīng hé fángzi. Gāoxióng bǐjiào píngjià, tóngyàng de dōngxi piányí hěnduō.",
+        "pinyin_numeric": "Dui4, Tai2 bei3 de jia4 ge2 bi3 jiao4 gao1, you2 qi2 shi4 can1 ting1 he2 fang2 zi5. Gao1 xiong2 bi3 jiao4 ping2 jia4, tong2 yang4 de dong1 xi5 pian2 yi2 hen3 duo1.",
+        "translation_en": "Yes, prices in Taipei are higher, especially for restaurants and housing. Kaohsiung is more affordable, the same things are much cheaper.",
+        "translation_ko": "네, 타이베이는 가격이 더 높아요, 특히 식당과 집값이요. 가오슝은 더 저렴해서 같은 물건이 훨씬 싸요.",
+        "token_ids": [
+          "VOC_M1_197",
+          "VOC_M1_023",
+          "VOC_D52_026",
+          "VOC_D52_001",
+          "VOC_D51_001",
+          "VOC_M1_007",
+          "VOC_M1_060",
+          "VOC_D48_016",
+          "VOC_D52_001",
+          "VOC_D52_027",
+          "VOC_D52_034",
+          "VOC_M1_023",
+          "VOC_M1_159",
+          "VOC_M1_096",
+          "VOC_M1_089"
+        ],
+        "audio_id": "AUD_DLG_D52_03_T4"
+      },
+      {
+        "id": "DLG_D52_03_T5",
+        "speaker": "A",
+        "text": "那你比較喜歡哪一個城市？",
+        "pinyin": "Nà nǐ bǐjiào xǐhuān nǎ yīge chéngshì?",
+        "pinyin_numeric": "Na4 ni3 bi3 jiao4 xi3 huan1 na3 yi1 ge4 cheng2 shi4?",
+        "translation_en": "Then which city do you prefer?",
+        "translation_ko": "그럼 당신은 어느 도시를 더 좋아하세요?",
+        "token_ids": [
+          "VOC_M1_003",
+          "VOC_D42_002",
+          "VOC_D42_016"
+        ],
+        "audio_id": "AUD_DLG_D52_03_T5"
+      },
+      {
+        "id": "DLG_D52_03_T6",
+        "speaker": "B",
+        "text": "我比較喜歡高雄，因為生活步調比較慢，壓力也比較小。",
+        "pinyin": "Wǒ bǐjiào xǐhuān Gāoxióng, yīnwèi shēnghuó bùdiào bǐjiào màn, yālì yě bǐjiào xiǎo.",
+        "pinyin_numeric": "Wo3 bi3 jiao4 xi3 huan1 Gao1 xiong2, yin1 wei4 sheng1 huo2 bu4 diao4 bi3 jiao4 man4, ya1 li4 ye3 bi3 jiao4 xiao3.",
+        "translation_en": "I prefer Kaohsiung, because the pace of life is slower and the stress is less.",
+        "translation_ko": "저는 가오슝이 더 좋아요, 생활 속도가 더 느리고 스트레스도 덜하거든요.",
+        "token_ids": [
+          "VOC_M1_002",
+          "VOC_D42_002",
+          "VOC_D48_016",
+          "VOC_D34_011",
+          "VOC_D52_001",
+          "VOC_M1_158",
+          "VOC_D44_033",
+          "VOC_M1_084",
+          "VOC_D52_001",
+          "VOC_M1_087"
+        ],
+        "audio_id": "AUD_DLG_D52_03_T6"
+      }
+    ],
+    "comprehension_questions": [
+      {
+        "question_en": "Which city does the speaker prefer?",
+        "question_ko": "화자는 어느 도시를 더 선호합니까?",
+        "options_en": [
+          "Taipei",
+          "Kaohsiung",
+          "Both"
+        ],
+        "options_ko": [
+          "타이베이",
+          "가오슝",
+          "둘 다"
+        ],
+        "correct_index": 1
+      }
+    ],
+    "shadowing_prompt": "Repeat each sentence, focusing on the comparison words 比較 and the contrast between the two cities.",
+    "free_response_prompt": "Compare two cities you know and explain which one you prefer and why."
   }
 ]

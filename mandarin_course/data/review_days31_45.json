@@ -1,105 +1,5 @@
 [
   {
-    "id": "REV_D41",
-    "lesson_id": "LESSON_D41",
-    "source_days": [
-      40,
-      38,
-      34,
-      27,
-      11
-    ],
-    "minimum_review_items": 30,
-    "review_sources": [
-      "prior_1_day",
-      "prior_3_days",
-      "prior_7_days",
-      "prior_14_days",
-      "prior_30_days"
-    ],
-    "prompt_en": "Review older words by producing new sentences, not by reading passively."
-  },
-  {
-    "id": "REV_D42",
-    "lesson_id": "LESSON_D42",
-    "source_days": [
-      41,
-      39,
-      35,
-      28,
-      12
-    ],
-    "minimum_review_items": 30,
-    "review_sources": [
-      "prior_1_day",
-      "prior_3_days",
-      "prior_7_days",
-      "prior_14_days",
-      "prior_30_days"
-    ],
-    "prompt_en": "Review older words by producing new sentences, not by reading passively."
-  },
-  {
-    "id": "REV_D43",
-    "lesson_id": "LESSON_D43",
-    "source_days": [
-      42,
-      40,
-      36,
-      29,
-      13
-    ],
-    "minimum_review_items": 30,
-    "review_sources": [
-      "prior_1_day",
-      "prior_3_days",
-      "prior_7_days",
-      "prior_14_days",
-      "prior_30_days"
-    ],
-    "prompt_en": "Review older words by producing new sentences, not by reading passively."
-  },
-  {
-    "id": "REV_D44",
-    "lesson_id": "LESSON_D44",
-    "source_days": [
-      43,
-      41,
-      37,
-      30,
-      14
-    ],
-    "minimum_review_items": 30,
-    "review_sources": [
-      "prior_1_day",
-      "prior_3_days",
-      "prior_7_days",
-      "prior_14_days",
-      "prior_30_days"
-    ],
-    "prompt_en": "Review older words by producing new sentences, not by reading passively."
-  },
-  {
-    "id": "REV_D45",
-    "lesson_id": "LESSON_D45",
-    "source_days": [
-      44,
-      42,
-      38,
-      31,
-      15
-    ],
-    "minimum_review_items": 30,
-    "review_sources": [
-      "prior_1_day",
-      "prior_3_days",
-      "prior_7_days",
-      "prior_14_days",
-      "prior_30_days"
-    ],
-    "prompt_en": "Review older words by producing new sentences, not by reading passively."
-  },
-  {
     "id": "REV_D31",
     "lesson_id": "LESSON_D31",
     "source_days": [
@@ -288,6 +188,106 @@
       33,
       26,
       10
+    ],
+    "minimum_review_items": 30,
+    "review_sources": [
+      "prior_1_day",
+      "prior_3_days",
+      "prior_7_days",
+      "prior_14_days",
+      "prior_30_days"
+    ],
+    "prompt_en": "Review older words by producing new sentences, not by reading passively."
+  },
+  {
+    "id": "REV_D41",
+    "lesson_id": "LESSON_D41",
+    "source_days": [
+      40,
+      38,
+      34,
+      27,
+      11
+    ],
+    "minimum_review_items": 30,
+    "review_sources": [
+      "prior_1_day",
+      "prior_3_days",
+      "prior_7_days",
+      "prior_14_days",
+      "prior_30_days"
+    ],
+    "prompt_en": "Review older words by producing new sentences, not by reading passively."
+  },
+  {
+    "id": "REV_D42",
+    "lesson_id": "LESSON_D42",
+    "source_days": [
+      41,
+      39,
+      35,
+      28,
+      12
+    ],
+    "minimum_review_items": 30,
+    "review_sources": [
+      "prior_1_day",
+      "prior_3_days",
+      "prior_7_days",
+      "prior_14_days",
+      "prior_30_days"
+    ],
+    "prompt_en": "Review older words by producing new sentences, not by reading passively."
+  },
+  {
+    "id": "REV_D43",
+    "lesson_id": "LESSON_D43",
+    "source_days": [
+      42,
+      40,
+      36,
+      29,
+      13
+    ],
+    "minimum_review_items": 30,
+    "review_sources": [
+      "prior_1_day",
+      "prior_3_days",
+      "prior_7_days",
+      "prior_14_days",
+      "prior_30_days"
+    ],
+    "prompt_en": "Review older words by producing new sentences, not by reading passively."
+  },
+  {
+    "id": "REV_D44",
+    "lesson_id": "LESSON_D44",
+    "source_days": [
+      43,
+      41,
+      37,
+      30,
+      14
+    ],
+    "minimum_review_items": 30,
+    "review_sources": [
+      "prior_1_day",
+      "prior_3_days",
+      "prior_7_days",
+      "prior_14_days",
+      "prior_30_days"
+    ],
+    "prompt_en": "Review older words by producing new sentences, not by reading passively."
+  },
+  {
+    "id": "REV_D45",
+    "lesson_id": "LESSON_D45",
+    "source_days": [
+      44,
+      42,
+      38,
+      31,
+      15
     ],
     "minimum_review_items": 30,
     "review_sources": [

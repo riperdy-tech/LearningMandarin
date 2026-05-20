@@ -1,2305 +1,5 @@
 [
   {
-    "id": "VOC_D43_001",
-    "char": "衣服",
-    "pinyin": "yīfú",
-    "pinyin_numeric": "yi1 fu2",
-    "phonemes": [
-      "yi1",
-      "fu2"
-    ],
-    "pos": "noun",
-    "meaning_en": "clothes",
-    "meaning_ko": "옷",
-    "semantic_domain": "clothes",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D43_001",
-      "SEN_D43_041",
-      "SEN_D43_046",
-      "SEN_D43_086"
-    ],
-    "audio_id": "AUD_VOC_D43_001",
-    "day_introduced": 43,
-    "srs_tags": [
-      "day_43",
-      "clothes"
-    ]
-  },
-  {
-    "id": "VOC_D43_002",
-    "char": "褲子",
-    "pinyin": "kùzi",
-    "pinyin_numeric": "ku4 zi0",
-    "phonemes": [
-      "ku4",
-      "zi0"
-    ],
-    "pos": "noun",
-    "meaning_en": "pants",
-    "meaning_ko": "바지",
-    "semantic_domain": "clothes",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D43_002",
-      "SEN_D43_047"
-    ],
-    "audio_id": "AUD_VOC_D43_002",
-    "day_introduced": 43,
-    "srs_tags": [
-      "day_43",
-      "clothes"
-    ]
-  },
-  {
-    "id": "VOC_D43_003",
-    "char": "鞋子",
-    "pinyin": "xiézi",
-    "pinyin_numeric": "xie2 zi0",
-    "phonemes": [
-      "xie2",
-      "zi0"
-    ],
-    "pos": "noun",
-    "meaning_en": "shoes",
-    "meaning_ko": "신발",
-    "semantic_domain": "clothes",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D43_003",
-      "SEN_D43_048"
-    ],
-    "audio_id": "AUD_VOC_D43_003",
-    "day_introduced": 43,
-    "srs_tags": [
-      "day_43",
-      "clothes"
-    ]
-  },
-  {
-    "id": "VOC_D43_004",
-    "char": "尺寸",
-    "pinyin": "chǐcùn",
-    "pinyin_numeric": "chi3 cun4",
-    "phonemes": [
-      "chi3",
-      "cun4"
-    ],
-    "pos": "noun",
-    "meaning_en": "size",
-    "meaning_ko": "사이즈",
-    "semantic_domain": "clothes",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D43_004",
-      "SEN_D43_049"
-    ],
-    "audio_id": "AUD_VOC_D43_004",
-    "day_introduced": 43,
-    "srs_tags": [
-      "day_43",
-      "clothes"
-    ]
-  },
-  {
-    "id": "VOC_D43_005",
-    "char": "顏色",
-    "pinyin": "yánsè",
-    "pinyin_numeric": "yan2 se4",
-    "phonemes": [
-      "yan2",
-      "se4"
-    ],
-    "pos": "noun",
-    "meaning_en": "color",
-    "meaning_ko": "색깔",
-    "semantic_domain": "clothes",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D43_005",
-      "SEN_D43_050"
-    ],
-    "audio_id": "AUD_VOC_D43_005",
-    "day_introduced": 43,
-    "srs_tags": [
-      "day_43",
-      "clothes"
-    ]
-  },
-  {
-    "id": "VOC_D43_006",
-    "char": "試穿",
-    "pinyin": "shìchuān",
-    "pinyin_numeric": "shi4 chuan1",
-    "phonemes": [
-      "shi4",
-      "chuan1"
-    ],
-    "pos": "verb",
-    "meaning_en": "try on",
-    "meaning_ko": "입어 보다",
-    "semantic_domain": "clothes",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [],
-    "audio_id": "AUD_VOC_D43_006",
-    "day_introduced": 43,
-    "srs_tags": [
-      "day_43",
-      "clothes"
-    ]
-  },
-  {
-    "id": "VOC_D43_007",
-    "char": "適合",
-    "pinyin": "shìhé",
-    "pinyin_numeric": "shi4 he2",
-    "phonemes": [
-      "shi4",
-      "he2"
-    ],
-    "pos": "verb",
-    "meaning_en": "to fit; suit",
-    "meaning_ko": "어울리다",
-    "semantic_domain": "clothes",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [],
-    "audio_id": "AUD_VOC_D43_007",
-    "day_introduced": 43,
-    "srs_tags": [
-      "day_43",
-      "clothes"
-    ]
-  },
-  {
-    "id": "VOC_D43_008",
-    "char": "打折",
-    "pinyin": "dǎzhé",
-    "pinyin_numeric": "da3 zhe2",
-    "phonemes": [
-      "da3",
-      "zhe2"
-    ],
-    "pos": "verb",
-    "meaning_en": "discount",
-    "meaning_ko": "할인하다",
-    "semantic_domain": "clothes",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [],
-    "audio_id": "AUD_VOC_D43_008",
-    "day_introduced": 43,
-    "srs_tags": [
-      "day_43",
-      "clothes"
-    ]
-  },
-  {
-    "id": "VOC_D43_009",
-    "char": "上衣",
-    "pinyin": "shàngyī",
-    "pinyin_numeric": "shang4 yi1",
-    "phonemes": [
-      "shang4",
-      "yi1"
-    ],
-    "pos": "noun",
-    "meaning_en": "top; shirt",
-    "meaning_ko": "상의",
-    "semantic_domain": "clothes",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D43_006",
-      "SEN_D43_051"
-    ],
-    "audio_id": "AUD_VOC_D43_009",
-    "day_introduced": 43,
-    "srs_tags": [
-      "day_43",
-      "clothes"
-    ]
-  },
-  {
-    "id": "VOC_D43_010",
-    "char": "外套",
-    "pinyin": "wàitào",
-    "pinyin_numeric": "wai4 tao4",
-    "phonemes": [
-      "wai4",
-      "tao4"
-    ],
-    "pos": "noun",
-    "meaning_en": "jacket",
-    "meaning_ko": "외투",
-    "semantic_domain": "clothes",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D43_007",
-      "SEN_D43_052"
-    ],
-    "audio_id": "AUD_VOC_D43_010",
-    "day_introduced": 43,
-    "srs_tags": [
-      "day_43",
-      "clothes"
-    ]
-  },
-  {
-    "id": "VOC_D43_011",
-    "char": "裙子",
-    "pinyin": "qúnzi",
-    "pinyin_numeric": "qun2 zi0",
-    "phonemes": [
-      "qun2",
-      "zi0"
-    ],
-    "pos": "noun",
-    "meaning_en": "skirt",
-    "meaning_ko": "치마",
-    "semantic_domain": "clothes",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D43_008",
-      "SEN_D43_053"
-    ],
-    "audio_id": "AUD_VOC_D43_011",
-    "day_introduced": 43,
-    "srs_tags": [
-      "day_43",
-      "clothes"
-    ]
-  },
-  {
-    "id": "VOC_D43_012",
-    "char": "短褲",
-    "pinyin": "duǎnkù",
-    "pinyin_numeric": "duan3 ku4",
-    "phonemes": [
-      "duan3",
-      "ku4"
-    ],
-    "pos": "noun",
-    "meaning_en": "shorts",
-    "meaning_ko": "반바지",
-    "semantic_domain": "clothes",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D43_009",
-      "SEN_D43_054"
-    ],
-    "audio_id": "AUD_VOC_D43_012",
-    "day_introduced": 43,
-    "srs_tags": [
-      "day_43",
-      "clothes"
-    ]
-  },
-  {
-    "id": "VOC_D43_013",
-    "char": "長褲",
-    "pinyin": "chángkù",
-    "pinyin_numeric": "chang2 ku4",
-    "phonemes": [
-      "chang2",
-      "ku4"
-    ],
-    "pos": "noun",
-    "meaning_en": "long pants",
-    "meaning_ko": "긴바지",
-    "semantic_domain": "clothes",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D43_010",
-      "SEN_D43_055"
-    ],
-    "audio_id": "AUD_VOC_D43_013",
-    "day_introduced": 43,
-    "srs_tags": [
-      "day_43",
-      "clothes"
-    ]
-  },
-  {
-    "id": "VOC_D43_014",
-    "char": "襪子",
-    "pinyin": "wàzi",
-    "pinyin_numeric": "wa4 zi0",
-    "phonemes": [
-      "wa4",
-      "zi0"
-    ],
-    "pos": "noun",
-    "meaning_en": "socks",
-    "meaning_ko": "양말",
-    "semantic_domain": "clothes",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D43_011",
-      "SEN_D43_056"
-    ],
-    "audio_id": "AUD_VOC_D43_014",
-    "day_introduced": 43,
-    "srs_tags": [
-      "day_43",
-      "clothes"
-    ]
-  },
-  {
-    "id": "VOC_D43_015",
-    "char": "帽子",
-    "pinyin": "màozi",
-    "pinyin_numeric": "mao4 zi0",
-    "phonemes": [
-      "mao4",
-      "zi0"
-    ],
-    "pos": "noun",
-    "meaning_en": "hat",
-    "meaning_ko": "모자",
-    "semantic_domain": "clothes",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D43_012",
-      "SEN_D43_057"
-    ],
-    "audio_id": "AUD_VOC_D43_015",
-    "day_introduced": 43,
-    "srs_tags": [
-      "day_43",
-      "clothes"
-    ]
-  },
-  {
-    "id": "VOC_D43_016",
-    "char": "包包",
-    "pinyin": "bāobāo",
-    "pinyin_numeric": "bao1 bao1",
-    "phonemes": [
-      "bao1",
-      "bao1"
-    ],
-    "pos": "noun",
-    "meaning_en": "bag; purse",
-    "meaning_ko": "가방",
-    "semantic_domain": "clothes",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D43_013",
-      "SEN_D43_058"
-    ],
-    "audio_id": "AUD_VOC_D43_016",
-    "day_introduced": 43,
-    "srs_tags": [
-      "day_43",
-      "clothes"
-    ]
-  },
-  {
-    "id": "VOC_D43_017",
-    "char": "黑色",
-    "pinyin": "hēisè",
-    "pinyin_numeric": "hei1 se4",
-    "phonemes": [
-      "hei1",
-      "se4"
-    ],
-    "pos": "noun",
-    "meaning_en": "black color",
-    "meaning_ko": "검은색",
-    "semantic_domain": "color",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D43_014",
-      "SEN_D43_059"
-    ],
-    "audio_id": "AUD_VOC_D43_017",
-    "day_introduced": 43,
-    "srs_tags": [
-      "day_43",
-      "color"
-    ]
-  },
-  {
-    "id": "VOC_D43_018",
-    "char": "白色",
-    "pinyin": "báisè",
-    "pinyin_numeric": "bai2 se4",
-    "phonemes": [
-      "bai2",
-      "se4"
-    ],
-    "pos": "noun",
-    "meaning_en": "white color",
-    "meaning_ko": "흰색",
-    "semantic_domain": "color",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D43_015",
-      "SEN_D43_060"
-    ],
-    "audio_id": "AUD_VOC_D43_018",
-    "day_introduced": 43,
-    "srs_tags": [
-      "day_43",
-      "color"
-    ]
-  },
-  {
-    "id": "VOC_D43_019",
-    "char": "紅色",
-    "pinyin": "hóngsè",
-    "pinyin_numeric": "hong2 se4",
-    "phonemes": [
-      "hong2",
-      "se4"
-    ],
-    "pos": "noun",
-    "meaning_en": "red color",
-    "meaning_ko": "빨간색",
-    "semantic_domain": "color",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D43_016",
-      "SEN_D43_061"
-    ],
-    "audio_id": "AUD_VOC_D43_019",
-    "day_introduced": 43,
-    "srs_tags": [
-      "day_43",
-      "color"
-    ]
-  },
-  {
-    "id": "VOC_D43_020",
-    "char": "藍色",
-    "pinyin": "lánsè",
-    "pinyin_numeric": "lan2 se4",
-    "phonemes": [
-      "lan2",
-      "se4"
-    ],
-    "pos": "noun",
-    "meaning_en": "blue color",
-    "meaning_ko": "파란색",
-    "semantic_domain": "color",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D43_017",
-      "SEN_D43_062"
-    ],
-    "audio_id": "AUD_VOC_D43_020",
-    "day_introduced": 43,
-    "srs_tags": [
-      "day_43",
-      "color"
-    ]
-  },
-  {
-    "id": "VOC_D43_021",
-    "char": "綠色",
-    "pinyin": "lǜsè",
-    "pinyin_numeric": "lü4 se4",
-    "phonemes": [
-      "lü4",
-      "se4"
-    ],
-    "pos": "noun",
-    "meaning_en": "green color",
-    "meaning_ko": "초록색",
-    "semantic_domain": "color",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D43_018",
-      "SEN_D43_063"
-    ],
-    "audio_id": "AUD_VOC_D43_021",
-    "day_introduced": 43,
-    "srs_tags": [
-      "day_43",
-      "color"
-    ]
-  },
-  {
-    "id": "VOC_D43_022",
-    "char": "黃色",
-    "pinyin": "huángsè",
-    "pinyin_numeric": "huang2 se4",
-    "phonemes": [
-      "huang2",
-      "se4"
-    ],
-    "pos": "noun",
-    "meaning_en": "yellow color",
-    "meaning_ko": "노란색",
-    "semantic_domain": "color",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D43_019",
-      "SEN_D43_064"
-    ],
-    "audio_id": "AUD_VOC_D43_022",
-    "day_introduced": 43,
-    "srs_tags": [
-      "day_43",
-      "color"
-    ]
-  },
-  {
-    "id": "VOC_D43_023",
-    "char": "灰色",
-    "pinyin": "huīsè",
-    "pinyin_numeric": "hui1 se4",
-    "phonemes": [
-      "hui1",
-      "se4"
-    ],
-    "pos": "noun",
-    "meaning_en": "gray color",
-    "meaning_ko": "회색",
-    "semantic_domain": "color",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D43_020",
-      "SEN_D43_065"
-    ],
-    "audio_id": "AUD_VOC_D43_023",
-    "day_introduced": 43,
-    "srs_tags": [
-      "day_43",
-      "color"
-    ]
-  },
-  {
-    "id": "VOC_D43_024",
-    "char": "尺寸表",
-    "pinyin": "chǐcùnbiǎo",
-    "pinyin_numeric": "chi3 cun4 biao3",
-    "phonemes": [
-      "chi3",
-      "cun4",
-      "biao3"
-    ],
-    "pos": "noun",
-    "meaning_en": "size chart",
-    "meaning_ko": "사이즈표",
-    "semantic_domain": "clothes",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D43_021",
-      "SEN_D43_066"
-    ],
-    "audio_id": "AUD_VOC_D43_024",
-    "day_introduced": 43,
-    "srs_tags": [
-      "day_43",
-      "clothes"
-    ]
-  },
-  {
-    "id": "VOC_D43_025",
-    "char": "小號",
-    "pinyin": "xiǎo hào",
-    "pinyin_numeric": "xiao3 hao4",
-    "phonemes": [
-      "xiao3",
-      "hao4"
-    ],
-    "pos": "noun",
-    "meaning_en": "small size",
-    "meaning_ko": "작은 사이즈",
-    "semantic_domain": "clothes",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D43_022",
-      "SEN_D43_067"
-    ],
-    "audio_id": "AUD_VOC_D43_025",
-    "day_introduced": 43,
-    "srs_tags": [
-      "day_43",
-      "clothes"
-    ]
-  },
-  {
-    "id": "VOC_D43_026",
-    "char": "中號",
-    "pinyin": "zhōng hào",
-    "pinyin_numeric": "zhong1 hao4",
-    "phonemes": [
-      "zhong1",
-      "hao4"
-    ],
-    "pos": "noun",
-    "meaning_en": "medium size",
-    "meaning_ko": "중간 사이즈",
-    "semantic_domain": "clothes",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D43_023",
-      "SEN_D43_068"
-    ],
-    "audio_id": "AUD_VOC_D43_026",
-    "day_introduced": 43,
-    "srs_tags": [
-      "day_43",
-      "clothes"
-    ]
-  },
-  {
-    "id": "VOC_D43_027",
-    "char": "大號",
-    "pinyin": "dà hào",
-    "pinyin_numeric": "da4 hao4",
-    "phonemes": [
-      "da4",
-      "hao4"
-    ],
-    "pos": "noun",
-    "meaning_en": "large size",
-    "meaning_ko": "큰 사이즈",
-    "semantic_domain": "clothes",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D43_024",
-      "SEN_D43_069"
-    ],
-    "audio_id": "AUD_VOC_D43_027",
-    "day_introduced": 43,
-    "srs_tags": [
-      "day_43",
-      "clothes"
-    ]
-  },
-  {
-    "id": "VOC_D43_028",
-    "char": "太大",
-    "pinyin": "tài dà",
-    "pinyin_numeric": "tai4 da4",
-    "phonemes": [
-      "tai4",
-      "da4"
-    ],
-    "pos": "adjective phrase",
-    "meaning_en": "too big",
-    "meaning_ko": "너무 크다",
-    "semantic_domain": "clothes",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [],
-    "audio_id": "AUD_VOC_D43_028",
-    "day_introduced": 43,
-    "srs_tags": [
-      "day_43",
-      "clothes"
-    ]
-  },
-  {
-    "id": "VOC_D43_029",
-    "char": "太小",
-    "pinyin": "tài xiǎo",
-    "pinyin_numeric": "tai4 xiao3",
-    "phonemes": [
-      "tai4",
-      "xiao3"
-    ],
-    "pos": "adjective phrase",
-    "meaning_en": "too small",
-    "meaning_ko": "너무 작다",
-    "semantic_domain": "clothes",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [],
-    "audio_id": "AUD_VOC_D43_029",
-    "day_introduced": 43,
-    "srs_tags": [
-      "day_43",
-      "clothes"
-    ]
-  },
-  {
-    "id": "VOC_D43_030",
-    "char": "剛好",
-    "pinyin": "gānghǎo",
-    "pinyin_numeric": "gang1 hao3",
-    "phonemes": [
-      "gang1",
-      "hao3"
-    ],
-    "pos": "adverb",
-    "meaning_en": "just right",
-    "meaning_ko": "딱 맞다",
-    "semantic_domain": "clothes",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [],
-    "audio_id": "AUD_VOC_D43_030",
-    "day_introduced": 43,
-    "srs_tags": [
-      "day_43",
-      "clothes"
-    ]
-  },
-  {
-    "id": "VOC_D43_031",
-    "char": "試衣間",
-    "pinyin": "shìyījiān",
-    "pinyin_numeric": "shi4 yi1 jian1",
-    "phonemes": [
-      "shi4",
-      "yi1",
-      "jian1"
-    ],
-    "pos": "noun",
-    "meaning_en": "fitting room",
-    "meaning_ko": "탈의실",
-    "semantic_domain": "clothes",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D43_025",
-      "SEN_D43_070"
-    ],
-    "audio_id": "AUD_VOC_D43_031",
-    "day_introduced": 43,
-    "srs_tags": [
-      "day_43",
-      "clothes"
-    ]
-  },
-  {
-    "id": "VOC_D43_032",
-    "char": "可以試穿嗎",
-    "pinyin": "kěyǐ shìchuān ma",
-    "pinyin_numeric": "ke3 yi3 shi4 chuan1 ma0",
-    "phonemes": [
-      "ke3",
-      "yi3",
-      "shi4",
-      "chuan1",
-      "ma0"
-    ],
-    "pos": "phrase",
-    "meaning_en": "may I try it on?",
-    "meaning_ko": "입어 봐도 되나요",
-    "semantic_domain": "clothes",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D43_026",
-      "SEN_D43_071"
-    ],
-    "audio_id": "AUD_VOC_D43_032",
-    "day_introduced": 43,
-    "srs_tags": [
-      "day_43",
-      "clothes"
-    ]
-  },
-  {
-    "id": "VOC_D43_033",
-    "char": "材質",
-    "pinyin": "cáizhí",
-    "pinyin_numeric": "cai2 zhi2",
-    "phonemes": [
-      "cai2",
-      "zhi2"
-    ],
-    "pos": "noun",
-    "meaning_en": "material",
-    "meaning_ko": "소재",
-    "semantic_domain": "clothes",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D43_027",
-      "SEN_D43_072"
-    ],
-    "audio_id": "AUD_VOC_D43_033",
-    "day_introduced": 43,
-    "srs_tags": [
-      "day_43",
-      "clothes"
-    ]
-  },
-  {
-    "id": "VOC_D43_034",
-    "char": "棉",
-    "pinyin": "mián",
-    "pinyin_numeric": "mian2",
-    "phonemes": [
-      "mian2"
-    ],
-    "pos": "noun",
-    "meaning_en": "cotton",
-    "meaning_ko": "면",
-    "semantic_domain": "clothes",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D43_028",
-      "SEN_D43_073"
-    ],
-    "audio_id": "AUD_VOC_D43_034",
-    "day_introduced": 43,
-    "srs_tags": [
-      "day_43",
-      "clothes"
-    ]
-  },
-  {
-    "id": "VOC_D43_035",
-    "char": "薄",
-    "pinyin": "báo",
-    "pinyin_numeric": "bao2",
-    "phonemes": [
-      "bao2"
-    ],
-    "pos": "adjective",
-    "meaning_en": "thin",
-    "meaning_ko": "얇다",
-    "semantic_domain": "clothes",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [],
-    "audio_id": "AUD_VOC_D43_035",
-    "day_introduced": 43,
-    "srs_tags": [
-      "day_43",
-      "clothes"
-    ]
-  },
-  {
-    "id": "VOC_D43_036",
-    "char": "厚",
-    "pinyin": "hòu",
-    "pinyin_numeric": "hou4",
-    "phonemes": [
-      "hou4"
-    ],
-    "pos": "adjective",
-    "meaning_en": "thick",
-    "meaning_ko": "두껍다",
-    "semantic_domain": "clothes",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [],
-    "audio_id": "AUD_VOC_D43_036",
-    "day_introduced": 43,
-    "srs_tags": [
-      "day_43",
-      "clothes"
-    ]
-  },
-  {
-    "id": "VOC_D43_037",
-    "char": "舒服嗎",
-    "pinyin": "shūfú ma",
-    "pinyin_numeric": "shu1 fu2 ma0",
-    "phonemes": [
-      "shu1",
-      "fu2",
-      "ma0"
-    ],
-    "pos": "phrase",
-    "meaning_en": "is it comfortable?",
-    "meaning_ko": "편한가요",
-    "semantic_domain": "clothes",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D43_029",
-      "SEN_D43_074"
-    ],
-    "audio_id": "AUD_VOC_D43_037",
-    "day_introduced": 43,
-    "srs_tags": [
-      "day_43",
-      "clothes"
-    ]
-  },
-  {
-    "id": "VOC_D43_038",
-    "char": "合身",
-    "pinyin": "héshēn",
-    "pinyin_numeric": "he2 shen1",
-    "phonemes": [
-      "he2",
-      "shen1"
-    ],
-    "pos": "adjective",
-    "meaning_en": "well-fitting",
-    "meaning_ko": "몸에 맞다",
-    "semantic_domain": "clothes",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [],
-    "audio_id": "AUD_VOC_D43_038",
-    "day_introduced": 43,
-    "srs_tags": [
-      "day_43",
-      "clothes"
-    ]
-  },
-  {
-    "id": "VOC_D43_039",
-    "char": "太貴了",
-    "pinyin": "tài guì le",
-    "pinyin_numeric": "tai4 gui4 le0",
-    "phonemes": [
-      "tai4",
-      "gui4",
-      "le0"
-    ],
-    "pos": "phrase",
-    "meaning_en": "too expensive",
-    "meaning_ko": "너무 비싸다",
-    "semantic_domain": "clothes",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D43_030",
-      "SEN_D43_075"
-    ],
-    "audio_id": "AUD_VOC_D43_039",
-    "day_introduced": 43,
-    "srs_tags": [
-      "day_43",
-      "clothes"
-    ]
-  },
-  {
-    "id": "VOC_D43_040",
-    "char": "便宜一點",
-    "pinyin": "piányí yìdiǎn",
-    "pinyin_numeric": "pian2 yi2 yi4 dian3",
-    "phonemes": [
-      "pian2",
-      "yi2",
-      "yi4",
-      "dian3"
-    ],
-    "pos": "phrase",
-    "meaning_en": "a bit cheaper",
-    "meaning_ko": "조금 싸게",
-    "semantic_domain": "clothes",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D43_031",
-      "SEN_D43_076"
-    ],
-    "audio_id": "AUD_VOC_D43_040",
-    "day_introduced": 43,
-    "srs_tags": [
-      "day_43",
-      "clothes"
-    ]
-  },
-  {
-    "id": "VOC_D43_041",
-    "char": "折扣",
-    "pinyin": "zhékòu",
-    "pinyin_numeric": "zhe2 kou4",
-    "phonemes": [
-      "zhe2",
-      "kou4"
-    ],
-    "pos": "noun",
-    "meaning_en": "discount",
-    "meaning_ko": "할인",
-    "semantic_domain": "clothes",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D43_032",
-      "SEN_D43_077"
-    ],
-    "audio_id": "AUD_VOC_D43_041",
-    "day_introduced": 43,
-    "srs_tags": [
-      "day_43",
-      "clothes"
-    ]
-  },
-  {
-    "id": "VOC_D43_042",
-    "char": "原價",
-    "pinyin": "yuánjià",
-    "pinyin_numeric": "yuan2 jia4",
-    "phonemes": [
-      "yuan2",
-      "jia4"
-    ],
-    "pos": "noun",
-    "meaning_en": "original price",
-    "meaning_ko": "원가",
-    "semantic_domain": "clothes",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D43_033",
-      "SEN_D43_078"
-    ],
-    "audio_id": "AUD_VOC_D43_042",
-    "day_introduced": 43,
-    "srs_tags": [
-      "day_43",
-      "clothes"
-    ]
-  },
-  {
-    "id": "VOC_D43_043",
-    "char": "特價品",
-    "pinyin": "tèjiàpǐn",
-    "pinyin_numeric": "te4 jia4 pin3",
-    "phonemes": [
-      "te4",
-      "jia4",
-      "pin3"
-    ],
-    "pos": "noun",
-    "meaning_en": "sale item",
-    "meaning_ko": "특가 상품",
-    "semantic_domain": "clothes",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D43_034",
-      "SEN_D43_079"
-    ],
-    "audio_id": "AUD_VOC_D43_043",
-    "day_introduced": 43,
-    "srs_tags": [
-      "day_43",
-      "clothes"
-    ]
-  },
-  {
-    "id": "VOC_D43_044",
-    "char": "可以刷卡嗎",
-    "pinyin": "kěyǐ shuākǎ ma",
-    "pinyin_numeric": "ke3 yi3 shua1 ka3 ma0",
-    "phonemes": [
-      "ke3",
-      "yi3",
-      "shua1",
-      "ka3",
-      "ma0"
-    ],
-    "pos": "phrase",
-    "meaning_en": "can I pay by card?",
-    "meaning_ko": "카드 결제 되나요",
-    "semantic_domain": "clothes",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D43_035",
-      "SEN_D43_080"
-    ],
-    "audio_id": "AUD_VOC_D43_044",
-    "day_introduced": 43,
-    "srs_tags": [
-      "day_43",
-      "clothes"
-    ]
-  },
-  {
-    "id": "VOC_D43_045",
-    "char": "收銀台",
-    "pinyin": "shōuyíntái",
-    "pinyin_numeric": "shou1 yin2 tai2",
-    "phonemes": [
-      "shou1",
-      "yin2",
-      "tai2"
-    ],
-    "pos": "noun",
-    "meaning_en": "cash register",
-    "meaning_ko": "계산대",
-    "semantic_domain": "store",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D43_036",
-      "SEN_D43_081"
-    ],
-    "audio_id": "AUD_VOC_D43_045",
-    "day_introduced": 43,
-    "srs_tags": [
-      "day_43",
-      "store"
-    ]
-  },
-  {
-    "id": "VOC_D44_001",
-    "char": "天氣",
-    "pinyin": "tiānqì",
-    "pinyin_numeric": "tian1 qi4",
-    "phonemes": [
-      "tian1",
-      "qi4"
-    ],
-    "pos": "noun",
-    "meaning_en": "weather",
-    "meaning_ko": "날씨",
-    "semantic_domain": "weather",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [],
-    "audio_id": "AUD_VOC_D44_001",
-    "day_introduced": 44,
-    "srs_tags": [
-      "day_44",
-      "weather"
-    ]
-  },
-  {
-    "id": "VOC_D44_002",
-    "char": "下雨",
-    "pinyin": "xià yǔ",
-    "pinyin_numeric": "xia4 yu3",
-    "phonemes": [
-      "xia4",
-      "yu3"
-    ],
-    "pos": "verb",
-    "meaning_en": "rain",
-    "meaning_ko": "비가 오다",
-    "semantic_domain": "weather",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D44_005",
-      "SEN_D44_010",
-      "SEN_D44_015",
-      "SEN_D44_020"
-    ],
-    "audio_id": "AUD_VOC_D44_002",
-    "day_introduced": 44,
-    "srs_tags": [
-      "day_44",
-      "weather"
-    ]
-  },
-  {
-    "id": "VOC_D44_003",
-    "char": "太陽",
-    "pinyin": "tàiyáng",
-    "pinyin_numeric": "tai4 yang2",
-    "phonemes": [
-      "tai4",
-      "yang2"
-    ],
-    "pos": "noun",
-    "meaning_en": "sun",
-    "meaning_ko": "태양",
-    "semantic_domain": "weather",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [],
-    "audio_id": "AUD_VOC_D44_003",
-    "day_introduced": 44,
-    "srs_tags": [
-      "day_44",
-      "weather"
-    ]
-  },
-  {
-    "id": "VOC_D44_004",
-    "char": "熱鬧",
-    "pinyin": "rènào",
-    "pinyin_numeric": "re4 nao4",
-    "phonemes": [
-      "re4",
-      "nao4"
-    ],
-    "pos": "adjective",
-    "meaning_en": "lively",
-    "meaning_ko": "활기차다",
-    "semantic_domain": "mood",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [],
-    "audio_id": "AUD_VOC_D44_004",
-    "day_introduced": 44,
-    "srs_tags": [
-      "day_44",
-      "mood"
-    ]
-  },
-  {
-    "id": "VOC_D44_005",
-    "char": "熱天",
-    "pinyin": "rè tiān",
-    "pinyin_numeric": "re4 tian1",
-    "phonemes": [
-      "re4",
-      "tian1"
-    ],
-    "pos": "noun",
-    "meaning_en": "hot day",
-    "meaning_ko": "더운 날",
-    "semantic_domain": "weather",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [],
-    "audio_id": "AUD_VOC_D44_005",
-    "day_introduced": 44,
-    "srs_tags": [
-      "day_44",
-      "weather"
-    ]
-  },
-  {
-    "id": "VOC_D44_006",
-    "char": "心情",
-    "pinyin": "xīnqíng",
-    "pinyin_numeric": "xin1 qing2",
-    "phonemes": [
-      "xin1",
-      "qing2"
-    ],
-    "pos": "noun",
-    "meaning_en": "mood",
-    "meaning_ko": "기분",
-    "semantic_domain": "mood",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D44_003",
-      "SEN_D44_008",
-      "SEN_D44_013",
-      "SEN_D44_018"
-    ],
-    "audio_id": "AUD_VOC_D44_006",
-    "day_introduced": 44,
-    "srs_tags": [
-      "day_44",
-      "mood"
-    ]
-  },
-  {
-    "id": "VOC_D44_007",
-    "char": "開心",
-    "pinyin": "kāixīn",
-    "pinyin_numeric": "kai1 xin1",
-    "phonemes": [
-      "kai1",
-      "xin1"
-    ],
-    "pos": "adjective",
-    "meaning_en": "happy",
-    "meaning_ko": "기쁘다",
-    "semantic_domain": "mood",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D44_012",
-      "SEN_D44_047",
-      "SEN_D44_082"
-    ],
-    "audio_id": "AUD_VOC_D44_007",
-    "day_introduced": 44,
-    "srs_tags": [
-      "day_44",
-      "mood"
-    ]
-  },
-  {
-    "id": "VOC_D44_008",
-    "char": "緊張",
-    "pinyin": "jǐnzhāng",
-    "pinyin_numeric": "jin3 zhang1",
-    "phonemes": [
-      "jin3",
-      "zhang1"
-    ],
-    "pos": "adjective",
-    "meaning_en": "nervous",
-    "meaning_ko": "긴장하다",
-    "semantic_domain": "mood",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D44_027",
-      "SEN_D44_062"
-    ],
-    "audio_id": "AUD_VOC_D44_008",
-    "day_introduced": 44,
-    "srs_tags": [
-      "day_44",
-      "mood"
-    ]
-  },
-  {
-    "id": "VOC_D44_009",
-    "char": "舒服",
-    "pinyin": "shūfú",
-    "pinyin_numeric": "shu1 fu2",
-    "phonemes": [
-      "shu1",
-      "fu2"
-    ],
-    "pos": "adjective",
-    "meaning_en": "comfortable",
-    "meaning_ko": "편하다",
-    "semantic_domain": "mood",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [],
-    "audio_id": "AUD_VOC_D44_009",
-    "day_introduced": 44,
-    "srs_tags": [
-      "day_44",
-      "mood"
-    ]
-  },
-  {
-    "id": "VOC_D44_010",
-    "char": "路滑",
-    "pinyin": "lù huá",
-    "pinyin_numeric": "lu4 hua2",
-    "phonemes": [
-      "lu4",
-      "hua2"
-    ],
-    "pos": "phrase",
-    "meaning_en": "road is slippery",
-    "meaning_ko": "길이 미끄럽다",
-    "semantic_domain": "weather",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D44_005",
-      "SEN_D44_010",
-      "SEN_D44_015",
-      "SEN_D44_020"
-    ],
-    "audio_id": "AUD_VOC_D44_010",
-    "day_introduced": 44,
-    "srs_tags": [
-      "day_44",
-      "weather"
-    ]
-  },
-  {
-    "id": "VOC_D44_011",
-    "char": "小心",
-    "pinyin": "xiǎoxīn",
-    "pinyin_numeric": "xiao3 xin1",
-    "phonemes": [
-      "xiao3",
-      "xin1"
-    ],
-    "pos": "verb",
-    "meaning_en": "be careful",
-    "meaning_ko": "조심하다",
-    "semantic_domain": "weather",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D44_005",
-      "SEN_D44_010",
-      "SEN_D44_015",
-      "SEN_D44_020"
-    ],
-    "audio_id": "AUD_VOC_D44_011",
-    "day_introduced": 44,
-    "srs_tags": [
-      "day_44",
-      "weather"
-    ]
-  },
-  {
-    "id": "VOC_D44_012",
-    "char": "晴天",
-    "pinyin": "qíngtiān",
-    "pinyin_numeric": "qing2 tian1",
-    "phonemes": [
-      "qing2",
-      "tian1"
-    ],
-    "pos": "noun",
-    "meaning_en": "sunny day",
-    "meaning_ko": "맑은 날",
-    "semantic_domain": "weather",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D44_001",
-      "SEN_D44_037",
-      "SEN_D44_046",
-      "SEN_D44_082"
-    ],
-    "audio_id": "AUD_VOC_D44_012",
-    "day_introduced": 44,
-    "srs_tags": [
-      "day_44",
-      "weather"
-    ]
-  },
-  {
-    "id": "VOC_D44_013",
-    "char": "陰天",
-    "pinyin": "yīntiān",
-    "pinyin_numeric": "yin1 tian1",
-    "phonemes": [
-      "yin1",
-      "tian1"
-    ],
-    "pos": "noun",
-    "meaning_en": "cloudy day",
-    "meaning_ko": "흐린 날",
-    "semantic_domain": "weather",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D44_002",
-      "SEN_D44_011",
-      "SEN_D44_047",
-      "SEN_D44_056"
-    ],
-    "audio_id": "AUD_VOC_D44_013",
-    "day_introduced": 44,
-    "srs_tags": [
-      "day_44",
-      "weather"
-    ]
-  },
-  {
-    "id": "VOC_D44_014",
-    "char": "多雲",
-    "pinyin": "duōyún",
-    "pinyin_numeric": "duo1 yun2",
-    "phonemes": [
-      "duo1",
-      "yun2"
-    ],
-    "pos": "adjective",
-    "meaning_en": "cloudy",
-    "meaning_ko": "구름 많다",
-    "semantic_domain": "weather",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D44_012",
-      "SEN_D44_021",
-      "SEN_D44_057",
-      "SEN_D44_066"
-    ],
-    "audio_id": "AUD_VOC_D44_014",
-    "day_introduced": 44,
-    "srs_tags": [
-      "day_44",
-      "weather"
-    ]
-  },
-  {
-    "id": "VOC_D44_015",
-    "char": "颱風",
-    "pinyin": "táifēng",
-    "pinyin_numeric": "tai2 feng1",
-    "phonemes": [
-      "tai2",
-      "feng1"
-    ],
-    "pos": "noun",
-    "meaning_en": "typhoon",
-    "meaning_ko": "태풍",
-    "semantic_domain": "weather",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D44_032",
-      "SEN_D44_041",
-      "SEN_D44_077",
-      "SEN_D44_086"
-    ],
-    "audio_id": "AUD_VOC_D44_015",
-    "day_introduced": 44,
-    "srs_tags": [
-      "day_44",
-      "weather"
-    ]
-  },
-  {
-    "id": "VOC_D44_016",
-    "char": "風",
-    "pinyin": "fēng",
-    "pinyin_numeric": "feng1",
-    "phonemes": [
-      "feng1"
-    ],
-    "pos": "noun",
-    "meaning_en": "wind",
-    "meaning_ko": "바람",
-    "semantic_domain": "weather",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [],
-    "audio_id": "AUD_VOC_D44_016",
-    "day_introduced": 44,
-    "srs_tags": [
-      "day_44",
-      "weather"
-    ]
-  },
-  {
-    "id": "VOC_D44_017",
-    "char": "很熱",
-    "pinyin": "hěn rè",
-    "pinyin_numeric": "hen3 re4",
-    "phonemes": [
-      "hen3",
-      "re4"
-    ],
-    "pos": "phrase",
-    "meaning_en": "very hot",
-    "meaning_ko": "매우 덥다",
-    "semantic_domain": "weather",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D44_006",
-      "SEN_D44_042",
-      "SEN_D44_051",
-      "SEN_D44_087"
-    ],
-    "audio_id": "AUD_VOC_D44_017",
-    "day_introduced": 44,
-    "srs_tags": [
-      "day_44",
-      "weather"
-    ]
-  },
-  {
-    "id": "VOC_D44_018",
-    "char": "很冷",
-    "pinyin": "hěn lěng",
-    "pinyin_numeric": "hen3 leng3",
-    "phonemes": [
-      "hen3",
-      "leng3"
-    ],
-    "pos": "phrase",
-    "meaning_en": "very cold",
-    "meaning_ko": "매우 춥다",
-    "semantic_domain": "weather",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D44_007",
-      "SEN_D44_016",
-      "SEN_D44_052",
-      "SEN_D44_061"
-    ],
-    "audio_id": "AUD_VOC_D44_018",
-    "day_introduced": 44,
-    "srs_tags": [
-      "day_44",
-      "weather"
-    ]
-  },
-  {
-    "id": "VOC_D44_019",
-    "char": "很舒服",
-    "pinyin": "hěn shūfú",
-    "pinyin_numeric": "hen3 shu1 fu2",
-    "phonemes": [
-      "hen3",
-      "shu1",
-      "fu2"
-    ],
-    "pos": "phrase",
-    "meaning_en": "very comfortable",
-    "meaning_ko": "매우 편하다",
-    "semantic_domain": "weather",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [],
-    "audio_id": "AUD_VOC_D44_019",
-    "day_introduced": 44,
-    "srs_tags": [
-      "day_44",
-      "weather"
-    ]
-  },
-  {
-    "id": "VOC_D44_020",
-    "char": "悶熱",
-    "pinyin": "mēnrè",
-    "pinyin_numeric": "men1 re4",
-    "phonemes": [
-      "men1",
-      "re4"
-    ],
-    "pos": "adjective",
-    "meaning_en": "hot and humid",
-    "meaning_ko": "후덥지근하다",
-    "semantic_domain": "weather",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D44_017",
-      "SEN_D44_026",
-      "SEN_D44_062",
-      "SEN_D44_071"
-    ],
-    "audio_id": "AUD_VOC_D44_020",
-    "day_introduced": 44,
-    "srs_tags": [
-      "day_44",
-      "weather"
-    ]
-  },
-  {
-    "id": "VOC_D44_021",
-    "char": "涼快",
-    "pinyin": "liángkuài",
-    "pinyin_numeric": "liang2 kuai4",
-    "phonemes": [
-      "liang2",
-      "kuai4"
-    ],
-    "pos": "adjective",
-    "meaning_en": "cool",
-    "meaning_ko": "시원하다",
-    "semantic_domain": "weather",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D44_027",
-      "SEN_D44_036",
-      "SEN_D44_072",
-      "SEN_D44_081"
-    ],
-    "audio_id": "AUD_VOC_D44_021",
-    "day_introduced": 44,
-    "srs_tags": [
-      "day_44",
-      "weather"
-    ]
-  },
-  {
-    "id": "VOC_D44_022",
-    "char": "溫度",
-    "pinyin": "wēndù",
-    "pinyin_numeric": "wen1 du4",
-    "phonemes": [
-      "wen1",
-      "du4"
-    ],
-    "pos": "noun",
-    "meaning_en": "temperature",
-    "meaning_ko": "온도",
-    "semantic_domain": "weather",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [],
-    "audio_id": "AUD_VOC_D44_022",
-    "day_introduced": 44,
-    "srs_tags": [
-      "day_44",
-      "weather"
-    ]
-  },
-  {
-    "id": "VOC_D44_023",
-    "char": "幾度",
-    "pinyin": "jǐ dù",
-    "pinyin_numeric": "ji3 du4",
-    "phonemes": [
-      "ji3",
-      "du4"
-    ],
-    "pos": "phrase",
-    "meaning_en": "how many degrees",
-    "meaning_ko": "몇 도",
-    "semantic_domain": "weather",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [],
-    "audio_id": "AUD_VOC_D44_023",
-    "day_introduced": 44,
-    "srs_tags": [
-      "day_44",
-      "weather"
-    ]
-  },
-  {
-    "id": "VOC_D44_024",
-    "char": "二十度",
-    "pinyin": "èrshí dù",
-    "pinyin_numeric": "er4 shi2 du4",
-    "phonemes": [
-      "er4",
-      "shi2",
-      "du4"
-    ],
-    "pos": "phrase",
-    "meaning_en": "twenty degrees",
-    "meaning_ko": "20도",
-    "semantic_domain": "weather",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [],
-    "audio_id": "AUD_VOC_D44_024",
-    "day_introduced": 44,
-    "srs_tags": [
-      "day_44",
-      "weather"
-    ]
-  },
-  {
-    "id": "VOC_D44_025",
-    "char": "三十度",
-    "pinyin": "sānshí dù",
-    "pinyin_numeric": "san1 shi2 du4",
-    "phonemes": [
-      "san1",
-      "shi2",
-      "du4"
-    ],
-    "pos": "phrase",
-    "meaning_en": "thirty degrees",
-    "meaning_ko": "30도",
-    "semantic_domain": "weather",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [],
-    "audio_id": "AUD_VOC_D44_025",
-    "day_introduced": 44,
-    "srs_tags": [
-      "day_44",
-      "weather"
-    ]
-  },
-  {
-    "id": "VOC_D44_026",
-    "char": "帶傘",
-    "pinyin": "dài sǎn",
-    "pinyin_numeric": "dai4 san3",
-    "phonemes": [
-      "dai4",
-      "san3"
-    ],
-    "pos": "verb phrase",
-    "meaning_en": "bring an umbrella",
-    "meaning_ko": "우산을 가져가다",
-    "semantic_domain": "weather",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D44_004",
-      "SEN_D44_009",
-      "SEN_D44_014",
-      "SEN_D44_019"
-    ],
-    "audio_id": "AUD_VOC_D44_026",
-    "day_introduced": 44,
-    "srs_tags": [
-      "day_44",
-      "weather"
-    ]
-  },
-  {
-    "id": "VOC_D44_027",
-    "char": "穿外套",
-    "pinyin": "chuān wàitào",
-    "pinyin_numeric": "chuan1 wai4 tao4",
-    "phonemes": [
-      "chuan1",
-      "wai4",
-      "tao4"
-    ],
-    "pos": "verb phrase",
-    "meaning_en": "wear a jacket",
-    "meaning_ko": "외투를 입다",
-    "semantic_domain": "weather",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [],
-    "audio_id": "AUD_VOC_D44_027",
-    "day_introduced": 44,
-    "srs_tags": [
-      "day_44",
-      "weather"
-    ]
-  },
-  {
-    "id": "VOC_D44_028",
-    "char": "心情好",
-    "pinyin": "xīnqíng hǎo",
-    "pinyin_numeric": "xin1 qing2 hao3",
-    "phonemes": [
-      "xin1",
-      "qing2",
-      "hao3"
-    ],
-    "pos": "phrase",
-    "meaning_en": "in a good mood",
-    "meaning_ko": "기분이 좋다",
-    "semantic_domain": "mood",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D44_022",
-      "SEN_D44_057"
-    ],
-    "audio_id": "AUD_VOC_D44_028",
-    "day_introduced": 44,
-    "srs_tags": [
-      "day_44",
-      "mood"
-    ]
-  },
-  {
-    "id": "VOC_D44_029",
-    "char": "心情不好",
-    "pinyin": "xīnqíng bù hǎo",
-    "pinyin_numeric": "xin1 qing2 bu4 hao3",
-    "phonemes": [
-      "xin1",
-      "qing2",
-      "bu4",
-      "hao3"
-    ],
-    "pos": "phrase",
-    "meaning_en": "in a bad mood",
-    "meaning_ko": "기분이 안 좋다",
-    "semantic_domain": "mood",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D44_002",
-      "SEN_D44_037",
-      "SEN_D44_072"
-    ],
-    "audio_id": "AUD_VOC_D44_029",
-    "day_introduced": 44,
-    "srs_tags": [
-      "day_44",
-      "mood"
-    ]
-  },
-  {
-    "id": "VOC_D44_030",
-    "char": "有精神",
-    "pinyin": "yǒu jīngshén",
-    "pinyin_numeric": "you3 jing1 shen2",
-    "phonemes": [
-      "you3",
-      "jing1",
-      "shen2"
-    ],
-    "pos": "phrase",
-    "meaning_en": "energetic",
-    "meaning_ko": "기운이 있다",
-    "semantic_domain": "mood",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D44_017",
-      "SEN_D44_052",
-      "SEN_D44_087"
-    ],
-    "audio_id": "AUD_VOC_D44_030",
-    "day_introduced": 44,
-    "srs_tags": [
-      "day_44",
-      "mood"
-    ]
-  },
-  {
-    "id": "VOC_D44_031",
-    "char": "沒精神",
-    "pinyin": "méi jīngshén",
-    "pinyin_numeric": "mei2 jing1 shen2",
-    "phonemes": [
-      "mei2",
-      "jing1",
-      "shen2"
-    ],
-    "pos": "phrase",
-    "meaning_en": "low energy",
-    "meaning_ko": "기운이 없다",
-    "semantic_domain": "mood",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D44_032",
-      "SEN_D44_067"
-    ],
-    "audio_id": "AUD_VOC_D44_031",
-    "day_introduced": 44,
-    "srs_tags": [
-      "day_44",
-      "mood"
-    ]
-  },
-  {
-    "id": "VOC_D44_032",
-    "char": "放鬆",
-    "pinyin": "fàngsōng",
-    "pinyin_numeric": "fang4 song1",
-    "phonemes": [
-      "fang4",
-      "song1"
-    ],
-    "pos": "verb",
-    "meaning_en": "relax",
-    "meaning_ko": "긴장을 풀다",
-    "semantic_domain": "mood",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D44_007",
-      "SEN_D44_042",
-      "SEN_D44_077"
-    ],
-    "audio_id": "AUD_VOC_D44_032",
-    "day_introduced": 44,
-    "srs_tags": [
-      "day_44",
-      "mood"
-    ]
-  },
-  {
-    "id": "VOC_D44_033",
-    "char": "壓力",
-    "pinyin": "yālì",
-    "pinyin_numeric": "ya1 li4",
-    "phonemes": [
-      "ya1",
-      "li4"
-    ],
-    "pos": "noun",
-    "meaning_en": "pressure; stress",
-    "meaning_ko": "스트레스",
-    "semantic_domain": "mood",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [],
-    "audio_id": "AUD_VOC_D44_033",
-    "day_introduced": 44,
-    "srs_tags": [
-      "day_44",
-      "mood"
-    ]
-  },
-  {
-    "id": "VOC_D44_034",
-    "char": "壓力大",
-    "pinyin": "yālì dà",
-    "pinyin_numeric": "ya1 li4 da4",
-    "phonemes": [
-      "ya1",
-      "li4",
-      "da4"
-    ],
-    "pos": "phrase",
-    "meaning_en": "high pressure",
-    "meaning_ko": "스트레스가 많다",
-    "semantic_domain": "mood",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [],
-    "audio_id": "AUD_VOC_D44_034",
-    "day_introduced": 44,
-    "srs_tags": [
-      "day_44",
-      "mood"
-    ]
-  },
-  {
-    "id": "VOC_D44_035",
-    "char": "擔心",
-    "pinyin": "dānxīn",
-    "pinyin_numeric": "dan1 xin1",
-    "phonemes": [
-      "dan1",
-      "xin1"
-    ],
-    "pos": "verb",
-    "meaning_en": "worry",
-    "meaning_ko": "걱정하다",
-    "semantic_domain": "mood",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [],
-    "audio_id": "AUD_VOC_D44_035",
-    "day_introduced": 44,
-    "srs_tags": [
-      "day_44",
-      "mood"
-    ]
-  },
-  {
     "id": "VOC_D31_001",
     "char": "想要",
     "pinyin": "xiǎng yào",
@@ -12402,7 +10102,7 @@
     "hsk_level": 2,
     "example_ids": [
       "SEN_D41_001",
-      "SEN_D41_020",
+      "SEN_D41_012",
       "SEN_D41_021",
       "SEN_D41_031"
     ],
@@ -12433,7 +10133,7 @@
     "hsk_level": 2,
     "example_ids": [
       "SEN_D41_002",
-      "SEN_D41_013",
+      "SEN_D41_014",
       "SEN_D41_022",
       "SEN_D41_032"
     ],
@@ -12463,7 +10163,10 @@
     "cefr": "A2",
     "hsk_level": 2,
     "example_ids": [
-      "SEN_D41_018"
+      "SEN_D41_030",
+      "SEN_D41_057",
+      "SEN_D41_080",
+      "SEN_D41_088"
     ],
     "audio_id": "AUD_VOC_D41_005",
     "day_introduced": 41,
@@ -12522,9 +10225,8 @@
     "cefr": "A2",
     "hsk_level": 2,
     "example_ids": [
-      "SEN_D41_030",
-      "SEN_D41_054",
-      "SEN_D41_090"
+      "SEN_D41_040",
+      "SEN_D41_058"
     ],
     "audio_id": "AUD_VOC_D41_007",
     "day_introduced": 41,
@@ -12553,9 +10255,10 @@
     "cefr": "A2",
     "hsk_level": 2,
     "example_ids": [
-      "SEN_D41_029",
-      "SEN_D41_055",
-      "SEN_D41_070"
+      "SEN_D41_025",
+      "SEN_D41_034",
+      "SEN_D41_070",
+      "SEN_D41_085"
     ],
     "audio_id": "AUD_VOC_D41_008",
     "day_introduced": 41,
@@ -12584,10 +10287,10 @@
     "cefr": "A2",
     "hsk_level": 2,
     "example_ids": [
-      "SEN_D41_005",
-      "SEN_D41_014",
+      "SEN_D41_004",
+      "SEN_D41_018",
       "SEN_D41_024",
-      "SEN_D41_034"
+      "SEN_D41_044"
     ],
     "audio_id": "AUD_VOC_D41_009",
     "day_introduced": 41,
@@ -12616,7 +10319,8 @@
     "cefr": "A2",
     "hsk_level": 2,
     "example_ids": [
-      "SEN_D41_047"
+      "SEN_D41_035",
+      "SEN_D41_090"
     ],
     "audio_id": "AUD_VOC_D41_010",
     "day_introduced": 41,
@@ -12645,10 +10349,7 @@
     "cefr": "A2",
     "hsk_level": 2,
     "example_ids": [
-      "SEN_D41_008",
-      "SEN_D41_038",
-      "SEN_D41_050",
-      "SEN_D41_057"
+      "SEN_D41_039"
     ],
     "audio_id": "AUD_VOC_D41_011",
     "day_introduced": 41,
@@ -12677,9 +10378,10 @@
     "cefr": "A2",
     "hsk_level": 2,
     "example_ids": [
-      "SEN_D41_040",
-      "SEN_D41_058",
-      "SEN_D41_068"
+      "SEN_D41_008",
+      "SEN_D41_029",
+      "SEN_D41_059",
+      "SEN_D41_069"
     ],
     "audio_id": "AUD_VOC_D41_012",
     "day_introduced": 41,
@@ -12732,9 +10434,7 @@
     "frequency": "medium",
     "cefr": "A2",
     "hsk_level": 2,
-    "example_ids": [
-      "SEN_D41_059"
-    ],
+    "example_ids": [],
     "audio_id": "AUD_VOC_D41_014",
     "day_introduced": 41,
     "srs_tags": [
@@ -12763,8 +10463,7 @@
     "cefr": "A2",
     "hsk_level": 2,
     "example_ids": [
-      "SEN_D41_049",
-      "SEN_D41_085"
+      "SEN_D41_009"
     ],
     "audio_id": "AUD_VOC_D41_015",
     "day_introduced": 41,
@@ -12794,7 +10493,8 @@
     "cefr": "A2",
     "hsk_level": 2,
     "example_ids": [
-      "SEN_D41_040"
+      "SEN_D41_029",
+      "SEN_D41_059"
     ],
     "audio_id": "AUD_VOC_D41_016",
     "day_introduced": 41,
@@ -12823,10 +10523,10 @@
     "cefr": "A2",
     "hsk_level": 2,
     "example_ids": [
-      "SEN_D41_005",
-      "SEN_D41_015",
-      "SEN_D41_023",
-      "SEN_D41_030"
+      "SEN_D41_004",
+      "SEN_D41_017",
+      "SEN_D41_018",
+      "SEN_D41_024"
     ],
     "audio_id": "AUD_VOC_D41_017",
     "day_introduced": 41,
@@ -12855,10 +10555,10 @@
     "cefr": "A2",
     "hsk_level": 2,
     "example_ids": [
-      "SEN_D41_009",
-      "SEN_D41_016",
-      "SEN_D41_019",
-      "SEN_D41_026"
+      "SEN_D41_005",
+      "SEN_D41_010",
+      "SEN_D41_026",
+      "SEN_D41_036"
     ],
     "audio_id": "AUD_VOC_D41_018",
     "day_introduced": 41,
@@ -12885,7 +10585,9 @@
     "frequency": "medium",
     "cefr": "A2",
     "hsk_level": 2,
-    "example_ids": [],
+    "example_ids": [
+      "SEN_D41_050"
+    ],
     "audio_id": "AUD_VOC_D41_019",
     "day_introduced": 41,
     "srs_tags": [
@@ -12914,9 +10616,7 @@
     "cefr": "A2",
     "hsk_level": 2,
     "example_ids": [
-      "SEN_D41_012",
-      "SEN_D41_044",
-      "SEN_D41_076"
+      "SEN_D41_046"
     ],
     "audio_id": "AUD_VOC_D41_020",
     "day_introduced": 41,
@@ -13025,9 +10725,7 @@
     "cefr": "A2",
     "hsk_level": 2,
     "example_ids": [
-      "SEN_D41_004",
-      "SEN_D41_025",
-      "SEN_D41_035",
+      "SEN_D41_055",
       "SEN_D41_065"
     ],
     "audio_id": "AUD_VOC_D41_024",
@@ -13057,10 +10755,10 @@
     "cefr": "A2",
     "hsk_level": 2,
     "example_ids": [
-      "SEN_D41_010",
-      "SEN_D41_017",
-      "SEN_D41_028",
-      "SEN_D41_039"
+      "SEN_D41_006",
+      "SEN_D41_027",
+      "SEN_D41_037",
+      "SEN_D41_060"
     ],
     "audio_id": "AUD_VOC_D41_025",
     "day_introduced": 41,
@@ -13088,10 +10786,9 @@
     "cefr": "A2",
     "hsk_level": 2,
     "example_ids": [
-      "SEN_D41_012",
-      "SEN_D41_019",
-      "SEN_D41_044",
-      "SEN_D41_049"
+      "SEN_D41_045",
+      "SEN_D41_046",
+      "SEN_D41_050"
     ],
     "audio_id": "AUD_VOC_D41_026",
     "day_introduced": 41,
@@ -13120,10 +10817,10 @@
     "cefr": "A2",
     "hsk_level": 2,
     "example_ids": [
-      "SEN_D41_004",
-      "SEN_D41_009",
+      "SEN_D41_005",
+      "SEN_D41_015",
       "SEN_D41_016",
-      "SEN_D41_025"
+      "SEN_D41_026"
     ],
     "audio_id": "AUD_VOC_D41_027",
     "day_introduced": 41,
@@ -13153,9 +10850,9 @@
     "hsk_level": 2,
     "example_ids": [
       "SEN_D41_011",
-      "SEN_D41_020",
-      "SEN_D41_029",
-      "SEN_D41_041"
+      "SEN_D41_041",
+      "SEN_D41_057",
+      "SEN_D41_071"
     ],
     "audio_id": "AUD_VOC_D41_028",
     "day_introduced": 41,
@@ -13185,9 +10882,9 @@
     "hsk_level": 2,
     "example_ids": [
       "SEN_D41_003",
+      "SEN_D41_010",
       "SEN_D41_013",
-      "SEN_D41_018",
-      "SEN_D41_026"
+      "SEN_D41_023"
     ],
     "audio_id": "AUD_VOC_D41_029",
     "day_introduced": 41,
@@ -13216,7 +10913,9 @@
     "frequency": "medium",
     "cefr": "A2",
     "hsk_level": 2,
-    "example_ids": [],
+    "example_ids": [
+      "SEN_D41_078"
+    ],
     "audio_id": "AUD_VOC_D41_030",
     "day_introduced": 41,
     "srs_tags": [
@@ -13244,9 +10943,7 @@
     "frequency": "medium",
     "cefr": "A2",
     "hsk_level": 2,
-    "example_ids": [
-      "SEN_D41_017"
-    ],
+    "example_ids": [],
     "audio_id": "AUD_VOC_D41_031",
     "day_introduced": 41,
     "srs_tags": [
@@ -13275,9 +10972,9 @@
     "hsk_level": 2,
     "example_ids": [
       "SEN_D41_007",
-      "SEN_D41_015",
-      "SEN_D41_027",
-      "SEN_D41_037"
+      "SEN_D41_028",
+      "SEN_D41_038",
+      "SEN_D41_067"
     ],
     "audio_id": "AUD_VOC_D41_032",
     "day_introduced": 41,
@@ -13332,7 +11029,8 @@
     "cefr": "A2",
     "hsk_level": 2,
     "example_ids": [
-      "SEN_D41_068"
+      "SEN_D41_008",
+      "SEN_D41_069"
     ],
     "audio_id": "AUD_VOC_D41_034",
     "day_introduced": 41,
@@ -13390,7 +11088,7 @@
       "SEN_D42_001",
       "SEN_D42_004",
       "SEN_D42_007",
-      "SEN_D42_008"
+      "SEN_D42_010"
     ],
     "audio_id": "AUD_VOC_D42_001",
     "day_introduced": 42,
@@ -13420,10 +11118,10 @@
     "cefr": "A2",
     "hsk_level": 2,
     "example_ids": [
+      "SEN_D42_001",
       "SEN_D42_002",
-      "SEN_D42_011",
-      "SEN_D42_012",
-      "SEN_D42_013"
+      "SEN_D42_007",
+      "SEN_D42_011"
     ],
     "audio_id": "AUD_VOC_D42_002",
     "day_introduced": 42,
@@ -13453,8 +11151,8 @@
     "hsk_level": 2,
     "example_ids": [
       "SEN_D42_003",
-      "SEN_D42_034",
-      "SEN_D42_056",
+      "SEN_D42_030",
+      "SEN_D42_033",
       "SEN_D42_063"
     ],
     "audio_id": "AUD_VOC_D42_003",
@@ -13483,10 +11181,10 @@
     "cefr": "A2",
     "hsk_level": 2,
     "example_ids": [
-      "SEN_D42_029",
-      "SEN_D42_038",
-      "SEN_D42_055",
-      "SEN_D42_086"
+      "SEN_D42_024",
+      "SEN_D42_039",
+      "SEN_D42_054",
+      "SEN_D42_089"
     ],
     "audio_id": "AUD_VOC_D42_004",
     "day_introduced": 42,
@@ -13515,7 +11213,9 @@
     "hsk_level": 2,
     "example_ids": [
       "SEN_D42_004",
-      "SEN_D42_065"
+      "SEN_D42_034",
+      "SEN_D42_064",
+      "SEN_D42_083"
     ],
     "audio_id": "AUD_VOC_D42_005",
     "day_introduced": 42,
@@ -13543,10 +11243,10 @@
     "cefr": "A2",
     "hsk_level": 2,
     "example_ids": [
-      "SEN_D42_022",
-      "SEN_D42_064",
-      "SEN_D42_065",
-      "SEN_D42_082"
+      "SEN_D42_001",
+      "SEN_D42_004",
+      "SEN_D42_014",
+      "SEN_D42_020"
     ],
     "audio_id": "AUD_VOC_D42_006",
     "day_introduced": 42,
@@ -13574,10 +11274,10 @@
     "cefr": "A2",
     "hsk_level": 2,
     "example_ids": [
-      "SEN_D42_006",
+      "SEN_D42_010",
       "SEN_D42_011",
       "SEN_D42_021",
-      "SEN_D42_029"
+      "SEN_D42_032"
     ],
     "audio_id": "AUD_VOC_D42_007",
     "day_introduced": 42,
@@ -13605,7 +11305,7 @@
     "cefr": "A2",
     "hsk_level": 2,
     "example_ids": [
-      "SEN_D42_006",
+      "SEN_D42_010",
       "SEN_D42_011",
       "SEN_D42_021",
       "SEN_D42_032"
@@ -13636,10 +11336,10 @@
     "cefr": "A2",
     "hsk_level": 2,
     "example_ids": [
-      "SEN_D42_008",
-      "SEN_D42_012",
-      "SEN_D42_029",
-      "SEN_D42_036"
+      "SEN_D42_007",
+      "SEN_D42_024",
+      "SEN_D42_037",
+      "SEN_D42_054"
     ],
     "audio_id": "AUD_VOC_D42_009",
     "day_introduced": 42,
@@ -13667,10 +11367,10 @@
     "cefr": "A2",
     "hsk_level": 2,
     "example_ids": [
-      "SEN_D42_022",
-      "SEN_D42_044",
-      "SEN_D42_065",
-      "SEN_D42_066"
+      "SEN_D42_001",
+      "SEN_D42_020",
+      "SEN_D42_042",
+      "SEN_D42_054"
     ],
     "audio_id": "AUD_VOC_D42_010",
     "day_introduced": 42,
@@ -13697,10 +11397,10 @@
     "cefr": "A2",
     "hsk_level": 2,
     "example_ids": [
-      "SEN_D42_004",
-      "SEN_D42_040",
-      "SEN_D42_065",
-      "SEN_D42_076"
+      "SEN_D42_018",
+      "SEN_D42_033",
+      "SEN_D42_048",
+      "SEN_D42_064"
     ],
     "audio_id": "AUD_VOC_D42_011",
     "day_introduced": 42,
@@ -13728,9 +11428,9 @@
     "hsk_level": 2,
     "example_ids": [
       "SEN_D42_003",
-      "SEN_D42_033",
-      "SEN_D42_042",
-      "SEN_D42_048"
+      "SEN_D42_016",
+      "SEN_D42_025",
+      "SEN_D42_045"
     ],
     "audio_id": "AUD_VOC_D42_012",
     "day_introduced": 42,
@@ -13758,10 +11458,10 @@
     "cefr": "A2",
     "hsk_level": 2,
     "example_ids": [
-      "SEN_D42_010",
-      "SEN_D42_038",
-      "SEN_D42_050",
-      "SEN_D42_063"
+      "SEN_D42_008",
+      "SEN_D42_027",
+      "SEN_D42_033",
+      "SEN_D42_039"
     ],
     "audio_id": "AUD_VOC_D42_013",
     "day_introduced": 42,
@@ -13814,10 +11514,10 @@
     "cefr": "A2",
     "hsk_level": 2,
     "example_ids": [
-      "SEN_D42_006",
-      "SEN_D42_030",
-      "SEN_D42_031",
-      "SEN_D42_036"
+      "SEN_D42_005",
+      "SEN_D42_007",
+      "SEN_D42_010",
+      "SEN_D42_014"
     ],
     "audio_id": "AUD_VOC_D42_015",
     "day_introduced": 42,
@@ -13846,9 +11546,10 @@
     "cefr": "A2",
     "hsk_level": 2,
     "example_ids": [
-      "SEN_D42_006",
-      "SEN_D42_030",
-      "SEN_D42_070"
+      "SEN_D42_038",
+      "SEN_D42_055",
+      "SEN_D42_076",
+      "SEN_D42_085"
     ],
     "audio_id": "AUD_VOC_D42_016",
     "day_introduced": 42,
@@ -13878,8 +11579,8 @@
     "example_ids": [
       "SEN_D42_002",
       "SEN_D42_006",
-      "SEN_D42_011",
-      "SEN_D42_013"
+      "SEN_D42_009",
+      "SEN_D42_011"
     ],
     "audio_id": "AUD_VOC_D42_017",
     "day_introduced": 42,
@@ -13908,8 +11609,10 @@
     "cefr": "A2",
     "hsk_level": 2,
     "example_ids": [
-      "SEN_D42_030",
-      "SEN_D42_090"
+      "SEN_D42_023",
+      "SEN_D42_053",
+      "SEN_D42_058",
+      "SEN_D42_083"
     ],
     "audio_id": "AUD_VOC_D42_018",
     "day_introduced": 42,
@@ -13938,8 +11641,8 @@
     "cefr": "A2",
     "hsk_level": 2,
     "example_ids": [
-      "SEN_D42_039",
-      "SEN_D42_070"
+      "SEN_D42_009",
+      "SEN_D42_038"
     ],
     "audio_id": "AUD_VOC_D42_019",
     "day_introduced": 42,
@@ -13969,7 +11672,8 @@
     "cefr": "A2",
     "hsk_level": 2,
     "example_ids": [
-      "SEN_D42_040"
+      "SEN_D42_023",
+      "SEN_D42_053"
     ],
     "audio_id": "AUD_VOC_D42_020",
     "day_introduced": 42,
@@ -13998,7 +11702,12 @@
     "frequency": "medium",
     "cefr": "A2",
     "hsk_level": 2,
-    "example_ids": [],
+    "example_ids": [
+      "SEN_D42_020",
+      "SEN_D42_042",
+      "SEN_D42_072",
+      "SEN_D42_088"
+    ],
     "audio_id": "AUD_VOC_D42_021",
     "day_introduced": 42,
     "srs_tags": [
@@ -14025,7 +11734,9 @@
     "frequency": "medium",
     "cefr": "A2",
     "hsk_level": 2,
-    "example_ids": [],
+    "example_ids": [
+      "SEN_D42_058"
+    ],
     "audio_id": "AUD_VOC_D42_022",
     "day_introduced": 42,
     "srs_tags": [
@@ -14052,10 +11763,7 @@
     "frequency": "medium",
     "cefr": "A2",
     "hsk_level": 2,
-    "example_ids": [
-      "SEN_D42_023",
-      "SEN_D42_053"
-    ],
+    "example_ids": [],
     "audio_id": "AUD_VOC_D42_023",
     "day_introduced": 42,
     "srs_tags": [
@@ -14083,10 +11791,7 @@
     "frequency": "medium",
     "cefr": "A2",
     "hsk_level": 2,
-    "example_ids": [
-      "SEN_D42_057",
-      "SEN_D42_087"
-    ],
+    "example_ids": [],
     "audio_id": "AUD_VOC_D42_024",
     "day_introduced": 42,
     "srs_tags": [
@@ -14115,10 +11820,10 @@
     "cefr": "A2",
     "hsk_level": 2,
     "example_ids": [
-      "SEN_D42_007",
+      "SEN_D42_006",
       "SEN_D42_026",
-      "SEN_D42_035",
-      "SEN_D42_059"
+      "SEN_D42_036",
+      "SEN_D42_056"
     ],
     "audio_id": "AUD_VOC_D42_025",
     "day_introduced": 42,
@@ -14147,9 +11852,7 @@
     "frequency": "medium",
     "cefr": "A2",
     "hsk_level": 2,
-    "example_ids": [
-      "SEN_D42_035"
-    ],
+    "example_ids": [],
     "audio_id": "AUD_VOC_D42_026",
     "day_introduced": 42,
     "srs_tags": [
@@ -14176,10 +11879,10 @@
     "cefr": "A2",
     "hsk_level": 2,
     "example_ids": [
-      "SEN_D42_019",
-      "SEN_D42_020",
-      "SEN_D42_060",
-      "SEN_D42_078"
+      "SEN_D42_015",
+      "SEN_D42_026",
+      "SEN_D42_056",
+      "SEN_D42_086"
     ],
     "audio_id": "AUD_VOC_D42_027",
     "day_introduced": 42,
@@ -14207,7 +11910,9 @@
     "frequency": "medium",
     "cefr": "A2",
     "hsk_level": 2,
-    "example_ids": [],
+    "example_ids": [
+      "SEN_D42_058"
+    ],
     "audio_id": "AUD_VOC_D42_028",
     "day_introduced": 42,
     "srs_tags": [
@@ -14234,7 +11939,7 @@
     "cefr": "A2",
     "hsk_level": 2,
     "example_ids": [
-      "SEN_D42_037"
+      "SEN_D42_025"
     ],
     "audio_id": "AUD_VOC_D42_029",
     "day_introduced": 42,
@@ -14263,10 +11968,10 @@
     "cefr": "A2",
     "hsk_level": 2,
     "example_ids": [
-      "SEN_D42_010",
-      "SEN_D42_014",
+      "SEN_D42_012",
       "SEN_D42_028",
-      "SEN_D42_044"
+      "SEN_D42_040",
+      "SEN_D42_067"
     ],
     "audio_id": "AUD_VOC_D42_030",
     "day_introduced": 42,
@@ -14296,9 +12001,9 @@
     "hsk_level": 2,
     "example_ids": [
       "SEN_D42_005",
-      "SEN_D42_010",
-      "SEN_D42_014",
-      "SEN_D42_024"
+      "SEN_D42_009",
+      "SEN_D42_012",
+      "SEN_D42_018"
     ],
     "audio_id": "AUD_VOC_D42_031",
     "day_introduced": 42,
@@ -14328,9 +12033,9 @@
     "hsk_level": 2,
     "example_ids": [
       "SEN_D42_005",
-      "SEN_D42_018",
-      "SEN_D42_024",
-      "SEN_D42_033"
+      "SEN_D42_016",
+      "SEN_D42_022",
+      "SEN_D42_035"
     ],
     "audio_id": "AUD_VOC_D42_032",
     "day_introduced": 42,
@@ -14359,8 +12064,9 @@
     "cefr": "A2",
     "hsk_level": 2,
     "example_ids": [
-      "SEN_D42_009",
-      "SEN_D42_037"
+      "SEN_D42_027",
+      "SEN_D42_040",
+      "SEN_D42_057"
     ],
     "audio_id": "AUD_VOC_D42_033",
     "day_introduced": 42,
@@ -14388,10 +12094,10 @@
     "cefr": "A2",
     "hsk_level": 2,
     "example_ids": [
-      "SEN_D42_009",
-      "SEN_D42_028",
-      "SEN_D42_033",
-      "SEN_D42_064"
+      "SEN_D42_008",
+      "SEN_D42_010",
+      "SEN_D42_016",
+      "SEN_D42_022"
     ],
     "audio_id": "AUD_VOC_D42_034",
     "day_introduced": 42,
@@ -14419,14 +12125,3405 @@
     "cefr": "A2",
     "hsk_level": 2,
     "example_ids": [
-      "SEN_D42_010",
-      "SEN_D42_068"
+      "SEN_D42_018",
+      "SEN_D42_029",
+      "SEN_D42_048",
+      "SEN_D42_059"
     ],
     "audio_id": "AUD_VOC_D42_035",
     "day_introduced": 42,
     "srs_tags": [
       "day_42",
       "conversation"
+    ]
+  },
+  {
+    "id": "VOC_D43_001",
+    "char": "衣服",
+    "pinyin": "yīfú",
+    "pinyin_numeric": "yi1 fu2",
+    "phonemes": [
+      "yi1",
+      "fu2"
+    ],
+    "pos": "noun",
+    "meaning_en": "clothes",
+    "meaning_ko": "옷",
+    "semantic_domain": "clothes",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D43_001",
+      "SEN_D43_010",
+      "SEN_D43_031",
+      "SEN_D43_066"
+    ],
+    "audio_id": "AUD_VOC_D43_001",
+    "day_introduced": 43,
+    "srs_tags": [
+      "day_43",
+      "clothes"
+    ]
+  },
+  {
+    "id": "VOC_D43_002",
+    "char": "褲子",
+    "pinyin": "kùzi",
+    "pinyin_numeric": "ku4 zi0",
+    "phonemes": [
+      "ku4",
+      "zi0"
+    ],
+    "pos": "noun",
+    "meaning_en": "pants",
+    "meaning_ko": "바지",
+    "semantic_domain": "clothes",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D43_004",
+      "SEN_D43_009",
+      "SEN_D43_012",
+      "SEN_D43_017"
+    ],
+    "audio_id": "AUD_VOC_D43_002",
+    "day_introduced": 43,
+    "srs_tags": [
+      "day_43",
+      "clothes"
+    ]
+  },
+  {
+    "id": "VOC_D43_003",
+    "char": "鞋子",
+    "pinyin": "xiézi",
+    "pinyin_numeric": "xie2 zi0",
+    "phonemes": [
+      "xie2",
+      "zi0"
+    ],
+    "pos": "noun",
+    "meaning_en": "shoes",
+    "meaning_ko": "신발",
+    "semantic_domain": "clothes",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D43_006",
+      "SEN_D43_013",
+      "SEN_D43_018",
+      "SEN_D43_024"
+    ],
+    "audio_id": "AUD_VOC_D43_003",
+    "day_introduced": 43,
+    "srs_tags": [
+      "day_43",
+      "clothes"
+    ]
+  },
+  {
+    "id": "VOC_D43_004",
+    "char": "尺寸",
+    "pinyin": "chǐcùn",
+    "pinyin_numeric": "chi3 cun4",
+    "phonemes": [
+      "chi3",
+      "cun4"
+    ],
+    "pos": "noun",
+    "meaning_en": "size",
+    "meaning_ko": "사이즈",
+    "semantic_domain": "clothes",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D43_002",
+      "SEN_D43_007",
+      "SEN_D43_014",
+      "SEN_D43_018"
+    ],
+    "audio_id": "AUD_VOC_D43_004",
+    "day_introduced": 43,
+    "srs_tags": [
+      "day_43",
+      "clothes"
+    ]
+  },
+  {
+    "id": "VOC_D43_005",
+    "char": "顏色",
+    "pinyin": "yánsè",
+    "pinyin_numeric": "yan2 se4",
+    "phonemes": [
+      "yan2",
+      "se4"
+    ],
+    "pos": "noun",
+    "meaning_en": "color",
+    "meaning_ko": "색깔",
+    "semantic_domain": "clothes",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D43_008",
+      "SEN_D43_011",
+      "SEN_D43_016",
+      "SEN_D43_019"
+    ],
+    "audio_id": "AUD_VOC_D43_005",
+    "day_introduced": 43,
+    "srs_tags": [
+      "day_43",
+      "clothes"
+    ]
+  },
+  {
+    "id": "VOC_D43_006",
+    "char": "試穿",
+    "pinyin": "shìchuān",
+    "pinyin_numeric": "shi4 chuan1",
+    "phonemes": [
+      "shi4",
+      "chuan1"
+    ],
+    "pos": "verb",
+    "meaning_en": "try on",
+    "meaning_ko": "입어 보다",
+    "semantic_domain": "clothes",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D43_003",
+      "SEN_D43_013",
+      "SEN_D43_034",
+      "SEN_D43_039"
+    ],
+    "audio_id": "AUD_VOC_D43_006",
+    "day_introduced": 43,
+    "srs_tags": [
+      "day_43",
+      "clothes"
+    ]
+  },
+  {
+    "id": "VOC_D43_007",
+    "char": "適合",
+    "pinyin": "shìhé",
+    "pinyin_numeric": "shi4 he2",
+    "phonemes": [
+      "shi4",
+      "he2"
+    ],
+    "pos": "verb",
+    "meaning_en": "to fit; suit",
+    "meaning_ko": "어울리다",
+    "semantic_domain": "clothes",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D43_036",
+      "SEN_D43_067",
+      "SEN_D43_077"
+    ],
+    "audio_id": "AUD_VOC_D43_007",
+    "day_introduced": 43,
+    "srs_tags": [
+      "day_43",
+      "clothes"
+    ]
+  },
+  {
+    "id": "VOC_D43_008",
+    "char": "打折",
+    "pinyin": "dǎzhé",
+    "pinyin_numeric": "da3 zhe2",
+    "phonemes": [
+      "da3",
+      "zhe2"
+    ],
+    "pos": "verb",
+    "meaning_en": "discount",
+    "meaning_ko": "할인하다",
+    "semantic_domain": "clothes",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D43_010",
+      "SEN_D43_015",
+      "SEN_D43_037",
+      "SEN_D43_045"
+    ],
+    "audio_id": "AUD_VOC_D43_008",
+    "day_introduced": 43,
+    "srs_tags": [
+      "day_43",
+      "clothes"
+    ]
+  },
+  {
+    "id": "VOC_D43_009",
+    "char": "上衣",
+    "pinyin": "shàngyī",
+    "pinyin_numeric": "shang4 yi1",
+    "phonemes": [
+      "shang4",
+      "yi1"
+    ],
+    "pos": "noun",
+    "meaning_en": "top; shirt",
+    "meaning_ko": "상의",
+    "semantic_domain": "clothes",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D43_002",
+      "SEN_D43_007",
+      "SEN_D43_011",
+      "SEN_D43_016"
+    ],
+    "audio_id": "AUD_VOC_D43_009",
+    "day_introduced": 43,
+    "srs_tags": [
+      "day_43",
+      "clothes"
+    ]
+  },
+  {
+    "id": "VOC_D43_010",
+    "char": "外套",
+    "pinyin": "wàitào",
+    "pinyin_numeric": "wai4 tao4",
+    "phonemes": [
+      "wai4",
+      "tao4"
+    ],
+    "pos": "noun",
+    "meaning_en": "jacket",
+    "meaning_ko": "외투",
+    "semantic_domain": "clothes",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D43_003",
+      "SEN_D43_008",
+      "SEN_D43_014",
+      "SEN_D43_019"
+    ],
+    "audio_id": "AUD_VOC_D43_010",
+    "day_introduced": 43,
+    "srs_tags": [
+      "day_43",
+      "clothes"
+    ]
+  },
+  {
+    "id": "VOC_D43_011",
+    "char": "裙子",
+    "pinyin": "qúnzi",
+    "pinyin_numeric": "qun2 zi0",
+    "phonemes": [
+      "qun2",
+      "zi0"
+    ],
+    "pos": "noun",
+    "meaning_en": "skirt",
+    "meaning_ko": "치마",
+    "semantic_domain": "clothes",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D43_005",
+      "SEN_D43_015",
+      "SEN_D43_020",
+      "SEN_D43_025"
+    ],
+    "audio_id": "AUD_VOC_D43_011",
+    "day_introduced": 43,
+    "srs_tags": [
+      "day_43",
+      "clothes"
+    ]
+  },
+  {
+    "id": "VOC_D43_012",
+    "char": "短褲",
+    "pinyin": "duǎnkù",
+    "pinyin_numeric": "duan3 ku4",
+    "phonemes": [
+      "duan3",
+      "ku4"
+    ],
+    "pos": "noun",
+    "meaning_en": "shorts",
+    "meaning_ko": "반바지",
+    "semantic_domain": "clothes",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D43_078"
+    ],
+    "audio_id": "AUD_VOC_D43_012",
+    "day_introduced": 43,
+    "srs_tags": [
+      "day_43",
+      "clothes"
+    ]
+  },
+  {
+    "id": "VOC_D43_013",
+    "char": "長褲",
+    "pinyin": "chángkù",
+    "pinyin_numeric": "chang2 ku4",
+    "phonemes": [
+      "chang2",
+      "ku4"
+    ],
+    "pos": "noun",
+    "meaning_en": "long pants",
+    "meaning_ko": "긴바지",
+    "semantic_domain": "clothes",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D43_013",
+    "day_introduced": 43,
+    "srs_tags": [
+      "day_43",
+      "clothes"
+    ]
+  },
+  {
+    "id": "VOC_D43_014",
+    "char": "襪子",
+    "pinyin": "wàzi",
+    "pinyin_numeric": "wa4 zi0",
+    "phonemes": [
+      "wa4",
+      "zi0"
+    ],
+    "pos": "noun",
+    "meaning_en": "socks",
+    "meaning_ko": "양말",
+    "semantic_domain": "clothes",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D43_030",
+      "SEN_D43_048",
+      "SEN_D43_060"
+    ],
+    "audio_id": "AUD_VOC_D43_014",
+    "day_introduced": 43,
+    "srs_tags": [
+      "day_43",
+      "clothes"
+    ]
+  },
+  {
+    "id": "VOC_D43_015",
+    "char": "帽子",
+    "pinyin": "màozi",
+    "pinyin_numeric": "mao4 zi0",
+    "phonemes": [
+      "mao4",
+      "zi0"
+    ],
+    "pos": "noun",
+    "meaning_en": "hat",
+    "meaning_ko": "모자",
+    "semantic_domain": "clothes",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D43_026",
+      "SEN_D43_056",
+      "SEN_D43_079"
+    ],
+    "audio_id": "AUD_VOC_D43_015",
+    "day_introduced": 43,
+    "srs_tags": [
+      "day_43",
+      "clothes"
+    ]
+  },
+  {
+    "id": "VOC_D43_016",
+    "char": "包包",
+    "pinyin": "bāobāo",
+    "pinyin_numeric": "bao1 bao1",
+    "phonemes": [
+      "bao1",
+      "bao1"
+    ],
+    "pos": "noun",
+    "meaning_en": "bag; purse",
+    "meaning_ko": "가방",
+    "semantic_domain": "clothes",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D43_027",
+      "SEN_D43_057"
+    ],
+    "audio_id": "AUD_VOC_D43_016",
+    "day_introduced": 43,
+    "srs_tags": [
+      "day_43",
+      "clothes"
+    ]
+  },
+  {
+    "id": "VOC_D43_017",
+    "char": "黑色",
+    "pinyin": "hēisè",
+    "pinyin_numeric": "hei1 se4",
+    "phonemes": [
+      "hei1",
+      "se4"
+    ],
+    "pos": "noun",
+    "meaning_en": "black color",
+    "meaning_ko": "검은색",
+    "semantic_domain": "color",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D43_003",
+      "SEN_D43_021",
+      "SEN_D43_030",
+      "SEN_D43_033"
+    ],
+    "audio_id": "AUD_VOC_D43_017",
+    "day_introduced": 43,
+    "srs_tags": [
+      "day_43",
+      "color"
+    ]
+  },
+  {
+    "id": "VOC_D43_018",
+    "char": "白色",
+    "pinyin": "báisè",
+    "pinyin_numeric": "bai2 se4",
+    "phonemes": [
+      "bai2",
+      "se4"
+    ],
+    "pos": "noun",
+    "meaning_en": "white color",
+    "meaning_ko": "흰색",
+    "semantic_domain": "color",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D43_006",
+      "SEN_D43_025",
+      "SEN_D43_040",
+      "SEN_D43_051"
+    ],
+    "audio_id": "AUD_VOC_D43_018",
+    "day_introduced": 43,
+    "srs_tags": [
+      "day_43",
+      "color"
+    ]
+  },
+  {
+    "id": "VOC_D43_019",
+    "char": "紅色",
+    "pinyin": "hóngsè",
+    "pinyin_numeric": "hong2 se4",
+    "phonemes": [
+      "hong2",
+      "se4"
+    ],
+    "pos": "noun",
+    "meaning_en": "red color",
+    "meaning_ko": "빨간색",
+    "semantic_domain": "color",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D43_026",
+      "SEN_D43_055",
+      "SEN_D43_088"
+    ],
+    "audio_id": "AUD_VOC_D43_019",
+    "day_introduced": 43,
+    "srs_tags": [
+      "day_43",
+      "color"
+    ]
+  },
+  {
+    "id": "VOC_D43_020",
+    "char": "藍色",
+    "pinyin": "lánsè",
+    "pinyin_numeric": "lan2 se4",
+    "phonemes": [
+      "lan2",
+      "se4"
+    ],
+    "pos": "noun",
+    "meaning_en": "blue color",
+    "meaning_ko": "파란색",
+    "semantic_domain": "color",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D43_004",
+      "SEN_D43_023",
+      "SEN_D43_034",
+      "SEN_D43_047"
+    ],
+    "audio_id": "AUD_VOC_D43_020",
+    "day_introduced": 43,
+    "srs_tags": [
+      "day_43",
+      "color"
+    ]
+  },
+  {
+    "id": "VOC_D43_021",
+    "char": "綠色",
+    "pinyin": "lǜsè",
+    "pinyin_numeric": "lü4 se4",
+    "phonemes": [
+      "lü4",
+      "se4"
+    ],
+    "pos": "noun",
+    "meaning_en": "green color",
+    "meaning_ko": "초록색",
+    "semantic_domain": "color",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D43_058",
+      "SEN_D43_076",
+      "SEN_D43_090"
+    ],
+    "audio_id": "AUD_VOC_D43_021",
+    "day_introduced": 43,
+    "srs_tags": [
+      "day_43",
+      "color"
+    ]
+  },
+  {
+    "id": "VOC_D43_022",
+    "char": "黃色",
+    "pinyin": "huángsè",
+    "pinyin_numeric": "huang2 se4",
+    "phonemes": [
+      "huang2",
+      "se4"
+    ],
+    "pos": "noun",
+    "meaning_en": "yellow color",
+    "meaning_ko": "노란색",
+    "semantic_domain": "color",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D43_060"
+    ],
+    "audio_id": "AUD_VOC_D43_022",
+    "day_introduced": 43,
+    "srs_tags": [
+      "day_43",
+      "color"
+    ]
+  },
+  {
+    "id": "VOC_D43_023",
+    "char": "灰色",
+    "pinyin": "huīsè",
+    "pinyin_numeric": "hui1 se4",
+    "phonemes": [
+      "hui1",
+      "se4"
+    ],
+    "pos": "noun",
+    "meaning_en": "gray color",
+    "meaning_ko": "회색",
+    "semantic_domain": "color",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D43_028",
+      "SEN_D43_059",
+      "SEN_D43_087"
+    ],
+    "audio_id": "AUD_VOC_D43_023",
+    "day_introduced": 43,
+    "srs_tags": [
+      "day_43",
+      "color"
+    ]
+  },
+  {
+    "id": "VOC_D43_024",
+    "char": "尺寸表",
+    "pinyin": "chǐcùnbiǎo",
+    "pinyin_numeric": "chi3 cun4 biao3",
+    "phonemes": [
+      "chi3",
+      "cun4",
+      "biao3"
+    ],
+    "pos": "noun",
+    "meaning_en": "size chart",
+    "meaning_ko": "사이즈표",
+    "semantic_domain": "clothes",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D43_024",
+    "day_introduced": 43,
+    "srs_tags": [
+      "day_43",
+      "clothes"
+    ]
+  },
+  {
+    "id": "VOC_D43_025",
+    "char": "小號",
+    "pinyin": "xiǎo hào",
+    "pinyin_numeric": "xiao3 hao4",
+    "phonemes": [
+      "xiao3",
+      "hao4"
+    ],
+    "pos": "noun",
+    "meaning_en": "small size",
+    "meaning_ko": "작은 사이즈",
+    "semantic_domain": "clothes",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D43_022",
+      "SEN_D43_038",
+      "SEN_D43_052",
+      "SEN_D43_066"
+    ],
+    "audio_id": "AUD_VOC_D43_025",
+    "day_introduced": 43,
+    "srs_tags": [
+      "day_43",
+      "clothes"
+    ]
+  },
+  {
+    "id": "VOC_D43_026",
+    "char": "中號",
+    "pinyin": "zhōng hào",
+    "pinyin_numeric": "zhong1 hao4",
+    "phonemes": [
+      "zhong1",
+      "hao4"
+    ],
+    "pos": "noun",
+    "meaning_en": "medium size",
+    "meaning_ko": "중간 사이즈",
+    "semantic_domain": "clothes",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D43_014",
+      "SEN_D43_027",
+      "SEN_D43_029",
+      "SEN_D43_032"
+    ],
+    "audio_id": "AUD_VOC_D43_026",
+    "day_introduced": 43,
+    "srs_tags": [
+      "day_43",
+      "clothes"
+    ]
+  },
+  {
+    "id": "VOC_D43_027",
+    "char": "大號",
+    "pinyin": "dà hào",
+    "pinyin_numeric": "da4 hao4",
+    "phonemes": [
+      "da4",
+      "hao4"
+    ],
+    "pos": "noun",
+    "meaning_en": "large size",
+    "meaning_ko": "큰 사이즈",
+    "semantic_domain": "clothes",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D43_007",
+      "SEN_D43_013",
+      "SEN_D43_024",
+      "SEN_D43_032"
+    ],
+    "audio_id": "AUD_VOC_D43_027",
+    "day_introduced": 43,
+    "srs_tags": [
+      "day_43",
+      "clothes"
+    ]
+  },
+  {
+    "id": "VOC_D43_028",
+    "char": "太大",
+    "pinyin": "tài dà",
+    "pinyin_numeric": "tai4 da4",
+    "phonemes": [
+      "tai4",
+      "da4"
+    ],
+    "pos": "adjective phrase",
+    "meaning_en": "too big",
+    "meaning_ko": "너무 크다",
+    "semantic_domain": "clothes",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D43_008",
+      "SEN_D43_014",
+      "SEN_D43_038",
+      "SEN_D43_044"
+    ],
+    "audio_id": "AUD_VOC_D43_028",
+    "day_introduced": 43,
+    "srs_tags": [
+      "day_43",
+      "clothes"
+    ]
+  },
+  {
+    "id": "VOC_D43_029",
+    "char": "太小",
+    "pinyin": "tài xiǎo",
+    "pinyin_numeric": "tai4 xiao3",
+    "phonemes": [
+      "tai4",
+      "xiao3"
+    ],
+    "pos": "adjective phrase",
+    "meaning_en": "too small",
+    "meaning_ko": "너무 작다",
+    "semantic_domain": "clothes",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D43_007",
+      "SEN_D43_013",
+      "SEN_D43_020",
+      "SEN_D43_035"
+    ],
+    "audio_id": "AUD_VOC_D43_029",
+    "day_introduced": 43,
+    "srs_tags": [
+      "day_43",
+      "clothes"
+    ]
+  },
+  {
+    "id": "VOC_D43_030",
+    "char": "剛好",
+    "pinyin": "gānghǎo",
+    "pinyin_numeric": "gang1 hao3",
+    "phonemes": [
+      "gang1",
+      "hao3"
+    ],
+    "pos": "adverb",
+    "meaning_en": "just right",
+    "meaning_ko": "딱 맞다",
+    "semantic_domain": "clothes",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D43_009"
+    ],
+    "audio_id": "AUD_VOC_D43_030",
+    "day_introduced": 43,
+    "srs_tags": [
+      "day_43",
+      "clothes"
+    ]
+  },
+  {
+    "id": "VOC_D43_031",
+    "char": "試衣間",
+    "pinyin": "shìyījiān",
+    "pinyin_numeric": "shi4 yi1 jian1",
+    "phonemes": [
+      "shi4",
+      "yi1",
+      "jian1"
+    ],
+    "pos": "noun",
+    "meaning_en": "fitting room",
+    "meaning_ko": "탈의실",
+    "semantic_domain": "clothes",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D43_039",
+      "SEN_D43_070"
+    ],
+    "audio_id": "AUD_VOC_D43_031",
+    "day_introduced": 43,
+    "srs_tags": [
+      "day_43",
+      "clothes"
+    ]
+  },
+  {
+    "id": "VOC_D43_032",
+    "char": "可以試穿嗎",
+    "pinyin": "kěyǐ shìchuān ma",
+    "pinyin_numeric": "ke3 yi3 shi4 chuan1 ma0",
+    "phonemes": [
+      "ke3",
+      "yi3",
+      "shi4",
+      "chuan1",
+      "ma0"
+    ],
+    "pos": "phrase",
+    "meaning_en": "may I try it on?",
+    "meaning_ko": "입어 봐도 되나요",
+    "semantic_domain": "clothes",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D43_032",
+    "day_introduced": 43,
+    "srs_tags": [
+      "day_43",
+      "clothes"
+    ]
+  },
+  {
+    "id": "VOC_D43_033",
+    "char": "材質",
+    "pinyin": "cáizhí",
+    "pinyin_numeric": "cai2 zhi2",
+    "phonemes": [
+      "cai2",
+      "zhi2"
+    ],
+    "pos": "noun",
+    "meaning_en": "material",
+    "meaning_ko": "소재",
+    "semantic_domain": "clothes",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D43_017",
+      "SEN_D43_046",
+      "SEN_D43_069",
+      "SEN_D43_077"
+    ],
+    "audio_id": "AUD_VOC_D43_033",
+    "day_introduced": 43,
+    "srs_tags": [
+      "day_43",
+      "clothes"
+    ]
+  },
+  {
+    "id": "VOC_D43_034",
+    "char": "棉",
+    "pinyin": "mián",
+    "pinyin_numeric": "mian2",
+    "phonemes": [
+      "mian2"
+    ],
+    "pos": "noun",
+    "meaning_en": "cotton",
+    "meaning_ko": "면",
+    "semantic_domain": "clothes",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D43_069"
+    ],
+    "audio_id": "AUD_VOC_D43_034",
+    "day_introduced": 43,
+    "srs_tags": [
+      "day_43",
+      "clothes"
+    ]
+  },
+  {
+    "id": "VOC_D43_035",
+    "char": "薄",
+    "pinyin": "báo",
+    "pinyin_numeric": "bao2",
+    "phonemes": [
+      "bao2"
+    ],
+    "pos": "adjective",
+    "meaning_en": "thin",
+    "meaning_ko": "얇다",
+    "semantic_domain": "clothes",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D43_048",
+      "SEN_D43_077"
+    ],
+    "audio_id": "AUD_VOC_D43_035",
+    "day_introduced": 43,
+    "srs_tags": [
+      "day_43",
+      "clothes"
+    ]
+  },
+  {
+    "id": "VOC_D43_036",
+    "char": "厚",
+    "pinyin": "hòu",
+    "pinyin_numeric": "hou4",
+    "phonemes": [
+      "hou4"
+    ],
+    "pos": "adjective",
+    "meaning_en": "thick",
+    "meaning_ko": "두껍다",
+    "semantic_domain": "clothes",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D43_017",
+      "SEN_D43_046",
+      "SEN_D43_048"
+    ],
+    "audio_id": "AUD_VOC_D43_036",
+    "day_introduced": 43,
+    "srs_tags": [
+      "day_43",
+      "clothes"
+    ]
+  },
+  {
+    "id": "VOC_D43_037",
+    "char": "舒服嗎",
+    "pinyin": "shūfú ma",
+    "pinyin_numeric": "shu1 fu2 ma0",
+    "phonemes": [
+      "shu1",
+      "fu2",
+      "ma0"
+    ],
+    "pos": "phrase",
+    "meaning_en": "is it comfortable?",
+    "meaning_ko": "편한가요",
+    "semantic_domain": "clothes",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D43_037",
+    "day_introduced": 43,
+    "srs_tags": [
+      "day_43",
+      "clothes"
+    ]
+  },
+  {
+    "id": "VOC_D43_038",
+    "char": "合身",
+    "pinyin": "héshēn",
+    "pinyin_numeric": "he2 shen1",
+    "phonemes": [
+      "he2",
+      "shen1"
+    ],
+    "pos": "adjective",
+    "meaning_en": "well-fitting",
+    "meaning_ko": "몸에 맞다",
+    "semantic_domain": "clothes",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D43_038",
+    "day_introduced": 43,
+    "srs_tags": [
+      "day_43",
+      "clothes"
+    ]
+  },
+  {
+    "id": "VOC_D43_039",
+    "char": "太貴了",
+    "pinyin": "tài guì le",
+    "pinyin_numeric": "tai4 gui4 le0",
+    "phonemes": [
+      "tai4",
+      "gui4",
+      "le0"
+    ],
+    "pos": "phrase",
+    "meaning_en": "too expensive",
+    "meaning_ko": "너무 비싸다",
+    "semantic_domain": "clothes",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D43_005",
+      "SEN_D43_015",
+      "SEN_D43_045",
+      "SEN_D43_073"
+    ],
+    "audio_id": "AUD_VOC_D43_039",
+    "day_introduced": 43,
+    "srs_tags": [
+      "day_43",
+      "clothes"
+    ]
+  },
+  {
+    "id": "VOC_D43_040",
+    "char": "便宜一點",
+    "pinyin": "piányí yìdiǎn",
+    "pinyin_numeric": "pian2 yi2 yi4 dian3",
+    "phonemes": [
+      "pian2",
+      "yi2",
+      "yi4",
+      "dian3"
+    ],
+    "pos": "phrase",
+    "meaning_en": "a bit cheaper",
+    "meaning_ko": "조금 싸게",
+    "semantic_domain": "clothes",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D43_005",
+      "SEN_D43_073"
+    ],
+    "audio_id": "AUD_VOC_D43_040",
+    "day_introduced": 43,
+    "srs_tags": [
+      "day_43",
+      "clothes"
+    ]
+  },
+  {
+    "id": "VOC_D43_041",
+    "char": "折扣",
+    "pinyin": "zhékòu",
+    "pinyin_numeric": "zhe2 kou4",
+    "phonemes": [
+      "zhe2",
+      "kou4"
+    ],
+    "pos": "noun",
+    "meaning_en": "discount",
+    "meaning_ko": "할인",
+    "semantic_domain": "clothes",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D43_041",
+    "day_introduced": 43,
+    "srs_tags": [
+      "day_43",
+      "clothes"
+    ]
+  },
+  {
+    "id": "VOC_D43_042",
+    "char": "原價",
+    "pinyin": "yuánjià",
+    "pinyin_numeric": "yuan2 jia4",
+    "phonemes": [
+      "yuan2",
+      "jia4"
+    ],
+    "pos": "noun",
+    "meaning_en": "original price",
+    "meaning_ko": "원가",
+    "semantic_domain": "clothes",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D43_037",
+      "SEN_D43_068"
+    ],
+    "audio_id": "AUD_VOC_D43_042",
+    "day_introduced": 43,
+    "srs_tags": [
+      "day_43",
+      "clothes"
+    ]
+  },
+  {
+    "id": "VOC_D43_043",
+    "char": "特價品",
+    "pinyin": "tèjiàpǐn",
+    "pinyin_numeric": "te4 jia4 pin3",
+    "phonemes": [
+      "te4",
+      "jia4",
+      "pin3"
+    ],
+    "pos": "noun",
+    "meaning_en": "sale item",
+    "meaning_ko": "특가 상품",
+    "semantic_domain": "clothes",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D43_043",
+    "day_introduced": 43,
+    "srs_tags": [
+      "day_43",
+      "clothes"
+    ]
+  },
+  {
+    "id": "VOC_D43_044",
+    "char": "可以刷卡嗎",
+    "pinyin": "kěyǐ shuākǎ ma",
+    "pinyin_numeric": "ke3 yi3 shua1 ka3 ma0",
+    "phonemes": [
+      "ke3",
+      "yi3",
+      "shua1",
+      "ka3",
+      "ma0"
+    ],
+    "pos": "phrase",
+    "meaning_en": "can I pay by card?",
+    "meaning_ko": "카드 결제 되나요",
+    "semantic_domain": "clothes",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D43_044",
+    "day_introduced": 43,
+    "srs_tags": [
+      "day_43",
+      "clothes"
+    ]
+  },
+  {
+    "id": "VOC_D43_045",
+    "char": "收銀台",
+    "pinyin": "shōuyíntái",
+    "pinyin_numeric": "shou1 yin2 tai2",
+    "phonemes": [
+      "shou1",
+      "yin2",
+      "tai2"
+    ],
+    "pos": "noun",
+    "meaning_en": "cash register",
+    "meaning_ko": "계산대",
+    "semantic_domain": "store",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 43 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D43_045",
+    "day_introduced": 43,
+    "srs_tags": [
+      "day_43",
+      "store"
+    ]
+  },
+  {
+    "id": "VOC_D44_001",
+    "char": "天氣",
+    "pinyin": "tiānqì",
+    "pinyin_numeric": "tian1 qi4",
+    "phonemes": [
+      "tian1",
+      "qi4"
+    ],
+    "pos": "noun",
+    "meaning_en": "weather",
+    "meaning_ko": "날씨",
+    "semantic_domain": "weather",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D44_001",
+      "SEN_D44_002",
+      "SEN_D44_003",
+      "SEN_D44_004"
+    ],
+    "audio_id": "AUD_VOC_D44_001",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "weather"
+    ]
+  },
+  {
+    "id": "VOC_D44_002",
+    "char": "下雨",
+    "pinyin": "xià yǔ",
+    "pinyin_numeric": "xia4 yu3",
+    "phonemes": [
+      "xia4",
+      "yu3"
+    ],
+    "pos": "verb",
+    "meaning_en": "rain",
+    "meaning_ko": "비가 오다",
+    "semantic_domain": "weather",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D44_012",
+      "SEN_D44_019",
+      "SEN_D44_024",
+      "SEN_D44_029"
+    ],
+    "audio_id": "AUD_VOC_D44_002",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "weather"
+    ]
+  },
+  {
+    "id": "VOC_D44_003",
+    "char": "太陽",
+    "pinyin": "tàiyáng",
+    "pinyin_numeric": "tai4 yang2",
+    "phonemes": [
+      "tai4",
+      "yang2"
+    ],
+    "pos": "noun",
+    "meaning_en": "sun",
+    "meaning_ko": "태양",
+    "semantic_domain": "weather",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D44_014",
+      "SEN_D44_020",
+      "SEN_D44_034",
+      "SEN_D44_055"
+    ],
+    "audio_id": "AUD_VOC_D44_003",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "weather"
+    ]
+  },
+  {
+    "id": "VOC_D44_004",
+    "char": "熱鬧",
+    "pinyin": "rènào",
+    "pinyin_numeric": "re4 nao4",
+    "phonemes": [
+      "re4",
+      "nao4"
+    ],
+    "pos": "adjective",
+    "meaning_en": "lively",
+    "meaning_ko": "활기차다",
+    "semantic_domain": "mood",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D44_004",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "mood"
+    ]
+  },
+  {
+    "id": "VOC_D44_005",
+    "char": "熱天",
+    "pinyin": "rè tiān",
+    "pinyin_numeric": "re4 tian1",
+    "phonemes": [
+      "re4",
+      "tian1"
+    ],
+    "pos": "noun",
+    "meaning_en": "hot day",
+    "meaning_ko": "더운 날",
+    "semantic_domain": "weather",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D44_005",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "weather"
+    ]
+  },
+  {
+    "id": "VOC_D44_006",
+    "char": "心情",
+    "pinyin": "xīnqíng",
+    "pinyin_numeric": "xin1 qing2",
+    "phonemes": [
+      "xin1",
+      "qing2"
+    ],
+    "pos": "noun",
+    "meaning_en": "mood",
+    "meaning_ko": "기분",
+    "semantic_domain": "mood",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D44_006",
+      "SEN_D44_009",
+      "SEN_D44_014",
+      "SEN_D44_018"
+    ],
+    "audio_id": "AUD_VOC_D44_006",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "mood"
+    ]
+  },
+  {
+    "id": "VOC_D44_007",
+    "char": "開心",
+    "pinyin": "kāixīn",
+    "pinyin_numeric": "kai1 xin1",
+    "phonemes": [
+      "kai1",
+      "xin1"
+    ],
+    "pos": "adjective",
+    "meaning_en": "happy",
+    "meaning_ko": "기쁘다",
+    "semantic_domain": "mood",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D44_009",
+      "SEN_D44_012",
+      "SEN_D44_026",
+      "SEN_D44_034"
+    ],
+    "audio_id": "AUD_VOC_D44_007",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "mood"
+    ]
+  },
+  {
+    "id": "VOC_D44_008",
+    "char": "緊張",
+    "pinyin": "jǐnzhāng",
+    "pinyin_numeric": "jin3 zhang1",
+    "phonemes": [
+      "jin3",
+      "zhang1"
+    ],
+    "pos": "adjective",
+    "meaning_en": "nervous",
+    "meaning_ko": "긴장하다",
+    "semantic_domain": "mood",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D44_013",
+      "SEN_D44_022",
+      "SEN_D44_033",
+      "SEN_D44_042"
+    ],
+    "audio_id": "AUD_VOC_D44_008",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "mood"
+    ]
+  },
+  {
+    "id": "VOC_D44_009",
+    "char": "舒服",
+    "pinyin": "shūfú",
+    "pinyin_numeric": "shu1 fu2",
+    "phonemes": [
+      "shu1",
+      "fu2"
+    ],
+    "pos": "adjective",
+    "meaning_en": "comfortable",
+    "meaning_ko": "편하다",
+    "semantic_domain": "mood",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D44_057"
+    ],
+    "audio_id": "AUD_VOC_D44_009",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "mood"
+    ]
+  },
+  {
+    "id": "VOC_D44_010",
+    "char": "路滑",
+    "pinyin": "lù huá",
+    "pinyin_numeric": "lu4 hua2",
+    "phonemes": [
+      "lu4",
+      "hua2"
+    ],
+    "pos": "phrase",
+    "meaning_en": "road is slippery",
+    "meaning_ko": "길이 미끄럽다",
+    "semantic_domain": "weather",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D44_019"
+    ],
+    "audio_id": "AUD_VOC_D44_010",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "weather"
+    ]
+  },
+  {
+    "id": "VOC_D44_011",
+    "char": "小心",
+    "pinyin": "xiǎoxīn",
+    "pinyin_numeric": "xiao3 xin1",
+    "phonemes": [
+      "xiao3",
+      "xin1"
+    ],
+    "pos": "verb",
+    "meaning_en": "be careful",
+    "meaning_ko": "조심하다",
+    "semantic_domain": "weather",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D44_019",
+      "SEN_D44_024",
+      "SEN_D44_037",
+      "SEN_D44_044"
+    ],
+    "audio_id": "AUD_VOC_D44_011",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "weather"
+    ]
+  },
+  {
+    "id": "VOC_D44_012",
+    "char": "晴天",
+    "pinyin": "qíngtiān",
+    "pinyin_numeric": "qing2 tian1",
+    "phonemes": [
+      "qing2",
+      "tian1"
+    ],
+    "pos": "noun",
+    "meaning_en": "sunny day",
+    "meaning_ko": "맑은 날",
+    "semantic_domain": "weather",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D44_014",
+      "SEN_D44_023",
+      "SEN_D44_034",
+      "SEN_D44_043"
+    ],
+    "audio_id": "AUD_VOC_D44_012",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "weather"
+    ]
+  },
+  {
+    "id": "VOC_D44_013",
+    "char": "陰天",
+    "pinyin": "yīntiān",
+    "pinyin_numeric": "yin1 tian1",
+    "phonemes": [
+      "yin1",
+      "tian1"
+    ],
+    "pos": "noun",
+    "meaning_en": "cloudy day",
+    "meaning_ko": "흐린 날",
+    "semantic_domain": "weather",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D44_015",
+      "SEN_D44_026",
+      "SEN_D44_035",
+      "SEN_D44_046"
+    ],
+    "audio_id": "AUD_VOC_D44_013",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "weather"
+    ]
+  },
+  {
+    "id": "VOC_D44_014",
+    "char": "多雲",
+    "pinyin": "duōyún",
+    "pinyin_numeric": "duo1 yun2",
+    "phonemes": [
+      "duo1",
+      "yun2"
+    ],
+    "pos": "adjective",
+    "meaning_en": "cloudy",
+    "meaning_ko": "구름 많다",
+    "semantic_domain": "weather",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D44_020",
+      "SEN_D44_030",
+      "SEN_D44_068"
+    ],
+    "audio_id": "AUD_VOC_D44_014",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "weather"
+    ]
+  },
+  {
+    "id": "VOC_D44_015",
+    "char": "颱風",
+    "pinyin": "táifēng",
+    "pinyin_numeric": "tai2 feng1",
+    "phonemes": [
+      "tai2",
+      "feng1"
+    ],
+    "pos": "noun",
+    "meaning_en": "typhoon",
+    "meaning_ko": "태풍",
+    "semantic_domain": "weather",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D44_013",
+      "SEN_D44_017",
+      "SEN_D44_022",
+      "SEN_D44_027"
+    ],
+    "audio_id": "AUD_VOC_D44_015",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "weather"
+    ]
+  },
+  {
+    "id": "VOC_D44_016",
+    "char": "風",
+    "pinyin": "fēng",
+    "pinyin_numeric": "feng1",
+    "phonemes": [
+      "feng1"
+    ],
+    "pos": "noun",
+    "meaning_en": "wind",
+    "meaning_ko": "바람",
+    "semantic_domain": "weather",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D44_027",
+      "SEN_D44_033",
+      "SEN_D44_047",
+      "SEN_D44_056"
+    ],
+    "audio_id": "AUD_VOC_D44_016",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "weather"
+    ]
+  },
+  {
+    "id": "VOC_D44_017",
+    "char": "很熱",
+    "pinyin": "hěn rè",
+    "pinyin_numeric": "hen3 re4",
+    "phonemes": [
+      "hen3",
+      "re4"
+    ],
+    "pos": "phrase",
+    "meaning_en": "very hot",
+    "meaning_ko": "매우 덥다",
+    "semantic_domain": "weather",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D44_001",
+      "SEN_D44_007",
+      "SEN_D44_010",
+      "SEN_D44_031"
+    ],
+    "audio_id": "AUD_VOC_D44_017",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "weather"
+    ]
+  },
+  {
+    "id": "VOC_D44_018",
+    "char": "很冷",
+    "pinyin": "hěn lěng",
+    "pinyin_numeric": "hen3 leng3",
+    "phonemes": [
+      "hen3",
+      "leng3"
+    ],
+    "pos": "phrase",
+    "meaning_en": "very cold",
+    "meaning_ko": "매우 춥다",
+    "semantic_domain": "weather",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D44_002",
+      "SEN_D44_004",
+      "SEN_D44_008",
+      "SEN_D44_039"
+    ],
+    "audio_id": "AUD_VOC_D44_018",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "weather"
+    ]
+  },
+  {
+    "id": "VOC_D44_019",
+    "char": "很舒服",
+    "pinyin": "hěn shūfú",
+    "pinyin_numeric": "hen3 shu1 fu2",
+    "phonemes": [
+      "hen3",
+      "shu1",
+      "fu2"
+    ],
+    "pos": "phrase",
+    "meaning_en": "very comfortable",
+    "meaning_ko": "매우 편하다",
+    "semantic_domain": "weather",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D44_003",
+      "SEN_D44_009",
+      "SEN_D44_023",
+      "SEN_D44_028"
+    ],
+    "audio_id": "AUD_VOC_D44_019",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "weather"
+    ]
+  },
+  {
+    "id": "VOC_D44_020",
+    "char": "悶熱",
+    "pinyin": "mēnrè",
+    "pinyin_numeric": "men1 re4",
+    "phonemes": [
+      "men1",
+      "re4"
+    ],
+    "pos": "adjective",
+    "meaning_en": "hot and humid",
+    "meaning_ko": "후덥지근하다",
+    "semantic_domain": "weather",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D44_005",
+      "SEN_D44_015",
+      "SEN_D44_023",
+      "SEN_D44_035"
+    ],
+    "audio_id": "AUD_VOC_D44_020",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "weather"
+    ]
+  },
+  {
+    "id": "VOC_D44_021",
+    "char": "涼快",
+    "pinyin": "liángkuài",
+    "pinyin_numeric": "liang2 kuai4",
+    "phonemes": [
+      "liang2",
+      "kuai4"
+    ],
+    "pos": "adjective",
+    "meaning_en": "cool",
+    "meaning_ko": "시원하다",
+    "semantic_domain": "weather",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D44_006",
+      "SEN_D44_018",
+      "SEN_D44_032",
+      "SEN_D44_060"
+    ],
+    "audio_id": "AUD_VOC_D44_021",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "weather"
+    ]
+  },
+  {
+    "id": "VOC_D44_022",
+    "char": "溫度",
+    "pinyin": "wēndù",
+    "pinyin_numeric": "wen1 du4",
+    "phonemes": [
+      "wen1",
+      "du4"
+    ],
+    "pos": "noun",
+    "meaning_en": "temperature",
+    "meaning_ko": "온도",
+    "semantic_domain": "weather",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D44_016",
+      "SEN_D44_025",
+      "SEN_D44_036",
+      "SEN_D44_045"
+    ],
+    "audio_id": "AUD_VOC_D44_022",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "weather"
+    ]
+  },
+  {
+    "id": "VOC_D44_023",
+    "char": "幾度",
+    "pinyin": "jǐ dù",
+    "pinyin_numeric": "ji3 du4",
+    "phonemes": [
+      "ji3",
+      "du4"
+    ],
+    "pos": "phrase",
+    "meaning_en": "how many degrees",
+    "meaning_ko": "몇 도",
+    "semantic_domain": "weather",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D44_023",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "weather"
+    ]
+  },
+  {
+    "id": "VOC_D44_024",
+    "char": "二十度",
+    "pinyin": "èrshí dù",
+    "pinyin_numeric": "er4 shi2 du4",
+    "phonemes": [
+      "er4",
+      "shi2",
+      "du4"
+    ],
+    "pos": "phrase",
+    "meaning_en": "twenty degrees",
+    "meaning_ko": "20도",
+    "semantic_domain": "weather",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D44_060"
+    ],
+    "audio_id": "AUD_VOC_D44_024",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "weather"
+    ]
+  },
+  {
+    "id": "VOC_D44_025",
+    "char": "三十度",
+    "pinyin": "sānshí dù",
+    "pinyin_numeric": "san1 shi2 du4",
+    "phonemes": [
+      "san1",
+      "shi2",
+      "du4"
+    ],
+    "pos": "phrase",
+    "meaning_en": "thirty degrees",
+    "meaning_ko": "30도",
+    "semantic_domain": "weather",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D44_016",
+      "SEN_D44_025",
+      "SEN_D44_036",
+      "SEN_D44_045"
+    ],
+    "audio_id": "AUD_VOC_D44_025",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "weather"
+    ]
+  },
+  {
+    "id": "VOC_D44_026",
+    "char": "帶傘",
+    "pinyin": "dài sǎn",
+    "pinyin_numeric": "dai4 san3",
+    "phonemes": [
+      "dai4",
+      "san3"
+    ],
+    "pos": "verb phrase",
+    "meaning_en": "bring an umbrella",
+    "meaning_ko": "우산을 가져가다",
+    "semantic_domain": "weather",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D44_026",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "weather"
+    ]
+  },
+  {
+    "id": "VOC_D44_027",
+    "char": "穿外套",
+    "pinyin": "chuān wàitào",
+    "pinyin_numeric": "chuan1 wai4 tao4",
+    "phonemes": [
+      "chuan1",
+      "wai4",
+      "tao4"
+    ],
+    "pos": "verb phrase",
+    "meaning_en": "wear a jacket",
+    "meaning_ko": "외투를 입다",
+    "semantic_domain": "weather",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D44_004",
+      "SEN_D44_039",
+      "SEN_D44_069"
+    ],
+    "audio_id": "AUD_VOC_D44_027",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "weather"
+    ]
+  },
+  {
+    "id": "VOC_D44_028",
+    "char": "心情好",
+    "pinyin": "xīnqíng hǎo",
+    "pinyin_numeric": "xin1 qing2 hao3",
+    "phonemes": [
+      "xin1",
+      "qing2",
+      "hao3"
+    ],
+    "pos": "phrase",
+    "meaning_en": "in a good mood",
+    "meaning_ko": "기분이 좋다",
+    "semantic_domain": "mood",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D44_028",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "mood"
+    ]
+  },
+  {
+    "id": "VOC_D44_029",
+    "char": "心情不好",
+    "pinyin": "xīnqíng bù hǎo",
+    "pinyin_numeric": "xin1 qing2 bu4 hao3",
+    "phonemes": [
+      "xin1",
+      "qing2",
+      "bu4",
+      "hao3"
+    ],
+    "pos": "phrase",
+    "meaning_en": "in a bad mood",
+    "meaning_ko": "기분이 안 좋다",
+    "semantic_domain": "mood",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D44_021",
+      "SEN_D44_026",
+      "SEN_D44_031",
+      "SEN_D44_054"
+    ],
+    "audio_id": "AUD_VOC_D44_029",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "mood"
+    ]
+  },
+  {
+    "id": "VOC_D44_030",
+    "char": "有精神",
+    "pinyin": "yǒu jīngshén",
+    "pinyin_numeric": "you3 jing1 shen2",
+    "phonemes": [
+      "you3",
+      "jing1",
+      "shen2"
+    ],
+    "pos": "phrase",
+    "meaning_en": "energetic",
+    "meaning_ko": "기운이 있다",
+    "semantic_domain": "mood",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D44_050",
+      "SEN_D44_079"
+    ],
+    "audio_id": "AUD_VOC_D44_030",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "mood"
+    ]
+  },
+  {
+    "id": "VOC_D44_031",
+    "char": "沒精神",
+    "pinyin": "méi jīngshén",
+    "pinyin_numeric": "mei2 jing1 shen2",
+    "phonemes": [
+      "mei2",
+      "jing1",
+      "shen2"
+    ],
+    "pos": "phrase",
+    "meaning_en": "low energy",
+    "meaning_ko": "기운이 없다",
+    "semantic_domain": "mood",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D44_015",
+      "SEN_D44_025",
+      "SEN_D44_046"
+    ],
+    "audio_id": "AUD_VOC_D44_031",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "mood"
+    ]
+  },
+  {
+    "id": "VOC_D44_032",
+    "char": "放鬆",
+    "pinyin": "fàngsōng",
+    "pinyin_numeric": "fang4 song1",
+    "phonemes": [
+      "fang4",
+      "song1"
+    ],
+    "pos": "verb",
+    "meaning_en": "relax",
+    "meaning_ko": "긴장을 풀다",
+    "semantic_domain": "mood",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D44_018",
+      "SEN_D44_030",
+      "SEN_D44_048",
+      "SEN_D44_065"
+    ],
+    "audio_id": "AUD_VOC_D44_032",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "mood"
+    ]
+  },
+  {
+    "id": "VOC_D44_033",
+    "char": "壓力",
+    "pinyin": "yālì",
+    "pinyin_numeric": "ya1 li4",
+    "phonemes": [
+      "ya1",
+      "li4"
+    ],
+    "pos": "noun",
+    "meaning_en": "pressure; stress",
+    "meaning_ko": "스트레스",
+    "semantic_domain": "mood",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D44_027",
+      "SEN_D44_058",
+      "SEN_D44_067",
+      "SEN_D44_089"
+    ],
+    "audio_id": "AUD_VOC_D44_033",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "mood"
+    ]
+  },
+  {
+    "id": "VOC_D44_034",
+    "char": "壓力大",
+    "pinyin": "yālì dà",
+    "pinyin_numeric": "ya1 li4 da4",
+    "phonemes": [
+      "ya1",
+      "li4",
+      "da4"
+    ],
+    "pos": "phrase",
+    "meaning_en": "high pressure",
+    "meaning_ko": "스트레스가 많다",
+    "semantic_domain": "mood",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D44_034",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "mood"
+    ]
+  },
+  {
+    "id": "VOC_D44_035",
+    "char": "擔心",
+    "pinyin": "dānxīn",
+    "pinyin_numeric": "dan1 xin1",
+    "phonemes": [
+      "dan1",
+      "xin1"
+    ],
+    "pos": "verb",
+    "meaning_en": "worry",
+    "meaning_ko": "걱정하다",
+    "semantic_domain": "mood",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D44_017",
+      "SEN_D44_029",
+      "SEN_D44_038",
+      "SEN_D44_041"
+    ],
+    "audio_id": "AUD_VOC_D44_035",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "mood"
+    ]
+  },
+  {
+    "id": "VOC_D44_001",
+    "char": "天氣",
+    "pinyin": "tiānqì",
+    "pinyin_numeric": "tian1 qi4",
+    "phonemes": [
+      "tian1",
+      "qi4"
+    ],
+    "pos": "noun",
+    "meaning_en": "weather",
+    "meaning_ko": "날씨",
+    "semantic_domain": "weather",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D45_001",
+      "SEN_D45_007",
+      "SEN_D45_009",
+      "SEN_D45_011"
+    ],
+    "audio_id": "AUD_VOC_D44_001",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "weather"
+    ]
+  },
+  {
+    "id": "VOC_D44_002",
+    "char": "下雨",
+    "pinyin": "xià yǔ",
+    "pinyin_numeric": "xia4 yu3",
+    "phonemes": [
+      "xia4",
+      "yu3"
+    ],
+    "pos": "verb",
+    "meaning_en": "rain",
+    "meaning_ko": "비가 오다",
+    "semantic_domain": "weather",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D45_015",
+      "SEN_D45_032",
+      "SEN_D45_078"
+    ],
+    "audio_id": "AUD_VOC_D44_002",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "weather"
+    ]
+  },
+  {
+    "id": "VOC_D44_003",
+    "char": "太陽",
+    "pinyin": "tàiyáng",
+    "pinyin_numeric": "tai4 yang2",
+    "phonemes": [
+      "tai4",
+      "yang2"
+    ],
+    "pos": "noun",
+    "meaning_en": "sun",
+    "meaning_ko": "태양",
+    "semantic_domain": "weather",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D45_007",
+      "SEN_D45_034",
+      "SEN_D45_058",
+      "SEN_D45_063"
+    ],
+    "audio_id": "AUD_VOC_D44_003",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "weather"
+    ]
+  },
+  {
+    "id": "VOC_D44_004",
+    "char": "熱鬧",
+    "pinyin": "rènào",
+    "pinyin_numeric": "re4 nao4",
+    "phonemes": [
+      "re4",
+      "nao4"
+    ],
+    "pos": "adjective",
+    "meaning_en": "lively",
+    "meaning_ko": "활기차다",
+    "semantic_domain": "mood",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D44_004",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "mood"
+    ]
+  },
+  {
+    "id": "VOC_D44_005",
+    "char": "熱天",
+    "pinyin": "rè tiān",
+    "pinyin_numeric": "re4 tian1",
+    "phonemes": [
+      "re4",
+      "tian1"
+    ],
+    "pos": "noun",
+    "meaning_en": "hot day",
+    "meaning_ko": "더운 날",
+    "semantic_domain": "weather",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D44_005",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "weather"
+    ]
+  },
+  {
+    "id": "VOC_D44_006",
+    "char": "心情",
+    "pinyin": "xīnqíng",
+    "pinyin_numeric": "xin1 qing2",
+    "phonemes": [
+      "xin1",
+      "qing2"
+    ],
+    "pos": "noun",
+    "meaning_en": "mood",
+    "meaning_ko": "기분",
+    "semantic_domain": "mood",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D45_039",
+      "SEN_D45_063",
+      "SEN_D45_090"
+    ],
+    "audio_id": "AUD_VOC_D44_006",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "mood"
+    ]
+  },
+  {
+    "id": "VOC_D44_007",
+    "char": "開心",
+    "pinyin": "kāixīn",
+    "pinyin_numeric": "kai1 xin1",
+    "phonemes": [
+      "kai1",
+      "xin1"
+    ],
+    "pos": "adjective",
+    "meaning_en": "happy",
+    "meaning_ko": "기쁘다",
+    "semantic_domain": "mood",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D45_090"
+    ],
+    "audio_id": "AUD_VOC_D44_007",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "mood"
+    ]
+  },
+  {
+    "id": "VOC_D44_008",
+    "char": "緊張",
+    "pinyin": "jǐnzhāng",
+    "pinyin_numeric": "jin3 zhang1",
+    "phonemes": [
+      "jin3",
+      "zhang1"
+    ],
+    "pos": "adjective",
+    "meaning_en": "nervous",
+    "meaning_ko": "긴장하다",
+    "semantic_domain": "mood",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D45_008"
+    ],
+    "audio_id": "AUD_VOC_D44_008",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "mood"
+    ]
+  },
+  {
+    "id": "VOC_D44_009",
+    "char": "舒服",
+    "pinyin": "shūfú",
+    "pinyin_numeric": "shu1 fu2",
+    "phonemes": [
+      "shu1",
+      "fu2"
+    ],
+    "pos": "adjective",
+    "meaning_en": "comfortable",
+    "meaning_ko": "편하다",
+    "semantic_domain": "mood",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D44_009",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "mood"
+    ]
+  },
+  {
+    "id": "VOC_D44_010",
+    "char": "路滑",
+    "pinyin": "lù huá",
+    "pinyin_numeric": "lu4 hua2",
+    "phonemes": [
+      "lu4",
+      "hua2"
+    ],
+    "pos": "phrase",
+    "meaning_en": "road is slippery",
+    "meaning_ko": "길이 미끄럽다",
+    "semantic_domain": "weather",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D44_010",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "weather"
+    ]
+  },
+  {
+    "id": "VOC_D44_011",
+    "char": "小心",
+    "pinyin": "xiǎoxīn",
+    "pinyin_numeric": "xiao3 xin1",
+    "phonemes": [
+      "xiao3",
+      "xin1"
+    ],
+    "pos": "verb",
+    "meaning_en": "be careful",
+    "meaning_ko": "조심하다",
+    "semantic_domain": "weather",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D45_006",
+      "SEN_D45_036",
+      "SEN_D45_050",
+      "SEN_D45_066"
+    ],
+    "audio_id": "AUD_VOC_D44_011",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "weather"
+    ]
+  },
+  {
+    "id": "VOC_D44_012",
+    "char": "晴天",
+    "pinyin": "qíngtiān",
+    "pinyin_numeric": "qing2 tian1",
+    "phonemes": [
+      "qing2",
+      "tian1"
+    ],
+    "pos": "noun",
+    "meaning_en": "sunny day",
+    "meaning_ko": "맑은 날",
+    "semantic_domain": "weather",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D45_010",
+      "SEN_D45_067"
+    ],
+    "audio_id": "AUD_VOC_D44_012",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "weather"
+    ]
+  },
+  {
+    "id": "VOC_D44_013",
+    "char": "陰天",
+    "pinyin": "yīntiān",
+    "pinyin_numeric": "yin1 tian1",
+    "phonemes": [
+      "yin1",
+      "tian1"
+    ],
+    "pos": "noun",
+    "meaning_en": "cloudy day",
+    "meaning_ko": "흐린 날",
+    "semantic_domain": "weather",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D44_013",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "weather"
+    ]
+  },
+  {
+    "id": "VOC_D44_014",
+    "char": "多雲",
+    "pinyin": "duōyún",
+    "pinyin_numeric": "duo1 yun2",
+    "phonemes": [
+      "duo1",
+      "yun2"
+    ],
+    "pos": "adjective",
+    "meaning_en": "cloudy",
+    "meaning_ko": "구름 많다",
+    "semantic_domain": "weather",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D44_014",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "weather"
+    ]
+  },
+  {
+    "id": "VOC_D44_015",
+    "char": "颱風",
+    "pinyin": "táifēng",
+    "pinyin_numeric": "tai2 feng1",
+    "phonemes": [
+      "tai2",
+      "feng1"
+    ],
+    "pos": "noun",
+    "meaning_en": "typhoon",
+    "meaning_ko": "태풍",
+    "semantic_domain": "weather",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D45_004",
+      "SEN_D45_026",
+      "SEN_D45_033",
+      "SEN_D45_038"
+    ],
+    "audio_id": "AUD_VOC_D44_015",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "weather"
+    ]
+  },
+  {
+    "id": "VOC_D44_016",
+    "char": "風",
+    "pinyin": "fēng",
+    "pinyin_numeric": "feng1",
+    "phonemes": [
+      "feng1"
+    ],
+    "pos": "noun",
+    "meaning_en": "wind",
+    "meaning_ko": "바람",
+    "semantic_domain": "weather",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D45_038"
+    ],
+    "audio_id": "AUD_VOC_D44_016",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "weather"
+    ]
+  },
+  {
+    "id": "VOC_D44_017",
+    "char": "很熱",
+    "pinyin": "hěn rè",
+    "pinyin_numeric": "hen3 re4",
+    "phonemes": [
+      "hen3",
+      "re4"
+    ],
+    "pos": "phrase",
+    "meaning_en": "very hot",
+    "meaning_ko": "매우 덥다",
+    "semantic_domain": "weather",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D45_003",
+      "SEN_D45_021",
+      "SEN_D45_034",
+      "SEN_D45_040"
+    ],
+    "audio_id": "AUD_VOC_D44_017",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "weather"
+    ]
+  },
+  {
+    "id": "VOC_D44_018",
+    "char": "很冷",
+    "pinyin": "hěn lěng",
+    "pinyin_numeric": "hen3 leng3",
+    "phonemes": [
+      "hen3",
+      "leng3"
+    ],
+    "pos": "phrase",
+    "meaning_en": "very cold",
+    "meaning_ko": "매우 춥다",
+    "semantic_domain": "weather",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D45_001",
+      "SEN_D45_030",
+      "SEN_D45_031",
+      "SEN_D45_051"
+    ],
+    "audio_id": "AUD_VOC_D44_018",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "weather"
+    ]
+  },
+  {
+    "id": "VOC_D44_019",
+    "char": "很舒服",
+    "pinyin": "hěn shūfú",
+    "pinyin_numeric": "hen3 shu1 fu2",
+    "phonemes": [
+      "hen3",
+      "shu1",
+      "fu2"
+    ],
+    "pos": "phrase",
+    "meaning_en": "very comfortable",
+    "meaning_ko": "매우 편하다",
+    "semantic_domain": "weather",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D45_007",
+      "SEN_D45_011",
+      "SEN_D45_039",
+      "SEN_D45_041"
+    ],
+    "audio_id": "AUD_VOC_D44_019",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "weather"
+    ]
+  },
+  {
+    "id": "VOC_D44_020",
+    "char": "悶熱",
+    "pinyin": "mēnrè",
+    "pinyin_numeric": "men1 re4",
+    "phonemes": [
+      "men1",
+      "re4"
+    ],
+    "pos": "adjective",
+    "meaning_en": "hot and humid",
+    "meaning_ko": "후덥지근하다",
+    "semantic_domain": "weather",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D45_009",
+      "SEN_D45_037",
+      "SEN_D45_055",
+      "SEN_D45_065"
+    ],
+    "audio_id": "AUD_VOC_D44_020",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "weather"
+    ]
+  },
+  {
+    "id": "VOC_D44_021",
+    "char": "涼快",
+    "pinyin": "liángkuài",
+    "pinyin_numeric": "liang2 kuai4",
+    "phonemes": [
+      "liang2",
+      "kuai4"
+    ],
+    "pos": "adjective",
+    "meaning_en": "cool",
+    "meaning_ko": "시원하다",
+    "semantic_domain": "weather",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D45_069"
+    ],
+    "audio_id": "AUD_VOC_D44_021",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "weather"
+    ]
+  },
+  {
+    "id": "VOC_D44_022",
+    "char": "溫度",
+    "pinyin": "wēndù",
+    "pinyin_numeric": "wen1 du4",
+    "phonemes": [
+      "wen1",
+      "du4"
+    ],
+    "pos": "noun",
+    "meaning_en": "temperature",
+    "meaning_ko": "온도",
+    "semantic_domain": "weather",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D44_022",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "weather"
+    ]
+  },
+  {
+    "id": "VOC_D44_023",
+    "char": "幾度",
+    "pinyin": "jǐ dù",
+    "pinyin_numeric": "ji3 du4",
+    "phonemes": [
+      "ji3",
+      "du4"
+    ],
+    "pos": "phrase",
+    "meaning_en": "how many degrees",
+    "meaning_ko": "몇 도",
+    "semantic_domain": "weather",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D44_023",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "weather"
+    ]
+  },
+  {
+    "id": "VOC_D44_024",
+    "char": "二十度",
+    "pinyin": "èrshí dù",
+    "pinyin_numeric": "er4 shi2 du4",
+    "phonemes": [
+      "er4",
+      "shi2",
+      "du4"
+    ],
+    "pos": "phrase",
+    "meaning_en": "twenty degrees",
+    "meaning_ko": "20도",
+    "semantic_domain": "weather",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D44_024",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "weather"
+    ]
+  },
+  {
+    "id": "VOC_D44_025",
+    "char": "三十度",
+    "pinyin": "sānshí dù",
+    "pinyin_numeric": "san1 shi2 du4",
+    "phonemes": [
+      "san1",
+      "shi2",
+      "du4"
+    ],
+    "pos": "phrase",
+    "meaning_en": "thirty degrees",
+    "meaning_ko": "30도",
+    "semantic_domain": "weather",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D45_040"
+    ],
+    "audio_id": "AUD_VOC_D44_025",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "weather"
+    ]
+  },
+  {
+    "id": "VOC_D44_026",
+    "char": "帶傘",
+    "pinyin": "dài sǎn",
+    "pinyin_numeric": "dai4 san3",
+    "phonemes": [
+      "dai4",
+      "san3"
+    ],
+    "pos": "verb phrase",
+    "meaning_en": "bring an umbrella",
+    "meaning_ko": "우산을 가져가다",
+    "semantic_domain": "weather",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D45_029",
+      "SEN_D45_052",
+      "SEN_D45_082",
+      "SEN_D45_088"
+    ],
+    "audio_id": "AUD_VOC_D44_026",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "weather"
+    ]
+  },
+  {
+    "id": "VOC_D44_027",
+    "char": "穿外套",
+    "pinyin": "chuān wàitào",
+    "pinyin_numeric": "chuan1 wai4 tao4",
+    "phonemes": [
+      "chuan1",
+      "wai4",
+      "tao4"
+    ],
+    "pos": "verb phrase",
+    "meaning_en": "wear a jacket",
+    "meaning_ko": "외투를 입다",
+    "semantic_domain": "weather",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D45_001",
+      "SEN_D45_031",
+      "SEN_D45_061",
+      "SEN_D45_081"
+    ],
+    "audio_id": "AUD_VOC_D44_027",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "weather"
+    ]
+  },
+  {
+    "id": "VOC_D44_028",
+    "char": "心情好",
+    "pinyin": "xīnqíng hǎo",
+    "pinyin_numeric": "xin1 qing2 hao3",
+    "phonemes": [
+      "xin1",
+      "qing2",
+      "hao3"
+    ],
+    "pos": "phrase",
+    "meaning_en": "in a good mood",
+    "meaning_ko": "기분이 좋다",
+    "semantic_domain": "mood",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D45_059"
+    ],
+    "audio_id": "AUD_VOC_D44_028",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "mood"
+    ]
+  },
+  {
+    "id": "VOC_D44_029",
+    "char": "心情不好",
+    "pinyin": "xīnqíng bù hǎo",
+    "pinyin_numeric": "xin1 qing2 bu4 hao3",
+    "phonemes": [
+      "xin1",
+      "qing2",
+      "bu4",
+      "hao3"
+    ],
+    "pos": "phrase",
+    "meaning_en": "in a bad mood",
+    "meaning_ko": "기분이 안 좋다",
+    "semantic_domain": "mood",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D45_005",
+      "SEN_D45_019",
+      "SEN_D45_024",
+      "SEN_D45_035"
+    ],
+    "audio_id": "AUD_VOC_D44_029",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "mood"
+    ]
+  },
+  {
+    "id": "VOC_D44_030",
+    "char": "有精神",
+    "pinyin": "yǒu jīngshén",
+    "pinyin_numeric": "you3 jing1 shen2",
+    "phonemes": [
+      "you3",
+      "jing1",
+      "shen2"
+    ],
+    "pos": "phrase",
+    "meaning_en": "energetic",
+    "meaning_ko": "기운이 있다",
+    "semantic_domain": "mood",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D44_030",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "mood"
+    ]
+  },
+  {
+    "id": "VOC_D44_031",
+    "char": "沒精神",
+    "pinyin": "méi jīngshén",
+    "pinyin_numeric": "mei2 jing1 shen2",
+    "phonemes": [
+      "mei2",
+      "jing1",
+      "shen2"
+    ],
+    "pos": "phrase",
+    "meaning_en": "low energy",
+    "meaning_ko": "기운이 없다",
+    "semantic_domain": "mood",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D44_031",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "mood"
+    ]
+  },
+  {
+    "id": "VOC_D44_032",
+    "char": "放鬆",
+    "pinyin": "fàngsōng",
+    "pinyin_numeric": "fang4 song1",
+    "phonemes": [
+      "fang4",
+      "song1"
+    ],
+    "pos": "verb",
+    "meaning_en": "relax",
+    "meaning_ko": "긴장을 풀다",
+    "semantic_domain": "mood",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D45_027",
+      "SEN_D45_068"
+    ],
+    "audio_id": "AUD_VOC_D44_032",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "mood"
+    ]
+  },
+  {
+    "id": "VOC_D44_033",
+    "char": "壓力",
+    "pinyin": "yālì",
+    "pinyin_numeric": "ya1 li4",
+    "phonemes": [
+      "ya1",
+      "li4"
+    ],
+    "pos": "noun",
+    "meaning_en": "pressure; stress",
+    "meaning_ko": "스트레스",
+    "semantic_domain": "mood",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D45_008",
+      "SEN_D45_027",
+      "SEN_D45_049",
+      "SEN_D45_057"
+    ],
+    "audio_id": "AUD_VOC_D44_033",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "mood"
+    ]
+  },
+  {
+    "id": "VOC_D44_034",
+    "char": "壓力大",
+    "pinyin": "yālì dà",
+    "pinyin_numeric": "ya1 li4 da4",
+    "phonemes": [
+      "ya1",
+      "li4",
+      "da4"
+    ],
+    "pos": "phrase",
+    "meaning_en": "high pressure",
+    "meaning_ko": "스트레스가 많다",
+    "semantic_domain": "mood",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D44_034",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "mood"
+    ]
+  },
+  {
+    "id": "VOC_D44_035",
+    "char": "擔心",
+    "pinyin": "dānxīn",
+    "pinyin_numeric": "dan1 xin1",
+    "phonemes": [
+      "dan1",
+      "xin1"
+    ],
+    "pos": "verb",
+    "meaning_en": "worry",
+    "meaning_ko": "걱정하다",
+    "semantic_domain": "mood",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 44 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D45_088"
+    ],
+    "audio_id": "AUD_VOC_D44_035",
+    "day_introduced": 44,
+    "srs_tags": [
+      "day_44",
+      "mood"
     ]
   }
 ]

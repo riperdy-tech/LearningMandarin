@@ -171,7 +171,13 @@ async function generateDay(dayNum) {
     const targetSource = dayNum <= 45 ? vocab31_45 : vocab46_90;
     todayVocab = targetSource.filter((item) => item.day_introduced === dayNum);
     if (todayVocab.length === 0) {
-      throw new Error(`Predefined vocab for Day ${dayNum} not found in existing files`);
+      if (dayMeta.assessment) {
+        // Assessment day: use prior vocab as review words
+        console.log(`Assessment day ${dayNum}: using ${allPriorVocab.length} prior words for review.`);
+        todayVocab = allPriorVocab.slice(-35); // last 35 learned words
+      } else {
+        throw new Error(`Predefined vocab for Day ${dayNum} not found in existing files`);
+      }
     }
     console.log(`Using ${todayVocab.length} pre-existing vocabulary items for Day ${dayNum}`);
   } else {
@@ -365,7 +371,7 @@ Grammar IDs: ${JSON.stringify(grammarIds)}`;
   for (let batchIdx = 0; batchIdx < numBatches; batchIdx++) {
     const startIdx = batchIdx * batchCount + 1;
     const endIdx = (batchIdx + 1) * batchCount;
-    const focusGrammar = todayGrammar[batchIdx % 3];
+    const focusGrammar = todayGrammar.length > 0 ? todayGrammar[batchIdx % todayGrammar.length] : { id: "GR_DEFAULT", title: "Review", pattern: "varied" };
 
     console.log(`Generating Sentences ${startIdx}-${endIdx} (grammar: ${focusGrammar.id})...`);
 
@@ -729,7 +735,9 @@ Required Dialogues topics/roles: ${JSON.stringify(requiredDialogues)}`;
   const updateArrayFile = (fileRelPath, newItems, matchFn) => {
     let existing = readJson(fileRelPath);
     // Filter out old items for today
-    existing = existing.filter((item) => !matchFn(item));
+    existing = existing.filter((item) => {
+      try { return !matchFn(item); } catch { return true; }
+    });
     existing.push(...newItems);
     writeJson(fileRelPath, existing);
   };
