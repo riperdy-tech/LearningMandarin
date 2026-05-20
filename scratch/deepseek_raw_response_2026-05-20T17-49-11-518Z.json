@@ -1,0 +1,13 @@
+{
+  "content": "[\n  {\n    \"char\": \"曾經\",\n    \"pinyin\": \"céng jīng\",\n    \"pinyin_numeric\": \"ceng2 jing1\",\n    \"pos\": \"adverb\",\n    \"meaning_en\": \"once; formerly\",\n    \"meaning_ko\": \"예전에; 한때\",\n    \"semantic_domain\": \"past\"\n  },\n  {\n    \"char\": \"正在\",\n    \"pinyin\": \"zhèng zài\",\n    \"pinyin_numeric\": \"zheng4 zai4\",\n    \"pos\": \"adverb\",\n    \"meaning_en\": \"in the process of (doing something)\",\n    \"meaning_ko\": \"~하고 있는 중이다\",\n    \"semantic_domain\": \"ongoing\"\n  },\n  {\n    \"char\": \"能夠\",\n    \"pinyin\": \"néng gòu\",\n    \"pinyin_numeric\": \"neng2 gou4\",\n    \"pos\": \"verb\",\n    \"meaning_en\": \"can; be able to\",\n    \"meaning_ko\": \"~할 수 있다\",\n    \"semantic_domain\": \"ability\"\n  },\n  {\n    \"char\": \"差不多\",\n    \"pinyin\": \"chà bù duō\",\n    \"pinyin_numeric\": \"cha4 bu4 duo1\",\n    \"pos\": \"adjective\",\n    \"meaning_en\": \"almost the same; about the same\",\n    \"meaning_ko\": \"거의 비슷하다\",\n    \"semantic_domain\": \"comparison\"\n  },\n  {\n    \"char\": \"邀請\",\n    \"pinyin\": \"yāo qǐng\",\n    \"pinyin_numeric\": \"yao1 qing3\",\n    \"pos\": \"verb\",\n    \"meaning_en\": \"to invite\",\n    \"meaning_ko\": \"초대하다\",\n    \"semantic_domain\": \"invite\"\n  },\n  {\n    \"char\": \"修理\",\n    \"pinyin\": \"xiū lǐ\",\n    \"pinyin_numeric\": \"xiu1 li3\",\n    \"pos\": \"verb\",\n    \"meaning_en\": \"to repair; to fix\",\n    \"meaning_ko\": \"수리하다; 고치다\",\n    \"semantic_domain\": \"repair\"\n  },\n  {\n    \"char\": \"過去\",\n    \"pinyin\": \"guò qù\",\n    \"pinyin_numeric\": \"guo4 qu4\",\n    \"pos\": \"noun\",\n    \"meaning_en\": \"the past\",\n    \"meaning_ko\": \"과거\",\n    \"semantic_domain\": \"past\"\n  },\n  {\n    \"char\": \"繼續\",\n    \"pinyin\": \"jì xù\",\n    \"pinyin_numeric\": \"ji4 xu4\",\n    \"pos\": \"verb\",\n    \"meaning_en\": \"to continue\",\n    \"meaning_ko\": \"계속하다\",\n    \"semantic_domain\": \"ongoing\"\n  },\n  {\n    \"char\": \"比較\",\n    \"pinyin\": \"bǐ jiào\",\n    \"pinyin_numeric\": \"bi3 jiao4\",\n    \"pos\": \"verb\",\n    \"meaning_en\": \"to compare\",\n    \"meaning_ko\": \"비교하다\",\n    \"semantic_domain\": \"comparison\"\n  },\n  {\n    \"char\": \"壞掉\",\n    \"pinyin\": \"huài diào\",\n    \"pinyin_numeric\": \"huai4 diao4\",\n    \"pos\": \"verb\",\n    \"meaning_en\": \"to break down; to be broken\",\n    \"meaning_ko\": \"고장나다\",\n    \"semantic_domain\": \"repair\"\n  }\n]",
+  "usage": {
+    "prompt_tokens": 3408,
+    "completion_tokens": 788,
+    "total_tokens": 4196,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 3408
+  }
+}

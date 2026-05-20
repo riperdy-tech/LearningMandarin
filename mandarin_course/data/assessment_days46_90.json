@@ -1,45 +1,5 @@
 [
   {
-    "id": "ASM_D60",
-    "lesson_id": "LESSON_D60",
-    "day": 60,
-    "title": "Phase 4 Assessment",
-    "scenario": "social narration checkpoint",
-    "tasks": [
-      {
-        "id": "ASM_D60_T1",
-        "type": "roleplay_response",
-        "prompt_en": "Demonstrate: past",
-        "minimum_turns": 3
-      },
-      {
-        "id": "ASM_D60_T2",
-        "type": "roleplay_response",
-        "prompt_en": "Demonstrate: experience",
-        "minimum_turns": 3
-      },
-      {
-        "id": "ASM_D60_T3",
-        "type": "roleplay_response",
-        "prompt_en": "Demonstrate: ongoing",
-        "minimum_turns": 3
-      },
-      {
-        "id": "ASM_D60_T4",
-        "type": "roleplay_response",
-        "prompt_en": "Demonstrate: comparison",
-        "minimum_turns": 3
-      },
-      {
-        "id": "ASM_D60_T5",
-        "type": "roleplay_response",
-        "prompt_en": "Demonstrate: health",
-        "minimum_turns": 3
-      }
-    ],
-    "pass_threshold": 0.75
-  },
-  {
     "id": "ASM_D75",
     "lesson_id": "LESSON_D75",
     "day": 75,
@@ -128,5 +88,50 @@
       }
     ],
     "pass_threshold": 0.75
+  },
+  {
+    "id": "ASM_D60",
+    "lesson_id": "LESSON_D60",
+    "day": 60,
+    "title": "Phase 4 Assessment",
+    "scenario": "social narration checkpoint",
+    "tasks": [
+      {
+        "id": "ASM_D60_SPEAK",
+        "type": "speaking",
+        "prompt_en": "Complete the full scenario aloud with follow-up questions.",
+        "minimum_turns": 8,
+        "related_dialogue_ids": [
+          "DLG_D60_01",
+          "DLG_D60_02",
+          "DLG_D60_03"
+        ]
+      },
+      {
+        "id": "ASM_D60_LISTEN",
+        "type": "listening",
+        "prompt_en": "Listen to the model sentences and answer key-detail questions.",
+        "sentence_ids": [
+          "SEN_D60_001",
+          "SEN_D60_002",
+          "SEN_D60_003",
+          "SEN_D60_004",
+          "SEN_D60_005",
+          "SEN_D60_006",
+          "SEN_D60_007",
+          "SEN_D60_008",
+          "SEN_D60_009",
+          "SEN_D60_010",
+          "SEN_D60_011",
+          "SEN_D60_012"
+        ]
+      },
+      {
+        "id": "ASM_D60_WRITE",
+        "type": "writing",
+        "prompt_en": "Write a short practical message using only known words."
+      }
+    ],
+    "pass_threshold": 0.8
   }
 ]
