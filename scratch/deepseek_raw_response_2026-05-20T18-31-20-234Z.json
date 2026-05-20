@@ -1,0 +1,13 @@
+{
+  "content": "{\n  \"sentences\": [\n    {\n      \"text\": \"請你走進來。\",\n      \"pinyin\": \"Qǐng nǐ zǒu jìnlái.\",\n      \"pinyin_numeric\": \"qing3 ni3 zou3 jin4lai2\",\n      \"translation_en\": \"Please walk in.\",\n      \"translation_ko\": \"안으로 걸어 들어오세요.\"\n    },\n    {\n      \"text\": \"他跑出去了。\",\n      \"pinyin\": \"Tā pǎo chūqù le.\",\n      \"pinyin_numeric\": \"ta1 pao3 chu1qu4 le0\",\n      \"translation_en\": \"He ran out.\",\n      \"translation_ko\": \"그가 밖으로 뛰어나갔어요.\"\n    },\n    {\n      \"text\": \"我們把書拿出來。\",\n      \"pinyin\": \"Wǒmen bǎ shū ná chūlái.\",\n      \"pinyin_numeric\": \"wo3men ba3 shu1 na2 chu1lai2\",\n      \"translation_en\": \"We take the book out.\",\n      \"translation_ko\": \"우리가 책을 꺼내요.\"\n    },\n    {\n      \"text\": \"貓跳下來了。\",\n      \"pinyin\": \"Māo tiào xiàlái le.\",\n      \"pinyin_numeric\": \"mao1 tiao4 xia4lai2 le0\",\n      \"translation_en\": \"The cat jumped down.\",\n      \"translation_ko\": \"고양이가 뛰어내렸어요.\"\n    },\n    {\n      \"text\": \"請你帶上去。\",\n      \"pinyin\": \"Qǐng nǐ dài shàngqù.\",\n      \"pinyin_numeric\": \"qing3 ni3 dai4 shang4qu4\",\n      \"translation_en\": \"Please take it up.\",\n      \"translation_ko\": \"위로 가져가 주세요.\"\n    },\n    {\n      \"text\": \"他走進來了。\",\n      \"pinyin\": \"Tā zǒu jìnlái le.\",\n      \"pinyin_numeric\": \"ta1 zou3 jin4lai2 le0\",\n      \"translation_en\": \"He walked in.\",\n      \"translation_ko\": \"그가 걸어 들어왔어요.\"\n    },\n    {\n      \"text\": \"我們把東西放進去。\",\n      \"pinyin\": \"Wǒmen bǎ dōngxi fàng jìnqù.\",\n      \"pinyin_numeric\": \"wo3men ba3 dong1xi fang4 jin4qu4\",\n      \"translation_en\": \"We put the things in.\",\n      \"translation_ko\": \"우리가 물건을 안에 넣어요.\"\n    },\n    {\n      \"text\": \"鳥飛出去了。\",\n      \"pinyin\": \"Niǎo fēi chūqù le.\",\n      \"pinyin_numeric\": \"niao3 fei1 chu1qu4 le0\",\n      \"translation_en\": \"The bird flew out.\",\n      \"translation_ko\": \"새가 밖으로 날아갔어요.\"\n    },\n    {\n      \"text\": \"請你爬上來。\",\n      \"pinyin\": \"Qǐng nǐ pá shànglái.\",\n      \"pinyin_numeric\": \"qing3 ni3 pa2 shang4lai2\",\n      \"translation_en\": \"Please climb up.\",\n      \"translation_ko\": \"위로 기어 올라오세요.\"\n    },\n    {\n      \"text\": \"他跑下去了。\",\n      \"pinyin\": \"Tā pǎo xiàqù le.\",\n      \"pinyin_numeric\": \"ta1 pao3 xia4qu4 le0\",\n      \"translation_en\": \"He ran down.\",\n      \"translation_ko\": \"그가 뛰어내려갔어요.\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 4865,
+    "completion_tokens": 859,
+    "total_tokens": 5724,
+    "prompt_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "prompt_cache_hit_tokens": 4736,
+    "prompt_cache_miss_tokens": 129
+  }
+}

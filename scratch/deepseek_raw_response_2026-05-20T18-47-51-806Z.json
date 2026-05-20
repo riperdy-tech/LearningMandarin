@@ -1,0 +1,13 @@
+{
+  "content": "{\n  \"vocabulary\": []\n}",
+  "usage": {
+    "prompt_tokens": 5487,
+    "completion_tokens": 8,
+    "total_tokens": 5495,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 5487
+  }
+}

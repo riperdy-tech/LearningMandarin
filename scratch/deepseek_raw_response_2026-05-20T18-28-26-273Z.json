@@ -1,0 +1,13 @@
+{
+  "content": "{\n  \"sentences\": [\n    {\n      \"text\": \"雖然今天很忙，我還是去運動了。\",\n      \"pinyin\": \"Suīrán jīntiān hěn máng, wǒ háishì qù yùndòng le.\",\n      \"pinyin_numeric\": \"sui1ran2 jin1tian1 hen3 mang2, wo3 hai2shi4 qu4 yun4dong4 le0.\",\n      \"translation_en\": \"Although I was very busy today, I still went to exercise.\",\n      \"translation_ko\": \"오늘 바빴지만, 저는 여전히 운동하러 갔어요.\"\n    },\n    {\n      \"sentences\": [\n        {\n          \"text\": \"他雖然不喜歡吃辣，還是點了麻辣鍋。\",\n          \"pinyin\": \"Tā suīrán bù xǐhuān chī là, háishì diǎn le málà guō.\",\n          \"pinyin_numeric\": \"ta1 sui1ran2 bu4 xi3huan1 chi1 la4, hai2shi4 dian3 le0 ma2la4 guo1.\",\n          \"translation_en\": \"Although he doesn't like spicy food, he still ordered the spicy hot pot.\",\n          \"translation_ko\": \"그는 매운 음식을 좋아하지 않지만, 여전히 마라샤브샤브를 주문했어요.\"\n        }\n      ]\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 4709,
+    "completion_tokens": 321,
+    "total_tokens": 5030,
+    "prompt_tokens_details": {
+      "cached_tokens": 3840
+    },
+    "prompt_cache_hit_tokens": 3840,
+    "prompt_cache_miss_tokens": 869
+  }
+}

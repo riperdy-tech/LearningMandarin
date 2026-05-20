@@ -97,11 +97,29 @@
           "중간 라떼에 얼음 없이",
           "큰 라떼에 얼음 많이"
         ],
-        "correct_index": 0
+        "correct_index": 0,
+        "id": "DLG_D31_01_Q1",
+        "answer_en": "Small latte with less ice"
       }
     ],
     "shadowing_prompt": "Repeat each line after the speaker, focusing on tone and rhythm.",
-    "free_response_prompt": "Pretend you are the customer. Order a small latte with less ice for takeout."
+    "free_response_prompt": "Pretend you are the customer. Order a small latte with less ice for takeout.",
+    "speaker_roles": [
+      "店員",
+      "客人"
+    ],
+    "grammar_ids": [],
+    "audio_ids": [
+      "AUD_DLG_D31_01_T1",
+      "AUD_DLG_D31_01_T2",
+      "AUD_DLG_D31_01_T3",
+      "AUD_DLG_D31_01_T4",
+      "AUD_DLG_D31_01_T5",
+      "AUD_DLG_D31_01_T6",
+      "AUD_DLG_D31_01_T7"
+    ],
+    "speaking_shadowing_prompts": [],
+    "free_response_branching_prompts": []
   },
   {
     "id": "DLG_D31_02",
@@ -190,11 +208,28 @@
           "25위안",
           "30위안"
         ],
-        "correct_index": 1
+        "correct_index": 1,
+        "id": "DLG_D31_02_Q1",
+        "answer_en": "25 dollars"
       }
     ],
     "shadowing_prompt": "Repeat each line after the speaker, focusing on polite intonation.",
-    "free_response_prompt": "Pretend you are the customer. Ask for the price of a large black tea, then order a medium with less ice and half sugar."
+    "free_response_prompt": "Pretend you are the customer. Ask for the price of a large black tea, then order a medium with less ice and half sugar.",
+    "speaker_roles": [
+      "客人",
+      "店員"
+    ],
+    "grammar_ids": [],
+    "audio_ids": [
+      "AUD_DLG_D31_02_T1",
+      "AUD_DLG_D31_02_T2",
+      "AUD_DLG_D31_02_T3",
+      "AUD_DLG_D31_02_T4",
+      "AUD_DLG_D31_02_T5",
+      "AUD_DLG_D31_02_T6"
+    ],
+    "speaking_shadowing_prompts": [],
+    "free_response_branching_prompts": []
   },
   {
     "id": "DLG_D31_03",
@@ -283,11 +318,28 @@
           "할인해 달라고",
           "주문을 바꿔 달라고"
         ],
-        "correct_index": 0
+        "correct_index": 0,
+        "id": "DLG_D31_03_Q1",
+        "answer_en": "Speak slower and repeat"
       }
     ],
     "shadowing_prompt": "Repeat each line after the speaker, focusing on the polite request intonation.",
-    "free_response_prompt": "Pretend you are the customer. Politely ask the staff to repeat and speak slower, then order a small soy milk with no ice."
+    "free_response_prompt": "Pretend you are the customer. Politely ask the staff to repeat and speak slower, then order a small soy milk with no ice.",
+    "speaker_roles": [
+      "店員",
+      "客人"
+    ],
+    "grammar_ids": [],
+    "audio_ids": [
+      "AUD_DLG_D31_03_T1",
+      "AUD_DLG_D31_03_T2",
+      "AUD_DLG_D31_03_T3",
+      "AUD_DLG_D31_03_T4",
+      "AUD_DLG_D31_03_T5",
+      "AUD_DLG_D31_03_T6"
+    ],
+    "speaking_shadowing_prompts": [],
+    "free_response_branching_prompts": []
   },
   {
     "id": "DLG_D32_01",
@@ -415,11 +467,28 @@
           "신용카드",
           "전자결제"
         ],
-        "correct_index": 1
+        "correct_index": 1,
+        "id": "DLG_D32_01_Q1",
+        "answer_en": "Credit card"
       }
     ],
     "shadowing_prompt": "Repeat each sentence after the speaker, focusing on tone and intonation.",
-    "free_response_prompt": "Practice saying: 'I want to pay by credit card' and 'I have a reusable bag' in Chinese."
+    "free_response_prompt": "Practice saying: 'I want to pay by credit card' and 'I have a reusable bag' in Chinese.",
+    "speaker_roles": [
+      "店員",
+      "客人"
+    ],
+    "grammar_ids": [],
+    "audio_ids": [
+      "AUD_DLG_D32_01_T1",
+      "AUD_DLG_D32_01_T2",
+      "AUD_DLG_D32_01_T3",
+      "AUD_DLG_D32_01_T4",
+      "AUD_DLG_D32_01_T5",
+      "AUD_DLG_D32_01_T6"
+    ],
+    "speaking_shadowing_prompts": [],
+    "free_response_branching_prompts": []
   },
   {
     "id": "DLG_D32_02",
@@ -524,11 +593,27 @@
           "종이 영수증",
           "영수증 없음"
         ],
-        "correct_index": 1
+        "correct_index": 1,
+        "id": "DLG_D32_02_Q1",
+        "answer_en": "Paper receipt"
       }
     ],
     "shadowing_prompt": "Repeat each sentence after the speaker, focusing on tone and intonation.",
-    "free_response_prompt": "Practice saying: 'Excuse me, can I have the receipt?' and 'I just want a paper receipt' in Chinese."
+    "free_response_prompt": "Practice saying: 'Excuse me, can I have the receipt?' and 'I just want a paper receipt' in Chinese.",
+    "speaker_roles": [
+      "客人",
+      "店員"
+    ],
+    "grammar_ids": [],
+    "audio_ids": [
+      "AUD_DLG_D32_02_T1",
+      "AUD_DLG_D32_02_T2",
+      "AUD_DLG_D32_02_T3",
+      "AUD_DLG_D32_02_T4",
+      "AUD_DLG_D32_02_T5"
+    ],
+    "speaking_shadowing_prompts": [],
+    "free_response_branching_prompts": []
   },
   {
     "id": "DLG_D32_03",
@@ -660,11 +745,28 @@
           "현금이 부족함",
           "지갑을 잊어버림"
         ],
-        "correct_index": 0
+        "correct_index": 0,
+        "id": "DLG_D32_03_Q1",
+        "answer_en": "Credit card didn't work"
       }
     ],
     "shadowing_prompt": "Repeat each sentence after the speaker, focusing on tone and intonation.",
-    "free_response_prompt": "Practice saying: 'My credit card won't swipe' and 'I'll use cash' in Chinese."
+    "free_response_prompt": "Practice saying: 'My credit card won't swipe' and 'I'll use cash' in Chinese.",
+    "speaker_roles": [
+      "客人",
+      "店員"
+    ],
+    "grammar_ids": [],
+    "audio_ids": [
+      "AUD_DLG_D32_03_T1",
+      "AUD_DLG_D32_03_T2",
+      "AUD_DLG_D32_03_T3",
+      "AUD_DLG_D32_03_T4",
+      "AUD_DLG_D32_03_T5",
+      "AUD_DLG_D32_03_T6"
+    ],
+    "speaking_shadowing_prompts": [],
+    "free_response_branching_prompts": []
   },
   {
     "id": "DLG_D33_01",
@@ -781,11 +883,27 @@
           "2층, 직진 후 오른쪽으로 돌고 계단 올라가기",
           "3층, 엘리베이터 근처"
         ],
-        "correct_index": 1
+        "correct_index": 1,
+        "id": "DLG_D33_01_Q1",
+        "answer_en": "Second floor, go straight then turn right and go up stairs"
       }
     ],
     "shadowing_prompt": "Repeat each line after the speaker, focusing on tone and intonation.",
-    "free_response_prompt": "Practice asking for directions to the restroom or elevator in a store."
+    "free_response_prompt": "Practice asking for directions to the restroom or elevator in a store.",
+    "speaker_roles": [
+      "客人",
+      "店員"
+    ],
+    "grammar_ids": [],
+    "audio_ids": [
+      "AUD_DLG_D33_01_T1",
+      "AUD_DLG_D33_01_T2",
+      "AUD_DLG_D33_01_T3",
+      "AUD_DLG_D33_01_T4",
+      "AUD_DLG_D33_01_T5"
+    ],
+    "speaking_shadowing_prompts": [],
+    "free_response_branching_prompts": []
   },
   {
     "id": "DLG_D33_02",
@@ -904,11 +1022,27 @@
           "1층, 직진 후 왼쪽으로 돌기",
           "3층, 계단 근처"
         ],
-        "correct_index": 1
+        "correct_index": 1,
+        "id": "DLG_D33_02_Q1",
+        "answer_en": "First floor, go straight then turn left"
       }
     ],
     "shadowing_prompt": "Repeat each line after the speaker, focusing on tone and intonation.",
-    "free_response_prompt": "Practice asking for the counter and exit in a building."
+    "free_response_prompt": "Practice asking for the counter and exit in a building.",
+    "speaker_roles": [
+      "客人",
+      "店員"
+    ],
+    "grammar_ids": [],
+    "audio_ids": [
+      "AUD_DLG_D33_02_T1",
+      "AUD_DLG_D33_02_T2",
+      "AUD_DLG_D33_02_T3",
+      "AUD_DLG_D33_02_T4",
+      "AUD_DLG_D33_02_T5"
+    ],
+    "speaking_shadowing_prompts": [],
+    "free_response_branching_prompts": []
   },
   {
     "id": "DLG_D33_03",
@@ -1039,11 +1173,27 @@
           "3층",
           "1층"
         ],
-        "correct_index": 1
+        "correct_index": 1,
+        "id": "DLG_D33_03_Q1",
+        "answer_en": "Third floor"
       }
     ],
     "shadowing_prompt": "Repeat each line after the speaker, focusing on tone and intonation.",
-    "free_response_prompt": "Practice explaining that you are on the wrong floor and asking for directions."
+    "free_response_prompt": "Practice explaining that you are on the wrong floor and asking for directions.",
+    "speaker_roles": [
+      "客人",
+      "店員"
+    ],
+    "grammar_ids": [],
+    "audio_ids": [
+      "AUD_DLG_D33_03_T1",
+      "AUD_DLG_D33_03_T2",
+      "AUD_DLG_D33_03_T3",
+      "AUD_DLG_D33_03_T4",
+      "AUD_DLG_D33_03_T5"
+    ],
+    "speaking_shadowing_prompts": [],
+    "free_response_branching_prompts": []
   },
   {
     "id": "DLG_D34_01",
@@ -1169,11 +1319,28 @@
           "닭고기 국수",
           "밥"
         ],
-        "correct_index": 0
+        "correct_index": 0,
+        "id": "DLG_D34_01_Q1",
+        "answer_en": "Beef noodle soup"
       }
     ],
     "shadowing_prompt": "Repeat each sentence after the speaker, focusing on tone and rhythm.",
-    "free_response_prompt": "Pretend you are a customer. Order a bowl of beef noodle soup and a side dish. Say you don't want it spicy."
+    "free_response_prompt": "Pretend you are a customer. Order a bowl of beef noodle soup and a side dish. Say you don't want it spicy.",
+    "speaker_roles": [
+      "店員",
+      "客人"
+    ],
+    "grammar_ids": [],
+    "audio_ids": [
+      "AUD_DLG_D34_01_T1",
+      "AUD_DLG_D34_01_T2",
+      "AUD_DLG_D34_01_T3",
+      "AUD_DLG_D34_01_T4",
+      "AUD_DLG_D34_01_T5",
+      "AUD_DLG_D34_01_T6"
+    ],
+    "speaking_shadowing_prompts": [],
+    "free_response_branching_prompts": []
   },
   {
     "id": "DLG_D34_02",
@@ -1298,11 +1465,28 @@
           "반 당도",
           "무가당"
         ],
-        "correct_index": 1
+        "correct_index": 1,
+        "id": "DLG_D34_02_Q1",
+        "answer_en": "Half sugar"
       }
     ],
     "shadowing_prompt": "Repeat each sentence after the speaker, paying attention to the tones.",
-    "free_response_prompt": "Pretend you are a customer. Order a bubble milk tea with half sugar and less ice, for takeaway."
+    "free_response_prompt": "Pretend you are a customer. Order a bubble milk tea with half sugar and less ice, for takeaway.",
+    "speaker_roles": [
+      "店員",
+      "客人"
+    ],
+    "grammar_ids": [],
+    "audio_ids": [
+      "AUD_DLG_D34_02_T1",
+      "AUD_DLG_D34_02_T2",
+      "AUD_DLG_D34_02_T3",
+      "AUD_DLG_D34_02_T4",
+      "AUD_DLG_D34_02_T5",
+      "AUD_DLG_D34_02_T6"
+    ],
+    "speaking_shadowing_prompts": [],
+    "free_response_branching_prompts": []
   },
   {
     "id": "DLG_D34_03",
@@ -1448,11 +1632,28 @@
           "루로우판",
           "볶음밥"
         ],
-        "correct_index": 1
+        "correct_index": 1,
+        "id": "DLG_D34_03_Q1",
+        "answer_en": "Braised pork rice"
       }
     ],
     "shadowing_prompt": "Repeat each sentence after the speaker, focusing on the tones and natural pauses.",
-    "free_response_prompt": "Pretend you are a customer. Ask for a recommendation, then order the signature dish and a hot soup."
+    "free_response_prompt": "Pretend you are a customer. Ask for a recommendation, then order the signature dish and a hot soup.",
+    "speaker_roles": [
+      "客人",
+      "店員"
+    ],
+    "grammar_ids": [],
+    "audio_ids": [
+      "AUD_DLG_D34_03_T1",
+      "AUD_DLG_D34_03_T2",
+      "AUD_DLG_D34_03_T3",
+      "AUD_DLG_D34_03_T4",
+      "AUD_DLG_D34_03_T5",
+      "AUD_DLG_D34_03_T6"
+    ],
+    "speaking_shadowing_prompts": [],
+    "free_response_branching_prompts": []
   },
   {
     "id": "DLG_D35_01",
@@ -1560,11 +1761,27 @@
           "맵지 않은 볶음밥과 홍차",
           "홍차만"
         ],
-        "correct_index": 1
+        "correct_index": 1,
+        "id": "DLG_D35_01_Q1",
+        "answer_en": "Fried rice no spicy and black tea"
       }
     ],
     "shadowing_prompt": "Repeat each line after the speaker, focusing on the tone of '不要辣' and '少冰'.",
-    "free_response_prompt": "Practice ordering a dish with a customization (e.g., no spicy, less salt) and a drink."
+    "free_response_prompt": "Practice ordering a dish with a customization (e.g., no spicy, less salt) and a drink.",
+    "speaker_roles": [
+      "客人",
+      "店員"
+    ],
+    "grammar_ids": [],
+    "audio_ids": [
+      "AUD_DLG_D35_01_T1",
+      "AUD_DLG_D35_01_T2",
+      "AUD_DLG_D35_01_T3",
+      "AUD_DLG_D35_01_T4",
+      "AUD_DLG_D35_01_T5"
+    ],
+    "speaking_shadowing_prompts": [],
+    "free_response_branching_prompts": []
   },
   {
     "id": "DLG_D35_02",
@@ -1684,11 +1901,27 @@
           "잘못된 요리가 나왔다",
           "음료가 없었다"
         ],
-        "correct_index": 1
+        "correct_index": 1,
+        "id": "DLG_D35_02_Q1",
+        "answer_en": "The wrong dish was served"
       }
     ],
     "shadowing_prompt": "Practice the apology and request phrases: '不好意思', '送錯了', '重做', '再等一下'.",
-    "free_response_prompt": "Role-play a situation where the waiter brings the wrong dish. Politely point out the mistake and ask for a correction."
+    "free_response_prompt": "Role-play a situation where the waiter brings the wrong dish. Politely point out the mistake and ask for a correction.",
+    "speaker_roles": [
+      "客人",
+      "店員"
+    ],
+    "grammar_ids": [],
+    "audio_ids": [
+      "AUD_DLG_D35_02_T1",
+      "AUD_DLG_D35_02_T2",
+      "AUD_DLG_D35_02_T3",
+      "AUD_DLG_D35_02_T4",
+      "AUD_DLG_D35_02_T5"
+    ],
+    "speaking_shadowing_prompts": [],
+    "free_response_branching_prompts": []
   },
   {
     "id": "DLG_D35_03",
@@ -1810,11 +2043,27 @@
           "반찬을 채소로 바꾸고 기름을 적게 요청했다",
           "음료를 바꿨다"
         ],
-        "correct_index": 1
+        "correct_index": 1,
+        "id": "DLG_D35_03_Q1",
+        "answer_en": "Changed the side dish to greens and asked for less oil"
       }
     ],
     "shadowing_prompt": "Practice the phrase '把配菜換成青菜' and '少油' with correct tones.",
-    "free_response_prompt": "Practice changing a side dish and adding a customization (e.g., less oil, less salt) to your order."
+    "free_response_prompt": "Practice changing a side dish and adding a customization (e.g., less oil, less salt) to your order.",
+    "speaker_roles": [
+      "客人",
+      "店員"
+    ],
+    "grammar_ids": [],
+    "audio_ids": [
+      "AUD_DLG_D35_03_T1",
+      "AUD_DLG_D35_03_T2",
+      "AUD_DLG_D35_03_T3",
+      "AUD_DLG_D35_03_T4",
+      "AUD_DLG_D35_03_T5"
+    ],
+    "speaking_shadowing_prompts": [],
+    "free_response_branching_prompts": []
   },
   {
     "id": "DLG_D36_01",
@@ -1963,11 +2212,28 @@
           "커피 마시기",
           "출근"
         ],
-        "correct_index": 1
+        "correct_index": 1,
+        "id": "DLG_D36_01_Q1",
+        "answer_en": "Brush teeth and wash face"
       }
     ],
     "shadowing_prompt": "Repeat each sentence after the speaker, focusing on the sequence words like 先, 然後.",
-    "free_response_prompt": "Describe your own morning routine using 先, 然後, 再."
+    "free_response_prompt": "Describe your own morning routine using 先, 然後, 再.",
+    "speaker_roles": [
+      "A",
+      "B"
+    ],
+    "grammar_ids": [],
+    "audio_ids": [
+      "AUD_DLG_D36_01_T1",
+      "AUD_DLG_D36_01_T2",
+      "AUD_DLG_D36_01_T3",
+      "AUD_DLG_D36_01_T4",
+      "AUD_DLG_D36_01_T5",
+      "AUD_DLG_D36_01_T6"
+    ],
+    "speaking_shadowing_prompts": [],
+    "free_response_branching_prompts": []
   },
   {
     "id": "DLG_D36_02",
@@ -2114,11 +2380,28 @@
           "텔레비전을 본다",
           "샤워한다"
         ],
-        "correct_index": 0
+        "correct_index": 0,
+        "id": "DLG_D36_02_Q1",
+        "answer_en": "Go to the park for a walk"
       }
     ],
     "shadowing_prompt": "Repeat each sentence, paying attention to time expressions like 中午, 下午, 晚上.",
-    "free_response_prompt": "Describe your typical workday schedule from morning to evening."
+    "free_response_prompt": "Describe your typical workday schedule from morning to evening.",
+    "speaker_roles": [
+      "A",
+      "B"
+    ],
+    "grammar_ids": [],
+    "audio_ids": [
+      "AUD_DLG_D36_02_T1",
+      "AUD_DLG_D36_02_T2",
+      "AUD_DLG_D36_02_T3",
+      "AUD_DLG_D36_02_T4",
+      "AUD_DLG_D36_02_T5",
+      "AUD_DLG_D36_02_T6"
+    ],
+    "speaking_shadowing_prompts": [],
+    "free_response_branching_prompts": []
   },
   {
     "id": "DLG_D36_03",
@@ -2280,11 +2563,29 @@
           "쇼핑하기",
           "함께 공부하기"
         ],
-        "correct_index": 0
+        "correct_index": 0,
+        "id": "DLG_D36_03_Q1",
+        "answer_en": "Eat dinner and watch a movie"
       }
     ],
     "shadowing_prompt": "Repeat the dialogue, focusing on making suggestions and confirming plans.",
-    "free_response_prompt": "Make an evening plan with a friend using 一起, 然後, and 可以嗎."
+    "free_response_prompt": "Make an evening plan with a friend using 一起, 然後, and 可以嗎.",
+    "speaker_roles": [
+      "A",
+      "B"
+    ],
+    "grammar_ids": [],
+    "audio_ids": [
+      "AUD_DLG_D36_03_T1",
+      "AUD_DLG_D36_03_T2",
+      "AUD_DLG_D36_03_T3",
+      "AUD_DLG_D36_03_T4",
+      "AUD_DLG_D36_03_T5",
+      "AUD_DLG_D36_03_T6",
+      "AUD_DLG_D36_03_T7"
+    ],
+    "speaking_shadowing_prompts": [],
+    "free_response_branching_prompts": []
   },
   {
     "id": "DLG_D37_01",
@@ -2419,11 +2720,27 @@
           "오후 2시",
           "오후 3시"
         ],
-        "correct_index": 1
+        "correct_index": 1,
+        "id": "DLG_D37_01_Q1",
+        "answer_en": "2 PM"
       }
     ],
     "shadowing_prompt": "Repeat each line after hearing it, focusing on the tone of invitation and agreement.",
-    "free_response_prompt": "Practice inviting a friend for coffee. Say: '你明天有空嗎？我們一起去喝咖啡，好不好？'"
+    "free_response_prompt": "Practice inviting a friend for coffee. Say: '你明天有空嗎？我們一起去喝咖啡，好不好？'",
+    "speaker_roles": [
+      "A",
+      "B"
+    ],
+    "grammar_ids": [],
+    "audio_ids": [
+      "AUD_DLG_D37_01_T1",
+      "AUD_DLG_D37_01_T2",
+      "AUD_DLG_D37_01_T3",
+      "AUD_DLG_D37_01_T4",
+      "AUD_DLG_D37_01_T5"
+    ],
+    "speaking_shadowing_prompts": [],
+    "free_response_branching_prompts": []
   },
   {
     "id": "DLG_D37_02",
@@ -2557,11 +2874,27 @@
           "B가 출근해야 해서",
           "영화가 오후에 있어서"
         ],
-        "correct_index": 1
+        "correct_index": 1,
+        "id": "DLG_D37_02_Q1",
+        "answer_en": "B has to work"
       }
     ],
     "shadowing_prompt": "Repeat each line, paying attention to suggesting a time and agreeing.",
-    "free_response_prompt": "Practice suggesting a time to meet. Say: '我們約下午三點，在電影院門口碰面，好嗎？'"
+    "free_response_prompt": "Practice suggesting a time to meet. Say: '我們約下午三點，在電影院門口碰面，好嗎？'",
+    "speaker_roles": [
+      "A",
+      "B"
+    ],
+    "grammar_ids": [],
+    "audio_ids": [
+      "AUD_DLG_D37_02_T1",
+      "AUD_DLG_D37_02_T2",
+      "AUD_DLG_D37_02_T3",
+      "AUD_DLG_D37_02_T4",
+      "AUD_DLG_D37_02_T5"
+    ],
+    "speaking_shadowing_prompts": [],
+    "free_response_branching_prompts": []
   },
   {
     "id": "DLG_D37_03",
@@ -2688,11 +3021,27 @@
           "B가 타이베이에 가서",
           "B가 출근해야 해서"
         ],
-        "correct_index": 1
+        "correct_index": 1,
+        "id": "DLG_D37_03_Q1",
+        "answer_en": "B is going to Taipei"
       }
     ],
     "shadowing_prompt": "Repeat each line, focusing on polite refusal and suggesting another time.",
-    "free_response_prompt": "Practice politely declining an invitation. Say: '不好意思，我明天很忙，沒辦法。我們下次再約，好嗎？'"
+    "free_response_prompt": "Practice politely declining an invitation. Say: '不好意思，我明天很忙，沒辦法。我們下次再約，好嗎？'",
+    "speaker_roles": [
+      "A",
+      "B"
+    ],
+    "grammar_ids": [],
+    "audio_ids": [
+      "AUD_DLG_D37_03_T1",
+      "AUD_DLG_D37_03_T2",
+      "AUD_DLG_D37_03_T3",
+      "AUD_DLG_D37_03_T4",
+      "AUD_DLG_D37_03_T5"
+    ],
+    "speaking_shadowing_prompts": [],
+    "free_response_branching_prompts": []
   },
   {
     "id": "DLG_D38_01",
@@ -2805,11 +3154,27 @@
           "파란색 노선",
           "초록색 노선"
         ],
-        "correct_index": 0
+        "correct_index": 0,
+        "id": "DLG_D38_01_Q1",
+        "answer_en": "Red Line"
       }
     ],
     "shadowing_prompt": "Repeat each sentence after the speaker, focusing on the tones and the polite tone of voice.",
-    "free_response_prompt": "Practice asking for directions to a different MRT station, using the phrases from this dialogue."
+    "free_response_prompt": "Practice asking for directions to a different MRT station, using the phrases from this dialogue.",
+    "speaker_roles": [
+      "A",
+      "B"
+    ],
+    "grammar_ids": [],
+    "audio_ids": [
+      "AUD_DLG_D38_01_T1",
+      "AUD_DLG_D38_01_T2",
+      "AUD_DLG_D38_01_T3",
+      "AUD_DLG_D38_01_T4",
+      "AUD_DLG_D38_01_T5"
+    ],
+    "speaking_shadowing_prompts": [],
+    "free_response_branching_prompts": []
   },
   {
     "id": "DLG_D38_02",
@@ -2927,11 +3292,27 @@
           "258",
           "528"
         ],
-        "correct_index": 0
+        "correct_index": 0,
+        "id": "DLG_D38_02_Q1",
+        "answer_en": "285"
       }
     ],
     "shadowing_prompt": "Repeat each sentence, paying attention to the numbers and the polite expressions.",
-    "free_response_prompt": "Practice asking about a bus to a different location, using the phrases from this dialogue."
+    "free_response_prompt": "Practice asking about a bus to a different location, using the phrases from this dialogue.",
+    "speaker_roles": [
+      "A",
+      "B"
+    ],
+    "grammar_ids": [],
+    "audio_ids": [
+      "AUD_DLG_D38_02_T1",
+      "AUD_DLG_D38_02_T2",
+      "AUD_DLG_D38_02_T3",
+      "AUD_DLG_D38_02_T4",
+      "AUD_DLG_D38_02_T5"
+    ],
+    "speaking_shadowing_prompts": [],
+    "free_response_branching_prompts": []
   },
   {
     "id": "DLG_D38_03",
@@ -3048,11 +3429,27 @@
           "기사가 길을 잃음",
           "야시장이 멀다"
         ],
-        "correct_index": 0
+        "correct_index": 0,
+        "id": "DLG_D38_03_Q1",
+        "answer_en": "Traffic"
       }
     ],
     "shadowing_prompt": "Repeat each sentence, focusing on the polite requests and the explanation about traffic.",
-    "free_response_prompt": "Practice telling a taxi driver a different destination and asking about the travel time."
+    "free_response_prompt": "Practice telling a taxi driver a different destination and asking about the travel time.",
+    "speaker_roles": [
+      "A",
+      "B"
+    ],
+    "grammar_ids": [],
+    "audio_ids": [
+      "AUD_DLG_D38_03_T1",
+      "AUD_DLG_D38_03_T2",
+      "AUD_DLG_D38_03_T3",
+      "AUD_DLG_D38_03_T4",
+      "AUD_DLG_D38_03_T5"
+    ],
+    "speaking_shadowing_prompts": [],
+    "free_response_branching_prompts": []
   },
   {
     "id": "DLG_D39_01",
@@ -3197,11 +3594,28 @@
           "정류장을 지나쳤다",
           "표를 잃어버렸다"
         ],
-        "correct_index": 1
+        "correct_index": 1,
+        "id": "DLG_D39_01_Q1",
+        "answer_en": "He missed his stop"
       }
     ],
     "shadowing_prompt": "Repeat each sentence after the speaker, focusing on the tones and the phrase '坐過站'.",
-    "free_response_prompt": "Imagine you missed your stop on the MRT. Tell the staff what happened and ask for help."
+    "free_response_prompt": "Imagine you missed your stop on the MRT. Tell the staff what happened and ask for help.",
+    "speaker_roles": [
+      "乘客",
+      "店員"
+    ],
+    "grammar_ids": [],
+    "audio_ids": [
+      "AUD_DLG_D39_01_T1",
+      "AUD_DLG_D39_01_T2",
+      "AUD_DLG_D39_01_T3",
+      "AUD_DLG_D39_01_T4",
+      "AUD_DLG_D39_01_T5",
+      "AUD_DLG_D39_01_T6"
+    ],
+    "speaking_shadowing_prompts": [],
+    "free_response_branching_prompts": []
   },
   {
     "id": "DLG_D39_02",
@@ -3322,11 +3736,27 @@
           "남선",
           "녹선"
         ],
-        "correct_index": 1
+        "correct_index": 1,
+        "id": "DLG_D39_02_Q1",
+        "answer_en": "Blue Line"
       }
     ],
     "shadowing_prompt": "Repeat each sentence, paying attention to the transfer instructions and the line names.",
-    "free_response_prompt": "You are at a station and need to go to a different station. Ask the staff how to transfer."
+    "free_response_prompt": "You are at a station and need to go to a different station. Ask the staff how to transfer.",
+    "speaker_roles": [
+      "乘客",
+      "站務員"
+    ],
+    "grammar_ids": [],
+    "audio_ids": [
+      "AUD_DLG_D39_02_T1",
+      "AUD_DLG_D39_02_T2",
+      "AUD_DLG_D39_02_T3",
+      "AUD_DLG_D39_02_T4",
+      "AUD_DLG_D39_02_T5"
+    ],
+    "speaking_shadowing_prompts": [],
+    "free_response_branching_prompts": []
   },
   {
     "id": "DLG_D39_03",
@@ -3452,11 +3882,27 @@
           "병원 뒤",
           "병원 옆"
         ],
-        "correct_index": 1
+        "correct_index": 1,
+        "id": "DLG_D39_03_Q1",
+        "answer_en": "Behind the hospital"
       }
     ],
     "shadowing_prompt": "Repeat each sentence, focusing on the direction words like '回頭', '直走', '左轉'.",
-    "free_response_prompt": "You are lost and need to find a park. Ask a local for directions."
+    "free_response_prompt": "You are lost and need to find a park. Ask a local for directions.",
+    "speaker_roles": [
+      "路人",
+      "路人乙"
+    ],
+    "grammar_ids": [],
+    "audio_ids": [
+      "AUD_DLG_D39_03_T1",
+      "AUD_DLG_D39_03_T2",
+      "AUD_DLG_D39_03_T3",
+      "AUD_DLG_D39_03_T4",
+      "AUD_DLG_D39_03_T5"
+    ],
+    "speaking_shadowing_prompts": [],
+    "free_response_branching_prompts": []
   },
   {
     "id": "DLG_D40_01",
@@ -3636,7 +4082,9 @@
           "샌드위치와 큰 컵 아이스 라떼",
           "주먹밥과 따뜻한 차"
         ],
-        "correct_index": 0
+        "correct_index": 0,
+        "id": "DLG_D40_01_Q1",
+        "answer_en": "A sandwich and a small hot latte"
       },
       {
         "question_en": "How did the customer pay?",
@@ -3651,7 +4099,9 @@
           "신용카드",
           "유유카드"
         ],
-        "correct_index": 2
+        "correct_index": 2,
+        "id": "DLG_D40_01_Q2",
+        "answer_en": "EasyCard"
       },
       {
         "question_en": "Where is the MRT station?",
@@ -3666,11 +4116,30 @@
           "직진 후 왼쪽으로 도시고 2분 걸으세요",
           "직진 후 5분 걸으세요"
         ],
-        "correct_index": 1
+        "correct_index": 1,
+        "id": "DLG_D40_01_Q3",
+        "answer_en": "Go straight, turn left, then walk two minutes"
       }
     ],
     "shadowing_prompt": "請跟著錄音，一句一句重複，注意發音和語調。",
-    "free_response_prompt": "請用中文回答：你通常在便利商店買什麼？怎麼付款？"
+    "free_response_prompt": "請用中文回答：你通常在便利商店買什麼？怎麼付款？",
+    "speaker_roles": [
+      "店員",
+      "客人"
+    ],
+    "grammar_ids": [],
+    "audio_ids": [
+      "AUD_DLG_D40_01_T1",
+      "AUD_DLG_D40_01_T2",
+      "AUD_DLG_D40_01_T3",
+      "AUD_DLG_D40_01_T4",
+      "AUD_DLG_D40_01_T5",
+      "AUD_DLG_D40_01_T6",
+      "AUD_DLG_D40_01_T7",
+      "AUD_DLG_D40_01_T8"
+    ],
+    "speaking_shadowing_prompts": [],
+    "free_response_branching_prompts": []
   },
   {
     "id": "DLG_D40_02",
@@ -3870,7 +4339,9 @@
           "소고기 국수와 아이스티",
           "볶음밥과 따뜻한 커피"
         ],
-        "correct_index": 0
+        "correct_index": 0,
+        "id": "DLG_D40_02_Q1",
+        "answer_en": "Braised pork rice and bubble milk tea"
       },
       {
         "question_en": "What sweetness did the customer choose for the bubble milk tea?",
@@ -3885,7 +4356,9 @@
           "반당",
           "적은 당도"
         ],
-        "correct_index": 1
+        "correct_index": 1,
+        "id": "DLG_D40_02_Q2",
+        "answer_en": "Half sugar"
       },
       {
         "question_en": "When and where will they meet?",
@@ -3900,11 +4373,30 @@
           "일요일 저녁 6시 야시장",
           "금요일 저녁 8시 식당"
         ],
-        "correct_index": 0
+        "correct_index": 0,
+        "id": "DLG_D40_02_Q3",
+        "answer_en": "Saturday at 7 PM at the MRT station"
       }
     ],
     "shadowing_prompt": "請跟著錄音，一句一句重複，注意發音和語調。",
-    "free_response_prompt": "請用中文回答：你週末喜歡去哪裡？為什麼？"
+    "free_response_prompt": "請用中文回答：你週末喜歡去哪裡？為什麼？",
+    "speaker_roles": [
+      "客人",
+      "店員"
+    ],
+    "grammar_ids": [],
+    "audio_ids": [
+      "AUD_DLG_D40_02_T1",
+      "AUD_DLG_D40_02_T2",
+      "AUD_DLG_D40_02_T3",
+      "AUD_DLG_D40_02_T4",
+      "AUD_DLG_D40_02_T5",
+      "AUD_DLG_D40_02_T6",
+      "AUD_DLG_D40_02_T7",
+      "AUD_DLG_D40_02_T8"
+    ],
+    "speaking_shadowing_prompts": [],
+    "free_response_branching_prompts": []
   },
   {
     "id": "DLG_D40_03",
@@ -4052,7 +4544,9 @@
           "병원",
           "은행"
         ],
-        "correct_index": 0
+        "correct_index": 0,
+        "id": "DLG_D40_03_Q1",
+        "answer_en": "The library"
       },
       {
         "question_en": "Why did the person ask the other to speak slower?",
@@ -4067,7 +4561,9 @@
           "잘 안 들려서",
           "방향이 마음에 안 들어서"
         ],
-        "correct_index": 1
+        "correct_index": 1,
+        "id": "DLG_D40_03_Q2",
+        "answer_en": "Because he couldn't hear clearly"
       },
       {
         "question_en": "Where is the library?",
@@ -4082,11 +4578,28 @@
           "두 번째 교차로 지나 왼쪽",
           "바로 앞"
         ],
-        "correct_index": 1
+        "correct_index": 1,
+        "id": "DLG_D40_03_Q3",
+        "answer_en": "On the left after the second intersection"
       }
     ],
     "shadowing_prompt": "請跟著錄音，一句一句重複，注意發音和語調。",
-    "free_response_prompt": "請用中文回答：如果你聽不懂別人說的話，你會怎麼做？"
+    "free_response_prompt": "請用中文回答：如果你聽不懂別人說的話，你會怎麼做？",
+    "speaker_roles": [
+      "路人",
+      "路人乙"
+    ],
+    "grammar_ids": [],
+    "audio_ids": [
+      "AUD_DLG_D40_03_T1",
+      "AUD_DLG_D40_03_T2",
+      "AUD_DLG_D40_03_T3",
+      "AUD_DLG_D40_03_T4",
+      "AUD_DLG_D40_03_T5",
+      "AUD_DLG_D40_03_T6"
+    ],
+    "speaking_shadowing_prompts": [],
+    "free_response_branching_prompts": []
   },
   {
     "id": "DLG_D41_01",
@@ -4174,11 +4687,26 @@
           "길이 막혀서",
           "아파서"
         ],
-        "correct_index": 1
+        "correct_index": 1,
+        "id": "DLG_D41_01_Q1",
+        "answer_en": "Because there was a traffic jam"
       }
     ],
     "shadowing_prompt": "Repeat each sentence after the speaker, focusing on the tone of apology and explanation.",
-    "free_response_prompt": "Tell a partner why you were late for a meeting. Use 因為 and 所以."
+    "free_response_prompt": "Tell a partner why you were late for a meeting. Use 因為 and 所以.",
+    "speaker_roles": [
+      "A",
+      "B"
+    ],
+    "grammar_ids": [],
+    "audio_ids": [
+      "AUD_DLG_D41_01_T1",
+      "AUD_DLG_D41_01_T2",
+      "AUD_DLG_D41_01_T3",
+      "AUD_DLG_D41_01_T4"
+    ],
+    "speaking_shadowing_prompts": [],
+    "free_response_branching_prompts": []
   },
   {
     "id": "DLG_D41_02",
@@ -4275,11 +4803,26 @@
           "아침에 너무 많이 먹어서",
           "돈을 아끼고 싶어서"
         ],
-        "correct_index": 1
+        "correct_index": 1,
+        "id": "DLG_D41_02_Q1",
+        "answer_en": "Because he ate too much in the morning"
       }
     ],
     "shadowing_prompt": "Repeat each sentence after the speaker, focusing on the tone of refusal and suggestion.",
-    "free_response_prompt": "Tell a friend why you don't want to eat now. Use 因為 and 所以."
+    "free_response_prompt": "Tell a friend why you don't want to eat now. Use 因為 and 所以.",
+    "speaker_roles": [
+      "A",
+      "B"
+    ],
+    "grammar_ids": [],
+    "audio_ids": [
+      "AUD_DLG_D41_02_T1",
+      "AUD_DLG_D41_02_T2",
+      "AUD_DLG_D41_02_T3",
+      "AUD_DLG_D41_02_T4"
+    ],
+    "speaking_shadowing_prompts": [],
+    "free_response_branching_prompts": []
   },
   {
     "id": "DLG_D41_03",
@@ -4373,11 +4916,26 @@
           "예전 핸드폰이 너무 오래됐고 이게 더 싸서",
           "핸드폰을 잃어버려서"
         ],
-        "correct_index": 1
+        "correct_index": 1,
+        "id": "DLG_D41_03_Q1",
+        "answer_en": "Because his old phone is too old and this one is cheaper"
       }
     ],
     "shadowing_prompt": "Repeat each sentence after the speaker, focusing on the tone of explanation and agreement.",
-    "free_response_prompt": "Tell a friend why you want to buy something. Use 因為 and 所以."
+    "free_response_prompt": "Tell a friend why you want to buy something. Use 因為 and 所以.",
+    "speaker_roles": [
+      "A",
+      "B"
+    ],
+    "grammar_ids": [],
+    "audio_ids": [
+      "AUD_DLG_D41_03_T1",
+      "AUD_DLG_D41_03_T2",
+      "AUD_DLG_D41_03_T3",
+      "AUD_DLG_D41_03_T4"
+    ],
+    "speaking_shadowing_prompts": [],
+    "free_response_branching_prompts": []
   },
   {
     "id": "DLG_D42_01",
@@ -4493,11 +5051,27 @@
           "매운 음식",
           "담백한 음식"
         ],
-        "correct_index": 0
+        "correct_index": 0,
+        "id": "DLG_D42_01_Q1",
+        "answer_en": "Braised pork rice"
       }
     ],
     "shadowing_prompt": "Repeat each sentence after the speaker, focusing on the tones of 喜歡, 比較, 最, and 愛吃.",
-    "free_response_prompt": "Tell me about your favorite food. What do you like to eat? Use words like 喜歡, 比較喜歡, 最喜歡, 愛吃, 口味, 清淡, 辣, 香."
+    "free_response_prompt": "Tell me about your favorite food. What do you like to eat? Use words like 喜歡, 比較喜歡, 最喜歡, 愛吃, 口味, 清淡, 辣, 香.",
+    "speaker_roles": [
+      "A",
+      "B"
+    ],
+    "grammar_ids": [],
+    "audio_ids": [
+      "AUD_DLG_D42_01_T1",
+      "AUD_DLG_D42_01_T2",
+      "AUD_DLG_D42_01_T3",
+      "AUD_DLG_D42_01_T4",
+      "AUD_DLG_D42_01_T5"
+    ],
+    "speaking_shadowing_prompts": [],
+    "free_response_branching_prompts": []
   },
   {
     "id": "DLG_D42_02",
@@ -4607,11 +5181,27 @@
           "홍차, 일반 당도",
           "커피, 따뜻한 것"
         ],
-        "correct_index": 0
+        "correct_index": 0,
+        "id": "DLG_D42_02_Q1",
+        "answer_en": "Green tea, low sugar, no ice"
       }
     ],
     "shadowing_prompt": "Repeat each sentence after the speaker, paying attention to the intonation of 不喜歡, 選, 微糖, and 去冰.",
-    "free_response_prompt": "Order a drink at a tea shop. Tell the staff your preference for sweetness and ice. Use words like 想喝, 不喜歡, 選擇, 微糖, 去冰, 口味."
+    "free_response_prompt": "Order a drink at a tea shop. Tell the staff your preference for sweetness and ice. Use words like 想喝, 不喜歡, 選擇, 微糖, 去冰, 口味.",
+    "speaker_roles": [
+      "店員",
+      "客人"
+    ],
+    "grammar_ids": [],
+    "audio_ids": [
+      "AUD_DLG_D42_02_T1",
+      "AUD_DLG_D42_02_T2",
+      "AUD_DLG_D42_02_T3",
+      "AUD_DLG_D42_02_T4",
+      "AUD_DLG_D42_02_T5"
+    ],
+    "speaking_shadowing_prompts": [],
+    "free_response_branching_prompts": []
   },
   {
     "id": "DLG_D42_03",
@@ -4766,10 +5356,29 @@
           "외식하기",
           "공원 산책"
         ],
-        "correct_index": 0
+        "correct_index": 0,
+        "id": "DLG_D42_03_Q1",
+        "answer_en": "Watching a movie"
       }
     ],
-    "free_response_prompt": "Talk about your weekend plans. Tell your friend what you like and don't like to do. Use words like 想, 不喜歡, 比較喜歡, 覺得, 看起來, 聽起來, 更好, 選擇."
+    "free_response_prompt": "Talk about your weekend plans. Tell your friend what you like and don't like to do. Use words like 想, 不喜歡, 比較喜歡, 覺得, 看起來, 聽起來, 更好, 選擇.",
+    "speaker_roles": [
+      "A",
+      "B"
+    ],
+    "grammar_ids": [],
+    "audio_ids": [
+      "AUD_DLG_D42_03_T1",
+      "AUD_DLG_D42_03_T2",
+      "AUD_DLG_D42_03_T3",
+      "AUD_DLG_D42_03_T4",
+      "AUD_DLG_D42_03_T5",
+      "AUD_DLG_D42_03_T6",
+      "AUD_DLG_D42_03_T7"
+    ],
+    "speaking_shadowing_prompts": [],
+    "free_response_branching_prompts": [],
+    "shadowing_prompt": "Listen and repeat each line."
   },
   {
     "id": "DLG_D43_01",
@@ -4922,11 +5531,29 @@
           "흰색",
           "빨간색"
         ],
-        "correct_index": 0
+        "correct_index": 0,
+        "id": "DLG_D43_01_Q1",
+        "answer_en": "Black"
       }
     ],
     "shadowing_prompt": "Repeat each sentence after the speaker, focusing on the pronunciation of colors and sizes.",
-    "free_response_prompt": "Pretend you are a customer asking for a jacket in a different color and size. Say your request in Chinese."
+    "free_response_prompt": "Pretend you are a customer asking for a jacket in a different color and size. Say your request in Chinese.",
+    "speaker_roles": [
+      "店員",
+      "客人"
+    ],
+    "grammar_ids": [],
+    "audio_ids": [
+      "AUD_DLG_D43_01_T1",
+      "AUD_DLG_D43_01_T2",
+      "AUD_DLG_D43_01_T3",
+      "AUD_DLG_D43_01_T4",
+      "AUD_DLG_D43_01_T5",
+      "AUD_DLG_D43_01_T6",
+      "AUD_DLG_D43_01_T7"
+    ],
+    "speaking_shadowing_prompts": [],
+    "free_response_branching_prompts": []
   },
   {
     "id": "DLG_D43_02",
@@ -5052,11 +5679,27 @@
           "너무 작았다",
           "색상이 맞지 않았다"
         ],
-        "correct_index": 0
+        "correct_index": 0,
+        "id": "DLG_D43_02_Q1",
+        "answer_en": "It was too expensive"
       }
     ],
     "shadowing_prompt": "Repeat each sentence, paying attention to the tone of expressing 'too expensive' and asking for a discount.",
-    "free_response_prompt": "Pretend you are a customer who thinks a pair of pants is too expensive. Ask the clerk for a discount in Chinese."
+    "free_response_prompt": "Pretend you are a customer who thinks a pair of pants is too expensive. Ask the clerk for a discount in Chinese.",
+    "speaker_roles": [
+      "客人",
+      "店員"
+    ],
+    "grammar_ids": [],
+    "audio_ids": [
+      "AUD_DLG_D43_02_T1",
+      "AUD_DLG_D43_02_T2",
+      "AUD_DLG_D43_02_T3",
+      "AUD_DLG_D43_02_T4",
+      "AUD_DLG_D43_02_T5"
+    ],
+    "speaking_shadowing_prompts": [],
+    "free_response_branching_prompts": []
   },
   {
     "id": "DLG_D43_03",
@@ -5207,11 +5850,29 @@
           "외투",
           "바지"
         ],
-        "correct_index": 0
+        "correct_index": 0,
+        "id": "DLG_D43_03_Q1",
+        "answer_en": "A skirt"
       }
     ],
     "shadowing_prompt": "Repeat each sentence, focusing on the phrases for trying on clothes and describing fit.",
-    "free_response_prompt": "Pretend you are a customer who tried on a blue jacket. Tell the clerk it fits well and you want to buy it."
+    "free_response_prompt": "Pretend you are a customer who tried on a blue jacket. Tell the clerk it fits well and you want to buy it.",
+    "speaker_roles": [
+      "客人",
+      "店員"
+    ],
+    "grammar_ids": [],
+    "audio_ids": [
+      "AUD_DLG_D43_03_T1",
+      "AUD_DLG_D43_03_T2",
+      "AUD_DLG_D43_03_T3",
+      "AUD_DLG_D43_03_T4",
+      "AUD_DLG_D43_03_T5",
+      "AUD_DLG_D43_03_T6",
+      "AUD_DLG_D43_03_T7"
+    ],
+    "speaking_shadowing_prompts": [],
+    "free_response_branching_prompts": []
   },
   {
     "id": "DLG_D44_01",
@@ -5352,11 +6013,28 @@
           "아이스 커피",
           "차"
         ],
-        "correct_index": 1
+        "correct_index": 1,
+        "id": "DLG_D44_01_Q1",
+        "answer_en": "Iced coffee"
       }
     ],
     "shadowing_prompt": "Repeat each sentence after the speaker, focusing on tone and rhythm.",
-    "free_response_prompt": "Describe today's weather and what you want to drink."
+    "free_response_prompt": "Describe today's weather and what you want to drink.",
+    "speaker_roles": [
+      "A",
+      "B"
+    ],
+    "grammar_ids": [],
+    "audio_ids": [
+      "AUD_DLG_D44_01_T1",
+      "AUD_DLG_D44_01_T2",
+      "AUD_DLG_D44_01_T3",
+      "AUD_DLG_D44_01_T4",
+      "AUD_DLG_D44_01_T5",
+      "AUD_DLG_D44_01_T6"
+    ],
+    "speaking_shadowing_prompts": [],
+    "free_response_branching_prompts": []
   },
   {
     "id": "DLG_D44_02",
@@ -5496,11 +6174,28 @@
           "맑은 날",
           "흐린 날"
         ],
-        "correct_index": 1
+        "correct_index": 1,
+        "id": "DLG_D44_02_Q1",
+        "answer_en": "Sunny days"
       }
     ],
     "shadowing_prompt": "Repeat each sentence after the speaker, focusing on tone and rhythm.",
-    "free_response_prompt": "Talk about your mood on rainy days."
+    "free_response_prompt": "Talk about your mood on rainy days.",
+    "speaker_roles": [
+      "A",
+      "B"
+    ],
+    "grammar_ids": [],
+    "audio_ids": [
+      "AUD_DLG_D44_02_T1",
+      "AUD_DLG_D44_02_T2",
+      "AUD_DLG_D44_02_T3",
+      "AUD_DLG_D44_02_T4",
+      "AUD_DLG_D44_02_T5",
+      "AUD_DLG_D44_02_T6"
+    ],
+    "speaking_shadowing_prompts": [],
+    "free_response_branching_prompts": []
   },
   {
     "id": "DLG_D44_03",
@@ -5639,11 +6334,28 @@
           "늦게 일어났다",
           "아침을 먹지 않았다"
         ],
-        "correct_index": 0
+        "correct_index": 0,
+        "id": "DLG_D44_03_Q1",
+        "answer_en": "He went to bed late"
       }
     ],
     "shadowing_prompt": "Repeat each sentence after the speaker, focusing on tone and rhythm.",
-    "free_response_prompt": "Explain why you are tired today and what you plan to do."
+    "free_response_prompt": "Explain why you are tired today and what you plan to do.",
+    "speaker_roles": [
+      "A",
+      "B"
+    ],
+    "grammar_ids": [],
+    "audio_ids": [
+      "AUD_DLG_D44_03_T1",
+      "AUD_DLG_D44_03_T2",
+      "AUD_DLG_D44_03_T3",
+      "AUD_DLG_D44_03_T4",
+      "AUD_DLG_D44_03_T5",
+      "AUD_DLG_D44_03_T6"
+    ],
+    "speaking_shadowing_prompts": [],
+    "free_response_branching_prompts": []
   },
   {
     "id": "DLG_D45_01",
@@ -5788,7 +6500,9 @@
           "큰 아이스 라떼, 일반 당도",
           "중간 따뜻한 라떼, 당도 적게"
         ],
-        "correct_index": 0
+        "correct_index": 0,
+        "id": "DLG_D45_01_Q1",
+        "answer_en": "Small hot latte, half sugar, no ice"
       },
       {
         "question_en": "How did the customer pay?",
@@ -5803,11 +6517,29 @@
           "신용카드",
           "전자결제"
         ],
-        "correct_index": 1
+        "correct_index": 1,
+        "id": "DLG_D45_01_Q2",
+        "answer_en": "Credit card"
       }
     ],
     "shadowing_prompt": "Repeat each line after hearing it, focusing on tone and rhythm. Try to match the speaker's intonation.",
-    "free_response_prompt": "Pretend you are the customer. Order a medium iced latte with less sugar, for here, and pay with cash. Say it in Chinese."
+    "free_response_prompt": "Pretend you are the customer. Order a medium iced latte with less sugar, for here, and pay with cash. Say it in Chinese.",
+    "speaker_roles": [
+      "店員",
+      "客人"
+    ],
+    "grammar_ids": [],
+    "audio_ids": [
+      "AUD_DLG_D45_01_T1",
+      "AUD_DLG_D45_01_T2",
+      "AUD_DLG_D45_01_T3",
+      "AUD_DLG_D45_01_T4",
+      "AUD_DLG_D45_01_T5",
+      "AUD_DLG_D45_01_T6",
+      "AUD_DLG_D45_01_T7"
+    ],
+    "speaking_shadowing_prompts": [],
+    "free_response_branching_prompts": []
   },
   {
     "id": "DLG_D45_02",
@@ -5936,7 +6668,9 @@
           "좌회전 후 오른쪽",
           "직진"
         ],
-        "correct_index": 1
+        "correct_index": 1,
+        "id": "DLG_D45_02_Q1",
+        "answer_en": "On the right after turning left"
       },
       {
         "question_en": "What did B warn A about?",
@@ -5951,11 +6685,28 @@
           "미끄러운 길",
           "공사"
         ],
-        "correct_index": 1
+        "correct_index": 1,
+        "id": "DLG_D45_02_Q2",
+        "answer_en": "Slippery road"
       }
     ],
     "shadowing_prompt": "Repeat each line, paying attention to the direction words (直走, 左轉, 右邊). Practice the tones carefully.",
-    "free_response_prompt": "You are at a park. Ask someone how to get to the nearest convenience store. They tell you to go straight, turn right at the second intersection, and it's on the left. Say this in Chinese."
+    "free_response_prompt": "You are at a park. Ask someone how to get to the nearest convenience store. They tell you to go straight, turn right at the second intersection, and it's on the left. Say this in Chinese.",
+    "speaker_roles": [
+      "A",
+      "B"
+    ],
+    "grammar_ids": [],
+    "audio_ids": [
+      "AUD_DLG_D45_02_T1",
+      "AUD_DLG_D45_02_T2",
+      "AUD_DLG_D45_02_T3",
+      "AUD_DLG_D45_02_T4",
+      "AUD_DLG_D45_02_T5",
+      "AUD_DLG_D45_02_T6"
+    ],
+    "speaking_shadowing_prompts": [],
+    "free_response_branching_prompts": []
   },
   {
     "id": "DLG_D45_03",
@@ -6110,7 +6861,9 @@
           "일요일 낮 12시",
           "토요일 오후 2시"
         ],
-        "correct_index": 0
+        "correct_index": 0,
+        "id": "DLG_D45_03_Q1",
+        "answer_en": "Saturday at noon"
       },
       {
         "question_en": "What will they do first?",
@@ -6125,10 +6878,27 @@
           "점심 먹기",
           "쇼핑하기"
         ],
-        "correct_index": 1
+        "correct_index": 1,
+        "id": "DLG_D45_03_Q2",
+        "answer_en": "Eat lunch"
       }
     ],
     "shadowing_prompt": "Repeat each line, focusing on the flow of making plans (先...再..., 約...見面). Practice the tones for time expressions.",
-    "free_response_prompt": "You want to invite a friend to go to a night market this weekend. Suggest Saturday evening, and say you can eat and walk around. Ask if they are free. Say this in Chinese."
+    "free_response_prompt": "You want to invite a friend to go to a night market this weekend. Suggest Saturday evening, and say you can eat and walk around. Ask if they are free. Say this in Chinese.",
+    "speaker_roles": [
+      "A",
+      "B"
+    ],
+    "grammar_ids": [],
+    "audio_ids": [
+      "AUD_DLG_D45_03_T1",
+      "AUD_DLG_D45_03_T2",
+      "AUD_DLG_D45_03_T3",
+      "AUD_DLG_D45_03_T4",
+      "AUD_DLG_D45_03_T5",
+      "AUD_DLG_D45_03_T6"
+    ],
+    "speaking_shadowing_prompts": [],
+    "free_response_branching_prompts": []
   }
 ]
