@@ -1,701 +1,5 @@
 [
   {
-    "id": "GR_D32_MEASURE_WORDS_BASIC",
-    "pattern": "Subject + verb + object",
-    "structure": [
-      "context",
-      "function word",
-      "predicate"
-    ],
-    "explanation_en": "Convenience Store Survival: use this pattern to buy in buying items, asking about bags, receipts, payment.",
-    "title": "Measure Words Basic",
-    "meaning": "A practical Taiwan Mandarin pattern for convenience store survival.",
-    "when_to_use": [
-      "When the learner needs to handle buying items, asking about bags, receipts, payment.",
-      "When speaking politely with a clerk, friend, or service worker.",
-      "When turning known words into a usable spoken response."
-    ],
-    "when_not_to_use": [
-      "Do not use it as a direct English word-by-word translation.",
-      "Do not use it when a shorter yes/no answer is enough.",
-      "Do not use it with future-day vocabulary before it has been introduced."
-    ],
-    "pragmatic_notes": "Taiwan usage favors clear, polite, compact sentences with softeners such as 請, 不好意思, and 一下.",
-    "word_order_notes": "Time or context usually comes before the subject; the main request or action stays before the object.",
-    "english_contrast": "English often moves polite wording to the end; Mandarin usually places the request marker before the action.",
-    "korean_contrast": "Korean learners may overuse sentence-final politeness; Mandarin politeness is often lexical and word-order based.",
-    "example_ids": [
-      "SEN_D32_001",
-      "SEN_D32_004",
-      "SEN_D32_007",
-      "SEN_D32_010"
-    ],
-    "slots": [
-      {
-        "name": "object",
-        "role": "object",
-        "values": [
-          {
-            "text": "便利商店",
-            "pinyin": "biànlì shāngdiàn",
-            "meaning_en": "convenience store",
-            "meaning_ko": "편의점",
-            "vocab_id": "VOC_D32_001"
-          },
-          {
-            "text": "超商",
-            "pinyin": "chāoshāng",
-            "meaning_en": "convenience store",
-            "meaning_ko": "편의점",
-            "vocab_id": "VOC_D32_002"
-          },
-          {
-            "text": "結帳",
-            "pinyin": "jiézhàng",
-            "meaning_en": "to check out",
-            "meaning_ko": "계산하다",
-            "vocab_id": "VOC_D32_003"
-          },
-          {
-            "text": "付款",
-            "pinyin": "fùkuǎn",
-            "meaning_en": "to pay",
-            "meaning_ko": "지불하다",
-            "vocab_id": "VOC_D32_004"
-          },
-          {
-            "text": "現金",
-            "pinyin": "xiànjīn",
-            "meaning_en": "cash",
-            "meaning_ko": "현금",
-            "vocab_id": "VOC_D32_005"
-          },
-          {
-            "text": "信用卡",
-            "pinyin": "xìnyòngkǎ",
-            "meaning_en": "credit card",
-            "meaning_ko": "신용카드",
-            "vocab_id": "VOC_D32_006"
-          },
-          {
-            "text": "電子支付",
-            "pinyin": "diànzǐ zhīfù",
-            "meaning_en": "mobile payment",
-            "meaning_ko": "전자결제",
-            "vocab_id": "VOC_D32_007"
-          },
-          {
-            "text": "刷卡",
-            "pinyin": "shuākǎ",
-            "meaning_en": "to swipe card",
-            "meaning_ko": "카드 결제하다",
-            "vocab_id": "VOC_D32_008"
-          }
-        ]
-      }
-    ],
-    "drill_examples": [
-      {
-        "text": "我想要便利商店。",
-        "pinyin": "wǒ xiǎng yào biànlì shāngdiàn.",
-        "translation_en": "I / me would like convenience store.",
-        "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요."
-      },
-      {
-        "text": "她需要信用卡。",
-        "pinyin": "tā xūyào xìnyòngkǎ.",
-        "translation_en": "she / her needs credit card.",
-        "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요."
-      },
-      {
-        "text": "你想要載具。",
-        "pinyin": "nǐ xiǎng yào zàijù.",
-        "translation_en": "you would like invoice carrier.",
-        "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요."
-      },
-      {
-        "text": "我們需要塑膠袋。",
-        "pinyin": "wǒmen xūyào sùjiāo dài.",
-        "translation_en": "we / us needs plastic bag.",
-        "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요."
-      },
-      {
-        "text": "他想要飯糰。",
-        "pinyin": "tā xiǎng yào fàntuán.",
-        "translation_en": "he / him would like rice ball.",
-        "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요."
-      },
-      {
-        "text": "我需要礦泉水。",
-        "pinyin": "wǒ xūyào kuàngquánshuǐ.",
-        "translation_en": "I / me needs mineral water.",
-        "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요."
-      },
-      {
-        "text": "她想要泡麵。",
-        "pinyin": "tā xiǎng yào pàomiàn.",
-        "translation_en": "she / her would like instant noodles.",
-        "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요."
-      },
-      {
-        "text": "你需要電池。",
-        "pinyin": "nǐ xūyào diànchí.",
-        "translation_en": "you needs battery.",
-        "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요."
-      }
-    ],
-    "correct_examples": [
-      {
-        "text": "我想要便利商店。",
-        "pinyin": "wǒ xiǎng yào biànlì shāngdiàn.",
-        "translation_en": "I / me would like convenience store."
-      },
-      {
-        "text": "她需要信用卡。",
-        "pinyin": "tā xūyào xìnyòngkǎ.",
-        "translation_en": "she / her needs credit card."
-      },
-      {
-        "text": "你想要載具。",
-        "pinyin": "nǐ xiǎng yào zàijù.",
-        "translation_en": "you would like invoice carrier."
-      },
-      {
-        "text": "我們需要塑膠袋。",
-        "pinyin": "wǒmen xūyào sùjiāo dài.",
-        "translation_en": "we / us needs plastic bag."
-      },
-      {
-        "text": "他想要飯糰。",
-        "pinyin": "tā xiǎng yào fàntuán.",
-        "translation_en": "he / him would like rice ball."
-      },
-      {
-        "text": "我需要礦泉水。",
-        "pinyin": "wǒ xūyào kuàngquánshuǐ.",
-        "translation_en": "I / me needs mineral water."
-      },
-      {
-        "text": "她想要泡麵。",
-        "pinyin": "tā xiǎng yào pàomiàn.",
-        "translation_en": "she / her would like instant noodles."
-      },
-      {
-        "text": "你需要電池。",
-        "pinyin": "nǐ xūyào diànchí.",
-        "translation_en": "you needs battery."
-      }
-    ],
-    "negative_examples": [
-      {
-        "text": "我便利商店請。",
-        "error": "The request marker should come before the action or request."
-      },
-      {
-        "text": "便利商店我可以嗎？",
-        "error": "The modal question needs a clear action before the object."
-      }
-    ],
-    "incorrect_examples": [
-      {
-        "text": "我便利商店請。",
-        "error": "The request marker should come before the action or request."
-      },
-      {
-        "text": "便利商店我可以嗎？",
-        "error": "The modal question needs a clear action before the object."
-      }
-    ],
-    "transformation_drills": [
-      "Change the object.",
-      "Change the speaker.",
-      "Turn the statement into a question.",
-      "Make the sentence more polite.",
-      "Answer with a reason."
-    ],
-    "production_drills": [
-      "Ask for something in the situation: buying items, asking about bags, receipts, payment.",
-      "Reject one option politely.",
-      "Ask a follow-up question.",
-      "Clarify a misunderstanding.",
-      "Give a short reason."
-    ],
-    "common_error_patterns": [
-      "Putting 嗎 after an incomplete phrase.",
-      "Using English word order for the object.",
-      "Skipping the measure word in service situations."
-    ],
-    "repair_feedback": {
-      "word_order": "Move the action before the object.",
-      "politeness": "Add 請 or 不好意思 before the request.",
-      "vocabulary": "Use only today or previously learned words."
-    }
-  },
-  {
-    "id": "GR_D32_YAO_BU_YAO",
-    "pattern": "Subject + 想要 / 要 + object",
-    "structure": [
-      "context",
-      "function word",
-      "predicate"
-    ],
-    "explanation_en": "Convenience Store Survival: use this pattern to ask_price in buying items, asking about bags, receipts, payment.",
-    "title": "Yao Bu Yao",
-    "meaning": "A practical Taiwan Mandarin pattern for convenience store survival.",
-    "when_to_use": [
-      "When the learner needs to handle buying items, asking about bags, receipts, payment.",
-      "When speaking politely with a clerk, friend, or service worker.",
-      "When turning known words into a usable spoken response."
-    ],
-    "when_not_to_use": [
-      "Do not use it as a direct English word-by-word translation.",
-      "Do not use it when a shorter yes/no answer is enough.",
-      "Do not use it with future-day vocabulary before it has been introduced."
-    ],
-    "pragmatic_notes": "Taiwan usage favors clear, polite, compact sentences with softeners such as 請, 不好意思, and 一下.",
-    "word_order_notes": "Time or context usually comes before the subject; the main request or action stays before the object.",
-    "english_contrast": "English often moves polite wording to the end; Mandarin usually places the request marker before the action.",
-    "korean_contrast": "Korean learners may overuse sentence-final politeness; Mandarin politeness is often lexical and word-order based.",
-    "example_ids": [
-      "SEN_D32_002",
-      "SEN_D32_005",
-      "SEN_D32_008",
-      "SEN_D32_011"
-    ],
-    "slots": [
-      {
-        "name": "object",
-        "role": "object",
-        "values": [
-          {
-            "text": "便利商店",
-            "pinyin": "biànlì shāngdiàn",
-            "meaning_en": "convenience store",
-            "meaning_ko": "편의점",
-            "vocab_id": "VOC_D32_001"
-          },
-          {
-            "text": "超商",
-            "pinyin": "chāoshāng",
-            "meaning_en": "convenience store",
-            "meaning_ko": "편의점",
-            "vocab_id": "VOC_D32_002"
-          },
-          {
-            "text": "結帳",
-            "pinyin": "jiézhàng",
-            "meaning_en": "to check out",
-            "meaning_ko": "계산하다",
-            "vocab_id": "VOC_D32_003"
-          },
-          {
-            "text": "付款",
-            "pinyin": "fùkuǎn",
-            "meaning_en": "to pay",
-            "meaning_ko": "지불하다",
-            "vocab_id": "VOC_D32_004"
-          },
-          {
-            "text": "現金",
-            "pinyin": "xiànjīn",
-            "meaning_en": "cash",
-            "meaning_ko": "현금",
-            "vocab_id": "VOC_D32_005"
-          },
-          {
-            "text": "信用卡",
-            "pinyin": "xìnyòngkǎ",
-            "meaning_en": "credit card",
-            "meaning_ko": "신용카드",
-            "vocab_id": "VOC_D32_006"
-          },
-          {
-            "text": "電子支付",
-            "pinyin": "diànzǐ zhīfù",
-            "meaning_en": "mobile payment",
-            "meaning_ko": "전자결제",
-            "vocab_id": "VOC_D32_007"
-          },
-          {
-            "text": "刷卡",
-            "pinyin": "shuākǎ",
-            "meaning_en": "to swipe card",
-            "meaning_ko": "카드 결제하다",
-            "vocab_id": "VOC_D32_008"
-          }
-        ]
-      }
-    ],
-    "drill_examples": [
-      {
-        "text": "請給我超商。",
-        "pinyin": "qǐng gěi wǒ chāoshāng.",
-        "translation_en": "Please bring/give convenience store.",
-        "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요."
-      },
-      {
-        "text": "不好意思我們想要電子支付。",
-        "pinyin": "bùhǎoyìsi wǒmen xiǎng yào diànzǐ zhīfù.",
-        "translation_en": "Excuse me, we / us would like mobile payment.",
-        "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요."
-      },
-      {
-        "text": "請給我會員。",
-        "pinyin": "qǐng gěi wǒ huìyuán.",
-        "translation_en": "Please bring/give member.",
-        "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요."
-      },
-      {
-        "text": "不好意思我想要環保袋。",
-        "pinyin": "bùhǎoyìsi wǒ xiǎng yào huánbǎo dài.",
-        "translation_en": "Excuse me, I / me would like reusable bag.",
-        "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요."
-      },
-      {
-        "text": "請給我三明治。",
-        "pinyin": "qǐng gěi wǒ sānmíngzhì.",
-        "translation_en": "Please bring/give sandwich.",
-        "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요."
-      },
-      {
-        "text": "不好意思你想要優格。",
-        "pinyin": "bùhǎoyìsi nǐ xiǎng yào yōugé.",
-        "translation_en": "Excuse me, you would like yogurt.",
-        "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요."
-      },
-      {
-        "text": "請給我雨傘。",
-        "pinyin": "qǐng gěi wǒ yǔsǎn.",
-        "translation_en": "Please bring/give umbrella.",
-        "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요."
-      },
-      {
-        "text": "不好意思他想要充電線。",
-        "pinyin": "bùhǎoyìsi tā xiǎng yào chōngdiànxiàn.",
-        "translation_en": "Excuse me, he / him would like charging cable.",
-        "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요."
-      }
-    ],
-    "correct_examples": [
-      {
-        "text": "請給我超商。",
-        "pinyin": "qǐng gěi wǒ chāoshāng.",
-        "translation_en": "Please bring/give convenience store."
-      },
-      {
-        "text": "不好意思我們想要電子支付。",
-        "pinyin": "bùhǎoyìsi wǒmen xiǎng yào diànzǐ zhīfù.",
-        "translation_en": "Excuse me, we / us would like mobile payment."
-      },
-      {
-        "text": "請給我會員。",
-        "pinyin": "qǐng gěi wǒ huìyuán.",
-        "translation_en": "Please bring/give member."
-      },
-      {
-        "text": "不好意思我想要環保袋。",
-        "pinyin": "bùhǎoyìsi wǒ xiǎng yào huánbǎo dài.",
-        "translation_en": "Excuse me, I / me would like reusable bag."
-      },
-      {
-        "text": "請給我三明治。",
-        "pinyin": "qǐng gěi wǒ sānmíngzhì.",
-        "translation_en": "Please bring/give sandwich."
-      },
-      {
-        "text": "不好意思你想要優格。",
-        "pinyin": "bùhǎoyìsi nǐ xiǎng yào yōugé.",
-        "translation_en": "Excuse me, you would like yogurt."
-      },
-      {
-        "text": "請給我雨傘。",
-        "pinyin": "qǐng gěi wǒ yǔsǎn.",
-        "translation_en": "Please bring/give umbrella."
-      },
-      {
-        "text": "不好意思他想要充電線。",
-        "pinyin": "bùhǎoyìsi tā xiǎng yào chōngdiànxiàn.",
-        "translation_en": "Excuse me, he / him would like charging cable."
-      }
-    ],
-    "negative_examples": [
-      {
-        "text": "我超商請。",
-        "error": "The request marker should come before the action or request."
-      },
-      {
-        "text": "超商我可以嗎？",
-        "error": "The modal question needs a clear action before the object."
-      }
-    ],
-    "incorrect_examples": [
-      {
-        "text": "我超商請。",
-        "error": "The request marker should come before the action or request."
-      },
-      {
-        "text": "超商我可以嗎？",
-        "error": "The modal question needs a clear action before the object."
-      }
-    ],
-    "transformation_drills": [
-      "Change the object.",
-      "Change the speaker.",
-      "Turn the statement into a question.",
-      "Make the sentence more polite.",
-      "Answer with a reason."
-    ],
-    "production_drills": [
-      "Ask for something in the situation: buying items, asking about bags, receipts, payment.",
-      "Reject one option politely.",
-      "Ask a follow-up question.",
-      "Clarify a misunderstanding.",
-      "Give a short reason."
-    ],
-    "common_error_patterns": [
-      "Putting 嗎 after an incomplete phrase.",
-      "Using English word order for the object.",
-      "Skipping the measure word in service situations."
-    ],
-    "repair_feedback": {
-      "word_order": "Move the action before the object.",
-      "politeness": "Add 請 or 不好意思 before the request.",
-      "vocabulary": "Use only today or previously learned words."
-    }
-  },
-  {
-    "id": "GR_D32_THIS_THAT_REVIEW",
-    "pattern": "Known pattern + new situation",
-    "structure": [
-      "context",
-      "function word",
-      "predicate"
-    ],
-    "explanation_en": "Convenience Store Survival: use this pattern to respond_yes_no in buying items, asking about bags, receipts, payment.",
-    "title": "This That Review",
-    "meaning": "A practical Taiwan Mandarin pattern for convenience store survival.",
-    "when_to_use": [
-      "When the learner needs to handle buying items, asking about bags, receipts, payment.",
-      "When speaking politely with a clerk, friend, or service worker.",
-      "When turning known words into a usable spoken response."
-    ],
-    "when_not_to_use": [
-      "Do not use it as a direct English word-by-word translation.",
-      "Do not use it when a shorter yes/no answer is enough.",
-      "Do not use it with future-day vocabulary before it has been introduced."
-    ],
-    "pragmatic_notes": "Taiwan usage favors clear, polite, compact sentences with softeners such as 請, 不好意思, and 一下.",
-    "word_order_notes": "Time or context usually comes before the subject; the main request or action stays before the object.",
-    "english_contrast": "English often moves polite wording to the end; Mandarin usually places the request marker before the action.",
-    "korean_contrast": "Korean learners may overuse sentence-final politeness; Mandarin politeness is often lexical and word-order based.",
-    "example_ids": [
-      "SEN_D32_003",
-      "SEN_D32_006",
-      "SEN_D32_009",
-      "SEN_D32_012"
-    ],
-    "slots": [
-      {
-        "name": "object",
-        "role": "object",
-        "values": [
-          {
-            "text": "便利商店",
-            "pinyin": "biànlì shāngdiàn",
-            "meaning_en": "convenience store",
-            "meaning_ko": "편의점",
-            "vocab_id": "VOC_D32_001"
-          },
-          {
-            "text": "超商",
-            "pinyin": "chāoshāng",
-            "meaning_en": "convenience store",
-            "meaning_ko": "편의점",
-            "vocab_id": "VOC_D32_002"
-          },
-          {
-            "text": "結帳",
-            "pinyin": "jiézhàng",
-            "meaning_en": "to check out",
-            "meaning_ko": "계산하다",
-            "vocab_id": "VOC_D32_003"
-          },
-          {
-            "text": "付款",
-            "pinyin": "fùkuǎn",
-            "meaning_en": "to pay",
-            "meaning_ko": "지불하다",
-            "vocab_id": "VOC_D32_004"
-          },
-          {
-            "text": "現金",
-            "pinyin": "xiànjīn",
-            "meaning_en": "cash",
-            "meaning_ko": "현금",
-            "vocab_id": "VOC_D32_005"
-          },
-          {
-            "text": "信用卡",
-            "pinyin": "xìnyòngkǎ",
-            "meaning_en": "credit card",
-            "meaning_ko": "신용카드",
-            "vocab_id": "VOC_D32_006"
-          },
-          {
-            "text": "電子支付",
-            "pinyin": "diànzǐ zhīfù",
-            "meaning_en": "mobile payment",
-            "meaning_ko": "전자결제",
-            "vocab_id": "VOC_D32_007"
-          },
-          {
-            "text": "刷卡",
-            "pinyin": "shuākǎ",
-            "meaning_en": "to swipe card",
-            "meaning_ko": "카드 결제하다",
-            "vocab_id": "VOC_D32_008"
-          }
-        ]
-      }
-    ],
-    "drill_examples": [
-      {
-        "text": "可以給我現金嗎？",
-        "pinyin": "kěyǐ gěi wǒ xiànjīn ma?",
-        "translation_en": "Can I/you have cash?",
-        "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요."
-      },
-      {
-        "text": "你想要收據嗎？",
-        "pinyin": "nǐ xiǎng yào shōujù ma?",
-        "translation_en": "Do you want receipt?",
-        "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요."
-      },
-      {
-        "text": "可以給我點數嗎？",
-        "pinyin": "kěyǐ gěi wǒ diǎnshù ma?",
-        "translation_en": "Can I/you have points?",
-        "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요."
-      },
-      {
-        "text": "你想要便當嗎？",
-        "pinyin": "nǐ xiǎng yào biàndāng ma?",
-        "translation_en": "Do you want lunch box?",
-        "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요."
-      },
-      {
-        "text": "可以給我茶葉蛋嗎？",
-        "pinyin": "kěyǐ gěi wǒ cháyèdàn ma?",
-        "translation_en": "Can I/you have tea egg?",
-        "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요."
-      },
-      {
-        "text": "你想要餅乾嗎？",
-        "pinyin": "nǐ xiǎng yào bǐnggān ma?",
-        "translation_en": "Do you want crackers / cookies?",
-        "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요."
-      },
-      {
-        "text": "可以給我口罩嗎？",
-        "pinyin": "kěyǐ gěi wǒ kǒuzhào ma?",
-        "translation_en": "Can I/you have mask?",
-        "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요."
-      },
-      {
-        "text": "你想要買一送一嗎？",
-        "pinyin": "nǐ xiǎng yào mǎi yī sòng yī ma?",
-        "translation_en": "Do you want buy one get one free?",
-        "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요."
-      }
-    ],
-    "correct_examples": [
-      {
-        "text": "可以給我現金嗎？",
-        "pinyin": "kěyǐ gěi wǒ xiànjīn ma?",
-        "translation_en": "Can I/you have cash?"
-      },
-      {
-        "text": "你想要收據嗎？",
-        "pinyin": "nǐ xiǎng yào shōujù ma?",
-        "translation_en": "Do you want receipt?"
-      },
-      {
-        "text": "可以給我點數嗎？",
-        "pinyin": "kěyǐ gěi wǒ diǎnshù ma?",
-        "translation_en": "Can I/you have points?"
-      },
-      {
-        "text": "你想要便當嗎？",
-        "pinyin": "nǐ xiǎng yào biàndāng ma?",
-        "translation_en": "Do you want lunch box?"
-      },
-      {
-        "text": "可以給我茶葉蛋嗎？",
-        "pinyin": "kěyǐ gěi wǒ cháyèdàn ma?",
-        "translation_en": "Can I/you have tea egg?"
-      },
-      {
-        "text": "你想要餅乾嗎？",
-        "pinyin": "nǐ xiǎng yào bǐnggān ma?",
-        "translation_en": "Do you want crackers / cookies?"
-      },
-      {
-        "text": "可以給我口罩嗎？",
-        "pinyin": "kěyǐ gěi wǒ kǒuzhào ma?",
-        "translation_en": "Can I/you have mask?"
-      },
-      {
-        "text": "你想要買一送一嗎？",
-        "pinyin": "nǐ xiǎng yào mǎi yī sòng yī ma?",
-        "translation_en": "Do you want buy one get one free?"
-      }
-    ],
-    "negative_examples": [
-      {
-        "text": "我結帳請。",
-        "error": "The request marker should come before the action or request."
-      },
-      {
-        "text": "結帳我可以嗎？",
-        "error": "The modal question needs a clear action before the object."
-      }
-    ],
-    "incorrect_examples": [
-      {
-        "text": "我結帳請。",
-        "error": "The request marker should come before the action or request."
-      },
-      {
-        "text": "結帳我可以嗎？",
-        "error": "The modal question needs a clear action before the object."
-      }
-    ],
-    "transformation_drills": [
-      "Change the object.",
-      "Change the speaker.",
-      "Turn the statement into a question.",
-      "Make the sentence more polite.",
-      "Answer with a reason."
-    ],
-    "production_drills": [
-      "Ask for something in the situation: buying items, asking about bags, receipts, payment.",
-      "Reject one option politely.",
-      "Ask a follow-up question.",
-      "Clarify a misunderstanding.",
-      "Give a short reason."
-    ],
-    "common_error_patterns": [
-      "Putting 嗎 after an incomplete phrase.",
-      "Using English word order for the object.",
-      "Skipping the measure word in service situations."
-    ],
-    "repair_feedback": {
-      "word_order": "Move the action before the object.",
-      "politeness": "Add 請 or 不好意思 before the request.",
-      "vocabulary": "Use only today or previously learned words."
-    }
-  },
-  {
     "id": "GR_D33_ZAI_LOCATION",
     "pattern": "Subject + 在 + location",
     "structure": [
@@ -9384,6 +8688,653 @@
             "meaning_en": "large cup",
             "meaning_ko": "큰 컵",
             "vocab_id": "VOC_D31_008"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "GR_D32_MEASURE_WORDS_BASIC",
+    "pattern": "一 + measure word + noun",
+    "structure": [
+      "number",
+      "measure word",
+      "noun"
+    ],
+    "explanation_en": "Use measure words between numbers and nouns. Common ones: 個 (general), 杯 (cups), 本 (books), 張 (flat objects), 瓶 (bottles), 包 (packages), 盒 (boxes).",
+    "title": "Basic Measure Words",
+    "meaning": "Measure words are required for counting nouns.",
+    "when_to_use": [
+      "When specifying quantity of items",
+      "When ordering or buying items"
+    ],
+    "when_not_to_use": [
+      "With abstract nouns like 時間 (time)",
+      "With verbs directly"
+    ],
+    "pragmatic_notes": "In Taiwan, 個 is often used informally for many items, but specific measure words show better language control.",
+    "word_order_notes": "Number + measure word + noun (e.g., 一個蘋果).",
+    "english_contrast": "English often omits measure words (e.g., 'one apple'), but Chinese requires them.",
+    "korean_contrast": "Korean uses counters like '개' (gae) for general items, similar to 個.",
+    "example_ids": [
+      "SEN_D32_001",
+      "SEN_D32_002",
+      "SEN_D32_003",
+      "SEN_D32_004"
+    ],
+    "correct_examples": [
+      {
+        "text": "我要一個飯糰和一杯咖啡。",
+        "pinyin": "Wǒ yào yī gè fàntuán hé yī bēi kāfēi.",
+        "translation_en": "I want one rice ball and one cup of coffee."
+      },
+      {
+        "text": "這個便當需要加熱嗎？",
+        "pinyin": "Zhège biàndāng xūyào jiārè ma?",
+        "translation_en": "Does this bento need to be heated?"
+      },
+      {
+        "text": "我要買一個環保袋。",
+        "pinyin": "Wǒ yào mǎi yī gè huánbǎo dài.",
+        "translation_en": "I want to buy one eco-friendly bag."
+      },
+      {
+        "text": "請幫我掃描這個條碼。",
+        "pinyin": "Qǐng bāng wǒ sǎomiáo zhège tiáomǎ.",
+        "translation_en": "Please scan this barcode for me."
+      },
+      {
+        "text": "我要用信用卡付款。",
+        "pinyin": "Wǒ yào yòng xìnyòngkǎ fùkuǎn.",
+        "translation_en": "I want to pay with a credit card."
+      },
+      {
+        "text": "這個三明治有特價嗎？",
+        "pinyin": "Zhège sānmíngzhì yǒu tèjià ma?",
+        "translation_en": "Is this sandwich on sale?"
+      },
+      {
+        "text": "我要買一包餅乾和一瓶礦泉水。",
+        "pinyin": "Wǒ yào mǎi yī bāo bǐnggān hé yī píng kuàngquánshuǐ.",
+        "translation_en": "I want to buy one pack of cookies and one bottle of mineral water."
+      },
+      {
+        "text": "總共是兩百三十塊。",
+        "pinyin": "Zǒnggòng shì liǎng bǎi sānshí kuài.",
+        "translation_en": "The total is 230 dollars."
+      }
+    ],
+    "drill_examples": [
+      {
+        "text": "我要一個飯糰和一杯咖啡。",
+        "pinyin": "Wǒ yào yī gè fàntuán hé yī bēi kāfēi.",
+        "translation_en": "I want one rice ball and one cup of coffee.",
+        "translation_ko": "주먹밥 하나와 커피 한 잔을 원해요."
+      },
+      {
+        "text": "這個便當需要加熱嗎？",
+        "pinyin": "Zhège biàndāng xūyào jiārè ma?",
+        "translation_en": "Does this bento need to be heated?",
+        "translation_ko": "이 도시락은 데워야 하나요?"
+      },
+      {
+        "text": "我要買一個環保袋。",
+        "pinyin": "Wǒ yào mǎi yī gè huánbǎo dài.",
+        "translation_en": "I want to buy one eco-friendly bag.",
+        "translation_ko": "친환경 봉투 하나를 살게요."
+      },
+      {
+        "text": "請幫我掃描這個條碼。",
+        "pinyin": "Qǐng bāng wǒ sǎomiáo zhège tiáomǎ.",
+        "translation_en": "Please scan this barcode for me.",
+        "translation_ko": "이 바코드를 스캔해 주세요."
+      },
+      {
+        "text": "我要用信用卡付款。",
+        "pinyin": "Wǒ yào yòng xìnyòngkǎ fùkuǎn.",
+        "translation_en": "I want to pay with a credit card.",
+        "translation_ko": "신용카드로 결제할게요."
+      },
+      {
+        "text": "這個三明治有特價嗎？",
+        "pinyin": "Zhège sānmíngzhì yǒu tèjià ma?",
+        "translation_en": "Is this sandwich on sale?",
+        "translation_ko": "이 샌드위치는 특가인가요?"
+      },
+      {
+        "text": "我要買一包餅乾和一瓶礦泉水。",
+        "pinyin": "Wǒ yào mǎi yī bāo bǐnggān hé yī píng kuàngquánshuǐ.",
+        "translation_en": "I want to buy one pack of cookies and one bottle of mineral water.",
+        "translation_ko": "과자 한 봉지와 생수 한 병을 살게요."
+      },
+      {
+        "text": "總共是兩百三十塊。",
+        "pinyin": "Zǒnggòng shì liǎng bǎi sānshí kuài.",
+        "translation_en": "The total is 230 dollars.",
+        "translation_ko": "총 230원입니다."
+      }
+    ],
+    "negative_examples": [
+      {
+        "text": "我要一蘋果。",
+        "error": "Missing measure word 個 before 蘋果."
+      }
+    ],
+    "incorrect_examples": [
+      {
+        "text": "我有一書。",
+        "error": "Should be 一本書 with measure word 本."
+      }
+    ],
+    "transformation_drills": [
+      "Change '一個茶' to '一杯茶' (cup).",
+      "Change '一個水' to '一瓶水' (bottle)."
+    ],
+    "production_drills": [
+      "Say 'one cup of coffee' in Chinese.",
+      "Say 'two bottles of water' in Chinese."
+    ],
+    "common_error_patterns": [
+      "Omitting measure words entirely",
+      "Using wrong measure word (e.g., 一個書 instead of 一本書)"
+    ],
+    "repair_feedback": {
+      "word_order": "Remember: number + measure word + noun.",
+      "politeness": "N/A",
+      "vocabulary": "Use 個 for general items, 杯 for drinks, 瓶 for bottles, 包 for packages."
+    },
+    "slots": [
+      {
+        "name": "object",
+        "role": "object",
+        "values": [
+          {
+            "text": "便利商店",
+            "pinyin": "biànlì shāngdiàn",
+            "meaning_en": "convenience store",
+            "meaning_ko": "편의점",
+            "vocab_id": "VOC_D32_001"
+          },
+          {
+            "text": "超商",
+            "pinyin": "chāoshāng",
+            "meaning_en": "convenience store",
+            "meaning_ko": "편의점",
+            "vocab_id": "VOC_D32_002"
+          },
+          {
+            "text": "結帳",
+            "pinyin": "jiézhàng",
+            "meaning_en": "to check out",
+            "meaning_ko": "계산하다",
+            "vocab_id": "VOC_D32_003"
+          },
+          {
+            "text": "付款",
+            "pinyin": "fùkuǎn",
+            "meaning_en": "to pay",
+            "meaning_ko": "지불하다",
+            "vocab_id": "VOC_D32_004"
+          },
+          {
+            "text": "現金",
+            "pinyin": "xiànjīn",
+            "meaning_en": "cash",
+            "meaning_ko": "현금",
+            "vocab_id": "VOC_D32_005"
+          },
+          {
+            "text": "信用卡",
+            "pinyin": "xìnyòngkǎ",
+            "meaning_en": "credit card",
+            "meaning_ko": "신용카드",
+            "vocab_id": "VOC_D32_006"
+          },
+          {
+            "text": "電子支付",
+            "pinyin": "diànzǐ zhīfù",
+            "meaning_en": "mobile payment",
+            "meaning_ko": "전자결제",
+            "vocab_id": "VOC_D32_007"
+          },
+          {
+            "text": "刷卡",
+            "pinyin": "shuākǎ",
+            "meaning_en": "to swipe card",
+            "meaning_ko": "카드 결제하다",
+            "vocab_id": "VOC_D32_008"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "GR_D32_YAO_BU_YAO",
+    "pattern": "要 + noun + 嗎？ / 要不要 + noun？",
+    "structure": [
+      "要",
+      "noun",
+      "嗎",
+      "要不要",
+      "noun"
+    ],
+    "explanation_en": "Use 要不要 or 要...嗎 to ask if someone wants something. It's a polite way to offer or confirm.",
+    "title": "Asking 'Want or Not'",
+    "meaning": "Asking if someone wants an item.",
+    "when_to_use": [
+      "When offering items like bags, receipts",
+      "When confirming an order"
+    ],
+    "when_not_to_use": [
+      "For yes/no questions about facts (use 是...嗎)",
+      "For polite requests (use 請 or 不好意思)"
+    ],
+    "pragmatic_notes": "In Taiwan convenience stores, staff often ask '要不要袋子？' (Do you want a bag?) or '要不要發票？' (Do you want a receipt?).",
+    "word_order_notes": "要不要 + noun (e.g., 要不要袋子？) or 要 + noun + 嗎？ (e.g., 要袋子嗎？).",
+    "english_contrast": "English uses 'Do you want...?' while Chinese uses 要不要 or 要...嗎.",
+    "korean_contrast": "Korean uses '원하세요?' (wonhaseyo?) similar to 要...嗎.",
+    "example_ids": [
+      "SEN_D32_011",
+      "SEN_D32_012",
+      "SEN_D32_013",
+      "SEN_D32_014"
+    ],
+    "correct_examples": [
+      {
+        "text": "你要不要一個塑膠袋？",
+        "pinyin": "Nǐ yào bù yào yī gè sù jiāo dài?",
+        "translation_en": "Do you want a plastic bag?"
+      },
+      {
+        "text": "你要買這個便當嗎？",
+        "pinyin": "Nǐ yào mǎi zhè ge biàn dāng ma?",
+        "translation_en": "Do you want to buy this bento box?"
+      },
+      {
+        "text": "要不要一個環保袋？",
+        "pinyin": "Yào bù yào yī gè huán bǎo dài?",
+        "translation_en": "Would you like an eco-friendly bag?"
+      },
+      {
+        "text": "你要不要買一送一的餅乾？",
+        "pinyin": "Nǐ yào bù yào mǎi yī sòng yī de bǐng gān?",
+        "translation_en": "Do you want to buy the buy-one-get-one-free cookies?"
+      },
+      {
+        "text": "你要不要一張收據？",
+        "pinyin": "Nǐ yào bù yào yī zhāng shōu jù?",
+        "translation_en": "Do you want a receipt?"
+      },
+      {
+        "text": "你要用現金付款嗎？",
+        "pinyin": "Nǐ yào yòng xiàn jīn fù kuǎn ma?",
+        "translation_en": "Do you want to pay with cash?"
+      },
+      {
+        "text": "你要不要用載具？",
+        "pinyin": "Nǐ yào bù yào yòng zài jù?",
+        "translation_en": "Do you want to use the receipt carrier?"
+      },
+      {
+        "text": "你要加熱這個飯糰嗎？",
+        "pinyin": "Nǐ yào jiā rè zhè ge fàn tuán ma?",
+        "translation_en": "Do you want to heat up this rice ball?"
+      }
+    ],
+    "drill_examples": [
+      {
+        "text": "你要不要一個塑膠袋？",
+        "pinyin": "Nǐ yào bù yào yī gè sù jiāo dài?",
+        "translation_en": "Do you want a plastic bag?",
+        "translation_ko": "비닐봉지 하나 필요하세요?"
+      },
+      {
+        "text": "你要買這個便當嗎？",
+        "pinyin": "Nǐ yào mǎi zhè ge biàn dāng ma?",
+        "translation_en": "Do you want to buy this bento box?",
+        "translation_ko": "이 도시락을 사시겠어요?"
+      },
+      {
+        "text": "要不要一個環保袋？",
+        "pinyin": "Yào bù yào yī gè huán bǎo dài?",
+        "translation_en": "Would you like an eco-friendly bag?",
+        "translation_ko": "에코백 하나 드릴까요?"
+      },
+      {
+        "text": "你要不要買一送一的餅乾？",
+        "pinyin": "Nǐ yào bù yào mǎi yī sòng yī de bǐng gān?",
+        "translation_en": "Do you want to buy the buy-one-get-one-free cookies?",
+        "translation_ko": "하나 사면 하나 더 주는 쿠키를 사시겠어요?"
+      },
+      {
+        "text": "你要不要一張收據？",
+        "pinyin": "Nǐ yào bù yào yī zhāng shōu jù?",
+        "translation_en": "Do you want a receipt?",
+        "translation_ko": "영수증 필요하세요?"
+      },
+      {
+        "text": "你要用現金付款嗎？",
+        "pinyin": "Nǐ yào yòng xiàn jīn fù kuǎn ma?",
+        "translation_en": "Do you want to pay with cash?",
+        "translation_ko": "현금으로 결제하시겠어요?"
+      },
+      {
+        "text": "你要不要用載具？",
+        "pinyin": "Nǐ yào bù yào yòng zài jù?",
+        "translation_en": "Do you want to use the receipt carrier?",
+        "translation_ko": "영수증 저장 서비스를 이용하시겠어요?"
+      },
+      {
+        "text": "你要加熱這個飯糰嗎？",
+        "pinyin": "Nǐ yào jiā rè zhè ge fàn tuán ma?",
+        "translation_en": "Do you want to heat up this rice ball?",
+        "translation_ko": "이 주먹밥을 데워 드릴까요?"
+      }
+    ],
+    "negative_examples": [
+      {
+        "text": "你要袋子？",
+        "error": "Missing 嗎 or 要不要 to form a question."
+      }
+    ],
+    "incorrect_examples": [
+      {
+        "text": "要不要你袋子？",
+        "error": "Word order: 要不要 should come before the noun, not after 你."
+      }
+    ],
+    "transformation_drills": [
+      "Change '要袋子嗎？' to '要不要袋子？'",
+      "Change '要不要發票？' to '要發票嗎？'"
+    ],
+    "production_drills": [
+      "Ask if someone wants a bag.",
+      "Ask if someone wants a receipt."
+    ],
+    "common_error_patterns": [
+      "Forgetting 嗎 in 要...嗎 questions",
+      "Placing 要不要 after the noun"
+    ],
+    "repair_feedback": {
+      "word_order": "Put 要不要 before the noun.",
+      "politeness": "Using 要不要 is polite enough for convenience stores.",
+      "vocabulary": "Use 袋子 for bag, 發票 for receipt."
+    },
+    "slots": [
+      {
+        "name": "object",
+        "role": "object",
+        "values": [
+          {
+            "text": "便利商店",
+            "pinyin": "biànlì shāngdiàn",
+            "meaning_en": "convenience store",
+            "meaning_ko": "편의점",
+            "vocab_id": "VOC_D32_001"
+          },
+          {
+            "text": "超商",
+            "pinyin": "chāoshāng",
+            "meaning_en": "convenience store",
+            "meaning_ko": "편의점",
+            "vocab_id": "VOC_D32_002"
+          },
+          {
+            "text": "結帳",
+            "pinyin": "jiézhàng",
+            "meaning_en": "to check out",
+            "meaning_ko": "계산하다",
+            "vocab_id": "VOC_D32_003"
+          },
+          {
+            "text": "付款",
+            "pinyin": "fùkuǎn",
+            "meaning_en": "to pay",
+            "meaning_ko": "지불하다",
+            "vocab_id": "VOC_D32_004"
+          },
+          {
+            "text": "現金",
+            "pinyin": "xiànjīn",
+            "meaning_en": "cash",
+            "meaning_ko": "현금",
+            "vocab_id": "VOC_D32_005"
+          },
+          {
+            "text": "信用卡",
+            "pinyin": "xìnyòngkǎ",
+            "meaning_en": "credit card",
+            "meaning_ko": "신용카드",
+            "vocab_id": "VOC_D32_006"
+          },
+          {
+            "text": "電子支付",
+            "pinyin": "diànzǐ zhīfù",
+            "meaning_en": "mobile payment",
+            "meaning_ko": "전자결제",
+            "vocab_id": "VOC_D32_007"
+          },
+          {
+            "text": "刷卡",
+            "pinyin": "shuākǎ",
+            "meaning_en": "to swipe card",
+            "meaning_ko": "카드 결제하다",
+            "vocab_id": "VOC_D32_008"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "GR_D32_THIS_THAT_REVIEW",
+    "pattern": "這 + measure word + noun / 那 + measure word + noun",
+    "structure": [
+      "這/那",
+      "measure word",
+      "noun"
+    ],
+    "explanation_en": "Use 這 (this) and 那 (that) with measure words to point to specific items. Common: 這個 (this one), 那個 (that one), 這杯 (this cup), 那瓶 (that bottle).",
+    "title": "This and That Review",
+    "meaning": "Pointing to items using 這 and 那.",
+    "when_to_use": [
+      "When selecting items in a store",
+      "When referring to nearby or distant objects"
+    ],
+    "when_not_to_use": [
+      "Without a measure word (e.g., 這書 is incorrect)",
+      "For abstract concepts (use 這個問題)"
+    ],
+    "pragmatic_notes": "In Taiwan, 這個 and 那個 are very common in daily speech. Use 這個 for items close to you, 那個 for items farther away.",
+    "word_order_notes": "這/那 + measure word + noun (e.g., 這個便當, 那杯咖啡).",
+    "english_contrast": "English uses 'this' and 'that' without measure words, but Chinese requires them.",
+    "korean_contrast": "Korean uses '이' (i) for this and '그' (geu) for that, followed by counters.",
+    "example_ids": [
+      "SEN_D32_021",
+      "SEN_D32_022",
+      "SEN_D32_023",
+      "SEN_D32_024"
+    ],
+    "correct_examples": [
+      {
+        "text": "這個便利商店有賣雨傘嗎？",
+        "pinyin": "Zhège biànlì shāngdiàn yǒu mài yǔsǎn ma?",
+        "translation_en": "Does this convenience store sell umbrellas?"
+      },
+      {
+        "text": "那個飯糰要加熱嗎？",
+        "pinyin": "Nàge fàntuán yào jiārè ma?",
+        "translation_en": "Does that rice ball need to be heated?"
+      },
+      {
+        "text": "這個三明治多少錢？",
+        "pinyin": "Zhège sānmíngzhì duōshao qián?",
+        "translation_en": "How much is this sandwich?"
+      },
+      {
+        "text": "那個茶葉蛋是特價的嗎？",
+        "pinyin": "Nàge cháyèdàn shì tèjià de ma?",
+        "translation_en": "Is that tea egg on sale?"
+      },
+      {
+        "text": "這個環保袋要多少錢？",
+        "pinyin": "Zhège huánbǎo dài yào duōshao qián?",
+        "translation_en": "How much is this eco-friendly bag?"
+      },
+      {
+        "text": "那個充電線可以刷卡嗎？",
+        "pinyin": "Nàge chōngdiànxiàn kěyǐ shuākǎ ma?",
+        "translation_en": "Can I pay by card for that charging cable?"
+      },
+      {
+        "text": "這個便當要微波加熱嗎？",
+        "pinyin": "Zhège biàndāng yào wēibō jiārè ma?",
+        "translation_en": "Does this bento need to be microwaved?"
+      },
+      {
+        "text": "那個口罩有特價嗎？",
+        "pinyin": "Nàge kòuzhào yǒu tèjià ma?",
+        "translation_en": "Is that mask on sale?"
+      }
+    ],
+    "drill_examples": [
+      {
+        "text": "這個便利商店有賣雨傘嗎？",
+        "pinyin": "Zhège biànlì shāngdiàn yǒu mài yǔsǎn ma?",
+        "translation_en": "Does this convenience store sell umbrellas?",
+        "translation_ko": "이 편의점에서 우산을 팔고 있나요?"
+      },
+      {
+        "text": "那個飯糰要加熱嗎？",
+        "pinyin": "Nàge fàntuán yào jiārè ma?",
+        "translation_en": "Does that rice ball need to be heated?",
+        "translation_ko": "그 주먹밥은 데워야 하나요?"
+      },
+      {
+        "text": "這個三明治多少錢？",
+        "pinyin": "Zhège sānmíngzhì duōshao qián?",
+        "translation_en": "How much is this sandwich?",
+        "translation_ko": "이 샌드위치는 얼마인가요?"
+      },
+      {
+        "text": "那個茶葉蛋是特價的嗎？",
+        "pinyin": "Nàge cháyèdàn shì tèjià de ma?",
+        "translation_en": "Is that tea egg on sale?",
+        "translation_ko": "그 차가운 계란은 특가인가요?"
+      },
+      {
+        "text": "這個環保袋要多少錢？",
+        "pinyin": "Zhège huánbǎo dài yào duōshao qián?",
+        "translation_en": "How much is this eco-friendly bag?",
+        "translation_ko": "이 친환경 봉투는 얼마인가요?"
+      },
+      {
+        "text": "那個充電線可以刷卡嗎？",
+        "pinyin": "Nàge chōngdiànxiàn kěyǐ shuākǎ ma?",
+        "translation_en": "Can I pay by card for that charging cable?",
+        "translation_ko": "그 충전 케이블은 카드로 결제할 수 있나요?"
+      },
+      {
+        "text": "這個便當要微波加熱嗎？",
+        "pinyin": "Zhège biàndāng yào wēibō jiārè ma?",
+        "translation_en": "Does this bento need to be microwaved?",
+        "translation_ko": "이 도시락은 전자레인지에 데워야 하나요?"
+      },
+      {
+        "text": "那個口罩有特價嗎？",
+        "pinyin": "Nàge kòuzhào yǒu tèjià ma?",
+        "translation_en": "Is that mask on sale?",
+        "translation_ko": "그 마스크는 특가인가요?"
+      }
+    ],
+    "negative_examples": [
+      {
+        "text": "我要這水。",
+        "error": "Missing measure word 瓶 or 杯 before 水."
+      }
+    ],
+    "incorrect_examples": [
+      {
+        "text": "那書多少錢？",
+        "error": "Should be 那本書 with measure word 本."
+      }
+    ],
+    "transformation_drills": [
+      "Change '這個' to '那個' for a distant item.",
+      "Change '這杯茶' to '那杯茶'."
+    ],
+    "production_drills": [
+      "Say 'this bottle of water' in Chinese.",
+      "Say 'that bag' in Chinese."
+    ],
+    "common_error_patterns": [
+      "Omitting measure words after 這/那",
+      "Using 這/那 with verbs instead of nouns"
+    ],
+    "repair_feedback": {
+      "word_order": "Always use 這/那 + measure word + noun.",
+      "politeness": "N/A",
+      "vocabulary": "Use 個 for general, 杯 for cups, 瓶 for bottles, 本 for books, 張 for flat items."
+    },
+    "slots": [
+      {
+        "name": "object",
+        "role": "object",
+        "values": [
+          {
+            "text": "便利商店",
+            "pinyin": "biànlì shāngdiàn",
+            "meaning_en": "convenience store",
+            "meaning_ko": "편의점",
+            "vocab_id": "VOC_D32_001"
+          },
+          {
+            "text": "超商",
+            "pinyin": "chāoshāng",
+            "meaning_en": "convenience store",
+            "meaning_ko": "편의점",
+            "vocab_id": "VOC_D32_002"
+          },
+          {
+            "text": "結帳",
+            "pinyin": "jiézhàng",
+            "meaning_en": "to check out",
+            "meaning_ko": "계산하다",
+            "vocab_id": "VOC_D32_003"
+          },
+          {
+            "text": "付款",
+            "pinyin": "fùkuǎn",
+            "meaning_en": "to pay",
+            "meaning_ko": "지불하다",
+            "vocab_id": "VOC_D32_004"
+          },
+          {
+            "text": "現金",
+            "pinyin": "xiànjīn",
+            "meaning_en": "cash",
+            "meaning_ko": "현금",
+            "vocab_id": "VOC_D32_005"
+          },
+          {
+            "text": "信用卡",
+            "pinyin": "xìnyòngkǎ",
+            "meaning_en": "credit card",
+            "meaning_ko": "신용카드",
+            "vocab_id": "VOC_D32_006"
+          },
+          {
+            "text": "電子支付",
+            "pinyin": "diànzǐ zhīfù",
+            "meaning_en": "mobile payment",
+            "meaning_ko": "전자결제",
+            "vocab_id": "VOC_D32_007"
+          },
+          {
+            "text": "刷卡",
+            "pinyin": "shuākǎ",
+            "meaning_en": "to swipe card",
+            "meaning_ko": "카드 결제하다",
+            "vocab_id": "VOC_D32_008"
           }
         ]
       }

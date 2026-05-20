@@ -1,1035 +1,5 @@
 [
   {
-    "id": "VOC_D32_001",
-    "char": "便利商店",
-    "pinyin": "biànlì shāngdiàn",
-    "pinyin_numeric": "bian4 li4 shang1 dian4",
-    "phonemes": [
-      "bian4",
-      "li4",
-      "shang1",
-      "dian4"
-    ],
-    "pos": "noun",
-    "meaning_en": "convenience store",
-    "meaning_ko": "편의점",
-    "semantic_domain": "store",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D32_001",
-      "SEN_D32_033",
-      "SEN_D32_065"
-    ],
-    "audio_id": "AUD_VOC_D32_001",
-    "day_introduced": 32,
-    "srs_tags": [
-      "day_32",
-      "store"
-    ]
-  },
-  {
-    "id": "VOC_D32_002",
-    "char": "超商",
-    "pinyin": "chāoshāng",
-    "pinyin_numeric": "chao1 shang1",
-    "phonemes": [
-      "chao1",
-      "shang1"
-    ],
-    "pos": "noun",
-    "meaning_en": "convenience store",
-    "meaning_ko": "편의점",
-    "semantic_domain": "store",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D32_002",
-      "SEN_D32_034",
-      "SEN_D32_066"
-    ],
-    "audio_id": "AUD_VOC_D32_002",
-    "day_introduced": 32,
-    "srs_tags": [
-      "day_32",
-      "store"
-    ]
-  },
-  {
-    "id": "VOC_D32_003",
-    "char": "結帳",
-    "pinyin": "jiézhàng",
-    "pinyin_numeric": "jie2 zhang4",
-    "phonemes": [
-      "jie2",
-      "zhang4"
-    ],
-    "pos": "verb",
-    "meaning_en": "to check out",
-    "meaning_ko": "계산하다",
-    "semantic_domain": "store",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [],
-    "audio_id": "AUD_VOC_D32_003",
-    "day_introduced": 32,
-    "srs_tags": [
-      "day_32",
-      "store"
-    ]
-  },
-  {
-    "id": "VOC_D32_004",
-    "char": "付款",
-    "pinyin": "fùkuǎn",
-    "pinyin_numeric": "fu4 kuan3",
-    "phonemes": [
-      "fu4",
-      "kuan3"
-    ],
-    "pos": "verb",
-    "meaning_en": "to pay",
-    "meaning_ko": "지불하다",
-    "semantic_domain": "store",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [],
-    "audio_id": "AUD_VOC_D32_004",
-    "day_introduced": 32,
-    "srs_tags": [
-      "day_32",
-      "store"
-    ]
-  },
-  {
-    "id": "VOC_D32_005",
-    "char": "現金",
-    "pinyin": "xiànjīn",
-    "pinyin_numeric": "xian4 jin1",
-    "phonemes": [
-      "xian4",
-      "jin1"
-    ],
-    "pos": "noun",
-    "meaning_en": "cash",
-    "meaning_ko": "현금",
-    "semantic_domain": "payment",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D32_003",
-      "SEN_D32_035",
-      "SEN_D32_067"
-    ],
-    "audio_id": "AUD_VOC_D32_005",
-    "day_introduced": 32,
-    "srs_tags": [
-      "day_32",
-      "payment"
-    ]
-  },
-  {
-    "id": "VOC_D32_006",
-    "char": "信用卡",
-    "pinyin": "xìnyòngkǎ",
-    "pinyin_numeric": "xin4 yong4 ka3",
-    "phonemes": [
-      "xin4",
-      "yong4",
-      "ka3"
-    ],
-    "pos": "noun",
-    "meaning_en": "credit card",
-    "meaning_ko": "신용카드",
-    "semantic_domain": "payment",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D32_004",
-      "SEN_D32_036",
-      "SEN_D32_068"
-    ],
-    "audio_id": "AUD_VOC_D32_006",
-    "day_introduced": 32,
-    "srs_tags": [
-      "day_32",
-      "payment"
-    ]
-  },
-  {
-    "id": "VOC_D32_007",
-    "char": "電子支付",
-    "pinyin": "diànzǐ zhīfù",
-    "pinyin_numeric": "dian4 zi3 zhi1 fu4",
-    "phonemes": [
-      "dian4",
-      "zi3",
-      "zhi1",
-      "fu4"
-    ],
-    "pos": "noun",
-    "meaning_en": "mobile payment",
-    "meaning_ko": "전자결제",
-    "semantic_domain": "payment",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D32_005",
-      "SEN_D32_037",
-      "SEN_D32_069"
-    ],
-    "audio_id": "AUD_VOC_D32_007",
-    "day_introduced": 32,
-    "srs_tags": [
-      "day_32",
-      "payment"
-    ]
-  },
-  {
-    "id": "VOC_D32_008",
-    "char": "刷卡",
-    "pinyin": "shuākǎ",
-    "pinyin_numeric": "shua1 ka3",
-    "phonemes": [
-      "shua1",
-      "ka3"
-    ],
-    "pos": "verb",
-    "meaning_en": "to swipe card",
-    "meaning_ko": "카드 결제하다",
-    "semantic_domain": "payment",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [],
-    "audio_id": "AUD_VOC_D32_008",
-    "day_introduced": 32,
-    "srs_tags": [
-      "day_32",
-      "payment"
-    ]
-  },
-  {
-    "id": "VOC_D32_009",
-    "char": "收據",
-    "pinyin": "shōujù",
-    "pinyin_numeric": "shou1 ju4",
-    "phonemes": [
-      "shou1",
-      "ju4"
-    ],
-    "pos": "noun",
-    "meaning_en": "receipt",
-    "meaning_ko": "영수증",
-    "semantic_domain": "store",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D32_006",
-      "SEN_D32_038",
-      "SEN_D32_070"
-    ],
-    "audio_id": "AUD_VOC_D32_009",
-    "day_introduced": 32,
-    "srs_tags": [
-      "day_32",
-      "store"
-    ]
-  },
-  {
-    "id": "VOC_D32_010",
-    "char": "載具",
-    "pinyin": "zàijù",
-    "pinyin_numeric": "zai4 ju4",
-    "phonemes": [
-      "zai4",
-      "ju4"
-    ],
-    "pos": "noun",
-    "meaning_en": "invoice carrier",
-    "meaning_ko": "전자영수증 번호",
-    "semantic_domain": "store",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D32_007",
-      "SEN_D32_039",
-      "SEN_D32_071"
-    ],
-    "audio_id": "AUD_VOC_D32_010",
-    "day_introduced": 32,
-    "srs_tags": [
-      "day_32",
-      "store"
-    ]
-  },
-  {
-    "id": "VOC_D32_011",
-    "char": "會員",
-    "pinyin": "huìyuán",
-    "pinyin_numeric": "hui4 yuan2",
-    "phonemes": [
-      "hui4",
-      "yuan2"
-    ],
-    "pos": "noun",
-    "meaning_en": "member",
-    "meaning_ko": "회원",
-    "semantic_domain": "store",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D32_008",
-      "SEN_D32_040",
-      "SEN_D32_072"
-    ],
-    "audio_id": "AUD_VOC_D32_011",
-    "day_introduced": 32,
-    "srs_tags": [
-      "day_32",
-      "store"
-    ]
-  },
-  {
-    "id": "VOC_D32_012",
-    "char": "點數",
-    "pinyin": "diǎnshù",
-    "pinyin_numeric": "dian3 shu4",
-    "phonemes": [
-      "dian3",
-      "shu4"
-    ],
-    "pos": "noun",
-    "meaning_en": "points",
-    "meaning_ko": "포인트",
-    "semantic_domain": "store",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D32_009",
-      "SEN_D32_041",
-      "SEN_D32_073"
-    ],
-    "audio_id": "AUD_VOC_D32_012",
-    "day_introduced": 32,
-    "srs_tags": [
-      "day_32",
-      "store"
-    ]
-  },
-  {
-    "id": "VOC_D32_013",
-    "char": "塑膠袋",
-    "pinyin": "sùjiāo dài",
-    "pinyin_numeric": "su4 jiao1 dai4",
-    "phonemes": [
-      "su4",
-      "jiao1",
-      "dai4"
-    ],
-    "pos": "noun",
-    "meaning_en": "plastic bag",
-    "meaning_ko": "비닐봉투",
-    "semantic_domain": "store",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D32_010",
-      "SEN_D32_042",
-      "SEN_D32_074"
-    ],
-    "audio_id": "AUD_VOC_D32_013",
-    "day_introduced": 32,
-    "srs_tags": [
-      "day_32",
-      "store"
-    ]
-  },
-  {
-    "id": "VOC_D32_014",
-    "char": "環保袋",
-    "pinyin": "huánbǎo dài",
-    "pinyin_numeric": "huan2 bao3 dai4",
-    "phonemes": [
-      "huan2",
-      "bao3",
-      "dai4"
-    ],
-    "pos": "noun",
-    "meaning_en": "reusable bag",
-    "meaning_ko": "장바구니",
-    "semantic_domain": "store",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D32_011",
-      "SEN_D32_043",
-      "SEN_D32_075"
-    ],
-    "audio_id": "AUD_VOC_D32_014",
-    "day_introduced": 32,
-    "srs_tags": [
-      "day_32",
-      "store"
-    ]
-  },
-  {
-    "id": "VOC_D32_015",
-    "char": "加熱",
-    "pinyin": "jiārè",
-    "pinyin_numeric": "jia1 re4",
-    "phonemes": [
-      "jia1",
-      "re4"
-    ],
-    "pos": "verb",
-    "meaning_en": "to heat up",
-    "meaning_ko": "데우다",
-    "semantic_domain": "store",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [],
-    "audio_id": "AUD_VOC_D32_015",
-    "day_introduced": 32,
-    "srs_tags": [
-      "day_32",
-      "store"
-    ]
-  },
-  {
-    "id": "VOC_D32_016",
-    "char": "微波",
-    "pinyin": "wéibō",
-    "pinyin_numeric": "wei2 bo1",
-    "phonemes": [
-      "wei2",
-      "bo1"
-    ],
-    "pos": "verb",
-    "meaning_en": "to microwave",
-    "meaning_ko": "전자레인지로 데우다",
-    "semantic_domain": "store",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [],
-    "audio_id": "AUD_VOC_D32_016",
-    "day_introduced": 32,
-    "srs_tags": [
-      "day_32",
-      "store"
-    ]
-  },
-  {
-    "id": "VOC_D32_017",
-    "char": "便當",
-    "pinyin": "biàndāng",
-    "pinyin_numeric": "bian4 dang1",
-    "phonemes": [
-      "bian4",
-      "dang1"
-    ],
-    "pos": "noun",
-    "meaning_en": "lunch box",
-    "meaning_ko": "도시락",
-    "semantic_domain": "food",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D32_012",
-      "SEN_D32_044",
-      "SEN_D32_076"
-    ],
-    "audio_id": "AUD_VOC_D32_017",
-    "day_introduced": 32,
-    "srs_tags": [
-      "day_32",
-      "food"
-    ]
-  },
-  {
-    "id": "VOC_D32_018",
-    "char": "飯糰",
-    "pinyin": "fàntuán",
-    "pinyin_numeric": "fan4 tuan2",
-    "phonemes": [
-      "fan4",
-      "tuan2"
-    ],
-    "pos": "noun",
-    "meaning_en": "rice ball",
-    "meaning_ko": "주먹밥",
-    "semantic_domain": "food",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D32_013",
-      "SEN_D32_045",
-      "SEN_D32_077"
-    ],
-    "audio_id": "AUD_VOC_D32_018",
-    "day_introduced": 32,
-    "srs_tags": [
-      "day_32",
-      "food"
-    ]
-  },
-  {
-    "id": "VOC_D32_019",
-    "char": "三明治",
-    "pinyin": "sānmíngzhì",
-    "pinyin_numeric": "san1 ming2 zhi4",
-    "phonemes": [
-      "san1",
-      "ming2",
-      "zhi4"
-    ],
-    "pos": "noun",
-    "meaning_en": "sandwich",
-    "meaning_ko": "샌드위치",
-    "semantic_domain": "food",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D32_014",
-      "SEN_D32_046",
-      "SEN_D32_078"
-    ],
-    "audio_id": "AUD_VOC_D32_019",
-    "day_introduced": 32,
-    "srs_tags": [
-      "day_32",
-      "food"
-    ]
-  },
-  {
-    "id": "VOC_D32_020",
-    "char": "茶葉蛋",
-    "pinyin": "cháyèdàn",
-    "pinyin_numeric": "cha2 ye4 dan4",
-    "phonemes": [
-      "cha2",
-      "ye4",
-      "dan4"
-    ],
-    "pos": "noun",
-    "meaning_en": "tea egg",
-    "meaning_ko": "차계란",
-    "semantic_domain": "food",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D32_015",
-      "SEN_D32_047",
-      "SEN_D32_079"
-    ],
-    "audio_id": "AUD_VOC_D32_020",
-    "day_introduced": 32,
-    "srs_tags": [
-      "day_32",
-      "food"
-    ]
-  },
-  {
-    "id": "VOC_D32_021",
-    "char": "礦泉水",
-    "pinyin": "kuàngquánshuǐ",
-    "pinyin_numeric": "kuang4 quan2 shui3",
-    "phonemes": [
-      "kuang4",
-      "quan2",
-      "shui3"
-    ],
-    "pos": "noun",
-    "meaning_en": "mineral water",
-    "meaning_ko": "생수",
-    "semantic_domain": "food",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D32_016",
-      "SEN_D32_048",
-      "SEN_D32_080"
-    ],
-    "audio_id": "AUD_VOC_D32_021",
-    "day_introduced": 32,
-    "srs_tags": [
-      "day_32",
-      "food"
-    ]
-  },
-  {
-    "id": "VOC_D32_022",
-    "char": "優格",
-    "pinyin": "yōugé",
-    "pinyin_numeric": "you1 ge2",
-    "phonemes": [
-      "you1",
-      "ge2"
-    ],
-    "pos": "noun",
-    "meaning_en": "yogurt",
-    "meaning_ko": "요거트",
-    "semantic_domain": "food",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D32_017",
-      "SEN_D32_049",
-      "SEN_D32_081"
-    ],
-    "audio_id": "AUD_VOC_D32_022",
-    "day_introduced": 32,
-    "srs_tags": [
-      "day_32",
-      "food"
-    ]
-  },
-  {
-    "id": "VOC_D32_023",
-    "char": "餅乾",
-    "pinyin": "bǐnggān",
-    "pinyin_numeric": "bing3 gan1",
-    "phonemes": [
-      "bing3",
-      "gan1"
-    ],
-    "pos": "noun",
-    "meaning_en": "crackers; cookies",
-    "meaning_ko": "과자",
-    "semantic_domain": "food",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D32_018",
-      "SEN_D32_050",
-      "SEN_D32_082"
-    ],
-    "audio_id": "AUD_VOC_D32_023",
-    "day_introduced": 32,
-    "srs_tags": [
-      "day_32",
-      "food"
-    ]
-  },
-  {
-    "id": "VOC_D32_024",
-    "char": "泡麵",
-    "pinyin": "pàomiàn",
-    "pinyin_numeric": "pao4 mian4",
-    "phonemes": [
-      "pao4",
-      "mian4"
-    ],
-    "pos": "noun",
-    "meaning_en": "instant noodles",
-    "meaning_ko": "라면",
-    "semantic_domain": "food",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D32_019",
-      "SEN_D32_051",
-      "SEN_D32_083"
-    ],
-    "audio_id": "AUD_VOC_D32_024",
-    "day_introduced": 32,
-    "srs_tags": [
-      "day_32",
-      "food"
-    ]
-  },
-  {
-    "id": "VOC_D32_025",
-    "char": "雨傘",
-    "pinyin": "yǔsǎn",
-    "pinyin_numeric": "yu3 san3",
-    "phonemes": [
-      "yu3",
-      "san3"
-    ],
-    "pos": "noun",
-    "meaning_en": "umbrella",
-    "meaning_ko": "우산",
-    "semantic_domain": "store",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D32_020",
-      "SEN_D32_052",
-      "SEN_D32_084"
-    ],
-    "audio_id": "AUD_VOC_D32_025",
-    "day_introduced": 32,
-    "srs_tags": [
-      "day_32",
-      "store"
-    ]
-  },
-  {
-    "id": "VOC_D32_026",
-    "char": "口罩",
-    "pinyin": "kǒuzhào",
-    "pinyin_numeric": "kou3 zhao4",
-    "phonemes": [
-      "kou3",
-      "zhao4"
-    ],
-    "pos": "noun",
-    "meaning_en": "mask",
-    "meaning_ko": "마스크",
-    "semantic_domain": "store",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D32_021",
-      "SEN_D32_053",
-      "SEN_D32_085"
-    ],
-    "audio_id": "AUD_VOC_D32_026",
-    "day_introduced": 32,
-    "srs_tags": [
-      "day_32",
-      "store"
-    ]
-  },
-  {
-    "id": "VOC_D32_027",
-    "char": "電池",
-    "pinyin": "diànchí",
-    "pinyin_numeric": "dian4 chi2",
-    "phonemes": [
-      "dian4",
-      "chi2"
-    ],
-    "pos": "noun",
-    "meaning_en": "battery",
-    "meaning_ko": "건전지",
-    "semantic_domain": "store",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D32_022",
-      "SEN_D32_054",
-      "SEN_D32_086"
-    ],
-    "audio_id": "AUD_VOC_D32_027",
-    "day_introduced": 32,
-    "srs_tags": [
-      "day_32",
-      "store"
-    ]
-  },
-  {
-    "id": "VOC_D32_028",
-    "char": "充電線",
-    "pinyin": "chōngdiànxiàn",
-    "pinyin_numeric": "chong1 dian4 xian4",
-    "phonemes": [
-      "chong1",
-      "dian4",
-      "xian4"
-    ],
-    "pos": "noun",
-    "meaning_en": "charging cable",
-    "meaning_ko": "충전선",
-    "semantic_domain": "store",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D32_023",
-      "SEN_D32_055",
-      "SEN_D32_087"
-    ],
-    "audio_id": "AUD_VOC_D32_028",
-    "day_introduced": 32,
-    "srs_tags": [
-      "day_32",
-      "store"
-    ]
-  },
-  {
-    "id": "VOC_D32_029",
-    "char": "買一送一",
-    "pinyin": "mǎi yī sòng yī",
-    "pinyin_numeric": "mai3 yi1 song4 yi1",
-    "phonemes": [
-      "mai3",
-      "yi1",
-      "song4",
-      "yi1"
-    ],
-    "pos": "phrase",
-    "meaning_en": "buy one get one free",
-    "meaning_ko": "하나 사면 하나 증정",
-    "semantic_domain": "store",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D32_024",
-      "SEN_D32_056",
-      "SEN_D32_088"
-    ],
-    "audio_id": "AUD_VOC_D32_029",
-    "day_introduced": 32,
-    "srs_tags": [
-      "day_32",
-      "store"
-    ]
-  },
-  {
-    "id": "VOC_D32_030",
-    "char": "特價",
-    "pinyin": "tèjià",
-    "pinyin_numeric": "te4 jia4",
-    "phonemes": [
-      "te4",
-      "jia4"
-    ],
-    "pos": "noun",
-    "meaning_en": "special price",
-    "meaning_ko": "특가",
-    "semantic_domain": "store",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D32_025",
-      "SEN_D32_057",
-      "SEN_D32_089"
-    ],
-    "audio_id": "AUD_VOC_D32_030",
-    "day_introduced": 32,
-    "srs_tags": [
-      "day_32",
-      "store"
-    ]
-  },
-  {
-    "id": "VOC_D32_031",
-    "char": "總共",
-    "pinyin": "zǒnggòng",
-    "pinyin_numeric": "zong3 gong4",
-    "phonemes": [
-      "zong3",
-      "gong4"
-    ],
-    "pos": "adverb",
-    "meaning_en": "in total",
-    "meaning_ko": "총",
-    "semantic_domain": "store",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [],
-    "audio_id": "AUD_VOC_D32_031",
-    "day_introduced": 32,
-    "srs_tags": [
-      "day_32",
-      "store"
-    ]
-  },
-  {
-    "id": "VOC_D32_032",
-    "char": "條碼",
-    "pinyin": "tiáomǎ",
-    "pinyin_numeric": "tiao2 ma3",
-    "phonemes": [
-      "tiao2",
-      "ma3"
-    ],
-    "pos": "noun",
-    "meaning_en": "barcode",
-    "meaning_ko": "바코드",
-    "semantic_domain": "store",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D32_026",
-      "SEN_D32_058",
-      "SEN_D32_090"
-    ],
-    "audio_id": "AUD_VOC_D32_032",
-    "day_introduced": 32,
-    "srs_tags": [
-      "day_32",
-      "store"
-    ]
-  },
-  {
-    "id": "VOC_D32_033",
-    "char": "掃描",
-    "pinyin": "sǎomiáo",
-    "pinyin_numeric": "sao3 miao2",
-    "phonemes": [
-      "sao3",
-      "miao2"
-    ],
-    "pos": "verb",
-    "meaning_en": "to scan",
-    "meaning_ko": "스캔하다",
-    "semantic_domain": "store",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [],
-    "audio_id": "AUD_VOC_D32_033",
-    "day_introduced": 32,
-    "srs_tags": [
-      "day_32",
-      "store"
-    ]
-  },
-  {
-    "id": "VOC_D32_034",
-    "char": "明細",
-    "pinyin": "míngxì",
-    "pinyin_numeric": "ming2 xi4",
-    "phonemes": [
-      "ming2",
-      "xi4"
-    ],
-    "pos": "noun",
-    "meaning_en": "itemized details",
-    "meaning_ko": "명세",
-    "semantic_domain": "store",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D32_027",
-      "SEN_D32_059"
-    ],
-    "audio_id": "AUD_VOC_D32_034",
-    "day_introduced": 32,
-    "srs_tags": [
-      "day_32",
-      "store"
-    ]
-  },
-  {
-    "id": "VOC_D32_035",
-    "char": "找零",
-    "pinyin": "zhǎolíng",
-    "pinyin_numeric": "zhao3 ling2",
-    "phonemes": [
-      "zhao3",
-      "ling2"
-    ],
-    "pos": "verb",
-    "meaning_en": "to give change",
-    "meaning_ko": "거스름돈을 주다",
-    "semantic_domain": "payment",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [],
-    "audio_id": "AUD_VOC_D32_035",
-    "day_introduced": 32,
-    "srs_tags": [
-      "day_32",
-      "payment"
-    ]
-  },
-  {
     "id": "VOC_D33_001",
     "char": "洗手間",
     "pinyin": "xǐshǒujiān",
@@ -14204,6 +13174,1052 @@
     "srs_tags": [
       "day_31",
       "repair"
+    ]
+  },
+  {
+    "id": "VOC_D32_001",
+    "char": "便利商店",
+    "pinyin": "biànlì shāngdiàn",
+    "pinyin_numeric": "bian4 li4 shang1 dian4",
+    "phonemes": [
+      "bian4",
+      "li4",
+      "shang1",
+      "dian4"
+    ],
+    "pos": "noun",
+    "meaning_en": "convenience store",
+    "meaning_ko": "편의점",
+    "semantic_domain": "store",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D32_021"
+    ],
+    "audio_id": "AUD_VOC_D32_001",
+    "day_introduced": 32,
+    "srs_tags": [
+      "day_32",
+      "store"
+    ]
+  },
+  {
+    "id": "VOC_D32_002",
+    "char": "超商",
+    "pinyin": "chāoshāng",
+    "pinyin_numeric": "chao1 shang1",
+    "phonemes": [
+      "chao1",
+      "shang1"
+    ],
+    "pos": "noun",
+    "meaning_en": "convenience store",
+    "meaning_ko": "편의점",
+    "semantic_domain": "store",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D32_002",
+    "day_introduced": 32,
+    "srs_tags": [
+      "day_32",
+      "store"
+    ]
+  },
+  {
+    "id": "VOC_D32_003",
+    "char": "結帳",
+    "pinyin": "jiézhàng",
+    "pinyin_numeric": "jie2 zhang4",
+    "phonemes": [
+      "jie2",
+      "zhang4"
+    ],
+    "pos": "verb",
+    "meaning_en": "to check out",
+    "meaning_ko": "계산하다",
+    "semantic_domain": "store",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D32_057"
+    ],
+    "audio_id": "AUD_VOC_D32_003",
+    "day_introduced": 32,
+    "srs_tags": [
+      "day_32",
+      "store"
+    ]
+  },
+  {
+    "id": "VOC_D32_004",
+    "char": "付款",
+    "pinyin": "fùkuǎn",
+    "pinyin_numeric": "fu4 kuan3",
+    "phonemes": [
+      "fu4",
+      "kuan3"
+    ],
+    "pos": "verb",
+    "meaning_en": "to pay",
+    "meaning_ko": "지불하다",
+    "semantic_domain": "store",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D32_005",
+      "SEN_D32_016",
+      "SEN_D32_033",
+      "SEN_D32_058"
+    ],
+    "audio_id": "AUD_VOC_D32_004",
+    "day_introduced": 32,
+    "srs_tags": [
+      "day_32",
+      "store"
+    ]
+  },
+  {
+    "id": "VOC_D32_005",
+    "char": "現金",
+    "pinyin": "xiànjīn",
+    "pinyin_numeric": "xian4 jin1",
+    "phonemes": [
+      "xian4",
+      "jin1"
+    ],
+    "pos": "noun",
+    "meaning_en": "cash",
+    "meaning_ko": "현금",
+    "semantic_domain": "payment",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D32_016",
+      "SEN_D32_045",
+      "SEN_D32_074"
+    ],
+    "audio_id": "AUD_VOC_D32_005",
+    "day_introduced": 32,
+    "srs_tags": [
+      "day_32",
+      "payment"
+    ]
+  },
+  {
+    "id": "VOC_D32_006",
+    "char": "信用卡",
+    "pinyin": "xìnyòngkǎ",
+    "pinyin_numeric": "xin4 yong4 ka3",
+    "phonemes": [
+      "xin4",
+      "yong4",
+      "ka3"
+    ],
+    "pos": "noun",
+    "meaning_en": "credit card",
+    "meaning_ko": "신용카드",
+    "semantic_domain": "payment",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D32_005",
+      "SEN_D32_033",
+      "SEN_D32_058",
+      "SEN_D32_064"
+    ],
+    "audio_id": "AUD_VOC_D32_006",
+    "day_introduced": 32,
+    "srs_tags": [
+      "day_32",
+      "payment"
+    ]
+  },
+  {
+    "id": "VOC_D32_007",
+    "char": "電子支付",
+    "pinyin": "diànzǐ zhīfù",
+    "pinyin_numeric": "dian4 zi3 zhi1 fu4",
+    "phonemes": [
+      "dian4",
+      "zi3",
+      "zhi1",
+      "fu4"
+    ],
+    "pos": "noun",
+    "meaning_en": "mobile payment",
+    "meaning_ko": "전자결제",
+    "semantic_domain": "payment",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D32_007",
+    "day_introduced": 32,
+    "srs_tags": [
+      "day_32",
+      "payment"
+    ]
+  },
+  {
+    "id": "VOC_D32_008",
+    "char": "刷卡",
+    "pinyin": "shuākǎ",
+    "pinyin_numeric": "shua1 ka3",
+    "phonemes": [
+      "shua1",
+      "ka3"
+    ],
+    "pos": "verb",
+    "meaning_en": "to swipe card",
+    "meaning_ko": "카드 결제하다",
+    "semantic_domain": "payment",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D32_026",
+      "SEN_D32_046"
+    ],
+    "audio_id": "AUD_VOC_D32_008",
+    "day_introduced": 32,
+    "srs_tags": [
+      "day_32",
+      "payment"
+    ]
+  },
+  {
+    "id": "VOC_D32_009",
+    "char": "收據",
+    "pinyin": "shōujù",
+    "pinyin_numeric": "shou1 ju4",
+    "phonemes": [
+      "shou1",
+      "ju4"
+    ],
+    "pos": "noun",
+    "meaning_en": "receipt",
+    "meaning_ko": "영수증",
+    "semantic_domain": "store",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D32_015",
+      "SEN_D32_043",
+      "SEN_D32_062",
+      "SEN_D32_079"
+    ],
+    "audio_id": "AUD_VOC_D32_009",
+    "day_introduced": 32,
+    "srs_tags": [
+      "day_32",
+      "store"
+    ]
+  },
+  {
+    "id": "VOC_D32_010",
+    "char": "載具",
+    "pinyin": "zàijù",
+    "pinyin_numeric": "zai4 ju4",
+    "phonemes": [
+      "zai4",
+      "ju4"
+    ],
+    "pos": "noun",
+    "meaning_en": "invoice carrier",
+    "meaning_ko": "전자영수증 번호",
+    "semantic_domain": "store",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D32_009",
+      "SEN_D32_017",
+      "SEN_D32_039",
+      "SEN_D32_044"
+    ],
+    "audio_id": "AUD_VOC_D32_010",
+    "day_introduced": 32,
+    "srs_tags": [
+      "day_32",
+      "store"
+    ]
+  },
+  {
+    "id": "VOC_D32_011",
+    "char": "會員",
+    "pinyin": "huìyuán",
+    "pinyin_numeric": "hui4 yuan2",
+    "phonemes": [
+      "hui4",
+      "yuan2"
+    ],
+    "pos": "noun",
+    "meaning_en": "member",
+    "meaning_ko": "회원",
+    "semantic_domain": "store",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D32_011",
+    "day_introduced": 32,
+    "srs_tags": [
+      "day_32",
+      "store"
+    ]
+  },
+  {
+    "id": "VOC_D32_012",
+    "char": "點數",
+    "pinyin": "diǎnshù",
+    "pinyin_numeric": "dian3 shu4",
+    "phonemes": [
+      "dian3",
+      "shu4"
+    ],
+    "pos": "noun",
+    "meaning_en": "points",
+    "meaning_ko": "포인트",
+    "semantic_domain": "store",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D32_012",
+    "day_introduced": 32,
+    "srs_tags": [
+      "day_32",
+      "store"
+    ]
+  },
+  {
+    "id": "VOC_D32_013",
+    "char": "塑膠袋",
+    "pinyin": "sùjiāo dài",
+    "pinyin_numeric": "su4 jiao1 dai4",
+    "phonemes": [
+      "su4",
+      "jiao1",
+      "dai4"
+    ],
+    "pos": "noun",
+    "meaning_en": "plastic bag",
+    "meaning_ko": "비닐봉투",
+    "semantic_domain": "store",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D32_011",
+      "SEN_D32_031",
+      "SEN_D32_041",
+      "SEN_D32_060"
+    ],
+    "audio_id": "AUD_VOC_D32_013",
+    "day_introduced": 32,
+    "srs_tags": [
+      "day_32",
+      "store"
+    ]
+  },
+  {
+    "id": "VOC_D32_014",
+    "char": "環保袋",
+    "pinyin": "huánbǎo dài",
+    "pinyin_numeric": "huan2 bao3 dai4",
+    "phonemes": [
+      "huan2",
+      "bao3",
+      "dai4"
+    ],
+    "pos": "noun",
+    "meaning_en": "reusable bag",
+    "meaning_ko": "장바구니",
+    "semantic_domain": "store",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D32_003",
+      "SEN_D32_013",
+      "SEN_D32_025",
+      "SEN_D32_042"
+    ],
+    "audio_id": "AUD_VOC_D32_014",
+    "day_introduced": 32,
+    "srs_tags": [
+      "day_32",
+      "store"
+    ]
+  },
+  {
+    "id": "VOC_D32_015",
+    "char": "加熱",
+    "pinyin": "jiārè",
+    "pinyin_numeric": "jia1 re4",
+    "phonemes": [
+      "jia1",
+      "re4"
+    ],
+    "pos": "verb",
+    "meaning_en": "to heat up",
+    "meaning_ko": "데우다",
+    "semantic_domain": "store",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D32_002",
+      "SEN_D32_018",
+      "SEN_D32_022",
+      "SEN_D32_027"
+    ],
+    "audio_id": "AUD_VOC_D32_015",
+    "day_introduced": 32,
+    "srs_tags": [
+      "day_32",
+      "store"
+    ]
+  },
+  {
+    "id": "VOC_D32_016",
+    "char": "微波",
+    "pinyin": "wéibō",
+    "pinyin_numeric": "wei2 bo1",
+    "phonemes": [
+      "wei2",
+      "bo1"
+    ],
+    "pos": "verb",
+    "meaning_en": "to microwave",
+    "meaning_ko": "전자레인지로 데우다",
+    "semantic_domain": "store",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D32_027",
+      "SEN_D32_051",
+      "SEN_D32_081"
+    ],
+    "audio_id": "AUD_VOC_D32_016",
+    "day_introduced": 32,
+    "srs_tags": [
+      "day_32",
+      "store"
+    ]
+  },
+  {
+    "id": "VOC_D32_017",
+    "char": "便當",
+    "pinyin": "biàndāng",
+    "pinyin_numeric": "bian4 dang1",
+    "phonemes": [
+      "bian4",
+      "dang1"
+    ],
+    "pos": "noun",
+    "meaning_en": "lunch box",
+    "meaning_ko": "도시락",
+    "semantic_domain": "food",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D32_002",
+      "SEN_D32_012",
+      "SEN_D32_027",
+      "SEN_D32_032"
+    ],
+    "audio_id": "AUD_VOC_D32_017",
+    "day_introduced": 32,
+    "srs_tags": [
+      "day_32",
+      "food"
+    ]
+  },
+  {
+    "id": "VOC_D32_018",
+    "char": "飯糰",
+    "pinyin": "fàntuán",
+    "pinyin_numeric": "fan4 tuan2",
+    "phonemes": [
+      "fan4",
+      "tuan2"
+    ],
+    "pos": "noun",
+    "meaning_en": "rice ball",
+    "meaning_ko": "주먹밥",
+    "semantic_domain": "food",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D32_001",
+      "SEN_D32_018",
+      "SEN_D32_022",
+      "SEN_D32_036"
+    ],
+    "audio_id": "AUD_VOC_D32_018",
+    "day_introduced": 32,
+    "srs_tags": [
+      "day_32",
+      "food"
+    ]
+  },
+  {
+    "id": "VOC_D32_019",
+    "char": "三明治",
+    "pinyin": "sānmíngzhì",
+    "pinyin_numeric": "san1 ming2 zhi4",
+    "phonemes": [
+      "san1",
+      "ming2",
+      "zhi4"
+    ],
+    "pos": "noun",
+    "meaning_en": "sandwich",
+    "meaning_ko": "샌드위치",
+    "semantic_domain": "food",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D32_006",
+      "SEN_D32_023",
+      "SEN_D32_052",
+      "SEN_D32_067"
+    ],
+    "audio_id": "AUD_VOC_D32_019",
+    "day_introduced": 32,
+    "srs_tags": [
+      "day_32",
+      "food"
+    ]
+  },
+  {
+    "id": "VOC_D32_020",
+    "char": "茶葉蛋",
+    "pinyin": "cháyèdàn",
+    "pinyin_numeric": "cha2 ye4 dan4",
+    "phonemes": [
+      "cha2",
+      "ye4",
+      "dan4"
+    ],
+    "pos": "noun",
+    "meaning_en": "tea egg",
+    "meaning_ko": "차계란",
+    "semantic_domain": "food",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D32_010",
+      "SEN_D32_024",
+      "SEN_D32_037",
+      "SEN_D32_049"
+    ],
+    "audio_id": "AUD_VOC_D32_020",
+    "day_introduced": 32,
+    "srs_tags": [
+      "day_32",
+      "food"
+    ]
+  },
+  {
+    "id": "VOC_D32_021",
+    "char": "礦泉水",
+    "pinyin": "kuàngquánshuǐ",
+    "pinyin_numeric": "kuang4 quan2 shui3",
+    "phonemes": [
+      "kuang4",
+      "quan2",
+      "shui3"
+    ],
+    "pos": "noun",
+    "meaning_en": "mineral water",
+    "meaning_ko": "생수",
+    "semantic_domain": "food",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D32_007",
+      "SEN_D32_035",
+      "SEN_D32_054"
+    ],
+    "audio_id": "AUD_VOC_D32_021",
+    "day_introduced": 32,
+    "srs_tags": [
+      "day_32",
+      "food"
+    ]
+  },
+  {
+    "id": "VOC_D32_022",
+    "char": "優格",
+    "pinyin": "yōugé",
+    "pinyin_numeric": "you1 ge2",
+    "phonemes": [
+      "you1",
+      "ge2"
+    ],
+    "pos": "noun",
+    "meaning_en": "yogurt",
+    "meaning_ko": "요거트",
+    "semantic_domain": "food",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D32_055"
+    ],
+    "audio_id": "AUD_VOC_D32_022",
+    "day_introduced": 32,
+    "srs_tags": [
+      "day_32",
+      "food"
+    ]
+  },
+  {
+    "id": "VOC_D32_023",
+    "char": "餅乾",
+    "pinyin": "bǐnggān",
+    "pinyin_numeric": "bing3 gan1",
+    "phonemes": [
+      "bing3",
+      "gan1"
+    ],
+    "pos": "noun",
+    "meaning_en": "crackers; cookies",
+    "meaning_ko": "과자",
+    "semantic_domain": "food",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D32_007",
+      "SEN_D32_014",
+      "SEN_D32_029",
+      "SEN_D32_035"
+    ],
+    "audio_id": "AUD_VOC_D32_023",
+    "day_introduced": 32,
+    "srs_tags": [
+      "day_32",
+      "food"
+    ]
+  },
+  {
+    "id": "VOC_D32_024",
+    "char": "泡麵",
+    "pinyin": "pàomiàn",
+    "pinyin_numeric": "pao4 mian4",
+    "phonemes": [
+      "pao4",
+      "mian4"
+    ],
+    "pos": "noun",
+    "meaning_en": "instant noodles",
+    "meaning_ko": "라면",
+    "semantic_domain": "food",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D32_020",
+      "SEN_D32_029",
+      "SEN_D32_054",
+      "SEN_D32_077"
+    ],
+    "audio_id": "AUD_VOC_D32_024",
+    "day_introduced": 32,
+    "srs_tags": [
+      "day_32",
+      "food"
+    ]
+  },
+  {
+    "id": "VOC_D32_025",
+    "char": "雨傘",
+    "pinyin": "yǔsǎn",
+    "pinyin_numeric": "yu3 san3",
+    "phonemes": [
+      "yu3",
+      "san3"
+    ],
+    "pos": "noun",
+    "meaning_en": "umbrella",
+    "meaning_ko": "우산",
+    "semantic_domain": "store",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D32_021",
+      "SEN_D32_057"
+    ],
+    "audio_id": "AUD_VOC_D32_025",
+    "day_introduced": 32,
+    "srs_tags": [
+      "day_32",
+      "store"
+    ]
+  },
+  {
+    "id": "VOC_D32_026",
+    "char": "口罩",
+    "pinyin": "kǒuzhào",
+    "pinyin_numeric": "kou3 zhao4",
+    "phonemes": [
+      "kou3",
+      "zhao4"
+    ],
+    "pos": "noun",
+    "meaning_en": "mask",
+    "meaning_ko": "마스크",
+    "semantic_domain": "store",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D32_028",
+      "SEN_D32_057"
+    ],
+    "audio_id": "AUD_VOC_D32_026",
+    "day_introduced": 32,
+    "srs_tags": [
+      "day_32",
+      "store"
+    ]
+  },
+  {
+    "id": "VOC_D32_027",
+    "char": "電池",
+    "pinyin": "diànchí",
+    "pinyin_numeric": "dian4 chi2",
+    "phonemes": [
+      "dian4",
+      "chi2"
+    ],
+    "pos": "noun",
+    "meaning_en": "battery",
+    "meaning_ko": "건전지",
+    "semantic_domain": "store",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D32_030",
+      "SEN_D32_058"
+    ],
+    "audio_id": "AUD_VOC_D32_027",
+    "day_introduced": 32,
+    "srs_tags": [
+      "day_32",
+      "store"
+    ]
+  },
+  {
+    "id": "VOC_D32_028",
+    "char": "充電線",
+    "pinyin": "chōngdiànxiàn",
+    "pinyin_numeric": "chong1 dian4 xian4",
+    "phonemes": [
+      "chong1",
+      "dian4",
+      "xian4"
+    ],
+    "pos": "noun",
+    "meaning_en": "charging cable",
+    "meaning_ko": "충전선",
+    "semantic_domain": "store",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D32_026",
+      "SEN_D32_058"
+    ],
+    "audio_id": "AUD_VOC_D32_028",
+    "day_introduced": 32,
+    "srs_tags": [
+      "day_32",
+      "store"
+    ]
+  },
+  {
+    "id": "VOC_D32_029",
+    "char": "買一送一",
+    "pinyin": "mǎi yī sòng yī",
+    "pinyin_numeric": "mai3 yi1 song4 yi1",
+    "phonemes": [
+      "mai3",
+      "yi1",
+      "song4",
+      "yi1"
+    ],
+    "pos": "phrase",
+    "meaning_en": "buy one get one free",
+    "meaning_ko": "하나 사면 하나 증정",
+    "semantic_domain": "store",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D32_010",
+      "SEN_D32_014",
+      "SEN_D32_030",
+      "SEN_D32_037"
+    ],
+    "audio_id": "AUD_VOC_D32_029",
+    "day_introduced": 32,
+    "srs_tags": [
+      "day_32",
+      "store"
+    ]
+  },
+  {
+    "id": "VOC_D32_030",
+    "char": "特價",
+    "pinyin": "tèjià",
+    "pinyin_numeric": "te4 jia4",
+    "phonemes": [
+      "te4",
+      "jia4"
+    ],
+    "pos": "noun",
+    "meaning_en": "special price",
+    "meaning_ko": "특가",
+    "semantic_domain": "store",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D32_006",
+      "SEN_D32_020",
+      "SEN_D32_024",
+      "SEN_D32_028"
+    ],
+    "audio_id": "AUD_VOC_D32_030",
+    "day_introduced": 32,
+    "srs_tags": [
+      "day_32",
+      "store"
+    ]
+  },
+  {
+    "id": "VOC_D32_031",
+    "char": "總共",
+    "pinyin": "zǒnggòng",
+    "pinyin_numeric": "zong3 gong4",
+    "phonemes": [
+      "zong3",
+      "gong4"
+    ],
+    "pos": "adverb",
+    "meaning_en": "in total",
+    "meaning_ko": "총",
+    "semantic_domain": "store",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D32_008",
+      "SEN_D32_029",
+      "SEN_D32_038",
+      "SEN_D32_053"
+    ],
+    "audio_id": "AUD_VOC_D32_031",
+    "day_introduced": 32,
+    "srs_tags": [
+      "day_32",
+      "store"
+    ]
+  },
+  {
+    "id": "VOC_D32_032",
+    "char": "條碼",
+    "pinyin": "tiáomǎ",
+    "pinyin_numeric": "tiao2 ma3",
+    "phonemes": [
+      "tiao2",
+      "ma3"
+    ],
+    "pos": "noun",
+    "meaning_en": "barcode",
+    "meaning_ko": "바코드",
+    "semantic_domain": "store",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D32_004",
+      "SEN_D32_034",
+      "SEN_D32_069"
+    ],
+    "audio_id": "AUD_VOC_D32_032",
+    "day_introduced": 32,
+    "srs_tags": [
+      "day_32",
+      "store"
+    ]
+  },
+  {
+    "id": "VOC_D32_033",
+    "char": "掃描",
+    "pinyin": "sǎomiáo",
+    "pinyin_numeric": "sao3 miao2",
+    "phonemes": [
+      "sao3",
+      "miao2"
+    ],
+    "pos": "verb",
+    "meaning_en": "to scan",
+    "meaning_ko": "스캔하다",
+    "semantic_domain": "store",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D32_004",
+      "SEN_D32_034",
+      "SEN_D32_069"
+    ],
+    "audio_id": "AUD_VOC_D32_033",
+    "day_introduced": 32,
+    "srs_tags": [
+      "day_32",
+      "store"
+    ]
+  },
+  {
+    "id": "VOC_D32_034",
+    "char": "明細",
+    "pinyin": "míngxì",
+    "pinyin_numeric": "ming2 xi4",
+    "phonemes": [
+      "ming2",
+      "xi4"
+    ],
+    "pos": "noun",
+    "meaning_en": "itemized details",
+    "meaning_ko": "명세",
+    "semantic_domain": "store",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D32_040"
+    ],
+    "audio_id": "AUD_VOC_D32_034",
+    "day_introduced": 32,
+    "srs_tags": [
+      "day_32",
+      "store"
+    ]
+  },
+  {
+    "id": "VOC_D32_035",
+    "char": "找零",
+    "pinyin": "zhǎolíng",
+    "pinyin_numeric": "zhao3 ling2",
+    "phonemes": [
+      "zhao3",
+      "ling2"
+    ],
+    "pos": "verb",
+    "meaning_en": "to give change",
+    "meaning_ko": "거스름돈을 주다",
+    "semantic_domain": "payment",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 32 for Taiwan daily-life communication.",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D32_035",
+    "day_introduced": 32,
+    "srs_tags": [
+      "day_32",
+      "payment"
     ]
   }
 ]

@@ -237,6 +237,7 @@ ${Array.from(seenChars).join(", ")}`;
   // Helper tokenizer: verify vocabulary and get token_ids
   // Uses longest-match against cumulative vocab + GLOBAL_PINYIN fallback
   function tokenizeText(text) {
+    if (!text) return { tokenIds: [], unknownChars: [] };
     let index = 0;
     const tokenIds = [];
     const unknownChars = [];
@@ -408,7 +409,12 @@ Unit: "${dayMeta.unit}"`;
     sentenceRes.sentences.forEach((s, idx) => {
       const globalIdx = startIdx + idx;
       const sentenceId = `SEN_D${dayNum}_${pad(globalIdx, 3)}`;
-      // Skip tokenizer validation (has encoding bug on Windows) — validate later with validate-all-90.mjs
+      // Safety: skip sentences with missing text
+      if (!s.text) {
+        console.warn(`  ⚠️  Skipping sentence ${sentenceId}: text is empty`);
+        return;
+      }
+      const { tokenIds } = tokenizeText(s.text);
       todaySentences.push({
         id: sentenceId,
         text: s.text,
@@ -416,7 +422,7 @@ Unit: "${dayMeta.unit}"`;
         pinyin_numeric: s.pinyin_numeric,
         translation_en: s.translation_en,
         translation_ko: s.translation_ko,
-        token_ids: [],
+        token_ids: tokenIds,
         grammar_ids: [focusGrammar.id],
         audio_id: `AUD_${sentenceId}`,
         day_introduced: dayNum
@@ -499,7 +505,7 @@ Required Dialogues topics/roles: ${JSON.stringify(requiredDialogues)}`;
           pinyin_numeric: t.pinyin_numeric,
           translation_en: t.translation_en,
           translation_ko: t.translation_ko,
-          token_ids: [],
+          token_ids: tokenIds,
           audio_id: `AUD_${dialogueId}_T${tIdx + 1}`
         };
       }),

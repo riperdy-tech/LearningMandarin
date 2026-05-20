@@ -1,2255 +1,5 @@
 [
   {
-    "id": "SEN_D32_001",
-    "text": "我想要便利商店。",
-    "pinyin": "wǒ xiǎng yào biànlì shāngdiàn.",
-    "pinyin_numeric": "wo3 xiang3 yao4 bian4 li4 shang1 dian4",
-    "translation_en": "I / me would like convenience store.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "我",
-      "想要",
-      "便利商店"
-    ],
-    "token_ids": [
-      "VOC_M1_002",
-      "VOC_D31_001",
-      "VOC_D32_001"
-    ],
-    "grammar_ids": [
-      "GR_D32_MEASURE_WORDS_BASIC"
-    ],
-    "audio_id": "AUD_SEN_D32_001",
-    "difficulty": 2,
-    "production_type": "substitution"
-  },
-  {
-    "id": "SEN_D32_002",
-    "text": "請給我超商。",
-    "pinyin": "qǐng gěi wǒ chāoshāng.",
-    "pinyin_numeric": "qing3 gei3 wo3 chao1 shang1",
-    "translation_en": "Please bring/give convenience store.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "請",
-      "給我",
-      "超商"
-    ],
-    "token_ids": [
-      "VOC_M1_179",
-      "VOC_D31_005",
-      "VOC_D32_002"
-    ],
-    "grammar_ids": [
-      "GR_D32_YAO_BU_YAO"
-    ],
-    "audio_id": "AUD_SEN_D32_002",
-    "difficulty": 2,
-    "production_type": "listening"
-  },
-  {
-    "id": "SEN_D32_003",
-    "text": "可以給我現金嗎？",
-    "pinyin": "kěyǐ gěi wǒ xiànjīn ma?",
-    "pinyin_numeric": "keyi3 gei3 wo3 xian4 jin1 ma0",
-    "translation_en": "Can I/you have cash?",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "可以",
-      "給我",
-      "現金",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_M1_118",
-      "VOC_D31_005",
-      "VOC_D32_005",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D32_THIS_THAT_REVIEW"
-    ],
-    "audio_id": "AUD_SEN_D32_003",
-    "difficulty": 2,
-    "production_type": "memory"
-  },
-  {
-    "id": "SEN_D32_004",
-    "text": "她需要信用卡。",
-    "pinyin": "tā xūyào xìnyòngkǎ.",
-    "pinyin_numeric": "ta1 xuyao4 xin4 yong4 ka3",
-    "translation_en": "she / her needs credit card.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "她",
-      "需要",
-      "信用卡"
-    ],
-    "token_ids": [
-      "VOC_M1_005",
-      "VOC_M1_171",
-      "VOC_D32_006"
-    ],
-    "grammar_ids": [
-      "GR_D32_MEASURE_WORDS_BASIC"
-    ],
-    "audio_id": "AUD_SEN_D32_004",
-    "difficulty": 2,
-    "production_type": "substitution"
-  },
-  {
-    "id": "SEN_D32_005",
-    "text": "不好意思我們想要電子支付。",
-    "pinyin": "bùhǎoyìsi wǒmen xiǎng yào diànzǐ zhīfù.",
-    "pinyin_numeric": "bu4 hao3 yi4 si0 women3 xiang3 yao4 dian4 zi3 zhi1 fu4",
-    "translation_en": "Excuse me, we / us would like mobile payment.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "不好意思",
-      "我們",
-      "想要",
-      "電子支付"
-    ],
-    "token_ids": [
-      "VOC_D31_020",
-      "VOC_M1_006",
-      "VOC_D31_001",
-      "VOC_D32_007"
-    ],
-    "grammar_ids": [
-      "GR_D32_YAO_BU_YAO"
-    ],
-    "audio_id": "AUD_SEN_D32_005",
-    "difficulty": 2,
-    "production_type": "listening"
-  },
-  {
-    "id": "SEN_D32_006",
-    "text": "你想要收據嗎？",
-    "pinyin": "nǐ xiǎng yào shōujù ma?",
-    "pinyin_numeric": "ni3 xiang3 yao4 shou1 ju4 ma0",
-    "translation_en": "Do you want receipt?",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "你",
-      "想要",
-      "收據",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_D31_001",
-      "VOC_D32_009",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D32_THIS_THAT_REVIEW"
-    ],
-    "audio_id": "AUD_SEN_D32_006",
-    "difficulty": 2,
-    "production_type": "memory"
-  },
-  {
-    "id": "SEN_D32_007",
-    "text": "你想要載具。",
-    "pinyin": "nǐ xiǎng yào zàijù.",
-    "pinyin_numeric": "ni3 xiang3 yao4 zai4 ju4",
-    "translation_en": "you would like invoice carrier.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "你",
-      "想要",
-      "載具"
-    ],
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_D31_001",
-      "VOC_D32_010"
-    ],
-    "grammar_ids": [
-      "GR_D32_MEASURE_WORDS_BASIC"
-    ],
-    "audio_id": "AUD_SEN_D32_007",
-    "difficulty": 2,
-    "production_type": "substitution"
-  },
-  {
-    "id": "SEN_D32_008",
-    "text": "請給我會員。",
-    "pinyin": "qǐng gěi wǒ huìyuán.",
-    "pinyin_numeric": "qing3 gei3 wo3 hui4 yuan2",
-    "translation_en": "Please bring/give member.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "請",
-      "給我",
-      "會員"
-    ],
-    "token_ids": [
-      "VOC_M1_179",
-      "VOC_D31_005",
-      "VOC_D32_011"
-    ],
-    "grammar_ids": [
-      "GR_D32_YAO_BU_YAO"
-    ],
-    "audio_id": "AUD_SEN_D32_008",
-    "difficulty": 2,
-    "production_type": "listening"
-  },
-  {
-    "id": "SEN_D32_009",
-    "text": "可以給我點數嗎？",
-    "pinyin": "kěyǐ gěi wǒ diǎnshù ma?",
-    "pinyin_numeric": "keyi3 gei3 wo3 dian3 shu4 ma0",
-    "translation_en": "Can I/you have points?",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "可以",
-      "給我",
-      "點數",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_M1_118",
-      "VOC_D31_005",
-      "VOC_D32_012",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D32_THIS_THAT_REVIEW"
-    ],
-    "audio_id": "AUD_SEN_D32_009",
-    "difficulty": 2,
-    "production_type": "memory"
-  },
-  {
-    "id": "SEN_D32_010",
-    "text": "我們需要塑膠袋。",
-    "pinyin": "wǒmen xūyào sùjiāo dài.",
-    "pinyin_numeric": "women3 xuyao4 su4 jiao1 dai4",
-    "translation_en": "we / us needs plastic bag.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "我們",
-      "需要",
-      "塑膠袋"
-    ],
-    "token_ids": [
-      "VOC_M1_006",
-      "VOC_M1_171",
-      "VOC_D32_013"
-    ],
-    "grammar_ids": [
-      "GR_D32_MEASURE_WORDS_BASIC"
-    ],
-    "audio_id": "AUD_SEN_D32_010",
-    "difficulty": 2,
-    "production_type": "substitution"
-  },
-  {
-    "id": "SEN_D32_011",
-    "text": "不好意思我想要環保袋。",
-    "pinyin": "bùhǎoyìsi wǒ xiǎng yào huánbǎo dài.",
-    "pinyin_numeric": "bu4 hao3 yi4 si0 wo3 xiang3 yao4 huan2 bao3 dai4",
-    "translation_en": "Excuse me, I / me would like reusable bag.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "不好意思",
-      "我",
-      "想要",
-      "環保袋"
-    ],
-    "token_ids": [
-      "VOC_D31_020",
-      "VOC_M1_002",
-      "VOC_D31_001",
-      "VOC_D32_014"
-    ],
-    "grammar_ids": [
-      "GR_D32_YAO_BU_YAO"
-    ],
-    "audio_id": "AUD_SEN_D32_011",
-    "difficulty": 2,
-    "production_type": "listening"
-  },
-  {
-    "id": "SEN_D32_012",
-    "text": "你想要便當嗎？",
-    "pinyin": "nǐ xiǎng yào biàndāng ma?",
-    "pinyin_numeric": "ni3 xiang3 yao4 bian4 dang1 ma0",
-    "translation_en": "Do you want lunch box?",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "你",
-      "想要",
-      "便當",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_D31_001",
-      "VOC_D32_017",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D32_THIS_THAT_REVIEW"
-    ],
-    "audio_id": "AUD_SEN_D32_012",
-    "difficulty": 2,
-    "production_type": "memory"
-  },
-  {
-    "id": "SEN_D32_013",
-    "text": "他想要飯糰。",
-    "pinyin": "tā xiǎng yào fàntuán.",
-    "pinyin_numeric": "ta1 xiang3 yao4 fan4 tuan2",
-    "translation_en": "he / him would like rice ball.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "他",
-      "想要",
-      "飯糰"
-    ],
-    "token_ids": [
-      "VOC_M1_004",
-      "VOC_D31_001",
-      "VOC_D32_018"
-    ],
-    "grammar_ids": [
-      "GR_D32_MEASURE_WORDS_BASIC"
-    ],
-    "audio_id": "AUD_SEN_D32_013",
-    "difficulty": 2,
-    "production_type": "substitution"
-  },
-  {
-    "id": "SEN_D32_014",
-    "text": "請給我三明治。",
-    "pinyin": "qǐng gěi wǒ sānmíngzhì.",
-    "pinyin_numeric": "qing3 gei3 wo3 san1 ming2 zhi4",
-    "translation_en": "Please bring/give sandwich.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "請",
-      "給我",
-      "三明治"
-    ],
-    "token_ids": [
-      "VOC_M1_179",
-      "VOC_D31_005",
-      "VOC_D32_019"
-    ],
-    "grammar_ids": [
-      "GR_D32_YAO_BU_YAO"
-    ],
-    "audio_id": "AUD_SEN_D32_014",
-    "difficulty": 2,
-    "production_type": "listening"
-  },
-  {
-    "id": "SEN_D32_015",
-    "text": "可以給我茶葉蛋嗎？",
-    "pinyin": "kěyǐ gěi wǒ cháyèdàn ma?",
-    "pinyin_numeric": "keyi3 gei3 wo3 cha2 ye4 dan4 ma0",
-    "translation_en": "Can I/you have tea egg?",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "可以",
-      "給我",
-      "茶葉蛋",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_M1_118",
-      "VOC_D31_005",
-      "VOC_D32_020",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D32_THIS_THAT_REVIEW"
-    ],
-    "audio_id": "AUD_SEN_D32_015",
-    "difficulty": 2,
-    "production_type": "memory"
-  },
-  {
-    "id": "SEN_D32_016",
-    "text": "我需要礦泉水。",
-    "pinyin": "wǒ xūyào kuàngquánshuǐ.",
-    "pinyin_numeric": "wo3 xuyao4 kuang4 quan2 shui3",
-    "translation_en": "I / me needs mineral water.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "我",
-      "需要",
-      "礦泉水"
-    ],
-    "token_ids": [
-      "VOC_M1_002",
-      "VOC_M1_171",
-      "VOC_D32_021"
-    ],
-    "grammar_ids": [
-      "GR_D32_MEASURE_WORDS_BASIC"
-    ],
-    "audio_id": "AUD_SEN_D32_016",
-    "difficulty": 2,
-    "production_type": "substitution"
-  },
-  {
-    "id": "SEN_D32_017",
-    "text": "不好意思你想要優格。",
-    "pinyin": "bùhǎoyìsi nǐ xiǎng yào yōugé.",
-    "pinyin_numeric": "bu4 hao3 yi4 si0 ni3 xiang3 yao4 you1 ge2",
-    "translation_en": "Excuse me, you would like yogurt.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "不好意思",
-      "你",
-      "想要",
-      "優格"
-    ],
-    "token_ids": [
-      "VOC_D31_020",
-      "VOC_M1_003",
-      "VOC_D31_001",
-      "VOC_D32_022"
-    ],
-    "grammar_ids": [
-      "GR_D32_YAO_BU_YAO"
-    ],
-    "audio_id": "AUD_SEN_D32_017",
-    "difficulty": 2,
-    "production_type": "listening"
-  },
-  {
-    "id": "SEN_D32_018",
-    "text": "你想要餅乾嗎？",
-    "pinyin": "nǐ xiǎng yào bǐnggān ma?",
-    "pinyin_numeric": "ni3 xiang3 yao4 bing3 gan1 ma0",
-    "translation_en": "Do you want crackers / cookies?",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "你",
-      "想要",
-      "餅乾",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_D31_001",
-      "VOC_D32_023",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D32_THIS_THAT_REVIEW"
-    ],
-    "audio_id": "AUD_SEN_D32_018",
-    "difficulty": 2,
-    "production_type": "memory"
-  },
-  {
-    "id": "SEN_D32_019",
-    "text": "她想要泡麵。",
-    "pinyin": "tā xiǎng yào pàomiàn.",
-    "pinyin_numeric": "ta1 xiang3 yao4 pao4 mian4",
-    "translation_en": "she / her would like instant noodles.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "她",
-      "想要",
-      "泡麵"
-    ],
-    "token_ids": [
-      "VOC_M1_005",
-      "VOC_D31_001",
-      "VOC_D32_024"
-    ],
-    "grammar_ids": [
-      "GR_D32_MEASURE_WORDS_BASIC"
-    ],
-    "audio_id": "AUD_SEN_D32_019",
-    "difficulty": 2,
-    "production_type": "substitution"
-  },
-  {
-    "id": "SEN_D32_020",
-    "text": "請給我雨傘。",
-    "pinyin": "qǐng gěi wǒ yǔsǎn.",
-    "pinyin_numeric": "qing3 gei3 wo3 yu3 san3",
-    "translation_en": "Please bring/give umbrella.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "請",
-      "給我",
-      "雨傘"
-    ],
-    "token_ids": [
-      "VOC_M1_179",
-      "VOC_D31_005",
-      "VOC_D32_025"
-    ],
-    "grammar_ids": [
-      "GR_D32_YAO_BU_YAO"
-    ],
-    "audio_id": "AUD_SEN_D32_020",
-    "difficulty": 2,
-    "production_type": "listening"
-  },
-  {
-    "id": "SEN_D32_021",
-    "text": "可以給我口罩嗎？",
-    "pinyin": "kěyǐ gěi wǒ kǒuzhào ma?",
-    "pinyin_numeric": "keyi3 gei3 wo3 kou3 zhao4 ma0",
-    "translation_en": "Can I/you have mask?",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "可以",
-      "給我",
-      "口罩",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_M1_118",
-      "VOC_D31_005",
-      "VOC_D32_026",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D32_THIS_THAT_REVIEW"
-    ],
-    "audio_id": "AUD_SEN_D32_021",
-    "difficulty": 2,
-    "production_type": "memory"
-  },
-  {
-    "id": "SEN_D32_022",
-    "text": "你需要電池。",
-    "pinyin": "nǐ xūyào diànchí.",
-    "pinyin_numeric": "ni3 xuyao4 dian4 chi2",
-    "translation_en": "you needs battery.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "你",
-      "需要",
-      "電池"
-    ],
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_M1_171",
-      "VOC_D32_027"
-    ],
-    "grammar_ids": [
-      "GR_D32_MEASURE_WORDS_BASIC"
-    ],
-    "audio_id": "AUD_SEN_D32_022",
-    "difficulty": 2,
-    "production_type": "substitution"
-  },
-  {
-    "id": "SEN_D32_023",
-    "text": "不好意思他想要充電線。",
-    "pinyin": "bùhǎoyìsi tā xiǎng yào chōngdiànxiàn.",
-    "pinyin_numeric": "bu4 hao3 yi4 si0 ta1 xiang3 yao4 chong1 dian4 xian4",
-    "translation_en": "Excuse me, he / him would like charging cable.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "不好意思",
-      "他",
-      "想要",
-      "充電線"
-    ],
-    "token_ids": [
-      "VOC_D31_020",
-      "VOC_M1_004",
-      "VOC_D31_001",
-      "VOC_D32_028"
-    ],
-    "grammar_ids": [
-      "GR_D32_YAO_BU_YAO"
-    ],
-    "audio_id": "AUD_SEN_D32_023",
-    "difficulty": 2,
-    "production_type": "listening"
-  },
-  {
-    "id": "SEN_D32_024",
-    "text": "你想要買一送一嗎？",
-    "pinyin": "nǐ xiǎng yào mǎi yī sòng yī ma?",
-    "pinyin_numeric": "ni3 xiang3 yao4 mai3 yi1 song4 yi1 ma0",
-    "translation_en": "Do you want buy one get one free?",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "你",
-      "想要",
-      "買一送一",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_D31_001",
-      "VOC_D32_029",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D32_THIS_THAT_REVIEW"
-    ],
-    "audio_id": "AUD_SEN_D32_024",
-    "difficulty": 2,
-    "production_type": "memory"
-  },
-  {
-    "id": "SEN_D32_025",
-    "text": "我們想要特價。",
-    "pinyin": "wǒmen xiǎng yào tèjià.",
-    "pinyin_numeric": "women3 xiang3 yao4 te4 jia4",
-    "translation_en": "we / us would like special price.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "我們",
-      "想要",
-      "特價"
-    ],
-    "token_ids": [
-      "VOC_M1_006",
-      "VOC_D31_001",
-      "VOC_D32_030"
-    ],
-    "grammar_ids": [
-      "GR_D32_MEASURE_WORDS_BASIC"
-    ],
-    "audio_id": "AUD_SEN_D32_025",
-    "difficulty": 2,
-    "production_type": "substitution"
-  },
-  {
-    "id": "SEN_D32_026",
-    "text": "請給我條碼。",
-    "pinyin": "qǐng gěi wǒ tiáomǎ.",
-    "pinyin_numeric": "qing3 gei3 wo3 tiao2 ma3",
-    "translation_en": "Please bring/give barcode.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "請",
-      "給我",
-      "條碼"
-    ],
-    "token_ids": [
-      "VOC_M1_179",
-      "VOC_D31_005",
-      "VOC_D32_032"
-    ],
-    "grammar_ids": [
-      "GR_D32_YAO_BU_YAO"
-    ],
-    "audio_id": "AUD_SEN_D32_026",
-    "difficulty": 2,
-    "production_type": "listening"
-  },
-  {
-    "id": "SEN_D32_027",
-    "text": "可以給我明細嗎？",
-    "pinyin": "kěyǐ gěi wǒ míngxì ma?",
-    "pinyin_numeric": "keyi3 gei3 wo3 ming2 xi4 ma0",
-    "translation_en": "Can I/you have itemized details?",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "可以",
-      "給我",
-      "明細",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_M1_118",
-      "VOC_D31_005",
-      "VOC_D32_034",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D32_THIS_THAT_REVIEW"
-    ],
-    "audio_id": "AUD_SEN_D32_027",
-    "difficulty": 2,
-    "production_type": "memory"
-  },
-  {
-    "id": "SEN_D32_028",
-    "text": "他需要咖啡。",
-    "pinyin": "tā xūyào kāfēi.",
-    "pinyin_numeric": "ta1 xuyao4 kafei1",
-    "translation_en": "he / him needs coffee.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "他",
-      "需要",
-      "咖啡"
-    ],
-    "token_ids": [
-      "VOC_M1_004",
-      "VOC_M1_171",
-      "VOC_M1_047"
-    ],
-    "grammar_ids": [
-      "GR_D32_MEASURE_WORDS_BASIC"
-    ],
-    "audio_id": "AUD_SEN_D32_028",
-    "difficulty": 2,
-    "production_type": "substitution"
-  },
-  {
-    "id": "SEN_D32_029",
-    "text": "不好意思她想要紅茶。",
-    "pinyin": "bùhǎoyìsi tā xiǎng yào hóngchá.",
-    "pinyin_numeric": "bu4 hao3 yi4 si0 ta1 xiang3 yao4 hong2 cha2",
-    "translation_en": "Excuse me, she / her would like black tea.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "不好意思",
-      "她",
-      "想要",
-      "紅茶"
-    ],
-    "token_ids": [
-      "VOC_D31_020",
-      "VOC_M1_005",
-      "VOC_D31_001",
-      "VOC_D31_011"
-    ],
-    "grammar_ids": [
-      "GR_D32_YAO_BU_YAO"
-    ],
-    "audio_id": "AUD_SEN_D32_029",
-    "difficulty": 2,
-    "production_type": "listening"
-  },
-  {
-    "id": "SEN_D32_030",
-    "text": "你想要捷運嗎？",
-    "pinyin": "nǐ xiǎng yào jiéyùn ma?",
-    "pinyin_numeric": "ni3 xiang3 yao4 jieyun4 ma0",
-    "translation_en": "Do you want MRT / metro?",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "你",
-      "想要",
-      "捷運",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_D31_001",
-      "VOC_M1_154",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D32_THIS_THAT_REVIEW"
-    ],
-    "audio_id": "AUD_SEN_D32_030",
-    "difficulty": 2,
-    "production_type": "memory"
-  },
-  {
-    "id": "SEN_D32_031",
-    "text": "我想要今天。",
-    "pinyin": "wǒ xiǎng yào jīntiān.",
-    "pinyin_numeric": "wo3 xiang3 yao4 jintian1",
-    "translation_en": "I / me would like today.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "我",
-      "想要",
-      "今天"
-    ],
-    "token_ids": [
-      "VOC_M1_002",
-      "VOC_D31_001",
-      "VOC_M1_032"
-    ],
-    "grammar_ids": [
-      "GR_D32_MEASURE_WORDS_BASIC"
-    ],
-    "audio_id": "AUD_SEN_D32_031",
-    "difficulty": 2,
-    "production_type": "substitution"
-  },
-  {
-    "id": "SEN_D32_032",
-    "text": "請給我明天。",
-    "pinyin": "qǐng gěi wǒ míngtiān.",
-    "pinyin_numeric": "qing3 gei3 wo3 mingtian1",
-    "translation_en": "Please bring/give tomorrow.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "請",
-      "給我",
-      "明天"
-    ],
-    "token_ids": [
-      "VOC_M1_179",
-      "VOC_D31_005",
-      "VOC_M1_033"
-    ],
-    "grammar_ids": [
-      "GR_D32_YAO_BU_YAO"
-    ],
-    "audio_id": "AUD_SEN_D32_032",
-    "difficulty": 2,
-    "production_type": "listening"
-  },
-  {
-    "id": "SEN_D32_033",
-    "text": "可以給我便利商店嗎？",
-    "pinyin": "kěyǐ gěi wǒ biànlì shāngdiàn ma?",
-    "pinyin_numeric": "keyi3 gei3 wo3 bian4 li4 shang1 dian4 ma0",
-    "translation_en": "Can I/you have convenience store?",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "可以",
-      "給我",
-      "便利商店",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_M1_118",
-      "VOC_D31_005",
-      "VOC_D32_001",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D32_THIS_THAT_REVIEW"
-    ],
-    "audio_id": "AUD_SEN_D32_033",
-    "difficulty": 2,
-    "production_type": "memory"
-  },
-  {
-    "id": "SEN_D32_034",
-    "text": "她需要超商。",
-    "pinyin": "tā xūyào chāoshāng.",
-    "pinyin_numeric": "ta1 xuyao4 chao1 shang1",
-    "translation_en": "she / her needs convenience store.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "她",
-      "需要",
-      "超商"
-    ],
-    "token_ids": [
-      "VOC_M1_005",
-      "VOC_M1_171",
-      "VOC_D32_002"
-    ],
-    "grammar_ids": [
-      "GR_D32_MEASURE_WORDS_BASIC"
-    ],
-    "audio_id": "AUD_SEN_D32_034",
-    "difficulty": 2,
-    "production_type": "substitution"
-  },
-  {
-    "id": "SEN_D32_035",
-    "text": "不好意思我們想要現金。",
-    "pinyin": "bùhǎoyìsi wǒmen xiǎng yào xiànjīn.",
-    "pinyin_numeric": "bu4 hao3 yi4 si0 women3 xiang3 yao4 xian4 jin1",
-    "translation_en": "Excuse me, we / us would like cash.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "不好意思",
-      "我們",
-      "想要",
-      "現金"
-    ],
-    "token_ids": [
-      "VOC_D31_020",
-      "VOC_M1_006",
-      "VOC_D31_001",
-      "VOC_D32_005"
-    ],
-    "grammar_ids": [
-      "GR_D32_YAO_BU_YAO"
-    ],
-    "audio_id": "AUD_SEN_D32_035",
-    "difficulty": 2,
-    "production_type": "listening"
-  },
-  {
-    "id": "SEN_D32_036",
-    "text": "你想要信用卡嗎？",
-    "pinyin": "nǐ xiǎng yào xìnyòngkǎ ma?",
-    "pinyin_numeric": "ni3 xiang3 yao4 xin4 yong4 ka3 ma0",
-    "translation_en": "Do you want credit card?",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "你",
-      "想要",
-      "信用卡",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_D31_001",
-      "VOC_D32_006",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D32_THIS_THAT_REVIEW"
-    ],
-    "audio_id": "AUD_SEN_D32_036",
-    "difficulty": 2,
-    "production_type": "memory"
-  },
-  {
-    "id": "SEN_D32_037",
-    "text": "你想要電子支付。",
-    "pinyin": "nǐ xiǎng yào diànzǐ zhīfù.",
-    "pinyin_numeric": "ni3 xiang3 yao4 dian4 zi3 zhi1 fu4",
-    "translation_en": "you would like mobile payment.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "你",
-      "想要",
-      "電子支付"
-    ],
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_D31_001",
-      "VOC_D32_007"
-    ],
-    "grammar_ids": [
-      "GR_D32_MEASURE_WORDS_BASIC"
-    ],
-    "audio_id": "AUD_SEN_D32_037",
-    "difficulty": 2,
-    "production_type": "substitution"
-  },
-  {
-    "id": "SEN_D32_038",
-    "text": "請給我收據。",
-    "pinyin": "qǐng gěi wǒ shōujù.",
-    "pinyin_numeric": "qing3 gei3 wo3 shou1 ju4",
-    "translation_en": "Please bring/give receipt.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "請",
-      "給我",
-      "收據"
-    ],
-    "token_ids": [
-      "VOC_M1_179",
-      "VOC_D31_005",
-      "VOC_D32_009"
-    ],
-    "grammar_ids": [
-      "GR_D32_YAO_BU_YAO"
-    ],
-    "audio_id": "AUD_SEN_D32_038",
-    "difficulty": 2,
-    "production_type": "listening"
-  },
-  {
-    "id": "SEN_D32_039",
-    "text": "可以給我載具嗎？",
-    "pinyin": "kěyǐ gěi wǒ zàijù ma?",
-    "pinyin_numeric": "keyi3 gei3 wo3 zai4 ju4 ma0",
-    "translation_en": "Can I/you have invoice carrier?",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "可以",
-      "給我",
-      "載具",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_M1_118",
-      "VOC_D31_005",
-      "VOC_D32_010",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D32_THIS_THAT_REVIEW"
-    ],
-    "audio_id": "AUD_SEN_D32_039",
-    "difficulty": 2,
-    "production_type": "memory"
-  },
-  {
-    "id": "SEN_D32_040",
-    "text": "我們需要會員。",
-    "pinyin": "wǒmen xūyào huìyuán.",
-    "pinyin_numeric": "women3 xuyao4 hui4 yuan2",
-    "translation_en": "we / us needs member.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "我們",
-      "需要",
-      "會員"
-    ],
-    "token_ids": [
-      "VOC_M1_006",
-      "VOC_M1_171",
-      "VOC_D32_011"
-    ],
-    "grammar_ids": [
-      "GR_D32_MEASURE_WORDS_BASIC"
-    ],
-    "audio_id": "AUD_SEN_D32_040",
-    "difficulty": 2,
-    "production_type": "substitution"
-  },
-  {
-    "id": "SEN_D32_041",
-    "text": "不好意思我想要點數。",
-    "pinyin": "bùhǎoyìsi wǒ xiǎng yào diǎnshù.",
-    "pinyin_numeric": "bu4 hao3 yi4 si0 wo3 xiang3 yao4 dian3 shu4",
-    "translation_en": "Excuse me, I / me would like points.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "不好意思",
-      "我",
-      "想要",
-      "點數"
-    ],
-    "token_ids": [
-      "VOC_D31_020",
-      "VOC_M1_002",
-      "VOC_D31_001",
-      "VOC_D32_012"
-    ],
-    "grammar_ids": [
-      "GR_D32_YAO_BU_YAO"
-    ],
-    "audio_id": "AUD_SEN_D32_041",
-    "difficulty": 2,
-    "production_type": "listening"
-  },
-  {
-    "id": "SEN_D32_042",
-    "text": "你想要塑膠袋嗎？",
-    "pinyin": "nǐ xiǎng yào sùjiāo dài ma?",
-    "pinyin_numeric": "ni3 xiang3 yao4 su4 jiao1 dai4 ma0",
-    "translation_en": "Do you want plastic bag?",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "你",
-      "想要",
-      "塑膠袋",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_D31_001",
-      "VOC_D32_013",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D32_THIS_THAT_REVIEW"
-    ],
-    "audio_id": "AUD_SEN_D32_042",
-    "difficulty": 2,
-    "production_type": "memory"
-  },
-  {
-    "id": "SEN_D32_043",
-    "text": "他想要環保袋。",
-    "pinyin": "tā xiǎng yào huánbǎo dài.",
-    "pinyin_numeric": "ta1 xiang3 yao4 huan2 bao3 dai4",
-    "translation_en": "he / him would like reusable bag.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "他",
-      "想要",
-      "環保袋"
-    ],
-    "token_ids": [
-      "VOC_M1_004",
-      "VOC_D31_001",
-      "VOC_D32_014"
-    ],
-    "grammar_ids": [
-      "GR_D32_MEASURE_WORDS_BASIC"
-    ],
-    "audio_id": "AUD_SEN_D32_043",
-    "difficulty": 2,
-    "production_type": "substitution"
-  },
-  {
-    "id": "SEN_D32_044",
-    "text": "請給我便當。",
-    "pinyin": "qǐng gěi wǒ biàndāng.",
-    "pinyin_numeric": "qing3 gei3 wo3 bian4 dang1",
-    "translation_en": "Please bring/give lunch box.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "請",
-      "給我",
-      "便當"
-    ],
-    "token_ids": [
-      "VOC_M1_179",
-      "VOC_D31_005",
-      "VOC_D32_017"
-    ],
-    "grammar_ids": [
-      "GR_D32_YAO_BU_YAO"
-    ],
-    "audio_id": "AUD_SEN_D32_044",
-    "difficulty": 2,
-    "production_type": "listening"
-  },
-  {
-    "id": "SEN_D32_045",
-    "text": "可以給我飯糰嗎？",
-    "pinyin": "kěyǐ gěi wǒ fàntuán ma?",
-    "pinyin_numeric": "keyi3 gei3 wo3 fan4 tuan2 ma0",
-    "translation_en": "Can I/you have rice ball?",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "可以",
-      "給我",
-      "飯糰",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_M1_118",
-      "VOC_D31_005",
-      "VOC_D32_018",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D32_THIS_THAT_REVIEW"
-    ],
-    "audio_id": "AUD_SEN_D32_045",
-    "difficulty": 2,
-    "production_type": "memory"
-  },
-  {
-    "id": "SEN_D32_046",
-    "text": "我需要三明治。",
-    "pinyin": "wǒ xūyào sānmíngzhì.",
-    "pinyin_numeric": "wo3 xuyao4 san1 ming2 zhi4",
-    "translation_en": "I / me needs sandwich.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "我",
-      "需要",
-      "三明治"
-    ],
-    "token_ids": [
-      "VOC_M1_002",
-      "VOC_M1_171",
-      "VOC_D32_019"
-    ],
-    "grammar_ids": [
-      "GR_D32_MEASURE_WORDS_BASIC"
-    ],
-    "audio_id": "AUD_SEN_D32_046",
-    "difficulty": 2,
-    "production_type": "substitution"
-  },
-  {
-    "id": "SEN_D32_047",
-    "text": "不好意思你想要茶葉蛋。",
-    "pinyin": "bùhǎoyìsi nǐ xiǎng yào cháyèdàn.",
-    "pinyin_numeric": "bu4 hao3 yi4 si0 ni3 xiang3 yao4 cha2 ye4 dan4",
-    "translation_en": "Excuse me, you would like tea egg.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "不好意思",
-      "你",
-      "想要",
-      "茶葉蛋"
-    ],
-    "token_ids": [
-      "VOC_D31_020",
-      "VOC_M1_003",
-      "VOC_D31_001",
-      "VOC_D32_020"
-    ],
-    "grammar_ids": [
-      "GR_D32_YAO_BU_YAO"
-    ],
-    "audio_id": "AUD_SEN_D32_047",
-    "difficulty": 2,
-    "production_type": "listening"
-  },
-  {
-    "id": "SEN_D32_048",
-    "text": "你想要礦泉水嗎？",
-    "pinyin": "nǐ xiǎng yào kuàngquánshuǐ ma?",
-    "pinyin_numeric": "ni3 xiang3 yao4 kuang4 quan2 shui3 ma0",
-    "translation_en": "Do you want mineral water?",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "你",
-      "想要",
-      "礦泉水",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_D31_001",
-      "VOC_D32_021",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D32_THIS_THAT_REVIEW"
-    ],
-    "audio_id": "AUD_SEN_D32_048",
-    "difficulty": 2,
-    "production_type": "memory"
-  },
-  {
-    "id": "SEN_D32_049",
-    "text": "她想要優格。",
-    "pinyin": "tā xiǎng yào yōugé.",
-    "pinyin_numeric": "ta1 xiang3 yao4 you1 ge2",
-    "translation_en": "she / her would like yogurt.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "她",
-      "想要",
-      "優格"
-    ],
-    "token_ids": [
-      "VOC_M1_005",
-      "VOC_D31_001",
-      "VOC_D32_022"
-    ],
-    "grammar_ids": [
-      "GR_D32_MEASURE_WORDS_BASIC"
-    ],
-    "audio_id": "AUD_SEN_D32_049",
-    "difficulty": 2,
-    "production_type": "substitution"
-  },
-  {
-    "id": "SEN_D32_050",
-    "text": "請給我餅乾。",
-    "pinyin": "qǐng gěi wǒ bǐnggān.",
-    "pinyin_numeric": "qing3 gei3 wo3 bing3 gan1",
-    "translation_en": "Please bring/give crackers / cookies.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "請",
-      "給我",
-      "餅乾"
-    ],
-    "token_ids": [
-      "VOC_M1_179",
-      "VOC_D31_005",
-      "VOC_D32_023"
-    ],
-    "grammar_ids": [
-      "GR_D32_YAO_BU_YAO"
-    ],
-    "audio_id": "AUD_SEN_D32_050",
-    "difficulty": 2,
-    "production_type": "listening"
-  },
-  {
-    "id": "SEN_D32_051",
-    "text": "可以給我泡麵嗎？",
-    "pinyin": "kěyǐ gěi wǒ pàomiàn ma?",
-    "pinyin_numeric": "keyi3 gei3 wo3 pao4 mian4 ma0",
-    "translation_en": "Can I/you have instant noodles?",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "可以",
-      "給我",
-      "泡麵",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_M1_118",
-      "VOC_D31_005",
-      "VOC_D32_024",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D32_THIS_THAT_REVIEW"
-    ],
-    "audio_id": "AUD_SEN_D32_051",
-    "difficulty": 2,
-    "production_type": "memory"
-  },
-  {
-    "id": "SEN_D32_052",
-    "text": "你需要雨傘。",
-    "pinyin": "nǐ xūyào yǔsǎn.",
-    "pinyin_numeric": "ni3 xuyao4 yu3 san3",
-    "translation_en": "you needs umbrella.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "你",
-      "需要",
-      "雨傘"
-    ],
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_M1_171",
-      "VOC_D32_025"
-    ],
-    "grammar_ids": [
-      "GR_D32_MEASURE_WORDS_BASIC"
-    ],
-    "audio_id": "AUD_SEN_D32_052",
-    "difficulty": 2,
-    "production_type": "substitution"
-  },
-  {
-    "id": "SEN_D32_053",
-    "text": "不好意思他想要口罩。",
-    "pinyin": "bùhǎoyìsi tā xiǎng yào kǒuzhào.",
-    "pinyin_numeric": "bu4 hao3 yi4 si0 ta1 xiang3 yao4 kou3 zhao4",
-    "translation_en": "Excuse me, he / him would like mask.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "不好意思",
-      "他",
-      "想要",
-      "口罩"
-    ],
-    "token_ids": [
-      "VOC_D31_020",
-      "VOC_M1_004",
-      "VOC_D31_001",
-      "VOC_D32_026"
-    ],
-    "grammar_ids": [
-      "GR_D32_YAO_BU_YAO"
-    ],
-    "audio_id": "AUD_SEN_D32_053",
-    "difficulty": 2,
-    "production_type": "listening"
-  },
-  {
-    "id": "SEN_D32_054",
-    "text": "你想要電池嗎？",
-    "pinyin": "nǐ xiǎng yào diànchí ma?",
-    "pinyin_numeric": "ni3 xiang3 yao4 dian4 chi2 ma0",
-    "translation_en": "Do you want battery?",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "你",
-      "想要",
-      "電池",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_D31_001",
-      "VOC_D32_027",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D32_THIS_THAT_REVIEW"
-    ],
-    "audio_id": "AUD_SEN_D32_054",
-    "difficulty": 2,
-    "production_type": "memory"
-  },
-  {
-    "id": "SEN_D32_055",
-    "text": "我們想要充電線。",
-    "pinyin": "wǒmen xiǎng yào chōngdiànxiàn.",
-    "pinyin_numeric": "women3 xiang3 yao4 chong1 dian4 xian4",
-    "translation_en": "we / us would like charging cable.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "我們",
-      "想要",
-      "充電線"
-    ],
-    "token_ids": [
-      "VOC_M1_006",
-      "VOC_D31_001",
-      "VOC_D32_028"
-    ],
-    "grammar_ids": [
-      "GR_D32_MEASURE_WORDS_BASIC"
-    ],
-    "audio_id": "AUD_SEN_D32_055",
-    "difficulty": 2,
-    "production_type": "substitution"
-  },
-  {
-    "id": "SEN_D32_056",
-    "text": "請給我買一送一。",
-    "pinyin": "qǐng gěi wǒ mǎi yī sòng yī.",
-    "pinyin_numeric": "qing3 gei3 wo3 mai3 yi1 song4 yi1",
-    "translation_en": "Please bring/give buy one get one free.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "請",
-      "給我",
-      "買一送一"
-    ],
-    "token_ids": [
-      "VOC_M1_179",
-      "VOC_D31_005",
-      "VOC_D32_029"
-    ],
-    "grammar_ids": [
-      "GR_D32_YAO_BU_YAO"
-    ],
-    "audio_id": "AUD_SEN_D32_056",
-    "difficulty": 2,
-    "production_type": "listening"
-  },
-  {
-    "id": "SEN_D32_057",
-    "text": "可以給我特價嗎？",
-    "pinyin": "kěyǐ gěi wǒ tèjià ma?",
-    "pinyin_numeric": "keyi3 gei3 wo3 te4 jia4 ma0",
-    "translation_en": "Can I/you have special price?",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "可以",
-      "給我",
-      "特價",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_M1_118",
-      "VOC_D31_005",
-      "VOC_D32_030",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D32_THIS_THAT_REVIEW"
-    ],
-    "audio_id": "AUD_SEN_D32_057",
-    "difficulty": 2,
-    "production_type": "memory"
-  },
-  {
-    "id": "SEN_D32_058",
-    "text": "他需要條碼。",
-    "pinyin": "tā xūyào tiáomǎ.",
-    "pinyin_numeric": "ta1 xuyao4 tiao2 ma3",
-    "translation_en": "he / him needs barcode.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "他",
-      "需要",
-      "條碼"
-    ],
-    "token_ids": [
-      "VOC_M1_004",
-      "VOC_M1_171",
-      "VOC_D32_032"
-    ],
-    "grammar_ids": [
-      "GR_D32_MEASURE_WORDS_BASIC"
-    ],
-    "audio_id": "AUD_SEN_D32_058",
-    "difficulty": 2,
-    "production_type": "substitution"
-  },
-  {
-    "id": "SEN_D32_059",
-    "text": "不好意思她想要明細。",
-    "pinyin": "bùhǎoyìsi tā xiǎng yào míngxì.",
-    "pinyin_numeric": "bu4 hao3 yi4 si0 ta1 xiang3 yao4 ming2 xi4",
-    "translation_en": "Excuse me, she / her would like itemized details.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "不好意思",
-      "她",
-      "想要",
-      "明細"
-    ],
-    "token_ids": [
-      "VOC_D31_020",
-      "VOC_M1_005",
-      "VOC_D31_001",
-      "VOC_D32_034"
-    ],
-    "grammar_ids": [
-      "GR_D32_YAO_BU_YAO"
-    ],
-    "audio_id": "AUD_SEN_D32_059",
-    "difficulty": 2,
-    "production_type": "listening"
-  },
-  {
-    "id": "SEN_D32_060",
-    "text": "你想要咖啡嗎？",
-    "pinyin": "nǐ xiǎng yào kāfēi ma?",
-    "pinyin_numeric": "ni3 xiang3 yao4 kafei1 ma0",
-    "translation_en": "Do you want coffee?",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "你",
-      "想要",
-      "咖啡",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_D31_001",
-      "VOC_M1_047",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D32_THIS_THAT_REVIEW"
-    ],
-    "audio_id": "AUD_SEN_D32_060",
-    "difficulty": 2,
-    "production_type": "memory"
-  },
-  {
-    "id": "SEN_D32_061",
-    "text": "我想要紅茶。",
-    "pinyin": "wǒ xiǎng yào hóngchá.",
-    "pinyin_numeric": "wo3 xiang3 yao4 hong2 cha2",
-    "translation_en": "I / me would like black tea.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "我",
-      "想要",
-      "紅茶"
-    ],
-    "token_ids": [
-      "VOC_M1_002",
-      "VOC_D31_001",
-      "VOC_D31_011"
-    ],
-    "grammar_ids": [
-      "GR_D32_MEASURE_WORDS_BASIC"
-    ],
-    "audio_id": "AUD_SEN_D32_061",
-    "difficulty": 2,
-    "production_type": "substitution"
-  },
-  {
-    "id": "SEN_D32_062",
-    "text": "請給我捷運。",
-    "pinyin": "qǐng gěi wǒ jiéyùn.",
-    "pinyin_numeric": "qing3 gei3 wo3 jieyun4",
-    "translation_en": "Please bring/give MRT / metro.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "請",
-      "給我",
-      "捷運"
-    ],
-    "token_ids": [
-      "VOC_M1_179",
-      "VOC_D31_005",
-      "VOC_M1_154"
-    ],
-    "grammar_ids": [
-      "GR_D32_YAO_BU_YAO"
-    ],
-    "audio_id": "AUD_SEN_D32_062",
-    "difficulty": 2,
-    "production_type": "listening"
-  },
-  {
-    "id": "SEN_D32_063",
-    "text": "可以給我今天嗎？",
-    "pinyin": "kěyǐ gěi wǒ jīntiān ma?",
-    "pinyin_numeric": "keyi3 gei3 wo3 jintian1 ma0",
-    "translation_en": "Can I/you have today?",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "可以",
-      "給我",
-      "今天",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_M1_118",
-      "VOC_D31_005",
-      "VOC_M1_032",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D32_THIS_THAT_REVIEW"
-    ],
-    "audio_id": "AUD_SEN_D32_063",
-    "difficulty": 2,
-    "production_type": "memory"
-  },
-  {
-    "id": "SEN_D32_064",
-    "text": "她需要明天。",
-    "pinyin": "tā xūyào míngtiān.",
-    "pinyin_numeric": "ta1 xuyao4 mingtian1",
-    "translation_en": "she / her needs tomorrow.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "她",
-      "需要",
-      "明天"
-    ],
-    "token_ids": [
-      "VOC_M1_005",
-      "VOC_M1_171",
-      "VOC_M1_033"
-    ],
-    "grammar_ids": [
-      "GR_D32_MEASURE_WORDS_BASIC"
-    ],
-    "audio_id": "AUD_SEN_D32_064",
-    "difficulty": 2,
-    "production_type": "substitution"
-  },
-  {
-    "id": "SEN_D32_065",
-    "text": "不好意思我們想要便利商店。",
-    "pinyin": "bùhǎoyìsi wǒmen xiǎng yào biànlì shāngdiàn.",
-    "pinyin_numeric": "bu4 hao3 yi4 si0 women3 xiang3 yao4 bian4 li4 shang1 dian4",
-    "translation_en": "Excuse me, we / us would like convenience store.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "不好意思",
-      "我們",
-      "想要",
-      "便利商店"
-    ],
-    "token_ids": [
-      "VOC_D31_020",
-      "VOC_M1_006",
-      "VOC_D31_001",
-      "VOC_D32_001"
-    ],
-    "grammar_ids": [
-      "GR_D32_YAO_BU_YAO"
-    ],
-    "audio_id": "AUD_SEN_D32_065",
-    "difficulty": 2,
-    "production_type": "listening"
-  },
-  {
-    "id": "SEN_D32_066",
-    "text": "你想要超商嗎？",
-    "pinyin": "nǐ xiǎng yào chāoshāng ma?",
-    "pinyin_numeric": "ni3 xiang3 yao4 chao1 shang1 ma0",
-    "translation_en": "Do you want convenience store?",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "你",
-      "想要",
-      "超商",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_D31_001",
-      "VOC_D32_002",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D32_THIS_THAT_REVIEW"
-    ],
-    "audio_id": "AUD_SEN_D32_066",
-    "difficulty": 2,
-    "production_type": "memory"
-  },
-  {
-    "id": "SEN_D32_067",
-    "text": "你想要現金。",
-    "pinyin": "nǐ xiǎng yào xiànjīn.",
-    "pinyin_numeric": "ni3 xiang3 yao4 xian4 jin1",
-    "translation_en": "you would like cash.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "你",
-      "想要",
-      "現金"
-    ],
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_D31_001",
-      "VOC_D32_005"
-    ],
-    "grammar_ids": [
-      "GR_D32_MEASURE_WORDS_BASIC"
-    ],
-    "audio_id": "AUD_SEN_D32_067",
-    "difficulty": 2,
-    "production_type": "substitution"
-  },
-  {
-    "id": "SEN_D32_068",
-    "text": "請給我信用卡。",
-    "pinyin": "qǐng gěi wǒ xìnyòngkǎ.",
-    "pinyin_numeric": "qing3 gei3 wo3 xin4 yong4 ka3",
-    "translation_en": "Please bring/give credit card.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "請",
-      "給我",
-      "信用卡"
-    ],
-    "token_ids": [
-      "VOC_M1_179",
-      "VOC_D31_005",
-      "VOC_D32_006"
-    ],
-    "grammar_ids": [
-      "GR_D32_YAO_BU_YAO"
-    ],
-    "audio_id": "AUD_SEN_D32_068",
-    "difficulty": 2,
-    "production_type": "listening"
-  },
-  {
-    "id": "SEN_D32_069",
-    "text": "可以給我電子支付嗎？",
-    "pinyin": "kěyǐ gěi wǒ diànzǐ zhīfù ma?",
-    "pinyin_numeric": "keyi3 gei3 wo3 dian4 zi3 zhi1 fu4 ma0",
-    "translation_en": "Can I/you have mobile payment?",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "可以",
-      "給我",
-      "電子支付",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_M1_118",
-      "VOC_D31_005",
-      "VOC_D32_007",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D32_THIS_THAT_REVIEW"
-    ],
-    "audio_id": "AUD_SEN_D32_069",
-    "difficulty": 2,
-    "production_type": "memory"
-  },
-  {
-    "id": "SEN_D32_070",
-    "text": "我們需要收據。",
-    "pinyin": "wǒmen xūyào shōujù.",
-    "pinyin_numeric": "women3 xuyao4 shou1 ju4",
-    "translation_en": "we / us needs receipt.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "我們",
-      "需要",
-      "收據"
-    ],
-    "token_ids": [
-      "VOC_M1_006",
-      "VOC_M1_171",
-      "VOC_D32_009"
-    ],
-    "grammar_ids": [
-      "GR_D32_MEASURE_WORDS_BASIC"
-    ],
-    "audio_id": "AUD_SEN_D32_070",
-    "difficulty": 2,
-    "production_type": "substitution"
-  },
-  {
-    "id": "SEN_D32_071",
-    "text": "不好意思我想要載具。",
-    "pinyin": "bùhǎoyìsi wǒ xiǎng yào zàijù.",
-    "pinyin_numeric": "bu4 hao3 yi4 si0 wo3 xiang3 yao4 zai4 ju4",
-    "translation_en": "Excuse me, I / me would like invoice carrier.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "不好意思",
-      "我",
-      "想要",
-      "載具"
-    ],
-    "token_ids": [
-      "VOC_D31_020",
-      "VOC_M1_002",
-      "VOC_D31_001",
-      "VOC_D32_010"
-    ],
-    "grammar_ids": [
-      "GR_D32_YAO_BU_YAO"
-    ],
-    "audio_id": "AUD_SEN_D32_071",
-    "difficulty": 2,
-    "production_type": "listening"
-  },
-  {
-    "id": "SEN_D32_072",
-    "text": "你想要會員嗎？",
-    "pinyin": "nǐ xiǎng yào huìyuán ma?",
-    "pinyin_numeric": "ni3 xiang3 yao4 hui4 yuan2 ma0",
-    "translation_en": "Do you want member?",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "你",
-      "想要",
-      "會員",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_D31_001",
-      "VOC_D32_011",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D32_THIS_THAT_REVIEW"
-    ],
-    "audio_id": "AUD_SEN_D32_072",
-    "difficulty": 2,
-    "production_type": "memory"
-  },
-  {
-    "id": "SEN_D32_073",
-    "text": "他想要點數。",
-    "pinyin": "tā xiǎng yào diǎnshù.",
-    "pinyin_numeric": "ta1 xiang3 yao4 dian3 shu4",
-    "translation_en": "he / him would like points.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "他",
-      "想要",
-      "點數"
-    ],
-    "token_ids": [
-      "VOC_M1_004",
-      "VOC_D31_001",
-      "VOC_D32_012"
-    ],
-    "grammar_ids": [
-      "GR_D32_MEASURE_WORDS_BASIC"
-    ],
-    "audio_id": "AUD_SEN_D32_073",
-    "difficulty": 2,
-    "production_type": "substitution"
-  },
-  {
-    "id": "SEN_D32_074",
-    "text": "請給我塑膠袋。",
-    "pinyin": "qǐng gěi wǒ sùjiāo dài.",
-    "pinyin_numeric": "qing3 gei3 wo3 su4 jiao1 dai4",
-    "translation_en": "Please bring/give plastic bag.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "請",
-      "給我",
-      "塑膠袋"
-    ],
-    "token_ids": [
-      "VOC_M1_179",
-      "VOC_D31_005",
-      "VOC_D32_013"
-    ],
-    "grammar_ids": [
-      "GR_D32_YAO_BU_YAO"
-    ],
-    "audio_id": "AUD_SEN_D32_074",
-    "difficulty": 2,
-    "production_type": "listening"
-  },
-  {
-    "id": "SEN_D32_075",
-    "text": "可以給我環保袋嗎？",
-    "pinyin": "kěyǐ gěi wǒ huánbǎo dài ma?",
-    "pinyin_numeric": "keyi3 gei3 wo3 huan2 bao3 dai4 ma0",
-    "translation_en": "Can I/you have reusable bag?",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "可以",
-      "給我",
-      "環保袋",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_M1_118",
-      "VOC_D31_005",
-      "VOC_D32_014",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D32_THIS_THAT_REVIEW"
-    ],
-    "audio_id": "AUD_SEN_D32_075",
-    "difficulty": 2,
-    "production_type": "memory"
-  },
-  {
-    "id": "SEN_D32_076",
-    "text": "我需要便當。",
-    "pinyin": "wǒ xūyào biàndāng.",
-    "pinyin_numeric": "wo3 xuyao4 bian4 dang1",
-    "translation_en": "I / me needs lunch box.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "我",
-      "需要",
-      "便當"
-    ],
-    "token_ids": [
-      "VOC_M1_002",
-      "VOC_M1_171",
-      "VOC_D32_017"
-    ],
-    "grammar_ids": [
-      "GR_D32_MEASURE_WORDS_BASIC"
-    ],
-    "audio_id": "AUD_SEN_D32_076",
-    "difficulty": 2,
-    "production_type": "substitution"
-  },
-  {
-    "id": "SEN_D32_077",
-    "text": "不好意思你想要飯糰。",
-    "pinyin": "bùhǎoyìsi nǐ xiǎng yào fàntuán.",
-    "pinyin_numeric": "bu4 hao3 yi4 si0 ni3 xiang3 yao4 fan4 tuan2",
-    "translation_en": "Excuse me, you would like rice ball.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "不好意思",
-      "你",
-      "想要",
-      "飯糰"
-    ],
-    "token_ids": [
-      "VOC_D31_020",
-      "VOC_M1_003",
-      "VOC_D31_001",
-      "VOC_D32_018"
-    ],
-    "grammar_ids": [
-      "GR_D32_YAO_BU_YAO"
-    ],
-    "audio_id": "AUD_SEN_D32_077",
-    "difficulty": 2,
-    "production_type": "listening"
-  },
-  {
-    "id": "SEN_D32_078",
-    "text": "你想要三明治嗎？",
-    "pinyin": "nǐ xiǎng yào sānmíngzhì ma?",
-    "pinyin_numeric": "ni3 xiang3 yao4 san1 ming2 zhi4 ma0",
-    "translation_en": "Do you want sandwich?",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "你",
-      "想要",
-      "三明治",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_D31_001",
-      "VOC_D32_019",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D32_THIS_THAT_REVIEW"
-    ],
-    "audio_id": "AUD_SEN_D32_078",
-    "difficulty": 2,
-    "production_type": "memory"
-  },
-  {
-    "id": "SEN_D32_079",
-    "text": "她想要茶葉蛋。",
-    "pinyin": "tā xiǎng yào cháyèdàn.",
-    "pinyin_numeric": "ta1 xiang3 yao4 cha2 ye4 dan4",
-    "translation_en": "she / her would like tea egg.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "她",
-      "想要",
-      "茶葉蛋"
-    ],
-    "token_ids": [
-      "VOC_M1_005",
-      "VOC_D31_001",
-      "VOC_D32_020"
-    ],
-    "grammar_ids": [
-      "GR_D32_MEASURE_WORDS_BASIC"
-    ],
-    "audio_id": "AUD_SEN_D32_079",
-    "difficulty": 2,
-    "production_type": "substitution"
-  },
-  {
-    "id": "SEN_D32_080",
-    "text": "請給我礦泉水。",
-    "pinyin": "qǐng gěi wǒ kuàngquánshuǐ.",
-    "pinyin_numeric": "qing3 gei3 wo3 kuang4 quan2 shui3",
-    "translation_en": "Please bring/give mineral water.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "請",
-      "給我",
-      "礦泉水"
-    ],
-    "token_ids": [
-      "VOC_M1_179",
-      "VOC_D31_005",
-      "VOC_D32_021"
-    ],
-    "grammar_ids": [
-      "GR_D32_YAO_BU_YAO"
-    ],
-    "audio_id": "AUD_SEN_D32_080",
-    "difficulty": 2,
-    "production_type": "listening"
-  },
-  {
-    "id": "SEN_D32_081",
-    "text": "可以給我優格嗎？",
-    "pinyin": "kěyǐ gěi wǒ yōugé ma?",
-    "pinyin_numeric": "keyi3 gei3 wo3 you1 ge2 ma0",
-    "translation_en": "Can I/you have yogurt?",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "可以",
-      "給我",
-      "優格",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_M1_118",
-      "VOC_D31_005",
-      "VOC_D32_022",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D32_THIS_THAT_REVIEW"
-    ],
-    "audio_id": "AUD_SEN_D32_081",
-    "difficulty": 2,
-    "production_type": "memory"
-  },
-  {
-    "id": "SEN_D32_082",
-    "text": "你需要餅乾。",
-    "pinyin": "nǐ xūyào bǐnggān.",
-    "pinyin_numeric": "ni3 xuyao4 bing3 gan1",
-    "translation_en": "you needs crackers / cookies.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "你",
-      "需要",
-      "餅乾"
-    ],
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_M1_171",
-      "VOC_D32_023"
-    ],
-    "grammar_ids": [
-      "GR_D32_MEASURE_WORDS_BASIC"
-    ],
-    "audio_id": "AUD_SEN_D32_082",
-    "difficulty": 2,
-    "production_type": "substitution"
-  },
-  {
-    "id": "SEN_D32_083",
-    "text": "不好意思他想要泡麵。",
-    "pinyin": "bùhǎoyìsi tā xiǎng yào pàomiàn.",
-    "pinyin_numeric": "bu4 hao3 yi4 si0 ta1 xiang3 yao4 pao4 mian4",
-    "translation_en": "Excuse me, he / him would like instant noodles.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "不好意思",
-      "他",
-      "想要",
-      "泡麵"
-    ],
-    "token_ids": [
-      "VOC_D31_020",
-      "VOC_M1_004",
-      "VOC_D31_001",
-      "VOC_D32_024"
-    ],
-    "grammar_ids": [
-      "GR_D32_YAO_BU_YAO"
-    ],
-    "audio_id": "AUD_SEN_D32_083",
-    "difficulty": 2,
-    "production_type": "listening"
-  },
-  {
-    "id": "SEN_D32_084",
-    "text": "你想要雨傘嗎？",
-    "pinyin": "nǐ xiǎng yào yǔsǎn ma?",
-    "pinyin_numeric": "ni3 xiang3 yao4 yu3 san3 ma0",
-    "translation_en": "Do you want umbrella?",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "你",
-      "想要",
-      "雨傘",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_D31_001",
-      "VOC_D32_025",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D32_THIS_THAT_REVIEW"
-    ],
-    "audio_id": "AUD_SEN_D32_084",
-    "difficulty": 2,
-    "production_type": "memory"
-  },
-  {
-    "id": "SEN_D32_085",
-    "text": "我們想要口罩。",
-    "pinyin": "wǒmen xiǎng yào kǒuzhào.",
-    "pinyin_numeric": "women3 xiang3 yao4 kou3 zhao4",
-    "translation_en": "we / us would like mask.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "我們",
-      "想要",
-      "口罩"
-    ],
-    "token_ids": [
-      "VOC_M1_006",
-      "VOC_D31_001",
-      "VOC_D32_026"
-    ],
-    "grammar_ids": [
-      "GR_D32_MEASURE_WORDS_BASIC"
-    ],
-    "audio_id": "AUD_SEN_D32_085",
-    "difficulty": 2,
-    "production_type": "substitution"
-  },
-  {
-    "id": "SEN_D32_086",
-    "text": "請給我電池。",
-    "pinyin": "qǐng gěi wǒ diànchí.",
-    "pinyin_numeric": "qing3 gei3 wo3 dian4 chi2",
-    "translation_en": "Please bring/give battery.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "請",
-      "給我",
-      "電池"
-    ],
-    "token_ids": [
-      "VOC_M1_179",
-      "VOC_D31_005",
-      "VOC_D32_027"
-    ],
-    "grammar_ids": [
-      "GR_D32_YAO_BU_YAO"
-    ],
-    "audio_id": "AUD_SEN_D32_086",
-    "difficulty": 2,
-    "production_type": "listening"
-  },
-  {
-    "id": "SEN_D32_087",
-    "text": "可以給我充電線嗎？",
-    "pinyin": "kěyǐ gěi wǒ chōngdiànxiàn ma?",
-    "pinyin_numeric": "keyi3 gei3 wo3 chong1 dian4 xian4 ma0",
-    "translation_en": "Can I/you have charging cable?",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "可以",
-      "給我",
-      "充電線",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_M1_118",
-      "VOC_D31_005",
-      "VOC_D32_028",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D32_THIS_THAT_REVIEW"
-    ],
-    "audio_id": "AUD_SEN_D32_087",
-    "difficulty": 2,
-    "production_type": "memory"
-  },
-  {
-    "id": "SEN_D32_088",
-    "text": "他需要買一送一。",
-    "pinyin": "tā xūyào mǎi yī sòng yī.",
-    "pinyin_numeric": "ta1 xuyao4 mai3 yi1 song4 yi1",
-    "translation_en": "he / him needs buy one get one free.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "他",
-      "需要",
-      "買一送一"
-    ],
-    "token_ids": [
-      "VOC_M1_004",
-      "VOC_M1_171",
-      "VOC_D32_029"
-    ],
-    "grammar_ids": [
-      "GR_D32_MEASURE_WORDS_BASIC"
-    ],
-    "audio_id": "AUD_SEN_D32_088",
-    "difficulty": 2,
-    "production_type": "substitution"
-  },
-  {
-    "id": "SEN_D32_089",
-    "text": "不好意思她想要特價。",
-    "pinyin": "bùhǎoyìsi tā xiǎng yào tèjià.",
-    "pinyin_numeric": "bu4 hao3 yi4 si0 ta1 xiang3 yao4 te4 jia4",
-    "translation_en": "Excuse me, she / her would like special price.",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "不好意思",
-      "她",
-      "想要",
-      "特價"
-    ],
-    "token_ids": [
-      "VOC_D31_020",
-      "VOC_M1_005",
-      "VOC_D31_001",
-      "VOC_D32_030"
-    ],
-    "grammar_ids": [
-      "GR_D32_YAO_BU_YAO"
-    ],
-    "audio_id": "AUD_SEN_D32_089",
-    "difficulty": 2,
-    "production_type": "listening"
-  },
-  {
-    "id": "SEN_D32_090",
-    "text": "你想要條碼嗎？",
-    "pinyin": "nǐ xiǎng yào tiáomǎ ma?",
-    "pinyin_numeric": "ni3 xiang3 yao4 tiao2 ma3 ma0",
-    "translation_en": "Do you want barcode?",
-    "translation_ko": "문맥에 맞게 중국어 문장을 말해 보세요.",
-    "tokens": [
-      "你",
-      "想要",
-      "條碼",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_D31_001",
-      "VOC_D32_032",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D32_THIS_THAT_REVIEW"
-    ],
-    "audio_id": "AUD_SEN_D32_090",
-    "difficulty": 2,
-    "production_type": "memory"
-  },
-  {
     "id": "SEN_D33_001",
     "text": "我想要洗手間。",
     "pinyin": "wǒ xiǎng yào xǐshǒujiān.",
@@ -31812,5 +29562,1848 @@
     ],
     "audio_id": "AUD_SEN_D31_090",
     "day_introduced": 31
+  },
+  {
+    "id": "SEN_D32_001",
+    "text": "我要一個飯糰和一杯咖啡。",
+    "pinyin": "Wǒ yào yī gè fàntuán hé yī bēi kāfēi.",
+    "pinyin_numeric": "wo3 yao4 yi1 ge4 fan4tuan2 he2 yi1 bei1 ka1fei1",
+    "translation_en": "I want one rice ball and one cup of coffee.",
+    "translation_ko": "주먹밥 하나와 커피 한 잔을 원해요.",
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_061",
+      "VOC_M1_009",
+      "VOC_M1_041",
+      "VOC_D32_018",
+      "VOC_M1_009",
+      "VOC_M1_099",
+      "VOC_M1_047"
+    ],
+    "grammar_ids": [
+      "GR_D32_MEASURE_WORDS_BASIC"
+    ],
+    "audio_id": "AUD_SEN_D32_001",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_002",
+    "text": "這個便當需要加熱嗎？",
+    "pinyin": "Zhège biàndāng xūyào jiārè ma?",
+    "pinyin_numeric": "zhe4ge5 bian4dang1 xu1yao4 jia1re4 ma0",
+    "translation_en": "Does this bento need to be heated?",
+    "translation_ko": "이 도시락은 데워야 하나요?",
+    "token_ids": [
+      "VOC_M1_041",
+      "VOC_D32_017",
+      "VOC_M1_171",
+      "VOC_D32_015",
+      "VOC_M1_016"
+    ],
+    "grammar_ids": [
+      "GR_D32_MEASURE_WORDS_BASIC"
+    ],
+    "audio_id": "AUD_SEN_D32_002",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_003",
+    "text": "我要買一個環保袋。",
+    "pinyin": "Wǒ yào mǎi yī gè huánbǎo dài.",
+    "pinyin_numeric": "wo3 yao4 mai3 yi1 ge4 huan2bao3 dai4",
+    "translation_en": "I want to buy one eco-friendly bag.",
+    "translation_ko": "친환경 봉투 하나를 살게요.",
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_061",
+      "VOC_M1_009",
+      "VOC_M1_041",
+      "VOC_D32_014"
+    ],
+    "grammar_ids": [
+      "GR_D32_MEASURE_WORDS_BASIC"
+    ],
+    "audio_id": "AUD_SEN_D32_003",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_004",
+    "text": "請幫我掃描這個條碼。",
+    "pinyin": "Qǐng bāng wǒ sǎomiáo zhège tiáomǎ.",
+    "pinyin_numeric": "qing3 bang1 wo3 sao3miao2 zhe4ge5 tiao2ma3",
+    "translation_en": "Please scan this barcode for me.",
+    "translation_ko": "이 바코드를 스캔해 주세요.",
+    "token_ids": [
+      "VOC_M1_179",
+      "VOC_D31_004",
+      "VOC_D32_033",
+      "VOC_M1_041",
+      "VOC_D32_032"
+    ],
+    "grammar_ids": [
+      "GR_D32_MEASURE_WORDS_BASIC"
+    ],
+    "audio_id": "AUD_SEN_D32_004",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_005",
+    "text": "我要用信用卡付款。",
+    "pinyin": "Wǒ yào yòng xìnyòngkǎ fùkuǎn.",
+    "pinyin_numeric": "wo3 yao4 yong4 xin4yong4ka3 fu4kuan3",
+    "translation_en": "I want to pay with a credit card.",
+    "translation_ko": "신용카드로 결제할게요.",
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_061",
+      "VOC_M1_119",
+      "VOC_D32_006",
+      "VOC_D32_004"
+    ],
+    "grammar_ids": [
+      "GR_D32_MEASURE_WORDS_BASIC"
+    ],
+    "audio_id": "AUD_SEN_D32_005",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_006",
+    "text": "這個三明治有特價嗎？",
+    "pinyin": "Zhège sānmíngzhì yǒu tèjià ma?",
+    "pinyin_numeric": "zhe4ge5 san1ming2zhi4 you3 te4jia4 ma0",
+    "translation_en": "Is this sandwich on sale?",
+    "translation_ko": "이 샌드위치는 특가인가요?",
+    "token_ids": [
+      "VOC_M1_041",
+      "VOC_D32_019",
+      "VOC_M1_022",
+      "VOC_D32_030",
+      "VOC_M1_016"
+    ],
+    "grammar_ids": [
+      "GR_D32_MEASURE_WORDS_BASIC"
+    ],
+    "audio_id": "AUD_SEN_D32_006",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_007",
+    "text": "我要買一包餅乾和一瓶礦泉水。",
+    "pinyin": "Wǒ yào mǎi yī bāo bǐnggān hé yī píng kuàngquánshuǐ.",
+    "pinyin_numeric": "wo3 yao4 mai3 yi1 bao1 bing3gan1 he2 yi1 ping2 kuang4quan2shui3",
+    "translation_en": "I want to buy one pack of cookies and one bottle of mineral water.",
+    "translation_ko": "과자 한 봉지와 생수 한 병을 살게요.",
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_061",
+      "VOC_M1_009",
+      "VOC_D32_023",
+      "VOC_M1_009",
+      "VOC_D32_021"
+    ],
+    "grammar_ids": [
+      "GR_D32_MEASURE_WORDS_BASIC"
+    ],
+    "audio_id": "AUD_SEN_D32_007",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_008",
+    "text": "總共是兩百三十塊。",
+    "pinyin": "Zǒnggòng shì liǎng bǎi sānshí kuài.",
+    "pinyin_numeric": "zong3gong4 shi4 liang3 bai3 san1shi2 kuai4",
+    "translation_en": "The total is 230 dollars.",
+    "translation_ko": "총 230원입니다.",
+    "token_ids": [
+      "VOC_D32_031",
+      "VOC_M1_007",
+      "VOC_M1_100",
+      "VOC_M1_021",
+      "VOC_M1_011",
+      "VOC_M1_015",
+      "VOC_M1_116"
+    ],
+    "grammar_ids": [
+      "GR_D32_MEASURE_WORDS_BASIC"
+    ],
+    "audio_id": "AUD_SEN_D32_008",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_009",
+    "text": "我要用載具存發票。",
+    "pinyin": "Wǒ yào yòng zàijù cún fāpiào.",
+    "pinyin_numeric": "wo3 yao4 yong4 zai4ju4 cun2 fa1piao4",
+    "translation_en": "I want to store the receipt using the carrier.",
+    "translation_ko": "영수증을 클라우드에 저장할게요.",
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_061",
+      "VOC_M1_119",
+      "VOC_D32_010",
+      "VOC_M1_177"
+    ],
+    "grammar_ids": [
+      "GR_D32_MEASURE_WORDS_BASIC"
+    ],
+    "audio_id": "AUD_SEN_D32_009",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_010",
+    "text": "這個茶葉蛋買一送一嗎？",
+    "pinyin": "Zhège cháyèdàn mǎi yī sòng yī ma?",
+    "pinyin_numeric": "zhe4ge5 cha2ye4dan4 mai3 yi1 song4 yi1 ma0",
+    "translation_en": "Is this tea egg buy one get one free?",
+    "translation_ko": "이 차(tea) 달걀은 하나 사면 하나 더 주나요?",
+    "token_ids": [
+      "VOC_M1_041",
+      "VOC_D32_020",
+      "VOC_D32_029",
+      "VOC_M1_016"
+    ],
+    "grammar_ids": [
+      "GR_D32_MEASURE_WORDS_BASIC"
+    ],
+    "audio_id": "AUD_SEN_D32_010",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_011",
+    "text": "你要不要一個塑膠袋？",
+    "pinyin": "Nǐ yào bù yào yī gè sù jiāo dài?",
+    "pinyin_numeric": "ni3 yao4 bu4 yao4 yi1 ge4 su4 jiao1 dai4",
+    "translation_en": "Do you want a plastic bag?",
+    "translation_ko": "비닐봉지 하나 필요하세요?",
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_M1_061",
+      "VOC_M1_079",
+      "VOC_M1_061",
+      "VOC_M1_009",
+      "VOC_M1_041",
+      "VOC_D32_013"
+    ],
+    "grammar_ids": [
+      "GR_D32_YAO_BU_YAO"
+    ],
+    "audio_id": "AUD_SEN_D32_011",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_012",
+    "text": "你要買這個便當嗎？",
+    "pinyin": "Nǐ yào mǎi zhè ge biàn dāng ma?",
+    "pinyin_numeric": "ni3 yao4 mai3 zhe4 ge4 bian4 dang1 ma0",
+    "translation_en": "Do you want to buy this bento box?",
+    "translation_ko": "이 도시락을 사시겠어요?",
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_M1_061",
+      "VOC_M1_041",
+      "VOC_D32_017",
+      "VOC_M1_016"
+    ],
+    "grammar_ids": [
+      "GR_D32_YAO_BU_YAO"
+    ],
+    "audio_id": "AUD_SEN_D32_012",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_013",
+    "text": "要不要一個環保袋？",
+    "pinyin": "Yào bù yào yī gè huán bǎo dài?",
+    "pinyin_numeric": "yao4 bu4 yao4 yi1 ge4 huan2 bao3 dai4",
+    "translation_en": "Would you like an eco-friendly bag?",
+    "translation_ko": "에코백 하나 드릴까요?",
+    "token_ids": [
+      "VOC_M1_061",
+      "VOC_M1_079",
+      "VOC_M1_061",
+      "VOC_M1_009",
+      "VOC_M1_041",
+      "VOC_D32_014"
+    ],
+    "grammar_ids": [
+      "GR_D32_YAO_BU_YAO"
+    ],
+    "audio_id": "AUD_SEN_D32_013",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_014",
+    "text": "你要不要買一送一的餅乾？",
+    "pinyin": "Nǐ yào bù yào mǎi yī sòng yī de bǐng gān?",
+    "pinyin_numeric": "ni3 yao4 bu4 yao4 mai3 yi1 song4 yi1 de0 bing3 gan1",
+    "translation_en": "Do you want to buy the buy-one-get-one-free cookies?",
+    "translation_ko": "하나 사면 하나 더 주는 쿠키를 사시겠어요?",
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_M1_061",
+      "VOC_M1_079",
+      "VOC_M1_061",
+      "VOC_D32_029",
+      "VOC_M1_023",
+      "VOC_D32_023"
+    ],
+    "grammar_ids": [
+      "GR_D32_YAO_BU_YAO"
+    ],
+    "audio_id": "AUD_SEN_D32_014",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_015",
+    "text": "你要不要一張收據？",
+    "pinyin": "Nǐ yào bù yào yī zhāng shōu jù?",
+    "pinyin_numeric": "ni3 yao4 bu4 yao4 yi1 zhang1 shou1 ju4",
+    "translation_en": "Do you want a receipt?",
+    "translation_ko": "영수증 필요하세요?",
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_M1_061",
+      "VOC_M1_079",
+      "VOC_M1_061",
+      "VOC_M1_009",
+      "VOC_D32_009"
+    ],
+    "grammar_ids": [
+      "GR_D32_YAO_BU_YAO"
+    ],
+    "audio_id": "AUD_SEN_D32_015",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_016",
+    "text": "你要用現金付款嗎？",
+    "pinyin": "Nǐ yào yòng xiàn jīn fù kuǎn ma?",
+    "pinyin_numeric": "ni3 yao4 yong4 xian4 jin1 fu4 kuan3 ma0",
+    "translation_en": "Do you want to pay with cash?",
+    "translation_ko": "현금으로 결제하시겠어요?",
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_M1_061",
+      "VOC_M1_119",
+      "VOC_D32_005",
+      "VOC_D32_004",
+      "VOC_M1_016"
+    ],
+    "grammar_ids": [
+      "GR_D32_YAO_BU_YAO"
+    ],
+    "audio_id": "AUD_SEN_D32_016",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_017",
+    "text": "你要不要用載具？",
+    "pinyin": "Nǐ yào bù yào yòng zài jù?",
+    "pinyin_numeric": "ni3 yao4 bu4 yao4 yong4 zai4 ju4",
+    "translation_en": "Do you want to use the receipt carrier?",
+    "translation_ko": "영수증 저장 서비스를 이용하시겠어요?",
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_M1_061",
+      "VOC_M1_079",
+      "VOC_M1_061",
+      "VOC_M1_119",
+      "VOC_D32_010"
+    ],
+    "grammar_ids": [
+      "GR_D32_YAO_BU_YAO"
+    ],
+    "audio_id": "AUD_SEN_D32_017",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_018",
+    "text": "你要加熱這個飯糰嗎？",
+    "pinyin": "Nǐ yào jiā rè zhè ge fàn tuán ma?",
+    "pinyin_numeric": "ni3 yao4 jia1 re4 zhe4 ge4 fan4 tuan2 ma0",
+    "translation_en": "Do you want to heat up this rice ball?",
+    "translation_ko": "이 주먹밥을 데워 드릴까요?",
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_M1_061",
+      "VOC_D32_015",
+      "VOC_M1_041",
+      "VOC_D32_018",
+      "VOC_M1_016"
+    ],
+    "grammar_ids": [
+      "GR_D32_YAO_BU_YAO"
+    ],
+    "audio_id": "AUD_SEN_D32_018",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_019",
+    "text": "你要不要一杯小杯的拿鐵？",
+    "pinyin": "Nǐ yào bù yào yī bēi xiǎo bēi de ná tiě?",
+    "pinyin_numeric": "ni3 yao4 bu4 yao4 yi1 bei1 xiao3 bei1 de0 na2 tie3",
+    "translation_en": "Do you want a small latte?",
+    "translation_ko": "작은 라떼 한 잔 드릴까요?",
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_M1_061",
+      "VOC_M1_079",
+      "VOC_M1_061",
+      "VOC_M1_009",
+      "VOC_M1_099",
+      "VOC_D31_006",
+      "VOC_M1_023",
+      "VOC_D31_009"
+    ],
+    "grammar_ids": [
+      "GR_D32_YAO_BU_YAO"
+    ],
+    "audio_id": "AUD_SEN_D32_019",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_020",
+    "text": "你要不要買這個特價的泡麵？",
+    "pinyin": "Nǐ yào bù yào mǎi zhè ge tè jià de pào miàn?",
+    "pinyin_numeric": "ni3 yao4 bu4 yao4 mai3 zhe4 ge4 te4 jia4 de0 pao4 mian4",
+    "translation_en": "Do you want to buy this instant noodle on sale?",
+    "translation_ko": "이 할인 중인 라면을 사시겠어요?",
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_M1_061",
+      "VOC_M1_079",
+      "VOC_M1_061",
+      "VOC_M1_041",
+      "VOC_D32_030",
+      "VOC_M1_023",
+      "VOC_D32_024"
+    ],
+    "grammar_ids": [
+      "GR_D32_YAO_BU_YAO"
+    ],
+    "audio_id": "AUD_SEN_D32_020",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_021",
+    "text": "這個便利商店有賣雨傘嗎？",
+    "pinyin": "Zhège biànlì shāngdiàn yǒu mài yǔsǎn ma?",
+    "pinyin_numeric": "zhe4 ge4 bian4 li4 shang1 dian4 you3 mai4 yu3 san3 ma0",
+    "translation_en": "Does this convenience store sell umbrellas?",
+    "translation_ko": "이 편의점에서 우산을 팔고 있나요?",
+    "token_ids": [
+      "VOC_M1_041",
+      "VOC_D32_001",
+      "VOC_M1_022",
+      "VOC_D32_025",
+      "VOC_M1_016"
+    ],
+    "grammar_ids": [
+      "GR_D32_THIS_THAT_REVIEW"
+    ],
+    "audio_id": "AUD_SEN_D32_021",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_022",
+    "text": "那個飯糰要加熱嗎？",
+    "pinyin": "Nàge fàntuán yào jiārè ma?",
+    "pinyin_numeric": "na4 ge4 fan4 tuan2 yao4 jia1 re4 ma0",
+    "translation_en": "Does that rice ball need to be heated?",
+    "translation_ko": "그 주먹밥은 데워야 하나요?",
+    "token_ids": [
+      "VOC_M1_163",
+      "VOC_D32_018",
+      "VOC_M1_061",
+      "VOC_D32_015",
+      "VOC_M1_016"
+    ],
+    "grammar_ids": [
+      "GR_D32_THIS_THAT_REVIEW"
+    ],
+    "audio_id": "AUD_SEN_D32_022",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_023",
+    "text": "這個三明治多少錢？",
+    "pinyin": "Zhège sānmíngzhì duōshao qián?",
+    "pinyin_numeric": "zhe4 ge4 san1 ming2 zhi4 duo1 shao3 qian2",
+    "translation_en": "How much is this sandwich?",
+    "translation_ko": "이 샌드위치는 얼마인가요?",
+    "token_ids": [
+      "VOC_M1_041",
+      "VOC_D32_019",
+      "VOC_M1_113",
+      "VOC_M1_114"
+    ],
+    "grammar_ids": [
+      "GR_D32_THIS_THAT_REVIEW"
+    ],
+    "audio_id": "AUD_SEN_D32_023",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_024",
+    "text": "那個茶葉蛋是特價的嗎？",
+    "pinyin": "Nàge cháyèdàn shì tèjià de ma?",
+    "pinyin_numeric": "na4 ge4 cha2 ye4 dan4 shi4 te4 jia4 de0 ma0",
+    "translation_en": "Is that tea egg on sale?",
+    "translation_ko": "그 차가운 계란은 특가인가요?",
+    "token_ids": [
+      "VOC_M1_163",
+      "VOC_D32_020",
+      "VOC_M1_007",
+      "VOC_D32_030",
+      "VOC_M1_023",
+      "VOC_M1_016"
+    ],
+    "grammar_ids": [
+      "GR_D32_THIS_THAT_REVIEW"
+    ],
+    "audio_id": "AUD_SEN_D32_024",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_025",
+    "text": "這個環保袋要多少錢？",
+    "pinyin": "Zhège huánbǎo dài yào duōshao qián?",
+    "pinyin_numeric": "zhe4 ge4 huan2 bao3 dai4 yao4 duo1 shao3 qian2",
+    "translation_en": "How much is this eco-friendly bag?",
+    "translation_ko": "이 친환경 봉투는 얼마인가요?",
+    "token_ids": [
+      "VOC_M1_041",
+      "VOC_D32_014",
+      "VOC_M1_061",
+      "VOC_M1_113",
+      "VOC_M1_114"
+    ],
+    "grammar_ids": [
+      "GR_D32_THIS_THAT_REVIEW"
+    ],
+    "audio_id": "AUD_SEN_D32_025",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_026",
+    "text": "那個充電線可以刷卡嗎？",
+    "pinyin": "Nàge chōngdiànxiàn kěyǐ shuākǎ ma?",
+    "pinyin_numeric": "na4 ge4 chong1 dian4 xian4 ke3 yi3 shua1 ka3 ma0",
+    "translation_en": "Can I pay by card for that charging cable?",
+    "translation_ko": "그 충전 케이블은 카드로 결제할 수 있나요?",
+    "token_ids": [
+      "VOC_M1_163",
+      "VOC_D32_028",
+      "VOC_M1_118",
+      "VOC_D32_008",
+      "VOC_M1_016"
+    ],
+    "grammar_ids": [
+      "GR_D32_THIS_THAT_REVIEW"
+    ],
+    "audio_id": "AUD_SEN_D32_026",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_027",
+    "text": "這個便當要微波加熱嗎？",
+    "pinyin": "Zhège biàndāng yào wēibō jiārè ma?",
+    "pinyin_numeric": "zhe4 ge4 bian4 dang1 yao4 wei1 bo1 jia1 re4 ma0",
+    "translation_en": "Does this bento need to be microwaved?",
+    "translation_ko": "이 도시락은 전자레인지에 데워야 하나요?",
+    "token_ids": [
+      "VOC_M1_041",
+      "VOC_D32_017",
+      "VOC_M1_061",
+      "VOC_D32_016",
+      "VOC_D32_015",
+      "VOC_M1_016"
+    ],
+    "grammar_ids": [
+      "GR_D32_THIS_THAT_REVIEW"
+    ],
+    "audio_id": "AUD_SEN_D32_027",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_028",
+    "text": "那個口罩有特價嗎？",
+    "pinyin": "Nàge kòuzhào yǒu tèjià ma?",
+    "pinyin_numeric": "na4 ge4 kou4 zhao4 you3 te4 jia4 ma0",
+    "translation_en": "Is that mask on sale?",
+    "translation_ko": "그 마스크는 특가인가요?",
+    "token_ids": [
+      "VOC_M1_163",
+      "VOC_D32_026",
+      "VOC_M1_022",
+      "VOC_D32_030",
+      "VOC_M1_016"
+    ],
+    "grammar_ids": [
+      "GR_D32_THIS_THAT_REVIEW"
+    ],
+    "audio_id": "AUD_SEN_D32_028",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_029",
+    "text": "這個泡麵跟那個餅乾總共多少錢？",
+    "pinyin": "Zhège pàomiàn gēn nàge bǐnggān zǒnggòng duōshao qián?",
+    "pinyin_numeric": "zhe4 ge4 pao4 mian4 gen1 na4 ge4 bing3 gan1 zong3 gong4 duo1 shao3 qian2",
+    "translation_en": "How much are this instant noodle and that cookie together?",
+    "translation_ko": "이 라면과 그 과자는 총 얼마인가요?",
+    "token_ids": [
+      "VOC_M1_041",
+      "VOC_D32_024",
+      "VOC_M1_182",
+      "VOC_M1_163",
+      "VOC_D32_023",
+      "VOC_D32_031",
+      "VOC_M1_113",
+      "VOC_M1_114"
+    ],
+    "grammar_ids": [
+      "GR_D32_THIS_THAT_REVIEW"
+    ],
+    "audio_id": "AUD_SEN_D32_029",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_030",
+    "text": "那個電池需要買一送一嗎？",
+    "pinyin": "Nàge diànchí xūyào mǎi yī sòng yī ma?",
+    "pinyin_numeric": "na4 ge4 dian4 chi2 xu1 yao4 mai3 yi1 song4 yi1 ma0",
+    "translation_en": "Is that battery buy-one-get-one-free?",
+    "translation_ko": "그 배터리는 하나 사면 하나를 공짜로 주나요?",
+    "token_ids": [
+      "VOC_M1_163",
+      "VOC_D32_027",
+      "VOC_M1_171",
+      "VOC_D32_029",
+      "VOC_M1_016"
+    ],
+    "grammar_ids": [
+      "GR_D32_THIS_THAT_REVIEW"
+    ],
+    "audio_id": "AUD_SEN_D32_030",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_031",
+    "text": "我要一個塑膠袋。",
+    "pinyin": "Wǒ yào yī ge sùjiāodài.",
+    "pinyin_numeric": "wo3 yao4 yi1 ge4 su4jiao1dai4.",
+    "translation_en": "I want one plastic bag.",
+    "translation_ko": "비닐봉지 하나 주세요.",
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_061",
+      "VOC_M1_009",
+      "VOC_M1_041",
+      "VOC_D32_013"
+    ],
+    "grammar_ids": [
+      "GR_D32_MEASURE_WORDS_BASIC"
+    ],
+    "audio_id": "AUD_SEN_D32_031",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_032",
+    "text": "這個便當需要加熱嗎？",
+    "pinyin": "Zhège biàndāng xūyào jiārè ma?",
+    "pinyin_numeric": "zhe4ge5 bian4dang1 xu1yao4 jia1re4 ma0?",
+    "translation_en": "Does this bento need to be heated?",
+    "translation_ko": "이 도시락은 데워야 하나요?",
+    "token_ids": [
+      "VOC_M1_041",
+      "VOC_D32_017",
+      "VOC_M1_171",
+      "VOC_D32_015",
+      "VOC_M1_016"
+    ],
+    "grammar_ids": [
+      "GR_D32_MEASURE_WORDS_BASIC"
+    ],
+    "audio_id": "AUD_SEN_D32_032",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_033",
+    "text": "我要用信用卡付款。",
+    "pinyin": "Wǒ yào yòng xìnyòngkǎ fùkuǎn.",
+    "pinyin_numeric": "wo3 yao4 yong4 xin4yong4ka3 fu4kuan3.",
+    "translation_en": "I want to pay by credit card.",
+    "translation_ko": "신용카드로 결제할게요.",
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_061",
+      "VOC_M1_119",
+      "VOC_D32_006",
+      "VOC_D32_004"
+    ],
+    "grammar_ids": [
+      "GR_D32_MEASURE_WORDS_BASIC"
+    ],
+    "audio_id": "AUD_SEN_D32_033",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_034",
+    "text": "請幫我掃描條碼。",
+    "pinyin": "Qǐng bāng wǒ sǎomiáo tiáomǎ.",
+    "pinyin_numeric": "qing3 bang1 wo3 sao3miao2 tiao2ma3.",
+    "translation_en": "Please scan the barcode for me.",
+    "translation_ko": "바코드를 스캔해 주세요.",
+    "token_ids": [
+      "VOC_M1_179",
+      "VOC_D31_004",
+      "VOC_D32_033",
+      "VOC_D32_032"
+    ],
+    "grammar_ids": [
+      "GR_D32_MEASURE_WORDS_BASIC"
+    ],
+    "audio_id": "AUD_SEN_D32_034",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_035",
+    "text": "我要買一包餅乾和兩瓶礦泉水。",
+    "pinyin": "Wǒ yào mǎi yī bāo bǐnggān hé liǎng píng kuàngquánshuǐ.",
+    "pinyin_numeric": "wo3 yao4 mai3 yi1 bao1 bing3gan1 he2 liang3 ping2 kuang4quan2shui3.",
+    "translation_en": "I want to buy one pack of cookies and two bottles of mineral water.",
+    "translation_ko": "과자 한 봉지와 생수 두 병을 살게요.",
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_061",
+      "VOC_M1_009",
+      "VOC_D32_023",
+      "VOC_M1_100",
+      "VOC_D32_021"
+    ],
+    "grammar_ids": [
+      "GR_D32_MEASURE_WORDS_BASIC"
+    ],
+    "audio_id": "AUD_SEN_D32_035",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_036",
+    "text": "這個飯糰有特價嗎？",
+    "pinyin": "Zhège fàntuán yǒu tèjià ma?",
+    "pinyin_numeric": "zhe4ge5 fan4tuan2 you3 te4jia4 ma0?",
+    "translation_en": "Is this rice ball on sale?",
+    "translation_ko": "이 주먹밥은 특가인가요?",
+    "token_ids": [
+      "VOC_M1_041",
+      "VOC_D32_018",
+      "VOC_M1_022",
+      "VOC_D32_030",
+      "VOC_M1_016"
+    ],
+    "grammar_ids": [
+      "GR_D32_MEASURE_WORDS_BASIC"
+    ],
+    "audio_id": "AUD_SEN_D32_036",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_037",
+    "text": "我要買一送一的茶葉蛋。",
+    "pinyin": "Wǒ yào mǎi yī sòng yī de cháyèdàn.",
+    "pinyin_numeric": "wo3 yao4 mai3 yi1 song4 yi1 de5 cha2ye4dan4.",
+    "translation_en": "I want to buy the buy-one-get-one-free tea eggs.",
+    "translation_ko": "하나 사면 하나 더 주는 차(茶)알을 살게요.",
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_061",
+      "VOC_D32_029",
+      "VOC_M1_023",
+      "VOC_D32_020"
+    ],
+    "grammar_ids": [
+      "GR_D32_MEASURE_WORDS_BASIC"
+    ],
+    "audio_id": "AUD_SEN_D32_037",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_038",
+    "text": "總共多少錢？",
+    "pinyin": "Zǒnggòng duōshao qián?",
+    "pinyin_numeric": "zong3gong4 duo1shao3 qian2?",
+    "translation_en": "How much is the total?",
+    "translation_ko": "총 얼마인가요?",
+    "token_ids": [
+      "VOC_D32_031",
+      "VOC_M1_113",
+      "VOC_M1_114"
+    ],
+    "grammar_ids": [
+      "GR_D32_MEASURE_WORDS_BASIC"
+    ],
+    "audio_id": "AUD_SEN_D32_038",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_039",
+    "text": "我要用載具存發票。",
+    "pinyin": "Wǒ yào yòng zàijù cún fāpiào.",
+    "pinyin_numeric": "wo3 yao4 yong4 zai4ju4 cun2 fa1piao4.",
+    "translation_en": "I want to store the receipt using the carrier (invoice carrier).",
+    "translation_ko": "영수증을 (전자) 수단에 저장할게요.",
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_061",
+      "VOC_M1_119",
+      "VOC_D32_010",
+      "VOC_M1_177"
+    ],
+    "grammar_ids": [
+      "GR_D32_MEASURE_WORDS_BASIC"
+    ],
+    "audio_id": "AUD_SEN_D32_039",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_040",
+    "text": "請給我兩張明細。",
+    "pinyin": "Qǐng gěi wǒ liǎng zhāng míngxì.",
+    "pinyin_numeric": "qing3 gei3 wo3 liang3 zhang1 ming2xi4.",
+    "translation_en": "Please give me two copies of the receipt details.",
+    "translation_ko": "명세서 두 장 주세요.",
+    "token_ids": [
+      "VOC_M1_179",
+      "VOC_D31_005",
+      "VOC_M1_100",
+      "VOC_D32_034"
+    ],
+    "grammar_ids": [
+      "GR_D32_MEASURE_WORDS_BASIC"
+    ],
+    "audio_id": "AUD_SEN_D32_040",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_041",
+    "text": "你要塑膠袋嗎？",
+    "pinyin": "Nǐ yào sùjiāodài ma?",
+    "pinyin_numeric": "ni3 yao4 su4jiao1dai4 ma0",
+    "translation_en": "Do you want a plastic bag?",
+    "translation_ko": "비닐봉지 필요하세요?",
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_M1_061",
+      "VOC_D32_013",
+      "VOC_M1_016"
+    ],
+    "grammar_ids": [
+      "GR_D32_YAO_BU_YAO"
+    ],
+    "audio_id": "AUD_SEN_D32_041",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_042",
+    "text": "要不要環保袋？",
+    "pinyin": "Yào bù yào huánbǎo dài?",
+    "pinyin_numeric": "yao4 bu4 yao4 huan2bao3 dai4",
+    "translation_en": "Do you want an eco-friendly bag or not?",
+    "translation_ko": "에코백 필요하세요?",
+    "token_ids": [
+      "VOC_M1_061",
+      "VOC_M1_079",
+      "VOC_M1_061",
+      "VOC_D32_014"
+    ],
+    "grammar_ids": [
+      "GR_D32_YAO_BU_YAO"
+    ],
+    "audio_id": "AUD_SEN_D32_042",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_043",
+    "text": "你要收據嗎？",
+    "pinyin": "Nǐ yào shōujù ma?",
+    "pinyin_numeric": "ni3 yao4 shou1ju4 ma0",
+    "translation_en": "Do you want a receipt?",
+    "translation_ko": "영수증 필요하세요?",
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_M1_061",
+      "VOC_D32_009",
+      "VOC_M1_016"
+    ],
+    "grammar_ids": [
+      "GR_D32_YAO_BU_YAO"
+    ],
+    "audio_id": "AUD_SEN_D32_043",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_044",
+    "text": "要不要載具？",
+    "pinyin": "Yào bù yào zàijù?",
+    "pinyin_numeric": "yao4 bu4 yao4 zai4ju4",
+    "translation_en": "Do you want an invoice carrier or not?",
+    "translation_ko": "인보이스 캐리어 필요하세요?",
+    "token_ids": [
+      "VOC_M1_061",
+      "VOC_M1_079",
+      "VOC_M1_061",
+      "VOC_D32_010"
+    ],
+    "grammar_ids": [
+      "GR_D32_YAO_BU_YAO"
+    ],
+    "audio_id": "AUD_SEN_D32_044",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_045",
+    "text": "你要用現金嗎？",
+    "pinyin": "Nǐ yào yòng xiànjīn ma?",
+    "pinyin_numeric": "ni3 yao4 yong4 xian4jin1 ma0",
+    "translation_en": "Do you want to pay with cash?",
+    "translation_ko": "현금으로 계산하시겠어요?",
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_M1_061",
+      "VOC_M1_119",
+      "VOC_D32_005",
+      "VOC_M1_016"
+    ],
+    "grammar_ids": [
+      "GR_D32_YAO_BU_YAO"
+    ],
+    "audio_id": "AUD_SEN_D32_045",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_046",
+    "text": "要不要刷卡？",
+    "pinyin": "Yào bù yào shuākǎ?",
+    "pinyin_numeric": "yao4 bu4 yao4 shua1ka3",
+    "translation_en": "Do you want to pay by card or not?",
+    "translation_ko": "카드로 결제하시겠어요?",
+    "token_ids": [
+      "VOC_M1_061",
+      "VOC_M1_079",
+      "VOC_M1_061",
+      "VOC_D32_008"
+    ],
+    "grammar_ids": [
+      "GR_D32_YAO_BU_YAO"
+    ],
+    "audio_id": "AUD_SEN_D32_046",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_047",
+    "text": "你要加熱便當嗎？",
+    "pinyin": "Nǐ yào jiārè biàndāng ma?",
+    "pinyin_numeric": "ni3 yao4 jia1re4 bian4dang1 ma0",
+    "translation_en": "Do you want to heat the bento?",
+    "translation_ko": "도시락을 데워 드릴까요?",
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_M1_061",
+      "VOC_D32_015",
+      "VOC_D32_017",
+      "VOC_M1_016"
+    ],
+    "grammar_ids": [
+      "GR_D32_YAO_BU_YAO"
+    ],
+    "audio_id": "AUD_SEN_D32_047",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_048",
+    "text": "要不要買一送一？",
+    "pinyin": "Yào bù yào mǎi yī sòng yī?",
+    "pinyin_numeric": "yao4 bu4 yao4 mai3 yi1 song4 yi1",
+    "translation_en": "Do you want the buy-one-get-one-free deal or not?",
+    "translation_ko": "하나 사면 하나 더 주는 행사 하실래요?",
+    "token_ids": [
+      "VOC_M1_061",
+      "VOC_M1_079",
+      "VOC_M1_061",
+      "VOC_D32_029"
+    ],
+    "grammar_ids": [
+      "GR_D32_YAO_BU_YAO"
+    ],
+    "audio_id": "AUD_SEN_D32_048",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_049",
+    "text": "你要茶葉蛋嗎？",
+    "pinyin": "Nǐ yào cháyèdàn ma?",
+    "pinyin_numeric": "ni3 yao4 cha2ye4dan4 ma0",
+    "translation_en": "Do you want a tea egg?",
+    "translation_ko": "차이예단 드릴까요?",
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_M1_061",
+      "VOC_D32_020",
+      "VOC_M1_016"
+    ],
+    "grammar_ids": [
+      "GR_D32_YAO_BU_YAO"
+    ],
+    "audio_id": "AUD_SEN_D32_049",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_050",
+    "text": "要不要加珍珠？",
+    "pinyin": "Yào bù yào jiā zhēnzhū?",
+    "pinyin_numeric": "yao4 bu4 yao4 jia1 zhen1zhu1",
+    "translation_en": "Do you want to add boba or not?",
+    "translation_ko": "타피오카 펄 추가하시겠어요?",
+    "token_ids": [
+      "VOC_M1_061",
+      "VOC_M1_079",
+      "VOC_M1_061",
+      "VOC_D31_030"
+    ],
+    "grammar_ids": [
+      "GR_D32_YAO_BU_YAO"
+    ],
+    "audio_id": "AUD_SEN_D32_050",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_051",
+    "text": "這個便當要微波嗎？",
+    "pinyin": "Zhège biàndāng yào wēibō ma?",
+    "pinyin_numeric": "zhe4 ge5 bian4 dang1 yao4 wei1 bo1 ma0",
+    "translation_en": "Does this bento need to be microwaved?",
+    "translation_ko": "이 도시락을 전자레인지에 데워야 하나요?",
+    "token_ids": [
+      "VOC_M1_041",
+      "VOC_D32_017",
+      "VOC_M1_061",
+      "VOC_D32_016",
+      "VOC_M1_016"
+    ],
+    "grammar_ids": [
+      "GR_D32_THIS_THAT_REVIEW"
+    ],
+    "audio_id": "AUD_SEN_D32_051",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_052",
+    "text": "那個三明治多少錢？",
+    "pinyin": "Nàge sānmíngzhì duōshǎo qián?",
+    "pinyin_numeric": "na4 ge5 san1 ming2 zhi4 duo1 shao3 qian2",
+    "translation_en": "How much is that sandwich?",
+    "translation_ko": "저 샌드위치는 얼마인가요?",
+    "token_ids": [
+      "VOC_M1_163",
+      "VOC_D32_019",
+      "VOC_M1_113",
+      "VOC_M1_114"
+    ],
+    "grammar_ids": [
+      "GR_D32_THIS_THAT_REVIEW"
+    ],
+    "audio_id": "AUD_SEN_D32_052",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_053",
+    "text": "這個飯糰跟那個茶葉蛋，總共多少？",
+    "pinyin": "Zhège fàntuán gēn nàge cháyèdàn, zǒnggòng duōshǎo?",
+    "pinyin_numeric": "zhe4 ge5 fan4 tuan2 gen1 na4 ge5 cha2 ye4 dan4, zong3 gong4 duo1 shao3",
+    "translation_en": "This rice ball and that tea egg, how much in total?",
+    "translation_ko": "이 주먹밥과 그 차란, 총 얼마인가요?",
+    "token_ids": [
+      "VOC_M1_041",
+      "VOC_D32_018",
+      "VOC_M1_182",
+      "VOC_M1_163",
+      "VOC_D32_020",
+      "VOC_D32_031",
+      "VOC_M1_113"
+    ],
+    "grammar_ids": [
+      "GR_D32_THIS_THAT_REVIEW"
+    ],
+    "audio_id": "AUD_SEN_D32_053",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_054",
+    "text": "我要買這個泡麵跟那瓶礦泉水。",
+    "pinyin": "Wǒ yào mǎi zhège pàomiàn gēn nà píng kuàngquánshuǐ.",
+    "pinyin_numeric": "wo3 yao4 mai3 zhe4 ge5 pao4 mian4 gen1 na4 ping2 kuang4 quan2 shui3",
+    "translation_en": "I want to buy this instant noodle and that bottle of mineral water.",
+    "translation_ko": "이 라면과 그 생수 한 병을 사고 싶어요.",
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_061",
+      "VOC_M1_041",
+      "VOC_D32_024",
+      "VOC_M1_182",
+      "VOC_D32_021"
+    ],
+    "grammar_ids": [
+      "GR_D32_THIS_THAT_REVIEW"
+    ],
+    "audio_id": "AUD_SEN_D32_054",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_055",
+    "text": "這個優格有特價嗎？",
+    "pinyin": "Zhège yōugé yǒu tèjià ma?",
+    "pinyin_numeric": "zhe4 ge5 you1 ge2 you3 te4 jia4 ma0",
+    "translation_en": "Is this yogurt on sale?",
+    "translation_ko": "이 요구르트는 특가인가요?",
+    "token_ids": [
+      "VOC_M1_041",
+      "VOC_D32_022",
+      "VOC_M1_022",
+      "VOC_D32_030",
+      "VOC_M1_016"
+    ],
+    "grammar_ids": [
+      "GR_D32_THIS_THAT_REVIEW"
+    ],
+    "audio_id": "AUD_SEN_D32_055",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_056",
+    "text": "那個餅乾是買一送一嗎？",
+    "pinyin": "Nàge bǐnggān shì mǎi yī sòng yī ma?",
+    "pinyin_numeric": "na4 ge5 bing3 gan1 shi4 mai3 yi1 song4 yi1 ma0",
+    "translation_en": "Are those cookies buy one get one free?",
+    "translation_ko": "그 과자는 하나 사면 하나 무료인가요?",
+    "token_ids": [
+      "VOC_M1_163",
+      "VOC_D32_023",
+      "VOC_M1_007",
+      "VOC_D32_029",
+      "VOC_M1_016"
+    ],
+    "grammar_ids": [
+      "GR_D32_THIS_THAT_REVIEW"
+    ],
+    "audio_id": "AUD_SEN_D32_056",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_057",
+    "text": "這個口罩跟那個雨傘，我要結帳。",
+    "pinyin": "Zhège kǒuzhào gēn nàge yǔsǎn, wǒ yào jiézhàng.",
+    "pinyin_numeric": "zhe4 ge5 kou3 zhao4 gen1 na4 ge5 yu3 san3, wo3 yao4 jie2 zhang4",
+    "translation_en": "This mask and that umbrella, I want to check out.",
+    "translation_ko": "이 마스크와 그 우산, 계산하고 싶어요.",
+    "token_ids": [
+      "VOC_M1_041",
+      "VOC_D32_026",
+      "VOC_M1_182",
+      "VOC_M1_163",
+      "VOC_D32_025",
+      "VOC_M1_002",
+      "VOC_M1_061",
+      "VOC_D32_003"
+    ],
+    "grammar_ids": [
+      "GR_D32_THIS_THAT_REVIEW"
+    ],
+    "audio_id": "AUD_SEN_D32_057",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_058",
+    "text": "這個電池跟那條充電線，我要用信用卡付款。",
+    "pinyin": "Zhège diànchí gēn nà tiáo chōngdiànxiàn, wǒ yào yòng xìnyòngkǎ fùkuǎn.",
+    "pinyin_numeric": "zhe4 ge5 dian4 chi2 gen1 na4 tiao2 chong1 dian4 xian4, wo3 yao4 yong4 xin4 yong4 ka3 fu4 kuan3",
+    "translation_en": "This battery and that charging cable, I want to pay by credit card.",
+    "translation_ko": "이 배터리와 그 충전 케이블, 신용카드로 결제할게요.",
+    "token_ids": [
+      "VOC_M1_041",
+      "VOC_D32_027",
+      "VOC_M1_182",
+      "VOC_D32_028",
+      "VOC_M1_002",
+      "VOC_M1_061",
+      "VOC_M1_119",
+      "VOC_D32_006",
+      "VOC_D32_004"
+    ],
+    "grammar_ids": [
+      "GR_D32_THIS_THAT_REVIEW"
+    ],
+    "audio_id": "AUD_SEN_D32_058",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_059",
+    "text": "請問，這個便當需要加熱嗎？",
+    "pinyin": "Qǐngwèn, zhège biàndāng xūyào jiārè ma?",
+    "pinyin_numeric": "qing3 wen4, zhe4 ge5 bian4 dang1 xu1 yao4 jia1 re4 ma0",
+    "translation_en": "Excuse me, does this bento need to be heated?",
+    "translation_ko": "실례합니다, 이 도시락을 데워야 하나요?",
+    "token_ids": [
+      "VOC_M1_179",
+      "VOC_M1_041",
+      "VOC_D32_017",
+      "VOC_M1_171",
+      "VOC_D32_015",
+      "VOC_M1_016"
+    ],
+    "grammar_ids": [
+      "GR_D32_THIS_THAT_REVIEW"
+    ],
+    "audio_id": "AUD_SEN_D32_059",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_060",
+    "text": "那個環保袋跟這個塑膠袋，我要哪一個？",
+    "pinyin": "Nàge huánbǎo dài gēn zhège sùjiāo dài, wǒ yào nǎ yīge?",
+    "pinyin_numeric": "na4 ge5 huan2 bao3 dai4 gen1 zhe4 ge5 su4 jiao1 dai4, wo3 yao4 na3 yi1 ge5",
+    "translation_en": "That eco-friendly bag and this plastic bag, which one should I take?",
+    "translation_ko": "그 친환경 봉투와 이 비닐봉투, 어떤 걸 골라야 할까요?",
+    "token_ids": [
+      "VOC_M1_163",
+      "VOC_D32_014",
+      "VOC_M1_182",
+      "VOC_M1_041",
+      "VOC_D32_013",
+      "VOC_M1_002",
+      "VOC_M1_061",
+      "VOC_M1_009",
+      "VOC_M1_041"
+    ],
+    "grammar_ids": [
+      "GR_D32_THIS_THAT_REVIEW"
+    ],
+    "audio_id": "AUD_SEN_D32_060",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_061",
+    "text": "我要一個塑膠袋。",
+    "pinyin": "Wǒ yào yī ge sùjiāodài.",
+    "pinyin_numeric": "wo3 yao4 yi1 ge4 su4jiao1dai4.",
+    "translation_en": "I want one plastic bag.",
+    "translation_ko": "비닐봉지 하나 주세요.",
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_061",
+      "VOC_M1_009",
+      "VOC_M1_041",
+      "VOC_D32_013"
+    ],
+    "grammar_ids": [
+      "GR_D32_MEASURE_WORDS_BASIC"
+    ],
+    "audio_id": "AUD_SEN_D32_061",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_062",
+    "text": "請給我兩張收據。",
+    "pinyin": "Qǐng gěi wǒ liǎng zhāng shōujù.",
+    "pinyin_numeric": "qing3 gei3 wo3 liang3 zhang1 shou1ju4.",
+    "translation_en": "Please give me two receipts.",
+    "translation_ko": "영수증 두 장 주세요.",
+    "token_ids": [
+      "VOC_M1_179",
+      "VOC_D31_005",
+      "VOC_M1_100",
+      "VOC_D32_009"
+    ],
+    "grammar_ids": [
+      "GR_D32_MEASURE_WORDS_BASIC"
+    ],
+    "audio_id": "AUD_SEN_D32_062",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_063",
+    "text": "這個便當要加熱嗎？",
+    "pinyin": "Zhège biàndāng yào jiārè ma?",
+    "pinyin_numeric": "zhe4ge4 bian4dang1 yao4 jia1re4 ma0?",
+    "translation_en": "Does this bento need to be heated?",
+    "translation_ko": "이 도시락을 데워야 하나요?",
+    "token_ids": [
+      "VOC_M1_041",
+      "VOC_D32_017",
+      "VOC_M1_061",
+      "VOC_D32_015",
+      "VOC_M1_016"
+    ],
+    "grammar_ids": [
+      "GR_D32_MEASURE_WORDS_BASIC"
+    ],
+    "audio_id": "AUD_SEN_D32_063",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_064",
+    "text": "我可以用信用卡付款嗎？",
+    "pinyin": "Wǒ kěyǐ yòng xìnyòngkǎ fùkuǎn ma?",
+    "pinyin_numeric": "wo3 ke3yi3 yong4 xin4yong4ka3 fu4kuan3 ma0?",
+    "translation_en": "Can I pay with a credit card?",
+    "translation_ko": "신용카드로 결제할 수 있나요?",
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_118",
+      "VOC_M1_119",
+      "VOC_D32_006",
+      "VOC_D32_004",
+      "VOC_M1_016"
+    ],
+    "grammar_ids": [
+      "GR_D32_MEASURE_WORDS_BASIC"
+    ],
+    "audio_id": "AUD_SEN_D32_064",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_065",
+    "text": "總共是三百五十塊。",
+    "pinyin": "Zǒnggòng shì sān bǎi wǔ shí kuài.",
+    "pinyin_numeric": "zong3gong4 shi4 san1 bai3 wu3 shi2 kuai4.",
+    "translation_en": "The total is 350 dollars.",
+    "translation_ko": "총 350원입니다.",
+    "token_ids": [
+      "VOC_D32_031",
+      "VOC_M1_007",
+      "VOC_M1_011",
+      "VOC_M1_021",
+      "VOC_M1_013",
+      "VOC_M1_015",
+      "VOC_M1_116"
+    ],
+    "grammar_ids": [
+      "GR_D32_MEASURE_WORDS_BASIC"
+    ],
+    "audio_id": "AUD_SEN_D32_065",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_066",
+    "text": "我要買一個飯糰和一杯咖啡。",
+    "pinyin": "Wǒ yào mǎi yī ge fàntuán hé yī bēi kāfēi.",
+    "pinyin_numeric": "wo3 yao4 mai3 yi1 ge4 fan4tuan2 he2 yi1 bei1 ka1fei1.",
+    "translation_en": "I want to buy one rice ball and one cup of coffee.",
+    "translation_ko": "주먹밥 하나와 커피 한 잔을 사고 싶어요.",
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_061",
+      "VOC_M1_009",
+      "VOC_M1_041",
+      "VOC_D32_018",
+      "VOC_M1_009",
+      "VOC_M1_099",
+      "VOC_M1_047"
+    ],
+    "grammar_ids": [
+      "GR_D32_MEASURE_WORDS_BASIC"
+    ],
+    "audio_id": "AUD_SEN_D32_066",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_067",
+    "text": "這個三明治有特價嗎？",
+    "pinyin": "Zhège sānmíngzhì yǒu tèjià ma?",
+    "pinyin_numeric": "zhe4ge4 san1ming2zhi4 you3 te4jia4 ma0?",
+    "translation_en": "Is this sandwich on sale?",
+    "translation_ko": "이 샌드위치는 특가인가요?",
+    "token_ids": [
+      "VOC_M1_041",
+      "VOC_D32_019",
+      "VOC_M1_022",
+      "VOC_D32_030",
+      "VOC_M1_016"
+    ],
+    "grammar_ids": [
+      "GR_D32_MEASURE_WORDS_BASIC"
+    ],
+    "audio_id": "AUD_SEN_D32_067",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_068",
+    "text": "我需要一個環保袋。",
+    "pinyin": "Wǒ xūyào yī ge huánbǎo dài.",
+    "pinyin_numeric": "wo3 xu1yao4 yi1 ge4 huan2bao3 dai4.",
+    "translation_en": "I need one eco-friendly bag.",
+    "translation_ko": "에코백 하나가 필요해요.",
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_171",
+      "VOC_M1_009",
+      "VOC_M1_041",
+      "VOC_D32_014"
+    ],
+    "grammar_ids": [
+      "GR_D32_MEASURE_WORDS_BASIC"
+    ],
+    "audio_id": "AUD_SEN_D32_068",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_069",
+    "text": "請幫我掃描這個條碼。",
+    "pinyin": "Qǐng bāng wǒ sǎomiáo zhège tiáomǎ.",
+    "pinyin_numeric": "qing3 bang1 wo3 sao3miao2 zhe4ge4 tiao2ma3.",
+    "translation_en": "Please scan this barcode for me.",
+    "translation_ko": "이 바코드를 스캔해 주세요.",
+    "token_ids": [
+      "VOC_M1_179",
+      "VOC_D31_004",
+      "VOC_D32_033",
+      "VOC_M1_041",
+      "VOC_D32_032"
+    ],
+    "grammar_ids": [
+      "GR_D32_MEASURE_WORDS_BASIC"
+    ],
+    "audio_id": "AUD_SEN_D32_069",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_070",
+    "text": "我要用載具存發票。",
+    "pinyin": "Wǒ yào yòng zàijù cún fāpiào.",
+    "pinyin_numeric": "wo3 yao4 yong4 zai4ju4 cun2 fa1piao4.",
+    "translation_en": "I want to save the receipt using the carrier.",
+    "translation_ko": "발행 영수증을 저장하려고 해요.",
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_061",
+      "VOC_M1_119",
+      "VOC_D32_010",
+      "VOC_M1_177"
+    ],
+    "grammar_ids": [
+      "GR_D32_MEASURE_WORDS_BASIC"
+    ],
+    "audio_id": "AUD_SEN_D32_070",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_071",
+    "text": "你要不要買這個便當？",
+    "pinyin": "Nǐ yào bù yào mǎi zhège biàndāng?",
+    "pinyin_numeric": "ni3 yao4 bu4 yao4 mai3 zhe4 ge4 bian4 dang1?",
+    "translation_en": "Do you want to buy this bento box?",
+    "translation_ko": "이 도시락을 사시겠어요?",
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_M1_061",
+      "VOC_M1_079",
+      "VOC_M1_061",
+      "VOC_M1_041",
+      "VOC_D32_017"
+    ],
+    "grammar_ids": [
+      "GR_D32_YAO_BU_YAO"
+    ],
+    "audio_id": "AUD_SEN_D32_071",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_072",
+    "text": "你要塑膠袋嗎？",
+    "pinyin": "Nǐ yào sùjiāo dài ma?",
+    "pinyin_numeric": "ni3 yao4 su4 jiao1 dai4 ma0?",
+    "translation_en": "Do you want a plastic bag?",
+    "translation_ko": "비닐봉지가 필요하세요?",
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_M1_061",
+      "VOC_D32_013",
+      "VOC_M1_016"
+    ],
+    "grammar_ids": [
+      "GR_D32_YAO_BU_YAO"
+    ],
+    "audio_id": "AUD_SEN_D32_072",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_073",
+    "text": "要不要買一送一的餅乾？",
+    "pinyin": "Yào bù yào mǎi mǎi yī sòng yī de bǐnggān?",
+    "pinyin_numeric": "yao4 bu4 yao4 mai3 mai3 yi1 song4 yi1 de0 bing3 gan1?",
+    "translation_en": "Do you want to buy the buy-one-get-one-free cookies?",
+    "translation_ko": "하나 사면 하나 더 주는 쿠키를 사시겠어요?",
+    "token_ids": [
+      "VOC_M1_061",
+      "VOC_M1_079",
+      "VOC_M1_061",
+      "VOC_D32_029",
+      "VOC_M1_023",
+      "VOC_D32_023"
+    ],
+    "grammar_ids": [
+      "GR_D32_YAO_BU_YAO"
+    ],
+    "audio_id": "AUD_SEN_D32_073",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_074",
+    "text": "你要現金還是信用卡付款？",
+    "pinyin": "Nǐ yào xiànjīn háishì xìnyòngkǎ fùkuǎn?",
+    "pinyin_numeric": "ni3 yao4 xian4 jin1 hai2 shi4 xin4 yong4 ka3 fu4 kuan3?",
+    "translation_en": "Do you want to pay with cash or credit card?",
+    "translation_ko": "현금으로 하시겠어요, 아니면 신용카드로 하시겠어요?",
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_M1_061",
+      "VOC_D32_005",
+      "VOC_M1_007",
+      "VOC_D32_006",
+      "VOC_D32_004"
+    ],
+    "grammar_ids": [
+      "GR_D32_YAO_BU_YAO"
+    ],
+    "audio_id": "AUD_SEN_D32_074",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_075",
+    "text": "你要不要用載具？",
+    "pinyin": "Nǐ yào bù yào yòng zàijù?",
+    "pinyin_numeric": "ni3 yao4 bu4 yao4 yong4 zai4 ju4?",
+    "translation_en": "Do you want to use the receipt carrier?",
+    "translation_ko": "영수증을 모바일로 받으시겠어요?",
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_M1_061",
+      "VOC_M1_079",
+      "VOC_M1_061",
+      "VOC_M1_119",
+      "VOC_D32_010"
+    ],
+    "grammar_ids": [
+      "GR_D32_YAO_BU_YAO"
+    ],
+    "audio_id": "AUD_SEN_D32_075",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_076",
+    "text": "你要加熱這個三明治嗎？",
+    "pinyin": "Nǐ yào jiārè zhège sānmíngzhì ma?",
+    "pinyin_numeric": "ni3 yao4 jia1 re4 zhe4 ge4 san1 ming2 zhi4 ma0?",
+    "translation_en": "Do you want to heat this sandwich?",
+    "translation_ko": "이 샌드위치를 데워 드릴까요?",
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_M1_061",
+      "VOC_D32_015",
+      "VOC_M1_041",
+      "VOC_D32_019",
+      "VOC_M1_016"
+    ],
+    "grammar_ids": [
+      "GR_D32_YAO_BU_YAO"
+    ],
+    "audio_id": "AUD_SEN_D32_076",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_077",
+    "text": "要不要買這個特價的泡麵？",
+    "pinyin": "Yào bù yào mǎi zhège tèjià de pàomiàn?",
+    "pinyin_numeric": "yao4 bu4 yao4 mai3 zhe4 ge4 te4 jia4 de0 pao4 mian4?",
+    "translation_en": "Do you want to buy this discounted instant noodle?",
+    "translation_ko": "이 할인된 라면을 사시겠어요?",
+    "token_ids": [
+      "VOC_M1_061",
+      "VOC_M1_079",
+      "VOC_M1_061",
+      "VOC_M1_041",
+      "VOC_D32_030",
+      "VOC_M1_023",
+      "VOC_D32_024"
+    ],
+    "grammar_ids": [
+      "GR_D32_YAO_BU_YAO"
+    ],
+    "audio_id": "AUD_SEN_D32_077",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_078",
+    "text": "你要不要環保袋？",
+    "pinyin": "Nǐ yào bù yào huánbǎo dài?",
+    "pinyin_numeric": "ni3 yao4 bu4 yao4 huan2 bao3 dai4?",
+    "translation_en": "Do you want an eco-friendly bag?",
+    "translation_ko": "에코백이 필요하세요?",
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_M1_061",
+      "VOC_M1_079",
+      "VOC_M1_061",
+      "VOC_D32_014"
+    ],
+    "grammar_ids": [
+      "GR_D32_YAO_BU_YAO"
+    ],
+    "audio_id": "AUD_SEN_D32_078",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_079",
+    "text": "你要收據嗎？",
+    "pinyin": "Nǐ yào shōujù ma?",
+    "pinyin_numeric": "ni3 yao4 shou1 ju4 ma0?",
+    "translation_en": "Do you want a receipt?",
+    "translation_ko": "영수증을 받으시겠어요?",
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_M1_061",
+      "VOC_D32_009",
+      "VOC_M1_016"
+    ],
+    "grammar_ids": [
+      "GR_D32_YAO_BU_YAO"
+    ],
+    "audio_id": "AUD_SEN_D32_079",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_080",
+    "text": "要不要買這個飯糰？",
+    "pinyin": "Yào bù yào mǎi zhège fàntuán?",
+    "pinyin_numeric": "yao4 bu4 yao4 mai3 zhe4 ge4 fan4 tuan2?",
+    "translation_en": "Do you want to buy this rice ball?",
+    "translation_ko": "이 주먹밥을 사시겠어요?",
+    "token_ids": [
+      "VOC_M1_061",
+      "VOC_M1_079",
+      "VOC_M1_061",
+      "VOC_M1_041",
+      "VOC_D32_018"
+    ],
+    "grammar_ids": [
+      "GR_D32_YAO_BU_YAO"
+    ],
+    "audio_id": "AUD_SEN_D32_080",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_081",
+    "text": "這個便當要微波嗎？",
+    "pinyin": "Zhège biàndāng yào wēibō ma?",
+    "pinyin_numeric": "zhe4 ge4 bian4 dang1 yao4 wei1 bo1 ma0",
+    "translation_en": "Does this bento need to be microwaved?",
+    "translation_ko": "이 도시락을 전자레인지에 데워야 하나요?",
+    "token_ids": [
+      "VOC_M1_041",
+      "VOC_D32_017",
+      "VOC_M1_061",
+      "VOC_D32_016",
+      "VOC_M1_016"
+    ],
+    "grammar_ids": [
+      "GR_D32_THIS_THAT_REVIEW"
+    ],
+    "audio_id": "AUD_SEN_D32_081",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_082",
+    "text": "那個三明治多少錢？",
+    "pinyin": "Nàge sānmíngzhì duōshǎo qián?",
+    "pinyin_numeric": "na4 ge4 san1 ming2 zhi4 duo1 shao3 qian2",
+    "translation_en": "How much is that sandwich?",
+    "translation_ko": "저 샌드위치는 얼마인가요?",
+    "token_ids": [
+      "VOC_M1_163",
+      "VOC_D32_019",
+      "VOC_M1_113",
+      "VOC_M1_114"
+    ],
+    "grammar_ids": [
+      "GR_D32_THIS_THAT_REVIEW"
+    ],
+    "audio_id": "AUD_SEN_D32_082",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_083",
+    "text": "我要買這個飯糰和那杯咖啡。",
+    "pinyin": "Wǒ yào mǎi zhège fàntuán hé nà bēi kāfēi.",
+    "pinyin_numeric": "wo3 yao4 mai3 zhe4 ge4 fan4 tuan2 he2 na4 bei1 ka1 fei1",
+    "translation_en": "I want to buy this rice ball and that cup of coffee.",
+    "translation_ko": "이 주먹밥과 저 커피 한 잔을 사고 싶어요.",
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_061",
+      "VOC_M1_041",
+      "VOC_D32_018",
+      "VOC_M1_099",
+      "VOC_M1_047"
+    ],
+    "grammar_ids": [
+      "GR_D32_THIS_THAT_REVIEW"
+    ],
+    "audio_id": "AUD_SEN_D32_083",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_084",
+    "text": "請問，這個有特價嗎？",
+    "pinyin": "Qǐngwèn, zhège yǒu tèjià ma?",
+    "pinyin_numeric": "qing3 wen4, zhe4 ge4 you3 te4 jia4 ma0",
+    "translation_en": "Excuse me, is this on sale?",
+    "translation_ko": "실례합니다, 이거 할인 중인가요?",
+    "token_ids": [
+      "VOC_M1_179",
+      "VOC_M1_041",
+      "VOC_M1_022",
+      "VOC_D32_030",
+      "VOC_M1_016"
+    ],
+    "grammar_ids": [
+      "GR_D32_THIS_THAT_REVIEW"
+    ],
+    "audio_id": "AUD_SEN_D32_084",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_085",
+    "text": "那個茶葉蛋要兩個。",
+    "pinyin": "Nàge cháyèdàn yào liǎng ge.",
+    "pinyin_numeric": "na4 ge4 cha2 ye4 dan4 yao4 liang3 ge0",
+    "translation_en": "I want two of those tea eggs.",
+    "translation_ko": "그 차가운 계란 두 개 주세요.",
+    "token_ids": [
+      "VOC_M1_163",
+      "VOC_D32_020",
+      "VOC_M1_061",
+      "VOC_M1_100",
+      "VOC_M1_041"
+    ],
+    "grammar_ids": [
+      "GR_D32_THIS_THAT_REVIEW"
+    ],
+    "audio_id": "AUD_SEN_D32_085",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_086",
+    "text": "這個環保袋多少錢？",
+    "pinyin": "Zhège huánbǎo dài duōshǎo qián?",
+    "pinyin_numeric": "zhe4 ge4 huan2 bao3 dai4 duo1 shao3 qian2",
+    "translation_en": "How much is this eco-friendly bag?",
+    "translation_ko": "이 친환경 봉투는 얼마인가요?",
+    "token_ids": [
+      "VOC_M1_041",
+      "VOC_D32_014",
+      "VOC_M1_113",
+      "VOC_M1_114"
+    ],
+    "grammar_ids": [
+      "GR_D32_THIS_THAT_REVIEW"
+    ],
+    "audio_id": "AUD_SEN_D32_086",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_087",
+    "text": "我要用信用卡付款。",
+    "pinyin": "Wǒ yào yòng xìnyòngkǎ fùkuǎn.",
+    "pinyin_numeric": "wo3 yao4 yong4 xin4 yong4 ka3 fu4 kuan3",
+    "translation_en": "I want to pay with a credit card.",
+    "translation_ko": "신용카드로 결제할게요.",
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_061",
+      "VOC_M1_119",
+      "VOC_D32_006",
+      "VOC_D32_004"
+    ],
+    "grammar_ids": [
+      "GR_D32_THIS_THAT_REVIEW"
+    ],
+    "audio_id": "AUD_SEN_D32_087",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_088",
+    "text": "這個便當請幫我加熱。",
+    "pinyin": "Zhège biàndāng qǐng bāng wǒ jiārè.",
+    "pinyin_numeric": "zhe4 ge4 bian4 dang1 qing3 bang1 wo3 jia1 re4",
+    "translation_en": "Please heat up this bento for me.",
+    "translation_ko": "이 도시락을 데워 주세요.",
+    "token_ids": [
+      "VOC_M1_041",
+      "VOC_D32_017",
+      "VOC_M1_179",
+      "VOC_D31_004",
+      "VOC_D32_015"
+    ],
+    "grammar_ids": [
+      "GR_D32_THIS_THAT_REVIEW"
+    ],
+    "audio_id": "AUD_SEN_D32_088",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_089",
+    "text": "那個泡麵要買一送一嗎？",
+    "pinyin": "Nàge pàomiàn yào mǎi yī sòng yī ma?",
+    "pinyin_numeric": "na4 ge4 pao4 mian4 yao4 mai3 yi1 song4 yi1 ma0",
+    "translation_en": "Is that instant noodle buy one get one free?",
+    "translation_ko": "저 라면은 하나 사면 하나 더 주는 건가요?",
+    "token_ids": [
+      "VOC_M1_163",
+      "VOC_D32_024",
+      "VOC_M1_061",
+      "VOC_D32_029",
+      "VOC_M1_016"
+    ],
+    "grammar_ids": [
+      "GR_D32_THIS_THAT_REVIEW"
+    ],
+    "audio_id": "AUD_SEN_D32_089",
+    "day_introduced": 32
+  },
+  {
+    "id": "SEN_D32_090",
+    "text": "總共是兩百三十塊，這是你的收據。",
+    "pinyin": "Zǒnggòng shì liǎng bǎi sānshí kuài, zhè shì nǐ de shōujù.",
+    "pinyin_numeric": "zong3 gong4 shi4 liang3 bai3 san1 shi2 kuai4, zhe4 shi4 ni3 de0 shou1 ju4",
+    "translation_en": "The total is 230 dollars, here is your receipt.",
+    "translation_ko": "총 230원입니다, 여기 영수증입니다.",
+    "token_ids": [
+      "VOC_D32_031",
+      "VOC_M1_007",
+      "VOC_M1_100",
+      "VOC_M1_021",
+      "VOC_M1_011",
+      "VOC_M1_015",
+      "VOC_M1_116",
+      "VOC_M1_007",
+      "VOC_M1_003",
+      "VOC_M1_023",
+      "VOC_D32_009"
+    ],
+    "grammar_ids": [
+      "GR_D32_THIS_THAT_REVIEW"
+    ],
+    "audio_id": "AUD_SEN_D32_090",
+    "day_introduced": 32
   }
 ]
