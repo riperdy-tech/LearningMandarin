@@ -1,2206 +1,5 @@
 [
   {
-    "id": "SEN_D53_001",
-    "text": "我說了。",
-    "pinyin": "wǒ shuō le。",
-    "pinyin_numeric": "wo3 shuo1 le0。",
-    "translation_en": "I spoke.",
-    "translation_ko": "저는 말하다했습니다.",
-    "tokens": [
-      "我",
-      "說",
-      "了"
-    ],
-    "token_ids": [
-      "VOC_D53_001",
-      "VOC_D53_030"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_001",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_002",
-    "text": "你需要了嗎？",
-    "pinyin": "nǐ xūyào le ma？",
-    "pinyin_numeric": "ni3 xuyao4 le0 ma0？",
-    "translation_en": "Did you need?",
-    "translation_ko": "필요하다했습니까?",
-    "tokens": [
-      "你",
-      "需",
-      "要",
-      "了",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_D53_002",
-      "VOC_D53_027",
-      "VOC_D53_013"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_002",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_003",
-    "text": "他去地方。",
-    "pinyin": "tā qù 地 方。",
-    "pinyin_numeric": "ta1 qu4 地 方。",
-    "translation_en": "He goes place.",
-    "translation_ko": "그는 장소을/를 가다합니다.",
-    "tokens": [
-      "他",
-      "去",
-      "地",
-      "方"
-    ],
-    "token_ids": [
-      "VOC_D53_003",
-      "VOC_D53_009"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_003",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_004",
-    "text": "我去過食物。",
-    "pinyin": "wǒ qù guò 食 物。",
-    "pinyin_numeric": "wo3 qu4 guo4 食 物。",
-    "translation_en": "I have went food before.",
-    "translation_ko": "저는 음식을/를 가다한 적이 있습니다.",
-    "tokens": [
-      "我",
-      "去",
-      "過",
-      "食",
-      "物"
-    ],
-    "token_ids": [
-      "VOC_D53_001",
-      "VOC_D53_009"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_004",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_005",
-    "text": "今天很快。",
-    "pinyin": "jīntiān hěn kuài。",
-    "pinyin_numeric": "jin1 tian1 hen3 kuai4。",
-    "translation_en": "Today is very fast.",
-    "translation_ko": "오늘은 매우 빠르다니다.",
-    "tokens": [
-      "今",
-      "天",
-      "很",
-      "快"
-    ],
-    "token_ids": [
-      "VOC_D53_015"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_005",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_006",
-    "text": "你覺得朋友怎麼樣？",
-    "pinyin": "nǐ juéde 朋 友 zěnme 樣？",
-    "pinyin_numeric": "ni3 jue2 de0 朋 友 zenme3 樣？",
-    "translation_en": "What do you think of friend?",
-    "translation_ko": "친구은/는 어때요?",
-    "tokens": [
-      "你",
-      "覺",
-      "得",
-      "朋",
-      "友",
-      "怎",
-      "麼",
-      "樣"
-    ],
-    "token_ids": [
-      "VOC_D53_002",
-      "VOC_D53_023"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_006",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_007",
-    "text": "可以想嗎？",
-    "pinyin": "kěyǐ xiǎng ma？",
-    "pinyin_numeric": "keyi3 xiang3 ma0？",
-    "translation_en": "Can I want?",
-    "translation_ko": "원하다할 수 있어요?",
-    "tokens": [
-      "可",
-      "以",
-      "想",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_D53_012",
-      "VOC_D53_011",
-      "VOC_D53_013"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_007",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_008",
-    "text": "這個很多。",
-    "pinyin": "zhège hěn duō。",
-    "pinyin_numeric": "zhe4 ge0 hen3 duo1。",
-    "translation_en": "This is very many.",
-    "translation_ko": "이것은 매우 많다니다.",
-    "tokens": [
-      "這",
-      "個",
-      "很",
-      "多"
-    ],
-    "token_ids": [
-      "VOC_D53_015"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_008",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_009",
-    "text": "我要書。",
-    "pinyin": "wǒ yào 書。",
-    "pinyin_numeric": "wo3 yao4 書。",
-    "translation_en": "I want book.",
-    "translation_ko": "저는 책을/를 원합니다.",
-    "tokens": [
-      "我",
-      "要",
-      "書"
-    ],
-    "token_ids": [
-      "VOC_D53_001",
-      "VOC_D53_010"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_009",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_010",
-    "text": "他正在有。",
-    "pinyin": "tā zhèngzài yǒu。",
-    "pinyin_numeric": "ta1 zheng4 zai4 you3。",
-    "translation_en": "He is having.",
-    "translation_ko": "그는 있다하고 있습니다.",
-    "tokens": [
-      "他",
-      "正",
-      "在",
-      "有"
-    ],
-    "token_ids": [
-      "VOC_D53_003",
-      "VOC_D53_007"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_010",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_011",
-    "text": "水比地方好。",
-    "pinyin": "水 bǐ 地 方 hǎo。",
-    "pinyin_numeric": "水 bi3 地 方 hao3。",
-    "translation_en": "water is better than place.",
-    "translation_ko": "물은/는 장소보다 좋습니다.",
-    "tokens": [
-      "水",
-      "比",
-      "地",
-      "方",
-      "好"
-    ],
-    "token_ids": [],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_011",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_012",
-    "text": "你會說嗎？",
-    "pinyin": "nǐ huì shuō ma？",
-    "pinyin_numeric": "ni3 hui4 shuo1 ma0？",
-    "translation_en": "Can you speak?",
-    "translation_ko": "말하다 할 수 있나요?",
-    "tokens": [
-      "你",
-      "會",
-      "說",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_D53_002",
-      "VOC_D53_017",
-      "VOC_D53_030",
-      "VOC_D53_013"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_012",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_013",
-    "text": "我需要地方。",
-    "pinyin": "wǒ xūyào 地 方。",
-    "pinyin_numeric": "wo3 xuyao4 地 方。",
-    "translation_en": "I need place.",
-    "translation_ko": "저는 장소이/가 필요합니다.",
-    "tokens": [
-      "我",
-      "需",
-      "要",
-      "地",
-      "方"
-    ],
-    "token_ids": [
-      "VOC_D53_001",
-      "VOC_D53_027"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_013",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_014",
-    "text": "昨天我想了。",
-    "pinyin": "zuótiān wǒ xiǎng le。",
-    "pinyin_numeric": "zuo2 tian1 wo3 xiang3 le0。",
-    "translation_en": "Yesterday I wanted.",
-    "translation_ko": "어제 저는 원하다했습니다.",
-    "tokens": [
-      "昨",
-      "天",
-      "我",
-      "想",
-      "了"
-    ],
-    "token_ids": [
-      "VOC_D53_001",
-      "VOC_D53_011"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_014",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_015",
-    "text": "這裡很熱。",
-    "pinyin": "zhèlǐ hěn rè。",
-    "pinyin_numeric": "zhe4 li3 hen3 re4。",
-    "translation_en": "It is very hot here.",
-    "translation_ko": "여기는 매우 덥다니다.",
-    "tokens": [
-      "這",
-      "裡",
-      "很",
-      "熱"
-    ],
-    "token_ids": [
-      "VOC_D53_015"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_015",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_016",
-    "text": "我說了。",
-    "pinyin": "wǒ shuō le。",
-    "pinyin_numeric": "wo3 shuo1 le0。",
-    "translation_en": "I spoke.",
-    "translation_ko": "저는 말하다했습니다.",
-    "tokens": [
-      "我",
-      "說",
-      "了"
-    ],
-    "token_ids": [
-      "VOC_D53_001",
-      "VOC_D53_030"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_016",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_017",
-    "text": "你想了嗎？",
-    "pinyin": "nǐ xiǎng le ma？",
-    "pinyin_numeric": "ni3 xiang3 le0 ma0？",
-    "translation_en": "Did you want?",
-    "translation_ko": "원하다했습니까?",
-    "tokens": [
-      "你",
-      "想",
-      "了",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_D53_002",
-      "VOC_D53_011",
-      "VOC_D53_013"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_017",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_018",
-    "text": "他喜歡東西。",
-    "pinyin": "tā xǐhuan 東 西。",
-    "pinyin_numeric": "ta1 xihuan3 東 西。",
-    "translation_en": "He likes thing.",
-    "translation_ko": "그는 물건을/를 좋아하다합니다.",
-    "tokens": [
-      "他",
-      "喜",
-      "歡",
-      "東",
-      "西"
-    ],
-    "token_ids": [
-      "VOC_D53_003",
-      "VOC_D53_029"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_018",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_019",
-    "text": "我喜歡過人。",
-    "pinyin": "wǒ xǐhuan guò 人。",
-    "pinyin_numeric": "wo3 xihuan3 guo4 人。",
-    "translation_en": "I have liked person before.",
-    "translation_ko": "저는 사람을/를 좋아하다한 적이 있습니다.",
-    "tokens": [
-      "我",
-      "喜",
-      "歡",
-      "過",
-      "人"
-    ],
-    "token_ids": [
-      "VOC_D53_001",
-      "VOC_D53_029"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_019",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_020",
-    "text": "今天很慢。",
-    "pinyin": "jīntiān hěn màn。",
-    "pinyin_numeric": "jin1 tian1 hen3 man4。",
-    "translation_en": "Today is very slow.",
-    "translation_ko": "오늘은 매우 느리다니다.",
-    "tokens": [
-      "今",
-      "天",
-      "很",
-      "慢"
-    ],
-    "token_ids": [
-      "VOC_D53_015"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_020",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_021",
-    "text": "你覺得書怎麼樣？",
-    "pinyin": "nǐ juéde 書 zěnme 樣？",
-    "pinyin_numeric": "ni3 jue2 de0 書 zenme3 樣？",
-    "translation_en": "What do you think of book?",
-    "translation_ko": "책은/는 어때요?",
-    "tokens": [
-      "你",
-      "覺",
-      "得",
-      "書",
-      "怎",
-      "麼",
-      "樣"
-    ],
-    "token_ids": [
-      "VOC_D53_002",
-      "VOC_D53_023"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_021",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_022",
-    "text": "可以想嗎？",
-    "pinyin": "kěyǐ xiǎng ma？",
-    "pinyin_numeric": "keyi3 xiang3 ma0？",
-    "translation_en": "Can I want?",
-    "translation_ko": "원하다할 수 있어요?",
-    "tokens": [
-      "可",
-      "以",
-      "想",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_D53_012",
-      "VOC_D53_011",
-      "VOC_D53_013"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_022",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_023",
-    "text": "這個很快。",
-    "pinyin": "zhège hěn kuài。",
-    "pinyin_numeric": "zhe4 ge0 hen3 kuai4。",
-    "translation_en": "This is very fast.",
-    "translation_ko": "이것은 매우 빠르다니다.",
-    "tokens": [
-      "這",
-      "個",
-      "很",
-      "快"
-    ],
-    "token_ids": [
-      "VOC_D53_015"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_023",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_024",
-    "text": "我要朋友。",
-    "pinyin": "wǒ yào 朋 友。",
-    "pinyin_numeric": "wo3 yao4 朋 友。",
-    "translation_en": "I want friend.",
-    "translation_ko": "저는 친구을/를 원합니다.",
-    "tokens": [
-      "我",
-      "要",
-      "朋",
-      "友"
-    ],
-    "token_ids": [
-      "VOC_D53_001",
-      "VOC_D53_010"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_024",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_025",
-    "text": "他正在喜歡。",
-    "pinyin": "tā zhèngzài xǐhuan。",
-    "pinyin_numeric": "ta1 zheng4 zai4 xihuan3。",
-    "translation_en": "He is liking.",
-    "translation_ko": "그는 좋아하다하고 있습니다.",
-    "tokens": [
-      "他",
-      "正",
-      "在",
-      "喜",
-      "歡"
-    ],
-    "token_ids": [
-      "VOC_D53_003",
-      "VOC_D53_029"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_025",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_026",
-    "text": "錢比食物好。",
-    "pinyin": "錢 bǐ 食 物 hǎo。",
-    "pinyin_numeric": "錢 bi3 食 物 hao3。",
-    "translation_en": "money is better than food.",
-    "translation_ko": "돈은/는 음식보다 좋습니다.",
-    "tokens": [
-      "錢",
-      "比",
-      "食",
-      "物",
-      "好"
-    ],
-    "token_ids": [],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_026",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_027",
-    "text": "你會說嗎？",
-    "pinyin": "nǐ huì shuō ma？",
-    "pinyin_numeric": "ni3 hui4 shuo1 ma0？",
-    "translation_en": "Can you speak?",
-    "translation_ko": "말하다 할 수 있나요?",
-    "tokens": [
-      "你",
-      "會",
-      "說",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_D53_002",
-      "VOC_D53_017",
-      "VOC_D53_030",
-      "VOC_D53_013"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_027",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_028",
-    "text": "我需要食物。",
-    "pinyin": "wǒ xūyào 食 物。",
-    "pinyin_numeric": "wo3 xuyao4 食 物。",
-    "translation_en": "I need food.",
-    "translation_ko": "저는 음식이/가 필요합니다.",
-    "tokens": [
-      "我",
-      "需",
-      "要",
-      "食",
-      "物"
-    ],
-    "token_ids": [
-      "VOC_D53_001",
-      "VOC_D53_027"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_028",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_029",
-    "text": "昨天我說了。",
-    "pinyin": "zuótiān wǒ shuō le。",
-    "pinyin_numeric": "zuo2 tian1 wo3 shuo1 le0。",
-    "translation_en": "Yesterday I spoke.",
-    "translation_ko": "어제 저는 말하다했습니다.",
-    "tokens": [
-      "昨",
-      "天",
-      "我",
-      "說",
-      "了"
-    ],
-    "token_ids": [
-      "VOC_D53_001",
-      "VOC_D53_030"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_029",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_030",
-    "text": "這裡很舊。",
-    "pinyin": "zhèlǐ hěn jiù。",
-    "pinyin_numeric": "zhe4 li3 hen3 jiu4。",
-    "translation_en": "It is very old here.",
-    "translation_ko": "여기는 매우 낡다니다.",
-    "tokens": [
-      "這",
-      "裡",
-      "很",
-      "舊"
-    ],
-    "token_ids": [
-      "VOC_D53_015"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_030",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_031",
-    "text": "我有了。",
-    "pinyin": "wǒ yǒu le。",
-    "pinyin_numeric": "wo3 you3 le0。",
-    "translation_en": "I had.",
-    "translation_ko": "저는 있다했습니다.",
-    "tokens": [
-      "我",
-      "有",
-      "了"
-    ],
-    "token_ids": [
-      "VOC_D53_001",
-      "VOC_D53_007"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_031",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_032",
-    "text": "你需要了嗎？",
-    "pinyin": "nǐ xūyào le ma？",
-    "pinyin_numeric": "ni3 xuyao4 le0 ma0？",
-    "translation_en": "Did you need?",
-    "translation_ko": "필요하다했습니까?",
-    "tokens": [
-      "你",
-      "需",
-      "要",
-      "了",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_D53_002",
-      "VOC_D53_027",
-      "VOC_D53_013"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_032",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_033",
-    "text": "他去東西。",
-    "pinyin": "tā qù 東 西。",
-    "pinyin_numeric": "ta1 qu4 東 西。",
-    "translation_en": "He goes thing.",
-    "translation_ko": "그는 물건을/를 가다합니다.",
-    "tokens": [
-      "他",
-      "去",
-      "東",
-      "西"
-    ],
-    "token_ids": [
-      "VOC_D53_003",
-      "VOC_D53_009"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_033",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_034",
-    "text": "我有過東西。",
-    "pinyin": "wǒ yǒu guò 東 西。",
-    "pinyin_numeric": "wo3 you3 guo4 東 西。",
-    "translation_en": "I have had thing before.",
-    "translation_ko": "저는 물건을/를 있다한 적이 있습니다.",
-    "tokens": [
-      "我",
-      "有",
-      "過",
-      "東",
-      "西"
-    ],
-    "token_ids": [
-      "VOC_D53_001",
-      "VOC_D53_007"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_034",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_035",
-    "text": "今天很新。",
-    "pinyin": "jīntiān hěn xīn。",
-    "pinyin_numeric": "jin1 tian1 hen3 xin1。",
-    "translation_en": "Today is very new.",
-    "translation_ko": "오늘은 매우 새롭다니다.",
-    "tokens": [
-      "今",
-      "天",
-      "很",
-      "新"
-    ],
-    "token_ids": [
-      "VOC_D53_015"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_035",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_036",
-    "text": "你覺得家怎麼樣？",
-    "pinyin": "nǐ juéde 家 zěnme 樣？",
-    "pinyin_numeric": "ni3 jue2 de0 家 zenme3 樣？",
-    "translation_en": "What do you think of home?",
-    "translation_ko": "집은/는 어때요?",
-    "tokens": [
-      "你",
-      "覺",
-      "得",
-      "家",
-      "怎",
-      "麼",
-      "樣"
-    ],
-    "token_ids": [
-      "VOC_D53_002",
-      "VOC_D53_023"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_036",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_037",
-    "text": "可以喜歡嗎？",
-    "pinyin": "kěyǐ xǐhuan ma？",
-    "pinyin_numeric": "keyi3 xihuan3 ma0？",
-    "translation_en": "Can I like?",
-    "translation_ko": "좋아하다할 수 있어요?",
-    "tokens": [
-      "可",
-      "以",
-      "喜",
-      "歡",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_D53_012",
-      "VOC_D53_029",
-      "VOC_D53_013"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_037",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_038",
-    "text": "這個很快。",
-    "pinyin": "zhège hěn kuài。",
-    "pinyin_numeric": "zhe4 ge0 hen3 kuai4。",
-    "translation_en": "This is very fast.",
-    "translation_ko": "이것은 매우 빠르다니다.",
-    "tokens": [
-      "這",
-      "個",
-      "很",
-      "快"
-    ],
-    "token_ids": [
-      "VOC_D53_015"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_038",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_039",
-    "text": "我要東西。",
-    "pinyin": "wǒ yào 東 西。",
-    "pinyin_numeric": "wo3 yao4 東 西。",
-    "translation_en": "I want thing.",
-    "translation_ko": "저는 물건을/를 원합니다.",
-    "tokens": [
-      "我",
-      "要",
-      "東",
-      "西"
-    ],
-    "token_ids": [
-      "VOC_D53_001",
-      "VOC_D53_010"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_039",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_040",
-    "text": "他正在需要。",
-    "pinyin": "tā zhèngzài xūyào。",
-    "pinyin_numeric": "ta1 zheng4 zai4 xuyao4。",
-    "translation_en": "He is needing.",
-    "translation_ko": "그는 필요하다하고 있습니다.",
-    "tokens": [
-      "他",
-      "正",
-      "在",
-      "需",
-      "要"
-    ],
-    "token_ids": [
-      "VOC_D53_003",
-      "VOC_D53_027"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_040",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_041",
-    "text": "東西比家好。",
-    "pinyin": "東 西 bǐ 家 hǎo。",
-    "pinyin_numeric": "東 西 bi3 家 hao3。",
-    "translation_en": "thing is better than home.",
-    "translation_ko": "물건은/는 집보다 좋습니다.",
-    "tokens": [
-      "東",
-      "西",
-      "比",
-      "家",
-      "好"
-    ],
-    "token_ids": [],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_041",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_042",
-    "text": "你會想嗎？",
-    "pinyin": "nǐ huì xiǎng ma？",
-    "pinyin_numeric": "ni3 hui4 xiang3 ma0？",
-    "translation_en": "Can you want?",
-    "translation_ko": "원하다 할 수 있나요?",
-    "tokens": [
-      "你",
-      "會",
-      "想",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_D53_002",
-      "VOC_D53_017",
-      "VOC_D53_011",
-      "VOC_D53_013"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_042",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_043",
-    "text": "我需要家。",
-    "pinyin": "wǒ xūyào 家。",
-    "pinyin_numeric": "wo3 xuyao4 家。",
-    "translation_en": "I need home.",
-    "translation_ko": "저는 집이/가 필요합니다.",
-    "tokens": [
-      "我",
-      "需",
-      "要",
-      "家"
-    ],
-    "token_ids": [
-      "VOC_D53_001",
-      "VOC_D53_027"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_043",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_044",
-    "text": "昨天我喜歡了。",
-    "pinyin": "zuótiān wǒ xǐhuan le。",
-    "pinyin_numeric": "zuo2 tian1 wo3 xihuan3 le0。",
-    "translation_en": "Yesterday I liked.",
-    "translation_ko": "어제 저는 좋아하다했습니다.",
-    "tokens": [
-      "昨",
-      "天",
-      "我",
-      "喜",
-      "歡",
-      "了"
-    ],
-    "token_ids": [
-      "VOC_D53_001",
-      "VOC_D53_029"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_044",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_045",
-    "text": "這裡很大。",
-    "pinyin": "zhèlǐ hěn dà。",
-    "pinyin_numeric": "zhe4 li3 hen3 da4。",
-    "translation_en": "It is very big here.",
-    "translation_ko": "여기는 매우 크다니다.",
-    "tokens": [
-      "這",
-      "裡",
-      "很",
-      "大"
-    ],
-    "token_ids": [
-      "VOC_D53_015"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_045",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_046",
-    "text": "我需要了。",
-    "pinyin": "wǒ xūyào le。",
-    "pinyin_numeric": "wo3 xuyao4 le0。",
-    "translation_en": "I needed.",
-    "translation_ko": "저는 필요하다했습니다.",
-    "tokens": [
-      "我",
-      "需",
-      "要",
-      "了"
-    ],
-    "token_ids": [
-      "VOC_D53_001",
-      "VOC_D53_027"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_046",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_047",
-    "text": "你有了嗎？",
-    "pinyin": "nǐ yǒu le ma？",
-    "pinyin_numeric": "ni3 you3 le0 ma0？",
-    "translation_en": "Did you have?",
-    "translation_ko": "있다했습니까?",
-    "tokens": [
-      "你",
-      "有",
-      "了",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_D53_002",
-      "VOC_D53_007",
-      "VOC_D53_013"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_047",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_048",
-    "text": "他想朋友。",
-    "pinyin": "tā xiǎng 朋 友。",
-    "pinyin_numeric": "ta1 xiang3 朋 友。",
-    "translation_en": "He wants friend.",
-    "translation_ko": "그는 친구을/를 원하다합니다.",
-    "tokens": [
-      "他",
-      "想",
-      "朋",
-      "友"
-    ],
-    "token_ids": [
-      "VOC_D53_003",
-      "VOC_D53_011"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_048",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_049",
-    "text": "我有過錢。",
-    "pinyin": "wǒ yǒu guò 錢。",
-    "pinyin_numeric": "wo3 you3 guo4 錢。",
-    "translation_en": "I have had money before.",
-    "translation_ko": "저는 돈을/를 있다한 적이 있습니다.",
-    "tokens": [
-      "我",
-      "有",
-      "過",
-      "錢"
-    ],
-    "token_ids": [
-      "VOC_D53_001",
-      "VOC_D53_007"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_049",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_050",
-    "text": "今天很便宜。",
-    "pinyin": "jīntiān hěn piányí。",
-    "pinyin_numeric": "jin1 tian1 hen3 pian2 yi2。",
-    "translation_en": "Today is very cheap.",
-    "translation_ko": "오늘은 매우 싸다니다.",
-    "tokens": [
-      "今",
-      "天",
-      "很",
-      "便",
-      "宜"
-    ],
-    "token_ids": [
-      "VOC_D53_015"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_050",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_051",
-    "text": "你覺得食物怎麼樣？",
-    "pinyin": "nǐ juéde 食 物 zěnme 樣？",
-    "pinyin_numeric": "ni3 jue2 de0 食 物 zenme3 樣？",
-    "translation_en": "What do you think of food?",
-    "translation_ko": "음식은/는 어때요?",
-    "tokens": [
-      "你",
-      "覺",
-      "得",
-      "食",
-      "物",
-      "怎",
-      "麼",
-      "樣"
-    ],
-    "token_ids": [
-      "VOC_D53_002",
-      "VOC_D53_023"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_051",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_052",
-    "text": "可以需要嗎？",
-    "pinyin": "kěyǐ xūyào ma？",
-    "pinyin_numeric": "keyi3 xuyao4 ma0？",
-    "translation_en": "Can I need?",
-    "translation_ko": "필요하다할 수 있어요?",
-    "tokens": [
-      "可",
-      "以",
-      "需",
-      "要",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_D53_012",
-      "VOC_D53_027",
-      "VOC_D53_013"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_052",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_053",
-    "text": "這個很好。",
-    "pinyin": "zhège hěn hǎo。",
-    "pinyin_numeric": "zhe4 ge0 hen3 hao3。",
-    "translation_en": "This is very good.",
-    "translation_ko": "이것은 매우 좋다니다.",
-    "tokens": [
-      "這",
-      "個",
-      "很",
-      "好"
-    ],
-    "token_ids": [
-      "VOC_D53_015"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_053",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_054",
-    "text": "我要家。",
-    "pinyin": "wǒ yào 家。",
-    "pinyin_numeric": "wo3 yao4 家。",
-    "translation_en": "I want home.",
-    "translation_ko": "저는 집을/를 원합니다.",
-    "tokens": [
-      "我",
-      "要",
-      "家"
-    ],
-    "token_ids": [
-      "VOC_D53_001",
-      "VOC_D53_010"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_054",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_055",
-    "text": "他正在去。",
-    "pinyin": "tā zhèngzài qù。",
-    "pinyin_numeric": "ta1 zheng4 zai4 qu4。",
-    "translation_en": "He is going.",
-    "translation_ko": "그는 가다하고 있습니다.",
-    "tokens": [
-      "他",
-      "正",
-      "在",
-      "去"
-    ],
-    "token_ids": [
-      "VOC_D53_003",
-      "VOC_D53_009"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_055",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_056",
-    "text": "食物比東西好。",
-    "pinyin": "食 物 bǐ 東 西 hǎo。",
-    "pinyin_numeric": "食 物 bi3 東 西 hao3。",
-    "translation_en": "food is better than thing.",
-    "translation_ko": "음식은/는 물건보다 좋습니다.",
-    "tokens": [
-      "食",
-      "物",
-      "比",
-      "東",
-      "西",
-      "好"
-    ],
-    "token_ids": [],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_056",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_057",
-    "text": "你會有嗎？",
-    "pinyin": "nǐ huì yǒu ma？",
-    "pinyin_numeric": "ni3 hui4 you3 ma0？",
-    "translation_en": "Can you have?",
-    "translation_ko": "있다 할 수 있나요?",
-    "tokens": [
-      "你",
-      "會",
-      "有",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_D53_002",
-      "VOC_D53_017",
-      "VOC_D53_007",
-      "VOC_D53_013"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_057",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_058",
-    "text": "我需要地方。",
-    "pinyin": "wǒ xūyào 地 方。",
-    "pinyin_numeric": "wo3 xuyao4 地 方。",
-    "translation_en": "I need place.",
-    "translation_ko": "저는 장소이/가 필요합니다.",
-    "tokens": [
-      "我",
-      "需",
-      "要",
-      "地",
-      "方"
-    ],
-    "token_ids": [
-      "VOC_D53_001",
-      "VOC_D53_027"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_058",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_059",
-    "text": "昨天我需要了。",
-    "pinyin": "zuótiān wǒ xūyào le。",
-    "pinyin_numeric": "zuo2 tian1 wo3 xuyao4 le0。",
-    "translation_en": "Yesterday I needed.",
-    "translation_ko": "어제 저는 필요하다했습니다.",
-    "tokens": [
-      "昨",
-      "天",
-      "我",
-      "需",
-      "要",
-      "了"
-    ],
-    "token_ids": [
-      "VOC_D53_001",
-      "VOC_D53_027"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_059",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_060",
-    "text": "這裡很好。",
-    "pinyin": "zhèlǐ hěn hǎo。",
-    "pinyin_numeric": "zhe4 li3 hen3 hao3。",
-    "translation_en": "It is very good here.",
-    "translation_ko": "여기는 매우 좋다니다.",
-    "tokens": [
-      "這",
-      "裡",
-      "很",
-      "好"
-    ],
-    "token_ids": [
-      "VOC_D53_015"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_060",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_061",
-    "text": "我需要了。",
-    "pinyin": "wǒ xūyào le。",
-    "pinyin_numeric": "wo3 xuyao4 le0。",
-    "translation_en": "I needed.",
-    "translation_ko": "저는 필요하다했습니다.",
-    "tokens": [
-      "我",
-      "需",
-      "要",
-      "了"
-    ],
-    "token_ids": [
-      "VOC_D53_001",
-      "VOC_D53_027"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_061",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_062",
-    "text": "你說了嗎？",
-    "pinyin": "nǐ shuō le ma？",
-    "pinyin_numeric": "ni3 shuo1 le0 ma0？",
-    "translation_en": "Did you speak?",
-    "translation_ko": "말하다했습니까?",
-    "tokens": [
-      "你",
-      "說",
-      "了",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_D53_002",
-      "VOC_D53_030",
-      "VOC_D53_013"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_062",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_063",
-    "text": "他去書。",
-    "pinyin": "tā qù 書。",
-    "pinyin_numeric": "ta1 qu4 書。",
-    "translation_en": "He goes book.",
-    "translation_ko": "그는 책을/를 가다합니다.",
-    "tokens": [
-      "他",
-      "去",
-      "書"
-    ],
-    "token_ids": [
-      "VOC_D53_003",
-      "VOC_D53_009"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_063",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_064",
-    "text": "我喜歡過時間。",
-    "pinyin": "wǒ xǐhuan guò 時 間。",
-    "pinyin_numeric": "wo3 xihuan3 guo4 時 間。",
-    "translation_en": "I have liked time before.",
-    "translation_ko": "저는 시간을/를 좋아하다한 적이 있습니다.",
-    "tokens": [
-      "我",
-      "喜",
-      "歡",
-      "過",
-      "時",
-      "間"
-    ],
-    "token_ids": [
-      "VOC_D53_001",
-      "VOC_D53_029"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_064",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_065",
-    "text": "今天很便宜。",
-    "pinyin": "jīntiān hěn piányí。",
-    "pinyin_numeric": "jin1 tian1 hen3 pian2 yi2。",
-    "translation_en": "Today is very cheap.",
-    "translation_ko": "오늘은 매우 싸다니다.",
-    "tokens": [
-      "今",
-      "天",
-      "很",
-      "便",
-      "宜"
-    ],
-    "token_ids": [
-      "VOC_D53_015"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_065",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_066",
-    "text": "你覺得食物怎麼樣？",
-    "pinyin": "nǐ juéde 食 物 zěnme 樣？",
-    "pinyin_numeric": "ni3 jue2 de0 食 物 zenme3 樣？",
-    "translation_en": "What do you think of food?",
-    "translation_ko": "음식은/는 어때요?",
-    "tokens": [
-      "你",
-      "覺",
-      "得",
-      "食",
-      "物",
-      "怎",
-      "麼",
-      "樣"
-    ],
-    "token_ids": [
-      "VOC_D53_002",
-      "VOC_D53_023"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_066",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_067",
-    "text": "可以喜歡嗎？",
-    "pinyin": "kěyǐ xǐhuan ma？",
-    "pinyin_numeric": "keyi3 xihuan3 ma0？",
-    "translation_en": "Can I like?",
-    "translation_ko": "좋아하다할 수 있어요?",
-    "tokens": [
-      "可",
-      "以",
-      "喜",
-      "歡",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_D53_012",
-      "VOC_D53_029",
-      "VOC_D53_013"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_067",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_068",
-    "text": "這個很多。",
-    "pinyin": "zhège hěn duō。",
-    "pinyin_numeric": "zhe4 ge0 hen3 duo1。",
-    "translation_en": "This is very many.",
-    "translation_ko": "이것은 매우 많다니다.",
-    "tokens": [
-      "這",
-      "個",
-      "很",
-      "多"
-    ],
-    "token_ids": [
-      "VOC_D53_015"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_068",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_069",
-    "text": "我要地方。",
-    "pinyin": "wǒ yào 地 方。",
-    "pinyin_numeric": "wo3 yao4 地 方。",
-    "translation_en": "I want place.",
-    "translation_ko": "저는 장소을/를 원합니다.",
-    "tokens": [
-      "我",
-      "要",
-      "地",
-      "方"
-    ],
-    "token_ids": [
-      "VOC_D53_001",
-      "VOC_D53_010"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_069",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_070",
-    "text": "他正在喜歡。",
-    "pinyin": "tā zhèngzài xǐhuan。",
-    "pinyin_numeric": "ta1 zheng4 zai4 xihuan3。",
-    "translation_en": "He is liking.",
-    "translation_ko": "그는 좋아하다하고 있습니다.",
-    "tokens": [
-      "他",
-      "正",
-      "在",
-      "喜",
-      "歡"
-    ],
-    "token_ids": [
-      "VOC_D53_003",
-      "VOC_D53_029"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_070",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_071",
-    "text": "食物比東西好。",
-    "pinyin": "食 物 bǐ 東 西 hǎo。",
-    "pinyin_numeric": "食 物 bi3 東 西 hao3。",
-    "translation_en": "food is better than thing.",
-    "translation_ko": "음식은/는 물건보다 좋습니다.",
-    "tokens": [
-      "食",
-      "物",
-      "比",
-      "東",
-      "西",
-      "好"
-    ],
-    "token_ids": [],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_071",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_072",
-    "text": "你會說嗎？",
-    "pinyin": "nǐ huì shuō ma？",
-    "pinyin_numeric": "ni3 hui4 shuo1 ma0？",
-    "translation_en": "Can you speak?",
-    "translation_ko": "말하다 할 수 있나요?",
-    "tokens": [
-      "你",
-      "會",
-      "說",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_D53_002",
-      "VOC_D53_017",
-      "VOC_D53_030",
-      "VOC_D53_013"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_072",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_073",
-    "text": "我需要東西。",
-    "pinyin": "wǒ xūyào 東 西。",
-    "pinyin_numeric": "wo3 xuyao4 東 西。",
-    "translation_en": "I need thing.",
-    "translation_ko": "저는 물건이/가 필요합니다.",
-    "tokens": [
-      "我",
-      "需",
-      "要",
-      "東",
-      "西"
-    ],
-    "token_ids": [
-      "VOC_D53_001",
-      "VOC_D53_027"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_073",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_074",
-    "text": "昨天我需要了。",
-    "pinyin": "zuótiān wǒ xūyào le。",
-    "pinyin_numeric": "zuo2 tian1 wo3 xuyao4 le0。",
-    "translation_en": "Yesterday I needed.",
-    "translation_ko": "어제 저는 필요하다했습니다.",
-    "tokens": [
-      "昨",
-      "天",
-      "我",
-      "需",
-      "要",
-      "了"
-    ],
-    "token_ids": [
-      "VOC_D53_001",
-      "VOC_D53_027"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_074",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_075",
-    "text": "這裡很多。",
-    "pinyin": "zhèlǐ hěn duō。",
-    "pinyin_numeric": "zhe4 li3 hen3 duo1。",
-    "translation_en": "It is very many here.",
-    "translation_ko": "여기는 매우 많다니다.",
-    "tokens": [
-      "這",
-      "裡",
-      "很",
-      "多"
-    ],
-    "token_ids": [
-      "VOC_D53_015"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_075",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_076",
-    "text": "我有了。",
-    "pinyin": "wǒ yǒu le。",
-    "pinyin_numeric": "wo3 you3 le0。",
-    "translation_en": "I had.",
-    "translation_ko": "저는 있다했습니다.",
-    "tokens": [
-      "我",
-      "有",
-      "了"
-    ],
-    "token_ids": [
-      "VOC_D53_001",
-      "VOC_D53_007"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_076",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_077",
-    "text": "你去了嗎？",
-    "pinyin": "nǐ qù le ma？",
-    "pinyin_numeric": "ni3 qu4 le0 ma0？",
-    "translation_en": "Did you go?",
-    "translation_ko": "가다했습니까?",
-    "tokens": [
-      "你",
-      "去",
-      "了",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_D53_002",
-      "VOC_D53_009",
-      "VOC_D53_013"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_077",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_078",
-    "text": "他需要水。",
-    "pinyin": "tā xūyào 水。",
-    "pinyin_numeric": "ta1 xuyao4 水。",
-    "translation_en": "He needs water.",
-    "translation_ko": "그는 물을/를 필요하다합니다.",
-    "tokens": [
-      "他",
-      "需",
-      "要",
-      "水"
-    ],
-    "token_ids": [
-      "VOC_D53_003",
-      "VOC_D53_027"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_078",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_079",
-    "text": "我有過錢。",
-    "pinyin": "wǒ yǒu guò 錢。",
-    "pinyin_numeric": "wo3 you3 guo4 錢。",
-    "translation_en": "I have had money before.",
-    "translation_ko": "저는 돈을/를 있다한 적이 있습니다.",
-    "tokens": [
-      "我",
-      "有",
-      "過",
-      "錢"
-    ],
-    "token_ids": [
-      "VOC_D53_001",
-      "VOC_D53_007"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_079",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_080",
-    "text": "今天很好。",
-    "pinyin": "jīntiān hěn hǎo。",
-    "pinyin_numeric": "jin1 tian1 hen3 hao3。",
-    "translation_en": "Today is very good.",
-    "translation_ko": "오늘은 매우 좋다니다.",
-    "tokens": [
-      "今",
-      "天",
-      "很",
-      "好"
-    ],
-    "token_ids": [
-      "VOC_D53_015"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_080",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_081",
-    "text": "你覺得水怎麼樣？",
-    "pinyin": "nǐ juéde 水 zěnme 樣？",
-    "pinyin_numeric": "ni3 jue2 de0 水 zenme3 樣？",
-    "translation_en": "What do you think of water?",
-    "translation_ko": "물은/는 어때요?",
-    "tokens": [
-      "你",
-      "覺",
-      "得",
-      "水",
-      "怎",
-      "麼",
-      "樣"
-    ],
-    "token_ids": [
-      "VOC_D53_002",
-      "VOC_D53_023"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_081",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_082",
-    "text": "可以需要嗎？",
-    "pinyin": "kěyǐ xūyào ma？",
-    "pinyin_numeric": "keyi3 xuyao4 ma0？",
-    "translation_en": "Can I need?",
-    "translation_ko": "필요하다할 수 있어요?",
-    "tokens": [
-      "可",
-      "以",
-      "需",
-      "要",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_D53_012",
-      "VOC_D53_027",
-      "VOC_D53_013"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_082",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_083",
-    "text": "這個很新。",
-    "pinyin": "zhège hěn xīn。",
-    "pinyin_numeric": "zhe4 ge0 hen3 xin1。",
-    "translation_en": "This is very new.",
-    "translation_ko": "이것은 매우 새롭다니다.",
-    "tokens": [
-      "這",
-      "個",
-      "很",
-      "新"
-    ],
-    "token_ids": [
-      "VOC_D53_015"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_083",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_084",
-    "text": "我要書。",
-    "pinyin": "wǒ yào 書。",
-    "pinyin_numeric": "wo3 yao4 書。",
-    "translation_en": "I want book.",
-    "translation_ko": "저는 책을/를 원합니다.",
-    "tokens": [
-      "我",
-      "要",
-      "書"
-    ],
-    "token_ids": [
-      "VOC_D53_001",
-      "VOC_D53_010"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_084",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_085",
-    "text": "他正在有。",
-    "pinyin": "tā zhèngzài yǒu。",
-    "pinyin_numeric": "ta1 zheng4 zai4 you3。",
-    "translation_en": "He is having.",
-    "translation_ko": "그는 있다하고 있습니다.",
-    "tokens": [
-      "他",
-      "正",
-      "在",
-      "有"
-    ],
-    "token_ids": [
-      "VOC_D53_003",
-      "VOC_D53_007"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_085",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_086",
-    "text": "書比食物好。",
-    "pinyin": "書 bǐ 食 物 hǎo。",
-    "pinyin_numeric": "書 bi3 食 物 hao3。",
-    "translation_en": "book is better than food.",
-    "translation_ko": "책은/는 음식보다 좋습니다.",
-    "tokens": [
-      "書",
-      "比",
-      "食",
-      "物",
-      "好"
-    ],
-    "token_ids": [],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_086",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_087",
-    "text": "你會去嗎？",
-    "pinyin": "nǐ huì qù ma？",
-    "pinyin_numeric": "ni3 hui4 qu4 ma0？",
-    "translation_en": "Can you go?",
-    "translation_ko": "가다 할 수 있나요?",
-    "tokens": [
-      "你",
-      "會",
-      "去",
-      "嗎"
-    ],
-    "token_ids": [
-      "VOC_D53_002",
-      "VOC_D53_017",
-      "VOC_D53_009",
-      "VOC_D53_013"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_087",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_088",
-    "text": "我需要食物。",
-    "pinyin": "wǒ xūyào 食 物。",
-    "pinyin_numeric": "wo3 xuyao4 食 物。",
-    "translation_en": "I need food.",
-    "translation_ko": "저는 음식이/가 필요합니다.",
-    "tokens": [
-      "我",
-      "需",
-      "要",
-      "食",
-      "物"
-    ],
-    "token_ids": [
-      "VOC_D53_001",
-      "VOC_D53_027"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_088",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_089",
-    "text": "昨天我需要了。",
-    "pinyin": "zuótiān wǒ xūyào le。",
-    "pinyin_numeric": "zuo2 tian1 wo3 xuyao4 le0。",
-    "translation_en": "Yesterday I needed.",
-    "translation_ko": "어제 저는 필요하다했습니다.",
-    "tokens": [
-      "昨",
-      "天",
-      "我",
-      "需",
-      "要",
-      "了"
-    ],
-    "token_ids": [
-      "VOC_D53_001",
-      "VOC_D53_027"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_089",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D53_090",
-    "text": "這裡很慢。",
-    "pinyin": "zhèlǐ hěn màn。",
-    "pinyin_numeric": "zhe4 li3 hen3 man4。",
-    "translation_en": "It is very slow here.",
-    "translation_ko": "여기는 매우 느리다니다.",
-    "tokens": [
-      "這",
-      "裡",
-      "很",
-      "慢"
-    ],
-    "token_ids": [
-      "VOC_D53_015"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "audio_id": "AUD_SEN_D53_090",
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D67_001",
     "text": "我說了。",
     "pinyin": "wǒ shuō le。",
@@ -94062,5 +91861,1927 @@
     ],
     "audio_id": "AUD_SEN_D65_090",
     "day_introduced": 65
+  },
+  {
+    "id": "SEN_D53_001",
+    "text": "我常常在週末打籃球。",
+    "pinyin": "Wǒ chángcháng zài zhōumò dǎ lánqiú.",
+    "pinyin_numeric": "wo3 chang2chang2 zai4 zhou1mo4 da3 lan2qiu2.",
+    "translation_en": "I often play basketball on weekends.",
+    "translation_ko": "저는 주말에 자주 농구를 합니다.",
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_D53_025",
+      "VOC_M1_139",
+      "VOC_D36_013",
+      "VOC_D53_003"
+    ],
+    "grammar_ids": [
+      "GR_D53_CHANGCHANG"
+    ],
+    "audio_id": "AUD_SEN_D53_001",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_002",
+    "text": "他常常看小說，很少看漫畫。",
+    "pinyin": "Tā chángcháng kàn xiǎoshuō, hěn shǎo kàn mànhuà.",
+    "pinyin_numeric": "ta1 chang2chang2 kan4 xiao3shuo1, hen3 shao3 kan4 man4hua4.",
+    "translation_en": "He often reads novels, but rarely reads comics.",
+    "translation_ko": "그는 자주 소설을 읽고, 만화는 거의 보지 않습니다.",
+    "token_ids": [
+      "VOC_M1_004",
+      "VOC_D53_025",
+      "VOC_D53_017",
+      "VOC_D53_027",
+      "VOC_D53_018"
+    ],
+    "grammar_ids": [
+      "GR_D53_CHANGCHANG"
+    ],
+    "audio_id": "AUD_SEN_D53_002",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_003",
+    "text": "我們有時候一起騎腳踏車去公園。",
+    "pinyin": "Wǒmen yǒu shíhou yīqǐ qí jiǎotàchē qù gōngyuán.",
+    "pinyin_numeric": "wo3men5 you3 shi2hou5 yi1qi3 qi2 jiao3ta4che1 qu4 gong1yuan2.",
+    "translation_en": "Sometimes we ride bicycles together to the park.",
+    "translation_ko": "우리는 가끔 함께 자전거를 타고 공원에 갑니다.",
+    "token_ids": [
+      "VOC_M1_006",
+      "VOC_D53_026",
+      "VOC_M1_183",
+      "VOC_D53_015",
+      "VOC_M1_156",
+      "VOC_M1_150"
+    ],
+    "grammar_ids": [
+      "GR_D53_CHANGCHANG"
+    ],
+    "audio_id": "AUD_SEN_D53_003",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_004",
+    "text": "她常常聽廣播，也喜歡看演唱會。",
+    "pinyin": "Tā chángcháng tīng guǎngbò, yě xǐhuān kàn yǎnchànghuì.",
+    "pinyin_numeric": "ta1 chang2chang2 ting1 guang3bo4, ye3 xi3huan1 kan4 yan3chang4hui4.",
+    "translation_en": "She often listens to the radio and also likes to watch concerts.",
+    "translation_ko": "그녀는 자주 라디오를 듣고, 콘서트 보는 것도 좋아합니다.",
+    "token_ids": [
+      "VOC_M1_005",
+      "VOC_D53_025",
+      "VOC_D53_019",
+      "VOC_M1_084",
+      "VOC_M1_068",
+      "VOC_D53_020"
+    ],
+    "grammar_ids": [
+      "GR_D53_CHANGCHANG"
+    ],
+    "audio_id": "AUD_SEN_D53_004",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_005",
+    "text": "我弟弟常常打電動，從來不看書。",
+    "pinyin": "Wǒ dìdi chángcháng dǎ diàndòng, cónglái bù kàn shū.",
+    "pinyin_numeric": "wo3 di4di5 chang2chang2 da3 dian4dong4, cong2lai2 bu4 kan4 shu1.",
+    "translation_en": "My younger brother often plays video games and never reads books.",
+    "translation_ko": "제 남동생은 자주 게임을 하고, 책은 전혀 읽지 않습니다.",
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_030",
+      "VOC_D53_025",
+      "VOC_D53_016",
+      "VOC_D53_028",
+      "VOC_D36_029"
+    ],
+    "grammar_ids": [
+      "GR_D53_CHANGCHANG"
+    ],
+    "audio_id": "AUD_SEN_D53_005",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_006",
+    "text": "放假的時候，我們常常去露營。",
+    "pinyin": "Fàngjià de shíhou, wǒmen chángcháng qù lùyíng.",
+    "pinyin_numeric": "fang4jia4 de5 shi2hou5, wo3men5 chang2chang2 qu4 lu4ying2.",
+    "translation_en": "During holidays, we often go camping.",
+    "translation_ko": "휴가 때 우리는 자주 캠핑을 갑니다.",
+    "token_ids": [
+      "VOC_D53_032",
+      "VOC_M1_023",
+      "VOC_M1_006",
+      "VOC_D53_025",
+      "VOC_M1_156",
+      "VOC_D53_013"
+    ],
+    "grammar_ids": [
+      "GR_D53_CHANGCHANG"
+    ],
+    "audio_id": "AUD_SEN_D53_006",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_007",
+    "text": "她常常彈鋼琴，有時候也彈吉他。",
+    "pinyin": "Tā chángcháng tán gāngqín, yǒu shíhou yě tán jítā.",
+    "pinyin_numeric": "ta1 chang2chang2 tan2 gang1qin2, you3 shi2hou5 ye3 tan2 ji2ta1.",
+    "translation_en": "She often plays the piano, and sometimes also plays the guitar.",
+    "translation_ko": "그녀는 자주 피아노를 치고, 가끔 기타도 칩니다.",
+    "token_ids": [
+      "VOC_M1_005",
+      "VOC_D53_025",
+      "VOC_D50_022",
+      "VOC_D53_026",
+      "VOC_M1_084",
+      "VOC_D53_010"
+    ],
+    "grammar_ids": [
+      "GR_D53_CHANGCHANG"
+    ],
+    "audio_id": "AUD_SEN_D53_007",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_008",
+    "text": "我爸爸常常釣魚，他覺得很好玩。",
+    "pinyin": "Wǒ bàba chángcháng diào yú, tā juéde hěn hǎowán.",
+    "pinyin_numeric": "wo3 ba4ba5 chang2chang2 diao4 yu2, ta1 jue2de5 hen3 hao3wan2.",
+    "translation_en": "My father often goes fishing; he thinks it's a lot of fun.",
+    "translation_ko": "아버지는 자주 낚시를 가십니다. 아버지는 그것이 아주 재미있다고 생각하십니다.",
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_026",
+      "VOC_D53_025",
+      "VOC_D53_014",
+      "VOC_M1_004",
+      "VOC_M1_172",
+      "VOC_M1_096",
+      "VOC_D48_034"
+    ],
+    "grammar_ids": [
+      "GR_D53_CHANGCHANG"
+    ],
+    "audio_id": "AUD_SEN_D53_008",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_009",
+    "text": "我朋友常常爬山，他喜歡運動。",
+    "pinyin": "Wǒ péngyou chángcháng pá shān, tā xǐhuān yùndòng.",
+    "pinyin_numeric": "wo3 peng2you5 chang2chang2 pa2 shan1, ta1 xi3huan1 yun4dong4.",
+    "translation_en": "My friend often goes hiking; he likes sports.",
+    "translation_ko": "제 친구는 자주 등산을 합니다. 그는 운동을 좋아합니다.",
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_042",
+      "VOC_D53_025",
+      "VOC_D53_012",
+      "VOC_M1_004",
+      "VOC_M1_068",
+      "VOC_M1_190"
+    ],
+    "grammar_ids": [
+      "GR_D53_CHANGCHANG"
+    ],
+    "audio_id": "AUD_SEN_D53_009",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_010",
+    "text": "你常常看球賽嗎？要不要一起去？",
+    "pinyin": "Nǐ chángcháng kàn qiúsài ma? Yào bù yào yīqǐ qù?",
+    "pinyin_numeric": "ni3 chang2chang2 kan4 qiu2sai4 ma0? yao4 bu4 yao4 yi1qi3 qu4?",
+    "translation_en": "Do you often watch ball games? Want to go together?",
+    "translation_ko": "당신은 자주 경기를 보나요? 같이 갈래요?",
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_D53_025",
+      "VOC_D53_021",
+      "VOC_M1_016",
+      "VOC_D53_034",
+      "VOC_D37_003"
+    ],
+    "grammar_ids": [
+      "GR_D53_CHANGCHANG"
+    ],
+    "audio_id": "AUD_SEN_D53_010",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_011",
+    "text": "我週末有時候會去打籃球。",
+    "pinyin": "Wǒ zhōumò yǒu shíhou huì qù dǎ lánqiú.",
+    "pinyin_numeric": "wo3 zhou1mo4 you3 shi2hou4 hui4 qu4 da3 lan2qiu2.",
+    "translation_en": "I sometimes go play basketball on weekends.",
+    "translation_ko": "저는 주말에 가끔 농구하러 갑니다.",
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_D36_013",
+      "VOC_D53_026",
+      "VOC_M1_194",
+      "VOC_M1_156",
+      "VOC_D53_003"
+    ],
+    "grammar_ids": [
+      "GR_D53_YOU_SHIHOU"
+    ],
+    "audio_id": "AUD_SEN_D53_011",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_012",
+    "text": "他平時很少看小說，有時候會看漫畫。",
+    "pinyin": "Tā píngshí hěn shǎo kàn xiǎoshuō, yǒu shíhou huì kàn mànhuà.",
+    "pinyin_numeric": "ta1 ping2shi2 hen3 shao3 kan4 xiao3shuo1, you3 shi2hou4 hui4 kan4 man4hua4.",
+    "translation_en": "He rarely reads novels on weekdays, but sometimes reads comics.",
+    "translation_ko": "그는 평소에 소설을 거의 읽지 않고, 가끔 만화를 봅니다.",
+    "token_ids": [
+      "VOC_M1_004",
+      "VOC_D53_031",
+      "VOC_D53_027",
+      "VOC_D53_017",
+      "VOC_D53_026",
+      "VOC_M1_194",
+      "VOC_D53_018"
+    ],
+    "grammar_ids": [
+      "GR_D53_YOU_SHIHOU"
+    ],
+    "audio_id": "AUD_SEN_D53_012",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_013",
+    "text": "我們有時候會一起去爬山，很好玩。",
+    "pinyin": "Wǒmen yǒu shíhou huì yīqǐ qù páshān, hěn hǎowán.",
+    "pinyin_numeric": "wo3men5 you3 shi2hou4 hui4 yi1qi3 qu4 pa2shan1, hen3 hao3wan2.",
+    "translation_en": "We sometimes go hiking together; it's a lot of fun.",
+    "translation_ko": "우리는 가끔 함께 등산하러 가는데, 아주 재미있습니다.",
+    "token_ids": [
+      "VOC_M1_006",
+      "VOC_D53_026",
+      "VOC_M1_194",
+      "VOC_D37_003",
+      "VOC_D53_012",
+      "VOC_M1_096",
+      "VOC_D48_034"
+    ],
+    "grammar_ids": [
+      "GR_D53_YOU_SHIHOU"
+    ],
+    "audio_id": "AUD_SEN_D53_013",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_014",
+    "text": "放假的時候，我常常在家種花，有時候也做手工。",
+    "pinyin": "Fàngjià de shíhou, wǒ chángcháng zài jiā zhòng huā, yǒu shíhou yě zuò shǒugōng.",
+    "pinyin_numeric": "fang4jia4 de5 shi2hou4, wo3 chang2chang2 zai4 jia1 zhong4 hua1, you3 shi2hou4 ye3 zuo4 shou3gong1.",
+    "translation_en": "During holidays, I often plant flowers at home, and sometimes I also do crafts.",
+    "translation_ko": "휴가 때 저는 집에서 자주 꽃을 심고, 가끔은 수공예도 합니다.",
+    "token_ids": [
+      "VOC_D53_032",
+      "VOC_M1_023",
+      "VOC_M1_002",
+      "VOC_D53_025",
+      "VOC_M1_139",
+      "VOC_M1_039",
+      "VOC_D53_023",
+      "VOC_D53_026",
+      "VOC_M1_084",
+      "VOC_D53_022"
+    ],
+    "grammar_ids": [
+      "GR_D53_YOU_SHIHOU"
+    ],
+    "audio_id": "AUD_SEN_D53_014",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_015",
+    "text": "你平時有什麼休閒興趣？我喜歡聽廣播和看展覽。",
+    "pinyin": "Nǐ píngshí yǒu shénme xiūxián xìngqù? Wǒ xǐhuān tīng guǎngbò hé kàn zhǎnlǎn.",
+    "pinyin_numeric": "ni3 ping2shi2 you3 shen2me5 xiu1xian2 xing4qu4? wo3 xi3huan1 ting1 guang3bo4 he2 kan4 zhan3lan3.",
+    "translation_en": "What leisure interests do you usually have? I like listening to the radio and visiting exhibitions.",
+    "translation_ko": "평소에 어떤 취미가 있으세요? 저는 라디오 듣기와 전시회 보는 것을 좋아합니다.",
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_D53_031",
+      "VOC_M1_022",
+      "VOC_M1_071",
+      "VOC_D53_001",
+      "VOC_D53_002",
+      "VOC_M1_002",
+      "VOC_M1_068",
+      "VOC_D53_019",
+      "VOC_D53_011"
+    ],
+    "grammar_ids": [
+      "GR_D53_YOU_SHIHOU"
+    ],
+    "audio_id": "AUD_SEN_D53_015",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_016",
+    "text": "他從來不打電動，可是有時候會看球賽。",
+    "pinyin": "Tā cónglái bù dǎ diàndòng, kěshì yǒu shíhou huì kàn qiúsài.",
+    "pinyin_numeric": "ta1 cong2lai2 bu4 da3 dian4dong4, ke3shi4 you3 shi2hou4 hui4 kan4 qiu2sai4.",
+    "translation_en": "He never plays video games, but sometimes he watches ball games.",
+    "translation_ko": "그는 게임을 전혀 하지 않지만, 가끔은 스포츠 경기를 봅니다.",
+    "token_ids": [
+      "VOC_M1_004",
+      "VOC_D53_028",
+      "VOC_D53_016",
+      "VOC_D35_023",
+      "VOC_D53_026",
+      "VOC_M1_194",
+      "VOC_D53_021"
+    ],
+    "grammar_ids": [
+      "GR_D53_YOU_SHIHOU"
+    ],
+    "audio_id": "AUD_SEN_D53_016",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_017",
+    "text": "我妹妹有時候會彈鋼琴，她最喜歡彈吉他了。",
+    "pinyin": "Wǒ mèimei yǒu shíhou huì tán gāngqín, tā zuì xǐhuān tán jítā le.",
+    "pinyin_numeric": "wo3 mei4mei5 you3 shi2hou4 hui4 tan2 gang1qin2, ta1 zui4 xi3huan1 tan2 ji2ta1 le5.",
+    "translation_en": "My younger sister sometimes plays the piano, but she likes playing the guitar the most.",
+    "translation_ko": "제 여동생은 가끔 피아노를 치지만, 기타 치는 것을 가장 좋아합니다.",
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_031",
+      "VOC_D53_026",
+      "VOC_M1_194",
+      "VOC_D50_022",
+      "VOC_M1_005",
+      "VOC_D42_003",
+      "VOC_D53_010"
+    ],
+    "grammar_ids": [
+      "GR_D53_YOU_SHIHOU"
+    ],
+    "audio_id": "AUD_SEN_D53_017",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_018",
+    "text": "我們要不要改天一起去釣魚？我最近有時候會去。",
+    "pinyin": "Wǒmen yào bù yào gǎitiān yīqǐ qù diàoyú? Wǒ zuìjìn yǒu shíhou huì qù.",
+    "pinyin_numeric": "wo3men5 yao4 bu4 yao4 gai3tian1 yi1qi3 qu4 diao4yu2? wo3 zui4jin4 you3 shi2hou4 hui4 qu4.",
+    "translation_en": "Shall we go fishing together another day? I sometimes go recently.",
+    "translation_ko": "우리 다음에 같이 낚시하러 갈래요? 저는 요즘 가끔 갑니다.",
+    "token_ids": [
+      "VOC_M1_006",
+      "VOC_D53_034",
+      "VOC_D36_012",
+      "VOC_D37_003",
+      "VOC_D53_014",
+      "VOC_M1_002",
+      "VOC_D37_027",
+      "VOC_D53_026",
+      "VOC_M1_194",
+      "VOC_M1_156"
+    ],
+    "grammar_ids": [
+      "GR_D53_YOU_SHIHOU"
+    ],
+    "audio_id": "AUD_SEN_D53_018",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_019",
+    "text": "他放假的時候，有時候會去露營，有時候會去騎腳踏車。",
+    "pinyin": "Tā fàngjià de shíhou, yǒu shíhou huì qù lùyíng, yǒu shíhou huì qù qí jiǎotàchē.",
+    "pinyin_numeric": "ta1 fang4jia4 de5 shi2hou4, you3 shi2hou4 hui4 qu4 lu4ying2, you3 shi2hou4 hui4 qu4 qi2 jiao3ta4che1.",
+    "translation_en": "When he's on vacation, he sometimes goes camping and sometimes goes cycling.",
+    "translation_ko": "그는 휴가 때 가끔 캠핑을 가고, 가끔 자전거를 타러 갑니다.",
+    "token_ids": [
+      "VOC_M1_004",
+      "VOC_D53_032",
+      "VOC_M1_023",
+      "VOC_D53_026",
+      "VOC_M1_194",
+      "VOC_M1_156",
+      "VOC_D53_013",
+      "VOC_D53_026",
+      "VOC_M1_194",
+      "VOC_M1_156",
+      "VOC_D53_015"
+    ],
+    "grammar_ids": [
+      "GR_D53_YOU_SHIHOU"
+    ],
+    "audio_id": "AUD_SEN_D53_019",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_020",
+    "text": "我平時很忙，可是有時候會跟朋友一起看演唱會。",
+    "pinyin": "Wǒ píngshí hěn máng, kěshì yǒu shíhou huì gēn péngyǒu yīqǐ kàn yǎnchànghuì.",
+    "pinyin_numeric": "wo3 ping2shi2 hen3 mang2, ke3shi4 you3 shi2hou4 hui4 gen1 peng2you3 yi1qi3 kan4 yan3chang4hui4.",
+    "translation_en": "I'm usually very busy, but sometimes I go to concerts with friends.",
+    "translation_ko": "저는 평소에 매우 바쁘지만, 가끔 친구들과 함께 콘서트를 보러 갑니다.",
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_D53_031",
+      "VOC_M1_096",
+      "VOC_D34_019",
+      "VOC_D35_023",
+      "VOC_D53_026",
+      "VOC_M1_194",
+      "VOC_M1_182",
+      "VOC_M1_042",
+      "VOC_M1_183",
+      "VOC_D53_020"
+    ],
+    "grammar_ids": [
+      "GR_D53_YOU_SHIHOU"
+    ],
+    "audio_id": "AUD_SEN_D53_020",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_021",
+    "text": "我喜歡打籃球，也喜歡踢足球。",
+    "pinyin": "Wǒ xǐhuān dǎ lánqiú, yě xǐhuān tī zúqiú.",
+    "pinyin_numeric": "wo3 xi3huan1 da3 lan2qiu2, ye3 xi3huan1 ti1 zu2qiu2.",
+    "translation_en": "I like playing basketball and also like playing soccer.",
+    "translation_ko": "저는 농구하는 것을 좋아하고, 축구하는 것도 좋아합니다.",
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_068",
+      "VOC_D53_003",
+      "VOC_M1_084",
+      "VOC_M1_068",
+      "VOC_D53_004"
+    ],
+    "grammar_ids": [
+      "GR_D53_XIHUAN_VERB_OBJECT"
+    ],
+    "audio_id": "AUD_SEN_D53_021",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_022",
+    "text": "你週末常常做什麼休閒活動？",
+    "pinyin": "Nǐ zhōumò chángcháng zuò shénme xiūxián huódòng?",
+    "pinyin_numeric": "ni3 zhou1mo4 chang2chang2 zuo4 shen2me xiu1xian2 huo2dong4?",
+    "translation_en": "What leisure activities do you often do on weekends?",
+    "translation_ko": "주말에 자주 어떤 여가 활동을 하시나요?",
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_D36_013",
+      "VOC_D53_025",
+      "VOC_D49_003",
+      "VOC_D53_001"
+    ],
+    "grammar_ids": [
+      "GR_D53_XIHUAN_VERB_OBJECT"
+    ],
+    "audio_id": "AUD_SEN_D53_022",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_023",
+    "text": "他喜歡下棋，可是我不會。",
+    "pinyin": "Tā xǐhuān xià qí, kěshì wǒ bù huì.",
+    "pinyin_numeric": "ta1 xi3huan1 xia4 qi2, ke3shi4 wo3 bu4 hui4.",
+    "translation_en": "He likes playing chess, but I don't know how.",
+    "translation_ko": "그는 체스 두는 것을 좋아하지만, 저는 할 줄 모릅니다.",
+    "token_ids": [
+      "VOC_M1_004",
+      "VOC_M1_068",
+      "VOC_D53_007",
+      "VOC_D35_023",
+      "VOC_M1_002",
+      "VOC_M1_079",
+      "VOC_M1_194"
+    ],
+    "grammar_ids": [
+      "GR_D53_XIHUAN_VERB_OBJECT"
+    ],
+    "audio_id": "AUD_SEN_D53_023",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_024",
+    "text": "我們要不要一起去爬山？",
+    "pinyin": "Wǒmen yào bù yào yīqǐ qù pá shān?",
+    "pinyin_numeric": "wo3men yao4 bu4 yao4 yi1qi3 qu4 pa2 shan1?",
+    "translation_en": "Do you want to go hiking together?",
+    "translation_ko": "우리 같이 등산하러 갈래요?",
+    "token_ids": [
+      "VOC_M1_006",
+      "VOC_D53_034",
+      "VOC_D37_003",
+      "VOC_D53_012"
+    ],
+    "grammar_ids": [
+      "GR_D53_XIHUAN_VERB_OBJECT"
+    ],
+    "audio_id": "AUD_SEN_D53_024",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_025",
+    "text": "她喜歡看小說，有時候也看漫畫。",
+    "pinyin": "Tā xǐhuān kàn xiǎoshuō, yǒu shíhou yě kàn mànhuà.",
+    "pinyin_numeric": "ta1 xi3huan1 kan4 xiao3shuo1, you3 shi2hou4 ye3 kan4 man4hua4.",
+    "translation_en": "She likes reading novels, and sometimes also reads comics.",
+    "translation_ko": "그녀는 소설 읽는 것을 좋아하고, 가끔 만화도 봅니다.",
+    "token_ids": [
+      "VOC_M1_005",
+      "VOC_M1_068",
+      "VOC_D53_017",
+      "VOC_D53_026",
+      "VOC_M1_084",
+      "VOC_D53_018"
+    ],
+    "grammar_ids": [
+      "GR_D53_XIHUAN_VERB_OBJECT"
+    ],
+    "audio_id": "AUD_SEN_D53_025",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_026",
+    "text": "我很少打電動，因為太忙了。",
+    "pinyin": "Wǒ hěn shǎo dǎ diàndòng, yīnwèi tài máng le.",
+    "pinyin_numeric": "wo3 hen3 shao3 da3 dian4dong4, yin1wei4 tai4 mang2 le5.",
+    "translation_en": "I rarely play video games because I'm too busy.",
+    "translation_ko": "저는 게임을 거의 하지 않는데, 너무 바쁘기 때문입니다.",
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_D53_027",
+      "VOC_D53_016",
+      "VOC_D34_011",
+      "VOC_D41_010"
+    ],
+    "grammar_ids": [
+      "GR_D53_XIHUAN_VERB_OBJECT"
+    ],
+    "audio_id": "AUD_SEN_D53_026",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_027",
+    "text": "你喜歡聽廣播還是看演唱會？",
+    "pinyin": "Nǐ xǐhuān tīng guǎngbò háishì kàn yǎnchànghuì?",
+    "pinyin_numeric": "ni3 xi3huan1 ting1 guang3bo4 hai2shi4 kan4 yan3chang4hui4?",
+    "translation_en": "Do you like listening to the radio or going to concerts?",
+    "translation_ko": "라디오 듣는 것을 좋아하세요, 아니면 콘서트 보는 것을 좋아하세요?",
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_M1_068",
+      "VOC_D53_019",
+      "VOC_D42_017",
+      "VOC_D53_020"
+    ],
+    "grammar_ids": [
+      "GR_D53_XIHUAN_VERB_OBJECT"
+    ],
+    "audio_id": "AUD_SEN_D53_027",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_028",
+    "text": "他從來不運動，只喜歡看球賽。",
+    "pinyin": "Tā cónglái bù yùndòng, zhǐ xǐhuān kàn qiúsài.",
+    "pinyin_numeric": "ta1 cong2lai2 bu4 yun4dong4, zhi3 xi3huan1 kan4 qiu2sai4.",
+    "translation_en": "He never exercises; he only likes watching ball games.",
+    "translation_ko": "그는 운동을 전혀 하지 않고, 경기 보는 것만 좋아합니다.",
+    "token_ids": [
+      "VOC_M1_004",
+      "VOC_D53_028",
+      "VOC_M1_190",
+      "VOC_M1_068",
+      "VOC_D53_021"
+    ],
+    "grammar_ids": [
+      "GR_D53_XIHUAN_VERB_OBJECT"
+    ],
+    "audio_id": "AUD_SEN_D53_028",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_029",
+    "text": "放假的時候，我喜歡騎腳踏車去公園。",
+    "pinyin": "Fàngjià de shíhou, wǒ xǐhuān qí jiǎotàchē qù gōngyuán.",
+    "pinyin_numeric": "fang4jia4 de5 shi2hou4, wo3 xi3huan1 qi2 jiao3ta4che1 qu4 gong1yuan2.",
+    "translation_en": "During holidays, I like riding a bicycle to the park.",
+    "translation_ko": "휴가 때 저는 자전거를 타고 공원에 가는 것을 좋아합니다.",
+    "token_ids": [
+      "VOC_D53_032",
+      "VOC_M1_023",
+      "VOC_M1_002",
+      "VOC_M1_068",
+      "VOC_D53_015",
+      "VOC_M1_156",
+      "VOC_M1_150"
+    ],
+    "grammar_ids": [
+      "GR_D53_XIHUAN_VERB_OBJECT"
+    ],
+    "audio_id": "AUD_SEN_D53_029",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_030",
+    "text": "你喜歡養寵物嗎？我養了一隻貓。",
+    "pinyin": "Nǐ xǐhuān yǎng chǒngwù ma? Wǒ yǎng le yī zhī māo.",
+    "pinyin_numeric": "ni3 xi3huan1 yang3 chong3wu4 ma0? wo3 yang3 le5 yi1 zhi1 mao1.",
+    "translation_en": "Do you like keeping pets? I have a cat.",
+    "translation_ko": "반려동물 키우는 것을 좋아하세요? 저는 고양이 한 마리를 키우고 있습니다.",
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_M1_068",
+      "VOC_D53_024",
+      "VOC_M1_016",
+      "VOC_M1_002",
+      "VOC_M1_009",
+      "VOC_M1_101"
+    ],
+    "grammar_ids": [
+      "GR_D53_XIHUAN_VERB_OBJECT"
+    ],
+    "audio_id": "AUD_SEN_D53_030",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_031",
+    "text": "我常常在週末打籃球。",
+    "pinyin": "Wǒ chángcháng zài zhōumò dǎ lánqiú.",
+    "pinyin_numeric": "wo3 chang2chang2 zai4 zhou1mo4 da3 lan2qiu2",
+    "translation_en": "I often play basketball on weekends.",
+    "translation_ko": "저는 주말에 자주 농구를 합니다.",
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_D53_025",
+      "VOC_M1_139",
+      "VOC_D36_013",
+      "VOC_D53_003"
+    ],
+    "grammar_ids": [
+      "GR_D53_CHANGCHANG"
+    ],
+    "audio_id": "AUD_SEN_D53_031",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_032",
+    "text": "他常常跟朋友一起踢足球。",
+    "pinyin": "Tā chángcháng gēn péngyǒu yīqǐ tī zúqiú.",
+    "pinyin_numeric": "ta1 chang2chang2 gen1 peng2you3 yi1qi3 ti1 zu2qiu2",
+    "translation_en": "He often plays soccer with friends.",
+    "translation_ko": "그는 친구들과 함께 자주 축구를 합니다.",
+    "token_ids": [
+      "VOC_M1_004",
+      "VOC_D53_025",
+      "VOC_M1_182",
+      "VOC_M1_042",
+      "VOC_M1_183",
+      "VOC_D53_004"
+    ],
+    "grammar_ids": [
+      "GR_D53_CHANGCHANG"
+    ],
+    "audio_id": "AUD_SEN_D53_032",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_033",
+    "text": "她常常在家裡看小說。",
+    "pinyin": "Tā chángcháng zài jiā lǐ kàn xiǎoshuō.",
+    "pinyin_numeric": "ta1 chang2chang2 zai4 jia1 li3 kan4 xiao3shuo1",
+    "translation_en": "She often reads novels at home.",
+    "translation_ko": "그녀는 집에서 자주 소설을 봅니다.",
+    "token_ids": [
+      "VOC_M1_005",
+      "VOC_D53_025",
+      "VOC_M1_139",
+      "VOC_M1_039",
+      "VOC_D53_017"
+    ],
+    "grammar_ids": [
+      "GR_D53_CHANGCHANG"
+    ],
+    "audio_id": "AUD_SEN_D53_033",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_034",
+    "text": "我們常常一起去爬山。",
+    "pinyin": "Wǒmen chángcháng yīqǐ qù páshān.",
+    "pinyin_numeric": "wo3men chang2chang2 yi1qi3 qu4 pa2shan1",
+    "translation_en": "We often go hiking together.",
+    "translation_ko": "우리는 함께 자주 등산을 갑니다.",
+    "token_ids": [
+      "VOC_M1_006",
+      "VOC_D53_025",
+      "VOC_D37_003",
+      "VOC_D53_012"
+    ],
+    "grammar_ids": [
+      "GR_D53_CHANGCHANG"
+    ],
+    "audio_id": "AUD_SEN_D53_034",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_035",
+    "text": "你常常聽廣播嗎？",
+    "pinyin": "Nǐ chángcháng tīng guǎngbò ma?",
+    "pinyin_numeric": "ni3 chang2chang2 ting1 guang3bo4 ma0",
+    "translation_en": "Do you often listen to the radio?",
+    "translation_ko": "당신은 자주 라디오를 듣나요?",
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_D53_025",
+      "VOC_D53_019",
+      "VOC_M1_016"
+    ],
+    "grammar_ids": [
+      "GR_D53_CHANGCHANG"
+    ],
+    "audio_id": "AUD_SEN_D53_035",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_036",
+    "text": "我妹妹常常在家裡畫畫。",
+    "pinyin": "Wǒ mèimei chángcháng zài jiā lǐ huàhuà.",
+    "pinyin_numeric": "wo3 mei4mei chang2chang2 zai4 jia1 li3 hua4hua4",
+    "translation_en": "My younger sister often draws at home.",
+    "translation_ko": "제 여동생은 집에서 자주 그림을 그립니다.",
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_031",
+      "VOC_D53_025",
+      "VOC_M1_139",
+      "VOC_M1_039",
+      "VOC_D50_023"
+    ],
+    "grammar_ids": [
+      "GR_D53_CHANGCHANG"
+    ],
+    "audio_id": "AUD_SEN_D53_036",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_037",
+    "text": "他常常在公園騎腳踏車。",
+    "pinyin": "Tā chángcháng zài gōngyuán qí jiǎotàchē.",
+    "pinyin_numeric": "ta1 chang2chang2 zai4 gong1yuan2 qi2 jiao3ta4che1",
+    "translation_en": "He often rides a bike in the park.",
+    "translation_ko": "그는 공원에서 자주 자전거를 탑니다.",
+    "token_ids": [
+      "VOC_M1_004",
+      "VOC_D53_025",
+      "VOC_M1_139",
+      "VOC_M1_150",
+      "VOC_D53_015"
+    ],
+    "grammar_ids": [
+      "GR_D53_CHANGCHANG"
+    ],
+    "audio_id": "AUD_SEN_D53_037",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_038",
+    "text": "我爸爸常常看球賽。",
+    "pinyin": "Wǒ bàba chángcháng kàn qiúsài.",
+    "pinyin_numeric": "wo3 ba4ba chang2chang2 kan4 qiu2sai4",
+    "translation_en": "My father often watches ball games.",
+    "translation_ko": "제 아버지는 자주 경기를 보십니다.",
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_026",
+      "VOC_D53_025",
+      "VOC_D53_021"
+    ],
+    "grammar_ids": [
+      "GR_D53_CHANGCHANG"
+    ],
+    "audio_id": "AUD_SEN_D53_038",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_039",
+    "text": "你哥哥常常打電動嗎？",
+    "pinyin": "Nǐ gēge chángcháng dǎ diàndòng ma?",
+    "pinyin_numeric": "ni3 ge1ge chang2chang2 da3 dian4dong4 ma0",
+    "translation_en": "Does your older brother often play video games?",
+    "translation_ko": "당신의 오빠는 자주 게임을 하나요?",
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_M1_028",
+      "VOC_D53_025",
+      "VOC_D53_016",
+      "VOC_M1_016"
+    ],
+    "grammar_ids": [
+      "GR_D53_CHANGCHANG"
+    ],
+    "audio_id": "AUD_SEN_D53_039",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_040",
+    "text": "我常常跟朋友一起看演唱會。",
+    "pinyin": "Wǒ chángcháng gēn péngyǒu yīqǐ kàn yǎnchànghuì.",
+    "pinyin_numeric": "wo3 chang2chang2 gen1 peng2you3 yi1qi3 kan4 yan3chang4hui4",
+    "translation_en": "I often go to concerts with friends.",
+    "translation_ko": "저는 친구들과 함께 자주 콘서트를 봅니다.",
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_D53_025",
+      "VOC_M1_182",
+      "VOC_M1_042",
+      "VOC_M1_183",
+      "VOC_D53_020"
+    ],
+    "grammar_ids": [
+      "GR_D53_CHANGCHANG"
+    ],
+    "audio_id": "AUD_SEN_D53_040",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_041",
+    "text": "我週末有時候會去打籃球。",
+    "pinyin": "Wǒ zhōumò yǒu shíhou huì qù dǎ lánqiú.",
+    "pinyin_numeric": "wo3 zhou1mo4 you3 shi2hou4 hui4 qu4 da3 lan2qiu2.",
+    "translation_en": "I sometimes go play basketball on weekends.",
+    "translation_ko": "저는 주말에 가끔 농구하러 갑니다.",
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_D36_013",
+      "VOC_D53_026",
+      "VOC_M1_194",
+      "VOC_M1_156",
+      "VOC_D53_003"
+    ],
+    "grammar_ids": [
+      "GR_D53_YOU_SHIHOU"
+    ],
+    "audio_id": "AUD_SEN_D53_041",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_042",
+    "text": "他平時很少看漫畫，有時候會看小說。",
+    "pinyin": "Tā píngshí hěn shǎo kàn mànhuà, yǒu shíhou huì kàn xiǎoshuō.",
+    "pinyin_numeric": "ta1 ping2shi2 hen3 shao3 kan4 man4hua4, you3 shi2hou4 hui4 kan4 xiao3shuo1.",
+    "translation_en": "He rarely reads comics on weekdays, but sometimes he reads novels.",
+    "translation_ko": "그는 평소에 만화를 거의 안 보지만, 가끔 소설을 봅니다.",
+    "token_ids": [
+      "VOC_M1_004",
+      "VOC_D53_031",
+      "VOC_D53_027",
+      "VOC_D53_018",
+      "VOC_D53_026",
+      "VOC_M1_194",
+      "VOC_D53_017"
+    ],
+    "grammar_ids": [
+      "GR_D53_YOU_SHIHOU"
+    ],
+    "audio_id": "AUD_SEN_D53_042",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_043",
+    "text": "放假的時候，我們有時候會一起去爬山。",
+    "pinyin": "Fàngjià de shíhou, wǒmen yǒu shíhou huì yīqǐ qù páshān.",
+    "pinyin_numeric": "fang4jia4 de5 shi2hou4, wo3men5 you3 shi2hou4 hui4 yi1qi3 qu4 pa2shan1.",
+    "translation_en": "During holidays, we sometimes go hiking together.",
+    "translation_ko": "방학 때 우리는 가끔 함께 등산하러 갑니다.",
+    "token_ids": [
+      "VOC_D53_032",
+      "VOC_M1_023",
+      "VOC_M1_006",
+      "VOC_D53_026",
+      "VOC_M1_194",
+      "VOC_D37_003",
+      "VOC_D53_012"
+    ],
+    "grammar_ids": [
+      "GR_D53_YOU_SHIHOU"
+    ],
+    "audio_id": "AUD_SEN_D53_043",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_044",
+    "text": "她有時候會在家裡彈鋼琴，放鬆心情。",
+    "pinyin": "Tā yǒu shíhou huì zài jiālǐ tán gāngqín, fàngsōng xīnqíng.",
+    "pinyin_numeric": "ta1 you3 shi2hou4 hui4 zai4 jia1li3 tan2 gang1qin2, fang4song1 xin1qing2.",
+    "translation_en": "She sometimes plays the piano at home to relax.",
+    "translation_ko": "그녀는 가끔 집에서 피아노를 치며 기분을 풉니다.",
+    "token_ids": [
+      "VOC_M1_005",
+      "VOC_D53_026",
+      "VOC_M1_194",
+      "VOC_M1_139",
+      "VOC_M1_039",
+      "VOC_D50_022",
+      "VOC_D44_032",
+      "VOC_D44_006"
+    ],
+    "grammar_ids": [
+      "GR_D53_YOU_SHIHOU"
+    ],
+    "audio_id": "AUD_SEN_D53_044",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_045",
+    "text": "我弟弟有時候會打電動，可是他最喜歡踢足球。",
+    "pinyin": "Wǒ dìdi yǒu shíhou huì dǎ diàndòng, kěshì tā zuì xǐhuān tī zúqiú.",
+    "pinyin_numeric": "wo3 di4di5 you3 shi2hou4 hui4 da3 dian4dong4, ke3shi4 ta1 zui4 xi3huan1 ti1 zu2qiu2.",
+    "translation_en": "My younger brother sometimes plays video games, but he likes playing soccer the most.",
+    "translation_ko": "제 남동생은 가끔 게임을 하지만, 축구를 가장 좋아합니다.",
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_030",
+      "VOC_D53_026",
+      "VOC_M1_194",
+      "VOC_D53_016",
+      "VOC_D35_023",
+      "VOC_M1_004",
+      "VOC_D42_003",
+      "VOC_D53_004"
+    ],
+    "grammar_ids": [
+      "GR_D53_YOU_SHIHOU"
+    ],
+    "audio_id": "AUD_SEN_D53_045",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_046",
+    "text": "你週末有空嗎？要不要一起去騎腳踏車？",
+    "pinyin": "Nǐ zhōumò yǒu kòng ma? Yào bù yào yīqǐ qù qí jiǎotàchē?",
+    "pinyin_numeric": "ni3 zhou1mo4 you3 kong4 ma0? yao4 bu4 yao4 yi1qi3 qu4 qi2 jiao3ta4che1?",
+    "translation_en": "Are you free this weekend? Do you want to go cycling together?",
+    "translation_ko": "주말에 시간 있으세요? 같이 자전거 타러 갈래요?",
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_D36_013",
+      "VOC_D49_009",
+      "VOC_D53_034",
+      "VOC_D37_003",
+      "VOC_D53_015"
+    ],
+    "grammar_ids": [
+      "GR_D53_YOU_SHIHOU"
+    ],
+    "audio_id": "AUD_SEN_D53_046",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_047",
+    "text": "我爸爸有時候會去釣魚，他覺得很有趣。",
+    "pinyin": "Wǒ bàba yǒu shíhou huì qù diàoyú, tā juéde hěn yǒuqù.",
+    "pinyin_numeric": "wo3 ba4ba5 you3 shi2hou4 hui4 qu4 diao4yu2, ta1 jue2de5 hen3 you3qu4.",
+    "translation_en": "My dad sometimes goes fishing; he finds it very interesting.",
+    "translation_ko": "아버지는 가끔 낚시하러 가시는데, 아주 재미있다고 생각하세요.",
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_026",
+      "VOC_D53_026",
+      "VOC_M1_194",
+      "VOC_M1_156",
+      "VOC_D53_014",
+      "VOC_M1_004",
+      "VOC_M1_172",
+      "VOC_M1_096",
+      "VOC_D51_015"
+    ],
+    "grammar_ids": [
+      "GR_D53_YOU_SHIHOU"
+    ],
+    "audio_id": "AUD_SEN_D53_047",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_048",
+    "text": "我從來不種花，可是我朋友有時候會種花。",
+    "pinyin": "Wǒ cónglái bù zhòng huā, kěshì wǒ péngyou yǒu shíhou huì zhòng huā.",
+    "pinyin_numeric": "wo3 cong2lai2 bu4 zhong4 hua1, ke3shi4 wo3 peng2you5 you3 shi2hou4 hui4 zhong4 hua1.",
+    "translation_en": "I never grow flowers, but my friend sometimes does.",
+    "translation_ko": "저는 꽃을 전혀 안 키우지만, 제 친구는 가끔 꽃을 키웁니다.",
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_D53_028",
+      "VOC_D53_023",
+      "VOC_D35_023",
+      "VOC_M1_002",
+      "VOC_M1_042",
+      "VOC_D53_026",
+      "VOC_M1_194",
+      "VOC_D53_023"
+    ],
+    "grammar_ids": [
+      "GR_D53_YOU_SHIHOU"
+    ],
+    "audio_id": "AUD_SEN_D53_048",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_049",
+    "text": "她喜歡看演唱會，有時候會跟朋友一起去。",
+    "pinyin": "Tā xǐhuān kàn yǎnchànghuì, yǒu shíhou huì gēn péngyou yīqǐ qù.",
+    "pinyin_numeric": "ta1 xi3huan1 kan4 yan3chang4hui4, you3 shi2hou4 hui4 gen1 peng2you5 yi1qi3 qu4.",
+    "translation_en": "She likes going to concerts and sometimes goes with friends.",
+    "translation_ko": "그녀는 콘서트 보는 것을 좋아하며, 가끔 친구와 함께 갑니다.",
+    "token_ids": [
+      "VOC_M1_005",
+      "VOC_M1_068",
+      "VOC_D53_020",
+      "VOC_D53_026",
+      "VOC_M1_194",
+      "VOC_M1_182",
+      "VOC_M1_042",
+      "VOC_D37_003"
+    ],
+    "grammar_ids": [
+      "GR_D53_YOU_SHIHOU"
+    ],
+    "audio_id": "AUD_SEN_D53_049",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_050",
+    "text": "我放假的時候有時候會在家裡看漫畫，很休閒。",
+    "pinyin": "Wǒ fàngjià de shíhou yǒu shíhou huì zài jiālǐ kàn mànhuà, hěn xiūxián.",
+    "pinyin_numeric": "wo3 fang4jia4 de5 shi2hou4 you3 shi2hou4 hui4 zai4 jia1li3 kan4 man4hua4, hen3 xiu1xian2.",
+    "translation_en": "During my vacation, I sometimes read comics at home; it's very relaxing.",
+    "translation_ko": "저는 방학 때 가끔 집에서 만화를 보는데, 아주 여유롭습니다.",
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_D53_032",
+      "VOC_M1_023",
+      "VOC_D53_026",
+      "VOC_M1_194",
+      "VOC_M1_139",
+      "VOC_M1_039",
+      "VOC_D53_018",
+      "VOC_M1_096",
+      "VOC_D53_001"
+    ],
+    "grammar_ids": [
+      "GR_D53_YOU_SHIHOU"
+    ],
+    "audio_id": "AUD_SEN_D53_050",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_051",
+    "text": "我喜歡打籃球，也喜歡踢足球。",
+    "pinyin": "Wǒ xǐhuān dǎ lánqiú, yě xǐhuān tī zúqiú.",
+    "pinyin_numeric": "wo3 xi3huan1 da3 lan2qiu2, ye3 xi3huan1 ti1 zu2qiu2.",
+    "translation_en": "I like playing basketball, and I also like playing soccer.",
+    "translation_ko": "저는 농구하는 것을 좋아하고, 축구하는 것도 좋아합니다.",
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_068",
+      "VOC_D53_003",
+      "VOC_M1_084",
+      "VOC_M1_068",
+      "VOC_D53_004"
+    ],
+    "grammar_ids": [
+      "GR_D53_XIHUAN_VERB_OBJECT"
+    ],
+    "audio_id": "AUD_SEN_D53_051",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_052",
+    "text": "你週末常常做什麼休閒活動？",
+    "pinyin": "Nǐ zhōumò chángcháng zuò shénme xiūxián huódòng?",
+    "pinyin_numeric": "ni3 zhou1mo4 chang2chang2 zuo4 shen2me xiu1xian2 huo2dong4?",
+    "translation_en": "What leisure activities do you often do on weekends?",
+    "translation_ko": "주말에 주로 어떤 여가 활동을 하시나요?",
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_D36_013",
+      "VOC_D53_025",
+      "VOC_D49_003",
+      "VOC_D53_001"
+    ],
+    "grammar_ids": [
+      "GR_D53_XIHUAN_VERB_OBJECT"
+    ],
+    "audio_id": "AUD_SEN_D53_052",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_053",
+    "text": "他喜歡看小說，有時候也看漫畫。",
+    "pinyin": "Tā xǐhuān kàn xiǎoshuō, yǒu shíhou yě kàn mànhuà.",
+    "pinyin_numeric": "ta1 xi3huan1 kan4 xiao3shuo1, you3 shi2hou4 ye3 kan4 man4hua4.",
+    "translation_en": "He likes reading novels, and sometimes he also reads comics.",
+    "translation_ko": "그는 소설 읽는 것을 좋아하고, 가끔 만화도 봅니다.",
+    "token_ids": [
+      "VOC_M1_004",
+      "VOC_M1_068",
+      "VOC_D53_017",
+      "VOC_D53_026",
+      "VOC_M1_084",
+      "VOC_D53_018"
+    ],
+    "grammar_ids": [
+      "GR_D53_XIHUAN_VERB_OBJECT"
+    ],
+    "audio_id": "AUD_SEN_D53_053",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_054",
+    "text": "我們要不要一起去爬山？",
+    "pinyin": "Wǒmen yào bù yào yīqǐ qù páshān?",
+    "pinyin_numeric": "wo3men yao4 bu4 yao4 yi1qi3 qu4 pa2shan1?",
+    "translation_en": "Do you want to go hiking together?",
+    "translation_ko": "우리 같이 등산하러 갈래요?",
+    "token_ids": [
+      "VOC_M1_006",
+      "VOC_D53_034",
+      "VOC_D37_003",
+      "VOC_D53_012"
+    ],
+    "grammar_ids": [
+      "GR_D53_XIHUAN_VERB_OBJECT"
+    ],
+    "audio_id": "AUD_SEN_D53_054",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_055",
+    "text": "她很少打網球，比較喜歡打羽毛球。",
+    "pinyin": "Tā hěn shǎo dǎ wǎngqiú, bǐjiào xǐhuān dǎ yǔmáoqiú.",
+    "pinyin_numeric": "ta1 hen3 shao3 da3 wang3qiu2, bi3jiao4 xi3huan1 da3 yu3mao2qiu2.",
+    "translation_en": "She rarely plays tennis; she prefers playing badminton.",
+    "translation_ko": "그녀는 테니스를 거의 치지 않고, 배드민턴을 더 좋아합니다.",
+    "token_ids": [
+      "VOC_M1_005",
+      "VOC_D53_027",
+      "VOC_D53_005",
+      "VOC_D42_002",
+      "VOC_D53_006"
+    ],
+    "grammar_ids": [
+      "GR_D53_XIHUAN_VERB_OBJECT"
+    ],
+    "audio_id": "AUD_SEN_D53_055",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_056",
+    "text": "我從來不騎腳踏車，因為太累了。",
+    "pinyin": "Wǒ cónglái bù qí jiǎotàchē, yīnwèi tài lèi le.",
+    "pinyin_numeric": "wo3 cong2lai2 bu4 qi2 jiao3ta4che1, yin1wei4 tai4 lei4 le5.",
+    "translation_en": "I never ride a bicycle because it's too tiring.",
+    "translation_ko": "저는 자전거를 전혀 타지 않아요, 너무 힘들기 때문입니다.",
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_D53_028",
+      "VOC_D53_015",
+      "VOC_D34_011",
+      "VOC_D41_009"
+    ],
+    "grammar_ids": [
+      "GR_D53_XIHUAN_VERB_OBJECT"
+    ],
+    "audio_id": "AUD_SEN_D53_056",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_057",
+    "text": "他喜歡彈吉他，也喜歡唱歌。",
+    "pinyin": "Tā xǐhuān tán jítā, yě xǐhuān chànggē.",
+    "pinyin_numeric": "ta1 xi3huan1 tan2 ji2ta1, ye3 xi3huan1 chang4ge1.",
+    "translation_en": "He likes playing the guitar and also likes singing.",
+    "translation_ko": "그는 기타 치는 것을 좋아하고, 노래하는 것도 좋아합니다.",
+    "token_ids": [
+      "VOC_M1_004",
+      "VOC_M1_068",
+      "VOC_D53_010",
+      "VOC_M1_084",
+      "VOC_M1_068",
+      "VOC_M1_188"
+    ],
+    "grammar_ids": [
+      "GR_D53_XIHUAN_VERB_OBJECT"
+    ],
+    "audio_id": "AUD_SEN_D53_057",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_058",
+    "text": "放假的時候，我喜歡看展覽或聽廣播。",
+    "pinyin": "Fàngjià de shíhou, wǒ xǐhuān kàn zhǎnlǎn huò tīng guǎngbò.",
+    "pinyin_numeric": "fang4jia4 de5 shi2hou4, wo3 xi3huan1 kan4 zhan3lan3 huo4 ting1 guang3bo4.",
+    "translation_en": "During holidays, I like visiting exhibitions or listening to the radio.",
+    "translation_ko": "휴가 때는 전시회를 보거나 라디오를 듣는 것을 좋아합니다.",
+    "token_ids": [
+      "VOC_D53_032",
+      "VOC_M1_023",
+      "VOC_M1_002",
+      "VOC_M1_068",
+      "VOC_D53_011",
+      "VOC_D53_019"
+    ],
+    "grammar_ids": [
+      "GR_D53_XIHUAN_VERB_OBJECT"
+    ],
+    "audio_id": "AUD_SEN_D53_058",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_059",
+    "text": "你喜歡養寵物嗎？我養了一隻貓。",
+    "pinyin": "Nǐ xǐhuān yǎng chǒngwù ma? Wǒ yǎng le yī zhī māo.",
+    "pinyin_numeric": "ni3 xi3huan1 yang3 chong3wu4 ma0? wo3 yang3 le5 yi1 zhi1 mao1.",
+    "translation_en": "Do you like keeping pets? I have a cat.",
+    "translation_ko": "애완동물 키우는 것을 좋아하세요? 저는 고양이 한 마리를 키우고 있습니다.",
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_M1_068",
+      "VOC_D53_024",
+      "VOC_M1_016",
+      "VOC_M1_002",
+      "VOC_M1_009",
+      "VOC_M1_101"
+    ],
+    "grammar_ids": [
+      "GR_D53_XIHUAN_VERB_OBJECT"
+    ],
+    "audio_id": "AUD_SEN_D53_059",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_060",
+    "text": "他每次放假都去露營，覺得很好玩。",
+    "pinyin": "Tā měi cì fàngjià dōu qù lùyíng, juéde hěn hǎowán.",
+    "pinyin_numeric": "ta1 mei3 ci4 fang4jia4 dou1 qu4 lu4ying2, jue2de5 hen3 hao3wan2.",
+    "translation_en": "Every time he has a holiday, he goes camping and thinks it's a lot of fun.",
+    "translation_ko": "그는 휴가 때마다 캠핑을 가는데, 아주 재미있다고 생각합니다.",
+    "token_ids": [
+      "VOC_M1_004",
+      "VOC_D53_029",
+      "VOC_D53_032",
+      "VOC_M1_085",
+      "VOC_M1_156",
+      "VOC_D53_013",
+      "VOC_M1_172",
+      "VOC_M1_096",
+      "VOC_D48_034"
+    ],
+    "grammar_ids": [
+      "GR_D53_XIHUAN_VERB_OBJECT"
+    ],
+    "audio_id": "AUD_SEN_D53_060",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_061",
+    "text": "我常常在週末打籃球。",
+    "pinyin": "Wǒ chángcháng zài zhōumò dǎ lánqiú.",
+    "pinyin_numeric": "wo3 chang2chang2 zai4 zhou1mo4 da3 lan2qiu2.",
+    "translation_en": "I often play basketball on weekends.",
+    "translation_ko": "저는 주말에 자주 농구를 합니다.",
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_D53_025",
+      "VOC_M1_139",
+      "VOC_D36_013",
+      "VOC_D53_003"
+    ],
+    "grammar_ids": [
+      "GR_D53_CHANGCHANG"
+    ],
+    "audio_id": "AUD_SEN_D53_061",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_062",
+    "text": "他常常看小說，很少看電視。",
+    "pinyin": "Tā chángcháng kàn xiǎoshuō, hěn shǎo kàn diànshì.",
+    "pinyin_numeric": "ta1 chang2chang2 kan4 xiao3shuo1, hen3 shao3 kan4 dian4shi4.",
+    "translation_en": "He often reads novels and rarely watches TV.",
+    "translation_ko": "그는 자주 소설을 읽고, TV는 거의 보지 않습니다.",
+    "token_ids": [
+      "VOC_M1_004",
+      "VOC_D53_025",
+      "VOC_D53_017",
+      "VOC_D53_027",
+      "VOC_D36_027"
+    ],
+    "grammar_ids": [
+      "GR_D53_CHANGCHANG"
+    ],
+    "audio_id": "AUD_SEN_D53_062",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_063",
+    "text": "她常常跟朋友一起去爬山。",
+    "pinyin": "Tā chángcháng gēn péngyou yīqǐ qù páshān.",
+    "pinyin_numeric": "ta1 chang2chang2 gen1 peng2you3 yi4qi3 qu4 pa2shan1.",
+    "translation_en": "She often goes hiking with friends.",
+    "translation_ko": "그녀는 자주 친구들과 함께 등산을 갑니다.",
+    "token_ids": [
+      "VOC_M1_005",
+      "VOC_D53_025",
+      "VOC_M1_182",
+      "VOC_M1_042",
+      "VOC_D37_003",
+      "VOC_D53_012"
+    ],
+    "grammar_ids": [
+      "GR_D53_CHANGCHANG"
+    ],
+    "audio_id": "AUD_SEN_D53_063",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_064",
+    "text": "我們常常在放假的時候去露營。",
+    "pinyin": "Wǒmen chángcháng zài fàngjià de shíhou qù lùyíng.",
+    "pinyin_numeric": "wo3men5 chang2chang2 zai4 fang4jia4 de5 shi2hou5 qu4 lu4ying2.",
+    "translation_en": "We often go camping during holidays.",
+    "translation_ko": "우리는 방학 때 자주 캠핑을 갑니다.",
+    "token_ids": [
+      "VOC_M1_006",
+      "VOC_D53_025",
+      "VOC_M1_139",
+      "VOC_D53_032",
+      "VOC_M1_023",
+      "VOC_M1_156",
+      "VOC_D53_013"
+    ],
+    "grammar_ids": [
+      "GR_D53_CHANGCHANG"
+    ],
+    "audio_id": "AUD_SEN_D53_064",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_065",
+    "text": "你常常騎腳踏車去上班嗎？",
+    "pinyin": "Nǐ chángcháng qí jiǎotàchē qù shàngbān ma?",
+    "pinyin_numeric": "ni3 chang2chang2 qi2 jiao3ta4che1 qu4 shang4ban1 ma0?",
+    "translation_en": "Do you often ride a bike to work?",
+    "translation_ko": "당신은 자주 자전거를 타고 출근하나요?",
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_D53_025",
+      "VOC_D53_015",
+      "VOC_M1_156",
+      "VOC_D36_005",
+      "VOC_M1_016"
+    ],
+    "grammar_ids": [
+      "GR_D53_CHANGCHANG"
+    ],
+    "audio_id": "AUD_SEN_D53_065",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_066",
+    "text": "我弟弟常常打電動，有時候不打。",
+    "pinyin": "Wǒ dìdi chángcháng dǎ diàndòng, yǒu shíhou bù dǎ.",
+    "pinyin_numeric": "wo3 di4di5 chang2chang2 da3 dian4dong4, you3 shi2hou5 bu4 da3.",
+    "translation_en": "My younger brother often plays video games, but sometimes he doesn't.",
+    "translation_ko": "제 남동생은 자주 게임을 하지만, 가끔은 안 합니다.",
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_030",
+      "VOC_D53_025",
+      "VOC_D53_016",
+      "VOC_D53_026",
+      "VOC_M1_079"
+    ],
+    "grammar_ids": [
+      "GR_D53_CHANGCHANG"
+    ],
+    "audio_id": "AUD_SEN_D53_066",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_067",
+    "text": "她常常彈鋼琴，也喜歡唱歌。",
+    "pinyin": "Tā chángcháng tán gāngqín, yě xǐhuān chànggē.",
+    "pinyin_numeric": "ta1 chang2chang2 tan2 gang1qin2, ye3 xi3huan1 chang4ge1.",
+    "translation_en": "She often plays the piano and also likes to sing.",
+    "translation_ko": "그녀는 자주 피아노를 치고, 노래 부르기도 좋아합니다.",
+    "token_ids": [
+      "VOC_M1_005",
+      "VOC_D53_025",
+      "VOC_D50_022",
+      "VOC_M1_084",
+      "VOC_M1_068",
+      "VOC_M1_188"
+    ],
+    "grammar_ids": [
+      "GR_D53_CHANGCHANG"
+    ],
+    "audio_id": "AUD_SEN_D53_067",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_068",
+    "text": "我爸爸常常在公園下棋。",
+    "pinyin": "Wǒ bàba chángcháng zài gōngyuán xià qí.",
+    "pinyin_numeric": "wo3 ba4ba5 chang2chang2 zai4 gong1yuan2 xia4 qi2.",
+    "translation_en": "My father often plays chess in the park.",
+    "translation_ko": "제 아버지는 공원에서 자주 바둑을 둡니다.",
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_026",
+      "VOC_D53_025",
+      "VOC_M1_139",
+      "VOC_M1_150",
+      "VOC_D53_007"
+    ],
+    "grammar_ids": [
+      "GR_D53_CHANGCHANG"
+    ],
+    "audio_id": "AUD_SEN_D53_068",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_069",
+    "text": "你常常看漫畫嗎？我很少看。",
+    "pinyin": "Nǐ chángcháng kàn mànhuà ma? Wǒ hěn shǎo kàn.",
+    "pinyin_numeric": "ni3 chang2chang2 kan4 man4hua4 ma0? wo3 hen3 shao3 kan4.",
+    "translation_en": "Do you often read comics? I rarely do.",
+    "translation_ko": "당신은 자주 만화를 보나요? 저는 거의 보지 않습니다.",
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_D53_025",
+      "VOC_D53_018",
+      "VOC_M1_016",
+      "VOC_M1_002",
+      "VOC_D53_027",
+      "VOC_M1_062"
+    ],
+    "grammar_ids": [
+      "GR_D53_CHANGCHANG"
+    ],
+    "audio_id": "AUD_SEN_D53_069",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_070",
+    "text": "我們常常一起看球賽，很好玩。",
+    "pinyin": "Wǒmen chángcháng yīqǐ kàn qiúsài, hěn hǎowán.",
+    "pinyin_numeric": "wo3men5 chang2chang2 yi4qi3 kan4 qiu2sai4, hen3 hao3wan2.",
+    "translation_en": "We often watch ball games together; it's a lot of fun.",
+    "translation_ko": "우리는 자주 함께 경기를 보는데, 아주 재미있습니다.",
+    "token_ids": [
+      "VOC_M1_006",
+      "VOC_D53_025",
+      "VOC_M1_183",
+      "VOC_D53_021",
+      "VOC_M1_096",
+      "VOC_D48_034"
+    ],
+    "grammar_ids": [
+      "GR_D53_CHANGCHANG"
+    ],
+    "audio_id": "AUD_SEN_D53_070",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_071",
+    "text": "我週末有時候會去打籃球。",
+    "pinyin": "Wǒ zhōumò yǒu shíhou huì qù dǎ lánqiú.",
+    "pinyin_numeric": "wo3 zhou1 mo4 you3 shi2 hou4 hui4 qu4 da3 lan2 qiu2.",
+    "translation_en": "I sometimes go play basketball on weekends.",
+    "translation_ko": "저는 주말에 가끔 농구하러 갑니다.",
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_D36_013",
+      "VOC_D53_026",
+      "VOC_M1_194",
+      "VOC_M1_156",
+      "VOC_D53_003"
+    ],
+    "grammar_ids": [
+      "GR_D53_YOU_SHIHOU"
+    ],
+    "audio_id": "AUD_SEN_D53_071",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_072",
+    "text": "他平時有時候會在家裡彈吉他。",
+    "pinyin": "Tā píngshí yǒu shíhou huì zài jiālǐ tán jítā.",
+    "pinyin_numeric": "ta1 ping2 shi2 you3 shi2 hou4 hui4 zai4 jia1 li3 tan2 ji2 ta1.",
+    "translation_en": "He sometimes plays guitar at home on weekdays.",
+    "translation_ko": "그는 평소에 가끔 집에서 기타를 칩니다.",
+    "token_ids": [
+      "VOC_M1_004",
+      "VOC_D53_031",
+      "VOC_D53_026",
+      "VOC_M1_194",
+      "VOC_M1_139",
+      "VOC_M1_039",
+      "VOC_D53_010"
+    ],
+    "grammar_ids": [
+      "GR_D53_YOU_SHIHOU"
+    ],
+    "audio_id": "AUD_SEN_D53_072",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_073",
+    "text": "我們有時候會一起去爬山。",
+    "pinyin": "Wǒmen yǒu shíhou huì yīqǐ qù pá shān.",
+    "pinyin_numeric": "wo3 men5 you3 shi2 hou4 hui4 yi1 qi3 qu4 pa2 shan1.",
+    "translation_en": "We sometimes go hiking together.",
+    "translation_ko": "우리는 가끔 함께 등산하러 갑니다.",
+    "token_ids": [
+      "VOC_M1_006",
+      "VOC_D53_026",
+      "VOC_M1_194",
+      "VOC_D37_003",
+      "VOC_D53_012"
+    ],
+    "grammar_ids": [
+      "GR_D53_YOU_SHIHOU"
+    ],
+    "audio_id": "AUD_SEN_D53_073",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_074",
+    "text": "她放假的時候有時候會去看展覽。",
+    "pinyin": "Tā fàngjià de shíhou yǒu shíhou huì qù kàn zhǎnlǎn.",
+    "pinyin_numeric": "ta1 fang4 jia4 de5 shi2 hou4 you3 shi2 hou4 hui4 qu4 kan4 zhan3 lan3.",
+    "translation_en": "She sometimes goes to see exhibitions during her vacation.",
+    "translation_ko": "그녀는 휴가 때 가끔 전시회를 보러 갑니다.",
+    "token_ids": [
+      "VOC_M1_005",
+      "VOC_D53_032",
+      "VOC_M1_023",
+      "VOC_D53_026",
+      "VOC_M1_194",
+      "VOC_M1_156",
+      "VOC_D53_011"
+    ],
+    "grammar_ids": [
+      "GR_D53_YOU_SHIHOU"
+    ],
+    "audio_id": "AUD_SEN_D53_074",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_075",
+    "text": "你週末有時候會做什麼休閒活動？",
+    "pinyin": "Nǐ zhōumò yǒu shíhou huì zuò shénme xiūxián huódòng?",
+    "pinyin_numeric": "ni3 zhou1 mo4 you3 shi2 hou4 hui4 zuo4 shen2 me5 xiu1 xian2 huo2 dong4?",
+    "translation_en": "What leisure activities do you sometimes do on weekends?",
+    "translation_ko": "주말에 가끔 어떤 여가 활동을 하시나요?",
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_D36_013",
+      "VOC_D53_026",
+      "VOC_M1_194",
+      "VOC_D49_003",
+      "VOC_D53_001"
+    ],
+    "grammar_ids": [
+      "GR_D53_YOU_SHIHOU"
+    ],
+    "audio_id": "AUD_SEN_D53_075",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_076",
+    "text": "我弟弟有時候會在家裡打電動。",
+    "pinyin": "Wǒ dìdi yǒu shíhou huì zài jiālǐ dǎ diàndòng.",
+    "pinyin_numeric": "wo3 di4 di5 you3 shi2 hou4 hui4 zai4 jia1 li3 da3 dian4 dong4.",
+    "translation_en": "My younger brother sometimes plays video games at home.",
+    "translation_ko": "제 남동생은 가끔 집에서 게임을 합니다.",
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_030",
+      "VOC_D53_026",
+      "VOC_M1_194",
+      "VOC_M1_139",
+      "VOC_M1_039",
+      "VOC_D53_016"
+    ],
+    "grammar_ids": [
+      "GR_D53_YOU_SHIHOU"
+    ],
+    "audio_id": "AUD_SEN_D53_076",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_077",
+    "text": "她有空的時候有時候會去釣魚。",
+    "pinyin": "Tā yǒu kòng de shíhou yǒu shíhou huì qù diào yú.",
+    "pinyin_numeric": "ta1 you3 kong4 de5 shi2 hou4 you3 shi2 hou4 hui4 qu4 diao4 yu2.",
+    "translation_en": "She sometimes goes fishing when she has free time.",
+    "translation_ko": "그녀는 시간이 있을 때 가끔 낚시하러 갑니다.",
+    "token_ids": [
+      "VOC_M1_005",
+      "VOC_D36_010",
+      "VOC_M1_023",
+      "VOC_D53_026",
+      "VOC_M1_194",
+      "VOC_M1_156",
+      "VOC_D53_014"
+    ],
+    "grammar_ids": [
+      "GR_D53_YOU_SHIHOU"
+    ],
+    "audio_id": "AUD_SEN_D53_077",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_078",
+    "text": "我們有時候會一起去看球賽。",
+    "pinyin": "Wǒmen yǒu shíhou huì yīqǐ qù kàn qiúsài.",
+    "pinyin_numeric": "wo3 men5 you3 shi2 hou4 hui4 yi1 qi3 qu4 kan4 qiu2 sai4.",
+    "translation_en": "We sometimes go watch ball games together.",
+    "translation_ko": "우리는 가끔 함께 경기 보러 갑니다.",
+    "token_ids": [
+      "VOC_M1_006",
+      "VOC_D53_026",
+      "VOC_M1_194",
+      "VOC_D37_003",
+      "VOC_D53_021"
+    ],
+    "grammar_ids": [
+      "GR_D53_YOU_SHIHOU"
+    ],
+    "audio_id": "AUD_SEN_D53_078",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_079",
+    "text": "他放假的時候有時候會去露營。",
+    "pinyin": "Tā fàngjià de shíhou yǒu shíhou huì qù lùyíng.",
+    "pinyin_numeric": "ta1 fang4 jia4 de5 shi2 hou4 you3 shi2 hou4 hui4 qu4 lu4 ying2.",
+    "translation_en": "He sometimes goes camping during his vacation.",
+    "translation_ko": "그는 휴가 때 가끔 캠핑하러 갑니다.",
+    "token_ids": [
+      "VOC_M1_004",
+      "VOC_D53_032",
+      "VOC_M1_023",
+      "VOC_D53_026",
+      "VOC_M1_194",
+      "VOC_M1_156",
+      "VOC_D53_013"
+    ],
+    "grammar_ids": [
+      "GR_D53_YOU_SHIHOU"
+    ],
+    "audio_id": "AUD_SEN_D53_079",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_080",
+    "text": "你平時有時候會看小說嗎？",
+    "pinyin": "Nǐ píngshí yǒu shíhou huì kàn xiǎoshuō ma?",
+    "pinyin_numeric": "ni3 ping2 shi2 you3 shi2 hou4 hui4 kan4 xiao3 shuo1 ma5?",
+    "translation_en": "Do you sometimes read novels on weekdays?",
+    "translation_ko": "평소에 가끔 소설을 읽으시나요?",
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_D53_031",
+      "VOC_D53_026",
+      "VOC_M1_194",
+      "VOC_D53_017",
+      "VOC_M1_016"
+    ],
+    "grammar_ids": [
+      "GR_D53_YOU_SHIHOU"
+    ],
+    "audio_id": "AUD_SEN_D53_080",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_081",
+    "text": "我喜歡打籃球，你喜歡嗎？",
+    "pinyin": "Wǒ xǐhuān dǎ lánqiú, nǐ xǐhuān ma?",
+    "pinyin_numeric": "wo3 xi3huan1 da3 lan2qiu2, ni3 xi3huan1 ma0",
+    "translation_en": "I like playing basketball, do you like it?",
+    "translation_ko": "저는 농구하는 것을 좋아합니다, 당신도 좋아하나요?",
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_068",
+      "VOC_D53_003",
+      "VOC_M1_003",
+      "VOC_M1_068",
+      "VOC_M1_016"
+    ],
+    "grammar_ids": [
+      "GR_D53_XIHUAN_VERB_OBJECT"
+    ],
+    "audio_id": "AUD_SEN_D53_081",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_082",
+    "text": "他常常在週末踢足球。",
+    "pinyin": "Tā chángcháng zài zhōumò tī zúqiú.",
+    "pinyin_numeric": "ta1 chang2chang2 zai4 zhou1mo4 ti1 zu2qiu2",
+    "translation_en": "He often plays soccer on weekends.",
+    "translation_ko": "그는 주말에 자주 축구를 합니다.",
+    "token_ids": [
+      "VOC_M1_004",
+      "VOC_D53_025",
+      "VOC_M1_139",
+      "VOC_D36_013",
+      "VOC_D53_004"
+    ],
+    "grammar_ids": [
+      "GR_D53_XIHUAN_VERB_OBJECT"
+    ],
+    "audio_id": "AUD_SEN_D53_082",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_083",
+    "text": "我們要不要一起去打羽毛球？",
+    "pinyin": "Wǒmen yào bù yào yīqǐ qù dǎ yǔmáoqiú?",
+    "pinyin_numeric": "wo3men yao4 bu4 yao4 yi1qi3 qu4 da3 yu3mao2qiu2",
+    "translation_en": "Do you want to go play badminton together?",
+    "translation_ko": "우리 함께 배드민턴 치러 갈래요?",
+    "token_ids": [
+      "VOC_M1_006",
+      "VOC_D53_034",
+      "VOC_D37_003",
+      "VOC_D53_006"
+    ],
+    "grammar_ids": [
+      "GR_D53_XIHUAN_VERB_OBJECT"
+    ],
+    "audio_id": "AUD_SEN_D53_083",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_084",
+    "text": "她喜歡下棋，可是我不會。",
+    "pinyin": "Tā xǐhuān xià qí, kěshì wǒ bù huì.",
+    "pinyin_numeric": "ta1 xi3huan1 xia4 qi2, ke3shi4 wo3 bu4 hui4",
+    "translation_en": "She likes playing chess, but I don't know how.",
+    "translation_ko": "그녀는 체스 두는 것을 좋아하지만, 저는 할 줄 모릅니다.",
+    "token_ids": [
+      "VOC_M1_005",
+      "VOC_M1_068",
+      "VOC_D53_007",
+      "VOC_D35_023",
+      "VOC_M1_002",
+      "VOC_M1_079",
+      "VOC_M1_194"
+    ],
+    "grammar_ids": [
+      "GR_D53_XIHUAN_VERB_OBJECT"
+    ],
+    "audio_id": "AUD_SEN_D53_084",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_085",
+    "text": "我很少看小說，比較喜歡看漫畫。",
+    "pinyin": "Wǒ hěn shǎo kàn xiǎoshuō, bǐjiào xǐhuān kàn mànhuà.",
+    "pinyin_numeric": "wo3 hen3 shao3 kan4 xiao3shuo1, bi3jiao4 xi3huan1 kan4 man4hua4",
+    "translation_en": "I rarely read novels; I prefer reading comics.",
+    "translation_ko": "저는 소설을 거의 읽지 않고, 만화 보는 것을 더 좋아합니다.",
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_D53_027",
+      "VOC_D53_017",
+      "VOC_D42_002",
+      "VOC_D53_018"
+    ],
+    "grammar_ids": [
+      "GR_D53_XIHUAN_VERB_OBJECT"
+    ],
+    "audio_id": "AUD_SEN_D53_085",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_086",
+    "text": "你放假的時候喜歡做什麼？",
+    "pinyin": "Nǐ fàngjià de shíhou xǐhuān zuò shénme?",
+    "pinyin_numeric": "ni3 fang4jia4 de5 shi2hou5 xi3huan1 zuo4 shen2me5",
+    "translation_en": "What do you like to do during your vacation?",
+    "translation_ko": "휴가 때 무엇을 하는 것을 좋아하나요?",
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_D53_032",
+      "VOC_M1_023",
+      "VOC_M1_068",
+      "VOC_D49_003"
+    ],
+    "grammar_ids": [
+      "GR_D53_XIHUAN_VERB_OBJECT"
+    ],
+    "audio_id": "AUD_SEN_D53_086",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_087",
+    "text": "我從來不騎腳踏車，因為太累了。",
+    "pinyin": "Wǒ cónglái bù qí jiǎotàchē, yīnwèi tài lèi le.",
+    "pinyin_numeric": "wo3 cong2lai2 bu4 qi2 jiao3ta4che1, yin1wei4 tai4 lei4 le5",
+    "translation_en": "I never ride a bicycle because it's too tiring.",
+    "translation_ko": "저는 자전거를 전혀 타지 않습니다, 너무 피곤하기 때문입니다.",
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_D53_028",
+      "VOC_D53_015",
+      "VOC_D34_011",
+      "VOC_D41_009"
+    ],
+    "grammar_ids": [
+      "GR_D53_XIHUAN_VERB_OBJECT"
+    ],
+    "audio_id": "AUD_SEN_D53_087",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_088",
+    "text": "他喜歡彈吉他，也喜歡唱歌。",
+    "pinyin": "Tā xǐhuān tán jítā, yě xǐhuān chànggē.",
+    "pinyin_numeric": "ta1 xi3huan1 tan2 ji2ta1, ye3 xi3huan1 chang4ge1",
+    "translation_en": "He likes playing the guitar and also likes singing.",
+    "translation_ko": "그는 기타 치는 것을 좋아하고, 노래하는 것도 좋아합니다.",
+    "token_ids": [
+      "VOC_M1_004",
+      "VOC_M1_068",
+      "VOC_D53_010",
+      "VOC_M1_084",
+      "VOC_M1_068",
+      "VOC_M1_188"
+    ],
+    "grammar_ids": [
+      "GR_D53_XIHUAN_VERB_OBJECT"
+    ],
+    "audio_id": "AUD_SEN_D53_088",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_089",
+    "text": "我們下次可以一起去爬山。",
+    "pinyin": "Wǒmen xià cì kěyǐ yīqǐ qù páshān.",
+    "pinyin_numeric": "wo3men xia4 ci4 ke3yi3 yi1qi3 qu4 pa2shan1",
+    "translation_en": "We can go hiking together next time.",
+    "translation_ko": "우리 다음에 함께 등산 갈 수 있습니다.",
+    "token_ids": [
+      "VOC_M1_006",
+      "VOC_D37_025",
+      "VOC_M1_118",
+      "VOC_D37_003",
+      "VOC_D53_012"
+    ],
+    "grammar_ids": [
+      "GR_D53_XIHUAN_VERB_OBJECT"
+    ],
+    "audio_id": "AUD_SEN_D53_089",
+    "day_introduced": 53
+  },
+  {
+    "id": "SEN_D53_090",
+    "text": "她喜歡看展覽，有時候也去看演唱會。",
+    "pinyin": "Tā xǐhuān kàn zhǎnlǎn, yǒu shíhou yě qù kàn yǎnchànghuì.",
+    "pinyin_numeric": "ta1 xi3huan1 kan4 zhan3lan3, you3 shi2hou5 ye3 qu4 kan4 yan3chang4hui4",
+    "translation_en": "She likes going to exhibitions, and sometimes also goes to concerts.",
+    "translation_ko": "그녀는 전시회 보는 것을 좋아하고, 가끔 콘서트도 보러 갑니다.",
+    "token_ids": [
+      "VOC_M1_005",
+      "VOC_M1_068",
+      "VOC_D53_011",
+      "VOC_D53_026",
+      "VOC_M1_084",
+      "VOC_M1_156",
+      "VOC_D53_020"
+    ],
+    "grammar_ids": [
+      "GR_D53_XIHUAN_VERB_OBJECT"
+    ],
+    "audio_id": "AUD_SEN_D53_090",
+    "day_introduced": 53
   }
 ]

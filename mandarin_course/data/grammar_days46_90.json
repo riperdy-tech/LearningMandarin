@@ -1,443 +1,5 @@
 [
   {
-    "id": "GR_D53_CHANGCHANG",
-    "pattern": "Subject + verb + object",
-    "structure": [
-      "subject",
-      "predicate",
-      "object"
-    ],
-    "explanation_en": "Hobbies: use this pattern to habit.",
-    "title": "CHANGCHANG",
-    "meaning": "A practical Taiwan Mandarin pattern for talking about free time.",
-    "when_to_use": [
-      "When handling talking about free time.",
-      "When speaking with locals in Taiwan.",
-      "When turning known words into spoken responses."
-    ],
-    "when_not_to_use": [
-      "Do not translate word-by-word from English.",
-      "Do not use with vocabulary you have not learned yet."
-    ],
-    "pragmatic_notes": "Taiwan Mandarin favors clear, polite, compact sentences.",
-    "word_order_notes": "Time expressions usually come before the subject in Mandarin.",
-    "english_contrast": "English word order differs; Mandarin places context first.",
-    "korean_contrast": "Korean learners may overuse sentence-final politeness markers.",
-    "example_ids": [
-      "SEN_D53_001",
-      "SEN_D53_002",
-      "SEN_D53_003",
-      "SEN_D53_004"
-    ],
-    "slots": [
-      {
-        "name": "object",
-        "role": "object",
-        "values": [
-          {
-            "text": "我說了",
-            "pinyin": "wǒ shuō le。",
-            "meaning_en": "I spoke.",
-            "meaning_ko": "저는 말하다했습니다.",
-            "vocab_id": "VOC_D53_001"
-          },
-          {
-            "text": "你需要了嗎",
-            "pinyin": "nǐ xūyào le ma？",
-            "meaning_en": "Did you need?",
-            "meaning_ko": "필요하다했습니까?",
-            "vocab_id": "VOC_D53_002"
-          },
-          {
-            "text": "他去地方",
-            "pinyin": "tā qù 地 方。",
-            "meaning_en": "He goes place.",
-            "meaning_ko": "그는 장소을/를 가다합니다.",
-            "vocab_id": "VOC_D53_003"
-          },
-          {
-            "text": "我去過食物",
-            "pinyin": "wǒ qù guò 食 物。",
-            "meaning_en": "I have went food before.",
-            "meaning_ko": "저는 음식을/를 가다한 적이 있습니다.",
-            "vocab_id": "VOC_D53_001"
-          }
-        ]
-      }
-    ],
-    "drill_examples": [
-      {
-        "text": "我說了。",
-        "pinyin": "wǒ shuō le。",
-        "translation_en": "I spoke.",
-        "translation_ko": "저는 말하다했습니다."
-      },
-      {
-        "text": "你需要了嗎？",
-        "pinyin": "nǐ xūyào le ma？",
-        "translation_en": "Did you need?",
-        "translation_ko": "필요하다했습니까?"
-      },
-      {
-        "text": "他去地方。",
-        "pinyin": "tā qù 地 方。",
-        "translation_en": "He goes place.",
-        "translation_ko": "그는 장소을/를 가다합니다."
-      },
-      {
-        "text": "我去過食物。",
-        "pinyin": "wǒ qù guò 食 物。",
-        "translation_en": "I have went food before.",
-        "translation_ko": "저는 음식을/를 가다한 적이 있습니다."
-      }
-    ],
-    "correct_examples": [
-      {
-        "text": "我說了。",
-        "pinyin": "wǒ shuō le。",
-        "translation_en": "I spoke."
-      },
-      {
-        "text": "你需要了嗎？",
-        "pinyin": "nǐ xūyào le ma？",
-        "translation_en": "Did you need?"
-      },
-      {
-        "text": "他去地方。",
-        "pinyin": "tā qù 地 方。",
-        "translation_en": "He goes place."
-      },
-      {
-        "text": "我去過食物。",
-        "pinyin": "wǒ qù guò 食 物。",
-        "translation_en": "I have went food before."
-      }
-    ],
-    "incorrect_examples": [
-      {
-        "text": "*。了說我",
-        "error": "Incorrect word order."
-      }
-    ],
-    "negative_examples": [
-      {
-        "text": "*錯的句子",
-        "error": "This word order is not Mandarin."
-      }
-    ],
-    "transformation_drills": [
-      "Change the object.",
-      "Change the subject.",
-      "Turn the statement into a question.",
-      "Add a time expression."
-    ],
-    "production_drills": [
-      "Use this pattern in: talking about free time.",
-      "Ask a follow-up question.",
-      "Give a reason using this pattern."
-    ],
-    "common_error_patterns": [
-      "Putting question marker in the wrong position.",
-      "Using English word order."
-    ],
-    "repair_feedback": {
-      "word_order": "Move action before object.",
-      "politeness": "Add 請 or 不好意思."
-    }
-  },
-  {
-    "id": "GR_D53_YOU_SHIHOU",
-    "pattern": "Subject + verb + object",
-    "structure": [
-      "subject",
-      "predicate",
-      "object"
-    ],
-    "explanation_en": "Hobbies: use this pattern to habit.",
-    "title": "YOU SHIHOU",
-    "meaning": "A practical Taiwan Mandarin pattern for talking about free time.",
-    "when_to_use": [
-      "When handling talking about free time.",
-      "When speaking with locals in Taiwan.",
-      "When turning known words into spoken responses."
-    ],
-    "when_not_to_use": [
-      "Do not translate word-by-word from English.",
-      "Do not use with vocabulary you have not learned yet."
-    ],
-    "pragmatic_notes": "Taiwan Mandarin favors clear, polite, compact sentences.",
-    "word_order_notes": "Time expressions usually come before the subject in Mandarin.",
-    "english_contrast": "English word order differs; Mandarin places context first.",
-    "korean_contrast": "Korean learners may overuse sentence-final politeness markers.",
-    "example_ids": [
-      "SEN_D53_003",
-      "SEN_D53_004",
-      "SEN_D53_005",
-      "SEN_D53_006"
-    ],
-    "slots": [
-      {
-        "name": "object",
-        "role": "object",
-        "values": [
-          {
-            "text": "他去地方",
-            "pinyin": "tā qù 地 方。",
-            "meaning_en": "He goes place.",
-            "meaning_ko": "그는 장소을/를 가다합니다.",
-            "vocab_id": "VOC_D53_003"
-          },
-          {
-            "text": "我去過食物",
-            "pinyin": "wǒ qù guò 食 物。",
-            "meaning_en": "I have went food before.",
-            "meaning_ko": "저는 음식을/를 가다한 적이 있습니다.",
-            "vocab_id": "VOC_D53_001"
-          },
-          {
-            "text": "今天很快",
-            "pinyin": "jīntiān hěn kuài。",
-            "meaning_en": "Today is very fast.",
-            "meaning_ko": "오늘은 매우 빠르다니다.",
-            "vocab_id": "VOC_D53_015"
-          },
-          {
-            "text": "你覺得朋友怎麼樣",
-            "pinyin": "nǐ juéde 朋 友 zěnme 樣？",
-            "meaning_en": "What do you think of friend?",
-            "meaning_ko": "친구은/는 어때요?",
-            "vocab_id": "VOC_D53_002"
-          }
-        ]
-      }
-    ],
-    "drill_examples": [
-      {
-        "text": "他去地方。",
-        "pinyin": "tā qù 地 方。",
-        "translation_en": "He goes place.",
-        "translation_ko": "그는 장소을/를 가다합니다."
-      },
-      {
-        "text": "我去過食物。",
-        "pinyin": "wǒ qù guò 食 物。",
-        "translation_en": "I have went food before.",
-        "translation_ko": "저는 음식을/를 가다한 적이 있습니다."
-      },
-      {
-        "text": "今天很快。",
-        "pinyin": "jīntiān hěn kuài。",
-        "translation_en": "Today is very fast.",
-        "translation_ko": "오늘은 매우 빠르다니다."
-      },
-      {
-        "text": "你覺得朋友怎麼樣？",
-        "pinyin": "nǐ juéde 朋 友 zěnme 樣？",
-        "translation_en": "What do you think of friend?",
-        "translation_ko": "친구은/는 어때요?"
-      }
-    ],
-    "correct_examples": [
-      {
-        "text": "他去地方。",
-        "pinyin": "tā qù 地 方。",
-        "translation_en": "He goes place."
-      },
-      {
-        "text": "我去過食物。",
-        "pinyin": "wǒ qù guò 食 物。",
-        "translation_en": "I have went food before."
-      },
-      {
-        "text": "今天很快。",
-        "pinyin": "jīntiān hěn kuài。",
-        "translation_en": "Today is very fast."
-      },
-      {
-        "text": "你覺得朋友怎麼樣？",
-        "pinyin": "nǐ juéde 朋 友 zěnme 樣？",
-        "translation_en": "What do you think of friend?"
-      }
-    ],
-    "incorrect_examples": [
-      {
-        "text": "*。方地去他",
-        "error": "Incorrect word order."
-      }
-    ],
-    "negative_examples": [
-      {
-        "text": "*錯的句子",
-        "error": "This word order is not Mandarin."
-      }
-    ],
-    "transformation_drills": [
-      "Change the object.",
-      "Change the subject.",
-      "Turn the statement into a question.",
-      "Add a time expression."
-    ],
-    "production_drills": [
-      "Use this pattern in: talking about free time.",
-      "Ask a follow-up question.",
-      "Give a reason using this pattern."
-    ],
-    "common_error_patterns": [
-      "Putting question marker in the wrong position.",
-      "Using English word order."
-    ],
-    "repair_feedback": {
-      "word_order": "Move action before object.",
-      "politeness": "Add 請 or 不好意思."
-    }
-  },
-  {
-    "id": "GR_D53_XIHUAN_VERB_OBJECT",
-    "pattern": "Subject + verb + object",
-    "structure": [
-      "subject",
-      "predicate",
-      "object"
-    ],
-    "explanation_en": "Hobbies: use this pattern to habit.",
-    "title": "XIHUAN VERB OBJECT",
-    "meaning": "A practical Taiwan Mandarin pattern for talking about free time.",
-    "when_to_use": [
-      "When handling talking about free time.",
-      "When speaking with locals in Taiwan.",
-      "When turning known words into spoken responses."
-    ],
-    "when_not_to_use": [
-      "Do not translate word-by-word from English.",
-      "Do not use with vocabulary you have not learned yet."
-    ],
-    "pragmatic_notes": "Taiwan Mandarin favors clear, polite, compact sentences.",
-    "word_order_notes": "Time expressions usually come before the subject in Mandarin.",
-    "english_contrast": "English word order differs; Mandarin places context first.",
-    "korean_contrast": "Korean learners may overuse sentence-final politeness markers.",
-    "example_ids": [
-      "SEN_D53_005",
-      "SEN_D53_006",
-      "SEN_D53_007",
-      "SEN_D53_008"
-    ],
-    "slots": [
-      {
-        "name": "object",
-        "role": "object",
-        "values": [
-          {
-            "text": "今天很快",
-            "pinyin": "jīntiān hěn kuài。",
-            "meaning_en": "Today is very fast.",
-            "meaning_ko": "오늘은 매우 빠르다니다.",
-            "vocab_id": "VOC_D53_015"
-          },
-          {
-            "text": "你覺得朋友怎麼樣",
-            "pinyin": "nǐ juéde 朋 友 zěnme 樣？",
-            "meaning_en": "What do you think of friend?",
-            "meaning_ko": "친구은/는 어때요?",
-            "vocab_id": "VOC_D53_002"
-          },
-          {
-            "text": "可以想嗎",
-            "pinyin": "kěyǐ xiǎng ma？",
-            "meaning_en": "Can I want?",
-            "meaning_ko": "원하다할 수 있어요?",
-            "vocab_id": "VOC_D53_012"
-          },
-          {
-            "text": "這個很多",
-            "pinyin": "zhège hěn duō。",
-            "meaning_en": "This is very many.",
-            "meaning_ko": "이것은 매우 많다니다.",
-            "vocab_id": "VOC_D53_015"
-          }
-        ]
-      }
-    ],
-    "drill_examples": [
-      {
-        "text": "今天很快。",
-        "pinyin": "jīntiān hěn kuài。",
-        "translation_en": "Today is very fast.",
-        "translation_ko": "오늘은 매우 빠르다니다."
-      },
-      {
-        "text": "你覺得朋友怎麼樣？",
-        "pinyin": "nǐ juéde 朋 友 zěnme 樣？",
-        "translation_en": "What do you think of friend?",
-        "translation_ko": "친구은/는 어때요?"
-      },
-      {
-        "text": "可以想嗎？",
-        "pinyin": "kěyǐ xiǎng ma？",
-        "translation_en": "Can I want?",
-        "translation_ko": "원하다할 수 있어요?"
-      },
-      {
-        "text": "這個很多。",
-        "pinyin": "zhège hěn duō。",
-        "translation_en": "This is very many.",
-        "translation_ko": "이것은 매우 많다니다."
-      }
-    ],
-    "correct_examples": [
-      {
-        "text": "今天很快。",
-        "pinyin": "jīntiān hěn kuài。",
-        "translation_en": "Today is very fast."
-      },
-      {
-        "text": "你覺得朋友怎麼樣？",
-        "pinyin": "nǐ juéde 朋 友 zěnme 樣？",
-        "translation_en": "What do you think of friend?"
-      },
-      {
-        "text": "可以想嗎？",
-        "pinyin": "kěyǐ xiǎng ma？",
-        "translation_en": "Can I want?"
-      },
-      {
-        "text": "這個很多。",
-        "pinyin": "zhège hěn duō。",
-        "translation_en": "This is very many."
-      }
-    ],
-    "incorrect_examples": [
-      {
-        "text": "*。快很天今",
-        "error": "Incorrect word order."
-      }
-    ],
-    "negative_examples": [
-      {
-        "text": "*錯的句子",
-        "error": "This word order is not Mandarin."
-      }
-    ],
-    "transformation_drills": [
-      "Change the object.",
-      "Change the subject.",
-      "Turn the statement into a question.",
-      "Add a time expression."
-    ],
-    "production_drills": [
-      "Use this pattern in: talking about free time.",
-      "Ask a follow-up question.",
-      "Give a reason using this pattern."
-    ],
-    "common_error_patterns": [
-      "Putting question marker in the wrong position.",
-      "Using English word order."
-    ],
-    "repair_feedback": {
-      "word_order": "Move action before object.",
-      "politeness": "Add 請 or 不好意思."
-    }
-  },
-  {
     "id": "GR_D67_SUIRAN_KESHI",
     "pattern": "雖然 + clause，但是 + clause",
     "structure": [
@@ -21753,6 +21315,651 @@
             "meaning_en": "not allowed; cannot; no good",
             "meaning_ko": "안 된다; 허용되지 않는다",
             "vocab_id": "VOC_D65_008"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "GR_D53_CHANGCHANG",
+    "pattern": "常常 + Verb + Object",
+    "structure": [
+      "常常",
+      "Verb",
+      "Object"
+    ],
+    "explanation_en": "Use '常常' (chángcháng) to express that an action happens frequently or often. It is placed before the verb phrase.",
+    "title": "Expressing Frequency with 常常",
+    "meaning": "Often do something",
+    "when_to_use": [
+      "When talking about hobbies you do regularly",
+      "When describing routines or habits"
+    ],
+    "when_not_to_use": [
+      "For actions that happen only once or rarely",
+      "In negative sentences (use 不常 instead)"
+    ],
+    "pragmatic_notes": "In Taiwan, 常常 is commonly used in casual conversation about free time activities. It is neutral and polite.",
+    "word_order_notes": "常常 must come before the verb, not at the end of the sentence.",
+    "english_contrast": "In English, 'often' can be placed before or after the verb (e.g., 'I often play basketball' or 'I play basketball often'). In Chinese, 常常 always goes before the verb.",
+    "korean_contrast": "In Korean, '자주' (jaju) is similar and also placed before the verb, but Korean word order is SOV, while Chinese is SVO.",
+    "example_ids": [
+      "SEN_D53_001",
+      "SEN_D53_002",
+      "SEN_D53_003",
+      "SEN_D53_004"
+    ],
+    "correct_examples": [
+      {
+        "text": "我常常在週末打籃球。",
+        "pinyin": "Wǒ chángcháng zài zhōumò dǎ lánqiú.",
+        "translation_en": "I often play basketball on weekends."
+      },
+      {
+        "text": "他常常看小說，很少看漫畫。",
+        "pinyin": "Tā chángcháng kàn xiǎoshuō, hěn shǎo kàn mànhuà.",
+        "translation_en": "He often reads novels, but rarely reads comics."
+      },
+      {
+        "text": "我們有時候一起騎腳踏車去公園。",
+        "pinyin": "Wǒmen yǒu shíhou yīqǐ qí jiǎotàchē qù gōngyuán.",
+        "translation_en": "Sometimes we ride bicycles together to the park."
+      },
+      {
+        "text": "她常常聽廣播，也喜歡看演唱會。",
+        "pinyin": "Tā chángcháng tīng guǎngbò, yě xǐhuān kàn yǎnchànghuì.",
+        "translation_en": "She often listens to the radio and also likes to watch concerts."
+      },
+      {
+        "text": "我弟弟常常打電動，從來不看書。",
+        "pinyin": "Wǒ dìdi chángcháng dǎ diàndòng, cónglái bù kàn shū.",
+        "translation_en": "My younger brother often plays video games and never reads books."
+      },
+      {
+        "text": "放假的時候，我們常常去露營。",
+        "pinyin": "Fàngjià de shíhou, wǒmen chángcháng qù lùyíng.",
+        "translation_en": "During holidays, we often go camping."
+      },
+      {
+        "text": "她常常彈鋼琴，有時候也彈吉他。",
+        "pinyin": "Tā chángcháng tán gāngqín, yǒu shíhou yě tán jítā.",
+        "translation_en": "She often plays the piano, and sometimes also plays the guitar."
+      },
+      {
+        "text": "我爸爸常常釣魚，他覺得很好玩。",
+        "pinyin": "Wǒ bàba chángcháng diào yú, tā juéde hěn hǎowán.",
+        "translation_en": "My father often goes fishing; he thinks it's a lot of fun."
+      }
+    ],
+    "drill_examples": [
+      {
+        "text": "我常常在週末打籃球。",
+        "pinyin": "Wǒ chángcháng zài zhōumò dǎ lánqiú.",
+        "translation_en": "I often play basketball on weekends.",
+        "translation_ko": "저는 주말에 자주 농구를 합니다."
+      },
+      {
+        "text": "他常常看小說，很少看漫畫。",
+        "pinyin": "Tā chángcháng kàn xiǎoshuō, hěn shǎo kàn mànhuà.",
+        "translation_en": "He often reads novels, but rarely reads comics.",
+        "translation_ko": "그는 자주 소설을 읽고, 만화는 거의 보지 않습니다."
+      },
+      {
+        "text": "我們有時候一起騎腳踏車去公園。",
+        "pinyin": "Wǒmen yǒu shíhou yīqǐ qí jiǎotàchē qù gōngyuán.",
+        "translation_en": "Sometimes we ride bicycles together to the park.",
+        "translation_ko": "우리는 가끔 함께 자전거를 타고 공원에 갑니다."
+      },
+      {
+        "text": "她常常聽廣播，也喜歡看演唱會。",
+        "pinyin": "Tā chángcháng tīng guǎngbò, yě xǐhuān kàn yǎnchànghuì.",
+        "translation_en": "She often listens to the radio and also likes to watch concerts.",
+        "translation_ko": "그녀는 자주 라디오를 듣고, 콘서트 보는 것도 좋아합니다."
+      },
+      {
+        "text": "我弟弟常常打電動，從來不看書。",
+        "pinyin": "Wǒ dìdi chángcháng dǎ diàndòng, cónglái bù kàn shū.",
+        "translation_en": "My younger brother often plays video games and never reads books.",
+        "translation_ko": "제 남동생은 자주 게임을 하고, 책은 전혀 읽지 않습니다."
+      },
+      {
+        "text": "放假的時候，我們常常去露營。",
+        "pinyin": "Fàngjià de shíhou, wǒmen chángcháng qù lùyíng.",
+        "translation_en": "During holidays, we often go camping.",
+        "translation_ko": "휴가 때 우리는 자주 캠핑을 갑니다."
+      },
+      {
+        "text": "她常常彈鋼琴，有時候也彈吉他。",
+        "pinyin": "Tā chángcháng tán gāngqín, yǒu shíhou yě tán jítā.",
+        "translation_en": "She often plays the piano, and sometimes also plays the guitar.",
+        "translation_ko": "그녀는 자주 피아노를 치고, 가끔 기타도 칩니다."
+      },
+      {
+        "text": "我爸爸常常釣魚，他覺得很好玩。",
+        "pinyin": "Wǒ bàba chángcháng diào yú, tā juéde hěn hǎowán.",
+        "translation_en": "My father often goes fishing; he thinks it's a lot of fun.",
+        "translation_ko": "아버지는 자주 낚시를 가십니다. 아버지는 그것이 아주 재미있다고 생각하십니다."
+      }
+    ],
+    "negative_examples": [
+      {
+        "text": "我常常不運動。",
+        "error": "Incorrect: 常常 is not used with negatives. Use 不常 instead."
+      }
+    ],
+    "incorrect_examples": [
+      {
+        "text": "我打籃球常常。",
+        "error": "Incorrect: 常常 must come before the verb, not after the object."
+      }
+    ],
+    "transformation_drills": [
+      "Change '我打籃球' to '我常常打籃球' to add frequency.",
+      "Change '他看小說' to '他常常看小說'."
+    ],
+    "production_drills": [
+      "Say you often listen to music.",
+      "Say your friend often plays tennis."
+    ],
+    "common_error_patterns": [
+      "Placing 常常 after the verb or object",
+      "Using 常常 with negative verbs"
+    ],
+    "repair_feedback": {
+      "word_order": "Remember: 常常 goes before the verb, e.g., '我常常看小說'.",
+      "politeness": "This structure is neutral and polite in all contexts.",
+      "vocabulary": "Use 常常 for frequent actions; for rare actions, use 很少."
+    },
+    "slots": [
+      {
+        "name": "object",
+        "role": "object",
+        "values": [
+          {
+            "text": "休閒",
+            "pinyin": "xiū xián",
+            "meaning_en": "leisure",
+            "meaning_ko": "여가",
+            "vocab_id": "VOC_D53_001"
+          },
+          {
+            "text": "興趣",
+            "pinyin": "xìng qù",
+            "meaning_en": "hobby",
+            "meaning_ko": "취미",
+            "vocab_id": "VOC_D53_002"
+          },
+          {
+            "text": "打籃球",
+            "pinyin": "dǎ lán qiú",
+            "meaning_en": "play basketball",
+            "meaning_ko": "농구를 하다",
+            "vocab_id": "VOC_D53_003"
+          },
+          {
+            "text": "踢足球",
+            "pinyin": "tī zú qiú",
+            "meaning_en": "play soccer",
+            "meaning_ko": "축구를 하다",
+            "vocab_id": "VOC_D53_004"
+          },
+          {
+            "text": "打網球",
+            "pinyin": "dǎ wǎng qiú",
+            "meaning_en": "play tennis",
+            "meaning_ko": "테니스를 치다",
+            "vocab_id": "VOC_D53_005"
+          },
+          {
+            "text": "打羽毛球",
+            "pinyin": "dǎ yǔ máo qiú",
+            "meaning_en": "play badminton",
+            "meaning_ko": "배드민턴을 치다",
+            "vocab_id": "VOC_D53_006"
+          },
+          {
+            "text": "下棋",
+            "pinyin": "xià qí",
+            "meaning_en": "play chess",
+            "meaning_ko": "체스를 두다",
+            "vocab_id": "VOC_D53_007"
+          },
+          {
+            "text": "畫畫",
+            "pinyin": "huà huà",
+            "meaning_en": "draw/paint",
+            "meaning_ko": "그림을 그리다",
+            "vocab_id": "VOC_D53_008"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "GR_D53_YOU_SHIHOU",
+    "pattern": "有時候 + Verb + Object",
+    "structure": [
+      "有時候",
+      "Verb",
+      "Object"
+    ],
+    "explanation_en": "Use '有時候' (yǒu shíhou) to express that an action happens sometimes or occasionally. It is placed before the verb phrase.",
+    "title": "Expressing Occasional Actions with 有時候",
+    "meaning": "Sometimes do something",
+    "when_to_use": [
+      "When talking about hobbies you do occasionally",
+      "When describing activities that are not regular"
+    ],
+    "when_not_to_use": [
+      "For actions that are always true",
+      "For actions that never happen (use 從來不 instead)"
+    ],
+    "pragmatic_notes": "In Taiwan, 有時候 is very common in casual speech. It can also be used at the beginning of a sentence for emphasis.",
+    "word_order_notes": "有時候 can be placed at the beginning of the sentence or before the verb. Both are correct.",
+    "english_contrast": "In English, 'sometimes' can be placed at the beginning, middle, or end of a sentence. In Chinese, 有時候 is usually at the beginning or before the verb.",
+    "korean_contrast": "In Korean, '가끔' (gakkeum) is similar and can be placed at the beginning or before the verb, similar to Chinese.",
+    "example_ids": [
+      "SEN_D53_011",
+      "SEN_D53_012",
+      "SEN_D53_013",
+      "SEN_D53_014"
+    ],
+    "correct_examples": [
+      {
+        "text": "我週末有時候會去打籃球。",
+        "pinyin": "Wǒ zhōumò yǒu shíhou huì qù dǎ lánqiú.",
+        "translation_en": "I sometimes go play basketball on weekends."
+      },
+      {
+        "text": "他平時很少看小說，有時候會看漫畫。",
+        "pinyin": "Tā píngshí hěn shǎo kàn xiǎoshuō, yǒu shíhou huì kàn mànhuà.",
+        "translation_en": "He rarely reads novels on weekdays, but sometimes reads comics."
+      },
+      {
+        "text": "我們有時候會一起去爬山，很好玩。",
+        "pinyin": "Wǒmen yǒu shíhou huì yīqǐ qù páshān, hěn hǎowán.",
+        "translation_en": "We sometimes go hiking together; it's a lot of fun."
+      },
+      {
+        "text": "放假的時候，我常常在家種花，有時候也做手工。",
+        "pinyin": "Fàngjià de shíhou, wǒ chángcháng zài jiā zhòng huā, yǒu shíhou yě zuò shǒugōng.",
+        "translation_en": "During holidays, I often plant flowers at home, and sometimes I also do crafts."
+      },
+      {
+        "text": "你平時有什麼休閒興趣？我喜歡聽廣播和看展覽。",
+        "pinyin": "Nǐ píngshí yǒu shénme xiūxián xìngqù? Wǒ xǐhuān tīng guǎngbò hé kàn zhǎnlǎn.",
+        "translation_en": "What leisure interests do you usually have? I like listening to the radio and visiting exhibitions."
+      },
+      {
+        "text": "他從來不打電動，可是有時候會看球賽。",
+        "pinyin": "Tā cónglái bù dǎ diàndòng, kěshì yǒu shíhou huì kàn qiúsài.",
+        "translation_en": "He never plays video games, but sometimes he watches ball games."
+      },
+      {
+        "text": "我妹妹有時候會彈鋼琴，她最喜歡彈吉他了。",
+        "pinyin": "Wǒ mèimei yǒu shíhou huì tán gāngqín, tā zuì xǐhuān tán jítā le.",
+        "translation_en": "My younger sister sometimes plays the piano, but she likes playing the guitar the most."
+      },
+      {
+        "text": "我們要不要改天一起去釣魚？我最近有時候會去。",
+        "pinyin": "Wǒmen yào bù yào gǎitiān yīqǐ qù diàoyú? Wǒ zuìjìn yǒu shíhou huì qù.",
+        "translation_en": "Shall we go fishing together another day? I sometimes go recently."
+      }
+    ],
+    "drill_examples": [
+      {
+        "text": "我週末有時候會去打籃球。",
+        "pinyin": "Wǒ zhōumò yǒu shíhou huì qù dǎ lánqiú.",
+        "translation_en": "I sometimes go play basketball on weekends.",
+        "translation_ko": "저는 주말에 가끔 농구하러 갑니다."
+      },
+      {
+        "text": "他平時很少看小說，有時候會看漫畫。",
+        "pinyin": "Tā píngshí hěn shǎo kàn xiǎoshuō, yǒu shíhou huì kàn mànhuà.",
+        "translation_en": "He rarely reads novels on weekdays, but sometimes reads comics.",
+        "translation_ko": "그는 평소에 소설을 거의 읽지 않고, 가끔 만화를 봅니다."
+      },
+      {
+        "text": "我們有時候會一起去爬山，很好玩。",
+        "pinyin": "Wǒmen yǒu shíhou huì yīqǐ qù páshān, hěn hǎowán.",
+        "translation_en": "We sometimes go hiking together; it's a lot of fun.",
+        "translation_ko": "우리는 가끔 함께 등산하러 가는데, 아주 재미있습니다."
+      },
+      {
+        "text": "放假的時候，我常常在家種花，有時候也做手工。",
+        "pinyin": "Fàngjià de shíhou, wǒ chángcháng zài jiā zhòng huā, yǒu shíhou yě zuò shǒugōng.",
+        "translation_en": "During holidays, I often plant flowers at home, and sometimes I also do crafts.",
+        "translation_ko": "휴가 때 저는 집에서 자주 꽃을 심고, 가끔은 수공예도 합니다."
+      },
+      {
+        "text": "你平時有什麼休閒興趣？我喜歡聽廣播和看展覽。",
+        "pinyin": "Nǐ píngshí yǒu shénme xiūxián xìngqù? Wǒ xǐhuān tīng guǎngbò hé kàn zhǎnlǎn.",
+        "translation_en": "What leisure interests do you usually have? I like listening to the radio and visiting exhibitions.",
+        "translation_ko": "평소에 어떤 취미가 있으세요? 저는 라디오 듣기와 전시회 보는 것을 좋아합니다."
+      },
+      {
+        "text": "他從來不打電動，可是有時候會看球賽。",
+        "pinyin": "Tā cónglái bù dǎ diàndòng, kěshì yǒu shíhou huì kàn qiúsài.",
+        "translation_en": "He never plays video games, but sometimes he watches ball games.",
+        "translation_ko": "그는 게임을 전혀 하지 않지만, 가끔은 스포츠 경기를 봅니다."
+      },
+      {
+        "text": "我妹妹有時候會彈鋼琴，她最喜歡彈吉他了。",
+        "pinyin": "Wǒ mèimei yǒu shíhou huì tán gāngqín, tā zuì xǐhuān tán jítā le.",
+        "translation_en": "My younger sister sometimes plays the piano, but she likes playing the guitar the most.",
+        "translation_ko": "제 여동생은 가끔 피아노를 치지만, 기타 치는 것을 가장 좋아합니다."
+      },
+      {
+        "text": "我們要不要改天一起去釣魚？我最近有時候會去。",
+        "pinyin": "Wǒmen yào bù yào gǎitiān yīqǐ qù diàoyú? Wǒ zuìjìn yǒu shíhou huì qù.",
+        "translation_en": "Shall we go fishing together another day? I sometimes go recently.",
+        "translation_ko": "우리 다음에 같이 낚시하러 갈래요? 저는 요즘 가끔 갑니다."
+      }
+    ],
+    "negative_examples": [
+      {
+        "text": "我沒有有時候看電影。",
+        "error": "Incorrect: 有時候 is not used with 沒有. Use 不常 or 很少 instead."
+      }
+    ],
+    "incorrect_examples": [
+      {
+        "text": "我看電影有時候。",
+        "error": "Incorrect: 有時候 should come before the verb or at the beginning of the sentence."
+      }
+    ],
+    "transformation_drills": [
+      "Change '我爬山' to '我有时候爬山' to add occasional frequency.",
+      "Change '他聽廣播' to '他有时候聽廣播'."
+    ],
+    "production_drills": [
+      "Say you sometimes play chess.",
+      "Say your friend sometimes goes camping."
+    ],
+    "common_error_patterns": [
+      "Placing 有時候 after the verb or object",
+      "Using 有時候 in negative sentences"
+    ],
+    "repair_feedback": {
+      "word_order": "Place 有時候 at the beginning or before the verb, e.g., '有時候我爬山' or '我有时候爬山'.",
+      "politeness": "This structure is neutral and polite.",
+      "vocabulary": "Use 有時候 for occasional actions; for frequent actions, use 常常."
+    },
+    "slots": [
+      {
+        "name": "object",
+        "role": "object",
+        "values": [
+          {
+            "text": "休閒",
+            "pinyin": "xiū xián",
+            "meaning_en": "leisure",
+            "meaning_ko": "여가",
+            "vocab_id": "VOC_D53_001"
+          },
+          {
+            "text": "興趣",
+            "pinyin": "xìng qù",
+            "meaning_en": "hobby",
+            "meaning_ko": "취미",
+            "vocab_id": "VOC_D53_002"
+          },
+          {
+            "text": "打籃球",
+            "pinyin": "dǎ lán qiú",
+            "meaning_en": "play basketball",
+            "meaning_ko": "농구를 하다",
+            "vocab_id": "VOC_D53_003"
+          },
+          {
+            "text": "踢足球",
+            "pinyin": "tī zú qiú",
+            "meaning_en": "play soccer",
+            "meaning_ko": "축구를 하다",
+            "vocab_id": "VOC_D53_004"
+          },
+          {
+            "text": "打網球",
+            "pinyin": "dǎ wǎng qiú",
+            "meaning_en": "play tennis",
+            "meaning_ko": "테니스를 치다",
+            "vocab_id": "VOC_D53_005"
+          },
+          {
+            "text": "打羽毛球",
+            "pinyin": "dǎ yǔ máo qiú",
+            "meaning_en": "play badminton",
+            "meaning_ko": "배드민턴을 치다",
+            "vocab_id": "VOC_D53_006"
+          },
+          {
+            "text": "下棋",
+            "pinyin": "xià qí",
+            "meaning_en": "play chess",
+            "meaning_ko": "체스를 두다",
+            "vocab_id": "VOC_D53_007"
+          },
+          {
+            "text": "畫畫",
+            "pinyin": "huà huà",
+            "meaning_en": "draw/paint",
+            "meaning_ko": "그림을 그리다",
+            "vocab_id": "VOC_D53_008"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "GR_D53_XIHUAN_VERB_OBJECT",
+    "pattern": "喜歡 + Verb + Object",
+    "structure": [
+      "喜歡",
+      "Verb",
+      "Object"
+    ],
+    "explanation_en": "Use '喜歡' (xǐhuān) to express liking or enjoying an activity. It is followed directly by a verb phrase.",
+    "title": "Expressing Hobbies with 喜歡",
+    "meaning": "Like to do something",
+    "when_to_use": [
+      "When talking about hobbies or activities you enjoy",
+      "When asking about someone's interests"
+    ],
+    "when_not_to_use": [
+      "For actions you dislike (use 不喜歡 instead)",
+      "For actions you do out of necessity (use 需要 instead)"
+    ],
+    "pragmatic_notes": "In Taiwan, 喜歡 is very common for discussing hobbies. It can be used with both verbs and nouns (e.g., 喜歡看小說, 喜歡咖啡).",
+    "word_order_notes": "喜歡 must be followed by a verb or noun. Do not place a subject between 喜歡 and the verb.",
+    "english_contrast": "In English, 'like' can be followed by a gerund or infinitive (e.g., 'I like reading' or 'I like to read'). In Chinese, 喜歡 is always followed by a verb without any change.",
+    "korean_contrast": "In Korean, '좋아하다' (joahada) is similar and is followed by a noun with the object particle, but Chinese uses a verb directly.",
+    "example_ids": [
+      "SEN_D53_021",
+      "SEN_D53_022",
+      "SEN_D53_023",
+      "SEN_D53_024"
+    ],
+    "correct_examples": [
+      {
+        "text": "我喜歡打籃球，也喜歡踢足球。",
+        "pinyin": "Wǒ xǐhuān dǎ lánqiú, yě xǐhuān tī zúqiú.",
+        "translation_en": "I like playing basketball and also like playing soccer."
+      },
+      {
+        "text": "你週末常常做什麼休閒活動？",
+        "pinyin": "Nǐ zhōumò chángcháng zuò shénme xiūxián huódòng?",
+        "translation_en": "What leisure activities do you often do on weekends?"
+      },
+      {
+        "text": "他喜歡下棋，可是我不會。",
+        "pinyin": "Tā xǐhuān xià qí, kěshì wǒ bù huì.",
+        "translation_en": "He likes playing chess, but I don't know how."
+      },
+      {
+        "text": "我們要不要一起去爬山？",
+        "pinyin": "Wǒmen yào bù yào yīqǐ qù pá shān?",
+        "translation_en": "Do you want to go hiking together?"
+      },
+      {
+        "text": "她喜歡看小說，有時候也看漫畫。",
+        "pinyin": "Tā xǐhuān kàn xiǎoshuō, yǒu shíhou yě kàn mànhuà.",
+        "translation_en": "She likes reading novels, and sometimes also reads comics."
+      },
+      {
+        "text": "我很少打電動，因為太忙了。",
+        "pinyin": "Wǒ hěn shǎo dǎ diàndòng, yīnwèi tài máng le.",
+        "translation_en": "I rarely play video games because I'm too busy."
+      },
+      {
+        "text": "你喜歡聽廣播還是看演唱會？",
+        "pinyin": "Nǐ xǐhuān tīng guǎngbò háishì kàn yǎnchànghuì?",
+        "translation_en": "Do you like listening to the radio or going to concerts?"
+      },
+      {
+        "text": "他從來不運動，只喜歡看球賽。",
+        "pinyin": "Tā cónglái bù yùndòng, zhǐ xǐhuān kàn qiúsài.",
+        "translation_en": "He never exercises; he only likes watching ball games."
+      }
+    ],
+    "drill_examples": [
+      {
+        "text": "我喜歡打籃球，也喜歡踢足球。",
+        "pinyin": "Wǒ xǐhuān dǎ lánqiú, yě xǐhuān tī zúqiú.",
+        "translation_en": "I like playing basketball and also like playing soccer.",
+        "translation_ko": "저는 농구하는 것을 좋아하고, 축구하는 것도 좋아합니다."
+      },
+      {
+        "text": "你週末常常做什麼休閒活動？",
+        "pinyin": "Nǐ zhōumò chángcháng zuò shénme xiūxián huódòng?",
+        "translation_en": "What leisure activities do you often do on weekends?",
+        "translation_ko": "주말에 자주 어떤 여가 활동을 하시나요?"
+      },
+      {
+        "text": "他喜歡下棋，可是我不會。",
+        "pinyin": "Tā xǐhuān xià qí, kěshì wǒ bù huì.",
+        "translation_en": "He likes playing chess, but I don't know how.",
+        "translation_ko": "그는 체스 두는 것을 좋아하지만, 저는 할 줄 모릅니다."
+      },
+      {
+        "text": "我們要不要一起去爬山？",
+        "pinyin": "Wǒmen yào bù yào yīqǐ qù pá shān?",
+        "translation_en": "Do you want to go hiking together?",
+        "translation_ko": "우리 같이 등산하러 갈래요?"
+      },
+      {
+        "text": "她喜歡看小說，有時候也看漫畫。",
+        "pinyin": "Tā xǐhuān kàn xiǎoshuō, yǒu shíhou yě kàn mànhuà.",
+        "translation_en": "She likes reading novels, and sometimes also reads comics.",
+        "translation_ko": "그녀는 소설 읽는 것을 좋아하고, 가끔 만화도 봅니다."
+      },
+      {
+        "text": "我很少打電動，因為太忙了。",
+        "pinyin": "Wǒ hěn shǎo dǎ diàndòng, yīnwèi tài máng le.",
+        "translation_en": "I rarely play video games because I'm too busy.",
+        "translation_ko": "저는 게임을 거의 하지 않는데, 너무 바쁘기 때문입니다."
+      },
+      {
+        "text": "你喜歡聽廣播還是看演唱會？",
+        "pinyin": "Nǐ xǐhuān tīng guǎngbò háishì kàn yǎnchànghuì?",
+        "translation_en": "Do you like listening to the radio or going to concerts?",
+        "translation_ko": "라디오 듣는 것을 좋아하세요, 아니면 콘서트 보는 것을 좋아하세요?"
+      },
+      {
+        "text": "他從來不運動，只喜歡看球賽。",
+        "pinyin": "Tā cónglái bù yùndòng, zhǐ xǐhuān kàn qiúsài.",
+        "translation_en": "He never exercises; he only likes watching ball games.",
+        "translation_ko": "그는 운동을 전혀 하지 않고, 경기 보는 것만 좋아합니다."
+      }
+    ],
+    "negative_examples": [
+      {
+        "text": "我喜歡不運動。",
+        "error": "Incorrect: 喜歡 cannot be negated with 不 after it. Use 不喜歡 instead."
+      }
+    ],
+    "incorrect_examples": [
+      {
+        "text": "我喜歡打籃球常常。",
+        "error": "Incorrect: 喜歡 is followed by the verb phrase; frequency words like 常常 go before 喜歡 or after the verb."
+      }
+    ],
+    "transformation_drills": [
+      "Change '我打籃球' to '我喜歡打籃球' to express enjoyment.",
+      "Change '他看小說' to '他喜歡看小說'."
+    ],
+    "production_drills": [
+      "Say you like to play tennis.",
+      "Say your friend likes to watch baseball games."
+    ],
+    "common_error_patterns": [
+      "Placing frequency words between 喜歡 and the verb",
+      "Using 喜歡 with negative verbs incorrectly"
+    ],
+    "repair_feedback": {
+      "word_order": "Place 喜歡 directly before the verb, e.g., '我喜歡打籃球'.",
+      "politeness": "This structure is neutral and polite for discussing interests.",
+      "vocabulary": "Use 喜歡 for enjoyment; for necessity, use 需要."
+    },
+    "slots": [
+      {
+        "name": "object",
+        "role": "object",
+        "values": [
+          {
+            "text": "休閒",
+            "pinyin": "xiū xián",
+            "meaning_en": "leisure",
+            "meaning_ko": "여가",
+            "vocab_id": "VOC_D53_001"
+          },
+          {
+            "text": "興趣",
+            "pinyin": "xìng qù",
+            "meaning_en": "hobby",
+            "meaning_ko": "취미",
+            "vocab_id": "VOC_D53_002"
+          },
+          {
+            "text": "打籃球",
+            "pinyin": "dǎ lán qiú",
+            "meaning_en": "play basketball",
+            "meaning_ko": "농구를 하다",
+            "vocab_id": "VOC_D53_003"
+          },
+          {
+            "text": "踢足球",
+            "pinyin": "tī zú qiú",
+            "meaning_en": "play soccer",
+            "meaning_ko": "축구를 하다",
+            "vocab_id": "VOC_D53_004"
+          },
+          {
+            "text": "打網球",
+            "pinyin": "dǎ wǎng qiú",
+            "meaning_en": "play tennis",
+            "meaning_ko": "테니스를 치다",
+            "vocab_id": "VOC_D53_005"
+          },
+          {
+            "text": "打羽毛球",
+            "pinyin": "dǎ yǔ máo qiú",
+            "meaning_en": "play badminton",
+            "meaning_ko": "배드민턴을 치다",
+            "vocab_id": "VOC_D53_006"
+          },
+          {
+            "text": "下棋",
+            "pinyin": "xià qí",
+            "meaning_en": "play chess",
+            "meaning_ko": "체스를 두다",
+            "vocab_id": "VOC_D53_007"
+          },
+          {
+            "text": "畫畫",
+            "pinyin": "huà huà",
+            "meaning_en": "draw/paint",
+            "meaning_ko": "그림을 그리다",
+            "vocab_id": "VOC_D53_008"
           }
         ]
       }

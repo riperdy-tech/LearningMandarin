@@ -1,383 +1,5 @@
 [
   {
-    "id": "DLG_D53_01",
-    "lesson_id": "LESSON_D53",
-    "scenario": "weekend_hobby",
-    "speaker_roles": [
-      "customer",
-      "clerk"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "turns": [
-      {
-        "id": "DLG_D53_01_T1",
-        "speaker": "customer",
-        "text": "請問去可以嗎？",
-        "pinyin": "qǐng wèn qù kěyǐ ma？",
-        "pinyin_numeric": "qing3 wen4 qu4 keyi3 ma0？",
-        "translation_en": "Excuse me, can I to go?",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D53_009",
-          "VOC_D53_012",
-          "VOC_D53_013"
-        ],
-        "audio_id": "AUD_DLG_D53_01_T1"
-      },
-      {
-        "id": "DLG_D53_01_T2",
-        "speaker": "clerk",
-        "text": "可以，所以沒問題。",
-        "pinyin": "kěyǐ， suǒyǐ méi wèntí。",
-        "pinyin_numeric": "keyi3， suo3 yi3 mei2 wen4 ti2。",
-        "translation_en": "Sure, so is no problem.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D53_012",
-          "VOC_D53_025"
-        ],
-        "audio_id": "AUD_DLG_D53_01_T2"
-      },
-      {
-        "id": "DLG_D53_01_T3",
-        "speaker": "customer",
-        "text": "那我要想。",
-        "pinyin": "那 wǒ yào xiǎng。",
-        "pinyin_numeric": "那 wo3 yao4 xiang3。",
-        "translation_en": "Then I'd like to want; to think.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D53_001",
-          "VOC_D53_010",
-          "VOC_D53_011"
-        ],
-        "audio_id": "AUD_DLG_D53_01_T3"
-      },
-      {
-        "id": "DLG_D53_01_T4",
-        "speaker": "clerk",
-        "text": "好的，需要因為嗎？",
-        "pinyin": "hǎo de， xūyào yīnwèi ma？",
-        "pinyin_numeric": "hao3 de0， xuyao4 yin1 wei4 ma0？",
-        "translation_en": "Ok, do you need because?",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D53_016",
-          "VOC_D53_027",
-          "VOC_D53_024",
-          "VOC_D53_013"
-        ],
-        "audio_id": "AUD_DLG_D53_01_T4"
-      },
-      {
-        "id": "DLG_D53_01_T5",
-        "speaker": "customer",
-        "text": "不用，謝謝。",
-        "pinyin": "bù yòng， xièxie。",
-        "pinyin_numeric": "bu4 yong4， xie4 xie0。",
-        "translation_en": "No need, thank you.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D53_014"
-        ],
-        "audio_id": "AUD_DLG_D53_01_T5"
-      },
-      {
-        "id": "DLG_D53_01_T6",
-        "speaker": "clerk",
-        "text": "好，馬上來。",
-        "pinyin": "hǎo， 馬 shàng lái。",
-        "pinyin_numeric": "hao3， 馬 shang4 lai2。",
-        "translation_en": "OK, coming right up.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [],
-        "audio_id": "AUD_DLG_D53_01_T6"
-      }
-    ],
-    "audio_ids": [
-      "AUD_DLG_D53_01_T1",
-      "AUD_DLG_D53_01_T2",
-      "AUD_DLG_D53_01_T3",
-      "AUD_DLG_D53_01_T4",
-      "AUD_DLG_D53_01_T5",
-      "AUD_DLG_D53_01_T6"
-    ],
-    "comprehension_questions": [
-      {
-        "id": "DLG_D53_01_Q1",
-        "question_en": "What does the customer ask for?",
-        "answer_en": "Something related to weekend hobby."
-      },
-      {
-        "id": "DLG_D53_01_Q2",
-        "question_en": "How does the clerk respond?",
-        "answer_en": "Politely and helpfully."
-      }
-    ],
-    "speaking_shadowing_prompts": [
-      "Shadow each turn at natural speed.",
-      "Repeat without looking at the text."
-    ],
-    "free_response_branching_prompts": [
-      "Replace one word and continue.",
-      "Answer with your own real information."
-    ]
-  },
-  {
-    "id": "DLG_D53_02",
-    "lesson_id": "LESSON_D53",
-    "scenario": "sports",
-    "speaker_roles": [
-      "friend_a",
-      "friend_b"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "turns": [
-      {
-        "id": "DLG_D53_02_T1",
-        "speaker": "friend_a",
-        "text": "請問我們可以嗎？",
-        "pinyin": "qǐng wèn wǒmen kěyǐ ma？",
-        "pinyin_numeric": "qing3 wen4 women3 keyi3 ma0？",
-        "translation_en": "Excuse me, can I we; us?",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D53_005",
-          "VOC_D53_012",
-          "VOC_D53_013"
-        ],
-        "audio_id": "AUD_DLG_D53_02_T1"
-      },
-      {
-        "id": "DLG_D53_02_T2",
-        "speaker": "friend_b",
-        "text": "可以，的沒問題。",
-        "pinyin": "kěyǐ， de méi wèntí。",
-        "pinyin_numeric": "keyi3， de0 mei2 wen4 ti2。",
-        "translation_en": "Sure, possessive particle is no problem.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D53_012",
-          "VOC_D53_016"
-        ],
-        "audio_id": "AUD_DLG_D53_02_T2"
-      },
-      {
-        "id": "DLG_D53_02_T3",
-        "speaker": "friend_a",
-        "text": "那我要喜歡。",
-        "pinyin": "那 wǒ yào xǐhuan。",
-        "pinyin_numeric": "那 wo3 yao4 xihuan3。",
-        "translation_en": "Then I'd like to like.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D53_001",
-          "VOC_D53_010",
-          "VOC_D53_029"
-        ],
-        "audio_id": "AUD_DLG_D53_02_T3"
-      },
-      {
-        "id": "DLG_D53_02_T4",
-        "speaker": "friend_b",
-        "text": "好的，需要是嗎？",
-        "pinyin": "hǎo de， xūyào shì ma？",
-        "pinyin_numeric": "hao3 de0， xuyao4 shi4 ma0？",
-        "translation_en": "Ok, do you need to be?",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D53_016",
-          "VOC_D53_027",
-          "VOC_D53_006",
-          "VOC_D53_013"
-        ],
-        "audio_id": "AUD_DLG_D53_02_T4"
-      },
-      {
-        "id": "DLG_D53_02_T5",
-        "speaker": "friend_a",
-        "text": "不用，謝謝。",
-        "pinyin": "bù yòng， xièxie。",
-        "pinyin_numeric": "bu4 yong4， xie4 xie0。",
-        "translation_en": "No need, thank you.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D53_014"
-        ],
-        "audio_id": "AUD_DLG_D53_02_T5"
-      },
-      {
-        "id": "DLG_D53_02_T6",
-        "speaker": "friend_b",
-        "text": "好，馬上來。",
-        "pinyin": "hǎo， 馬 shàng lái。",
-        "pinyin_numeric": "hao3， 馬 shang4 lai2。",
-        "translation_en": "OK, coming right up.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [],
-        "audio_id": "AUD_DLG_D53_02_T6"
-      }
-    ],
-    "audio_ids": [
-      "AUD_DLG_D53_02_T1",
-      "AUD_DLG_D53_02_T2",
-      "AUD_DLG_D53_02_T3",
-      "AUD_DLG_D53_02_T4",
-      "AUD_DLG_D53_02_T5",
-      "AUD_DLG_D53_02_T6"
-    ],
-    "comprehension_questions": [
-      {
-        "id": "DLG_D53_02_Q1",
-        "question_en": "What does the friend_a ask for?",
-        "answer_en": "Something related to sports."
-      },
-      {
-        "id": "DLG_D53_02_Q2",
-        "question_en": "How does the friend_b respond?",
-        "answer_en": "Politely and helpfully."
-      }
-    ],
-    "speaking_shadowing_prompts": [
-      "Shadow each turn at natural speed.",
-      "Repeat without looking at the text."
-    ],
-    "free_response_branching_prompts": [
-      "Replace one word and continue.",
-      "Answer with your own real information."
-    ]
-  },
-  {
-    "id": "DLG_D53_03",
-    "lesson_id": "LESSON_D53",
-    "scenario": "watch_movie",
-    "speaker_roles": [
-      "passenger",
-      "staff"
-    ],
-    "grammar_ids": [
-      "GR_D53_CHANGCHANG"
-    ],
-    "turns": [
-      {
-        "id": "DLG_D53_03_T1",
-        "speaker": "passenger",
-        "text": "請問說可以嗎？",
-        "pinyin": "qǐng wèn shuō kěyǐ ma？",
-        "pinyin_numeric": "qing3 wen4 shuo1 keyi3 ma0？",
-        "translation_en": "Excuse me, can I to speak; say?",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D53_030",
-          "VOC_D53_012",
-          "VOC_D53_013"
-        ],
-        "audio_id": "AUD_DLG_D53_03_T1"
-      },
-      {
-        "id": "DLG_D53_03_T2",
-        "speaker": "staff",
-        "text": "可以，會沒問題。",
-        "pinyin": "kěyǐ， huì méi wèntí。",
-        "pinyin_numeric": "keyi3， hui4 mei2 wen4 ti2。",
-        "translation_en": "Sure, will; can is no problem.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D53_012",
-          "VOC_D53_017"
-        ],
-        "audio_id": "AUD_DLG_D53_03_T2"
-      },
-      {
-        "id": "DLG_D53_03_T3",
-        "speaker": "passenger",
-        "text": "那我要都。",
-        "pinyin": "那 wǒ yào dōu。",
-        "pinyin_numeric": "那 wo3 yao4 dou1。",
-        "translation_en": "Then I'd like all; both.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D53_001",
-          "VOC_D53_010",
-          "VOC_D53_018"
-        ],
-        "audio_id": "AUD_DLG_D53_03_T3"
-      },
-      {
-        "id": "DLG_D53_03_T4",
-        "speaker": "staff",
-        "text": "好的，需要所以嗎？",
-        "pinyin": "hǎo de， xūyào suǒyǐ ma？",
-        "pinyin_numeric": "hao3 de0， xuyao4 suo3 yi3 ma0？",
-        "translation_en": "Ok, do you need so?",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D53_016",
-          "VOC_D53_027",
-          "VOC_D53_025",
-          "VOC_D53_013"
-        ],
-        "audio_id": "AUD_DLG_D53_03_T4"
-      },
-      {
-        "id": "DLG_D53_03_T5",
-        "speaker": "passenger",
-        "text": "不用，謝謝。",
-        "pinyin": "bù yòng， xièxie。",
-        "pinyin_numeric": "bu4 yong4， xie4 xie0。",
-        "translation_en": "No need, thank you.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [
-          "VOC_D53_014"
-        ],
-        "audio_id": "AUD_DLG_D53_03_T5"
-      },
-      {
-        "id": "DLG_D53_03_T6",
-        "speaker": "staff",
-        "text": "好，馬上來。",
-        "pinyin": "hǎo， 馬 shàng lái。",
-        "pinyin_numeric": "hao3， 馬 shang4 lai2。",
-        "translation_en": "OK, coming right up.",
-        "translation_ko": "대화 상황에 맞게 응답하세요.",
-        "token_ids": [],
-        "audio_id": "AUD_DLG_D53_03_T6"
-      }
-    ],
-    "audio_ids": [
-      "AUD_DLG_D53_03_T1",
-      "AUD_DLG_D53_03_T2",
-      "AUD_DLG_D53_03_T3",
-      "AUD_DLG_D53_03_T4",
-      "AUD_DLG_D53_03_T5",
-      "AUD_DLG_D53_03_T6"
-    ],
-    "comprehension_questions": [
-      {
-        "id": "DLG_D53_03_Q1",
-        "question_en": "What does the passenger ask for?",
-        "answer_en": "Something related to watch movie."
-      },
-      {
-        "id": "DLG_D53_03_Q2",
-        "question_en": "How does the staff respond?",
-        "answer_en": "Politely and helpfully."
-      }
-    ],
-    "speaking_shadowing_prompts": [
-      "Shadow each turn at natural speed.",
-      "Repeat without looking at the text."
-    ],
-    "free_response_branching_prompts": [
-      "Replace one word and continue.",
-      "Answer with your own real information."
-    ]
-  },
-  {
     "id": "DLG_D67_01",
     "lesson_id": "LESSON_D67",
     "scenario": "expensive_but_good",
@@ -18358,5 +17980,461 @@
     ],
     "shadowing_prompt": "Repeat each sentence after the speaker, focusing on the tone of necessity and obligation at work.",
     "free_response_prompt": "You are a team leader. Tell your colleague what they must and should do for tomorrow's meeting. Use '必須', '應該', and '最好'."
+  },
+  {
+    "id": "DLG_D53_01",
+    "lesson_id": "LESSON_D53",
+    "title": "週末的興趣",
+    "scenario": "talking about free time",
+    "turns": [
+      {
+        "id": "DLG_D53_01_T1",
+        "speaker": "A",
+        "text": "你週末常常做什麼休閒活動？",
+        "pinyin": "Nǐ zhōumò chángcháng zuò shénme xiūxián huódòng?",
+        "pinyin_numeric": "Ni3 zhou1mo4 chang2chang2 zuo4 shen2me xiu1xian2 huo2dong4?",
+        "translation_en": "What leisure activities do you often do on weekends?",
+        "translation_ko": "주말에 주로 어떤 여가 활동을 하세요?",
+        "token_ids": [
+          "VOC_M1_003",
+          "VOC_D36_013",
+          "VOC_D53_025",
+          "VOC_D49_003",
+          "VOC_D53_001"
+        ],
+        "audio_id": "AUD_DLG_D53_01_T1"
+      },
+      {
+        "id": "DLG_D53_01_T2",
+        "speaker": "B",
+        "text": "我喜歡爬山和騎腳踏車，有時候也會看小說。",
+        "pinyin": "Wǒ xǐhuān páshān hé qí jiǎotàchē, yǒu shíhou yě huì kàn xiǎoshuō.",
+        "pinyin_numeric": "Wo3 xi3huan1 pa2shan1 he2 qi2 jiao3ta4che1, you3 shi2hou ye3 hui4 kan4 xiao3shuo1.",
+        "translation_en": "I like hiking and cycling, and sometimes I also read novels.",
+        "translation_ko": "저는 등산과 자전거 타기를 좋아하고, 가끔 소설도 봐요.",
+        "token_ids": [
+          "VOC_M1_002",
+          "VOC_M1_068",
+          "VOC_D53_012",
+          "VOC_D53_015",
+          "VOC_D53_026",
+          "VOC_M1_084",
+          "VOC_M1_194",
+          "VOC_D53_017"
+        ],
+        "audio_id": "AUD_DLG_D53_01_T2"
+      },
+      {
+        "id": "DLG_D53_01_T3",
+        "speaker": "A",
+        "text": "聽起來很好玩！你常常去哪裡爬山？",
+        "pinyin": "Tīng qǐlái hěn hǎowán! Nǐ chángcháng qù nǎlǐ páshān?",
+        "pinyin_numeric": "Ting1 qi3lai2 hen3 hao3wan2! Ni3 chang2chang2 qu4 na3li3 pa2shan1?",
+        "translation_en": "Sounds fun! Where do you often go hiking?",
+        "translation_ko": "재미있어 보이네요! 주로 어디로 등산 가세요?",
+        "token_ids": [
+          "VOC_D42_033",
+          "VOC_M1_096",
+          "VOC_D48_034",
+          "VOC_M1_003",
+          "VOC_D53_025",
+          "VOC_M1_156",
+          "VOC_M1_073",
+          "VOC_D53_012"
+        ],
+        "audio_id": "AUD_DLG_D53_01_T3"
+      },
+      {
+        "id": "DLG_D53_01_T4",
+        "speaker": "B",
+        "text": "我最近很喜歡去台北附近的山，風景很漂亮。",
+        "pinyin": "Wǒ zuìjìn hěn xǐhuān qù Táiběi fùjìn de shān, fēngjǐng hěn piàoliang.",
+        "pinyin_numeric": "Wo3 zui4jin4 hen3 xi3huan1 qu4 Tai2bei3 fu4jin4 de shan1, feng1jing3 hen3 piao4liang.",
+        "translation_en": "Lately I really like going to the mountains near Taipei; the scenery is beautiful.",
+        "translation_ko": "요즘에는 타이베이 근처 산에 가는 걸 좋아해요. 경치가 아주 예뻐요.",
+        "token_ids": [
+          "VOC_M1_002",
+          "VOC_D37_027",
+          "VOC_M1_096",
+          "VOC_M1_068",
+          "VOC_M1_156",
+          "VOC_M1_197",
+          "VOC_D33_025",
+          "VOC_M1_023",
+          "VOC_D48_028",
+          "VOC_M1_096",
+          "VOC_M1_094"
+        ],
+        "audio_id": "AUD_DLG_D53_01_T4"
+      },
+      {
+        "id": "DLG_D53_01_T5",
+        "speaker": "A",
+        "text": "那下次可以一起去嗎？我也想試試看。",
+        "pinyin": "Nà xiàcì kěyǐ yīqǐ qù ma? Wǒ yě xiǎng shì shì kàn.",
+        "pinyin_numeric": "Na4 xia4ci4 ke3yi3 yi1qi3 qu4 ma? Wo3 ye3 xiang3 shi4 shi4 kan4.",
+        "translation_en": "Then can we go together next time? I also want to give it a try.",
+        "translation_ko": "그럼 다음에 같이 가도 될까요? 저도 한번 해보고 싶어요.",
+        "token_ids": [
+          "VOC_D37_025",
+          "VOC_M1_118",
+          "VOC_D37_003",
+          "VOC_M1_016",
+          "VOC_M1_002",
+          "VOC_M1_084",
+          "VOC_M1_050",
+          "VOC_M1_121",
+          "VOC_M1_121",
+          "VOC_M1_062"
+        ],
+        "audio_id": "AUD_DLG_D53_01_T5"
+      },
+      {
+        "id": "DLG_D53_01_T6",
+        "speaker": "B",
+        "text": "當然可以！我們可以約這個週末，你有空嗎？",
+        "pinyin": "Dāngrán kěyǐ! Wǒmen kěyǐ yuē zhège zhōumò, nǐ yǒu kòng ma?",
+        "pinyin_numeric": "Dang1ran2 ke3yi3! Wo3men ke3yi3 yue1 zhe4ge zhou1mo4, ni3 you3 kong4 ma?",
+        "translation_en": "Of course! We can plan for this weekend. Are you free?",
+        "translation_ko": "물론이죠! 이번 주말에 약속할 수 있어요. 시간 괜찮으세요?",
+        "token_ids": [
+          "VOC_D50_031",
+          "VOC_M1_118",
+          "VOC_M1_006",
+          "VOC_M1_118",
+          "VOC_D36_009",
+          "VOC_M1_041",
+          "VOC_D36_013",
+          "VOC_M1_003",
+          "VOC_D49_009"
+        ],
+        "audio_id": "AUD_DLG_D53_01_T6"
+      },
+      {
+        "id": "DLG_D53_01_T7",
+        "speaker": "A",
+        "text": "這個週末我有空，我們約好了！",
+        "pinyin": "Zhège zhōumò wǒ yǒu kòng, wǒmen yuē hǎo le!",
+        "pinyin_numeric": "Zhe4ge zhou1mo4 wo3 you3 kong4, wo3men yue1 hao3 le!",
+        "translation_en": "I'm free this weekend. It's settled!",
+        "translation_ko": "이번 주말에 시간 돼요. 약속 잡았네요!",
+        "token_ids": [
+          "VOC_M1_041",
+          "VOC_D36_013",
+          "VOC_M1_002",
+          "VOC_D36_010",
+          "VOC_M1_006",
+          "VOC_D37_030"
+        ],
+        "audio_id": "AUD_DLG_D53_01_T7"
+      }
+    ],
+    "comprehension_questions": [
+      {
+        "question_en": "What does B like to do on weekends?",
+        "question_ko": "B는 주말에 무엇을 좋아합니까?",
+        "options_en": [
+          "Hiking and cycling",
+          "Watching movies",
+          "Playing basketball"
+        ],
+        "options_ko": [
+          "등산과 자전거 타기",
+          "영화 보기",
+          "농구하기"
+        ],
+        "correct_index": 0
+      }
+    ],
+    "shadowing_prompt": "Repeat each sentence after the speaker, focusing on tone and rhythm.",
+    "free_response_prompt": "Tell about your weekend hobbies using words like 常常, 有時候, 喜歡."
+  },
+  {
+    "id": "DLG_D53_02",
+    "lesson_id": "LESSON_D53",
+    "title": "運動愛好",
+    "scenario": "talking about free time",
+    "turns": [
+      {
+        "id": "DLG_D53_02_T1",
+        "speaker": "A",
+        "text": "你平時喜歡做什麼運動？",
+        "pinyin": "Nǐ píngshí xǐhuān zuò shénme yùndòng?",
+        "pinyin_numeric": "Ni3 ping2shi2 xi3huan1 zuo4 shen2me yun4dong4?",
+        "translation_en": "What sports do you usually like to do?",
+        "translation_ko": "평소에 어떤 운동을 좋아하세요?",
+        "token_ids": [
+          "VOC_M1_003",
+          "VOC_D53_031",
+          "VOC_M1_068",
+          "VOC_D49_003",
+          "VOC_M1_190"
+        ],
+        "audio_id": "AUD_DLG_D53_02_T1"
+      },
+      {
+        "id": "DLG_D53_02_T2",
+        "speaker": "B",
+        "text": "我喜歡打籃球和踢足球，每個週末都會和朋友一起玩。",
+        "pinyin": "Wǒ xǐhuān dǎ lánqiú hé tī zúqiú, měi ge zhōumò dōu huì hé péngyou yīqǐ wán.",
+        "pinyin_numeric": "Wo3 xi3huan1 da3 lan2qiu2 he2 ti1 zu2qiu2, mei3 ge zhou1mo4 dou1 hui4 he2 peng2you yi1qi3 wan2.",
+        "translation_en": "I like playing basketball and soccer; every weekend I play with friends.",
+        "translation_ko": "저는 농구와 축구를 좋아해요. 매주 주말마다 친구들과 같이 해요.",
+        "token_ids": [
+          "VOC_M1_002",
+          "VOC_M1_068",
+          "VOC_D53_003",
+          "VOC_D53_004",
+          "VOC_M1_041",
+          "VOC_D36_013",
+          "VOC_M1_085",
+          "VOC_M1_194",
+          "VOC_M1_042",
+          "VOC_M1_183"
+        ],
+        "audio_id": "AUD_DLG_D53_02_T2"
+      },
+      {
+        "id": "DLG_D53_02_T3",
+        "speaker": "A",
+        "text": "好厲害！你打籃球多久了？",
+        "pinyin": "Hǎo lìhài! Nǐ dǎ lánqiú duō jiǔ le?",
+        "pinyin_numeric": "Hao3 li4hai4! Ni3 da3 lan2qiu2 duo1 jiu3 le?",
+        "translation_en": "Awesome! How long have you been playing basketball?",
+        "translation_ko": "대단하네요! 농구를 얼마나 하셨어요?",
+        "token_ids": [
+          "VOC_M1_088",
+          "VOC_M1_003",
+          "VOC_D53_003",
+          "VOC_M1_089"
+        ],
+        "audio_id": "AUD_DLG_D53_02_T3"
+      },
+      {
+        "id": "DLG_D53_02_T4",
+        "speaker": "B",
+        "text": "我從高中開始打籃球，已經好幾年了。",
+        "pinyin": "Wǒ cóng gāozhōng kāishǐ dǎ lánqiú, yǐjīng hǎo jǐ nián le.",
+        "pinyin_numeric": "Wo3 cong2 gao1zhong1 kai1shi3 da3 lan2qiu2, yi3jing1 hao3 ji3 nian2 le.",
+        "translation_en": "I started playing basketball in high school; it's been several years already.",
+        "translation_ko": "고등학교 때부터 농구를 시작해서 벌써 몇 년 됐어요.",
+        "token_ids": [
+          "VOC_M1_002",
+          "VOC_D33_023",
+          "VOC_D51_001",
+          "VOC_D36_032",
+          "VOC_D53_003",
+          "VOC_D50_028",
+          "VOC_M1_088",
+          "VOC_M1_112",
+          "VOC_M1_109"
+        ],
+        "audio_id": "AUD_DLG_D53_02_T4"
+      },
+      {
+        "id": "DLG_D53_02_T5",
+        "speaker": "A",
+        "text": "我也想學打籃球，你可以教我嗎？",
+        "pinyin": "Wǒ yě xiǎng xué dǎ lánqiú, nǐ kěyǐ jiāo wǒ ma?",
+        "pinyin_numeric": "Wo3 ye3 xiang3 xue2 da3 lan2qiu2, ni3 ke3yi3 jiao1 wo3 ma?",
+        "translation_en": "I also want to learn basketball; can you teach me?",
+        "translation_ko": "저도 농구를 배우고 싶은데, 가르쳐 주실 수 있나요?",
+        "token_ids": [
+          "VOC_M1_002",
+          "VOC_M1_084",
+          "VOC_M1_050",
+          "VOC_M1_066",
+          "VOC_D53_003",
+          "VOC_M1_003",
+          "VOC_M1_118",
+          "VOC_D50_014",
+          "VOC_M1_002",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D53_02_T5"
+      },
+      {
+        "id": "DLG_D53_02_T6",
+        "speaker": "B",
+        "text": "沒問題！這個週末我們可以一起去打球。",
+        "pinyin": "Méi wèntí! Zhège zhōumò wǒmen kěyǐ yīqǐ qù dǎ qiú.",
+        "pinyin_numeric": "Mei2 wen4ti2! Zhe4ge zhou1mo4 wo3men ke3yi3 yi1qi3 qu4 da3 qiu2.",
+        "translation_en": "No problem! We can go play together this weekend.",
+        "translation_ko": "문제없어요! 이번 주말에 같이 하러 가요.",
+        "token_ids": [
+          "VOC_D31_035",
+          "VOC_M1_041",
+          "VOC_D36_013",
+          "VOC_M1_006",
+          "VOC_M1_118",
+          "VOC_D37_003"
+        ],
+        "audio_id": "AUD_DLG_D53_02_T6"
+      }
+    ],
+    "comprehension_questions": [
+      {
+        "question_en": "What sports does B like?",
+        "question_ko": "B는 어떤 운동을 좋아합니까?",
+        "options_en": [
+          "Basketball and soccer",
+          "Tennis and badminton",
+          "Swimming and running"
+        ],
+        "options_ko": [
+          "농구와 축구",
+          "테니스와 배드민턴",
+          "수영과 달리기"
+        ],
+        "correct_index": 0
+      }
+    ],
+    "shadowing_prompt": "Repeat each sentence after the speaker, focusing on tone and rhythm.",
+    "free_response_prompt": "Tell about a sport you like and how often you play it."
+  },
+  {
+    "id": "DLG_D53_03",
+    "lesson_id": "LESSON_D53",
+    "title": "看電影",
+    "scenario": "talking about free time",
+    "turns": [
+      {
+        "id": "DLG_D53_03_T1",
+        "speaker": "A",
+        "text": "你放假的時候喜歡做什麼？",
+        "pinyin": "Nǐ fàngjià de shíhou xǐhuān zuò shénme?",
+        "pinyin_numeric": "Ni3 fang4jia4 de shi2hou xi3huan1 zuo4 shen2me?",
+        "translation_en": "What do you like to do during your holidays?",
+        "translation_ko": "휴가 때 무엇을 하기를 좋아하세요?",
+        "token_ids": [
+          "VOC_M1_003",
+          "VOC_D53_032",
+          "VOC_M1_023",
+          "VOC_M1_068",
+          "VOC_D49_003"
+        ],
+        "audio_id": "AUD_DLG_D53_03_T1"
+      },
+      {
+        "id": "DLG_D53_03_T2",
+        "speaker": "B",
+        "text": "我喜歡看電影，有時候也會看演唱會。",
+        "pinyin": "Wǒ xǐhuān kàn diànyǐng, yǒu shíhou yě huì kàn yǎnchànghuì.",
+        "pinyin_numeric": "Wo3 xi3huan1 kan4 dian4ying3, you3 shi2hou ye3 hui4 kan4 yan3chang4hui4.",
+        "translation_en": "I like watching movies, and sometimes I also go to concerts.",
+        "translation_ko": "저는 영화 보는 걸 좋아하고, 가끔 콘서트도 가요.",
+        "token_ids": [
+          "VOC_M1_002",
+          "VOC_M1_068",
+          "VOC_D37_006",
+          "VOC_D53_026",
+          "VOC_M1_084",
+          "VOC_M1_194",
+          "VOC_D53_020"
+        ],
+        "audio_id": "AUD_DLG_D53_03_T2"
+      },
+      {
+        "id": "DLG_D53_03_T3",
+        "speaker": "A",
+        "text": "你最近看了什麼好看的電影嗎？",
+        "pinyin": "Nǐ zuìjìn kàn le shénme hǎokàn de diànyǐng ma?",
+        "pinyin_numeric": "Ni3 zui4jin4 kan4 le shen2me hao3kan4 de dian4ying3 ma?",
+        "translation_en": "Have you watched any good movies recently?",
+        "translation_ko": "최근에 본 좋은 영화가 있나요?",
+        "token_ids": [
+          "VOC_M1_003",
+          "VOC_D37_027",
+          "VOC_M1_062",
+          "VOC_M1_071",
+          "VOC_M1_088",
+          "VOC_M1_062",
+          "VOC_M1_023",
+          "VOC_M1_070",
+          "VOC_M1_016"
+        ],
+        "audio_id": "AUD_DLG_D53_03_T3"
+      },
+      {
+        "id": "DLG_D53_03_T4",
+        "speaker": "B",
+        "text": "我上個禮拜看了一部很有意思的電影，推薦你也去看看。",
+        "pinyin": "Wǒ shàng ge lǐbài kàn le yī bù hěn yǒu yìsi de diànyǐng, tuījiàn nǐ yě qù kàn kàn.",
+        "pinyin_numeric": "Wo3 shang4 ge li3bai4 kan4 le yi1 bu4 hen3 you3 yi4si de dian4ying3, tui1jian4 ni3 ye3 qu4 kan4 kan4.",
+        "translation_en": "Last week I watched a very interesting movie; I recommend you go see it too.",
+        "translation_ko": "지난주에 아주 재미있는 영화를 봤어요. 추천하니까 한번 보세요.",
+        "token_ids": [
+          "VOC_M1_002",
+          "VOC_D46_002",
+          "VOC_M1_062",
+          "VOC_M1_009",
+          "VOC_M1_096",
+          "VOC_D47_032",
+          "VOC_M1_023",
+          "VOC_M1_070",
+          "VOC_D34_008",
+          "VOC_M1_003",
+          "VOC_M1_084",
+          "VOC_M1_156",
+          "VOC_M1_062",
+          "VOC_M1_062"
+        ],
+        "audio_id": "AUD_DLG_D53_03_T4"
+      },
+      {
+        "id": "DLG_D53_03_T5",
+        "speaker": "A",
+        "text": "好啊！我們可以約這個週末一起去看電影。",
+        "pinyin": "Hǎo a! Wǒmen kěyǐ yuē zhège zhōumò yīqǐ qù kàn diànyǐng.",
+        "pinyin_numeric": "Hao3 a! Wo3men ke3yi3 yue1 zhe4ge zhou1mo4 yi1qi3 qu4 kan4 dian4ying3.",
+        "translation_en": "Great! We can plan to go watch a movie together this weekend.",
+        "translation_ko": "좋아요! 이번 주말에 같이 영화 보러 가기로 해요.",
+        "token_ids": [
+          "VOC_D37_023",
+          "VOC_M1_006",
+          "VOC_M1_118",
+          "VOC_D36_009",
+          "VOC_M1_041",
+          "VOC_D36_013",
+          "VOC_D37_003",
+          "VOC_D37_006"
+        ],
+        "audio_id": "AUD_DLG_D53_03_T5"
+      },
+      {
+        "id": "DLG_D53_03_T6",
+        "speaker": "B",
+        "text": "沒問題，我們到時候見！",
+        "pinyin": "Méi wèntí, wǒmen dào shíhou jiàn!",
+        "pinyin_numeric": "Mei2 wen4ti2, wo3men dao4 shi2hou jian4!",
+        "translation_en": "No problem, see you then!",
+        "translation_ko": "문제없어요, 그때 봐요!",
+        "token_ids": [
+          "VOC_D31_035",
+          "VOC_M1_006",
+          "VOC_D33_024"
+        ],
+        "audio_id": "AUD_DLG_D53_03_T6"
+      }
+    ],
+    "comprehension_questions": [
+      {
+        "question_en": "What does B like to do during holidays?",
+        "question_ko": "B는 휴가 때 무엇을 좋아합니까?",
+        "options_en": [
+          "Watch movies and concerts",
+          "Play basketball",
+          "Go hiking"
+        ],
+        "options_ko": [
+          "영화와 콘서트 보기",
+          "농구하기",
+          "등산 가기"
+        ],
+        "correct_index": 0
+      }
+    ],
+    "shadowing_prompt": "Repeat each sentence after the speaker, focusing on tone and rhythm.",
+    "free_response_prompt": "Tell about a movie you watched recently and whether you liked it."
   }
 ]

@@ -1,1427 +1,5 @@
 [
   {
-    "id": "AUD_VOC_D53_001",
-    "kind": "vocab",
-    "ref_id": "VOC_D53_001",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_VOC_D53_002",
-    "kind": "vocab",
-    "ref_id": "VOC_D53_002",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_VOC_D53_003",
-    "kind": "vocab",
-    "ref_id": "VOC_D53_003",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_VOC_D53_004",
-    "kind": "vocab",
-    "ref_id": "VOC_D53_004",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_VOC_D53_005",
-    "kind": "vocab",
-    "ref_id": "VOC_D53_005",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_VOC_D53_006",
-    "kind": "vocab",
-    "ref_id": "VOC_D53_006",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_VOC_D53_007",
-    "kind": "vocab",
-    "ref_id": "VOC_D53_007",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_VOC_D53_008",
-    "kind": "vocab",
-    "ref_id": "VOC_D53_008",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_VOC_D53_009",
-    "kind": "vocab",
-    "ref_id": "VOC_D53_009",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_VOC_D53_010",
-    "kind": "vocab",
-    "ref_id": "VOC_D53_010",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_VOC_D53_011",
-    "kind": "vocab",
-    "ref_id": "VOC_D53_011",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_VOC_D53_012",
-    "kind": "vocab",
-    "ref_id": "VOC_D53_012",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_VOC_D53_013",
-    "kind": "vocab",
-    "ref_id": "VOC_D53_013",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_VOC_D53_014",
-    "kind": "vocab",
-    "ref_id": "VOC_D53_014",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_VOC_D53_015",
-    "kind": "vocab",
-    "ref_id": "VOC_D53_015",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_VOC_D53_016",
-    "kind": "vocab",
-    "ref_id": "VOC_D53_016",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_VOC_D53_017",
-    "kind": "vocab",
-    "ref_id": "VOC_D53_017",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_VOC_D53_018",
-    "kind": "vocab",
-    "ref_id": "VOC_D53_018",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_VOC_D53_019",
-    "kind": "vocab",
-    "ref_id": "VOC_D53_019",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_VOC_D53_020",
-    "kind": "vocab",
-    "ref_id": "VOC_D53_020",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_VOC_D53_021",
-    "kind": "vocab",
-    "ref_id": "VOC_D53_021",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_VOC_D53_022",
-    "kind": "vocab",
-    "ref_id": "VOC_D53_022",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_VOC_D53_023",
-    "kind": "vocab",
-    "ref_id": "VOC_D53_023",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_VOC_D53_024",
-    "kind": "vocab",
-    "ref_id": "VOC_D53_024",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_VOC_D53_025",
-    "kind": "vocab",
-    "ref_id": "VOC_D53_025",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_VOC_D53_026",
-    "kind": "vocab",
-    "ref_id": "VOC_D53_026",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_VOC_D53_027",
-    "kind": "vocab",
-    "ref_id": "VOC_D53_027",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_VOC_D53_028",
-    "kind": "vocab",
-    "ref_id": "VOC_D53_028",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_VOC_D53_029",
-    "kind": "vocab",
-    "ref_id": "VOC_D53_029",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_VOC_D53_030",
-    "kind": "vocab",
-    "ref_id": "VOC_D53_030",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_001",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_001",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_002",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_002",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_003",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_003",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_004",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_004",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_005",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_005",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_006",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_006",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_007",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_007",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_008",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_008",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_009",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_009",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_010",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_010",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_011",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_011",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_012",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_012",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_013",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_013",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_014",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_014",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_015",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_015",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_016",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_016",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_017",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_017",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_018",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_018",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_019",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_019",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_020",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_020",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_021",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_021",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_022",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_022",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_023",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_023",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_024",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_024",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_025",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_025",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_026",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_026",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_027",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_027",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_028",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_028",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_029",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_029",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_030",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_030",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_031",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_031",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_032",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_032",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_033",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_033",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_034",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_034",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_035",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_035",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_036",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_036",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_037",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_037",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_038",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_038",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_039",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_039",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_040",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_040",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_041",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_041",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_042",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_042",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_043",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_043",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_044",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_044",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_045",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_045",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_046",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_046",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_047",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_047",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_048",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_048",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_049",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_049",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_050",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_050",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_051",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_051",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_052",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_052",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_053",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_053",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_054",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_054",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_055",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_055",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_056",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_056",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_057",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_057",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_058",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_058",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_059",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_059",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_060",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_060",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_061",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_061",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_062",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_062",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_063",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_063",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_064",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_064",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_065",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_065",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_066",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_066",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_067",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_067",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_068",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_068",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_069",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_069",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_070",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_070",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_071",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_071",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_072",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_072",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_073",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_073",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_074",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_074",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_075",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_075",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_076",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_076",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_077",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_077",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_078",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_078",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_079",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_079",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_080",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_080",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_081",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_081",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_082",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_082",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_083",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_083",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_084",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_084",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_085",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_085",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_086",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_086",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_087",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_087",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_088",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_088",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_089",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_089",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D53_090",
-    "kind": "sentence",
-    "ref_id": "SEN_D53_090",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_DLG_D53_01_T1",
-    "kind": "dialogue",
-    "ref_id": "DLG_D53_01_T1",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_DLG_D53_01_T2",
-    "kind": "dialogue",
-    "ref_id": "DLG_D53_01_T2",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_DLG_D53_01_T3",
-    "kind": "dialogue",
-    "ref_id": "DLG_D53_01_T3",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_DLG_D53_01_T4",
-    "kind": "dialogue",
-    "ref_id": "DLG_D53_01_T4",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_DLG_D53_01_T5",
-    "kind": "dialogue",
-    "ref_id": "DLG_D53_01_T5",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_DLG_D53_01_T6",
-    "kind": "dialogue",
-    "ref_id": "DLG_D53_01_T6",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_DLG_D53_02_T1",
-    "kind": "dialogue",
-    "ref_id": "DLG_D53_02_T1",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_DLG_D53_02_T2",
-    "kind": "dialogue",
-    "ref_id": "DLG_D53_02_T2",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_DLG_D53_02_T3",
-    "kind": "dialogue",
-    "ref_id": "DLG_D53_02_T3",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_DLG_D53_02_T4",
-    "kind": "dialogue",
-    "ref_id": "DLG_D53_02_T4",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_DLG_D53_02_T5",
-    "kind": "dialogue",
-    "ref_id": "DLG_D53_02_T5",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_DLG_D53_02_T6",
-    "kind": "dialogue",
-    "ref_id": "DLG_D53_02_T6",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_DLG_D53_03_T1",
-    "kind": "dialogue",
-    "ref_id": "DLG_D53_03_T1",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_DLG_D53_03_T2",
-    "kind": "dialogue",
-    "ref_id": "DLG_D53_03_T2",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_DLG_D53_03_T3",
-    "kind": "dialogue",
-    "ref_id": "DLG_D53_03_T3",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_DLG_D53_03_T4",
-    "kind": "dialogue",
-    "ref_id": "DLG_D53_03_T4",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_DLG_D53_03_T5",
-    "kind": "dialogue",
-    "ref_id": "DLG_D53_03_T5",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_DLG_D53_03_T6",
-    "kind": "dialogue",
-    "ref_id": "DLG_D53_03_T6",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_LIS_D53_01",
-    "kind": "listening",
-    "ref_id": "LIS_D53_01",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_LIS_D53_02",
-    "kind": "listening",
-    "ref_id": "LIS_D53_02",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_LIS_D53_03",
-    "kind": "listening",
-    "ref_id": "LIS_D53_03",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_LIS_D53_04",
-    "kind": "listening",
-    "ref_id": "LIS_D53_04",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_LIS_D53_05",
-    "kind": "listening",
-    "ref_id": "LIS_D53_05",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_LIS_D53_06",
-    "kind": "listening",
-    "ref_id": "LIS_D53_06",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_LIS_D53_07",
-    "kind": "listening",
-    "ref_id": "LIS_D53_07",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_LIS_D53_08",
-    "kind": "listening",
-    "ref_id": "LIS_D53_08",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_LIS_D53_09",
-    "kind": "listening",
-    "ref_id": "LIS_D53_09",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_LIS_D53_10",
-    "kind": "listening",
-    "ref_id": "LIS_D53_10",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_LIS_D53_11",
-    "kind": "listening",
-    "ref_id": "LIS_D53_11",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_LIS_D53_12",
-    "kind": "listening",
-    "ref_id": "LIS_D53_12",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_LIS_D53_13",
-    "kind": "listening",
-    "ref_id": "LIS_D53_13",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_LIS_D53_14",
-    "kind": "listening",
-    "ref_id": "LIS_D53_14",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_LIS_D53_15",
-    "kind": "listening",
-    "ref_id": "LIS_D53_15",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_LIS_D53_16",
-    "kind": "listening",
-    "ref_id": "LIS_D53_16",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_LIS_D53_17",
-    "kind": "listening",
-    "ref_id": "LIS_D53_17",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_LIS_D53_18",
-    "kind": "listening",
-    "ref_id": "LIS_D53_18",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_LIS_D53_19",
-    "kind": "listening",
-    "ref_id": "LIS_D53_19",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_LIS_D53_20",
-    "kind": "listening",
-    "ref_id": "LIS_D53_20",
-    "text": "",
-    "pinyin_numeric": "",
-    "path": "",
-    "status": "placeholder"
-  },
-  {
     "id": "AUD_VOC_D67_001",
     "kind": "vocab",
     "ref_id": "VOC_D67_001",
@@ -65040,6 +63618,1527 @@
     "text": "你必須帶雨傘。",
     "pinyin_numeric": "ni3 bi4xu1 dai4 yu3san3",
     "path": "audio/AUD_LIS_D65_20.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D53_001",
+    "kind": "vocab",
+    "ref_id": "VOC_D53_001",
+    "text": "休閒",
+    "pinyin_numeric": "xiu1 xian2",
+    "path": "audio/AUD_VOC_D53_001.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D53_002",
+    "kind": "vocab",
+    "ref_id": "VOC_D53_002",
+    "text": "興趣",
+    "pinyin_numeric": "xing4 qu4",
+    "path": "audio/AUD_VOC_D53_002.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D53_003",
+    "kind": "vocab",
+    "ref_id": "VOC_D53_003",
+    "text": "打籃球",
+    "pinyin_numeric": "da3 lan2 qiu2",
+    "path": "audio/AUD_VOC_D53_003.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D53_004",
+    "kind": "vocab",
+    "ref_id": "VOC_D53_004",
+    "text": "踢足球",
+    "pinyin_numeric": "ti1 zu2 qiu2",
+    "path": "audio/AUD_VOC_D53_004.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D53_005",
+    "kind": "vocab",
+    "ref_id": "VOC_D53_005",
+    "text": "打網球",
+    "pinyin_numeric": "da3 wang3 qiu2",
+    "path": "audio/AUD_VOC_D53_005.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D53_006",
+    "kind": "vocab",
+    "ref_id": "VOC_D53_006",
+    "text": "打羽毛球",
+    "pinyin_numeric": "da3 yu3 mao2 qiu2",
+    "path": "audio/AUD_VOC_D53_006.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D53_007",
+    "kind": "vocab",
+    "ref_id": "VOC_D53_007",
+    "text": "下棋",
+    "pinyin_numeric": "xia4 qi2",
+    "path": "audio/AUD_VOC_D53_007.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D53_008",
+    "kind": "vocab",
+    "ref_id": "VOC_D53_008",
+    "text": "畫畫",
+    "pinyin_numeric": "hua4 hua4",
+    "path": "audio/AUD_VOC_D53_008.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D53_009",
+    "kind": "vocab",
+    "ref_id": "VOC_D53_009",
+    "text": "彈鋼琴",
+    "pinyin_numeric": "tan2 gang1 qin2",
+    "path": "audio/AUD_VOC_D53_009.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D53_010",
+    "kind": "vocab",
+    "ref_id": "VOC_D53_010",
+    "text": "彈吉他",
+    "pinyin_numeric": "tan2 ji2 ta1",
+    "path": "audio/AUD_VOC_D53_010.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D53_011",
+    "kind": "vocab",
+    "ref_id": "VOC_D53_011",
+    "text": "看展覽",
+    "pinyin_numeric": "kan4 zhan3 lan3",
+    "path": "audio/AUD_VOC_D53_011.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D53_012",
+    "kind": "vocab",
+    "ref_id": "VOC_D53_012",
+    "text": "爬山",
+    "pinyin_numeric": "pa2 shan1",
+    "path": "audio/AUD_VOC_D53_012.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D53_013",
+    "kind": "vocab",
+    "ref_id": "VOC_D53_013",
+    "text": "露營",
+    "pinyin_numeric": "lu4 ying2",
+    "path": "audio/AUD_VOC_D53_013.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D53_014",
+    "kind": "vocab",
+    "ref_id": "VOC_D53_014",
+    "text": "釣魚",
+    "pinyin_numeric": "diao4 yu2",
+    "path": "audio/AUD_VOC_D53_014.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D53_015",
+    "kind": "vocab",
+    "ref_id": "VOC_D53_015",
+    "text": "騎腳踏車",
+    "pinyin_numeric": "qi2 jiao3 ta4 che1",
+    "path": "audio/AUD_VOC_D53_015.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D53_016",
+    "kind": "vocab",
+    "ref_id": "VOC_D53_016",
+    "text": "打電動",
+    "pinyin_numeric": "da3 dian4 dong4",
+    "path": "audio/AUD_VOC_D53_016.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D53_017",
+    "kind": "vocab",
+    "ref_id": "VOC_D53_017",
+    "text": "看小說",
+    "pinyin_numeric": "kan4 xiao3 shuo1",
+    "path": "audio/AUD_VOC_D53_017.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D53_018",
+    "kind": "vocab",
+    "ref_id": "VOC_D53_018",
+    "text": "看漫畫",
+    "pinyin_numeric": "kan4 man4 hua4",
+    "path": "audio/AUD_VOC_D53_018.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D53_019",
+    "kind": "vocab",
+    "ref_id": "VOC_D53_019",
+    "text": "聽廣播",
+    "pinyin_numeric": "ting1 guang3 bo1",
+    "path": "audio/AUD_VOC_D53_019.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D53_020",
+    "kind": "vocab",
+    "ref_id": "VOC_D53_020",
+    "text": "看演唱會",
+    "pinyin_numeric": "kan4 yan3 chang4 hui4",
+    "path": "audio/AUD_VOC_D53_020.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D53_021",
+    "kind": "vocab",
+    "ref_id": "VOC_D53_021",
+    "text": "看球賽",
+    "pinyin_numeric": "kan4 qiu2 sai4",
+    "path": "audio/AUD_VOC_D53_021.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D53_022",
+    "kind": "vocab",
+    "ref_id": "VOC_D53_022",
+    "text": "做手工",
+    "pinyin_numeric": "zuo4 shou3 gong1",
+    "path": "audio/AUD_VOC_D53_022.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D53_023",
+    "kind": "vocab",
+    "ref_id": "VOC_D53_023",
+    "text": "種花",
+    "pinyin_numeric": "zhong4 hua1",
+    "path": "audio/AUD_VOC_D53_023.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D53_024",
+    "kind": "vocab",
+    "ref_id": "VOC_D53_024",
+    "text": "養寵物",
+    "pinyin_numeric": "yang3 chong3 wu4",
+    "path": "audio/AUD_VOC_D53_024.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D53_025",
+    "kind": "vocab",
+    "ref_id": "VOC_D53_025",
+    "text": "常常",
+    "pinyin_numeric": "chang2 chang2",
+    "path": "audio/AUD_VOC_D53_025.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D53_026",
+    "kind": "vocab",
+    "ref_id": "VOC_D53_026",
+    "text": "有時候",
+    "pinyin_numeric": "you3 shi2 hou5",
+    "path": "audio/AUD_VOC_D53_026.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D53_027",
+    "kind": "vocab",
+    "ref_id": "VOC_D53_027",
+    "text": "很少",
+    "pinyin_numeric": "hen3 shao3",
+    "path": "audio/AUD_VOC_D53_027.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D53_028",
+    "kind": "vocab",
+    "ref_id": "VOC_D53_028",
+    "text": "從來不",
+    "pinyin_numeric": "cong2 lai2 bu4",
+    "path": "audio/AUD_VOC_D53_028.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D53_029",
+    "kind": "vocab",
+    "ref_id": "VOC_D53_029",
+    "text": "每次",
+    "pinyin_numeric": "mei3 ci4",
+    "path": "audio/AUD_VOC_D53_029.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D53_030",
+    "kind": "vocab",
+    "ref_id": "VOC_D53_030",
+    "text": "週末",
+    "pinyin_numeric": "zhou1 mo4",
+    "path": "audio/AUD_VOC_D53_030.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D53_031",
+    "kind": "vocab",
+    "ref_id": "VOC_D53_031",
+    "text": "平時",
+    "pinyin_numeric": "ping2 shi2",
+    "path": "audio/AUD_VOC_D53_031.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D53_032",
+    "kind": "vocab",
+    "ref_id": "VOC_D53_032",
+    "text": "放假",
+    "pinyin_numeric": "fang4 jia4",
+    "path": "audio/AUD_VOC_D53_032.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D53_033",
+    "kind": "vocab",
+    "ref_id": "VOC_D53_033",
+    "text": "一起",
+    "pinyin_numeric": "yi1 qi3",
+    "path": "audio/AUD_VOC_D53_033.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D53_034",
+    "kind": "vocab",
+    "ref_id": "VOC_D53_034",
+    "text": "要不要",
+    "pinyin_numeric": "yao4 bu4 yao4",
+    "path": "audio/AUD_VOC_D53_034.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D53_035",
+    "kind": "vocab",
+    "ref_id": "VOC_D53_035",
+    "text": "有空",
+    "pinyin_numeric": "you3 kong4",
+    "path": "audio/AUD_VOC_D53_035.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D53_036",
+    "kind": "vocab",
+    "ref_id": "VOC_D53_036",
+    "text": "忙",
+    "pinyin_numeric": "mang2",
+    "path": "audio/AUD_VOC_D53_036.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D53_037",
+    "kind": "vocab",
+    "ref_id": "VOC_D53_037",
+    "text": "約",
+    "pinyin_numeric": "yue1",
+    "path": "audio/AUD_VOC_D53_037.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D53_038",
+    "kind": "vocab",
+    "ref_id": "VOC_D53_038",
+    "text": "改天",
+    "pinyin_numeric": "gai3 tian1",
+    "path": "audio/AUD_VOC_D53_038.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D53_039",
+    "kind": "vocab",
+    "ref_id": "VOC_D53_039",
+    "text": "下次",
+    "pinyin_numeric": "xia4 ci4",
+    "path": "audio/AUD_VOC_D53_039.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_VOC_D53_040",
+    "kind": "vocab",
+    "ref_id": "VOC_D53_040",
+    "text": "好玩",
+    "pinyin_numeric": "hao3 wan2",
+    "path": "audio/AUD_VOC_D53_040.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_001",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_001",
+    "text": "我常常在週末打籃球。",
+    "pinyin_numeric": "wo3 chang2chang2 zai4 zhou1mo4 da3 lan2qiu2.",
+    "path": "audio/AUD_SEN_D53_001.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_002",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_002",
+    "text": "他常常看小說，很少看漫畫。",
+    "pinyin_numeric": "ta1 chang2chang2 kan4 xiao3shuo1, hen3 shao3 kan4 man4hua4.",
+    "path": "audio/AUD_SEN_D53_002.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_003",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_003",
+    "text": "我們有時候一起騎腳踏車去公園。",
+    "pinyin_numeric": "wo3men5 you3 shi2hou5 yi1qi3 qi2 jiao3ta4che1 qu4 gong1yuan2.",
+    "path": "audio/AUD_SEN_D53_003.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_004",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_004",
+    "text": "她常常聽廣播，也喜歡看演唱會。",
+    "pinyin_numeric": "ta1 chang2chang2 ting1 guang3bo4, ye3 xi3huan1 kan4 yan3chang4hui4.",
+    "path": "audio/AUD_SEN_D53_004.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_005",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_005",
+    "text": "我弟弟常常打電動，從來不看書。",
+    "pinyin_numeric": "wo3 di4di5 chang2chang2 da3 dian4dong4, cong2lai2 bu4 kan4 shu1.",
+    "path": "audio/AUD_SEN_D53_005.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_006",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_006",
+    "text": "放假的時候，我們常常去露營。",
+    "pinyin_numeric": "fang4jia4 de5 shi2hou5, wo3men5 chang2chang2 qu4 lu4ying2.",
+    "path": "audio/AUD_SEN_D53_006.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_007",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_007",
+    "text": "她常常彈鋼琴，有時候也彈吉他。",
+    "pinyin_numeric": "ta1 chang2chang2 tan2 gang1qin2, you3 shi2hou5 ye3 tan2 ji2ta1.",
+    "path": "audio/AUD_SEN_D53_007.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_008",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_008",
+    "text": "我爸爸常常釣魚，他覺得很好玩。",
+    "pinyin_numeric": "wo3 ba4ba5 chang2chang2 diao4 yu2, ta1 jue2de5 hen3 hao3wan2.",
+    "path": "audio/AUD_SEN_D53_008.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_009",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_009",
+    "text": "我朋友常常爬山，他喜歡運動。",
+    "pinyin_numeric": "wo3 peng2you5 chang2chang2 pa2 shan1, ta1 xi3huan1 yun4dong4.",
+    "path": "audio/AUD_SEN_D53_009.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_010",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_010",
+    "text": "你常常看球賽嗎？要不要一起去？",
+    "pinyin_numeric": "ni3 chang2chang2 kan4 qiu2sai4 ma0? yao4 bu4 yao4 yi1qi3 qu4?",
+    "path": "audio/AUD_SEN_D53_010.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_011",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_011",
+    "text": "我週末有時候會去打籃球。",
+    "pinyin_numeric": "wo3 zhou1mo4 you3 shi2hou4 hui4 qu4 da3 lan2qiu2.",
+    "path": "audio/AUD_SEN_D53_011.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_012",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_012",
+    "text": "他平時很少看小說，有時候會看漫畫。",
+    "pinyin_numeric": "ta1 ping2shi2 hen3 shao3 kan4 xiao3shuo1, you3 shi2hou4 hui4 kan4 man4hua4.",
+    "path": "audio/AUD_SEN_D53_012.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_013",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_013",
+    "text": "我們有時候會一起去爬山，很好玩。",
+    "pinyin_numeric": "wo3men5 you3 shi2hou4 hui4 yi1qi3 qu4 pa2shan1, hen3 hao3wan2.",
+    "path": "audio/AUD_SEN_D53_013.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_014",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_014",
+    "text": "放假的時候，我常常在家種花，有時候也做手工。",
+    "pinyin_numeric": "fang4jia4 de5 shi2hou4, wo3 chang2chang2 zai4 jia1 zhong4 hua1, you3 shi2hou4 ye3 zuo4 shou3gong1.",
+    "path": "audio/AUD_SEN_D53_014.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_015",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_015",
+    "text": "你平時有什麼休閒興趣？我喜歡聽廣播和看展覽。",
+    "pinyin_numeric": "ni3 ping2shi2 you3 shen2me5 xiu1xian2 xing4qu4? wo3 xi3huan1 ting1 guang3bo4 he2 kan4 zhan3lan3.",
+    "path": "audio/AUD_SEN_D53_015.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_016",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_016",
+    "text": "他從來不打電動，可是有時候會看球賽。",
+    "pinyin_numeric": "ta1 cong2lai2 bu4 da3 dian4dong4, ke3shi4 you3 shi2hou4 hui4 kan4 qiu2sai4.",
+    "path": "audio/AUD_SEN_D53_016.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_017",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_017",
+    "text": "我妹妹有時候會彈鋼琴，她最喜歡彈吉他了。",
+    "pinyin_numeric": "wo3 mei4mei5 you3 shi2hou4 hui4 tan2 gang1qin2, ta1 zui4 xi3huan1 tan2 ji2ta1 le5.",
+    "path": "audio/AUD_SEN_D53_017.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_018",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_018",
+    "text": "我們要不要改天一起去釣魚？我最近有時候會去。",
+    "pinyin_numeric": "wo3men5 yao4 bu4 yao4 gai3tian1 yi1qi3 qu4 diao4yu2? wo3 zui4jin4 you3 shi2hou4 hui4 qu4.",
+    "path": "audio/AUD_SEN_D53_018.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_019",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_019",
+    "text": "他放假的時候，有時候會去露營，有時候會去騎腳踏車。",
+    "pinyin_numeric": "ta1 fang4jia4 de5 shi2hou4, you3 shi2hou4 hui4 qu4 lu4ying2, you3 shi2hou4 hui4 qu4 qi2 jiao3ta4che1.",
+    "path": "audio/AUD_SEN_D53_019.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_020",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_020",
+    "text": "我平時很忙，可是有時候會跟朋友一起看演唱會。",
+    "pinyin_numeric": "wo3 ping2shi2 hen3 mang2, ke3shi4 you3 shi2hou4 hui4 gen1 peng2you3 yi1qi3 kan4 yan3chang4hui4.",
+    "path": "audio/AUD_SEN_D53_020.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_021",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_021",
+    "text": "我喜歡打籃球，也喜歡踢足球。",
+    "pinyin_numeric": "wo3 xi3huan1 da3 lan2qiu2, ye3 xi3huan1 ti1 zu2qiu2.",
+    "path": "audio/AUD_SEN_D53_021.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_022",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_022",
+    "text": "你週末常常做什麼休閒活動？",
+    "pinyin_numeric": "ni3 zhou1mo4 chang2chang2 zuo4 shen2me xiu1xian2 huo2dong4?",
+    "path": "audio/AUD_SEN_D53_022.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_023",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_023",
+    "text": "他喜歡下棋，可是我不會。",
+    "pinyin_numeric": "ta1 xi3huan1 xia4 qi2, ke3shi4 wo3 bu4 hui4.",
+    "path": "audio/AUD_SEN_D53_023.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_024",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_024",
+    "text": "我們要不要一起去爬山？",
+    "pinyin_numeric": "wo3men yao4 bu4 yao4 yi1qi3 qu4 pa2 shan1?",
+    "path": "audio/AUD_SEN_D53_024.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_025",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_025",
+    "text": "她喜歡看小說，有時候也看漫畫。",
+    "pinyin_numeric": "ta1 xi3huan1 kan4 xiao3shuo1, you3 shi2hou4 ye3 kan4 man4hua4.",
+    "path": "audio/AUD_SEN_D53_025.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_026",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_026",
+    "text": "我很少打電動，因為太忙了。",
+    "pinyin_numeric": "wo3 hen3 shao3 da3 dian4dong4, yin1wei4 tai4 mang2 le5.",
+    "path": "audio/AUD_SEN_D53_026.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_027",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_027",
+    "text": "你喜歡聽廣播還是看演唱會？",
+    "pinyin_numeric": "ni3 xi3huan1 ting1 guang3bo4 hai2shi4 kan4 yan3chang4hui4?",
+    "path": "audio/AUD_SEN_D53_027.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_028",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_028",
+    "text": "他從來不運動，只喜歡看球賽。",
+    "pinyin_numeric": "ta1 cong2lai2 bu4 yun4dong4, zhi3 xi3huan1 kan4 qiu2sai4.",
+    "path": "audio/AUD_SEN_D53_028.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_029",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_029",
+    "text": "放假的時候，我喜歡騎腳踏車去公園。",
+    "pinyin_numeric": "fang4jia4 de5 shi2hou4, wo3 xi3huan1 qi2 jiao3ta4che1 qu4 gong1yuan2.",
+    "path": "audio/AUD_SEN_D53_029.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_030",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_030",
+    "text": "你喜歡養寵物嗎？我養了一隻貓。",
+    "pinyin_numeric": "ni3 xi3huan1 yang3 chong3wu4 ma0? wo3 yang3 le5 yi1 zhi1 mao1.",
+    "path": "audio/AUD_SEN_D53_030.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_031",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_031",
+    "text": "我常常在週末打籃球。",
+    "pinyin_numeric": "wo3 chang2chang2 zai4 zhou1mo4 da3 lan2qiu2",
+    "path": "audio/AUD_SEN_D53_031.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_032",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_032",
+    "text": "他常常跟朋友一起踢足球。",
+    "pinyin_numeric": "ta1 chang2chang2 gen1 peng2you3 yi1qi3 ti1 zu2qiu2",
+    "path": "audio/AUD_SEN_D53_032.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_033",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_033",
+    "text": "她常常在家裡看小說。",
+    "pinyin_numeric": "ta1 chang2chang2 zai4 jia1 li3 kan4 xiao3shuo1",
+    "path": "audio/AUD_SEN_D53_033.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_034",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_034",
+    "text": "我們常常一起去爬山。",
+    "pinyin_numeric": "wo3men chang2chang2 yi1qi3 qu4 pa2shan1",
+    "path": "audio/AUD_SEN_D53_034.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_035",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_035",
+    "text": "你常常聽廣播嗎？",
+    "pinyin_numeric": "ni3 chang2chang2 ting1 guang3bo4 ma0",
+    "path": "audio/AUD_SEN_D53_035.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_036",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_036",
+    "text": "我妹妹常常在家裡畫畫。",
+    "pinyin_numeric": "wo3 mei4mei chang2chang2 zai4 jia1 li3 hua4hua4",
+    "path": "audio/AUD_SEN_D53_036.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_037",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_037",
+    "text": "他常常在公園騎腳踏車。",
+    "pinyin_numeric": "ta1 chang2chang2 zai4 gong1yuan2 qi2 jiao3ta4che1",
+    "path": "audio/AUD_SEN_D53_037.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_038",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_038",
+    "text": "我爸爸常常看球賽。",
+    "pinyin_numeric": "wo3 ba4ba chang2chang2 kan4 qiu2sai4",
+    "path": "audio/AUD_SEN_D53_038.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_039",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_039",
+    "text": "你哥哥常常打電動嗎？",
+    "pinyin_numeric": "ni3 ge1ge chang2chang2 da3 dian4dong4 ma0",
+    "path": "audio/AUD_SEN_D53_039.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_040",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_040",
+    "text": "我常常跟朋友一起看演唱會。",
+    "pinyin_numeric": "wo3 chang2chang2 gen1 peng2you3 yi1qi3 kan4 yan3chang4hui4",
+    "path": "audio/AUD_SEN_D53_040.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_041",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_041",
+    "text": "我週末有時候會去打籃球。",
+    "pinyin_numeric": "wo3 zhou1mo4 you3 shi2hou4 hui4 qu4 da3 lan2qiu2.",
+    "path": "audio/AUD_SEN_D53_041.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_042",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_042",
+    "text": "他平時很少看漫畫，有時候會看小說。",
+    "pinyin_numeric": "ta1 ping2shi2 hen3 shao3 kan4 man4hua4, you3 shi2hou4 hui4 kan4 xiao3shuo1.",
+    "path": "audio/AUD_SEN_D53_042.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_043",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_043",
+    "text": "放假的時候，我們有時候會一起去爬山。",
+    "pinyin_numeric": "fang4jia4 de5 shi2hou4, wo3men5 you3 shi2hou4 hui4 yi1qi3 qu4 pa2shan1.",
+    "path": "audio/AUD_SEN_D53_043.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_044",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_044",
+    "text": "她有時候會在家裡彈鋼琴，放鬆心情。",
+    "pinyin_numeric": "ta1 you3 shi2hou4 hui4 zai4 jia1li3 tan2 gang1qin2, fang4song1 xin1qing2.",
+    "path": "audio/AUD_SEN_D53_044.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_045",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_045",
+    "text": "我弟弟有時候會打電動，可是他最喜歡踢足球。",
+    "pinyin_numeric": "wo3 di4di5 you3 shi2hou4 hui4 da3 dian4dong4, ke3shi4 ta1 zui4 xi3huan1 ti1 zu2qiu2.",
+    "path": "audio/AUD_SEN_D53_045.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_046",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_046",
+    "text": "你週末有空嗎？要不要一起去騎腳踏車？",
+    "pinyin_numeric": "ni3 zhou1mo4 you3 kong4 ma0? yao4 bu4 yao4 yi1qi3 qu4 qi2 jiao3ta4che1?",
+    "path": "audio/AUD_SEN_D53_046.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_047",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_047",
+    "text": "我爸爸有時候會去釣魚，他覺得很有趣。",
+    "pinyin_numeric": "wo3 ba4ba5 you3 shi2hou4 hui4 qu4 diao4yu2, ta1 jue2de5 hen3 you3qu4.",
+    "path": "audio/AUD_SEN_D53_047.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_048",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_048",
+    "text": "我從來不種花，可是我朋友有時候會種花。",
+    "pinyin_numeric": "wo3 cong2lai2 bu4 zhong4 hua1, ke3shi4 wo3 peng2you5 you3 shi2hou4 hui4 zhong4 hua1.",
+    "path": "audio/AUD_SEN_D53_048.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_049",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_049",
+    "text": "她喜歡看演唱會，有時候會跟朋友一起去。",
+    "pinyin_numeric": "ta1 xi3huan1 kan4 yan3chang4hui4, you3 shi2hou4 hui4 gen1 peng2you5 yi1qi3 qu4.",
+    "path": "audio/AUD_SEN_D53_049.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_050",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_050",
+    "text": "我放假的時候有時候會在家裡看漫畫，很休閒。",
+    "pinyin_numeric": "wo3 fang4jia4 de5 shi2hou4 you3 shi2hou4 hui4 zai4 jia1li3 kan4 man4hua4, hen3 xiu1xian2.",
+    "path": "audio/AUD_SEN_D53_050.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_051",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_051",
+    "text": "我喜歡打籃球，也喜歡踢足球。",
+    "pinyin_numeric": "wo3 xi3huan1 da3 lan2qiu2, ye3 xi3huan1 ti1 zu2qiu2.",
+    "path": "audio/AUD_SEN_D53_051.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_052",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_052",
+    "text": "你週末常常做什麼休閒活動？",
+    "pinyin_numeric": "ni3 zhou1mo4 chang2chang2 zuo4 shen2me xiu1xian2 huo2dong4?",
+    "path": "audio/AUD_SEN_D53_052.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_053",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_053",
+    "text": "他喜歡看小說，有時候也看漫畫。",
+    "pinyin_numeric": "ta1 xi3huan1 kan4 xiao3shuo1, you3 shi2hou4 ye3 kan4 man4hua4.",
+    "path": "audio/AUD_SEN_D53_053.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_054",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_054",
+    "text": "我們要不要一起去爬山？",
+    "pinyin_numeric": "wo3men yao4 bu4 yao4 yi1qi3 qu4 pa2shan1?",
+    "path": "audio/AUD_SEN_D53_054.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_055",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_055",
+    "text": "她很少打網球，比較喜歡打羽毛球。",
+    "pinyin_numeric": "ta1 hen3 shao3 da3 wang3qiu2, bi3jiao4 xi3huan1 da3 yu3mao2qiu2.",
+    "path": "audio/AUD_SEN_D53_055.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_056",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_056",
+    "text": "我從來不騎腳踏車，因為太累了。",
+    "pinyin_numeric": "wo3 cong2lai2 bu4 qi2 jiao3ta4che1, yin1wei4 tai4 lei4 le5.",
+    "path": "audio/AUD_SEN_D53_056.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_057",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_057",
+    "text": "他喜歡彈吉他，也喜歡唱歌。",
+    "pinyin_numeric": "ta1 xi3huan1 tan2 ji2ta1, ye3 xi3huan1 chang4ge1.",
+    "path": "audio/AUD_SEN_D53_057.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_058",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_058",
+    "text": "放假的時候，我喜歡看展覽或聽廣播。",
+    "pinyin_numeric": "fang4jia4 de5 shi2hou4, wo3 xi3huan1 kan4 zhan3lan3 huo4 ting1 guang3bo4.",
+    "path": "audio/AUD_SEN_D53_058.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_059",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_059",
+    "text": "你喜歡養寵物嗎？我養了一隻貓。",
+    "pinyin_numeric": "ni3 xi3huan1 yang3 chong3wu4 ma0? wo3 yang3 le5 yi1 zhi1 mao1.",
+    "path": "audio/AUD_SEN_D53_059.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_060",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_060",
+    "text": "他每次放假都去露營，覺得很好玩。",
+    "pinyin_numeric": "ta1 mei3 ci4 fang4jia4 dou1 qu4 lu4ying2, jue2de5 hen3 hao3wan2.",
+    "path": "audio/AUD_SEN_D53_060.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_061",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_061",
+    "text": "我常常在週末打籃球。",
+    "pinyin_numeric": "wo3 chang2chang2 zai4 zhou1mo4 da3 lan2qiu2.",
+    "path": "audio/AUD_SEN_D53_061.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_062",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_062",
+    "text": "他常常看小說，很少看電視。",
+    "pinyin_numeric": "ta1 chang2chang2 kan4 xiao3shuo1, hen3 shao3 kan4 dian4shi4.",
+    "path": "audio/AUD_SEN_D53_062.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_063",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_063",
+    "text": "她常常跟朋友一起去爬山。",
+    "pinyin_numeric": "ta1 chang2chang2 gen1 peng2you3 yi4qi3 qu4 pa2shan1.",
+    "path": "audio/AUD_SEN_D53_063.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_064",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_064",
+    "text": "我們常常在放假的時候去露營。",
+    "pinyin_numeric": "wo3men5 chang2chang2 zai4 fang4jia4 de5 shi2hou5 qu4 lu4ying2.",
+    "path": "audio/AUD_SEN_D53_064.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_065",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_065",
+    "text": "你常常騎腳踏車去上班嗎？",
+    "pinyin_numeric": "ni3 chang2chang2 qi2 jiao3ta4che1 qu4 shang4ban1 ma0?",
+    "path": "audio/AUD_SEN_D53_065.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_066",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_066",
+    "text": "我弟弟常常打電動，有時候不打。",
+    "pinyin_numeric": "wo3 di4di5 chang2chang2 da3 dian4dong4, you3 shi2hou5 bu4 da3.",
+    "path": "audio/AUD_SEN_D53_066.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_067",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_067",
+    "text": "她常常彈鋼琴，也喜歡唱歌。",
+    "pinyin_numeric": "ta1 chang2chang2 tan2 gang1qin2, ye3 xi3huan1 chang4ge1.",
+    "path": "audio/AUD_SEN_D53_067.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_068",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_068",
+    "text": "我爸爸常常在公園下棋。",
+    "pinyin_numeric": "wo3 ba4ba5 chang2chang2 zai4 gong1yuan2 xia4 qi2.",
+    "path": "audio/AUD_SEN_D53_068.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_069",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_069",
+    "text": "你常常看漫畫嗎？我很少看。",
+    "pinyin_numeric": "ni3 chang2chang2 kan4 man4hua4 ma0? wo3 hen3 shao3 kan4.",
+    "path": "audio/AUD_SEN_D53_069.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_070",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_070",
+    "text": "我們常常一起看球賽，很好玩。",
+    "pinyin_numeric": "wo3men5 chang2chang2 yi4qi3 kan4 qiu2sai4, hen3 hao3wan2.",
+    "path": "audio/AUD_SEN_D53_070.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_071",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_071",
+    "text": "我週末有時候會去打籃球。",
+    "pinyin_numeric": "wo3 zhou1 mo4 you3 shi2 hou4 hui4 qu4 da3 lan2 qiu2.",
+    "path": "audio/AUD_SEN_D53_071.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_072",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_072",
+    "text": "他平時有時候會在家裡彈吉他。",
+    "pinyin_numeric": "ta1 ping2 shi2 you3 shi2 hou4 hui4 zai4 jia1 li3 tan2 ji2 ta1.",
+    "path": "audio/AUD_SEN_D53_072.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_073",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_073",
+    "text": "我們有時候會一起去爬山。",
+    "pinyin_numeric": "wo3 men5 you3 shi2 hou4 hui4 yi1 qi3 qu4 pa2 shan1.",
+    "path": "audio/AUD_SEN_D53_073.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_074",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_074",
+    "text": "她放假的時候有時候會去看展覽。",
+    "pinyin_numeric": "ta1 fang4 jia4 de5 shi2 hou4 you3 shi2 hou4 hui4 qu4 kan4 zhan3 lan3.",
+    "path": "audio/AUD_SEN_D53_074.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_075",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_075",
+    "text": "你週末有時候會做什麼休閒活動？",
+    "pinyin_numeric": "ni3 zhou1 mo4 you3 shi2 hou4 hui4 zuo4 shen2 me5 xiu1 xian2 huo2 dong4?",
+    "path": "audio/AUD_SEN_D53_075.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_076",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_076",
+    "text": "我弟弟有時候會在家裡打電動。",
+    "pinyin_numeric": "wo3 di4 di5 you3 shi2 hou4 hui4 zai4 jia1 li3 da3 dian4 dong4.",
+    "path": "audio/AUD_SEN_D53_076.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_077",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_077",
+    "text": "她有空的時候有時候會去釣魚。",
+    "pinyin_numeric": "ta1 you3 kong4 de5 shi2 hou4 you3 shi2 hou4 hui4 qu4 diao4 yu2.",
+    "path": "audio/AUD_SEN_D53_077.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_078",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_078",
+    "text": "我們有時候會一起去看球賽。",
+    "pinyin_numeric": "wo3 men5 you3 shi2 hou4 hui4 yi1 qi3 qu4 kan4 qiu2 sai4.",
+    "path": "audio/AUD_SEN_D53_078.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_079",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_079",
+    "text": "他放假的時候有時候會去露營。",
+    "pinyin_numeric": "ta1 fang4 jia4 de5 shi2 hou4 you3 shi2 hou4 hui4 qu4 lu4 ying2.",
+    "path": "audio/AUD_SEN_D53_079.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_080",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_080",
+    "text": "你平時有時候會看小說嗎？",
+    "pinyin_numeric": "ni3 ping2 shi2 you3 shi2 hou4 hui4 kan4 xiao3 shuo1 ma5?",
+    "path": "audio/AUD_SEN_D53_080.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_081",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_081",
+    "text": "我喜歡打籃球，你喜歡嗎？",
+    "pinyin_numeric": "wo3 xi3huan1 da3 lan2qiu2, ni3 xi3huan1 ma0",
+    "path": "audio/AUD_SEN_D53_081.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_082",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_082",
+    "text": "他常常在週末踢足球。",
+    "pinyin_numeric": "ta1 chang2chang2 zai4 zhou1mo4 ti1 zu2qiu2",
+    "path": "audio/AUD_SEN_D53_082.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_083",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_083",
+    "text": "我們要不要一起去打羽毛球？",
+    "pinyin_numeric": "wo3men yao4 bu4 yao4 yi1qi3 qu4 da3 yu3mao2qiu2",
+    "path": "audio/AUD_SEN_D53_083.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_084",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_084",
+    "text": "她喜歡下棋，可是我不會。",
+    "pinyin_numeric": "ta1 xi3huan1 xia4 qi2, ke3shi4 wo3 bu4 hui4",
+    "path": "audio/AUD_SEN_D53_084.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_085",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_085",
+    "text": "我很少看小說，比較喜歡看漫畫。",
+    "pinyin_numeric": "wo3 hen3 shao3 kan4 xiao3shuo1, bi3jiao4 xi3huan1 kan4 man4hua4",
+    "path": "audio/AUD_SEN_D53_085.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_086",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_086",
+    "text": "你放假的時候喜歡做什麼？",
+    "pinyin_numeric": "ni3 fang4jia4 de5 shi2hou5 xi3huan1 zuo4 shen2me5",
+    "path": "audio/AUD_SEN_D53_086.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_087",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_087",
+    "text": "我從來不騎腳踏車，因為太累了。",
+    "pinyin_numeric": "wo3 cong2lai2 bu4 qi2 jiao3ta4che1, yin1wei4 tai4 lei4 le5",
+    "path": "audio/AUD_SEN_D53_087.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_088",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_088",
+    "text": "他喜歡彈吉他，也喜歡唱歌。",
+    "pinyin_numeric": "ta1 xi3huan1 tan2 ji2ta1, ye3 xi3huan1 chang4ge1",
+    "path": "audio/AUD_SEN_D53_088.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_089",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_089",
+    "text": "我們下次可以一起去爬山。",
+    "pinyin_numeric": "wo3men xia4 ci4 ke3yi3 yi1qi3 qu4 pa2shan1",
+    "path": "audio/AUD_SEN_D53_089.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_SEN_D53_090",
+    "kind": "sentence",
+    "ref_id": "SEN_D53_090",
+    "text": "她喜歡看展覽，有時候也去看演唱會。",
+    "pinyin_numeric": "ta1 xi3huan1 kan4 zhan3lan3, you3 shi2hou5 ye3 qu4 kan4 yan3chang4hui4",
+    "path": "audio/AUD_SEN_D53_090.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_DLG_D53_01_T1",
+    "kind": "dialogue",
+    "ref_id": "DLG_D53_01",
+    "text": "你週末常常做什麼休閒活動？",
+    "pinyin_numeric": "Ni3 zhou1mo4 chang2chang2 zuo4 shen2me xiu1xian2 huo2dong4?",
+    "path": "audio/AUD_DLG_D53_01_T1.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_DLG_D53_01_T2",
+    "kind": "dialogue",
+    "ref_id": "DLG_D53_01",
+    "text": "我喜歡爬山和騎腳踏車，有時候也會看小說。",
+    "pinyin_numeric": "Wo3 xi3huan1 pa2shan1 he2 qi2 jiao3ta4che1, you3 shi2hou ye3 hui4 kan4 xiao3shuo1.",
+    "path": "audio/AUD_DLG_D53_01_T2.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_DLG_D53_01_T3",
+    "kind": "dialogue",
+    "ref_id": "DLG_D53_01",
+    "text": "聽起來很好玩！你常常去哪裡爬山？",
+    "pinyin_numeric": "Ting1 qi3lai2 hen3 hao3wan2! Ni3 chang2chang2 qu4 na3li3 pa2shan1?",
+    "path": "audio/AUD_DLG_D53_01_T3.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_DLG_D53_01_T4",
+    "kind": "dialogue",
+    "ref_id": "DLG_D53_01",
+    "text": "我最近很喜歡去台北附近的山，風景很漂亮。",
+    "pinyin_numeric": "Wo3 zui4jin4 hen3 xi3huan1 qu4 Tai2bei3 fu4jin4 de shan1, feng1jing3 hen3 piao4liang.",
+    "path": "audio/AUD_DLG_D53_01_T4.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_DLG_D53_01_T5",
+    "kind": "dialogue",
+    "ref_id": "DLG_D53_01",
+    "text": "那下次可以一起去嗎？我也想試試看。",
+    "pinyin_numeric": "Na4 xia4ci4 ke3yi3 yi1qi3 qu4 ma? Wo3 ye3 xiang3 shi4 shi4 kan4.",
+    "path": "audio/AUD_DLG_D53_01_T5.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_DLG_D53_01_T6",
+    "kind": "dialogue",
+    "ref_id": "DLG_D53_01",
+    "text": "當然可以！我們可以約這個週末，你有空嗎？",
+    "pinyin_numeric": "Dang1ran2 ke3yi3! Wo3men ke3yi3 yue1 zhe4ge zhou1mo4, ni3 you3 kong4 ma?",
+    "path": "audio/AUD_DLG_D53_01_T6.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_DLG_D53_01_T7",
+    "kind": "dialogue",
+    "ref_id": "DLG_D53_01",
+    "text": "這個週末我有空，我們約好了！",
+    "pinyin_numeric": "Zhe4ge zhou1mo4 wo3 you3 kong4, wo3men yue1 hao3 le!",
+    "path": "audio/AUD_DLG_D53_01_T7.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_DLG_D53_02_T1",
+    "kind": "dialogue",
+    "ref_id": "DLG_D53_02",
+    "text": "你平時喜歡做什麼運動？",
+    "pinyin_numeric": "Ni3 ping2shi2 xi3huan1 zuo4 shen2me yun4dong4?",
+    "path": "audio/AUD_DLG_D53_02_T1.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_DLG_D53_02_T2",
+    "kind": "dialogue",
+    "ref_id": "DLG_D53_02",
+    "text": "我喜歡打籃球和踢足球，每個週末都會和朋友一起玩。",
+    "pinyin_numeric": "Wo3 xi3huan1 da3 lan2qiu2 he2 ti1 zu2qiu2, mei3 ge zhou1mo4 dou1 hui4 he2 peng2you yi1qi3 wan2.",
+    "path": "audio/AUD_DLG_D53_02_T2.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_DLG_D53_02_T3",
+    "kind": "dialogue",
+    "ref_id": "DLG_D53_02",
+    "text": "好厲害！你打籃球多久了？",
+    "pinyin_numeric": "Hao3 li4hai4! Ni3 da3 lan2qiu2 duo1 jiu3 le?",
+    "path": "audio/AUD_DLG_D53_02_T3.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_DLG_D53_02_T4",
+    "kind": "dialogue",
+    "ref_id": "DLG_D53_02",
+    "text": "我從高中開始打籃球，已經好幾年了。",
+    "pinyin_numeric": "Wo3 cong2 gao1zhong1 kai1shi3 da3 lan2qiu2, yi3jing1 hao3 ji3 nian2 le.",
+    "path": "audio/AUD_DLG_D53_02_T4.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_DLG_D53_02_T5",
+    "kind": "dialogue",
+    "ref_id": "DLG_D53_02",
+    "text": "我也想學打籃球，你可以教我嗎？",
+    "pinyin_numeric": "Wo3 ye3 xiang3 xue2 da3 lan2qiu2, ni3 ke3yi3 jiao1 wo3 ma?",
+    "path": "audio/AUD_DLG_D53_02_T5.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_DLG_D53_02_T6",
+    "kind": "dialogue",
+    "ref_id": "DLG_D53_02",
+    "text": "沒問題！這個週末我們可以一起去打球。",
+    "pinyin_numeric": "Mei2 wen4ti2! Zhe4ge zhou1mo4 wo3men ke3yi3 yi1qi3 qu4 da3 qiu2.",
+    "path": "audio/AUD_DLG_D53_02_T6.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_DLG_D53_03_T1",
+    "kind": "dialogue",
+    "ref_id": "DLG_D53_03",
+    "text": "你放假的時候喜歡做什麼？",
+    "pinyin_numeric": "Ni3 fang4jia4 de shi2hou xi3huan1 zuo4 shen2me?",
+    "path": "audio/AUD_DLG_D53_03_T1.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_DLG_D53_03_T2",
+    "kind": "dialogue",
+    "ref_id": "DLG_D53_03",
+    "text": "我喜歡看電影，有時候也會看演唱會。",
+    "pinyin_numeric": "Wo3 xi3huan1 kan4 dian4ying3, you3 shi2hou ye3 hui4 kan4 yan3chang4hui4.",
+    "path": "audio/AUD_DLG_D53_03_T2.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_DLG_D53_03_T3",
+    "kind": "dialogue",
+    "ref_id": "DLG_D53_03",
+    "text": "你最近看了什麼好看的電影嗎？",
+    "pinyin_numeric": "Ni3 zui4jin4 kan4 le shen2me hao3kan4 de dian4ying3 ma?",
+    "path": "audio/AUD_DLG_D53_03_T3.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_DLG_D53_03_T4",
+    "kind": "dialogue",
+    "ref_id": "DLG_D53_03",
+    "text": "我上個禮拜看了一部很有意思的電影，推薦你也去看看。",
+    "pinyin_numeric": "Wo3 shang4 ge li3bai4 kan4 le yi1 bu4 hen3 you3 yi4si de dian4ying3, tui1jian4 ni3 ye3 qu4 kan4 kan4.",
+    "path": "audio/AUD_DLG_D53_03_T4.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_DLG_D53_03_T5",
+    "kind": "dialogue",
+    "ref_id": "DLG_D53_03",
+    "text": "好啊！我們可以約這個週末一起去看電影。",
+    "pinyin_numeric": "Hao3 a! Wo3men ke3yi3 yue1 zhe4ge zhou1mo4 yi1qi3 qu4 kan4 dian4ying3.",
+    "path": "audio/AUD_DLG_D53_03_T5.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_DLG_D53_03_T6",
+    "kind": "dialogue",
+    "ref_id": "DLG_D53_03",
+    "text": "沒問題，我們到時候見！",
+    "pinyin_numeric": "Mei2 wen4ti2, wo3men dao4 shi2hou jian4!",
+    "path": "audio/AUD_DLG_D53_03_T6.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_LIS_D53_01",
+    "kind": "listening",
+    "ref_id": "LIS_D53_01",
+    "text": "休閒",
+    "pinyin_numeric": "xiu1 xian2",
+    "path": "audio/AUD_LIS_D53_01.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_LIS_D53_02",
+    "kind": "listening",
+    "ref_id": "LIS_D53_02",
+    "text": "她常常聽廣播，也喜歡看演唱會。",
+    "pinyin_numeric": "ta1 chang2chang2 ting1 guang3bo4, ye3 xi3huan1 kan4 yan3chang4hui4.",
+    "path": "audio/AUD_LIS_D53_02.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_LIS_D53_03",
+    "kind": "listening",
+    "ref_id": "LIS_D53_03",
+    "text": "她常常彈鋼琴，有時候也彈吉他。",
+    "pinyin_numeric": "ta1 chang2chang2 tan2 gang1qin2, you3 shi2hou5 ye3 tan2 ji2ta1.",
+    "path": "audio/AUD_LIS_D53_03.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_LIS_D53_04",
+    "kind": "listening",
+    "ref_id": "LIS_D53_04",
+    "text": "你常常看球賽嗎？要不要一起去？",
+    "pinyin_numeric": "ni3 chang2chang2 kan4 qiu2sai4 ma0? yao4 bu4 yao4 yi1qi3 qu4?",
+    "path": "audio/AUD_LIS_D53_04.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_LIS_D53_05",
+    "kind": "listening",
+    "ref_id": "LIS_D53_05",
+    "text": "我們有時候會一起去爬山，很好玩。",
+    "pinyin_numeric": "wo3men5 you3 shi2hou4 hui4 yi1qi3 qu4 pa2shan1, hen3 hao3wan2.",
+    "path": "audio/AUD_LIS_D53_05.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_LIS_D53_06",
+    "kind": "listening",
+    "ref_id": "LIS_D53_06",
+    "text": "打羽毛球",
+    "pinyin_numeric": "da3 yu3 mao2 qiu2",
+    "path": "audio/AUD_LIS_D53_06.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_LIS_D53_07",
+    "kind": "listening",
+    "ref_id": "LIS_D53_07",
+    "text": "他放假的時候，有時候會去露營，有時候會去騎腳踏車。",
+    "pinyin_numeric": "ta1 fang4jia4 de5 shi2hou4, you3 shi2hou4 hui4 qu4 lu4ying2, you3 shi2hou4 hui4 qu4 qi2 jiao3ta4che1.",
+    "path": "audio/AUD_LIS_D53_07.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_LIS_D53_08",
+    "kind": "listening",
+    "ref_id": "LIS_D53_08",
+    "text": "你週末常常做什麼休閒活動？",
+    "pinyin_numeric": "ni3 zhou1mo4 chang2chang2 zuo4 shen2me xiu1xian2 huo2dong4?",
+    "path": "audio/AUD_LIS_D53_08.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_LIS_D53_09",
+    "kind": "listening",
+    "ref_id": "LIS_D53_09",
+    "text": "她喜歡看小說，有時候也看漫畫。",
+    "pinyin_numeric": "ta1 xi3huan1 kan4 xiao3shuo1, you3 shi2hou4 ye3 kan4 man4hua4.",
+    "path": "audio/AUD_LIS_D53_09.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_LIS_D53_10",
+    "kind": "listening",
+    "ref_id": "LIS_D53_10",
+    "text": "他從來不運動，只喜歡看球賽。",
+    "pinyin_numeric": "ta1 cong2lai2 bu4 yun4dong4, zhi3 xi3huan1 kan4 qiu2sai4.",
+    "path": "audio/AUD_LIS_D53_10.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_LIS_D53_11",
+    "kind": "listening",
+    "ref_id": "LIS_D53_11",
+    "text": "看展覽",
+    "pinyin_numeric": "kan4 zhan3 lan3",
+    "path": "audio/AUD_LIS_D53_11.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_LIS_D53_12",
+    "kind": "listening",
+    "ref_id": "LIS_D53_12",
+    "text": "我們常常一起去爬山。",
+    "pinyin_numeric": "wo3men chang2chang2 yi1qi3 qu4 pa2shan1",
+    "path": "audio/AUD_LIS_D53_12.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_LIS_D53_13",
+    "kind": "listening",
+    "ref_id": "LIS_D53_13",
+    "text": "他常常在公園騎腳踏車。",
+    "pinyin_numeric": "ta1 chang2chang2 zai4 gong1yuan2 qi2 jiao3ta4che1",
+    "path": "audio/AUD_LIS_D53_13.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_LIS_D53_14",
+    "kind": "listening",
+    "ref_id": "LIS_D53_14",
+    "text": "我常常跟朋友一起看演唱會。",
+    "pinyin_numeric": "wo3 chang2chang2 gen1 peng2you3 yi1qi3 kan4 yan3chang4hui4",
+    "path": "audio/AUD_LIS_D53_14.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_LIS_D53_15",
+    "kind": "listening",
+    "ref_id": "LIS_D53_15",
+    "text": "放假的時候，我們有時候會一起去爬山。",
+    "pinyin_numeric": "fang4jia4 de5 shi2hou4, wo3men5 you3 shi2hou4 hui4 yi1qi3 qu4 pa2shan1.",
+    "path": "audio/AUD_LIS_D53_15.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_LIS_D53_16",
+    "kind": "listening",
+    "ref_id": "LIS_D53_16",
+    "text": "打電動",
+    "pinyin_numeric": "da3 dian4 dong4",
+    "path": "audio/AUD_LIS_D53_16.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_LIS_D53_17",
+    "kind": "listening",
+    "ref_id": "LIS_D53_17",
+    "text": "她喜歡看演唱會，有時候會跟朋友一起去。",
+    "pinyin_numeric": "ta1 xi3huan1 kan4 yan3chang4hui4, you3 shi2hou4 hui4 gen1 peng2you5 yi1qi3 qu4.",
+    "path": "audio/AUD_LIS_D53_17.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_LIS_D53_18",
+    "kind": "listening",
+    "ref_id": "LIS_D53_18",
+    "text": "你週末常常做什麼休閒活動？",
+    "pinyin_numeric": "ni3 zhou1mo4 chang2chang2 zuo4 shen2me xiu1xian2 huo2dong4?",
+    "path": "audio/AUD_LIS_D53_18.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_LIS_D53_19",
+    "kind": "listening",
+    "ref_id": "LIS_D53_19",
+    "text": "她很少打網球，比較喜歡打羽毛球。",
+    "pinyin_numeric": "ta1 hen3 shao3 da3 wang3qiu2, bi3jiao4 xi3huan1 da3 yu3mao2qiu2.",
+    "path": "audio/AUD_LIS_D53_19.mp3",
+    "status": "placeholder"
+  },
+  {
+    "id": "AUD_LIS_D53_20",
+    "kind": "listening",
+    "ref_id": "LIS_D53_20",
+    "text": "放假的時候，我喜歡看展覽或聽廣播。",
+    "pinyin_numeric": "fang4jia4 de5 shi2hou4, wo3 xi3huan1 kan4 zhan3lan3 huo4 ting1 guang3bo4.",
+    "path": "audio/AUD_LIS_D53_20.mp3",
     "status": "placeholder"
   }
 ]

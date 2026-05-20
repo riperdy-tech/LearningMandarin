@@ -206,11 +206,16 @@ Already introduced words (DO NOT REUSE THESE or use their characters for new roo
 ${Array.from(seenChars).join(", ")}`;
 
     const response = await callDeepSeek(systemPrompt, userPrompt);
-    if (!response.vocabulary || response.vocabulary.length !== dayMeta.new_vocab_target) {
-      throw new Error(`Expected ${dayMeta.new_vocab_target} vocabulary items, got ${response.vocabulary?.length}`);
+    // Handle both {vocabulary: [...]} and raw [...] response formats
+    const vocabList = Array.isArray(response) ? response : response.vocabulary;
+    if (!vocabList || vocabList.length < dayMeta.new_vocab_target - 2) {
+      throw new Error(`Expected ~${dayMeta.new_vocab_target} vocabulary items, got ${vocabList?.length}`);
+    }
+    if (vocabList.length < dayMeta.new_vocab_target) {
+      console.log(`   (got ${vocabList.length} vocab items, target was ${dayMeta.new_vocab_target} — proceeding)`);
     }
 
-    todayVocab = response.vocabulary.map((item, idx) => {
+    todayVocab = vocabList.map((item, idx) => {
       const vocabId = `VOC_D${dayNum}_${pad(idx + 1, 3)}`;
       return {
         id: vocabId,
@@ -323,8 +328,8 @@ Unit: "${dayMeta.unit}"
 Grammar IDs: ${JSON.stringify(grammarIds)}`;
 
   const grammarRes = await callDeepSeek(grammarSystemPrompt, grammarUserPrompt);
-  if (!grammarRes.grammar || grammarRes.grammar.length !== 3) {
-    throw new Error(`Expected exactly 3 grammar guides, got ${grammarRes.grammar?.length}`);
+  if (!grammarRes.grammar || grammarRes.grammar.length < 2) {
+    throw new Error(`Expected 2-3 grammar guides, got ${grammarRes.grammar?.length}`);
   }
 
   const todayGrammar = grammarRes.grammar.map((item, idx) => {

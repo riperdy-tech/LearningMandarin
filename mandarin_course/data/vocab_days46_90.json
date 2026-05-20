@@ -1,833 +1,5 @@
 [
   {
-    "id": "VOC_D53_001",
-    "char": "我",
-    "pinyin": "wǒ",
-    "pinyin_numeric": "wo3",
-    "phonemes": [
-      "wo3"
-    ],
-    "pos": "pronoun",
-    "meaning_en": "I; me",
-    "meaning_ko": "나",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D53_001",
-      "SEN_D53_004",
-      "SEN_D53_009",
-      "SEN_D53_013"
-    ],
-    "audio_id": "AUD_VOC_D53_001",
-    "day_introduced": 53,
-    "semantic_domain": "general",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
-    "srs_tags": [
-      "day_53",
-      "general"
-    ]
-  },
-  {
-    "id": "VOC_D53_002",
-    "char": "你",
-    "pinyin": "nǐ",
-    "pinyin_numeric": "ni3",
-    "phonemes": [
-      "ni3"
-    ],
-    "pos": "pronoun",
-    "meaning_en": "you",
-    "meaning_ko": "너; 당신",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D53_002",
-      "SEN_D53_006",
-      "SEN_D53_012",
-      "SEN_D53_017"
-    ],
-    "audio_id": "AUD_VOC_D53_002",
-    "day_introduced": 53,
-    "semantic_domain": "general",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
-    "srs_tags": [
-      "day_53",
-      "general"
-    ]
-  },
-  {
-    "id": "VOC_D53_003",
-    "char": "他",
-    "pinyin": "tā",
-    "pinyin_numeric": "ta1",
-    "phonemes": [
-      "ta1"
-    ],
-    "pos": "pronoun",
-    "meaning_en": "he; him",
-    "meaning_ko": "그",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D53_003",
-      "SEN_D53_010",
-      "SEN_D53_018",
-      "SEN_D53_025"
-    ],
-    "audio_id": "AUD_VOC_D53_003",
-    "day_introduced": 53,
-    "semantic_domain": "general",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
-    "srs_tags": [
-      "day_53",
-      "general"
-    ]
-  },
-  {
-    "id": "VOC_D53_004",
-    "char": "她",
-    "pinyin": "tā",
-    "pinyin_numeric": "ta1",
-    "phonemes": [
-      "ta1"
-    ],
-    "pos": "pronoun",
-    "meaning_en": "she; her",
-    "meaning_ko": "그녀",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [],
-    "audio_id": "AUD_VOC_D53_004",
-    "day_introduced": 53,
-    "semantic_domain": "general",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
-    "srs_tags": [
-      "day_53",
-      "general"
-    ]
-  },
-  {
-    "id": "VOC_D53_005",
-    "char": "我們",
-    "pinyin": "wǒmen",
-    "pinyin_numeric": "women3",
-    "phonemes": [
-      "women3"
-    ],
-    "pos": "pronoun",
-    "meaning_en": "we; us",
-    "meaning_ko": "우리",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [],
-    "audio_id": "AUD_VOC_D53_005",
-    "day_introduced": 53,
-    "semantic_domain": "general",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
-    "srs_tags": [
-      "day_53",
-      "general"
-    ]
-  },
-  {
-    "id": "VOC_D53_006",
-    "char": "是",
-    "pinyin": "shì",
-    "pinyin_numeric": "shi4",
-    "phonemes": [
-      "shi4"
-    ],
-    "pos": "verb",
-    "meaning_en": "to be",
-    "meaning_ko": "이다",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [],
-    "audio_id": "AUD_VOC_D53_006",
-    "day_introduced": 53,
-    "semantic_domain": "general",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
-    "srs_tags": [
-      "day_53",
-      "general"
-    ]
-  },
-  {
-    "id": "VOC_D53_007",
-    "char": "有",
-    "pinyin": "yǒu",
-    "pinyin_numeric": "you3",
-    "phonemes": [
-      "you3"
-    ],
-    "pos": "verb",
-    "meaning_en": "to have; there is",
-    "meaning_ko": "있다",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D53_010",
-      "SEN_D53_031",
-      "SEN_D53_034",
-      "SEN_D53_047"
-    ],
-    "audio_id": "AUD_VOC_D53_007",
-    "day_introduced": 53,
-    "semantic_domain": "general",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
-    "srs_tags": [
-      "day_53",
-      "general"
-    ]
-  },
-  {
-    "id": "VOC_D53_008",
-    "char": "在",
-    "pinyin": "zài",
-    "pinyin_numeric": "zai4",
-    "phonemes": [
-      "zai4"
-    ],
-    "pos": "preposition",
-    "meaning_en": "at; in; located at",
-    "meaning_ko": "~에 있다",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [],
-    "audio_id": "AUD_VOC_D53_008",
-    "day_introduced": 53,
-    "semantic_domain": "general",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
-    "srs_tags": [
-      "day_53",
-      "general"
-    ]
-  },
-  {
-    "id": "VOC_D53_009",
-    "char": "去",
-    "pinyin": "qù",
-    "pinyin_numeric": "qu4",
-    "phonemes": [
-      "qu4"
-    ],
-    "pos": "verb",
-    "meaning_en": "to go",
-    "meaning_ko": "가다",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D53_003",
-      "SEN_D53_004",
-      "SEN_D53_033",
-      "SEN_D53_055"
-    ],
-    "audio_id": "AUD_VOC_D53_009",
-    "day_introduced": 53,
-    "semantic_domain": "general",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
-    "srs_tags": [
-      "day_53",
-      "general"
-    ]
-  },
-  {
-    "id": "VOC_D53_010",
-    "char": "要",
-    "pinyin": "yào",
-    "pinyin_numeric": "yao4",
-    "phonemes": [
-      "yao4"
-    ],
-    "pos": "verb",
-    "meaning_en": "to want; need; will",
-    "meaning_ko": "원하다; 필요하다",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D53_009",
-      "SEN_D53_024",
-      "SEN_D53_039",
-      "SEN_D53_054"
-    ],
-    "audio_id": "AUD_VOC_D53_010",
-    "day_introduced": 53,
-    "semantic_domain": "general",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
-    "srs_tags": [
-      "day_53",
-      "general"
-    ]
-  },
-  {
-    "id": "VOC_D53_011",
-    "char": "想",
-    "pinyin": "xiǎng",
-    "pinyin_numeric": "xiang3",
-    "phonemes": [
-      "xiang3"
-    ],
-    "pos": "verb",
-    "meaning_en": "to want; to think",
-    "meaning_ko": "원하다; 생각하다",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D53_007",
-      "SEN_D53_014",
-      "SEN_D53_017",
-      "SEN_D53_022"
-    ],
-    "audio_id": "AUD_VOC_D53_011",
-    "day_introduced": 53,
-    "semantic_domain": "general",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
-    "srs_tags": [
-      "day_53",
-      "general"
-    ]
-  },
-  {
-    "id": "VOC_D53_012",
-    "char": "可以",
-    "pinyin": "kěyǐ",
-    "pinyin_numeric": "keyi3",
-    "phonemes": [
-      "keyi3"
-    ],
-    "pos": "verb",
-    "meaning_en": "can; may",
-    "meaning_ko": "할 수 있다; 해도 된다",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D53_007",
-      "SEN_D53_022",
-      "SEN_D53_037",
-      "SEN_D53_052"
-    ],
-    "audio_id": "AUD_VOC_D53_012",
-    "day_introduced": 53,
-    "semantic_domain": "general",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
-    "srs_tags": [
-      "day_53",
-      "general"
-    ]
-  },
-  {
-    "id": "VOC_D53_013",
-    "char": "嗎",
-    "pinyin": "ma",
-    "pinyin_numeric": "ma0",
-    "phonemes": [
-      "ma0"
-    ],
-    "pos": "particle",
-    "meaning_en": "yes/no question particle",
-    "meaning_ko": "의문 조사",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D53_002",
-      "SEN_D53_007",
-      "SEN_D53_012",
-      "SEN_D53_017"
-    ],
-    "audio_id": "AUD_VOC_D53_013",
-    "day_introduced": 53,
-    "semantic_domain": "general",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
-    "srs_tags": [
-      "day_53",
-      "general"
-    ]
-  },
-  {
-    "id": "VOC_D53_014",
-    "char": "不",
-    "pinyin": "bù",
-    "pinyin_numeric": "bu4",
-    "phonemes": [
-      "bu4"
-    ],
-    "pos": "adverb",
-    "meaning_en": "not",
-    "meaning_ko": "아니다; 안",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [],
-    "audio_id": "AUD_VOC_D53_014",
-    "day_introduced": 53,
-    "semantic_domain": "general",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
-    "srs_tags": [
-      "day_53",
-      "general"
-    ]
-  },
-  {
-    "id": "VOC_D53_015",
-    "char": "很",
-    "pinyin": "hěn",
-    "pinyin_numeric": "hen3",
-    "phonemes": [
-      "hen3"
-    ],
-    "pos": "adverb",
-    "meaning_en": "very; linking adverb",
-    "meaning_ko": "매우",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D53_005",
-      "SEN_D53_008",
-      "SEN_D53_015",
-      "SEN_D53_020"
-    ],
-    "audio_id": "AUD_VOC_D53_015",
-    "day_introduced": 53,
-    "semantic_domain": "general",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
-    "srs_tags": [
-      "day_53",
-      "general"
-    ]
-  },
-  {
-    "id": "VOC_D53_016",
-    "char": "的",
-    "pinyin": "de",
-    "pinyin_numeric": "de0",
-    "phonemes": [
-      "de0"
-    ],
-    "pos": "particle",
-    "meaning_en": "possessive particle",
-    "meaning_ko": "~의",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [],
-    "audio_id": "AUD_VOC_D53_016",
-    "day_introduced": 53,
-    "semantic_domain": "general",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
-    "srs_tags": [
-      "day_53",
-      "general"
-    ]
-  },
-  {
-    "id": "VOC_D53_017",
-    "char": "會",
-    "pinyin": "huì",
-    "pinyin_numeric": "hui4",
-    "phonemes": [
-      "hui4"
-    ],
-    "pos": "verb",
-    "meaning_en": "will; can",
-    "meaning_ko": "~할 것이다; 할 수 있다",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D53_012",
-      "SEN_D53_027",
-      "SEN_D53_042",
-      "SEN_D53_057"
-    ],
-    "audio_id": "AUD_VOC_D53_017",
-    "day_introduced": 53,
-    "semantic_domain": "general",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
-    "srs_tags": [
-      "day_53",
-      "general"
-    ]
-  },
-  {
-    "id": "VOC_D53_018",
-    "char": "都",
-    "pinyin": "dōu",
-    "pinyin_numeric": "dou1",
-    "phonemes": [
-      "dou1"
-    ],
-    "pos": "adverb",
-    "meaning_en": "all; both",
-    "meaning_ko": "모두",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [],
-    "audio_id": "AUD_VOC_D53_018",
-    "day_introduced": 53,
-    "semantic_domain": "general",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
-    "srs_tags": [
-      "day_53",
-      "general"
-    ]
-  },
-  {
-    "id": "VOC_D53_019",
-    "char": "也",
-    "pinyin": "yě",
-    "pinyin_numeric": "ye3",
-    "phonemes": [
-      "ye3"
-    ],
-    "pos": "adverb",
-    "meaning_en": "also",
-    "meaning_ko": "또한",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [],
-    "audio_id": "AUD_VOC_D53_019",
-    "day_introduced": 53,
-    "semantic_domain": "general",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
-    "srs_tags": [
-      "day_53",
-      "general"
-    ]
-  },
-  {
-    "id": "VOC_D53_020",
-    "char": "沒有",
-    "pinyin": "méiyǒu",
-    "pinyin_numeric": "meiyou3",
-    "phonemes": [
-      "meiyou3"
-    ],
-    "pos": "verb",
-    "meaning_en": "do not have; there is not",
-    "meaning_ko": "없다",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [],
-    "audio_id": "AUD_VOC_D53_020",
-    "day_introduced": 53,
-    "semantic_domain": "general",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
-    "srs_tags": [
-      "day_53",
-      "general"
-    ]
-  },
-  {
-    "id": "VOC_D53_021",
-    "char": "什麼",
-    "pinyin": "shénme",
-    "pinyin_numeric": "shenme2",
-    "phonemes": [
-      "shenme2"
-    ],
-    "pos": "question",
-    "meaning_en": "what",
-    "meaning_ko": "무엇",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [],
-    "audio_id": "AUD_VOC_D53_021",
-    "day_introduced": 53,
-    "semantic_domain": "general",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
-    "srs_tags": [
-      "day_53",
-      "general"
-    ]
-  },
-  {
-    "id": "VOC_D53_022",
-    "char": "哪裡",
-    "pinyin": "nǎlǐ",
-    "pinyin_numeric": "nali3",
-    "phonemes": [
-      "nali3"
-    ],
-    "pos": "question",
-    "meaning_en": "where",
-    "meaning_ko": "어디",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [],
-    "audio_id": "AUD_VOC_D53_022",
-    "day_introduced": 53,
-    "semantic_domain": "general",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
-    "srs_tags": [
-      "day_53",
-      "general"
-    ]
-  },
-  {
-    "id": "VOC_D53_023",
-    "char": "怎麼",
-    "pinyin": "zěnme",
-    "pinyin_numeric": "zenme3",
-    "phonemes": [
-      "zenme3"
-    ],
-    "pos": "question",
-    "meaning_en": "how",
-    "meaning_ko": "어떻게",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D53_006",
-      "SEN_D53_021",
-      "SEN_D53_036",
-      "SEN_D53_051"
-    ],
-    "audio_id": "AUD_VOC_D53_023",
-    "day_introduced": 53,
-    "semantic_domain": "general",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
-    "srs_tags": [
-      "day_53",
-      "general"
-    ]
-  },
-  {
-    "id": "VOC_D53_024",
-    "char": "因為",
-    "pinyin": "yīnwèi",
-    "pinyin_numeric": "yin1 wei4",
-    "phonemes": [
-      "yin1",
-      "wei4"
-    ],
-    "pos": "conjunction",
-    "meaning_en": "because",
-    "meaning_ko": "왜냐하면",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [],
-    "audio_id": "AUD_VOC_D53_024",
-    "day_introduced": 53,
-    "semantic_domain": "reason",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
-    "srs_tags": [
-      "day_53",
-      "reason"
-    ]
-  },
-  {
-    "id": "VOC_D53_025",
-    "char": "所以",
-    "pinyin": "suǒyǐ",
-    "pinyin_numeric": "suo3 yi3",
-    "phonemes": [
-      "suo3",
-      "yi3"
-    ],
-    "pos": "conjunction",
-    "meaning_en": "so",
-    "meaning_ko": "그래서",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [],
-    "audio_id": "AUD_VOC_D53_025",
-    "day_introduced": 53,
-    "semantic_domain": "reason",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
-    "srs_tags": [
-      "day_53",
-      "reason"
-    ]
-  },
-  {
-    "id": "VOC_D53_026",
-    "char": "應該",
-    "pinyin": "yīnggāi",
-    "pinyin_numeric": "ying1 gai1",
-    "phonemes": [
-      "ying1",
-      "gai1"
-    ],
-    "pos": "modal verb",
-    "meaning_en": "should",
-    "meaning_ko": "~해야 한다",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [],
-    "audio_id": "AUD_VOC_D53_026",
-    "day_introduced": 53,
-    "semantic_domain": "restaurant",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
-    "srs_tags": [
-      "day_53",
-      "restaurant"
-    ]
-  },
-  {
-    "id": "VOC_D53_027",
-    "char": "需要",
-    "pinyin": "xūyào",
-    "pinyin_numeric": "xuyao4",
-    "phonemes": [
-      "xuyao4"
-    ],
-    "pos": "verb",
-    "meaning_en": "to need",
-    "meaning_ko": "필요하다",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D53_002",
-      "SEN_D53_013",
-      "SEN_D53_028",
-      "SEN_D53_032"
-    ],
-    "audio_id": "AUD_VOC_D53_027",
-    "day_introduced": 53,
-    "semantic_domain": "general",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
-    "srs_tags": [
-      "day_53",
-      "general"
-    ]
-  },
-  {
-    "id": "VOC_D53_028",
-    "char": "最",
-    "pinyin": "zuì",
-    "pinyin_numeric": "zui4",
-    "phonemes": [
-      "zui4"
-    ],
-    "pos": "adverb",
-    "meaning_en": "most",
-    "meaning_ko": "가장",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [],
-    "audio_id": "AUD_VOC_D53_028",
-    "day_introduced": 53,
-    "semantic_domain": "general",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
-    "srs_tags": [
-      "day_53",
-      "general"
-    ]
-  },
-  {
-    "id": "VOC_D53_029",
-    "char": "喜歡",
-    "pinyin": "xǐhuan",
-    "pinyin_numeric": "xihuan3",
-    "phonemes": [
-      "xihuan3"
-    ],
-    "pos": "verb",
-    "meaning_en": "to like",
-    "meaning_ko": "좋아하다",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D53_018",
-      "SEN_D53_019",
-      "SEN_D53_025",
-      "SEN_D53_037"
-    ],
-    "audio_id": "AUD_VOC_D53_029",
-    "day_introduced": 53,
-    "semantic_domain": "general",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
-    "srs_tags": [
-      "day_53",
-      "general"
-    ]
-  },
-  {
-    "id": "VOC_D53_030",
-    "char": "說",
-    "pinyin": "shuō",
-    "pinyin_numeric": "shuo1",
-    "phonemes": [
-      "shuo1"
-    ],
-    "pos": "verb",
-    "meaning_en": "to speak; say",
-    "meaning_ko": "말하다",
-    "frequency": "medium",
-    "cefr": "A2",
-    "hsk_level": 2,
-    "example_ids": [
-      "SEN_D53_001",
-      "SEN_D53_012",
-      "SEN_D53_016",
-      "SEN_D53_027"
-    ],
-    "audio_id": "AUD_VOC_D53_030",
-    "day_introduced": 53,
-    "semantic_domain": "general",
-    "register": "neutral",
-    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
-    "srs_tags": [
-      "day_53",
-      "general"
-    ]
-  },
-  {
     "id": "VOC_D67_001",
     "char": "我",
     "pinyin": "wǒ",
@@ -41087,6 +40259,1197 @@
     "srs_tags": [
       "day_65",
       "Obligation and Advice"
+    ]
+  },
+  {
+    "id": "VOC_D53_001",
+    "char": "休閒",
+    "pinyin": "xiū xián",
+    "pinyin_numeric": "xiu1 xian2",
+    "phonemes": [
+      "xiu1",
+      "xian2"
+    ],
+    "pos": "noun",
+    "meaning_en": "leisure",
+    "meaning_ko": "여가",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D53_015",
+      "SEN_D53_022",
+      "SEN_D53_050",
+      "SEN_D53_052"
+    ],
+    "audio_id": "AUD_VOC_D53_001",
+    "day_introduced": 53,
+    "semantic_domain": "free time",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
+    "srs_tags": [
+      "day_53",
+      "free time"
+    ]
+  },
+  {
+    "id": "VOC_D53_002",
+    "char": "興趣",
+    "pinyin": "xìng qù",
+    "pinyin_numeric": "xing4 qu4",
+    "phonemes": [
+      "xing4",
+      "qu4"
+    ],
+    "pos": "noun",
+    "meaning_en": "hobby",
+    "meaning_ko": "취미",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D53_015"
+    ],
+    "audio_id": "AUD_VOC_D53_002",
+    "day_introduced": 53,
+    "semantic_domain": "hobbies",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
+    "srs_tags": [
+      "day_53",
+      "hobbies"
+    ]
+  },
+  {
+    "id": "VOC_D53_003",
+    "char": "打籃球",
+    "pinyin": "dǎ lán qiú",
+    "pinyin_numeric": "da3 lan2 qiu2",
+    "phonemes": [
+      "da3",
+      "lan2",
+      "qiu2"
+    ],
+    "pos": "verb phrase",
+    "meaning_en": "play basketball",
+    "meaning_ko": "농구를 하다",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D53_001",
+      "SEN_D53_011",
+      "SEN_D53_021",
+      "SEN_D53_031"
+    ],
+    "audio_id": "AUD_VOC_D53_003",
+    "day_introduced": 53,
+    "semantic_domain": "sports",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
+    "srs_tags": [
+      "day_53",
+      "sports"
+    ]
+  },
+  {
+    "id": "VOC_D53_004",
+    "char": "踢足球",
+    "pinyin": "tī zú qiú",
+    "pinyin_numeric": "ti1 zu2 qiu2",
+    "phonemes": [
+      "ti1",
+      "zu2",
+      "qiu2"
+    ],
+    "pos": "verb phrase",
+    "meaning_en": "play soccer",
+    "meaning_ko": "축구를 하다",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D53_021",
+      "SEN_D53_032",
+      "SEN_D53_045",
+      "SEN_D53_051"
+    ],
+    "audio_id": "AUD_VOC_D53_004",
+    "day_introduced": 53,
+    "semantic_domain": "sports",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
+    "srs_tags": [
+      "day_53",
+      "sports"
+    ]
+  },
+  {
+    "id": "VOC_D53_005",
+    "char": "打網球",
+    "pinyin": "dǎ wǎng qiú",
+    "pinyin_numeric": "da3 wang3 qiu2",
+    "phonemes": [
+      "da3",
+      "wang3",
+      "qiu2"
+    ],
+    "pos": "verb phrase",
+    "meaning_en": "play tennis",
+    "meaning_ko": "테니스를 치다",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D53_055"
+    ],
+    "audio_id": "AUD_VOC_D53_005",
+    "day_introduced": 53,
+    "semantic_domain": "sports",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
+    "srs_tags": [
+      "day_53",
+      "sports"
+    ]
+  },
+  {
+    "id": "VOC_D53_006",
+    "char": "打羽毛球",
+    "pinyin": "dǎ yǔ máo qiú",
+    "pinyin_numeric": "da3 yu3 mao2 qiu2",
+    "phonemes": [
+      "da3",
+      "yu3",
+      "mao2",
+      "qiu2"
+    ],
+    "pos": "verb phrase",
+    "meaning_en": "play badminton",
+    "meaning_ko": "배드민턴을 치다",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D53_055",
+      "SEN_D53_083"
+    ],
+    "audio_id": "AUD_VOC_D53_006",
+    "day_introduced": 53,
+    "semantic_domain": "sports",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
+    "srs_tags": [
+      "day_53",
+      "sports"
+    ]
+  },
+  {
+    "id": "VOC_D53_007",
+    "char": "下棋",
+    "pinyin": "xià qí",
+    "pinyin_numeric": "xia4 qi2",
+    "phonemes": [
+      "xia4",
+      "qi2"
+    ],
+    "pos": "verb phrase",
+    "meaning_en": "play chess",
+    "meaning_ko": "체스를 두다",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D53_023",
+      "SEN_D53_068",
+      "SEN_D53_084"
+    ],
+    "audio_id": "AUD_VOC_D53_007",
+    "day_introduced": 53,
+    "semantic_domain": "games",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
+    "srs_tags": [
+      "day_53",
+      "games"
+    ]
+  },
+  {
+    "id": "VOC_D53_008",
+    "char": "畫畫",
+    "pinyin": "huà huà",
+    "pinyin_numeric": "hua4 hua4",
+    "phonemes": [
+      "hua4",
+      "hua4"
+    ],
+    "pos": "verb phrase",
+    "meaning_en": "draw/paint",
+    "meaning_ko": "그림을 그리다",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D53_008",
+    "day_introduced": 53,
+    "semantic_domain": "arts",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
+    "srs_tags": [
+      "day_53",
+      "arts"
+    ]
+  },
+  {
+    "id": "VOC_D53_009",
+    "char": "彈鋼琴",
+    "pinyin": "tán gāng qín",
+    "pinyin_numeric": "tan2 gang1 qin2",
+    "phonemes": [
+      "tan2",
+      "gang1",
+      "qin2"
+    ],
+    "pos": "verb phrase",
+    "meaning_en": "play the piano",
+    "meaning_ko": "피아노를 치다",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D53_009",
+    "day_introduced": 53,
+    "semantic_domain": "music",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
+    "srs_tags": [
+      "day_53",
+      "music"
+    ]
+  },
+  {
+    "id": "VOC_D53_010",
+    "char": "彈吉他",
+    "pinyin": "tán jí tā",
+    "pinyin_numeric": "tan2 ji2 ta1",
+    "phonemes": [
+      "tan2",
+      "ji2",
+      "ta1"
+    ],
+    "pos": "verb phrase",
+    "meaning_en": "play the guitar",
+    "meaning_ko": "기타를 치다",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D53_007",
+      "SEN_D53_017",
+      "SEN_D53_057",
+      "SEN_D53_072"
+    ],
+    "audio_id": "AUD_VOC_D53_010",
+    "day_introduced": 53,
+    "semantic_domain": "music",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
+    "srs_tags": [
+      "day_53",
+      "music"
+    ]
+  },
+  {
+    "id": "VOC_D53_011",
+    "char": "看展覽",
+    "pinyin": "kàn zhǎn lǎn",
+    "pinyin_numeric": "kan4 zhan3 lan3",
+    "phonemes": [
+      "kan4",
+      "zhan3",
+      "lan3"
+    ],
+    "pos": "verb phrase",
+    "meaning_en": "visit an exhibition",
+    "meaning_ko": "전시회를 보다",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D53_015",
+      "SEN_D53_058",
+      "SEN_D53_074",
+      "SEN_D53_090"
+    ],
+    "audio_id": "AUD_VOC_D53_011",
+    "day_introduced": 53,
+    "semantic_domain": "culture",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
+    "srs_tags": [
+      "day_53",
+      "culture"
+    ]
+  },
+  {
+    "id": "VOC_D53_012",
+    "char": "爬山",
+    "pinyin": "pá shān",
+    "pinyin_numeric": "pa2 shan1",
+    "phonemes": [
+      "pa2",
+      "shan1"
+    ],
+    "pos": "verb phrase",
+    "meaning_en": "hike a mountain",
+    "meaning_ko": "등산하다",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D53_009",
+      "SEN_D53_013",
+      "SEN_D53_024",
+      "SEN_D53_034"
+    ],
+    "audio_id": "AUD_VOC_D53_012",
+    "day_introduced": 53,
+    "semantic_domain": "outdoor",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
+    "srs_tags": [
+      "day_53",
+      "outdoor"
+    ]
+  },
+  {
+    "id": "VOC_D53_013",
+    "char": "露營",
+    "pinyin": "lù yíng",
+    "pinyin_numeric": "lu4 ying2",
+    "phonemes": [
+      "lu4",
+      "ying2"
+    ],
+    "pos": "verb phrase",
+    "meaning_en": "camp",
+    "meaning_ko": "캠핑하다",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D53_006",
+      "SEN_D53_019",
+      "SEN_D53_060",
+      "SEN_D53_064"
+    ],
+    "audio_id": "AUD_VOC_D53_013",
+    "day_introduced": 53,
+    "semantic_domain": "outdoor",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
+    "srs_tags": [
+      "day_53",
+      "outdoor"
+    ]
+  },
+  {
+    "id": "VOC_D53_014",
+    "char": "釣魚",
+    "pinyin": "diào yú",
+    "pinyin_numeric": "diao4 yu2",
+    "phonemes": [
+      "diao4",
+      "yu2"
+    ],
+    "pos": "verb phrase",
+    "meaning_en": "fish",
+    "meaning_ko": "낚시하다",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D53_008",
+      "SEN_D53_018",
+      "SEN_D53_047",
+      "SEN_D53_077"
+    ],
+    "audio_id": "AUD_VOC_D53_014",
+    "day_introduced": 53,
+    "semantic_domain": "outdoor",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
+    "srs_tags": [
+      "day_53",
+      "outdoor"
+    ]
+  },
+  {
+    "id": "VOC_D53_015",
+    "char": "騎腳踏車",
+    "pinyin": "qí jiǎo tà chē",
+    "pinyin_numeric": "qi2 jiao3 ta4 che1",
+    "phonemes": [
+      "qi2",
+      "jiao3",
+      "ta4",
+      "che1"
+    ],
+    "pos": "verb phrase",
+    "meaning_en": "ride a bicycle",
+    "meaning_ko": "자전거를 타다",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D53_003",
+      "SEN_D53_019",
+      "SEN_D53_029",
+      "SEN_D53_037"
+    ],
+    "audio_id": "AUD_VOC_D53_015",
+    "day_introduced": 53,
+    "semantic_domain": "sports",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
+    "srs_tags": [
+      "day_53",
+      "sports"
+    ]
+  },
+  {
+    "id": "VOC_D53_016",
+    "char": "打電動",
+    "pinyin": "dǎ diàn dòng",
+    "pinyin_numeric": "da3 dian4 dong4",
+    "phonemes": [
+      "da3",
+      "dian4",
+      "dong4"
+    ],
+    "pos": "verb phrase",
+    "meaning_en": "play video games",
+    "meaning_ko": "게임을 하다",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D53_005",
+      "SEN_D53_016",
+      "SEN_D53_026",
+      "SEN_D53_039"
+    ],
+    "audio_id": "AUD_VOC_D53_016",
+    "day_introduced": 53,
+    "semantic_domain": "games",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
+    "srs_tags": [
+      "day_53",
+      "games"
+    ]
+  },
+  {
+    "id": "VOC_D53_017",
+    "char": "看小說",
+    "pinyin": "kàn xiǎo shuō",
+    "pinyin_numeric": "kan4 xiao3 shuo1",
+    "phonemes": [
+      "kan4",
+      "xiao3",
+      "shuo1"
+    ],
+    "pos": "verb phrase",
+    "meaning_en": "read novels",
+    "meaning_ko": "소설을 읽다",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D53_002",
+      "SEN_D53_012",
+      "SEN_D53_025",
+      "SEN_D53_033"
+    ],
+    "audio_id": "AUD_VOC_D53_017",
+    "day_introduced": 53,
+    "semantic_domain": "reading",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
+    "srs_tags": [
+      "day_53",
+      "reading"
+    ]
+  },
+  {
+    "id": "VOC_D53_018",
+    "char": "看漫畫",
+    "pinyin": "kàn màn huà",
+    "pinyin_numeric": "kan4 man4 hua4",
+    "phonemes": [
+      "kan4",
+      "man4",
+      "hua4"
+    ],
+    "pos": "verb phrase",
+    "meaning_en": "read comics",
+    "meaning_ko": "만화를 보다",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D53_002",
+      "SEN_D53_012",
+      "SEN_D53_025",
+      "SEN_D53_042"
+    ],
+    "audio_id": "AUD_VOC_D53_018",
+    "day_introduced": 53,
+    "semantic_domain": "reading",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
+    "srs_tags": [
+      "day_53",
+      "reading"
+    ]
+  },
+  {
+    "id": "VOC_D53_019",
+    "char": "聽廣播",
+    "pinyin": "tīng guǎng bō",
+    "pinyin_numeric": "ting1 guang3 bo1",
+    "phonemes": [
+      "ting1",
+      "guang3",
+      "bo1"
+    ],
+    "pos": "verb phrase",
+    "meaning_en": "listen to the radio",
+    "meaning_ko": "라디오를 듣다",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D53_004",
+      "SEN_D53_015",
+      "SEN_D53_027",
+      "SEN_D53_035"
+    ],
+    "audio_id": "AUD_VOC_D53_019",
+    "day_introduced": 53,
+    "semantic_domain": "media",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
+    "srs_tags": [
+      "day_53",
+      "media"
+    ]
+  },
+  {
+    "id": "VOC_D53_020",
+    "char": "看演唱會",
+    "pinyin": "kàn yǎn chàng huì",
+    "pinyin_numeric": "kan4 yan3 chang4 hui4",
+    "phonemes": [
+      "kan4",
+      "yan3",
+      "chang4",
+      "hui4"
+    ],
+    "pos": "verb phrase",
+    "meaning_en": "attend a concert",
+    "meaning_ko": "콘서트를 보다",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D53_004",
+      "SEN_D53_020",
+      "SEN_D53_027",
+      "SEN_D53_040"
+    ],
+    "audio_id": "AUD_VOC_D53_020",
+    "day_introduced": 53,
+    "semantic_domain": "entertainment",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
+    "srs_tags": [
+      "day_53",
+      "entertainment"
+    ]
+  },
+  {
+    "id": "VOC_D53_021",
+    "char": "看球賽",
+    "pinyin": "kàn qiú sài",
+    "pinyin_numeric": "kan4 qiu2 sai4",
+    "phonemes": [
+      "kan4",
+      "qiu2",
+      "sai4"
+    ],
+    "pos": "verb phrase",
+    "meaning_en": "watch a ball game",
+    "meaning_ko": "경기를 보다",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D53_010",
+      "SEN_D53_016",
+      "SEN_D53_028",
+      "SEN_D53_038"
+    ],
+    "audio_id": "AUD_VOC_D53_021",
+    "day_introduced": 53,
+    "semantic_domain": "sports",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
+    "srs_tags": [
+      "day_53",
+      "sports"
+    ]
+  },
+  {
+    "id": "VOC_D53_022",
+    "char": "做手工",
+    "pinyin": "zuò shǒu gōng",
+    "pinyin_numeric": "zuo4 shou3 gong1",
+    "phonemes": [
+      "zuo4",
+      "shou3",
+      "gong1"
+    ],
+    "pos": "verb phrase",
+    "meaning_en": "do crafts",
+    "meaning_ko": "수공예를 하다",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D53_014"
+    ],
+    "audio_id": "AUD_VOC_D53_022",
+    "day_introduced": 53,
+    "semantic_domain": "arts",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
+    "srs_tags": [
+      "day_53",
+      "arts"
+    ]
+  },
+  {
+    "id": "VOC_D53_023",
+    "char": "種花",
+    "pinyin": "zhòng huā",
+    "pinyin_numeric": "zhong4 hua1",
+    "phonemes": [
+      "zhong4",
+      "hua1"
+    ],
+    "pos": "verb phrase",
+    "meaning_en": "grow flowers",
+    "meaning_ko": "꽃을 심다",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D53_014",
+      "SEN_D53_048"
+    ],
+    "audio_id": "AUD_VOC_D53_023",
+    "day_introduced": 53,
+    "semantic_domain": "gardening",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
+    "srs_tags": [
+      "day_53",
+      "gardening"
+    ]
+  },
+  {
+    "id": "VOC_D53_024",
+    "char": "養寵物",
+    "pinyin": "yǎng chǒng wù",
+    "pinyin_numeric": "yang3 chong3 wu4",
+    "phonemes": [
+      "yang3",
+      "chong3",
+      "wu4"
+    ],
+    "pos": "verb phrase",
+    "meaning_en": "keep a pet",
+    "meaning_ko": "반려동물을 기르다",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D53_030",
+      "SEN_D53_059"
+    ],
+    "audio_id": "AUD_VOC_D53_024",
+    "day_introduced": 53,
+    "semantic_domain": "pets",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
+    "srs_tags": [
+      "day_53",
+      "pets"
+    ]
+  },
+  {
+    "id": "VOC_D53_025",
+    "char": "常常",
+    "pinyin": "cháng cháng",
+    "pinyin_numeric": "chang2 chang2",
+    "phonemes": [
+      "chang2",
+      "chang2"
+    ],
+    "pos": "adverb",
+    "meaning_en": "often",
+    "meaning_ko": "자주",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D53_001",
+      "SEN_D53_002",
+      "SEN_D53_004",
+      "SEN_D53_005"
+    ],
+    "audio_id": "AUD_VOC_D53_025",
+    "day_introduced": 53,
+    "semantic_domain": "frequency",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
+    "srs_tags": [
+      "day_53",
+      "frequency"
+    ]
+  },
+  {
+    "id": "VOC_D53_026",
+    "char": "有時候",
+    "pinyin": "yǒu shí hou",
+    "pinyin_numeric": "you3 shi2 hou5",
+    "phonemes": [
+      "you3",
+      "shi2",
+      "hou5"
+    ],
+    "pos": "adverb",
+    "meaning_en": "sometimes",
+    "meaning_ko": "가끔",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D53_003",
+      "SEN_D53_007",
+      "SEN_D53_011",
+      "SEN_D53_012"
+    ],
+    "audio_id": "AUD_VOC_D53_026",
+    "day_introduced": 53,
+    "semantic_domain": "frequency",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
+    "srs_tags": [
+      "day_53",
+      "frequency"
+    ]
+  },
+  {
+    "id": "VOC_D53_027",
+    "char": "很少",
+    "pinyin": "hěn shǎo",
+    "pinyin_numeric": "hen3 shao3",
+    "phonemes": [
+      "hen3",
+      "shao3"
+    ],
+    "pos": "adverb",
+    "meaning_en": "rarely",
+    "meaning_ko": "거의 ~않다",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D53_002",
+      "SEN_D53_012",
+      "SEN_D53_026",
+      "SEN_D53_042"
+    ],
+    "audio_id": "AUD_VOC_D53_027",
+    "day_introduced": 53,
+    "semantic_domain": "frequency",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
+    "srs_tags": [
+      "day_53",
+      "frequency"
+    ]
+  },
+  {
+    "id": "VOC_D53_028",
+    "char": "從來不",
+    "pinyin": "cóng lái bù",
+    "pinyin_numeric": "cong2 lai2 bu4",
+    "phonemes": [
+      "cong2",
+      "lai2",
+      "bu4"
+    ],
+    "pos": "adverb",
+    "meaning_en": "never (habitually)",
+    "meaning_ko": "전혀 ~않다",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D53_005",
+      "SEN_D53_016",
+      "SEN_D53_028",
+      "SEN_D53_048"
+    ],
+    "audio_id": "AUD_VOC_D53_028",
+    "day_introduced": 53,
+    "semantic_domain": "frequency",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
+    "srs_tags": [
+      "day_53",
+      "frequency"
+    ]
+  },
+  {
+    "id": "VOC_D53_029",
+    "char": "每次",
+    "pinyin": "měi cì",
+    "pinyin_numeric": "mei3 ci4",
+    "phonemes": [
+      "mei3",
+      "ci4"
+    ],
+    "pos": "adverb",
+    "meaning_en": "every time",
+    "meaning_ko": "매번",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D53_060"
+    ],
+    "audio_id": "AUD_VOC_D53_029",
+    "day_introduced": 53,
+    "semantic_domain": "frequency",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
+    "srs_tags": [
+      "day_53",
+      "frequency"
+    ]
+  },
+  {
+    "id": "VOC_D53_030",
+    "char": "週末",
+    "pinyin": "zhōu mò",
+    "pinyin_numeric": "zhou1 mo4",
+    "phonemes": [
+      "zhou1",
+      "mo4"
+    ],
+    "pos": "noun",
+    "meaning_en": "weekend",
+    "meaning_ko": "주말",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D53_030",
+    "day_introduced": 53,
+    "semantic_domain": "time",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
+    "srs_tags": [
+      "day_53",
+      "time"
+    ]
+  },
+  {
+    "id": "VOC_D53_031",
+    "char": "平時",
+    "pinyin": "píng shí",
+    "pinyin_numeric": "ping2 shi2",
+    "phonemes": [
+      "ping2",
+      "shi2"
+    ],
+    "pos": "noun",
+    "meaning_en": "usual time/weekdays",
+    "meaning_ko": "평소",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D53_012",
+      "SEN_D53_015",
+      "SEN_D53_020",
+      "SEN_D53_042"
+    ],
+    "audio_id": "AUD_VOC_D53_031",
+    "day_introduced": 53,
+    "semantic_domain": "time",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
+    "srs_tags": [
+      "day_53",
+      "time"
+    ]
+  },
+  {
+    "id": "VOC_D53_032",
+    "char": "放假",
+    "pinyin": "fàng jià",
+    "pinyin_numeric": "fang4 jia4",
+    "phonemes": [
+      "fang4",
+      "jia4"
+    ],
+    "pos": "verb phrase",
+    "meaning_en": "have a day off",
+    "meaning_ko": "휴가를 내다",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D53_006",
+      "SEN_D53_014",
+      "SEN_D53_019",
+      "SEN_D53_029"
+    ],
+    "audio_id": "AUD_VOC_D53_032",
+    "day_introduced": 53,
+    "semantic_domain": "time",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
+    "srs_tags": [
+      "day_53",
+      "time"
+    ]
+  },
+  {
+    "id": "VOC_D53_033",
+    "char": "一起",
+    "pinyin": "yī qǐ",
+    "pinyin_numeric": "yi1 qi3",
+    "phonemes": [
+      "yi1",
+      "qi3"
+    ],
+    "pos": "adverb",
+    "meaning_en": "together",
+    "meaning_ko": "함께",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D53_033",
+    "day_introduced": 53,
+    "semantic_domain": "invitation",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
+    "srs_tags": [
+      "day_53",
+      "invitation"
+    ]
+  },
+  {
+    "id": "VOC_D53_034",
+    "char": "要不要",
+    "pinyin": "yào bù yào",
+    "pinyin_numeric": "yao4 bu4 yao4",
+    "phonemes": [
+      "yao4",
+      "bu4",
+      "yao4"
+    ],
+    "pos": "phrase",
+    "meaning_en": "would you like to",
+    "meaning_ko": "~할래요?",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [
+      "SEN_D53_010",
+      "SEN_D53_018",
+      "SEN_D53_024",
+      "SEN_D53_046"
+    ],
+    "audio_id": "AUD_VOC_D53_034",
+    "day_introduced": 53,
+    "semantic_domain": "invitation",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
+    "srs_tags": [
+      "day_53",
+      "invitation"
+    ]
+  },
+  {
+    "id": "VOC_D53_035",
+    "char": "有空",
+    "pinyin": "yǒu kòng",
+    "pinyin_numeric": "you3 kong4",
+    "phonemes": [
+      "you3",
+      "kong4"
+    ],
+    "pos": "verb phrase",
+    "meaning_en": "have free time",
+    "meaning_ko": "시간이 있다",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D53_035",
+    "day_introduced": 53,
+    "semantic_domain": "invitation",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
+    "srs_tags": [
+      "day_53",
+      "invitation"
+    ]
+  },
+  {
+    "id": "VOC_D53_036",
+    "char": "忙",
+    "pinyin": "máng",
+    "pinyin_numeric": "mang2",
+    "phonemes": [
+      "mang2"
+    ],
+    "pos": "adjective",
+    "meaning_en": "busy",
+    "meaning_ko": "바쁘다",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D53_036",
+    "day_introduced": 53,
+    "semantic_domain": "state",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
+    "srs_tags": [
+      "day_53",
+      "state"
+    ]
+  },
+  {
+    "id": "VOC_D53_037",
+    "char": "約",
+    "pinyin": "yuē",
+    "pinyin_numeric": "yue1",
+    "phonemes": [
+      "yue1"
+    ],
+    "pos": "verb",
+    "meaning_en": "make an appointment",
+    "meaning_ko": "약속하다",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D53_037",
+    "day_introduced": 53,
+    "semantic_domain": "invitation",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
+    "srs_tags": [
+      "day_53",
+      "invitation"
+    ]
+  },
+  {
+    "id": "VOC_D53_038",
+    "char": "改天",
+    "pinyin": "gǎi tiān",
+    "pinyin_numeric": "gai3 tian1",
+    "phonemes": [
+      "gai3",
+      "tian1"
+    ],
+    "pos": "adverb",
+    "meaning_en": "another day",
+    "meaning_ko": "다음에",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D53_038",
+    "day_introduced": 53,
+    "semantic_domain": "invitation",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
+    "srs_tags": [
+      "day_53",
+      "invitation"
+    ]
+  },
+  {
+    "id": "VOC_D53_039",
+    "char": "下次",
+    "pinyin": "xià cì",
+    "pinyin_numeric": "xia4 ci4",
+    "phonemes": [
+      "xia4",
+      "ci4"
+    ],
+    "pos": "adverb",
+    "meaning_en": "next time",
+    "meaning_ko": "다음 번",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D53_039",
+    "day_introduced": 53,
+    "semantic_domain": "invitation",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
+    "srs_tags": [
+      "day_53",
+      "invitation"
+    ]
+  },
+  {
+    "id": "VOC_D53_040",
+    "char": "好玩",
+    "pinyin": "hǎo wán",
+    "pinyin_numeric": "hao3 wan2",
+    "phonemes": [
+      "hao3",
+      "wan2"
+    ],
+    "pos": "adjective",
+    "meaning_en": "fun",
+    "meaning_ko": "재미있다",
+    "frequency": "medium",
+    "cefr": "A2",
+    "hsk_level": 2,
+    "example_ids": [],
+    "audio_id": "AUD_VOC_D53_040",
+    "day_introduced": 53,
+    "semantic_domain": "evaluation",
+    "register": "neutral",
+    "taiwan_usage_note": "Introduced on Day 53 for Taiwan daily-life communication.",
+    "srs_tags": [
+      "day_53",
+      "evaluation"
     ]
   }
 ]

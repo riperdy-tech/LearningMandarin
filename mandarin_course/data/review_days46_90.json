@@ -1,25 +1,5 @@
 [
   {
-    "id": "REV_D53",
-    "lesson_id": "LESSON_D53",
-    "source_days": [
-      52,
-      51,
-      50,
-      49,
-      48
-    ],
-    "minimum_review_items": 30,
-    "review_sources": [
-      "prior_1_days",
-      "prior_2_days",
-      "prior_3_days",
-      "prior_4_days",
-      "prior_5_days"
-    ],
-    "prompt_en": "Review older material by producing new sentences, not by reading passively."
-  },
-  {
     "id": "REV_D67",
     "lesson_id": "LESSON_D67",
     "source_days": [
@@ -888,6 +868,26 @@
       58,
       51,
       35
+    ],
+    "minimum_review_items": 30,
+    "review_sources": [
+      "prior_1_day",
+      "prior_3_days",
+      "prior_7_days",
+      "prior_14_days",
+      "prior_30_days"
+    ],
+    "prompt_en": "Review older words by producing new sentences, not by reading passively."
+  },
+  {
+    "id": "REV_D53",
+    "lesson_id": "LESSON_D53",
+    "source_days": [
+      52,
+      50,
+      46,
+      39,
+      23
     ],
     "minimum_review_items": 30,
     "review_sources": [
