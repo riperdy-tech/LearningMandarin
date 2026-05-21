@@ -49,26 +49,6 @@
         "text": "請問，可以幫我加珍珠嗎？",
         "pinyin": "Qǐngwèn, kěyǐ bāng wǒ jiā zhēnzhū ma?",
         "translation_en": "Excuse me, could you add boba for me?"
-      },
-      {
-        "text": "我想要一杯綠茶，半糖，可以嗎？",
-        "pinyin": "Wǒ xiǎng yào yī bēi lǜchá, bàn táng, kěyǐ ma?",
-        "translation_en": "I would like a green tea, half sugar, okay?"
-      },
-      {
-        "text": "麻煩你，可以給我中杯的豆漿嗎？",
-        "pinyin": "Máfan nǐ, kěyǐ gěi wǒ zhōng bēi de dòujiāng ma?",
-        "translation_en": "Excuse me, could you give me a medium soy milk?"
-      },
-      {
-        "text": "不好意思，可以再說一次嗎？我聽不懂。",
-        "pinyin": "Bù hǎo yìsi, kěyǐ zài shuō yī cì ma? Wǒ tīng bù dǒng.",
-        "translation_en": "Excuse me, could you say it again? I don't understand."
-      },
-      {
-        "text": "請問，可以慢一點說嗎？",
-        "pinyin": "Qǐngwèn, kěyǐ màn yī diǎn shuō ma?",
-        "translation_en": "Excuse me, could you speak a little slower?"
       }
     ],
     "drill_examples": [
@@ -89,36 +69,6 @@
         "pinyin": "Bù hǎo yìsi, kěyǐ gěi wǒ yī ge dàizi ma?",
         "translation_en": "Excuse me, could you give me a bag?",
         "translation_ko": "죄송합니다, 봉투 하나를 주시겠어요?"
-      },
-      {
-        "text": "請問，可以幫我加珍珠嗎？",
-        "pinyin": "Qǐngwèn, kěyǐ bāng wǒ jiā zhēnzhū ma?",
-        "translation_en": "Excuse me, could you add boba for me?",
-        "translation_ko": "실례합니다, 타피오카 펄을 추가해 주시겠어요?"
-      },
-      {
-        "text": "我想要一杯綠茶，半糖，可以嗎？",
-        "pinyin": "Wǒ xiǎng yào yī bēi lǜchá, bàn táng, kěyǐ ma?",
-        "translation_en": "I would like a green tea, half sugar, okay?",
-        "translation_ko": "녹차 한 잔, 반당으로 원하는데 괜찮을까요?"
-      },
-      {
-        "text": "麻煩你，可以給我中杯的豆漿嗎？",
-        "pinyin": "Máfan nǐ, kěyǐ gěi wǒ zhōng bēi de dòujiāng ma?",
-        "translation_en": "Excuse me, could you give me a medium soy milk?",
-        "translation_ko": "실례합니다, 중간 컵의 두유를 주시겠어요?"
-      },
-      {
-        "text": "不好意思，可以再說一次嗎？我聽不懂。",
-        "pinyin": "Bù hǎo yìsi, kěyǐ zài shuō yī cì ma? Wǒ tīng bù dǒng.",
-        "translation_en": "Excuse me, could you say it again? I don't understand.",
-        "translation_ko": "죄송합니다, 한 번 더 말씀해 주시겠어요? 제가 이해하지 못했어요."
-      },
-      {
-        "text": "請問，可以慢一點說嗎？",
-        "pinyin": "Qǐngwèn, kěyǐ màn yī diǎn shuō ma?",
-        "translation_en": "Excuse me, could you speak a little slower?",
-        "translation_ko": "실례합니다, 조금 천천히 말씀해 주시겠어요?"
       }
     ],
     "negative_examples": [
@@ -134,19 +84,20 @@
       }
     ],
     "transformation_drills": [
-      "Change '我要一杯水' to a polite request using 可以...嗎？"
+      "把 '我要咖啡' 改成 '可以給我一杯咖啡嗎？'",
+      "用 '可以...嗎？' 點三種飲料"
     ],
     "production_drills": [
-      "Ask for permission to sit here using 可以...嗎？"
+      "在咖啡店禮貌點餐",
+      "'你好，可以___嗎？'"
     ],
     "common_error_patterns": [
-      "Placing 嗎 before the verb",
-      "Omitting 可以 and using a direct command"
+      "'嗎' 忘了放在句尾",
+      "用 '要' 而非 '可以' 太直接"
     ],
     "repair_feedback": {
-      "word_order": "Remember: 可以 + verb + object + 嗎",
-      "politeness": "Using 可以...嗎？ is polite; avoid direct commands like '給我水'.",
-      "vocabulary": "Use appropriate verbs like 喝, 吃, 坐, 看."
+      "word_order": "可以 + 動詞 + 受詞 + 嗎？",
+      "politeness": "'可以...嗎？' 是台灣最常用的禮貌請求"
     },
     "slots": [
       {
@@ -261,21 +212,6 @@
         "text": "我想要一杯冰的拿鐵，少冰。",
         "pinyin": "Wǒ xiǎng yào yī bēi bīng de ná tiě, shǎo bīng.",
         "translation_en": "I want an iced latte, less ice."
-      },
-      {
-        "text": "我想要一杯大杯的拿鐵，加珍珠。",
-        "pinyin": "Wǒ xiǎng yào yī bēi dà bēi de ná tiě, jiā zhēn zhū.",
-        "translation_en": "I want a large latte with boba."
-      },
-      {
-        "text": "我想要一杯中杯的紅茶，正常甜，外帶。",
-        "pinyin": "Wǒ xiǎng yào yī bēi zhōng bēi de hóng chá, zhèng cháng tián, wài dài.",
-        "translation_en": "I want a medium black tea, normal sweetness, to go."
-      },
-      {
-        "text": "我想要一杯小杯的綠茶，微糖。",
-        "pinyin": "Wǒ xiǎng yào yī bēi xiǎo bēi de lǜ chá, wēi táng.",
-        "translation_en": "I want a small green tea, low sugar."
       }
     ],
     "drill_examples": [
@@ -296,30 +232,6 @@
         "pinyin": "Wǒ xiǎng yào yī bēi dòu jiāng, nèi yòng.",
         "translation_en": "I want a cup of soy milk, for here.",
         "translation_ko": "두유 한 잔을 매장에서 마시고 싶습니다."
-      },
-      {
-        "text": "我想要一杯冰的拿鐵，少冰。",
-        "pinyin": "Wǒ xiǎng yào yī bēi bīng de ná tiě, shǎo bīng.",
-        "translation_en": "I want an iced latte, less ice.",
-        "translation_ko": "얼음 적게 넣은 아이스 라떼 한 잔을 원합니다."
-      },
-      {
-        "text": "我想要一杯大杯的拿鐵，加珍珠。",
-        "pinyin": "Wǒ xiǎng yào yī bēi dà bēi de ná tiě, jiā zhēn zhū.",
-        "translation_en": "I want a large latte with boba.",
-        "translation_ko": "큰 라떼에 타피오카 펄을 추가하고 싶습니다."
-      },
-      {
-        "text": "我想要一杯中杯的紅茶，正常甜，外帶。",
-        "pinyin": "Wǒ xiǎng yào yī bēi zhōng bēi de hóng chá, zhèng cháng tián, wài dài.",
-        "translation_en": "I want a medium black tea, normal sweetness, to go.",
-        "translation_ko": "중간 크기의 홍차 보통 당도로 포장해 주세요."
-      },
-      {
-        "text": "我想要一杯小杯的綠茶，微糖。",
-        "pinyin": "Wǒ xiǎng yào yī bēi xiǎo bēi de lǜ chá, wēi táng.",
-        "translation_en": "I want a small green tea, low sugar.",
-        "translation_ko": "작은 녹차 한 잔을 약간 단맛으로 원합니다."
       }
     ],
     "negative_examples": [
@@ -335,19 +247,20 @@
       }
     ],
     "transformation_drills": [
-      "Change '我要一杯紅茶' to a more polite form using 想要"
+      "用 '想要' 點三種飲料",
+      "把 '我要' 改成 '我想要'"
     ],
     "production_drills": [
-      "Order a drink using 想要 at a café"
+      "在咖啡店說你想要什麼",
+      "'我想要___'"
     ],
     "common_error_patterns": [
-      "Using 想要 in questions",
-      "Using 要 instead of 想要 in polite contexts"
+      "'想要' 後面加 '嗎'",
+      "正式場合用 '要' 太直接"
     ],
     "repair_feedback": {
-      "word_order": "Use 想要 + object, not 想要 + 嗎",
-      "politeness": "Use 想要 instead of 要 to sound more polite",
-      "vocabulary": "Use object nouns like 咖啡, 茶, 水"
+      "word_order": "想要 + 名詞",
+      "vs_yao": "'想要'=would like (softer)，'要'=want"
     },
     "slots": [
       {
@@ -462,26 +375,6 @@
         "text": "不好意思，請問這個價錢是多少？",
         "pinyin": "Bù hǎo yì si, qǐng wèn zhè ge jià qián shì duō shǎo?",
         "translation_en": "Excuse me, how much is this?"
-      },
-      {
-        "text": "不好意思，我要一杯綠茶，去冰。",
-        "pinyin": "Bù hǎo yì si, wǒ yào yī bēi lǜ chá, qù bīng.",
-        "translation_en": "Excuse me, I'd like a green tea, no ice."
-      },
-      {
-        "text": "不好意思，麻煩幫我加珍珠。",
-        "pinyin": "Bù hǎo yì si, má fan bāng wǒ jiā zhēn zhū.",
-        "translation_en": "Excuse me, please add boba for me."
-      },
-      {
-        "text": "不好意思，我要外帶一杯豆漿。",
-        "pinyin": "Bù hǎo yì si, wǒ yào wài dài yī bēi dòu jiāng.",
-        "translation_en": "Excuse me, I'd like a soy milk to go."
-      },
-      {
-        "text": "不好意思，請給我一根吸管。",
-        "pinyin": "Bù hǎo yì si, qǐng gěi wǒ yī gēn xī guǎn.",
-        "translation_en": "Excuse me, please give me a straw."
       }
     ],
     "drill_examples": [
@@ -502,36 +395,6 @@
         "pinyin": "Bù hǎo yì si, wǒ yào yī bēi hóng chá, bàn táng shǎo bīng.",
         "translation_en": "Excuse me, I'd like a black tea, half sugar and less ice.",
         "translation_ko": "실례합니다, 홍차 한 잔에 당도 반, 얼음 적게 주세요."
-      },
-      {
-        "text": "不好意思，請問這個價錢是多少？",
-        "pinyin": "Bù hǎo yì si, qǐng wèn zhè ge jià qián shì duō shǎo?",
-        "translation_en": "Excuse me, how much is this?",
-        "translation_ko": "실례합니다, 이 가격이 얼마인가요?"
-      },
-      {
-        "text": "不好意思，我要一杯綠茶，去冰。",
-        "pinyin": "Bù hǎo yì si, wǒ yào yī bēi lǜ chá, qù bīng.",
-        "translation_en": "Excuse me, I'd like a green tea, no ice.",
-        "translation_ko": "실례합니다, 녹차 한 잔에 얼음 빼 주세요."
-      },
-      {
-        "text": "不好意思，麻煩幫我加珍珠。",
-        "pinyin": "Bù hǎo yì si, má fan bāng wǒ jiā zhēn zhū.",
-        "translation_en": "Excuse me, please add boba for me.",
-        "translation_ko": "실례합니다, 타피오카 펄을 추가해 주세요."
-      },
-      {
-        "text": "不好意思，我要外帶一杯豆漿。",
-        "pinyin": "Bù hǎo yì si, wǒ yào wài dài yī bēi dòu jiāng.",
-        "translation_en": "Excuse me, I'd like a soy milk to go.",
-        "translation_ko": "실례합니다, 두유 한 잔 포장해 주세요."
-      },
-      {
-        "text": "不好意思，請給我一根吸管。",
-        "pinyin": "Bù hǎo yì si, qǐng gěi wǒ yī gēn xī guǎn.",
-        "translation_en": "Excuse me, please give me a straw.",
-        "translation_ko": "실례합니다, 빨대 하나 주세요."
       }
     ],
     "negative_examples": [
@@ -547,19 +410,20 @@
       }
     ],
     "transformation_drills": [
-      "Add 不好意思 to the beginning of '可以給我菜單嗎？'"
+      "在請求前加 '不好意思'",
+      "用 '麻煩你' 替代 '不好意思'"
     ],
     "production_drills": [
-      "Use 不好意思 to ask for a bag at a shop"
+      "在商店禮貌地問價錢",
+      "'不好意思，請問___？'"
     ],
     "common_error_patterns": [
-      "Placing 不好意思 at the end",
-      "Using 對不起 instead of 不好意思 for requests"
+      "'不好意思' 放在句尾",
+      "道歉用 '不好意思' 而非 '對不起'"
     ],
     "repair_feedback": {
-      "word_order": "Put 不好意思 at the start of the sentence",
-      "politeness": "Using 不好意思 makes the request more polite and natural",
-      "vocabulary": "Use 不好意思 for requests, not 對不起"
+      "word_order": "不好意思 + 請求",
+      "vs_duibuqi": "'不好意思'=excuse me，'對不起'=sorry"
     },
     "slots": [
       {

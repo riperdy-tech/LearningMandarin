@@ -99,41 +99,6 @@
         "translation_en": "Are you a student?",
         "translation_ko": "당신은 학생입니까?",
         "slot_values": {}
-      },
-      {
-        "text": "他是老師。",
-        "pinyin": "Tā shì lǎoshī.",
-        "translation_en": "He is a teacher.",
-        "translation_ko": "그는 선생님입니다.",
-        "slot_values": {}
-      },
-      {
-        "text": "她是我的朋友。",
-        "pinyin": "Tā shì wǒ de péngyǒu.",
-        "translation_en": "She is my friend.",
-        "translation_ko": "그녀는 제 친구입니다.",
-        "slot_values": {}
-      },
-      {
-        "text": "我們是朋友。",
-        "pinyin": "Wǒmen shì péngyǒu.",
-        "translation_en": "We are friends.",
-        "translation_ko": "우리는 친구입니다.",
-        "slot_values": {}
-      },
-      {
-        "text": "你叫什麼名字？",
-        "pinyin": "Nǐ jiào shénme míngzi?",
-        "translation_en": "What is your name?",
-        "translation_ko": "이름이 무엇입니까?",
-        "slot_values": {}
-      },
-      {
-        "text": "我是韓國人。",
-        "pinyin": "Wǒ shì Hánguó rén.",
-        "translation_en": "I am Korean.",
-        "translation_ko": "저는 한국 사람입니다.",
-        "slot_values": {}
       }
     ],
     "negative_examples": [
@@ -141,7 +106,24 @@
         "text": "English word order copied directly",
         "error": "Use the Mandarin pattern shown above instead of translating word-for-word."
       }
-    ]
+    ],
+    "transformation_drills": [
+      "用 '我是___' 自我介紹",
+      "用 '我叫___' 說你的名字",
+      "問 '你是___嗎？'"
+    ],
+    "production_drills": [
+      "自我介紹給新朋友",
+      "'你好，我是___，我叫___'"
+    ],
+    "common_error_patterns": [
+      "說 '我學生' 忘了 '是'",
+      "'嗎' 放在句首"
+    ],
+    "repair_feedback": {
+      "word_order": "主語 + 是 + 身分",
+      "question": "加 '嗎' 在句尾變問句"
+    }
   },
   {
     "id": "GR_M1_D02",
@@ -242,41 +224,6 @@
         "translation_en": "This is one.",
         "translation_ko": "이것은 1입니다.",
         "slot_values": {}
-      },
-      {
-        "text": "這是三嗎？",
-        "pinyin": "Zhè shì sān ma?",
-        "translation_en": "Is this three?",
-        "translation_ko": "이것은 3입니까?",
-        "slot_values": {}
-      },
-      {
-        "text": "五加五是十。",
-        "pinyin": "Wǔ jiā wǔ shì shí.",
-        "translation_en": "Five plus five is ten.",
-        "translation_ko": "5 더하기 5는 10입니다.",
-        "slot_values": {}
-      },
-      {
-        "text": "一、二、三、四、五。",
-        "pinyin": "Yī, èr, sān, sì, wǔ.",
-        "translation_en": "One, two, three, four, five.",
-        "translation_ko": "하나, 둘, 셋, 넷, 다섯.",
-        "slot_values": {}
-      },
-      {
-        "text": "你有五個朋友嗎？",
-        "pinyin": "Nǐ yǒu wǔ ge péngyǒu ma?",
-        "translation_en": "Do you have five friends?",
-        "translation_ko": "친구가 다섯 명 있습니까?",
-        "slot_values": {}
-      },
-      {
-        "text": "我是二號。",
-        "pinyin": "Wǒ shì èr hào.",
-        "translation_en": "I am number two.",
-        "translation_ko": "저는 2번입니다.",
-        "slot_values": {}
       }
     ],
     "negative_examples": [
@@ -284,7 +231,22 @@
         "text": "English word order copied directly",
         "error": "Use the Mandarin pattern shown above instead of translating word-for-word."
       }
-    ]
+    ],
+    "transformation_drills": [
+      "用 '我是___人' 說國籍",
+      "問 '你是哪國人？'"
+    ],
+    "production_drills": [
+      "說你是哪國人",
+      "'我是___人'"
+    ],
+    "common_error_patterns": [
+      "忘了 '人'",
+      "'哪國' 和 '什麼國' 混淆"
+    ],
+    "repair_feedback": {
+      "word_order": "我是 + 國名 + 人"
+    }
   },
   {
     "id": "GR_M1_D03",
@@ -393,41 +355,6 @@
         "translation_en": "Is that your book?",
         "translation_ko": "저것은 당신의 책입니까?",
         "slot_values": {}
-      },
-      {
-        "text": "他有八個朋友。",
-        "pinyin": "Tā yǒu bā ge péngyǒu.",
-        "translation_en": "He has eight friends.",
-        "translation_ko": "그는 친구가 여덟 명 있습니다.",
-        "slot_values": {}
-      },
-      {
-        "text": "她的手機很好。",
-        "pinyin": "Tā de shǒujī hěn hǎo.",
-        "translation_en": "Her phone is good.",
-        "translation_ko": "그녀의 휴대폰은 좋습니다.",
-        "slot_values": {}
-      },
-      {
-        "text": "我們有九本書。",
-        "pinyin": "Wǒmen yǒu jiǔ běn shū.",
-        "translation_en": "We have nine books.",
-        "translation_ko": "우리는 책 아홉 권이 있습니다.",
-        "slot_values": {}
-      },
-      {
-        "text": "這是一百嗎？",
-        "pinyin": "Zhè shì yì bǎi ma?",
-        "translation_en": "Is this one hundred?",
-        "translation_ko": "이것은 100입니까?",
-        "slot_values": {}
-      },
-      {
-        "text": "我的朋友有手機。",
-        "pinyin": "Wǒ de péngyǒu yǒu shǒujī.",
-        "translation_en": "My friend has a phone.",
-        "translation_ko": "제 친구는 휴대폰이 있습니다.",
-        "slot_values": {}
       }
     ],
     "negative_examples": [
@@ -435,7 +362,22 @@
         "text": "English word order copied directly",
         "error": "Use the Mandarin pattern shown above instead of translating word-for-word."
       }
-    ]
+    ],
+    "transformation_drills": [
+      "用 '我住在___' 說住處",
+      "問 '你住在哪裡？'"
+    ],
+    "production_drills": [
+      "跟新朋友說你住哪裡",
+      "'我住在___'"
+    ],
+    "common_error_patterns": [
+      "說 '我住台北' 忘了 '在'",
+      "'住在' 和 '住' 用法混淆"
+    ],
+    "repair_feedback": {
+      "word_order": "住在 + 地方"
+    }
   },
   {
     "id": "GR_M1_D04",
@@ -544,41 +486,6 @@
         "translation_en": "Mom was at home yesterday.",
         "translation_ko": "어제 엄마는 집에 있었습니다.",
         "slot_values": {}
-      },
-      {
-        "text": "我爸爸是老師。",
-        "pinyin": "Wǒ bàba shì lǎoshī.",
-        "translation_en": "My dad is a teacher.",
-        "translation_ko": "저희 아빠는 선생님입니다.",
-        "slot_values": {}
-      },
-      {
-        "text": "我姐姐有手機。",
-        "pinyin": "Wǒ jiějie yǒu shǒujī.",
-        "translation_en": "My older sister has a phone.",
-        "translation_ko": "제 누나는 휴대폰이 있습니다.",
-        "slot_values": {}
-      },
-      {
-        "text": "他弟弟是學生。",
-        "pinyin": "Tā dìdi shì xuéshēng.",
-        "translation_en": "His younger brother is a student.",
-        "translation_ko": "그의 남동생은 학생입니다.",
-        "slot_values": {}
-      },
-      {
-        "text": "今天妹妹很高興。",
-        "pinyin": "Jīntiān mèimei hěn gāoxìng.",
-        "translation_en": "My younger sister is happy today.",
-        "translation_ko": "오늘 여동생은 기분이 좋습니다.",
-        "slot_values": {}
-      },
-      {
-        "text": "明天哥哥來我家。",
-        "pinyin": "Míngtiān gēge lái wǒ jiā.",
-        "translation_en": "My older brother comes to my home tomorrow.",
-        "translation_ko": "내일 형이 우리 집에 옵니다.",
-        "slot_values": {}
       }
     ],
     "negative_examples": [
@@ -586,7 +493,22 @@
         "text": "English word order copied directly",
         "error": "Use the Mandarin pattern shown above instead of translating word-for-word."
       }
-    ]
+    ],
+    "transformation_drills": [
+      "用 '我喜歡___' 說喜好",
+      "問 '你喜歡___嗎？'"
+    ],
+    "production_drills": [
+      "說你喜歡的台灣食物",
+      "'我喜歡___，很好吃'"
+    ],
+    "common_error_patterns": [
+      "'喜歡' 放在受詞後面",
+      "回答 '喜歡' 不加 '很'"
+    ],
+    "repair_feedback": {
+      "word_order": "主語 + 喜歡 + 名詞"
+    }
   },
   {
     "id": "GR_M1_D05",
