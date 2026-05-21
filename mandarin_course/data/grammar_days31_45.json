@@ -238,8 +238,8 @@
     "example_ids": [
       "SEN_D31_011",
       "SEN_D31_012",
-      "SEN_D31_013",
-      "SEN_D31_014"
+      "SEN_D31_014",
+      "SEN_D31_001"
     ],
     "correct_examples": [
       {
@@ -6267,7 +6267,8 @@
           }
         ]
       }
-    ]
+    ],
+    "id": "GR_D36_BI_COMPARISON_EXTRA"
   },
   {
     "pattern": "Subject + 在 + location + action",
@@ -6481,7 +6482,8 @@
           }
         ]
       }
-    ]
+    ],
+    "id": "GR_D37_ZAI_LOCATION_EXTRA"
   },
   {
     "id": "GR_D41_YINWEI_SUOYI",
@@ -9519,7 +9521,8 @@
           }
         ]
       }
-    ]
+    ],
+    "id": "GR_D42_JUEDE_OPINION_EXTRA"
   },
   {
     "pattern": "Subject + 可以 + [verb] + 嗎？",
@@ -9733,6 +9736,7 @@
           }
         ]
       }
-    ]
+    ],
+    "id": "GR_D43_KEYI_REQUEST_EXTRA"
   }
 ]

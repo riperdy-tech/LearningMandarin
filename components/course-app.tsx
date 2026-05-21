@@ -3696,6 +3696,13 @@ function segmentChineseText(text: string, vocab: VocabularyItem[]) {
   const entries = vocab
     .filter((item) => item.char && isLikelyChinese(item.char))
     .sort((a, b) => b.char.length - a.char.length);
+  // Build a map of single-character vocab entries as fallback lookup
+  const singleCharVocab = new Map<string, VocabularyItem>();
+  for (const item of entries) {
+    if (item.char.length === 1 && !singleCharVocab.has(item.char)) {
+      singleCharVocab.set(item.char, item);
+    }
+  }
   const segments: Array<{ text: string; item?: VocabularyItem }> = [];
   let index = 0;
 
@@ -3707,7 +3714,14 @@ function segmentChineseText(text: string, vocab: VocabularyItem[]) {
       continue;
     }
 
-    segments.push({ text: text[index] });
+    const char = text[index];
+    // Try to match this single character against the vocab dictionary
+    const singleItem = singleCharVocab.get(char);
+    if (singleItem) {
+      segments.push({ text: char, item: singleItem });
+    } else {
+      segments.push({ text: char });
+    }
     index += 1;
   }
 
