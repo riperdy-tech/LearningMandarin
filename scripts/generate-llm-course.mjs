@@ -758,15 +758,20 @@ Required Dialogues topics/roles: ${JSON.stringify(requiredDialogues)}`;
     updateArrayFile(`mandarin_course/data/assessment_${suffix}.json`, [todayAssessment], (item) => item.id === `ASM_D${dayNum}`);
   }
 
-  // Update writing
+  // Update writing — deduplicate across ALL writing files (but keep per-file)
+  const allWritingChars = new Set([
+    ...readJson(`mandarin_course/data/writing_month1.json`),
+    ...readJson(`mandarin_course/data/writing_days31_45.json`),
+    ...readJson(`mandarin_course/data/writing_days46_90.json`),
+  ].map(x => x.char));
+  // Only add truly new characters that haven't appeared in ANY writing file
   const existingWriting = readJson(`mandarin_course/data/writing_${suffix}.json`);
-  const writingMap = new Map(existingWriting.map((item) => [item.char, item]));
-  todayWriting.forEach((item) => {
-    if (!writingMap.has(item.char)) {
-      writingMap.set(item.char, item);
-    }
-  });
-  writeJson(`mandarin_course/data/writing_${suffix}.json`, Array.from(writingMap.values()));
+  const newChars = todayWriting.filter(item => !allWritingChars.has(item.char));
+  if (newChars.length > 0) {
+    existingWriting.push(...newChars);
+    console.log(`   Added ${newChars.length} new writing characters (skipped ${todayWriting.length - newChars.length} duplicates)`);
+  }
+  writeJson(`mandarin_course/data/writing_${suffix}.json`, existingWriting);
 
   // Update audio manifest
   updateArrayFile(`mandarin_course/audio/manifest_${suffix}.json`, todayAudio, (item) => {
