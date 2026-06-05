@@ -1902,7 +1902,7 @@
     "pinyin": "Wǒ mèimei hěn gāoxìng.",
     "pinyin_numeric": "Wo3 meimei4 hen3 gaoxing4.",
     "translation_en": "My younger sister is happy.",
-    "translation_ko": "제 여동생은 기분이 좋습니다.",
+    "translation_ko": "제 여동생은 기쁩니다.",
     "tokens": [
       "我",
       "妹妹",
@@ -1940,7 +1940,7 @@
     "pinyin": "Tā yǒu liǎng zhī māo.",
     "pinyin_numeric": "Ta1 you3 liang3 zhi1 mao1.",
     "translation_en": "He has two cats.",
-    "translation_ko": "그는 고양이 두 마리가 있습니다.",
+    "translation_ko": "그는 고양이 두 마리를 가지고 있습니다.",
     "tokens": [
       "他",
       "有",
@@ -1978,7 +1978,7 @@
     "pinyin": "Nǐ yào liǎng bēi chá ma?",
     "pinyin_numeric": "Ni3 yao4 liang3 bei1 cha2 ma0?",
     "translation_en": "Do you want two cups of tea?",
-    "translation_ko": "차 두 잔을 원합니까?",
+    "translation_ko": "차 두 잔을 원하십니까?",
     "tokens": [
       "你",
       "要",
@@ -2057,7 +2057,7 @@
     "pinyin": "Wǒmen yào sān bēi kāfēi.",
     "pinyin_numeric": "Women3 yao4 san1 bei1 kafei1.",
     "translation_en": "We would like three cups of coffee.",
-    "translation_ko": "커피 세 잔 주세요.",
+    "translation_ko": "우리는 커피 세 잔을 원합니다.",
     "tokens": [
       "我們",
       "要",
@@ -2140,7 +2140,7 @@
     "pinyin": "Wǒ yào yì bēi chá.",
     "pinyin_numeric": "Wo3 yao4 yi4 bei1 cha2.",
     "translation_en": "I would like one cup of tea.",
-    "translation_ko": "차 한 잔 주세요.",
+    "translation_ko": "저는 차 한 잔을 원합니다.",
     "tokens": [
       "我",
       "要",
@@ -2220,7 +2220,7 @@
     "pinyin": "Wǒmen yào liǎng bēi shuǐ hé yí fèn miàn.",
     "pinyin_numeric": "Women3 yao4 liang3 bei1 shui3 he2 yi2 fen4 mian4.",
     "translation_en": "We would like two cups of water and one serving of noodles.",
-    "translation_ko": "물 두 잔과 면 하나 주세요.",
+    "translation_ko": "우리는 물 두 잔과 면 한 그릇을 원합니다.",
     "tokens": [
       "我們",
       "要",
@@ -3034,7 +3034,7 @@
     "text": "我在圖書館看書。",
     "pinyin": "Wǒ zài túshūguǎn kàn shū.",
     "pinyin_numeric": "Wo3 zai4 tushuguan3 kan4 shu1.",
-    "translation_en": "I am reading at the library.",
+    "translation_en": "I am reading a book at the library.",
     "translation_ko": "저는 도서관에서 책을 읽고 있습니다.",
     "tokens": [
       "我",
@@ -3157,7 +3157,7 @@
     "text": "我在這裡等你。",
     "pinyin": "Wǒ zài zhèlǐ děng nǐ.",
     "pinyin_numeric": "Wo3 zai4 zheli3 deng3 ni3.",
-    "translation_en": "I wait for you here.",
+    "translation_en": "I am waiting for you here.",
     "translation_ko": "저는 여기에서 당신을 기다립니다.",
     "tokens": [
       "我",
@@ -3362,7 +3362,7 @@
     "text": "我們下午去公園散步。",
     "pinyin": "Wǒmen xiàwǔ qù gōngyuán sànbù.",
     "pinyin_numeric": "Women3 xiawu3 qu4 gongyuan2 sanbu4.",
-    "translation_en": "We will go to the park for a walk this afternoon.",
+    "translation_en": "We go to the park for a walk this afternoon.",
     "translation_ko": "우리는 오후에 공원에 산책하러 갑니다.",
     "tokens": [
       "我們",
@@ -3443,7 +3443,7 @@
     "pinyin": "Wǒ zuò jiéyùn qù xuéxiào.",
     "pinyin_numeric": "Wo3 zuo4 jieyun4 qu4 xuexiao4.",
     "translation_en": "I take the MRT to school.",
-    "translation_ko": "저는 MRT를 타고 학교에 갑니다.",
+    "translation_ko": "저는 지하철을 타고 학교에 갑니다.",
     "tokens": [
       "我",
       "坐",
@@ -3482,7 +3482,7 @@
     "pinyin": "Bàba zuò fēijī qù Táiběi.",
     "pinyin_numeric": "Baba4 zuo4 feiji1 qu4 Taibei3.",
     "translation_en": "Dad takes a plane to Taipei.",
-    "translation_ko": "아빠는 비행기를 타고 타이베이에 갑니다.",
+    "translation_ko": "아버지는 비행기를 타고 타이베이에 갑니다.",
     "tokens": [
       "爸爸",
       "坐",
@@ -3565,7 +3565,7 @@
     "pinyin": "Jiéyùn bǐ huǒchē kuài ma?",
     "pinyin_numeric": "Jieyun4 bi3 huoche1 kuai4 ma0?",
     "translation_en": "Is the MRT faster than the train?",
-    "translation_ko": "MRT가 기차보다 빠릅니까?",
+    "translation_ko": "지하철이 기차보다 빠릅니까?",
     "tokens": [
       "捷運",
       "比",
@@ -3934,7 +3934,7 @@
     "pinyin": "Wǒ xūyào yì zhāng Yōuyóu Kǎ.",
     "pinyin_numeric": "Wo3 xuyao4 yi4 zhang1 Youyou2 Ka3.",
     "translation_en": "I need an EasyCard.",
-    "translation_ko": "저는 이지카드 한 장이 필요합니다.",
+    "translation_ko": "저는 유유카드 한 장이 필요합니다.",
     "tokens": [
       "我",
       "需要",
@@ -4390,7 +4390,7 @@
     "pinyin": "Tā xīwàng xué hǎo Zhōngwén.",
     "pinyin_numeric": "Ta1 xiwang4 xue2 hao3 Zhongwen2.",
     "translation_en": "He hopes to learn Chinese well.",
-    "translation_ko": "그는 중국어를 잘 배우고 싶어 합니다.",
+    "translation_ko": "그는 중국어를 잘 배우기를 바랍니다.",
     "tokens": [
       "他",
       "希望",

@@ -13,3 +13,6 @@ build/
 
 .DS_Store
 Thumbs.db
+
+mandarin_course/data/_unihan/
+.claude/

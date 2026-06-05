@@ -454,7 +454,42 @@
         "duration_minutes": 5
       }
     ],
-    "mastery_threshold": 0.85
+    "mastery_threshold": 0.85,
+    "review_block": {
+      "title": "Review days 1-4",
+      "source_days": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "vocab_ids": [
+        "VOC_M1_001",
+        "VOC_M1_003",
+        "VOC_M1_006",
+        "VOC_M1_009",
+        "VOC_M1_012",
+        "VOC_M1_015",
+        "VOC_M1_018",
+        "VOC_M1_020",
+        "VOC_M1_023",
+        "VOC_M1_026",
+        "VOC_M1_029",
+        "VOC_M1_032"
+      ],
+      "sentence_ids": [
+        "SEN_M1_D01_01",
+        "SEN_M1_D01_04",
+        "SEN_M1_D01_07",
+        "SEN_M1_D02_02",
+        "SEN_M1_D02_05",
+        "SEN_M1_D03_01",
+        "SEN_M1_D03_04",
+        "SEN_M1_D03_07",
+        "SEN_M1_D04_02",
+        "SEN_M1_D04_05"
+      ]
+    }
   },
   {
     "id": "LESSON_M1_D06",
@@ -1373,7 +1408,48 @@
         "duration_minutes": 5
       }
     ],
-    "mastery_threshold": 0.85
+    "mastery_threshold": 0.85,
+    "review_block": {
+      "title": "Review days 5-14",
+      "source_days": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "vocab_ids": [
+        "VOC_M1_035",
+        "VOC_M1_040",
+        "VOC_M1_046",
+        "VOC_M1_052",
+        "VOC_M1_058",
+        "VOC_M1_063",
+        "VOC_M1_069",
+        "VOC_M1_075",
+        "VOC_M1_081",
+        "VOC_M1_086",
+        "VOC_M1_092",
+        "VOC_M1_098"
+      ],
+      "sentence_ids": [
+        "SEN_M1_D05_01",
+        "SEN_M1_D06_01",
+        "SEN_M1_D07_01",
+        "SEN_M1_D08_01",
+        "SEN_M1_D09_01",
+        "SEN_M1_D10_01",
+        "SEN_M1_D11_01",
+        "SEN_M1_D12_01",
+        "SEN_M1_D13_01",
+        "SEN_M1_D14_01"
+      ]
+    }
   },
   {
     "id": "LESSON_M1_D16",
@@ -2281,7 +2357,48 @@
         "duration_minutes": 5
       }
     ],
-    "mastery_threshold": 0.85
+    "mastery_threshold": 0.85,
+    "review_block": {
+      "title": "Review days 15-24",
+      "source_days": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "vocab_ids": [
+        "VOC_M1_104",
+        "VOC_M1_109",
+        "VOC_M1_115",
+        "VOC_M1_120",
+        "VOC_M1_126",
+        "VOC_M1_131",
+        "VOC_M1_137",
+        "VOC_M1_143",
+        "VOC_M1_148",
+        "VOC_M1_154",
+        "VOC_M1_159",
+        "VOC_M1_165"
+      ],
+      "sentence_ids": [
+        "SEN_M1_D15_01",
+        "SEN_M1_D16_01",
+        "SEN_M1_D17_01",
+        "SEN_M1_D18_01",
+        "SEN_M1_D19_01",
+        "SEN_M1_D20_01",
+        "SEN_M1_D21_01",
+        "SEN_M1_D22_01",
+        "SEN_M1_D23_01",
+        "SEN_M1_D24_01"
+      ]
+    }
   },
   {
     "id": "LESSON_M1_D26",

@@ -410,7 +410,7 @@
     "text": "你會有嗎？",
     "pinyin": "nǐ huì yǒu ma？",
     "pinyin_numeric": "ni3 hui4 you3 ma0？",
-    "translation_en": "Can you have?",
+    "translation_en": "Do you have any?",
     "translation_ko": "있다 할 수 있나요?",
     "audio_id": "AUD_LIS_D68_12",
     "sentence_id": "SEN_D68_012"
@@ -436,8 +436,8 @@
     "text": "昨天我想了。",
     "pinyin": "zuótiān wǒ xiǎng le。",
     "pinyin_numeric": "zuo2 tian1 wo3 xiang3 le0。",
-    "translation_en": "Yesterday I wanted.",
-    "translation_ko": "어제 저는 원하다했습니다.",
+    "translation_en": "Yesterday I thought about it.",
+    "translation_ko": "어제 생각했어요.",
     "audio_id": "AUD_LIS_D68_14",
     "sentence_id": "SEN_D68_014"
   },
@@ -450,7 +450,7 @@
     "pinyin": "zhèlǐ hěn guì。",
     "pinyin_numeric": "zhe4 li3 hen3 gui4。",
     "translation_en": "It is very expensive here.",
-    "translation_ko": "여기는 매우 비싸다니다.",
+    "translation_ko": "여기는 매우 비싸요.",
     "audio_id": "AUD_LIS_D68_15",
     "sentence_id": "SEN_D68_015"
   },
@@ -463,7 +463,7 @@
     "pinyin": "wǒ xǐhuan le。",
     "pinyin_numeric": "wo3 xihuan3 le0。",
     "translation_en": "I liked.",
-    "translation_ko": "저는 좋아하다했습니다.",
+    "translation_ko": "저는 좋아했어요.",
     "audio_id": "AUD_LIS_D68_16",
     "sentence_id": "SEN_D68_016"
   },
@@ -476,7 +476,7 @@
     "pinyin": "nǐ xūyào le ma？",
     "pinyin_numeric": "ni3 xuyao4 le0 ma0？",
     "translation_en": "Did you need?",
-    "translation_ko": "필요하다했습니까?",
+    "translation_ko": "필요하셨습니까?",
     "audio_id": "AUD_LIS_D68_17",
     "sentence_id": "SEN_D68_017"
   },
@@ -515,7 +515,7 @@
     "pinyin": "jīntiān hěn hǎo。",
     "pinyin_numeric": "jin1 tian1 hen3 hao3。",
     "translation_en": "Today is very good.",
-    "translation_ko": "오늘은 매우 좋다니다.",
+    "translation_ko": "오늘은 매우 좋아요.",
     "audio_id": "AUD_LIS_D68_20",
     "sentence_id": "SEN_D68_020"
   },
@@ -527,8 +527,8 @@
     "text": "我想了。",
     "pinyin": "wǒ xiǎng le。",
     "pinyin_numeric": "wo3 xiang3 le0。",
-    "translation_en": "I wanted.",
-    "translation_ko": "저는 원하다했습니다.",
+    "translation_en": "I thought about it.",
+    "translation_ko": "저는 생각했어요.",
     "audio_id": "AUD_LIS_D69_01",
     "sentence_id": "SEN_D69_001"
   },
@@ -540,8 +540,8 @@
     "text": "你喜歡了嗎？",
     "pinyin": "nǐ xǐhuan le ma？",
     "pinyin_numeric": "ni3 xihuan3 le0 ma0？",
-    "translation_en": "Did you like?",
-    "translation_ko": "좋아하다했습니까?",
+    "translation_en": "Did you like it?",
+    "translation_ko": "좋아하셨습니까?",
     "audio_id": "AUD_LIS_D69_02",
     "sentence_id": "SEN_D69_002"
   },
@@ -580,7 +580,7 @@
     "pinyin": "jīntiān hěn xiǎo。",
     "pinyin_numeric": "jin1 tian1 hen3 xiao3。",
     "translation_en": "Today is very small.",
-    "translation_ko": "오늘은 매우 작다니다.",
+    "translation_ko": "오늘은 매우 작아요.",
     "audio_id": "AUD_LIS_D69_05",
     "sentence_id": "SEN_D69_005"
   },
@@ -606,7 +606,7 @@
     "pinyin": "kěyǐ qù ma？",
     "pinyin_numeric": "keyi3 qu4 ma0？",
     "translation_en": "Can I go?",
-    "translation_ko": "가다할 수 있어요?",
+    "translation_ko": "갈 수 있어요?",
     "audio_id": "AUD_LIS_D69_07",
     "sentence_id": "SEN_D69_007"
   },
@@ -619,7 +619,7 @@
     "pinyin": "zhège hěn xīn。",
     "pinyin_numeric": "zhe4 ge0 hen3 xin1。",
     "translation_en": "This is very new.",
-    "translation_ko": "이것은 매우 새롭다니다.",
+    "translation_ko": "이것은 매우 새롭습니다.",
     "audio_id": "AUD_LIS_D69_08",
     "sentence_id": "SEN_D69_008"
   },
@@ -671,7 +671,7 @@
     "pinyin": "nǐ huì shuō ma？",
     "pinyin_numeric": "ni3 hui4 shuo1 ma0？",
     "translation_en": "Can you speak?",
-    "translation_ko": "말하다 할 수 있나요?",
+    "translation_ko": "말할 수 있나요?",
     "audio_id": "AUD_LIS_D69_12",
     "sentence_id": "SEN_D69_012"
   },
@@ -684,7 +684,7 @@
     "pinyin": "Tā sòng huílái wǒ zuótiān wàngjì dài de yǔsǎn.",
     "pinyin_numeric": "ta1 song4 hui2lai2 wo3 zuo2tian1 wang4ji4 dai4 de0 yu3san3",
     "translation_en": "He brought back the umbrella I forgot to take yesterday.",
-    "translation_ko": "그가 제가 어제 가져오는 걸 잊은 우산을 돌려줬어요.",
+    "translation_ko": "그가 제가 어제 가져오는 것을 잊은 우산을 돌려줬어요.",
     "audio_id": "AUD_LIS_D69_13",
     "sentence_id": "SEN_D69_013"
   },
@@ -710,7 +710,7 @@
     "pinyin": "zhèlǐ hěn hǎo。",
     "pinyin_numeric": "zhe4 li3 hen3 hao3。",
     "translation_en": "It is very good here.",
-    "translation_ko": "여기는 매우 좋다니다.",
+    "translation_ko": "여기는 매우 좋습니다.",
     "audio_id": "AUD_LIS_D69_15",
     "sentence_id": "SEN_D69_015"
   },
@@ -775,7 +775,7 @@
     "pinyin": "jīntiān hěn rè。",
     "pinyin_numeric": "jin1 tian1 hen3 re4。",
     "translation_en": "Today is very hot.",
-    "translation_ko": "오늘은 매우 덥다니다.",
+    "translation_ko": "오늘은 매우 덥습니다.",
     "audio_id": "AUD_LIS_D69_20",
     "sentence_id": "SEN_D69_020"
   },
@@ -788,7 +788,7 @@
     "pinyin": "wǒ qù le。",
     "pinyin_numeric": "wo3 qu4 le0。",
     "translation_en": "I went.",
-    "translation_ko": "저는 가다했습니다.",
+    "translation_ko": "저는 갔습니다.",
     "audio_id": "AUD_LIS_D70_01",
     "sentence_id": "SEN_D70_001"
   },
@@ -801,7 +801,7 @@
     "pinyin": "nǐ xǐhuan le ma？",
     "pinyin_numeric": "ni3 xihuan3 le0 ma0？",
     "translation_en": "Did you like?",
-    "translation_ko": "좋아하다했습니까?",
+    "translation_ko": "좋아하셨습니까?",
     "audio_id": "AUD_LIS_D70_02",
     "sentence_id": "SEN_D70_002"
   },
@@ -840,7 +840,7 @@
     "pinyin": "jīntiān hěn nán。",
     "pinyin_numeric": "jin1 tian1 hen3 nan2。",
     "translation_en": "Today is very difficult.",
-    "translation_ko": "오늘은 매우 어렵다니다.",
+    "translation_ko": "오늘은 매우 어렵습니다.",
     "audio_id": "AUD_LIS_D70_05",
     "sentence_id": "SEN_D70_005"
   },
@@ -879,7 +879,7 @@
     "pinyin": "zhège hěn màn。",
     "pinyin_numeric": "zhe4 ge0 hen3 man4。",
     "translation_en": "This is very slow.",
-    "translation_ko": "이것은 매우 느리다니다.",
+    "translation_ko": "이것은 매우 느립니다.",
     "audio_id": "AUD_LIS_D70_08",
     "sentence_id": "SEN_D70_008"
   },
@@ -905,7 +905,7 @@
     "pinyin": "tā zhèngzài xǐhuan。",
     "pinyin_numeric": "ta1 zheng4 zai4 xihuan3。",
     "translation_en": "He is liking.",
-    "translation_ko": "그는 좋아하다하고 있습니다.",
+    "translation_ko": "그는 좋아하고 있습니다.",
     "audio_id": "AUD_LIS_D70_10",
     "sentence_id": "SEN_D70_010"
   },
@@ -931,7 +931,7 @@
     "pinyin": "nǐ huì shuō ma？",
     "pinyin_numeric": "ni3 hui4 shuo1 ma0？",
     "translation_en": "Can you speak?",
-    "translation_ko": "말하다 할 수 있나요?",
+    "translation_ko": "말할 수 있나요?",
     "audio_id": "AUD_LIS_D70_12",
     "sentence_id": "SEN_D70_012"
   },
@@ -957,7 +957,7 @@
     "pinyin": "zuótiān wǒ qù le。",
     "pinyin_numeric": "zuo2 tian1 wo3 qu4 le0。",
     "translation_en": "Yesterday I went.",
-    "translation_ko": "어제 저는 가다했습니다.",
+    "translation_ko": "어제 저는 갔습니다.",
     "audio_id": "AUD_LIS_D70_14",
     "sentence_id": "SEN_D70_014"
   },
@@ -970,7 +970,7 @@
     "pinyin": "zhèlǐ hěn dà。",
     "pinyin_numeric": "zhe4 li3 hen3 da4。",
     "translation_en": "It is very big here.",
-    "translation_ko": "여기는 매우 크다니다.",
+    "translation_ko": "여기는 매우 큽니다.",
     "audio_id": "AUD_LIS_D70_15",
     "sentence_id": "SEN_D70_015"
   },
@@ -983,7 +983,7 @@
     "pinyin": "wǒ shuō le。",
     "pinyin_numeric": "wo3 shuo1 le0。",
     "translation_en": "I spoke.",
-    "translation_ko": "예약 처리를 도움이 필요하시면, 카운터로 이동해 주세요.",
+    "translation_ko": "내가 말했어.",
     "audio_id": "AUD_LIS_D70_16",
     "sentence_id": "SEN_D70_016"
   },
@@ -1035,7 +1035,7 @@
     "pinyin": "jīntiān hěn nán。",
     "pinyin_numeric": "jin1 tian1 hen3 nan2。",
     "translation_en": "Today is very difficult.",
-    "translation_ko": "오늘은 매우 어렵다니다.",
+    "translation_ko": "오늘은 매우 어렵습니다.",
     "audio_id": "AUD_LIS_D70_20",
     "sentence_id": "SEN_D70_020"
   },
@@ -1048,7 +1048,7 @@
     "pinyin": "wǒ xūyào le。",
     "pinyin_numeric": "wo3 xuyao4 le0。",
     "translation_en": "I needed.",
-    "translation_ko": "저는 필요하다했습니다.",
+    "translation_ko": "저는 필요했습니다.",
     "audio_id": "AUD_LIS_D71_01",
     "sentence_id": "SEN_D71_001"
   },
@@ -1061,7 +1061,7 @@
     "pinyin": "nǐ shuō le ma？",
     "pinyin_numeric": "ni3 shuo1 le0 ma0？",
     "translation_en": "Did you speak?",
-    "translation_ko": "말하다했습니까?",
+    "translation_ko": "말했습니까?",
     "audio_id": "AUD_LIS_D71_02",
     "sentence_id": "SEN_D71_002"
   },
@@ -1100,7 +1100,7 @@
     "pinyin": "jīntiān hěn xīn。",
     "pinyin_numeric": "jin1 tian1 hen3 xin1。",
     "translation_en": "Today is very new.",
-    "translation_ko": "오늘은 매우 새롭다니다.",
+    "translation_ko": "오늘은 매우 새롭습니다.",
     "audio_id": "AUD_LIS_D71_05",
     "sentence_id": "SEN_D71_005"
   },
@@ -1126,7 +1126,7 @@
     "pinyin": "kěyǐ xǐhuan ma？",
     "pinyin_numeric": "keyi3 xihuan3 ma0？",
     "translation_en": "Can I like?",
-    "translation_ko": "좋아하다할 수 있어요?",
+    "translation_ko": "좋아할 수 있어요?",
     "audio_id": "AUD_LIS_D71_07",
     "sentence_id": "SEN_D71_007"
   },
@@ -1165,7 +1165,7 @@
     "pinyin": "tā zhèngzài qù。",
     "pinyin_numeric": "ta1 zheng4 zai4 qu4。",
     "translation_en": "He is going.",
-    "translation_ko": "그는 가다하고 있습니다.",
+    "translation_ko": "그는 가고 있습니다.",
     "audio_id": "AUD_LIS_D71_10",
     "sentence_id": "SEN_D71_010"
   },
@@ -1190,7 +1190,7 @@
     "text": "你會有嗎？",
     "pinyin": "nǐ huì yǒu ma？",
     "pinyin_numeric": "ni3 hui4 you3 ma0？",
-    "translation_en": "Can you have?",
+    "translation_en": "Will you have it?",
     "translation_ko": "있다 할 수 있나요?",
     "audio_id": "AUD_LIS_D71_12",
     "sentence_id": "SEN_D71_012"
@@ -1217,7 +1217,7 @@
     "pinyin": "zuótiān wǒ xǐhuan le。",
     "pinyin_numeric": "zuo2 tian1 wo3 xihuan3 le0。",
     "translation_en": "Yesterday I liked.",
-    "translation_ko": "어제 저는 좋아하다했습니다.",
+    "translation_ko": "어제 저는 좋아했습니다.",
     "audio_id": "AUD_LIS_D71_14",
     "sentence_id": "SEN_D71_014"
   },
@@ -1229,8 +1229,8 @@
     "text": "這裡很多。",
     "pinyin": "zhèlǐ hěn duō。",
     "pinyin_numeric": "zhe4 li3 hen3 duo1。",
-    "translation_en": "It is very many here.",
-    "translation_ko": "여기는 매우 많다니다.",
+    "translation_en": "There are many here.",
+    "translation_ko": "여기는 매우 많습니다.",
     "audio_id": "AUD_LIS_D71_15",
     "sentence_id": "SEN_D71_015"
   },
@@ -1243,7 +1243,7 @@
     "pinyin": "wǒ xǐhuan le。",
     "pinyin_numeric": "wo3 xihuan3 le0。",
     "translation_en": "I liked.",
-    "translation_ko": "저는 좋아하다했습니다.",
+    "translation_ko": "저는 좋아했습니다.",
     "audio_id": "AUD_LIS_D71_16",
     "sentence_id": "SEN_D71_016"
   },
@@ -1256,7 +1256,7 @@
     "pinyin": "nǐ shuō le ma？",
     "pinyin_numeric": "ni3 shuo1 le0 ma0？",
     "translation_en": "Did you speak?",
-    "translation_ko": "말하다했습니까?",
+    "translation_ko": "말했습니까?",
     "audio_id": "AUD_LIS_D71_17",
     "sentence_id": "SEN_D71_017"
   },
@@ -1295,7 +1295,7 @@
     "pinyin": "jīntiān hěn rè。",
     "pinyin_numeric": "jin1 tian1 hen3 re4。",
     "translation_en": "Today is very hot.",
-    "translation_ko": "오늘은 매우 덥다니다.",
+    "translation_ko": "오늘은 매우 덥습니다.",
     "audio_id": "AUD_LIS_D71_20",
     "sentence_id": "SEN_D71_020"
   },
@@ -1308,7 +1308,7 @@
     "pinyin": "wǒ qù le。",
     "pinyin_numeric": "wo3 qu4 le0。",
     "translation_en": "I went.",
-    "translation_ko": "저는 가다했습니다.",
+    "translation_ko": "저는 갔습니다.",
     "audio_id": "AUD_LIS_D72_01",
     "sentence_id": "SEN_D72_001"
   },
@@ -1359,8 +1359,8 @@
     "text": "今天很大。",
     "pinyin": "jīntiān hěn dà。",
     "pinyin_numeric": "jin1 tian1 hen3 da4。",
-    "translation_en": "Today is very big.",
-    "translation_ko": "오늘은 매우 크다니다.",
+    "translation_en": "Today is very hot.",
+    "translation_ko": "오늘은 매우 덥습니다.",
     "audio_id": "AUD_LIS_D72_05",
     "sentence_id": "SEN_D72_005"
   },
@@ -1385,7 +1385,7 @@
     "text": "可以喜歡嗎？",
     "pinyin": "kěyǐ xǐhuan ma？",
     "pinyin_numeric": "keyi3 xihuan3 ma0？",
-    "translation_en": "Can I like?",
+    "translation_en": "Can I like it?",
     "translation_ko": "좋아하다할 수 있어요?",
     "audio_id": "AUD_LIS_D72_07",
     "sentence_id": "SEN_D72_007"
@@ -1399,7 +1399,7 @@
     "pinyin": "zhège hěn nán。",
     "pinyin_numeric": "zhe4 ge0 hen3 nan2。",
     "translation_en": "This is very difficult.",
-    "translation_ko": "이것은 매우 어렵다니다.",
+    "translation_ko": "이것은 매우 어렵습니다.",
     "audio_id": "AUD_LIS_D72_08",
     "sentence_id": "SEN_D72_008"
   },
@@ -1424,8 +1424,8 @@
     "text": "他正在想。",
     "pinyin": "tā zhèngzài xiǎng。",
     "pinyin_numeric": "ta1 zheng4 zai4 xiang3。",
-    "translation_en": "He is wanting.",
-    "translation_ko": "그는 원하다하고 있습니다.",
+    "translation_en": "He is thinking.",
+    "translation_ko": "그는 생각하고 있습니다.",
     "audio_id": "AUD_LIS_D72_10",
     "sentence_id": "SEN_D72_010"
   },
@@ -1451,7 +1451,7 @@
     "pinyin": "nǐ huì shuō ma？",
     "pinyin_numeric": "ni3 hui4 shuo1 ma0？",
     "translation_en": "Can you speak?",
-    "translation_ko": "말하다 할 수 있나요?",
+    "translation_ko": "말할 수 있나요?",
     "audio_id": "AUD_LIS_D72_12",
     "sentence_id": "SEN_D72_012"
   },
@@ -1477,7 +1477,7 @@
     "pinyin": "zuótiān wǒ xǐhuan le。",
     "pinyin_numeric": "zuo2 tian1 wo3 xihuan3 le0。",
     "translation_en": "Yesterday I liked.",
-    "translation_ko": "어제 저는 좋아하다했습니다.",
+    "translation_ko": "어제 저는 좋아했습니다.",
     "audio_id": "AUD_LIS_D72_14",
     "sentence_id": "SEN_D72_014"
   },
@@ -1490,7 +1490,7 @@
     "pinyin": "zhèlǐ hěn dà。",
     "pinyin_numeric": "zhe4 li3 hen3 da4。",
     "translation_en": "It is very big here.",
-    "translation_ko": "여기는 매우 크다니다.",
+    "translation_ko": "여기는 매우 큽니다.",
     "audio_id": "AUD_LIS_D72_15",
     "sentence_id": "SEN_D72_015"
   },
@@ -1503,7 +1503,7 @@
     "pinyin": "wǒ xūyào le。",
     "pinyin_numeric": "wo3 xuyao4 le0。",
     "translation_en": "I needed.",
-    "translation_ko": "저는 필요하다했습니다.",
+    "translation_ko": "저는 필요했습니다.",
     "audio_id": "AUD_LIS_D72_16",
     "sentence_id": "SEN_D72_016"
   },
@@ -1515,8 +1515,8 @@
     "text": "你喜歡了嗎？",
     "pinyin": "nǐ xǐhuan le ma？",
     "pinyin_numeric": "ni3 xihuan3 le0 ma0？",
-    "translation_en": "Did you like?",
-    "translation_ko": "좋아하다했습니까?",
+    "translation_en": "Did you like it?",
+    "translation_ko": "좋아했습니까?",
     "audio_id": "AUD_LIS_D72_17",
     "sentence_id": "SEN_D72_017"
   },
@@ -1555,7 +1555,7 @@
     "pinyin": "jīntiān hěn duō。",
     "pinyin_numeric": "jin1 tian1 hen3 duo1。",
     "translation_en": "Today is very many.",
-    "translation_ko": "오늘은 매우 많다니다.",
+    "translation_ko": "오늘은 매우 많습니다.",
     "audio_id": "AUD_LIS_D72_20",
     "sentence_id": "SEN_D72_020"
   },
@@ -1568,7 +1568,7 @@
     "pinyin": "wǒ xǐhuan le。",
     "pinyin_numeric": "wo3 xihuan3 le0。",
     "translation_en": "I liked.",
-    "translation_ko": "저는 좋아하다했습니다.",
+    "translation_ko": "저는 좋아했습니다.",
     "audio_id": "AUD_LIS_D73_01",
     "sentence_id": "SEN_D73_001"
   },
@@ -1620,7 +1620,7 @@
     "pinyin": "jīntiān hěn hǎo。",
     "pinyin_numeric": "jin1 tian1 hen3 hao3。",
     "translation_en": "Today is very good.",
-    "translation_ko": "오늘은 매우 좋다니다.",
+    "translation_ko": "오늘은 매우 좋습니다.",
     "audio_id": "AUD_LIS_D73_05",
     "sentence_id": "SEN_D73_005"
   },
@@ -1646,7 +1646,7 @@
     "pinyin": "kěyǐ shuō ma？",
     "pinyin_numeric": "keyi3 shuo1 ma0？",
     "translation_en": "Can I speak?",
-    "translation_ko": "말하다할 수 있어요?",
+    "translation_ko": "말할 수 있어요?",
     "audio_id": "AUD_LIS_D73_07",
     "sentence_id": "SEN_D73_007"
   },
@@ -1659,7 +1659,7 @@
     "pinyin": "zhège hěn jiǎndān。",
     "pinyin_numeric": "zhe4 ge0 hen3 jian3 dan1。",
     "translation_en": "This is very simple.",
-    "translation_ko": "이것은 매우 간단하다니다.",
+    "translation_ko": "이것은 매우 간단합니다.",
     "audio_id": "AUD_LIS_D73_08",
     "sentence_id": "SEN_D73_008"
   },
@@ -1684,8 +1684,8 @@
     "text": "他正在想。",
     "pinyin": "tā zhèngzài xiǎng。",
     "pinyin_numeric": "ta1 zheng4 zai4 xiang3。",
-    "translation_en": "He is wanting.",
-    "translation_ko": "그는 원하다하고 있습니다.",
+    "translation_en": "He is thinking.",
+    "translation_ko": "그는 생각하고 있습니다.",
     "audio_id": "AUD_LIS_D73_10",
     "sentence_id": "SEN_D73_010"
   },
@@ -1711,7 +1711,7 @@
     "pinyin": "nǐ huì shuō ma？",
     "pinyin_numeric": "ni3 hui4 shuo1 ma0？",
     "translation_en": "Can you speak?",
-    "translation_ko": "말하다 할 수 있나요?",
+    "translation_ko": "말할 수 있나요?",
     "audio_id": "AUD_LIS_D73_12",
     "sentence_id": "SEN_D73_012"
   },
@@ -1750,7 +1750,7 @@
     "pinyin": "zhèlǐ hěn lěng。",
     "pinyin_numeric": "zhe4 li3 hen3 leng3。",
     "translation_en": "It is very cold here.",
-    "translation_ko": "여기는 매우 춥다니다.",
+    "translation_ko": "여기는 매우 춥습니다.",
     "audio_id": "AUD_LIS_D73_15",
     "sentence_id": "SEN_D73_015"
   },
@@ -1763,7 +1763,7 @@
     "pinyin": "wǒ xūyào le。",
     "pinyin_numeric": "wo3 xuyao4 le0。",
     "translation_en": "I needed.",
-    "translation_ko": "저는 필요하다했습니다.",
+    "translation_ko": "저는 필요했습니다.",
     "audio_id": "AUD_LIS_D73_16",
     "sentence_id": "SEN_D73_016"
   },
@@ -1776,7 +1776,7 @@
     "pinyin": "nǐ shuō le ma？",
     "pinyin_numeric": "ni3 shuo1 le0 ma0？",
     "translation_en": "Did you speak?",
-    "translation_ko": "말하다했습니까?",
+    "translation_ko": "말했습니까?",
     "audio_id": "AUD_LIS_D73_17",
     "sentence_id": "SEN_D73_017"
   },
@@ -1814,8 +1814,8 @@
     "text": "今天很少。",
     "pinyin": "jīntiān hěn shǎo。",
     "pinyin_numeric": "jin1 tian1 hen3 shao3。",
-    "translation_en": "Today is very few.",
-    "translation_ko": "오늘은 매우 적다니다.",
+    "translation_en": "Today there are very few.",
+    "translation_ko": "오늘은 매우 적습니다.",
     "audio_id": "AUD_LIS_D73_20",
     "sentence_id": "SEN_D73_020"
   },
@@ -1879,8 +1879,8 @@
     "text": "今天很少。",
     "pinyin": "jīntiān hěn shǎo。",
     "pinyin_numeric": "jin1 tian1 hen3 shao3。",
-    "translation_en": "Today is very few.",
-    "translation_ko": "오늘은 매우 적다니다.",
+    "translation_en": "Today there are very few.",
+    "translation_ko": "오늘은 매우 적습니다.",
     "audio_id": "AUD_LIS_D74_05",
     "sentence_id": "SEN_D74_005"
   },
@@ -1919,7 +1919,7 @@
     "pinyin": "zhège hěn kuài。",
     "pinyin_numeric": "zhe4 ge0 hen3 kuai4。",
     "translation_en": "This is very fast.",
-    "translation_ko": "이것은 매우 빠르다니다.",
+    "translation_ko": "이것은 매우 빠릅니다.",
     "audio_id": "AUD_LIS_D74_08",
     "sentence_id": "SEN_D74_008"
   },
@@ -1944,8 +1944,8 @@
     "text": "他正在喜歡。",
     "pinyin": "tā zhèngzài xǐhuan。",
     "pinyin_numeric": "ta1 zheng4 zai4 xihuan3。",
-    "translation_en": "He is liking.",
-    "translation_ko": "그는 좋아하다하고 있습니다.",
+    "translation_en": "He is liking it.",
+    "translation_ko": "그는 좋아하고 있습니다.",
     "audio_id": "AUD_LIS_D74_10",
     "sentence_id": "SEN_D74_010"
   },
@@ -1970,8 +1970,8 @@
     "text": "你會需要嗎？",
     "pinyin": "nǐ huì xūyào ma？",
     "pinyin_numeric": "ni3 hui4 xuyao4 ma0？",
-    "translation_en": "Can you need?",
-    "translation_ko": "필요하다 할 수 있나요?",
+    "translation_en": "Do you need it?",
+    "translation_ko": "필요하세요?",
     "audio_id": "AUD_LIS_D74_12",
     "sentence_id": "SEN_D74_012"
   },
@@ -1996,8 +1996,8 @@
     "text": "昨天我喜歡了。",
     "pinyin": "zuótiān wǒ xǐhuan le。",
     "pinyin_numeric": "zuo2 tian1 wo3 xihuan3 le0。",
-    "translation_en": "Yesterday I liked.",
-    "translation_ko": "어제 저는 좋아하다했습니다.",
+    "translation_en": "Yesterday I liked it.",
+    "translation_ko": "어제 저는 좋아했습니다.",
     "audio_id": "AUD_LIS_D74_14",
     "sentence_id": "SEN_D74_014"
   },
@@ -2010,7 +2010,7 @@
     "pinyin": "zhèlǐ hěn piányí。",
     "pinyin_numeric": "zhe4 li3 hen3 pian2 yi2。",
     "translation_en": "It is very cheap here.",
-    "translation_ko": "여기는 매우 싸다니다.",
+    "translation_ko": "여기는 매우 쌉니다.",
     "audio_id": "AUD_LIS_D74_15",
     "sentence_id": "SEN_D74_015"
   },
@@ -2023,7 +2023,7 @@
     "pinyin": "wǒ xūyào le。",
     "pinyin_numeric": "wo3 xuyao4 le0。",
     "translation_en": "I needed.",
-    "translation_ko": "저는 필요하다했습니다.",
+    "translation_ko": "저는 필요했습니다.",
     "audio_id": "AUD_LIS_D74_16",
     "sentence_id": "SEN_D74_016"
   },
@@ -2036,7 +2036,7 @@
     "pinyin": "nǐ xiǎng le ma？",
     "pinyin_numeric": "ni3 xiang3 le0 ma0？",
     "translation_en": "Did you want?",
-    "translation_ko": "원하다했습니까?",
+    "translation_ko": "원하셨습니까?",
     "audio_id": "AUD_LIS_D74_17",
     "sentence_id": "SEN_D74_017"
   },
@@ -2075,7 +2075,7 @@
     "pinyin": "jīntiān hěn xiǎo。",
     "pinyin_numeric": "jin1 tian1 hen3 xiao3。",
     "translation_en": "Today is very small.",
-    "translation_ko": "오늘은 매우 작다니다.",
+    "translation_ko": "오늘은 매우 작습니다.",
     "audio_id": "AUD_LIS_D74_20",
     "sentence_id": "SEN_D74_020"
   },
@@ -2088,7 +2088,7 @@
     "pinyin": "wǒ xiǎng le。",
     "pinyin_numeric": "wo3 xiang3 le0。",
     "translation_en": "I wanted.",
-    "translation_ko": "저는 원하다했습니다.",
+    "translation_ko": "저는 원했습니다.",
     "audio_id": "AUD_LIS_D75_01",
     "sentence_id": "SEN_D75_001"
   },
@@ -2101,7 +2101,7 @@
     "pinyin": "nǐ xiǎng le ma？",
     "pinyin_numeric": "ni3 xiang3 le0 ma0？",
     "translation_en": "Did you want?",
-    "translation_ko": "원하다했습니까?",
+    "translation_ko": "원하셨습니까?",
     "audio_id": "AUD_LIS_D75_02",
     "sentence_id": "SEN_D75_002"
   },
@@ -2140,7 +2140,7 @@
     "pinyin": "jīntiān hěn lěng。",
     "pinyin_numeric": "jin1 tian1 hen3 leng3。",
     "translation_en": "Today is very cold.",
-    "translation_ko": "오늘은 매우 춥다니다.",
+    "translation_ko": "오늘은 매우 춥습니다.",
     "audio_id": "AUD_LIS_D75_05",
     "sentence_id": "SEN_D75_005"
   },
@@ -2165,8 +2165,8 @@
     "text": "可以有嗎？",
     "pinyin": "kěyǐ yǒu ma？",
     "pinyin_numeric": "keyi3 you3 ma0？",
-    "translation_en": "Can I have?",
-    "translation_ko": "있다할 수 있어요?",
+    "translation_en": "Can I have it?",
+    "translation_ko": "있을 수 있어요?",
     "audio_id": "AUD_LIS_D75_07",
     "sentence_id": "SEN_D75_007"
   },
@@ -2243,7 +2243,7 @@
     "text": "雖然這家餐廳的牛肉麵很好吃，但是服務態度不好。",
     "pinyin": "Suīrán zhè jiā cāntīng de niúròumiàn hěn hǎochī, dànshì fúwù tàidù bù hǎo.",
     "pinyin_numeric": "sui1ran2 zhe4 jia1 can1ting1 de5 niu2rou4mian4 hen3 hao3chi1, dan4shi4 fu2wu4 tai4du4 bu4 hao3.",
-    "translation_en": "Although this restaurant's beef noodles are delicious, the service attitude is not good.",
+    "translation_en": "the service attitude is not good",
     "translation_ko": "이 식당의 소고기 국수는 맛있지만 서비스 태도가 좋지 않아요.",
     "audio_id": "AUD_LIS_D75_13",
     "sentence_id": "SEN_D75_013"
@@ -2543,7 +2543,7 @@
     "pinyin": "wǒ xiǎng le。",
     "pinyin_numeric": "wo3 xiang3 le0。",
     "translation_en": "I wanted.",
-    "translation_ko": "저는 원하다했습니다.",
+    "translation_ko": "저는 원했습니다.",
     "audio_id": "AUD_LIS_D76_16",
     "sentence_id": "SEN_D76_016"
   },
@@ -2556,7 +2556,7 @@
     "pinyin": "nǐ qù le ma？",
     "pinyin_numeric": "ni3 qu4 le0 ma0？",
     "translation_en": "Did you go?",
-    "translation_ko": "어제 아주 늦게 잤기 때문에 오늘 아침에 일어나지 못했어요.",
+    "translation_ko": "갔어요?",
     "audio_id": "AUD_LIS_D76_17",
     "sentence_id": "SEN_D76_017"
   },
@@ -2595,7 +2595,7 @@
     "pinyin": "jīntiān hěn rè。",
     "pinyin_numeric": "jin1 tian1 hen3 re4。",
     "translation_en": "Today is very hot.",
-    "translation_ko": "오늘은 매우 덥다니다.",
+    "translation_ko": "오늘은 매우 덥습니다.",
     "audio_id": "AUD_LIS_D76_20",
     "sentence_id": "SEN_D76_020"
   },
@@ -2608,7 +2608,7 @@
     "pinyin": "wǒ shuō le。",
     "pinyin_numeric": "wo3 shuo1 le0。",
     "translation_en": "I spoke.",
-    "translation_ko": "어제 야시장에 갔는데, 그다음에 루로우판을 먹었어요. 그리고요?",
+    "translation_ko": "말했어요.",
     "audio_id": "AUD_LIS_D77_01",
     "sentence_id": "SEN_D77_001"
   },
@@ -2660,7 +2660,7 @@
     "pinyin": "jīntiān hěn jiǎndān。",
     "pinyin_numeric": "jin1 tian1 hen3 jian3 dan1。",
     "translation_en": "Today is very simple.",
-    "translation_ko": "오늘은 매우 간단하다니다.",
+    "translation_ko": "오늘은 매우 간단합니다.",
     "audio_id": "AUD_LIS_D77_05",
     "sentence_id": "SEN_D77_005"
   },
@@ -2686,7 +2686,7 @@
     "pinyin": "kěyǐ qù ma？",
     "pinyin_numeric": "keyi3 qu4 ma0？",
     "translation_en": "Can I go?",
-    "translation_ko": "가다할 수 있어요?",
+    "translation_ko": "갈 수 있어요?",
     "audio_id": "AUD_LIS_D77_07",
     "sentence_id": "SEN_D77_007"
   },
@@ -2699,7 +2699,7 @@
     "pinyin": "zhège hěn lěng。",
     "pinyin_numeric": "zhe4 ge0 hen3 leng3。",
     "translation_en": "This is very cold.",
-    "translation_ko": "이것은 매우 춥다니다.",
+    "translation_ko": "이것은 매우 춥습니다.",
     "audio_id": "AUD_LIS_D77_08",
     "sentence_id": "SEN_D77_008"
   },
@@ -2725,7 +2725,7 @@
     "pinyin": "tā zhèngzài shuō。",
     "pinyin_numeric": "ta1 zheng4 zai4 shuo1。",
     "translation_en": "He is speaking.",
-    "translation_ko": "그는 말하다하고 있습니다.",
+    "translation_ko": "그는 말하고 있습니다.",
     "audio_id": "AUD_LIS_D77_10",
     "sentence_id": "SEN_D77_010"
   },
@@ -2750,7 +2750,7 @@
     "text": "你會需要嗎？",
     "pinyin": "nǐ huì xūyào ma？",
     "pinyin_numeric": "ni3 hui4 xuyao4 ma0？",
-    "translation_en": "Can you need?",
+    "translation_en": "Do you need it?",
     "translation_ko": "필요하다 할 수 있나요?",
     "audio_id": "AUD_LIS_D77_12",
     "sentence_id": "SEN_D77_012"
@@ -2776,8 +2776,8 @@
     "text": "昨天我想了。",
     "pinyin": "zuótiān wǒ xiǎng le。",
     "pinyin_numeric": "zuo2 tian1 wo3 xiang3 le0。",
-    "translation_en": "Yesterday I wanted.",
-    "translation_ko": "어제 저는 원하다했습니다.",
+    "translation_en": "Yesterday I thought about it.",
+    "translation_ko": "어제 저는 생각했어요.",
     "audio_id": "AUD_LIS_D77_14",
     "sentence_id": "SEN_D77_014"
   },
@@ -2790,7 +2790,7 @@
     "pinyin": "zhèlǐ hěn jiǎndān。",
     "pinyin_numeric": "zhe4 li3 hen3 jian3 dan1。",
     "translation_en": "It is very simple here.",
-    "translation_ko": "여기는 매우 간단하다니다.",
+    "translation_ko": "여기는 매우 간단해요.",
     "audio_id": "AUD_LIS_D77_15",
     "sentence_id": "SEN_D77_015"
   },
@@ -2803,7 +2803,7 @@
     "pinyin": "wǒ shuō le。",
     "pinyin_numeric": "wo3 shuo1 le0。",
     "translation_en": "I spoke.",
-    "translation_ko": "제가 그에게 이유를 물었고, 나중에 그는 의미를 설명했어요.",
+    "translation_ko": "제가 말했어요.",
     "audio_id": "AUD_LIS_D77_16",
     "sentence_id": "SEN_D77_016"
   },
@@ -2815,8 +2815,8 @@
     "text": "你喜歡了嗎？",
     "pinyin": "nǐ xǐhuan le ma？",
     "pinyin_numeric": "ni3 xihuan3 le0 ma0？",
-    "translation_en": "Did you like?",
-    "translation_ko": "좋아하다했습니까?",
+    "translation_en": "Did you like it?",
+    "translation_ko": "좋아하셨나요?",
     "audio_id": "AUD_LIS_D77_17",
     "sentence_id": "SEN_D77_017"
   },
@@ -2854,8 +2854,8 @@
     "text": "今天很快。",
     "pinyin": "jīntiān hěn kuài。",
     "pinyin_numeric": "jin1 tian1 hen3 kuai4。",
-    "translation_en": "Today is very fast.",
-    "translation_ko": "오늘은 매우 빠르다니다.",
+    "translation_en": "Today is very short.",
+    "translation_ko": "오늘은 매우 짧아요.",
     "audio_id": "AUD_LIS_D77_20",
     "sentence_id": "SEN_D77_020"
   },
@@ -2867,8 +2867,8 @@
     "text": "我想了。",
     "pinyin": "wǒ xiǎng le。",
     "pinyin_numeric": "wo3 xiang3 le0。",
-    "translation_en": "I wanted.",
-    "translation_ko": "저는 원하다했습니다.",
+    "translation_en": "I thought about it.",
+    "translation_ko": "저는 생각했어요.",
     "audio_id": "AUD_LIS_D78_01",
     "sentence_id": "SEN_D78_001"
   },
@@ -2880,8 +2880,8 @@
     "text": "你想了嗎？",
     "pinyin": "nǐ xiǎng le ma？",
     "pinyin_numeric": "ni3 xiang3 le0 ma0？",
-    "translation_en": "Did you want?",
-    "translation_ko": "원하다했습니까?",
+    "translation_en": "Did you think about it?",
+    "translation_ko": "생각하셨나요?",
     "audio_id": "AUD_LIS_D78_02",
     "sentence_id": "SEN_D78_002"
   },
@@ -2907,7 +2907,7 @@
     "pinyin": "Qíshí, wǒ bǐjiào xǐhuān hē hóngchá, bù xǐhuān hē kāfēi.",
     "pinyin_numeric": "qi2shi2, wo3 bi3jiao4 xi3huan1 he1 hong2cha2, bu4 xi3huan1 he1 ka1fei1.",
     "translation_en": "Actually, I prefer drinking black tea; I don't like coffee.",
-    "translation_ko": "사실, 저는 커피보다 홍차를 더 좋아해요.",
+    "translation_ko": "사실, 저는 홍차를 더 좋아하고 커피는 좋아하지 않아요.",
     "audio_id": "AUD_LIS_D78_04",
     "sentence_id": "SEN_D78_004"
   },
@@ -2919,8 +2919,8 @@
     "text": "今天很快。",
     "pinyin": "jīntiān hěn kuài。",
     "pinyin_numeric": "jin1 tian1 hen3 kuai4。",
-    "translation_en": "Today is very fast.",
-    "translation_ko": "오늘은 매우 빠르다니다.",
+    "translation_en": "Today is very short.",
+    "translation_ko": "오늘은 매우 짧아요.",
     "audio_id": "AUD_LIS_D78_05",
     "sentence_id": "SEN_D78_005"
   },
@@ -2946,7 +2946,7 @@
     "pinyin": "kěyǐ qù ma？",
     "pinyin_numeric": "keyi3 qu4 ma0？",
     "translation_en": "Can I go?",
-    "translation_ko": "가다할 수 있어요?",
+    "translation_ko": "갈 수 있어요?",
     "audio_id": "AUD_LIS_D78_07",
     "sentence_id": "SEN_D78_007"
   },
@@ -2959,7 +2959,7 @@
     "pinyin": "zhège hěn shǎo。",
     "pinyin_numeric": "zhe4 ge0 hen3 shao3。",
     "translation_en": "This is very few.",
-    "translation_ko": "이것은 매우 적다니다.",
+    "translation_ko": "이것은 매우 적습니다.",
     "audio_id": "AUD_LIS_D78_08",
     "sentence_id": "SEN_D78_008"
   },
@@ -2985,7 +2985,7 @@
     "pinyin": "tā zhèngzài qù。",
     "pinyin_numeric": "ta1 zheng4 zai4 qu4。",
     "translation_en": "He is going.",
-    "translation_ko": "그는 가다하고 있습니다.",
+    "translation_ko": "그는 가고 있습니다.",
     "audio_id": "AUD_LIS_D78_10",
     "sentence_id": "SEN_D78_010"
   },
@@ -3011,7 +3011,7 @@
     "pinyin": "nǐ huì qù ma？",
     "pinyin_numeric": "ni3 hui4 qu4 ma0？",
     "translation_en": "Can you go?",
-    "translation_ko": "가다 할 수 있나요?",
+    "translation_ko": "갈 수 있나요?",
     "audio_id": "AUD_LIS_D78_12",
     "sentence_id": "SEN_D78_012"
   },
@@ -3037,7 +3037,7 @@
     "pinyin": "zuótiān wǒ xiǎng le。",
     "pinyin_numeric": "zuo2 tian1 wo3 xiang3 le0。",
     "translation_en": "Yesterday I wanted.",
-    "translation_ko": "어제 저는 원하다했습니다.",
+    "translation_ko": "어제 저는 원했습니다.",
     "audio_id": "AUD_LIS_D78_14",
     "sentence_id": "SEN_D78_014"
   },
@@ -3050,7 +3050,7 @@
     "pinyin": "zhèlǐ hěn xīn。",
     "pinyin_numeric": "zhe4 li3 hen3 xin1。",
     "translation_en": "It is very new here.",
-    "translation_ko": "여기는 매우 새롭다니다.",
+    "translation_ko": "여기는 매우 새롭습니다.",
     "audio_id": "AUD_LIS_D78_15",
     "sentence_id": "SEN_D78_015"
   },
@@ -3076,7 +3076,7 @@
     "pinyin": "nǐ xūyào le ma？",
     "pinyin_numeric": "ni3 xuyao4 le0 ma0？",
     "translation_en": "Did you need?",
-    "translation_ko": "필요하다했습니까?",
+    "translation_ko": "필요하셨습니까?",
     "audio_id": "AUD_LIS_D78_17",
     "sentence_id": "SEN_D78_017"
   },
@@ -3115,7 +3115,7 @@
     "pinyin": "jīntiān hěn dà。",
     "pinyin_numeric": "jin1 tian1 hen3 da4。",
     "translation_en": "Today is very big.",
-    "translation_ko": "오늘은 매우 크다니다.",
+    "translation_ko": "오늘은 매우 큽니다.",
     "audio_id": "AUD_LIS_D78_20",
     "sentence_id": "SEN_D78_020"
   },
@@ -3141,7 +3141,7 @@
     "pinyin": "nǐ qù le ma？",
     "pinyin_numeric": "ni3 qu4 le0 ma0？",
     "translation_en": "Did you go?",
-    "translation_ko": "죄송합니다, 제가 잘못 말했어요. 다시 한 번 말씀해 주세요.",
+    "translation_ko": "네, 갔어요?",
     "audio_id": "AUD_LIS_D79_02",
     "sentence_id": "SEN_D79_002"
   },
@@ -3180,7 +3180,7 @@
     "pinyin": "jīntiān hěn màn。",
     "pinyin_numeric": "jin1 tian1 hen3 man4。",
     "translation_en": "Today is very slow.",
-    "translation_ko": "오늘은 매우 느리다니다.",
+    "translation_ko": "오늘은 매우 느립니다.",
     "audio_id": "AUD_LIS_D79_05",
     "sentence_id": "SEN_D79_005"
   },
@@ -3206,7 +3206,7 @@
     "pinyin": "kěyǐ shuō ma？",
     "pinyin_numeric": "keyi3 shuo1 ma0？",
     "translation_en": "Can I speak?",
-    "translation_ko": "말하다할 수 있어요?",
+    "translation_ko": "말할 수 있어요?",
     "audio_id": "AUD_LIS_D79_07",
     "sentence_id": "SEN_D79_007"
   },
@@ -3219,7 +3219,7 @@
     "pinyin": "zhège hěn kuài。",
     "pinyin_numeric": "zhe4 ge0 hen3 kuai4。",
     "translation_en": "This is very fast.",
-    "translation_ko": "이것은 매우 빠르다니다.",
+    "translation_ko": "이것은 매우 빠릅니다.",
     "audio_id": "AUD_LIS_D79_08",
     "sentence_id": "SEN_D79_008"
   },
@@ -3244,8 +3244,8 @@
     "text": "他正在需要。",
     "pinyin": "tā zhèngzài xūyào。",
     "pinyin_numeric": "ta1 zheng4 zai4 xuyao4。",
-    "translation_en": "He is needing.",
-    "translation_ko": "그는 필요하다하고 있습니다.",
+    "translation_en": "He needs.",
+    "translation_ko": "그는 필요합니다.",
     "audio_id": "AUD_LIS_D79_10",
     "sentence_id": "SEN_D79_010"
   },
@@ -3270,8 +3270,8 @@
     "text": "你會需要嗎？",
     "pinyin": "nǐ huì xūyào ma？",
     "pinyin_numeric": "ni3 hui4 xuyao4 ma0？",
-    "translation_en": "Can you need?",
-    "translation_ko": "필요하다 할 수 있나요?",
+    "translation_en": "Will you need it?",
+    "translation_ko": "필요하실 건가요?",
     "audio_id": "AUD_LIS_D79_12",
     "sentence_id": "SEN_D79_012"
   },
@@ -3296,8 +3296,8 @@
     "text": "昨天我喜歡了。",
     "pinyin": "zuótiān wǒ xǐhuan le。",
     "pinyin_numeric": "zuo2 tian1 wo3 xihuan3 le0。",
-    "translation_en": "Yesterday I liked.",
-    "translation_ko": "어제 저는 좋아하다했습니다.",
+    "translation_en": "Yesterday I liked it.",
+    "translation_ko": "어제 저는 좋아했습니다.",
     "audio_id": "AUD_LIS_D79_14",
     "sentence_id": "SEN_D79_014"
   },
@@ -3310,7 +3310,7 @@
     "pinyin": "zhèlǐ hěn xīn。",
     "pinyin_numeric": "zhe4 li3 hen3 xin1。",
     "translation_en": "It is very new here.",
-    "translation_ko": "여기는 매우 새롭다니다.",
+    "translation_ko": "여기는 매우 새롭습니다.",
     "audio_id": "AUD_LIS_D79_15",
     "sentence_id": "SEN_D79_015"
   },
@@ -3323,7 +3323,7 @@
     "pinyin": "wǒ qù le。",
     "pinyin_numeric": "wo3 qu4 le0。",
     "translation_en": "I went.",
-    "translation_ko": "저는 가다했습니다.",
+    "translation_ko": "저는 갔습니다.",
     "audio_id": "AUD_LIS_D79_16",
     "sentence_id": "SEN_D79_016"
   },
@@ -3336,7 +3336,7 @@
     "pinyin": "nǐ xūyào le ma？",
     "pinyin_numeric": "ni3 xuyao4 le0 ma0？",
     "translation_en": "Did you need?",
-    "translation_ko": "필요하다했습니까?",
+    "translation_ko": "필요하셨습니까?",
     "audio_id": "AUD_LIS_D79_17",
     "sentence_id": "SEN_D79_017"
   },
@@ -3375,7 +3375,7 @@
     "pinyin": "jīntiān hěn dà。",
     "pinyin_numeric": "jin1 tian1 hen3 da4。",
     "translation_en": "Today is very big.",
-    "translation_ko": "오늘은 매우 크다니다.",
+    "translation_ko": "오늘은 매우 큽니다.",
     "audio_id": "AUD_LIS_D79_20",
     "sentence_id": "SEN_D79_020"
   },
@@ -3388,7 +3388,7 @@
     "pinyin": "wǒ xiǎng le。",
     "pinyin_numeric": "wo3 xiang3 le0。",
     "translation_en": "I wanted.",
-    "translation_ko": "저는 원하다했습니다.",
+    "translation_ko": "저는 원했습니다.",
     "audio_id": "AUD_LIS_D80_01",
     "sentence_id": "SEN_D80_001"
   },
@@ -3401,7 +3401,7 @@
     "pinyin": "nǐ xiǎng le ma？",
     "pinyin_numeric": "ni3 xiang3 le0 ma0？",
     "translation_en": "Did you want?",
-    "translation_ko": "원하다했습니까?",
+    "translation_ko": "원하셨습니까?",
     "audio_id": "AUD_LIS_D80_02",
     "sentence_id": "SEN_D80_002"
   },
@@ -3440,7 +3440,7 @@
     "pinyin": "jīntiān hěn kuài。",
     "pinyin_numeric": "jin1 tian1 hen3 kuai4。",
     "translation_en": "Today is very fast.",
-    "translation_ko": "오늘은 매우 빠르다니다.",
+    "translation_ko": "오늘은 매우 빠릅니다.",
     "audio_id": "AUD_LIS_D80_05",
     "sentence_id": "SEN_D80_005"
   },
@@ -3466,7 +3466,7 @@
     "pinyin": "kěyǐ qù ma？",
     "pinyin_numeric": "keyi3 qu4 ma0？",
     "translation_en": "Can I go?",
-    "translation_ko": "가다할 수 있어요?",
+    "translation_ko": "갈 수 있어요?",
     "audio_id": "AUD_LIS_D80_07",
     "sentence_id": "SEN_D80_007"
   },
@@ -3479,7 +3479,7 @@
     "pinyin": "zhège hěn jiǎndān。",
     "pinyin_numeric": "zhe4 ge0 hen3 jian3 dan1。",
     "translation_en": "This is very simple.",
-    "translation_ko": "이것은 매우 간단하다니다.",
+    "translation_ko": "이것은 매우 간단합니다.",
     "audio_id": "AUD_LIS_D80_08",
     "sentence_id": "SEN_D80_008"
   },
@@ -3505,7 +3505,7 @@
     "pinyin": "tā zhèngzài shuō。",
     "pinyin_numeric": "ta1 zheng4 zai4 shuo1。",
     "translation_en": "He is speaking.",
-    "translation_ko": "그는 말하다하고 있습니다.",
+    "translation_ko": "그는 말하고 있습니다.",
     "audio_id": "AUD_LIS_D80_10",
     "sentence_id": "SEN_D80_010"
   },
@@ -3530,8 +3530,8 @@
     "text": "你會想嗎？",
     "pinyin": "nǐ huì xiǎng ma？",
     "pinyin_numeric": "ni3 hui4 xiang3 ma0？",
-    "translation_en": "Can you want?",
-    "translation_ko": "원하다 할 수 있나요?",
+    "translation_en": "Would you want to?",
+    "translation_ko": "원하시나요?",
     "audio_id": "AUD_LIS_D80_12",
     "sentence_id": "SEN_D80_012"
   },
@@ -3557,7 +3557,7 @@
     "pinyin": "zuótiān wǒ shuō le。",
     "pinyin_numeric": "zuo2 tian1 wo3 shuo1 le0。",
     "translation_en": "Yesterday I spoke.",
-    "translation_ko": "규정에 따라, 우리는 이 입구로 들어갈 수 없습니다.",
+    "translation_ko": "어제 말했어요.",
     "audio_id": "AUD_LIS_D80_14",
     "sentence_id": "SEN_D80_014"
   },
@@ -3570,7 +3570,7 @@
     "pinyin": "zhèlǐ hěn xiǎo。",
     "pinyin_numeric": "zhe4 li3 hen3 xiao3。",
     "translation_en": "It is very small here.",
-    "translation_ko": "여기는 매우 작다니다.",
+    "translation_ko": "여기는 매우 작습니다.",
     "audio_id": "AUD_LIS_D80_15",
     "sentence_id": "SEN_D80_015"
   },
@@ -3583,7 +3583,7 @@
     "pinyin": "wǒ xūyào le。",
     "pinyin_numeric": "wo3 xuyao4 le0。",
     "translation_en": "I needed.",
-    "translation_ko": "저는 필요하다했습니다.",
+    "translation_ko": "저는 필요했습니다.",
     "audio_id": "AUD_LIS_D80_16",
     "sentence_id": "SEN_D80_016"
   },
@@ -3596,7 +3596,7 @@
     "pinyin": "nǐ qù le ma？",
     "pinyin_numeric": "ni3 qu4 le0 ma0？",
     "translation_en": "Did you go?",
-    "translation_ko": "이 서류에는 서명이 필요하며, 그런 다음 카운터에 제출해 주세요.",
+    "translation_ko": "갔어요?",
     "audio_id": "AUD_LIS_D80_17",
     "sentence_id": "SEN_D80_017"
   },
@@ -3635,7 +3635,7 @@
     "pinyin": "jīntiān hěn jiǎndān。",
     "pinyin_numeric": "jin1 tian1 hen3 jian3 dan1。",
     "translation_en": "Today is very simple.",
-    "translation_ko": "오늘은 매우 간단하다니다.",
+    "translation_ko": "오늘은 매우 간단합니다.",
     "audio_id": "AUD_LIS_D80_20",
     "sentence_id": "SEN_D80_020"
   },
@@ -3648,7 +3648,7 @@
     "pinyin": "wǒ shuō le。",
     "pinyin_numeric": "wo3 shuo1 le0。",
     "translation_en": "I spoke.",
-    "translation_ko": "여보세요, 왕 씨 계신가요?",
+    "translation_ko": "말했어요.",
     "audio_id": "AUD_LIS_D81_01",
     "sentence_id": "SEN_D81_001"
   },
@@ -3661,7 +3661,7 @@
     "pinyin": "nǐ xiǎng le ma？",
     "pinyin_numeric": "ni3 xiang3 le0 ma0？",
     "translation_en": "Did you want?",
-    "translation_ko": "원하다했습니까?",
+    "translation_ko": "원하셨습니까?",
     "audio_id": "AUD_LIS_D81_02",
     "sentence_id": "SEN_D81_002"
   },
@@ -3700,7 +3700,7 @@
     "pinyin": "jīntiān hěn dà。",
     "pinyin_numeric": "jin1 tian1 hen3 da4。",
     "translation_en": "Today is very big.",
-    "translation_ko": "오늘은 매우 크다니다.",
+    "translation_ko": "오늘은 매우 큽니다.",
     "audio_id": "AUD_LIS_D81_05",
     "sentence_id": "SEN_D81_005"
   },
@@ -3726,7 +3726,7 @@
     "pinyin": "kěyǐ qù ma？",
     "pinyin_numeric": "keyi3 qu4 ma0？",
     "translation_en": "Can I go?",
-    "translation_ko": "가다할 수 있어요?",
+    "translation_ko": "갈 수 있어요?",
     "audio_id": "AUD_LIS_D81_07",
     "sentence_id": "SEN_D81_007"
   },
@@ -3739,7 +3739,7 @@
     "pinyin": "zhège hěn jiǎndān。",
     "pinyin_numeric": "zhe4 ge0 hen3 jian3 dan1。",
     "translation_en": "This is very simple.",
-    "translation_ko": "이것은 매우 간단하다니다.",
+    "translation_ko": "이것은 매우 간단합니다.",
     "audio_id": "AUD_LIS_D81_08",
     "sentence_id": "SEN_D81_008"
   },
@@ -3765,7 +3765,7 @@
     "pinyin": "tā zhèngzài yǒu。",
     "pinyin_numeric": "ta1 zheng4 zai4 you3。",
     "translation_en": "He is having.",
-    "translation_ko": "그는 있다하고 있습니다.",
+    "translation_ko": "그는 있습니다.",
     "audio_id": "AUD_LIS_D81_10",
     "sentence_id": "SEN_D81_010"
   },
@@ -3790,8 +3790,8 @@
     "text": "你會喜歡嗎？",
     "pinyin": "nǐ huì xǐhuan ma？",
     "pinyin_numeric": "ni3 hui4 xihuan3 ma0？",
-    "translation_en": "Can you like?",
-    "translation_ko": "좋아하다 할 수 있나요?",
+    "translation_en": "Do you like it?",
+    "translation_ko": "좋아하세요?",
     "audio_id": "AUD_LIS_D81_12",
     "sentence_id": "SEN_D81_012"
   },
@@ -3830,7 +3830,7 @@
     "pinyin": "zhèlǐ hěn guì。",
     "pinyin_numeric": "zhe4 li3 hen3 gui4。",
     "translation_en": "It is very expensive here.",
-    "translation_ko": "여기는 매우 비싸다니다.",
+    "translation_ko": "여기는 매우 비쌉니다.",
     "audio_id": "AUD_LIS_D81_15",
     "sentence_id": "SEN_D81_015"
   },
@@ -3842,8 +3842,8 @@
     "text": "我喜歡了。",
     "pinyin": "wǒ xǐhuan le。",
     "pinyin_numeric": "wo3 xihuan3 le0。",
-    "translation_en": "I liked.",
-    "translation_ko": "저는 좋아하다했습니다.",
+    "translation_en": "I like it.",
+    "translation_ko": "저는 좋아합니다.",
     "audio_id": "AUD_LIS_D81_16",
     "sentence_id": "SEN_D81_016"
   },
@@ -3855,8 +3855,8 @@
     "text": "你想了嗎？",
     "pinyin": "nǐ xiǎng le ma？",
     "pinyin_numeric": "ni3 xiang3 le0 ma0？",
-    "translation_en": "Did you want?",
-    "translation_ko": "원하다했습니까?",
+    "translation_en": "Do you want to?",
+    "translation_ko": "원하십니까?",
     "audio_id": "AUD_LIS_D81_17",
     "sentence_id": "SEN_D81_017"
   },
@@ -3895,7 +3895,7 @@
     "pinyin": "jīntiān hěn nán。",
     "pinyin_numeric": "jin1 tian1 hen3 nan2。",
     "translation_en": "Today is very difficult.",
-    "translation_ko": "오늘은 매우 어렵다니다.",
+    "translation_ko": "오늘은 매우 어렵습니다.",
     "audio_id": "AUD_LIS_D81_20",
     "sentence_id": "SEN_D81_020"
   },
@@ -3921,7 +3921,7 @@
     "pinyin": "nǐ xūyào le ma？",
     "pinyin_numeric": "ni3 xuyao4 le0 ma0？",
     "translation_en": "Did you need?",
-    "translation_ko": "필요하다했습니까?",
+    "translation_ko": "필요하셨나요?",
     "audio_id": "AUD_LIS_D82_02",
     "sentence_id": "SEN_D82_002"
   },
@@ -3960,7 +3960,7 @@
     "pinyin": "jīntiān hěn piányí。",
     "pinyin_numeric": "jin1 tian1 hen3 pian2 yi2。",
     "translation_en": "Today is very cheap.",
-    "translation_ko": "오늘은 매우 싸다니다.",
+    "translation_ko": "오늘은 매우 싸요.",
     "audio_id": "AUD_LIS_D82_05",
     "sentence_id": "SEN_D82_005"
   },
@@ -3999,7 +3999,7 @@
     "pinyin": "zhège hěn jiǎndān。",
     "pinyin_numeric": "zhe4 ge0 hen3 jian3 dan1。",
     "translation_en": "This is very simple.",
-    "translation_ko": "이것은 매우 간단하다니다.",
+    "translation_ko": "이것은 매우 간단해요.",
     "audio_id": "AUD_LIS_D82_08",
     "sentence_id": "SEN_D82_008"
   },
@@ -4024,8 +4024,8 @@
     "text": "他正在需要。",
     "pinyin": "tā zhèngzài xūyào。",
     "pinyin_numeric": "ta1 zheng4 zai4 xuyao4。",
-    "translation_en": "He is needing.",
-    "translation_ko": "그는 필요하다하고 있습니다.",
+    "translation_en": "He needs it.",
+    "translation_ko": "그는 필요로 하고 있습니다.",
     "audio_id": "AUD_LIS_D82_10",
     "sentence_id": "SEN_D82_010"
   },
@@ -4051,7 +4051,7 @@
     "pinyin": "nǐ huì shuō ma？",
     "pinyin_numeric": "ni3 hui4 shuo1 ma0？",
     "translation_en": "Can you speak?",
-    "translation_ko": "말하다 할 수 있나요?",
+    "translation_ko": "말할 수 있나요?",
     "audio_id": "AUD_LIS_D82_12",
     "sentence_id": "SEN_D82_012"
   },
@@ -4077,7 +4077,7 @@
     "pinyin": "zuótiān wǒ qù le。",
     "pinyin_numeric": "zuo2 tian1 wo3 qu4 le0。",
     "translation_en": "Yesterday I went.",
-    "translation_ko": "어제 저는 가다했습니다.",
+    "translation_ko": "어제 저는 갔어요.",
     "audio_id": "AUD_LIS_D82_14",
     "sentence_id": "SEN_D82_014"
   },
@@ -4090,7 +4090,7 @@
     "pinyin": "zhèlǐ hěn xiǎo。",
     "pinyin_numeric": "zhe4 li3 hen3 xiao3。",
     "translation_en": "It is very small here.",
-    "translation_ko": "여기는 매우 작다니다.",
+    "translation_ko": "여기는 매우 작아요.",
     "audio_id": "AUD_LIS_D82_15",
     "sentence_id": "SEN_D82_015"
   },
@@ -4103,7 +4103,7 @@
     "pinyin": "wǒ xiǎng le。",
     "pinyin_numeric": "wo3 xiang3 le0。",
     "translation_en": "I wanted.",
-    "translation_ko": "저는 원하다했습니다.",
+    "translation_ko": "저는 원했습니다.",
     "audio_id": "AUD_LIS_D82_16",
     "sentence_id": "SEN_D82_016"
   },
@@ -4116,7 +4116,7 @@
     "pinyin": "nǐ xūyào le ma？",
     "pinyin_numeric": "ni3 xuyao4 le0 ma0？",
     "translation_en": "Did you need?",
-    "translation_ko": "필요하다했습니까?",
+    "translation_ko": "필요하셨습니까?",
     "audio_id": "AUD_LIS_D82_17",
     "sentence_id": "SEN_D82_017"
   },
@@ -4155,7 +4155,7 @@
     "pinyin": "jīntiān hěn piányí。",
     "pinyin_numeric": "jin1 tian1 hen3 pian2 yi2。",
     "translation_en": "Today is very cheap.",
-    "translation_ko": "오늘은 매우 싸다니다.",
+    "translation_ko": "오늘은 매우 싸요.",
     "audio_id": "AUD_LIS_D82_20",
     "sentence_id": "SEN_D82_020"
   },
@@ -4168,7 +4168,7 @@
     "pinyin": "wǒ qù le。",
     "pinyin_numeric": "wo3 qu4 le0。",
     "translation_en": "I went.",
-    "translation_ko": "저는 가다했습니다.",
+    "translation_ko": "저는 갔습니다.",
     "audio_id": "AUD_LIS_D83_01",
     "sentence_id": "SEN_D83_001"
   },
@@ -4181,7 +4181,7 @@
     "pinyin": "nǐ xiǎng le ma？",
     "pinyin_numeric": "ni3 xiang3 le0 ma0？",
     "translation_en": "Did you want?",
-    "translation_ko": "원하다했습니까?",
+    "translation_ko": "원하셨습니까?",
     "audio_id": "AUD_LIS_D83_02",
     "sentence_id": "SEN_D83_002"
   },
@@ -4220,7 +4220,7 @@
     "pinyin": "jīntiān hěn piányí。",
     "pinyin_numeric": "jin1 tian1 hen3 pian2 yi2。",
     "translation_en": "Today is very cheap.",
-    "translation_ko": "오늘은 매우 싸다니다.",
+    "translation_ko": "오늘은 매우 싸요.",
     "audio_id": "AUD_LIS_D83_05",
     "sentence_id": "SEN_D83_005"
   },
@@ -4246,7 +4246,7 @@
     "pinyin": "kěyǐ yǒu ma？",
     "pinyin_numeric": "keyi3 you3 ma0？",
     "translation_en": "Can I have?",
-    "translation_ko": "있다할 수 있어요?",
+    "translation_ko": "있을 수 있나요?",
     "audio_id": "AUD_LIS_D83_07",
     "sentence_id": "SEN_D83_007"
   },
@@ -4259,7 +4259,7 @@
     "pinyin": "zhège hěn jiǎndān。",
     "pinyin_numeric": "zhe4 ge0 hen3 jian3 dan1。",
     "translation_en": "This is very simple.",
-    "translation_ko": "이것은 매우 간단하다니다.",
+    "translation_ko": "이것은 매우 간단해요.",
     "audio_id": "AUD_LIS_D83_08",
     "sentence_id": "SEN_D83_008"
   },
@@ -4285,7 +4285,7 @@
     "pinyin": "tā zhèngzài shuō。",
     "pinyin_numeric": "ta1 zheng4 zai4 shuo1。",
     "translation_en": "He is speaking.",
-    "translation_ko": "그는 말하다하고 있습니다.",
+    "translation_ko": "그는 말하고 있습니다.",
     "audio_id": "AUD_LIS_D83_10",
     "sentence_id": "SEN_D83_010"
   },
@@ -4310,7 +4310,7 @@
     "text": "你會想嗎？",
     "pinyin": "nǐ huì xiǎng ma？",
     "pinyin_numeric": "ni3 hui4 xiang3 ma0？",
-    "translation_en": "Can you want?",
+    "translation_en": "Do you want to?",
     "translation_ko": "원하다 할 수 있나요?",
     "audio_id": "AUD_LIS_D83_12",
     "sentence_id": "SEN_D83_012"
@@ -4337,7 +4337,7 @@
     "pinyin": "zuótiān wǒ shuō le。",
     "pinyin_numeric": "zuo2 tian1 wo3 shuo1 le0。",
     "translation_en": "Yesterday I spoke.",
-    "translation_ko": "당신이 이것을 선택하거나, 아니면 저것을 선택하거나 해요.",
+    "translation_ko": "어제 제가 말했어요.",
     "audio_id": "AUD_LIS_D83_14",
     "sentence_id": "SEN_D83_014"
   },
@@ -4350,7 +4350,7 @@
     "pinyin": "zhèlǐ hěn kuài。",
     "pinyin_numeric": "zhe4 li3 hen3 kuai4。",
     "translation_en": "It is very fast here.",
-    "translation_ko": "여기는 매우 빠르다니다.",
+    "translation_ko": "여기는 매우 빨라요.",
     "audio_id": "AUD_LIS_D83_15",
     "sentence_id": "SEN_D83_015"
   },
@@ -4376,7 +4376,7 @@
     "pinyin": "nǐ xǐhuan le ma？",
     "pinyin_numeric": "ni3 xihuan3 le0 ma0？",
     "translation_en": "Did you like?",
-    "translation_ko": "좋아하다했습니까?",
+    "translation_ko": "좋아하셨습니까?",
     "audio_id": "AUD_LIS_D83_17",
     "sentence_id": "SEN_D83_017"
   },
@@ -4415,7 +4415,7 @@
     "pinyin": "jīntiān hěn piányí。",
     "pinyin_numeric": "jin1 tian1 hen3 pian2 yi2。",
     "translation_en": "Today is very cheap.",
-    "translation_ko": "오늘은 매우 싸다니다.",
+    "translation_ko": "오늘은 매우 싸요.",
     "audio_id": "AUD_LIS_D83_20",
     "sentence_id": "SEN_D83_020"
   },
@@ -4428,7 +4428,7 @@
     "pinyin": "wǒ shuō le。",
     "pinyin_numeric": "wo3 shuo1 le0。",
     "translation_en": "I spoke.",
-    "translation_ko": "대만에 온 지 얼마나 되었어요?",
+    "translation_ko": "제가 말했어요.",
     "audio_id": "AUD_LIS_D84_01",
     "sentence_id": "SEN_D84_001"
   },
@@ -4441,7 +4441,7 @@
     "pinyin": "nǐ qù le ma？",
     "pinyin_numeric": "ni3 qu4 le0 ma0？",
     "translation_en": "Did you go?",
-    "translation_ko": "저는 대만에 온 지 석 달 되었어요.",
+    "translation_ko": "갔어요?",
     "audio_id": "AUD_LIS_D84_02",
     "sentence_id": "SEN_D84_002"
   },
@@ -4480,7 +4480,7 @@
     "pinyin": "jīntiān hěn lěng。",
     "pinyin_numeric": "jin1 tian1 hen3 leng3。",
     "translation_en": "Today is very cold.",
-    "translation_ko": "오늘은 매우 춥다니다.",
+    "translation_ko": "오늘은 매우 추워요.",
     "audio_id": "AUD_LIS_D84_05",
     "sentence_id": "SEN_D84_005"
   },
@@ -4506,7 +4506,7 @@
     "pinyin": "kěyǐ yǒu ma？",
     "pinyin_numeric": "keyi3 you3 ma0？",
     "translation_en": "Can I have?",
-    "translation_ko": "있다할 수 있어요?",
+    "translation_ko": "있을 수 있어요?",
     "audio_id": "AUD_LIS_D84_07",
     "sentence_id": "SEN_D84_007"
   },
@@ -4519,7 +4519,7 @@
     "pinyin": "zhège hěn nán。",
     "pinyin_numeric": "zhe4 ge0 hen3 nan2。",
     "translation_en": "This is very difficult.",
-    "translation_ko": "이것은 매우 어렵다니다.",
+    "translation_ko": "이것은 매우 어렵습니다.",
     "audio_id": "AUD_LIS_D84_08",
     "sentence_id": "SEN_D84_008"
   },
@@ -4544,8 +4544,8 @@
     "text": "他正在需要。",
     "pinyin": "tā zhèngzài xūyào。",
     "pinyin_numeric": "ta1 zheng4 zai4 xuyao4。",
-    "translation_en": "He is needing.",
-    "translation_ko": "그는 필요하다하고 있습니다.",
+    "translation_en": "He needs it.",
+    "translation_ko": "그는 필요하고 있습니다.",
     "audio_id": "AUD_LIS_D84_10",
     "sentence_id": "SEN_D84_010"
   },
@@ -4571,7 +4571,7 @@
     "pinyin": "nǐ huì qù ma？",
     "pinyin_numeric": "ni3 hui4 qu4 ma0？",
     "translation_en": "Can you go?",
-    "translation_ko": "가다 할 수 있나요?",
+    "translation_ko": "갈 수 있나요?",
     "audio_id": "AUD_LIS_D84_12",
     "sentence_id": "SEN_D84_012"
   },
@@ -4609,8 +4609,8 @@
     "text": "這裡很多。",
     "pinyin": "zhèlǐ hěn duō。",
     "pinyin_numeric": "zhe4 li3 hen3 duo1。",
-    "translation_en": "It is very many here.",
-    "translation_ko": "여기는 매우 많다니다.",
+    "translation_en": "There are many here.",
+    "translation_ko": "여기는 매우 많습니다.",
     "audio_id": "AUD_LIS_D84_15",
     "sentence_id": "SEN_D84_015"
   },
@@ -4623,7 +4623,7 @@
     "pinyin": "wǒ xūyào le。",
     "pinyin_numeric": "wo3 xuyao4 le0。",
     "translation_en": "I needed.",
-    "translation_ko": "저는 필요하다했습니다.",
+    "translation_ko": "저는 필요했습니다.",
     "audio_id": "AUD_LIS_D84_16",
     "sentence_id": "SEN_D84_016"
   },
@@ -4636,7 +4636,7 @@
     "pinyin": "nǐ qù le ma？",
     "pinyin_numeric": "ni3 qu4 le0 ma0？",
     "translation_en": "Did you go?",
-    "translation_ko": "그녀는 중국어를 배우기 위해 대만에 와서 벌써 반 년 동안 공부했어요.",
+    "translation_ko": "갔어요?",
     "audio_id": "AUD_LIS_D84_17",
     "sentence_id": "SEN_D84_017"
   },
@@ -4674,8 +4674,8 @@
     "text": "今天很小。",
     "pinyin": "jīntiān hěn xiǎo。",
     "pinyin_numeric": "jin1 tian1 hen3 xiao3。",
-    "translation_en": "Today is very small.",
-    "translation_ko": "오늘은 매우 작다니다.",
+    "translation_en": "Today is very quiet.",
+    "translation_ko": "오늘은 매우 조용합니다.",
     "audio_id": "AUD_LIS_D84_20",
     "sentence_id": "SEN_D84_020"
   },
@@ -4701,7 +4701,7 @@
     "pinyin": "nǐ xūyào le ma？",
     "pinyin_numeric": "ni3 xuyao4 le0 ma0？",
     "translation_en": "Did you need?",
-    "translation_ko": "필요하다했습니까?",
+    "translation_ko": "필요하셨습니까?",
     "audio_id": "AUD_LIS_D85_02",
     "sentence_id": "SEN_D85_002"
   },
@@ -4883,7 +4883,7 @@
     "pinyin": "wǒ xūyào le。",
     "pinyin_numeric": "wo3 xuyao4 le0。",
     "translation_en": "I needed.",
-    "translation_ko": "저는 필요하다했습니다.",
+    "translation_ko": "저는 필요했습니다.",
     "audio_id": "AUD_LIS_D85_16",
     "sentence_id": "SEN_D85_016"
   },
@@ -4896,7 +4896,7 @@
     "pinyin": "nǐ qù le ma？",
     "pinyin_numeric": "ni3 qu4 le0 ma0？",
     "translation_en": "Did you go?",
-    "translation_ko": "다음에 시간 되면 또 만나요, 괜찮죠?",
+    "translation_ko": "갔어요?",
     "audio_id": "AUD_LIS_D85_17",
     "sentence_id": "SEN_D85_017"
   },
@@ -4935,7 +4935,7 @@
     "pinyin": "jīntiān hěn nán。",
     "pinyin_numeric": "jin1 tian1 hen3 nan2。",
     "translation_en": "Today is very difficult.",
-    "translation_ko": "오늘은 매우 어렵다니다.",
+    "translation_ko": "오늘은 매우 어렵습니다.",
     "audio_id": "AUD_LIS_D85_20",
     "sentence_id": "SEN_D85_020"
   },
@@ -4948,7 +4948,7 @@
     "pinyin": "wǒ qù le。",
     "pinyin_numeric": "wo3 qu4 le0。",
     "translation_en": "I went.",
-    "translation_ko": "저는 가다했습니다.",
+    "translation_ko": "저는 갔습니다.",
     "audio_id": "AUD_LIS_D86_01",
     "sentence_id": "SEN_D86_001"
   },
@@ -4961,7 +4961,7 @@
     "pinyin": "nǐ shuō le ma？",
     "pinyin_numeric": "ni3 shuo1 le0 ma0？",
     "translation_en": "Did you speak?",
-    "translation_ko": "말하다했습니까?",
+    "translation_ko": "말했습니까?",
     "audio_id": "AUD_LIS_D86_02",
     "sentence_id": "SEN_D86_002"
   },
@@ -5000,7 +5000,7 @@
     "pinyin": "jīntiān hěn guì。",
     "pinyin_numeric": "jin1 tian1 hen3 gui4。",
     "translation_en": "Today is very expensive.",
-    "translation_ko": "오늘은 매우 비싸다니다.",
+    "translation_ko": "오늘은 매우 비쌉니다.",
     "audio_id": "AUD_LIS_D86_05",
     "sentence_id": "SEN_D86_005"
   },
@@ -5026,7 +5026,7 @@
     "pinyin": "kěyǐ shuō ma？",
     "pinyin_numeric": "keyi3 shuo1 ma0？",
     "translation_en": "Can I speak?",
-    "translation_ko": "말하다할 수 있어요?",
+    "translation_ko": "말할 수 있어요?",
     "audio_id": "AUD_LIS_D86_07",
     "sentence_id": "SEN_D86_007"
   },
@@ -5039,7 +5039,7 @@
     "pinyin": "zhège hěn kuài。",
     "pinyin_numeric": "zhe4 ge0 hen3 kuai4。",
     "translation_en": "This is very fast.",
-    "translation_ko": "이것은 매우 빠르다니다.",
+    "translation_ko": "이것은 매우 빠릅니다.",
     "audio_id": "AUD_LIS_D86_08",
     "sentence_id": "SEN_D86_008"
   },
@@ -5065,7 +5065,7 @@
     "pinyin": "tā zhèngzài xūyào。",
     "pinyin_numeric": "ta1 zheng4 zai4 xuyao4。",
     "translation_en": "He is needing.",
-    "translation_ko": "그는 필요하다하고 있습니다.",
+    "translation_ko": "그는 필요하고 있습니다.",
     "audio_id": "AUD_LIS_D86_10",
     "sentence_id": "SEN_D86_010"
   },
@@ -5091,7 +5091,7 @@
     "pinyin": "nǐ huì qù ma？",
     "pinyin_numeric": "ni3 hui4 qu4 ma0？",
     "translation_en": "Can you go?",
-    "translation_ko": "가다 할 수 있나요?",
+    "translation_ko": "갈 수 있나요?",
     "audio_id": "AUD_LIS_D86_12",
     "sentence_id": "SEN_D86_012"
   },
@@ -5117,7 +5117,7 @@
     "pinyin": "zuótiān wǒ qù le。",
     "pinyin_numeric": "zuo2 tian1 wo3 qu4 le0。",
     "translation_en": "Yesterday I went.",
-    "translation_ko": "어제 저는 가다했습니다.",
+    "translation_ko": "어제 저는 갔습니다.",
     "audio_id": "AUD_LIS_D86_14",
     "sentence_id": "SEN_D86_014"
   },
@@ -5130,7 +5130,7 @@
     "pinyin": "zhèlǐ hěn lěng。",
     "pinyin_numeric": "zhe4 li3 hen3 leng3。",
     "translation_en": "It is very cold here.",
-    "translation_ko": "여기는 매우 춥다니다.",
+    "translation_ko": "여기는 매우 춥습니다.",
     "audio_id": "AUD_LIS_D86_15",
     "sentence_id": "SEN_D86_015"
   },
@@ -5195,7 +5195,7 @@
     "pinyin": "jīntiān hěn màn。",
     "pinyin_numeric": "jin1 tian1 hen3 man4。",
     "translation_en": "Today is very slow.",
-    "translation_ko": "오늘은 매우 느리다니다.",
+    "translation_ko": "오늘은 매우 느립니다.",
     "audio_id": "AUD_LIS_D86_20",
     "sentence_id": "SEN_D86_020"
   },
@@ -5208,7 +5208,7 @@
     "pinyin": "wǒ xǐhuan le。",
     "pinyin_numeric": "wo3 xihuan3 le0。",
     "translation_en": "I liked.",
-    "translation_ko": "저는 좋아하다했습니다.",
+    "translation_ko": "저는 좋아했습니다.",
     "audio_id": "AUD_LIS_D87_01",
     "sentence_id": "SEN_D87_001"
   },
@@ -5221,7 +5221,7 @@
     "pinyin": "nǐ qù le ma？",
     "pinyin_numeric": "ni3 qu4 le0 ma0？",
     "translation_en": "Did you go?",
-    "translation_ko": "그는 어제부터 두통이 있어서 오늘 병원에 갔어요.",
+    "translation_ko": "갔어요?",
     "audio_id": "AUD_LIS_D87_02",
     "sentence_id": "SEN_D87_002"
   },
@@ -5260,7 +5260,7 @@
     "pinyin": "jīntiān hěn xiǎo。",
     "pinyin_numeric": "jin1 tian1 hen3 xiao3。",
     "translation_en": "Today is very small.",
-    "translation_ko": "오늘은 매우 작다니다.",
+    "translation_ko": "오늘은 매우 작습니다.",
     "audio_id": "AUD_LIS_D87_05",
     "sentence_id": "SEN_D87_005"
   },
@@ -5286,7 +5286,7 @@
     "pinyin": "kěyǐ qù ma？",
     "pinyin_numeric": "keyi3 qu4 ma0？",
     "translation_en": "Can I go?",
-    "translation_ko": "가다할 수 있어요?",
+    "translation_ko": "갈 수 있어요?",
     "audio_id": "AUD_LIS_D87_07",
     "sentence_id": "SEN_D87_007"
   },
@@ -5324,8 +5324,8 @@
     "text": "他正在想。",
     "pinyin": "tā zhèngzài xiǎng。",
     "pinyin_numeric": "ta1 zheng4 zai4 xiang3。",
-    "translation_en": "He is wanting.",
-    "translation_ko": "그는 원하다하고 있습니다.",
+    "translation_en": "He is thinking.",
+    "translation_ko": "그는 생각하고 있습니다.",
     "audio_id": "AUD_LIS_D87_10",
     "sentence_id": "SEN_D87_010"
   },
@@ -5351,7 +5351,7 @@
     "pinyin": "nǐ huì qù ma？",
     "pinyin_numeric": "ni3 hui4 qu4 ma0？",
     "translation_en": "Can you go?",
-    "translation_ko": "가다 할 수 있나요?",
+    "translation_ko": "갈 수 있나요?",
     "audio_id": "AUD_LIS_D87_12",
     "sentence_id": "SEN_D87_012"
   },
@@ -5377,7 +5377,7 @@
     "pinyin": "zuótiān wǒ shuō le。",
     "pinyin_numeric": "zuo2 tian1 wo3 shuo1 le0。",
     "translation_en": "Yesterday I spoke.",
-    "translation_ko": "수리 기사님이 변기가 고장 났으니 새 부품으로 교체해야 한다고 했어요.",
+    "translation_ko": "어제 내가 말했어요.",
     "audio_id": "AUD_LIS_D87_14",
     "sentence_id": "SEN_D87_014"
   },
@@ -5390,7 +5390,7 @@
     "pinyin": "zhèlǐ hěn guì。",
     "pinyin_numeric": "zhe4 li3 hen3 gui4。",
     "translation_en": "It is very expensive here.",
-    "translation_ko": "여기는 매우 비싸다니다.",
+    "translation_ko": "여기는 매우 비싸요.",
     "audio_id": "AUD_LIS_D87_15",
     "sentence_id": "SEN_D87_015"
   },
@@ -5402,8 +5402,8 @@
     "text": "我需要了。",
     "pinyin": "wǒ xūyào le。",
     "pinyin_numeric": "wo3 xuyao4 le0。",
-    "translation_en": "I needed.",
-    "translation_ko": "저는 필요하다했습니다.",
+    "translation_en": "I need.",
+    "translation_ko": "저는 필요해요.",
     "audio_id": "AUD_LIS_D87_16",
     "sentence_id": "SEN_D87_016"
   },
@@ -5416,7 +5416,7 @@
     "pinyin": "nǐ qù le ma？",
     "pinyin_numeric": "ni3 qu4 le0 ma0？",
     "translation_en": "Did you go?",
-    "translation_ko": "감기에 걸려서 약을 먹고 푹 쉬어야 해요.",
+    "translation_ko": "갔어요?",
     "audio_id": "AUD_LIS_D87_17",
     "sentence_id": "SEN_D87_017"
   },
@@ -5455,7 +5455,7 @@
     "pinyin": "jīntiān hěn hǎo。",
     "pinyin_numeric": "jin1 tian1 hen3 hao3。",
     "translation_en": "Today is very good.",
-    "translation_ko": "오늘은 매우 좋다니다.",
+    "translation_ko": "오늘은 매우 좋아요.",
     "audio_id": "AUD_LIS_D87_20",
     "sentence_id": "SEN_D87_020"
   },
@@ -5468,7 +5468,7 @@
     "pinyin": "wǒ xiǎng le。",
     "pinyin_numeric": "wo3 xiang3 le0。",
     "translation_en": "I wanted.",
-    "translation_ko": "저는 원하다했습니다.",
+    "translation_ko": "저는 원했습니다.",
     "audio_id": "AUD_LIS_D88_01",
     "sentence_id": "SEN_D88_001"
   },
@@ -5481,7 +5481,7 @@
     "pinyin": "nǐ qù le ma？",
     "pinyin_numeric": "ni3 qu4 le0 ma0？",
     "translation_en": "Did you go?",
-    "translation_ko": "그는 원래 우리와 같이 밥 먹으러 가려고 했는데, 갑자기 야근이 생겨서 날짜를 변경했어요.",
+    "translation_ko": "갔어요?",
     "audio_id": "AUD_LIS_D88_02",
     "sentence_id": "SEN_D88_002"
   },
@@ -5520,7 +5520,7 @@
     "pinyin": "jīntiān hěn xiǎo。",
     "pinyin_numeric": "jin1 tian1 hen3 xiao3。",
     "translation_en": "Today is very small.",
-    "translation_ko": "오늘은 매우 작다니다.",
+    "translation_ko": "오늘은 매우 작습니다.",
     "audio_id": "AUD_LIS_D88_05",
     "sentence_id": "SEN_D88_005"
   },
@@ -5546,7 +5546,7 @@
     "pinyin": "kěyǐ xǐhuan ma？",
     "pinyin_numeric": "keyi3 xihuan3 ma0？",
     "translation_en": "Can I like?",
-    "translation_ko": "좋아하다할 수 있어요?",
+    "translation_ko": "좋아할 수 있어요?",
     "audio_id": "AUD_LIS_D88_07",
     "sentence_id": "SEN_D88_007"
   },
@@ -5559,7 +5559,7 @@
     "pinyin": "zhège hěn dà。",
     "pinyin_numeric": "zhe4 ge0 hen3 da4。",
     "translation_en": "This is very big.",
-    "translation_ko": "이것은 매우 크다니다.",
+    "translation_ko": "이것은 매우 큽니다.",
     "audio_id": "AUD_LIS_D88_08",
     "sentence_id": "SEN_D88_008"
   },
@@ -5585,7 +5585,7 @@
     "pinyin": "tā zhèngzài shuō。",
     "pinyin_numeric": "ta1 zheng4 zai4 shuo1。",
     "translation_en": "He is speaking.",
-    "translation_ko": "그는 말하다하고 있습니다.",
+    "translation_ko": "그는 말하고 있습니다.",
     "audio_id": "AUD_LIS_D88_10",
     "sentence_id": "SEN_D88_010"
   },
@@ -5611,7 +5611,7 @@
     "pinyin": "nǐ huì xūyào ma？",
     "pinyin_numeric": "ni3 hui4 xuyao4 ma0？",
     "translation_en": "Can you need?",
-    "translation_ko": "필요하다 할 수 있나요?",
+    "translation_ko": "필요할 수 있나요?",
     "audio_id": "AUD_LIS_D88_12",
     "sentence_id": "SEN_D88_012"
   },
@@ -5637,7 +5637,7 @@
     "pinyin": "zuótiān wǒ xūyào le。",
     "pinyin_numeric": "zuo2 tian1 wo3 xuyao4 le0。",
     "translation_en": "Yesterday I needed.",
-    "translation_ko": "어제 저는 필요하다했습니다.",
+    "translation_ko": "어제 저는 필요했습니다.",
     "audio_id": "AUD_LIS_D88_14",
     "sentence_id": "SEN_D88_014"
   },
@@ -5650,7 +5650,7 @@
     "pinyin": "zhèlǐ hěn piányí。",
     "pinyin_numeric": "zhe4 li3 hen3 pian2 yi2。",
     "translation_en": "It is very cheap here.",
-    "translation_ko": "여기는 매우 싸다니다.",
+    "translation_ko": "여기는 매우 쌉니다.",
     "audio_id": "AUD_LIS_D88_15",
     "sentence_id": "SEN_D88_015"
   },
@@ -5663,7 +5663,7 @@
     "pinyin": "wǒ shuō le。",
     "pinyin_numeric": "wo3 shuo1 le0。",
     "translation_en": "I spoke.",
-    "translation_ko": "새 집에 초대하고 싶었지만, 그날 시간이 없어서 거절했어요.",
+    "translation_ko": "말했어요.",
     "audio_id": "AUD_LIS_D88_16",
     "sentence_id": "SEN_D88_016"
   },
@@ -5676,7 +5676,7 @@
     "pinyin": "nǐ xiǎng le ma？",
     "pinyin_numeric": "ni3 xiang3 le0 ma0？",
     "translation_en": "Did you want?",
-    "translation_ko": "원하다했습니까?",
+    "translation_ko": "생각했습니까?",
     "audio_id": "AUD_LIS_D88_17",
     "sentence_id": "SEN_D88_017"
   },
@@ -5689,7 +5689,7 @@
     "pinyin": "Tā yāoqǐng wǒ zhōuwǔ wǎnshàng yīqǐ chīfàn, kěshì wǒ wǎnjù le, yīnwèi wǒ línshí yào chūchāi.",
     "pinyin_numeric": "ta1 yao1qing3 wo3 zhou1wu3 wan3shang4 yi4qi3 chi1fan4, ke3shi4 wo3 wan3ju4 le5, yin1wei4 wo3 lin2shi2 yao4 chu1chai1.",
     "translation_en": "He invited me to have dinner together on Friday evening, but I declined because I had an unexpected business trip.",
-    "translation_ko": "금요일 저녁에 같이 밥 먹자고 초대했지만, 갑자기 출장 가야 해서 거절했어요.",
+    "translation_ko": "그가 금요일 저녁에 같이 밥 먹자고 초대했지만, 갑자기 출장 가야 해서 거절했어요.",
     "audio_id": "AUD_LIS_D88_18",
     "sentence_id": "SEN_D88_018"
   },
@@ -5715,7 +5715,7 @@
     "pinyin": "jīntiān hěn rè。",
     "pinyin_numeric": "jin1 tian1 hen3 re4。",
     "translation_en": "Today is very hot.",
-    "translation_ko": "오늘은 매우 덥다니다.",
+    "translation_ko": "오늘은 매우 덥습니다.",
     "audio_id": "AUD_LIS_D88_20",
     "sentence_id": "SEN_D88_020"
   },
@@ -5779,8 +5779,8 @@
     "text": "今天很少。",
     "pinyin": "jīntiān hěn shǎo。",
     "pinyin_numeric": "jin1 tian1 hen3 shao3。",
-    "translation_en": "Today is very few.",
-    "translation_ko": "오늘은 매우 적다니다.",
+    "translation_en": "Today is very little.",
+    "translation_ko": "오늘은 매우 적습니다.",
     "audio_id": "AUD_LIS_D89_05",
     "sentence_id": "SEN_D89_005"
   },
@@ -5806,7 +5806,7 @@
     "pinyin": "kěyǐ xūyào ma？",
     "pinyin_numeric": "keyi3 xuyao4 ma0？",
     "translation_en": "Can I need?",
-    "translation_ko": "필요하다할 수 있어요?",
+    "translation_ko": "필요할 수 있어요?",
     "audio_id": "AUD_LIS_D89_07",
     "sentence_id": "SEN_D89_007"
   },
@@ -5819,7 +5819,7 @@
     "pinyin": "zhège hěn duō。",
     "pinyin_numeric": "zhe4 ge0 hen3 duo1。",
     "translation_en": "This is very many.",
-    "translation_ko": "이것은 매우 많다니다.",
+    "translation_ko": "이것은 매우 많습니다.",
     "audio_id": "AUD_LIS_D89_08",
     "sentence_id": "SEN_D89_008"
   },
@@ -5845,7 +5845,7 @@
     "pinyin": "tā zhèngzài xǐhuan。",
     "pinyin_numeric": "ta1 zheng4 zai4 xihuan3。",
     "translation_en": "He is liking.",
-    "translation_ko": "그는 좋아하다하고 있습니다.",
+    "translation_ko": "그는 좋아하고 있습니다.",
     "audio_id": "AUD_LIS_D89_10",
     "sentence_id": "SEN_D89_010"
   },
@@ -5871,7 +5871,7 @@
     "pinyin": "nǐ huì qù ma？",
     "pinyin_numeric": "ni3 hui4 qu4 ma0？",
     "translation_en": "Can you go?",
-    "translation_ko": "가다 할 수 있나요?",
+    "translation_ko": "갈 수 있나요?",
     "audio_id": "AUD_LIS_D89_12",
     "sentence_id": "SEN_D89_012"
   },
@@ -5897,7 +5897,7 @@
     "pinyin": "zuótiān wǒ xūyào le。",
     "pinyin_numeric": "zuo2 tian1 wo3 xuyao4 le0。",
     "translation_en": "Yesterday I needed.",
-    "translation_ko": "어제 저는 필요하다했습니다.",
+    "translation_ko": "어제 저는 필요했습니다.",
     "audio_id": "AUD_LIS_D89_14",
     "sentence_id": "SEN_D89_014"
   },
@@ -5910,7 +5910,7 @@
     "pinyin": "zhèlǐ hěn hǎo。",
     "pinyin_numeric": "zhe4 li3 hen3 hao3。",
     "translation_en": "It is very good here.",
-    "translation_ko": "여기는 매우 좋다니다.",
+    "translation_ko": "여기는 매우 좋습니다.",
     "audio_id": "AUD_LIS_D89_15",
     "sentence_id": "SEN_D89_015"
   },
@@ -5936,7 +5936,7 @@
     "pinyin": "nǐ shuō le ma？",
     "pinyin_numeric": "ni3 shuo1 le0 ma0？",
     "translation_en": "Did you speak?",
-    "translation_ko": "말하다했습니까?",
+    "translation_ko": "말했습니까?",
     "audio_id": "AUD_LIS_D89_17",
     "sentence_id": "SEN_D89_017"
   },
@@ -5975,7 +5975,7 @@
     "pinyin": "jīntiān hěn guì。",
     "pinyin_numeric": "jin1 tian1 hen3 gui4。",
     "translation_en": "Today is very expensive.",
-    "translation_ko": "오늘은 매우 비싸다니다.",
+    "translation_ko": "오늘은 매우 비쌉니다.",
     "audio_id": "AUD_LIS_D89_20",
     "sentence_id": "SEN_D89_020"
   },
@@ -5988,7 +5988,7 @@
     "pinyin": "wǒ qù le。",
     "pinyin_numeric": "wo3 qu4 le0。",
     "translation_en": "I went.",
-    "translation_ko": "저는 가다했습니다.",
+    "translation_ko": "저는 갔습니다.",
     "audio_id": "AUD_LIS_D90_01",
     "sentence_id": "SEN_D90_001"
   },
@@ -6001,7 +6001,7 @@
     "pinyin": "nǐ shuō le ma？",
     "pinyin_numeric": "ni3 shuo1 le0 ma0？",
     "translation_en": "Did you speak?",
-    "translation_ko": "말하다했습니까?",
+    "translation_ko": "말했습니까?",
     "audio_id": "AUD_LIS_D90_02",
     "sentence_id": "SEN_D90_002"
   },
@@ -6040,7 +6040,7 @@
     "pinyin": "jīntiān hěn nán。",
     "pinyin_numeric": "jin1 tian1 hen3 nan2。",
     "translation_en": "Today is very difficult.",
-    "translation_ko": "오늘은 매우 어렵다니다.",
+    "translation_ko": "오늘은 매우 어렵습니다.",
     "audio_id": "AUD_LIS_D90_05",
     "sentence_id": "SEN_D90_005"
   },
@@ -6066,7 +6066,7 @@
     "pinyin": "kěyǐ shuō ma？",
     "pinyin_numeric": "keyi3 shuo1 ma0？",
     "translation_en": "Can I speak?",
-    "translation_ko": "말하다할 수 있어요?",
+    "translation_ko": "말할 수 있어요?",
     "audio_id": "AUD_LIS_D90_07",
     "sentence_id": "SEN_D90_007"
   },
@@ -6079,7 +6079,7 @@
     "pinyin": "zhège hěn kuài。",
     "pinyin_numeric": "zhe4 ge0 hen3 kuai4。",
     "translation_en": "This is very fast.",
-    "translation_ko": "이것은 매우 빠르다니다.",
+    "translation_ko": "이것은 매우 빠릅니다.",
     "audio_id": "AUD_LIS_D90_08",
     "sentence_id": "SEN_D90_008"
   },
@@ -6104,8 +6104,8 @@
     "text": "他正在想。",
     "pinyin": "tā zhèngzài xiǎng。",
     "pinyin_numeric": "ta1 zheng4 zai4 xiang3。",
-    "translation_en": "He is wanting.",
-    "translation_ko": "그는 원하다하고 있습니다.",
+    "translation_en": "He is thinking.",
+    "translation_ko": "그는 생각하고 있습니다.",
     "audio_id": "AUD_LIS_D90_10",
     "sentence_id": "SEN_D90_010"
   },
@@ -6130,8 +6130,8 @@
     "text": "你會喜歡嗎？",
     "pinyin": "nǐ huì xǐhuan ma？",
     "pinyin_numeric": "ni3 hui4 xihuan3 ma0？",
-    "translation_en": "Can you like?",
-    "translation_ko": "좋아하다 할 수 있나요?",
+    "translation_en": "Would you like it?",
+    "translation_ko": "좋아하실 수 있나요?",
     "audio_id": "AUD_LIS_D90_12",
     "sentence_id": "SEN_D90_012"
   },
@@ -6157,7 +6157,7 @@
     "pinyin": "zuótiān wǒ shuō le。",
     "pinyin_numeric": "zuo2 tian1 wo3 shuo1 le0。",
     "translation_en": "Yesterday I spoke.",
-    "translation_ko": "소고기 국수 외에도 이 가게의 루로우판도 아주 맛있습니다.",
+    "translation_ko": "어제 말했어요.",
     "audio_id": "AUD_LIS_D90_14",
     "sentence_id": "SEN_D90_014"
   },
@@ -6170,7 +6170,7 @@
     "pinyin": "zhèlǐ hěn jiǎndān。",
     "pinyin_numeric": "zhe4 li3 hen3 jian3 dan1。",
     "translation_en": "It is very simple here.",
-    "translation_ko": "여기는 매우 간단하다니다.",
+    "translation_ko": "여기는 매우 간단합니다.",
     "audio_id": "AUD_LIS_D90_15",
     "sentence_id": "SEN_D90_015"
   },
@@ -6195,8 +6195,8 @@
     "text": "你想了嗎？",
     "pinyin": "nǐ xiǎng le ma？",
     "pinyin_numeric": "ni3 xiang3 le0 ma0？",
-    "translation_en": "Did you want?",
-    "translation_ko": "원하다했습니까?",
+    "translation_en": "Did you think?",
+    "translation_ko": "생각했습니까?",
     "audio_id": "AUD_LIS_D90_17",
     "sentence_id": "SEN_D90_017"
   },
@@ -6235,7 +6235,7 @@
     "pinyin": "jīntiān hěn hǎo。",
     "pinyin_numeric": "jin1 tian1 hen3 hao3。",
     "translation_en": "Today is very good.",
-    "translation_ko": "오늘은 매우 좋다니다.",
+    "translation_ko": "오늘은 매우 좋습니다.",
     "audio_id": "AUD_LIS_D90_20",
     "sentence_id": "SEN_D90_020"
   },
@@ -6301,7 +6301,7 @@
     "pinyin": "Zuótiān wǒ zhǔ fàn le.",
     "pinyin_numeric": "zuo2tian1 wo3 zhu3 fan4 le0",
     "translation_en": "I cooked rice yesterday.",
-    "translation_ko": "어제 나는 밥을 지었어요.",
+    "translation_ko": "어제 저는 밥을 지었어요.",
     "audio_id": "AUD_LIS_D46_05",
     "sentence_id": "SEN_D46_013"
   },
@@ -6327,7 +6327,7 @@
     "pinyin": "Zuótiān wǒ yùndòng le.",
     "pinyin_numeric": "zuo2tian1 wo3 yun4dong4 le0",
     "translation_en": "I exercised yesterday.",
-    "translation_ko": "어제 나는 운동했어요.",
+    "translation_ko": "어제 저는 운동했어요.",
     "audio_id": "AUD_LIS_D46_07",
     "sentence_id": "SEN_D46_019"
   },
@@ -7726,7 +7726,7 @@
     "pinyin": "Nà ge lǎoshī kàn qǐlái hěn rènzhēn, érqiě hěn cōngmíng.",
     "pinyin_numeric": "na4 ge lao3 shi1 kan4 qi3 lai2 hen3 ren4 zhen1, er2 qie3 hen3 cong1 ming2.",
     "translation_en": "That teacher looks very serious, and also very smart.",
-    "translation_ko": "그 선생님은 매우 진지해 보이고, 또한 매우 똑똑합니다.",
+    "translation_ko": "그 선생님은 매우 진지해 보이고, 또한 매우 똑똑해요.",
     "audio_id": "AUD_LIS_D51_13",
     "sentence_id": "SEN_D51_037",
     "dialogue_id": "DLG_D51_01"
@@ -8650,7 +8650,7 @@
     "pinyin": "Qǐng bāng wǒ shuōmíng rèshuǐqì de wèntí.",
     "pinyin_numeric": "qing3 bang1 wo3 shuo1ming2 re4shui3qi4 de0 wen4ti2",
     "translation_en": "Please help me explain the water heater problem.",
-    "translation_ko": "온수기 문제를 설명하는 것을 도와주세요.",
+    "translation_ko": "온수기 문제를 설명해 주세요.",
     "audio_id": "AUD_LIS_D59_03",
     "sentence_id": "SEN_D59_007",
     "dialogue_id": "DLG_D59_03"
@@ -8664,7 +8664,7 @@
     "pinyin": "Qǐng bāng wǒ chǔlǐ qiángbì de lièfèng.",
     "pinyin_numeric": "qing3 bang1 wo3 chu3li3 qiang2bi4 de0 lie4feng4",
     "translation_en": "Please help me deal with the crack in the wall.",
-    "translation_ko": "벽의 균열을 처리하는 것을 도와주세요.",
+    "translation_ko": "벽의 균열을 처리해 주세요.",
     "audio_id": "AUD_LIS_D59_04",
     "sentence_id": "SEN_D59_010"
   },

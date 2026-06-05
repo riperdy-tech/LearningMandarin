@@ -603,6 +603,16 @@ export function CourseApp({ data }: { data: CourseData }) {
             vocab={displayVocab}
           />
 
+          {selectedLesson.review_block && (
+            <MilestoneReviewBlock
+              block={selectedLesson.review_block}
+              vocab={data.vocab}
+              sentences={data.sentences}
+              speak={speech.speak}
+              onSelectVocab={setSelectedVocab}
+            />
+          )}
+
           <motion.div
             animate={{ opacity: 1, y: 0 }}
             initial={{ opacity: 0, y: 8 }}
@@ -630,15 +640,6 @@ export function CourseApp({ data }: { data: CourseData }) {
               toggleWeakWord={toggleWeakWord}
             />
           </motion.div>
-
-          {selectedLesson.order >= 31 && (
-            <RichScenarioPractice
-              lesson={selectedLesson}
-              lessonPack={lessonPack}
-              speak={speech.speak}
-              vocab={displayVocab}
-            />
-          )}
 
           <ReferenceStrip
             grammar={lessonPack.grammar}
@@ -900,248 +901,80 @@ function TrainerStepPanel({
   );
 }
 
-function RichScenarioPractice({
-  lesson,
-  lessonPack,
-  speak,
-  vocab
-}: {
-  lesson: LessonItem;
-  lessonPack: LessonPack;
-  speak: SpeakFn;
-  vocab: VocabularyItem[];
-}) {
-  return (
-    <div className="grid gap-5">
-      <Card className="bg-white/90">
-        <CardHeader>
-          <div className="flex flex-wrap items-start justify-between gap-3">
-            <div>
-              <p className="text-sm font-black uppercase text-jade-700">Phase 3 scenario</p>
-              <h3 className="mt-1 text-2xl font-black text-ink">{lesson.title}</h3>
-              {lesson.scenario && <p className="mt-2 max-w-3xl font-semibold text-ink/65">{lesson.scenario}</p>}
-            </div>
-            {lesson.assessment ? <Badge>Assessment day</Badge> : <Badge>{lessonPack.dialogues.length} dialogues</Badge>}
-          </div>
-        </CardHeader>
-        <CardContent>
-          <div className="flex flex-wrap gap-2">
-            {(lesson.communication_functions ?? []).map((item) => (
-              <span className="rounded-full bg-jade-50 px-3 py-2 text-xs font-black uppercase text-jade-900 ring-1 ring-jade-500/20" key={item}>
-                {item.replaceAll("_", " ")}
-              </span>
-            ))}
-          </div>
-          {lessonPack.review[0] && (
-            <p className="mt-3 text-sm font-semibold text-ink/55">
-              Review source days: {lessonPack.review[0].source_days.join(", ")}. {lessonPack.review[0].prompt_en}
-            </p>
-          )}
-        </CardContent>
-      </Card>
-
-      <div className="grid gap-5 xl:grid-cols-2">
-        <GrammarUsagePanel grammar={lessonPack.grammar} />
-        <ListeningSpeakingPanel listening={lessonPack.listening} speaking={lessonPack.speaking} speak={speak} vocab={vocab} />
-      </div>
-
-      <DialoguePractice dialogues={lessonPack.dialogues} speak={speak} vocab={vocab} />
-
-      {lessonPack.assessment && (
-        <AssessmentPanel assessment={lessonPack.assessment} dialogues={lessonPack.dialogues} sentences={lessonPack.sentences} speak={speak} vocab={vocab} />
-      )}
-    </div>
-  );
-}
-
-function GrammarUsagePanel({ grammar }: { grammar: GrammarItem[] }) {
-  return (
-    <Card className="bg-white/90">
-      <CardHeader>
-        <p className="text-sm font-black text-jade-700">Grammar usage notes</p>
-      </CardHeader>
-      <CardContent className="space-y-3">
-        {grammar.map((item) => (
-          <div className="rounded-lg bg-paper p-4 ring-1 ring-black/10" key={item.id}>
-            <p className="text-xs font-black uppercase text-ink/45">{item.title ?? item.id}</p>
-            <p className="mt-1 font-black text-ink">{item.pattern}</p>
-            <p className="mt-2 text-sm font-semibold text-ink/65">{item.explanation_en}</p>
-            <div className="mt-3 grid gap-3 md:grid-cols-2">
-              <MiniUsageList title="Use when" items={item.when_to_use ?? []} />
-              <MiniUsageList title="Avoid when" items={item.when_not_to_use ?? []} />
-            </div>
-          </div>
-        ))}
-      </CardContent>
-    </Card>
-  );
-}
-
-function MiniUsageList({ items, title }: { items: string[]; title: string }) {
-  return (
-    <div>
-      <p className="text-xs font-black uppercase text-ink/45">{title}</p>
-      <ul className="mt-1 space-y-1">
-        {items.slice(0, 3).map((item) => (
-          <li className="text-sm font-semibold text-ink/60" key={item}>
-            {item}
-          </li>
-        ))}
-      </ul>
-    </div>
-  );
-}
-
-function ListeningSpeakingPanel({
-  listening,
-  speaking,
-  speak,
-  vocab
-}: {
-  listening: ListeningItem[];
-  speaking: SpeakingItem[];
-  speak: SpeakFn;
-  vocab: VocabularyItem[];
-}) {
-  return (
-    <Card className="bg-white/90">
-      <CardHeader>
-        <p className="text-sm font-black text-jade-700">Listening and speaking tasks</p>
-      </CardHeader>
-      <CardContent className="space-y-4">
-        <div>
-          <p className="text-xs font-black uppercase text-ink/45">Listening set</p>
-          <div className="mt-2 grid gap-2">
-            {listening.slice(0, 5).map((item) => (
-              <div className="rounded-lg bg-paper p-3 ring-1 ring-black/10" key={item.id}>
-                <div className="flex flex-wrap items-start justify-between gap-3">
-                  <div>
-                    <p className="text-xs font-black uppercase text-jade-700">{item.type.replaceAll("_", " ")}</p>
-                    <ClickableChineseLine className="mt-1 text-xl font-black text-ink" speak={speak} text={item.text} vocab={vocab} />
-                    <p className="mt-1 text-sm font-black text-jade-700">{item.pinyin}</p>
-                  </div>
-                  <AudioButton label={`Play ${item.text}`} onClick={() => speak(item.text, "sentence", item.audio_id)} />
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-        <div>
-          <p className="text-xs font-black uppercase text-ink/45">Speaking prompts</p>
-          <div className="mt-2 grid gap-2">
-            {speaking.slice(0, 5).map((item) => (
-              <div className="rounded-lg bg-white p-3 ring-1 ring-black/10" key={item.id}>
-                <p className="text-xs font-black uppercase text-jade-700">{item.type.replaceAll("_", " ")}</p>
-                <p className="mt-1 text-sm font-semibold text-ink/65">{item.prompt_en}</p>
-                <ClickableChineseLine className="mt-2 text-xl font-black text-ink" speak={speak} text={item.model_answer} vocab={vocab} />
-                <p className="mt-1 text-sm font-black text-jade-700">{item.model_pinyin}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </CardContent>
-    </Card>
-  );
-}
-
-function DialoguePractice({
-  dialogues,
-  speak,
-  vocab
-}: {
-  dialogues: DialogueItem[];
-  speak: SpeakFn;
-  vocab: VocabularyItem[];
-}) {
-  if (dialogues.length === 0) return null;
-  return (
-    <Card className="bg-white/90">
-      <CardHeader>
-        <p className="text-sm font-black text-jade-700">Dialogue practice</p>
-      </CardHeader>
-      <CardContent className="grid gap-4">
-        {dialogues.map((dialogue) => (
-          <div className="rounded-lg bg-paper p-4 ring-1 ring-black/10" key={dialogue.id}>
-            <div className="flex flex-wrap items-center justify-between gap-3">
-              <div>
-                <p className="text-xs font-black uppercase text-ink/45">{dialogue.scenario.replaceAll("_", " ")}</p>
-                <p className="mt-1 text-sm font-semibold text-ink/60">Shadow each full turn, then answer the questions.</p>
-              </div>
-              <Badge>{dialogue.turns.length} turns</Badge>
-            </div>
-            <div className="mt-3 grid gap-2">
-              {dialogue.turns.map((turn) => (
-                <div className="rounded-lg bg-white p-3 ring-1 ring-black/10" key={turn.id}>
-                  <div className="flex flex-wrap items-start justify-between gap-3">
-                    <div>
-                      <p className="text-xs font-black uppercase text-jade-700">{turn.speaker}</p>
-                      <ClickableChineseLine className="mt-1 text-xl font-black text-ink" speak={speak} text={turn.text} vocab={vocab} />
-                      <p className="mt-1 text-sm font-black text-jade-700">{turn.pinyin}</p>
-                      <p className="text-sm font-semibold text-ink/60">{turn.translation_en}</p>
-                    </div>
-                    <AudioButton label={`Play ${turn.text}`} onClick={() => speak(turn.text, "sentence", turn.audio_id)} />
-                  </div>
-                </div>
-              ))}
-            </div>
-            <div className="mt-3 grid gap-2 md:grid-cols-2">
-              {dialogue.comprehension_questions.map((question) => (
-                <div className="rounded-lg bg-jade-50 p-3 ring-1 ring-jade-500/20" key={question.id}>
-                  <p className="text-sm font-black text-ink">{question.question_en}</p>
-                  <p className="mt-1 text-sm font-semibold text-ink/60">{question.answer_en}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        ))}
-      </CardContent>
-    </Card>
-  );
-}
-
-function AssessmentPanel({
-  assessment,
-  dialogues,
+function MilestoneReviewBlock({
+  block,
+  vocab,
   sentences,
   speak,
-  vocab
+  onSelectVocab
 }: {
-  assessment: AssessmentItem;
-  dialogues: DialogueItem[];
+  block: NonNullable<LessonItem["review_block"]>;
+  vocab: VocabularyItem[];
   sentences: SentenceItem[];
   speak: SpeakFn;
-  vocab: VocabularyItem[];
+  onSelectVocab: (item: VocabularyItem) => void;
 }) {
+  const [open, setOpen] = useState(false);
+  const vocabById = useMemo(() => new Map(vocab.map((v) => [v.id, v])), [vocab]);
+  const sentById = useMemo(() => new Map(sentences.map((s) => [s.id, s])), [sentences]);
+  const vocabItems = block.vocab_ids.map((id) => vocabById.get(id)).filter(Boolean) as VocabularyItem[];
+  const sentItems = block.sentence_ids.map((id) => sentById.get(id)).filter(Boolean) as SentenceItem[];
   return (
-    <Card className="bg-white/90">
+    <Card className="bg-amber-50/70 ring-1 ring-amber-500/30">
       <CardHeader>
-        <p className="text-sm font-black text-jade-700">Assessment checkpoint</p>
+        <button
+          className="flex w-full items-center justify-between gap-3 text-left"
+          onClick={() => setOpen((v) => !v)}
+          type="button"
+        >
+          <div>
+            <p className="text-xs font-black uppercase text-amber-800">Milestone review</p>
+            <h3 className="mt-1 text-xl font-black text-ink">{block.title}</h3>
+            <p className="mt-1 text-sm font-semibold text-ink/60">
+              {vocabItems.length} words · {sentItems.length} sentences from days {block.source_days[0]}–{block.source_days[block.source_days.length - 1]}
+            </p>
+          </div>
+          <Badge>{open ? "Hide" : "Show"}</Badge>
+        </button>
       </CardHeader>
-      <CardContent className="space-y-3">
-        <p className="font-semibold text-ink/65">{assessment.scenario}</p>
-        <div className="grid gap-3 md:grid-cols-3">
-          {assessment.tasks.map((task) => (
-            <div className="rounded-lg bg-paper p-4 ring-1 ring-black/10" key={task.id}>
-              <p className="text-xs font-black uppercase text-jade-700">{task.type}</p>
-              <p className="mt-2 text-sm font-semibold text-ink/65">{task.prompt_en}</p>
-              {task.minimum_turns && <p className="mt-2 text-sm font-black text-ink">Minimum turns: {task.minimum_turns}</p>}
-            </div>
-          ))}
-        </div>
-        <div className="rounded-lg bg-jade-50 p-4 ring-1 ring-jade-500/20">
-          <p className="text-xs font-black uppercase text-jade-700">Sample prompt</p>
-          {sentences[0] && (
-            <div className="mt-2 flex flex-wrap items-start justify-between gap-3">
-              <div>
-                <ClickableChineseLine className="text-xl font-black text-ink" speak={speak} text={sentences[0].text} vocab={vocab} />
-                <p className="text-sm font-black text-jade-700">{sentences[0].pinyin}</p>
+      {open && (
+        <CardContent className="space-y-4">
+          {vocabItems.length > 0 && (
+            <div>
+              <p className="text-xs font-black uppercase text-ink/45">Words</p>
+              <div className="mt-2 flex flex-wrap gap-2">
+                {vocabItems.map((item) => (
+                  <button
+                    className="rounded-full bg-white px-3 py-2 han text-base font-black text-jade-900 ring-1 ring-jade-500/20 transition hover:bg-jade-50"
+                    key={item.id}
+                    onClick={() => onSelectVocab(item)}
+                    type="button"
+                  >
+                    {item.char} <span className="text-xs font-bold text-ink/55">{item.pinyin}</span>
+                  </button>
+                ))}
               </div>
-              <AudioButton label={`Play ${sentences[0].text}`} onClick={() => speak(sentences[0].text, "sentence", sentences[0].audio_id)} />
             </div>
           )}
-          {dialogues[0] && <p className="mt-2 text-sm font-semibold text-ink/60">Dialogue model: {dialogues[0].scenario.replaceAll("_", " ")}</p>}
-        </div>
-      </CardContent>
+          {sentItems.length > 0 && (
+            <div>
+              <p className="text-xs font-black uppercase text-ink/45">Sentences</p>
+              <div className="mt-2 grid gap-2">
+                {sentItems.map((s) => (
+                  <div className="flex flex-wrap items-start justify-between gap-3 rounded-lg bg-white p-3 ring-1 ring-black/10" key={s.id}>
+                    <div>
+                      <ClickableChineseLine className="text-lg font-black text-ink" speak={speak} text={s.text} vocab={vocab} />
+                      <p className="mt-1 text-sm font-black text-jade-700">{s.pinyin}</p>
+                      <p className="text-sm font-semibold text-ink/60">{s.translation_en}</p>
+                    </div>
+                    <AudioButton label={`Play ${s.text}`} onClick={() => speak(s.text, "sentence", s.audio_id)} />
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+        </CardContent>
+      )}
     </Card>
   );
 }

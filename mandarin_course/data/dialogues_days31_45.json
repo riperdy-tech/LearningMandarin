@@ -3096,7 +3096,7 @@
         "pinyin": "Xū yào zhuǎn chē ma?",
         "pinyin_numeric": "xu1 yao4 zhuan3 che1 ma5?",
         "translation_en": "Do I need to transfer?",
-        "translation_ko": "환승이 필요합니까?",
+        "translation_ko": "환승이 필요하나요?",
         "token_ids": [
           "VOC_M1_171",
           "VOC_D38_004",
@@ -3111,7 +3111,7 @@
         "pinyin": "Bú yòng, zhè shì zhí dá de. Xià yì bān chē dà gài sān fēn zhōng dào.",
         "pinyin_numeric": "bu2 yong4, zhe4 shi4 zhi2 da2 de5. xia4 yi4 ban1 che1 da4 gai4 san1 fen1 zhong1 dao4.",
         "translation_en": "No, it's direct. The next train arrives in about three minutes.",
-        "translation_ko": "아니요, 직통입니다. 다음 열차가 약 3분 후에 도착합니다.",
+        "translation_ko": "아니요, 직통입니다. 다음 열차가 약 3분 후에 도착해요.",
         "token_ids": [
           "VOC_D31_002",
           "VOC_M1_007",
@@ -3131,7 +3131,7 @@
         "pinyin": "Tài hǎo le, xiè xiè nǐ!",
         "pinyin_numeric": "tai4 hao3 le5, xie4 xie4 ni3!",
         "translation_en": "Great, thank you!",
-        "translation_ko": "정말 좋네요, 감사합니다!",
+        "translation_ko": "정말 좋네요, 감사해요!",
         "token_ids": [
           "VOC_M1_088",
           "VOC_D31_003",
@@ -3210,7 +3210,7 @@
         "pinyin": "Yǒu, nǐ kě yǐ dā èr bā wǔ hào gōng chē.",
         "pinyin_numeric": "you3, ni3 ke3 yi3 da1 er4 ba1 wu3 hao4 gong1 che1.",
         "translation_en": "Yes, you can take bus number 285.",
-        "translation_ko": "네, 285번 버스를 타시면 됩니다.",
+        "translation_ko": "네, 285번 버스를 타시면 돼요.",
         "token_ids": [
           "VOC_M1_022",
           "VOC_M1_003",
@@ -3246,7 +3246,7 @@
         "pinyin": "Dà gài shí fēn zhōng. Nǐ yào qù nǎ lǐ xià chē?",
         "pinyin_numeric": "da4 gai4 shi2 fen1 zhong1. ni3 yao4 qu4 na3 li3 xia4 che1?",
         "translation_en": "About ten minutes. Where do you want to get off?",
-        "translation_ko": "약 10분입니다. 어디서 내리실 건가요?",
+        "translation_ko": "약 10분이에요. 어디서 내리실 건가요?",
         "token_ids": [
           "VOC_D38_039",
           "VOC_M1_015",
@@ -3265,7 +3265,7 @@
         "pinyin": "Wǒ zài xué xiào mén kǒu xià chē. Xiè xiè nǐ!",
         "pinyin_numeric": "wo3 zai4 xue2 xiao4 men2 kou3 xia4 che1. xie4 xie4 ni3!",
         "translation_en": "I'll get off at the school gate. Thank you!",
-        "translation_ko": "학교 정문에서 내릴게요. 감사합니다!",
+        "translation_ko": "학교 정문에서 내릴게요. 감사해요!",
         "token_ids": [
           "VOC_M1_002",
           "VOC_M1_139",
@@ -3327,7 +3327,7 @@
         "pinyin": "Sī jī xiān shēng, wǒ yào qù yè shì, má fan nǐ.",
         "pinyin_numeric": "si1 ji1 xian1 sheng1, wo3 yao4 qu4 ye4 shi4, ma2 fan5 ni3.",
         "translation_en": "Driver, I'd like to go to the night market, please.",
-        "translation_ko": "기사님, 야시장에 가고 싶습니다. 부탁드립니다.",
+        "translation_ko": "기사님, 야시장에 가고 싶어요. 부탁드려요.",
         "token_ids": [
           "VOC_D38_020",
           "VOC_M1_132",
@@ -3347,7 +3347,7 @@
         "pinyin": "Hǎo de, qǐng wèn dì zhǐ zài nǎ lǐ?",
         "pinyin_numeric": "hao3 de5, qing3 wen4 di4 zhi3 zai4 na3 li3?",
         "translation_en": "Okay, what's the address?",
-        "translation_ko": "네, 주소가 어디인가요?",
+        "translation_ko": "네, 주소가 어디예요?",
         "token_ids": [
           "VOC_M1_088",
           "VOC_M1_023",
@@ -3365,7 +3365,7 @@
         "pinyin": "Zài Tái běi chē zhàn fù jìn, dà gài èr shí fēn zhōng de lù chéng.",
         "pinyin_numeric": "zai4 Tai2 bei3 che1 zhan4 fu4 jin4, da4 gai4 er4 shi2 fen1 zhong1 de5 lu4 cheng2.",
         "translation_en": "It's near Taipei Main Station, about a 20-minute drive.",
-        "translation_ko": "타이베이 역 근처입니다, 약 20분 거리예요.",
+        "translation_ko": "타이베이 역 근처예요, 약 20분 거리예요.",
         "token_ids": [
           "VOC_M1_139",
           "VOC_M1_197",
@@ -3385,7 +3385,7 @@
         "pinyin": "Xiàn zài lù shàng yǒu diǎn sāi chē, kě néng yào sān shí fēn zhōng.",
         "pinyin_numeric": "xian4 zai4 lu4 shang4 you3 dian3 sai1 che1, ke3 neng2 yao4 san1 shi2 fen1 zhong1.",
         "translation_en": "There's a bit of traffic now, so it might take 30 minutes.",
-        "translation_ko": "지금 길이 좀 막혀서 30분 정도 걸릴 수 있습니다.",
+        "translation_ko": "지금 길이 좀 막혀서 30분 정도 걸릴 거예요.",
         "token_ids": [
           "VOC_M1_104",
           "VOC_M1_170",
@@ -3405,7 +3405,7 @@
         "pinyin": "Méi wèn tí, qǐng dài wǒ qù.",
         "pinyin_numeric": "mei2 wen4 ti2, qing3 dai4 wo3 qu4.",
         "translation_en": "No problem, please take me there.",
-        "translation_ko": "괜찮습니다, 저를 데려가 주세요.",
+        "translation_ko": "괜찮아요, 저를 데려가 주세요.",
         "token_ids": [
           "VOC_D31_035",
           "VOC_M1_179",
@@ -6439,7 +6439,7 @@
         "text": "總共八十塊，可以刷卡嗎？",
         "pinyin": "Zǒnggòng bā shí kuài, kěyǐ shuākǎ ma?",
         "pinyin_numeric": "Zong3gong4 ba1 shi2 kuai4, ke3yi3 shua1ka3 ma?",
-        "translation_en": "That's 80 dollars total. Can you pay by card?",
+        "translation_en": "That's 80 dollars total. Can I pay by card?",
         "translation_ko": "총 80위안입니다. 카드 결제 가능하신가요?",
         "token_ids": [
           "VOC_D32_031",

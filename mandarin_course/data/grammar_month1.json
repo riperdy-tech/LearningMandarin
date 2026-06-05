@@ -636,7 +636,7 @@
         "text": "我們家有一個老師。",
         "pinyin": "Wǒmen jiā yǒu yí ge lǎoshī.",
         "translation_en": "Our family has one teacher.",
-        "translation_ko": "우리 가족에는 선생님 한 명이 있습니다.",
+        "translation_ko": "우리 가족에는 선생님이 한 명 있습니다.",
         "slot_values": {}
       },
       {
@@ -759,7 +759,7 @@
         "text": "他餓了，他想吃麵。",
         "pinyin": "Tā è le, tā xiǎng chī miàn.",
         "translation_en": "He is hungry; he wants to eat noodles.",
-        "translation_ko": "그는 배고파서 면을 먹고 싶어 합니다.",
+        "translation_ko": "그는 배가 고파서 면을 먹고 싶어 합니다.",
         "slot_values": {}
       },
       {
@@ -1808,14 +1808,14 @@
         "text": "我要一杯水。",
         "pinyin": "Wǒ yào yì bēi shuǐ.",
         "translation_en": "I would like a cup of water.",
-        "translation_ko": "물 한 잔 주세요.",
+        "translation_ko": "저는 물 한 잔을 원합니다.",
         "slot_values": {}
       },
       {
         "text": "你要兩杯茶嗎？",
         "pinyin": "Nǐ yào liǎng bēi chá ma?",
         "translation_en": "Do you want two cups of tea?",
-        "translation_ko": "차 두 잔을 원합니까?",
+        "translation_ko": "차 두 잔을 원하십니까?",
         "slot_values": {}
       },
       {
@@ -1843,7 +1843,7 @@
         "text": "我們要三杯咖啡。",
         "pinyin": "Wǒmen yào sān bēi kāfēi.",
         "translation_en": "We would like three cups of coffee.",
-        "translation_ko": "커피 세 잔 주세요.",
+        "translation_ko": "저희는 커피 세 잔을 원합니다.",
         "slot_values": {}
       }
     ],
@@ -1973,14 +1973,14 @@
         "text": "你喝茶還是咖啡？",
         "pinyin": "Nǐ hē chá háishi kāfēi?",
         "translation_en": "Do you drink tea or coffee?",
-        "translation_ko": "차를 마십니까, 커피를 마십니까?",
+        "translation_ko": "차를 마십니까, 아니면 커피를 마십니까?",
         "slot_values": {}
       },
       {
         "text": "我要一杯茶。",
         "pinyin": "Wǒ yào yì bēi chá.",
         "translation_en": "I would like one cup of tea.",
-        "translation_ko": "차 한 잔 주세요.",
+        "translation_ko": "저는 차 한 잔을 원합니다.",
         "slot_values": {}
       },
       {
@@ -2678,7 +2678,7 @@
         "text": "你先說，我再寫。",
         "pinyin": "Nǐ xiān shuō, wǒ zài xiě.",
         "translation_en": "You speak first; then I write.",
-        "translation_ko": "당신이 먼저 말하면 제가 씁니다.",
+        "translation_ko": "당신이 먼저 말하면 제가 그다음 씁니다.",
         "slot_values": {}
       },
       {
@@ -3963,7 +3963,7 @@
         "text": "他希望學好中文。",
         "pinyin": "Tā xīwàng xué hǎo Zhōngwén.",
         "translation_en": "He hopes to learn Chinese well.",
-        "translation_ko": "그는 중국어를 잘 배우고 싶어 합니다.",
+        "translation_ko": "그는 중국어를 잘 배우기를 바랍니다.",
         "slot_values": {}
       },
       {
@@ -4121,7 +4121,7 @@
       {
         "text": "我不喝咖啡，因為我想喝茶。",
         "pinyin": "Wǒ bù hē kāfēi, yīnwèi wǒ xiǎng hē chá.",
-        "translation_en": "I do not drink coffee because I want tea.",
+        "translation_en": "I do not drink coffee because I want to drink tea.",
         "translation_ko": "저는 차를 마시고 싶어서 커피를 마시지 않습니다.",
         "slot_values": {}
       },

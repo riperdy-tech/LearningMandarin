@@ -259,6 +259,12 @@ export type LessonItem = {
     duration_minutes?: number;
   }>;
   mastery_threshold: number;
+  review_block?: {
+    title: string;
+    source_days: number[];
+    vocab_ids: string[];
+    sentence_ids: string[];
+  };
 };
 
 export type LockedLessonPreview = {

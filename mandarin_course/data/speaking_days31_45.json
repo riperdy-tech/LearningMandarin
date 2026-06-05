@@ -1194,7 +1194,7 @@
     "prompt_en": "Respond as one speaker in this scenario: ordering food and drinks.",
     "model_answer": "你要加辣嗎？",
     "model_pinyin": "Nǐ yào jiā là ma?",
-    "model_translation_en": "Do you want to add spice?",
+    "model_translation_en": "Do you want it spicy?",
     "related_sentence_id": "SEN_D34_007",
     "related_dialogue_id": "DLG_D34_01"
   },
@@ -1238,7 +1238,7 @@
     "prompt_en": "Answer a question in this scenario: ordering food and drinks.",
     "model_answer": "你要吃辣的還是不辣的？",
     "model_pinyin": "Nǐ yào chī là de háishì bù là de?",
-    "model_translation_en": "Do you want to eat spicy or non-spicy?",
+    "model_translation_en": "Do you want it spicy or not spicy?",
     "related_sentence_id": "SEN_D34_015",
     "related_dialogue_id": "DLG_D34_02"
   },
@@ -1271,7 +1271,7 @@
     "prompt_en": "Repeat the model sentence with full phrase rhythm.",
     "model_answer": "我不要辣，謝謝。",
     "model_pinyin": "Wǒ bù yào là, xiè xiè.",
-    "model_translation_en": "I don't want spicy, thank you.",
+    "model_translation_en": "I don't want it spicy, thank you.",
     "related_sentence_id": "SEN_D34_021",
     "related_dialogue_id": "DLG_D34_02"
   },
@@ -1568,7 +1568,7 @@
     "prompt_en": "Answer a question in this scenario: customizing order and handling mistakes.",
     "model_answer": "店員送錯了，我點的是雞排，不是魚。",
     "model_pinyin": "Diànyuán sòng cuò le, wǒ diǎn de shì jīpái, bùshì yú.",
-    "model_translation_en": "The staff delivered the wrong order, I ordered chicken steak, not fish.",
+    "model_translation_en": "The staff delivered the wrong order, I ordered chicken cutlet, not fish.",
     "related_sentence_id": "SEN_D35_005",
     "related_dialogue_id": "DLG_D35_03"
   },
@@ -3262,7 +3262,7 @@
     "prompt_en": "Swap one word and say the new sentence aloud.",
     "model_answer": "你坐錯車了，應該從這裡往回走，到對面換線。",
     "model_pinyin": "Nǐ zuò cuò chē le, yīnggāi cóng zhèlǐ wǎng huí zǒu, dào duìmiàn huàn xiàn.",
-    "model_translation_en": "You got on the wrong train; you should go back from here and transfer to the other side.",
+    "model_translation_en": "You got on the wrong train; you should go back from here and transfer on the other side.",
     "related_sentence_id": "SEN_D39_033",
     "related_dialogue_id": "DLG_D39_02"
   },
@@ -5319,7 +5319,7 @@
     "prompt_en": "Respond as one speaker in this scenario: small talk about weather and feelings.",
     "model_answer": "今天天氣太舒服了，我心情很好。",
     "model_pinyin": "Jīntiān tiānqì tài shūfu le, wǒ xīnqíng hěn hǎo.",
-    "model_translation_en": "The weather is too comfortable today; I'm in a great mood.",
+    "model_translation_en": "The weather is very comfortable today; I'm in a great mood.",
     "related_sentence_id": "SEN_D44_057",
     "related_dialogue_id": "DLG_D44_02"
   },
@@ -5330,7 +5330,7 @@
     "prompt_en": "Create your own sentence using only known words.",
     "model_answer": "颱風天風太大了，我太擔心了。",
     "model_pinyin": "Táifēng tiān fēng tài dà le, wǒ tài dānxīn le.",
-    "model_translation_en": "The wind is too strong on a typhoon day; I'm too worried.",
+    "model_translation_en": "The wind is too strong on a typhoon day; I'm very worried.",
     "related_sentence_id": "SEN_D44_059",
     "related_dialogue_id": "DLG_D44_03"
   },

@@ -556,7 +556,7 @@
     "prompt_en": "Repeat the model sentence with full phrase rhythm.",
     "model_answer": "我昨天先起床，然後吃早餐。",
     "model_pinyin": "Wǒ zuótiān xiān qǐchuáng, ránhòu chī zǎocān.",
-    "model_translation_en": "Yesterday I first got up, and then ate breakfast.",
+    "model_translation_en": "Yesterday I got up first, then ate breakfast.",
     "related_sentence_id": "SEN_D47_031",
     "related_dialogue_id": "DLG_D47_01"
   },
@@ -578,7 +578,7 @@
     "prompt_en": "Answer a question in this scenario: telling a short sequence.",
     "model_answer": "我那天先買東西，然後回家。",
     "model_pinyin": "Wǒ nèitiān xiān mǎi dōngxi, ránhòu huí jiā.",
-    "model_translation_en": "That day I first bought things, and then went home.",
+    "model_translation_en": "That day I bought things first, and then went home.",
     "related_sentence_id": "SEN_D47_035",
     "related_dialogue_id": "DLG_D47_03"
   },
@@ -611,7 +611,7 @@
     "prompt_en": "Repeat the model sentence with full phrase rhythm.",
     "model_answer": "我那天先起床，然後吃早餐，再出門。",
     "model_pinyin": "Wǒ nèitiān xiān qǐchuáng, ránhòu chī zǎocān, zài chūmén.",
-    "model_translation_en": "That day I first got up, then ate breakfast, and then went out.",
+    "model_translation_en": "That day I got up first, then ate breakfast, and then went out.",
     "related_sentence_id": "SEN_D47_041",
     "related_dialogue_id": "DLG_D47_03"
   },
@@ -1040,7 +1040,7 @@
     "prompt_en": "Create your own sentence using only known words.",
     "model_answer": "我們沒有做過這個經驗。",
     "model_pinyin": "Wǒmen méiyǒu zuò guò zhège jīngyàn.",
-    "model_translation_en": "We have never had this experience before.",
+    "model_translation_en": "We have never had this experience.",
     "related_sentence_id": "SEN_D48_049",
     "related_dialogue_id": "DLG_D48_01"
   },
@@ -1733,7 +1733,7 @@
     "prompt_en": "Answer a question in this scenario: talking about what you can do and are learning.",
     "model_answer": "他會彈鋼琴，也會唱歌，能力很好。",
     "model_pinyin": "Tā huì tán gāngqín, yě huì chànggē, nénglì hěn hǎo.",
-    "model_translation_en": "He can play the piano and also sing; his ability is very good.",
+    "model_translation_en": "He can play the piano and also sing; he is very talented.",
     "related_sentence_id": "SEN_D50_036",
     "related_dialogue_id": "DLG_D50_03"
   },
@@ -1898,7 +1898,7 @@
     "prompt_en": "Answer a question in this scenario: talking about what you can do and are learning.",
     "model_answer": "我哥哥會彈鋼琴，也會唱歌，他的能力很好。",
     "model_pinyin": "Wǒ gēge huì tán gāngqín, yě huì chànggē, tā de nénglì hěn hǎo.",
-    "model_translation_en": "My older brother can play the piano and sing; his ability is very good.",
+    "model_translation_en": "My older brother can play the piano and sing; he is very good at it.",
     "related_sentence_id": "SEN_D50_066",
     "related_dialogue_id": "DLG_D50_03"
   },
@@ -2118,7 +2118,7 @@
     "prompt_en": "Answer a question in this scenario: appearance, personality, basic relationships.",
     "model_answer": "那個女生看起來很害羞，可是說話很大方。",
     "model_pinyin": "Nà ge nǚshēng kàn qǐlái hěn hàixiū, kěshì shuōhuà hěn dàfāng.",
-    "model_translation_en": "That girl looks very shy, but she speaks very generously.",
+    "model_translation_en": "That girl looks very shy, but she speaks very openly.",
     "related_sentence_id": "SEN_D51_035",
     "related_dialogue_id": "DLG_D51_03"
   },
@@ -2756,7 +2756,7 @@
     "prompt_en": "Repeat the model sentence with full phrase rhythm.",
     "model_answer": "我們把約會改到明天下午好嗎？",
     "model_pinyin": "Wǒmen bǎ yuēhuì gǎi dào míngtiān xiàwǔ hǎo ma?",
-    "model_translation_en": "Shall we reschedule the date to tomorrow afternoon?",
+    "model_translation_en": "Shall we reschedule the appointment to tomorrow afternoon?",
     "related_sentence_id": "SEN_D54_011",
     "related_dialogue_id": "DLG_D54_03"
   },
@@ -4230,7 +4230,7 @@
     "prompt_en": "Create your own sentence using only known words.",
     "model_answer": "因為我們吵架了，所以結果很不開心。",
     "model_pinyin": "Yīnwèi wǒmen chǎojià le, suǒyǐ jiéguǒ hěn bù kāixīn.",
-    "model_translation_en": "Because we had a quarrel, the result was very unhappy.",
+    "model_translation_en": "Because we had a quarrel, the result was very unpleasant.",
     "related_sentence_id": "SEN_D61_029",
     "related_dialogue_id": "DLG_D61_03"
   },
@@ -4582,7 +4582,7 @@
     "prompt_en": "Swap one word and say the new sentence aloud.",
     "model_answer": "師傅，請問你可以幫我看一下漏水的地方嗎？",
     "model_pinyin": "Shīfù, qǐngwèn nǐ kěyǐ bāng wǒ kàn yīxià lòushuǐ de dìfang ma?",
-    "model_translation_en": "Master, may I ask if you can take a look at the leaking place for me?",
+    "model_translation_en": "Excuse me, can you take a look at the leaking place for me?",
     "related_sentence_id": "SEN_D62_023",
     "related_dialogue_id": "DLG_D62_03"
   },
@@ -6080,7 +6080,8 @@
     "model_pinyin": "wo3 neng2gou4 yong4 you1you2ka3 zuo4 jie2yun4, ke3shi4 bu4 hui4 yong4 xin4yong4ka3.",
     "model_translation_en": "저는 유유카로 지하철을 탈 수 있지만, 신용카드는 사용할 줄 몰라요.",
     "related_sentence_id": "SEN_D55_023",
-    "related_dialogue_id": "DLG_D55_02"
+    "related_dialogue_id": "DLG_D55_02",
+    "model_translation_ko": "저는 유유카로 지하철을 탈 수 있지만, 신용카드는 사용할 줄 몰라요."
   },
   {
     "id": "SPK_D55_09",
@@ -8300,7 +8301,7 @@
     "prompt_en": "Create your own sentence using only known words.",
     "model_answer": "雖然我喜歡吃辣，但是這道菜太辣了，我有點受不了。",
     "model_pinyin": "Suīrán wǒ xǐhuān chī là, dànshì zhè dào cài tài là le, wǒ yǒudiǎn shòu bù liǎo.",
-    "model_translation_en": "Although I like eating spicy food, this dish is too spicy; I can't handle it a bit.",
+    "model_translation_en": "Although I like eating spicy food, this dish is too spicy; I can't handle it.",
     "related_sentence_id": "SEN_D67_069",
     "related_dialogue_id": "DLG_D67_02"
   },
@@ -9246,7 +9247,7 @@
     "prompt_en": "Repeat the model sentence with full phrase rhythm.",
     "model_answer": "假如手機故障的話，我就不能處理訂單了。",
     "model_pinyin": "Jiǎrú shǒujī gùzhàng de huà, wǒ jiù bùnéng chǔlǐ dìngdān le.",
-    "model_translation_en": "If my phone breaks down, I won't be able to process the order.",
+    "model_translation_en": "If my phone breaks down, I won't be able to process the orders.",
     "related_sentence_id": "SEN_D70_031",
     "related_dialogue_id": "DLG_D70_01"
   },
@@ -9301,7 +9302,7 @@
     "prompt_en": "Repeat the model sentence with full phrase rhythm.",
     "model_answer": "假如這個手機故障，我需要幫忙處理退貨。",
     "model_pinyin": "Jiǎrú zhège shǒujī gùzhàng, wǒ xūyào bāngmáng chǔlǐ tuìhuò.",
-    "model_translation_en": "If this phone is broken, I need help handling the return.",
+    "model_translation_en": "If this phone breaks down, I need help handling the return.",
     "related_sentence_id": "SEN_D70_041",
     "related_dialogue_id": "DLG_D70_03"
   },
@@ -10016,7 +10017,7 @@
     "prompt_en": "Repeat the model sentence with full phrase rhythm.",
     "model_answer": "我今天要完成這個報告。",
     "model_pinyin": "Wǒ jīntiān yào wánchéng zhège bàogào.",
-    "model_translation_en": "I must finish this report today.",
+    "model_translation_en": "I have to finish this report today.",
     "related_sentence_id": "SEN_D72_031",
     "related_dialogue_id": "DLG_D72_01"
   },
@@ -10027,7 +10028,7 @@
     "prompt_en": "Swap one word and say the new sentence aloud.",
     "model_answer": "他要在三點以前開完會。",
     "model_pinyin": "Tā yào zài sān diǎn yǐqián kāi wán huì.",
-    "model_translation_en": "He must finish the meeting before three o'clock.",
+    "model_translation_en": "He has to finish the meeting before three o'clock.",
     "related_sentence_id": "SEN_D72_033",
     "related_dialogue_id": "DLG_D72_02"
   },
@@ -10038,7 +10039,7 @@
     "prompt_en": "Answer a question in this scenario: simple tasks, meetings, deadlines.",
     "model_answer": "我們要討論完這個提案。",
     "model_pinyin": "Wǒmen yào tǎolùn wán zhège tí'àn.",
-    "model_translation_en": "We must finish discussing this proposal.",
+    "model_translation_en": "We have to finish discussing this proposal.",
     "related_sentence_id": "SEN_D72_035",
     "related_dialogue_id": "DLG_D72_03"
   },
@@ -10049,7 +10050,7 @@
     "prompt_en": "Respond as one speaker in this scenario: simple tasks, meetings, deadlines.",
     "model_answer": "你們要檢查完所有的檔案。",
     "model_pinyin": "Nǐmen yào jiǎnchá wán suǒyǒu de dàng'àn.",
-    "model_translation_en": "You all must finish checking all the files.",
+    "model_translation_en": "You all have to finish checking all the files.",
     "related_sentence_id": "SEN_D72_037",
     "related_dialogue_id": "DLG_D72_01"
   },
@@ -10060,7 +10061,7 @@
     "prompt_en": "Create your own sentence using only known words.",
     "model_answer": "他要在明天以前完成這個緊急任務。",
     "model_pinyin": "Tā yào zài míngtiān yǐqián wánchéng zhège jǐnjí rènwù.",
-    "model_translation_en": "He must finish this urgent task before tomorrow.",
+    "model_translation_en": "He has to finish this urgent task before tomorrow.",
     "related_sentence_id": "SEN_D72_039",
     "related_dialogue_id": "DLG_D72_02"
   },
@@ -10687,7 +10688,7 @@
     "prompt_en": "Swap one word and say the new sentence aloud.",
     "model_answer": "為了省錢，他寧願走路也不坐捷運，例如去公司。",
     "model_pinyin": "Wèile shěng qián, tā nìngyuàn zǒulù yě bù zuò jiéyùn, lìrú qù gōngsī.",
-    "model_translation_en": "To save money, he would rather walk than take the MRT, for example, to go to the company.",
+    "model_translation_en": "To save money, he would rather walk than take the MRT, for example, to go to work.",
     "related_sentence_id": "SEN_D74_013",
     "related_dialogue_id": "DLG_D74_01"
   },
@@ -10698,7 +10699,7 @@
     "prompt_en": "Answer a question in this scenario: giving reasons and examples.",
     "model_answer": "由於天氣太冷，他不想出門，比如昨天。",
     "model_pinyin": "Yóuyú tiānqì tài lěng, tā bù xiǎng chūmén, bǐrú zuótiān.",
-    "model_translation_en": "Because the weather is too cold, he doesn't want to go out, for example, yesterday.",
+    "model_translation_en": "Because the weather was too cold, he didn't want to go out, for example, yesterday.",
     "related_sentence_id": "SEN_D74_015",
     "related_dialogue_id": "DLG_D74_02"
   },
@@ -10720,7 +10721,7 @@
     "prompt_en": "Create your own sentence using only known words.",
     "model_answer": "為了健康，他寧願吃青菜也不吃肉，比如中午。",
     "model_pinyin": "Wèile jiànkāng, tā nìngyuàn chī qīngcài yě bù chī ròu, bǐrú zhōngwǔ.",
-    "model_translation_en": "For health, he would rather eat vegetables than meat, for example, at noon.",
+    "model_translation_en": "For his health, he would rather eat vegetables than meat, for example, at lunch.",
     "related_sentence_id": "SEN_D74_019",
     "related_dialogue_id": "DLG_D74_01"
   },
@@ -10929,7 +10930,7 @@
     "prompt_en": "Respond as one speaker in this scenario: giving reasons and examples.",
     "model_answer": "他昨天沒睡飽，所以今天上課的時候很想睡覺。",
     "model_pinyin": "Tā zuótiān méi shuì bǎo, suǒyǐ jīntiān shàngkè de shíhou hěn xiǎng shuìjiào.",
-    "model_translation_en": "He didn't get enough sleep yesterday, so he really wants to sleep during class today.",
+    "model_translation_en": "He didn't get enough sleep yesterday, so he really wanted to sleep during class today.",
     "related_sentence_id": "SEN_D74_057",
     "related_dialogue_id": "DLG_D74_02"
   },
@@ -10951,7 +10952,7 @@
     "prompt_en": "Repeat the model sentence with full phrase rhythm.",
     "model_answer": "因為這個餐廳的服務態度很好，所以我喜歡來這裡吃飯。",
     "model_pinyin": "Yīnwèi zhège cāntīng de fúwù tàidù hěn hǎo, suǒyǐ wǒ xǐhuān lái zhèlǐ chīfàn.",
-    "model_translation_en": "Because the service attitude at this restaurant is very good, I like to come here to eat.",
+    "model_translation_en": "Because the service at this restaurant is very good, I like to come here to eat.",
     "related_sentence_id": "SEN_D74_061",
     "related_dialogue_id": "DLG_D74_01"
   },
@@ -11006,7 +11007,7 @@
     "prompt_en": "Repeat the model sentence with full phrase rhythm.",
     "model_answer": "如果你明天有空的話，我們就一起去台北玩。",
     "model_pinyin": "Rúguǒ nǐ míngtiān yǒu kòng dehuà, wǒmen jiù yīqǐ qù Táiběi wán.",
-    "model_translation_en": "If you are free tomorrow, we will go to Taipei together.",
+    "model_translation_en": "If you are free tomorrow, we can go to Taipei together.",
     "related_sentence_id": "SEN_D75_001",
     "related_dialogue_id": "DLG_D75_01"
   },
@@ -11072,7 +11073,7 @@
     "prompt_en": "Swap one word and say the new sentence aloud.",
     "model_answer": "雖然這家餐廳的牛肉麵很好吃，但是服務態度不好。",
     "model_pinyin": "Suīrán zhè jiā cāntīng de niúròumiàn hěn hǎochī, dànshì fúwù tàidù bù hǎo.",
-    "model_translation_en": "Although this restaurant's beef noodles are delicious, the service attitude is not good.",
+    "model_translation_en": "Although this restaurant's beef noodles are delicious, the service is not good.",
     "related_sentence_id": "SEN_D75_013",
     "related_dialogue_id": "DLG_D75_01"
   },
@@ -11149,7 +11150,7 @@
     "prompt_en": "Respond as one speaker in this scenario: transactional independence checkpoint.",
     "model_answer": "因為這家店的服務態度很好，所以我喜歡來這裡。",
     "model_pinyin": "Yīnwèi zhè jiā diàn de fúwù tàidù hěn hǎo, suǒyǐ wǒ xǐhuān lái zhèlǐ.",
-    "model_translation_en": "Because the service attitude at this store is very good, I like coming here.",
+    "model_translation_en": "Because the service at this store is very good, I like coming here.",
     "related_sentence_id": "SEN_D75_027",
     "related_dialogue_id": "DLG_D75_02"
   },
@@ -11457,7 +11458,7 @@
     "prompt_en": "Swap one word and say the new sentence aloud.",
     "model_answer": "因為她突然覺得肚子很痛，所以去看醫生了。",
     "model_pinyin": "Yīnwèi tā túrán juéde dùzi hěn tòng, suǒyǐ qù kàn yīshēng le.",
-    "model_translation_en": "Because she suddenly felt a bad stomachache, she went to see a doctor.",
+    "model_translation_en": "Because she suddenly had a bad stomachache, she went to see a doctor.",
     "related_sentence_id": "SEN_D76_043",
     "related_dialogue_id": "DLG_D76_01"
   },
@@ -11710,7 +11711,7 @@
     "prompt_en": "Create your own sentence using only known words.",
     "model_answer": "然後呢？後來你記得故事嗎？",
     "model_pinyin": "Ránhòu ne? Hòulái nǐ jìde gùshì ma?",
-    "model_translation_en": "And then? Do you remember the story later?",
+    "model_translation_en": "And then? Do you remember the story?",
     "related_sentence_id": "SEN_D77_019",
     "related_dialogue_id": "DLG_D77_01"
   },
@@ -12491,7 +12492,7 @@
     "prompt_en": "Repeat the model sentence with full phrase rhythm.",
     "model_answer": "你是不是說錯的意思？",
     "model_pinyin": "Nǐ shì bù shì shuō cuò de yìsi?",
-    "model_translation_en": "Is it that you said it wrong?",
+    "model_translation_en": "Do you mean you said it wrong?",
     "related_sentence_id": "SEN_D79_021",
     "related_dialogue_id": "DLG_D79_02"
   },
@@ -12502,7 +12503,7 @@
     "prompt_en": "Swap one word and say the new sentence aloud.",
     "model_answer": "你是不是以為我生氣的？",
     "model_pinyin": "Nǐ shì bù shì yǐwéi wǒ shēngqì de?",
-    "model_translation_en": "Is it that you thought I was angry?",
+    "model_translation_en": "Do you think I was angry?",
     "related_sentence_id": "SEN_D79_023",
     "related_dialogue_id": "DLG_D79_03"
   },
@@ -12513,7 +12514,7 @@
     "prompt_en": "Answer a question in this scenario: fixing misunderstanding.",
     "model_answer": "你的答案是不是跟我的不一樣的意思？",
     "model_pinyin": "Nǐ de dá'àn shì bù shì gēn wǒ de bù yīyàng de yìsi?",
-    "model_translation_en": "Is it that your answer is different from mine?",
+    "model_translation_en": "Do you mean your answer is different from mine?",
     "related_sentence_id": "SEN_D79_025",
     "related_dialogue_id": "DLG_D79_01"
   },
@@ -12524,7 +12525,7 @@
     "prompt_en": "Respond as one speaker in this scenario: fixing misunderstanding.",
     "model_answer": "他是不是聽懂我的意思？",
     "model_pinyin": "Tā shì bù shì tīng dǒng wǒ de yìsi?",
-    "model_translation_en": "Is it that he understood me?",
+    "model_translation_en": "Did he understand me?",
     "related_sentence_id": "SEN_D79_027",
     "related_dialogue_id": "DLG_D79_02"
   },
@@ -12535,7 +12536,7 @@
     "prompt_en": "Create your own sentence using only known words.",
     "model_answer": "這個問題是不是有兩個意思？",
     "model_pinyin": "Zhège wèntí shì bù shì yǒu liǎng ge yìsi?",
-    "model_translation_en": "Is it that this question has two meanings?",
+    "model_translation_en": "Does this question have two meanings?",
     "related_sentence_id": "SEN_D79_029",
     "related_dialogue_id": "DLG_D79_03"
   },
@@ -14427,7 +14428,7 @@
     "prompt_en": "Swap one word and say the new sentence aloud.",
     "model_answer": "我學中文的目標是希望通過考試。",
     "model_pinyin": "Wǒ xué Zhōngwén de mùbiāo shì xīwàng tōngguò kǎoshì.",
-    "model_translation_en": "My goal in learning Chinese is to hope to pass the exam.",
+    "model_translation_en": "My goal in learning Chinese is to pass the exam.",
     "related_sentence_id": "SEN_D84_023",
     "related_dialogue_id": "DLG_D84_03"
   },

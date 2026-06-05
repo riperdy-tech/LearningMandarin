@@ -2212,7 +2212,7 @@
     "pinyin": "Tā hái méi fāxiàn zuò cuò chē, yǐjīng guò le sān zhàn.",
     "pinyin_numeric": "ta1 hai2 mei2 fa1xian4 zuo4 cuo4 che1, yi3jing1 guo4 le0 san1 zhan4",
     "translation_en": "He hasn't realized he got on the wrong train yet, and it's already been three stops.",
-    "translation_ko": "그는 아직 잘못 탄 것을 알아채지 못했는데, 벌로 세 정거장을 지났어요.",
+    "translation_ko": "그는 아직 잘못 탄 것을 알아채지 못했는데, 벌써 세 정거장을 지났어요.",
     "audio_id": "AUD_LIS_D39_08",
     "sentence_id": "SEN_D39_022",
     "dialogue_id": "DLG_D39_02"
@@ -2582,7 +2582,7 @@
     "pinyin": "zài shì yí cì",
     "pinyin_numeric": "zai4 shi4 yi2 ci4",
     "translation_en": "try once more",
-    "translation_ko": "다시 해 보다",
+    "translation_ko": "다시 한 번 해 보다",
     "audio_id": "AUD_LIS_D40_16",
     "sentence_id": "SEN_D40_046"
   },
@@ -2714,7 +2714,7 @@
     "pinyin": "gǎnmào",
     "pinyin_numeric": "gan3 mao4",
     "translation_en": "catch a cold",
-    "translation_ko": "감기 걸리다",
+    "translation_ko": "감기에 걸리다",
     "audio_id": "AUD_LIS_D41_06",
     "sentence_id": "SEN_D41_016"
   },
@@ -2779,7 +2779,7 @@
     "text": "下雨了",
     "pinyin": "xià yǔ le",
     "pinyin_numeric": "xia4 yu3 le0",
-    "translation_en": "it rained",
+    "translation_en": "It rained.",
     "translation_ko": "비가 왔다",
     "audio_id": "AUD_LIS_D41_11",
     "sentence_id": "SEN_D41_031"
@@ -2846,7 +2846,7 @@
     "pinyin": "lái bù jí chī",
     "pinyin_numeric": "lai2 bu4 ji2 chi1",
     "translation_en": "no time to eat",
-    "translation_ko": "먹을 시간이 없다",
+    "translation_ko": "먹을 시간이 없어요",
     "audio_id": "AUD_LIS_D41_16",
     "sentence_id": "SEN_D41_046"
   },
@@ -3558,7 +3558,7 @@
     "text": "今天天氣很舒服，我心情太好了。",
     "pinyin": "Jīntiān tiānqì hěn shūfú, wǒ xīnqíng tài hǎo le.",
     "pinyin_numeric": "jin1tian1 tian1qi4 hen3 shu1fu2, wo3 xin1qing2 tai4 hao3 le0.",
-    "translation_en": "The weather is very comfortable today, my mood is too good.",
+    "translation_en": "The weather is very comfortable today, my mood is very good.",
     "translation_ko": "오늘 날씨가 너무 쾌적해서 기분이 너무 좋아요.",
     "audio_id": "AUD_LIS_D44_10",
     "sentence_id": "SEN_D44_028"
@@ -3572,7 +3572,7 @@
     "pinyin": "xiǎoxīn",
     "pinyin_numeric": "xiao3 xin1",
     "translation_en": "be careful",
-    "translation_ko": "조심하다",
+    "translation_ko": "조심하세요",
     "audio_id": "AUD_LIS_D44_11",
     "sentence_id": "SEN_D44_031"
   },
@@ -3585,7 +3585,7 @@
     "pinyin": "Qíngtiān tàiyáng hěn dà, kěshì xīnqíng hěn kāixīn.",
     "pinyin_numeric": "qing2tian1 tai4yang2 hen3 da4, ke3shi4 xin1qing2 hen3 kai1xin1.",
     "translation_en": "On sunny days the sun is strong, but my mood is very happy.",
-    "translation_ko": "맑은 날은 태양이 강하지만 기분은 아주 즐거워요.",
+    "translation_ko": "맑은 날은 태양이 강하지만 기분은 아주 좋아요.",
     "audio_id": "AUD_LIS_D44_12",
     "sentence_id": "SEN_D44_034"
   },
@@ -3625,7 +3625,7 @@
     "pinyin": "Qíngtiān ràng wǒ yǒudiǎn kāixīn, xīnqíng hěn hǎo.",
     "pinyin_numeric": "qing2tian1 rang4 wo3 you3dian3 kai1xin1, xin1qing2 hen3 hao3.",
     "translation_en": "The sunny day makes me a little happy, my mood is very good.",
-    "translation_ko": "맑은 날씨가 저를 조금 기쁘게 해요, 기분이 아주 좋아요.",
+    "translation_ko": "맑은 날씨가 저를 조금 기쁘게 하고 기분이 아주 좋아요.",
     "audio_id": "AUD_LIS_D44_15",
     "sentence_id": "SEN_D44_043"
   },
@@ -3678,7 +3678,7 @@
     "pinyin": "Qíngtiān tàiyáng tài dà le, wǒ dānxīn huì shài hēi.",
     "pinyin_numeric": "qing2tian1 tai4yang2 tai4 da4 le0, wo3 dan1xin1 hui4 shai4 hei1.",
     "translation_en": "The sun is too strong on a sunny day; I'm worried about getting tanned.",
-    "translation_ko": "맑은 날 태양이 너무 커서 검게 탈까 봐 걱정돼요.",
+    "translation_ko": "맑은 날 태양이 너무 강해서 검게 탈까 봐 걱정돼요.",
     "audio_id": "AUD_LIS_D44_19",
     "sentence_id": "SEN_D44_055"
   },

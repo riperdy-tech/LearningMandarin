@@ -1892,7 +1892,7 @@
         "text": "你要喝熱湯嗎？",
         "pinyin": "Nǐ yào hē rè tāng ma?",
         "translation_en": "Do you want to drink hot soup?",
-        "translation_ko": "뜨거운 국물을 마실래요?"
+        "translation_ko": "뜨거운 국을 마실래요?"
       },
       {
         "text": "你要加辣嗎？",
@@ -3163,7 +3163,7 @@
       {
         "text": "他每天中午吃午餐。",
         "pinyin": "Tā měitiān zhōngwǔ chī wǔcān.",
-        "translation_en": "He eats lunch every noon.",
+        "translation_en": "He eats lunch every day at noon.",
         "translation_ko": "그는 매일 점심에 점심을 먹습니다."
       },
       {
@@ -5354,7 +5354,7 @@
         "text": "我們搭錯線了，應該坐紅線才對。",
         "pinyin": "Wǒmen dā cuò xiàn le, yīnggāi zuò hóngxiàn cái duì.",
         "translation_en": "We took the wrong line; we should have taken the Red Line.",
-        "translation_ko": "저희가 노선을 잘못 탔어요. 홍션(Red Line)을 타야 했어요."
+        "translation_ko": "저희가 노선을 잘못 탔어요. 홍선(Red Line)을 타야 했어요."
       },
       {
         "text": "他走錯路了，現在在反方向。",
@@ -5569,7 +5569,7 @@
         "text": "他還沒發現坐錯車，已經過了三站。",
         "pinyin": "Tā hái méi fāxiàn zuò cuò chē, yǐjīng guò le sān zhàn.",
         "translation_en": "He hasn't realized he got on the wrong train yet, and it's already been three stops.",
-        "translation_ko": "그는 아직 잘못 탄 것을 알아채지 못했는데, 벌로 세 정거장을 지났어요."
+        "translation_ko": "그는 아직 잘못 탄 것을 알아채지 못했는데, 벌써 세 정거장을 지났어요."
       },
       {
         "text": "我們還沒換線，所以還在等下一班車。",
@@ -6007,7 +6007,7 @@
       {
         "text": "今天的重點比昨天的重點多。",
         "pinyin": "Jīntiān de zhòngdiǎn bǐ zuótiān de zhòngdiǎn duō.",
-        "translation_en": "Today's key points are more than yesterday's key points.",
+        "translation_en": "Today's key points are more numerous than yesterday's key points.",
         "translation_ko": "오늘의 핵심 포인트가 어제의 핵심 포인트보다 많습니다."
       },
       {
@@ -6025,7 +6025,7 @@
       {
         "text": "他改正的錯誤比我改正的錯誤多。",
         "pinyin": "Tā gǎizhèng de cuòwù bǐ wǒ gǎizhèng de cuòwù duō.",
-        "translation_en": "He corrected more mistakes than I did.",
+        "translation_en": "The mistakes he corrected are more than the mistakes I corrected.",
         "translation_ko": "그가 고친 실수가 제가 고친 실수보다 많습니다."
       },
       {
@@ -6222,7 +6222,7 @@
       {
         "text": "今天的重點比昨天的重點多。",
         "pinyin": "Jīntiān de zhòngdiǎn bǐ zuótiān de zhòngdiǎn duō.",
-        "translation_en": "Today's key points are more than yesterday's key points.",
+        "translation_en": "Today's key points are more numerous than yesterday's key points.",
         "translation_ko": "오늘의 핵심 포인트가 어제의 핵심 포인트보다 많습니다."
       },
       {
@@ -6240,7 +6240,7 @@
       {
         "text": "他改正的錯誤比我改正的錯誤多。",
         "pinyin": "Tā gǎizhèng de cuòwù bǐ wǒ gǎizhèng de cuòwù duō.",
-        "translation_en": "He corrected more mistakes than I did.",
+        "translation_en": "The mistakes he corrected are more than the mistakes I corrected.",
         "translation_ko": "그가 고친 실수가 제가 고친 실수보다 많습니다."
       },
       {
@@ -6642,7 +6642,7 @@
         "text": "你為什麼不想吃？",
         "pinyin": "Nǐ wèishénme bù xiǎng chī?",
         "translation_en": "Why don't you want to eat?",
-        "translation_ko": "왜 먹고 싶지 않으세요?"
+        "translation_ko": "왜 먹고 싶지 않아요?"
       },
       {
         "text": "我因為肚子餓，所以想吃飯。",
@@ -6654,7 +6654,7 @@
         "text": "他為什麼不想喝咖啡？",
         "pinyin": "Tā wèishénme bù xiǎng hē kāfēi?",
         "translation_en": "Why doesn't he want to drink coffee?",
-        "translation_ko": "그는 왜 커피를 마시고 싶지 않나요?"
+        "translation_ko": "그는 왜 커피를 마시고 싶지 않아요?"
       },
       {
         "text": "因為他口渴，所以想喝水。",
@@ -6666,7 +6666,7 @@
         "text": "你為什麼不想買這個？",
         "pinyin": "Nǐ wèishénme bù xiǎng mǎi zhège?",
         "translation_en": "Why don't you want to buy this?",
-        "translation_ko": "왜 이것을 사고 싶지 않으세요?"
+        "translation_ko": "왜 이것을 사고 싶지 않아요?"
       },
       {
         "text": "因為太貴了，所以我不想買。",
@@ -6678,7 +6678,7 @@
         "text": "她為什麼想休息？",
         "pinyin": "Tā wèishénme xiǎng xiūxí?",
         "translation_en": "Why does she want to rest?",
-        "translation_ko": "그녀는 왜 쉬고 싶어 하나요?"
+        "translation_ko": "그녀는 왜 쉬고 싶어요?"
       },
       {
         "text": "因為她太累了，所以想休息。",
@@ -8860,7 +8860,7 @@
       {
         "text": "今天天氣很舒服，我心情太好了。",
         "pinyin": "Jīntiān tiānqì hěn shūfú, wǒ xīnqíng tài hǎo le.",
-        "translation_en": "The weather is very comfortable today, my mood is too good.",
+        "translation_en": "The weather is very comfortable today, my mood is very good.",
         "translation_ko": "오늘 날씨가 너무 쾌적해서 기분이 너무 좋아요."
       }
     ],
@@ -9078,7 +9078,7 @@
       {
         "text": "因為壓力很大，所以我覺得很緊張。",
         "pinyin": "Yīnwèi yālì hěn dà, suǒyǐ wǒ juéde hěn jǐnzhāng.",
-        "translation_en": "Because the pressure is very high, I feel very nervous.",
+        "translation_en": "Because the stress is very high, I feel very nervous.",
         "translation_ko": "스트레스가 매우 커서 긴장됩니다."
       }
     ],

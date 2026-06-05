@@ -48,7 +48,7 @@ import type {
 export const courseData: CourseData = {
   vocab: [...(vocab as VocabularyItem[]), ...(vocabDays31To45 as VocabularyItem[]), ...(vocabDays46To90 as VocabularyItem[])],
   sentences: [...(sentences as SentenceItem[]), ...(sentencesDays31To45 as SentenceItem[]), ...(sentencesDays46To90 as SentenceItem[])],
-  grammar: [...(grammar as GrammarItem[]), ...(grammarDays31To45 as GrammarItem[]), ...(grammarDays46To90 as GrammarItem[])],
+  grammar: [...(grammar as unknown as GrammarItem[]), ...(grammarDays31To45 as unknown as GrammarItem[]), ...(grammarDays46To90 as unknown as GrammarItem[])],
   pronunciation: pronunciation as PronunciationItem[],
   writing: [...(writing as WritingItem[]), ...(writingDays31To45 as WritingItem[]), ...(writingDays46To90 as WritingItem[])],
   dialogues: [...(dialoguesDays31To45 as DialogueItem[]), ...(dialoguesDays46To90 as DialogueItem[])],

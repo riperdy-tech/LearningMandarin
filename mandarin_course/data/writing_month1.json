@@ -2,9 +2,9 @@
   {
     "char": "一",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 1 strokes, radical: 一. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
+    "stroke_count": 1,
     "radical": "一",
     "difficulty": 1
   },
@@ -47,10 +47,10 @@
   {
     "char": "不",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 4 strokes, radical: 一. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
-    "radical": "不",
+    "stroke_count": 4,
+    "radical": "一",
     "difficulty": 1
   },
   {
@@ -74,18 +74,18 @@
   {
     "char": "也",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 3 strokes, radical: 乙. Visit strokeorder.com for animation."
     ],
     "stroke_count": 3,
-    "radical": "也",
+    "radical": "乙",
     "difficulty": 1
   },
   {
     "char": "二",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 2 strokes, radical: 二. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
+    "stroke_count": 2,
     "radical": "二",
     "difficulty": 1
   },
@@ -101,10 +101,10 @@
   {
     "char": "亮",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 9 strokes, radical: 亠. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
-    "radical": "亮",
+    "stroke_count": 9,
+    "radical": "亠",
     "difficulty": 2
   },
   {
@@ -119,10 +119,10 @@
   {
     "char": "什",
     "strokes": [
-      "Stroke order: 4 strokes, radical: 亻. Visit strokeorder.com for animation."
+      "Stroke order: 4 strokes, radical: 人. Visit strokeorder.com for animation."
     ],
     "stroke_count": 4,
-    "radical": "亻",
+    "radical": "人",
     "difficulty": 1
   },
   {
@@ -137,15 +137,6 @@
   {
     "char": "他",
     "strokes": [
-      "Stroke order: 5 strokes, radical: 亻. Visit strokeorder.com for animation."
-    ],
-    "stroke_count": 5,
-    "radical": "亻",
-    "difficulty": 1
-  },
-  {
-    "char": "以",
-    "strokes": [
       "Stroke order: 5 strokes, radical: 人. Visit strokeorder.com for animation."
     ],
     "stroke_count": 5,
@@ -153,85 +144,94 @@
     "difficulty": 1
   },
   {
+    "char": "以",
+    "strokes": [
+      "Stroke order: 4 strokes, radical: 人. Visit strokeorder.com for animation."
+    ],
+    "stroke_count": 4,
+    "radical": "人",
+    "difficulty": 1
+  },
+  {
     "char": "作",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 7 strokes, radical: 人. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
-    "radical": "作",
-    "difficulty": 1
+    "stroke_count": 7,
+    "radical": "人",
+    "difficulty": 2
   },
   {
     "char": "你",
     "strokes": [
-      "Stroke order: 7 strokes, radical: 亻. Visit strokeorder.com for animation."
+      "Stroke order: 7 strokes, radical: 人. Visit strokeorder.com for animation."
     ],
     "stroke_count": 7,
-    "radical": "亻",
-    "difficulty": 1
+    "radical": "人",
+    "difficulty": 2
   },
   {
     "char": "來",
     "strokes": [
-      "Stroke order: 8 strokes, radical: 木. Visit strokeorder.com for animation."
+      "Stroke order: 8 strokes, radical: 人. Visit strokeorder.com for animation."
     ],
     "stroke_count": 8,
-    "radical": "木",
-    "difficulty": 1
+    "radical": "人",
+    "difficulty": 2
   },
   {
     "char": "便",
     "strokes": [
-      "Stroke order: 9 strokes, radical: 亻. Visit strokeorder.com for animation."
+      "Stroke order: 9 strokes, radical: 人. Visit strokeorder.com for animation."
     ],
     "stroke_count": 9,
-    "radical": "亻",
+    "radical": "人",
     "difficulty": 2
   },
   {
     "char": "個",
     "strokes": [
-      "Stroke order: 10 strokes, radical: 亻. Visit strokeorder.com for animation."
+      "Stroke order: 10 strokes, radical: 人. Visit strokeorder.com for animation."
     ],
     "stroke_count": 10,
-    "radical": "亻",
+    "radical": "人",
     "difficulty": 2
   },
   {
     "char": "們",
     "strokes": [
-      "Stroke order: 10 strokes, radical: 亻. Visit strokeorder.com for animation."
+      "Stroke order: 10 strokes, radical: 人. Visit strokeorder.com for animation."
     ],
     "stroke_count": 10,
-    "radical": "亻",
+    "radical": "人",
     "difficulty": 2
   },
   {
     "char": "做",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 11 strokes, radical: 人. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
-    "radical": "做",
-    "difficulty": 2
+    "stroke_count": 11,
+    "radical": "人",
+    "difficulty": 3
   },
   {
     "char": "先",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 6 strokes, radical: 儿. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
-    "radical": "先",
-    "difficulty": 1
+    "stroke_count": 6,
+    "radical": "儿",
+    "difficulty": 2
   },
   {
     "char": "兩",
     "strokes": [
-      "Stroke order: 7 strokes, radical: 一. Visit strokeorder.com for animation."
+      "Stroke order: 8 strokes, radical: 入. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 7,
-    "radical": "一",
-    "difficulty": 1
+    "stroke_count": 8,
+    "radical": "入",
+    "difficulty": 2
   },
   {
     "char": "八",
@@ -263,11 +263,11 @@
   {
     "char": "再",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 6 strokes, radical: 冂. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
-    "radical": "再",
-    "difficulty": 1
+    "stroke_count": 6,
+    "radical": "冂",
+    "difficulty": 2
   },
   {
     "char": "冷",
@@ -276,15 +276,15 @@
     ],
     "stroke_count": 7,
     "radical": "冫",
-    "difficulty": 1
+    "difficulty": 2
   },
   {
     "char": "前",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 9 strokes, radical: 刀. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
-    "radical": "前",
+    "stroke_count": 9,
+    "radical": "刀",
     "difficulty": 2
   },
   {
@@ -294,7 +294,7 @@
     ],
     "stroke_count": 11,
     "radical": "力",
-    "difficulty": 2
+    "difficulty": 3
   },
   {
     "char": "北",
@@ -344,10 +344,10 @@
   {
     "char": "友",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 4 strokes, radical: 又. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
-    "radical": "友",
+    "stroke_count": 4,
+    "radical": "又",
     "difficulty": 1
   },
   {
@@ -380,19 +380,19 @@
   {
     "char": "右",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 5 strokes, radical: 口. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
-    "radical": "右",
+    "stroke_count": 5,
+    "radical": "口",
     "difficulty": 1
   },
   {
     "char": "司",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 5 strokes, radical: 口. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
-    "radical": "司",
+    "stroke_count": 5,
+    "radical": "口",
     "difficulty": 1
   },
   {
@@ -402,7 +402,7 @@
     ],
     "stroke_count": 6,
     "radical": "口",
-    "difficulty": 1
+    "difficulty": 2
   },
   {
     "char": "名",
@@ -411,16 +411,16 @@
     ],
     "stroke_count": 6,
     "radical": "口",
-    "difficulty": 1
+    "difficulty": 2
   },
   {
     "char": "呢",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 8 strokes, radical: 口. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
-    "radical": "呢",
-    "difficulty": 1
+    "stroke_count": 8,
+    "radical": "口",
+    "difficulty": 2
   },
   {
     "char": "咖",
@@ -429,15 +429,15 @@
     ],
     "stroke_count": 8,
     "radical": "口",
-    "difficulty": 1
+    "difficulty": 2
   },
   {
     "char": "哥",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 10 strokes, radical: 口. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
-    "radical": "哥",
+    "stroke_count": 10,
+    "radical": "口",
     "difficulty": 2
   },
   {
@@ -456,7 +456,7 @@
     ],
     "stroke_count": 11,
     "radical": "口",
-    "difficulty": 2
+    "difficulty": 3
   },
   {
     "char": "商",
@@ -465,7 +465,7 @@
     ],
     "stroke_count": 11,
     "radical": "口",
-    "difficulty": 2
+    "difficulty": 3
   },
   {
     "char": "問",
@@ -474,7 +474,7 @@
     ],
     "stroke_count": 11,
     "radical": "口",
-    "difficulty": 2
+    "difficulty": 3
   },
   {
     "char": "啡",
@@ -483,7 +483,7 @@
     ],
     "stroke_count": 11,
     "radical": "口",
-    "difficulty": 2
+    "difficulty": 3
   },
   {
     "char": "喜",
@@ -492,7 +492,7 @@
     ],
     "stroke_count": 12,
     "radical": "口",
-    "difficulty": 2
+    "difficulty": 3
   },
   {
     "char": "喝",
@@ -501,25 +501,25 @@
     ],
     "stroke_count": 12,
     "radical": "口",
-    "difficulty": 1
+    "difficulty": 3
   },
   {
     "char": "單",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 12 strokes, radical: 口. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
-    "radical": "單",
-    "difficulty": 2
+    "stroke_count": 12,
+    "radical": "口",
+    "difficulty": 3
   },
   {
     "char": "嗎",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 13 strokes, radical: 口. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
-    "radical": "嗎",
-    "difficulty": 1
+    "stroke_count": 13,
+    "radical": "口",
+    "difficulty": 3
   },
   {
     "char": "四",
@@ -537,16 +537,16 @@
     ],
     "stroke_count": 13,
     "radical": "囗",
-    "difficulty": 2
+    "difficulty": 3
   },
   {
     "char": "圖",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 14 strokes, radical: 囗. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
-    "radical": "圖",
-    "difficulty": 2
+    "stroke_count": 14,
+    "radical": "囗",
+    "difficulty": 3
   },
   {
     "char": "在",
@@ -555,16 +555,16 @@
     ],
     "stroke_count": 6,
     "radical": "土",
-    "difficulty": 1
+    "difficulty": 2
   },
   {
     "char": "地",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 6 strokes, radical: 土. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
-    "radical": "地",
-    "difficulty": 1
+    "stroke_count": 6,
+    "radical": "土",
+    "difficulty": 2
   },
   {
     "char": "坐",
@@ -573,7 +573,7 @@
     ],
     "stroke_count": 7,
     "radical": "土",
-    "difficulty": 1
+    "difficulty": 2
   },
   {
     "char": "塊",
@@ -582,15 +582,15 @@
     ],
     "stroke_count": 12,
     "radical": "土",
-    "difficulty": 2
+    "difficulty": 3
   },
   {
     "char": "外",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 5 strokes, radical: 夕. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
-    "radical": "外",
+    "stroke_count": 5,
+    "radical": "夕",
     "difficulty": 1
   },
   {
@@ -600,7 +600,7 @@
     ],
     "stroke_count": 6,
     "radical": "夕",
-    "difficulty": 1
+    "difficulty": 2
   },
   {
     "char": "大",
@@ -623,20 +623,20 @@
   {
     "char": "奶",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
-    ],
-    "stroke_count": 3,
-    "radical": "奶",
-    "difficulty": 1
-  },
-  {
-    "char": "她",
-    "strokes": [
       "Stroke order: 5 strokes, radical: 女. Visit strokeorder.com for animation."
     ],
     "stroke_count": 5,
     "radical": "女",
     "difficulty": 1
+  },
+  {
+    "char": "她",
+    "strokes": [
+      "Stroke order: 6 strokes, radical: 女. Visit strokeorder.com for animation."
+    ],
+    "stroke_count": 6,
+    "radical": "女",
+    "difficulty": 2
   },
   {
     "char": "好",
@@ -645,39 +645,39 @@
     ],
     "stroke_count": 6,
     "radical": "女",
-    "difficulty": 1
+    "difficulty": 2
   },
   {
     "char": "妹",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 8 strokes, radical: 女. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
-    "radical": "妹",
-    "difficulty": 1
+    "stroke_count": 8,
+    "radical": "女",
+    "difficulty": 2
   },
   {
     "char": "姐",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 8 strokes, radical: 女. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
-    "radical": "姐",
-    "difficulty": 1
+    "stroke_count": 8,
+    "radical": "女",
+    "difficulty": 2
   },
   {
     "char": "媽",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 13 strokes, radical: 女. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
-    "radical": "媽",
-    "difficulty": 2
+    "stroke_count": 13,
+    "radical": "女",
+    "difficulty": 3
   },
   {
     "char": "子",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 3 strokes, radical: 子. Visit strokeorder.com for animation."
     ],
     "stroke_count": 3,
     "radical": "子",
@@ -690,7 +690,7 @@
     ],
     "stroke_count": 6,
     "radical": "子",
-    "difficulty": 1
+    "difficulty": 2
   },
   {
     "char": "學",
@@ -708,7 +708,7 @@
     ],
     "stroke_count": 8,
     "radical": "宀",
-    "difficulty": 1
+    "difficulty": 2
   },
   {
     "char": "家",
@@ -749,7 +749,7 @@
   {
     "char": "工",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 3 strokes, radical: 工. Visit strokeorder.com for animation."
     ],
     "stroke_count": 3,
     "radical": "工",
@@ -758,20 +758,20 @@
   {
     "char": "左",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 5 strokes, radical: 工. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
-    "radical": "左",
+    "stroke_count": 5,
+    "radical": "工",
     "difficulty": 1
   },
   {
     "char": "希",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 7 strokes, radical: 巾. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
-    "radical": "希",
-    "difficulty": 1
+    "stroke_count": 7,
+    "radical": "巾",
+    "difficulty": 2
   },
   {
     "char": "幫",
@@ -789,7 +789,7 @@
     ],
     "stroke_count": 6,
     "radical": "干",
-    "difficulty": 1
+    "difficulty": 2
   },
   {
     "char": "幾",
@@ -798,7 +798,7 @@
     ],
     "stroke_count": 12,
     "radical": "幺",
-    "difficulty": 2
+    "difficulty": 3
   },
   {
     "char": "床",
@@ -807,7 +807,7 @@
     ],
     "stroke_count": 7,
     "radical": "广",
-    "difficulty": 1
+    "difficulty": 2
   },
   {
     "char": "店",
@@ -816,16 +816,16 @@
     ],
     "stroke_count": 8,
     "radical": "广",
-    "difficulty": 1
+    "difficulty": 2
   },
   {
     "char": "廁",
     "strokes": [
-      "Stroke order: 11 strokes, radical: 广. Visit strokeorder.com for animation."
+      "Stroke order: 12 strokes, radical: 广. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 11,
+    "stroke_count": 12,
     "radical": "广",
-    "difficulty": 2
+    "difficulty": 3
   },
   {
     "char": "廳",
@@ -839,37 +839,37 @@
   {
     "char": "弟",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 7 strokes, radical: 弓. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
-    "radical": "弟",
-    "difficulty": 1
+    "stroke_count": 7,
+    "radical": "弓",
+    "difficulty": 2
   },
   {
     "char": "影",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 15 strokes, radical: 彡. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
-    "radical": "影",
-    "difficulty": 1
+    "stroke_count": 15,
+    "radical": "彡",
+    "difficulty": 3
   },
   {
     "char": "很",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 9 strokes, radical: 彳. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
-    "radical": "很",
-    "difficulty": 1
+    "stroke_count": 9,
+    "radical": "彳",
+    "difficulty": 2
   },
   {
     "char": "後",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 9 strokes, radical: 彳. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
-    "radical": "後",
+    "stroke_count": 9,
+    "radical": "彳",
     "difficulty": 2
   },
   {
@@ -879,7 +879,7 @@
     ],
     "stroke_count": 11,
     "radical": "彳",
-    "difficulty": 2
+    "difficulty": 3
   },
   {
     "char": "必",
@@ -893,20 +893,20 @@
   {
     "char": "怎",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 9 strokes, radical: 心. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
-    "radical": "怎",
+    "stroke_count": 9,
+    "radical": "心",
     "difficulty": 2
   },
   {
     "char": "悠",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 11 strokes, radical: 心. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
-    "radical": "悠",
-    "difficulty": 2
+    "stroke_count": 11,
+    "radical": "心",
+    "difficulty": 3
   },
   {
     "char": "想",
@@ -915,7 +915,7 @@
     ],
     "stroke_count": 13,
     "radical": "心",
-    "difficulty": 1
+    "difficulty": 3
   },
   {
     "char": "愛",
@@ -924,16 +924,16 @@
     ],
     "stroke_count": 13,
     "radical": "心",
-    "difficulty": 2
+    "difficulty": 3
   },
   {
     "char": "慢",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 14 strokes, radical: 心. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
-    "radical": "慢",
-    "difficulty": 2
+    "stroke_count": 14,
+    "radical": "心",
+    "difficulty": 3
   },
   {
     "char": "我",
@@ -942,16 +942,16 @@
     ],
     "stroke_count": 7,
     "radical": "戈",
-    "difficulty": 1
+    "difficulty": 2
   },
   {
     "char": "所",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 8 strokes, radical: 戶. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
-    "radical": "所",
-    "difficulty": 1
+    "stroke_count": 8,
+    "radical": "戶",
+    "difficulty": 2
   },
   {
     "char": "手",
@@ -965,29 +965,29 @@
   {
     "char": "打",
     "strokes": [
-      "Stroke order: 5 strokes, radical: 扌. Visit strokeorder.com for animation."
+      "Stroke order: 5 strokes, radical: 手. Visit strokeorder.com for animation."
     ],
     "stroke_count": 5,
-    "radical": "扌",
+    "radical": "手",
     "difficulty": 1
   },
   {
     "char": "抱",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 8 strokes, radical: 手. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
-    "radical": "抱",
-    "difficulty": 1
+    "stroke_count": 8,
+    "radical": "手",
+    "difficulty": 2
   },
   {
     "char": "拍",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 8 strokes, radical: 手. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
-    "radical": "拍",
-    "difficulty": 1
+    "stroke_count": 8,
+    "radical": "手",
+    "difficulty": 2
   },
   {
     "char": "拿",
@@ -1001,11 +1001,11 @@
   {
     "char": "捷",
     "strokes": [
-      "Stroke order: 11 strokes, radical: 扌. Visit strokeorder.com for animation."
+      "Stroke order: 11 strokes, radical: 手. Visit strokeorder.com for animation."
     ],
     "stroke_count": 11,
-    "radical": "扌",
-    "difficulty": 2
+    "radical": "手",
+    "difficulty": 3
   },
   {
     "char": "文",
@@ -1019,18 +1019,18 @@
   {
     "char": "新",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 13 strokes, radical: 斤. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
-    "radical": "新",
-    "difficulty": 2
+    "stroke_count": 13,
+    "radical": "斤",
+    "difficulty": 3
   },
   {
     "char": "方",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 4 strokes, radical: 方. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
+    "stroke_count": 4,
     "radical": "方",
     "difficulty": 1
   },
@@ -1050,7 +1050,7 @@
     ],
     "stroke_count": 6,
     "radical": "日",
-    "difficulty": 1
+    "difficulty": 2
   },
   {
     "char": "明",
@@ -1059,7 +1059,7 @@
     ],
     "stroke_count": 8,
     "radical": "日",
-    "difficulty": 1
+    "difficulty": 2
   },
   {
     "char": "星",
@@ -1091,11 +1091,11 @@
   {
     "char": "更",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 7 strokes, radical: 曰. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
-    "radical": "更",
-    "difficulty": 1
+    "stroke_count": 7,
+    "radical": "曰",
+    "difficulty": 2
   },
   {
     "char": "書",
@@ -1109,11 +1109,11 @@
   {
     "char": "最",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 12 strokes, radical: 冂. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
-    "radical": "最",
-    "difficulty": 2
+    "stroke_count": 12,
+    "radical": "冂",
+    "difficulty": 3
   },
   {
     "char": "會",
@@ -1122,7 +1122,7 @@
     ],
     "stroke_count": 13,
     "radical": "曰",
-    "difficulty": 2
+    "difficulty": 3
   },
   {
     "char": "有",
@@ -1131,25 +1131,25 @@
     ],
     "stroke_count": 6,
     "radical": "月",
-    "difficulty": 1
+    "difficulty": 2
   },
   {
     "char": "朋",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 8 strokes, radical: 月. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
-    "radical": "朋",
-    "difficulty": 1
+    "stroke_count": 8,
+    "radical": "月",
+    "difficulty": 2
   },
   {
     "char": "望",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 11 strokes, radical: 月. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
-    "radical": "望",
-    "difficulty": 2
+    "stroke_count": 11,
+    "radical": "月",
+    "difficulty": 3
   },
   {
     "char": "期",
@@ -1158,7 +1158,7 @@
     ],
     "stroke_count": 12,
     "radical": "月",
-    "difficulty": 2
+    "difficulty": 3
   },
   {
     "char": "本",
@@ -1176,7 +1176,7 @@
     ],
     "stroke_count": 8,
     "radical": "木",
-    "difficulty": 1
+    "difficulty": 2
   },
   {
     "char": "果",
@@ -1185,24 +1185,24 @@
     ],
     "stroke_count": 8,
     "radical": "木",
-    "difficulty": 1
+    "difficulty": 2
   },
   {
     "char": "校",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 10 strokes, radical: 木. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
-    "radical": "校",
+    "stroke_count": 10,
+    "radical": "木",
     "difficulty": 2
   },
   {
     "char": "樂",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 15 strokes, radical: 木. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
-    "radical": "樂",
+    "stroke_count": 15,
+    "radical": "木",
     "difficulty": 3
   },
   {
@@ -1221,7 +1221,7 @@
     ],
     "stroke_count": 14,
     "radical": "欠",
-    "difficulty": 2
+    "difficulty": 3
   },
   {
     "char": "歌",
@@ -1230,7 +1230,7 @@
     ],
     "stroke_count": 14,
     "radical": "欠",
-    "difficulty": 2
+    "difficulty": 3
   },
   {
     "char": "歡",
@@ -1248,7 +1248,7 @@
     ],
     "stroke_count": 7,
     "radical": "止",
-    "difficulty": 1
+    "difficulty": 2
   },
   {
     "char": "歲",
@@ -1257,14 +1257,14 @@
     ],
     "stroke_count": 13,
     "radical": "止",
-    "difficulty": 2
+    "difficulty": 3
   },
   {
     "char": "比",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 4 strokes, radical: 比. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
+    "stroke_count": 4,
     "radical": "比",
     "difficulty": 1
   },
@@ -1280,55 +1280,55 @@
   {
     "char": "沒",
     "strokes": [
-      "Stroke order: 7 strokes, radical: 氵. Visit strokeorder.com for animation."
+      "Stroke order: 7 strokes, radical: 水. Visit strokeorder.com for animation."
     ],
     "stroke_count": 7,
-    "radical": "氵",
-    "difficulty": 1
+    "radical": "水",
+    "difficulty": 2
   },
   {
     "char": "泳",
     "strokes": [
-      "Stroke order: 8 strokes, radical: 氵. Visit strokeorder.com for animation."
+      "Stroke order: 8 strokes, radical: 水. Visit strokeorder.com for animation."
     ],
     "stroke_count": 8,
-    "radical": "氵",
-    "difficulty": 1
+    "radical": "水",
+    "difficulty": 2
   },
   {
     "char": "渴",
     "strokes": [
-      "Stroke order: 12 strokes, radical: 氵. Visit strokeorder.com for animation."
+      "Stroke order: 12 strokes, radical: 水. Visit strokeorder.com for animation."
     ],
     "stroke_count": 12,
-    "radical": "氵",
-    "difficulty": 2
+    "radical": "水",
+    "difficulty": 3
   },
   {
     "char": "游",
     "strokes": [
-      "Stroke order: 12 strokes, radical: 氵. Visit strokeorder.com for animation."
+      "Stroke order: 12 strokes, radical: 水. Visit strokeorder.com for animation."
     ],
     "stroke_count": 12,
-    "radical": "氵",
-    "difficulty": 1
+    "radical": "水",
+    "difficulty": 3
   },
   {
     "char": "漂",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 14 strokes, radical: 水. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
-    "radical": "漂",
-    "difficulty": 2
+    "stroke_count": 14,
+    "radical": "水",
+    "difficulty": 3
   },
   {
     "char": "灣",
     "strokes": [
-      "Stroke order: 25 strokes, radical: 氵. Visit strokeorder.com for animation."
+      "Stroke order: 25 strokes, radical: 水. Visit strokeorder.com for animation."
     ],
     "stroke_count": 25,
-    "radical": "氵",
+    "radical": "水",
     "difficulty": 3
   },
   {
@@ -1343,20 +1343,20 @@
   {
     "char": "為",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 9 strokes, radical: 火. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
-    "radical": "為",
+    "stroke_count": 9,
+    "radical": "火",
     "difficulty": 2
   },
   {
     "char": "然",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 12 strokes, radical: 火. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
-    "radical": "然",
-    "difficulty": 2
+    "stroke_count": 12,
+    "radical": "火",
+    "difficulty": 3
   },
   {
     "char": "照",
@@ -1365,7 +1365,7 @@
     ],
     "stroke_count": 13,
     "radical": "火",
-    "difficulty": 2
+    "difficulty": 3
   },
   {
     "char": "熱",
@@ -1379,45 +1379,45 @@
   {
     "char": "爸",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 8 strokes, radical: 父. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
-    "radical": "爸",
-    "difficulty": 1
+    "stroke_count": 8,
+    "radical": "父",
+    "difficulty": 2
   },
   {
     "char": "牛",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 4 strokes, radical: 牛. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
+    "stroke_count": 4,
     "radical": "牛",
     "difficulty": 1
   },
   {
     "char": "狗",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 8 strokes, radical: 犬. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
-    "radical": "狗",
-    "difficulty": 1
+    "stroke_count": 8,
+    "radical": "犬",
+    "difficulty": 2
   },
   {
     "char": "現",
     "strokes": [
-      "Stroke order: 11 strokes, radical: 王. Visit strokeorder.com for animation."
+      "Stroke order: 11 strokes, radical: 玉. Visit strokeorder.com for animation."
     ],
     "stroke_count": 11,
-    "radical": "王",
-    "difficulty": 2
+    "radical": "玉",
+    "difficulty": 3
   },
   {
     "char": "用",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 5 strokes, radical: 用. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
+    "stroke_count": 5,
     "radical": "用",
     "difficulty": 1
   },
@@ -1428,25 +1428,25 @@
     ],
     "stroke_count": 12,
     "radical": "田",
-    "difficulty": 2
+    "difficulty": 3
   },
   {
     "char": "發",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 12 strokes, radical: 癶. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
-    "radical": "發",
-    "difficulty": 2
+    "stroke_count": 12,
+    "radical": "癶",
+    "difficulty": 3
   },
   {
     "char": "百",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 6 strokes, radical: 白. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
-    "radical": "百",
-    "difficulty": 1
+    "stroke_count": 6,
+    "radical": "白",
+    "difficulty": 2
   },
   {
     "char": "的",
@@ -1455,7 +1455,7 @@
     ],
     "stroke_count": 8,
     "radical": "白",
-    "difficulty": 1
+    "difficulty": 2
   },
   {
     "char": "看",
@@ -1473,7 +1473,7 @@
     ],
     "stroke_count": 11,
     "radical": "示",
-    "difficulty": 2
+    "difficulty": 3
   },
   {
     "char": "站",
@@ -1487,29 +1487,29 @@
   {
     "char": "等",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 12 strokes, radical: 竹. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
-    "radical": "等",
-    "difficulty": 2
+    "stroke_count": 12,
+    "radical": "竹",
+    "difficulty": 3
   },
   {
     "char": "算",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 14 strokes, radical: 竹. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
-    "radical": "算",
-    "difficulty": 2
+    "stroke_count": 14,
+    "radical": "竹",
+    "difficulty": 3
   },
   {
     "char": "米",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 6 strokes, radical: 米. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
+    "stroke_count": 6,
     "radical": "米",
-    "difficulty": 1
+    "difficulty": 2
   },
   {
     "char": "聽",
@@ -1527,24 +1527,24 @@
     ],
     "stroke_count": 6,
     "radical": "肉",
-    "difficulty": 1
+    "difficulty": 2
   },
   {
     "char": "興",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 16 strokes, radical: 臼. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
-    "radical": "興",
+    "stroke_count": 16,
+    "radical": "臼",
     "difficulty": 3
   },
   {
     "char": "舊",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 17 strokes, radical: 臼. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
-    "radical": "舊",
+    "stroke_count": 17,
+    "radical": "臼",
     "difficulty": 3
   },
   {
@@ -1554,43 +1554,43 @@
     ],
     "stroke_count": 14,
     "radical": "舛",
-    "difficulty": 2
+    "difficulty": 3
   },
   {
     "char": "茶",
     "strokes": [
-      "Stroke order: 9 strokes, radical: 艹. Visit strokeorder.com for animation."
+      "Stroke order: 9 strokes, radical: 艸. Visit strokeorder.com for animation."
     ],
     "stroke_count": 9,
-    "radical": "艹",
+    "radical": "艸",
     "difficulty": 2
   },
   {
     "char": "菜",
     "strokes": [
-      "Stroke order: 11 strokes, radical: 艹. Visit strokeorder.com for animation."
+      "Stroke order: 11 strokes, radical: 艸. Visit strokeorder.com for animation."
     ],
     "stroke_count": 11,
-    "radical": "艹",
-    "difficulty": 2
+    "radical": "艸",
+    "difficulty": 3
   },
   {
     "char": "蘋",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 19 strokes, radical: 艸. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
-    "radical": "蘋",
-    "difficulty": 1
+    "stroke_count": 19,
+    "radical": "艸",
+    "difficulty": 3
   },
   {
     "char": "號",
     "strokes": [
-      "Stroke order: 13 strokes, radical: 号. Visit strokeorder.com for animation."
+      "Stroke order: 13 strokes, radical: 虍. Visit strokeorder.com for animation."
     ],
     "stroke_count": 13,
-    "radical": "号",
-    "difficulty": 2
+    "radical": "虍",
+    "difficulty": 3
   },
   {
     "char": "蛋",
@@ -1599,7 +1599,7 @@
     ],
     "stroke_count": 11,
     "radical": "虫",
-    "difficulty": 2
+    "difficulty": 3
   },
   {
     "char": "行",
@@ -1608,7 +1608,7 @@
     ],
     "stroke_count": 6,
     "radical": "行",
-    "difficulty": 1
+    "difficulty": 2
   },
   {
     "char": "袋",
@@ -1617,16 +1617,16 @@
     ],
     "stroke_count": 11,
     "radical": "衣",
-    "difficulty": 2
+    "difficulty": 3
   },
   {
     "char": "裡",
     "strokes": [
-      "Stroke order: 13 strokes, radical: 衣. Visit strokeorder.com for animation."
+      "Stroke order: 12 strokes, radical: 衣. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 13,
+    "stroke_count": 12,
     "radical": "衣",
-    "difficulty": 2
+    "difficulty": 3
   },
   {
     "char": "要",
@@ -1640,11 +1640,11 @@
   {
     "char": "見",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 7 strokes, radical: 見. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
+    "stroke_count": 7,
     "radical": "見",
-    "difficulty": 1
+    "difficulty": 2
   },
   {
     "char": "計",
@@ -1658,11 +1658,11 @@
   {
     "char": "試",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 13 strokes, radical: 言. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
-    "radical": "試",
-    "difficulty": 2
+    "stroke_count": 13,
+    "radical": "言",
+    "difficulty": 3
   },
   {
     "char": "說",
@@ -1671,7 +1671,7 @@
     ],
     "stroke_count": 14,
     "radical": "言",
-    "difficulty": 2
+    "difficulty": 3
   },
   {
     "char": "誰",
@@ -1694,10 +1694,10 @@
   {
     "char": "貓",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 15 strokes, radical: 豸. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
-    "radical": "貓",
+    "stroke_count": 15,
+    "radical": "豸",
     "difficulty": 3
   },
   {
@@ -1707,7 +1707,7 @@
     ],
     "stroke_count": 12,
     "radical": "貝",
-    "difficulty": 2
+    "difficulty": 3
   },
   {
     "char": "走",
@@ -1716,7 +1716,7 @@
     ],
     "stroke_count": 7,
     "radical": "走",
-    "difficulty": 1
+    "difficulty": 2
   },
   {
     "char": "起",
@@ -1734,16 +1734,16 @@
     ],
     "stroke_count": 12,
     "radical": "足",
-    "difficulty": 2
+    "difficulty": 3
   },
   {
     "char": "跟",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 13 strokes, radical: 足. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
-    "radical": "跟",
-    "difficulty": 2
+    "stroke_count": 13,
+    "radical": "足",
+    "difficulty": 3
   },
   {
     "char": "路",
@@ -1752,7 +1752,7 @@
     ],
     "stroke_count": 13,
     "radical": "足",
-    "difficulty": 2
+    "difficulty": 3
   },
   {
     "char": "跳",
@@ -1761,7 +1761,7 @@
     ],
     "stroke_count": 13,
     "radical": "足",
-    "difficulty": 2
+    "difficulty": 3
   },
   {
     "char": "車",
@@ -1770,60 +1770,60 @@
     ],
     "stroke_count": 7,
     "radical": "車",
-    "difficulty": 1
+    "difficulty": 2
   },
   {
     "char": "這",
     "strokes": [
-      "Stroke order: 10 strokes, radical: 辶. Visit strokeorder.com for animation."
+      "Stroke order: 10 strokes, radical: 辵. Visit strokeorder.com for animation."
     ],
     "stroke_count": 10,
-    "radical": "辶",
-    "difficulty": 1
+    "radical": "辵",
+    "difficulty": 2
   },
   {
     "char": "進",
     "strokes": [
-      "Stroke order: 11 strokes, radical: 辶. Visit strokeorder.com for animation."
+      "Stroke order: 11 strokes, radical: 辵. Visit strokeorder.com for animation."
     ],
     "stroke_count": 11,
-    "radical": "辶",
-    "difficulty": 2
+    "radical": "辵",
+    "difficulty": 3
   },
   {
     "char": "遊",
     "strokes": [
-      "Stroke order: 12 strokes, radical: 辶. Visit strokeorder.com for animation."
+      "Stroke order: 12 strokes, radical: 辵. Visit strokeorder.com for animation."
     ],
     "stroke_count": 12,
-    "radical": "辶",
-    "difficulty": 2
+    "radical": "辵",
+    "difficulty": 3
   },
   {
     "char": "運",
     "strokes": [
-      "Stroke order: 12 strokes, radical: 辶. Visit strokeorder.com for animation."
+      "Stroke order: 12 strokes, radical: 辵. Visit strokeorder.com for animation."
     ],
     "stroke_count": 12,
-    "radical": "辶",
-    "difficulty": 2
+    "radical": "辵",
+    "difficulty": 3
   },
   {
     "char": "那",
     "strokes": [
-      "Stroke order: 7 strokes, radical: 阝. Visit strokeorder.com for animation."
+      "Stroke order: 6 strokes, radical: 邑. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 7,
-    "radical": "阝",
-    "difficulty": 1
+    "stroke_count": 6,
+    "radical": "邑",
+    "difficulty": 2
   },
   {
     "char": "都",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 10 strokes, radical: 邑. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
-    "radical": "都",
+    "stroke_count": 10,
+    "radical": "邑",
     "difficulty": 2
   },
   {
@@ -1842,52 +1842,52 @@
     ],
     "stroke_count": 14,
     "radical": "金",
-    "difficulty": 2
+    "difficulty": 3
   },
   {
     "char": "錢",
     "strokes": [
-      "Stroke order: 10 strokes, radical: 金. Visit strokeorder.com for animation."
+      "Stroke order: 16 strokes, radical: 金. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 10,
+    "stroke_count": 16,
     "radical": "金",
     "difficulty": 3
   },
   {
     "char": "院",
     "strokes": [
-      "Stroke order: 9 strokes, radical: 阝. Visit strokeorder.com for animation."
+      "Stroke order: 9 strokes, radical: 阜. Visit strokeorder.com for animation."
     ],
     "stroke_count": 9,
-    "radical": "阝",
+    "radical": "阜",
     "difficulty": 2
   },
   {
     "char": "隻",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 10 strokes, radical: 隹. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
-    "radical": "隻",
+    "stroke_count": 10,
+    "radical": "隹",
     "difficulty": 2
   },
   {
     "char": "雞",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 18 strokes, radical: 隹. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
-    "radical": "雞",
+    "stroke_count": 18,
+    "radical": "隹",
     "difficulty": 3
   },
   {
     "char": "零",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 13 strokes, radical: 雨. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
-    "radical": "零",
-    "difficulty": 1
+    "stroke_count": 13,
+    "radical": "雨",
+    "difficulty": 3
   },
   {
     "char": "電",
@@ -1896,7 +1896,7 @@
     ],
     "stroke_count": 13,
     "radical": "雨",
-    "difficulty": 1
+    "difficulty": 3
   },
   {
     "char": "需",
@@ -1905,42 +1905,42 @@
     ],
     "stroke_count": 14,
     "radical": "雨",
-    "difficulty": 2
+    "difficulty": 3
   },
   {
     "char": "面",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 9 strokes, radical: 面. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
+    "stroke_count": 9,
     "radical": "面",
-    "difficulty": 1
+    "difficulty": 2
   },
   {
     "char": "音",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 9 strokes, radical: 音. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
+    "stroke_count": 9,
     "radical": "音",
     "difficulty": 2
   },
   {
     "char": "須",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 12 strokes, radical: 頁. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
-    "radical": "須",
-    "difficulty": 2
+    "stroke_count": 12,
+    "radical": "頁",
+    "difficulty": 3
   },
   {
     "char": "題",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 18 strokes, radical: 頁. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
-    "radical": "題",
+    "stroke_count": 18,
+    "radical": "頁",
     "difficulty": 3
   },
   {
@@ -1959,41 +1959,41 @@
     ],
     "stroke_count": 12,
     "radical": "食",
-    "difficulty": 2
+    "difficulty": 3
   },
   {
     "char": "餐",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 16 strokes, radical: 食. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
-    "radical": "餐",
+    "stroke_count": 16,
+    "radical": "食",
     "difficulty": 3
   },
   {
     "char": "餓",
     "strokes": [
-      "Stroke order: 17 strokes, radical: 食. Visit strokeorder.com for animation."
+      "Stroke order: 15 strokes, radical: 食. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 17,
+    "stroke_count": 15,
     "radical": "食",
     "difficulty": 3
   },
   {
     "char": "館",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 16 strokes, radical: 食. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
-    "radical": "館",
+    "stroke_count": 16,
+    "radical": "食",
     "difficulty": 3
   },
   {
     "char": "高",
     "strokes": [
-      "Visit strokeorder.com for animated stroke order."
+      "Stroke order: 10 strokes, radical: 高. Visit strokeorder.com for animation."
     ],
-    "stroke_count": 3,
+    "stroke_count": 10,
     "radical": "高",
     "difficulty": 2
   },
@@ -2004,7 +2004,7 @@
     ],
     "stroke_count": 11,
     "radical": "魚",
-    "difficulty": 2
+    "difficulty": 3
   },
   {
     "char": "麵",
@@ -2022,7 +2022,7 @@
     ],
     "stroke_count": 14,
     "radical": "麻",
-    "difficulty": 2
+    "difficulty": 3
   },
   {
     "char": "點",

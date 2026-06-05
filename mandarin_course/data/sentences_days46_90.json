@@ -2430,7 +2430,7 @@
     "pinyin": "Wǒ zuótiān qǐchuáng le, ránhòu shuāyá le.",
     "pinyin_numeric": "wo3 zuo2tian1 qi3chuang2 le0, ran2hou4 shua1ya2 le0.",
     "translation_en": "I got up yesterday, and then brushed my teeth.",
-    "translation_ko": "저는 어제 일어났고, 그다음에 이를 닦았어요.",
+    "translation_ko": "저는 어제 일어나서, 그다음에 이를 닦았어요.",
     "token_ids": [
       "VOC_M1_002",
       "VOC_M1_034",
@@ -3496,7 +3496,7 @@
     "pinyin": "Wǒmen xiān dā jiéyùn dào Táiběi chēzhàn, ránhòu zhuǎnchéng gōngchē, zài zǒulù dào gōngyuán.",
     "pinyin_numeric": "wo3men xian1 da1 jie2yun4 dao4 Tai2bei3 che1zhan4, ran2hou4 zhuan3cheng2 gong1che1, zai4 zou3lu4 dao4 gong1yuan2.",
     "translation_en": "We first took the MRT to Taipei Station, then transferred to a bus, and then walked to the park.",
-    "translation_ko": "우리는 먼저 지하철을 타고 타이베이 역에 가서, 그다음에 버스를 갈아타고, 그다음에 걸어서 공원에 갔어요.",
+    "translation_ko": "우리는 먼저 지하철을 타고 타이베이 역에 가서, 그다음에 버스를 갈아타고, 걸어서 공원에 갔어요.",
     "token_ids": [
       "VOC_M1_006",
       "VOC_M1_132",
@@ -3551,7 +3551,7 @@
     "pinyin": "Wǒ zuótiān xiān mǎi dào yī běn shū, ránhòu kàn wán tā, zài sòng gěi péngyǒu.",
     "pinyin_numeric": "wo3 zuo2tian1 xian1 mai3 dao4 yi1 ben3 shu1, ran2hou4 kan4 wan2 ta1, zai4 song4 gei3 peng2you3.",
     "translation_en": "Yesterday I first bought a book, then finished reading it, and then gave it to a friend.",
-    "translation_ko": "어제 저는 먼저 책 한 권을 샀고, 그다음에 다 읽고, 그다음에 친구에게 선물했어요.",
+    "translation_ko": "어제 저는 먼저 책 한 권을 샀고, 그다음에 다 읽고, 친구에게 선물했어요.",
     "token_ids": [
       "VOC_M1_002",
       "VOC_M1_034",
@@ -3599,7 +3599,7 @@
     "pinyin": "Tā xiān zhǔnbèi hǎo dōngxī, ránhòu chūmén, zài dā jìchéngchē qù gōngsī.",
     "pinyin_numeric": "ta1 xian1 zhun3bei4 hao3 dong1xi1, ran2hou4 chu1men2, zai4 da1 ji4cheng2che1 qu4 gong1si1.",
     "translation_en": "She first prepared her things, then went out, and then took a taxi to the company.",
-    "translation_ko": "그녀는 먼저 물건을 준비하고, 그다음에 나가서, 그다음에 택시를 타고 회사에 갔어요.",
+    "translation_ko": "그녀는 먼저 물건을 준비하고, 그다음에 나가서, 택시를 타고 회사에 갔어요.",
     "token_ids": [
       "VOC_M1_005",
       "VOC_M1_132",
@@ -3929,7 +3929,7 @@
     "pinyin": "Tā zuótiān mǎi le yī jiàn yīfu, kěshì tài dà le, suǒyǐ jīntiān qù huàn.",
     "pinyin_numeric": "ta1 zuo2tian1 mai3 le0 yi1 jian4 yi1fu5, ke3shi4 tai4 da4 le0, suo3yi3 jin1tian1 qu4 huan4.",
     "translation_en": "She bought a piece of clothing yesterday, but it was too big, so she went to exchange it today.",
-    "translation_ko": "그녀는 어제 옷 한 벌을 샀는데 너무 커서, 오늘 교체하러 갔어요.",
+    "translation_ko": "그녀는 어제 옷 한 벌을 샀는데 너무 커서, 오늘 교환하러 갔어요.",
     "token_ids": [
       "VOC_M1_005",
       "VOC_M1_034",
@@ -4060,7 +4060,7 @@
     "pinyin": "Wǒ zuótiān xiān qǐchuáng, ránhòu chī zǎocān.",
     "pinyin_numeric": "wo3 zuo2tian1 xian1 qi3chuang2, ran2hou4 chi1 zao3can1.",
     "translation_en": "Yesterday I first got up, and then ate breakfast.",
-    "translation_ko": "어제 저는 먼저 일어나고, 그다음에 아침을 먹었어요.",
+    "translation_ko": "어제 저는 먼저 일어나서, 그다음에 아침을 먹었어요.",
     "token_ids": [
       "VOC_M1_002",
       "VOC_M1_034",
@@ -8833,7 +8833,7 @@
     "pinyin": "Nǐ chī guò Táiwān xiǎochī ma?",
     "pinyin_numeric": "ni3 chi1 guo4 Tai2wan1 xiao3chi1 ma0",
     "translation_en": "Have you ever eaten Taiwanese street food?",
-    "translation_ko": "대만 길거리 음식을 먹어 본 적이 있나요?",
+    "translation_ko": "타이완 길거리 음식을 먹어 본 적이 있나요?",
     "token_ids": [
       "VOC_M1_003",
       "VOC_D48_003",
@@ -10804,7 +10804,7 @@
     "pinyin": "Wǒ zhèngzài kàn shū.",
     "pinyin_numeric": "wo3 zheng4zai4 kan4 shu1",
     "translation_en": "I am reading a book.",
-    "translation_ko": "저는 책을 보고 있어요.",
+    "translation_ko": "저는 책을 읽고 있어요.",
     "token_ids": [
       "VOC_M1_002",
       "VOC_D49_001",
@@ -10859,7 +10859,7 @@
     "pinyin": "Tā zhèngzài huá shǒujī.",
     "pinyin_numeric": "ta1 zheng4zai4 hua2 shou3ji1",
     "translation_en": "She is scrolling on her phone.",
-    "translation_ko": "그녀는 핸드폰을 보고 있어요.",
+    "translation_ko": "그녀는 핸드폰을 하고 있어요.",
     "token_ids": [
       "VOC_M1_005",
       "VOC_D49_001",
@@ -10916,7 +10916,7 @@
     "pinyin": "Nǐ māma zài zhǔfàn ma?",
     "pinyin_numeric": "ni3 ma1ma0 zai4 zhu3fan4 ma0",
     "translation_en": "Is your mom cooking?",
-    "translation_ko": "네 엄마는 밥을 하고 있나요?",
+    "translation_ko": "네 어머니는 밥을 하고 있나요?",
     "token_ids": [
       "VOC_M1_003",
       "VOC_M1_027",
@@ -11775,7 +11775,7 @@
     "pinyin": "Wǒ zhèngzài kàn shū.",
     "pinyin_numeric": "wo3 zheng4zai4 kan4 shu1",
     "translation_en": "I am reading a book.",
-    "translation_ko": "저는 책을 보고 있어요.",
+    "translation_ko": "저는 책을 읽고 있어요.",
     "token_ids": [
       "VOC_M1_002",
       "VOC_D49_001",
@@ -11828,7 +11828,7 @@
     "pinyin": "Tā zhèngzài huá shǒujī.",
     "pinyin_numeric": "ta1 zheng4zai4 hua2 shou3ji1",
     "translation_en": "She is scrolling on her phone.",
-    "translation_ko": "그녀는 핸드폰을 보고 있어요.",
+    "translation_ko": "그녀는 핸드폰을 하고 있어요.",
     "token_ids": [
       "VOC_M1_005",
       "VOC_D49_001",
@@ -11977,7 +11977,7 @@
     "text": "你等一下見，我還在路上。",
     "pinyin": "Nǐ děng yīxià jiàn, wǒ hái zài lùshàng.",
     "pinyin_numeric": "ni3 deng3 yi1xia4 jian4, wo3 hai2 zai4 lu4shang4",
-    "translation_en": "See you later, I am still on the way.",
+    "translation_en": "See you later, I am still on my way.",
     "translation_ko": "잠시 후에 봐요, 저는 아직 가는 중이에요.",
     "token_ids": [
       "VOC_M1_003",
@@ -13173,7 +13173,7 @@
     "pinyin": "Wǒ hái bù tài huì shuō Zhōngwén, dànshì wǒ zài mànmàn xué.",
     "pinyin_numeric": "wo3 hai2 bu4 tai4 hui4 shuo1 Zhong1wen2, dan4shi4 wo3 zai4 man4man4 xue2.",
     "translation_en": "I still can't speak Chinese very well, but I am learning slowly.",
-    "translation_ko": "저는 아직 중국어를 잘 못 하지만, 천천히 배우고 있어요.",
+    "translation_ko": "저는 아직 중국어를 잘 못하지만, 천천히 배우고 있어요.",
     "token_ids": [
       "VOC_M1_002",
       "VOC_M1_194",
@@ -15162,7 +15162,7 @@
     "text": "我哥哥會彈鋼琴，也會唱歌，他的能力很好。",
     "pinyin": "Wǒ gēge huì tán gāngqín, yě huì chànggē, tā de nénglì hěn hǎo.",
     "pinyin_numeric": "wo3 ge1ge hui4 tan2 gang1qin2, ye3 hui4 chang4ge1, ta1 de neng2li4 hen3 hao3.",
-    "translation_en": "My older brother can play the piano and sing; his ability is very good.",
+    "translation_en": "My older brother can play the piano and sing; he is very talented.",
     "translation_ko": "제 오빠는 피아노를 칠 줄도 알고 노래도 할 줄 아는데, 능력이 아주 좋아요.",
     "token_ids": [
       "VOC_M1_002",
@@ -21802,7 +21802,7 @@
     "pinyin": "Cóng zhèlǐ dào chēzhàn de jùlí gēn dào xuéxiào chàbùduō.",
     "pinyin_numeric": "cong2 zhe4li3 dao4 che1zhan4 de5 ju4li2 gen1 dao4 xue2xiao4 cha4bu4duo1",
     "translation_en": "The distance from here to the station is about the same as to the school.",
-    "translation_ko": "여기에서 역까지의 거리는 학교까지와 비슷합니다.",
+    "translation_ko": "여기에서 역까지의 거리는 학교까지의 거리와 비슷합니다.",
     "token_ids": [
       "VOC_D33_023",
       "VOC_M1_122",
@@ -21888,7 +21888,7 @@
     "pinyin": "Zhège biàndāng de fènliàng méiyǒu nàge duō.",
     "pinyin_numeric": "zhe4ge5 bian4dang1 de5 fen4liang4 mei2you3 na4ge5 duo1",
     "translation_en": "The portion size of this bento is not as large as that one.",
-    "translation_ko": "이 도시락의 양은 저것만큼 많지 않습니다.",
+    "translation_ko": "이 도시락의 양은 저 도시락만큼 많지 않습니다.",
     "token_ids": [
       "VOC_M1_041",
       "VOC_D32_017",
@@ -21963,7 +21963,7 @@
     "pinyin": "Zhè bēi nátǐ de wèidào méiyǒu nà bēi nóng.",
     "pinyin_numeric": "zhe4 bei1 na2ti3 de5 wei4dao4 mei2you3 na4 bei1 nong2",
     "translation_en": "The taste of this latte is not as strong as that one.",
-    "translation_ko": "이 라떼의 맛은 저 잔만큼 진하지 않습니다.",
+    "translation_ko": "이 라떼의 맛은 저 라떼만큼 진하지 않습니다.",
     "token_ids": [
       "VOC_M1_099",
       "VOC_D31_009",
@@ -22037,7 +22037,7 @@
     "pinyin": "Zhège shǒujī de pǐnzhì méiyǒu nàge hǎo.",
     "pinyin_numeric": "zhe4ge5 shou3ji1 de5 pin3zhi4 mei2you3 na4ge5 hao3",
     "translation_en": "The quality of this phone is not as good as that one.",
-    "translation_ko": "이 핸드폰의 품질은 저것만큼 좋지 않습니다.",
+    "translation_ko": "이 핸드폰의 품질은 저 핸드폰만큼 좋지 않습니다.",
     "token_ids": [
       "VOC_M1_041",
       "VOC_M1_025",
@@ -22075,7 +22075,7 @@
     "pinyin": "Zǒulù qù chēzhàn méiyǒu qíchē fāngbiàn.",
     "pinyin_numeric": "zou3lu4 qu4 che1zhan4 mei2you3 qi2che1 fang1bian4",
     "translation_en": "Walking to the station is not as convenient as riding a bike.",
-    "translation_ko": "걸어서 역에 가는 것은 자전거를 타는 것만큼 편리하지 않습니다.",
+    "translation_ko": "걸어서 역에 가는 것은 자전거를 타고 가는 것만큼 편리하지 않습니다.",
     "token_ids": [
       "VOC_M1_131",
       "VOC_M1_156",
@@ -22150,7 +22150,7 @@
     "pinyin": "Zhège xuǎnzé méiyǒu nàge huásuàn.",
     "pinyin_numeric": "zhe4ge5 xuan3ze2 mei2you3 na4ge5 hua2suan4",
     "translation_en": "This choice is not as cost-effective as that one.",
-    "translation_ko": "이 선택은 저것만큼 가성비가 좋지 않습니다.",
+    "translation_ko": "이 선택은 저 선택만큼 가성비가 좋지 않습니다.",
     "token_ids": [
       "VOC_M1_041",
       "VOC_D42_014",
@@ -24195,7 +24195,7 @@
     "pinyin": "Bù hǎo yìsi, wǒ míngtiān bù néng qù kāfēidiàn le.",
     "pinyin_numeric": "bu4 hao3 yi4 si0, wo3 ming2 tian1 bu4 neng2 qu4 ka1 fei1 dian4 le0.",
     "translation_en": "I'm sorry, I can't go to the coffee shop tomorrow.",
-    "translation_ko": "죄송합니다만, 내일 카페에 갈 수 없게 되었어요.",
+    "translation_ko": "죄송합니다만, 내일 카페에 갈 수 없어요.",
     "token_ids": [
       "VOC_D31_020",
       "VOC_M1_002",
@@ -24309,7 +24309,7 @@
     "pinyin": "Bù hǎo yìsi, wǒ línshí bù néng qù diànyǐngyuàn le.",
     "pinyin_numeric": "bu4 hao3 yi4 si0, wo3 lin2 shi2 bu4 neng2 qu4 dian4 ying3 yuan4 le0.",
     "translation_en": "I'm sorry, I suddenly can't go to the movie theater.",
-    "translation_ko": "죄송합니다만, 갑자기 영화관에 갈 수 없게 되었어요.",
+    "translation_ko": "죄송합니다만, 갑자기 영화관에 갈 수 없어요.",
     "token_ids": [
       "VOC_D31_020",
       "VOC_M1_002",
@@ -24599,7 +24599,7 @@
     "pinyin": "Nǐ yào bù yào gēn wǒ yīqǐ qù kāfēidiàn?",
     "pinyin_numeric": "ni3 yao4 bu4 yao4 gen1 wo3 yi1qi3 qu4 ka1fei1dian4?",
     "translation_en": "Would you like to go to the coffee shop with me?",
-    "translation_ko": "저랑 같이 커피숍에 가실래요?",
+    "translation_ko": "저랑 같이 카페에 가실래요?",
     "token_ids": [
       "VOC_M1_003",
       "VOC_M1_061",
@@ -25769,7 +25769,7 @@
     "pinyin": "Nǐ yào bù yào gēn wǒ yīqǐ qù kāfēidiàn?",
     "pinyin_numeric": "ni3 yao4 bu4 yao4 gen1 wo3 yi1qi3 qu4 ka1fei1dian4?",
     "translation_en": "Would you like to go to the coffee shop with me?",
-    "translation_ko": "저랑 같이 커피숍에 가실래요?",
+    "translation_ko": "저랑 같이 카페에 가실래요?",
     "token_ids": [
       "VOC_M1_003",
       "VOC_M1_061",
@@ -28437,7 +28437,7 @@
     "text": "廚房的水槽旁邊有插座和開關。",
     "pinyin": "Chúfáng de shuǐcáo pángbiān yǒu chāzuò hé kāiguān.",
     "pinyin_numeric": "chu2fang2 de0 shui3cao2 pang2bian1 you3 cha1zuo4 he2 kai1guan1.",
-    "translation_en": "Next to the kitchen sink, there are an outlet and a switch.",
+    "translation_en": "Next to the kitchen sink, there is an outlet and a switch.",
     "translation_ko": "부엌 싱크대 옆에는 콘센트와 스위치가 있습니다.",
     "token_ids": [
       "VOC_D58_004",
@@ -30400,7 +30400,7 @@
     "pinyin": "Qǐng bāng wǒ xiūlǐ shuǐlóngtóu.",
     "pinyin_numeric": "qing3 bang1 wo3 xiu1li3 shui3long2tou2",
     "translation_en": "Please help me fix the faucet.",
-    "translation_ko": "수도꼭지를 고치는 것을 도와주세요.",
+    "translation_ko": "수도꼭지 고치는 것을 도와주세요.",
     "token_ids": [
       "VOC_M1_179",
       "VOC_D31_004",
@@ -30431,7 +30431,7 @@
     "pinyin": "Qǐng bāng wǒ jiǎnchá mǎtǒng.",
     "pinyin_numeric": "qing3 bang1 wo3 jian3cha2 ma3tong3",
     "translation_en": "Please help me check the toilet.",
-    "translation_ko": "변기를 확인하는 것을 도와주세요.",
+    "translation_ko": "변기 확인하는 것을 도와주세요.",
     "token_ids": [
       "VOC_M1_179",
       "VOC_D31_004",
@@ -30461,7 +30461,7 @@
     "pinyin": "Qǐng bāng wǒ huàn dēngpào.",
     "pinyin_numeric": "qing3 bang1 wo3 huan4 deng1pao4",
     "translation_en": "Please help me change the light bulb.",
-    "translation_ko": "전구를 교체하는 것을 도와주세요.",
+    "translation_ko": "전구 교체하는 것을 도와주세요.",
     "token_ids": [
       "VOC_M1_179",
       "VOC_D31_004",
@@ -30560,7 +30560,7 @@
     "pinyin": "Qǐng bāng wǒ yùyuē xiūlǐ de shíjiān.",
     "pinyin_numeric": "qing3 bang1 wo3 yu4yue1 xiu1li3 de0 shi2jian1",
     "translation_en": "Please help me schedule a repair time.",
-    "translation_ko": "수리 시간을 예약하는 것을 도와주세요.",
+    "translation_ko": "수리 시간 예약하는 것을 도와주세요.",
     "token_ids": [
       "VOC_M1_179",
       "VOC_D31_004",
@@ -31295,7 +31295,7 @@
     "pinyin": "Kěnéng shì rèshuǐqì de wèntí, suǒyǐ méiyǒu rèshuǐ.",
     "pinyin_numeric": "ke3neng2 shi4 re4shui3qi4 de0 wen4ti2, suo3yi3 mei2you3 re4shui3.",
     "translation_en": "It might be a problem with the water heater, so there's no hot water.",
-    "translation_ko": "온수기 문제일 수도 있어서 뜨거운 물이 나오지 않아요.",
+    "translation_ko": "온수기 문제일 수도 있어서 뜨거운 물이 안 나와요.",
     "token_ids": [
       "VOC_M1_007",
       "VOC_D58_020",
@@ -31417,7 +31417,7 @@
     "pinyin": "Kěnéng shì ménsuǒ de wèntí, suǒyǐ mén dǎ bù kāi.",
     "pinyin_numeric": "ke3neng2 shi4 men2suo3 de0 wen4ti2, suo3yi3 men2 da3 bu4 kai1.",
     "translation_en": "It might be a problem with the door lock, so the door won't open.",
-    "translation_ko": "문 잠금장치 문제일 수도 있어서 문이 열리지 않아요.",
+    "translation_ko": "문 잠금장치 문제일 수도 있어서 문이 안 열려요.",
     "token_ids": [
       "VOC_M1_007",
       "VOC_D59_038",
@@ -31457,7 +31457,7 @@
     "pinyin": "Kěnéng shì chuānghù de wèntí, suǒyǐ guān bù qǐlái.",
     "pinyin_numeric": "ke3neng2 shi4 chuang1hu4 de0 wen4ti2, suo3yi3 guan1 bu4 qi3lai2.",
     "translation_en": "It might be a problem with the window, so it won't close.",
-    "translation_ko": "창문 문제일 수도 있어서 닫히지 않아요.",
+    "translation_ko": "창문 문제일 수도 있어서 안 닫혀요.",
     "token_ids": [
       "VOC_M1_007",
       "VOC_D58_007",
@@ -31497,7 +31497,7 @@
     "pinyin": "Kěnéng shì qiángbì de wèntí, suǒyǐ yǒu lièfèng.",
     "pinyin_numeric": "ke3neng2 shi4 qiang2bi4 de0 wen4ti2, suo3yi3 you3 lie4feng4.",
     "translation_en": "It might be a problem with the wall, so there are cracks.",
-    "translation_ko": "벽 문제일 수도 있어서 균열이 있어요.",
+    "translation_ko": "벽 문제일 수도 있어서 금이 갔어요.",
     "token_ids": [
       "VOC_M1_007",
       "VOC_D58_009",
@@ -31536,7 +31536,7 @@
     "pinyin": "Kěnéng shì tiānhuābǎn de wèntí, suǒyǐ fāméi le.",
     "pinyin_numeric": "ke3neng2 shi4 tian1hua1ban3 de0 wen4ti2, suo3yi3 fa1mei2 le0.",
     "translation_en": "It might be a problem with the ceiling, so it's moldy.",
-    "translation_ko": "천장 문제일 수도 있어서 곰팡이가 생겼어요.",
+    "translation_ko": "천장 문제일 수도 있어서 곰팡이가 폈어요.",
     "token_ids": [
       "VOC_M1_007",
       "VOC_D58_011",
@@ -31606,7 +31606,7 @@
     "pinyin": "Qǐng bāng wǒ jiǎnchá mǎtǒng.",
     "pinyin_numeric": "qing3 bang1 wo3 jian3cha2 ma3tong3",
     "translation_en": "Please help me check the toilet.",
-    "translation_ko": "변기를 확인해 주세요.",
+    "translation_ko": "변기를 점검해 주세요.",
     "token_ids": [
       "VOC_M1_179",
       "VOC_D31_004",
@@ -31636,7 +31636,7 @@
     "pinyin": "Qǐng bāng wǒ huàn dēngpào.",
     "pinyin_numeric": "qing3 bang1 wo3 huan4 deng1pao4",
     "translation_en": "Please help me change the light bulb.",
-    "translation_ko": "전구를 교체해 주세요.",
+    "translation_ko": "전구를 갈아 주세요.",
     "token_ids": [
       "VOC_M1_179",
       "VOC_D31_004",
@@ -31766,7 +31766,7 @@
     "pinyin": "Qǐng bāng wǒ jiǎnchá bīngxiāng.",
     "pinyin_numeric": "qing3 bang1 wo3 jian3cha2 bing1xiang1",
     "translation_en": "Please help me check the refrigerator.",
-    "translation_ko": "냉장고를 확인해 주세요.",
+    "translation_ko": "냉장고를 점검해 주세요.",
     "token_ids": [
       "VOC_M1_179",
       "VOC_D31_004",
@@ -31796,7 +31796,7 @@
     "pinyin": "Qǐng bāng wǒ huàn ménsuǒ.",
     "pinyin_numeric": "qing3 bang1 wo3 huan4 men2suo3",
     "translation_en": "Please help me change the door lock.",
-    "translation_ko": "도어락을 교체해 주세요.",
+    "translation_ko": "문 잠금장치를 교체해 주세요.",
     "token_ids": [
       "VOC_M1_179",
       "VOC_D31_004",
@@ -32439,7 +32439,7 @@
     "pinyin": "Kěnéng shì rèshuǐqì de wèntí, suǒyǐ méiyǒu rèshuǐ.",
     "pinyin_numeric": "ke3neng2 shi4 re4shui3qi4 de0 wen4ti2, suo3yi3 mei2you3 re4shui3.",
     "translation_en": "It might be a problem with the water heater, so there's no hot water.",
-    "translation_ko": "온수기 문제일 수도 있어서 뜨거운 물이 나오지 않아요.",
+    "translation_ko": "온수기 문제일 수도 있어서 뜨거운 물이 안 나와요.",
     "token_ids": [
       "VOC_M1_007",
       "VOC_D58_020",
@@ -37133,7 +37133,7 @@
     "text": "我買了珍珠奶茶，很好喝。",
     "pinyin": "Wǒ mǎi le zhēnzhū nǎichá, hěn hǎohē.",
     "pinyin_numeric": "wo3 mai3 le0 zhen1zhu1 nai3cha2, hen3 hao3he1.",
-    "translation_en": "I bought bubble milk tea; it was very tasty.",
+    "translation_en": "I bought bubble milk tea; it is very tasty.",
     "translation_ko": "저는 버블 밀크티를 샀는데 아주 맛있었어요.",
     "token_ids": [
       "VOC_M1_002",
@@ -39810,7 +39810,7 @@
     "text": "他因為感冒，所以發生了頭痛的問題。",
     "pinyin": "Tā yīnwèi gǎnmào, suǒyǐ fāshēng le tóutòng de wèntí.",
     "pinyin_numeric": "ta1 yin1 wei4 gan3 mao4, suo3 yi3 fa1 sheng1 le tou2 tong4 de wen4 ti2.",
-    "translation_en": "Because he had a cold, a headache problem happened.",
+    "translation_en": "Because he had a cold, he had a headache.",
     "translation_ko": "그는 감기에 걸려서 두통 문제가 발생했어요.",
     "token_ids": [
       "VOC_M1_004",
@@ -39853,7 +39853,7 @@
     "pinyin": "Xiān fāshēng wùhuì, ránhòu wǒmen chǎojià le, zuìhòu zhōngyú jiějué le.",
     "pinyin_numeric": "xian1 fa1 sheng1 wu4 hui4, ran2 hou4 wo3 men5 chao3 jia4 le, zui4 hou4 zhong1 yu2 jie3 jue2 le.",
     "translation_en": "First a misunderstanding happened, then we argued, and finally it was resolved.",
-    "translation_ko": "먼저 오해가 발생했고, 그다음에 우리는 싸웠어요. 마지막으로 드디어 해결했어요.",
+    "translation_ko": "먼저 오해가 생겼고, 그다음에 우리는 싸웠어요. 마지막으로 드디어 해결했어요.",
     "token_ids": [
       "VOC_M1_132",
       "VOC_D46_016",
@@ -48024,7 +48024,7 @@
     "pinyin": "Wǒ mǎi de cháyè dàn huài diào le, kěyǐ huàn yī fèn ma?",
     "pinyin_numeric": "wo3 mai3 de5 cha2 ye4 dan4 huai4 diao4 le5, ke3 yi3 huan4 yi1 fen4 ma0",
     "translation_en": "The tea egg I bought is spoiled; can I exchange it for another one?",
-    "translation_ko": "제가 산 차이예단이 상했는데, 하나로 교환할 수 있나요?",
+    "translation_ko": "제가 산 차이예단이 상했는데, 다른 것으로 교환할 수 있나요?",
     "token_ids": [
       "VOC_M1_002",
       "VOC_M1_023",
@@ -48229,7 +48229,7 @@
     "pinyin": "Tā dǎ diànhuà lái quèrèn míngtiān de yùyuē shíjiān.",
     "pinyin_numeric": "ta1 da3 dian4hua4 lai2 que4ren4 ming2tian1 de0 yu4yue1 shi2jian1.",
     "translation_en": "He called to confirm tomorrow's appointment time.",
-    "translation_ko": "그가 내일 예약 시간을 확인하려고 전화를 했습니다.",
+    "translation_ko": "그가 내일 예약 시간을 확인하려고 전화했습니다.",
     "token_ids": [
       "VOC_M1_004",
       "VOC_D37_033",
@@ -51662,7 +51662,7 @@
     "pinyin": "Yàoshi méi dài sǎn de huà, jiù mǎi yī bǎ.",
     "pinyin_numeric": "yao4shi4 mei2 dai4 san3 de0 hua4, jiu4 mai3 yi1 ba3.",
     "translation_en": "If you didn't bring an umbrella, then buy one.",
-    "translation_ko": "우산을 안 가져왔다면, 하나 사요.",
+    "translation_ko": "우산을 안 가져왔다면, 하나 사세요.",
     "token_ids": [
       "VOC_D66_003",
       "VOC_D41_023",
@@ -51767,7 +51767,7 @@
     "pinyin": "Rúguǒ wàngjì dài qián de huà, jiù yòng shǒujī fùkuǎn.",
     "pinyin_numeric": "ru2guo3 wang4ji4 dai4 qian2 de0 hua4, jiu4 yong4 shou3ji1 fu4kuan3.",
     "translation_en": "If you forget to bring cash, then pay with your phone.",
-    "translation_ko": "돈을 가져오는 걸 잊어버리면, 핸드폰으로 결제하세요.",
+    "translation_ko": "돈을 가져오는 것을 잊어버리면, 핸드폰으로 결제하세요.",
     "token_ids": [
       "VOC_D66_001",
       "VOC_D41_025",
@@ -52024,7 +52024,7 @@
     "text": "如果沒有帶傘，萬一下雨的話就會淋濕。",
     "pinyin": "Rúguǒ méiyǒu dài sǎn, wànyī xià yǔ de huà jiù huì lín shī.",
     "pinyin_numeric": "ru2guo3 mei2you3 dai4 san3, wan4yi1 xia4 yu3 de0 hua4 jiu4 hui4 lin2 shi1.",
-    "translation_en": "If you don't bring an umbrella, you'll get wet in case it rains.",
+    "translation_en": "If you don't bring an umbrella, you'll get wet if it rains.",
     "translation_ko": "우산을 가져가지 않으면, 만약 비가 올 경우 젖을 거예요.",
     "token_ids": [
       "VOC_D66_001",
@@ -55744,7 +55744,7 @@
     "text": "Wǒ nénggòu yòng yōuyóukǎ zuò jiéyùn, kěshì bù huì yòng xìnyòngkǎ.",
     "pinyin": "wo3 neng2gou4 yong4 you1you2ka3 zuo4 jie2yun4, ke3shi4 bu4 hui4 yong4 xin4yong4ka3.",
     "pinyin_numeric": "I can use the EasyCard to take the MRT, but I don't know how to use a credit card.",
-    "translation_en": "저는 유유카로 지하철을 탈 수 있지만, 신용카드는 사용할 줄 몰라요.",
+    "translation_en": "I can use an EasyCard to take the MRT, but I don't know how to use a credit card.",
     "translation_ko": null,
     "token_ids": [],
     "grammar_ids": [
@@ -58288,7 +58288,7 @@
     "pinyin": "Wǒ zhèngzài xué Zhōngwén, xīwàng yǐhòu nénggòu gēn Táiwān péngyou liáotiān.",
     "pinyin_numeric": "wo3 zheng4zai4 xue2 Zhong1wen2, xi1wang4 yi3hou4 neng2gou4 gen1 Tai2wan1 peng2you3 liao2tian1.",
     "translation_en": "I am currently learning Chinese, hoping to be able to chat with Taiwanese friends in the future.",
-    "translation_ko": "저는 지금 중국어를 배우고 있어요. 나중에 대만 친구들과 이야기할 수 있기를 바래요.",
+    "translation_ko": "저는 지금 중국어를 배우고 있어요. 나중에 대만 친구들과 이야기할 수 있기를 바라요.",
     "token_ids": [
       "VOC_M1_002",
       "VOC_D49_001",
@@ -58630,7 +58630,7 @@
     "pinyin": "Wǒmen zhèngzài jìnxíng yī ge jìhuà, xīwàng xià ge xīngqī nénggòu wánchéng.",
     "pinyin_numeric": "wo3men5 zheng4zai4 jin4xing2 yi1 ge5 ji4hua4, xi1wang4 xia4 ge5 xing1qi1 neng2gou4 wan2cheng2.",
     "translation_en": "We are carrying out a plan, hoping to be able to complete it next week.",
-    "translation_ko": "우리는 계획을 진행 중이며, 다음 주에 완료할 수 있기를 바래요.",
+    "translation_ko": "우리는 계획을 진행 중이며, 다음 주에 완료할 수 있기를 바라요.",
     "token_ids": [
       "VOC_M1_006",
       "VOC_D49_001",
@@ -60319,7 +60319,7 @@
     "text": "他牙齒痛了一個禮拜，今天終於去看醫生了。",
     "pinyin": "Tā yáchǐ tòng le yī ge lǐbài, jīntiān zhōngyú qù kàn yīshēng le.",
     "pinyin_numeric": "ta1 ya2chi3 tong4 le5 yi1 ge5 li3bai4, jin1tian1 zhong1yu2 qu4 kan4 yi1sheng1 le5.",
-    "translation_en": "He had a toothache for a week, and finally went to see a dentist today.",
+    "translation_en": "He had a toothache for a week, and today he finally went to see a doctor.",
     "translation_ko": "그는 일주일 동안 이가 아팠는데, 오늘 드디어 병원에 갔어요.",
     "token_ids": [
       "VOC_M1_004",
@@ -60617,7 +60617,7 @@
     "pinyin": "Wǒ bàba yǒudiǎn tóutòng, tā juéde hěn lèi, suǒyǐ xiān shuìjiào le.",
     "pinyin_numeric": "wo3 ba4ba5 you3dian3 tou2tong4, ta1 jue2de5 hen3 lei4, suo3yi3 xian1 shui4jiao4 le5.",
     "translation_en": "My dad has a bit of a headache; he feels very tired, so he went to sleep first.",
-    "translation_ko": "아버지가 머리가 조금 아프고, 많이 피곤하다고 느껴서 먼저 주무셨어요.",
+    "translation_ko": "아버지가 머리가 조금 아프시고, 많이 피곤하셔서 먼저 주무셨어요.",
     "token_ids": [
       "VOC_M1_002",
       "VOC_M1_026",
@@ -63304,7 +63304,7 @@
     "pinyin": "Qǐngwèn, kěyǐ zài zhèlǐ liáng tǐwēn ma?",
     "pinyin_numeric": "qing3wen4, ke3yi3 zai4 zhe4li3 liang2 ti3wen1 ma0",
     "translation_en": "Excuse me, can I take my temperature here?",
-    "translation_ko": "실례합니다, 여기서 체온을 쟐 수 있나요?",
+    "translation_ko": "실례합니다, 여기서 체온을 잴 수 있나요?",
     "token_ids": [
       "VOC_D33_026",
       "VOC_M1_118",
@@ -63382,7 +63382,7 @@
     "pinyin": "Zhège yàogāo kěyǐ měitiān yòng, dànshì bù kěyǐ tài duō.",
     "pinyin_numeric": "zhe4ge yao4gao1 ke3yi3 mei3tian1 yong4, dan4shi4 bu4 ke3yi3 tai4 duo1",
     "translation_en": "This ointment can be used every day, but not too much.",
-    "translation_ko": "이 연고는 매일 사용할 수 있지만, 너무 많이 바르면 안 돼요.",
+    "translation_ko": "이 연고는 매일 사용할 수 있지만, 너무 많이 바르면 안 됩니다.",
     "token_ids": [
       "VOC_M1_041",
       "VOC_D57_012",
@@ -63426,7 +63426,7 @@
     "pinyin": "Qǐngwèn, wǒ kěyǐ xiān guàhào zài kàn yīshēng ma?",
     "pinyin_numeric": "qing3wen4, wo3 ke3yi3 xian1 gua4hao4 zai4 kan4 yi1sheng1 ma0",
     "translation_en": "Excuse me, can I register first and then see the doctor?",
-    "translation_ko": "실례합니다, 먼저 접수하고 의사 선생님을 봐도 되나요?",
+    "translation_ko": "실례합니다, 먼저 접수하고 의사 선생님을 뵈어도 되나요?",
     "token_ids": [
       "VOC_D33_026",
       "VOC_M1_002",
@@ -63507,7 +63507,7 @@
     "pinyin": "Zhège yàowán de fùzuòyòng kěyǐ wèn yàoshī ma?",
     "pinyin_numeric": "zhe4ge yao4wan2 de0 fu4zuo4yong4 ke3yi3 wen4 yao4shi1 ma0",
     "translation_en": "Can I ask the pharmacist about the side effects of this pill?",
-    "translation_ko": "이 약의 부작용에 대해 약사 선생님께 물어봐도 되나요?",
+    "translation_ko": "이 약의 부작용에 대해 약사 선생님께 여쭤봐도 되나요?",
     "token_ids": [
       "VOC_M1_041",
       "VOC_D57_011",
@@ -63941,7 +63941,7 @@
     "pinyin": "Chī yào qián yào xiān kàn shuōmíngshū, cái zhīdào yòngfǎ hé jìliàng.",
     "pinyin_numeric": "chi1 yao4 qian2 yao4 xian1 kan4 shuo1ming2shu1, cai2 zhi1dao4 yong4fa3 he2 ji4liang4.",
     "translation_en": "Before taking medicine, you should read the instructions to know the usage and dosage.",
-    "translation_ko": "약을 먹기 전에 먼저 설명서를 봐야 용법과 용량을 알 수 있어요.",
+    "translation_ko": "약을 먹기 전에 먼저 설명서를 봐야 용법과 용량을 알 수 있습니다.",
     "token_ids": [
       "VOC_D56_039",
       "VOC_M1_164",
@@ -64662,7 +64662,7 @@
     "pinyin": "Zhěnsuǒ lǐ bù kěyǐ pāizhào, qǐng zhùyì.",
     "pinyin_numeric": "zhen3suo3 li3 bu4 ke3yi3 pai1zhao4, qing3 zhu4yi4",
     "translation_en": "You cannot take photos inside the clinic, please be aware.",
-    "translation_ko": "진료소 안에서는 사진을 찍으면 안 됩니다, 주의해 주세요.",
+    "translation_ko": "진료소 안에서는 사진을 찍으면 안 됩니다. 주의해 주세요.",
     "token_ids": [
       "VOC_D57_002",
       "VOC_M1_079",
@@ -64745,7 +64745,7 @@
     "pinyin": "Hùshì shuō xiànzài bù kěyǐ guàhào, yīnwèi zhěnsuǒ xiūxí le.",
     "pinyin_numeric": "hu4shi4 shuo1 xian4zai4 bu4 ke3yi3 gua4hao4, yin1wei4 zhen3suo3 xiu1xi2 le0",
     "translation_en": "The nurse said you cannot register now because the clinic is closed.",
-    "translation_ko": "간호사 선생님이 지금은 접수할 수 없다고 했어요, 진료소가 쉬는 시간이기 때문이에요.",
+    "translation_ko": "간호사 선생님이 지금은 접수할 수 없다고 했어요. 진료소가 쉬는 시간이기 때문이에요.",
     "token_ids": [
       "VOC_D57_005",
       "VOC_M1_064",
@@ -75844,7 +75844,7 @@
     "text": "雖然我喜歡吃辣，但是這道菜太辣了，我有點受不了。",
     "pinyin": "Suīrán wǒ xǐhuān chī là, dànshì zhè dào cài tài là le, wǒ yǒudiǎn shòu bù liǎo.",
     "pinyin_numeric": "sui1ran2 wo3 xi3huan1 chi1 la4, dan4shi4 zhe4 dao4 cai4 tai4 la4 le5, wo3 you3dian3 shou4 bu4 liao3.",
-    "translation_en": "Although I like eating spicy food, this dish is too spicy; I can't handle it a bit.",
+    "translation_en": "Although I like eating spicy food, this dish is too spicy; I can't handle it.",
     "translation_ko": "저는 매운 음식을 좋아하지만, 이 요리는 너무 매워서 좀 견디기 힘들어요.",
     "token_ids": [
       "VOC_D67_001",
@@ -78789,7 +78789,7 @@
     "pinyin": "Wǒmen sòng guòqù zhège lǐwù.",
     "pinyin_numeric": "wo3men song4 guo4qu4 zhe4ge0 li3wu4",
     "translation_en": "We sent this gift over.",
-    "translation_ko": "우리는 이 선물을 보내줬어요.",
+    "translation_ko": "우리는 이 선물을 보내드렸어요.",
     "token_ids": [
       "VOC_M1_006",
       "VOC_D68_026",
@@ -80357,7 +80357,7 @@
     "pinyin": "Qǐng nǐ bǎ zhè běn shū ná huí qù gěi māma.",
     "pinyin_numeric": "qing3 ni3 ba3 zhe4 ben3 shu1 na2 hui2 qu4 gei3 ma1ma",
     "translation_en": "Please take this book back to Mom.",
-    "translation_ko": "이 책을 엄마에게 다시 가져다 주세요.",
+    "translation_ko": "이 책을 엄마에게 가져다 주세요.",
     "token_ids": [
       "VOC_M1_179",
       "VOC_M1_003",
@@ -80393,7 +80393,7 @@
     "pinyin": "Tā yǐjīng bǎ nà ge dàizi ná huí lái le.",
     "pinyin_numeric": "ta1 yi3jing1 ba3 na4 ge0 dai4zi na2 hui2 lai2 le0",
     "translation_en": "He has already brought that bag back.",
-    "translation_ko": "그는 이미 그 가방을 다시 가져왔어요.",
+    "translation_ko": "그는 이미 그 가방을 가져왔어요.",
     "token_ids": [
       "VOC_M1_004",
       "VOC_D50_028",
@@ -80502,7 +80502,7 @@
     "pinyin": "Qǐng nǐ bǎ zhè ge hézi ná huí qù.",
     "pinyin_numeric": "qing3 ni3 ba3 zhe4 ge0 he2zi na2 hui2 qu4",
     "translation_en": "Please take this box back.",
-    "translation_ko": "이 상자를 다시 가져가 주세요.",
+    "translation_ko": "이 상자를 가져가 주세요.",
     "token_ids": [
       "VOC_M1_179",
       "VOC_M1_003",
@@ -80674,7 +80674,7 @@
     "pinyin": "Wǒ bǎ kāfēi ná huí lái gěi nǐ le.",
     "pinyin_numeric": "wo3 ba3 ka1fei1 na2 hui2 lai2 gei3 ni3 le0.",
     "translation_en": "I brought the coffee back for you.",
-    "translation_ko": "커피를 가져와서 당신에게 줬어요.",
+    "translation_ko": "커피를 가져와서 당신에게 드렸어요.",
     "token_ids": [
       "VOC_M1_002",
       "VOC_M1_047",
@@ -80874,7 +80874,7 @@
     "pinyin": "Wǒ bǎ nǐ de bāobāo dài huí lái le.",
     "pinyin_numeric": "wo3 ba3 ni3 de0 bao1bao1 dai4 hui2 lai2 le0.",
     "translation_en": "I brought your bag back.",
-    "translation_ko": "당신의 가방을 가져왔어요.",
+    "translation_ko": "제가 당신의 가방을 가져왔어요.",
     "token_ids": [
       "VOC_M1_002",
       "VOC_M1_003",
@@ -80987,7 +80987,7 @@
     "pinyin": "Nǐ bāng wǒ bǎ zhè běn shū ná huíqù túshūguǎn hǎo ma?",
     "pinyin_numeric": "ni3 bang1 wo3 ba3 zhe4 ben3 shu1 na2 hui2qu4 tu2shu1guan3 hao3 ma0?",
     "translation_en": "Can you help me take this book back to the library?",
-    "translation_ko": "이 책을 도서관에 다시 가져다 주는 걸 도와줄 수 있나요?",
+    "translation_ko": "이 책을 도서관에 다시 가져다 주는 것을 도와줄 수 있나요?",
     "token_ids": [
       "VOC_M1_003",
       "VOC_D31_004",
@@ -81311,7 +81311,7 @@
     "pinyin": "Nǐ jìde bǎ zhè zhāng yōuyóukǎ dài huíqù gěi nǐ mèimei.",
     "pinyin_numeric": "ni3 ji4de ba3 zhe4 zhang1 you1you2ka3 dai4 hui2qu4 gei3 ni3 mei4mei.",
     "translation_en": "Remember to take this EasyCard back to your younger sister.",
-    "translation_ko": "이 유유카드를 네 여동생에게 다시 가져다 주는 걸 기억해.",
+    "translation_ko": "이 유유카드를 네 여동생에게 다시 가져다 주는 것을 기억해.",
     "token_ids": [
       "VOC_M1_003",
       "VOC_M1_172",
@@ -84126,7 +84126,7 @@
     "pinyin": "Jiǎrú nǐ bāngmáng de huà, wǒmen jiù kěyǐ kuài diǎn chǔlǐ tuìhuò.",
     "pinyin_numeric": "jia3ru2 ni3 bang1mang2 de0 hua4, wo3men jiu4 ke3yi3 kuai4 dian3 chu3li3 tui4huo4.",
     "translation_en": "If you help, we can handle the return faster.",
-    "translation_ko": "네가 도와주면, 우리는 교환/환불을 더 빨리 처리할 수 있어요.",
+    "translation_ko": "네가 도와주면, 우리는 반품을 더 빨리 처리할 수 있어요.",
     "token_ids": [
       "VOC_D66_009",
       "VOC_M1_003",
@@ -88008,7 +88008,7 @@
     "pinyin": "Nǐ xià ge yuè máng bù máng? Wǒ xiǎng yuē nǐ qù miànshì liànxí.",
     "pinyin_numeric": "ni3 xia4 ge0 yue4 mang2 bu4 mang2? wo3 xiang3 yue1 ni3 qu4 mian4shi4 lian4xi2.",
     "translation_en": "Are you busy next month? I want to invite you to practice interviews.",
-    "translation_ko": "다음 달에 바쁘세요? 면접 연습하자고 초대하고 싶어요.",
+    "translation_ko": "다음 달에 바쁘세요? 면접 연습을 하자고 초대하고 싶어요.",
     "token_ids": [
       "VOC_M1_003",
       "VOC_M1_141",
@@ -88167,7 +88167,7 @@
     "pinyin": "Lǎobǎn zài bàngōngshì kāihuì, xiànzài bù fāngbiàn.",
     "pinyin_numeric": "lao3ban3 zai4 ban4gong1shi4 kai1hui4, xian4zai4 bu4 fang1bian4.",
     "translation_en": "The boss is in a meeting at the office, so he's not available now.",
-    "translation_ko": "사장님이 사무실에서 회의 중이라 지금은 불편합니다.",
+    "translation_ko": "사장님이 사무실에서 회의 중이라 지금은 불편하세요.",
     "token_ids": [
       "VOC_D71_003",
       "VOC_M1_139",
@@ -88250,7 +88250,7 @@
     "text": "老師在教室教中文，學生都很認真。",
     "pinyin": "Lǎoshī zài jiàoshì jiāo zhōngwén, xuéshēng dōu hěn rènzhēn.",
     "pinyin_numeric": "lao3shi1 zai4 jiao4shi4 jiao1 zhong1wen2, xue2sheng1 dou1 hen3 ren4zhen1.",
-    "translation_en": "The teacher is teaching Chinese in the classroom, and the students are all very serious.",
+    "translation_en": "The teacher is teaching Chinese in the classroom, and the students are all very attentive.",
     "translation_ko": "선생님이 교실에서 중국어를 가르치고 있고, 학생들은 모두 열심입니다.",
     "token_ids": [
       "VOC_D71_005",
@@ -88420,7 +88420,7 @@
     "pinyin": "Tóngxué zài jiàoshì wàimiàn děng lǎoshī, yīnwèi lǎoshī zài kāihuì.",
     "pinyin_numeric": "tong2xue2 zai4 jiao4shi4 wai4mian4 deng3 lao3shi1, yin1wei4 lao3shi1 zai4 kai1hui4.",
     "translation_en": "The classmate is waiting for the teacher outside the classroom because the teacher is in a meeting.",
-    "translation_ko": "동급생이 교실 밖에서 선생님을 기다리고 있어요. 선생님이 회의 중이기 때문이에요.",
+    "translation_ko": "동급생이 교실 밖에서 선생님을 기다리고 있어요. 선생님이 회의 중이기 때문입니다.",
     "token_ids": [
       "VOC_D71_006",
       "VOC_M1_139",
@@ -89835,7 +89835,7 @@
     "pinyin": "Tā xià ge xīngqī yào qù miànshì, xīwàng kěyǐ dāng shíxíshēng.",
     "pinyin_numeric": "ta1 xia4 ge5 xing1qi1 yao4 qu4 mian4shi4, xi1wang4 ke3yi3 dang1 shi2xi2sheng1.",
     "translation_en": "She has an interview next week and hopes to become an intern.",
-    "translation_ko": "그녀는 다음 주에 면접을 보러 가는데, 인턴이 되기를 바래요.",
+    "translation_ko": "그녀는 다음 주에 면접을 보러 가는데, 인턴이 되기를 바라요.",
     "token_ids": [
       "VOC_M1_005",
       "VOC_M1_200",
@@ -90000,7 +90000,7 @@
     "text": "我想當全職的同事，可是老闆說要先實習。",
     "pinyin": "Wǒ xiǎng dāng quánzhí de tóngshì, kěshì lǎobǎn shuō yào xiān shíxí.",
     "pinyin_numeric": "wo3 xiang3 dang1 quan2zhi2 de tong2shi4, ke3shi4 lao3ban3 shuo1 yao4 xian1 shi2xi2.",
-    "translation_en": "I want to be a full-time colleague, but the boss says I need to intern first.",
+    "translation_en": "I want to be a full-time employee, but the boss says I need to intern first.",
     "translation_ko": "저는 정규직 동료가 되고 싶은데, 사장님께서 먼저 인턴을 해야 한다고 하셨어요.",
     "token_ids": [
       "VOC_M1_002",
@@ -90400,7 +90400,7 @@
     "text": "我今天要完成這個任務。",
     "pinyin": "Wǒ jīntiān yào wánchéng zhège rènwù.",
     "pinyin_numeric": "wo3 jin1tian1 yao4 wan2cheng2 zhe4ge ren4wu4.",
-    "translation_en": "I must finish this task today.",
+    "translation_en": "I have to finish this task today.",
     "translation_ko": "저는 오늘 이 작업을 꼭 끝내야 해요.",
     "token_ids": [
       "VOC_M1_002",
@@ -90435,7 +90435,7 @@
     "text": "我們要在星期五前完成報告。",
     "pinyin": "Wǒmen yào zài xīngqīwǔ qián wánchéng bàogào.",
     "pinyin_numeric": "wo3men yao4 zai4 xing1qi1wu3 qian2 wan2cheng2 bao4gao4.",
-    "translation_en": "We must finish the report before Friday.",
+    "translation_en": "We have to finish the report before Friday.",
     "translation_ko": "우리는 금요일 전에 보고서를 끝내야 해요.",
     "token_ids": [
       "VOC_M1_006",
@@ -90474,7 +90474,7 @@
     "text": "他要在下午三點開會。",
     "pinyin": "Tā yào zài xiàwǔ sān diǎn kāihuì.",
     "pinyin_numeric": "ta1 yao4 zai4 xia4wu3 san1 dian3 kai1hui4.",
-    "translation_en": "He must attend a meeting at 3 PM.",
+    "translation_en": "He has a meeting at 3 PM.",
     "translation_ko": "그는 오후 3시에 회의를 해야 해요.",
     "token_ids": [
       "VOC_M1_004",
@@ -90509,7 +90509,7 @@
     "text": "你必須要看完這份資料。",
     "pinyin": "Nǐ bìxū yào kàn wán zhè fèn zīliào.",
     "pinyin_numeric": "ni3 bi4xu1 yao4 kan4 wan2 zhe4 fen4 zi1liao4.",
-    "translation_en": "You must finish reading this document.",
+    "translation_en": "You have to finish reading this document.",
     "translation_ko": "당신은 이 자료를 다 읽어야 해요.",
     "token_ids": [
       "VOC_M1_003",
@@ -90544,7 +90544,7 @@
     "text": "我們要討論完這個提案。",
     "pinyin": "Wǒmen yào tǎolùn wán zhège tí'àn.",
     "pinyin_numeric": "wo3men yao4 tao3lun4 wan2 zhe4ge ti2'an4.",
-    "translation_en": "We must finish discussing this proposal.",
+    "translation_en": "We have to finish discussing this proposal.",
     "translation_ko": "우리는 이 제안을 다 논의해야 해요.",
     "token_ids": [
       "VOC_M1_006",
@@ -90578,7 +90578,7 @@
     "text": "他要在明天前填完表格。",
     "pinyin": "Tā yào zài míngtiān qián tián wán biǎogé.",
     "pinyin_numeric": "ta1 yao4 zai4 ming2tian1 qian2 tian2 wan2 biao3ge2.",
-    "translation_en": "He must finish filling out the form by tomorrow.",
+    "translation_en": "He has to finish filling out the form by tomorrow.",
     "translation_ko": "그는 내일까지 서식을 다 작성해야 해요.",
     "token_ids": [
       "VOC_M1_004",
@@ -90613,7 +90613,7 @@
     "text": "我們要檢查完所有檔案。",
     "pinyin": "Wǒmen yào jiǎnchá wán suǒyǒu dàng'àn.",
     "pinyin_numeric": "wo3men yao4 jian3cha2 wan2 suo3you3 dang4'an4.",
-    "translation_en": "We must finish checking all files.",
+    "translation_en": "We have to finish checking all files.",
     "translation_ko": "우리는 모든 파일을 다 확인해야 해요.",
     "token_ids": [
       "VOC_M1_006",
@@ -90647,7 +90647,7 @@
     "text": "她要在會議前準備好資料。",
     "pinyin": "Tā yào zài huìyì qián zhǔnbèi hǎo zīliào.",
     "pinyin_numeric": "ta1 yao4 zai4 hui4yi4 qian2 zhun3bei4 hao3 zi1liao4.",
-    "translation_en": "She must finish preparing the materials before the meeting.",
+    "translation_en": "She has to finish preparing the materials before the meeting.",
     "translation_ko": "그녀는 회의 전에 자료를 다 준비해야 해요.",
     "token_ids": [
       "VOC_M1_005",
@@ -90684,7 +90684,7 @@
     "text": "我們要修改完這個報告。",
     "pinyin": "Wǒmen yào xiūgǎi wán zhège bàogào.",
     "pinyin_numeric": "wo3men yao4 xiu1gai3 wan2 zhe4ge bao4gao4.",
-    "translation_en": "We must finish revising this report.",
+    "translation_en": "We have to finish revising this report.",
     "translation_ko": "우리는 이 보고서를 다 수정해야 해요.",
     "token_ids": [
       "VOC_M1_006",
@@ -90718,7 +90718,7 @@
     "text": "他要在截止日前完成任務。",
     "pinyin": "Tā yào zài jiézhǐ rì qián wánchéng rènwù.",
     "pinyin_numeric": "ta1 yao4 zai4 jie2zhi3 ri4 qian2 wan2cheng2 ren4wu4.",
-    "translation_en": "He must finish the task before the deadline.",
+    "translation_en": "He has to finish the task before the deadline.",
     "translation_ko": "그는 마감일 전에 작업을 끝내야 해요.",
     "token_ids": [
       "VOC_M1_004",
@@ -91132,7 +91132,7 @@
     "pinyin": "Wǒ hái méi zuò wán jīntiān de rènwù.",
     "pinyin_numeric": "wo3 hai2 mei2 zuo4 wan2 jin1tian1 de0 ren4wu4.",
     "translation_en": "I haven't finished today's tasks yet.",
-    "translation_ko": "저는 오늘의 임무를 아직 끝내지 못했습니다.",
+    "translation_ko": "저는 오늘의 작업을 아직 끝내지 못했습니다.",
     "token_ids": [
       "VOC_M1_002",
       "VOC_M1_080",
@@ -91685,7 +91685,7 @@
     "pinyin": "Wǒmen yào tǎolùn wán zhège tí'àn.",
     "pinyin_numeric": "wo3men yao4 tao3lun4 wan2 zhe4ge ti2'an4.",
     "translation_en": "We must finish discussing this proposal.",
-    "translation_ko": "우리는 이 제안을 논의를 끝내야 해요.",
+    "translation_ko": "우리는 이 제안의 논의를 끝내야 해요.",
     "token_ids": [
       "VOC_M1_006",
       "VOC_M1_061",
@@ -91792,7 +91792,7 @@
     "pinyin": "Wǒmen yào xiūgǎi wán zhège bàogào de xìjié.",
     "pinyin_numeric": "wo3men yao4 xiu1gai3 wan2 zhe4ge bao4gao4 de xi4jie2.",
     "translation_en": "We must finish revising the details of this report.",
-    "translation_ko": "우리는 이 보고서의 세부 사항을 수정을 끝내야 해요.",
+    "translation_ko": "우리는 이 보고서의 세부 사항 수정을 끝내야 해요.",
     "token_ids": [
       "VOC_M1_006",
       "VOC_M1_061",
@@ -91874,7 +91874,7 @@
     "pinyin": "Wǒmen yào quèrèn wán suǒyǒu de jìndù.",
     "pinyin_numeric": "wo3men yao4 que4ren4 wan2 suo3you3 de jin4du4.",
     "translation_en": "We must finish confirming all the progress.",
-    "translation_ko": "우리는 모든 진행 상황을 확인을 끝내야 해요.",
+    "translation_ko": "우리는 모든 진행 상황 확인을 끝내야 해요.",
     "token_ids": [
       "VOC_M1_006",
       "VOC_M1_061",
@@ -92877,7 +92877,7 @@
     "pinyin": "Wǒmen yào tǎolùn wán zhège tí'àn cái juédìng.",
     "pinyin_numeric": "wo3men yao4 tao3lun4 wan2 zhe4ge ti2'an4 cai2 jue2ding4.",
     "translation_en": "We must finish discussing this proposal before deciding.",
-    "translation_ko": "우리는 이 제안을 논의를 끝낸 후에 결정해야 합니다.",
+    "translation_ko": "우리는 이 제안을 논의한 후에 결정해야 합니다.",
     "token_ids": [
       "VOC_M1_006",
       "VOC_M1_061",
@@ -93109,7 +93109,7 @@
     "pinyin": "Wǒ zhèngzài kāihuì, děng yīxià zài tǎolùn nǐ de tí'àn.",
     "pinyin_numeric": "wo3 zheng4zai4 kai1hui4, deng3 yi1xia4 zai4 tao3lun4 ni3 de0 ti2'an4.",
     "translation_en": "I am in a meeting right now; let's discuss your proposal later.",
-    "translation_ko": "지금 회의 중이에요. 잠시 후에 당신의 제안을 논의해요.",
+    "translation_ko": "지금 회의 중이에요. 잠시 후에 당신의 제안을 논의합시다.",
     "token_ids": [
       "VOC_M1_002",
       "VOC_D49_001",
@@ -94003,7 +94003,7 @@
     "pinyin": "Wǒ rènwéi tā de yìjiàn bù tài duì.",
     "pinyin_numeric": "wo3 ren4wei2 ta1 de yi4jian4 bu4 tai4 dui4.",
     "translation_en": "I think his opinion is not quite right.",
-    "translation_ko": "저는 그의 의견이 좀 맞지 않다고 생각해요.",
+    "translation_ko": "저는 그의 의견이 좀 맞지 않는다고 생각해요.",
     "token_ids": [
       "VOC_D73_021",
       "VOC_M1_004",
@@ -94120,7 +94120,7 @@
     "pinyin": "Wǒ huáiyí tā jīntiān huì bù huì lái.",
     "pinyin_numeric": "wo3 huai2yi2 ta1 jin1tian1 hui4 bu4 hui4 lai2.",
     "translation_en": "I doubt whether he will come today.",
-    "translation_ko": "저는 그가 오늘 올지 안 올지 의심스러워요.",
+    "translation_ko": "저는 그가 오늘 올지 안 올지 의심돼요.",
     "token_ids": [
       "VOC_D73_036",
       "VOC_M1_032",
@@ -94691,7 +94691,7 @@
     "pinyin": "Wǒ juéde zhè jiā cāntīng de cài bù yīdìng hǎochī.",
     "pinyin_numeric": "wo3 jue2de zhe4 jia1 can1ting1 de cai4 bu4 yi1ding4 hao3chi1.",
     "translation_en": "I think the food at this restaurant isn't necessarily good.",
-    "translation_ko": "저는 이 식당의 음식이 꼭 맛있다고 생각하지 않아요.",
+    "translation_ko": "저는 이 식당의 음식이 꼭 맛있는 것은 아니라고 생각해요.",
     "token_ids": [
       "VOC_D42_031",
       "VOC_M1_039",
@@ -94732,7 +94732,7 @@
     "pinyin": "Nǐ juéde ne? Wǒ rènwéi tā de yìjiàn bù yīdìng duì.",
     "pinyin_numeric": "ni3 jue2de ne0? wo3 ren4wei2 ta1 de yi4jian4 bu4 yi1ding4 dui4.",
     "translation_en": "What do you think? I think his opinion isn't necessarily correct.",
-    "translation_ko": "어떻게 생각해요? 저는 그의 의견이 꼭 맞다고 생각하지 않아요.",
+    "translation_ko": "어떻게 생각해요? 저는 그의 의견이 꼭 맞는 것은 아니라고 생각해요.",
     "token_ids": [
       "VOC_D73_020",
       "VOC_D73_021",
@@ -95189,7 +95189,7 @@
     "pinyin": "Wǒ rènwéi tā de yìjiàn bú tài duì.",
     "pinyin_numeric": "wo3 ren4wei2 ta1 de yi4jian4 bu2 tai4 dui4.",
     "translation_en": "I think his opinion is not quite right.",
-    "translation_ko": "저는 그의 의견이 좀 맞지 않다고 생각해요.",
+    "translation_ko": "저는 그의 의견이 좀 맞지 않는다고 생각해요.",
     "token_ids": [
       "VOC_D73_021",
       "VOC_M1_004",
@@ -95303,7 +95303,7 @@
     "pinyin": "Wǒ huáiyí tā jīntiān huì bú huì lái shàngbān.",
     "pinyin_numeric": "wo3 huai2yi2 ta1 jin1tian1 hui4 bu2 hui4 lai2 shang4ban1.",
     "translation_en": "I doubt whether he will come to work today.",
-    "translation_ko": "저는 그가 오늘 출근할지 안 할지 의심스러워요.",
+    "translation_ko": "저는 그가 오늘 출근할지 안 할지 의심스럽습니다.",
     "token_ids": [
       "VOC_D73_036",
       "VOC_M1_032",
@@ -95899,7 +95899,7 @@
     "pinyin": "Wǒ juéde zhè jiā cāntīng de cài bù yīdìng hǎochī.",
     "pinyin_numeric": "wo3 jue2de zhe4 jia1 can1ting1 de cai4 bu4 yi1ding4 hao3chi1.",
     "translation_en": "I think the food at this restaurant isn't necessarily good.",
-    "translation_ko": "저는 이 식당의 음식이 꼭 맛있다고 생각하지 않아요.",
+    "translation_ko": "저는 이 식당의 음식이 꼭 맛있는 것은 아니라고 생각해요.",
     "token_ids": [
       "VOC_D42_031",
       "VOC_M1_039",
@@ -95940,7 +95940,7 @@
     "pinyin": "Nǐ juéde ne? Wǒ rènwéi tā de yìjiàn bù yīdìng duì.",
     "pinyin_numeric": "ni3 jue2de ne0? wo3 ren4wei2 ta1 de yi4jian4 bu4 yi1ding4 dui4.",
     "translation_en": "What do you think? I think his opinion isn't necessarily right.",
-    "translation_ko": "어떻게 생각해요? 저는 그의 의견이 꼭 맞다고 생각하지 않아요.",
+    "translation_ko": "어떻게 생각해요? 저는 그의 의견이 꼭 맞는 것은 아니라고 생각해요.",
     "token_ids": [
       "VOC_D73_020",
       "VOC_D73_021",
@@ -96376,7 +96376,7 @@
     "pinyin": "Wǒ rènwéi tā de yìjiàn bù tài duì.",
     "pinyin_numeric": "wo3 ren4wei2 ta1 de yi4jian4 bu4 tai4 dui4.",
     "translation_en": "I think his opinion is not quite right.",
-    "translation_ko": "저는 그의 의견이 좀 맞지 않다고 생각해요.",
+    "translation_ko": "저는 그의 의견이 좀 맞지 않는다고 생각해요.",
     "token_ids": [
       "VOC_D73_021",
       "VOC_M1_004",
@@ -97539,7 +97539,7 @@
     "text": "因為今天很冷，所以我穿外套。",
     "pinyin": "Yīnwèi jīntiān hěn lěng, suǒyǐ wǒ chuān wàitào.",
     "pinyin_numeric": "yin1 wei4 jin1 tian1 hen3 leng3, suo3 yi3 wo3 chuan1 wai4 tao4.",
-    "translation_en": "Because it's very cold today, I wear a jacket.",
+    "translation_en": "Because it's very cold today, I'm wearing a jacket.",
     "translation_ko": "오늘 날씨가 매우 추워서 외투를 입었어요.",
     "token_ids": [
       "VOC_D34_011",
@@ -106822,7 +106822,7 @@
     "text": "因為他終於找到工作了，所以心情非常好。",
     "pinyin": "Yīnwèi tā zhōngyú zhǎodào gōngzuò le, suǒyǐ xīnqíng fēicháng hǎo.",
     "pinyin_numeric": "yin1wei4 ta1 zhong1yu2 zhao3dao4 gong1zuo4 le5, suo3yi3 xin1qing2 fei1chang2 hao3.",
-    "translation_en": "Because he finally found a job, his mood was extremely good.",
+    "translation_en": "Because he finally found a job, he felt very happy.",
     "translation_ko": "그가 드디어 일자리를 찾았기 때문에 기분이 매우 좋았어요.",
     "token_ids": [
       "VOC_D34_011",
@@ -107922,7 +107922,7 @@
     "text": "因為她突然覺得肚子很痛，所以去看醫生了。",
     "pinyin": "Yīnwèi tā túrán juéde dùzi hěn tòng, suǒyǐ qù kàn yīshēng le.",
     "pinyin_numeric": "yin1 wei4 ta1 tu2 ran2 jue2 de5 du4 zi5 hen3 tong4, suo3 yi3 qu4 kan4 yi1 sheng1 le5.",
-    "translation_en": "Because she suddenly felt a bad stomachache, she went to see a doctor.",
+    "translation_en": "Because she suddenly had a bad stomachache, she went to see a doctor.",
     "translation_ko": "그녀가 갑자기 배가 많이 아파서 병원에 갔어요.",
     "token_ids": [
       "VOC_D34_011",
@@ -108062,7 +108062,7 @@
     "text": "因為她以前去過臺北，所以知道哪裡好玩。",
     "pinyin": "Yīnwèi tā yǐqián qù guò Táiběi, suǒyǐ zhīdào nǎlǐ hǎowán.",
     "pinyin_numeric": "yin1 wei4 ta1 yi3 qian2 qu4 guo4 Tai2 bei3, suo3 yi3 zhi1 dao4 na3 li3 hao3 wan2.",
-    "translation_en": "Because she has been to Taipei before, she knows where is fun.",
+    "translation_en": "Because she has been to Taipei before, she knows where the fun places are.",
     "translation_ko": "그녀가 예전에 타이베이에 가 봤기 때문에 어디가 재미있는지 알아요.",
     "token_ids": [
       "VOC_D34_011",
@@ -108258,7 +108258,7 @@
     "text": "因為他告訴我他心情不好，所以我陪他聊天。",
     "pinyin": "Yīnwèi tā gàosu wǒ tā xīnqíng bù hǎo, suǒyǐ wǒ péi tā liáotiān.",
     "pinyin_numeric": "yin1 wei4 ta1 gao4 su5 wo3 ta1 xin1 qing2 bu4 hao3, suo3 yi3 wo3 pei2 ta1 liao2 tian1.",
-    "translation_en": "Because he told me he was in a bad mood, I accompanied him to chat.",
+    "translation_en": "Because he told me he was in a bad mood, I chatted with him to keep him company.",
     "translation_ko": "그가 기분이 안 좋다고 말해서 나는 그와 이야기하며 시간을 보냈어요.",
     "token_ids": [
       "VOC_D34_011",
@@ -108470,7 +108470,7 @@
     "text": "他遇到了朋友以後，覺得不緊張了。",
     "pinyin": "Tā yùdào le péngyou yǐhòu, juéde bù jǐnzhāng le.",
     "pinyin_numeric": "ta1 yu4dao4 le0 peng2you0 yi3hou4, jue2de0 bu4 jin3zhang1 le0.",
-    "translation_en": "After he met a friend, he felt not nervous anymore.",
+    "translation_en": "After he met a friend, he no longer felt nervous.",
     "translation_ko": "그가 친구를 만난 후에, 긴장되지 않았어요.",
     "token_ids": [
       "VOC_M1_004",
@@ -109400,7 +109400,7 @@
     "pinyin": "Yīnwèi wǒ dùzi hěn è, suǒyǐ xiǎng chī yī wǎn niúròu miàn.",
     "pinyin_numeric": "yin1 wei4 wo3 du4 zi5 hen3 e4, suo3 yi3 xiang3 chi1 yi1 wan3 niu2 rou4 mian4.",
     "translation_en": "Because I'm very hungry, I want to eat a bowl of beef noodles.",
-    "translation_ko": "배가 많이 고팠기 때문에 소고기 국수 한 그릇을 먹고 싶어요.",
+    "translation_ko": "배가 많이 고파서 소고기 국수 한 그릇을 먹고 싶어요.",
     "token_ids": [
       "VOC_D34_011",
       "VOC_M1_002",
@@ -109446,7 +109446,7 @@
     "pinyin": "Yīnwèi tā dì yī cì lái Táiběi, suǒyǐ juéde hěn jǐnzhāng.",
     "pinyin_numeric": "yin1 wei4 ta1 di4 yi1 ci4 lai2 Tai2 bei3, suo3 yi3 jue2 de5 hen3 jin3 zhang1.",
     "translation_en": "Because it's her first time coming to Taipei, she feels very nervous.",
-    "translation_ko": "그녀가 처음으로 타이베이에 왔기 때문에 매우 긴장돼요.",
+    "translation_ko": "그녀가 처음으로 타이베이에 왔기 때문에 매우 긴장해요.",
     "token_ids": [
       "VOC_D34_011",
       "VOC_M1_005",
@@ -109543,7 +109543,7 @@
     "pinyin": "Yīnwèi tā gàosu wǒ yī gè gùshì, suǒyǐ wǒ juéde hěn kāixīn.",
     "pinyin_numeric": "yin1 wei4 ta1 gao4 su5 wo3 yi1 ge4 gu4 shi4, suo3 yi3 wo3 jue2 de5 hen3 kai1 xin1.",
     "translation_en": "Because he told me a story, I feel very happy.",
-    "translation_ko": "그가 나에게 이야기를 해줬기 때문에 매우 기뻐요.",
+    "translation_ko": "그가 나에게 이야기를 해줬기 때문에 나는 매우 기뻐요.",
     "token_ids": [
       "VOC_D34_011",
       "VOC_M1_004",
@@ -109817,7 +109817,7 @@
     "pinyin": "Tā kàn le diànyǐng yǐhòu, juéde hěn jǐnzhāng.",
     "pinyin_numeric": "ta1 kan4 le0 dian4ying3 yi3hou4, jue2de0 hen3 jin3zhang1.",
     "translation_en": "After he watched the movie, he felt very nervous.",
-    "translation_ko": "그는 영화를 본 후에 매우 긴장됐어요.",
+    "translation_ko": "그는 영화를 본 후에 매우 긴장했어요.",
     "token_ids": [
       "VOC_M1_004",
       "VOC_M1_062",
@@ -114156,7 +114156,7 @@
     "pinyin": "Qíshí, wǒ bǐjiào xǐhuān hē hóngchá, bù xǐhuān hē kāfēi.",
     "pinyin_numeric": "qi2shi2, wo3 bi3jiao4 xi3huan1 he1 hong2cha2, bu4 xi3huan1 he1 ka1fei1.",
     "translation_en": "Actually, I prefer drinking black tea; I don't like coffee.",
-    "translation_ko": "사실, 저는 커피보다 홍차를 더 좋아해요.",
+    "translation_ko": "사실, 저는 홍차를 더 좋아하고 커피는 안 좋아해요.",
     "token_ids": [
       "VOC_D67_007",
       "VOC_M1_002",
@@ -115205,7 +115205,7 @@
     "pinyin": "Duì ba? Ránhòu, wǒmen kěyǐ màn man chī, bùyòng gǎn shíjiān.",
     "pinyin_numeric": "dui4 ba5? ran2hou4, wo3men5 ke3yi3 man4 man5 chi1, bu4yong4 gan3 shi2jian1.",
     "translation_en": "Right? And then, we can eat slowly, no need to rush.",
-    "translation_ko": "그렇죠? 그리고 나서, 우리 천천히 먹을 수 있어요, 시간 쫓기지 않아도 돼요.",
+    "translation_ko": "그렇죠? 그리고, 우리 천천히 먹을 수 있어요, 시간 쫓기지 않아도 돼요.",
     "token_ids": [
       "VOC_D78_017",
       "VOC_M1_133",
@@ -121278,7 +121278,7 @@
     "pinyin": "Nǐ wèn de wèntí shì bù shì méiyǒu dá'àn de yìsi?",
     "pinyin_numeric": "ni3 wen4 de0 wen4 ti2 shi4 bu4 shi4 mei2 you3 da2 an4 de0 yi4 si0",
     "translation_en": "Is it that the question you asked has no answer?",
-    "translation_ko": "당신이 물은 질문에 답이 없는 뜻인가요?",
+    "translation_ko": "당신이 물은 질문에 답이 없다는 뜻인가요?",
     "token_ids": [
       "VOC_M1_003",
       "VOC_D77_012",
@@ -122924,7 +122924,7 @@
     "text": "標示上說，出口不可以走錯方向。",
     "pinyin": "Biāoshì shàng shuō, chūkǒu bù kěyǐ zǒu cuò fāngxiàng.",
     "pinyin_numeric": "biao1shi4 shang4 shuo1, chu1kou3 bu4 ke3yi3 zou3 cuo4 fang1xiang4.",
-    "translation_en": "The sign says you can't go the wrong direction at the exit.",
+    "translation_en": "The sign says you can't go in the wrong direction at the exit.",
     "translation_ko": "표지판에 출구에서 방향을 잘못 가면 안 된다고 적혀 있어요.",
     "token_ids": [
       "VOC_D80_023",
@@ -123089,7 +123089,7 @@
     "text": "標語上寫著，不可以忘記帶口罩。",
     "pinyin": "Biāoyǔ shàng xiě zhe, bù kěyǐ wàngjì dài kǒuzhào.",
     "pinyin_numeric": "biao1yu3 shang4 xie3 zhe, bu4 ke3yi3 wang4ji4 dai4 kou3zhao4.",
-    "translation_en": "The slogan says you can't forget to bring a mask.",
+    "translation_en": "The slogan says you must not forget to bring a mask.",
     "translation_ko": "표어에 마스크를 가져오는 것을 잊으면 안 된다고 적혀 있어요.",
     "token_ids": [
       "VOC_D80_030",
@@ -123901,7 +123901,7 @@
     "pinyin": "Qǐng tiánxiě zhè zhāng biǎogé, ránhòu qiānmíng.",
     "pinyin_numeric": "qing3 tian2xie3 zhe4 zhang1 biao3ge2, ran2hou4 qian1ming2.",
     "translation_en": "Please fill out this form and then sign it.",
-    "translation_ko": "이 서류를 작성한 후 서명해 주세요.",
+    "translation_ko": "이 양식을 작성한 후 서명해 주세요.",
     "token_ids": [
       "VOC_M1_179",
       "VOC_D63_037",
@@ -123936,7 +123936,7 @@
     "pinyin": "Qǐng quèrèn zhège tiáolì de shēngxiào rìqī.",
     "pinyin_numeric": "qing3 que4ren4 zhe4ge tiao2li4 de5 sheng1xiao4 ri4qi1.",
     "translation_en": "Please confirm the effective date of this regulation.",
-    "translation_ko": "이 조례의 발효일을 확인해 주세요.",
+    "translation_ko": "이 조례의 시행일을 확인해 주세요.",
     "token_ids": [
       "VOC_M1_179",
       "VOC_D35_027",
@@ -124207,7 +124207,7 @@
     "pinyin": "Tōngzhī shuō jīntiān xiàwǔ túshūguǎn bù kěyǐ jìnqù.",
     "pinyin_numeric": "tong1zhi1 shuo1 jin1tian1 xia4wu3 tu2shu1guan3 bu4 ke3yi3 jin4qu4.",
     "translation_en": "The notice says the library is closed this afternoon.",
-    "translation_ko": "공지에 오늘 오후에 도서관에 들어갈 수 없다고 적혀 있어요.",
+    "translation_ko": "공지에 오늘 오후 도서관에 들어갈 수 없다고 적혀 있어요.",
     "token_ids": [
       "VOC_D39_032",
       "VOC_M1_064",
@@ -124297,7 +124297,7 @@
     "pinyin": "Zhège biāoyǔ jǐnggào wǒmen bù kěyǐ wéifǎn guīdìng.",
     "pinyin_numeric": "zhe4ge biao1yu3 jing3gao4 wo3men bu4 ke3yi3 wei2fan3 gui1ding4.",
     "translation_en": "This slogan warns us not to violate the rules.",
-    "translation_ko": "이 표어는 우리에게 규정을 위반할 수 없다고 경고해요.",
+    "translation_ko": "이 표어는 우리에게 규정을 위반하지 말라고 경고해요.",
     "token_ids": [
       "VOC_M1_041",
       "VOC_D80_030",
@@ -125170,7 +125170,7 @@
     "pinyin": "Wèi, qǐngwèn Lín yīshī zài ma? Wǒ xiǎng yùyuē kànzhěn.",
     "pinyin_numeric": "wei4, qing3wen4 Lin2 yi1shi1 zai4 ma0? Wo3 xiang3 yu4yue1 kan4zhen3.",
     "translation_en": "Hello, may I ask if Dr. Lin is there? I'd like to make an appointment.",
-    "translation_ko": "여보세요, 린 선생님 계신가요? 진료 예약하고 싶어요.",
+    "translation_ko": "린 선생님 계신가요? 진료 예약하고 싶어요.",
     "token_ids": [
       "VOC_D78_024",
       "VOC_D33_026",
@@ -133977,7 +133977,7 @@
     "pinyin": "Shíjiān jiù zhème bàn, wǒmen yánhòu dào bā diǎn.",
     "pinyin_numeric": "shi2jian1 jiu4 zhe4me ban4, wo3men yan2hou4 dao4 ba1 dian3.",
     "translation_en": "The time is settled like this; we'll postpone it to 8 o'clock.",
-    "translation_ko": "시간은 이렇게 합시다. 우리 8시로 연기합니다.",
+    "translation_ko": "시간은 이렇게 합시다. 우리 8시로 연기해요.",
     "token_ids": [
       "VOC_D54_005",
       "VOC_D66_002",
@@ -134059,7 +134059,7 @@
     "pinyin": "Xuǎnzé jiù zhème bàn, wǒmen kǎolǜ yīxià zài juédìng.",
     "pinyin_numeric": "xuan3ze2 jiu4 zhe4me ban4, wo3men kao3lv4 yi1xia4 zai4 jue2ding4.",
     "translation_en": "The choice is settled like this; we'll consider it a bit and then decide.",
-    "translation_ko": "선택은 이렇게 합시다. 우리 잠시 고려한 후에 결정합니다.",
+    "translation_ko": "선택은 이렇게 합시다. 우리 잠시 고려한 후에 결정해요.",
     "token_ids": [
       "VOC_D42_014",
       "VOC_D66_002",
@@ -134663,7 +134663,7 @@
     "pinyin": "Xuǎnzé jiù zhème juédìng, wǒmen diǎn niúròu miàn.",
     "pinyin_numeric": "xuan3ze2 jiu4 zhe4me jue2ding4, wo3men dian3 niu2rou4 mian4.",
     "translation_en": "The choice is settled like this; we'll order beef noodles.",
-    "translation_ko": "선택은 이렇게 정했어요. 우리 소고기 국수를 시켜요.",
+    "translation_ko": "우리 소고기 국수를 시켜요.",
     "token_ids": [
       "VOC_D42_014",
       "VOC_D66_002",
@@ -134858,7 +134858,7 @@
     "pinyin": "Dìngwèi jiù zhème bàn, wǒmen qǔxiāo yuánběn de.",
     "pinyin_numeric": "ding4wei4 jiu4 zhe4me ban4, wo3men qu3xiao1 yuan2ben3 de0.",
     "translation_en": "The reservation is settled like this; we'll cancel the original one.",
-    "translation_ko": "예약은 이렇게 정했어요. 원래 것을 취소할게요.",
+    "translation_ko": "원래 것을 취소할게요.",
     "token_ids": [
       "VOC_D81_033",
       "VOC_D66_002",
@@ -135837,7 +135837,7 @@
     "text": "我學中文的目標是希望通過考試。",
     "pinyin": "Wǒ xué Zhōngwén de mùbiāo shì xīwàng tōngguò kǎoshì.",
     "pinyin_numeric": "wo3 xue2 Zhong1wen2 de0 mu4biao1 shi4 xi1wang4 tong1guo4 kao3shi4.",
-    "translation_en": "My goal in learning Chinese is to hope to pass the exam.",
+    "translation_en": "My goal in learning Chinese is to pass the exam.",
     "translation_ko": "제가 중국어를 배우는 목표는 시험에 합격하기를 바라는 것입니다.",
     "token_ids": [
       "VOC_M1_002",
@@ -136133,7 +136133,7 @@
     "text": "我學中文的目標是希望進步很快。",
     "pinyin": "Wǒ xué Zhōngwén de mùbiāo shì xīwàng jìnbù hěn kuài.",
     "pinyin_numeric": "wo3 xue2 Zhong1wen2 de0 mu4biao1 shi4 xi1wang4 jin4bu4 hen3 kuai4.",
-    "translation_en": "My goal in learning Chinese is to hope to improve quickly.",
+    "translation_en": "My goal in learning Chinese is to improve quickly.",
     "translation_ko": "제가 중국어를 배우는 목표는 빨리 발전하기를 바라는 것입니다.",
     "token_ids": [
       "VOC_M1_002",
@@ -136469,7 +136469,7 @@
     "pinyin": "Wǒ xīwàng jiānglái néng shuō liúlì de Zhōngwén.",
     "pinyin_numeric": "wo3 xi1wang4 jiang1lai2 neng2 shuo1 liu2li4 de0 Zhong1wen2.",
     "translation_en": "I hope to speak fluent Chinese in the future.",
-    "translation_ko": "저는 장래에 중국어를 유창하게 말할 수 있기를 바라요.",
+    "translation_ko": "저는 장래에 중국어를 유창하게 말할 수 있기를 바랍니다.",
     "token_ids": [
       "VOC_M1_002",
       "VOC_M1_196",
@@ -136815,7 +136815,7 @@
     "pinyin": "Wǒ wèile xué Zhōngwén lái Táiwān, xīwàng jiānglái kěyǐ shuō de hěn liúlì.",
     "pinyin_numeric": "wo3 wei4 le5 xue2 Zhong1 wen2 lai2 Tai2 wan1, xi1 wang4 jiang1 lai2 ke3 yi3 shuo1 de5 hen3 liu2 li4.",
     "translation_en": "I came to Taiwan to learn Chinese, hoping to speak fluently in the future.",
-    "translation_ko": "저는 중국어를 배우기 위해 대만에 왔으며, 앞으로 유창하게 말할 수 있기를 바래요.",
+    "translation_ko": "저는 중국어를 배우기 위해 대만에 왔으며, 앞으로 유창하게 말할 수 있기를 바랍니다.",
     "token_ids": [
       "VOC_M1_002",
       "VOC_D65_030",
@@ -137648,7 +137648,7 @@
     "pinyin": "Tā wèile xué Zhōngwén lái Táiwān, xīwàng jiānglái kěyǐ shuō de hěn liúlì.",
     "pinyin_numeric": "ta1 wei4le xue2 Zhong1wen2 lai2 Tai2wan1, xi1wang4 jiang1lai2 ke3yi3 shuo1 de hen3 liu2li4.",
     "translation_en": "He came to Taiwan to learn Chinese, hoping to speak fluently in the future.",
-    "translation_ko": "그는 중국어를 배우기 위해 대만에 왔으며, 앞으로 유창하게 말할 수 있기를 바래요.",
+    "translation_ko": "그는 중국어를 배우기 위해 대만에 왔으며, 앞으로 유창하게 말할 수 있기를 바라요.",
     "token_ids": [
       "VOC_M1_004",
       "VOC_D65_030",
@@ -137890,7 +137890,7 @@
     "text": "他學中文的目標是為了跟台灣的朋友聊天。",
     "pinyin": "Tā xué Zhōngwén de mùbiāo shì wèile gēn Táiwān de péngyǒu liáotiān.",
     "pinyin_numeric": "ta1 xue2 Zhong1wen2 de0 mu4biao1 shi4 wei4le0 gen1 Tai2wan1 de0 peng2you3 liao2tian1.",
-    "translation_en": "His goal in learning Chinese is to chat with friends in Taiwan.",
+    "translation_en": "His goal in learning Chinese is to chat with his friends in Taiwan.",
     "translation_ko": "그가 중국어를 배우는 목표는 대만 친구들과 대화하기 위해서입니다.",
     "token_ids": [
       "VOC_M1_004",
@@ -140121,7 +140121,7 @@
     "pinyin": "Shùnbiàn wèn yīxià, nǐ rènshi nàge xīn lái de tóngshì ma?",
     "pinyin_numeric": "shun4bian4 wen4 yi1xia4, ni3 ren4shi0 na4ge0 xin1 lai2 de0 tong2shi4 ma0",
     "translation_en": "By the way, do you know that new colleague?",
-    "translation_ko": "그런데 말인데, 그 새로 온 동생을 알아요?",
+    "translation_ko": "그런데 말인데, 그 새로 온 동료를 알아요?",
     "token_ids": [
       "VOC_D77_012",
       "VOC_M1_123",
@@ -146873,7 +146873,7 @@
     "pinyin": "Wǒ cóng zǎoshang dào xiànzài dōu zài děng shīfù de diànhuà, kěshì tā hái méiyǒu quèrèn shíjiān.",
     "pinyin_numeric": "wo3 cong2 zao3shang5 dao4 xian4zai4 dou1 zai4 deng3 shi1fu4 de0 dian4hua4, ke3shi4 ta1 hai2 mei2you3 que4ren4 shi2jian1.",
     "translation_en": "I have been waiting for the repairman's call from morning until now, but he hasn't confirmed the time yet.",
-    "translation_ko": "아침부터 지금까지 기사님 전화를 기다리고 있는데 아직 시간을 확인하지 않았어요.",
+    "translation_ko": "아침부터 지금까지 기사님 전화를 기다리고 있는데 아직 시간을 확인하지 않으셨어요.",
     "token_ids": [
       "VOC_M1_002",
       "VOC_D33_023",
@@ -151579,7 +151579,7 @@
     "pinyin": "Tā yāoqǐng wǒ qù kàn diànyǐng, dàn wǒ wǎnjù le, yīnwèi wǒ nèitiān méiyǒu kòngdǎng.",
     "pinyin_numeric": "ta1 yao1qing3 wo3 qu4 kan4 dian4ying3, dan4 wo3 wan3ju4 le5, yin1wei4 wo3 nei4tian1 mei2you3 kong4dang3.",
     "translation_en": "He invited me to see a movie, but I declined because I had no free time that day.",
-    "translation_ko": "그가 영화 보자고 초대했지만, 그날 시간이 없어서 거절했어요.",
+    "translation_ko": "그가 영화를 보자고 초대했지만, 그날 시간이 없어서 거절했어요.",
     "token_ids": [
       "VOC_M1_004",
       "VOC_D54_001",
@@ -151850,7 +151850,7 @@
     "pinyin": "Wǒmen xiǎng yāoqǐng tāmen yīqǐ chànggē, dàn tāmen wǎnjù le, yīnwèi tāmen bù xǐhuān chànggē.",
     "pinyin_numeric": "wo3men5 xiang3 yao1qing3 ta1men5 yi4qi3 chang4ge1, dan4 ta1men5 wan3ju4 le5, yin1wei4 ta1men5 bu4 xi3huan1 chang4ge1.",
     "translation_en": "We wanted to invite them to sing karaoke, but they declined because they don't like singing.",
-    "translation_ko": "우리는 그들을 노래방에 초대하고 싶었지만, 노래 부르는 걸 좋아하지 않아서 거절했어요.",
+    "translation_ko": "우리는 그들을 노래방에 초대하고 싶었지만, 노래 부르는 것을 좋아하지 않아서 거절했어요.",
     "token_ids": [
       "VOC_M1_006",
       "VOC_M1_050",
@@ -152019,7 +152019,7 @@
     "text": "我跟你喬時間，因為我的行程有衝突。",
     "pinyin": "Wǒ gēn nǐ qiáo shíjiān, yīnwèi wǒ de xíngchéng yǒu chōngtū.",
     "pinyin_numeric": "wo3 gen1 ni3 qiao2 shi2jian1, yin1wei4 wo3 de xing2cheng2 you3 chong1tu1.",
-    "translation_en": "I'm negotiating time with you because my schedule has a conflict.",
+    "translation_en": "I'm coordinating time with you because my schedule has a conflict.",
     "translation_ko": "제가 당신과 시간을 조율하는 이유는 제 일정에 충돌이 있기 때문입니다.",
     "token_ids": [
       "VOC_M1_002",
@@ -154777,7 +154777,7 @@
     "text": "你正在做什麼？我想找你一起去吃午餐。",
     "pinyin": "Nǐ zhèngzài zuò shénme? Wǒ xiǎng zhǎo nǐ yīqǐ qù chī wǔcān.",
     "pinyin_numeric": "ni3 zheng4zai4 zuo4 shen2me5? wo3 xiang3 zhao3 ni3 yi1qi3 qu4 chi1 wu3can1.",
-    "translation_en": "What are you doing? I want to find you to go have lunch together.",
+    "translation_en": "What are you doing? I want to go have lunch with you.",
     "translation_ko": "지금 뭐 하고 있어요? 당신과 함께 점심 먹으러 가고 싶어요.",
     "token_ids": [
       "VOC_M1_003",
@@ -154985,7 +154985,7 @@
     "text": "我覺得這家餐廳的服務態度很好。",
     "pinyin": "Wǒ juéde zhè jiā cāntīng de fúwù tàidù hěn hǎo.",
     "pinyin_numeric": "wo3 jue2de zhe4 jia1 can1ting1 de fu2wu4 tai4du4 hen3 hao3.",
-    "translation_en": "I think the service attitude at this restaurant is very good.",
+    "translation_en": "I think the service at this restaurant is very good.",
     "translation_ko": "저는 이 식당의 서비스 태도가 아주 좋다고 생각해요.",
     "token_ids": [
       "VOC_D42_031",
@@ -155181,7 +155181,7 @@
     "text": "我覺得這件外套的價錢太貴了。",
     "pinyin": "Wǒ juéde zhè jiàn wàitào de jiàqián tài guì le.",
     "pinyin_numeric": "wo3 jue2de zhe4 jian4 wai4tao4 de jia4qian2 tai4 gui4 le0.",
-    "translation_en": "I think the price of this coat is too expensive.",
+    "translation_en": "I think the price of this coat is too high.",
     "translation_ko": "이 코트의 가격이 너무 비싸다고 생각해요.",
     "token_ids": [
       "VOC_D42_031",
@@ -155218,7 +155218,7 @@
     "text": "我覺得他是一個很認真的人。",
     "pinyin": "Wǒ juéde tā shì yīge hěn rènzhēn de rén.",
     "pinyin_numeric": "wo3 jue2de ta1 shi4 yi1ge hen3 ren4zhen1 de ren2.",
-    "translation_en": "I think he is a very serious person.",
+    "translation_en": "I think he is a very diligent person.",
     "translation_ko": "그는 아주 성실한 사람이라고 생각해요.",
     "token_ids": [
       "VOC_D42_031",
@@ -157510,7 +157510,7 @@
     "text": "我覺得這家餐廳的服務態度很好。",
     "pinyin": "Wǒ juéde zhè jiā cāntīng de fúwù tàidù hěn hǎo.",
     "pinyin_numeric": "wo3 jue2de zhe4 jia1 can1ting1 de fu2wu4 tai4du4 hen3 hao3.",
-    "translation_en": "I think the service attitude at this restaurant is very good.",
+    "translation_en": "I think the service at this restaurant is very good.",
     "translation_ko": "저는 이 식당의 서비스 태도가 아주 좋다고 생각해요.",
     "token_ids": [
       "VOC_D42_031",
@@ -158530,7 +158530,7 @@
     "pinyin": "Chúle zhēnzhū nǎichá yǐwài, wǒ yě hěn xǐhuān hē lǜchá.",
     "pinyin_numeric": "chu2le zhen1zhu1 nai3cha2 yi3wai4, wo3 ye3 hen3 xi3huan1 he1 lü4cha2.",
     "translation_en": "Besides bubble tea, I also really like drinking green tea.",
-    "translation_ko": "버블티 외에도 저는 녹차 마시는 것을 아주 좋아합니다.",
+    "translation_ko": "버블티 외에도 저는 녹차를 마시는 것을 아주 좋아합니다.",
     "token_ids": [
       "VOC_D34_001",
       "VOC_M1_002",
@@ -158744,7 +158744,7 @@
     "pinyin": "Tā bùdàn huì shuō zhōngwén, érqiě xiě de yě hěn hǎo.",
     "pinyin_numeric": "ta1 bu4dan4 hui4 shuo1 zhong1wen2, er2qie3 xie3 de0 ye3 hen3 hao3.",
     "translation_en": "He can not only speak Chinese but also write it very well.",
-    "translation_ko": "그는 중국어를 말할 뿐만 아니라 글쓰기도 아주 잘합니다.",
+    "translation_ko": "그는 중국어를 말할 뿐만 아니라 쓰기도 아주 잘합니다.",
     "token_ids": [
       "VOC_M1_004",
       "VOC_M1_079",
@@ -161124,7 +161124,7 @@
     "text": "這家店不但服務態度好，而且東西也很便宜。",
     "pinyin": "Zhè jiā diàn bùdàn fúwù tàidù hǎo, érqiě dōngxi yě hěn piányí.",
     "pinyin_numeric": "zhe4 jia1 dian4 bu4dan4 fu2wu4 tai4du4 hao3, er2qie3 dong1xi0 ye3 hen3 pian2yi2.",
-    "translation_en": "This store not only has good service attitude but also sells things very cheaply.",
+    "translation_en": "This store not only has good service but also sells things very cheaply.",
     "translation_ko": "이 가게는 서비스 태도가 좋을 뿐만 아니라 물건도 아주 저렴합니다.",
     "token_ids": [
       "VOC_M1_039",
