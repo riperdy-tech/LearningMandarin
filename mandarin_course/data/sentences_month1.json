@@ -149,7 +149,7 @@
     "id": "SEN_M1_D01_07",
     "text": "你叫什麼名字？",
     "pinyin": "Nǐ jiào shénme míngzi?",
-    "pinyin_numeric": "Ni3 jiao4 shenme2 mingzi2?",
+    "pinyin_numeric": "Ni3 jiao4 shen2me0 mingzi2?",
     "translation_en": "What is your name?",
     "translation_ko": "이름이 무엇입니까?",
     "tokens": [
@@ -1245,7 +1245,7 @@
     "id": "SEN_M1_D07_01",
     "text": "你好，你叫什麼名字？",
     "pinyin": "Nǐ hǎo, nǐ jiào shénme míngzi?",
-    "pinyin_numeric": "Ni3 hao3, ni3 jiao4 shenme2 mingzi2?",
+    "pinyin_numeric": "Ni3 hao3, ni3 jiao4 shen2me0 mingzi2?",
     "translation_en": "Hello, what is your name?",
     "translation_ko": "안녕하세요, 이름이 무엇입니까?",
     "tokens": [
@@ -1380,7 +1380,7 @@
     "id": "SEN_M1_D07_06",
     "text": "今天你想做什麼？",
     "pinyin": "Jīntiān nǐ xiǎng zuò shénme?",
-    "pinyin_numeric": "Jintian1 ni3 xiang3 zuo4 shenme2?",
+    "pinyin_numeric": "Jintian1 ni3 xiang3 zuo4 shen2me0?",
     "translation_en": "What do you want to do today?",
     "translation_ko": "오늘 무엇을 하고 싶습니까?",
     "tokens": [
@@ -1864,7 +1864,7 @@
     "id": "SEN_M1_D10_01",
     "text": "你做什麼工作？",
     "pinyin": "Nǐ zuò shénme gōngzuò?",
-    "pinyin_numeric": "Ni3 zuo4 shenme2 gongzuo4?",
+    "pinyin_numeric": "Ni3 zuo4 shen2me0 gongzuo4?",
     "translation_en": "What work do you do?",
     "translation_ko": "무슨 일을 합니까?",
     "tokens": [
@@ -1933,7 +1933,7 @@
     "id": "SEN_M1_D10_04",
     "text": "你為什麼學中文？",
     "pinyin": "Nǐ wèishéme xué Zhōngwén?",
-    "pinyin_numeric": "Ni3 weisheme2 xue2 Zhongwen2?",
+    "pinyin_numeric": "Ni3 wei4shen2me0 xue2 Zhongwen2?",
     "translation_en": "Why do you study Chinese?",
     "translation_ko": "왜 중국어를 배웁니까?",
     "tokens": [
@@ -1981,7 +1981,7 @@
     "id": "SEN_M1_D10_06",
     "text": "她叫什麼名字？",
     "pinyin": "Tā jiào shénme míngzi?",
-    "pinyin_numeric": "Ta1 jiao4 shenme2 mingzi2?",
+    "pinyin_numeric": "Ta1 jiao4 shen2me0 mingzi2?",
     "translation_en": "What is her name?",
     "translation_ko": "그녀의 이름은 무엇입니까?",
     "tokens": [
@@ -2029,7 +2029,7 @@
     "id": "SEN_M1_D10_08",
     "text": "你喜歡什麼地方？",
     "pinyin": "Nǐ xǐhuan shénme dìfang?",
-    "pinyin_numeric": "Ni3 xihuan3 shenme2 difang4?",
+    "pinyin_numeric": "Ni3 xihuan3 shen2me0 difang4?",
     "translation_en": "What place do you like?",
     "translation_ko": "어떤 장소를 좋아합니까?",
     "tokens": [
@@ -2656,7 +2656,7 @@
     "id": "SEN_M1_D14_01",
     "text": "你想吃什麼？",
     "pinyin": "Nǐ xiǎng chī shénme?",
-    "pinyin_numeric": "Ni3 xiang3 chi1 shenme2?",
+    "pinyin_numeric": "Ni3 xiang3 chi1 shen2me0?",
     "translation_en": "What do you want to eat?",
     "translation_ko": "무엇을 먹고 싶습니까?",
     "tokens": [
@@ -5556,7 +5556,7 @@
     "id": "SEN_M1_D27_08",
     "text": "你的愛好是什麼？",
     "pinyin": "Nǐ de àihào shì shénme?",
-    "pinyin_numeric": "Ni3 de0 aihao4 shi4 shenme2?",
+    "pinyin_numeric": "Ni3 de0 aihao4 shi4 shen2me0?",
     "translation_en": "What is your hobby?",
     "translation_ko": "취미가 무엇입니까?",
     "tokens": [
@@ -5685,7 +5685,7 @@
     "id": "SEN_M1_D28_05",
     "text": "你明天要做什麼？",
     "pinyin": "Nǐ míngtiān yào zuò shénme?",
-    "pinyin_numeric": "Ni3 mingtian1 yao4 zuo4 shenme2?",
+    "pinyin_numeric": "Ni3 mingtian1 yao4 zuo4 shen2me0?",
     "translation_en": "What are you going to do tomorrow?",
     "translation_ko": "내일 무엇을 할 예정입니까?",
     "tokens": [

@@ -130,7 +130,7 @@
     "kind": "sentence",
     "ref_id": "SEN_M1_D01_07",
     "text": "你叫什麼名字？",
-    "pinyin_numeric": "Ni3 jiao4 shenme2 mingzi2?",
+    "pinyin_numeric": "Ni3 jiao4 shen2me0 mingzi2?",
     "path": "audio/month1/sentences/AUD_SEN_M1_D01_07.mp3",
     "status": "placeholder"
   },
@@ -1012,7 +1012,7 @@
     "kind": "sentence",
     "ref_id": "SEN_M1_D07_01",
     "text": "你好，你叫什麼名字？",
-    "pinyin_numeric": "Ni3 hao3, ni3 jiao4 shenme2 mingzi2?",
+    "pinyin_numeric": "Ni3 hao3, ni3 jiao4 shen2me0 mingzi2?",
     "path": "audio/month1/sentences/AUD_SEN_M1_D07_01.mp3",
     "status": "placeholder"
   },
@@ -1057,7 +1057,7 @@
     "kind": "sentence",
     "ref_id": "SEN_M1_D07_06",
     "text": "今天你想做什麼？",
-    "pinyin_numeric": "Jintian1 ni3 xiang3 zuo4 shenme2?",
+    "pinyin_numeric": "Jintian1 ni3 xiang3 zuo4 shen2me0?",
     "path": "audio/month1/sentences/AUD_SEN_M1_D07_06.mp3",
     "status": "placeholder"
   },
@@ -1444,7 +1444,7 @@
     "kind": "vocab",
     "ref_id": "VOC_M1_071",
     "text": "什麼",
-    "pinyin_numeric": "shenme2",
+    "pinyin_numeric": "shen2me0",
     "path": "audio/month1/vocab/AUD_VOC_M1_071.mp3",
     "status": "placeholder"
   },
@@ -1471,7 +1471,7 @@
     "kind": "vocab",
     "ref_id": "VOC_M1_074",
     "text": "為什麼",
-    "pinyin_numeric": "weisheme2",
+    "pinyin_numeric": "wei4shen2me0",
     "path": "audio/month1/vocab/AUD_VOC_M1_074.mp3",
     "status": "placeholder"
   },
@@ -1516,7 +1516,7 @@
     "kind": "sentence",
     "ref_id": "SEN_M1_D10_01",
     "text": "你做什麼工作？",
-    "pinyin_numeric": "Ni3 zuo4 shenme2 gongzuo4?",
+    "pinyin_numeric": "Ni3 zuo4 shen2me0 gongzuo4?",
     "path": "audio/month1/sentences/AUD_SEN_M1_D10_01.mp3",
     "status": "placeholder"
   },
@@ -1543,7 +1543,7 @@
     "kind": "sentence",
     "ref_id": "SEN_M1_D10_04",
     "text": "你為什麼學中文？",
-    "pinyin_numeric": "Ni3 weisheme2 xue2 Zhongwen2?",
+    "pinyin_numeric": "Ni3 wei4shen2me0 xue2 Zhongwen2?",
     "path": "audio/month1/sentences/AUD_SEN_M1_D10_04.mp3",
     "status": "placeholder"
   },
@@ -1561,7 +1561,7 @@
     "kind": "sentence",
     "ref_id": "SEN_M1_D10_06",
     "text": "她叫什麼名字？",
-    "pinyin_numeric": "Ta1 jiao4 shenme2 mingzi2?",
+    "pinyin_numeric": "Ta1 jiao4 shen2me0 mingzi2?",
     "path": "audio/month1/sentences/AUD_SEN_M1_D10_06.mp3",
     "status": "placeholder"
   },
@@ -1579,7 +1579,7 @@
     "kind": "sentence",
     "ref_id": "SEN_M1_D10_08",
     "text": "你喜歡什麼地方？",
-    "pinyin_numeric": "Ni3 xihuan3 shenme2 difang4?",
+    "pinyin_numeric": "Ni3 xihuan3 shen2me0 difang4?",
     "path": "audio/month1/sentences/AUD_SEN_M1_D10_08.mp3",
     "status": "placeholder"
   },
@@ -2101,7 +2101,7 @@
     "kind": "sentence",
     "ref_id": "SEN_M1_D14_01",
     "text": "你想吃什麼？",
-    "pinyin_numeric": "Ni3 xiang3 chi1 shenme2?",
+    "pinyin_numeric": "Ni3 xiang3 chi1 shen2me0?",
     "path": "audio/month1/sentences/AUD_SEN_M1_D14_01.mp3",
     "status": "placeholder"
   },
@@ -4144,7 +4144,7 @@
     "kind": "sentence",
     "ref_id": "SEN_M1_D27_08",
     "text": "你的愛好是什麼？",
-    "pinyin_numeric": "Ni3 de0 aihao4 shi4 shenme2?",
+    "pinyin_numeric": "Ni3 de0 aihao4 shi4 shen2me0?",
     "path": "audio/month1/sentences/AUD_SEN_M1_D27_08.mp3",
     "status": "placeholder"
   },
@@ -4270,7 +4270,7 @@
     "kind": "sentence",
     "ref_id": "SEN_M1_D28_05",
     "text": "你明天要做什麼？",
-    "pinyin_numeric": "Ni3 mingtian1 yao4 zuo4 shenme2?",
+    "pinyin_numeric": "Ni3 mingtian1 yao4 zuo4 shen2me0?",
     "path": "audio/month1/sentences/AUD_SEN_M1_D28_05.mp3",
     "status": "placeholder"
   },
