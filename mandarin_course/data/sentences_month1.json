@@ -17,7 +17,12 @@
       "GR_M1_D01"
     ],
     "audio_id": "AUD_SEN_M1_D01_01",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_001",
+      "VOC_M1_002",
+      "VOC_M1_007"
+    ]
   },
   {
     "id": "SEN_M1_D01_02",
@@ -36,7 +41,11 @@
       "GR_M1_D01"
     ],
     "audio_id": "AUD_SEN_M1_D01_02",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_008"
+    ]
   },
   {
     "id": "SEN_M1_D01_03",
@@ -48,15 +57,20 @@
     "tokens": [
       "你",
       "是",
-      "學",
-      "生",
+      "學生",
       "嗎"
     ],
     "grammar_ids": [
       "GR_M1_D01"
     ],
     "audio_id": "AUD_SEN_M1_D01_03",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_M1_007",
+      "VOC_D71_004",
+      "VOC_M1_016"
+    ]
   },
   {
     "id": "SEN_M1_D01_04",
@@ -68,14 +82,18 @@
     "tokens": [
       "他",
       "是",
-      "老",
-      "師"
+      "老師"
     ],
     "grammar_ids": [
       "GR_M1_D01"
     ],
     "audio_id": "AUD_SEN_M1_D01_04",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_004",
+      "VOC_M1_007",
+      "VOC_D71_005"
+    ]
   },
   {
     "id": "SEN_M1_D01_05",
@@ -89,14 +107,20 @@
       "是",
       "我",
       "的",
-      "朋",
-      "友"
+      "朋友"
     ],
     "grammar_ids": [
       "GR_M1_D01"
     ],
     "audio_id": "AUD_SEN_M1_D01_05",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_005",
+      "VOC_M1_007",
+      "VOC_M1_002",
+      "VOC_M1_023",
+      "VOC_M1_042"
+    ]
   },
   {
     "id": "SEN_M1_D01_06",
@@ -108,14 +132,18 @@
     "tokens": [
       "我們",
       "是",
-      "朋",
-      "友"
+      "朋友"
     ],
     "grammar_ids": [
       "GR_M1_D01"
     ],
     "audio_id": "AUD_SEN_M1_D01_06",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_006",
+      "VOC_M1_007",
+      "VOC_M1_042"
+    ]
   },
   {
     "id": "SEN_M1_D01_07",
@@ -127,16 +155,20 @@
     "tokens": [
       "你",
       "叫",
-      "什",
-      "麼",
-      "名",
-      "字"
+      "什麼",
+      "名字"
     ],
     "grammar_ids": [
       "GR_M1_D01"
     ],
     "audio_id": "AUD_SEN_M1_D01_07",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_M1_008",
+      "VOC_M1_071",
+      "VOC_M1_077"
+    ]
   },
   {
     "id": "SEN_M1_D01_08",
@@ -156,7 +188,12 @@
       "GR_M1_D01"
     ],
     "audio_id": "AUD_SEN_M1_D01_08",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_007",
+      "VOC_M1_040"
+    ]
   },
   {
     "id": "SEN_M1_D02_01",
@@ -168,15 +205,20 @@
     "tokens": [
       "你",
       "是",
-      "老",
-      "師",
+      "老師",
       "嗎"
     ],
     "grammar_ids": [
       "GR_M1_D02"
     ],
     "audio_id": "AUD_SEN_M1_D02_01",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_M1_007",
+      "VOC_D71_005",
+      "VOC_M1_016"
+    ]
   },
   {
     "id": "SEN_M1_D02_02",
@@ -188,23 +230,28 @@
     "tokens": [
       "他",
       "是",
-      "學",
-      "生",
+      "學生",
       "嗎"
     ],
     "grammar_ids": [
       "GR_M1_D02"
     ],
     "audio_id": "AUD_SEN_M1_D02_02",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_004",
+      "VOC_M1_007",
+      "VOC_D71_004",
+      "VOC_M1_016"
+    ]
   },
   {
     "id": "SEN_M1_D02_03",
     "text": "這是一。",
     "pinyin": "Zhè shì yī.",
     "pinyin_numeric": "Zhe4 shi4 yi1.",
-    "translation_en": "This is one.",
-    "translation_ko": "이것은 1입니다.",
+    "translation_en": "This is a one.",
+    "translation_ko": "이것은 일입니다.",
     "tokens": [
       "這",
       "是",
@@ -214,15 +261,19 @@
       "GR_M1_D02"
     ],
     "audio_id": "AUD_SEN_M1_D02_03",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_007",
+      "VOC_M1_009"
+    ]
   },
   {
     "id": "SEN_M1_D02_04",
     "text": "這是三嗎？",
     "pinyin": "Zhè shì sān ma?",
     "pinyin_numeric": "Zhe4 shi4 san1 ma0?",
-    "translation_en": "Is this three?",
-    "translation_ko": "이것은 3입니까?",
+    "translation_en": "Is this a three?",
+    "translation_ko": "이것은 삼입니까?",
     "tokens": [
       "這",
       "是",
@@ -233,7 +284,12 @@
       "GR_M1_D02"
     ],
     "audio_id": "AUD_SEN_M1_D02_04",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_007",
+      "VOC_M1_011",
+      "VOC_M1_016"
+    ]
   },
   {
     "id": "SEN_M1_D02_05",
@@ -253,7 +309,13 @@
       "GR_M1_D02"
     ],
     "audio_id": "AUD_SEN_M1_D02_05",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_013",
+      "VOC_M1_013",
+      "VOC_M1_007",
+      "VOC_M1_015"
+    ]
   },
   {
     "id": "SEN_M1_D02_06",
@@ -273,7 +335,14 @@
       "GR_M1_D02"
     ],
     "audio_id": "AUD_SEN_M1_D02_06",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_009",
+      "VOC_M1_010",
+      "VOC_M1_011",
+      "VOC_M1_012",
+      "VOC_M1_013"
+    ]
   },
   {
     "id": "SEN_M1_D02_07",
@@ -287,15 +356,22 @@
       "有",
       "五",
       "個",
-      "朋",
-      "友",
+      "朋友",
       "嗎"
     ],
     "grammar_ids": [
       "GR_M1_D02"
     ],
     "audio_id": "AUD_SEN_M1_D02_07",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_M1_022",
+      "VOC_M1_013",
+      "VOC_M1_041",
+      "VOC_M1_042",
+      "VOC_M1_016"
+    ]
   },
   {
     "id": "SEN_M1_D02_08",
@@ -314,7 +390,13 @@
       "GR_M1_D02"
     ],
     "audio_id": "AUD_SEN_M1_D02_08",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_007",
+      "VOC_M1_010",
+      "VOC_M1_117"
+    ]
   },
   {
     "id": "SEN_M1_D03_01",
@@ -327,14 +409,19 @@
       "我",
       "有",
       "兩",
-      "本",
-      "書"
+      "本書"
     ],
     "grammar_ids": [
       "GR_M1_D03"
     ],
     "audio_id": "AUD_SEN_M1_D03_01",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_022",
+      "VOC_M1_100",
+      "VOC_M1_103"
+    ]
   },
   {
     "id": "SEN_M1_D03_02",
@@ -354,7 +441,13 @@
       "GR_M1_D03"
     ],
     "audio_id": "AUD_SEN_M1_D03_02",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_007",
+      "VOC_M1_002",
+      "VOC_M1_023",
+      "VOC_M1_025"
+    ]
   },
   {
     "id": "SEN_M1_D03_03",
@@ -375,7 +468,14 @@
       "GR_M1_D03"
     ],
     "audio_id": "AUD_SEN_M1_D03_03",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_007",
+      "VOC_M1_003",
+      "VOC_M1_023",
+      "VOC_M1_024",
+      "VOC_M1_016"
+    ]
   },
   {
     "id": "SEN_M1_D03_04",
@@ -389,14 +489,20 @@
       "有",
       "八",
       "個",
-      "朋",
-      "友"
+      "朋友"
     ],
     "grammar_ids": [
       "GR_M1_D03"
     ],
     "audio_id": "AUD_SEN_M1_D03_04",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_004",
+      "VOC_M1_022",
+      "VOC_M1_019",
+      "VOC_M1_041",
+      "VOC_M1_042"
+    ]
   },
   {
     "id": "SEN_M1_D03_05",
@@ -416,7 +522,14 @@
       "GR_M1_D03"
     ],
     "audio_id": "AUD_SEN_M1_D03_05",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_005",
+      "VOC_M1_023",
+      "VOC_M1_025",
+      "VOC_M1_096",
+      "VOC_M1_088"
+    ]
   },
   {
     "id": "SEN_M1_D03_06",
@@ -429,14 +542,19 @@
       "我們",
       "有",
       "九",
-      "本",
-      "書"
+      "本書"
     ],
     "grammar_ids": [
       "GR_M1_D03"
     ],
     "audio_id": "AUD_SEN_M1_D03_06",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_006",
+      "VOC_M1_022",
+      "VOC_M1_020",
+      "VOC_M1_103"
+    ]
   },
   {
     "id": "SEN_M1_D03_07",
@@ -444,7 +562,7 @@
     "pinyin": "Zhè shì yì bǎi ma?",
     "pinyin_numeric": "Zhe4 shi4 yi4 bai3 ma0?",
     "translation_en": "Is this one hundred?",
-    "translation_ko": "이것은 100입니까?",
+    "translation_ko": "이것은 백입니까?",
     "tokens": [
       "這",
       "是",
@@ -456,7 +574,13 @@
       "GR_M1_D03"
     ],
     "audio_id": "AUD_SEN_M1_D03_07",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_007",
+      "VOC_M1_009",
+      "VOC_M1_021",
+      "VOC_M1_016"
+    ]
   },
   {
     "id": "SEN_M1_D03_08",
@@ -468,8 +592,7 @@
     "tokens": [
       "我",
       "的",
-      "朋",
-      "友",
+      "朋友",
       "有",
       "手機"
     ],
@@ -477,7 +600,14 @@
       "GR_M1_D03"
     ],
     "audio_id": "AUD_SEN_M1_D03_08",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_023",
+      "VOC_M1_042",
+      "VOC_M1_022",
+      "VOC_M1_025"
+    ]
   },
   {
     "id": "SEN_M1_D04_01",
@@ -496,7 +626,13 @@
       "GR_M1_D04"
     ],
     "audio_id": "AUD_SEN_M1_D04_01",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_032",
+      "VOC_M1_002",
+      "VOC_M1_139",
+      "VOC_M1_039"
+    ]
   },
   {
     "id": "SEN_M1_D04_02",
@@ -509,14 +645,19 @@
       "明天",
       "我",
       "去",
-      "學",
-      "校"
+      "學校"
     ],
     "grammar_ids": [
       "GR_M1_D04"
     ],
     "audio_id": "AUD_SEN_M1_D04_02",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_033",
+      "VOC_M1_002",
+      "VOC_M1_156",
+      "VOC_M1_149"
+    ]
   },
   {
     "id": "SEN_M1_D04_03",
@@ -535,7 +676,13 @@
       "GR_M1_D04"
     ],
     "audio_id": "AUD_SEN_M1_D04_03",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_034",
+      "VOC_M1_027",
+      "VOC_M1_139",
+      "VOC_M1_039"
+    ]
   },
   {
     "id": "SEN_M1_D04_04",
@@ -548,14 +695,19 @@
       "我",
       "爸爸",
       "是",
-      "老",
-      "師"
+      "老師"
     ],
     "grammar_ids": [
       "GR_M1_D04"
     ],
     "audio_id": "AUD_SEN_M1_D04_04",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_026",
+      "VOC_M1_007",
+      "VOC_D71_005"
+    ]
   },
   {
     "id": "SEN_M1_D04_05",
@@ -574,7 +726,13 @@
       "GR_M1_D04"
     ],
     "audio_id": "AUD_SEN_M1_D04_05",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_029",
+      "VOC_M1_022",
+      "VOC_M1_025"
+    ]
   },
   {
     "id": "SEN_M1_D04_06",
@@ -587,14 +745,19 @@
       "他",
       "弟弟",
       "是",
-      "學",
-      "生"
+      "學生"
     ],
     "grammar_ids": [
       "GR_M1_D04"
     ],
     "audio_id": "AUD_SEN_M1_D04_06",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_004",
+      "VOC_M1_030",
+      "VOC_M1_007",
+      "VOC_D71_004"
+    ]
   },
   {
     "id": "SEN_M1_D04_07",
@@ -607,14 +770,19 @@
       "今天",
       "妹妹",
       "很",
-      "高",
-      "興"
+      "高興"
     ],
     "grammar_ids": [
       "GR_M1_D04"
     ],
     "audio_id": "AUD_SEN_M1_D04_07",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_032",
+      "VOC_M1_031",
+      "VOC_M1_096",
+      "VOC_M1_093"
+    ]
   },
   {
     "id": "SEN_M1_D04_08",
@@ -634,7 +802,14 @@
       "GR_M1_D04"
     ],
     "audio_id": "AUD_SEN_M1_D04_08",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_033",
+      "VOC_M1_028",
+      "VOC_M1_155",
+      "VOC_M1_002",
+      "VOC_M1_039"
+    ]
   },
   {
     "id": "SEN_M1_D05_01",
@@ -655,7 +830,15 @@
       "GR_M1_D05"
     ],
     "audio_id": "AUD_SEN_M1_D05_01",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_039",
+      "VOC_M1_022",
+      "VOC_M1_013",
+      "VOC_M1_041",
+      "VOC_M1_040"
+    ]
   },
   {
     "id": "SEN_M1_D05_02",
@@ -679,7 +862,17 @@
       "GR_M1_D05"
     ],
     "audio_id": "AUD_SEN_M1_D05_02",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_004",
+      "VOC_M1_022",
+      "VOC_M1_009",
+      "VOC_M1_041",
+      "VOC_M1_029",
+      "VOC_M1_100",
+      "VOC_M1_041",
+      "VOC_M1_030"
+    ]
   },
   {
     "id": "SEN_M1_D05_03",
@@ -699,7 +892,14 @@
       "GR_M1_D05"
     ],
     "audio_id": "AUD_SEN_M1_D05_03",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_022",
+      "VOC_M1_036",
+      "VOC_M1_041",
+      "VOC_M1_042"
+    ]
   },
   {
     "id": "SEN_M1_D05_04",
@@ -720,7 +920,15 @@
       "GR_M1_D05"
     ],
     "audio_id": "AUD_SEN_M1_D05_04",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_M1_039",
+      "VOC_M1_022",
+      "VOC_M1_112",
+      "VOC_M1_041",
+      "VOC_M1_040"
+    ]
   },
   {
     "id": "SEN_M1_D05_05",
@@ -740,7 +948,13 @@
       "GR_M1_D05"
     ],
     "audio_id": "AUD_SEN_M1_D05_05",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_109",
+      "VOC_M1_038",
+      "VOC_M1_115"
+    ]
   },
   {
     "id": "SEN_M1_D05_06",
@@ -750,19 +964,24 @@
     "translation_en": "There are fifteen students here.",
     "translation_ko": "여기에 학생 열다섯 명이 있습니다.",
     "tokens": [
-      "這",
-      "裡",
+      "這裡",
       "有",
       "十五",
       "個",
-      "學",
-      "生"
+      "學生"
     ],
     "grammar_ids": [
       "GR_M1_D05"
     ],
     "audio_id": "AUD_SEN_M1_D05_06",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_122",
+      "VOC_M1_022",
+      "VOC_M1_037",
+      "VOC_M1_041",
+      "VOC_D71_004"
+    ]
   },
   {
     "id": "SEN_M1_D05_07",
@@ -777,14 +996,21 @@
       "有",
       "一",
       "個",
-      "老",
-      "師"
+      "老師"
     ],
     "grammar_ids": [
       "GR_M1_D05"
     ],
     "audio_id": "AUD_SEN_M1_D05_07",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_006",
+      "VOC_M1_039",
+      "VOC_M1_022",
+      "VOC_M1_009",
+      "VOC_M1_041",
+      "VOC_D71_005"
+    ]
   },
   {
     "id": "SEN_M1_D05_08",
@@ -804,7 +1030,14 @@
       "GR_M1_D05"
     ],
     "audio_id": "AUD_SEN_M1_D05_08",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_004",
+      "VOC_M1_007",
+      "VOC_M1_002",
+      "VOC_M1_023",
+      "VOC_M1_042"
+    ]
   },
   {
     "id": "SEN_M1_D06_01",
@@ -815,15 +1048,17 @@
     "translation_ko": "저는 차를 마시고 싶습니다.",
     "tokens": [
       "我",
-      "想",
-      "喝",
-      "茶"
+      "想喝茶"
     ],
     "grammar_ids": [
       "GR_M1_D06"
     ],
     "audio_id": "AUD_SEN_M1_D06_01",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_D42_023"
+    ]
   },
   {
     "id": "SEN_M1_D06_02",
@@ -845,7 +1080,15 @@
       "GR_M1_D06"
     ],
     "audio_id": "AUD_SEN_M1_D06_02",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_004",
+      "VOC_M1_048",
+      "VOC_M1_004",
+      "VOC_M1_050",
+      "VOC_M1_052",
+      "VOC_M1_044"
+    ]
   },
   {
     "id": "SEN_M1_D06_03",
@@ -867,7 +1110,15 @@
       "GR_M1_D06"
     ],
     "audio_id": "AUD_SEN_M1_D06_03",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_049",
+      "VOC_M1_002",
+      "VOC_M1_050",
+      "VOC_M1_051",
+      "VOC_M1_045"
+    ]
   },
   {
     "id": "SEN_M1_D06_04",
@@ -879,15 +1130,20 @@
     "tokens": [
       "你",
       "想",
-      "喝",
-      "咖啡",
+      "喝咖啡",
       "嗎"
     ],
     "grammar_ids": [
       "GR_M1_D06"
     ],
     "audio_id": "AUD_SEN_M1_D06_04",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_M1_050",
+      "VOC_D37_004",
+      "VOC_M1_016"
+    ]
   },
   {
     "id": "SEN_M1_D06_05",
@@ -906,7 +1162,13 @@
       "GR_M1_D06"
     ],
     "audio_id": "AUD_SEN_M1_D06_05",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_050",
+      "VOC_M1_052",
+      "VOC_M1_043"
+    ]
   },
   {
     "id": "SEN_M1_D06_06",
@@ -917,16 +1179,19 @@
     "translation_ko": "그녀는 커피를 마시고 싶어 하지 않습니다.",
     "tokens": [
       "她",
-      "不",
-      "想",
-      "喝",
+      "不想喝",
       "咖啡"
     ],
     "grammar_ids": [
       "GR_M1_D06"
     ],
     "audio_id": "AUD_SEN_M1_D06_06",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_005",
+      "VOC_D41_029",
+      "VOC_M1_047"
+    ]
   },
   {
     "id": "SEN_M1_D06_07",
@@ -946,7 +1211,14 @@
       "GR_M1_D06"
     ],
     "audio_id": "AUD_SEN_M1_D06_07",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_006",
+      "VOC_M1_032",
+      "VOC_M1_050",
+      "VOC_M1_052",
+      "VOC_M1_044"
+    ]
   },
   {
     "id": "SEN_M1_D06_08",
@@ -957,15 +1229,17 @@
     "translation_ko": "아빠는 차를 마시고 싶어 합니다.",
     "tokens": [
       "爸爸",
-      "想",
-      "喝",
-      "茶"
+      "想喝茶"
     ],
     "grammar_ids": [
       "GR_M1_D06"
     ],
     "audio_id": "AUD_SEN_M1_D06_08",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_026",
+      "VOC_D42_023"
+    ]
   },
   {
     "id": "SEN_M1_D07_01",
@@ -978,16 +1252,21 @@
       "你好",
       "你",
       "叫",
-      "什",
-      "麼",
-      "名",
-      "字"
+      "什麼",
+      "名字"
     ],
     "grammar_ids": [
       "GR_M1_D07"
     ],
     "audio_id": "AUD_SEN_M1_D07_01",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_001",
+      "VOC_M1_003",
+      "VOC_M1_008",
+      "VOC_M1_071",
+      "VOC_M1_077"
+    ]
   },
   {
     "id": "SEN_M1_D07_02",
@@ -1008,7 +1287,13 @@
       "GR_M1_D07"
     ],
     "audio_id": "AUD_SEN_M1_D07_02",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_008",
+      "VOC_M1_003",
+      "VOC_M1_111"
+    ]
   },
   {
     "id": "SEN_M1_D07_03",
@@ -1027,7 +1312,11 @@
       "GR_M1_D07"
     ],
     "audio_id": "AUD_SEN_M1_D07_03",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_007"
+    ]
   },
   {
     "id": "SEN_M1_D07_04",
@@ -1048,7 +1337,15 @@
       "GR_M1_D07"
     ],
     "audio_id": "AUD_SEN_M1_D07_04",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_M1_039",
+      "VOC_M1_022",
+      "VOC_M1_112",
+      "VOC_M1_041",
+      "VOC_M1_040"
+    ]
   },
   {
     "id": "SEN_M1_D07_05",
@@ -1069,7 +1366,15 @@
       "GR_M1_D07"
     ],
     "audio_id": "AUD_SEN_M1_D07_05",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_039",
+      "VOC_M1_022",
+      "VOC_M1_012",
+      "VOC_M1_041",
+      "VOC_M1_040"
+    ]
   },
   {
     "id": "SEN_M1_D07_06",
@@ -1082,15 +1387,19 @@
       "今天",
       "你",
       "想",
-      "做",
-      "什",
-      "麼"
+      "做什麼"
     ],
     "grammar_ids": [
       "GR_M1_D07"
     ],
     "audio_id": "AUD_SEN_M1_D07_06",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_032",
+      "VOC_M1_003",
+      "VOC_M1_050",
+      "VOC_D49_003"
+    ]
   },
   {
     "id": "SEN_M1_D07_07",
@@ -1101,9 +1410,7 @@
     "translation_ko": "저는 차를 마시고 면도 먹고 싶습니다.",
     "tokens": [
       "我",
-      "想",
-      "喝",
-      "茶",
+      "想喝茶",
       "也",
       "想",
       "吃",
@@ -1113,7 +1420,15 @@
       "GR_M1_D07"
     ],
     "audio_id": "AUD_SEN_M1_D07_07",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_D42_023",
+      "VOC_M1_084",
+      "VOC_M1_050",
+      "VOC_M1_052",
+      "VOC_M1_044"
+    ]
   },
   {
     "id": "SEN_M1_D07_08",
@@ -1126,15 +1441,21 @@
       "明天",
       "我們",
       "去",
-      "學",
-      "校",
+      "學校",
       "嗎"
     ],
     "grammar_ids": [
       "GR_M1_D07"
     ],
     "audio_id": "AUD_SEN_M1_D07_08",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_033",
+      "VOC_M1_006",
+      "VOC_M1_156",
+      "VOC_M1_149",
+      "VOC_M1_016"
+    ]
   },
   {
     "id": "SEN_M1_D08_01",
@@ -1154,7 +1475,13 @@
       "GR_M1_D08"
     ],
     "audio_id": "AUD_SEN_M1_D08_01",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_061",
+      "VOC_M1_044",
+      "VOC_M1_046"
+    ]
   },
   {
     "id": "SEN_M1_D08_02",
@@ -1173,7 +1500,13 @@
       "GR_M1_D08"
     ],
     "audio_id": "AUD_SEN_M1_D08_02",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_M1_061",
+      "VOC_M1_053",
+      "VOC_M1_016"
+    ]
   },
   {
     "id": "SEN_M1_D08_03",
@@ -1192,7 +1525,13 @@
       "GR_M1_D08"
     ],
     "audio_id": "AUD_SEN_M1_D08_03",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_050",
+      "VOC_M1_052",
+      "VOC_M1_056"
+    ]
   },
   {
     "id": "SEN_M1_D08_04",
@@ -1213,7 +1552,14 @@
       "GR_M1_D08"
     ],
     "audio_id": "AUD_SEN_M1_D08_04",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_041",
+      "VOC_M1_054",
+      "VOC_M1_096",
+      "VOC_M1_088",
+      "VOC_M1_052"
+    ]
   },
   {
     "id": "SEN_M1_D08_05",
@@ -1234,7 +1580,14 @@
       "GR_M1_D08"
     ],
     "audio_id": "AUD_SEN_M1_D08_05",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_026",
+      "VOC_M1_050",
+      "VOC_M1_052",
+      "VOC_M1_057",
+      "VOC_M1_043"
+    ]
   },
   {
     "id": "SEN_M1_D08_06",
@@ -1253,7 +1606,13 @@
       "GR_M1_D08"
     ],
     "audio_id": "AUD_SEN_M1_D08_06",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_079",
+      "VOC_M1_052",
+      "VOC_M1_055"
+    ]
   },
   {
     "id": "SEN_M1_D08_07",
@@ -1266,14 +1625,19 @@
       "我們",
       "去",
       "餐廳",
-      "吃",
-      "飯"
+      "吃飯"
     ],
     "grammar_ids": [
       "GR_M1_D08"
     ],
     "audio_id": "AUD_SEN_M1_D08_07",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_006",
+      "VOC_M1_156",
+      "VOC_M1_060",
+      "VOC_D37_005"
+    ]
   },
   {
     "id": "SEN_M1_D08_08",
@@ -1284,8 +1648,7 @@
     "translation_ko": "여동생은 사과와 과일을 좋아합니다.",
     "tokens": [
       "妹妹",
-      "喜",
-      "歡",
+      "喜歡",
       "蘋果",
       "和",
       "水果"
@@ -1294,7 +1657,13 @@
       "GR_M1_D08"
     ],
     "audio_id": "AUD_SEN_M1_D08_08",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_031",
+      "VOC_M1_068",
+      "VOC_M1_059",
+      "VOC_M1_058"
+    ]
   },
   {
     "id": "SEN_M1_D09_01",
@@ -1307,8 +1676,7 @@
       "我",
       "想",
       "去",
-      "學",
-      "校",
+      "學校",
       "學",
       "中文"
     ],
@@ -1316,7 +1684,15 @@
       "GR_M1_D09"
     ],
     "audio_id": "AUD_SEN_M1_D09_01",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_050",
+      "VOC_M1_156",
+      "VOC_M1_149",
+      "VOC_M1_066",
+      "VOC_M1_069"
+    ]
   },
   {
     "id": "SEN_M1_D09_02",
@@ -1336,7 +1712,12 @@
       "GR_M1_D09"
     ],
     "audio_id": "AUD_SEN_M1_D09_02",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_004",
+      "VOC_M1_194",
+      "VOC_M1_065"
+    ]
   },
   {
     "id": "SEN_M1_D09_03",
@@ -1347,15 +1728,17 @@
     "translation_ko": "우리는 음악을 듣습니다.",
     "tokens": [
       "我們",
-      "聽",
-      "音",
-      "樂"
+      "聽音樂"
     ],
     "grammar_ids": [
       "GR_M1_D09"
     ],
     "audio_id": "AUD_SEN_M1_D09_03",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_006",
+      "VOC_D36_028"
+    ]
   },
   {
     "id": "SEN_M1_D09_04",
@@ -1367,14 +1750,18 @@
     "tokens": [
       "她",
       "喜歡",
-      "看",
-      "電影"
+      "看電影"
     ],
     "grammar_ids": [
       "GR_M1_D09"
     ],
     "audio_id": "AUD_SEN_M1_D09_04",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_005",
+      "VOC_M1_068",
+      "VOC_D37_006"
+    ]
   },
   {
     "id": "SEN_M1_D09_05",
@@ -1386,15 +1773,20 @@
     "tokens": [
       "你",
       "會",
-      "說",
-      "中文",
+      "說中文",
       "嗎"
     ],
     "grammar_ids": [
       "GR_M1_D09"
     ],
     "audio_id": "AUD_SEN_M1_D09_05",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_M1_194",
+      "VOC_D50_008",
+      "VOC_M1_016"
+    ]
   },
   {
     "id": "SEN_M1_D09_06",
@@ -1408,14 +1800,20 @@
       "今天",
       "想",
       "寫",
-      "名",
-      "字"
+      "名字"
     ],
     "grammar_ids": [
       "GR_M1_D09"
     ],
     "audio_id": "AUD_SEN_M1_D09_06",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_032",
+      "VOC_M1_050",
+      "VOC_M1_065",
+      "VOC_M1_077"
+    ]
   },
   {
     "id": "SEN_M1_D09_07",
@@ -1433,7 +1831,11 @@
       "GR_M1_D09"
     ],
     "audio_id": "AUD_SEN_M1_D09_07",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_028",
+      "VOC_M1_067"
+    ]
   },
   {
     "id": "SEN_M1_D09_08",
@@ -1445,15 +1847,18 @@
     "tokens": [
       "我",
       "不",
-      "想",
-      "看",
-      "電影"
+      "想看電影"
     ],
     "grammar_ids": [
       "GR_M1_D09"
     ],
     "audio_id": "AUD_SEN_M1_D09_08",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_079",
+      "VOC_D42_024"
+    ]
   },
   {
     "id": "SEN_M1_D10_01",
@@ -1464,15 +1869,19 @@
     "translation_ko": "무슨 일을 합니까?",
     "tokens": [
       "你",
-      "做",
-      "什麼",
+      "做什麼",
       "工作"
     ],
     "grammar_ids": [
       "GR_M1_D10"
     ],
     "audio_id": "AUD_SEN_M1_D10_01",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_D49_003",
+      "VOC_M1_076"
+    ]
   },
   {
     "id": "SEN_M1_D10_02",
@@ -1490,7 +1899,12 @@
       "GR_M1_D10"
     ],
     "audio_id": "AUD_SEN_M1_D10_02",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_004",
+      "VOC_M1_007",
+      "VOC_M1_072"
+    ]
   },
   {
     "id": "SEN_M1_D10_03",
@@ -1508,7 +1922,12 @@
       "GR_M1_D10"
     ],
     "audio_id": "AUD_SEN_M1_D10_03",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_M1_156",
+      "VOC_M1_073"
+    ]
   },
   {
     "id": "SEN_M1_D10_04",
@@ -1527,7 +1946,13 @@
       "GR_M1_D10"
     ],
     "audio_id": "AUD_SEN_M1_D10_04",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_M1_074",
+      "VOC_M1_066",
+      "VOC_M1_069"
+    ]
   },
   {
     "id": "SEN_M1_D10_05",
@@ -1540,14 +1965,17 @@
       "這",
       "個",
       "字",
-      "怎麼",
-      "說"
+      "怎麼說"
     ],
     "grammar_ids": [
       "GR_M1_D10"
     ],
     "audio_id": "AUD_SEN_M1_D10_05",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_041",
+      "VOC_D78_015"
+    ]
   },
   {
     "id": "SEN_M1_D10_06",
@@ -1566,7 +1994,13 @@
       "GR_M1_D10"
     ],
     "audio_id": "AUD_SEN_M1_D10_06",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_005",
+      "VOC_M1_008",
+      "VOC_M1_071",
+      "VOC_M1_077"
+    ]
   },
   {
     "id": "SEN_M1_D10_07",
@@ -1584,7 +2018,12 @@
       "GR_M1_D10"
     ],
     "audio_id": "AUD_SEN_M1_D10_07",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_060",
+      "VOC_M1_139",
+      "VOC_M1_073"
+    ]
   },
   {
     "id": "SEN_M1_D10_08",
@@ -1603,7 +2042,13 @@
       "GR_M1_D10"
     ],
     "audio_id": "AUD_SEN_M1_D10_08",
-    "difficulty": 1
+    "difficulty": 1,
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_M1_068",
+      "VOC_M1_071",
+      "VOC_M1_078"
+    ]
   },
   {
     "id": "SEN_M1_D11_01",
@@ -1615,14 +2060,18 @@
     "tokens": [
       "我",
       "不",
-      "喝",
-      "咖啡"
+      "喝咖啡"
     ],
     "grammar_ids": [
       "GR_M1_D11"
     ],
     "audio_id": "AUD_SEN_M1_D11_01",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_079",
+      "VOC_D37_004"
+    ]
   },
   {
     "id": "SEN_M1_D11_02",
@@ -1640,7 +2089,12 @@
       "GR_M1_D11"
     ],
     "audio_id": "AUD_SEN_M1_D11_02",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_004",
+      "VOC_M1_081",
+      "VOC_M1_082"
+    ]
   },
   {
     "id": "SEN_M1_D11_03",
@@ -1651,16 +2105,19 @@
     "translation_ko": "저는 고기를 먹고 싶지 않습니다.",
     "tokens": [
       "我",
-      "不",
-      "想",
-      "吃",
+      "不想吃",
       "肉"
     ],
     "grammar_ids": [
       "GR_M1_D11"
     ],
     "audio_id": "AUD_SEN_M1_D11_03",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_D41_028",
+      "VOC_M1_055"
+    ]
   },
   {
     "id": "SEN_M1_D11_04",
@@ -1678,7 +2135,12 @@
       "GR_M1_D11"
     ],
     "audio_id": "AUD_SEN_M1_D11_04",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_005",
+      "VOC_M1_081",
+      "VOC_M1_025"
+    ]
   },
   {
     "id": "SEN_M1_D11_05",
@@ -1692,14 +2154,20 @@
       "今天",
       "不",
       "去",
-      "學",
-      "校"
+      "學校"
     ],
     "grammar_ids": [
       "GR_M1_D11"
     ],
     "audio_id": "AUD_SEN_M1_D11_05",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_006",
+      "VOC_M1_032",
+      "VOC_M1_079",
+      "VOC_M1_156",
+      "VOC_M1_149"
+    ]
   },
   {
     "id": "SEN_M1_D11_06",
@@ -1719,7 +2187,14 @@
       "GR_M1_D11"
     ],
     "audio_id": "AUD_SEN_M1_D11_06",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_026",
+      "VOC_M1_084",
+      "VOC_M1_079",
+      "VOC_M1_051",
+      "VOC_M1_046"
+    ]
   },
   {
     "id": "SEN_M1_D11_07",
@@ -1739,7 +2214,13 @@
       "GR_M1_D11"
     ],
     "audio_id": "AUD_SEN_M1_D11_07",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_004",
+      "VOC_M1_085",
+      "VOC_M1_081",
+      "VOC_M1_024"
+    ]
   },
   {
     "id": "SEN_M1_D11_08",
@@ -1750,8 +2231,7 @@
     "translation_ko": "영화를 좋아하지 않습니까?",
     "tokens": [
       "你",
-      "不",
-      "喜歡",
+      "不喜歡",
       "電影",
       "嗎"
     ],
@@ -1759,7 +2239,13 @@
       "GR_M1_D11"
     ],
     "audio_id": "AUD_SEN_M1_D11_08",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_D42_001",
+      "VOC_M1_070",
+      "VOC_M1_016"
+    ]
   },
   {
     "id": "SEN_M1_D12_01",
@@ -1770,14 +2256,17 @@
     "translation_ko": "오늘은 덥습니다.",
     "tokens": [
       "今天",
-      "很",
-      "熱"
+      "很熱"
     ],
     "grammar_ids": [
       "GR_M1_D12"
     ],
     "audio_id": "AUD_SEN_M1_D12_01",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_032",
+      "VOC_D44_017"
+    ]
   },
   {
     "id": "SEN_M1_D12_02",
@@ -1796,7 +2285,13 @@
       "GR_M1_D12"
     ],
     "audio_id": "AUD_SEN_M1_D12_02",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_004",
+      "VOC_M1_029",
+      "VOC_M1_096",
+      "VOC_M1_094"
+    ]
   },
   {
     "id": "SEN_M1_D12_03",
@@ -1816,7 +2311,13 @@
       "GR_M1_D12"
     ],
     "audio_id": "AUD_SEN_M1_D12_03",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_041",
+      "VOC_M1_060",
+      "VOC_M1_096",
+      "VOC_M1_095"
+    ]
   },
   {
     "id": "SEN_M1_D12_04",
@@ -1836,7 +2337,14 @@
       "GR_M1_D12"
     ],
     "audio_id": "AUD_SEN_M1_D12_04",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_023",
+      "VOC_M1_039",
+      "VOC_M1_096",
+      "VOC_M1_087"
+    ]
   },
   {
     "id": "SEN_M1_D12_05",
@@ -1856,7 +2364,14 @@
       "GR_M1_D12"
     ],
     "audio_id": "AUD_SEN_M1_D12_05",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_M1_023",
+      "VOC_M1_069",
+      "VOC_M1_096",
+      "VOC_M1_088"
+    ]
   },
   {
     "id": "SEN_M1_D12_06",
@@ -1874,7 +2389,12 @@
       "GR_M1_D12"
     ],
     "audio_id": "AUD_SEN_M1_D12_06",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_032",
+      "VOC_M1_079",
+      "VOC_M1_092"
+    ]
   },
   {
     "id": "SEN_M1_D12_07",
@@ -1894,7 +2414,14 @@
       "GR_M1_D12"
     ],
     "audio_id": "AUD_SEN_M1_D12_07",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_004",
+      "VOC_M1_022",
+      "VOC_M1_096",
+      "VOC_M1_089",
+      "VOC_M1_042"
+    ]
   },
   {
     "id": "SEN_M1_D12_08",
@@ -1913,7 +2440,13 @@
       "GR_M1_D12"
     ],
     "audio_id": "AUD_SEN_M1_D12_08",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_031",
+      "VOC_M1_096",
+      "VOC_M1_093"
+    ]
   },
   {
     "id": "SEN_M1_D13_01",
@@ -1932,7 +2465,13 @@
       "GR_M1_D13"
     ],
     "audio_id": "AUD_SEN_M1_D13_01",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_022",
+      "VOC_M1_011",
+      "VOC_M1_103"
+    ]
   },
   {
     "id": "SEN_M1_D13_02",
@@ -1951,7 +2490,13 @@
       "GR_M1_D13"
     ],
     "audio_id": "AUD_SEN_M1_D13_02",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_004",
+      "VOC_M1_022",
+      "VOC_M1_100",
+      "VOC_M1_101"
+    ]
   },
   {
     "id": "SEN_M1_D13_03",
@@ -1970,7 +2515,13 @@
       "GR_M1_D13"
     ],
     "audio_id": "AUD_SEN_M1_D13_03",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_061",
+      "VOC_M1_009",
+      "VOC_M1_102"
+    ]
   },
   {
     "id": "SEN_M1_D13_04",
@@ -1991,7 +2542,15 @@
       "GR_M1_D13"
     ],
     "audio_id": "AUD_SEN_M1_D13_04",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_M1_061",
+      "VOC_M1_100",
+      "VOC_M1_099",
+      "VOC_M1_046",
+      "VOC_M1_016"
+    ]
   },
   {
     "id": "SEN_M1_D13_05",
@@ -2001,8 +2560,7 @@
     "translation_en": "There are five books here.",
     "translation_ko": "여기에 책 다섯 권이 있습니다.",
     "tokens": [
-      "這",
-      "裡",
+      "這裡",
       "有",
       "五",
       "本書"
@@ -2011,7 +2569,13 @@
       "GR_M1_D13"
     ],
     "audio_id": "AUD_SEN_M1_D13_05",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_122",
+      "VOC_M1_022",
+      "VOC_M1_013",
+      "VOC_M1_103"
+    ]
   },
   {
     "id": "SEN_M1_D13_06",
@@ -2029,7 +2593,12 @@
       "GR_M1_D13"
     ],
     "audio_id": "AUD_SEN_M1_D13_06",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_031",
+      "VOC_M1_081",
+      "VOC_M1_083"
+    ]
   },
   {
     "id": "SEN_M1_D13_07",
@@ -2040,8 +2609,7 @@
     "translation_ko": "저는 책 한 권을 사고 싶습니다.",
     "tokens": [
       "我",
-      "想",
-      "買",
+      "想買",
       "一",
       "本書"
     ],
@@ -2049,7 +2617,13 @@
       "GR_M1_D13"
     ],
     "audio_id": "AUD_SEN_M1_D13_07",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_D41_026",
+      "VOC_M1_009",
+      "VOC_M1_103"
+    ]
   },
   {
     "id": "SEN_M1_D13_08",
@@ -2069,7 +2643,14 @@
       "GR_M1_D13"
     ],
     "audio_id": "AUD_SEN_M1_D13_08",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_006",
+      "VOC_M1_061",
+      "VOC_M1_011",
+      "VOC_M1_099",
+      "VOC_M1_047"
+    ]
   },
   {
     "id": "SEN_M1_D14_01",
@@ -2088,7 +2669,13 @@
       "GR_M1_D14"
     ],
     "audio_id": "AUD_SEN_M1_D14_01",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_M1_050",
+      "VOC_M1_052",
+      "VOC_M1_071"
+    ]
   },
   {
     "id": "SEN_M1_D14_02",
@@ -2111,7 +2698,17 @@
       "GR_M1_D14"
     ],
     "audio_id": "AUD_SEN_M1_D14_02",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_050",
+      "VOC_M1_052",
+      "VOC_M1_057",
+      "VOC_M1_084",
+      "VOC_M1_050",
+      "VOC_M1_052",
+      "VOC_M1_054"
+    ]
   },
   {
     "id": "SEN_M1_D14_03",
@@ -2124,15 +2721,21 @@
       "你",
       "喝",
       "茶",
-      "還",
-      "是",
+      "還是",
       "咖啡"
     ],
     "grammar_ids": [
       "GR_M1_D14"
     ],
     "audio_id": "AUD_SEN_M1_D14_03",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_M1_051",
+      "VOC_M1_046",
+      "VOC_D42_017",
+      "VOC_M1_047"
+    ]
   },
   {
     "id": "SEN_M1_D14_04",
@@ -2152,7 +2755,14 @@
       "GR_M1_D14"
     ],
     "audio_id": "AUD_SEN_M1_D14_04",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_061",
+      "VOC_M1_009",
+      "VOC_M1_099",
+      "VOC_M1_046"
+    ]
   },
   {
     "id": "SEN_M1_D14_05",
@@ -2173,7 +2783,14 @@
       "GR_M1_D14"
     ],
     "audio_id": "AUD_SEN_M1_D14_05",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_041",
+      "VOC_M1_054",
+      "VOC_M1_096",
+      "VOC_M1_095",
+      "VOC_M1_016"
+    ]
   },
   {
     "id": "SEN_M1_D14_06",
@@ -2192,7 +2809,13 @@
       "GR_M1_D14"
     ],
     "audio_id": "AUD_SEN_M1_D14_06",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_079",
+      "VOC_M1_052",
+      "VOC_M1_055"
+    ]
   },
   {
     "id": "SEN_M1_D14_07",
@@ -2212,7 +2835,13 @@
       "GR_M1_D14"
     ],
     "audio_id": "AUD_SEN_M1_D14_07",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_039",
+      "VOC_M1_060",
+      "VOC_M1_096",
+      "VOC_M1_088"
+    ]
   },
   {
     "id": "SEN_M1_D14_08",
@@ -2227,15 +2856,22 @@
       "兩",
       "杯水",
       "和",
-      "一",
-      "份",
+      "一份",
       "麵"
     ],
     "grammar_ids": [
       "GR_M1_D14"
     ],
     "audio_id": "AUD_SEN_M1_D14_08",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_006",
+      "VOC_M1_061",
+      "VOC_M1_100",
+      "VOC_M1_102",
+      "VOC_D34_035",
+      "VOC_M1_044"
+    ]
   },
   {
     "id": "SEN_M1_D15_01",
@@ -2246,14 +2882,17 @@
     "translation_ko": "지금 몇 시입니까?",
     "tokens": [
       "現在",
-      "幾",
-      "點"
+      "幾點"
     ],
     "grammar_ids": [
       "GR_M1_D15"
     ],
     "audio_id": "AUD_SEN_M1_D15_01",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_104",
+      "VOC_D82_007"
+    ]
   },
   {
     "id": "SEN_M1_D15_02",
@@ -2271,7 +2910,12 @@
       "GR_M1_D15"
     ],
     "audio_id": "AUD_SEN_M1_D15_02",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_104",
+      "VOC_M1_011",
+      "VOC_M1_105"
+    ]
   },
   {
     "id": "SEN_M1_D15_03",
@@ -2289,7 +2933,12 @@
       "GR_M1_D15"
     ],
     "audio_id": "AUD_SEN_M1_D15_03",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_032",
+      "VOC_M1_108",
+      "VOC_M1_112"
+    ]
   },
   {
     "id": "SEN_M1_D15_04",
@@ -2307,7 +2956,12 @@
       "GR_M1_D15"
     ],
     "audio_id": "AUD_SEN_M1_D15_04",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_033",
+      "VOC_M1_108",
+      "VOC_M1_011"
+    ]
   },
   {
     "id": "SEN_M1_D15_05",
@@ -2326,7 +2980,13 @@
       "GR_M1_D15"
     ],
     "audio_id": "AUD_SEN_M1_D15_05",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_106",
+      "VOC_M1_066",
+      "VOC_M1_069"
+    ]
   },
   {
     "id": "SEN_M1_D15_06",
@@ -2345,7 +3005,13 @@
       "GR_M1_D15"
     ],
     "audio_id": "AUD_SEN_M1_D15_06",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_107",
+      "VOC_M1_006",
+      "VOC_M1_156",
+      "VOC_M1_060"
+    ]
   },
   {
     "id": "SEN_M1_D15_07",
@@ -2365,7 +3031,13 @@
       "GR_M1_D15"
     ],
     "audio_id": "AUD_SEN_M1_D15_07",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_109",
+      "VOC_M1_038",
+      "VOC_M1_115"
+    ]
   },
   {
     "id": "SEN_M1_D15_08",
@@ -2377,14 +3049,18 @@
     "tokens": [
       "早上",
       "我",
-      "喝",
-      "咖啡"
+      "喝咖啡"
     ],
     "grammar_ids": [
       "GR_M1_D15"
     ],
     "audio_id": "AUD_SEN_M1_D15_08",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_110",
+      "VOC_M1_002",
+      "VOC_D37_004"
+    ]
   },
   {
     "id": "SEN_M1_D16_01",
@@ -2404,7 +3080,14 @@
       "GR_M1_D16"
     ],
     "audio_id": "AUD_SEN_M1_D16_01",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_096",
+      "VOC_M1_088",
+      "VOC_M1_003",
+      "VOC_M1_111"
+    ]
   },
   {
     "id": "SEN_M1_D16_02",
@@ -2422,7 +3105,12 @@
       "GR_M1_D16"
     ],
     "audio_id": "AUD_SEN_M1_D16_02",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_M1_112",
+      "VOC_M1_115"
+    ]
   },
   {
     "id": "SEN_M1_D16_03",
@@ -2434,14 +3122,17 @@
     "tokens": [
       "這",
       "個",
-      "多少",
-      "錢"
+      "多少錢"
     ],
     "grammar_ids": [
       "GR_M1_D16"
     ],
     "audio_id": "AUD_SEN_M1_D16_03",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_041",
+      "VOC_D86_008"
+    ]
   },
   {
     "id": "SEN_M1_D16_04",
@@ -2462,7 +3153,15 @@
       "GR_M1_D16"
     ],
     "audio_id": "AUD_SEN_M1_D16_04",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_009",
+      "VOC_M1_099",
+      "VOC_M1_047",
+      "VOC_M1_013",
+      "VOC_M1_015",
+      "VOC_M1_116"
+    ]
   },
   {
     "id": "SEN_M1_D16_05",
@@ -2480,7 +3179,12 @@
       "GR_M1_D16"
     ],
     "audio_id": "AUD_SEN_M1_D16_05",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_032",
+      "VOC_M1_112",
+      "VOC_M1_117"
+    ]
   },
   {
     "id": "SEN_M1_D16_06",
@@ -2501,7 +3205,15 @@
       "GR_M1_D16"
     ],
     "audio_id": "AUD_SEN_M1_D16_06",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_M1_039",
+      "VOC_M1_022",
+      "VOC_M1_112",
+      "VOC_M1_041",
+      "VOC_M1_040"
+    ]
   },
   {
     "id": "SEN_M1_D16_07",
@@ -2513,14 +3225,17 @@
     "tokens": [
       "這",
       "本書",
-      "多少",
-      "錢"
+      "多少錢"
     ],
     "grammar_ids": [
       "GR_M1_D16"
     ],
     "audio_id": "AUD_SEN_M1_D16_07",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_103",
+      "VOC_D86_008"
+    ]
   },
   {
     "id": "SEN_M1_D16_08",
@@ -2531,8 +3246,7 @@
     "translation_ko": "저는 사과를 사고 싶습니다. 당신은요?",
     "tokens": [
       "我",
-      "想",
-      "買",
+      "想買",
       "蘋果",
       "你",
       "呢"
@@ -2541,7 +3255,14 @@
       "GR_M1_D16"
     ],
     "audio_id": "AUD_SEN_M1_D16_08",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_D41_026",
+      "VOC_M1_059",
+      "VOC_M1_003",
+      "VOC_M1_111"
+    ]
   },
   {
     "id": "SEN_M1_D17_01",
@@ -2561,7 +3282,14 @@
       "GR_M1_D17"
     ],
     "audio_id": "AUD_SEN_M1_D17_01",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_118",
+      "VOC_M1_120",
+      "VOC_M1_122",
+      "VOC_M1_016"
+    ]
   },
   {
     "id": "SEN_M1_D17_02",
@@ -2583,7 +3311,16 @@
       "GR_M1_D17"
     ],
     "audio_id": "AUD_SEN_M1_D17_02",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_118",
+      "VOC_M1_119",
+      "VOC_M1_003",
+      "VOC_M1_023",
+      "VOC_M1_025",
+      "VOC_M1_016"
+    ]
   },
   {
     "id": "SEN_M1_D17_03",
@@ -2602,7 +3339,13 @@
       "GR_M1_D17"
     ],
     "audio_id": "AUD_SEN_M1_D17_03",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_118",
+      "VOC_D77_012",
+      "VOC_M1_123",
+      "VOC_M1_016"
+    ]
   },
   {
     "id": "SEN_M1_D17_04",
@@ -2615,16 +3358,21 @@
       "你",
       "可以",
       "說",
-      "慢",
-      "一",
-      "點",
+      "慢一點",
       "嗎"
     ],
     "grammar_ids": [
       "GR_M1_D17"
     ],
     "audio_id": "AUD_SEN_M1_D17_04",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_M1_118",
+      "VOC_M1_064",
+      "VOC_D31_034",
+      "VOC_M1_016"
+    ]
   },
   {
     "id": "SEN_M1_D17_05",
@@ -2644,7 +3392,14 @@
       "GR_M1_D17"
     ],
     "audio_id": "AUD_SEN_M1_D17_05",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_118",
+      "VOC_M1_121",
+      "VOC_M1_121",
+      "VOC_M1_016"
+    ]
   },
   {
     "id": "SEN_M1_D17_06",
@@ -2656,15 +3411,20 @@
     "tokens": [
       "我們",
       "可以",
-      "喝",
-      "咖啡",
+      "喝咖啡",
       "嗎"
     ],
     "grammar_ids": [
       "GR_M1_D17"
     ],
     "audio_id": "AUD_SEN_M1_D17_06",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_006",
+      "VOC_M1_118",
+      "VOC_D37_004",
+      "VOC_M1_016"
+    ]
   },
   {
     "id": "SEN_M1_D17_07",
@@ -2683,7 +3443,13 @@
       "GR_M1_D17"
     ],
     "audio_id": "AUD_SEN_M1_D17_07",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_122",
+      "VOC_M1_118",
+      "VOC_M1_120",
+      "VOC_M1_016"
+    ]
   },
   {
     "id": "SEN_M1_D17_08",
@@ -2702,7 +3468,13 @@
       "GR_M1_D17"
     ],
     "audio_id": "AUD_SEN_M1_D17_08",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_M1_022",
+      "VOC_M1_124",
+      "VOC_M1_016"
+    ]
   },
   {
     "id": "SEN_M1_D18_01",
@@ -2714,14 +3486,18 @@
     "tokens": [
       "我",
       "喜歡",
-      "看",
-      "電影"
+      "看電影"
     ],
     "grammar_ids": [
       "GR_M1_D18"
     ],
     "audio_id": "AUD_SEN_M1_D18_01",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_068",
+      "VOC_D37_006"
+    ]
   },
   {
     "id": "SEN_M1_D18_02",
@@ -2733,8 +3509,7 @@
     "tokens": [
       "他",
       "最",
-      "愛",
-      "吃",
+      "愛吃",
       "台灣",
       "小吃"
     ],
@@ -2742,7 +3517,14 @@
       "GR_M1_D18"
     ],
     "audio_id": "AUD_SEN_M1_D18_02",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_004",
+      "VOC_M1_126",
+      "VOC_D42_004",
+      "VOC_M1_127",
+      "VOC_M1_128"
+    ]
   },
   {
     "id": "SEN_M1_D18_03",
@@ -2754,14 +3536,18 @@
     "tokens": [
       "她",
       "喜歡",
-      "聽",
-      "音樂"
+      "聽音樂"
     ],
     "grammar_ids": [
       "GR_M1_D18"
     ],
     "audio_id": "AUD_SEN_M1_D18_03",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_005",
+      "VOC_M1_068",
+      "VOC_D36_028"
+    ]
   },
   {
     "id": "SEN_M1_D18_04",
@@ -2772,16 +3558,19 @@
     "translation_ko": "저는 커피 마시는 것을 좋아하지 않습니다.",
     "tokens": [
       "我",
-      "不",
-      "喜歡",
-      "喝",
-      "咖啡"
+      "不喜歡",
+      "喝咖啡"
     ],
     "grammar_ids": [
       "GR_M1_D18"
     ],
     "audio_id": "AUD_SEN_M1_D18_04",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_D42_001",
+      "VOC_D37_004"
+    ]
   },
   {
     "id": "SEN_M1_D18_05",
@@ -2800,7 +3589,13 @@
       "GR_M1_D18"
     ],
     "audio_id": "AUD_SEN_M1_D18_05",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_M1_068",
+      "VOC_M1_130",
+      "VOC_M1_016"
+    ]
   },
   {
     "id": "SEN_M1_D18_06",
@@ -2818,7 +3613,12 @@
       "GR_M1_D18"
     ],
     "audio_id": "AUD_SEN_M1_D18_06",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_006",
+      "VOC_M1_125",
+      "VOC_M1_127"
+    ]
   },
   {
     "id": "SEN_M1_D18_07",
@@ -2836,7 +3636,12 @@
       "GR_M1_D18"
     ],
     "audio_id": "AUD_SEN_M1_D18_07",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_026",
+      "VOC_M1_068",
+      "VOC_M1_131"
+    ]
   },
   {
     "id": "SEN_M1_D18_08",
@@ -2847,15 +3652,19 @@
     "translation_ko": "저는 차를 가장 좋아합니다.",
     "tokens": [
       "我",
-      "最",
-      "喜歡",
+      "最喜歡",
       "茶"
     ],
     "grammar_ids": [
       "GR_M1_D18"
     ],
     "audio_id": "AUD_SEN_M1_D18_08",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_D42_003",
+      "VOC_M1_046"
+    ]
   },
   {
     "id": "SEN_M1_D19_01",
@@ -2878,7 +3687,17 @@
       "GR_M1_D19"
     ],
     "audio_id": "AUD_SEN_M1_D19_01",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_050",
+      "VOC_M1_132",
+      "VOC_M1_051",
+      "VOC_M1_045",
+      "VOC_M1_134",
+      "VOC_M1_066",
+      "VOC_M1_069"
+    ]
   },
   {
     "id": "SEN_M1_D19_02",
@@ -2892,14 +3711,20 @@
       "早上",
       "起床",
       "然後",
-      "吃",
-      "早餐"
+      "吃早餐"
     ],
     "grammar_ids": [
       "GR_M1_D19"
     ],
     "audio_id": "AUD_SEN_M1_D19_02",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_004",
+      "VOC_M1_110",
+      "VOC_M1_136",
+      "VOC_M1_133",
+      "VOC_D36_020"
+    ]
   },
   {
     "id": "SEN_M1_D19_03",
@@ -2921,7 +3746,16 @@
       "GR_M1_D19"
     ],
     "audio_id": "AUD_SEN_M1_D19_03",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_132",
+      "VOC_M1_156",
+      "VOC_M1_138",
+      "VOC_M1_134",
+      "VOC_M1_156",
+      "VOC_M1_060"
+    ]
   },
   {
     "id": "SEN_M1_D19_04",
@@ -2933,17 +3767,22 @@
     "tokens": [
       "我們",
       "先",
-      "看",
-      "電影",
+      "看電影",
       "然後",
-      "喝",
-      "咖啡"
+      "喝咖啡"
     ],
     "grammar_ids": [
       "GR_M1_D19"
     ],
     "audio_id": "AUD_SEN_M1_D19_04",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_006",
+      "VOC_M1_132",
+      "VOC_D37_006",
+      "VOC_M1_133",
+      "VOC_D37_004"
+    ]
   },
   {
     "id": "SEN_M1_D19_05",
@@ -2955,14 +3794,18 @@
     "tokens": [
       "最後",
       "我",
-      "回",
-      "家"
+      "回家"
     ],
     "grammar_ids": [
       "GR_M1_D19"
     ],
     "audio_id": "AUD_SEN_M1_D19_05",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_135",
+      "VOC_M1_002",
+      "VOC_D36_026"
+    ]
   },
   {
     "id": "SEN_M1_D19_06",
@@ -2983,7 +3826,15 @@
       "GR_M1_D19"
     ],
     "audio_id": "AUD_SEN_M1_D19_06",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_M1_132",
+      "VOC_M1_064",
+      "VOC_M1_002",
+      "VOC_M1_134",
+      "VOC_M1_065"
+    ]
   },
   {
     "id": "SEN_M1_D19_07",
@@ -2999,14 +3850,21 @@
       "書",
       "再",
       "去",
-      "學",
-      "校"
+      "學校"
     ],
     "grammar_ids": [
       "GR_M1_D19"
     ],
     "audio_id": "AUD_SEN_M1_D19_07",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_005",
+      "VOC_M1_132",
+      "VOC_M1_024",
+      "VOC_M1_134",
+      "VOC_M1_156",
+      "VOC_M1_149"
+    ]
   },
   {
     "id": "SEN_M1_D19_08",
@@ -3019,15 +3877,21 @@
       "我們",
       "最後",
       "去",
-      "公",
-      "園",
+      "公園",
       "走路"
     ],
     "grammar_ids": [
       "GR_M1_D19"
     ],
     "audio_id": "AUD_SEN_M1_D19_08",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_006",
+      "VOC_M1_135",
+      "VOC_M1_156",
+      "VOC_M1_150",
+      "VOC_M1_131"
+    ]
   },
   {
     "id": "SEN_M1_D20_01",
@@ -3040,14 +3904,19 @@
       "我",
       "在",
       "圖書館",
-      "看",
-      "書"
+      "看書"
     ],
     "grammar_ids": [
       "GR_M1_D20"
     ],
     "audio_id": "AUD_SEN_M1_D20_01",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_139",
+      "VOC_M1_146",
+      "VOC_D36_029"
+    ]
   },
   {
     "id": "SEN_M1_D20_02",
@@ -3057,20 +3926,24 @@
     "translation_en": "The school is to the left of the hospital.",
     "translation_ko": "학교는 병원 왼쪽에 있습니다.",
     "tokens": [
-      "學",
-      "校",
+      "學校",
       "在",
-      "醫",
-      "院",
+      "醫院",
       "的",
-      "左",
-      "邊"
+      "左邊"
     ],
     "grammar_ids": [
       "GR_M1_D20"
     ],
     "audio_id": "AUD_SEN_M1_D20_02",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_149",
+      "VOC_M1_139",
+      "VOC_M1_148",
+      "VOC_M1_023",
+      "VOC_D33_014"
+    ]
   },
   {
     "id": "SEN_M1_D20_03",
@@ -3091,7 +3964,13 @@
       "GR_M1_D20"
     ],
     "audio_id": "AUD_SEN_M1_D20_03",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_139",
+      "VOC_M1_006",
+      "VOC_M1_039",
+      "VOC_M1_142"
+    ]
   },
   {
     "id": "SEN_M1_D20_04",
@@ -3103,15 +3982,20 @@
     "tokens": [
       "手機",
       "在",
-      "桌",
-      "子",
+      "桌子",
       "上"
     ],
     "grammar_ids": [
       "GR_M1_D20"
     ],
     "audio_id": "AUD_SEN_M1_D20_04",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_025",
+      "VOC_M1_139",
+      "VOC_D58_013",
+      "VOC_M1_140"
+    ]
   },
   {
     "id": "SEN_M1_D20_05",
@@ -3123,15 +4007,20 @@
     "tokens": [
       "書",
       "在",
-      "椅",
-      "子",
+      "椅子",
       "下"
     ],
     "grammar_ids": [
       "GR_M1_D20"
     ],
     "audio_id": "AUD_SEN_M1_D20_05",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_024",
+      "VOC_M1_139",
+      "VOC_D58_014",
+      "VOC_M1_141"
+    ]
   },
   {
     "id": "SEN_M1_D20_06",
@@ -3150,7 +4039,13 @@
       "GR_M1_D20"
     ],
     "audio_id": "AUD_SEN_M1_D20_06",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_M1_139",
+      "VOC_M1_073",
+      "VOC_M1_076"
+    ]
   },
   {
     "id": "SEN_M1_D20_07",
@@ -3170,7 +4065,14 @@
       "GR_M1_D20"
     ],
     "audio_id": "AUD_SEN_M1_D20_07",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_139",
+      "VOC_M1_122",
+      "VOC_M1_184",
+      "VOC_M1_003"
+    ]
   },
   {
     "id": "SEN_M1_D20_08",
@@ -3183,14 +4085,19 @@
       "他",
       "在",
       "那裡",
-      "喝",
-      "咖啡"
+      "喝咖啡"
     ],
     "grammar_ids": [
       "GR_M1_D20"
     ],
     "audio_id": "AUD_SEN_M1_D20_08",
-    "difficulty": 2
+    "difficulty": 2,
+    "token_ids": [
+      "VOC_M1_004",
+      "VOC_M1_139",
+      "VOC_M1_145",
+      "VOC_D37_004"
+    ]
   },
   {
     "id": "SEN_M1_D21_01",
@@ -3206,16 +4113,24 @@
       "點",
       "我們",
       "在",
-      "公",
-      "園",
-      "見",
-      "面"
+      "公園",
+      "見面"
     ],
     "grammar_ids": [
       "GR_M1_D21"
     ],
     "audio_id": "AUD_SEN_M1_D21_01",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_033",
+      "VOC_M1_107",
+      "VOC_M1_011",
+      "VOC_M1_105",
+      "VOC_M1_006",
+      "VOC_M1_139",
+      "VOC_M1_150",
+      "VOC_M1_198"
+    ]
   },
   {
     "id": "SEN_M1_D21_02",
@@ -3228,16 +4143,21 @@
       "然後",
       "我們",
       "去",
-      "咖啡",
-      "店",
-      "喝",
-      "咖啡"
+      "咖啡店",
+      "喝咖啡"
     ],
     "grammar_ids": [
       "GR_M1_D21"
     ],
     "audio_id": "AUD_SEN_M1_D21_02",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_133",
+      "VOC_M1_006",
+      "VOC_M1_156",
+      "VOC_D37_019",
+      "VOC_D37_004"
+    ]
   },
   {
     "id": "SEN_M1_D21_03",
@@ -3257,7 +4177,14 @@
       "GR_M1_D21"
     ],
     "audio_id": "AUD_SEN_M1_D21_03",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_M1_118",
+      "VOC_M1_120",
+      "VOC_M1_122",
+      "VOC_M1_016"
+    ]
   },
   {
     "id": "SEN_M1_D21_04",
@@ -3270,14 +4197,19 @@
       "我",
       "想",
       "先",
-      "看",
-      "電影"
+      "看電影"
     ],
     "grammar_ids": [
       "GR_M1_D21"
     ],
     "audio_id": "AUD_SEN_M1_D21_04",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_050",
+      "VOC_M1_132",
+      "VOC_D37_006"
+    ]
   },
   {
     "id": "SEN_M1_D21_05",
@@ -3288,16 +4220,19 @@
     "translation_ko": "그녀는 커피 마시는 것을 좋아하지 않습니다.",
     "tokens": [
       "她",
-      "不",
-      "喜歡",
-      "喝",
-      "咖啡"
+      "不喜歡",
+      "喝咖啡"
     ],
     "grammar_ids": [
       "GR_M1_D21"
     ],
     "audio_id": "AUD_SEN_M1_D21_05",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_005",
+      "VOC_D42_001",
+      "VOC_D37_004"
+    ]
   },
   {
     "id": "SEN_M1_D21_06",
@@ -3316,7 +4251,13 @@
       "GR_M1_D21"
     ],
     "audio_id": "AUD_SEN_M1_D21_06",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_006",
+      "VOC_M1_135",
+      "VOC_M1_156",
+      "VOC_M1_146"
+    ]
   },
   {
     "id": "SEN_M1_D21_07",
@@ -3334,7 +4275,12 @@
       "GR_M1_D21"
     ],
     "audio_id": "AUD_SEN_M1_D21_07",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_146",
+      "VOC_M1_139",
+      "VOC_M1_073"
+    ]
   },
   {
     "id": "SEN_M1_D21_08",
@@ -3346,8 +4292,7 @@
     "tokens": [
       "今天",
       "的",
-      "計",
-      "畫",
+      "計畫",
       "很",
       "好"
     ],
@@ -3355,7 +4300,14 @@
       "GR_M1_D21"
     ],
     "audio_id": "AUD_SEN_M1_D21_08",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_032",
+      "VOC_M1_023",
+      "VOC_M1_199",
+      "VOC_M1_096",
+      "VOC_M1_088"
+    ]
   },
   {
     "id": "SEN_M1_D22_01",
@@ -3369,14 +4321,20 @@
       "下午",
       "去",
       "公園",
-      "散",
-      "步"
+      "散步"
     ],
     "grammar_ids": [
       "GR_M1_D22"
     ],
     "audio_id": "AUD_SEN_M1_D22_01",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_006",
+      "VOC_M1_107",
+      "VOC_M1_156",
+      "VOC_M1_150",
+      "VOC_D36_025"
+    ]
   },
   {
     "id": "SEN_M1_D22_02",
@@ -3398,7 +4356,14 @@
       "GR_M1_D22"
     ],
     "audio_id": "AUD_SEN_M1_D22_02",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_004",
+      "VOC_M1_033",
+      "VOC_M1_120",
+      "VOC_M1_153",
+      "VOC_M1_155"
+    ]
   },
   {
     "id": "SEN_M1_D22_03",
@@ -3417,7 +4382,13 @@
       "GR_M1_D22"
     ],
     "audio_id": "AUD_SEN_M1_D22_03",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_M1_156",
+      "VOC_M1_147",
+      "VOC_M1_016"
+    ]
   },
   {
     "id": "SEN_M1_D22_04",
@@ -3435,7 +4406,12 @@
       "GR_M1_D22"
     ],
     "audio_id": "AUD_SEN_M1_D22_04",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_148",
+      "VOC_M1_139",
+      "VOC_M1_073"
+    ]
   },
   {
     "id": "SEN_M1_D22_05",
@@ -3455,7 +4431,14 @@
       "GR_M1_D22"
     ],
     "audio_id": "AUD_SEN_M1_D22_05",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_120",
+      "VOC_M1_154",
+      "VOC_M1_156",
+      "VOC_M1_149"
+    ]
   },
   {
     "id": "SEN_M1_D22_06",
@@ -3474,7 +4457,13 @@
       "GR_M1_D22"
     ],
     "audio_id": "AUD_SEN_M1_D22_06",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_151",
+      "VOC_M1_139",
+      "VOC_M1_150",
+      "VOC_M1_142"
+    ]
   },
   {
     "id": "SEN_M1_D22_07",
@@ -3488,14 +4477,20 @@
       "坐",
       "飛機",
       "去",
-      "台",
-      "北"
+      "台北"
     ],
     "grammar_ids": [
       "GR_M1_D22"
     ],
     "audio_id": "AUD_SEN_M1_D22_07",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_026",
+      "VOC_M1_120",
+      "VOC_M1_152",
+      "VOC_M1_156",
+      "VOC_M1_197"
+    ]
   },
   {
     "id": "SEN_M1_D22_08",
@@ -3516,7 +4511,15 @@
       "GR_M1_D22"
     ],
     "audio_id": "AUD_SEN_M1_D22_08",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_M1_033",
+      "VOC_M1_155",
+      "VOC_M1_002",
+      "VOC_M1_039",
+      "VOC_M1_016"
+    ]
   },
   {
     "id": "SEN_M1_D23_01",
@@ -3535,7 +4538,13 @@
       "GR_M1_D23"
     ],
     "audio_id": "AUD_SEN_M1_D23_01",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_032",
+      "VOC_M1_157",
+      "VOC_M1_034",
+      "VOC_M1_091"
+    ]
   },
   {
     "id": "SEN_M1_D23_02",
@@ -3557,7 +4566,15 @@
       "GR_M1_D23"
     ],
     "audio_id": "AUD_SEN_M1_D23_02",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_041",
+      "VOC_M1_054",
+      "VOC_M1_157",
+      "VOC_M1_163",
+      "VOC_M1_054",
+      "VOC_M1_095"
+    ]
   },
   {
     "id": "SEN_M1_D23_03",
@@ -3577,7 +4594,14 @@
       "GR_M1_D23"
     ],
     "audio_id": "AUD_SEN_M1_D23_03",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_154",
+      "VOC_M1_157",
+      "VOC_M1_153",
+      "VOC_D84_029",
+      "VOC_M1_016"
+    ]
   },
   {
     "id": "SEN_M1_D23_04",
@@ -3600,7 +4624,15 @@
       "GR_M1_D23"
     ],
     "audio_id": "AUD_SEN_M1_D23_04",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_099",
+      "VOC_M1_047",
+      "VOC_M1_157",
+      "VOC_M1_099",
+      "VOC_M1_046",
+      "VOC_M1_159"
+    ]
   },
   {
     "id": "SEN_M1_D23_05",
@@ -3623,7 +4655,17 @@
       "GR_M1_D23"
     ],
     "audio_id": "AUD_SEN_M1_D23_05",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_023",
+      "VOC_M1_025",
+      "VOC_M1_157",
+      "VOC_M1_003",
+      "VOC_M1_023",
+      "VOC_M1_025",
+      "VOC_M1_161"
+    ]
   },
   {
     "id": "SEN_M1_D23_06",
@@ -3642,7 +4684,13 @@
       "GR_M1_D23"
     ],
     "audio_id": "AUD_SEN_M1_D23_06",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_032",
+      "VOC_M1_157",
+      "VOC_M1_034",
+      "VOC_M1_092"
+    ]
   },
   {
     "id": "SEN_M1_D23_07",
@@ -3653,8 +4701,7 @@
     "translation_ko": "그는 저보다 중국어를 잘합니다.",
     "tokens": [
       "他",
-      "說",
-      "中文",
+      "說中文",
       "比",
       "我",
       "好"
@@ -3663,7 +4710,14 @@
       "GR_M1_D23"
     ],
     "audio_id": "AUD_SEN_M1_D23_07",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_004",
+      "VOC_D50_008",
+      "VOC_M1_157",
+      "VOC_M1_002",
+      "VOC_M1_088"
+    ]
   },
   {
     "id": "SEN_M1_D23_08",
@@ -3683,7 +4737,13 @@
       "GR_M1_D23"
     ],
     "audio_id": "AUD_SEN_M1_D23_08",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_039",
+      "VOC_M1_060",
+      "VOC_M1_160",
+      "VOC_M1_095"
+    ]
   },
   {
     "id": "SEN_M1_D24_01",
@@ -3703,7 +4763,14 @@
       "GR_M1_D24"
     ],
     "audio_id": "AUD_SEN_M1_D24_01",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_168",
+      "VOC_M1_139",
+      "VOC_M1_147",
+      "VOC_M1_023",
+      "VOC_M1_142"
+    ]
   },
   {
     "id": "SEN_M1_D24_02",
@@ -3717,14 +4784,20 @@
       "在",
       "學校",
       "的",
-      "後",
-      "面"
+      "後面"
     ],
     "grammar_ids": [
       "GR_M1_D24"
     ],
     "audio_id": "AUD_SEN_M1_D24_02",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_146",
+      "VOC_M1_139",
+      "VOC_M1_149",
+      "VOC_M1_023",
+      "VOC_D33_013"
+    ]
   },
   {
     "id": "SEN_M1_D24_03",
@@ -3742,7 +4815,12 @@
       "GR_M1_D24"
     ],
     "audio_id": "AUD_SEN_M1_D24_03",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_169",
+      "VOC_M1_139",
+      "VOC_M1_073"
+    ]
   },
   {
     "id": "SEN_M1_D24_04",
@@ -3754,15 +4832,20 @@
     "tokens": [
       "手機",
       "在",
-      "包",
-      "包",
+      "包包",
       "裡面"
     ],
     "grammar_ids": [
       "GR_M1_D24"
     ],
     "audio_id": "AUD_SEN_M1_D24_04",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_025",
+      "VOC_M1_139",
+      "VOC_D43_016",
+      "VOC_M1_166"
+    ]
   },
   {
     "id": "SEN_M1_D24_05",
@@ -3782,7 +4865,14 @@
       "GR_M1_D24"
     ],
     "audio_id": "AUD_SEN_M1_D24_05",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_004",
+      "VOC_M1_139",
+      "VOC_M1_167",
+      "VOC_M1_184",
+      "VOC_M1_003"
+    ]
   },
   {
     "id": "SEN_M1_D24_06",
@@ -3798,14 +4888,20 @@
       "條",
       "路",
       "的",
-      "右",
-      "邊"
+      "右邊"
     ],
     "grammar_ids": [
       "GR_M1_D24"
     ],
     "audio_id": "AUD_SEN_M1_D24_06",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_148",
+      "VOC_M1_139",
+      "VOC_M1_170",
+      "VOC_M1_023",
+      "VOC_D33_015"
+    ]
   },
   {
     "id": "SEN_M1_D24_07",
@@ -3819,14 +4915,20 @@
       "在",
       "車站",
       "的",
-      "左",
-      "邊"
+      "左邊"
     ],
     "grammar_ids": [
       "GR_M1_D24"
     ],
     "audio_id": "AUD_SEN_M1_D24_07",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_150",
+      "VOC_M1_139",
+      "VOC_M1_151",
+      "VOC_M1_023",
+      "VOC_D33_014"
+    ]
   },
   {
     "id": "SEN_M1_D24_08",
@@ -3839,14 +4941,19 @@
       "餐廳",
       "在",
       "銀行",
-      "後",
-      "面"
+      "後面"
     ],
     "grammar_ids": [
       "GR_M1_D24"
     ],
     "audio_id": "AUD_SEN_M1_D24_08",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_060",
+      "VOC_M1_139",
+      "VOC_M1_168",
+      "VOC_D33_013"
+    ]
   },
   {
     "id": "SEN_M1_D25_01",
@@ -3867,7 +4974,14 @@
       "GR_M1_D25"
     ],
     "audio_id": "AUD_SEN_M1_D25_01",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_171",
+      "VOC_M1_156",
+      "VOC_M1_168",
+      "VOC_M1_114"
+    ]
   },
   {
     "id": "SEN_M1_D25_02",
@@ -3888,7 +5002,14 @@
       "GR_M1_D25"
     ],
     "audio_id": "AUD_SEN_M1_D25_02",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_175",
+      "VOC_M1_104",
+      "VOC_M1_002",
+      "VOC_M1_173",
+      "VOC_M1_174"
+    ]
   },
   {
     "id": "SEN_M1_D25_03",
@@ -3907,7 +5028,13 @@
       "GR_M1_D25"
     ],
     "audio_id": "AUD_SEN_M1_D25_03",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_172",
+      "VOC_M1_066",
+      "VOC_M1_069"
+    ]
   },
   {
     "id": "SEN_M1_D25_04",
@@ -3926,7 +5053,13 @@
       "GR_M1_D25"
     ],
     "audio_id": "AUD_SEN_M1_D25_04",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_M1_171",
+      "VOC_M1_177",
+      "VOC_M1_016"
+    ]
   },
   {
     "id": "SEN_M1_D25_05",
@@ -3946,7 +5079,13 @@
       "GR_M1_D25"
     ],
     "audio_id": "AUD_SEN_M1_D25_05",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_171",
+      "VOC_M1_009",
+      "VOC_M1_178"
+    ]
   },
   {
     "id": "SEN_M1_D25_06",
@@ -3967,7 +5106,15 @@
       "GR_M1_D25"
     ],
     "audio_id": "AUD_SEN_M1_D25_06",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_006",
+      "VOC_M1_172",
+      "VOC_M1_120",
+      "VOC_M1_154",
+      "VOC_M1_156",
+      "VOC_M1_149"
+    ]
   },
   {
     "id": "SEN_M1_D25_07",
@@ -3987,7 +5134,14 @@
       "GR_M1_D25"
     ],
     "audio_id": "AUD_SEN_M1_D25_07",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_004",
+      "VOC_M1_173",
+      "VOC_M1_110",
+      "VOC_M1_156",
+      "VOC_M1_138"
+    ]
   },
   {
     "id": "SEN_M1_D25_08",
@@ -4006,7 +5160,13 @@
       "GR_M1_D25"
     ],
     "audio_id": "AUD_SEN_M1_D25_08",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_171",
+      "VOC_M1_176",
+      "VOC_M1_025"
+    ]
   },
   {
     "id": "SEN_M1_D26_01",
@@ -4023,7 +5183,11 @@
       "GR_M1_D26"
     ],
     "audio_id": "AUD_SEN_M1_D26_01",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_179",
+      "VOC_M1_180"
+    ]
   },
   {
     "id": "SEN_M1_D26_02",
@@ -4034,17 +5198,21 @@
     "translation_ko": "잠깐 도와주실 수 있습니까?",
     "tokens": [
       "請",
-      "幫",
-      "我",
+      "幫我",
       "一下",
-      "可以",
-      "嗎"
+      "可以嗎"
     ],
     "grammar_ids": [
       "GR_M1_D26"
     ],
     "audio_id": "AUD_SEN_M1_D26_02",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_179",
+      "VOC_D31_004",
+      "VOC_M1_123",
+      "VOC_D78_012"
+    ]
   },
   {
     "id": "SEN_M1_D26_03",
@@ -4063,7 +5231,13 @@
       "GR_M1_D26"
     ],
     "audio_id": "AUD_SEN_M1_D26_03",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_179",
+      "VOC_M1_182",
+      "VOC_M1_002",
+      "VOC_M1_155"
+    ]
   },
   {
     "id": "SEN_M1_D26_04",
@@ -4074,14 +5248,17 @@
     "translation_ko": "잠깐 기다려 주세요.",
     "tokens": [
       "請",
-      "等",
-      "一下"
+      "等一下"
     ],
     "grammar_ids": [
       "GR_M1_D26"
     ],
     "audio_id": "AUD_SEN_M1_D26_04",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_179",
+      "VOC_D31_032"
+    ]
   },
   {
     "id": "SEN_M1_D26_05",
@@ -4092,15 +5269,19 @@
     "translation_ko": "메뉴를 주세요.",
     "tokens": [
       "請",
-      "給",
-      "我",
+      "給我",
       "菜單"
     ],
     "grammar_ids": [
       "GR_M1_D26"
     ],
     "audio_id": "AUD_SEN_M1_D26_05",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_179",
+      "VOC_D31_005",
+      "VOC_M1_185"
+    ]
   },
   {
     "id": "SEN_M1_D26_06",
@@ -4120,7 +5301,14 @@
       "GR_M1_D26"
     ],
     "audio_id": "AUD_SEN_M1_D26_06",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_061",
+      "VOC_M1_009",
+      "VOC_M1_041",
+      "VOC_M1_186"
+    ]
   },
   {
     "id": "SEN_M1_D26_07",
@@ -4133,15 +5321,21 @@
       "你",
       "想",
       "一起",
-      "喝",
-      "咖啡",
+      "喝咖啡",
       "嗎"
     ],
     "grammar_ids": [
       "GR_M1_D26"
     ],
     "audio_id": "AUD_SEN_M1_D26_07",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_M1_050",
+      "VOC_M1_183",
+      "VOC_D37_004",
+      "VOC_M1_016"
+    ]
   },
   {
     "id": "SEN_M1_D26_08",
@@ -4155,16 +5349,22 @@
       "請",
       "你",
       "說",
-      "慢",
-      "一",
-      "點",
+      "慢一點",
       "嗎"
     ],
     "grammar_ids": [
       "GR_M1_D26"
     ],
     "audio_id": "AUD_SEN_M1_D26_08",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_118",
+      "VOC_M1_179",
+      "VOC_M1_003",
+      "VOC_M1_064",
+      "VOC_D31_034",
+      "VOC_M1_016"
+    ]
   },
   {
     "id": "SEN_M1_D27_01",
@@ -4186,7 +5386,15 @@
       "GR_M1_D27"
     ],
     "audio_id": "AUD_SEN_M1_D27_01",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_023",
+      "VOC_M1_187",
+      "VOC_M1_007",
+      "VOC_M1_188",
+      "VOC_M1_189"
+    ]
   },
   {
     "id": "SEN_M1_D27_02",
@@ -4207,7 +5415,15 @@
       "GR_M1_D27"
     ],
     "audio_id": "AUD_SEN_M1_D27_02",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_068",
+      "VOC_M1_191",
+      "VOC_M1_084",
+      "VOC_M1_068",
+      "VOC_M1_130"
+    ]
   },
   {
     "id": "SEN_M1_D27_03",
@@ -4218,15 +5434,19 @@
     "translation_ko": "그는 운동을 좋아하지 않습니다.",
     "tokens": [
       "他",
-      "不",
-      "喜歡",
+      "不喜歡",
       "運動"
     ],
     "grammar_ids": [
       "GR_M1_D27"
     ],
     "audio_id": "AUD_SEN_M1_D27_03",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_004",
+      "VOC_D42_001",
+      "VOC_M1_190"
+    ]
   },
   {
     "id": "SEN_M1_D27_04",
@@ -4245,7 +5465,13 @@
       "GR_M1_D27"
     ],
     "audio_id": "AUD_SEN_M1_D27_04",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_M1_194",
+      "VOC_M1_193",
+      "VOC_M1_016"
+    ]
   },
   {
     "id": "SEN_M1_D27_05",
@@ -4264,7 +5490,13 @@
       "GR_M1_D27"
     ],
     "audio_id": "AUD_SEN_M1_D27_05",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_031",
+      "VOC_M1_126",
+      "VOC_M1_125",
+      "VOC_M1_188"
+    ]
   },
   {
     "id": "SEN_M1_D27_06",
@@ -4284,7 +5516,14 @@
       "GR_M1_D27"
     ],
     "audio_id": "AUD_SEN_M1_D27_06",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_006",
+      "VOC_M1_107",
+      "VOC_M1_156",
+      "VOC_M1_150",
+      "VOC_M1_192"
+    ]
   },
   {
     "id": "SEN_M1_D27_07",
@@ -4304,7 +5543,14 @@
       "GR_M1_D27"
     ],
     "audio_id": "AUD_SEN_M1_D27_07",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_023",
+      "VOC_M1_042",
+      "VOC_M1_068",
+      "VOC_M1_189"
+    ]
   },
   {
     "id": "SEN_M1_D27_08",
@@ -4324,7 +5570,14 @@
       "GR_M1_D27"
     ],
     "audio_id": "AUD_SEN_M1_D27_08",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_M1_023",
+      "VOC_M1_187",
+      "VOC_M1_007",
+      "VOC_M1_071"
+    ]
   },
   {
     "id": "SEN_M1_D28_01",
@@ -4344,7 +5597,14 @@
       "GR_M1_D28"
     ],
     "audio_id": "AUD_SEN_M1_D28_01",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_033",
+      "VOC_M1_002",
+      "VOC_M1_194",
+      "VOC_M1_156",
+      "VOC_M1_197"
+    ]
   },
   {
     "id": "SEN_M1_D28_02",
@@ -4355,15 +5615,19 @@
     "translation_ko": "저는 수영을 배우고 싶습니다.",
     "tokens": [
       "我",
-      "想",
-      "學",
+      "想學",
       "游泳"
     ],
     "grammar_ids": [
       "GR_M1_D28"
     ],
     "audio_id": "AUD_SEN_M1_D28_02",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_D84_016",
+      "VOC_M1_193"
+    ]
   },
   {
     "id": "SEN_M1_D28_03",
@@ -4382,7 +5646,13 @@
       "GR_M1_D28"
     ],
     "audio_id": "AUD_SEN_M1_D28_03",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_006",
+      "VOC_M1_195",
+      "VOC_M1_200",
+      "VOC_M1_198"
+    ]
   },
   {
     "id": "SEN_M1_D28_04",
@@ -4402,7 +5672,14 @@
       "GR_M1_D28"
     ],
     "audio_id": "AUD_SEN_M1_D28_04",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_004",
+      "VOC_M1_196",
+      "VOC_M1_066",
+      "VOC_M1_088",
+      "VOC_M1_069"
+    ]
   },
   {
     "id": "SEN_M1_D28_05",
@@ -4415,14 +5692,19 @@
       "你",
       "明天",
       "要",
-      "做",
-      "什麼"
+      "做什麼"
     ],
     "grammar_ids": [
       "GR_M1_D28"
     ],
     "audio_id": "AUD_SEN_M1_D28_05",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_M1_033",
+      "VOC_M1_061",
+      "VOC_D49_003"
+    ]
   },
   {
     "id": "SEN_M1_D28_06",
@@ -4443,7 +5725,15 @@
       "GR_M1_D28"
     ],
     "audio_id": "AUD_SEN_M1_D28_06",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_194",
+      "VOC_M1_120",
+      "VOC_M1_154",
+      "VOC_M1_156",
+      "VOC_M1_138"
+    ]
   },
   {
     "id": "SEN_M1_D28_07",
@@ -4463,7 +5753,14 @@
       "GR_M1_D28"
     ],
     "audio_id": "AUD_SEN_M1_D28_07",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_006",
+      "VOC_M1_023",
+      "VOC_M1_199",
+      "VOC_M1_096",
+      "VOC_M1_088"
+    ]
   },
   {
     "id": "SEN_M1_D28_08",
@@ -4476,14 +5773,19 @@
       "她",
       "不",
       "打算",
-      "喝",
-      "咖啡"
+      "喝咖啡"
     ],
     "grammar_ids": [
       "GR_M1_D28"
     ],
     "audio_id": "AUD_SEN_M1_D28_08",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_005",
+      "VOC_M1_079",
+      "VOC_M1_195",
+      "VOC_D37_004"
+    ]
   },
   {
     "id": "SEN_M1_D29_01",
@@ -4504,7 +5806,15 @@
       "GR_M1_D29"
     ],
     "audio_id": "AUD_SEN_M1_D29_01",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_032",
+      "VOC_M1_110",
+      "VOC_M1_002",
+      "VOC_M1_132",
+      "VOC_M1_051",
+      "VOC_M1_045"
+    ]
   },
   {
     "id": "SEN_M1_D29_02",
@@ -4525,7 +5835,15 @@
       "GR_M1_D29"
     ],
     "audio_id": "AUD_SEN_M1_D29_02",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_133",
+      "VOC_M1_002",
+      "VOC_M1_139",
+      "VOC_M1_039",
+      "VOC_M1_066",
+      "VOC_M1_069"
+    ]
   },
   {
     "id": "SEN_M1_D29_03",
@@ -4545,7 +5863,14 @@
       "GR_M1_D29"
     ],
     "audio_id": "AUD_SEN_M1_D29_03",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_107",
+      "VOC_M1_002",
+      "VOC_M1_156",
+      "VOC_M1_138",
+      "VOC_M1_076"
+    ]
   },
   {
     "id": "SEN_M1_D29_04",
@@ -4557,20 +5882,24 @@
     "tokens": [
       "我",
       "不",
-      "喝",
-      "咖啡",
-      "因",
-      "為",
+      "喝咖啡",
+      "因為",
       "我",
-      "想",
-      "喝",
-      "茶"
+      "想喝茶"
     ],
     "grammar_ids": [
       "GR_M1_D29"
     ],
     "audio_id": "AUD_SEN_M1_D29_04",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_079",
+      "VOC_D37_004",
+      "VOC_D34_011",
+      "VOC_M1_002",
+      "VOC_D42_023"
+    ]
   },
   {
     "id": "SEN_M1_D29_05",
@@ -4580,8 +5909,7 @@
     "translation_en": "In the evening I do not have class.",
     "translation_ko": "저녁에 저는 수업이 없습니다.",
     "tokens": [
-      "晚",
-      "上",
+      "晚上",
       "我",
       "沒有",
       "課"
@@ -4590,7 +5918,13 @@
       "GR_M1_D29"
     ],
     "audio_id": "AUD_SEN_M1_D29_05",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_D36_003",
+      "VOC_M1_002",
+      "VOC_M1_081",
+      "VOC_D71_007"
+    ]
   },
   {
     "id": "SEN_M1_D29_06",
@@ -4603,14 +5937,19 @@
       "我",
       "在",
       "圖書館",
-      "看",
-      "書"
+      "看書"
     ],
     "grammar_ids": [
       "GR_M1_D29"
     ],
     "audio_id": "AUD_SEN_M1_D29_06",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_139",
+      "VOC_M1_146",
+      "VOC_D36_029"
+    ]
   },
   {
     "id": "SEN_M1_D29_07",
@@ -4622,16 +5961,20 @@
     "tokens": [
       "最後",
       "我",
-      "回",
-      "家",
-      "吃",
-      "飯"
+      "回家",
+      "吃飯"
     ],
     "grammar_ids": [
       "GR_M1_D29"
     ],
     "audio_id": "AUD_SEN_M1_D29_07",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_135",
+      "VOC_M1_002",
+      "VOC_D36_026",
+      "VOC_D37_005"
+    ]
   },
   {
     "id": "SEN_M1_D29_08",
@@ -4647,8 +5990,7 @@
       "天",
       "很",
       "忙",
-      "但",
-      "是",
+      "但是",
       "很",
       "好"
     ],
@@ -4656,7 +5998,18 @@
       "GR_M1_D29"
     ],
     "audio_id": "AUD_SEN_M1_D29_08",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_023",
+      "VOC_M1_009",
+      "VOC_D56_033",
+      "VOC_M1_096",
+      "VOC_D34_019",
+      "VOC_D67_002",
+      "VOC_M1_096",
+      "VOC_M1_088"
+    ]
   },
   {
     "id": "SEN_M1_D30_01",
@@ -4676,7 +6029,12 @@
       "GR_M1_D30"
     ],
     "audio_id": "AUD_SEN_M1_D30_01",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_001",
+      "VOC_M1_002",
+      "VOC_M1_008"
+    ]
   },
   {
     "id": "SEN_M1_D30_02",
@@ -4697,7 +6055,15 @@
       "GR_M1_D30"
     ],
     "audio_id": "AUD_SEN_M1_D30_02",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_039",
+      "VOC_M1_022",
+      "VOC_M1_012",
+      "VOC_M1_041",
+      "VOC_M1_040"
+    ]
   },
   {
     "id": "SEN_M1_D30_03",
@@ -4716,7 +6082,13 @@
       "GR_M1_D30"
     ],
     "audio_id": "AUD_SEN_M1_D30_03",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_068",
+      "VOC_M1_127",
+      "VOC_M1_128"
+    ]
   },
   {
     "id": "SEN_M1_D30_04",
@@ -4737,7 +6109,15 @@
       "GR_M1_D30"
     ],
     "audio_id": "AUD_SEN_M1_D30_04",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_032",
+      "VOC_M1_107",
+      "VOC_M1_002",
+      "VOC_M1_050",
+      "VOC_M1_156",
+      "VOC_M1_150"
+    ]
   },
   {
     "id": "SEN_M1_D30_05",
@@ -4757,7 +6137,14 @@
       "GR_M1_D30"
     ],
     "audio_id": "AUD_SEN_M1_D30_05",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_M1_118",
+      "VOC_M1_120",
+      "VOC_M1_122",
+      "VOC_M1_016"
+    ]
   },
   {
     "id": "SEN_M1_D30_06",
@@ -4770,14 +6157,19 @@
       "圖書館",
       "在",
       "學校",
-      "後",
-      "面"
+      "後面"
     ],
     "grammar_ids": [
       "GR_M1_D30"
     ],
     "audio_id": "AUD_SEN_M1_D30_06",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_146",
+      "VOC_M1_139",
+      "VOC_M1_149",
+      "VOC_D33_013"
+    ]
   },
   {
     "id": "SEN_M1_D30_07",
@@ -4796,7 +6188,13 @@
       "GR_M1_D30"
     ],
     "audio_id": "AUD_SEN_M1_D30_07",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_032",
+      "VOC_M1_157",
+      "VOC_M1_034",
+      "VOC_M1_091"
+    ]
   },
   {
     "id": "SEN_M1_D30_08",
@@ -4818,6 +6216,15 @@
       "GR_M1_D30"
     ],
     "audio_id": "AUD_SEN_M1_D30_08",
-    "difficulty": 3
+    "difficulty": 3,
+    "token_ids": [
+      "VOC_M1_033",
+      "VOC_M1_002",
+      "VOC_M1_195",
+      "VOC_M1_120",
+      "VOC_M1_154",
+      "VOC_M1_156",
+      "VOC_M1_197"
+    ]
   }
 ]

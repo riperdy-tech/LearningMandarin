@@ -24,6 +24,7 @@ VOCAB_FILES = [
     DATA / "vocab_days46_90.json",
 ]
 SENTENCE_TARGETS = [
+    DATA / "sentences_month1.json",
     DATA / "sentences_days31_45.json",
     DATA / "sentences_days46_90.json",
 ]
