@@ -21770,7 +21770,7 @@
         "text": "你好，我想要一份牛肉麵，不要辣，謝謝。",
         "pinyin": "Nǐ hǎo, wǒ xiǎng yào yī fèn niúròumiàn, bù yào là, xièxie.",
         "pinyin_numeric": "Ni3 hao3, wo3 xiang3 yao4 yi1 fen4 niu2rou4mian4, bu4 yao4 la4, xie4xie.",
-        "translation_en": "Hello, I'd like one bowl of beef noodles, no spicy, thank you.",
+        "translation_en": "Hello, I'd like one bowl of beef noodles, not spicy, thank you.",
         "translation_ko": "안녕하세요, 소고기 국수 한 그릇 주세요, 맵지 않게 해 주세요, 감사합니다.",
         "token_ids": [
           "VOC_M1_001",
@@ -21789,7 +21789,7 @@
         "text": "好的，牛肉麵一份，不要辣。還要別的嗎？",
         "pinyin": "Hǎo de, niúròumiàn yī fèn, bù yào là. Hái yào bié de ma?",
         "pinyin_numeric": "Hao3 de, niu2rou4mian4 yi1 fen4, bu4 yao4 la4. Hai2 yao4 bie2 de ma?",
-        "translation_en": "Okay, one beef noodles, no spicy. Anything else?",
+        "translation_en": "Okay, one bowl of beef noodles, not spicy. Anything else?",
         "translation_ko": "네, 소고기 국수 한 그릇, 맵지 않게요. 다른 것도 드릴까요?",
         "token_ids": [
           "VOC_M1_088",

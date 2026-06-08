@@ -956,78 +956,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D31_031",
-    "text": "你好，我想要一杯小杯的拿鐵，可以嗎？",
-    "pinyin": "Nǐ hǎo, wǒ xiǎng yào yī bēi xiǎo bēi de ná tiě, kě yǐ ma?",
-    "pinyin_numeric": "ni3 hao3, wo3 xiang3 yao4 yi1 bei1 xiao3 bei1 de5 na2 tie3, ke3 yi3 ma0?",
-    "translation_en": "Hello, I would like a small latte, okay?",
-    "translation_ko": "안녕하세요, 작은 라떼 한 잔을 원하는데 괜찮을까요?",
-    "token_ids": [
-      "VOC_M1_001",
-      "VOC_M1_002",
-      "VOC_D31_001",
-      "VOC_M1_009",
-      "VOC_M1_099",
-      "VOC_D31_006",
-      "VOC_M1_023",
-      "VOC_D31_009",
-      "VOC_D78_012"
-    ],
-    "grammar_ids": [
-      "GR_D31_CAN_REQUEST"
-    ],
-    "audio_id": "AUD_SEN_D31_031",
-    "day_introduced": 31,
-    "tokens": [
-      "你好",
-      "我",
-      "想要",
-      "一",
-      "杯",
-      "小杯",
-      "的",
-      "拿鐵",
-      "可以嗎"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D31_032",
-    "text": "麻煩你，可以幫我點一杯紅茶嗎？",
-    "pinyin": "Má fan nǐ, kě yǐ bāng wǒ diǎn yī bēi hóng chá ma?",
-    "pinyin_numeric": "ma2 fan5 ni3, ke3 yi3 bang1 wo3 dian3 yi1 bei1 hong2 cha2 ma0?",
-    "translation_en": "Excuse me, could you help me order a black tea?",
-    "translation_ko": "실례합니다, 홍차 한 잔 주문하는 것을 도와주시겠어요?",
-    "token_ids": [
-      "VOC_D39_018",
-      "VOC_M1_118",
-      "VOC_D31_004",
-      "VOC_M1_105",
-      "VOC_M1_009",
-      "VOC_M1_099",
-      "VOC_D31_011",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D31_CAN_REQUEST"
-    ],
-    "audio_id": "AUD_SEN_D31_032",
-    "day_introduced": 31,
-    "tokens": [
-      "麻煩你",
-      "可以",
-      "幫我",
-      "點",
-      "一",
-      "杯",
-      "紅茶",
-      "嗎"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D31_033",
     "text": "不好意思，我想要一杯綠茶，半糖，可以嗎？",
     "pinyin": "Bù hǎo yì si, wǒ xiǎng yào yī bēi lǜ chá, bàn táng, kě yǐ ma?",
@@ -1098,35 +1026,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D31_035",
-    "text": "請問，可以幫我加珍珠嗎？",
-    "pinyin": "Qǐng wèn, kě yǐ bāng wǒ jiā zhēn zhū ma?",
-    "pinyin_numeric": "qing3 wen4, ke3 yi3 bang1 wo3 jia1 zhen1 zhu1 ma0?",
-    "translation_en": "Excuse me, could you add boba for me?",
-    "translation_ko": "실례합니다, 펄을 추가해 주시겠어요?",
-    "token_ids": [
-      "VOC_D33_026",
-      "VOC_M1_118",
-      "VOC_D31_004",
-      "VOC_D31_030",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D31_CAN_REQUEST"
-    ],
-    "audio_id": "AUD_SEN_D31_035",
-    "day_introduced": 31,
-    "tokens": [
-      "請問",
-      "可以",
-      "幫我",
-      "加珍珠",
-      "嗎"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D31_036",
     "text": "我想要一杯豆漿，去冰，可以嗎？",
     "pinyin": "Wǒ xiǎng yào yī bēi dòu jiāng, qù bīng, kě yǐ ma?",
@@ -1155,40 +1054,6 @@
       "豆漿",
       "去冰",
       "可以嗎"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D31_037",
-    "text": "不好意思，可以再說一次嗎？我聽不懂。",
-    "pinyin": "Bù hǎo yì si, kě yǐ zài shuō yī cì ma? Wǒ tīng bù dǒng.",
-    "pinyin_numeric": "bu4 hao3 yi4 si5, ke3 yi3 zai4 shuo1 yi1 ci4 ma0? wo3 ting1 bu4 dong3.",
-    "translation_en": "Excuse me, could you say it again? I didn't understand.",
-    "translation_ko": "죄송합니다, 한 번 더 말씀해 주시겠어요? 못 알아들었어요.",
-    "token_ids": [
-      "VOC_D31_020",
-      "VOC_M1_118",
-      "VOC_D31_033",
-      "VOC_M1_016",
-      "VOC_M1_002",
-      "VOC_M1_063",
-      "VOC_M1_079"
-    ],
-    "grammar_ids": [
-      "GR_D31_CAN_REQUEST"
-    ],
-    "audio_id": "AUD_SEN_D31_037",
-    "day_introduced": 31,
-    "tokens": [
-      "不好意思",
-      "可以",
-      "再說一次",
-      "嗎",
-      "我",
-      "聽",
-      "不",
-      "懂"
     ],
     "difficulty": 2,
     "production_type": "practice"
@@ -1292,105 +1157,6 @@
       "發票",
       "嗎",
       "謝謝"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D31_041",
-    "text": "我想要一杯小杯的拿鐵。",
-    "pinyin": "Wǒ xiǎng yào yī bēi xiǎo bēi de ná tiě.",
-    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 xiao3 bei1 de0 na2 tie3.",
-    "translation_en": "I would like a small latte.",
-    "translation_ko": "작은 라떼 한 잔을 원합니다.",
-    "token_ids": [
-      "VOC_M1_002",
-      "VOC_D31_001",
-      "VOC_M1_009",
-      "VOC_M1_099",
-      "VOC_D31_006",
-      "VOC_M1_023",
-      "VOC_D31_009"
-    ],
-    "grammar_ids": [
-      "GR_D31_WANT_OBJECT"
-    ],
-    "audio_id": "AUD_SEN_D31_041",
-    "day_introduced": 31,
-    "tokens": [
-      "我",
-      "想要",
-      "一",
-      "杯",
-      "小杯",
-      "的",
-      "拿鐵"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D31_042",
-    "text": "我想要一杯中杯的紅茶，半糖。",
-    "pinyin": "Wǒ xiǎng yào yī bēi zhōng bēi de hóng chá, bàn táng.",
-    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 zhong1 bei1 de0 hong2 cha2, ban4 tang2.",
-    "translation_en": "I would like a medium black tea, half sugar.",
-    "translation_ko": "중간 크기의 홍차 반 당을 원합니다.",
-    "token_ids": [
-      "VOC_M1_002",
-      "VOC_D31_001",
-      "VOC_M1_009",
-      "VOC_M1_099",
-      "VOC_D31_007",
-      "VOC_M1_023",
-      "VOC_D31_011",
-      "VOC_D31_027"
-    ],
-    "grammar_ids": [
-      "GR_D31_WANT_OBJECT"
-    ],
-    "audio_id": "AUD_SEN_D31_042",
-    "day_introduced": 31,
-    "tokens": [
-      "我",
-      "想要",
-      "一",
-      "杯",
-      "中杯",
-      "的",
-      "紅茶",
-      "半糖"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D31_044",
-    "text": "我想要一杯豆漿，內用。",
-    "pinyin": "Wǒ xiǎng yào yī bēi dòu jiāng, nèi yòng.",
-    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 dou4 jiang1, nei4 yong4.",
-    "translation_en": "I would like a cup of soy milk, for here.",
-    "translation_ko": "두유 한 잔을 매장에서 마시고 싶습니다.",
-    "token_ids": [
-      "VOC_M1_002",
-      "VOC_D31_001",
-      "VOC_M1_009",
-      "VOC_M1_099",
-      "VOC_D31_010",
-      "VOC_D31_017"
-    ],
-    "grammar_ids": [
-      "GR_D31_WANT_OBJECT"
-    ],
-    "audio_id": "AUD_SEN_D31_044",
-    "day_introduced": 31,
-    "tokens": [
-      "我",
-      "想要",
-      "一",
-      "杯",
-      "豆漿",
-      "內用"
     ],
     "difficulty": 2,
     "production_type": "practice"
@@ -1614,41 +1380,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D31_051",
-    "text": "不好意思，我想要一杯小杯的拿鐵。",
-    "pinyin": "Bù hǎo yì si, wǒ xiǎng yào yī bēi xiǎo bēi de ná tiě.",
-    "pinyin_numeric": "bu4 hao3 yi4 si0, wo3 xiang3 yao4 yi1 bei1 xiao3 bei1 de0 na2 tie3.",
-    "translation_en": "Excuse me, I would like a small latte.",
-    "translation_ko": "실례합니다, 작은 사이즈의 라떼 한 잔을 원합니다.",
-    "token_ids": [
-      "VOC_D31_020",
-      "VOC_M1_002",
-      "VOC_D31_001",
-      "VOC_M1_009",
-      "VOC_M1_099",
-      "VOC_D31_006",
-      "VOC_M1_023",
-      "VOC_D31_009"
-    ],
-    "grammar_ids": [
-      "GR_D31_POLITE_SOFTENER"
-    ],
-    "audio_id": "AUD_SEN_D31_051",
-    "day_introduced": 31,
-    "tokens": [
-      "不好意思",
-      "我",
-      "想要",
-      "一",
-      "杯",
-      "小杯",
-      "的",
-      "拿鐵"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D31_052",
     "text": "不好意思，麻煩給我兩杯紅茶，一杯去冰，一杯少冰。",
     "pinyin": "Bù hǎo yì si, má fan gěi wǒ liǎng bēi hóng chá, yī bēi qù bīng, yī bēi shǎo bīng.",
@@ -1687,38 +1418,6 @@
       "一",
       "杯",
       "少冰"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D31_053",
-    "text": "不好意思，請問這個價錢是多少？",
-    "pinyin": "Bù hǎo yì si, qǐng wèn zhè ge jià qián shì duō shǎo?",
-    "pinyin_numeric": "bu4 hao3 yi4 si0, qing3 wen4 zhe4 ge0 jia4 qian2 shi4 duo1 shao3?",
-    "translation_en": "Excuse me, how much is this?",
-    "translation_ko": "실례합니다, 이 가격이 얼마인가요?",
-    "token_ids": [
-      "VOC_D31_020",
-      "VOC_D33_026",
-      "VOC_M1_041",
-      "VOC_D31_018",
-      "VOC_M1_007",
-      "VOC_M1_113"
-    ],
-    "grammar_ids": [
-      "GR_D31_POLITE_SOFTENER"
-    ],
-    "audio_id": "AUD_SEN_D31_053",
-    "day_introduced": 31,
-    "tokens": [
-      "不好意思",
-      "請問",
-      "這",
-      "個",
-      "價錢",
-      "是",
-      "多少"
     ],
     "difficulty": 2,
     "production_type": "practice"
@@ -1820,37 +1519,6 @@
       "微糖",
       "少冰",
       "內用"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D31_057",
-    "text": "不好意思，麻煩給我一個袋子。",
-    "pinyin": "Bù hǎo yì si, má fan gěi wǒ yī ge dài zi.",
-    "pinyin_numeric": "bu4 hao3 yi4 si0, ma2 fan0 gei3 wo3 yi1 ge0 dai4 zi0.",
-    "translation_en": "Excuse me, please give me a bag.",
-    "translation_ko": "실례합니다, 봉투 하나 주세요.",
-    "token_ids": [
-      "VOC_D31_020",
-      "VOC_D31_019",
-      "VOC_D31_005",
-      "VOC_M1_009",
-      "VOC_M1_041",
-      "VOC_M1_186"
-    ],
-    "grammar_ids": [
-      "GR_D31_POLITE_SOFTENER"
-    ],
-    "audio_id": "AUD_SEN_D31_057",
-    "day_introduced": 31,
-    "tokens": [
-      "不好意思",
-      "麻煩",
-      "給我",
-      "一",
-      "個",
-      "袋子"
     ],
     "difficulty": 2,
     "production_type": "practice"
@@ -2264,74 +1932,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D31_071",
-    "text": "我想要一杯小杯的拿鐵。",
-    "pinyin": "Wǒ xiǎng yào yī bēi xiǎo bēi de ná tiě.",
-    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 xiao3 bei1 de0 na2 tie3.",
-    "translation_en": "I would like a small latte.",
-    "translation_ko": "작은 라떼 한 잔을 원합니다.",
-    "token_ids": [
-      "VOC_M1_002",
-      "VOC_D31_001",
-      "VOC_M1_009",
-      "VOC_M1_099",
-      "VOC_D31_006",
-      "VOC_M1_023",
-      "VOC_D31_009"
-    ],
-    "grammar_ids": [
-      "GR_D31_WANT_OBJECT"
-    ],
-    "audio_id": "AUD_SEN_D31_071",
-    "day_introduced": 31,
-    "tokens": [
-      "我",
-      "想要",
-      "一",
-      "杯",
-      "小杯",
-      "的",
-      "拿鐵"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D31_072",
-    "text": "我想要一杯中杯的紅茶，半糖。",
-    "pinyin": "Wǒ xiǎng yào yī bēi zhōng bēi de hóng chá, bàn táng.",
-    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 zhong1 bei1 de0 hong2 cha2, ban4 tang2.",
-    "translation_en": "I would like a medium black tea, half sugar.",
-    "translation_ko": "중간 크기의 홍차 한 잔, 반당으로 부탁합니다.",
-    "token_ids": [
-      "VOC_M1_002",
-      "VOC_D31_001",
-      "VOC_M1_009",
-      "VOC_M1_099",
-      "VOC_D31_007",
-      "VOC_M1_023",
-      "VOC_D31_011",
-      "VOC_D31_027"
-    ],
-    "grammar_ids": [
-      "GR_D31_WANT_OBJECT"
-    ],
-    "audio_id": "AUD_SEN_D31_072",
-    "day_introduced": 31,
-    "tokens": [
-      "我",
-      "想要",
-      "一",
-      "杯",
-      "中杯",
-      "的",
-      "紅茶",
-      "半糖"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D31_074",
     "text": "我想要一杯豆漿，少冰。",
     "pinyin": "Wǒ xiǎng yào yī bēi dòu jiāng, shǎo bīng.",
@@ -2573,168 +2173,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D31_081",
-    "text": "不好意思，我想要一杯小杯的拿鐵。",
-    "pinyin": "Bù hǎo yì si, wǒ xiǎng yào yī bēi xiǎo bēi de ná tiě.",
-    "pinyin_numeric": "bu4 hao3 yi4 si0, wo3 xiang3 yao4 yi1 bei1 xiao3 bei1 de0 na2 tie3.",
-    "translation_en": "Excuse me, I would like a small latte.",
-    "translation_ko": "실례합니다, 작은 라떼 한 잔을 원합니다.",
-    "token_ids": [
-      "VOC_D31_020",
-      "VOC_M1_002",
-      "VOC_D31_001",
-      "VOC_M1_009",
-      "VOC_M1_099",
-      "VOC_D31_006",
-      "VOC_M1_023",
-      "VOC_D31_009"
-    ],
-    "grammar_ids": [
-      "GR_D31_POLITE_SOFTENER"
-    ],
-    "audio_id": "AUD_SEN_D31_081",
-    "day_introduced": 31,
-    "tokens": [
-      "不好意思",
-      "我",
-      "想要",
-      "一",
-      "杯",
-      "小杯",
-      "的",
-      "拿鐵"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D31_082",
-    "text": "不好意思，麻煩給我一個袋子。",
-    "pinyin": "Bù hǎo yì si, má fan gěi wǒ yī gè dài zi.",
-    "pinyin_numeric": "bu4 hao3 yi4 si0, ma2 fan0 gei3 wo3 yi1 ge4 dai4 zi0.",
-    "translation_en": "Excuse me, could you please give me a bag?",
-    "translation_ko": "실례합니다, 봉투 하나 주시겠어요?",
-    "token_ids": [
-      "VOC_D31_020",
-      "VOC_D31_019",
-      "VOC_D31_005",
-      "VOC_M1_009",
-      "VOC_M1_041",
-      "VOC_M1_186"
-    ],
-    "grammar_ids": [
-      "GR_D31_POLITE_SOFTENER"
-    ],
-    "audio_id": "AUD_SEN_D31_082",
-    "day_introduced": 31,
-    "tokens": [
-      "不好意思",
-      "麻煩",
-      "給我",
-      "一",
-      "個",
-      "袋子"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D31_083",
-    "text": "不好意思，請問這個價錢是多少？",
-    "pinyin": "Bù hǎo yì si, qǐng wèn zhè ge jià qián shì duō shǎo?",
-    "pinyin_numeric": "bu4 hao3 yi4 si0, qing3 wen4 zhe4 ge4 jia4 qian2 shi4 duo1 shao3?",
-    "translation_en": "Excuse me, how much does this cost?",
-    "translation_ko": "실례합니다, 이 가격이 얼마인가요?",
-    "token_ids": [
-      "VOC_D31_020",
-      "VOC_D33_026",
-      "VOC_M1_041",
-      "VOC_D31_018",
-      "VOC_M1_007",
-      "VOC_M1_113"
-    ],
-    "grammar_ids": [
-      "GR_D31_POLITE_SOFTENER"
-    ],
-    "audio_id": "AUD_SEN_D31_083",
-    "day_introduced": 31,
-    "tokens": [
-      "不好意思",
-      "請問",
-      "這",
-      "個",
-      "價錢",
-      "是",
-      "多少"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D31_084",
-    "text": "不好意思，我要一杯紅茶，半糖少冰。",
-    "pinyin": "Bù hǎo yì si, wǒ yào yī bēi hóng chá, bàn táng shǎo bīng.",
-    "pinyin_numeric": "bu4 hao3 yi4 si0, wo3 yao4 yi1 bei1 hong2 cha2, ban4 tang2 shao3 bing1.",
-    "translation_en": "Excuse me, I'd like a black tea, half sugar and less ice.",
-    "translation_ko": "실례합니다, 홍차 한 잔에 당도 반, 얼음 적게 주세요.",
-    "token_ids": [
-      "VOC_D31_020",
-      "VOC_M1_002",
-      "VOC_M1_061",
-      "VOC_M1_009",
-      "VOC_M1_099",
-      "VOC_D31_011",
-      "VOC_D31_027",
-      "VOC_D31_014"
-    ],
-    "grammar_ids": [
-      "GR_D31_POLITE_SOFTENER"
-    ],
-    "audio_id": "AUD_SEN_D31_084",
-    "day_introduced": 31,
-    "tokens": [
-      "不好意思",
-      "我",
-      "要",
-      "一",
-      "杯",
-      "紅茶",
-      "半糖",
-      "少冰"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D31_085",
-    "text": "不好意思，可以幫我加珍珠嗎？",
-    "pinyin": "Bù hǎo yì si, kě yǐ bāng wǒ jiā zhēn zhū ma?",
-    "pinyin_numeric": "bu4 hao3 yi4 si0, ke3 yi3 bang1 wo3 jia1 zhen1 zhu1 ma0?",
-    "translation_en": "Excuse me, could you add boba pearls for me?",
-    "translation_ko": "실례합니다, 타피오카 펄을 추가해 주시겠어요?",
-    "token_ids": [
-      "VOC_D31_020",
-      "VOC_M1_118",
-      "VOC_D31_004",
-      "VOC_D31_030",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D31_POLITE_SOFTENER"
-    ],
-    "audio_id": "AUD_SEN_D31_085",
-    "day_introduced": 31,
-    "tokens": [
-      "不好意思",
-      "可以",
-      "幫我",
-      "加珍珠",
-      "嗎"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D31_086",
     "text": "不好意思，我要外帶一杯綠茶。",
     "pinyin": "Bù hǎo yì si, wǒ yào wài dài yī bēi lǜ chá.",
@@ -2768,36 +2206,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D31_087",
-    "text": "不好意思，請給我一根吸管。",
-    "pinyin": "Bù hǎo yì si, qǐng gěi wǒ yī gēn xī guǎn.",
-    "pinyin_numeric": "bu4 hao3 yi4 si0, qing3 gei3 wo3 yi1 gen1 xi1 guan3.",
-    "translation_en": "Excuse me, please give me a straw.",
-    "translation_ko": "실례합니다, 빨대 하나 주세요.",
-    "token_ids": [
-      "VOC_D31_020",
-      "VOC_M1_179",
-      "VOC_D31_005",
-      "VOC_M1_009",
-      "VOC_D31_023"
-    ],
-    "grammar_ids": [
-      "GR_D31_POLITE_SOFTENER"
-    ],
-    "audio_id": "AUD_SEN_D31_087",
-    "day_introduced": 31,
-    "tokens": [
-      "不好意思",
-      "請",
-      "給我",
-      "一",
-      "根",
-      "吸管"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D31_088",
     "text": "不好意思，我要內用一杯豆漿。",
     "pinyin": "Bù hǎo yì si, wǒ yào nèi yòng yī bēi dòu jiāng.",
@@ -2826,40 +2234,6 @@
       "一",
       "杯",
       "豆漿"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D31_089",
-    "text": "不好意思，可以再說一次嗎？我聽不懂。",
-    "pinyin": "Bù hǎo yì si, kě yǐ zài shuō yī cì ma? Wǒ tīng bù dǒng.",
-    "pinyin_numeric": "bu4 hao3 yi4 si0, ke3 yi3 zai4 shuo1 yi1 ci4 ma0? Wo3 ting1 bu4 dong3.",
-    "translation_en": "Excuse me, could you say that again? I didn't understand.",
-    "translation_ko": "실례합니다, 한 번 더 말씀해 주시겠어요? 이해하지 못했어요.",
-    "token_ids": [
-      "VOC_D31_020",
-      "VOC_M1_118",
-      "VOC_D31_033",
-      "VOC_M1_016",
-      "VOC_M1_002",
-      "VOC_M1_063",
-      "VOC_M1_079"
-    ],
-    "grammar_ids": [
-      "GR_D31_POLITE_SOFTENER"
-    ],
-    "audio_id": "AUD_SEN_D31_089",
-    "day_introduced": 31,
-    "tokens": [
-      "不好意思",
-      "可以",
-      "再說一次",
-      "嗎",
-      "我",
-      "聽",
-      "不",
-      "懂"
     ],
     "difficulty": 2,
     "production_type": "practice"
@@ -3838,65 +3212,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D32_032",
-    "text": "這個便當需要加熱嗎？",
-    "pinyin": "Zhège biàndāng xūyào jiārè ma?",
-    "pinyin_numeric": "zhe4ge5 bian4dang1 xu1yao4 jia1re4 ma0?",
-    "translation_en": "Does this bento need to be heated?",
-    "translation_ko": "이 도시락은 데워야 하나요?",
-    "token_ids": [
-      "VOC_M1_041",
-      "VOC_D32_017",
-      "VOC_M1_171",
-      "VOC_D32_015",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D32_MEASURE_WORDS_BASIC"
-    ],
-    "audio_id": "AUD_SEN_D32_032",
-    "day_introduced": 32,
-    "tokens": [
-      "這",
-      "個",
-      "便當",
-      "需要",
-      "加熱",
-      "嗎"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D32_033",
-    "text": "我要用信用卡付款。",
-    "pinyin": "Wǒ yào yòng xìnyòngkǎ fùkuǎn.",
-    "pinyin_numeric": "wo3 yao4 yong4 xin4yong4ka3 fu4kuan3.",
-    "translation_en": "I want to pay by credit card.",
-    "translation_ko": "신용카드로 결제할게요.",
-    "token_ids": [
-      "VOC_M1_002",
-      "VOC_M1_061",
-      "VOC_M1_119",
-      "VOC_D32_006",
-      "VOC_D32_004"
-    ],
-    "grammar_ids": [
-      "GR_D32_MEASURE_WORDS_BASIC"
-    ],
-    "audio_id": "AUD_SEN_D32_033",
-    "day_introduced": 32,
-    "tokens": [
-      "我",
-      "要",
-      "用",
-      "信用卡",
-      "付款"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D32_034",
     "text": "請幫我掃描條碼。",
     "pinyin": "Qǐng bāng wǒ sǎomiáo tiáomǎ.",
@@ -4036,36 +3351,6 @@
     "tokens": [
       "總共",
       "多少錢"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D32_039",
-    "text": "我要用載具存發票。",
-    "pinyin": "Wǒ yào yòng zàijù cún fāpiào.",
-    "pinyin_numeric": "wo3 yao4 yong4 zai4ju4 cun2 fa1piao4.",
-    "translation_en": "I want to store the receipt using the carrier (invoice carrier).",
-    "translation_ko": "영수증을 (전자) 수단에 저장할게요.",
-    "token_ids": [
-      "VOC_M1_002",
-      "VOC_M1_061",
-      "VOC_M1_119",
-      "VOC_D32_010",
-      "VOC_M1_177"
-    ],
-    "grammar_ids": [
-      "GR_D32_MEASURE_WORDS_BASIC"
-    ],
-    "audio_id": "AUD_SEN_D32_039",
-    "day_introduced": 32,
-    "tokens": [
-      "我",
-      "要",
-      "用",
-      "載具",
-      "存",
-      "發票"
     ],
     "difficulty": 2,
     "production_type": "practice"
@@ -4680,35 +3965,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D32_061",
-    "text": "我要一個塑膠袋。",
-    "pinyin": "Wǒ yào yī ge sùjiāodài.",
-    "pinyin_numeric": "wo3 yao4 yi1 ge4 su4jiao1dai4.",
-    "translation_en": "I want one plastic bag.",
-    "translation_ko": "비닐봉지 하나 주세요.",
-    "token_ids": [
-      "VOC_M1_002",
-      "VOC_M1_061",
-      "VOC_M1_009",
-      "VOC_M1_041",
-      "VOC_D32_013"
-    ],
-    "grammar_ids": [
-      "GR_D32_MEASURE_WORDS_BASIC"
-    ],
-    "audio_id": "AUD_SEN_D32_061",
-    "day_introduced": 32,
-    "tokens": [
-      "我",
-      "要",
-      "一",
-      "個",
-      "塑膠袋"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D32_062",
     "text": "請給我兩張收據。",
     "pinyin": "Qǐng gěi wǒ liǎng zhāng shōujù.",
@@ -4868,36 +4124,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D32_067",
-    "text": "這個三明治有特價嗎？",
-    "pinyin": "Zhège sānmíngzhì yǒu tèjià ma?",
-    "pinyin_numeric": "zhe4ge4 san1ming2zhi4 you3 te4jia4 ma0?",
-    "translation_en": "Is this sandwich on sale?",
-    "translation_ko": "이 샌드위치는 특가인가요?",
-    "token_ids": [
-      "VOC_M1_041",
-      "VOC_D32_019",
-      "VOC_M1_022",
-      "VOC_D32_030",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D32_MEASURE_WORDS_BASIC"
-    ],
-    "audio_id": "AUD_SEN_D32_067",
-    "day_introduced": 32,
-    "tokens": [
-      "這",
-      "個",
-      "三明治",
-      "有",
-      "特價",
-      "嗎"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D32_068",
     "text": "我需要一個環保袋。",
     "pinyin": "Wǒ xūyào yī ge huánbǎo dài.",
@@ -4927,66 +4153,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D32_069",
-    "text": "請幫我掃描這個條碼。",
-    "pinyin": "Qǐng bāng wǒ sǎomiáo zhège tiáomǎ.",
-    "pinyin_numeric": "qing3 bang1 wo3 sao3miao2 zhe4ge4 tiao2ma3.",
-    "translation_en": "Please scan this barcode for me.",
-    "translation_ko": "이 바코드를 스캔해 주세요.",
-    "token_ids": [
-      "VOC_M1_179",
-      "VOC_D31_004",
-      "VOC_D32_033",
-      "VOC_M1_041",
-      "VOC_D32_032"
-    ],
-    "grammar_ids": [
-      "GR_D32_MEASURE_WORDS_BASIC"
-    ],
-    "audio_id": "AUD_SEN_D32_069",
-    "day_introduced": 32,
-    "tokens": [
-      "請",
-      "幫我",
-      "掃描",
-      "這",
-      "個",
-      "條碼"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D32_070",
-    "text": "我要用載具存發票。",
-    "pinyin": "Wǒ yào yòng zàijù cún fāpiào.",
-    "pinyin_numeric": "wo3 yao4 yong4 zai4ju4 cun2 fa1piao4.",
-    "translation_en": "I want to save the receipt using the carrier.",
-    "translation_ko": "발행 영수증을 저장하려고 해요.",
-    "token_ids": [
-      "VOC_M1_002",
-      "VOC_M1_061",
-      "VOC_M1_119",
-      "VOC_D32_010",
-      "VOC_M1_177"
-    ],
-    "grammar_ids": [
-      "GR_D32_MEASURE_WORDS_BASIC"
-    ],
-    "audio_id": "AUD_SEN_D32_070",
-    "day_introduced": 32,
-    "tokens": [
-      "我",
-      "要",
-      "用",
-      "載具",
-      "存",
-      "發票"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D32_071",
     "text": "你要不要買這個便當？",
     "pinyin": "Nǐ yào bù yào mǎi zhège biàndāng?",
@@ -5011,33 +4177,6 @@
       "這",
       "個",
       "便當"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D32_072",
-    "text": "你要塑膠袋嗎？",
-    "pinyin": "Nǐ yào sùjiāo dài ma?",
-    "pinyin_numeric": "ni3 yao4 su4 jiao1 dai4 ma0?",
-    "translation_en": "Do you want a plastic bag?",
-    "translation_ko": "비닐봉지가 필요하세요?",
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_M1_061",
-      "VOC_D32_013",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D32_YAO_BU_YAO"
-    ],
-    "audio_id": "AUD_SEN_D32_072",
-    "day_introduced": 32,
-    "tokens": [
-      "你",
-      "要",
-      "塑膠袋",
-      "嗎"
     ],
     "difficulty": 2,
     "production_type": "practice"
@@ -5096,33 +4235,6 @@
       "還是",
       "信用卡",
       "付款"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D32_075",
-    "text": "你要不要用載具？",
-    "pinyin": "Nǐ yào bù yào yòng zàijù?",
-    "pinyin_numeric": "ni3 yao4 bu4 yao4 yong4 zai4 ju4?",
-    "translation_en": "Do you want to use the receipt carrier?",
-    "translation_ko": "영수증을 모바일로 받으시겠어요?",
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_D53_034",
-      "VOC_M1_119",
-      "VOC_D32_010"
-    ],
-    "grammar_ids": [
-      "GR_D32_YAO_BU_YAO"
-    ],
-    "audio_id": "AUD_SEN_D32_075",
-    "day_introduced": 32,
-    "tokens": [
-      "你",
-      "要不要",
-      "用",
-      "載具"
     ],
     "difficulty": 2,
     "production_type": "practice"
@@ -5216,33 +4328,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D32_079",
-    "text": "你要收據嗎？",
-    "pinyin": "Nǐ yào shōujù ma?",
-    "pinyin_numeric": "ni3 yao4 shou1 ju4 ma0?",
-    "translation_en": "Do you want a receipt?",
-    "translation_ko": "영수증을 받으시겠어요?",
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_M1_061",
-      "VOC_D32_009",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D32_YAO_BU_YAO"
-    ],
-    "audio_id": "AUD_SEN_D32_079",
-    "day_introduced": 32,
-    "tokens": [
-      "你",
-      "要",
-      "收據",
-      "嗎"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D32_080",
     "text": "要不要買這個飯糰？",
     "pinyin": "Yào bù yào mǎi zhège fàntuán?",
@@ -5265,61 +4350,6 @@
       "這",
       "個",
       "飯糰"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D32_081",
-    "text": "這個便當要微波嗎？",
-    "pinyin": "Zhège biàndāng yào wēibō ma?",
-    "pinyin_numeric": "zhe4 ge4 bian4 dang1 yao4 wei1 bo1 ma0",
-    "translation_en": "Does this bento need to be microwaved?",
-    "translation_ko": "이 도시락을 전자레인지에 데워야 하나요?",
-    "token_ids": [
-      "VOC_M1_041",
-      "VOC_D32_017",
-      "VOC_M1_061",
-      "VOC_D32_016",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D32_THIS_THAT_REVIEW"
-    ],
-    "audio_id": "AUD_SEN_D32_081",
-    "day_introduced": 32,
-    "tokens": [
-      "這",
-      "個",
-      "便當",
-      "要",
-      "微波",
-      "嗎"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D32_082",
-    "text": "那個三明治多少錢？",
-    "pinyin": "Nàge sānmíngzhì duōshǎo qián?",
-    "pinyin_numeric": "na4 ge4 san1 ming2 zhi4 duo1 shao3 qian2",
-    "translation_en": "How much is that sandwich?",
-    "translation_ko": "저 샌드위치는 얼마인가요?",
-    "token_ids": [
-      "VOC_M1_163",
-      "VOC_D32_019",
-      "VOC_D86_008"
-    ],
-    "grammar_ids": [
-      "GR_D32_THIS_THAT_REVIEW"
-    ],
-    "audio_id": "AUD_SEN_D32_082",
-    "day_introduced": 32,
-    "tokens": [
-      "那個",
-      "三明治",
-      "多少錢"
     ],
     "difficulty": 2,
     "production_type": "practice"
@@ -5440,35 +4470,6 @@
       "個",
       "環保袋",
       "多少錢"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D32_087",
-    "text": "我要用信用卡付款。",
-    "pinyin": "Wǒ yào yòng xìnyòngkǎ fùkuǎn.",
-    "pinyin_numeric": "wo3 yao4 yong4 xin4 yong4 ka3 fu4 kuan3",
-    "translation_en": "I want to pay with a credit card.",
-    "translation_ko": "신용카드로 결제할게요.",
-    "token_ids": [
-      "VOC_M1_002",
-      "VOC_M1_061",
-      "VOC_M1_119",
-      "VOC_D32_006",
-      "VOC_D32_004"
-    ],
-    "grammar_ids": [
-      "GR_D32_THIS_THAT_REVIEW"
-    ],
-    "audio_id": "AUD_SEN_D32_087",
-    "day_introduced": 32,
-    "tokens": [
-      "我",
-      "要",
-      "用",
-      "信用卡",
-      "付款"
     ],
     "difficulty": 2,
     "production_type": "practice"
@@ -6599,39 +5600,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D33_031",
-    "text": "請問洗手間在電梯的旁邊嗎？",
-    "pinyin": "Qǐngwèn xǐshǒujiān zài diàntī de pángbiān ma?",
-    "pinyin_numeric": "qing3wen4 xi3shou3jian1 zai4 dian4ti1 de0 pang2bian1 ma0",
-    "translation_en": "Excuse me, is the restroom next to the elevator?",
-    "translation_ko": "실례합니다, 화장실이 엘리베이터 옆에 있나요?",
-    "token_ids": [
-      "VOC_D33_026",
-      "VOC_D33_001",
-      "VOC_M1_139",
-      "VOC_D33_002",
-      "VOC_M1_023",
-      "VOC_D33_016",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D33_ZAI_LOCATION"
-    ],
-    "audio_id": "AUD_SEN_D33_031",
-    "day_introduced": 33,
-    "tokens": [
-      "請問",
-      "洗手間",
-      "在",
-      "電梯",
-      "的",
-      "旁邊",
-      "嗎"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D33_032",
     "text": "出口在櫃台的前面，左轉就到了。",
     "pinyin": "Chūkǒu zài guìtái de qiánmiàn, zuǒzhuǎn jiù dào le.",
@@ -6936,60 +5904,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D33_041",
-    "text": "請問洗手間在哪裡？",
-    "pinyin": "Qǐngwèn xǐshǒujiān zài nǎlǐ?",
-    "pinyin_numeric": "qing3 wen4 xi3 shou3 jian1 zai4 na3 li3",
-    "translation_en": "Excuse me, where is the restroom?",
-    "translation_ko": "실례합니다, 화장실이 어디에 있나요?",
-    "token_ids": [
-      "VOC_D33_026",
-      "VOC_D33_001",
-      "VOC_M1_139",
-      "VOC_M1_073"
-    ],
-    "grammar_ids": [
-      "GR_D33_LOCATION_WORDS"
-    ],
-    "audio_id": "AUD_SEN_D33_041",
-    "day_introduced": 33,
-    "tokens": [
-      "請問",
-      "洗手間",
-      "在",
-      "哪裡"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D33_042",
-    "text": "電梯在左邊嗎？",
-    "pinyin": "Diàntī zài zuǒbiān ma?",
-    "pinyin_numeric": "dian4 ti1 zai4 zuo3 bian1 ma0",
-    "translation_en": "Is the elevator on the left?",
-    "translation_ko": "엘리베이터가 왼쪽에 있나요?",
-    "token_ids": [
-      "VOC_D33_002",
-      "VOC_M1_139",
-      "VOC_D33_014",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D33_LOCATION_WORDS"
-    ],
-    "audio_id": "AUD_SEN_D33_042",
-    "day_introduced": 33,
-    "tokens": [
-      "電梯",
-      "在",
-      "左邊",
-      "嗎"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D33_043",
     "text": "出口在二樓的後面。",
     "pinyin": "Chūkǒu zài èr lóu de hòumiàn.",
@@ -7215,39 +6129,6 @@
       "走廊",
       "的",
       "中間"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D33_051",
-    "text": "請問洗手間從這裡到那裡怎麼走？",
-    "pinyin": "Qǐngwèn xǐshǒujiān cóng zhèlǐ dào nàlǐ zěnme zǒu?",
-    "pinyin_numeric": "qing3wen4 xi3shou3jian1 cong2 zhe4li3 dao4 na4li3 zen3me zou3",
-    "translation_en": "Excuse me, how do I get from here to the restroom?",
-    "translation_ko": "실례합니다, 여기에서 화장실까지 어떻게 가나요?",
-    "token_ids": [
-      "VOC_D33_026",
-      "VOC_D33_001",
-      "VOC_D33_023",
-      "VOC_M1_122",
-      "VOC_D33_024",
-      "VOC_M1_145",
-      "VOC_D86_002"
-    ],
-    "grammar_ids": [
-      "GR_D33_CONG_DAO"
-    ],
-    "audio_id": "AUD_SEN_D33_051",
-    "day_introduced": 33,
-    "tokens": [
-      "請問",
-      "洗手間",
-      "從",
-      "這裡",
-      "到",
-      "那裡",
-      "怎麼走"
     ],
     "difficulty": 2,
     "production_type": "practice"
@@ -7586,39 +6467,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D33_061",
-    "text": "請問洗手間在電梯的旁邊嗎？",
-    "pinyin": "Qǐngwèn xǐshǒujiān zài diàntī de pángbiān ma?",
-    "pinyin_numeric": "qing3 wen4 xi3 shou3 jian1 zai4 dian4 ti1 de0 pang2 bian1 ma0",
-    "translation_en": "Excuse me, is the restroom next to the elevator?",
-    "translation_ko": "실례합니다, 화장실이 엘리베이터 옆에 있나요?",
-    "token_ids": [
-      "VOC_D33_026",
-      "VOC_D33_001",
-      "VOC_M1_139",
-      "VOC_D33_002",
-      "VOC_M1_023",
-      "VOC_D33_016",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D33_ZAI_LOCATION"
-    ],
-    "audio_id": "AUD_SEN_D33_061",
-    "day_introduced": 33,
-    "tokens": [
-      "請問",
-      "洗手間",
-      "在",
-      "電梯",
-      "的",
-      "旁邊",
-      "嗎"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D33_062",
     "text": "出口在櫃台的前面，直走就到了。",
     "pinyin": "Chūkǒu zài guìtái de qiánmiàn, zhízǒu jiù dào le.",
@@ -7649,44 +6497,6 @@
       "直走",
       "就",
       "到",
-      "了"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D33_063",
-    "text": "教室在二樓樓梯的右邊，不要走錯了。",
-    "pinyin": "Jiàoshì zài èr lóu lóutī de yòubiān, bùyào zǒu cuò le.",
-    "pinyin_numeric": "jiao4 shi4 zai4 er4 lou2 lou2 ti1 de0 you4 bian1, bu4 yao4 zou3 cuo4 le0",
-    "translation_en": "The classroom is on the second floor, to the right of the stairs; don't go the wrong way.",
-    "translation_ko": "교실은 2층 계단 오른쪽에 있어요. 잘못 가지 마세요.",
-    "token_ids": [
-      "VOC_D33_007",
-      "VOC_M1_139",
-      "VOC_D33_010",
-      "VOC_D33_003",
-      "VOC_M1_023",
-      "VOC_D33_015",
-      "VOC_M1_079",
-      "VOC_M1_061",
-      "VOC_D33_027"
-    ],
-    "grammar_ids": [
-      "GR_D33_ZAI_LOCATION"
-    ],
-    "audio_id": "AUD_SEN_D33_063",
-    "day_introduced": 33,
-    "tokens": [
-      "教室",
-      "在",
-      "二樓",
-      "樓梯",
-      "的",
-      "右邊",
-      "不",
-      "要",
-      "走錯",
       "了"
     ],
     "difficulty": 2,
@@ -7955,60 +6765,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D33_071",
-    "text": "請問洗手間在哪裡？",
-    "pinyin": "Qǐngwèn xǐshǒujiān zài nǎlǐ?",
-    "pinyin_numeric": "qing3 wen4 xi3 shou3 jian1 zai4 na3 li3",
-    "translation_en": "Excuse me, where is the restroom?",
-    "translation_ko": "실례합니다, 화장실이 어디에 있나요?",
-    "token_ids": [
-      "VOC_D33_026",
-      "VOC_D33_001",
-      "VOC_M1_139",
-      "VOC_M1_073"
-    ],
-    "grammar_ids": [
-      "GR_D33_LOCATION_WORDS"
-    ],
-    "audio_id": "AUD_SEN_D33_071",
-    "day_introduced": 33,
-    "tokens": [
-      "請問",
-      "洗手間",
-      "在",
-      "哪裡"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D33_072",
-    "text": "電梯在左邊嗎？",
-    "pinyin": "Diàntī zài zuǒbiān ma?",
-    "pinyin_numeric": "dian4 ti1 zai4 zuo3 bian1 ma0",
-    "translation_en": "Is the elevator on the left?",
-    "translation_ko": "엘리베이터가 왼쪽에 있나요?",
-    "token_ids": [
-      "VOC_D33_002",
-      "VOC_M1_139",
-      "VOC_D33_014",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D33_LOCATION_WORDS"
-    ],
-    "audio_id": "AUD_SEN_D33_072",
-    "day_introduced": 33,
-    "tokens": [
-      "電梯",
-      "在",
-      "左邊",
-      "嗎"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D33_073",
     "text": "出口在後面，你走錯了。",
     "pinyin": "Chūkǒu zài hòumiàn, nǐ zǒu cuò le.",
@@ -8034,35 +6790,6 @@
       "你",
       "走錯",
       "了"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D33_074",
-    "text": "櫃台在一樓，靠近門口。",
-    "pinyin": "Guìtái zài yī lóu, kàojìn ménkǒu.",
-    "pinyin_numeric": "gui4 tai2 zai4 yi1 lou2, kao4 jin4 men2 kou3",
-    "translation_en": "The counter is on the first floor, near the entrance.",
-    "translation_ko": "카운터는 1층에 있고, 입구 근처에 있어요.",
-    "token_ids": [
-      "VOC_D33_006",
-      "VOC_M1_139",
-      "VOC_D33_009",
-      "VOC_D33_035",
-      "VOC_D33_032"
-    ],
-    "grammar_ids": [
-      "GR_D33_LOCATION_WORDS"
-    ],
-    "audio_id": "AUD_SEN_D33_074",
-    "day_introduced": 33,
-    "tokens": [
-      "櫃台",
-      "在",
-      "一樓",
-      "靠近",
-      "門口"
     ],
     "difficulty": 2,
     "production_type": "practice"
@@ -8238,80 +6965,6 @@
       "走廊",
       "的",
       "中間",
-      "左轉"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D33_081",
-    "text": "請問洗手間從這裡到那裡怎麼走？",
-    "pinyin": "Qǐngwèn xǐshǒujiān cóng zhèlǐ dào nàlǐ zěnme zǒu?",
-    "pinyin_numeric": "qing3 wen4 xi3 shou3 jian1 cong2 zhe4 li3 dao4 na4 li3 zen3 me5 zou3",
-    "translation_en": "Excuse me, how do I get from here to the restroom?",
-    "translation_ko": "실례합니다, 여기에서 화장실까지 어떻게 가나요?",
-    "token_ids": [
-      "VOC_D33_026",
-      "VOC_D33_001",
-      "VOC_D33_023",
-      "VOC_M1_122",
-      "VOC_D33_024",
-      "VOC_M1_145",
-      "VOC_D86_002"
-    ],
-    "grammar_ids": [
-      "GR_D33_CONG_DAO"
-    ],
-    "audio_id": "AUD_SEN_D33_081",
-    "day_introduced": 33,
-    "tokens": [
-      "請問",
-      "洗手間",
-      "從",
-      "這裡",
-      "到",
-      "那裡",
-      "怎麼走"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D33_082",
-    "text": "電梯在一樓，從這裡到電梯要直走再左轉。",
-    "pinyin": "Diàntī zài yī lóu, cóng zhèlǐ dào diàntī yào zhízǒu zài zuǒzhuǎn.",
-    "pinyin_numeric": "dian4 ti1 zai4 yi1 lou2, cong2 zhe4 li3 dao4 dian4 ti1 yao4 zhi2 zou3 zai4 zuo3 zhuan3",
-    "translation_en": "The elevator is on the first floor; from here to the elevator, you need to go straight and then turn left.",
-    "translation_ko": "엘리베이터는 1층에 있습니다. 여기에서 엘리베이터까지 직진한 후 왼쪽으로 도세요.",
-    "token_ids": [
-      "VOC_D33_002",
-      "VOC_M1_139",
-      "VOC_D33_009",
-      "VOC_D33_023",
-      "VOC_M1_122",
-      "VOC_D33_024",
-      "VOC_D33_002",
-      "VOC_M1_061",
-      "VOC_D33_017",
-      "VOC_M1_134",
-      "VOC_D33_019"
-    ],
-    "grammar_ids": [
-      "GR_D33_CONG_DAO"
-    ],
-    "audio_id": "AUD_SEN_D33_082",
-    "day_introduced": 33,
-    "tokens": [
-      "電梯",
-      "在",
-      "一樓",
-      "從",
-      "這裡",
-      "到",
-      "電梯",
-      "要",
-      "直走",
-      "再",
       "左轉"
     ],
     "difficulty": 2,
@@ -9230,149 +7883,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D34_031",
-    "text": "你要喝珍珠奶茶嗎？",
-    "pinyin": "Nǐ yào hē zhēnzhū nǎichá ma?",
-    "pinyin_numeric": "ni3 yao4 he1 zhen1zhu1 nai3cha2 ma0",
-    "translation_en": "Do you want to drink bubble tea?",
-    "translation_ko": "버블티 마실래요?",
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_M1_061",
-      "VOC_M1_051",
-      "VOC_D34_001",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D34_YAO_ORDERING"
-    ],
-    "audio_id": "AUD_SEN_D34_031",
-    "day_introduced": 34,
-    "tokens": [
-      "你",
-      "要",
-      "喝",
-      "珍珠奶茶",
-      "嗎"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D34_032",
-    "text": "你要吃滷肉飯嗎？",
-    "pinyin": "Nǐ yào chī lǔròufàn ma?",
-    "pinyin_numeric": "ni3 yao4 chi1 lu3rou4fan4 ma0",
-    "translation_en": "Do you want to eat braised pork rice?",
-    "translation_ko": "루로우판 먹을래요?",
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_M1_061",
-      "VOC_M1_052",
-      "VOC_D34_002",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D34_YAO_ORDERING"
-    ],
-    "audio_id": "AUD_SEN_D34_032",
-    "day_introduced": 34,
-    "tokens": [
-      "你",
-      "要",
-      "吃",
-      "滷肉飯",
-      "嗎"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D34_033",
-    "text": "你要點牛肉麵嗎？",
-    "pinyin": "Nǐ yào diǎn niúròumiàn ma?",
-    "pinyin_numeric": "ni3 yao4 dian3 niu2rou4mian4 ma0",
-    "translation_en": "Do you want to order beef noodles?",
-    "translation_ko": "소고기 국수 주문할래요?",
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_M1_061",
-      "VOC_M1_105",
-      "VOC_D34_003",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D34_YAO_ORDERING"
-    ],
-    "audio_id": "AUD_SEN_D34_033",
-    "day_introduced": 34,
-    "tokens": [
-      "你",
-      "要",
-      "點",
-      "牛肉麵",
-      "嗎"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D34_034",
-    "text": "你要一份水餃嗎？",
-    "pinyin": "Nǐ yào yī fèn shuǐjiǎo ma?",
-    "pinyin_numeric": "ni3 yao4 yi1 fen4 shui3jiao3 ma0",
-    "translation_en": "Do you want one serving of dumplings?",
-    "translation_ko": "만두 한 인분 드릴까요?",
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_M1_061",
-      "VOC_D34_035",
-      "VOC_D34_004",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D34_YAO_ORDERING"
-    ],
-    "audio_id": "AUD_SEN_D34_034",
-    "day_introduced": 34,
-    "tokens": [
-      "你",
-      "要",
-      "一份",
-      "水餃",
-      "嗎"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D34_035",
-    "text": "你要小菜嗎？",
-    "pinyin": "Nǐ yào xiǎocài ma?",
-    "pinyin_numeric": "ni3 yao4 xiao3cai4 ma0",
-    "translation_en": "Do you want some side dishes?",
-    "translation_ko": "반찬 드릴까요?",
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_M1_061",
-      "VOC_D34_005",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D34_YAO_ORDERING"
-    ],
-    "audio_id": "AUD_SEN_D34_035",
-    "day_introduced": 34,
-    "tokens": [
-      "你",
-      "要",
-      "小菜",
-      "嗎"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D34_036",
     "text": "你要辣的還是不要辣的？",
     "pinyin": "Nǐ yào là de háishì bù là de?",
@@ -9399,35 +7909,6 @@
       "還是",
       "不要辣",
       "的"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D34_037",
-    "text": "你要喝熱湯嗎？",
-    "pinyin": "Nǐ yào hē rè tāng ma?",
-    "pinyin_numeric": "ni3 yao4 he1 re4 tang1 ma0",
-    "translation_en": "Do you want to drink hot soup?",
-    "translation_ko": "뜨거운 국물 마실래요?",
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_M1_061",
-      "VOC_M1_051",
-      "VOC_D34_029",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D34_YAO_ORDERING"
-    ],
-    "audio_id": "AUD_SEN_D34_037",
-    "day_introduced": 34,
-    "tokens": [
-      "你",
-      "要",
-      "喝",
-      "熱湯",
-      "嗎"
     ],
     "difficulty": 2,
     "production_type": "practice"
@@ -9514,130 +7995,6 @@
       "外帶",
       "還是",
       "內用"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D34_041",
-    "text": "你要喝珍珠奶茶還是紅茶？",
-    "pinyin": "Nǐ yào hē zhēnzhū nǎichá háishì hóngchá?",
-    "pinyin_numeric": "ni3 yao4 he1 zhen1zhu1 nai3cha2 hai2shi4 hong2cha2",
-    "translation_en": "Do you want to drink bubble tea or black tea?",
-    "translation_ko": "버블티 마실래요, 홍차 마실래요?",
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_M1_061",
-      "VOC_M1_051",
-      "VOC_D34_001",
-      "VOC_D42_017",
-      "VOC_D31_011"
-    ],
-    "grammar_ids": [
-      "GR_D34_HAI_SHI_CHOICE"
-    ],
-    "audio_id": "AUD_SEN_D34_041",
-    "day_introduced": 34,
-    "tokens": [
-      "你",
-      "要",
-      "喝",
-      "珍珠奶茶",
-      "還是",
-      "紅茶"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D34_042",
-    "text": "你要吃滷肉飯還是牛肉麵？",
-    "pinyin": "Nǐ yào chī lǔròufàn háishì niúròumiàn?",
-    "pinyin_numeric": "ni3 yao4 chi1 lu3rou4fan4 hai2shi4 niu2rou4mian4",
-    "translation_en": "Do you want to eat braised pork rice or beef noodles?",
-    "translation_ko": "루로우판을 먹을래요, 소고기 국수를 먹을래요?",
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_M1_061",
-      "VOC_M1_052",
-      "VOC_D34_002",
-      "VOC_D42_017",
-      "VOC_D34_003"
-    ],
-    "grammar_ids": [
-      "GR_D34_HAI_SHI_CHOICE"
-    ],
-    "audio_id": "AUD_SEN_D34_042",
-    "day_introduced": 34,
-    "tokens": [
-      "你",
-      "要",
-      "吃",
-      "滷肉飯",
-      "還是",
-      "牛肉麵"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D34_043",
-    "text": "你要點水餃還是小菜？",
-    "pinyin": "Nǐ yào diǎn shuǐjiǎo háishì xiǎocài?",
-    "pinyin_numeric": "ni3 yao4 dian3 shui3jiao3 hai2shi4 xiao3cai4",
-    "translation_en": "Do you want to order dumplings or side dishes?",
-    "translation_ko": "만두 주문할래요, 반찬 주문할래요?",
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_M1_061",
-      "VOC_M1_105",
-      "VOC_D34_004",
-      "VOC_D42_017",
-      "VOC_D34_005"
-    ],
-    "grammar_ids": [
-      "GR_D34_HAI_SHI_CHOICE"
-    ],
-    "audio_id": "AUD_SEN_D34_043",
-    "day_introduced": 34,
-    "tokens": [
-      "你",
-      "要",
-      "點",
-      "水餃",
-      "還是",
-      "小菜"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D34_044",
-    "text": "你要喝冰水還是熱湯？",
-    "pinyin": "Nǐ yào hē bīngshuǐ háishì rètāng?",
-    "pinyin_numeric": "ni3 yao4 he1 bing1shui3 hai2shi4 re4tang1",
-    "translation_en": "Do you want to drink cold water or hot soup?",
-    "translation_ko": "찬물 마실래요, 뜨거운 국 마실래요?",
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_M1_061",
-      "VOC_M1_051",
-      "VOC_D34_028",
-      "VOC_D42_017",
-      "VOC_D34_029"
-    ],
-    "grammar_ids": [
-      "GR_D34_HAI_SHI_CHOICE"
-    ],
-    "audio_id": "AUD_SEN_D34_044",
-    "day_introduced": 34,
-    "tokens": [
-      "你",
-      "要",
-      "喝",
-      "冰水",
-      "還是",
-      "熱湯"
     ],
     "difficulty": 2,
     "production_type": "practice"
@@ -9771,37 +8128,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D34_049",
-    "text": "你要點主餐還是配菜？",
-    "pinyin": "Nǐ yào diǎn zhǔcān háishì pèicài?",
-    "pinyin_numeric": "ni3 yao4 dian3 zhu3can1 hai2shi4 pei4cai4",
-    "translation_en": "Do you want to order a main dish or a side dish?",
-    "translation_ko": "메인 요리 주문할래요, 반찬 주문할래요?",
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_M1_061",
-      "VOC_M1_105",
-      "VOC_D34_025",
-      "VOC_D42_017",
-      "VOC_D34_026"
-    ],
-    "grammar_ids": [
-      "GR_D34_HAI_SHI_CHOICE"
-    ],
-    "audio_id": "AUD_SEN_D34_049",
-    "day_introduced": 34,
-    "tokens": [
-      "你",
-      "要",
-      "點",
-      "主餐",
-      "還是",
-      "配菜"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D34_050",
     "text": "你要喝飲料還是冰水？",
     "pinyin": "Nǐ yào hē yǐnliào háishì bīngshuǐ?",
@@ -9863,39 +8189,6 @@
       "能",
       "吃",
       "辣"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D34_052",
-    "text": "我不要牛肉麵，我要滷肉飯。",
-    "pinyin": "Wǒ bù yào niúròu miàn, wǒ yào lǔròu fàn.",
-    "pinyin_numeric": "wo3 bu4 yao4 niu2 rou4 mian4, wo3 yao4 lu3 rou4 fan4.",
-    "translation_en": "I don't want beef noodles; I want braised pork rice.",
-    "translation_ko": "소고기 국수는 안 먹을게요, 루로우판을 먹을게요.",
-    "token_ids": [
-      "VOC_M1_002",
-      "VOC_M1_079",
-      "VOC_M1_061",
-      "VOC_D34_003",
-      "VOC_M1_002",
-      "VOC_M1_061",
-      "VOC_D34_002"
-    ],
-    "grammar_ids": [
-      "GR_D34_BU_YAO"
-    ],
-    "audio_id": "AUD_SEN_D34_052",
-    "day_introduced": 34,
-    "tokens": [
-      "我",
-      "不",
-      "要",
-      "牛肉麵",
-      "我",
-      "要",
-      "滷肉飯"
     ],
     "difficulty": 2,
     "production_type": "practice"
@@ -10176,180 +8469,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D34_061",
-    "text": "你要喝珍珠奶茶嗎？",
-    "pinyin": "Nǐ yào hē zhēnzhū nǎichá ma?",
-    "pinyin_numeric": "ni3 yao4 he1 zhen1zhu1 nai3cha2 ma0",
-    "translation_en": "Do you want to drink bubble tea?",
-    "translation_ko": "버블티 마실래요?",
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_M1_061",
-      "VOC_M1_051",
-      "VOC_D34_001",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D34_YAO_ORDERING"
-    ],
-    "audio_id": "AUD_SEN_D34_061",
-    "day_introduced": 34,
-    "tokens": [
-      "你",
-      "要",
-      "喝",
-      "珍珠奶茶",
-      "嗎"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D34_062",
-    "text": "你要吃滷肉飯嗎？",
-    "pinyin": "Nǐ yào chī lǔròufàn ma?",
-    "pinyin_numeric": "ni3 yao4 chi1 lu3rou4fan4 ma0",
-    "translation_en": "Do you want to eat braised pork rice?",
-    "translation_ko": "루로우판 먹을래요?",
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_M1_061",
-      "VOC_M1_052",
-      "VOC_D34_002",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D34_YAO_ORDERING"
-    ],
-    "audio_id": "AUD_SEN_D34_062",
-    "day_introduced": 34,
-    "tokens": [
-      "你",
-      "要",
-      "吃",
-      "滷肉飯",
-      "嗎"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D34_063",
-    "text": "你要點牛肉麵嗎？",
-    "pinyin": "Nǐ yào diǎn niúròumiàn ma?",
-    "pinyin_numeric": "ni3 yao4 dian3 niu2rou4mian4 ma0",
-    "translation_en": "Do you want to order beef noodles?",
-    "translation_ko": "소고기 국수 주문할래요?",
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_M1_061",
-      "VOC_M1_105",
-      "VOC_D34_003",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D34_YAO_ORDERING"
-    ],
-    "audio_id": "AUD_SEN_D34_063",
-    "day_introduced": 34,
-    "tokens": [
-      "你",
-      "要",
-      "點",
-      "牛肉麵",
-      "嗎"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D34_064",
-    "text": "你要一份水餃嗎？",
-    "pinyin": "Nǐ yào yī fèn shuǐjiǎo ma?",
-    "pinyin_numeric": "ni3 yao4 yi1 fen4 shui3jiao3 ma0",
-    "translation_en": "Do you want one serving of dumplings?",
-    "translation_ko": "만두 한 인분 드릴까요?",
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_M1_061",
-      "VOC_D34_035",
-      "VOC_D34_004",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D34_YAO_ORDERING"
-    ],
-    "audio_id": "AUD_SEN_D34_064",
-    "day_introduced": 34,
-    "tokens": [
-      "你",
-      "要",
-      "一份",
-      "水餃",
-      "嗎"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D34_065",
-    "text": "你要小菜嗎？",
-    "pinyin": "Nǐ yào xiǎocài ma?",
-    "pinyin_numeric": "ni3 yao4 xiao3cai4 ma0",
-    "translation_en": "Do you want some side dishes?",
-    "translation_ko": "반찬 드릴까요?",
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_M1_061",
-      "VOC_D34_005",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D34_YAO_ORDERING"
-    ],
-    "audio_id": "AUD_SEN_D34_065",
-    "day_introduced": 34,
-    "tokens": [
-      "你",
-      "要",
-      "小菜",
-      "嗎"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D34_066",
-    "text": "你要辣的還是不要辣的？",
-    "pinyin": "Nǐ yào là de háishì bù là de?",
-    "pinyin_numeric": "ni3 yao4 la4 de0 hai2shi4 bu4 la4 de0",
-    "translation_en": "Do you want it spicy or not spicy?",
-    "translation_ko": "매운 걸로 드릴까요, 안 매운 걸로 드릴까요?",
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_M1_061",
-      "VOC_D42_009",
-      "VOC_D42_017",
-      "VOC_D35_001",
-      "VOC_M1_023"
-    ],
-    "grammar_ids": [
-      "GR_D34_YAO_ORDERING"
-    ],
-    "audio_id": "AUD_SEN_D34_066",
-    "day_introduced": 34,
-    "tokens": [
-      "你",
-      "要",
-      "辣的",
-      "還是",
-      "不要辣",
-      "的"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D34_067",
     "text": "你要推薦的招牌菜嗎？",
     "pinyin": "Nǐ yào tuījiàn de zhāopái cài ma?",
@@ -10377,35 +8496,6 @@
       "的",
       "招牌",
       "菜",
-      "嗎"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D34_068",
-    "text": "你要喝熱湯嗎？",
-    "pinyin": "Nǐ yào hē rè tāng ma?",
-    "pinyin_numeric": "ni3 yao4 he1 re4 tang1 ma0",
-    "translation_en": "Do you want to drink hot soup?",
-    "translation_ko": "뜨거운 국물 드실래요?",
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_M1_061",
-      "VOC_M1_051",
-      "VOC_D34_029",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D34_YAO_ORDERING"
-    ],
-    "audio_id": "AUD_SEN_D34_068",
-    "day_introduced": 34,
-    "tokens": [
-      "你",
-      "要",
-      "喝",
-      "熱湯",
       "嗎"
     ],
     "difficulty": 2,
@@ -10463,163 +8553,6 @@
       "外送",
       "還是",
       "內用"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D34_071",
-    "text": "你要喝珍珠奶茶還是紅茶？",
-    "pinyin": "Nǐ yào hē zhēnzhū nǎichá háishì hóngchá?",
-    "pinyin_numeric": "ni3 yao4 he1 zhen1zhu1 nai3cha2 hai2shi4 hong2cha2",
-    "translation_en": "Do you want to drink bubble tea or black tea?",
-    "translation_ko": "버블티를 마실래요, 홍차를 마실래요?",
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_M1_061",
-      "VOC_M1_051",
-      "VOC_D34_001",
-      "VOC_D42_017",
-      "VOC_D31_011"
-    ],
-    "grammar_ids": [
-      "GR_D34_HAI_SHI_CHOICE"
-    ],
-    "audio_id": "AUD_SEN_D34_071",
-    "day_introduced": 34,
-    "tokens": [
-      "你",
-      "要",
-      "喝",
-      "珍珠奶茶",
-      "還是",
-      "紅茶"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D34_072",
-    "text": "你要吃滷肉飯還是牛肉麵？",
-    "pinyin": "Nǐ yào chī lǔròu fàn háishì niúròu miàn?",
-    "pinyin_numeric": "ni3 yao4 chi1 lu3rou4 fan4 hai2shi4 niu2rou4 mian4",
-    "translation_en": "Do you want to eat braised pork rice or beef noodles?",
-    "translation_ko": "루로우판을 먹을래요, 소고기 국수를 먹을래요?",
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_M1_061",
-      "VOC_M1_052",
-      "VOC_D34_002",
-      "VOC_D42_017",
-      "VOC_D34_003"
-    ],
-    "grammar_ids": [
-      "GR_D34_HAI_SHI_CHOICE"
-    ],
-    "audio_id": "AUD_SEN_D34_072",
-    "day_introduced": 34,
-    "tokens": [
-      "你",
-      "要",
-      "吃",
-      "滷肉飯",
-      "還是",
-      "牛肉麵"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D34_073",
-    "text": "你要點水餃還是小菜？",
-    "pinyin": "Nǐ yào diǎn shuǐjiǎo háishì xiǎocài?",
-    "pinyin_numeric": "ni3 yao4 dian3 shui3jiao3 hai2shi4 xiao3cai4",
-    "translation_en": "Do you want to order dumplings or side dishes?",
-    "translation_ko": "만두를 주문할래요, 반찬을 주문할래요?",
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_M1_061",
-      "VOC_M1_105",
-      "VOC_D34_004",
-      "VOC_D42_017",
-      "VOC_D34_005"
-    ],
-    "grammar_ids": [
-      "GR_D34_HAI_SHI_CHOICE"
-    ],
-    "audio_id": "AUD_SEN_D34_073",
-    "day_introduced": 34,
-    "tokens": [
-      "你",
-      "要",
-      "點",
-      "水餃",
-      "還是",
-      "小菜"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D34_074",
-    "text": "你要喝冰水還是熱湯？",
-    "pinyin": "Nǐ yào hē bīng shuǐ háishì rè tāng?",
-    "pinyin_numeric": "ni3 yao4 he1 bing1 shui3 hai2shi4 re4 tang1",
-    "translation_en": "Do you want to drink ice water or hot soup?",
-    "translation_ko": "얼음물을 마실래요, 뜨거운 국을 마실래요?",
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_M1_061",
-      "VOC_M1_051",
-      "VOC_D34_028",
-      "VOC_D42_017",
-      "VOC_D34_029"
-    ],
-    "grammar_ids": [
-      "GR_D34_HAI_SHI_CHOICE"
-    ],
-    "audio_id": "AUD_SEN_D34_074",
-    "day_introduced": 34,
-    "tokens": [
-      "你",
-      "要",
-      "喝",
-      "冰水",
-      "還是",
-      "熱湯"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D34_075",
-    "text": "你要點招牌牛肉麵還是滷肉飯？",
-    "pinyin": "Nǐ yào diǎn zhāopái niúròu miàn háishì lǔròu fàn?",
-    "pinyin_numeric": "ni3 yao4 dian3 zhao1pai2 niu2rou4 mian4 hai2shi4 lu3rou4 fan4",
-    "translation_en": "Do you want to order the signature beef noodles or braised pork rice?",
-    "translation_ko": "시그니처 소고기 국수를 주문할래요, 루로우판을 주문할래요?",
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_M1_061",
-      "VOC_M1_105",
-      "VOC_D34_009",
-      "VOC_D34_003",
-      "VOC_D42_017",
-      "VOC_D34_002"
-    ],
-    "grammar_ids": [
-      "GR_D34_HAI_SHI_CHOICE"
-    ],
-    "audio_id": "AUD_SEN_D34_075",
-    "day_introduced": 34,
-    "tokens": [
-      "你",
-      "要",
-      "點",
-      "招牌",
-      "牛肉麵",
-      "還是",
-      "滷肉飯"
     ],
     "difficulty": 2,
     "production_type": "practice"
@@ -10689,99 +8622,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D34_078",
-    "text": "你要喝飲料還是熱湯？",
-    "pinyin": "Nǐ yào hē yǐnliào háishì rè tāng?",
-    "pinyin_numeric": "ni3 yao4 he1 yin3liao4 hai2shi4 re4 tang1",
-    "translation_en": "Do you want to drink a beverage or hot soup?",
-    "translation_ko": "음료를 마실래요, 뜨거운 국을 마실래요?",
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_M1_061",
-      "VOC_M1_051",
-      "VOC_D34_027",
-      "VOC_D42_017",
-      "VOC_D34_029"
-    ],
-    "grammar_ids": [
-      "GR_D34_HAI_SHI_CHOICE"
-    ],
-    "audio_id": "AUD_SEN_D34_078",
-    "day_introduced": 34,
-    "tokens": [
-      "你",
-      "要",
-      "喝",
-      "飲料",
-      "還是",
-      "熱湯"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D34_079",
-    "text": "你要點主餐還是配菜？",
-    "pinyin": "Nǐ yào diǎn zhǔcān háishì pèicài?",
-    "pinyin_numeric": "ni3 yao4 dian3 zhu3can1 hai2shi4 pei4cai4",
-    "translation_en": "Do you want to order a main dish or a side dish?",
-    "translation_ko": "메인 요리를 주문할래요, 반찬을 주문할래요?",
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_M1_061",
-      "VOC_M1_105",
-      "VOC_D34_025",
-      "VOC_D42_017",
-      "VOC_D34_026"
-    ],
-    "grammar_ids": [
-      "GR_D34_HAI_SHI_CHOICE"
-    ],
-    "audio_id": "AUD_SEN_D34_079",
-    "day_introduced": 34,
-    "tokens": [
-      "你",
-      "要",
-      "點",
-      "主餐",
-      "還是",
-      "配菜"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D34_080",
-    "text": "你要吃牛肉麵還是水餃？",
-    "pinyin": "Nǐ yào chī niúròu miàn háishì shuǐjiǎo?",
-    "pinyin_numeric": "ni3 yao4 chi1 niu2rou4 mian4 hai2shi4 shui3jiao3",
-    "translation_en": "Do you want to eat beef noodles or dumplings?",
-    "translation_ko": "소고기 국수를 먹을래요, 만두를 먹을래요?",
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_M1_061",
-      "VOC_M1_052",
-      "VOC_D34_003",
-      "VOC_D42_017",
-      "VOC_D34_004"
-    ],
-    "grammar_ids": [
-      "GR_D34_HAI_SHI_CHOICE"
-    ],
-    "audio_id": "AUD_SEN_D34_080",
-    "day_introduced": 34,
-    "tokens": [
-      "你",
-      "要",
-      "吃",
-      "牛肉麵",
-      "還是",
-      "水餃"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D34_081",
     "text": "我不要辣，因為我不太會吃辣。",
     "pinyin": "Wǒ bù yào là, yīnwèi wǒ bù tài huì chī là.",
@@ -10810,39 +8650,6 @@
       "不太會",
       "吃",
       "辣"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D34_082",
-    "text": "我不要牛肉麵，我要滷肉飯。",
-    "pinyin": "Wǒ bù yào niúròu miàn, wǒ yào lǔròu fàn.",
-    "pinyin_numeric": "wo3 bu4 yao4 niu2 rou4 mian4, wo3 yao4 lu3 rou4 fan4.",
-    "translation_en": "I don't want beef noodles, I want braised pork rice.",
-    "translation_ko": "소고기 국수는 안 먹을게요, 루로우판을 먹을게요.",
-    "token_ids": [
-      "VOC_M1_002",
-      "VOC_M1_079",
-      "VOC_M1_061",
-      "VOC_D34_003",
-      "VOC_M1_002",
-      "VOC_M1_061",
-      "VOC_D34_002"
-    ],
-    "grammar_ids": [
-      "GR_D34_BU_YAO"
-    ],
-    "audio_id": "AUD_SEN_D34_082",
-    "day_introduced": 34,
-    "tokens": [
-      "我",
-      "不",
-      "要",
-      "牛肉麵",
-      "我",
-      "要",
-      "滷肉飯"
     ],
     "difficulty": 2,
     "production_type": "practice"
@@ -10952,70 +8759,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D34_086",
-    "text": "我不要珍珠奶茶，因為太貴了。",
-    "pinyin": "Wǒ bù yào zhēnzhū nǎichá, yīnwèi tài guì le.",
-    "pinyin_numeric": "wo3 bu4 yao4 zhen1 zhu1 nai3 cha2, yin1 wei4 tai4 gui4 le5.",
-    "translation_en": "I don't want bubble tea, because it's too expensive.",
-    "translation_ko": "버블티는 안 마실게요, 너무 비싸서요.",
-    "token_ids": [
-      "VOC_M1_002",
-      "VOC_M1_079",
-      "VOC_M1_061",
-      "VOC_D34_001",
-      "VOC_D34_011",
-      "VOC_D43_039"
-    ],
-    "grammar_ids": [
-      "GR_D34_BU_YAO"
-    ],
-    "audio_id": "AUD_SEN_D34_086",
-    "day_introduced": 34,
-    "tokens": [
-      "我",
-      "不",
-      "要",
-      "珍珠奶茶",
-      "因為",
-      "太貴了"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D34_087",
-    "text": "我不要筷子，我要湯匙。",
-    "pinyin": "Wǒ bù yào kuàizi, wǒ yào tāngchí.",
-    "pinyin_numeric": "wo3 bu4 yao4 kuai4 zi5, wo3 yao4 tang1 chi2.",
-    "translation_en": "I don't want chopsticks, I want a spoon.",
-    "translation_ko": "젓가락은 안 쓸게요, 숟가락을 쓸게요.",
-    "token_ids": [
-      "VOC_M1_002",
-      "VOC_M1_079",
-      "VOC_M1_061",
-      "VOC_D34_031",
-      "VOC_M1_002",
-      "VOC_M1_061",
-      "VOC_D31_024"
-    ],
-    "grammar_ids": [
-      "GR_D34_BU_YAO"
-    ],
-    "audio_id": "AUD_SEN_D34_087",
-    "day_introduced": 34,
-    "tokens": [
-      "我",
-      "不",
-      "要",
-      "筷子",
-      "我",
-      "要",
-      "湯匙"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D34_088",
     "text": "我不要冰水，我要熱茶。",
     "pinyin": "Wǒ bù yào bīng shuǐ, wǒ yào rè chá.",
@@ -11046,72 +8789,6 @@
       "要",
       "熱",
       "茶"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D34_089",
-    "text": "我不要外帶，我要內用。",
-    "pinyin": "Wǒ bù yào wàidài, wǒ yào nèiyòng.",
-    "pinyin_numeric": "wo3 bu4 yao4 wai4 dai4, wo3 yao4 nei4 yong4.",
-    "translation_en": "I don't want takeout, I want to eat here.",
-    "translation_ko": "포장은 안 할게요, 매장에서 먹을게요.",
-    "token_ids": [
-      "VOC_M1_002",
-      "VOC_M1_079",
-      "VOC_M1_061",
-      "VOC_D31_016",
-      "VOC_M1_002",
-      "VOC_M1_061",
-      "VOC_D31_017"
-    ],
-    "grammar_ids": [
-      "GR_D34_BU_YAO"
-    ],
-    "audio_id": "AUD_SEN_D34_089",
-    "day_introduced": 34,
-    "tokens": [
-      "我",
-      "不",
-      "要",
-      "外帶",
-      "我",
-      "要",
-      "內用"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D34_090",
-    "text": "我不要加珍珠，因為我不喜歡。",
-    "pinyin": "Wǒ bù yào jiā zhēnzhū, yīnwèi wǒ bù xǐhuān.",
-    "pinyin_numeric": "wo3 bu4 yao4 jia1 zhen1 zhu1, yin1 wei4 wo3 bu4 xi3 huan1.",
-    "translation_en": "I don't want to add pearls, because I don't like them.",
-    "translation_ko": "펄은 넣지 않을게요, 제가 안 좋아해서요.",
-    "token_ids": [
-      "VOC_M1_002",
-      "VOC_M1_079",
-      "VOC_M1_061",
-      "VOC_D31_030",
-      "VOC_D34_011",
-      "VOC_M1_002",
-      "VOC_D42_001"
-    ],
-    "grammar_ids": [
-      "GR_D34_BU_YAO"
-    ],
-    "audio_id": "AUD_SEN_D34_090",
-    "day_introduced": 34,
-    "tokens": [
-      "我",
-      "不",
-      "要",
-      "加珍珠",
-      "因為",
-      "我",
-      "不喜歡"
     ],
     "difficulty": 2,
     "production_type": "practice"
@@ -12490,83 +10167,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D35_042",
-    "text": "可以加飯嗎？",
-    "pinyin": "Kěyǐ jiā fàn ma?",
-    "pinyin_numeric": "ke3yi3 jia1 fan4 ma0",
-    "translation_en": "Can I add rice?",
-    "translation_ko": "밥을 추가할 수 있나요?",
-    "token_ids": [
-      "VOC_M1_118",
-      "VOC_D35_004",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D35_KE_YI_MA"
-    ],
-    "audio_id": "AUD_SEN_D35_042",
-    "day_introduced": 35,
-    "tokens": [
-      "可以",
-      "加飯",
-      "嗎"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D35_043",
-    "text": "可以不要辣嗎？",
-    "pinyin": "Kěyǐ bù yào là ma?",
-    "pinyin_numeric": "ke3yi3 bu4 yao4 la4 ma0",
-    "translation_en": "Can I have it without spice?",
-    "translation_ko": "맵지 않게 해 주실 수 있나요?",
-    "token_ids": [
-      "VOC_M1_118",
-      "VOC_D35_001",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D35_KE_YI_MA"
-    ],
-    "audio_id": "AUD_SEN_D35_043",
-    "day_introduced": 35,
-    "tokens": [
-      "可以",
-      "不要辣",
-      "嗎"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D35_044",
-    "text": "可以換一份青菜嗎？",
-    "pinyin": "Kěyǐ huàn yī fèn qīngcài ma?",
-    "pinyin_numeric": "ke3yi3 huan4 yi1 fen4 qing1cai4 ma0",
-    "translation_en": "Can I exchange it for a serving of greens?",
-    "translation_ko": "야채 한 접시로 바꿀 수 있나요?",
-    "token_ids": [
-      "VOC_M1_118",
-      "VOC_D35_008",
-      "VOC_D35_037",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D35_KE_YI_MA"
-    ],
-    "audio_id": "AUD_SEN_D35_044",
-    "day_introduced": 35,
-    "tokens": [
-      "可以",
-      "換一份",
-      "青菜",
-      "嗎"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D35_045",
     "text": "可以加蛋嗎？",
     "pinyin": "Kěyǐ jiā dàn ma?",
@@ -12616,58 +10216,6 @@
       "退掉",
       "這",
       "個",
-      "嗎"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D35_047",
-    "text": "可以重做一份嗎？",
-    "pinyin": "Kěyǐ chóng zuò yī fèn ma?",
-    "pinyin_numeric": "ke3yi3 chong2 zuo4 yi1 fen4 ma0",
-    "translation_en": "Can you remake one serving?",
-    "translation_ko": "한 접시 다시 만들어 주실 수 있나요?",
-    "token_ids": [
-      "VOC_M1_118",
-      "VOC_D35_015",
-      "VOC_D34_035",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D35_KE_YI_MA"
-    ],
-    "audio_id": "AUD_SEN_D35_047",
-    "day_introduced": 35,
-    "tokens": [
-      "可以",
-      "重做",
-      "一份",
-      "嗎"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D35_048",
-    "text": "可以再等一下嗎？",
-    "pinyin": "Kěyǐ zài děng yīxià ma?",
-    "pinyin_numeric": "ke3yi3 zai4 deng3 yi1xia4 ma0",
-    "translation_en": "Can you wait a little longer?",
-    "translation_ko": "조금만 더 기다려 주실 수 있나요?",
-    "token_ids": [
-      "VOC_M1_118",
-      "VOC_D35_026",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D35_KE_YI_MA"
-    ],
-    "audio_id": "AUD_SEN_D35_048",
-    "day_introduced": 35,
-    "tokens": [
-      "可以",
-      "再等一下",
       "嗎"
     ],
     "difficulty": 2,
@@ -13034,33 +10582,6 @@
       "已經",
       "退掉",
       "了"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D35_060",
-    "text": "沒有關係，再等一下就好。",
-    "pinyin": "Méiyǒu guānxì, zài děng yīxià jiù hǎo.",
-    "pinyin_numeric": "mei2you3 guan1xi4, zai4 deng3 yi1xia4 jiu4 hao3.",
-    "translation_en": "It's okay, just wait a little longer.",
-    "translation_ko": "괜찮아요. 잠시만 더 기다리면 돼요.",
-    "token_ids": [
-      "VOC_D35_025",
-      "VOC_D35_026",
-      "VOC_D66_002",
-      "VOC_M1_088"
-    ],
-    "grammar_ids": [
-      "GR_D35_CUO_LE"
-    ],
-    "audio_id": "AUD_SEN_D35_060",
-    "day_introduced": 35,
-    "tokens": [
-      "沒有關係",
-      "再等一下",
-      "就",
-      "好"
     ],
     "difficulty": 2,
     "production_type": "practice"
@@ -13449,108 +10970,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D35_072",
-    "text": "可以不要辣嗎？",
-    "pinyin": "Kěyǐ bù yào là ma?",
-    "pinyin_numeric": "ke3yi3 bu4 yao4 la4 ma0",
-    "translation_en": "Can I have it without spice?",
-    "translation_ko": "맵지 않게 해 주시겠어요?",
-    "token_ids": [
-      "VOC_M1_118",
-      "VOC_D35_001",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D35_KE_YI_MA"
-    ],
-    "audio_id": "AUD_SEN_D35_072",
-    "day_introduced": 35,
-    "tokens": [
-      "可以",
-      "不要辣",
-      "嗎"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D35_073",
-    "text": "可以加飯嗎？",
-    "pinyin": "Kěyǐ jiā fàn ma?",
-    "pinyin_numeric": "ke3yi3 jia1 fan4 ma0",
-    "translation_en": "Can I get extra rice?",
-    "translation_ko": "밥을 추가할 수 있나요?",
-    "token_ids": [
-      "VOC_M1_118",
-      "VOC_D35_004",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D35_KE_YI_MA"
-    ],
-    "audio_id": "AUD_SEN_D35_073",
-    "day_introduced": 35,
-    "tokens": [
-      "可以",
-      "加飯",
-      "嗎"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D35_074",
-    "text": "可以少鹽嗎？",
-    "pinyin": "Kěyǐ shǎo yán ma?",
-    "pinyin_numeric": "ke3yi3 shao3 yan2 ma0",
-    "translation_en": "Can you use less salt?",
-    "translation_ko": "소금을 적게 넣어 주시겠어요?",
-    "token_ids": [
-      "VOC_M1_118",
-      "VOC_D35_002",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D35_KE_YI_MA"
-    ],
-    "audio_id": "AUD_SEN_D35_074",
-    "day_introduced": 35,
-    "tokens": [
-      "可以",
-      "少鹽",
-      "嗎"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D35_075",
-    "text": "可以換成炒飯嗎？",
-    "pinyin": "Kěyǐ huàn chéng chǎofàn ma?",
-    "pinyin_numeric": "ke3yi3 huan4 cheng2 chao3fan4 ma0",
-    "translation_en": "Can I change it to fried rice?",
-    "translation_ko": "볶음밥으로 바꿀 수 있나요?",
-    "token_ids": [
-      "VOC_M1_118",
-      "VOC_D35_007",
-      "VOC_D35_035",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D35_KE_YI_MA"
-    ],
-    "audio_id": "AUD_SEN_D35_075",
-    "day_introduced": 35,
-    "tokens": [
-      "可以",
-      "換成",
-      "炒飯",
-      "嗎"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D35_076",
     "text": "可以退掉這份雞排嗎？",
     "pinyin": "Kěyǐ tuì diào zhè fèn jīpái ma?",
@@ -13576,185 +10995,6 @@
       "份",
       "雞排",
       "嗎"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D35_077",
-    "text": "可以重做一份嗎？",
-    "pinyin": "Kěyǐ chóng zuò yī fèn ma?",
-    "pinyin_numeric": "ke3yi3 chong2 zuo4 yi1 fen4 ma0",
-    "translation_en": "Can you remake one serving?",
-    "translation_ko": "한 접시 다시 만들어 주시겠어요?",
-    "token_ids": [
-      "VOC_M1_118",
-      "VOC_D35_015",
-      "VOC_D34_035",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D35_KE_YI_MA"
-    ],
-    "audio_id": "AUD_SEN_D35_077",
-    "day_introduced": 35,
-    "tokens": [
-      "可以",
-      "重做",
-      "一份",
-      "嗎"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D35_078",
-    "text": "可以幫我確認訂單嗎？",
-    "pinyin": "Kěyǐ bāng wǒ quèrèn dìngdān ma?",
-    "pinyin_numeric": "ke3yi3 bang1 wo3 que4ren4 ding4dan1 ma0",
-    "translation_en": "Can you help me confirm the order?",
-    "translation_ko": "주문을 확인해 주시겠어요?",
-    "token_ids": [
-      "VOC_M1_118",
-      "VOC_D31_004",
-      "VOC_D35_027",
-      "VOC_D35_028",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D35_KE_YI_MA"
-    ],
-    "audio_id": "AUD_SEN_D35_078",
-    "day_introduced": 35,
-    "tokens": [
-      "可以",
-      "幫我",
-      "確認",
-      "訂單",
-      "嗎"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D35_079",
-    "text": "可以打包嗎？",
-    "pinyin": "Kěyǐ dǎbāo ma?",
-    "pinyin_numeric": "ke3yi3 da3bao1 ma0",
-    "translation_en": "Can I get this to go?",
-    "translation_ko": "포장해 주시겠어요?",
-    "token_ids": [
-      "VOC_M1_118",
-      "VOC_D35_032",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D35_KE_YI_MA"
-    ],
-    "audio_id": "AUD_SEN_D35_079",
-    "day_introduced": 35,
-    "tokens": [
-      "可以",
-      "打包",
-      "嗎"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D35_080",
-    "text": "可以再等一下嗎？",
-    "pinyin": "Kěyǐ zài děng yīxià ma?",
-    "pinyin_numeric": "ke3yi3 zai4 deng3 yi1xia4 ma0",
-    "translation_en": "Can you wait a little longer?",
-    "translation_ko": "조금만 더 기다려 주시겠어요?",
-    "token_ids": [
-      "VOC_M1_118",
-      "VOC_D35_026",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D35_KE_YI_MA"
-    ],
-    "audio_id": "AUD_SEN_D35_080",
-    "day_introduced": 35,
-    "tokens": [
-      "可以",
-      "再等一下",
-      "嗎"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D35_081",
-    "text": "我點錯了，我要的是不要辣的牛肉麵。",
-    "pinyin": "Wǒ diǎn cuò le, wǒ yào de shì bù yào là de niúròu miàn.",
-    "pinyin_numeric": "wo3 dian3 cuo4 le0, wo3 yao4 de0 shi4 bu4 yao4 la4 de0 niu2 rou4 mian4.",
-    "translation_en": "I ordered wrong; I wanted the beef noodle soup without spice.",
-    "translation_ko": "제가 잘못 주문했어요. 매운 걸 빼 달라고 한 소고기 국수였어요.",
-    "token_ids": [
-      "VOC_M1_002",
-      "VOC_D35_010",
-      "VOC_M1_002",
-      "VOC_M1_061",
-      "VOC_M1_023",
-      "VOC_M1_007",
-      "VOC_D35_001",
-      "VOC_M1_023",
-      "VOC_D34_003"
-    ],
-    "grammar_ids": [
-      "GR_D35_CUO_LE"
-    ],
-    "audio_id": "AUD_SEN_D35_081",
-    "day_introduced": 35,
-    "tokens": [
-      "我",
-      "點錯",
-      "了",
-      "我",
-      "要",
-      "的",
-      "是",
-      "不要辣",
-      "的",
-      "牛肉麵"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D35_082",
-    "text": "店員送錯了，這份炒飯不是我的。",
-    "pinyin": "Diànyuán sòng cuò le, zhè fèn chǎofàn bù shì wǒ de.",
-    "pinyin_numeric": "dian4 yuan2 song4 cuo4 le0, zhe4 fen4 chao3 fan4 bu4 shi4 wo3 de0.",
-    "translation_en": "The staff delivered the wrong order; this fried rice isn't mine.",
-    "translation_ko": "직원이 잘못 가져다줬어요. 이 볶음밥은 제 것이 아니에요.",
-    "token_ids": [
-      "VOC_D31_021",
-      "VOC_D35_011",
-      "VOC_D34_034",
-      "VOC_D35_035",
-      "VOC_D78_029",
-      "VOC_M1_002",
-      "VOC_M1_023"
-    ],
-    "grammar_ids": [
-      "GR_D35_CUO_LE"
-    ],
-    "audio_id": "AUD_SEN_D35_082",
-    "day_introduced": 35,
-    "tokens": [
-      "店員",
-      "送錯",
-      "了",
-      "這",
-      "份",
-      "炒飯",
-      "不是",
-      "我",
-      "的"
     ],
     "difficulty": 2,
     "production_type": "practice"
@@ -15286,95 +12526,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D36_041",
-    "text": "我每天早上七點起床。",
-    "pinyin": "Wǒ měitiān zǎoshang qī diǎn qǐchuáng.",
-    "pinyin_numeric": "wo3 mei3tian1 zao3shang4 qi1 dian3 qi3chuang2",
-    "translation_en": "I get up at seven every morning.",
-    "translation_ko": "저는 매일 아침 7시에 일어납니다.",
-    "token_ids": [
-      "VOC_M1_002",
-      "VOC_D36_001",
-      "VOC_M1_110",
-      "VOC_M1_018",
-      "VOC_M1_105",
-      "VOC_M1_136"
-    ],
-    "grammar_ids": [
-      "GR_D36_TIME_BEFORE_VERB"
-    ],
-    "audio_id": "AUD_SEN_D36_041",
-    "day_introduced": 36,
-    "tokens": [
-      "我",
-      "每天",
-      "早上",
-      "七",
-      "點",
-      "起床"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D36_042",
-    "text": "他中午十二點吃午餐。",
-    "pinyin": "Tā zhōngwǔ shí'èr diǎn chī wǔcān.",
-    "pinyin_numeric": "ta1 zhong1wu3 shi2er4 dian3 chi1 wu3can1",
-    "translation_en": "He eats lunch at twelve noon.",
-    "translation_ko": "그는 낮 12시에 점심을 먹습니다.",
-    "token_ids": [
-      "VOC_M1_004",
-      "VOC_D36_002",
-      "VOC_M1_036",
-      "VOC_M1_105",
-      "VOC_D36_021"
-    ],
-    "grammar_ids": [
-      "GR_D36_TIME_BEFORE_VERB"
-    ],
-    "audio_id": "AUD_SEN_D36_042",
-    "day_introduced": 36,
-    "tokens": [
-      "他",
-      "中午",
-      "十二",
-      "點",
-      "吃午餐"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D36_043",
-    "text": "我們晚上八點看電視。",
-    "pinyin": "Wǒmen wǎnshàng bā diǎn kàn diànshì.",
-    "pinyin_numeric": "wo3men wan3shang4 ba1 dian3 kan4 dian4shi4",
-    "translation_en": "We watch TV at eight in the evening.",
-    "translation_ko": "우리는 저녁 8시에 텔레비전을 봅니다.",
-    "token_ids": [
-      "VOC_M1_006",
-      "VOC_D36_003",
-      "VOC_M1_019",
-      "VOC_M1_105",
-      "VOC_D36_027"
-    ],
-    "grammar_ids": [
-      "GR_D36_TIME_BEFORE_VERB"
-    ],
-    "audio_id": "AUD_SEN_D36_043",
-    "day_introduced": 36,
-    "tokens": [
-      "我們",
-      "晚上",
-      "八",
-      "點",
-      "看電視"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D36_044",
     "text": "她下午三點上班。",
     "pinyin": "Tā xiàwǔ sān diǎn shàngbān.",
@@ -15430,37 +12581,6 @@
       "十一",
       "點",
       "睡覺"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D36_046",
-    "text": "他每天下午五點下班。",
-    "pinyin": "Tā měitiān xiàwǔ wǔ diǎn xiàbān.",
-    "pinyin_numeric": "ta1 mei3tian1 xia4wu3 wu3 dian3 xia4ban1",
-    "translation_en": "He gets off work at five every afternoon.",
-    "translation_ko": "그는 매일 오후 5시에 퇴근합니다.",
-    "token_ids": [
-      "VOC_M1_004",
-      "VOC_D36_001",
-      "VOC_M1_107",
-      "VOC_M1_013",
-      "VOC_M1_105",
-      "VOC_D36_006"
-    ],
-    "grammar_ids": [
-      "GR_D36_TIME_BEFORE_VERB"
-    ],
-    "audio_id": "AUD_SEN_D36_046",
-    "day_introduced": 36,
-    "tokens": [
-      "他",
-      "每天",
-      "下午",
-      "五",
-      "點",
-      "下班"
     ],
     "difficulty": 2,
     "production_type": "practice"
@@ -15588,97 +12708,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D36_051",
-    "text": "我現在每天中午吃午餐。",
-    "pinyin": "Wǒ xiànzài měitiān zhōngwǔ chī wǔcān.",
-    "pinyin_numeric": "wo3 xian4zai4 mei3tian1 zhong1wu3 chi1 wu3can1.",
-    "translation_en": "I now eat lunch every day at noon.",
-    "translation_ko": "저는 지금 매일 점심에 점심을 먹습니다.",
-    "token_ids": [
-      "VOC_M1_002",
-      "VOC_M1_104",
-      "VOC_D36_001",
-      "VOC_D36_002",
-      "VOC_D36_021"
-    ],
-    "grammar_ids": [
-      "GR_D36_XIAN_ZAI"
-    ],
-    "audio_id": "AUD_SEN_D36_051",
-    "day_introduced": 36,
-    "tokens": [
-      "我",
-      "現在",
-      "每天",
-      "中午",
-      "吃午餐"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D36_052",
-    "text": "他現在晚上在家看電視。",
-    "pinyin": "Tā xiànzài wǎnshàng zài jiā kàn diànshì.",
-    "pinyin_numeric": "ta1 xian4zai4 wan3shang4 zai4 jia1 kan4 dian4shi4.",
-    "translation_en": "He now watches TV at home in the evening.",
-    "translation_ko": "그는 지금 저녁에 집에서 텔레비전을 봅니다.",
-    "token_ids": [
-      "VOC_M1_004",
-      "VOC_M1_104",
-      "VOC_D36_003",
-      "VOC_M1_139",
-      "VOC_M1_039",
-      "VOC_D36_027"
-    ],
-    "grammar_ids": [
-      "GR_D36_XIAN_ZAI"
-    ],
-    "audio_id": "AUD_SEN_D36_052",
-    "day_introduced": 36,
-    "tokens": [
-      "他",
-      "現在",
-      "晚上",
-      "在",
-      "家",
-      "看電視"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D36_053",
-    "text": "我們現在早上七點起床。",
-    "pinyin": "Wǒmen xiànzài zǎoshang qī diǎn qǐchuáng.",
-    "pinyin_numeric": "wo3men5 xian4zai4 zao3shang4 qi1 dian3 qi3chuang2.",
-    "translation_en": "We now get up at seven in the morning.",
-    "translation_ko": "우리는 지금 아침 7시에 일어납니다.",
-    "token_ids": [
-      "VOC_M1_006",
-      "VOC_M1_104",
-      "VOC_M1_110",
-      "VOC_M1_018",
-      "VOC_M1_105",
-      "VOC_M1_136"
-    ],
-    "grammar_ids": [
-      "GR_D36_XIAN_ZAI"
-    ],
-    "audio_id": "AUD_SEN_D36_053",
-    "day_introduced": 36,
-    "tokens": [
-      "我們",
-      "現在",
-      "早上",
-      "七",
-      "點",
-      "起床"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D36_054",
     "text": "她現在下午三點上課。",
     "pinyin": "Tā xiànzài xiàwǔ sān diǎn shàngkè.",
@@ -15705,66 +12734,6 @@
       "三",
       "點",
       "上課"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D36_055",
-    "text": "我現在晚上十點睡覺。",
-    "pinyin": "Wǒ xiànzài wǎnshàng shí diǎn shuìjiào.",
-    "pinyin_numeric": "wo3 xian4zai4 wan3shang4 shi2 dian3 shui4jiao4.",
-    "translation_en": "I now go to sleep at ten in the evening.",
-    "translation_ko": "저는 지금 저녁 10시에 잠을 잡니다.",
-    "token_ids": [
-      "VOC_M1_002",
-      "VOC_M1_104",
-      "VOC_D36_003",
-      "VOC_M1_015",
-      "VOC_M1_105",
-      "VOC_D36_004"
-    ],
-    "grammar_ids": [
-      "GR_D36_XIAN_ZAI"
-    ],
-    "audio_id": "AUD_SEN_D36_055",
-    "day_introduced": 36,
-    "tokens": [
-      "我",
-      "現在",
-      "晚上",
-      "十",
-      "點",
-      "睡覺"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D36_056",
-    "text": "他現在每天下午散步。",
-    "pinyin": "Tā xiànzài měitiān xiàwǔ sànbù.",
-    "pinyin_numeric": "ta1 xian4zai4 mei3tian1 xia4wu3 san4bu4.",
-    "translation_en": "He now takes a walk every afternoon.",
-    "translation_ko": "그는 지금 매일 오후에 산책을 합니다.",
-    "token_ids": [
-      "VOC_M1_004",
-      "VOC_M1_104",
-      "VOC_D36_001",
-      "VOC_M1_107",
-      "VOC_D36_025"
-    ],
-    "grammar_ids": [
-      "GR_D36_XIAN_ZAI"
-    ],
-    "audio_id": "AUD_SEN_D36_056",
-    "day_introduced": 36,
-    "tokens": [
-      "他",
-      "現在",
-      "每天",
-      "下午",
-      "散步"
     ],
     "difficulty": 2,
     "production_type": "practice"
@@ -15885,87 +12854,6 @@
       "在",
       "家",
       "做功課"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D36_061",
-    "text": "我每天中午吃午餐。",
-    "pinyin": "Wǒ měitiān zhōngwǔ chī wǔcān.",
-    "pinyin_numeric": "wo3 mei3tian1 zhong1wu3 chi1 wu3can1",
-    "translation_en": "I eat lunch every day at noon.",
-    "translation_ko": "저는 매일 점심에 점심을 먹습니다.",
-    "token_ids": [
-      "VOC_M1_002",
-      "VOC_D36_001",
-      "VOC_D36_002",
-      "VOC_D36_021"
-    ],
-    "grammar_ids": [
-      "GR_D36_EVERY_DAY"
-    ],
-    "audio_id": "AUD_SEN_D36_061",
-    "day_introduced": 36,
-    "tokens": [
-      "我",
-      "每天",
-      "中午",
-      "吃午餐"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D36_062",
-    "text": "他每天晚上看電視。",
-    "pinyin": "Tā měitiān wǎnshàng kàn diànshì.",
-    "pinyin_numeric": "ta1 mei3tian1 wan3shang4 kan4 dian4shi4",
-    "translation_en": "He watches TV every evening.",
-    "translation_ko": "그는 매일 저녁에 텔레비전을 봅니다.",
-    "token_ids": [
-      "VOC_M1_004",
-      "VOC_D36_001",
-      "VOC_D36_003",
-      "VOC_D36_027"
-    ],
-    "grammar_ids": [
-      "GR_D36_EVERY_DAY"
-    ],
-    "audio_id": "AUD_SEN_D36_062",
-    "day_introduced": 36,
-    "tokens": [
-      "他",
-      "每天",
-      "晚上",
-      "看電視"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D36_063",
-    "text": "我們每天上午上班。",
-    "pinyin": "Wǒmen měitiān shàngwǔ shàngbān.",
-    "pinyin_numeric": "wo3men mei3tian1 shang4wu3 shang4ban1",
-    "translation_en": "We go to work every morning.",
-    "translation_ko": "우리는 매일 오전에 출근합니다.",
-    "token_ids": [
-      "VOC_M1_006",
-      "VOC_D36_001",
-      "VOC_M1_106",
-      "VOC_D36_005"
-    ],
-    "grammar_ids": [
-      "GR_D36_EVERY_DAY"
-    ],
-    "audio_id": "AUD_SEN_D36_063",
-    "day_introduced": 36,
-    "tokens": [
-      "我們",
-      "每天",
-      "上午",
-      "上班"
     ],
     "difficulty": 2,
     "production_type": "practice"
@@ -16168,155 +13056,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D36_071",
-    "text": "我每天早上七點起床。",
-    "pinyin": "Wǒ měitiān zǎoshang qī diǎn qǐchuáng.",
-    "pinyin_numeric": "wo3 mei3tian1 zao3shang4 qi1 dian3 qi3chuang2",
-    "translation_en": "I get up at seven every morning.",
-    "translation_ko": "저는 매일 아침 7시에 일어납니다.",
-    "token_ids": [
-      "VOC_M1_002",
-      "VOC_D36_001",
-      "VOC_M1_110",
-      "VOC_M1_018",
-      "VOC_M1_105",
-      "VOC_M1_136"
-    ],
-    "grammar_ids": [
-      "GR_D36_TIME_BEFORE_VERB"
-    ],
-    "audio_id": "AUD_SEN_D36_071",
-    "day_introduced": 36,
-    "tokens": [
-      "我",
-      "每天",
-      "早上",
-      "七",
-      "點",
-      "起床"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D36_072",
-    "text": "他中午十二點吃午餐。",
-    "pinyin": "Tā zhōngwǔ shí'èr diǎn chī wǔcān.",
-    "pinyin_numeric": "ta1 zhong1wu3 shi2'er4 dian3 chi1 wu3can1",
-    "translation_en": "He eats lunch at twelve noon.",
-    "translation_ko": "그는 정오 12시에 점심을 먹습니다.",
-    "token_ids": [
-      "VOC_M1_004",
-      "VOC_D36_002",
-      "VOC_M1_036",
-      "VOC_M1_105",
-      "VOC_D36_021"
-    ],
-    "grammar_ids": [
-      "GR_D36_TIME_BEFORE_VERB"
-    ],
-    "audio_id": "AUD_SEN_D36_072",
-    "day_introduced": 36,
-    "tokens": [
-      "他",
-      "中午",
-      "十二",
-      "點",
-      "吃午餐"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D36_073",
-    "text": "我們晚上八點看電視。",
-    "pinyin": "Wǒmen wǎnshang bā diǎn kàn diànshì.",
-    "pinyin_numeric": "wo3men wan3shang4 ba1 dian3 kan4 dian4shi4",
-    "translation_en": "We watch TV at eight in the evening.",
-    "translation_ko": "우리는 저녁 8시에 텔레비전을 봅니다.",
-    "token_ids": [
-      "VOC_M1_006",
-      "VOC_D36_003",
-      "VOC_M1_019",
-      "VOC_M1_105",
-      "VOC_D36_027"
-    ],
-    "grammar_ids": [
-      "GR_D36_TIME_BEFORE_VERB"
-    ],
-    "audio_id": "AUD_SEN_D36_073",
-    "day_introduced": 36,
-    "tokens": [
-      "我們",
-      "晚上",
-      "八",
-      "點",
-      "看電視"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D36_074",
-    "text": "她下午三點上班。",
-    "pinyin": "Tā xiàwǔ sān diǎn shàngbān.",
-    "pinyin_numeric": "ta1 xia4wu3 san1 dian3 shang4ban1",
-    "translation_en": "She goes to work at three in the afternoon.",
-    "translation_ko": "그녀는 오후 3시에 출근합니다.",
-    "token_ids": [
-      "VOC_M1_005",
-      "VOC_M1_107",
-      "VOC_M1_011",
-      "VOC_M1_105",
-      "VOC_D36_005"
-    ],
-    "grammar_ids": [
-      "GR_D36_TIME_BEFORE_VERB"
-    ],
-    "audio_id": "AUD_SEN_D36_074",
-    "day_introduced": 36,
-    "tokens": [
-      "她",
-      "下午",
-      "三",
-      "點",
-      "上班"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D36_075",
-    "text": "我哥哥晚上十一點睡覺。",
-    "pinyin": "Wǒ gēge wǎnshang shíyī diǎn shuìjiào.",
-    "pinyin_numeric": "wo3 ge1ge wan3shang4 shi2yi1 dian3 shui4jiao4",
-    "translation_en": "My older brother goes to sleep at eleven at night.",
-    "translation_ko": "제 형은 밤 11시에 잠을 잡니다.",
-    "token_ids": [
-      "VOC_M1_002",
-      "VOC_M1_028",
-      "VOC_D36_003",
-      "VOC_M1_035",
-      "VOC_M1_105",
-      "VOC_D36_004"
-    ],
-    "grammar_ids": [
-      "GR_D36_TIME_BEFORE_VERB"
-    ],
-    "audio_id": "AUD_SEN_D36_075",
-    "day_introduced": 36,
-    "tokens": [
-      "我",
-      "哥哥",
-      "晚上",
-      "十一",
-      "點",
-      "睡覺"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D36_076",
     "text": "你明天早上幾點上課？",
     "pinyin": "Nǐ míngtiān zǎoshang jǐ diǎn shàngkè?",
@@ -16471,35 +13210,6 @@
       "十",
       "點",
       "睡覺"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D36_081",
-    "text": "我現在每天中午吃午餐。",
-    "pinyin": "Wǒ xiànzài měitiān zhōngwǔ chī wǔcān.",
-    "pinyin_numeric": "wo3 xian4zai4 mei3tian1 zhong1wu3 chi1 wu3can1.",
-    "translation_en": "I now eat lunch every day at noon.",
-    "translation_ko": "저는 지금 매일 점심에 점심을 먹습니다.",
-    "token_ids": [
-      "VOC_M1_002",
-      "VOC_M1_104",
-      "VOC_D36_001",
-      "VOC_D36_002",
-      "VOC_D36_021"
-    ],
-    "grammar_ids": [
-      "GR_D36_XIAN_ZAI"
-    ],
-    "audio_id": "AUD_SEN_D36_081",
-    "day_introduced": 36,
-    "tokens": [
-      "我",
-      "現在",
-      "每天",
-      "中午",
-      "吃午餐"
     ],
     "difficulty": 2,
     "production_type": "practice"
@@ -18451,41 +15161,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D37_051",
-    "text": "你什麼時候有空？我們可以一起去喝咖啡。",
-    "pinyin": "Nǐ shénme shíhòu yǒu kòng? Wǒmen kěyǐ yīqǐ qù hē kāfēi.",
-    "pinyin_numeric": "ni3 shen2me shi2hou4 you3 kong4? wo3men ke3yi3 yi1qi3 qu4 he1 ka1fei1.",
-    "translation_en": "When are you free? We can go drink coffee together.",
-    "translation_ko": "언제 시간이 되세요? 같이 커피 마시러 갈 수 있어요.",
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_M1_071",
-      "VOC_D59_017",
-      "VOC_D36_010",
-      "VOC_M1_006",
-      "VOC_M1_118",
-      "VOC_D37_003",
-      "VOC_D37_004"
-    ],
-    "grammar_ids": [
-      "GR_D37_SHENME_SHIHOU"
-    ],
-    "audio_id": "AUD_SEN_D37_051",
-    "day_introduced": 37,
-    "tokens": [
-      "你",
-      "什麼",
-      "時候",
-      "有空",
-      "我們",
-      "可以",
-      "一起去",
-      "喝咖啡"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D37_052",
     "text": "我們什麼時候見面？我想跟你一起去看電影。",
     "pinyin": "Wǒmen shénme shíhòu jiànmiàn? Wǒ xiǎng gēn nǐ yīqǐ qù kàn diànyǐng.",
@@ -18598,45 +15273,6 @@
       "晚上",
       "一起",
       "逛街"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D37_055",
-    "text": "你什麼時候要見朋友？我們可以一起去喝咖啡聊天。",
-    "pinyin": "Nǐ shénme shíhòu yào jiàn péngyǒu? Wǒmen kěyǐ yīqǐ qù hē kāfēi liáotiān.",
-    "pinyin_numeric": "ni3 shen2me shi2hou4 yao4 jian4 peng2you3? wo3men ke3yi3 yi1qi3 qu4 he1 ka1fei1 liao2tian1.",
-    "translation_en": "When are you meeting a friend? We can go drink coffee and chat together.",
-    "translation_ko": "언제 친구를 만날 거예요? 같이 커피 마시면서 이야기할 수 있어요.",
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_M1_071",
-      "VOC_D59_017",
-      "VOC_M1_061",
-      "VOC_D37_002",
-      "VOC_M1_006",
-      "VOC_M1_118",
-      "VOC_D37_003",
-      "VOC_D37_004",
-      "VOC_D37_008"
-    ],
-    "grammar_ids": [
-      "GR_D37_SHENME_SHIHOU"
-    ],
-    "audio_id": "AUD_SEN_D37_055",
-    "day_introduced": 37,
-    "tokens": [
-      "你",
-      "什麼",
-      "時候",
-      "要",
-      "見朋友",
-      "我們",
-      "可以",
-      "一起去",
-      "喝咖啡",
-      "聊天"
     ],
     "difficulty": 2,
     "production_type": "practice"
@@ -18832,161 +15468,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D37_061",
-    "text": "我想約朋友一起去喝咖啡。",
-    "pinyin": "Wǒ xiǎng yuē péngyǒu yīqǐ qù hē kāfēi.",
-    "pinyin_numeric": "wo3 xiang3 yue1 peng2you3 yi1qi3 qu4 he1 ka1fei1.",
-    "translation_en": "I want to make plans with a friend to go drink coffee together.",
-    "translation_ko": "친구와 함께 커피를 마시러 가기로 약속하고 싶어요.",
-    "token_ids": [
-      "VOC_M1_002",
-      "VOC_M1_050",
-      "VOC_D36_009",
-      "VOC_M1_042",
-      "VOC_D37_003",
-      "VOC_D37_004"
-    ],
-    "grammar_ids": [
-      "GR_D37_XIANG_VERB"
-    ],
-    "audio_id": "AUD_SEN_D37_061",
-    "day_introduced": 37,
-    "tokens": [
-      "我",
-      "想",
-      "約",
-      "朋友",
-      "一起去",
-      "喝咖啡"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D37_062",
-    "text": "你想約誰一起去吃飯？",
-    "pinyin": "Nǐ xiǎng yuē shéi yīqǐ qù chīfàn?",
-    "pinyin_numeric": "ni3 xiang3 yue1 shei2 yi1qi3 qu4 chi1fan4?",
-    "translation_en": "Who do you want to make plans with to go eat together?",
-    "translation_ko": "누구와 함께 밥을 먹으러 가기로 약속하고 싶어요?",
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_M1_050",
-      "VOC_D36_009",
-      "VOC_M1_072",
-      "VOC_D37_003",
-      "VOC_D37_005"
-    ],
-    "grammar_ids": [
-      "GR_D37_XIANG_VERB"
-    ],
-    "audio_id": "AUD_SEN_D37_062",
-    "day_introduced": 37,
-    "tokens": [
-      "你",
-      "想",
-      "約",
-      "誰",
-      "一起去",
-      "吃飯"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D37_063",
-    "text": "他不想看電影，他想去逛街。",
-    "pinyin": "Tā bù xiǎng kàn diànyǐng, tā xiǎng qù guàngjiē.",
-    "pinyin_numeric": "ta1 bu4 xiang3 kan4 dian4ying3, ta1 xiang3 qu4 guang4jie1.",
-    "translation_en": "He doesn't want to watch a movie; he wants to go shopping.",
-    "translation_ko": "그는 영화를 보고 싶지 않고, 쇼핑하러 가고 싶어요.",
-    "token_ids": [
-      "VOC_M1_004",
-      "VOC_M1_079",
-      "VOC_D42_024",
-      "VOC_M1_004",
-      "VOC_M1_050",
-      "VOC_M1_156",
-      "VOC_D37_007"
-    ],
-    "grammar_ids": [
-      "GR_D37_XIANG_VERB"
-    ],
-    "audio_id": "AUD_SEN_D37_063",
-    "day_introduced": 37,
-    "tokens": [
-      "他",
-      "不",
-      "想看電影",
-      "他",
-      "想",
-      "去",
-      "逛街"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D37_064",
-    "text": "我們想約時間一起聊天。",
-    "pinyin": "Wǒmen xiǎng yuē shíjiān yīqǐ liáotiān.",
-    "pinyin_numeric": "wo3men xiang3 yue1 shi2jian1 yi1qi3 liao2tian1.",
-    "translation_en": "We want to arrange a time to chat together.",
-    "translation_ko": "우리는 함께 이야기할 시간을 약속하고 싶어요.",
-    "token_ids": [
-      "VOC_M1_006",
-      "VOC_M1_050",
-      "VOC_D37_009",
-      "VOC_M1_183",
-      "VOC_D37_008"
-    ],
-    "grammar_ids": [
-      "GR_D37_XIANG_VERB"
-    ],
-    "audio_id": "AUD_SEN_D37_064",
-    "day_introduced": 37,
-    "tokens": [
-      "我們",
-      "想",
-      "約時間",
-      "一起",
-      "聊天"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D37_065",
-    "text": "你想約在哪裡見面？",
-    "pinyin": "Nǐ xiǎng yuē zài nǎlǐ jiànmiàn?",
-    "pinyin_numeric": "ni3 xiang3 yue1 zai4 na3li3 jian4mian4?",
-    "translation_en": "Where do you want to arrange to meet?",
-    "translation_ko": "어디에서 만나기로 약속하고 싶어요?",
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_M1_050",
-      "VOC_D36_009",
-      "VOC_M1_139",
-      "VOC_M1_073",
-      "VOC_M1_198"
-    ],
-    "grammar_ids": [
-      "GR_D37_XIANG_VERB"
-    ],
-    "audio_id": "AUD_SEN_D37_065",
-    "day_introduced": 37,
-    "tokens": [
-      "你",
-      "想",
-      "約",
-      "在",
-      "哪裡",
-      "見面"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D37_066",
     "text": "她不想改時間，她想準時到。",
     "pinyin": "Tā bù xiǎng gǎi shíjiān, tā xiǎng zhǔnshí dào.",
@@ -19162,39 +15643,6 @@
       "她",
       "說",
       "可以啊"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D37_071",
-    "text": "我明天要跟朋友一起去喝咖啡。",
-    "pinyin": "Wǒ míngtiān yào gēn péngyou yīqǐ qù hē kāfēi.",
-    "pinyin_numeric": "wo3 ming2tian1 yao4 gen1 peng2you3 yi4qi3 qu4 he1 ka1fei1",
-    "translation_en": "I'm going to drink coffee with a friend tomorrow.",
-    "translation_ko": "저는 내일 친구와 함께 커피를 마시러 갈 거예요.",
-    "token_ids": [
-      "VOC_M1_002",
-      "VOC_M1_033",
-      "VOC_M1_061",
-      "VOC_M1_182",
-      "VOC_M1_042",
-      "VOC_D37_003",
-      "VOC_D37_004"
-    ],
-    "grammar_ids": [
-      "GR_D37_YAO_FUTURE"
-    ],
-    "audio_id": "AUD_SEN_D37_071",
-    "day_introduced": 37,
-    "tokens": [
-      "我",
-      "明天",
-      "要",
-      "跟",
-      "朋友",
-      "一起去",
-      "喝咖啡"
     ],
     "difficulty": 2,
     "production_type": "practice"
@@ -19496,80 +15944,6 @@
       "今天",
       "的",
       "約會"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D37_081",
-    "text": "你什麼時候有空？我們可以一起去喝咖啡。",
-    "pinyin": "Nǐ shénme shíhou yǒu kòng? Wǒmen kěyǐ yīqǐ qù hē kāfēi.",
-    "pinyin_numeric": "ni3 shen2me shi2hou you3 kong4? wo3men ke3yi3 yi1qi3 qu4 he1 ka1fei1.",
-    "translation_en": "When are you free? We can go drink coffee together.",
-    "translation_ko": "언제 시간이 되세요? 같이 커피 마시러 갈 수 있어요.",
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_M1_071",
-      "VOC_D59_017",
-      "VOC_D36_010",
-      "VOC_M1_006",
-      "VOC_M1_118",
-      "VOC_D37_003",
-      "VOC_D37_004"
-    ],
-    "grammar_ids": [
-      "GR_D37_SHENME_SHIHOU"
-    ],
-    "audio_id": "AUD_SEN_D37_081",
-    "day_introduced": 37,
-    "tokens": [
-      "你",
-      "什麼",
-      "時候",
-      "有空",
-      "我們",
-      "可以",
-      "一起去",
-      "喝咖啡"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D37_082",
-    "text": "我們什麼時候見面？我想跟你一起看電影。",
-    "pinyin": "Wǒmen shénme shíhou jiànmiàn? Wǒ xiǎng gēn nǐ yīqǐ kàn diànyǐng.",
-    "pinyin_numeric": "wo3men shen2me shi2hou jian4mian4? wo3 xiang3 gen1 ni3 yi1qi3 kan4 dian4ying3.",
-    "translation_en": "When shall we meet? I want to watch a movie with you.",
-    "translation_ko": "우리 언제 만날까요? 당신과 같이 영화를 보고 싶어요.",
-    "token_ids": [
-      "VOC_M1_006",
-      "VOC_M1_071",
-      "VOC_D59_017",
-      "VOC_M1_198",
-      "VOC_M1_002",
-      "VOC_M1_050",
-      "VOC_M1_182",
-      "VOC_M1_003",
-      "VOC_M1_183",
-      "VOC_D37_006"
-    ],
-    "grammar_ids": [
-      "GR_D37_SHENME_SHIHOU"
-    ],
-    "audio_id": "AUD_SEN_D37_082",
-    "day_introduced": 37,
-    "tokens": [
-      "我們",
-      "什麼",
-      "時候",
-      "見面",
-      "我",
-      "想",
-      "跟",
-      "你",
-      "一起",
-      "看電影"
     ],
     "difficulty": 2,
     "production_type": "practice"
@@ -20851,37 +17225,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D38_032",
-    "text": "他坐捷運去台北車站。",
-    "pinyin": "Tā zuò jiéyùn qù Táiběi chēzhàn.",
-    "pinyin_numeric": "ta1 zuo4 jie2yun4 qu4 Tai2bei3 che1zhan4.",
-    "translation_en": "He takes the MRT to Taipei Main Station.",
-    "translation_ko": "그는 지하철을 타고 타이베이 역에 갑니다.",
-    "token_ids": [
-      "VOC_M1_004",
-      "VOC_M1_120",
-      "VOC_M1_154",
-      "VOC_M1_156",
-      "VOC_M1_197",
-      "VOC_M1_151"
-    ],
-    "grammar_ids": [
-      "GR_D38_ZUO_TRANSPORT"
-    ],
-    "audio_id": "AUD_SEN_D38_032",
-    "day_introduced": 38,
-    "tokens": [
-      "他",
-      "坐",
-      "捷運",
-      "去",
-      "台北",
-      "車站"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D38_033",
     "text": "我們坐計程車去餐廳吃飯。",
     "pinyin": "Wǒmen zuò jìchéngchē qù cāntīng chīfàn.",
@@ -21068,37 +17411,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D38_039",
-    "text": "你坐計程車去車站嗎？",
-    "pinyin": "Nǐ zuò jìchéngchē qù chēzhàn ma?",
-    "pinyin_numeric": "ni3 zuo4 ji4cheng2che1 qu4 che1zhan4 ma0?",
-    "translation_en": "Are you taking a taxi to the station?",
-    "translation_ko": "택시를 타고 역에 가나요?",
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_M1_120",
-      "VOC_D38_002",
-      "VOC_M1_156",
-      "VOC_M1_151",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D38_ZUO_TRANSPORT"
-    ],
-    "audio_id": "AUD_SEN_D38_039",
-    "day_introduced": 38,
-    "tokens": [
-      "你",
-      "坐",
-      "計程車",
-      "去",
-      "車站",
-      "嗎"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D38_040",
     "text": "她坐公車去商店買東西。",
     "pinyin": "Tā zuò gōngchē qù shāngdiàn mǎi dōngxī.",
@@ -21125,72 +17437,6 @@
       "去",
       "商店",
       "買東西"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D38_041",
-    "text": "從車站到醫院怎麼去？",
-    "pinyin": "Cóng chēzhàn dào yīyuàn zěnme qù?",
-    "pinyin_numeric": "cong2 che1zhan4 dao4 yi1yuan4 zen3me qu4",
-    "translation_en": "How do I get from the station to the hospital?",
-    "translation_ko": "역에서 병원까지 어떻게 가나요?",
-    "token_ids": [
-      "VOC_D33_023",
-      "VOC_M1_151",
-      "VOC_D33_024",
-      "VOC_M1_148",
-      "VOC_M1_075",
-      "VOC_M1_156"
-    ],
-    "grammar_ids": [
-      "GR_D38_DAO_PLACE"
-    ],
-    "audio_id": "AUD_SEN_D38_041",
-    "day_introduced": 38,
-    "tokens": [
-      "從",
-      "車站",
-      "到",
-      "醫院",
-      "怎麼",
-      "去"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D38_042",
-    "text": "從這裡到台北車站可以搭捷運嗎？",
-    "pinyin": "Cóng zhèlǐ dào Táiběi chēzhàn kěyǐ dā jiéyùn ma?",
-    "pinyin_numeric": "cong2 zhe4li3 dao4 Tai2bei3 che1zhan4 ke3yi3 da1 jie2yun4 ma0",
-    "translation_en": "Can I take the MRT from here to Taipei Station?",
-    "translation_ko": "여기에서 타이베이 역까지 지하철을 탈 수 있나요?",
-    "token_ids": [
-      "VOC_D33_023",
-      "VOC_M1_122",
-      "VOC_D33_024",
-      "VOC_M1_197",
-      "VOC_M1_151",
-      "VOC_M1_118",
-      "VOC_D38_017",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D38_DAO_PLACE"
-    ],
-    "audio_id": "AUD_SEN_D38_042",
-    "day_introduced": 38,
-    "tokens": [
-      "從",
-      "這裡",
-      "到",
-      "台北",
-      "車站",
-      "可以",
-      "搭捷運",
-      "嗎"
     ],
     "difficulty": 2,
     "production_type": "practice"
@@ -21903,35 +18149,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D38_064",
-    "text": "你坐公車去哪裡？",
-    "pinyin": "Nǐ zuò gōngchē qù nǎlǐ?",
-    "pinyin_numeric": "ni3 zuo4 gong1che1 qu4 na3li3",
-    "translation_en": "Where do you take the bus to?",
-    "translation_ko": "버스를 타고 어디에 가나요?",
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_M1_120",
-      "VOC_D38_001",
-      "VOC_M1_156",
-      "VOC_M1_073"
-    ],
-    "grammar_ids": [
-      "GR_D38_ZUO_TRANSPORT"
-    ],
-    "audio_id": "AUD_SEN_D38_064",
-    "day_introduced": 38,
-    "tokens": [
-      "你",
-      "坐",
-      "公車",
-      "去",
-      "哪裡"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D38_065",
     "text": "我們坐捷運去公園。",
     "pinyin": "Wǒmen zuò jiéyùn qù gōngyuán.",
@@ -22101,72 +18318,6 @@
       "公車",
       "去",
       "商店"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D38_071",
-    "text": "從車站到醫院怎麼去？",
-    "pinyin": "Cóng chēzhàn dào yīyuàn zěnme qù?",
-    "pinyin_numeric": "cong2 che1zhan4 dao4 yi1yuan4 zen3me qu4",
-    "translation_en": "How do I get from the station to the hospital?",
-    "translation_ko": "역에서 병원까지 어떻게 가나요?",
-    "token_ids": [
-      "VOC_D33_023",
-      "VOC_M1_151",
-      "VOC_D33_024",
-      "VOC_M1_148",
-      "VOC_M1_075",
-      "VOC_M1_156"
-    ],
-    "grammar_ids": [
-      "GR_D38_DAO_PLACE"
-    ],
-    "audio_id": "AUD_SEN_D38_071",
-    "day_introduced": 38,
-    "tokens": [
-      "從",
-      "車站",
-      "到",
-      "醫院",
-      "怎麼",
-      "去"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D38_072",
-    "text": "從這裡到台北車站可以搭捷運嗎？",
-    "pinyin": "Cóng zhèlǐ dào Táiběi chēzhàn kěyǐ dā jiéyùn ma?",
-    "pinyin_numeric": "cong2 zhe4li3 dao4 Tai2bei3 che1zhan4 ke3yi3 da1 jie2yun4 ma0",
-    "translation_en": "Can I take the MRT from here to Taipei Station?",
-    "translation_ko": "여기에서 타이베이 역까지 지하철을 탈 수 있나요?",
-    "token_ids": [
-      "VOC_D33_023",
-      "VOC_M1_122",
-      "VOC_D33_024",
-      "VOC_M1_197",
-      "VOC_M1_151",
-      "VOC_M1_118",
-      "VOC_D38_017",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D38_DAO_PLACE"
-    ],
-    "audio_id": "AUD_SEN_D38_072",
-    "day_introduced": 38,
-    "tokens": [
-      "從",
-      "這裡",
-      "到",
-      "台北",
-      "車站",
-      "可以",
-      "搭捷運",
-      "嗎"
     ],
     "difficulty": 2,
     "production_type": "practice"
@@ -22485,78 +18636,6 @@
       "再",
       "轉",
       "捷運"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D38_081",
-    "text": "到台北車站要坐捷運嗎？",
-    "pinyin": "Dào Táiběi Chēzhàn yào zuò jiéyùn ma?",
-    "pinyin_numeric": "dao4 Tai2bei3 Che1zhan4 yao4 zuo4 jie2yun4 ma0",
-    "translation_en": "Do I need to take the MRT to Taipei Station?",
-    "translation_ko": "타이베이 역까지 지하철을 타야 하나요?",
-    "token_ids": [
-      "VOC_D33_024",
-      "VOC_M1_197",
-      "VOC_M1_151",
-      "VOC_M1_061",
-      "VOC_M1_120",
-      "VOC_M1_154",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D38_ZENME_QU"
-    ],
-    "audio_id": "AUD_SEN_D38_081",
-    "day_introduced": 38,
-    "tokens": [
-      "到",
-      "台北",
-      "車站",
-      "要",
-      "坐",
-      "捷運",
-      "嗎"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D38_082",
-    "text": "從我家到公司搭公車要三十分鐘。",
-    "pinyin": "Cóng wǒ jiā dào gōngsī dā gōngchē yào sānshí fēnzhōng.",
-    "pinyin_numeric": "cong2 wo3 jia1 dao4 gong1si1 da1 gong1che1 yao4 san1shi2 fen1zhong1",
-    "translation_en": "It takes 30 minutes by bus from my home to the office.",
-    "translation_ko": "우리 집에서 회사까지 버스로 30분 걸려요.",
-    "token_ids": [
-      "VOC_D33_023",
-      "VOC_M1_002",
-      "VOC_M1_039",
-      "VOC_D33_024",
-      "VOC_M1_138",
-      "VOC_D38_018",
-      "VOC_M1_061",
-      "VOC_M1_011",
-      "VOC_M1_015",
-      "VOC_D56_032"
-    ],
-    "grammar_ids": [
-      "GR_D38_ZENME_QU"
-    ],
-    "audio_id": "AUD_SEN_D38_082",
-    "day_introduced": 38,
-    "tokens": [
-      "從",
-      "我",
-      "家",
-      "到",
-      "公司",
-      "搭公車",
-      "要",
-      "三",
-      "十",
-      "分鐘"
     ],
     "difficulty": 2,
     "production_type": "practice"
@@ -23946,44 +20025,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D39_031",
-    "text": "我坐過站了，現在要從紅線換到藍線。",
-    "pinyin": "Wǒ zuò guò zhàn le, xiànzài yào cóng hóng xiàn huàn dào lán xiàn.",
-    "pinyin_numeric": "wo3 zuo4 guo4 zhan4 le0, xian4zai4 yao4 cong2 hong2 xian4 huan4 dao4 lan2 xian4.",
-    "translation_en": "I missed my stop, and now I need to transfer from the Red Line to the Blue Line.",
-    "translation_ko": "제가 역을 지나쳐 버렸는데, 지금은 홍선에서 란선으로 갈아타야 해요.",
-    "token_ids": [
-      "VOC_M1_002",
-      "VOC_D39_001",
-      "VOC_M1_104",
-      "VOC_M1_061",
-      "VOC_D33_023",
-      "VOC_D38_033",
-      "VOC_D59_009",
-      "VOC_D33_024",
-      "VOC_D38_034"
-    ],
-    "grammar_ids": [
-      "GR_D39_HUAN_CHE"
-    ],
-    "audio_id": "AUD_SEN_D39_031",
-    "day_introduced": 39,
-    "tokens": [
-      "我",
-      "坐過站",
-      "了",
-      "現在",
-      "要",
-      "從",
-      "紅線",
-      "換",
-      "到",
-      "藍線"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D39_032",
     "text": "因為誤點，我們來不及從捷運換火車。",
     "pinyin": "Yīnwèi wùdiǎn, wǒmen láibují cóng jiéyùn huàn huǒchē.",
@@ -24632,40 +20673,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D39_051",
-    "text": "我還沒到車站，火車就開了。",
-    "pinyin": "Wǒ hái méi dào chēzhàn, huǒchē jiù kāi le.",
-    "pinyin_numeric": "wo3 hai2 mei2 dao4 che1zhan4, huo3che1 jiu4 kai1 le0.",
-    "translation_en": "I hadn't arrived at the station yet when the train left.",
-    "translation_ko": "제가 역에 아직 도착하지 않았는데 기차가 떠났어요.",
-    "token_ids": [
-      "VOC_M1_002",
-      "VOC_M1_080",
-      "VOC_D33_024",
-      "VOC_M1_151",
-      "VOC_M1_153",
-      "VOC_D66_002"
-    ],
-    "grammar_ids": [
-      "GR_D39_HAI_MEI"
-    ],
-    "audio_id": "AUD_SEN_D39_051",
-    "day_introduced": 39,
-    "tokens": [
-      "我",
-      "還",
-      "沒",
-      "到",
-      "車站",
-      "火車",
-      "就",
-      "開",
-      "了"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D39_052",
     "text": "他還沒發現坐錯車，所以現在很著急。",
     "pinyin": "Tā hái méi fāxiàn zuò cuò chē, suǒyǐ xiànzài hěn zháojí.",
@@ -24734,43 +20741,6 @@
       "下一班",
       "車",
       "誤點"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D39_054",
-    "text": "你還沒看地圖嗎？我們可能走錯路了。",
-    "pinyin": "Nǐ hái méi kàn dìtú ma? Wǒmen kěnéng zǒu cuò lù le.",
-    "pinyin_numeric": "ni3 hai2 mei2 kan4 di4tu2 ma0? wo3men0 ke3neng2 zou3 cuo4 lu4 le0.",
-    "translation_en": "Haven't you checked the map yet? We might have taken the wrong road.",
-    "translation_ko": "아직 지도를 안 보셨어요? 우리 길을 잘못 들었을지도 몰라요.",
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_M1_080",
-      "VOC_M1_062",
-      "VOC_D39_021",
-      "VOC_M1_016",
-      "VOC_M1_006",
-      "VOC_D73_016",
-      "VOC_D39_004"
-    ],
-    "grammar_ids": [
-      "GR_D39_HAI_MEI"
-    ],
-    "audio_id": "AUD_SEN_D39_054",
-    "day_introduced": 39,
-    "tokens": [
-      "你",
-      "還",
-      "沒",
-      "看",
-      "地圖",
-      "嗎",
-      "我們",
-      "可能",
-      "走錯路",
-      "了"
     ],
     "difficulty": 2,
     "production_type": "practice"
@@ -25007,79 +20977,6 @@
       "再",
       "出",
       "發"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D39_061",
-    "text": "我坐過站了，現在要從紅線換到藍線。",
-    "pinyin": "Wǒ zuò guò zhàn le, xiànzài yào cóng hóng xiàn huàn dào lán xiàn.",
-    "pinyin_numeric": "wo3 zuo4 guo4 zhan4 le0, xian4zai4 yao4 cong2 hong2 xian4 huan4 dao4 lan2 xian4.",
-    "translation_en": "I missed my stop, now I need to transfer from the Red Line to the Blue Line.",
-    "translation_ko": "제가 역을 지나쳐 버렸어요. 이제 빨간 선에서 파란 선으로 갈아타야 해요.",
-    "token_ids": [
-      "VOC_M1_002",
-      "VOC_D39_001",
-      "VOC_M1_104",
-      "VOC_M1_061",
-      "VOC_D33_023",
-      "VOC_D38_033",
-      "VOC_D59_009",
-      "VOC_D33_024",
-      "VOC_D38_034"
-    ],
-    "grammar_ids": [
-      "GR_D39_HUAN_CHE"
-    ],
-    "audio_id": "AUD_SEN_D39_061",
-    "day_introduced": 39,
-    "tokens": [
-      "我",
-      "坐過站",
-      "了",
-      "現在",
-      "要",
-      "從",
-      "紅線",
-      "換",
-      "到",
-      "藍線"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D39_062",
-    "text": "因為誤點，我們來不及從捷運換火車。",
-    "pinyin": "Yīnwèi wùdiǎn, wǒmen láibují cóng jiéyùn huàn huǒchē.",
-    "pinyin_numeric": "yin1wei4 wu4dian3, wo3men0 lai2bu4ji2 cong2 jie2yun4 huan4 huo3che1.",
-    "translation_en": "Because of the delay, we didn't have time to transfer from the MRT to the train.",
-    "translation_ko": "지연 때문에 저희가 지하철에서 기차로 갈아탈 시간이 없었어요.",
-    "token_ids": [
-      "VOC_D34_011",
-      "VOC_D39_010",
-      "VOC_M1_006",
-      "VOC_D39_015",
-      "VOC_D33_023",
-      "VOC_M1_154",
-      "VOC_D59_009",
-      "VOC_M1_153"
-    ],
-    "grammar_ids": [
-      "GR_D39_HUAN_CHE"
-    ],
-    "audio_id": "AUD_SEN_D39_062",
-    "day_introduced": 39,
-    "tokens": [
-      "因為",
-      "誤點",
-      "我們",
-      "來不及",
-      "從",
-      "捷運",
-      "換",
-      "火車"
     ],
     "difficulty": 2,
     "production_type": "practice"
@@ -25399,36 +21296,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D39_071",
-    "text": "我坐錯車了，現在在反方向。",
-    "pinyin": "Wǒ zuò cuò chē le, xiànzài zài fǎn fāngxiàng.",
-    "pinyin_numeric": "wo3 zuo4 cuo4 che1 le0, xian4zai4 zai4 fan3 fang1xiang4.",
-    "translation_en": "I got on the wrong bus, and now I'm going in the opposite direction.",
-    "translation_ko": "잘못된 버스를 타서 지금 반대 방향으로 가고 있어요.",
-    "token_ids": [
-      "VOC_M1_002",
-      "VOC_D39_002",
-      "VOC_M1_104",
-      "VOC_M1_139",
-      "VOC_D39_005"
-    ],
-    "grammar_ids": [
-      "GR_D39_CUO_DIRECTION"
-    ],
-    "audio_id": "AUD_SEN_D39_071",
-    "day_introduced": 39,
-    "tokens": [
-      "我",
-      "坐錯車",
-      "了",
-      "現在",
-      "在",
-      "反方向"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D39_072",
     "text": "我們搭錯線了，應該換線。",
     "pinyin": "Wǒmen dā cuò xiàn le, yīnggāi huàn xiàn.",
@@ -25452,63 +21319,6 @@
       "了",
       "應該",
       "換線"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D39_073",
-    "text": "因為誤點，我來不及上班。",
-    "pinyin": "Yīnwèi wùdiǎn, wǒ láibují shàngbān.",
-    "pinyin_numeric": "yin1wei4 wu4dian3, wo3 lai2bu4ji2 shang4ban1.",
-    "translation_en": "Because of the delay, I couldn't make it to work on time.",
-    "translation_ko": "지연 때문에 제때 출근하지 못했어요.",
-    "token_ids": [
-      "VOC_D34_011",
-      "VOC_D39_010",
-      "VOC_M1_002",
-      "VOC_D39_015",
-      "VOC_D36_005"
-    ],
-    "grammar_ids": [
-      "GR_D39_CUO_DIRECTION"
-    ],
-    "audio_id": "AUD_SEN_D39_073",
-    "day_introduced": 39,
-    "tokens": [
-      "因為",
-      "誤點",
-      "我",
-      "來不及",
-      "上班"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D39_074",
-    "text": "你走錯路了，要往回走。",
-    "pinyin": "Nǐ zǒu cuò lù le, yào wǎng huí zǒu.",
-    "pinyin_numeric": "ni3 zou3 cuo4 lu4 le0, yao4 wang3 hui2 zou3.",
-    "translation_en": "You went the wrong way; you need to go back.",
-    "translation_ko": "길을 잘못 들었어요. 되돌아가야 해요.",
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_D39_004",
-      "VOC_M1_061",
-      "VOC_D39_006"
-    ],
-    "grammar_ids": [
-      "GR_D39_CUO_DIRECTION"
-    ],
-    "audio_id": "AUD_SEN_D39_074",
-    "day_introduced": 39,
-    "tokens": [
-      "你",
-      "走錯路",
-      "了",
-      "要",
-      "往回走"
     ],
     "difficulty": 2,
     "production_type": "practice"
@@ -27569,214 +23379,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D40_041",
-    "text": "我的中文比他的中文流利。",
-    "pinyin": "Wǒ de zhōngwén bǐ tā de zhōngwén liúlì.",
-    "pinyin_numeric": "wo3 de0 zhong1wen2 bi3 ta1 de0 zhong1wen2 liu2li4",
-    "translation_en": "My Chinese is more fluent than his Chinese.",
-    "translation_ko": "제 중국어가 그의 중국어보다 유창합니다.",
-    "token_ids": [
-      "VOC_M1_002",
-      "VOC_M1_023",
-      "VOC_M1_069",
-      "VOC_M1_157",
-      "VOC_M1_004",
-      "VOC_M1_023",
-      "VOC_M1_069",
-      "VOC_D40_007"
-    ],
-    "grammar_ids": [
-      "GR_D40_REVIEW_RECOMBINATION"
-    ],
-    "audio_id": "AUD_SEN_D40_041",
-    "day_introduced": 40,
-    "tokens": [
-      "我",
-      "的",
-      "中文",
-      "比",
-      "他",
-      "的",
-      "中文",
-      "流利"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D40_042",
-    "text": "這個句子比那個句子清楚。",
-    "pinyin": "Zhège jùzi bǐ nàge jùzi qīngchu.",
-    "pinyin_numeric": "zhe4ge0 ju4zi0 bi3 na4ge0 ju4zi0 qing1chu0",
-    "translation_en": "This sentence is clearer than that sentence.",
-    "translation_ko": "이 문장이 그 문장보다 더 명확합니다.",
-    "token_ids": [
-      "VOC_M1_041",
-      "VOC_D40_009",
-      "VOC_M1_157",
-      "VOC_M1_163",
-      "VOC_D40_009",
-      "VOC_D40_008"
-    ],
-    "grammar_ids": [
-      "GR_D40_REVIEW_RECOMBINATION"
-    ],
-    "audio_id": "AUD_SEN_D40_042",
-    "day_introduced": 40,
-    "tokens": [
-      "這",
-      "個",
-      "句子",
-      "比",
-      "那個",
-      "句子",
-      "清楚"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D40_043",
-    "text": "今天的重點比昨天的重點多。",
-    "pinyin": "Jīntiān de zhòngdiǎn bǐ zuótiān de zhòngdiǎn duō.",
-    "pinyin_numeric": "jin1tian1 de0 zhong4dian3 bi3 zuo2tian1 de0 zhong4dian3 duo1",
-    "translation_en": "Today's key points are more than yesterday's key points.",
-    "translation_ko": "오늘의 핵심 포인트가 어제보다 더 많습니다.",
-    "token_ids": [
-      "VOC_M1_032",
-      "VOC_M1_023",
-      "VOC_D40_002",
-      "VOC_M1_157",
-      "VOC_M1_034",
-      "VOC_M1_023",
-      "VOC_D40_002",
-      "VOC_M1_089"
-    ],
-    "grammar_ids": [
-      "GR_D40_REVIEW_RECOMBINATION"
-    ],
-    "audio_id": "AUD_SEN_D40_043",
-    "day_introduced": 40,
-    "tokens": [
-      "今天",
-      "的",
-      "重點",
-      "比",
-      "昨天",
-      "的",
-      "重點",
-      "多"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D40_044",
-    "text": "我的弱點比他的弱點少。",
-    "pinyin": "Wǒ de ruòdiǎn bǐ tā de ruòdiǎn shǎo.",
-    "pinyin_numeric": "wo3 de0 ruo4dian3 bi3 ta1 de0 ruo4dian3 shao3",
-    "translation_en": "My weaknesses are fewer than his weaknesses.",
-    "translation_ko": "제 약점이 그의 약점보다 적습니다.",
-    "token_ids": [
-      "VOC_M1_002",
-      "VOC_M1_023",
-      "VOC_D40_003",
-      "VOC_M1_157",
-      "VOC_M1_004",
-      "VOC_M1_023",
-      "VOC_D40_003",
-      "VOC_M1_090"
-    ],
-    "grammar_ids": [
-      "GR_D40_REVIEW_RECOMBINATION"
-    ],
-    "audio_id": "AUD_SEN_D40_044",
-    "day_introduced": 40,
-    "tokens": [
-      "我",
-      "的",
-      "弱點",
-      "比",
-      "他",
-      "的",
-      "弱點",
-      "少"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D40_045",
-    "text": "這個答案比那個答案好。",
-    "pinyin": "Zhège dá'àn bǐ nàge dá'àn hǎo.",
-    "pinyin_numeric": "zhe4ge0 da2an4 bi3 na4ge0 da2an4 hao3",
-    "translation_en": "This answer is better than that answer.",
-    "translation_ko": "이 답변이 그 답변보다 더 좋습니다.",
-    "token_ids": [
-      "VOC_M1_041",
-      "VOC_D40_010",
-      "VOC_M1_157",
-      "VOC_M1_163",
-      "VOC_D40_010",
-      "VOC_M1_088"
-    ],
-    "grammar_ids": [
-      "GR_D40_REVIEW_RECOMBINATION"
-    ],
-    "audio_id": "AUD_SEN_D40_045",
-    "day_introduced": 40,
-    "tokens": [
-      "這",
-      "個",
-      "答案",
-      "比",
-      "那個",
-      "答案",
-      "好"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D40_046",
-    "text": "他改正的錯誤比我改正的錯誤多。",
-    "pinyin": "Tā gǎizhèng de cuòwù bǐ wǒ gǎizhèng de cuòwù duō.",
-    "pinyin_numeric": "ta1 gai3zheng4 de0 cuo4wu4 bi3 wo3 gai3zheng4 de0 cuo4wu4 duo1",
-    "translation_en": "He corrected more mistakes than I corrected.",
-    "translation_ko": "그가 고친 실수가 제가 고친 실수보다 더 많습니다.",
-    "token_ids": [
-      "VOC_M1_004",
-      "VOC_D40_005",
-      "VOC_M1_023",
-      "VOC_D40_004",
-      "VOC_M1_157",
-      "VOC_M1_002",
-      "VOC_D40_005",
-      "VOC_M1_023",
-      "VOC_D40_004",
-      "VOC_M1_089"
-    ],
-    "grammar_ids": [
-      "GR_D40_REVIEW_RECOMBINATION"
-    ],
-    "audio_id": "AUD_SEN_D40_046",
-    "day_introduced": 40,
-    "tokens": [
-      "他",
-      "改正",
-      "的",
-      "錯誤",
-      "比",
-      "我",
-      "改正",
-      "的",
-      "錯誤",
-      "多"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D40_047",
     "text": "再試一次比第一次流利。",
     "pinyin": "Zài shì yī cì bǐ dì yī cì liúlì.",
@@ -28711,214 +24313,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D40_071",
-    "text": "我的中文比他的中文流利。",
-    "pinyin": "Wǒ de zhōngwén bǐ tā de zhōngwén liúlì.",
-    "pinyin_numeric": "wo3 de0 zhong1wen2 bi3 ta1 de0 zhong1wen2 liu2li4.",
-    "translation_en": "My Chinese is more fluent than his Chinese.",
-    "translation_ko": "제 중국어가 그의 중국어보다 유창합니다.",
-    "token_ids": [
-      "VOC_M1_002",
-      "VOC_M1_023",
-      "VOC_M1_069",
-      "VOC_M1_157",
-      "VOC_M1_004",
-      "VOC_M1_023",
-      "VOC_M1_069",
-      "VOC_D40_007"
-    ],
-    "grammar_ids": [
-      "GR_D40_REVIEW_RECOMBINATION"
-    ],
-    "audio_id": "AUD_SEN_D40_071",
-    "day_introduced": 40,
-    "tokens": [
-      "我",
-      "的",
-      "中文",
-      "比",
-      "他",
-      "的",
-      "中文",
-      "流利"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D40_072",
-    "text": "這個句子比那個句子清楚。",
-    "pinyin": "Zhège jùzi bǐ nàge jùzi qīngchu.",
-    "pinyin_numeric": "zhe4ge0 ju4zi0 bi3 na4ge0 ju4zi0 qing1chu0.",
-    "translation_en": "This sentence is clearer than that sentence.",
-    "translation_ko": "이 문장이 저 문장보다 명확합니다.",
-    "token_ids": [
-      "VOC_M1_041",
-      "VOC_D40_009",
-      "VOC_M1_157",
-      "VOC_M1_163",
-      "VOC_D40_009",
-      "VOC_D40_008"
-    ],
-    "grammar_ids": [
-      "GR_D40_REVIEW_RECOMBINATION"
-    ],
-    "audio_id": "AUD_SEN_D40_072",
-    "day_introduced": 40,
-    "tokens": [
-      "這",
-      "個",
-      "句子",
-      "比",
-      "那個",
-      "句子",
-      "清楚"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D40_073",
-    "text": "今天的重點比昨天的重點多。",
-    "pinyin": "Jīntiān de zhòngdiǎn bǐ zuótiān de zhòngdiǎn duō.",
-    "pinyin_numeric": "jin1tian1 de0 zhong4dian3 bi3 zuo2tian1 de0 zhong4dian3 duo1.",
-    "translation_en": "Today's key points are more than yesterday's key points.",
-    "translation_ko": "오늘의 핵심이 어제의 핵심보다 많습니다.",
-    "token_ids": [
-      "VOC_M1_032",
-      "VOC_M1_023",
-      "VOC_D40_002",
-      "VOC_M1_157",
-      "VOC_M1_034",
-      "VOC_M1_023",
-      "VOC_D40_002",
-      "VOC_M1_089"
-    ],
-    "grammar_ids": [
-      "GR_D40_REVIEW_RECOMBINATION"
-    ],
-    "audio_id": "AUD_SEN_D40_073",
-    "day_introduced": 40,
-    "tokens": [
-      "今天",
-      "的",
-      "重點",
-      "比",
-      "昨天",
-      "的",
-      "重點",
-      "多"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D40_074",
-    "text": "我的弱點比他的弱點少。",
-    "pinyin": "Wǒ de ruòdiǎn bǐ tā de ruòdiǎn shǎo.",
-    "pinyin_numeric": "wo3 de0 ruo4dian3 bi3 ta1 de0 ruo4dian3 shao3.",
-    "translation_en": "My weaknesses are fewer than his weaknesses.",
-    "translation_ko": "제 약점이 그의 약점보다 적습니다.",
-    "token_ids": [
-      "VOC_M1_002",
-      "VOC_M1_023",
-      "VOC_D40_003",
-      "VOC_M1_157",
-      "VOC_M1_004",
-      "VOC_M1_023",
-      "VOC_D40_003",
-      "VOC_M1_090"
-    ],
-    "grammar_ids": [
-      "GR_D40_REVIEW_RECOMBINATION"
-    ],
-    "audio_id": "AUD_SEN_D40_074",
-    "day_introduced": 40,
-    "tokens": [
-      "我",
-      "的",
-      "弱點",
-      "比",
-      "他",
-      "的",
-      "弱點",
-      "少"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D40_075",
-    "text": "這個答案比那個答案好。",
-    "pinyin": "Zhège dá'àn bǐ nàge dá'àn hǎo.",
-    "pinyin_numeric": "zhe4ge0 da2'an4 bi3 na4ge0 da2'an4 hao3.",
-    "translation_en": "This answer is better than that answer.",
-    "translation_ko": "이 답변이 저 답변보다 좋습니다.",
-    "token_ids": [
-      "VOC_M1_041",
-      "VOC_D40_010",
-      "VOC_M1_157",
-      "VOC_M1_163",
-      "VOC_D40_010",
-      "VOC_M1_088"
-    ],
-    "grammar_ids": [
-      "GR_D40_REVIEW_RECOMBINATION"
-    ],
-    "audio_id": "AUD_SEN_D40_075",
-    "day_introduced": 40,
-    "tokens": [
-      "這",
-      "個",
-      "答案",
-      "比",
-      "那個",
-      "答案",
-      "好"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D40_076",
-    "text": "他改正的錯誤比我改正的錯誤多。",
-    "pinyin": "Tā gǎizhèng de cuòwù bǐ wǒ gǎizhèng de cuòwù duō.",
-    "pinyin_numeric": "ta1 gai3zheng4 de0 cuo4wu4 bi3 wo3 gai3zheng4 de0 cuo4wu4 duo1.",
-    "translation_en": "The mistakes he corrected are more than the mistakes I corrected.",
-    "translation_ko": "그가 고친 실수가 제가 고친 실수보다 많습니다.",
-    "token_ids": [
-      "VOC_M1_004",
-      "VOC_D40_005",
-      "VOC_M1_023",
-      "VOC_D40_004",
-      "VOC_M1_157",
-      "VOC_M1_002",
-      "VOC_D40_005",
-      "VOC_M1_023",
-      "VOC_D40_004",
-      "VOC_M1_089"
-    ],
-    "grammar_ids": [
-      "GR_D40_REVIEW_RECOMBINATION"
-    ],
-    "audio_id": "AUD_SEN_D40_076",
-    "day_introduced": 40,
-    "tokens": [
-      "他",
-      "改正",
-      "的",
-      "錯誤",
-      "比",
-      "我",
-      "改正",
-      "的",
-      "錯誤",
-      "多"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D40_077",
     "text": "再試一次的句子比第一次的句子流利。",
     "pinyin": "Zài shì yī cì de jùzi bǐ dì yī cì de jùzi liúlì.",
@@ -28949,38 +24343,6 @@
       "的",
       "句子",
       "流利"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D40_078",
-    "text": "這個重點比那個重點重要。",
-    "pinyin": "Zhège zhòngdiǎn bǐ nàge zhòngdiǎn zhòngyào.",
-    "pinyin_numeric": "zhe4ge0 zhong4dian3 bi3 na4ge0 zhong4dian3 zhong4yao4.",
-    "translation_en": "This key point is more important than that key point.",
-    "translation_ko": "이 핵심이 저 핵심보다 중요합니다.",
-    "token_ids": [
-      "VOC_M1_041",
-      "VOC_D40_002",
-      "VOC_M1_157",
-      "VOC_M1_163",
-      "VOC_D40_002",
-      "VOC_D72_043"
-    ],
-    "grammar_ids": [
-      "GR_D40_REVIEW_RECOMBINATION"
-    ],
-    "audio_id": "AUD_SEN_D40_078",
-    "day_introduced": 40,
-    "tokens": [
-      "這",
-      "個",
-      "重點",
-      "比",
-      "那個",
-      "重點",
-      "重要"
     ],
     "difficulty": 2,
     "production_type": "practice"
@@ -29056,93 +24418,6 @@
       "的",
       "錯誤",
       "少"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D40_081",
-    "text": "我在圖書館複習中文。",
-    "pinyin": "Wǒ zài túshūguǎn fùxí zhōngwén.",
-    "pinyin_numeric": "wo3 zai4 tu2shu1guan3 fu4xi2 zhong1wen2.",
-    "translation_en": "I am reviewing Chinese at the library.",
-    "translation_ko": "저는 도서관에서 중국어를 복습하고 있어요.",
-    "token_ids": [
-      "VOC_M1_002",
-      "VOC_M1_139",
-      "VOC_M1_146",
-      "VOC_D40_001",
-      "VOC_M1_069"
-    ],
-    "grammar_ids": [
-      "GR_D40_REVIEW_RECOMBINATION"
-    ],
-    "audio_id": "AUD_SEN_D40_081",
-    "day_introduced": 40,
-    "tokens": [
-      "我",
-      "在",
-      "圖書館",
-      "複習",
-      "中文"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D40_082",
-    "text": "他在公司改正錯誤。",
-    "pinyin": "Tā zài gōngsī gǎizhèng cuòwù.",
-    "pinyin_numeric": "ta1 zai4 gong1si1 gai3zheng4 cuo4wu4.",
-    "translation_en": "He is correcting mistakes at the company.",
-    "translation_ko": "그는 회사에서 실수를 고치고 있어요.",
-    "token_ids": [
-      "VOC_M1_004",
-      "VOC_M1_139",
-      "VOC_M1_138",
-      "VOC_D40_005",
-      "VOC_D40_004"
-    ],
-    "grammar_ids": [
-      "GR_D40_REVIEW_RECOMBINATION"
-    ],
-    "audio_id": "AUD_SEN_D40_082",
-    "day_introduced": 40,
-    "tokens": [
-      "他",
-      "在",
-      "公司",
-      "改正",
-      "錯誤"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D40_083",
-    "text": "我們在教室寫句子。",
-    "pinyin": "Wǒmen zài jiàoshì xiě jùzi.",
-    "pinyin_numeric": "wo3men5 zai4 jiao4shi4 xie3 ju4zi5.",
-    "translation_en": "We are writing sentences in the classroom.",
-    "translation_ko": "우리는 교실에서 문장을 쓰고 있어요.",
-    "token_ids": [
-      "VOC_M1_006",
-      "VOC_M1_139",
-      "VOC_D33_007",
-      "VOC_M1_065",
-      "VOC_D40_009"
-    ],
-    "grammar_ids": [
-      "GR_D40_REVIEW_RECOMBINATION"
-    ],
-    "audio_id": "AUD_SEN_D40_083",
-    "day_introduced": 40,
-    "tokens": [
-      "我們",
-      "在",
-      "教室",
-      "寫",
-      "句子"
     ],
     "difficulty": 2,
     "production_type": "practice"
@@ -29233,33 +24508,6 @@
       "咖啡店",
       "改正",
       "弱點"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D40_087",
-    "text": "我們在學校再試一次。",
-    "pinyin": "Wǒmen zài xuéxiào zài shì yī cì.",
-    "pinyin_numeric": "wo3men5 zai4 xue2xiao4 zai4 shi4 yi1 ci4.",
-    "translation_en": "We are trying again at school.",
-    "translation_ko": "우리는 학교에서 다시 한 번 시도하고 있어요.",
-    "token_ids": [
-      "VOC_M1_006",
-      "VOC_M1_139",
-      "VOC_M1_149",
-      "VOC_D40_006"
-    ],
-    "grammar_ids": [
-      "GR_D40_REVIEW_RECOMBINATION"
-    ],
-    "audio_id": "AUD_SEN_D40_087",
-    "day_introduced": 40,
-    "tokens": [
-      "我們",
-      "在",
-      "學校",
-      "再試一次"
     ],
     "difficulty": 2,
     "production_type": "practice"
@@ -29992,35 +25240,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D41_021",
-    "text": "我因為肚子餓，所以想吃飯。",
-    "pinyin": "Wǒ yīnwèi dùzi è, suǒyǐ xiǎng chī fàn.",
-    "pinyin_numeric": "wo3 yin1 wei4 du4 zi5 e4, suo3 yi3 xiang3 chi1 fan4.",
-    "translation_en": "I am hungry, so I want to eat.",
-    "translation_ko": "저는 배가 고파서 밥을 먹고 싶어요.",
-    "token_ids": [
-      "VOC_M1_002",
-      "VOC_D34_011",
-      "VOC_D41_003",
-      "VOC_D34_012",
-      "VOC_D42_022"
-    ],
-    "grammar_ids": [
-      "GR_D41_SUOYI_POSITION"
-    ],
-    "audio_id": "AUD_SEN_D41_021",
-    "day_introduced": 41,
-    "tokens": [
-      "我",
-      "因為",
-      "肚子餓",
-      "所以",
-      "想吃飯"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D41_022",
     "text": "他因為口渴，所以想喝一杯水。",
     "pinyin": "Tā yīnwèi kǒukě, suǒyǐ xiǎng hē yī bēi shuǐ.",
@@ -30328,70 +25547,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D41_031",
-    "text": "因為我肚子餓，所以想吃飯。",
-    "pinyin": "Yīnwèi wǒ dùzi è, suǒyǐ xiǎng chī fàn.",
-    "pinyin_numeric": "yin1 wei4 wo3 du4 zi5 e4, suo3 yi3 xiang3 chi1 fan4.",
-    "translation_en": "Because I'm hungry, I want to eat.",
-    "translation_ko": "배가 고파서 밥을 먹고 싶어요.",
-    "token_ids": [
-      "VOC_D34_011",
-      "VOC_M1_002",
-      "VOC_D41_003",
-      "VOC_D34_012",
-      "VOC_D42_022"
-    ],
-    "grammar_ids": [
-      "GR_D41_YINWEI_SUOYI"
-    ],
-    "audio_id": "AUD_SEN_D41_031",
-    "day_introduced": 41,
-    "tokens": [
-      "因為",
-      "我",
-      "肚子餓",
-      "所以",
-      "想吃飯"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D41_032",
-    "text": "因為我口渴，所以想喝一杯水。",
-    "pinyin": "Yīnwèi wǒ kǒu kě, suǒyǐ xiǎng hē yī bēi shuǐ.",
-    "pinyin_numeric": "yin1 wei4 wo3 kou3 ke3, suo3 yi3 xiang3 he1 yi1 bei1 shui3.",
-    "translation_en": "Because I'm thirsty, I want to drink a glass of water.",
-    "translation_ko": "목이 말라서 물 한 잔 마시고 싶어요.",
-    "token_ids": [
-      "VOC_D34_011",
-      "VOC_M1_002",
-      "VOC_D41_004",
-      "VOC_D34_012",
-      "VOC_M1_050",
-      "VOC_M1_051",
-      "VOC_M1_009",
-      "VOC_M1_102"
-    ],
-    "grammar_ids": [
-      "GR_D41_YINWEI_SUOYI"
-    ],
-    "audio_id": "AUD_SEN_D41_032",
-    "day_introduced": 41,
-    "tokens": [
-      "因為",
-      "我",
-      "口渴",
-      "所以",
-      "想",
-      "喝",
-      "一",
-      "杯水"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D41_033",
     "text": "因為我感冒了，所以不想喝冰的。",
     "pinyin": "Yīnwèi wǒ gǎnmào le, suǒyǐ bù xiǎng hē bīng de.",
@@ -30524,40 +25679,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D41_037",
-    "text": "因為我忘記帶錢，所以不能買東西。",
-    "pinyin": "Yīnwèi wǒ wàngjì dài qián, suǒyǐ bù néng mǎi dōngxī.",
-    "pinyin_numeric": "yin1 wei4 wo3 wang4 ji4 dai4 qian2, suo3 yi3 bu4 neng2 mai3 dong1 xi1.",
-    "translation_en": "Because I forgot to bring money, I can't buy anything.",
-    "translation_ko": "돈을 가져오는 걸 잊어서 물건을 살 수 없어요.",
-    "token_ids": [
-      "VOC_D34_011",
-      "VOC_M1_002",
-      "VOC_D41_025",
-      "VOC_M1_114",
-      "VOC_D34_012",
-      "VOC_M1_079",
-      "VOC_D86_007"
-    ],
-    "grammar_ids": [
-      "GR_D41_YINWEI_SUOYI"
-    ],
-    "audio_id": "AUD_SEN_D41_037",
-    "day_introduced": 41,
-    "tokens": [
-      "因為",
-      "我",
-      "忘記帶",
-      "錢",
-      "所以",
-      "不",
-      "能",
-      "買東西"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D41_038",
     "text": "因為我剛下班，所以想回家休息。",
     "pinyin": "Yīnwèi wǒ gāng xiàbān, suǒyǐ xiǎng huí jiā xiūxí.",
@@ -30648,87 +25769,6 @@
       "我",
       "頭痛",
       "所以",
-      "不想喝",
-      "咖啡"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D41_041",
-    "text": "你為什麼不想吃？",
-    "pinyin": "Nǐ wèishénme bù xiǎng chī?",
-    "pinyin_numeric": "ni3 wei4 shen2 me0 bu4 xiang3 chi1",
-    "translation_en": "Why don't you want to eat?",
-    "translation_ko": "왜 먹고 싶지 않아요?",
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_M1_074",
-      "VOC_D41_028"
-    ],
-    "grammar_ids": [
-      "GR_D41_WEISHENME"
-    ],
-    "audio_id": "AUD_SEN_D41_041",
-    "day_introduced": 41,
-    "tokens": [
-      "你",
-      "為什麼",
-      "不想吃"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D41_042",
-    "text": "我因為肚子餓，所以想吃飯。",
-    "pinyin": "Wǒ yīnwèi dùzi è, suǒyǐ xiǎng chī fàn.",
-    "pinyin_numeric": "wo3 yin1 wei4 du4 zi0 e4, suo3 yi3 xiang3 chi1 fan4",
-    "translation_en": "I want to eat because I'm hungry.",
-    "translation_ko": "배가 고파서 밥을 먹고 싶어요.",
-    "token_ids": [
-      "VOC_M1_002",
-      "VOC_D34_011",
-      "VOC_D41_003",
-      "VOC_D34_012",
-      "VOC_D42_022"
-    ],
-    "grammar_ids": [
-      "GR_D41_WEISHENME"
-    ],
-    "audio_id": "AUD_SEN_D41_042",
-    "day_introduced": 41,
-    "tokens": [
-      "我",
-      "因為",
-      "肚子餓",
-      "所以",
-      "想吃飯"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D41_043",
-    "text": "他為什麼不想喝咖啡？",
-    "pinyin": "Tā wèishénme bù xiǎng hē kāfēi?",
-    "pinyin_numeric": "ta1 wei4 shen2 me0 bu4 xiang3 he1 ka1 fei1",
-    "translation_en": "Why doesn't he want to drink coffee?",
-    "translation_ko": "그는 왜 커피를 마시고 싶지 않아요?",
-    "token_ids": [
-      "VOC_M1_004",
-      "VOC_M1_074",
-      "VOC_D41_029",
-      "VOC_M1_047"
-    ],
-    "grammar_ids": [
-      "GR_D41_WEISHENME"
-    ],
-    "audio_id": "AUD_SEN_D41_043",
-    "day_introduced": 41,
-    "tokens": [
-      "他",
-      "為什麼",
       "不想喝",
       "咖啡"
     ],
@@ -30932,70 +25972,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D41_051",
-    "text": "我因為肚子餓，所以想吃飯。",
-    "pinyin": "Wǒ yīnwèi dùzi è, suǒyǐ xiǎng chī fàn.",
-    "pinyin_numeric": "wo3 yin1 wei4 du4 zi5 e4, suo3 yi3 xiang3 chi1 fan4.",
-    "translation_en": "I'm hungry, so I want to eat.",
-    "translation_ko": "저는 배가 고파서 밥을 먹고 싶어요.",
-    "token_ids": [
-      "VOC_M1_002",
-      "VOC_D34_011",
-      "VOC_D41_003",
-      "VOC_D34_012",
-      "VOC_D42_022"
-    ],
-    "grammar_ids": [
-      "GR_D41_SUOYI_POSITION"
-    ],
-    "audio_id": "AUD_SEN_D41_051",
-    "day_introduced": 41,
-    "tokens": [
-      "我",
-      "因為",
-      "肚子餓",
-      "所以",
-      "想吃飯"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D41_052",
-    "text": "他因為口渴，所以想喝一杯水。",
-    "pinyin": "Tā yīnwèi kǒukě, suǒyǐ xiǎng hē yī bēi shuǐ.",
-    "pinyin_numeric": "ta1 yin1 wei4 kou3 ke3, suo3 yi3 xiang3 he1 yi1 bei1 shui3.",
-    "translation_en": "He's thirsty, so he wants to drink a glass of water.",
-    "translation_ko": "그는 목이 말라서 물 한 잔을 마시고 싶어요.",
-    "token_ids": [
-      "VOC_M1_004",
-      "VOC_D34_011",
-      "VOC_D41_004",
-      "VOC_D34_012",
-      "VOC_M1_050",
-      "VOC_M1_051",
-      "VOC_M1_009",
-      "VOC_M1_102"
-    ],
-    "grammar_ids": [
-      "GR_D41_SUOYI_POSITION"
-    ],
-    "audio_id": "AUD_SEN_D41_052",
-    "day_introduced": 41,
-    "tokens": [
-      "他",
-      "因為",
-      "口渴",
-      "所以",
-      "想",
-      "喝",
-      "一",
-      "杯水"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D41_053",
     "text": "她因為感冒了，所以不想喝冰的。",
     "pinyin": "Tā yīnwèi gǎnmào le, suǒyǐ bù xiǎng hē bīng de.",
@@ -31025,37 +26001,6 @@
       "不想喝",
       "冰",
       "的"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D41_054",
-    "text": "我們因為太累了，所以想休息一下。",
-    "pinyin": "Wǒmen yīnwèi tài lèi le, suǒyǐ xiǎng xiūxí yīxià.",
-    "pinyin_numeric": "wo3 men5 yin1 wei4 tai4 lei4 le5, suo3 yi3 xiang3 xiu1 xi2 yi1 xia4.",
-    "translation_en": "We're too tired, so we want to rest for a while.",
-    "translation_ko": "저희는 너무 피곤해서 잠시 쉬고 싶어요.",
-    "token_ids": [
-      "VOC_M1_006",
-      "VOC_D34_011",
-      "VOC_D41_009",
-      "VOC_D34_012",
-      "VOC_D41_017",
-      "VOC_M1_123"
-    ],
-    "grammar_ids": [
-      "GR_D41_SUOYI_POSITION"
-    ],
-    "audio_id": "AUD_SEN_D41_054",
-    "day_introduced": 41,
-    "tokens": [
-      "我們",
-      "因為",
-      "太累了",
-      "所以",
-      "想休息",
-      "一下"
     ],
     "difficulty": 2,
     "production_type": "practice"
@@ -31190,37 +26135,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D41_059",
-    "text": "我們因為塞車了，所以來不及吃早餐。",
-    "pinyin": "Wǒmen yīnwèi sāichē le, suǒyǐ láibují chī zǎocān.",
-    "pinyin_numeric": "wo3 men5 yin1 wei4 sai1 che1 le5, suo3 yi3 lai2 bu5 ji2 chi1 zao3 can1.",
-    "translation_en": "We were stuck in traffic, so we didn't have time to eat breakfast.",
-    "translation_ko": "저희는 교통 체증이 있어서 아침을 먹을 시간이 없었어요.",
-    "token_ids": [
-      "VOC_M1_006",
-      "VOC_D34_011",
-      "VOC_D41_012",
-      "VOC_D34_012",
-      "VOC_D41_016",
-      "VOC_M1_137"
-    ],
-    "grammar_ids": [
-      "GR_D41_SUOYI_POSITION"
-    ],
-    "audio_id": "AUD_SEN_D41_059",
-    "day_introduced": 41,
-    "tokens": [
-      "我們",
-      "因為",
-      "塞車了",
-      "所以",
-      "來不及吃",
-      "早餐"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D41_060",
     "text": "你因為忘記帶悠遊卡，所以想用現金嗎？",
     "pinyin": "Nǐ yīnwèi wàngjì dài yōuyóukǎ, suǒyǐ xiǎng yòng xiànjīn ma?",
@@ -31253,135 +26167,6 @@
       "用",
       "現金",
       "嗎"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D41_061",
-    "text": "因為我肚子餓，所以想吃飯。",
-    "pinyin": "Yīnwèi wǒ dùzi è, suǒyǐ xiǎng chī fàn.",
-    "pinyin_numeric": "yin1wei4 wo3 du4zi e4, suo3yi3 xiang3 chi1 fan4.",
-    "translation_en": "Because I'm hungry, I want to eat.",
-    "translation_ko": "배가 고파서 밥을 먹고 싶어요.",
-    "token_ids": [
-      "VOC_D34_011",
-      "VOC_M1_002",
-      "VOC_D41_003",
-      "VOC_D34_012",
-      "VOC_D42_022"
-    ],
-    "grammar_ids": [
-      "GR_D41_YINWEI_SUOYI"
-    ],
-    "audio_id": "AUD_SEN_D41_061",
-    "day_introduced": 41,
-    "tokens": [
-      "因為",
-      "我",
-      "肚子餓",
-      "所以",
-      "想吃飯"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D41_062",
-    "text": "因為我口渴，所以想喝一杯水。",
-    "pinyin": "Yīnwèi wǒ kǒukě, suǒyǐ xiǎng hē yī bēi shuǐ.",
-    "pinyin_numeric": "yin1wei4 wo3 kou3ke3, suo3yi3 xiang3 he1 yi1 bei1 shui3.",
-    "translation_en": "Because I'm thirsty, I want to drink a glass of water.",
-    "translation_ko": "목이 말라서 물 한 잔 마시고 싶어요.",
-    "token_ids": [
-      "VOC_D34_011",
-      "VOC_M1_002",
-      "VOC_D41_004",
-      "VOC_D34_012",
-      "VOC_M1_050",
-      "VOC_M1_051",
-      "VOC_M1_009",
-      "VOC_M1_102"
-    ],
-    "grammar_ids": [
-      "GR_D41_YINWEI_SUOYI"
-    ],
-    "audio_id": "AUD_SEN_D41_062",
-    "day_introduced": 41,
-    "tokens": [
-      "因為",
-      "我",
-      "口渴",
-      "所以",
-      "想",
-      "喝",
-      "一",
-      "杯水"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D41_063",
-    "text": "因為我感冒了，所以不想喝冰的。",
-    "pinyin": "Yīnwèi wǒ gǎnmào le, suǒyǐ bù xiǎng hē bīng de.",
-    "pinyin_numeric": "yin1wei4 wo3 gan3mao4 le, suo3yi3 bu4 xiang3 he1 bing1 de.",
-    "translation_en": "Because I have a cold, I don't want to drink cold drinks.",
-    "translation_ko": "감기에 걸려서 차가운 음료를 마시고 싶지 않아요.",
-    "token_ids": [
-      "VOC_D34_011",
-      "VOC_M1_002",
-      "VOC_D41_006",
-      "VOC_D34_012",
-      "VOC_D41_029",
-      "VOC_D31_013",
-      "VOC_M1_023"
-    ],
-    "grammar_ids": [
-      "GR_D41_YINWEI_SUOYI"
-    ],
-    "audio_id": "AUD_SEN_D41_063",
-    "day_introduced": 41,
-    "tokens": [
-      "因為",
-      "我",
-      "感冒",
-      "了",
-      "所以",
-      "不想喝",
-      "冰",
-      "的"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D41_064",
-    "text": "因為我太累了，所以想休息一下。",
-    "pinyin": "Yīnwèi wǒ tài lèi le, suǒyǐ xiǎng xiūxí yīxià.",
-    "pinyin_numeric": "yin1wei4 wo3 tai4 lei4 le, suo3yi3 xiang3 xiu1xi2 yi1xia4.",
-    "translation_en": "Because I'm too tired, I want to rest for a while.",
-    "translation_ko": "너무 피곤해서 잠시 쉬고 싶어요.",
-    "token_ids": [
-      "VOC_D34_011",
-      "VOC_M1_002",
-      "VOC_D41_009",
-      "VOC_D34_012",
-      "VOC_D41_017",
-      "VOC_M1_123"
-    ],
-    "grammar_ids": [
-      "GR_D41_YINWEI_SUOYI"
-    ],
-    "audio_id": "AUD_SEN_D41_064",
-    "day_introduced": 41,
-    "tokens": [
-      "因為",
-      "我",
-      "太累了",
-      "所以",
-      "想休息",
-      "一下"
     ],
     "difficulty": 2,
     "production_type": "practice"
@@ -31449,39 +26234,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D41_067",
-    "text": "因為我剛下班，所以想回家休息。",
-    "pinyin": "Yīnwèi wǒ gāng xiàbān, suǒyǐ xiǎng huí jiā xiūxí.",
-    "pinyin_numeric": "yin1wei4 wo3 gang1 xia4ban1, suo3yi3 xiang3 hui2 jia1 xiu1xi2.",
-    "translation_en": "Because I just got off work, I want to go home and rest.",
-    "translation_ko": "방금 퇴근해서 집에 가서 쉬고 싶어요.",
-    "token_ids": [
-      "VOC_D34_011",
-      "VOC_M1_002",
-      "VOC_D41_032",
-      "VOC_D34_012",
-      "VOC_M1_050",
-      "VOC_D36_026",
-      "VOC_D36_024"
-    ],
-    "grammar_ids": [
-      "GR_D41_YINWEI_SUOYI"
-    ],
-    "audio_id": "AUD_SEN_D41_067",
-    "day_introduced": 41,
-    "tokens": [
-      "因為",
-      "我",
-      "剛下班",
-      "所以",
-      "想",
-      "回家",
-      "休息"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D41_068",
     "text": "因為我忘記帶悠遊卡，所以想用現金。",
     "pinyin": "Yīnwèi wǒ wàngjì dài yōuyóukǎ, suǒyǐ xiǎng yòng xiànjīn.",
@@ -31512,38 +26264,6 @@
       "想",
       "用",
       "現金"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D41_069",
-    "text": "因為路上塞車了，所以我遲到了。",
-    "pinyin": "Yīnwèi lùshàng sāichē le, suǒyǐ wǒ chídào le.",
-    "pinyin_numeric": "yin1wei4 lu4shang4 sai1che1 le, suo3yi3 wo3 chi2dao4 le.",
-    "translation_en": "Because there was a traffic jam on the road, I was late.",
-    "translation_ko": "길이 막혀서 지각했어요.",
-    "token_ids": [
-      "VOC_D34_011",
-      "VOC_D41_034",
-      "VOC_D41_012",
-      "VOC_D34_012",
-      "VOC_M1_002",
-      "VOC_D37_015"
-    ],
-    "grammar_ids": [
-      "GR_D41_YINWEI_SUOYI"
-    ],
-    "audio_id": "AUD_SEN_D41_069",
-    "day_introduced": 41,
-    "tokens": [
-      "因為",
-      "路上",
-      "塞車了",
-      "所以",
-      "我",
-      "遲到",
-      "了"
     ],
     "difficulty": 2,
     "production_type": "practice"
@@ -31584,60 +26304,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D41_071",
-    "text": "你為什麼不想吃？",
-    "pinyin": "Nǐ wèishénme bù xiǎng chī?",
-    "pinyin_numeric": "ni3 wei4shen2me0 bu4 xiang3 chi1",
-    "translation_en": "Why don't you want to eat?",
-    "translation_ko": "왜 먹고 싶지 않으세요?",
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_M1_074",
-      "VOC_D41_028"
-    ],
-    "grammar_ids": [
-      "GR_D41_WEISHENME"
-    ],
-    "audio_id": "AUD_SEN_D41_071",
-    "day_introduced": 41,
-    "tokens": [
-      "你",
-      "為什麼",
-      "不想吃"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D41_072",
-    "text": "因為我肚子餓，所以想吃飯。",
-    "pinyin": "Yīnwèi wǒ dùzi è, suǒyǐ xiǎng chī fàn.",
-    "pinyin_numeric": "yin1wei4 wo3 du4zi0 e4, suo3yi3 xiang3 chi1 fan4",
-    "translation_en": "Because I'm hungry, so I want to eat.",
-    "translation_ko": "배가 고파서 밥을 먹고 싶어요.",
-    "token_ids": [
-      "VOC_D34_011",
-      "VOC_M1_002",
-      "VOC_D41_003",
-      "VOC_D34_012",
-      "VOC_D42_022"
-    ],
-    "grammar_ids": [
-      "GR_D41_WEISHENME"
-    ],
-    "audio_id": "AUD_SEN_D41_072",
-    "day_introduced": 41,
-    "tokens": [
-      "因為",
-      "我",
-      "肚子餓",
-      "所以",
-      "想吃飯"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D41_073",
     "text": "你為什麼想喝咖啡？",
     "pinyin": "Nǐ wèishénme xiǎng hē kāfēi?",
@@ -31660,41 +26326,6 @@
       "為什麼",
       "想",
       "喝咖啡"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D41_074",
-    "text": "因為我口渴，所以想喝一杯水。",
-    "pinyin": "Yīnwèi wǒ kǒukě, suǒyǐ xiǎng hē yī bēi shuǐ.",
-    "pinyin_numeric": "yin1wei4 wo3 kou3ke3, suo3yi3 xiang3 he1 yi1 bei1 shui3",
-    "translation_en": "Because I'm thirsty, so I want to drink a glass of water.",
-    "translation_ko": "목이 말라서 물 한 잔을 마시고 싶어요.",
-    "token_ids": [
-      "VOC_D34_011",
-      "VOC_M1_002",
-      "VOC_D41_004",
-      "VOC_D34_012",
-      "VOC_M1_050",
-      "VOC_M1_051",
-      "VOC_M1_009",
-      "VOC_M1_102"
-    ],
-    "grammar_ids": [
-      "GR_D41_WEISHENME"
-    ],
-    "audio_id": "AUD_SEN_D41_074",
-    "day_introduced": 41,
-    "tokens": [
-      "因為",
-      "我",
-      "口渴",
-      "所以",
-      "想",
-      "喝",
-      "一",
-      "杯水"
     ],
     "difficulty": 2,
     "production_type": "practice"
@@ -31867,35 +26498,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D41_081",
-    "text": "我因為肚子餓，所以想吃飯。",
-    "pinyin": "Wǒ yīnwèi dùzi è, suǒyǐ xiǎng chī fàn.",
-    "pinyin_numeric": "wo3 yin1wei4 du4zi e4, suo3yi3 xiang3 chi1 fan4.",
-    "translation_en": "I'm hungry, so I want to eat.",
-    "translation_ko": "배가 고파서 밥을 먹고 싶어요.",
-    "token_ids": [
-      "VOC_M1_002",
-      "VOC_D34_011",
-      "VOC_D41_003",
-      "VOC_D34_012",
-      "VOC_D42_022"
-    ],
-    "grammar_ids": [
-      "GR_D41_SUOYI_POSITION"
-    ],
-    "audio_id": "AUD_SEN_D41_081",
-    "day_introduced": 41,
-    "tokens": [
-      "我",
-      "因為",
-      "肚子餓",
-      "所以",
-      "想吃飯"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D41_082",
     "text": "他因為口渴，所以想喝咖啡。",
     "pinyin": "Tā yīnwèi kǒukě, suǒyǐ xiǎng hē kāfēi.",
@@ -31959,107 +26561,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D41_084",
-    "text": "我們因為太累了，所以想休息一下。",
-    "pinyin": "Wǒmen yīnwèi tài lèi le, suǒyǐ xiǎng xiūxí yīxià.",
-    "pinyin_numeric": "wo3men yin1wei4 tai4 lei4 le, suo3yi3 xiang3 xiu1xi2 yi1xia4.",
-    "translation_en": "We're too tired, so we want to rest a bit.",
-    "translation_ko": "우리는 너무 피곤해서 잠시 쉬고 싶어요.",
-    "token_ids": [
-      "VOC_M1_006",
-      "VOC_D34_011",
-      "VOC_D41_009",
-      "VOC_D34_012",
-      "VOC_D41_017",
-      "VOC_M1_123"
-    ],
-    "grammar_ids": [
-      "GR_D41_SUOYI_POSITION"
-    ],
-    "audio_id": "AUD_SEN_D41_084",
-    "day_introduced": 41,
-    "tokens": [
-      "我們",
-      "因為",
-      "太累了",
-      "所以",
-      "想休息",
-      "一下"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D41_085",
-    "text": "你因為沒睡飽，所以不想去上班嗎？",
-    "pinyin": "Nǐ yīnwèi méi shuì bǎo, suǒyǐ bù xiǎng qù shàngbān ma?",
-    "pinyin_numeric": "ni3 yin1wei4 mei2 shui4 bao3, suo3yi3 bu4 xiang3 qu4 shang4ban1 ma0?",
-    "translation_en": "Are you not going to work because you didn't get enough sleep?",
-    "translation_ko": "잠을 충분히 못 자서 출근하고 싶지 않은 거예요?",
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_D34_011",
-      "VOC_D41_008",
-      "VOC_D34_012",
-      "VOC_M1_079",
-      "VOC_M1_050",
-      "VOC_M1_156",
-      "VOC_D36_005",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D41_SUOYI_POSITION"
-    ],
-    "audio_id": "AUD_SEN_D41_085",
-    "day_introduced": 41,
-    "tokens": [
-      "你",
-      "因為",
-      "沒睡飽",
-      "所以",
-      "不",
-      "想",
-      "去",
-      "上班",
-      "嗎"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D41_086",
-    "text": "我因為想省錢，所以不想買那個手機。",
-    "pinyin": "Wǒ yīnwèi xiǎng shěng qián, suǒyǐ bù xiǎng mǎi nàge shǒujī.",
-    "pinyin_numeric": "wo3 yin1wei4 xiang3 sheng3 qian2, suo3yi3 bu4 xiang3 mai3 na4ge shou3ji1.",
-    "translation_en": "I want to save money, so I don't want to buy that phone.",
-    "translation_ko": "돈을 아끼고 싶어서 그 핸드폰을 사고 싶지 않아요.",
-    "token_ids": [
-      "VOC_M1_002",
-      "VOC_D34_011",
-      "VOC_D41_018",
-      "VOC_D34_012",
-      "VOC_D41_027",
-      "VOC_M1_163",
-      "VOC_M1_025"
-    ],
-    "grammar_ids": [
-      "GR_D41_SUOYI_POSITION"
-    ],
-    "audio_id": "AUD_SEN_D41_086",
-    "day_introduced": 41,
-    "tokens": [
-      "我",
-      "因為",
-      "想省錢",
-      "所以",
-      "不想買",
-      "那個",
-      "手機"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D41_087",
     "text": "她因為忘記帶錢，所以不想買咖啡。",
     "pinyin": "Tā yīnwèi wàngjì dài qián, suǒyǐ bù xiǎng mǎi kāfēi.",
@@ -32088,38 +26589,6 @@
       "所以",
       "不想買",
       "咖啡"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D41_088",
-    "text": "他因為生病了，所以不想吃東西。",
-    "pinyin": "Tā yīnwèi shēngbìng le, suǒyǐ bù xiǎng chī dōngxī.",
-    "pinyin_numeric": "ta1 yin1wei4 sheng1bing4 le, suo3yi3 bu4 xiang3 chi1 dong1xi1.",
-    "translation_en": "He's sick, so he doesn't want to eat anything.",
-    "translation_ko": "그는 아파서 아무것도 먹고 싶지 않아요.",
-    "token_ids": [
-      "VOC_M1_004",
-      "VOC_D34_011",
-      "VOC_D41_005",
-      "VOC_D34_012",
-      "VOC_D41_028"
-    ],
-    "grammar_ids": [
-      "GR_D41_SUOYI_POSITION"
-    ],
-    "audio_id": "AUD_SEN_D41_088",
-    "day_introduced": 41,
-    "tokens": [
-      "他",
-      "因為",
-      "生病",
-      "了",
-      "所以",
-      "不想吃",
-      "東",
-      "西"
     ],
     "difficulty": 2,
     "production_type": "practice"
@@ -32878,35 +27347,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D42_021",
-    "text": "你比較喜歡甜的還是鹹的？",
-    "pinyin": "Nǐ bǐjiào xǐhuān tián de háishì xián de?",
-    "pinyin_numeric": "ni3 bi3jiao4 xi3huan1 tian2 de0 hai2shi4 xian2 de0",
-    "translation_en": "Do you prefer sweet or savory?",
-    "translation_ko": "단 것을 더 좋아하세요, 짠 것을 더 좋아하세요?",
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_D42_002",
-      "VOC_D42_007",
-      "VOC_D42_017",
-      "VOC_D42_008"
-    ],
-    "grammar_ids": [
-      "GR_D42_HAI_SHI_VS_HUOZHE"
-    ],
-    "audio_id": "AUD_SEN_D42_021",
-    "day_introduced": 42,
-    "tokens": [
-      "你",
-      "比較喜歡",
-      "甜的",
-      "還是",
-      "鹹的"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D42_022",
     "text": "我覺得這家餐廳的牛肉麵看起來很好吃，可是好像有點貴。",
     "pinyin": "Wǒ juéde zhè jiā cāntīng de niúròumiàn kàn qǐlái hěn hǎochī, kěshì hǎoxiàng yǒudiǎn guì.",
@@ -33449,87 +27889,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D42_035",
-    "text": "我覺得這家小吃店的滷肉飯看起來很好吃，我們選這個吧。",
-    "pinyin": "Wǒ juéde zhè jiā xiǎochī diàn de lǔròu fàn kàn qǐlái hěn hǎochī, wǒmen xuǎn zhège ba.",
-    "pinyin_numeric": "wo3 jue2de zhe4 jia1 xiao3chi1 dian4 de lu3rou4 fan4 kan4 qi3lai2 hen3 hao3chi1, wo3men xuan3 zhe4ge ba5.",
-    "translation_en": "I think the braised pork rice at this eatery looks delicious; let's choose this one.",
-    "translation_ko": "이 식당의 루로우판이 맛있어 보여요. 이걸로 골라요.",
-    "token_ids": [
-      "VOC_D42_031",
-      "VOC_M1_039",
-      "VOC_D34_020",
-      "VOC_M1_023",
-      "VOC_D34_002",
-      "VOC_D42_032",
-      "VOC_M1_096",
-      "VOC_M1_088",
-      "VOC_M1_052",
-      "VOC_M1_006",
-      "VOC_D42_015",
-      "VOC_M1_041"
-    ],
-    "grammar_ids": [
-      "GR_D42_XIHUAN"
-    ],
-    "audio_id": "AUD_SEN_D42_035",
-    "day_introduced": 42,
-    "tokens": [
-      "我覺得",
-      "這",
-      "家",
-      "小吃店",
-      "的",
-      "滷肉飯",
-      "看起來",
-      "很",
-      "好",
-      "吃",
-      "我們",
-      "選",
-      "這",
-      "個",
-      "吧"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D42_036",
-    "text": "你喜歡安靜的地方還是熱鬧的地方？",
-    "pinyin": "Nǐ xǐhuān ānjìng de dìfang háishì rènào de dìfang?",
-    "pinyin_numeric": "ni3 xi3huan1 an1jing4 de di4fang5 hai2shi4 re4nao4 de di4fang5?",
-    "translation_en": "Do you like quiet places or lively places?",
-    "translation_ko": "조용한 곳을 좋아하세요, 아니면 시끌벅적한 곳을 좋아하세요?",
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_D42_025",
-      "VOC_M1_023",
-      "VOC_M1_078",
-      "VOC_D42_017",
-      "VOC_D44_004",
-      "VOC_M1_023",
-      "VOC_M1_078"
-    ],
-    "grammar_ids": [
-      "GR_D42_XIHUAN"
-    ],
-    "audio_id": "AUD_SEN_D42_036",
-    "day_introduced": 42,
-    "tokens": [
-      "你",
-      "喜歡安靜",
-      "的",
-      "地方",
-      "還是",
-      "熱鬧",
-      "的",
-      "地方"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D42_037",
     "text": "她說她不喜歡辣的，所以我們點了一份不辣的炒飯。",
     "pinyin": "Tā shuō tā bù xǐhuān là de, suǒyǐ wǒmen diǎn le yī fèn bù là de chǎofàn.",
@@ -33683,66 +28042,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D42_041",
-    "text": "你比較喜歡甜的還是鹹的？",
-    "pinyin": "Nǐ bǐjiào xǐhuān tián de háishì xián de?",
-    "pinyin_numeric": "ni3 bi3jiao4 xi3huan1 tian2 de0 hai2shi4 xian2 de0",
-    "translation_en": "Do you prefer sweet or savory?",
-    "translation_ko": "당신은 단 것을 더 좋아하나요, 짠 것을 더 좋아하나요?",
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_D42_002",
-      "VOC_D42_007",
-      "VOC_D42_017",
-      "VOC_D42_008"
-    ],
-    "grammar_ids": [
-      "GR_D42_BIJIAO_XIHUAN"
-    ],
-    "audio_id": "AUD_SEN_D42_041",
-    "day_introduced": 42,
-    "tokens": [
-      "你",
-      "比較喜歡",
-      "甜的",
-      "還是",
-      "鹹的"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D42_042",
-    "text": "我比較喜歡清淡的口味，不要太辣。",
-    "pinyin": "Wǒ bǐjiào xǐhuān qīngdàn de kǒuwèi, bùyào tài là.",
-    "pinyin_numeric": "wo3 bi3jiao4 xi3huan1 qing1dan4 de0 kou3wei4, bu4yao4 tai4 la4",
-    "translation_en": "I prefer light flavors, not too spicy.",
-    "translation_ko": "저는 담백한 맛을 더 좋아해요, 너무 맵지 않은 걸로요.",
-    "token_ids": [
-      "VOC_M1_002",
-      "VOC_D42_002",
-      "VOC_D42_010",
-      "VOC_M1_023",
-      "VOC_D42_006",
-      "VOC_D42_021"
-    ],
-    "grammar_ids": [
-      "GR_D42_BIJIAO_XIHUAN"
-    ],
-    "audio_id": "AUD_SEN_D42_042",
-    "day_introduced": 42,
-    "tokens": [
-      "我",
-      "比較喜歡",
-      "清淡",
-      "的",
-      "口味",
-      "不要太辣"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D42_043",
     "text": "我覺得這家店的牛肉麵看起來很好吃，可是好像有點貴。",
     "pinyin": "Wǒ juéde zhè jiā diàn de niúròumiàn kàn qǐlái hěn hǎochī, kěshì hǎoxiàng yǒudiǎn guì.",
@@ -33858,35 +28157,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D42_046",
-    "text": "你比較喜歡看電影還是聽音樂？",
-    "pinyin": "Nǐ bǐjiào xǐhuān kàn diànyǐng háishì tīng yīnyuè?",
-    "pinyin_numeric": "ni3 bi3jiao4 xi3huan1 kan4 dian4ying3 hai2shi4 ting1 yin1yue4",
-    "translation_en": "Do you prefer watching movies or listening to music?",
-    "translation_ko": "영화 보는 것을 더 좋아하나요, 음악 듣는 것을 더 좋아하나요?",
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_D42_002",
-      "VOC_D37_006",
-      "VOC_D42_017",
-      "VOC_D36_028"
-    ],
-    "grammar_ids": [
-      "GR_D42_BIJIAO_XIHUAN"
-    ],
-    "audio_id": "AUD_SEN_D42_046",
-    "day_introduced": 42,
-    "tokens": [
-      "你",
-      "比較喜歡",
-      "看電影",
-      "還是",
-      "聽音樂"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D42_047",
     "text": "我比較喜歡聽音樂，因為可以一邊休息一邊聽。",
     "pinyin": "Wǒ bǐjiào xǐhuān tīng yīnyuè, yīnwèi kěyǐ yìbiān xiūxí yìbiān tīng.",
@@ -33973,37 +28243,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D42_049",
-    "text": "你比較喜歡吃水餃還是炒飯？",
-    "pinyin": "Nǐ bǐjiào xǐhuān chī shuǐjiǎo háishì chǎofàn?",
-    "pinyin_numeric": "ni3 bi3jiao4 xi3huan1 chi1 shui3jiao3 hai2shi4 chao3fan4",
-    "translation_en": "Do you prefer eating dumplings or fried rice?",
-    "translation_ko": "만두를 더 좋아하나요, 볶음밥을 더 좋아하나요?",
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_D42_002",
-      "VOC_M1_052",
-      "VOC_D34_004",
-      "VOC_D42_017",
-      "VOC_D35_035"
-    ],
-    "grammar_ids": [
-      "GR_D42_BIJIAO_XIHUAN"
-    ],
-    "audio_id": "AUD_SEN_D42_049",
-    "day_introduced": 42,
-    "tokens": [
-      "你",
-      "比較喜歡",
-      "吃",
-      "水餃",
-      "還是",
-      "炒飯"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D42_050",
     "text": "我比較喜歡吃水餃，因為吃起來很新鮮。",
     "pinyin": "Wǒ bǐjiào xǐhuān chī shuǐjiǎo, yīnwèi chī qǐlái hěn xīnxiān.",
@@ -34037,116 +28276,6 @@
       "來",
       "很",
       "新鮮"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D42_051",
-    "text": "你比較喜歡甜的還是鹹的？",
-    "pinyin": "Nǐ bǐjiào xǐhuān tián de háishì xián de?",
-    "pinyin_numeric": "ni3 bi3jiao4 xi3huan1 tian2 de0 hai2shi4 xian2 de0",
-    "translation_en": "Do you prefer sweet or savory?",
-    "translation_ko": "단 것을 더 좋아하세요, 짠 것을 더 좋아하세요?",
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_D42_002",
-      "VOC_D42_007",
-      "VOC_D42_017",
-      "VOC_D42_008"
-    ],
-    "grammar_ids": [
-      "GR_D42_HAI_SHI_VS_HUOZHE"
-    ],
-    "audio_id": "AUD_SEN_D42_051",
-    "day_introduced": 42,
-    "tokens": [
-      "你",
-      "比較喜歡",
-      "甜的",
-      "還是",
-      "鹹的"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D42_052",
-    "text": "我覺得這家餐廳的牛肉麵看起來很好吃，可是好像有點貴。",
-    "pinyin": "Wǒ juéde zhè jiā cāntīng de niúròumiàn kàn qǐlái hěn hǎochī, kěshì hǎoxiàng yǒudiǎn guì.",
-    "pinyin_numeric": "wo3 jue2de0 zhe4 jia1 can1ting1 de0 niu2rou4mian4 kan4 qi3lai2 hen3 hao3chi1, ke3shi4 hao3xiang4 you3dian3 gui4.",
-    "translation_en": "I think the beef noodles at this restaurant look delicious, but they seem a bit expensive.",
-    "translation_ko": "이 식당의 소고기 국수가 맛있어 보이는데, 좀 비싼 것 같아요.",
-    "token_ids": [
-      "VOC_D42_031",
-      "VOC_M1_039",
-      "VOC_M1_060",
-      "VOC_M1_023",
-      "VOC_D34_003",
-      "VOC_D42_032",
-      "VOC_M1_096",
-      "VOC_M1_088",
-      "VOC_M1_052",
-      "VOC_D35_023",
-      "VOC_D42_034",
-      "VOC_D34_017",
-      "VOC_M1_095"
-    ],
-    "grammar_ids": [
-      "GR_D42_HAI_SHI_VS_HUOZHE"
-    ],
-    "audio_id": "AUD_SEN_D42_052",
-    "day_introduced": 42,
-    "tokens": [
-      "我覺得",
-      "這",
-      "家",
-      "餐廳",
-      "的",
-      "牛肉麵",
-      "看起來",
-      "很",
-      "好",
-      "吃",
-      "可是",
-      "好像",
-      "有點",
-      "貴"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D42_053",
-    "text": "你想喝紅茶還是綠茶？都可以，不要太甜。",
-    "pinyin": "Nǐ xiǎng hē hóngchá háishì lǜchá? Dōu kěyǐ, bùyào tài tián.",
-    "pinyin_numeric": "ni3 xiang3 he1 hong2cha2 hai2shi4 lv4cha2? dou1 ke3yi3, bu4yao4 tai4 tian2.",
-    "translation_en": "Do you want to drink black tea or green tea? Either is fine, just not too sweet.",
-    "translation_ko": "홍차를 마실래요, 녹차를 마실래요? 둘 다 괜찮아요, 너무 달지 않게요.",
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_M1_050",
-      "VOC_M1_051",
-      "VOC_D31_011",
-      "VOC_D42_017",
-      "VOC_D31_012",
-      "VOC_D42_018",
-      "VOC_D42_020"
-    ],
-    "grammar_ids": [
-      "GR_D42_HAI_SHI_VS_HUOZHE"
-    ],
-    "audio_id": "AUD_SEN_D42_053",
-    "day_introduced": 42,
-    "tokens": [
-      "你",
-      "想",
-      "喝",
-      "紅茶",
-      "還是",
-      "綠茶",
-      "都可以",
-      "不要太甜"
     ],
     "difficulty": 2,
     "production_type": "practice"
@@ -34467,37 +28596,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D42_062",
-    "text": "你比較喜歡甜的還是鹹的小吃？",
-    "pinyin": "Nǐ bǐjiào xǐhuān tián de háishì xián de xiǎochī?",
-    "pinyin_numeric": "ni3 bi3jiao4 xi3huan1 tian2 de0 hai2shi4 xian2 de0 xiao3chi1?",
-    "translation_en": "Do you prefer sweet or savory snacks?",
-    "translation_ko": "단 간식을 더 좋아하세요, 아니면 짠 간식을 더 좋아하세요?",
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_D42_002",
-      "VOC_D42_007",
-      "VOC_D42_017",
-      "VOC_D42_008",
-      "VOC_M1_128"
-    ],
-    "grammar_ids": [
-      "GR_D42_XIHUAN"
-    ],
-    "audio_id": "AUD_SEN_D42_062",
-    "day_introduced": 42,
-    "tokens": [
-      "你",
-      "比較喜歡",
-      "甜的",
-      "還是",
-      "鹹的",
-      "小吃"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D42_063",
     "text": "我最喜歡吃新鮮的水果，尤其是蘋果。",
     "pinyin": "Wǒ zuì xǐhuān chī xīnxiān de shuǐguǒ, yóuqí shì píngguǒ.",
@@ -34615,41 +28713,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D42_066",
-    "text": "你喜歡安靜的地方還是熱鬧的地方？",
-    "pinyin": "Nǐ xǐhuān ānjìng de dìfang háishì rènào de dìfang?",
-    "pinyin_numeric": "ni3 xi3huan1 an1jing4 de0 di4fang0 hai2shi4 re4nao4 de0 di4fang0?",
-    "translation_en": "Do you like quiet places or lively places?",
-    "translation_ko": "조용한 곳을 좋아하세요, 아니면 시끌벅적한 곳을 좋아하세요?",
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_D42_025",
-      "VOC_M1_023",
-      "VOC_M1_078",
-      "VOC_D42_017",
-      "VOC_D44_004",
-      "VOC_M1_023",
-      "VOC_M1_078"
-    ],
-    "grammar_ids": [
-      "GR_D42_XIHUAN"
-    ],
-    "audio_id": "AUD_SEN_D42_066",
-    "day_introduced": 42,
-    "tokens": [
-      "你",
-      "喜歡安靜",
-      "的",
-      "地方",
-      "還是",
-      "熱鬧",
-      "的",
-      "地方"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D42_067",
     "text": "我覺得這家店的牛肉麵比較好吃，可是價錢有點貴。",
     "pinyin": "Wǒ juéde zhè jiā diàn de niúròu miàn bǐjiào hǎochī, kěshì jiàqián yǒudiǎn guì.",
@@ -34732,35 +28795,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D42_069",
-    "text": "你比較喜歡看電影還是聽音樂？",
-    "pinyin": "Nǐ bǐjiào xǐhuān kàn diànyǐng háishì tīng yīnyuè?",
-    "pinyin_numeric": "ni3 bi3jiao4 xi3huan1 kan4 dian4ying3 hai2shi4 ting1 yin1yue4?",
-    "translation_en": "Do you prefer watching movies or listening to music?",
-    "translation_ko": "영화 보는 것을 더 좋아하세요, 아니면 음악 듣는 것을 더 좋아하세요?",
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_D42_002",
-      "VOC_D37_006",
-      "VOC_D42_017",
-      "VOC_D36_028"
-    ],
-    "grammar_ids": [
-      "GR_D42_XIHUAN"
-    ],
-    "audio_id": "AUD_SEN_D42_069",
-    "day_introduced": 42,
-    "tokens": [
-      "你",
-      "比較喜歡",
-      "看電影",
-      "還是",
-      "聽音樂"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D42_070",
     "text": "這家店的珍珠奶茶真的很好喝，我推薦你試試看。",
     "pinyin": "Zhè jiā diàn de zhēnzhū nǎichá zhēn de hěn hǎo hē, wǒ tuījiàn nǐ shì shì kàn.",
@@ -34804,141 +28838,6 @@
       "試",
       "試",
       "看"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D42_071",
-    "text": "你比較喜歡甜的還是鹹的？",
-    "pinyin": "Nǐ bǐjiào xǐhuān tián de háishì xián de?",
-    "pinyin_numeric": "ni3 bi3jiao4 xi3huan1 tian2 de0 hai2shi4 xian2 de0",
-    "translation_en": "Do you prefer sweet or savory?",
-    "translation_ko": "당신은 단 것을 더 좋아하나요, 짠 것을 더 좋아하나요?",
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_D42_002",
-      "VOC_D42_007",
-      "VOC_D42_017",
-      "VOC_D42_008"
-    ],
-    "grammar_ids": [
-      "GR_D42_BIJIAO_XIHUAN"
-    ],
-    "audio_id": "AUD_SEN_D42_071",
-    "day_introduced": 42,
-    "tokens": [
-      "你",
-      "比較喜歡",
-      "甜的",
-      "還是",
-      "鹹的"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D42_072",
-    "text": "我比較喜歡清淡的口味，不要太辣。",
-    "pinyin": "Wǒ bǐjiào xǐhuān qīngdàn de kǒuwèi, bùyào tài là.",
-    "pinyin_numeric": "wo3 bi3jiao4 xi3huan1 qing1dan4 de0 kou3wei4, bu4yao4 tai4 la4.",
-    "translation_en": "I prefer a light flavor, not too spicy.",
-    "translation_ko": "저는 담백한 맛을 더 좋아하고, 너무 맵지 않은 걸 원해요.",
-    "token_ids": [
-      "VOC_M1_002",
-      "VOC_D42_002",
-      "VOC_D42_010",
-      "VOC_M1_023",
-      "VOC_D42_006",
-      "VOC_D42_021"
-    ],
-    "grammar_ids": [
-      "GR_D42_BIJIAO_XIHUAN"
-    ],
-    "audio_id": "AUD_SEN_D42_072",
-    "day_introduced": 42,
-    "tokens": [
-      "我",
-      "比較喜歡",
-      "清淡",
-      "的",
-      "口味",
-      "不要太辣"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D42_073",
-    "text": "我覺得這家店的牛肉麵看起來很好吃，可是好像有點貴。",
-    "pinyin": "Wǒ juéde zhè jiā diàn de niúròumiàn kàn qǐlái hěn hǎochī, kěshì hǎoxiàng yǒudiǎn guì.",
-    "pinyin_numeric": "wo3 jue2de0 zhe4 jia1 dian4 de0 niu2rou4mian4 kan4 qi3lai2 hen3 hao3chi1, ke3shi4 hao3xiang4 you3dian3 gui4.",
-    "translation_en": "I think the beef noodles at this shop look delicious, but they seem a bit expensive.",
-    "translation_ko": "이 가게의 소고기 국수가 맛있어 보이는데, 좀 비싼 것 같아요.",
-    "token_ids": [
-      "VOC_D42_031",
-      "VOC_M1_039",
-      "VOC_D81_025",
-      "VOC_M1_023",
-      "VOC_D34_003",
-      "VOC_D42_032",
-      "VOC_M1_096",
-      "VOC_M1_088",
-      "VOC_M1_052",
-      "VOC_D35_023",
-      "VOC_D42_034",
-      "VOC_D34_017",
-      "VOC_M1_095"
-    ],
-    "grammar_ids": [
-      "GR_D42_BIJIAO_XIHUAN"
-    ],
-    "audio_id": "AUD_SEN_D42_073",
-    "day_introduced": 42,
-    "tokens": [
-      "我覺得",
-      "這",
-      "家",
-      "店",
-      "的",
-      "牛肉麵",
-      "看起來",
-      "很",
-      "好",
-      "吃",
-      "可是",
-      "好像",
-      "有點",
-      "貴"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D42_074",
-    "text": "你比較喜歡看電影還是聽音樂？",
-    "pinyin": "Nǐ bǐjiào xǐhuān kàn diànyǐng háishì tīng yīnyuè?",
-    "pinyin_numeric": "ni3 bi3jiao4 xi3huan1 kan4 dian4ying3 hai2shi4 ting1 yin1yue4?",
-    "translation_en": "Do you prefer watching movies or listening to music?",
-    "translation_ko": "영화 보는 것을 더 좋아하나요, 음악 듣는 것을 더 좋아하나요?",
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_D42_002",
-      "VOC_D37_006",
-      "VOC_D42_017",
-      "VOC_D36_028"
-    ],
-    "grammar_ids": [
-      "GR_D42_BIJIAO_XIHUAN"
-    ],
-    "audio_id": "AUD_SEN_D42_074",
-    "day_introduced": 42,
-    "tokens": [
-      "你",
-      "比較喜歡",
-      "看電影",
-      "還是",
-      "聽音樂"
     ],
     "difficulty": 2,
     "production_type": "practice"
@@ -35159,35 +29058,6 @@
       "來",
       "比較",
       "香"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D42_081",
-    "text": "你比較喜歡甜的還是鹹的？",
-    "pinyin": "Nǐ bǐjiào xǐhuān tián de háishì xián de?",
-    "pinyin_numeric": "ni3 bi3jiao4 xi3huan1 tian2 de0 hai2shi4 xian2 de0",
-    "translation_en": "Do you prefer sweet or salty?",
-    "translation_ko": "당신은 단 것과 짠 것 중에 어떤 것을 더 좋아하나요?",
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_D42_002",
-      "VOC_D42_007",
-      "VOC_D42_017",
-      "VOC_D42_008"
-    ],
-    "grammar_ids": [
-      "GR_D42_HAI_SHI_VS_HUOZHE"
-    ],
-    "audio_id": "AUD_SEN_D42_081",
-    "day_introduced": 42,
-    "tokens": [
-      "你",
-      "比較喜歡",
-      "甜的",
-      "還是",
-      "鹹的"
     ],
     "difficulty": 2,
     "production_type": "practice"
@@ -37039,37 +30909,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D43_045",
-    "text": "這件裙子太貴了，可以打折嗎？",
-    "pinyin": "Zhè jiàn qúnzi tài guì le, kěyǐ dǎzhé ma?",
-    "pinyin_numeric": "zhe4 jian4 qun2zi5 tai4 gui4 le5, ke3yi3 da3zhe2 ma0?",
-    "translation_en": "This skirt is too expensive; can it be discounted?",
-    "translation_ko": "이 치마가 너무 비싼데, 할인해 주실 수 있나요?",
-    "token_ids": [
-      "VOC_D43_011",
-      "VOC_D43_039",
-      "VOC_M1_118",
-      "VOC_D43_008",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D43_TAI_ADJ_LE"
-    ],
-    "audio_id": "AUD_SEN_D43_045",
-    "day_introduced": 43,
-    "tokens": [
-      "這",
-      "件",
-      "裙子",
-      "太貴了",
-      "可以",
-      "打折",
-      "嗎"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D43_046",
     "text": "這件上衣的材質太厚了，夏天穿會很熱。",
     "pinyin": "Zhè jiàn shàngyī de cáizhí tài hòu le, xiàtiān chuān huì hěn rè.",
@@ -37296,37 +31135,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D43_052",
-    "text": "這條褲子有沒有小號的？",
-    "pinyin": "Zhè tiáo kùzi yǒu méiyǒu xiǎohào de?",
-    "pinyin_numeric": "zhe4 tiao2 ku4zi0 you3 mei2you3 xiao3hao4 de0",
-    "translation_en": "Do you have these pants in a small size?",
-    "translation_ko": "이 바지 작은 사이즈 있어요?",
-    "token_ids": [
-      "VOC_D43_002",
-      "VOC_M1_022",
-      "VOC_M1_081",
-      "VOC_D43_025",
-      "VOC_M1_023"
-    ],
-    "grammar_ids": [
-      "GR_D43_YOU_MEIYOU_SIZE"
-    ],
-    "audio_id": "AUD_SEN_D43_052",
-    "day_introduced": 43,
-    "tokens": [
-      "這",
-      "條",
-      "褲子",
-      "有",
-      "沒有",
-      "小號",
-      "的"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D43_053",
     "text": "這雙鞋子有沒有黑色的？",
     "pinyin": "Zhè shuāng xiézi yǒu méiyǒu hēisè de?",
@@ -37451,38 +31259,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D43_057",
-    "text": "這個包包有沒有中號的？",
-    "pinyin": "Zhège bāobāo yǒu méiyǒu zhōnghào de?",
-    "pinyin_numeric": "zhe4ge0 bao1bao1 you3 mei2you3 zhong1hao4 de0",
-    "translation_en": "Do you have this bag in a medium size?",
-    "translation_ko": "이 가방 중간 사이즈 있어요?",
-    "token_ids": [
-      "VOC_M1_041",
-      "VOC_D43_016",
-      "VOC_M1_022",
-      "VOC_M1_081",
-      "VOC_D43_026",
-      "VOC_M1_023"
-    ],
-    "grammar_ids": [
-      "GR_D43_YOU_MEIYOU_SIZE"
-    ],
-    "audio_id": "AUD_SEN_D43_057",
-    "day_introduced": 43,
-    "tokens": [
-      "這",
-      "個",
-      "包包",
-      "有",
-      "沒有",
-      "中號",
-      "的"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D43_058",
     "text": "這件上衣有沒有綠色的？",
     "pinyin": "Zhè jiàn shàngyī yǒu méiyǒu lǜsè de?",
@@ -37576,39 +31352,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D43_061",
-    "text": "這件上衣的尺寸是M號嗎？",
-    "pinyin": "Zhè jiàn shàngyī de chǐcùn shì M hào ma?",
-    "pinyin_numeric": "zhe4 jian4 shang4yi1 de5 chi3cun4 shi4 M hao4 ma0",
-    "translation_en": "Is this shirt size M?",
-    "translation_ko": "이 상의 사이즈가 M인가요?",
-    "token_ids": [
-      "VOC_D43_009",
-      "VOC_M1_023",
-      "VOC_D43_004",
-      "VOC_M1_007",
-      "VOC_M1_117",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D43_MEASURE_CLOTHES"
-    ],
-    "audio_id": "AUD_SEN_D43_061",
-    "day_introduced": 43,
-    "tokens": [
-      "這",
-      "件",
-      "上衣",
-      "的",
-      "尺寸",
-      "是",
-      "號",
-      "嗎"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D43_062",
     "text": "我穿L號，這件褲子太小了。",
     "pinyin": "Wǒ chuān L hào, zhè jiàn kùzi tài xiǎo le.",
@@ -37636,37 +31379,6 @@
       "褲子",
       "太小",
       "了"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D43_063",
-    "text": "這件外套有黑色的嗎？",
-    "pinyin": "Zhè jiàn wàitào yǒu hēisè de ma?",
-    "pinyin_numeric": "zhe4 jian4 wai4tao4 you3 hei1se4 de5 ma0",
-    "translation_en": "Does this jacket come in black?",
-    "translation_ko": "이 외투는 검은색이 있나요?",
-    "token_ids": [
-      "VOC_D43_010",
-      "VOC_M1_022",
-      "VOC_D43_017",
-      "VOC_M1_023",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D43_MEASURE_CLOTHES"
-    ],
-    "audio_id": "AUD_SEN_D43_063",
-    "day_introduced": 43,
-    "tokens": [
-      "這",
-      "件",
-      "外套",
-      "有",
-      "黑色",
-      "的",
-      "嗎"
     ],
     "difficulty": 2,
     "production_type": "practice"
@@ -37705,37 +31417,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D43_065",
-    "text": "這雙鞋子有白色的嗎？",
-    "pinyin": "Zhè shuāng xiézi yǒu báisè de ma?",
-    "pinyin_numeric": "zhe4 shuang1 xie2zi5 you3 bai2se4 de5 ma0",
-    "translation_en": "Do these shoes come in white?",
-    "translation_ko": "이 신발은 흰색이 있나요?",
-    "token_ids": [
-      "VOC_D43_003",
-      "VOC_M1_022",
-      "VOC_D43_018",
-      "VOC_M1_023",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D43_MEASURE_CLOTHES"
-    ],
-    "audio_id": "AUD_SEN_D43_065",
-    "day_introduced": 43,
-    "tokens": [
-      "這",
-      "雙",
-      "鞋子",
-      "有",
-      "白色",
-      "的",
-      "嗎"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D43_066",
     "text": "這件衣服的尺寸太大了，有沒有小號的？",
     "pinyin": "Zhè jiàn yīfu de chǐcùn tài dà le, yǒu méiyǒu xiǎo hào de?",
@@ -37769,46 +31450,6 @@
       "沒有",
       "小號",
       "的"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D43_067",
-    "text": "這件褲子穿起來很舒服，可是顏色不適合我。",
-    "pinyin": "Zhè jiàn kùzi chuān qǐlái hěn shūfú, kěshì yánsè bù shìhé wǒ.",
-    "pinyin_numeric": "zhe4 jian4 ku4zi5 chuan1 qi3lai2 hen3 shu1fu2, ke3shi4 yan2se4 bu4 shi4he2 wo3",
-    "translation_en": "These pants are comfortable to wear, but the color doesn't suit me.",
-    "translation_ko": "이 바지는 입기에 편한데, 색상이 저에게 안 어울려요.",
-    "token_ids": [
-      "VOC_D43_002",
-      "VOC_D51_032",
-      "VOC_M1_155",
-      "VOC_D44_019",
-      "VOC_D35_023",
-      "VOC_D43_005",
-      "VOC_M1_079",
-      "VOC_D43_007",
-      "VOC_M1_002"
-    ],
-    "grammar_ids": [
-      "GR_D43_MEASURE_CLOTHES"
-    ],
-    "audio_id": "AUD_SEN_D43_067",
-    "day_introduced": 43,
-    "tokens": [
-      "這",
-      "件",
-      "褲子",
-      "穿",
-      "起",
-      "來",
-      "很舒服",
-      "可是",
-      "顏色",
-      "不",
-      "適合",
-      "我"
     ],
     "difficulty": 2,
     "production_type": "practice"
@@ -38294,68 +31935,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D43_081",
-    "text": "這件上衣有沒有白色的？",
-    "pinyin": "Zhè jiàn shàngyī yǒu méiyǒu báisè de?",
-    "pinyin_numeric": "zhe4 jian4 shang4yi1 you3 mei2you3 bai2se4 de0",
-    "translation_en": "Does this top come in white?",
-    "translation_ko": "이 상의에 흰색이 있나요?",
-    "token_ids": [
-      "VOC_D43_009",
-      "VOC_M1_022",
-      "VOC_M1_081",
-      "VOC_D43_018",
-      "VOC_M1_023"
-    ],
-    "grammar_ids": [
-      "GR_D43_YOU_MEIYOU_SIZE"
-    ],
-    "audio_id": "AUD_SEN_D43_081",
-    "day_introduced": 43,
-    "tokens": [
-      "這",
-      "件",
-      "上衣",
-      "有",
-      "沒有",
-      "白色",
-      "的"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D43_082",
-    "text": "這條褲子有沒有小號的？",
-    "pinyin": "Zhè tiáo kùzi yǒu méiyǒu xiǎohào de?",
-    "pinyin_numeric": "zhe4 tiao2 ku4zi0 you3 mei2you3 xiao3hao4 de0",
-    "translation_en": "Do these pants come in a small size?",
-    "translation_ko": "이 바지에 작은 사이즈가 있나요?",
-    "token_ids": [
-      "VOC_D43_002",
-      "VOC_M1_022",
-      "VOC_M1_081",
-      "VOC_D43_025",
-      "VOC_M1_023"
-    ],
-    "grammar_ids": [
-      "GR_D43_YOU_MEIYOU_SIZE"
-    ],
-    "audio_id": "AUD_SEN_D43_082",
-    "day_introduced": 43,
-    "tokens": [
-      "這",
-      "條",
-      "褲子",
-      "有",
-      "沒有",
-      "小號",
-      "的"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D43_083",
     "text": "這件外套有沒有黑色的？",
     "pinyin": "Zhè jiàn wàitào yǒu méiyǒu hēisè de?",
@@ -38480,37 +32059,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D43_087",
-    "text": "這條褲子有沒有灰色的？",
-    "pinyin": "Zhè tiáo kùzi yǒu méiyǒu huīsè de?",
-    "pinyin_numeric": "zhe4 tiao2 ku4zi0 you3 mei2you3 hui1se4 de0",
-    "translation_en": "Do these pants come in gray?",
-    "translation_ko": "이 바지에 회색이 있나요?",
-    "token_ids": [
-      "VOC_D43_002",
-      "VOC_M1_022",
-      "VOC_M1_081",
-      "VOC_D43_023",
-      "VOC_M1_023"
-    ],
-    "grammar_ids": [
-      "GR_D43_YOU_MEIYOU_SIZE"
-    ],
-    "audio_id": "AUD_SEN_D43_087",
-    "day_introduced": 43,
-    "tokens": [
-      "這",
-      "條",
-      "褲子",
-      "有",
-      "沒有",
-      "灰色",
-      "的"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D43_088",
     "text": "這件外套有沒有紅色的？",
     "pinyin": "Zhè jiàn wàitào yǒu méiyǒu hóngsè de?",
@@ -38536,37 +32084,6 @@
       "有",
       "沒有",
       "紅色",
-      "的"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D43_089",
-    "text": "這雙鞋子有沒有大號的？",
-    "pinyin": "Zhè shuāng xiézi yǒu méiyǒu dàhào de?",
-    "pinyin_numeric": "zhe4 shuang1 xie2zi0 you3 mei2you3 da4hao4 de0",
-    "translation_en": "Do these shoes come in a large size?",
-    "translation_ko": "이 신발에 큰 사이즈가 있나요?",
-    "token_ids": [
-      "VOC_D43_003",
-      "VOC_M1_022",
-      "VOC_M1_081",
-      "VOC_D43_027",
-      "VOC_M1_023"
-    ],
-    "grammar_ids": [
-      "GR_D43_YOU_MEIYOU_SIZE"
-    ],
-    "audio_id": "AUD_SEN_D43_089",
-    "day_introduced": 43,
-    "tokens": [
-      "這",
-      "雙",
-      "鞋子",
-      "有",
-      "沒有",
-      "大號",
       "的"
     ],
     "difficulty": 2,
@@ -40180,41 +33697,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D44_047",
-    "text": "颱風天風很大，我有點緊張。",
-    "pinyin": "Táifēng tiān fēng hěn dà, wǒ yǒudiǎn jǐnzhāng.",
-    "pinyin_numeric": "tai2feng1 tian1 feng1 hen3 da4, wo3 you3dian3 jin3zhang1.",
-    "translation_en": "On typhoon days the wind is very strong, I'm a bit nervous.",
-    "translation_ko": "태풍이 오는 날 바람이 많이 불어서, 제가 조금 긴장돼요.",
-    "token_ids": [
-      "VOC_D44_015",
-      "VOC_D56_033",
-      "VOC_D44_016",
-      "VOC_M1_096",
-      "VOC_M1_086",
-      "VOC_M1_002",
-      "VOC_D34_017",
-      "VOC_D44_008"
-    ],
-    "grammar_ids": [
-      "GR_D44_YOU_DIAN"
-    ],
-    "audio_id": "AUD_SEN_D44_047",
-    "day_introduced": 44,
-    "tokens": [
-      "颱風",
-      "天",
-      "風",
-      "很",
-      "大",
-      "我",
-      "有點",
-      "緊張"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D44_048",
     "text": "今天天氣很舒服，我心情有點放鬆。",
     "pinyin": "Jīntiān tiānqì hěn shūfu, wǒ xīnqíng yǒudiǎn fàngsōng.",
@@ -40647,35 +34129,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D44_061",
-    "text": "今天天氣很熱，我心情不好。",
-    "pinyin": "Jīntiān tiānqì hěn rè, wǒ xīnqíng bù hǎo.",
-    "pinyin_numeric": "jin1tian1 tian1qi4 hen3 re4, wo3 xin1qing2 bu4 hao3.",
-    "translation_en": "The weather is very hot today, and I'm in a bad mood.",
-    "translation_ko": "오늘 날씨가 매우 더워서 기분이 안 좋아요.",
-    "token_ids": [
-      "VOC_M1_032",
-      "VOC_D44_001",
-      "VOC_D44_017",
-      "VOC_M1_002",
-      "VOC_D44_029"
-    ],
-    "grammar_ids": [
-      "GR_D44_TIANQI_HEN"
-    ],
-    "audio_id": "AUD_SEN_D44_061",
-    "day_introduced": 44,
-    "tokens": [
-      "今天",
-      "天氣",
-      "很熱",
-      "我",
-      "心情不好"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D44_062",
     "text": "昨天天氣很冷，可是我很開心。",
     "pinyin": "Zuótiān tiānqì hěn lěng, kěshì wǒ hěn kāixīn.",
@@ -40739,37 +34192,6 @@
       "也",
       "很",
       "好"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D44_064",
-    "text": "陰天很悶熱，我沒有精神。",
-    "pinyin": "Yīntiān hěn mēnrè, wǒ méiyǒu jīngshén.",
-    "pinyin_numeric": "yin1tian1 hen3 men1re4, wo3 mei2you3 jing1shen2.",
-    "translation_en": "Cloudy weather is very muggy, and I have no energy.",
-    "translation_ko": "흐린 날씨가 매우 후덥지근해서 기운이 없어요.",
-    "token_ids": [
-      "VOC_D44_013",
-      "VOC_M1_096",
-      "VOC_D44_020",
-      "VOC_M1_002",
-      "VOC_M1_081"
-    ],
-    "grammar_ids": [
-      "GR_D44_TIANQI_HEN"
-    ],
-    "audio_id": "AUD_SEN_D44_064",
-    "day_introduced": 44,
-    "tokens": [
-      "陰天",
-      "很",
-      "悶熱",
-      "我",
-      "沒有",
-      "精",
-      "神"
     ],
     "difficulty": 2,
     "production_type": "practice"
@@ -40987,39 +34409,6 @@
       "天氣",
       "很",
       "涼快"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D44_071",
-    "text": "今天天氣有點熱，我有點累。",
-    "pinyin": "Jīntiān tiānqì yǒudiǎn rè, wǒ yǒudiǎn lèi.",
-    "pinyin_numeric": "jin1tian1 tian1qi4 you3dian3 re4, wo3 you3dian3 lei4.",
-    "translation_en": "The weather is a bit hot today, and I'm a little tired.",
-    "translation_ko": "오늘 날씨가 좀 덥고, 저는 조금 피곤해요.",
-    "token_ids": [
-      "VOC_M1_032",
-      "VOC_D44_001",
-      "VOC_D34_017",
-      "VOC_M1_091",
-      "VOC_M1_002",
-      "VOC_D34_017",
-      "VOC_D34_018"
-    ],
-    "grammar_ids": [
-      "GR_D44_YOU_DIAN"
-    ],
-    "audio_id": "AUD_SEN_D44_071",
-    "day_introduced": 44,
-    "tokens": [
-      "今天",
-      "天氣",
-      "有點",
-      "熱",
-      "我",
-      "有點",
-      "累"
     ],
     "difficulty": 2,
     "production_type": "practice"
@@ -41307,37 +34696,6 @@
       "我",
       "有點",
       "擔心"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D44_081",
-    "text": "今天天氣太熱了，我心情不好。",
-    "pinyin": "Jīntiān tiānqì tài rè le, wǒ xīnqíng bù hǎo.",
-    "pinyin_numeric": "jin1tian1 tian1qi4 tai4 re4 le0, wo3 xin1qing2 bu4 hao3.",
-    "translation_en": "The weather is too hot today, I'm in a bad mood.",
-    "translation_ko": "오늘 날씨가 너무 더워서 기분이 안 좋아요.",
-    "token_ids": [
-      "VOC_M1_032",
-      "VOC_D44_001",
-      "VOC_M1_091",
-      "VOC_M1_002",
-      "VOC_D44_029"
-    ],
-    "grammar_ids": [
-      "GR_D44_TAI_LE"
-    ],
-    "audio_id": "AUD_SEN_D44_081",
-    "day_introduced": 44,
-    "tokens": [
-      "今天",
-      "天氣",
-      "太",
-      "熱",
-      "了",
-      "我",
-      "心情不好"
     ],
     "difficulty": 2,
     "production_type": "practice"
@@ -42678,37 +36036,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D45_031",
-    "text": "因為天氣很冷，所以我穿外套。",
-    "pinyin": "Yīnwèi tiānqì hěn lěng, suǒyǐ wǒ chuān wàitào.",
-    "pinyin_numeric": "yin1wei4 tian1qi4 hen3 leng3, suo3yi3 wo3 chuan1 wai4tao4.",
-    "translation_en": "Because the weather is very cold, I wear a jacket.",
-    "translation_ko": "날씨가 매우 추워서 외투를 입습니다.",
-    "token_ids": [
-      "VOC_D34_011",
-      "VOC_D44_001",
-      "VOC_D44_018",
-      "VOC_D34_012",
-      "VOC_M1_002",
-      "VOC_D44_027"
-    ],
-    "grammar_ids": [
-      "GR_D45_ASSESSMENT_REVIEW"
-    ],
-    "audio_id": "AUD_SEN_D45_031",
-    "day_introduced": 45,
-    "tokens": [
-      "因為",
-      "天氣",
-      "很冷",
-      "所以",
-      "我",
-      "穿外套"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D45_032",
     "text": "因為今天下雨，所以我們沒有去公園。",
     "pinyin": "Yīnwèi jīntiān xiàyǔ, suǒyǐ wǒmen méiyǒu qù gōngyuán.",
@@ -42841,42 +36168,6 @@
       "不想吃",
       "東",
       "西"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D45_036",
-    "text": "因為路很滑，所以我們走路要小心。",
-    "pinyin": "Yīnwèi lù hěn huá, suǒyǐ wǒmen zǒulù yào xiǎoxīn.",
-    "pinyin_numeric": "yin1wei4 lu4 hen3 hua2, suo3yi3 wo3men zou3lu4 yao4 xiao3xin1.",
-    "translation_en": "Because the road is very slippery, we need to walk carefully.",
-    "translation_ko": "길이 매우 미끄러워서 우리는 조심해서 걸어야 합니다.",
-    "token_ids": [
-      "VOC_D34_011",
-      "VOC_M1_170",
-      "VOC_M1_096",
-      "VOC_D34_012",
-      "VOC_M1_006",
-      "VOC_M1_131",
-      "VOC_M1_061",
-      "VOC_D44_011"
-    ],
-    "grammar_ids": [
-      "GR_D45_ASSESSMENT_REVIEW"
-    ],
-    "audio_id": "AUD_SEN_D45_036",
-    "day_introduced": 45,
-    "tokens": [
-      "因為",
-      "路",
-      "很",
-      "滑",
-      "所以",
-      "我們",
-      "走路",
-      "要",
-      "小心"
     ],
     "difficulty": 2,
     "production_type": "practice"
@@ -43026,33 +36317,6 @@
       "很熱",
       "想",
       "喝咖啡"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D45_041",
-    "text": "我覺得今天天氣很舒服。",
-    "pinyin": "Wǒ juéde jīntiān tiānqì hěn shūfu.",
-    "pinyin_numeric": "wo3 jue2de jin1tian1 tian1qi4 hen3 shu1fu0",
-    "translation_en": "I think the weather today is very comfortable.",
-    "translation_ko": "오늘 날씨가 아주 쾌적하다고 생각해요.",
-    "token_ids": [
-      "VOC_D42_031",
-      "VOC_M1_032",
-      "VOC_D44_001",
-      "VOC_D44_019"
-    ],
-    "grammar_ids": [
-      "GR_D45_ASSESSMENT_REVIEW"
-    ],
-    "audio_id": "AUD_SEN_D45_041",
-    "day_introduced": 45,
-    "tokens": [
-      "我覺得",
-      "今天",
-      "天氣",
-      "很舒服"
     ],
     "difficulty": 2,
     "production_type": "practice"
@@ -43447,42 +36711,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D45_054",
-    "text": "颱風要來了，我們可以先回家嗎？",
-    "pinyin": "Táifēng yào lái le, wǒmen kěyǐ xiān huí jiā ma?",
-    "pinyin_numeric": "tai2feng1 yao4 lai2 le0, wo3men ke3yi3 xian1 hui2 jia1 ma0",
-    "translation_en": "A typhoon is coming, can we go home first?",
-    "translation_ko": "태풍이 오는데, 먼저 집에 가도 될까요?",
-    "token_ids": [
-      "VOC_D44_015",
-      "VOC_M1_061",
-      "VOC_M1_155",
-      "VOC_M1_006",
-      "VOC_M1_118",
-      "VOC_M1_132",
-      "VOC_D36_026",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D45_ASSESSMENT_REVIEW"
-    ],
-    "audio_id": "AUD_SEN_D45_054",
-    "day_introduced": 45,
-    "tokens": [
-      "颱風",
-      "要",
-      "來",
-      "了",
-      "我們",
-      "可以",
-      "先",
-      "回家",
-      "嗎"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D45_055",
     "text": "這裡很悶熱，可以開窗戶嗎？",
     "pinyin": "Zhèlǐ hěn mēnrè, kěyǐ kāi chuānghù ma?",
@@ -43509,40 +36737,6 @@
       "可以",
       "開",
       "窗戶",
-      "嗎"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D45_056",
-    "text": "路很滑，你可以走慢一點嗎？",
-    "pinyin": "Lù hěn huá, nǐ kěyǐ zǒu màn yīdiǎn ma?",
-    "pinyin_numeric": "lu4 hen3 hua2, ni3 ke3yi3 zou3 man4 yi1dian3 ma0",
-    "translation_en": "The road is very slippery, can you walk a bit slower?",
-    "translation_ko": "길이 매우 미끄러운데, 조금 천천히 걸어 주실 수 있나요?",
-    "token_ids": [
-      "VOC_M1_170",
-      "VOC_M1_096",
-      "VOC_M1_003",
-      "VOC_M1_118",
-      "VOC_M1_174",
-      "VOC_D31_034",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D45_ASSESSMENT_REVIEW"
-    ],
-    "audio_id": "AUD_SEN_D45_056",
-    "day_introduced": 45,
-    "tokens": [
-      "路",
-      "很",
-      "滑",
-      "你",
-      "可以",
-      "走",
-      "慢一點",
       "嗎"
     ],
     "difficulty": 2,
@@ -43686,37 +36880,6 @@
       "外面",
       "吃飯",
       "嗎"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D45_061",
-    "text": "因為天氣很冷，所以我穿外套。",
-    "pinyin": "Yīnwèi tiānqì hěn lěng, suǒyǐ wǒ chuān wàitào.",
-    "pinyin_numeric": "yin1 wei4 tian1 qi4 hen3 leng3, suo3 yi3 wo3 chuan1 wai4 tao4.",
-    "translation_en": "Because the weather is very cold, I wear a jacket.",
-    "translation_ko": "날씨가 매우 추워서 외투를 입습니다.",
-    "token_ids": [
-      "VOC_D34_011",
-      "VOC_D44_001",
-      "VOC_D44_018",
-      "VOC_D34_012",
-      "VOC_M1_002",
-      "VOC_D44_027"
-    ],
-    "grammar_ids": [
-      "GR_D45_ASSESSMENT_REVIEW"
-    ],
-    "audio_id": "AUD_SEN_D45_061",
-    "day_introduced": 45,
-    "tokens": [
-      "因為",
-      "天氣",
-      "很冷",
-      "所以",
-      "我",
-      "穿外套"
     ],
     "difficulty": 2,
     "production_type": "practice"
@@ -43869,42 +37032,6 @@
     "production_type": "practice"
   },
   {
-    "id": "SEN_D45_066",
-    "text": "因為路很滑，所以我們走路要小心。",
-    "pinyin": "Yīnwèi lù hěn huá, suǒyǐ wǒmen zǒulù yào xiǎoxīn.",
-    "pinyin_numeric": "yin1 wei4 lu4 hen3 hua2, suo3 yi3 wo3 men zou3 lu4 yao4 xiao3 xin1.",
-    "translation_en": "Because the road is very slippery, we need to walk carefully.",
-    "translation_ko": "길이 매우 미끄러워서 우리는 조심해서 걸어야 합니다.",
-    "token_ids": [
-      "VOC_D34_011",
-      "VOC_M1_170",
-      "VOC_M1_096",
-      "VOC_D34_012",
-      "VOC_M1_006",
-      "VOC_M1_131",
-      "VOC_M1_061",
-      "VOC_D44_011"
-    ],
-    "grammar_ids": [
-      "GR_D45_ASSESSMENT_REVIEW"
-    ],
-    "audio_id": "AUD_SEN_D45_066",
-    "day_introduced": 45,
-    "tokens": [
-      "因為",
-      "路",
-      "很",
-      "滑",
-      "所以",
-      "我們",
-      "走路",
-      "要",
-      "小心"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
     "id": "SEN_D45_067",
     "text": "因為明天是晴天，所以我們打算去海邊。",
     "pinyin": "Yīnwèi míngtiān shì qíngtiān, suǒyǐ wǒmen dǎsuàn qù hǎibiān.",
@@ -44046,33 +37173,6 @@
       "我",
       "不想吃",
       "熱湯"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D45_071",
-    "text": "我覺得今天天氣很舒服。",
-    "pinyin": "Wǒ juéde jīntiān tiānqì hěn shūfu.",
-    "pinyin_numeric": "wo3 jue2de jin1tian1 tian1qi4 hen3 shu1fu0",
-    "translation_en": "I think the weather today is very comfortable.",
-    "translation_ko": "오늘 날씨가 아주 쾌적하다고 생각해요.",
-    "token_ids": [
-      "VOC_D42_031",
-      "VOC_M1_032",
-      "VOC_D44_001",
-      "VOC_D44_019"
-    ],
-    "grammar_ids": [
-      "GR_D45_ASSESSMENT_REVIEW"
-    ],
-    "audio_id": "AUD_SEN_D45_071",
-    "day_introduced": 45,
-    "tokens": [
-      "我覺得",
-      "今天",
-      "天氣",
-      "很舒服"
     ],
     "difficulty": 2,
     "production_type": "practice"
@@ -44260,37 +37360,6 @@
       "問題",
       "很",
       "簡單"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D45_078",
-    "text": "你覺得明天會下雨嗎？",
-    "pinyin": "Nǐ juéde míngtiān huì xiàyǔ ma?",
-    "pinyin_numeric": "ni3 jue2de ming2tian1 hui4 xia4yu3 ma0",
-    "translation_en": "Do you think it will rain tomorrow?",
-    "translation_ko": "내일 비가 올 거라고 생각하세요?",
-    "token_ids": [
-      "VOC_M1_003",
-      "VOC_D73_001",
-      "VOC_M1_033",
-      "VOC_M1_194",
-      "VOC_D44_002",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D45_ASSESSMENT_REVIEW"
-    ],
-    "audio_id": "AUD_SEN_D45_078",
-    "day_introduced": 45,
-    "tokens": [
-      "你",
-      "覺得",
-      "明天",
-      "會",
-      "下雨",
-      "嗎"
     ],
     "difficulty": 2,
     "production_type": "practice"
@@ -44488,77 +37557,6 @@
       "一",
       "杯",
       "冰水",
-      "嗎"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D45_085",
-    "text": "颱風要來了，我們可以先回家嗎？",
-    "pinyin": "Táifēng yào lái le, wǒmen kěyǐ xiān huí jiā ma?",
-    "pinyin_numeric": "tai2feng1 yao4 lai2 le0, wo3men ke3yi3 xian1 hui2 jia1 ma0",
-    "translation_en": "A typhoon is coming, can we go home first?",
-    "translation_ko": "태풍이 오려고 하는데, 먼저 집에 가도 될까요?",
-    "token_ids": [
-      "VOC_D44_015",
-      "VOC_M1_061",
-      "VOC_M1_155",
-      "VOC_M1_006",
-      "VOC_M1_118",
-      "VOC_M1_132",
-      "VOC_D36_026",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D45_ASSESSMENT_REVIEW"
-    ],
-    "audio_id": "AUD_SEN_D45_085",
-    "day_introduced": 45,
-    "tokens": [
-      "颱風",
-      "要",
-      "來",
-      "了",
-      "我們",
-      "可以",
-      "先",
-      "回家",
-      "嗎"
-    ],
-    "difficulty": 2,
-    "production_type": "practice"
-  },
-  {
-    "id": "SEN_D45_086",
-    "text": "我壓力很大，可以休息一下嗎？",
-    "pinyin": "Wǒ yālì hěn dà, kěyǐ xiūxí yīxià ma?",
-    "pinyin_numeric": "wo3 ya1li4 hen3 da4, ke3yi3 xiu1xi2 yi1xia4 ma0",
-    "translation_en": "I'm very stressed, can I take a break?",
-    "translation_ko": "스트레스가 많은데, 잠시 쉬어도 될까요?",
-    "token_ids": [
-      "VOC_M1_002",
-      "VOC_D44_033",
-      "VOC_M1_096",
-      "VOC_M1_086",
-      "VOC_M1_118",
-      "VOC_D36_024",
-      "VOC_M1_123",
-      "VOC_M1_016"
-    ],
-    "grammar_ids": [
-      "GR_D45_ASSESSMENT_REVIEW"
-    ],
-    "audio_id": "AUD_SEN_D45_086",
-    "day_introduced": 45,
-    "tokens": [
-      "我",
-      "壓力",
-      "很",
-      "大",
-      "可以",
-      "休息",
-      "一下",
       "嗎"
     ],
     "difficulty": 2,

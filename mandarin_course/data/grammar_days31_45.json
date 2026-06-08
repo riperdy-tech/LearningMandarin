@@ -2244,8 +2244,7 @@
     "example_ids": [
       "SEN_D34_021",
       "SEN_D34_022",
-      "SEN_D34_051",
-      "SEN_D34_052"
+      "SEN_D34_051"
     ],
     "correct_examples": [
       {
@@ -6806,7 +6805,7 @@
     "english_contrast": "In English, you can say 'I don't want to go because I'm tired.' In Chinese, the subject must be before '因為': '我因為太累了，所以不想去。'",
     "korean_contrast": "In Korean, the subject is marked with '은/는' and can come before the reason clause. In Chinese, the subject is placed before '因為'.",
     "example_ids": [
-      "SEN_D41_021",
+      "SEN_D41_012",
       "SEN_D41_022",
       "SEN_D41_023",
       "SEN_D41_024"
@@ -7469,7 +7468,7 @@
     "english_contrast": "English uses 'or' for both questions and statements. Chinese distinguishes: 還是 for questions, 或者 for statements.",
     "korean_contrast": "Korean uses '아니면' (animyeon) for questions (similar to 還是) and '또는' (ttoneun) for statements (similar to 或者).",
     "example_ids": [
-      "SEN_D42_021",
+      "SEN_D42_011",
       "SEN_D42_022",
       "SEN_D42_023",
       "SEN_D42_024"

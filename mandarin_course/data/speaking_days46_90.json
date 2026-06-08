@@ -172,7 +172,7 @@
     "model_answer": "我昨天買菜了。",
     "model_pinyin": "Wǒ zuótiān mǎi cài le.",
     "model_translation_en": "I bought groceries yesterday.",
-    "related_sentence_id": "SEN_D46_031",
+    "related_sentence_id": "SEN_D46_001",
     "related_dialogue_id": "DLG_D46_01"
   },
   {
@@ -194,7 +194,7 @@
     "model_answer": "他昨天洗澡了。",
     "model_pinyin": "Tā zuótiān xǐzǎo le.",
     "model_translation_en": "He took a shower yesterday.",
-    "related_sentence_id": "SEN_D46_035",
+    "related_sentence_id": "SEN_D46_006",
     "related_dialogue_id": "DLG_D46_03"
   },
   {
@@ -227,7 +227,7 @@
     "model_answer": "昨天我買菜了。",
     "model_pinyin": "Zuótiān wǒ mǎi cài le.",
     "model_translation_en": "I bought groceries yesterday.",
-    "related_sentence_id": "SEN_D46_041",
+    "related_sentence_id": "SEN_D46_012",
     "related_dialogue_id": "DLG_D46_03"
   },
   {
@@ -271,7 +271,7 @@
     "model_answer": "昨天我洗澡了。",
     "model_pinyin": "Zuótiān wǒ xǐzǎo le.",
     "model_translation_en": "I took a shower yesterday.",
-    "related_sentence_id": "SEN_D46_049",
+    "related_sentence_id": "SEN_D46_015",
     "related_dialogue_id": "DLG_D46_01"
   },
   {
@@ -282,7 +282,7 @@
     "model_answer": "我昨天起床了，然後刷牙了。",
     "model_pinyin": "Wǒ zuótiān qǐchuáng le, ránhòu shuāyá le.",
     "model_translation_en": "I got up yesterday, and then brushed my teeth.",
-    "related_sentence_id": "SEN_D46_051",
+    "related_sentence_id": "SEN_D46_021",
     "related_dialogue_id": "DLG_D46_02"
   },
   {
@@ -293,7 +293,7 @@
     "model_answer": "我昨天上班了，然後下班了。",
     "model_pinyin": "Wǒ zuótiān shàngbān le, ránhòu xiàbān le.",
     "model_translation_en": "I went to work yesterday, and then got off work.",
-    "related_sentence_id": "SEN_D46_053",
+    "related_sentence_id": "SEN_D46_023",
     "related_dialogue_id": "DLG_D46_03"
   },
   {
@@ -304,7 +304,7 @@
     "model_answer": "我昨天買菜了，然後煮飯了。",
     "model_pinyin": "Wǒ zuótiān mǎi cài le, ránhòu zhǔ fàn le.",
     "model_translation_en": "I bought groceries yesterday, and then cooked rice.",
-    "related_sentence_id": "SEN_D46_055",
+    "related_sentence_id": "SEN_D46_024",
     "related_dialogue_id": "DLG_D46_01"
   },
   {
@@ -337,7 +337,7 @@
     "model_answer": "我昨天買菜了。",
     "model_pinyin": "Wǒ zuótiān mǎi cài le.",
     "model_translation_en": "I bought groceries yesterday.",
-    "related_sentence_id": "SEN_D46_061",
+    "related_sentence_id": "SEN_D46_001",
     "related_dialogue_id": "DLG_D46_01"
   },
   {
@@ -348,7 +348,7 @@
     "model_answer": "我昨天打掃家了。",
     "model_pinyin": "Wǒ zuótiān dǎsǎo jiā le.",
     "model_translation_en": "I cleaned the house yesterday.",
-    "related_sentence_id": "SEN_D46_063",
+    "related_sentence_id": "SEN_D46_003",
     "related_dialogue_id": "DLG_D46_02"
   },
   {
@@ -359,7 +359,7 @@
     "model_answer": "我昨天吃早餐了。",
     "model_pinyin": "Wǒ zuótiān chī zǎocān le.",
     "model_translation_en": "I ate breakfast yesterday.",
-    "related_sentence_id": "SEN_D46_065",
+    "related_sentence_id": "SEN_D46_007",
     "related_dialogue_id": "DLG_D46_03"
   },
   {
@@ -381,7 +381,7 @@
     "model_answer": "我昨天睡覺了。",
     "model_pinyin": "Wǒ zuótiān shuìjiào le.",
     "model_translation_en": "I slept yesterday.",
-    "related_sentence_id": "SEN_D46_069",
+    "related_sentence_id": "SEN_D46_040",
     "related_dialogue_id": "DLG_D46_02"
   },
   {
@@ -667,7 +667,7 @@
     "model_answer": "我昨天買了一本書，然後看完了。",
     "model_pinyin": "Wǒ zuótiān mǎi le yī běn shū, ránhòu kàn wán le.",
     "model_translation_en": "I bought a book yesterday and then finished reading it.",
-    "related_sentence_id": "SEN_D47_051",
+    "related_sentence_id": "SEN_D47_021",
     "related_dialogue_id": "DLG_D47_02"
   },
   {
@@ -942,7 +942,7 @@
     "model_answer": "你去過臺北嗎？",
     "model_pinyin": "Nǐ qù guò Táiběi ma?",
     "model_translation_en": "Have you been to Taipei?",
-    "related_sentence_id": "SEN_D48_031",
+    "related_sentence_id": "SEN_D48_001",
     "related_dialogue_id": "DLG_D48_01"
   },
   {
@@ -986,7 +986,7 @@
     "model_answer": "你聽過這首歌嗎？",
     "model_pinyin": "Nǐ tīng guò zhè shǒu gē ma?",
     "model_translation_en": "Have you heard this song?",
-    "related_sentence_id": "SEN_D48_039",
+    "related_sentence_id": "SEN_D48_005",
     "related_dialogue_id": "DLG_D48_02"
   },
   {
@@ -997,7 +997,7 @@
     "model_answer": "我沒有去過臺北的故宮。",
     "model_pinyin": "Wǒ méiyǒu qù guò Táiběi de Gùgōng.",
     "model_translation_en": "I have never been to the National Palace Museum in Taipei.",
-    "related_sentence_id": "SEN_D48_041",
+    "related_sentence_id": "SEN_D48_011",
     "related_dialogue_id": "DLG_D48_03"
   },
   {
@@ -1008,7 +1008,7 @@
     "model_answer": "他從來沒有喝過珍珠奶茶。",
     "model_pinyin": "Tā cónglái méiyǒu hē guò zhēnzhū nǎichá.",
     "model_translation_en": "He has never drunk bubble tea before.",
-    "related_sentence_id": "SEN_D48_043",
+    "related_sentence_id": "SEN_D48_003",
     "related_dialogue_id": "DLG_D48_01"
   },
   {
@@ -1052,7 +1052,7 @@
     "model_answer": "我以前去過臺北的故宮。",
     "model_pinyin": "Wǒ yǐqián qùguò Táiběi de Gùgōng.",
     "model_translation_en": "I have been to the National Palace Museum in Taipei before.",
-    "related_sentence_id": "SEN_D48_051",
+    "related_sentence_id": "SEN_D48_021",
     "related_dialogue_id": "DLG_D48_02"
   },
   {
@@ -1107,7 +1107,7 @@
     "model_answer": "你去過臺北嗎？",
     "model_pinyin": "Nǐ qù guò Táiběi ma?",
     "model_translation_en": "Have you been to Taipei?",
-    "related_sentence_id": "SEN_D48_061",
+    "related_sentence_id": "SEN_D48_001",
     "related_dialogue_id": "DLG_D48_01"
   },
   {
@@ -1118,7 +1118,7 @@
     "model_answer": "他從來沒有去過國外。",
     "model_pinyin": "Tā cónglái méiyǒu qù guò guówài.",
     "model_translation_en": "He has never been abroad.",
-    "related_sentence_id": "SEN_D48_063",
+    "related_sentence_id": "SEN_D48_033",
     "related_dialogue_id": "DLG_D48_02"
   },
   {
@@ -1129,7 +1129,7 @@
     "model_answer": "你喝過珍珠奶茶嗎？",
     "model_pinyin": "Nǐ hē guò zhēnzhū nǎichá ma?",
     "model_translation_en": "Have you ever had bubble tea?",
-    "related_sentence_id": "SEN_D48_065",
+    "related_sentence_id": "SEN_D48_035",
     "related_dialogue_id": "DLG_D48_03"
   },
   {
@@ -1272,7 +1272,7 @@
     "model_answer": "你現在在做什麼？",
     "model_pinyin": "Nǐ xiànzài zài zuò shénme?",
     "model_translation_en": "What are you doing now?",
-    "related_sentence_id": "SEN_D49_021",
+    "related_sentence_id": "SEN_D49_011",
     "related_dialogue_id": "DLG_D49_02"
   },
   {
@@ -1327,7 +1327,7 @@
     "model_answer": "你正在做什麼？",
     "model_pinyin": "Nǐ zhèngzài zuò shénme?",
     "model_translation_en": "What are you doing right now?",
-    "related_sentence_id": "SEN_D49_031",
+    "related_sentence_id": "SEN_D49_001",
     "related_dialogue_id": "DLG_D49_01"
   },
   {
@@ -1338,7 +1338,7 @@
     "model_answer": "他正在上網。",
     "model_pinyin": "Tā zhèngzài shàngwǎng.",
     "model_translation_en": "He is browsing the internet.",
-    "related_sentence_id": "SEN_D49_033",
+    "related_sentence_id": "SEN_D49_003",
     "related_dialogue_id": "DLG_D49_02"
   },
   {
@@ -1382,7 +1382,7 @@
     "model_answer": "你現在在做什麼？",
     "model_pinyin": "Nǐ xiànzài zài zuò shénme?",
     "model_translation_en": "What are you doing now?",
-    "related_sentence_id": "SEN_D49_041",
+    "related_sentence_id": "SEN_D49_011",
     "related_dialogue_id": "DLG_D49_03"
   },
   {
@@ -1393,7 +1393,7 @@
     "model_answer": "他在上網嗎？",
     "model_pinyin": "Tā zài shàngwǎng ma?",
     "model_translation_en": "Is he surfing the internet?",
-    "related_sentence_id": "SEN_D49_043",
+    "related_sentence_id": "SEN_D49_013",
     "related_dialogue_id": "DLG_D49_01"
   },
   {
@@ -1437,7 +1437,7 @@
     "model_answer": "你現在在做什麼？",
     "model_pinyin": "Nǐ xiànzài zài zuò shénme?",
     "model_translation_en": "What are you doing now?",
-    "related_sentence_id": "SEN_D49_051",
+    "related_sentence_id": "SEN_D49_011",
     "related_dialogue_id": "DLG_D49_02"
   },
   {
@@ -1448,7 +1448,7 @@
     "model_answer": "他在忙著寫功課。",
     "model_pinyin": "Tā zài mángzhe xiě gōngkè.",
     "model_translation_en": "He is busy doing homework.",
-    "related_sentence_id": "SEN_D49_053",
+    "related_sentence_id": "SEN_D49_023",
     "related_dialogue_id": "DLG_D49_03"
   },
   {
@@ -1492,7 +1492,7 @@
     "model_answer": "你正在做什麼？",
     "model_pinyin": "Nǐ zhèngzài zuò shénme?",
     "model_translation_en": "What are you doing right now?",
-    "related_sentence_id": "SEN_D49_061",
+    "related_sentence_id": "SEN_D49_001",
     "related_dialogue_id": "DLG_D49_01"
   },
   {
@@ -1503,7 +1503,7 @@
     "model_answer": "他正在開會，不方便講電話。",
     "model_pinyin": "Tā zhèngzài kāihuì, bù fāngbiàn jiǎng diànhuà.",
     "model_translation_en": "He is in a meeting and not available to talk on the phone.",
-    "related_sentence_id": "SEN_D49_063",
+    "related_sentence_id": "SEN_D49_028",
     "related_dialogue_id": "DLG_D49_02"
   },
   {
@@ -1877,7 +1877,7 @@
     "model_answer": "他完全不會說中文，可是正在努力學。",
     "model_pinyin": "Tā wánquán bù huì shuō zhōngwén, kěshì zhèngzài nǔlì xué.",
     "model_translation_en": "He can't speak Chinese at all, but he is working hard to learn.",
-    "related_sentence_id": "SEN_D50_062",
+    "related_sentence_id": "SEN_D50_032",
     "related_dialogue_id": "DLG_D50_01"
   },
   {
@@ -2152,7 +2152,7 @@
     "model_answer": "那個人長得很高，也很瘦。",
     "model_pinyin": "Nà ge rén zhǎng de hěn gāo, yě hěn shòu.",
     "model_translation_en": "That person is very tall and also very thin.",
-    "related_sentence_id": "SEN_D51_041",
+    "related_sentence_id": "SEN_D51_011",
     "related_dialogue_id": "DLG_D51_03"
   },
   {
@@ -2163,7 +2163,7 @@
     "model_answer": "他戴眼鏡，看起來很聰明。",
     "model_pinyin": "Tā dài yǎnjìng, kàn qǐlái hěn cōngmíng.",
     "model_translation_en": "He wears glasses and looks very smart.",
-    "related_sentence_id": "SEN_D51_043",
+    "related_sentence_id": "SEN_D51_013",
     "related_dialogue_id": "DLG_D51_01"
   },
   {
@@ -2207,7 +2207,7 @@
     "model_answer": "那個人長得很高，而且很瘦。",
     "model_pinyin": "Nà ge rén zhǎng de hěn gāo, érqiě hěn shòu.",
     "model_translation_en": "That person is very tall and also very thin.",
-    "related_sentence_id": "SEN_D51_051",
+    "related_sentence_id": "SEN_D51_031",
     "related_dialogue_id": "DLG_D51_02"
   },
   {
@@ -2262,7 +2262,7 @@
     "model_answer": "那個人長得很高，而且很瘦。",
     "model_pinyin": "Nà ge rén zhǎng de hěn gāo, érqiě hěn shòu.",
     "model_translation_en": "That person is very tall and also very thin.",
-    "related_sentence_id": "SEN_D51_061",
+    "related_sentence_id": "SEN_D51_031",
     "related_dialogue_id": "DLG_D51_01"
   },
   {
@@ -2273,7 +2273,7 @@
     "model_answer": "他看起來很年輕，可是已經三十歲了。",
     "model_pinyin": "Tā kàn qǐlái hěn niánqīng, kěshì yǐjīng sān shí suì le.",
     "model_translation_en": "He looks very young, but he is already thirty years old.",
-    "related_sentence_id": "SEN_D51_063",
+    "related_sentence_id": "SEN_D51_033",
     "related_dialogue_id": "DLG_D51_02"
   },
   {
@@ -2482,7 +2482,7 @@
     "model_answer": "這家餐廳的牛肉麵比那家好吃。",
     "model_pinyin": "Zhè jiā cāntīng de niúròumiàn bǐ nà jiā hǎochī.",
     "model_translation_en": "The beef noodles at this restaurant are tastier than those at that one.",
-    "related_sentence_id": "SEN_D52_031",
+    "related_sentence_id": "SEN_D52_001",
     "related_dialogue_id": "DLG_D52_01"
   },
   {
@@ -2537,7 +2537,7 @@
     "model_answer": "這家餐廳的價格跟那家差不多。",
     "model_pinyin": "Zhè jiā cāntīng de jiàgé gēn nà jiā chàbùduō.",
     "model_translation_en": "The price of this restaurant is about the same as that one.",
-    "related_sentence_id": "SEN_D52_041",
+    "related_sentence_id": "SEN_D52_011",
     "related_dialogue_id": "DLG_D52_03"
   },
   {
@@ -2581,7 +2581,7 @@
     "model_answer": "這家店的服務態度跟那家差不多。",
     "model_pinyin": "Zhè jiā diàn de fúwù tàidù gēn nà jiā chàbùduō.",
     "model_translation_en": "The service attitude of this shop is about the same as that one.",
-    "related_sentence_id": "SEN_D52_049",
+    "related_sentence_id": "SEN_D52_018",
     "related_dialogue_id": "DLG_D52_01"
   },
   {
@@ -2592,7 +2592,7 @@
     "model_answer": "這家餐廳的服務態度沒有那家好。",
     "model_pinyin": "Zhè jiā cāntīng de fúwù tàidù méiyǒu nà jiā hǎo.",
     "model_translation_en": "The service attitude of this restaurant is not as good as that one.",
-    "related_sentence_id": "SEN_D52_051",
+    "related_sentence_id": "SEN_D52_026",
     "related_dialogue_id": "DLG_D52_02"
   },
   {
@@ -2669,7 +2669,7 @@
     "model_answer": "夜市的氣氛比小吃店熱鬧。",
     "model_pinyin": "Yèshì de qìfēn bǐ xiǎochī diàn rènào.",
     "model_translation_en": "The atmosphere at the night market is livelier than at a small eatery.",
-    "related_sentence_id": "SEN_D52_065",
+    "related_sentence_id": "SEN_D52_035",
     "related_dialogue_id": "DLG_D52_03"
   },
   {
@@ -2680,7 +2680,7 @@
     "model_answer": "坐捷運比坐公車方便。",
     "model_pinyin": "Zuò jiéyùn bǐ zuò gōngchē fāngbiàn.",
     "model_translation_en": "Taking the MRT is more convenient than taking the bus.",
-    "related_sentence_id": "SEN_D52_067",
+    "related_sentence_id": "SEN_D52_033",
     "related_dialogue_id": "DLG_D52_01"
   },
   {
@@ -2867,7 +2867,7 @@
     "model_answer": "你要不要跟我一起去咖啡店？",
     "model_pinyin": "Nǐ yào bù yào gēn wǒ yīqǐ qù kāfēidiàn?",
     "model_translation_en": "Would you like to go to the coffee shop with me?",
-    "related_sentence_id": "SEN_D54_031",
+    "related_sentence_id": "SEN_D54_001",
     "related_dialogue_id": "DLG_D54_01"
   },
   {
@@ -2922,7 +2922,7 @@
     "model_answer": "我們把約會改到明天下午好嗎？",
     "model_pinyin": "Wǒmen bǎ yuēhuì gǎi dào míngtiān xiàwǔ hǎo ma?",
     "model_translation_en": "Shall we reschedule the date to tomorrow afternoon?",
-    "related_sentence_id": "SEN_D54_041",
+    "related_sentence_id": "SEN_D54_011",
     "related_dialogue_id": "DLG_D54_03"
   },
   {
@@ -3021,7 +3021,7 @@
     "model_answer": "不好意思，我們不能取消這個約會了。",
     "model_pinyin": "Bù hǎo yìsi, wǒmen bù néng qǔxiāo zhège yuēhuì le.",
     "model_translation_en": "I'm sorry, we can't cancel this appointment.",
-    "related_sentence_id": "SEN_D54_060",
+    "related_sentence_id": "SEN_D54_028",
     "related_dialogue_id": "DLG_D54_03"
   },
   {
@@ -3296,7 +3296,7 @@
     "model_answer": "廚房的水槽旁邊有插座和開關。",
     "model_pinyin": "Chúfáng de shuǐcáo pángbiān yǒu chāzuò hé kāiguān.",
     "model_translation_en": "Next to the kitchen sink, there are an outlet and a switch.",
-    "related_sentence_id": "SEN_D58_039",
+    "related_sentence_id": "SEN_D58_009",
     "related_dialogue_id": "DLG_D58_02"
   },
   {
@@ -3417,7 +3417,7 @@
     "model_answer": "我的公寓有一個客廳和兩個房間。",
     "model_pinyin": "Wǒ de gōngyù yǒu yī ge kètīng hé liǎng ge fángjiān.",
     "model_translation_en": "My apartment has one living room and two rooms.",
-    "related_sentence_id": "SEN_D58_061",
+    "related_sentence_id": "SEN_D58_001",
     "related_dialogue_id": "DLG_D58_01"
   },
   {
@@ -3428,7 +3428,7 @@
     "model_answer": "客廳有沙發、桌子和電視。",
     "model_pinyin": "Kètīng yǒu shāfā, zhuōzi hé diànshì.",
     "model_translation_en": "The living room has a sofa, a table, and a TV.",
-    "related_sentence_id": "SEN_D58_063",
+    "related_sentence_id": "SEN_D58_004",
     "related_dialogue_id": "DLG_D58_02"
   },
   {
@@ -3637,7 +3637,7 @@
     "model_answer": "請幫我修理水龍頭。",
     "model_pinyin": "Qǐng bāng wǒ xiūlǐ shuǐlóngtóu.",
     "model_translation_en": "Please help me fix the faucet.",
-    "related_sentence_id": "SEN_D59_031",
+    "related_sentence_id": "SEN_D59_001",
     "related_dialogue_id": "DLG_D59_01"
   },
   {
@@ -3648,7 +3648,7 @@
     "model_answer": "請幫我換燈泡。",
     "model_pinyin": "Qǐng bāng wǒ huàn dēngpào.",
     "model_translation_en": "Please help me change the light bulb.",
-    "related_sentence_id": "SEN_D59_033",
+    "related_sentence_id": "SEN_D59_003",
     "related_dialogue_id": "DLG_D59_02"
   },
   {
@@ -3747,7 +3747,7 @@
     "model_answer": "可能是水龍頭的問題，所以一直漏水。",
     "model_pinyin": "Kěnéng shì shuǐlóngtóu de wèntí, suǒyǐ yīzhí lòushuǐ.",
     "model_translation_en": "It might be a problem with the faucet, so it keeps leaking.",
-    "related_sentence_id": "SEN_D59_051",
+    "related_sentence_id": "SEN_D59_021",
     "related_dialogue_id": "DLG_D59_02"
   },
   {
@@ -3758,7 +3758,7 @@
     "model_answer": "可能是冷氣的問題，所以不冷。",
     "model_pinyin": "Kěnéng shì lěngqì de wèntí, suǒyǐ bù lěng.",
     "model_translation_en": "It might be a problem with the air conditioner, so it's not cold.",
-    "related_sentence_id": "SEN_D59_053",
+    "related_sentence_id": "SEN_D59_023",
     "related_dialogue_id": "DLG_D59_03"
   },
   {
@@ -4242,7 +4242,7 @@
     "model_answer": "昨天發生了一件糟糕的事情，我的手機壞掉了。",
     "model_pinyin": "Zuótiān fāshēng le yī jiàn zāogāo de shìqíng, wǒ de shǒujī huài diào le.",
     "model_translation_en": "A terrible thing happened yesterday—my phone broke.",
-    "related_sentence_id": "SEN_D61_031",
+    "related_sentence_id": "SEN_D61_001",
     "related_dialogue_id": "DLG_D61_01"
   },
   {
@@ -4253,7 +4253,7 @@
     "model_answer": "他忘記帶鑰匙，結果進不了家門。",
     "model_pinyin": "Tā wàngjì dài yàoshi, jiéguǒ jìn bù liǎo jiāmén.",
     "model_translation_en": "He forgot to bring his keys, so he couldn't get into the house.",
-    "related_sentence_id": "SEN_D61_033",
+    "related_sentence_id": "SEN_D61_003",
     "related_dialogue_id": "DLG_D61_02"
   },
   {
@@ -4297,7 +4297,7 @@
     "model_answer": "我忘記帶鑰匙，結果進不了家門。",
     "model_pinyin": "Wǒ wàngjì dài yàoshi, jiéguǒ jìn bù liǎo jiā mén.",
     "model_translation_en": "I forgot to bring my keys, and as a result, I couldn't get into the house.",
-    "related_sentence_id": "SEN_D61_041",
+    "related_sentence_id": "SEN_D61_011",
     "related_dialogue_id": "DLG_D61_03"
   },
   {
@@ -4352,7 +4352,7 @@
     "model_answer": "因為我忘記帶鑰匙，所以進不了家門。",
     "model_pinyin": "Yīnwèi wǒ wàngjì dài yàoshi, suǒyǐ jìn bù liǎo jiā mén.",
     "model_translation_en": "Because I forgot to bring my keys, I couldn't get into the house.",
-    "related_sentence_id": "SEN_D61_051",
+    "related_sentence_id": "SEN_D61_021",
     "related_dialogue_id": "DLG_D61_02"
   },
   {
@@ -4363,7 +4363,7 @@
     "model_answer": "因為路上塞車，所以我遲到了。",
     "model_pinyin": "Yīnwèi lù shàng sāichē, suǒyǐ wǒ chídào le.",
     "model_translation_en": "Because there was a traffic jam on the road, I was late.",
-    "related_sentence_id": "SEN_D61_053",
+    "related_sentence_id": "SEN_D61_024",
     "related_dialogue_id": "DLG_D61_03"
   },
   {
@@ -4407,7 +4407,7 @@
     "model_answer": "昨天發生了一件糟糕的事情，我的手機壞掉了。",
     "model_pinyin": "Zuótiān fāshēng le yī jiàn zāogāo de shìqíng, wǒ de shǒujī huài diào le.",
     "model_translation_en": "A terrible thing happened yesterday; my phone broke.",
-    "related_sentence_id": "SEN_D61_061",
+    "related_sentence_id": "SEN_D61_001",
     "related_dialogue_id": "DLG_D61_01"
   },
   {
@@ -4737,7 +4737,7 @@
     "model_answer": "我的手機壞掉了，你可以幫我修理嗎？",
     "model_pinyin": "Wǒ de shǒujī huài diào le, nǐ kěyǐ bāng wǒ xiūlǐ ma?",
     "model_translation_en": "My phone is broken; can you help me fix it?",
-    "related_sentence_id": "SEN_D62_051",
+    "related_sentence_id": "SEN_D62_021",
     "related_dialogue_id": "DLG_D62_02"
   },
   {
@@ -5078,7 +5078,7 @@
     "model_answer": "這個杯子破掉了，我要退錢。",
     "model_pinyin": "Zhège bēizi pò diào le, wǒ yào tuì qián.",
     "model_translation_en": "This cup is broken; I want a refund.",
-    "related_sentence_id": "SEN_D63_044",
+    "related_sentence_id": "SEN_D63_013",
     "related_dialogue_id": "DLG_D63_01"
   },
   {
@@ -5397,7 +5397,7 @@
     "model_answer": "我要預約明天下午三點的門診。",
     "model_pinyin": "Wǒ yào yùyuē míngtiān xiàwǔ sān diǎn de ménzhěn.",
     "model_translation_en": "I want to book an appointment for tomorrow afternoon at 3 PM.",
-    "related_sentence_id": "SEN_D64_031",
+    "related_sentence_id": "SEN_D64_001",
     "related_dialogue_id": "DLG_D64_01"
   },
   {
@@ -5507,7 +5507,7 @@
     "model_answer": "我想確認明天的預約時間。",
     "model_pinyin": "Wǒ xiǎng quèrèn míngtiān de yùyuē shíjiān.",
     "model_translation_en": "I want to confirm the appointment time for tomorrow.",
-    "related_sentence_id": "SEN_D64_051",
+    "related_sentence_id": "SEN_D64_021",
     "related_dialogue_id": "DLG_D64_02"
   },
   {
@@ -5672,7 +5672,7 @@
     "model_answer": "如果下雨的話，我們就不要去公園。",
     "model_pinyin": "Rúguǒ xià yǔ de huà, wǒmen jiù bù yào qù gōngyuán.",
     "model_translation_en": "If it rains, we won't go to the park.",
-    "related_sentence_id": "SEN_D66_011",
+    "related_sentence_id": "SEN_D66_001",
     "related_dialogue_id": "DLG_D66_03"
   },
   {
@@ -5793,7 +5793,7 @@
     "model_answer": "如果找不到鑰匙的話，就用備用鑰匙。",
     "model_pinyin": "Rúguǒ zhǎo bù dào yàoshi dehuà, jiù yòng bèiyòng yàoshi.",
     "model_translation_en": "If you can't find the key, then use the spare key.",
-    "related_sentence_id": "SEN_D66_033",
+    "related_sentence_id": "SEN_D66_003",
     "related_dialogue_id": "DLG_D66_02"
   },
   {
@@ -5804,7 +5804,7 @@
     "model_answer": "要是颱風來的話，就待在家裡。",
     "model_pinyin": "Yàoshi táifēng lái dehuà, jiù dāi zài jiā lǐ.",
     "model_translation_en": "If a typhoon comes, then stay at home.",
-    "related_sentence_id": "SEN_D66_035",
+    "related_sentence_id": "SEN_D66_005",
     "related_dialogue_id": "DLG_D66_03"
   },
   {
@@ -5826,7 +5826,7 @@
     "model_answer": "要是沒帶傘的話，就買一把。",
     "model_pinyin": "Yàoshi méi dài sǎn dehuà, jiù mǎi yī bǎ.",
     "model_translation_en": "If you don't bring an umbrella, then buy one.",
-    "related_sentence_id": "SEN_D66_039",
+    "related_sentence_id": "SEN_D66_007",
     "related_dialogue_id": "DLG_D66_02"
   },
   {
@@ -5837,7 +5837,7 @@
     "model_answer": "如果下雨的話，我們就不要去公園了。",
     "model_pinyin": "Rúguǒ xià yǔ de huà, wǒmen jiù bù yào qù gōngyuán le.",
     "model_translation_en": "If it rains, we won't go to the park.",
-    "related_sentence_id": "SEN_D66_041",
+    "related_sentence_id": "SEN_D66_021",
     "related_dialogue_id": "DLG_D66_03"
   },
   {
@@ -5947,7 +5947,7 @@
     "model_answer": "如果下雨的話，就不要去公園。",
     "model_pinyin": "Rúguǒ xià yǔ de huà, jiù bù yào qù gōngyuán.",
     "model_translation_en": "If it rains, then don't go to the park.",
-    "related_sentence_id": "SEN_D66_061",
+    "related_sentence_id": "SEN_D66_031",
     "related_dialogue_id": "DLG_D66_01"
   },
   {
@@ -5958,7 +5958,7 @@
     "model_answer": "如果找不到鑰匙的話，就用備用鑰匙。",
     "model_pinyin": "Rúguǒ zhǎo bù dào yàoshi de huà, jiù yòng bèiyòng yàoshi.",
     "model_translation_en": "If you can't find the key, then use the spare key.",
-    "related_sentence_id": "SEN_D66_063",
+    "related_sentence_id": "SEN_D66_003",
     "related_dialogue_id": "DLG_D66_02"
   },
   {
@@ -5969,7 +5969,7 @@
     "model_answer": "要是太貴的話，就不要買。",
     "model_pinyin": "Yàoshì tài guì de huà, jiù bù yào mǎi.",
     "model_translation_en": "If it's too expensive, then don't buy it.",
-    "related_sentence_id": "SEN_D66_065",
+    "related_sentence_id": "SEN_D66_037",
     "related_dialogue_id": "DLG_D66_03"
   },
   {
@@ -6179,7 +6179,7 @@
     "model_answer": "他正在修理他的腳踏車。",
     "model_pinyin": "Tā zhèngzài xiūlǐ tā de jiǎotàchē.",
     "model_translation_en": "He is repairing his bicycle.",
-    "related_sentence_id": "SEN_D55_041",
+    "related_sentence_id": "SEN_D55_011",
     "related_dialogue_id": "DLG_D55_02"
   },
   {
@@ -6344,7 +6344,7 @@
     "model_answer": "他正在修理他的腳踏車。",
     "model_pinyin": "Tā zhèngzài xiūlǐ tā de jiǎotàchē.",
     "model_translation_en": "He is repairing his bicycle.",
-    "related_sentence_id": "SEN_D55_071",
+    "related_sentence_id": "SEN_D55_011",
     "related_dialogue_id": "DLG_D55_02"
   },
   {
@@ -6663,7 +6663,7 @@
     "model_answer": "我從昨天開始頭痛到現在。",
     "model_pinyin": "Wǒ cóng zuótiān kāishǐ tóutòng dào xiànzài.",
     "model_translation_en": "I have had a headache from yesterday until now.",
-    "related_sentence_id": "SEN_D56_051",
+    "related_sentence_id": "SEN_D56_021",
     "related_dialogue_id": "DLG_D56_02"
   },
   {
@@ -7048,7 +7048,7 @@
     "model_answer": "請問，這裡可以買成藥嗎？",
     "model_pinyin": "Qǐngwèn, zhèlǐ kěyǐ mǎi chéngyào ma?",
     "model_translation_en": "Excuse me, can I buy over-the-counter medicine here?",
-    "related_sentence_id": "SEN_D57_051",
+    "related_sentence_id": "SEN_D57_021",
     "related_dialogue_id": "DLG_D57_02"
   },
   {
@@ -7059,7 +7059,7 @@
     "model_answer": "我對這個藥過敏，可以換一種嗎？",
     "model_pinyin": "Wǒ duì zhège yào guòmǐn, kěyǐ huàn yī zhǒng ma?",
     "model_translation_en": "I am allergic to this medicine, can I switch to another one?",
-    "related_sentence_id": "SEN_D57_053",
+    "related_sentence_id": "SEN_D57_023",
     "related_dialogue_id": "DLG_D57_03"
   },
   {
@@ -7103,7 +7103,7 @@
     "model_answer": "藥師說這個藥飯後吃，一天三次。",
     "model_pinyin": "Yàoshī shuō zhège yào fàn hòu chī, yī tiān sān cì.",
     "model_translation_en": "The pharmacist said to take this medicine after meals, three times a day.",
-    "related_sentence_id": "SEN_D57_061",
+    "related_sentence_id": "SEN_D57_031",
     "related_dialogue_id": "DLG_D57_01"
   },
   {
@@ -7323,7 +7323,7 @@
     "model_answer": "你應該早點睡覺。",
     "model_pinyin": "Nǐ yīnggāi zǎo diǎn shuìjiào.",
     "model_translation_en": "You should go to bed earlier.",
-    "related_sentence_id": "SEN_D65_031",
+    "related_sentence_id": "SEN_D65_001",
     "related_dialogue_id": "DLG_D65_01"
   },
   {
@@ -7334,7 +7334,7 @@
     "model_answer": "你不需要買那麼多東西。",
     "model_pinyin": "Nǐ bù xūyào mǎi nàme duō dōngxī.",
     "model_translation_en": "You don't need to buy so many things.",
-    "related_sentence_id": "SEN_D65_033",
+    "related_sentence_id": "SEN_D65_003",
     "related_dialogue_id": "DLG_D65_02"
   },
   {
@@ -7378,7 +7378,7 @@
     "model_answer": "你需要先預約才能看醫生。",
     "model_pinyin": "Nǐ xūyào xiān yùyuē cáinéng kàn yīshēng.",
     "model_translation_en": "You need to make an appointment first to see a doctor.",
-    "related_sentence_id": "SEN_D65_041",
+    "related_sentence_id": "SEN_D65_011",
     "related_dialogue_id": "DLG_D65_03"
   },
   {
@@ -7389,7 +7389,7 @@
     "model_answer": "你應該要早點睡覺，不然明天會很累。",
     "model_pinyin": "Nǐ yīnggāi yào zǎo diǎn shuìjiào, bùrán míngtiān huì hěn lèi.",
     "model_translation_en": "You should go to bed early, otherwise you'll be very tired tomorrow.",
-    "related_sentence_id": "SEN_D65_043",
+    "related_sentence_id": "SEN_D65_013",
     "related_dialogue_id": "DLG_D65_01"
   },
   {
@@ -7422,7 +7422,7 @@
     "model_answer": "你不應該在圖書館裡大聲說話。",
     "model_pinyin": "Nǐ bù yīnggāi zài túshūguǎn lǐ dàshēng shuōhuà.",
     "model_translation_en": "You shouldn't speak loudly in the library.",
-    "related_sentence_id": "SEN_D65_049",
+    "related_sentence_id": "SEN_D65_018",
     "related_dialogue_id": "DLG_D65_01"
   },
   {
@@ -7488,7 +7488,7 @@
     "model_answer": "你應該早點睡覺。",
     "model_pinyin": "Nǐ yīnggāi zǎo diǎn shuìjiào.",
     "model_translation_en": "You should go to bed earlier.",
-    "related_sentence_id": "SEN_D65_061",
+    "related_sentence_id": "SEN_D65_001",
     "related_dialogue_id": "DLG_D65_01"
   },
   {
@@ -7499,7 +7499,7 @@
     "model_answer": "你不需要買那麼多東西。",
     "model_pinyin": "Nǐ bù xūyào mǎi nàme duō dōngxī.",
     "model_translation_en": "You don't need to buy so many things.",
-    "related_sentence_id": "SEN_D65_063",
+    "related_sentence_id": "SEN_D65_003",
     "related_dialogue_id": "DLG_D65_02"
   },
   {
@@ -7510,7 +7510,7 @@
     "model_answer": "你最好帶一把雨傘。",
     "model_pinyin": "Nǐ zuì hǎo dài yī bǎ yǔsǎn.",
     "model_translation_en": "You had better bring an umbrella.",
-    "related_sentence_id": "SEN_D65_065",
+    "related_sentence_id": "SEN_D65_005",
     "related_dialogue_id": "DLG_D65_03"
   },
   {
@@ -7532,7 +7532,7 @@
     "model_answer": "為了健康，你應該多運動。",
     "model_pinyin": "Wèile jiànkāng, nǐ yīnggāi duō yùndòng.",
     "model_translation_en": "For your health, you should exercise more.",
-    "related_sentence_id": "SEN_D65_069",
+    "related_sentence_id": "SEN_D65_008",
     "related_dialogue_id": "DLG_D65_02"
   },
   {
@@ -7708,7 +7708,7 @@
     "model_answer": "我常常在週末打籃球。",
     "model_pinyin": "Wǒ chángcháng zài zhōumò dǎ lánqiú.",
     "model_translation_en": "I often play basketball on weekends.",
-    "related_sentence_id": "SEN_D53_031",
+    "related_sentence_id": "SEN_D53_001",
     "related_dialogue_id": "DLG_D53_01"
   },
   {
@@ -7763,7 +7763,7 @@
     "model_answer": "我週末有時候會去打籃球。",
     "model_pinyin": "Wǒ zhōumò yǒu shíhou huì qù dǎ lánqiú.",
     "model_translation_en": "I sometimes go play basketball on weekends.",
-    "related_sentence_id": "SEN_D53_041",
+    "related_sentence_id": "SEN_D53_011",
     "related_dialogue_id": "DLG_D53_03"
   },
   {
@@ -7818,7 +7818,7 @@
     "model_answer": "我喜歡打籃球，也喜歡踢足球。",
     "model_pinyin": "Wǒ xǐhuān dǎ lánqiú, yě xǐhuān tī zúqiú.",
     "model_translation_en": "I like playing basketball, and I also like playing soccer.",
-    "related_sentence_id": "SEN_D53_051",
+    "related_sentence_id": "SEN_D53_021",
     "related_dialogue_id": "DLG_D53_02"
   },
   {
@@ -7862,7 +7862,7 @@
     "model_answer": "你喜歡養寵物嗎？我養了一隻貓。",
     "model_pinyin": "Nǐ xǐhuān yǎng chǒngwù ma? Wǒ yǎng le yī zhī māo.",
     "model_translation_en": "Do you like keeping pets? I have a cat.",
-    "related_sentence_id": "SEN_D53_059",
+    "related_sentence_id": "SEN_D53_030",
     "related_dialogue_id": "DLG_D53_03"
   },
   {
@@ -7873,7 +7873,7 @@
     "model_answer": "我常常在週末打籃球。",
     "model_pinyin": "Wǒ chángcháng zài zhōumò dǎ lánqiú.",
     "model_translation_en": "I often play basketball on weekends.",
-    "related_sentence_id": "SEN_D53_061",
+    "related_sentence_id": "SEN_D53_001",
     "related_dialogue_id": "DLG_D53_01"
   },
   {
@@ -8148,7 +8148,7 @@
     "model_answer": "雖然今天很冷，可是我還是想去公園散步。",
     "model_pinyin": "Suīrán jīntiān hěn lěng, kěshì wǒ háishì xiǎng qù gōngyuán sànbù.",
     "model_translation_en": "Although it's very cold today, I still want to go for a walk in the park.",
-    "related_sentence_id": "SEN_D67_041",
+    "related_sentence_id": "SEN_D67_011",
     "related_dialogue_id": "DLG_D67_03"
   },
   {
@@ -8159,7 +8159,7 @@
     "model_answer": "他雖然很忙，可是每天還是會打電話給媽媽。",
     "model_pinyin": "Tā suīrán hěn máng, kěshì měitiān háishì huì dǎ diànhuà gěi māma.",
     "model_translation_en": "Although he is very busy, he still calls his mother every day.",
-    "related_sentence_id": "SEN_D67_043",
+    "related_sentence_id": "SEN_D67_013",
     "related_dialogue_id": "DLG_D67_01"
   },
   {
@@ -8170,7 +8170,7 @@
     "model_answer": "我喜歡喝咖啡，可是我更喜歡喝茶。",
     "model_pinyin": "Wǒ xǐhuān hē kāfēi, kěshì wǒ gèng xǐhuān hē chá.",
     "model_translation_en": "I like drinking coffee, but I prefer drinking tea.",
-    "related_sentence_id": "SEN_D67_045",
+    "related_sentence_id": "SEN_D67_014",
     "related_dialogue_id": "DLG_D67_02"
   },
   {
@@ -8203,7 +8203,7 @@
     "model_answer": "雖然今天很忙，我還是去運動了。",
     "model_pinyin": "Suīrán jīntiān hěn máng, wǒ háishì qù yùndòng le.",
     "model_translation_en": "Although I was very busy today, I still went to exercise.",
-    "related_sentence_id": "SEN_D67_051",
+    "related_sentence_id": "SEN_D67_021",
     "related_dialogue_id": "DLG_D67_02"
   },
   {
@@ -8258,7 +8258,7 @@
     "model_answer": "雖然今天很冷，但是我還是想去公園散步。",
     "model_pinyin": "Suīrán jīntiān hěn lěng, dànshì wǒ háishì xiǎng qù gōngyuán sànbù.",
     "model_translation_en": "Although it's very cold today, I still want to go for a walk in the park.",
-    "related_sentence_id": "SEN_D67_061",
+    "related_sentence_id": "SEN_D67_001",
     "related_dialogue_id": "DLG_D67_01"
   },
   {
@@ -8269,7 +8269,7 @@
     "model_answer": "雖然他工作很忙，但是他每天都會打電話給媽媽。",
     "model_pinyin": "Suīrán tā gōngzuò hěn máng, dànshì tā měitiān dōu huì dǎ diànhuà gěi māma.",
     "model_translation_en": "Although he is very busy with work, he calls his mother every day.",
-    "related_sentence_id": "SEN_D67_063",
+    "related_sentence_id": "SEN_D67_003",
     "related_dialogue_id": "DLG_D67_02"
   },
   {
@@ -8280,7 +8280,7 @@
     "model_answer": "雖然他不太會說中文，但是他很努力在學。",
     "model_pinyin": "Suīrán tā bù tài huì shuō zhōngwén, dànshì tā hěn nǔlì zài xué.",
     "model_translation_en": "Although he doesn't speak Chinese very well, he is studying very hard.",
-    "related_sentence_id": "SEN_D67_065",
+    "related_sentence_id": "SEN_D67_007",
     "related_dialogue_id": "DLG_D67_03"
   },
   {
@@ -8291,7 +8291,7 @@
     "model_answer": "雖然這家店的咖啡比較貴，但是品質很好。",
     "model_pinyin": "Suīrán zhè jiā diàn de kāfēi bǐjiào guì, dànshì pǐnzhì hěn hǎo.",
     "model_translation_en": "Although the coffee at this shop is more expensive, the quality is very good.",
-    "related_sentence_id": "SEN_D67_067",
+    "related_sentence_id": "SEN_D67_036",
     "related_dialogue_id": "DLG_D67_01"
   },
   {
@@ -8423,7 +8423,7 @@
     "model_answer": "請你走進來。",
     "model_pinyin": "Qǐng nǐ zǒu jìnlái.",
     "model_translation_en": "Please walk in.",
-    "related_sentence_id": "SEN_D68_021",
+    "related_sentence_id": "SEN_D68_001",
     "related_dialogue_id": "DLG_D68_02"
   },
   {
@@ -8434,7 +8434,7 @@
     "model_answer": "貓從窗戶跳下來。",
     "model_pinyin": "Māo cóng chuānghù tiào xiàlái.",
     "model_translation_en": "The cat jumped down from the window.",
-    "related_sentence_id": "SEN_D68_023",
+    "related_sentence_id": "SEN_D68_004",
     "related_dialogue_id": "DLG_D68_03"
   },
   {
@@ -8478,7 +8478,7 @@
     "model_answer": "請你走進來。",
     "model_pinyin": "Qǐng nǐ zǒu jìnlái.",
     "model_translation_en": "Please walk in.",
-    "related_sentence_id": "SEN_D68_031",
+    "related_sentence_id": "SEN_D68_001",
     "related_dialogue_id": "DLG_D68_01"
   },
   {
@@ -8489,7 +8489,7 @@
     "model_answer": "我們把書拿出來。",
     "model_pinyin": "Wǒmen bǎ shū ná chūlái.",
     "model_translation_en": "We take the book out.",
-    "related_sentence_id": "SEN_D68_033",
+    "related_sentence_id": "SEN_D68_003",
     "related_dialogue_id": "DLG_D68_02"
   },
   {
@@ -8511,7 +8511,7 @@
     "model_answer": "我們把東西放進去。",
     "model_pinyin": "Wǒmen bǎ dōngxi fàng jìnqù.",
     "model_translation_en": "We put the things in.",
-    "related_sentence_id": "SEN_D68_037",
+    "related_sentence_id": "SEN_D68_007",
     "related_dialogue_id": "DLG_D68_01"
   },
   {
@@ -8533,7 +8533,7 @@
     "model_answer": "請你走進來。",
     "model_pinyin": "Qǐng nǐ zǒu jìnlái.",
     "model_translation_en": "Please walk in.",
-    "related_sentence_id": "SEN_D68_041",
+    "related_sentence_id": "SEN_D68_001",
     "related_dialogue_id": "DLG_D68_03"
   },
   {
@@ -8588,7 +8588,7 @@
     "model_answer": "請你走進來。",
     "model_pinyin": "Qǐng nǐ zǒu jìnlái.",
     "model_translation_en": "Please walk in.",
-    "related_sentence_id": "SEN_D68_051",
+    "related_sentence_id": "SEN_D68_001",
     "related_dialogue_id": "DLG_D68_02"
   },
   {
@@ -8599,7 +8599,7 @@
     "model_answer": "我們一起爬上去。",
     "model_pinyin": "Wǒmen yīqǐ pá shàngqù.",
     "model_translation_en": "Let's climb up together.",
-    "related_sentence_id": "SEN_D68_053",
+    "related_sentence_id": "SEN_D68_030",
     "related_dialogue_id": "DLG_D68_03"
   },
   {
@@ -8610,7 +8610,7 @@
     "model_answer": "請把書拿出來。",
     "model_pinyin": "Qǐng bǎ shū ná chūlái.",
     "model_translation_en": "Please take the book out.",
-    "related_sentence_id": "SEN_D68_055",
+    "related_sentence_id": "SEN_D68_044",
     "related_dialogue_id": "DLG_D68_01"
   },
   {
@@ -8643,7 +8643,7 @@
     "model_answer": "請你走進來。",
     "model_pinyin": "Qǐng nǐ zǒu jìnlái.",
     "model_translation_en": "Please walk in.",
-    "related_sentence_id": "SEN_D68_061",
+    "related_sentence_id": "SEN_D68_001",
     "related_dialogue_id": "DLG_D68_01"
   },
   {
@@ -8665,7 +8665,7 @@
     "model_answer": "貓跳下來了。",
     "model_pinyin": "Māo tiào xiàlái le.",
     "model_translation_en": "The cat jumped down.",
-    "related_sentence_id": "SEN_D68_065",
+    "related_sentence_id": "SEN_D68_034",
     "related_dialogue_id": "DLG_D68_03"
   },
   {
@@ -8973,7 +8973,7 @@
     "model_answer": "請你把那本書拿來給我。",
     "model_pinyin": "Qǐng nǐ bǎ nà běn shū ná lái gěi wǒ.",
     "model_translation_en": "Please bring that book to me.",
-    "related_sentence_id": "SEN_D69_051",
+    "related_sentence_id": "SEN_D69_021",
     "related_dialogue_id": "DLG_D69_02"
   },
   {
@@ -9028,7 +9028,7 @@
     "model_answer": "請你把這本書帶來學校。",
     "model_pinyin": "Qǐng nǐ bǎ zhè běn shū dài lái xuéxiào.",
     "model_translation_en": "Please bring this book to school.",
-    "related_sentence_id": "SEN_D69_061",
+    "related_sentence_id": "SEN_D69_031",
     "related_dialogue_id": "DLG_D69_01"
   },
   {
@@ -9358,7 +9358,7 @@
     "model_answer": "假如想要取消預約，必須提前一天通知。",
     "model_pinyin": "Jiǎrú xiǎng yào qǔxiāo yùyuē, bìxū tíqián yī tiān tōngzhī.",
     "model_translation_en": "If you want to cancel the appointment, you must notify one day in advance.",
-    "related_sentence_id": "SEN_D70_051",
+    "related_sentence_id": "SEN_D70_021",
     "related_dialogue_id": "DLG_D70_02"
   },
   {
@@ -9369,7 +9369,7 @@
     "model_answer": "我們想要取消預約，可是需要先確認退貨的條件。",
     "model_pinyin": "Wǒmen xiǎng yào qǔxiāo yùyuē, kěshì xūyào xiān quèrèn tuìhuò de tiáojiàn.",
     "model_translation_en": "We want to cancel the appointment, but we need to confirm the return conditions first.",
-    "related_sentence_id": "SEN_D70_053",
+    "related_sentence_id": "SEN_D70_023",
     "related_dialogue_id": "DLG_D70_03"
   },
   {
@@ -9413,7 +9413,7 @@
     "model_answer": "假如手機故障的話，我就不能處理訂單了。",
     "model_pinyin": "Jiǎrú shǒujī gùzhàng dehuà, wǒ jiù bùnéng chǔlǐ dìngdān le.",
     "model_translation_en": "If the phone breaks down, I won't be able to process the order.",
-    "related_sentence_id": "SEN_D70_061",
+    "related_sentence_id": "SEN_D70_031",
     "related_dialogue_id": "DLG_D70_01"
   },
   {
@@ -9435,7 +9435,7 @@
     "model_answer": "假如你經過商店的話，就幫我買一杯咖啡。",
     "model_pinyin": "Jiǎrú nǐ jīngguò shāngdiàn dehuà, jiù bāng wǒ mǎi yī bēi kāfēi.",
     "model_translation_en": "If you pass by the store, buy me a cup of coffee.",
-    "related_sentence_id": "SEN_D70_065",
+    "related_sentence_id": "SEN_D70_006",
     "related_dialogue_id": "DLG_D70_03"
   },
   {
@@ -9798,7 +9798,7 @@
     "model_answer": "我同事在銀行工作，他每天都很忙。",
     "model_pinyin": "Wǒ tóngshì zài yínháng gōngzuò, tā měitiān dōu hěn máng.",
     "model_translation_en": "My colleague works at a bank, and he is very busy every day.",
-    "related_sentence_id": "SEN_D71_061",
+    "related_sentence_id": "SEN_D71_031",
     "related_dialogue_id": "DLG_D71_01"
   },
   {
@@ -9809,7 +9809,7 @@
     "model_answer": "你在哪個公司上班？",
     "model_pinyin": "Nǐ zài nǎge gōngsī shàngbān?",
     "model_translation_en": "Which company do you work at?",
-    "related_sentence_id": "SEN_D71_063",
+    "related_sentence_id": "SEN_D71_032",
     "related_dialogue_id": "DLG_D71_02"
   },
   {
@@ -10040,7 +10040,7 @@
     "model_answer": "我們要討論完這個提案。",
     "model_pinyin": "Wǒmen yào tǎolùn wán zhège tí'àn.",
     "model_translation_en": "We have to finish discussing this proposal.",
-    "related_sentence_id": "SEN_D72_035",
+    "related_sentence_id": "SEN_D72_005",
     "related_dialogue_id": "DLG_D72_03"
   },
   {
@@ -10128,7 +10128,7 @@
     "model_answer": "我還沒做完今天的任務。",
     "model_pinyin": "Wǒ hái méi zuò wán jīntiān de rènwu.",
     "model_translation_en": "I haven't finished today's task yet.",
-    "related_sentence_id": "SEN_D72_051",
+    "related_sentence_id": "SEN_D72_021",
     "related_dialogue_id": "DLG_D72_02"
   },
   {
@@ -10183,7 +10183,7 @@
     "model_answer": "我今天要完成這個任務。",
     "model_pinyin": "Wǒ jīntiān yào wánchéng zhège rènwù.",
     "model_translation_en": "I must finish this task today.",
-    "related_sentence_id": "SEN_D72_061",
+    "related_sentence_id": "SEN_D72_001",
     "related_dialogue_id": "DLG_D72_01"
   },
   {
@@ -10403,7 +10403,7 @@
     "model_answer": "我覺得這家餐廳的牛肉麵很好吃。",
     "model_pinyin": "Wǒ juéde zhè jiā cāntīng de niúròumiàn hěn hǎochī.",
     "model_translation_en": "I think the beef noodles at this restaurant are delicious.",
-    "related_sentence_id": "SEN_D73_031",
+    "related_sentence_id": "SEN_D73_001",
     "related_dialogue_id": "DLG_D73_01"
   },
   {
@@ -10414,7 +10414,7 @@
     "model_answer": "我認為他的意見不太對。",
     "model_pinyin": "Wǒ rènwéi tā de yìjiàn bú tài duì.",
     "model_translation_en": "I think his opinion is not quite right.",
-    "related_sentence_id": "SEN_D73_033",
+    "related_sentence_id": "SEN_D73_003",
     "related_dialogue_id": "DLG_D73_02"
   },
   {
@@ -10513,7 +10513,7 @@
     "model_answer": "我覺得這家餐廳的菜不一定好吃。",
     "model_pinyin": "Wǒ juéde zhè jiā cāntīng de cài bù yīdìng hǎochī.",
     "model_translation_en": "I think the food at this restaurant isn't necessarily good.",
-    "related_sentence_id": "SEN_D73_051",
+    "related_sentence_id": "SEN_D73_021",
     "related_dialogue_id": "DLG_D73_02"
   },
   {
@@ -10535,7 +10535,7 @@
     "model_answer": "我相信你，可是別人不一定相信。",
     "model_pinyin": "Wǒ xiāngxìn nǐ, kěshì biérén bù yīdìng xiāngxìn.",
     "model_translation_en": "I believe you, but others don't necessarily believe.",
-    "related_sentence_id": "SEN_D73_055",
+    "related_sentence_id": "SEN_D73_026",
     "related_dialogue_id": "DLG_D73_01"
   },
   {
@@ -10568,7 +10568,7 @@
     "model_answer": "我覺得這家餐廳的牛肉麵很好吃。",
     "model_pinyin": "Wǒ juéde zhè jiā cāntīng de niúròumiàn hěn hǎochī.",
     "model_translation_en": "I think the beef noodles at this restaurant are delicious.",
-    "related_sentence_id": "SEN_D73_061",
+    "related_sentence_id": "SEN_D73_001",
     "related_dialogue_id": "DLG_D73_01"
   },
   {
@@ -10579,7 +10579,7 @@
     "model_answer": "我認為他的意見不太對。",
     "model_pinyin": "Wǒ rènwéi tā de yìjiàn bù tài duì.",
     "model_translation_en": "I think his opinion is not quite right.",
-    "related_sentence_id": "SEN_D73_063",
+    "related_sentence_id": "SEN_D73_003",
     "related_dialogue_id": "DLG_D73_02"
   },
   {
@@ -10601,7 +10601,7 @@
     "model_answer": "你覺得這件衣服的顏色好看嗎？",
     "model_pinyin": "Nǐ juéde zhè jiàn yīfu de yánsè hǎokàn ma?",
     "model_translation_en": "Do you think the color of this piece of clothing looks good?",
-    "related_sentence_id": "SEN_D73_067",
+    "related_sentence_id": "SEN_D73_007",
     "related_dialogue_id": "DLG_D73_01"
   },
   {
@@ -10788,7 +10788,7 @@
     "model_answer": "因為今天很冷，所以我穿外套。",
     "model_pinyin": "Yīnwèi jīntiān hěn lěng, suǒyǐ wǒ chuān wàitào.",
     "model_translation_en": "Because it's very cold today, I wear a jacket.",
-    "related_sentence_id": "SEN_D74_031",
+    "related_sentence_id": "SEN_D74_001",
     "related_dialogue_id": "DLG_D74_01"
   },
   {
@@ -10898,7 +10898,7 @@
     "model_answer": "他今天沒來上班，所以一定是生病了。",
     "model_pinyin": "Tā jīntiān méi lái shàngbān, suǒyǐ yīdìng shì shēngbìng le.",
     "model_translation_en": "He didn't come to work today, so he must be sick.",
-    "related_sentence_id": "SEN_D74_051",
+    "related_sentence_id": "SEN_D74_021",
     "related_dialogue_id": "DLG_D74_02"
   },
   {
@@ -10909,7 +10909,7 @@
     "model_answer": "他喜歡安靜的地方，所以不喜歡去熱鬧的夜市。",
     "model_pinyin": "Tā xǐhuān ānjìng de dìfang, suǒyǐ bù xǐhuān qù rènao de yèshì.",
     "model_translation_en": "He likes quiet places, so he doesn't like going to lively night markets.",
-    "related_sentence_id": "SEN_D74_053",
+    "related_sentence_id": "SEN_D74_023",
     "related_dialogue_id": "DLG_D74_03"
   },
   {
@@ -11503,7 +11503,7 @@
     "model_answer": "我昨天早上出門了以後，覺得很開心。",
     "model_pinyin": "Wǒ zuótiān zǎoshang chūmén le yǐhòu, juéde hěn kāixīn.",
     "model_translation_en": "After I went out yesterday morning, I felt very happy.",
-    "related_sentence_id": "SEN_D76_051",
+    "related_sentence_id": "SEN_D76_021",
     "related_dialogue_id": "DLG_D76_02"
   },
   {
@@ -12328,7 +12328,7 @@
     "model_answer": "那個，其實我昨天有去那家餐廳。",
     "model_pinyin": "Nàge, qíshí wǒ zuótiān yǒu qù nà jiā cāntīng.",
     "model_translation_en": "Well, actually I went to that restaurant yesterday.",
-    "related_sentence_id": "SEN_D78_061",
+    "related_sentence_id": "SEN_D78_001",
     "related_dialogue_id": "DLG_D78_01"
   },
   {
@@ -12339,7 +12339,7 @@
     "model_answer": "那個，不好意思，請問洗手間在哪裡？",
     "model_pinyin": "Nàge, bùhǎoyìsi, qǐngwèn xǐshǒujiān zài nǎlǐ?",
     "model_translation_en": "Um, excuse me, where is the restroom?",
-    "related_sentence_id": "SEN_D78_063",
+    "related_sentence_id": "SEN_D78_006",
     "related_dialogue_id": "DLG_D78_02"
   },
   {
@@ -12361,7 +12361,7 @@
     "model_answer": "其實，那個餐廳的牛肉麵很好吃。",
     "model_pinyin": "Qíshí, nàge cāntīng de niúròumiàn hěn hǎochī.",
     "model_translation_en": "Actually, the beef noodles at that restaurant are delicious.",
-    "related_sentence_id": "SEN_D78_067",
+    "related_sentence_id": "SEN_D78_033",
     "related_dialogue_id": "DLG_D78_01"
   },
   {
@@ -12603,7 +12603,7 @@
     "model_answer": "請你說慢一點，我聽不懂你的意思。",
     "model_pinyin": "Qǐng nǐ shuō màn yīdiǎn, wǒ tīng bù dǒng nǐ de yìsi.",
     "model_translation_en": "Please speak more slowly; I don't understand what you mean.",
-    "related_sentence_id": "SEN_D79_041",
+    "related_sentence_id": "SEN_D79_011",
     "related_dialogue_id": "DLG_D79_03"
   },
   {
@@ -12614,7 +12614,7 @@
     "model_answer": "原來是這樣，我以為你說錯了，其實沒有。",
     "model_pinyin": "Yuánlái shì zhèyàng, wǒ yǐwéi nǐ shuō cuò le, qíshí méiyǒu.",
     "model_translation_en": "So that's how it is. I thought you made a mistake, but actually you didn't.",
-    "related_sentence_id": "SEN_D79_043",
+    "related_sentence_id": "SEN_D79_013",
     "related_dialogue_id": "DLG_D79_01"
   },
   {
@@ -12658,7 +12658,7 @@
     "model_answer": "你是不是說錯的意思？",
     "model_pinyin": "Nǐ shì bù shì shuō cuò de yìsi?",
     "model_translation_en": "Is it that you said it wrong?",
-    "related_sentence_id": "SEN_D79_051",
+    "related_sentence_id": "SEN_D79_021",
     "related_dialogue_id": "DLG_D79_02"
   },
   {
@@ -12669,7 +12669,7 @@
     "model_answer": "你是不是以為我生氣的？",
     "model_pinyin": "Nǐ shì bù shì yǐwéi wǒ shēngqì de?",
     "model_translation_en": "Is it that you thought I was angry?",
-    "related_sentence_id": "SEN_D79_053",
+    "related_sentence_id": "SEN_D79_023",
     "related_dialogue_id": "DLG_D79_03"
   },
   {
@@ -12713,7 +12713,7 @@
     "model_answer": "請你再說一次，我沒有聽懂你的意思。",
     "model_pinyin": "Qǐng nǐ zài shuō yī cì, wǒ méiyǒu tīng dǒng nǐ de yìsi.",
     "model_translation_en": "Please say it again, I didn't understand what you meant.",
-    "related_sentence_id": "SEN_D79_061",
+    "related_sentence_id": "SEN_D79_031",
     "related_dialogue_id": "DLG_D79_01"
   },
   {
@@ -13098,7 +13098,7 @@
     "model_answer": "請注意這個公告的內容。",
     "model_pinyin": "Qǐng zhùyì zhège gōnggào de nèiróng.",
     "model_translation_en": "Please pay attention to the content of this notice.",
-    "related_sentence_id": "SEN_D80_061",
+    "related_sentence_id": "SEN_D80_001",
     "related_dialogue_id": "DLG_D80_01"
   },
   {
@@ -13109,7 +13109,7 @@
     "model_answer": "請在表格上簽名確認。",
     "model_pinyin": "Qǐng zài biǎogé shàng qiānmíng quèrèn.",
     "model_translation_en": "Please sign the form to confirm.",
-    "related_sentence_id": "SEN_D80_063",
+    "related_sentence_id": "SEN_D80_003",
     "related_dialogue_id": "DLG_D80_02"
   },
   {
@@ -13318,7 +13318,7 @@
     "model_answer": "喂，請問王小姐在嗎？",
     "model_pinyin": "Wèi, qǐngwèn Wáng xiǎojiě zài ma?",
     "model_translation_en": "Hello, may I ask if Miss Wang is there?",
-    "related_sentence_id": "SEN_D81_031",
+    "related_sentence_id": "SEN_D81_001",
     "related_dialogue_id": "DLG_D81_01"
   },
   {
@@ -13395,7 +13395,7 @@
     "model_answer": "我想找王小姐，請問她在嗎？",
     "model_pinyin": "Wǒ xiǎng zhǎo Wáng xiǎojiě, qǐngwèn tā zài ma?",
     "model_translation_en": "I'd like to speak with Miss Wang. Is she available?",
-    "related_sentence_id": "SEN_D81_045",
+    "related_sentence_id": "SEN_D81_014",
     "related_dialogue_id": "DLG_D81_02"
   },
   {
@@ -13428,7 +13428,7 @@
     "model_answer": "喂，請問是診所嗎？",
     "model_pinyin": "Wèi, qǐngwèn shì zhěnsuǒ ma?",
     "model_translation_en": "Hello, is this the clinic?",
-    "related_sentence_id": "SEN_D81_051",
+    "related_sentence_id": "SEN_D81_021",
     "related_dialogue_id": "DLG_D81_02"
   },
   {
@@ -13450,7 +13450,7 @@
     "model_answer": "喂，我找王小姐，她在嗎？",
     "model_pinyin": "Wèi, wǒ zhǎo Wáng xiǎojiě, tā zài ma?",
     "model_translation_en": "Hello, I'm looking for Miss Wang. Is she there?",
-    "related_sentence_id": "SEN_D81_055",
+    "related_sentence_id": "SEN_D81_029",
     "related_dialogue_id": "DLG_D81_01"
   },
   {
@@ -13483,7 +13483,7 @@
     "model_answer": "喂，請問王小姐在嗎？",
     "model_pinyin": "Wèi, qǐngwèn Wáng xiǎojiě zài ma?",
     "model_translation_en": "Hello, may I ask if Miss Wang is there?",
-    "related_sentence_id": "SEN_D81_061",
+    "related_sentence_id": "SEN_D81_001",
     "related_dialogue_id": "DLG_D81_01"
   },
   {
@@ -13593,7 +13593,7 @@
     "model_answer": "你收到我的訊息了嗎？",
     "model_pinyin": "Nǐ shōudào wǒ de xùnxī le ma?",
     "model_translation_en": "Did you receive my message?",
-    "related_sentence_id": "SEN_D82_011",
+    "related_sentence_id": "SEN_D82_002",
     "related_dialogue_id": "DLG_D82_03"
   },
   {
@@ -13626,7 +13626,7 @@
     "model_answer": "你等一下有空嗎？",
     "model_pinyin": "Nǐ děng yīxià yǒu kòng ma?",
     "model_translation_en": "Are you free in a moment?",
-    "related_sentence_id": "SEN_D82_017",
+    "related_sentence_id": "SEN_D82_012",
     "related_dialogue_id": "DLG_D82_03"
   },
   {
@@ -13637,7 +13637,7 @@
     "model_answer": "你確定明天可以見面嗎？",
     "model_pinyin": "Nǐ quèdìng míngtiān kěyǐ jiànmiàn ma?",
     "model_translation_en": "Are you sure we can meet tomorrow?",
-    "related_sentence_id": "SEN_D82_019",
+    "related_sentence_id": "SEN_D82_014",
     "related_dialogue_id": "DLG_D82_01"
   },
   {
@@ -13758,7 +13758,7 @@
     "model_answer": "你收到我的訊息了嗎？",
     "model_pinyin": "Nǐ shōu dào wǒ de xùn xí le ma?",
     "model_translation_en": "Did you receive my message?",
-    "related_sentence_id": "SEN_D82_041",
+    "related_sentence_id": "SEN_D82_002",
     "related_dialogue_id": "DLG_D82_03"
   },
   {
@@ -13769,7 +13769,7 @@
     "model_answer": "我們約三點半見面好嗎？",
     "model_pinyin": "Wǒ men yuē sān diǎn bàn jiàn miàn hǎo ma?",
     "model_translation_en": "Shall we meet at 3:30?",
-    "related_sentence_id": "SEN_D82_043",
+    "related_sentence_id": "SEN_D82_013",
     "related_dialogue_id": "DLG_D82_01"
   },
   {
@@ -13791,7 +13791,7 @@
     "model_answer": "你現在方便打電話嗎？",
     "model_pinyin": "Nǐ xiàn zài fāng biàn dǎ diàn huà ma?",
     "model_translation_en": "Is it convenient for you to call now?",
-    "related_sentence_id": "SEN_D82_047",
+    "related_sentence_id": "SEN_D82_015",
     "related_dialogue_id": "DLG_D82_03"
   },
   {
@@ -13802,7 +13802,7 @@
     "model_answer": "你等一下有空嗎？",
     "model_pinyin": "Nǐ děng yī xià yǒu kòng ma?",
     "model_translation_en": "Are you free in a moment?",
-    "related_sentence_id": "SEN_D82_049",
+    "related_sentence_id": "SEN_D82_012",
     "related_dialogue_id": "DLG_D82_01"
   },
   {
@@ -13868,7 +13868,7 @@
     "model_answer": "我傳訊息給你了。",
     "model_pinyin": "Wǒ chuán xùnxī gěi nǐ le.",
     "model_translation_en": "I sent you a message.",
-    "related_sentence_id": "SEN_D82_061",
+    "related_sentence_id": "SEN_D82_001",
     "related_dialogue_id": "DLG_D82_01"
   },
   {
@@ -13879,7 +13879,7 @@
     "model_answer": "他回我訊息了。",
     "model_pinyin": "Tā huí wǒ xùnxī le.",
     "model_translation_en": "He replied to my message.",
-    "related_sentence_id": "SEN_D82_063",
+    "related_sentence_id": "SEN_D82_003",
     "related_dialogue_id": "DLG_D82_02"
   },
   {
@@ -13890,7 +13890,7 @@
     "model_answer": "我們約好時間了。",
     "model_pinyin": "Wǒmen yuē hǎo shíjiān le.",
     "model_translation_en": "We agreed on a time.",
-    "related_sentence_id": "SEN_D82_065",
+    "related_sentence_id": "SEN_D82_005",
     "related_dialogue_id": "DLG_D82_03"
   },
   {
@@ -13912,7 +13912,7 @@
     "model_answer": "他遲到了。",
     "model_pinyin": "Tā chídào le.",
     "model_translation_en": "He was late.",
-    "related_sentence_id": "SEN_D82_069",
+    "related_sentence_id": "SEN_D82_008",
     "related_dialogue_id": "DLG_D82_02"
   },
   {
@@ -14110,7 +14110,7 @@
     "model_answer": "提早出發不如準時到來得重要。",
     "model_pinyin": "Tízǎo chūfā bùrú zhǔnshí dào lái de zhòngyào.",
     "model_translation_en": "Leaving early is not as important as arriving on time.",
-    "related_sentence_id": "SEN_D83_035",
+    "related_sentence_id": "SEN_D83_005",
     "related_dialogue_id": "DLG_D83_03"
   },
   {
@@ -14121,7 +14121,7 @@
     "model_answer": "轉車不如直達來得方便。",
     "model_pinyin": "Zhuǎn chē bùrú zhídá lái de fāngbiàn.",
     "model_translation_en": "Transferring is not as convenient as going direct.",
-    "related_sentence_id": "SEN_D83_037",
+    "related_sentence_id": "SEN_D83_007",
     "related_dialogue_id": "DLG_D83_01"
   },
   {
@@ -14253,7 +14253,7 @@
     "model_answer": "這家餐廳的氣氛不如那家來得安靜。",
     "model_pinyin": "Zhè jiā cāntīng de qìfēn bùrú nà jiā lái de ānjìng.",
     "model_translation_en": "The atmosphere at this restaurant is not as quiet as that one.",
-    "related_sentence_id": "SEN_D83_061",
+    "related_sentence_id": "SEN_D83_031",
     "related_dialogue_id": "DLG_D83_01"
   },
   {
@@ -14275,7 +14275,7 @@
     "model_answer": "提早出發不如準時到來得重要。",
     "model_pinyin": "Tízǎo chūfā bùrú zhǔnshí dào lái de zhòngyào.",
     "model_translation_en": "Leaving early is not as important as arriving on time.",
-    "related_sentence_id": "SEN_D83_065",
+    "related_sentence_id": "SEN_D83_005",
     "related_dialogue_id": "DLG_D83_03"
   },
   {
@@ -14473,7 +14473,7 @@
     "model_answer": "你來台灣多久了？",
     "model_pinyin": "Nǐ lái Táiwān duō jiǔ le?",
     "model_translation_en": "How long have you been in Taiwan?",
-    "related_sentence_id": "SEN_D84_031",
+    "related_sentence_id": "SEN_D84_001",
     "related_dialogue_id": "DLG_D84_01"
   },
   {
@@ -14528,7 +14528,7 @@
     "model_answer": "我為了學中文來台灣。",
     "model_pinyin": "Wǒ wèile xué Zhōngwén lái Táiwān.",
     "model_translation_en": "I came to Taiwan to learn Chinese.",
-    "related_sentence_id": "SEN_D84_041",
+    "related_sentence_id": "SEN_D84_011",
     "related_dialogue_id": "DLG_D84_03"
   },
   {
@@ -14539,7 +14539,7 @@
     "model_answer": "她為了留學來台灣。",
     "model_pinyin": "Tā wèile liúxué lái Táiwān.",
     "model_translation_en": "She came to Taiwan to study abroad.",
-    "related_sentence_id": "SEN_D84_043",
+    "related_sentence_id": "SEN_D84_013",
     "related_dialogue_id": "DLG_D84_01"
   },
   {
@@ -14550,7 +14550,7 @@
     "model_answer": "他為了當醫生來台灣上課。",
     "model_pinyin": "Tā wèile dāng yīshēng lái Táiwān shàngkè.",
     "model_translation_en": "He came to Taiwan to take classes to become a doctor.",
-    "related_sentence_id": "SEN_D84_045",
+    "related_sentence_id": "SEN_D84_015",
     "related_dialogue_id": "DLG_D84_02"
   },
   {
@@ -14583,7 +14583,7 @@
     "model_answer": "我學中文的目標是為了將來在台灣工作。",
     "model_pinyin": "Wǒ xué Zhōngwén de mùbiāo shì wèile jiānglái zài Táiwān gōngzuò.",
     "model_translation_en": "My goal in learning Chinese is to work in Taiwan in the future.",
-    "related_sentence_id": "SEN_D84_051",
+    "related_sentence_id": "SEN_D84_021",
     "related_dialogue_id": "DLG_D84_02"
   },
   {
@@ -14638,7 +14638,7 @@
     "model_answer": "我為了學中文來台灣。",
     "model_pinyin": "Wǒ wèile xué Zhōngwén lái Táiwān.",
     "model_translation_en": "I came to Taiwan to learn Chinese.",
-    "related_sentence_id": "SEN_D84_071",
+    "related_sentence_id": "SEN_D84_011",
     "related_dialogue_id": "DLG_D84_01"
   },
   {
@@ -14902,7 +14902,7 @@
     "model_answer": "對了，你最近忙嗎？",
     "model_pinyin": "Duìle, nǐ zuìjìn máng ma?",
     "model_translation_en": "By the way, have you been busy lately?",
-    "related_sentence_id": "SEN_D85_039",
+    "related_sentence_id": "SEN_D85_001",
     "related_dialogue_id": "DLG_D85_02"
   },
   {
@@ -14913,7 +14913,7 @@
     "model_answer": "我最近很忙，你呢？",
     "model_pinyin": "Wǒ zuìjìn hěn máng, nǐ ne?",
     "model_translation_en": "I've been very busy lately, and you?",
-    "related_sentence_id": "SEN_D85_041",
+    "related_sentence_id": "SEN_D85_012",
     "related_dialogue_id": "DLG_D85_03"
   },
   {
@@ -14924,7 +14924,7 @@
     "model_answer": "我喜歡看電影，你呢？",
     "model_pinyin": "Wǒ xǐhuān kàn diànyǐng, nǐ ne?",
     "model_translation_en": "I like watching movies, and you?",
-    "related_sentence_id": "SEN_D85_043",
+    "related_sentence_id": "SEN_D85_016",
     "related_dialogue_id": "DLG_D85_01"
   },
   {
@@ -15034,7 +15034,7 @@
     "model_answer": "對了，你週末打算做什麼？",
     "model_pinyin": "Duì le, nǐ zhōumò dǎsuàn zuò shénme?",
     "model_translation_en": "By the way, what are you planning to do this weekend?",
-    "related_sentence_id": "SEN_D85_063",
+    "related_sentence_id": "SEN_D85_003",
     "related_dialogue_id": "DLG_D85_02"
   },
   {
@@ -15188,7 +15188,7 @@
     "model_answer": "請問，這附近有便利商店嗎？我想買東西。",
     "model_pinyin": "Qǐngwèn, zhè fùjìn yǒu biànlì shāngdiàn ma? Wǒ xiǎng mǎi dōngxi.",
     "model_translation_en": "Excuse me, is there a convenience store nearby? I want to buy something.",
-    "related_sentence_id": "SEN_D86_021",
+    "related_sentence_id": "SEN_D86_011",
     "related_dialogue_id": "DLG_D86_02"
   },
   {
@@ -15254,7 +15254,7 @@
     "model_answer": "一直走，然後在路口右轉。",
     "model_pinyin": "Yīzhí zǒu, ránhòu zài lùkǒu yòu zhuǎn.",
     "model_translation_en": "Go straight, then turn right at the intersection.",
-    "related_sentence_id": "SEN_D86_033",
+    "related_sentence_id": "SEN_D86_002",
     "related_dialogue_id": "DLG_D86_02"
   },
   {
@@ -15265,7 +15265,7 @@
     "model_answer": "可以算便宜一點嗎？",
     "model_pinyin": "Kěyǐ suàn piányí yīdiǎn ma?",
     "model_translation_en": "Can you make it a little cheaper?",
-    "related_sentence_id": "SEN_D86_035",
+    "related_sentence_id": "SEN_D86_004",
     "related_dialogue_id": "DLG_D86_03"
   },
   {
@@ -15276,7 +15276,7 @@
     "model_answer": "我住在這附近，我們可以一起聊天。",
     "model_pinyin": "Wǒ zhù zài zhè fùjìn, wǒmen kěyǐ yīqǐ liáotiān.",
     "model_translation_en": "I live near here, we can chat together.",
-    "related_sentence_id": "SEN_D86_037",
+    "related_sentence_id": "SEN_D86_006",
     "related_dialogue_id": "DLG_D86_01"
   },
   {
@@ -15298,7 +15298,7 @@
     "model_answer": "請問，這附近有便利商店嗎？我想買東西。",
     "model_pinyin": "Qǐngwèn, zhè fùjìn yǒu biànlì shāngdiàn ma? Wǒ xiǎng mǎi dōngxi.",
     "model_translation_en": "Excuse me, is there a convenience store nearby? I want to buy something.",
-    "related_sentence_id": "SEN_D86_041",
+    "related_sentence_id": "SEN_D86_011",
     "related_dialogue_id": "DLG_D86_03"
   },
   {
@@ -15353,7 +15353,7 @@
     "model_answer": "請問，車站怎麼走？",
     "model_pinyin": "Qǐngwèn, chēzhàn zěnme zǒu?",
     "model_translation_en": "Excuse me, how do I get to the station?",
-    "related_sentence_id": "SEN_D86_051",
+    "related_sentence_id": "SEN_D86_001",
     "related_dialogue_id": "DLG_D86_02"
   },
   {
@@ -15408,7 +15408,7 @@
     "model_answer": "請問，車站怎麼走？",
     "model_pinyin": "Qǐngwèn, chēzhàn zěnme zǒu?",
     "model_translation_en": "Excuse me, how do I get to the station?",
-    "related_sentence_id": "SEN_D86_061",
+    "related_sentence_id": "SEN_D86_001",
     "related_dialogue_id": "DLG_D86_01"
   },
   {
@@ -15683,7 +15683,7 @@
     "model_answer": "我家的水龍頭漏水了，需要找師傅來修理。",
     "model_pinyin": "Wǒ jiā de shuǐlóngtóu lòushuǐ le, xūyào zhǎo shīfù lái xiūlǐ.",
     "model_translation_en": "The faucet in my house is leaking; I need to find a repairman to fix it.",
-    "related_sentence_id": "SEN_D87_041",
+    "related_sentence_id": "SEN_D87_011",
     "related_dialogue_id": "DLG_D87_03"
   },
   {
@@ -15738,7 +15738,7 @@
     "model_answer": "我已經掛號了，等一下要看醫生。",
     "model_pinyin": "Wǒ yǐjīng guàhào le, děng yīxià yào kàn yīshēng.",
     "model_translation_en": "I have already registered, and I'm going to see the doctor in a moment.",
-    "related_sentence_id": "SEN_D87_051",
+    "related_sentence_id": "SEN_D87_021",
     "related_dialogue_id": "DLG_D87_02"
   },
   {
@@ -16013,7 +16013,7 @@
     "model_answer": "我本來想邀請你來參加派對，但因為臨時有事，所以取消了。",
     "model_pinyin": "Wǒ běnlái xiǎng yāoqǐng nǐ lái cānjiā pàiduì, dàn yīnwèi línshí yǒu shì, suǒyǐ qǔxiāo le.",
     "model_translation_en": "I originally wanted to invite you to the party, but because something came up, I canceled it.",
-    "related_sentence_id": "SEN_D88_031",
+    "related_sentence_id": "SEN_D88_001",
     "related_dialogue_id": "DLG_D88_01"
   },
   {
@@ -16024,7 +16024,7 @@
     "model_answer": "我們本來約好今天見面，但因為她臨時不舒服，所以取消了。",
     "model_pinyin": "Wǒmen běnlái yuē hǎo jīntiān jiànmiàn, dàn yīnwèi tā línshí bù shūfu, suǒyǐ qǔxiāo le.",
     "model_translation_en": "We originally agreed to meet today, but because she suddenly felt unwell, we canceled.",
-    "related_sentence_id": "SEN_D88_033",
+    "related_sentence_id": "SEN_D88_003",
     "related_dialogue_id": "DLG_D88_02"
   },
   {
@@ -16618,7 +16618,7 @@
     "model_answer": "我從早上八點工作到下午五點。",
     "model_pinyin": "Wǒ cóng zǎoshang bā diǎn gōngzuò dào xiàwǔ wǔ diǎn.",
     "model_translation_en": "I work from 8 AM to 5 PM.",
-    "related_sentence_id": "SEN_D90_031",
+    "related_sentence_id": "SEN_D90_001",
     "related_dialogue_id": "DLG_D90_01"
   },
   {

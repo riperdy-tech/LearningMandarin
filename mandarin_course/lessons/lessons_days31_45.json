@@ -65,8 +65,6 @@
       "SEN_D31_022",
       "SEN_D31_027",
       "SEN_D31_028",
-      "SEN_D31_035",
-      "SEN_D31_041",
       "SEN_D31_061",
       "SEN_D31_063",
       "SEN_D31_065",
@@ -272,8 +270,7 @@
       "SEN_D32_045",
       "SEN_D32_046",
       "SEN_D32_047",
-      "SEN_D32_049",
-      "SEN_D32_061"
+      "SEN_D32_049"
     ],
     "grammar_ids": [
       "GR_D32_MEASURE_WORDS_BASIC",
@@ -469,7 +466,6 @@
       "SEN_D33_028",
       "SEN_D33_033",
       "SEN_D33_037",
-      "SEN_D33_041",
       "SEN_D33_043",
       "SEN_D33_045",
       "SEN_D33_046",
@@ -675,12 +671,7 @@
       "SEN_D34_009",
       "SEN_D34_010",
       "SEN_D34_021",
-      "SEN_D34_031",
-      "SEN_D34_033",
-      "SEN_D34_035",
-      "SEN_D34_037",
-      "SEN_D34_063",
-      "SEN_D34_065",
+      "SEN_D34_006",
       "SEN_D34_069"
     ],
     "grammar_ids": [
@@ -884,10 +875,8 @@
       "SEN_D35_019",
       "SEN_D35_031",
       "SEN_D35_041",
-      "SEN_D35_043",
       "SEN_D35_045",
       "SEN_D35_046",
-      "SEN_D35_047",
       "SEN_D35_049"
     ],
     "grammar_ids": [
@@ -1128,9 +1117,7 @@
       "SEN_D36_039",
       "SEN_D36_040",
       "SEN_D36_047",
-      "SEN_D36_057",
-      "SEN_D36_061",
-      "SEN_D36_063"
+      "SEN_D36_057"
     ],
     "grammar_ids": [
       "GR_D36_EVERY_DAY",
@@ -1330,9 +1317,7 @@
       "SEN_D37_031",
       "SEN_D37_034",
       "SEN_D37_035",
-      "SEN_D37_039",
-      "SEN_D37_061",
-      "SEN_D37_065"
+      "SEN_D37_039"
     ],
     "grammar_ids": [
       "GR_D37_XIANG_VERB",
@@ -1743,8 +1728,7 @@
       "SEN_D39_045",
       "SEN_D39_046",
       "SEN_D39_047",
-      "SEN_D39_049",
-      "SEN_D39_051"
+      "SEN_D39_049"
     ],
     "grammar_ids": [
       "GR_D39_HUAN_CHE",
@@ -1917,8 +1901,6 @@
       "SEN_D40_027",
       "SEN_D40_028",
       "SEN_D40_029",
-      "SEN_D40_041",
-      "SEN_D40_045",
       "SEN_D40_047",
       "SEN_D40_049"
     ],
@@ -2112,10 +2094,7 @@
       "SEN_D41_016",
       "SEN_D41_017",
       "SEN_D41_019",
-      "SEN_D41_021",
-      "SEN_D41_031",
-      "SEN_D41_041",
-      "SEN_D41_043",
+      "SEN_D41_012",
       "SEN_D41_045",
       "SEN_D41_046",
       "SEN_D41_047",
@@ -2314,14 +2293,9 @@
       "SEN_D42_020",
       "SEN_D42_032",
       "SEN_D42_034",
-      "SEN_D42_036",
+      "SEN_D42_006",
       "SEN_D42_038",
-      "SEN_D42_041",
-      "SEN_D42_042",
-      "SEN_D42_044",
-      "SEN_D42_046",
-      "SEN_D42_062",
-      "SEN_D42_066"
+      "SEN_D42_044"
     ],
     "grammar_ids": [
       "GR_D42_XIHUAN",
@@ -2532,8 +2506,7 @@
       "SEN_D43_028",
       "SEN_D43_031",
       "SEN_D43_033",
-      "SEN_D43_063",
-      "SEN_D43_065"
+      "SEN_D43_006"
     ],
     "grammar_ids": [
       "GR_D43_MEASURE_CLOTHES",
@@ -2732,9 +2705,7 @@
       "SEN_D44_035",
       "SEN_D44_037",
       "SEN_D44_041",
-      "SEN_D44_047",
-      "SEN_D44_052",
-      "SEN_D44_061"
+      "SEN_D44_052"
     ],
     "grammar_ids": [
       "GR_D44_TIANQI_HEN",
@@ -2936,8 +2907,7 @@
       "SEN_D45_019",
       "SEN_D45_022",
       "SEN_D45_028",
-      "SEN_D45_029",
-      "SEN_D45_031"
+      "SEN_D45_029"
     ],
     "grammar_ids": [
       "GR_D45_ASSESSMENT_REVIEW"

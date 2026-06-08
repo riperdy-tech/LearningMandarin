@@ -1667,7 +1667,7 @@
         "text": "你好，我要一份炒飯，不要辣。",
         "pinyin": "Nǐ hǎo, wǒ yào yī fèn chǎofàn, bù yào là.",
         "pinyin_numeric": "Ni3 hao3, wo3 yao4 yi1 fen4 chao3fan4, bu4 yao4 la4.",
-        "translation_en": "Hello, I'd like one serving of fried rice, no spicy.",
+        "translation_en": "Hello, I'd like one serving of fried rice, not spicy.",
         "translation_ko": "안녕하세요, 볶음밥 하나 주세요, 맵지 않게 해주세요.",
         "token_ids": [
           "VOC_M1_001",
@@ -1685,7 +1685,7 @@
         "text": "好的，炒飯不要辣。還要別的嗎？",
         "pinyin": "Hǎo de, chǎofàn bù yào là. Hái yào bié de ma?",
         "pinyin_numeric": "Hao3 de5, chao3fan4 bu4 yao4 la4. Hai2 yao4 bie2 de5 ma5?",
-        "translation_en": "Okay, fried rice no spicy. Anything else?",
+        "translation_en": "Okay, fried rice with no spice. Anything else?",
         "translation_ko": "네, 볶음밥 맵지 않게요. 다른 것 더 필요하세요?",
         "token_ids": [
           "VOC_M1_088",
@@ -4153,7 +4153,7 @@
         "text": "你好，我想要一份滷肉飯和一杯珍珠奶茶，不要辣。",
         "pinyin": "Nǐ hǎo, wǒ xiǎng yào yī fèn lǔròufàn hé yī bēi zhēnzhū nǎichá, bù yào là.",
         "pinyin_numeric": "Ni3 hao3, wo3 xiang3 yao4 yi1 fen4 lu3rou4fan4 he2 yi1 bei1 zhen1zhu1 nai3cha2, bu4 yao4 la4.",
-        "translation_en": "Hello, I'd like one serving of braised pork rice and a bubble milk tea, no spicy.",
+        "translation_en": "Hello, I'd like one serving of braised pork rice and a bubble tea, with no spice.",
         "translation_ko": "안녕하세요, 루러우판 한 그릇과 버블 밀크티 한 잔 주세요, 맵지 않게 해주세요.",
         "token_ids": [
           "VOC_M1_001",
@@ -6436,28 +6436,31 @@
       {
         "id": "DLG_D45_01_T5",
         "speaker": "店員",
-        "text": "總共八十塊，可以刷卡嗎？",
-        "pinyin": "Zǒnggòng bā shí kuài, kěyǐ shuākǎ ma?",
-        "pinyin_numeric": "Zong3gong4 ba1 shi2 kuai4, ke3yi3 shua1ka3 ma?",
-        "translation_en": "That's 80 dollars total. Can I pay by card?",
-        "translation_ko": "총 80위안입니다. 카드 결제 가능하신가요?",
+        "text": "??????????????",
+        "pinyin": "Z?ngg?ng b?sh? ku?i. Q?ngw?n y?o z?nme f?ku?n?",
+        "pinyin_numeric": "zong3gong4 ba1shi2 kuai4. qing3wen4 yao4 zen3me5 fu4kuan3?",
+        "translation_en": "That is 80 dollars total. How would you like to pay?",
+        "translation_ko": "총 80달러입니다. 어떻게 결제하시겠습니까?",
         "token_ids": [
           "VOC_D32_031",
           "VOC_M1_019",
           "VOC_M1_015",
           "VOC_M1_116",
-          "VOC_D43_044"
+          "VOC_D33_026",
+          "VOC_M1_061",
+          "VOC_M1_075",
+          "VOC_D32_004"
         ],
         "audio_id": "AUD_DLG_D45_01_T5"
       },
       {
         "id": "DLG_D45_01_T6",
         "speaker": "客人",
-        "text": "可以，我刷卡。",
-        "pinyin": "Kěyǐ, wǒ shuākǎ.",
-        "pinyin_numeric": "Ke3yi3, wo3 shua1ka3.",
-        "translation_en": "Yes, I'll pay by card.",
-        "translation_ko": "네, 카드로 할게요.",
+        "text": "????",
+        "pinyin": "W? shu?k?.",
+        "pinyin_numeric": "wo3 shua1ka3.",
+        "translation_en": "I will pay by card.",
+        "translation_ko": "카드로 결제하겠습니다.",
         "token_ids": [
           "VOC_M1_118",
           "VOC_M1_002",

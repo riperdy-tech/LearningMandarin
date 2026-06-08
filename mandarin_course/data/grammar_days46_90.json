@@ -71,7 +71,24 @@
     "repair_feedback": {
       "word_order": "動詞 + 受詞 + 了，不是 了 + 動詞",
       "missing_le": "說過去完成的事要加 '了'"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "我昨天買菜了。",
+        "pinyin": "Wǒ zuótiān mǎi cài le.",
+        "translation_en": "I bought groceries yesterday."
+      },
+      {
+        "text": "他昨天煮飯了。",
+        "pinyin": "Tā zuótiān zhǔ fàn le.",
+        "translation_en": "He cooked rice yesterday."
+      },
+      {
+        "text": "我昨天打掃家了。",
+        "pinyin": "Wǒ zuótiān dǎsǎo jiā le.",
+        "translation_en": "I cleaned the house yesterday."
+      }
+    ]
   },
   {
     "id": "GR_D46_YESTERDAY_TIME",
@@ -143,7 +160,24 @@
     "repair_feedback": {
       "word_order": "時間詞在動詞前面，如 '我昨天...'",
       "english_interference": "不要像英文把 yesterday 放句尾"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "我昨天買菜了。",
+        "pinyin": "Wǒ zuótiān mǎi cài le.",
+        "translation_en": "I bought groceries yesterday."
+      },
+      {
+        "text": "他昨天煮飯了。",
+        "pinyin": "Tā zuótiān zhǔ fàn le.",
+        "translation_en": "He cooked rice yesterday."
+      },
+      {
+        "text": "我昨天出門了。",
+        "pinyin": "Wǒ zuótiān chūmén le.",
+        "translation_en": "I went out yesterday."
+      }
+    ]
   },
   {
     "id": "GR_D46_VERB_OBJECT_LE",
@@ -210,7 +244,19 @@
     "repair_feedback": {
       "word_order": "時間 + 動詞 + 受詞 + 了",
       "negation": "否定過去用 '沒有'，不加 '了'"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "我昨天買菜了。",
+        "pinyin": "Wǒ zuótiān mǎi cài le.",
+        "translation_en": "I bought groceries yesterday."
+      },
+      {
+        "text": "她昨天看電影了。",
+        "pinyin": "Tā zuótiān kàn diànyǐng le.",
+        "translation_en": "She watched a movie yesterday."
+      }
+    ]
   },
   {
     "id": "GR_D47_RANHOU",
@@ -282,7 +328,24 @@
     "repair_feedback": {
       "word_order": "句子A，然後句子B",
       "overuse": "不要每句都用 '然後'"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "我昨天早上起床，然後吃早餐。",
+        "pinyin": "Wǒ zuótiān zǎoshang qǐchuáng, ránhòu chī zǎocān.",
+        "translation_en": "I got up yesterday morning and then ate breakfast."
+      },
+      {
+        "text": "他先看書，然後聽音樂。",
+        "pinyin": "Tā xiān kàn shū, ránhòu tīng yīnyuè.",
+        "translation_en": "He first reads a book, then listens to music."
+      },
+      {
+        "text": "我們去餐廳吃飯，然後去公園散步。",
+        "pinyin": "Wǒmen qù cāntīng chī fàn, ránhòu qù gōngyuán sànbù.",
+        "translation_en": "We went to a restaurant to eat, and then went for a walk in the park."
+      }
+    ]
   },
   {
     "id": "GR_D47_XIAN_RANHOU",
@@ -353,7 +416,24 @@
     "repair_feedback": {
       "word_order": "先 + 動作1，然後 + 動作2",
       "pairing": "'先' 和 '然後' 是配對使用的"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "他先看書，然後聽音樂。",
+        "pinyin": "Tā xiān kàn shū, ránhòu tīng yīnyuè.",
+        "translation_en": "He first reads a book, then listens to music."
+      },
+      {
+        "text": "她先洗澡，然後穿衣服。",
+        "pinyin": "Tā xiān xǐzǎo, ránhòu chuān yīfu.",
+        "translation_en": "She first takes a shower, then gets dressed."
+      },
+      {
+        "text": "我打算先做功課，然後看電視。",
+        "pinyin": "Wǒ dǎsuàn xiān zuò gōngkè, ránhòu kàn diànshì.",
+        "translation_en": "I plan to do my homework first, and then watch TV."
+      }
+    ]
   },
   {
     "id": "GR_D47_LE_POSITION_REVIEW",
@@ -412,7 +492,14 @@
     "repair_feedback": {
       "word_order": "'了' 在每個完成動作的句尾",
       "sequence": "做了A（了），然後做了B（了）"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "我昨天早上起床，然後吃早餐。",
+        "pinyin": "Wǒ zuótiān zǎoshang qǐchuáng, ránhòu chī zǎocān.",
+        "translation_en": "I got up yesterday morning and then ate breakfast."
+      }
+    ]
   },
   {
     "id": "GR_D48_GUO_EXPERIENCE",
@@ -486,7 +573,24 @@
     "repair_feedback": {
       "word_order": "動詞 + 過 + 受詞",
       "vs_le": "'過'=經驗，'了'=完成，不一樣"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "你去過臺北嗎？",
+        "pinyin": "Nǐ qù guò Táiběi ma?",
+        "translation_en": "Have you been to Taipei?"
+      },
+      {
+        "text": "我吃過滷肉飯，很好吃。",
+        "pinyin": "Wǒ chī guò lǔròufàn, hěn hǎochī.",
+        "translation_en": "I have eaten braised pork rice; it's very delicious."
+      },
+      {
+        "text": "我們看過九份的風景，很漂亮。",
+        "pinyin": "Wǒmen kàn guò Jiǔfèn de fēngjǐng, hěn piàoliang.",
+        "translation_en": "We have seen the scenery of Jiufen; it's very beautiful."
+      }
+    ]
   },
   {
     "id": "GR_D48_MEIYOU_GUO",
@@ -554,7 +658,19 @@
     "repair_feedback": {
       "word_order": "從來 + 沒有 + 動詞 + 過 + 受詞",
       "missing_guo": "'從來沒有' 後面一定要有 '過'"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "他從來沒有喝過珍珠奶茶。",
+        "pinyin": "Tā cónglái méiyǒu hē guò zhēnzhū nǎichá.",
+        "translation_en": "He has never drunk bubble tea."
+      },
+      {
+        "text": "我從來沒有去過那個地方。",
+        "pinyin": "Wǒ cónglái méiyǒu qù guò nà ge dìfāng.",
+        "translation_en": "I have never been to that place."
+      }
+    ]
   },
   {
     "id": "GR_D48_YI_QIAN",
@@ -615,7 +731,14 @@
     "repair_feedback": {
       "word_order": "以前 + 句子 / 主語 + 以前 + 動詞",
       "vs_yijing": "'以前'=before，'已經'=already"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "我學過中文，可是不太流利。",
+        "pinyin": "Wǒ xué guò Zhōngwén, kěshì bú tài liúlì.",
+        "translation_en": "I have studied Chinese, but I'm not very fluent."
+      }
+    ]
   },
   {
     "id": "GR_D49_ZAI_PROGRESSIVE",
@@ -688,7 +811,24 @@
     "repair_feedback": {
       "word_order": "主語 + 在 + 動詞 + 受詞",
       "not_shi": "不是 '我是吃飯'，而是 '我在吃飯'"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "我在看書。",
+        "pinyin": "Wǒ zài kàn shū.",
+        "translation_en": "I am reading a book."
+      },
+      {
+        "text": "他在打電話。",
+        "pinyin": "Tā zài dǎ diànhuà.",
+        "translation_en": "He is making a phone call."
+      },
+      {
+        "text": "媽媽在煮飯。",
+        "pinyin": "Māma zài zhǔ fàn.",
+        "translation_en": "Mom is cooking."
+      }
+    ]
   },
   {
     "id": "GR_D49_ZHENGZAI",
@@ -750,7 +890,14 @@
     "repair_feedback": {
       "word_order": "主語 + 正在 + 動詞 + 受詞 + 呢",
       "habitual": "'正在' 只能用在說話的當下"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "我正在看書呢。",
+        "pinyin": "Wǒ zhèngzài kàn shū ne.",
+        "translation_en": "I am reading a book right now."
+      }
+    ]
   },
   {
     "id": "GR_D49_NOW_BUSY",
@@ -816,7 +963,19 @@
     "repair_feedback": {
       "word_order": "現在 + 在 + 動詞",
       "vs_zhengzai": "'現在'=now，'正在'=in the middle of"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "我現在在看電視。",
+        "pinyin": "Wǒ xiànzài zài kàn diànshì.",
+        "translation_en": "I am watching TV now."
+      },
+      {
+        "text": "他現在很忙。",
+        "pinyin": "Tā xiànzài hěn máng.",
+        "translation_en": "He is very busy now."
+      }
+    ]
   },
   {
     "id": "GR_D50_HUI_ABILITY",
@@ -890,7 +1049,24 @@
     "repair_feedback": {
       "word_order": "主語 + 會 + 動詞 + 受詞",
       "vs_keyi": "'會'=技能，'可以'=允許"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "我會說一點中文。",
+        "pinyin": "Wǒ huì shuō yī diǎn Zhōngwén.",
+        "translation_en": "I can speak a little Chinese."
+      },
+      {
+        "text": "他會煮臺灣菜。",
+        "pinyin": "Tā huì zhǔ Táiwān cài.",
+        "translation_en": "He can cook Taiwanese food."
+      },
+      {
+        "text": "你會開車嗎？",
+        "pinyin": "Nǐ huì kāi chē ma?",
+        "translation_en": "Can you drive?"
+      }
+    ]
   },
   {
     "id": "GR_D50_BU_HUI",
@@ -956,7 +1132,19 @@
     "repair_feedback": {
       "word_order": "主語 + 不 + 會 + 動詞",
       "vs_buneng": "'不會'=沒技能，'不能'=沒能力/不允許"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "我不會說日文。",
+        "pinyin": "Wǒ bú huì shuō Rìwén.",
+        "translation_en": "I can't speak Japanese."
+      },
+      {
+        "text": "他不會游泳。",
+        "pinyin": "Tā bú huì yóuyǒng.",
+        "translation_en": "He can't swim."
+      }
+    ]
   },
   {
     "id": "GR_D50_HAI_BU_TAI",
@@ -1023,7 +1211,19 @@
     "repair_feedback": {
       "word_order": "還 + 不太 + 會 + 動詞",
       "usage": "有點會但不好才用 '還不太會'"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "我還不太會說中文。",
+        "pinyin": "Wǒ hái bú tài huì shuō Zhōngwén.",
+        "translation_en": "I still can't speak Chinese very well."
+      },
+      {
+        "text": "這個還不太熱。",
+        "pinyin": "Zhège hái bú tài rè.",
+        "translation_en": "This is still not very hot."
+      }
+    ]
   },
   {
     "id": "GR_D51_DE_MODIFIER",
@@ -1096,7 +1296,24 @@
     "repair_feedback": {
       "word_order": "修飾語 + 的 + 名詞",
       "simple_adj": "單音節形容詞加單音節名詞不用 '的'"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "這是我最喜歡的餐廳。",
+        "pinyin": "Zhè shì wǒ zuì xǐhuān de cāntīng.",
+        "translation_en": "This is my favorite restaurant."
+      },
+      {
+        "text": "那個穿紅色衣服的人是我朋友。",
+        "pinyin": "Nà ge chuān hóngsè yīfu de rén shì wǒ péngyou.",
+        "translation_en": "That person wearing red clothes is my friend."
+      },
+      {
+        "text": "好吃的東西不一定很貴。",
+        "pinyin": "Hǎochī de dōngxi bù yīdìng hěn guì.",
+        "translation_en": "Delicious things are not necessarily expensive."
+      }
+    ]
   },
   {
     "id": "GR_D51_HEN_ADJ",
@@ -1161,7 +1378,19 @@
     "repair_feedback": {
       "word_order": "主語 + 很 + 形容詞",
       "no_shi": "不要說 '我是很好'，說 '我很好'"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "這家餐廳很好吃。",
+        "pinyin": "Zhè jiā cāntīng hěn hǎochī.",
+        "translation_en": "This restaurant is delicious."
+      },
+      {
+        "text": "那個地方很漂亮。",
+        "pinyin": "Nà ge dìfāng hěn piàoliang.",
+        "translation_en": "That place is very beautiful."
+      }
+    ]
   },
   {
     "id": "GR_D51_NA_GE_REN",
@@ -1223,7 +1452,14 @@
     "repair_feedback": {
       "word_order": "那 + 量詞 + 名詞 + 的 + 描述",
       "measure_word": "一定要有量詞"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "那個穿紅色衣服的人是我朋友。",
+        "pinyin": "Nà ge chuān hóngsè yīfu de rén shì wǒ péngyou.",
+        "translation_en": "That person wearing red clothes is my friend."
+      }
+    ]
   },
   {
     "id": "GR_D52_BI_COMPARISON",
@@ -1297,7 +1533,24 @@
     "repair_feedback": {
       "word_order": "A + 比 + B + 形容詞",
       "no_hen": "'比' 後面不加 '很'"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "這家餐廳的牛肉麵比那家好吃。",
+        "pinyin": "Zhè jiā cāntīng de niúròumiàn bǐ nà jiā hǎochī.",
+        "translation_en": "The beef noodles at this restaurant are tastier than those at that one."
+      },
+      {
+        "text": "便利商店的咖啡比咖啡店便宜很多。",
+        "pinyin": "Biànlì shāngdiàn de kāfēi bǐ kāfēidiàn piányí hěnduō.",
+        "translation_en": "The coffee at convenience stores is much cheaper than at coffee shops."
+      },
+      {
+        "text": "坐捷運比坐公車快，也比較方便。",
+        "pinyin": "Zuò jiéyùn bǐ zuò gōngchē kuài, yě bǐjiào fāngbiàn.",
+        "translation_en": "Taking the MRT is faster than taking the bus, and also more convenient."
+      }
+    ]
   },
   {
     "id": "GR_D52_BIJIAO",
@@ -1362,7 +1615,19 @@
     "repair_feedback": {
       "word_order": "主語 + 比較 + 形容詞",
       "vs_bi": "'比' + B + adj，'比較' + adj"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "坐捷運比坐公車快，也比較方便。",
+        "pinyin": "Zuò jiéyùn bǐ zuò gōngchē kuài, yě bǐjiào fāngbiàn.",
+        "translation_en": "Taking the MRT is faster than taking the bus, and also more convenient."
+      },
+      {
+        "text": "同樣的價格，我覺得買這個比較划算。",
+        "pinyin": "Tóngyàng de jiàgé, wǒ juéde mǎi zhège bǐjiào huásuàn.",
+        "translation_en": "At the same price, I think buying this one is more cost-effective."
+      }
+    ]
   },
   {
     "id": "GR_D52_MEIYOU_COMPARISON",
@@ -1429,7 +1694,19 @@
     "repair_feedback": {
       "word_order": "A + 沒有 + B + 那麼 + 形容詞",
       "vs_bubi": "'沒有'=not as，'不比'=not more than"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "公車沒有捷運那麼快。",
+        "pinyin": "Gōngchē méiyǒu jiéyùn nàme kuài.",
+        "translation_en": "The bus is not as fast as the MRT."
+      },
+      {
+        "text": "這家店沒有那家那麼好吃。",
+        "pinyin": "Zhè jiā diàn méiyǒu nà jiā nàme hǎochī.",
+        "translation_en": "This restaurant is not as delicious as that one."
+      }
+    ]
   },
   {
     "id": "GR_D53_CHANGCHANG",
@@ -1497,7 +1774,19 @@
     "repair_feedback": {
       "word_order": "主語 + 常常 + 動詞",
       "vs_pingchang": "'常常'=often，'平常'=usually/ordinarily"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "我常常去那家咖啡店。",
+        "pinyin": "Wǒ chángcháng qù nà jiā kāfēi diàn.",
+        "translation_en": "I often go to that coffee shop."
+      },
+      {
+        "text": "他常常加班。",
+        "pinyin": "Tā chángcháng jiābān.",
+        "translation_en": "He often works overtime."
+      }
+    ]
   },
   {
     "id": "GR_D53_YOU_SHIHOU",
@@ -1561,7 +1850,19 @@
     ],
     "repair_feedback": {
       "word_order": "有時候 + 句子 / 主語 + 有時候 + 動詞"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "我有時候會去夜市吃東西。",
+        "pinyin": "Wǒ yǒu shíhou huì qù yèshì chī dōngxi.",
+        "translation_en": "Sometimes I go to the night market to eat."
+      },
+      {
+        "text": "有時候我覺得中文很難。",
+        "pinyin": "Yǒu shíhou wǒ juéde Zhōngwén hěn nán.",
+        "translation_en": "Sometimes I think Chinese is very difficult."
+      }
+    ]
   },
   {
     "id": "GR_D53_XIHUAN_VERB_OBJECT",
@@ -1627,7 +1928,19 @@
     "repair_feedback": {
       "word_order": "主語 + 喜歡 + 動詞 + 受詞",
       "no_le": "'喜歡' 是持續的，不加 '了'"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "我喜歡聽音樂。",
+        "pinyin": "Wǒ xǐhuān tīng yīnyuè.",
+        "translation_en": "I like listening to music."
+      },
+      {
+        "text": "她喜歡看電影。",
+        "pinyin": "Tā xǐhuān kàn diànyǐng.",
+        "translation_en": "She likes watching movies."
+      }
+    ]
   },
   {
     "id": "GR_D54_YAOBUYAO",
@@ -1700,7 +2013,24 @@
     "repair_feedback": {
       "word_order": "要不要 + 動詞？",
       "formality": "正式場合改用 '要不要一起...呢？'"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "你要不要一起去吃飯？",
+        "pinyin": "Nǐ yào bú yào yīqǐ qù chī fàn?",
+        "translation_en": "Do you want to go eat together?"
+      },
+      {
+        "text": "我們要不要去看電影？",
+        "pinyin": "Wǒmen yào bú yào qù kàn diànyǐng?",
+        "translation_en": "Shall we go watch a movie?"
+      },
+      {
+        "text": "你要不要試試看？",
+        "pinyin": "Nǐ yào bú yào shì shì kàn?",
+        "translation_en": "Do you want to give it a try?"
+      }
+    ]
   },
   {
     "id": "GR_D54_GAI_TIME",
@@ -1766,7 +2096,19 @@
     "repair_feedback": {
       "word_order": "該 + 動詞 + 了",
       "vs_yinggai": "'該...了'=it's time，'應該'=should"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "我們該走了。",
+        "pinyin": "Wǒmen gāi zǒu le.",
+        "translation_en": "We should go now (it's time to go)."
+      },
+      {
+        "text": "你該休息了。",
+        "pinyin": "Nǐ gāi xiūxi le.",
+        "translation_en": "You should rest now (it's time to rest)."
+      }
+    ]
   },
   {
     "id": "GR_D54_BUHAOYISI",
@@ -1831,7 +2173,19 @@
     "repair_feedback": {
       "word_order": "不好意思，+ 請求",
       "vs_duibuqi": "'不好意思'=excuse me，'對不起'=I'm sorry"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "不好意思，可以幫我一個忙嗎？",
+        "pinyin": "Bù hǎo yìsi, kěyǐ bāng wǒ yī ge máng ma?",
+        "translation_en": "Excuse me, could you help me with something?"
+      },
+      {
+        "text": "不好意思，請問捷運站怎麼走？",
+        "pinyin": "Bù hǎo yìsi, qǐngwèn jiéyùn zhàn zěnme zǒu?",
+        "translation_en": "Excuse me, how do I get to the MRT station?"
+      }
+    ]
   },
   {
     "id": "GR_D55_REVIEW_NARRATION",
@@ -1948,7 +2302,24 @@
     "repair_feedback": {
       "word_order": "身體部位 + 痛 / 不舒服",
       "no_shi": "不要說 '我是頭痛'"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "我頭痛。",
+        "pinyin": "Wǒ tóu tòng.",
+        "translation_en": "I have a headache."
+      },
+      {
+        "text": "他肚子不舒服。",
+        "pinyin": "Tā dùzi bù shūfu.",
+        "translation_en": "His stomach is uncomfortable."
+      },
+      {
+        "text": "我喉嚨痛。",
+        "pinyin": "Wǒ hóulóng tòng.",
+        "translation_en": "My throat hurts."
+      }
+    ]
   },
   {
     "id": "GR_D56_YOU_DIAN_SYMPTOM",
@@ -2013,7 +2384,19 @@
     "repair_feedback": {
       "word_order": "有點 + 形容詞（通常是負面的）",
       "positive_adj": "'有點好吃' 不對，用 '還不錯'"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "我有點不舒服。",
+        "pinyin": "Wǒ yǒu diǎn bù shūfu.",
+        "translation_en": "I feel a little uncomfortable."
+      },
+      {
+        "text": "他覺得有點累。",
+        "pinyin": "Tā juéde yǒu diǎn lèi.",
+        "translation_en": "He feels a little tired."
+      }
+    ]
   },
   {
     "id": "GR_D56_JI_TIAN",
@@ -2078,7 +2461,19 @@
     "repair_feedback": {
       "word_order": "幾 + 量詞 + 名詞",
       "question_vs_statement": "語調上升=問句，下降=直述"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "我已經不舒服好幾天了。",
+        "pinyin": "Wǒ yǐjīng bù shūfu hǎo jǐ tiān le.",
+        "translation_en": "I've been feeling unwell for several days already."
+      },
+      {
+        "text": "你幾天沒睡覺了？",
+        "pinyin": "Nǐ jǐ tiān méi shuìjiào le?",
+        "translation_en": "How many days have you not slept?"
+      }
+    ]
   },
   {
     "id": "GR_D57_YAO_MEDICINE",
@@ -2150,7 +2545,24 @@
     "repair_feedback": {
       "word_order": "我要 + 動詞 + 受詞",
       "vs_xiang": "買東西時 '要' 比 '想' 更直接合適"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "我要買感冒藥。",
+        "pinyin": "Wǒ yào mǎi gǎnmào yào.",
+        "translation_en": "I need to buy cold medicine."
+      },
+      {
+        "text": "你要看醫生嗎？",
+        "pinyin": "Nǐ yào kàn yīshēng ma?",
+        "translation_en": "Do you need to see a doctor?"
+      },
+      {
+        "text": "我要吃藥。",
+        "pinyin": "Wǒ yào chī yào.",
+        "translation_en": "I need to take medicine."
+      }
+    ]
   },
   {
     "id": "GR_D57_MEI_TIAN_TIMES",
@@ -2216,7 +2628,19 @@
     "repair_feedback": {
       "word_order": "一天 + 數字 + 次",
       "measure": "'次'=occurrences，'遍'=complete times"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "這個藥一天吃三次。",
+        "pinyin": "Zhège yào yī tiān chī sān cì.",
+        "translation_en": "Take this medicine three times a day."
+      },
+      {
+        "text": "我每天運動兩次。",
+        "pinyin": "Wǒ měitiān yùndòng liǎng cì.",
+        "translation_en": "I exercise twice a day."
+      }
+    ]
   },
   {
     "id": "GR_D57_KEYI_BUKEYI_MEDICAL",
@@ -2281,7 +2705,19 @@
     "repair_feedback": {
       "word_order": "可以 + 動詞 + 受詞 + 嗎？",
       "vs_hui": "'可以'=allowed/possible，'會'=ability"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "這個藥可以跟飯一起吃嗎？",
+        "pinyin": "Zhège yào kěyǐ gēn fàn yīqǐ chī ma?",
+        "translation_en": "Can I take this medicine with food?"
+      },
+      {
+        "text": "我可以喝水嗎？",
+        "pinyin": "Wǒ kěyǐ hē shuǐ ma?",
+        "translation_en": "Can I drink water?"
+      }
+    ]
   },
   {
     "id": "GR_D58_YOU_FACILITY",
@@ -2353,7 +2789,24 @@
     "repair_feedback": {
       "word_order": "地方 + 有 + 東西",
       "vs_shi": "'有'=has/there is，'是'=is/identity"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "這家店有免費的WiFi。",
+        "pinyin": "Zhè jiā diàn yǒu miǎnfèi de WiFi.",
+        "translation_en": "This shop has free WiFi."
+      },
+      {
+        "text": "公園裡面有廁所嗎？",
+        "pinyin": "Gōngyuán lǐmiàn yǒu cèsuǒ ma?",
+        "translation_en": "Is there a bathroom inside the park?"
+      },
+      {
+        "text": "這家大樓有電梯。",
+        "pinyin": "Zhè jiā dàlóu yǒu diàntī.",
+        "translation_en": "This building has an elevator."
+      }
+    ]
   },
   {
     "id": "GR_D58_LOCATION_EXISTENCE",
@@ -2418,7 +2871,19 @@
     ],
     "repair_feedback": {
       "word_order": "在 + 地方 + 有 + 東西"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "在捷運站附近有一家藥局。",
+        "pinyin": "Zài jiéyùn zhàn fùjìn yǒu yī jiā yàojú.",
+        "translation_en": "There is a pharmacy near the MRT station."
+      },
+      {
+        "text": "醫院旁邊有停車場。",
+        "pinyin": "Yīyuàn pángbiān yǒu tíngchēchǎng.",
+        "translation_en": "There is a parking lot next to the hospital."
+      }
+    ]
   },
   {
     "id": "GR_D58_BROKEN",
@@ -2483,7 +2948,19 @@
     "repair_feedback": {
       "word_order": "東西 + 壞了 / 不能用了",
       "vs_pole": "'壞了'=broken，'破了'=torn/punctured"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "電梯壞了。",
+        "pinyin": "Diàntī huài le.",
+        "translation_en": "The elevator is broken."
+      },
+      {
+        "text": "冷氣不能用。",
+        "pinyin": "Lěngqì bù néng yòng.",
+        "translation_en": "The air conditioner can't be used."
+      }
+    ]
   },
   {
     "id": "GR_D59_QING_HELP",
@@ -2555,7 +3032,24 @@
     "repair_feedback": {
       "word_order": "請/麻煩你 + 動詞 + 受詞",
       "politeness": "'麻煩你' 比 '請' 更有禮貌"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "請幫我一個忙。",
+        "pinyin": "Qǐng bāng wǒ yī ge máng.",
+        "translation_en": "Please help me with something."
+      },
+      {
+        "text": "麻煩你幫我拿一下。",
+        "pinyin": "Máfan nǐ bāng wǒ ná yīxià.",
+        "translation_en": "Could you please help me carry this for a moment?"
+      },
+      {
+        "text": "不好意思，請等一下。",
+        "pinyin": "Bù hǎo yìsi, qǐng děng yīxià.",
+        "translation_en": "Excuse me, please wait a moment."
+      }
+    ]
   },
   {
     "id": "GR_D59_SHENME_SHIHOU_KEYI",
@@ -2620,7 +3114,19 @@
     "repair_feedback": {
       "word_order": "什麼時候 + 可以 + 動詞？",
       "vs_jidian": "'什麼時候'=when (general)，'幾點'=what time"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "我什麼時候可以拿？",
+        "pinyin": "Wǒ shénme shíhou kěyǐ ná?",
+        "translation_en": "When can I pick it up?"
+      },
+      {
+        "text": "什麼時候比較方便？",
+        "pinyin": "Shénme shíhou bǐjiào fāngbiàn?",
+        "translation_en": "When would be more convenient?"
+      }
+    ]
   },
   {
     "id": "GR_D59_MAYBE_PROBLEM",
@@ -2684,7 +3190,19 @@
     "repair_feedback": {
       "word_order": "可能 + 句子",
       "vs_keyi": "'可能'=maybe，'可以'=can"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "可能有問題。",
+        "pinyin": "Kěnéng yǒu wèntí.",
+        "translation_en": "There might be a problem."
+      },
+      {
+        "text": "也許明天會比較好。",
+        "pinyin": "Yěxǔ míngtiān huì bǐjiào hǎo.",
+        "translation_en": "Perhaps tomorrow will be better."
+      }
+    ]
   },
   {
     "id": "GR_D60_ASSESSMENT_REVIEW",
@@ -2802,7 +3320,24 @@
     "repair_feedback": {
       "word_order": "發生了 + 事情 / 事情 + 發生了",
       "usage": "'發生'=happen unexpectedly"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "發生了什麼事？",
+        "pinyin": "Fāshēng le shénme shì?",
+        "translation_en": "What happened?"
+      },
+      {
+        "text": "昨天發生了一個小意外。",
+        "pinyin": "Zuótiān fāshēng le yī ge xiǎo yìwài.",
+        "translation_en": "A small accident happened yesterday."
+      },
+      {
+        "text": "這裡發生了什麼事？",
+        "pinyin": "Zhèlǐ fāshēng le shénme shì?",
+        "translation_en": "What happened here?"
+      }
+    ]
   },
   {
     "id": "GR_D61_JIEGUO",
@@ -2867,7 +3402,19 @@
     "repair_feedback": {
       "word_order": "句子，結果 + 結果",
       "vs_suoyi": "'結果'=as it turned out，'所以'=therefore"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "我本來想去，結果沒去。",
+        "pinyin": "Wǒ běnlái xiǎng qù, jiéguǒ méi qù.",
+        "translation_en": "I originally wanted to go, but in the end I didn't."
+      },
+      {
+        "text": "他沒有好好準備，結果考得不好。",
+        "pinyin": "Tā méiyǒu hǎohāo zhǔnbèi, jiéguǒ kǎo de bù hǎo.",
+        "translation_en": "He didn't prepare well, and as a result he didn't do well on the test."
+      }
+    ]
   },
   {
     "id": "GR_D61_YINWEI_SUOYI_REPAIR",
@@ -2932,7 +3479,19 @@
     ],
     "repair_feedback": {
       "word_order": "因為 + 原因，所以 + 結果"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "因為下雨了，所以我沒去。",
+        "pinyin": "Yīnwèi xià yǔ le, suǒyǐ wǒ méi qù.",
+        "translation_en": "Because it rained, I didn't go."
+      },
+      {
+        "text": "因為他生病了，所以今天請假。",
+        "pinyin": "Yīnwèi tā shēngbìng le, suǒyǐ jīntiān qǐngjià.",
+        "translation_en": "Because he got sick, he took the day off today."
+      }
+    ]
   },
   {
     "id": "GR_D62_BANG_WO",
@@ -3004,7 +3563,24 @@
     "repair_feedback": {
       "word_order": "幫 + 人 + 動詞 + 受詞",
       "vs_gei": "'幫'=help/for，'給'=give"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "你可以幫我一個忙嗎？",
+        "pinyin": "Nǐ kěyǐ bāng wǒ yī ge máng ma?",
+        "translation_en": "Can you help me with something?"
+      },
+      {
+        "text": "幫我拿一下那個。",
+        "pinyin": "Bāng wǒ ná yīxià nà ge.",
+        "translation_en": "Help me grab that for a moment."
+      },
+      {
+        "text": "我幫你點餐。",
+        "pinyin": "Wǒ bāng nǐ diǎn cān.",
+        "translation_en": "I'll order for you."
+      }
+    ]
   },
   {
     "id": "GR_D62_XUYAO",
@@ -3069,7 +3645,19 @@
     "repair_feedback": {
       "word_order": "需要 + 名詞/動詞",
       "formality": "需要比想要更正式"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "我需要幫忙。",
+        "pinyin": "Wǒ xūyào bāngmáng.",
+        "translation_en": "I need help."
+      },
+      {
+        "text": "你需要什麼嗎？",
+        "pinyin": "Nǐ xūyào shénme ma?",
+        "translation_en": "Do you need anything?"
+      }
+    ]
   },
   {
     "id": "GR_D62_KE_BI_KE_YI_HELP",
@@ -3134,7 +3722,19 @@
     ],
     "repair_feedback": {
       "word_order": "可以 + 幫我 + 動詞 + 嗎？"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "可以幫我拿一下嗎？",
+        "pinyin": "Kěyǐ bāng wǒ ná yīxià ma?",
+        "translation_en": "Can you help me carry this for a moment?"
+      },
+      {
+        "text": "你可以幫我看看這個嗎？",
+        "pinyin": "Nǐ kěyǐ bāng wǒ kàn kàn zhège ma?",
+        "translation_en": "Can you help me take a look at this?"
+      }
+    ]
   },
   {
     "id": "GR_D63_XIANG_RETURN",
@@ -3207,7 +3807,24 @@
     "repair_feedback": {
       "word_order": "主語 + 想 + 動詞",
       "vs_yao": "'想'=would like，'要'=want/need"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "我想回家。",
+        "pinyin": "Wǒ xiǎng huí jiā.",
+        "translation_en": "I want to go home."
+      },
+      {
+        "text": "你想吃什麼？",
+        "pinyin": "Nǐ xiǎng chī shénme?",
+        "translation_en": "What do you want to eat?"
+      },
+      {
+        "text": "他想換工作。",
+        "pinyin": "Tā xiǎng huàn gōngzuò.",
+        "translation_en": "He wants to change jobs."
+      }
+    ]
   },
   {
     "id": "GR_D63_YOU_WENTI",
@@ -3271,7 +3888,19 @@
     "repair_feedback": {
       "word_order": "東西 + 有問題",
       "politeness": "說人有問題不禮貌，說事情有問題OK"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "這個有問題。",
+        "pinyin": "Zhège yǒu wèntí.",
+        "translation_en": "There is a problem with this."
+      },
+      {
+        "text": "我覺得跟溝通有問題。",
+        "pinyin": "Wǒ juéde gēn gōutōng yǒu wèntí.",
+        "translation_en": "I think there is a problem with the communication."
+      }
+    ]
   },
   {
     "id": "GR_D63_KEBUKEYI_CHANGE",
@@ -3336,7 +3965,19 @@
     "repair_feedback": {
       "word_order": "可以 + 換 + 受詞 + 嗎？",
       "vs_gai": "'換'=exchange，'改'=change/modify"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "可以換一個嗎？",
+        "pinyin": "Kěyǐ huàn yī ge ma?",
+        "translation_en": "Can I exchange this for another one?"
+      },
+      {
+        "text": "我想換這個。",
+        "pinyin": "Wǒ xiǎng huàn zhège.",
+        "translation_en": "I want to exchange this."
+      }
+    ]
   },
   {
     "id": "GR_D64_YUYUE",
@@ -3409,7 +4050,24 @@
     "repair_feedback": {
       "word_order": "預約 + 了 + 時間",
       "vs_ding": "'預約'=reserve time，'訂'=order/buy"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "我預約了明天下午三點。",
+        "pinyin": "Wǒ yùyuē le míngtiān xiàwǔ sān diǎn.",
+        "translation_en": "I booked an appointment for tomorrow at 3 PM."
+      },
+      {
+        "text": "你預約了嗎？",
+        "pinyin": "Nǐ yùyuē le ma?",
+        "translation_en": "Did you make a reservation?"
+      },
+      {
+        "text": "我跟牙醫預約了。",
+        "pinyin": "Wǒ gēn yáyī yùyuē le.",
+        "translation_en": "I made an appointment with the dentist."
+      }
+    ]
   },
   {
     "id": "GR_D64_GAI_SHIJIAN",
@@ -3474,7 +4132,19 @@
     ],
     "repair_feedback": {
       "word_order": "改 + 時間 + 了 / 改到 + 新時間"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "我想改時間。",
+        "pinyin": "Wǒ xiǎng gǎi shíjiān.",
+        "translation_en": "I want to reschedule."
+      },
+      {
+        "text": "可以改到星期五嗎？",
+        "pinyin": "Kěyǐ gǎi dào xīngqīwǔ ma?",
+        "translation_en": "Can we change it to Friday?"
+      }
+    ]
   },
   {
     "id": "GR_D64_QUE_REN",
@@ -3539,7 +4209,19 @@
     "repair_feedback": {
       "word_order": "確認 + 一下 + 資訊",
       "softener": "加 '一下' 讓語氣更溫和"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "我想確認一下時間。",
+        "pinyin": "Wǒ xiǎng quèrèn yīxià shíjiān.",
+        "translation_en": "I want to confirm the time."
+      },
+      {
+        "text": "請確認一下你的預約。",
+        "pinyin": "Qǐng quèrèn yīxià nǐ de yùyuē.",
+        "translation_en": "Please confirm your reservation."
+      }
+    ]
   },
   {
     "id": "GR_D65_YINGGAI",
@@ -3612,7 +4294,24 @@
     "repair_feedback": {
       "word_order": "主語 + 應該 + 動詞",
       "vs_bixu": "'應該'=should，'必須'=must"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "你應該多休息。",
+        "pinyin": "Nǐ yīnggāi duō xiūxi.",
+        "translation_en": "You should rest more."
+      },
+      {
+        "text": "我應該早一點出門。",
+        "pinyin": "Wǒ yīnggāi zǎo yīdiǎn chūmén.",
+        "translation_en": "I should leave earlier."
+      },
+      {
+        "text": "他應該知道這件事。",
+        "pinyin": "Tā yīnggāi zhīdào zhè jiàn shì.",
+        "translation_en": "He should know about this matter."
+      }
+    ]
   },
   {
     "id": "GR_D65_XUYAO",
@@ -3677,7 +4376,19 @@
     "repair_feedback": {
       "word_order": "需要 + 動詞/名詞",
       "vs_xiangyao": "'需要'=need，'想要'=want"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "你需要帶證件。",
+        "pinyin": "Nǐ xūyào dài zhèngjiàn.",
+        "translation_en": "You need to bring your ID."
+      },
+      {
+        "text": "我需要先付錢嗎？",
+        "pinyin": "Wǒ xūyào xiān fù qián ma?",
+        "translation_en": "Do I need to pay first?"
+      }
+    ]
   },
   {
     "id": "GR_D65_BIXU",
@@ -3743,7 +4454,19 @@
     "repair_feedback": {
       "word_order": "必須 + 動詞",
       "strength": "'必須' 是最強的說法，沒有選擇"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "你必須帶證件。",
+        "pinyin": "Nǐ bìxū dài zhèngjiàn.",
+        "translation_en": "You must bring identification."
+      },
+      {
+        "text": "我們必須在五點以前到。",
+        "pinyin": "Wǒmen bìxū zài wǔ diǎn yǐqián dào.",
+        "translation_en": "We must arrive before 5 o'clock."
+      }
+    ]
   },
   {
     "id": "GR_D66_RUGUO_JIU",
@@ -3815,7 +4538,24 @@
     ],
     "repair_feedback": {
       "word_order": "如果 + 條件，就 + 結果"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "如果明天下雨，我們就不去公園。",
+        "pinyin": "Rúguǒ míngtiān xià yǔ, wǒmen jiù bú qù gōngyuán.",
+        "translation_en": "If it rains tomorrow, we won't go to the park."
+      },
+      {
+        "text": "如果你有空，我們就一起吃飯。",
+        "pinyin": "Rúguǒ nǐ yǒu kòng, wǒmen jiù yīqǐ chī fàn.",
+        "translation_en": "If you're free, let's eat together."
+      },
+      {
+        "text": "如果有問題，就告訴我。",
+        "pinyin": "Rúguǒ yǒu wèntí, jiù gàosu wǒ.",
+        "translation_en": "If there's a problem, tell me."
+      }
+    ]
   },
   {
     "id": "GR_D66_BU_RAN",
@@ -3880,7 +4620,19 @@
     "repair_feedback": {
       "word_order": "建議/陳述，不然 + 替代方案",
       "vs_danshi": "'不然'=otherwise，'但是'=but"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "快一點，不然會遲到。",
+        "pinyin": "Kuài yīdiǎn, bùrán huì chídào.",
+        "translation_en": "Hurry up, otherwise we'll be late."
+      },
+      {
+        "text": "不然我們去別的地方？",
+        "pinyin": "Bùrán wǒmen qù bié de dìfāng?",
+        "translation_en": "How about we go somewhere else instead?"
+      }
+    ]
   },
   {
     "id": "GR_D66_KENENG",
@@ -3943,7 +4695,19 @@
     ],
     "repair_feedback": {
       "word_order": "可能 + 句子 / 可能會 + 動詞"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "我可能不能去。",
+        "pinyin": "Wǒ kěnéng bù néng qù.",
+        "translation_en": "I might not be able to go."
+      },
+      {
+        "text": "他可能會遲到。",
+        "pinyin": "Tā kěnéng huì chídào.",
+        "translation_en": "He might be late."
+      }
+    ]
   },
   {
     "id": "GR_D67_SUIRAN_KESHI",
@@ -4015,7 +4779,24 @@
     ],
     "repair_feedback": {
       "word_order": "雖然 + 讓步，可是 + 轉折"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "雖然今天很冷，但是我還是想去公園散步。",
+        "pinyin": "Suīrán jīntiān hěn lěng, dànshì wǒ háishì xiǎng qù gōngyuán sànbù.",
+        "translation_en": "Although it's very cold today, I still want to go for a walk in the park."
+      },
+      {
+        "text": "雖然這家餐廳很貴，但是他們的牛肉麵真的很好吃。",
+        "pinyin": "Suīrán zhè jiā cāntīng hěn guì, dànshì tāmen de niúròumiàn zhēn de hěn hǎochī.",
+        "translation_en": "Although this restaurant is expensive, their beef noodles are really delicious."
+      },
+      {
+        "text": "雖然他工作很忙，但是他每天都會打電話給媽媽。",
+        "pinyin": "Suīrán tā gōngzuò hěn máng, dànshì tā měitiān dōu huì dǎ diànhuà gěi māma.",
+        "translation_en": "Although he is very busy with work, he calls his mother every day."
+      }
+    ]
   },
   {
     "id": "GR_D67_DANSHI_REVIEW",
@@ -4080,7 +4861,19 @@
     "repair_feedback": {
       "word_order": "句子A，可是 + 句子B",
       "vs_haishi": "'可是'=but，'還是'=still"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "我想去，可是太遠了。",
+        "pinyin": "Wǒ xiǎng qù, kěshì tài yuǎn le.",
+        "translation_en": "I want to go, but it's too far."
+      },
+      {
+        "text": "這件衣服很好看，但是太貴了。",
+        "pinyin": "Zhè jiàn yīfu hěn hǎokàn, dànshì tài guì le.",
+        "translation_en": "These clothes look great, but they're too expensive."
+      }
+    ]
   },
   {
     "id": "GR_D67_HAI_SHI_STILL",
@@ -4145,7 +4938,19 @@
     "repair_feedback": {
       "word_order": "主語 + 還是 + 動詞",
       "vs_huozhe": "'還是'=still，'或者'=or"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "雖然很累，我還是想去。",
+        "pinyin": "Suīrán hěn lèi, wǒ háishì xiǎng qù.",
+        "translation_en": "Although I'm tired, I still want to go."
+      },
+      {
+        "text": "我還是覺得這個比較好。",
+        "pinyin": "Wǒ háishì juéde zhège bǐjiào hǎo.",
+        "translation_en": "I still think this one is better."
+      }
+    ]
   },
   {
     "id": "GR_D68_LAI_QU",
@@ -4215,7 +5020,24 @@
     ],
     "repair_feedback": {
       "word_order": "動詞 + 來（向我）/ 動詞 + 去（離我）"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "請你走進來。",
+        "pinyin": "Qǐng nǐ zǒu jìnlái.",
+        "translation_en": "Please walk in."
+      },
+      {
+        "text": "他跑出去了。",
+        "pinyin": "Tā pǎo chūqù le.",
+        "translation_en": "He ran out."
+      },
+      {
+        "text": "請你帶咖啡上去。",
+        "pinyin": "Qǐng nǐ dài kāfēi shàngqù.",
+        "translation_en": "Please bring the coffee up."
+      }
+    ]
   },
   {
     "id": "GR_D68_JIN_CHU",
@@ -4279,7 +5101,19 @@
     ],
     "repair_feedback": {
       "word_order": "動詞 + 進/出 + 來/去"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "他走進教室裡面。",
+        "pinyin": "Tā zǒu jìn jiàoshì lǐmiàn.",
+        "translation_en": "He walked into the classroom."
+      },
+      {
+        "text": "我們把書拿出來。",
+        "pinyin": "Wǒmen bǎ shū ná chūlái.",
+        "translation_en": "We take the book out."
+      }
+    ]
   },
   {
     "id": "GR_D68_SHANG_XIA",
@@ -4344,7 +5178,19 @@
     "repair_feedback": {
       "word_order": "動詞 + 上/下 + 來/去",
       "vehicle": "上車/下車不用來/去"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "請你上來。",
+        "pinyin": "Qǐng nǐ shànglái.",
+        "translation_en": "Please come up."
+      },
+      {
+        "text": "他下去了。",
+        "pinyin": "Tā xiàqù le.",
+        "translation_en": "He went down."
+      }
+    ]
   },
   {
     "id": "GR_D69_DAI_LAI_DAI_QU",
@@ -4415,7 +5261,24 @@
     "repair_feedback": {
       "word_order": "帶 + 受詞 + 來/去",
       "vs_na": "'帶'=bring/take along，'拿'=hold/carry"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "請你帶護照來。",
+        "pinyin": "Qǐng nǐ dài hùzhào lái.",
+        "translation_en": "Please bring your passport."
+      },
+      {
+        "text": "我帶你去醫院。",
+        "pinyin": "Wǒ dài nǐ qù yīyuàn.",
+        "translation_en": "I'll take you to the hospital."
+      },
+      {
+        "text": "他帶了禮物來。",
+        "pinyin": "Tā dài le lǐwù lái.",
+        "translation_en": "He brought a gift."
+      }
+    ]
   },
   {
     "id": "GR_D69_HUI_LAI_HUI_QU",
@@ -4479,7 +5342,19 @@
     "repair_feedback": {
       "word_order": "回 + 來/去",
       "vs_huijia": "'回來'=come back HERE，'回家'=go home"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "他什麼時候回來？",
+        "pinyin": "Tā shénme shíhou huílái?",
+        "translation_en": "When is he coming back?"
+      },
+      {
+        "text": "我要回去了。",
+        "pinyin": "Wǒ yào huíqù le.",
+        "translation_en": "I'm going back now."
+      }
+    ]
   },
   {
     "id": "GR_D69_NA_LAI_NA_QU",
@@ -4542,7 +5417,19 @@
     ],
     "repair_feedback": {
       "word_order": "拿 + 受詞 + 來/去"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "把那個拿來給我。",
+        "pinyin": "Bǎ nà ge ná lái gěi wǒ.",
+        "translation_en": "Bring that over to me."
+      },
+      {
+        "text": "把垃圾拿去丟。",
+        "pinyin": "Bǎ lèsè ná qù diū.",
+        "translation_en": "Take the trash out (to throw away)."
+      }
+    ]
   },
   {
     "id": "GR_D70_REVIEW_PROBLEM_SOLVING",
@@ -4660,7 +5547,24 @@
     "repair_feedback": {
       "word_order": "在 + 地方 + 上班/工作",
       "vs_gongzuo": "'上班'=go to work，'工作'=work (general)"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "我在科技公司上班。",
+        "pinyin": "Wǒ zài kējì gōngsī shàngbān.",
+        "translation_en": "I work at a tech company."
+      },
+      {
+        "text": "他在醫院工作。",
+        "pinyin": "Tā zài yīyuàn gōngzuò.",
+        "translation_en": "He works at a hospital."
+      },
+      {
+        "text": "你在哪裡上班？",
+        "pinyin": "Nǐ zài nǎlǐ shàngbān?",
+        "translation_en": "Where do you work?"
+      }
+    ]
   },
   {
     "id": "GR_D71_DANG_ROLE",
@@ -4725,7 +5629,19 @@
     "repair_feedback": {
       "word_order": "當 + 職業",
       "vs_shi": "'當'=serve as，'是'=is"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "他當老師。",
+        "pinyin": "Tā dāng lǎoshī.",
+        "translation_en": "He works as a teacher."
+      },
+      {
+        "text": "我姐姐當護士。",
+        "pinyin": "Wǒ jiějie dāng hùshì.",
+        "translation_en": "My older sister works as a nurse."
+      }
+    ]
   },
   {
     "id": "GR_D71_MANG_BU_MANG",
@@ -4789,7 +5705,19 @@
     "repair_feedback": {
       "word_order": "主語 + 忙不忙？",
       "no_shi": "不要加 '是'"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "你最近忙不忙？",
+        "pinyin": "Nǐ zuìjìn máng bù máng?",
+        "translation_en": "Have you been busy lately?"
+      },
+      {
+        "text": "他工作很忙。",
+        "pinyin": "Tā gōngzuò hěn máng.",
+        "translation_en": "He is very busy with work."
+      }
+    ]
   },
   {
     "id": "GR_D72_YAO_FINISH",
@@ -4860,7 +5788,24 @@
     ],
     "repair_feedback": {
       "word_order": "快要/就要 + 動詞 + 了"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "我快做好了。",
+        "pinyin": "Wǒ kuài zuò hǎo le.",
+        "translation_en": "I'm almost done."
+      },
+      {
+        "text": "快要下班了。",
+        "pinyin": "Kuài yào xiàbān le.",
+        "translation_en": "It's almost time to get off work."
+      },
+      {
+        "text": "會快開完了。",
+        "pinyin": "Huì kuài kāi wán le.",
+        "translation_en": "The meeting is almost over."
+      }
+    ]
   },
   {
     "id": "GR_D72_ZAI_KAIHUI",
@@ -4925,7 +5870,19 @@
     "repair_feedback": {
       "word_order": "在 + 開會",
       "vs_huiyi": "'開會'=have a meeting，'會議'=meeting (noun)"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "他在開會，不方便接電話。",
+        "pinyin": "Tā zài kāihuì, bù fāngbiàn jiē diànhuà.",
+        "translation_en": "He's in a meeting and can't take a call right now."
+      },
+      {
+        "text": "我們下午三點要開會。",
+        "pinyin": "Wǒmen xiàwǔ sān diǎn yào kāihuì.",
+        "translation_en": "We have a meeting at 3 PM."
+      }
+    ]
   },
   {
     "id": "GR_D72_HAI_MEI_FINISH",
@@ -4990,7 +5947,19 @@
     "repair_feedback": {
       "word_order": "主語 + 還沒 + 動詞",
       "vs_meiyou": "'還沒'=not yet，'沒有'=didn't"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "我還沒做完。",
+        "pinyin": "Wǒ hái méi zuò wán.",
+        "translation_en": "I haven't finished yet."
+      },
+      {
+        "text": "他還沒來。",
+        "pinyin": "Tā hái méi lái.",
+        "translation_en": "He hasn't come yet."
+      }
+    ]
   },
   {
     "id": "GR_D73_WO_JUEDE",
@@ -5062,7 +6031,24 @@
     "repair_feedback": {
       "word_order": "主語 + 覺得 + 句子",
       "vs_renwei": "'覺得'=feel/think (casual)，'認為'=believe (formal)"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "我覺得這家餐廳不錯。",
+        "pinyin": "Wǒ juéde zhè jiā cāntīng búcuò.",
+        "translation_en": "I think this restaurant is not bad."
+      },
+      {
+        "text": "你覺得怎麼樣？",
+        "pinyin": "Nǐ juéde zěnme yàng?",
+        "translation_en": "What do you think?"
+      },
+      {
+        "text": "他覺得中文很難。",
+        "pinyin": "Tā juéde Zhōngwén hěn nán.",
+        "translation_en": "He thinks Chinese is difficult."
+      }
+    ]
   },
   {
     "id": "GR_D73_WO_RENWEI_INTRO",
@@ -5127,7 +6113,19 @@
     "repair_feedback": {
       "word_order": "主語 + 認為 + 句子",
       "formality": "開會用 '認為'，聊天用 '覺得'"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "我認為這個方法比較好。",
+        "pinyin": "Wǒ rènwéi zhège fāngfǎ bǐjiào hǎo.",
+        "translation_en": "I believe this method is better."
+      },
+      {
+        "text": "很多人認為學習中文很重要。",
+        "pinyin": "Hěn duō rén rènwéi xuéxí Zhōngwén hěn zhòngyào.",
+        "translation_en": "Many people believe that learning Chinese is very important."
+      }
+    ]
   },
   {
     "id": "GR_D73_BU_YIDING",
@@ -5192,7 +6190,19 @@
     "repair_feedback": {
       "word_order": "主語 + 不一定 + 句子",
       "vs_yidingbu": "'不一定'=not necessarily，'一定不'=definitely not"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "貴的東西不一定好吃。",
+        "pinyin": "Guì de dōngxi bù yīdìng hǎochī.",
+        "translation_en": "Expensive things are not necessarily delicious."
+      },
+      {
+        "text": "他不一定會來。",
+        "pinyin": "Tā bù yīdìng huì lái.",
+        "translation_en": "He might not come (it's not certain)."
+      }
+    ]
   },
   {
     "id": "GR_D74_BIJING",
@@ -5263,7 +6273,24 @@
     "repair_feedback": {
       "word_order": "畢竟 + 根本原因",
       "usage": "'畢竟'=after all，用在最重要的原因"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "畢竟我們是朋友，應該互相幫忙。",
+        "pinyin": "Bìjìng wǒmen shì péngyou, yīnggāi hùxiāng bāngmáng.",
+        "translation_en": "After all, we're friends; we should help each other."
+      },
+      {
+        "text": "畢竟他剛來，還不太熟悉環境。",
+        "pinyin": "Bìjìng tā gāng lái, hái bú tài shúxī huánjìng.",
+        "translation_en": "After all, he just arrived and isn't very familiar with the environment yet."
+      },
+      {
+        "text": "畢竟中文不是我的母語，所以有時候會犯錯。",
+        "pinyin": "Bìjìng Zhōngwén bú shì wǒ de mǔyǔ, suǒyǐ yǒu shíhou huì fàncuò.",
+        "translation_en": "After all, Chinese is not my native language, so sometimes I make mistakes."
+      }
+    ]
   },
   {
     "id": "GR_D74_LIRU",
@@ -5327,7 +6354,19 @@
     "repair_feedback": {
       "word_order": "陳述，比如 + 例子",
       "formality": "'比如'=casual，'例如'=formal"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "我喜歡吃臺灣小吃，比如滷肉飯、蚵仔煎。",
+        "pinyin": "Wǒ xǐhuān chī Táiwān xiǎochī, bǐrú lǔròufàn, ézǐjiān.",
+        "translation_en": "I like eating Taiwanese snacks, for example braised pork rice and oyster omelet."
+      },
+      {
+        "text": "很多國家都有類似的問題，例如日本和韓國。",
+        "pinyin": "Hěn duō guójiā dōu yǒu lèisì de wèntí, lìrú Rìběn hé Hánguó.",
+        "translation_en": "Many countries have similar problems, for example Japan and Korea."
+      }
+    ]
   },
   {
     "id": "GR_D74_SUOYI_CONCLUSION",
@@ -5391,7 +6430,19 @@
     ],
     "repair_feedback": {
       "word_order": "原因，所以 + 結論"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "我覺得太貴了，所以沒買。",
+        "pinyin": "Wǒ juéde tài guì le, suǒyǐ méi mǎi.",
+        "translation_en": "I thought it was too expensive, so I didn't buy it."
+      },
+      {
+        "text": "他很努力學習，所以進步很快。",
+        "pinyin": "Tā hěn nǔlì xuéxí, suǒyǐ jìnbù hěn kuài.",
+        "translation_en": "He studies very hard, so he improves quickly."
+      }
+    ]
   },
   {
     "id": "GR_D75_ASSESSMENT_REVIEW",
@@ -5511,7 +6562,24 @@
     ],
     "repair_feedback": {
       "word_order": "本來 + 原計畫，可是後來 + 變化，結果 + 結局"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "我本來想買那個包包，可是後來覺得太貴了，結果沒買。",
+        "pinyin": "Wǒ běnlái xiǎng mǎi nà ge bāobāo, kěshì hòulái juéde tài guì le, jiéguǒ méi mǎi.",
+        "translation_en": "I originally wanted to buy that bag, but later I thought it was too expensive, so in the end I didn't buy it."
+      },
+      {
+        "text": "他本來打算去公園散步，可是後來突然下雨了，結果他待在家裡。",
+        "pinyin": "Tā běnlái dǎsuàn qù gōngyuán sànbù, kěshì hòulái túrán xià yǔ le, jiéguǒ tā dāi zài jiā lǐ.",
+        "translation_en": "He originally planned to go for a walk in the park, but later it suddenly rained, so he ended up staying at home."
+      },
+      {
+        "text": "我本來想吃牛肉麵，可是後來發現那家餐廳已經關門了，結果我去吃水餃。",
+        "pinyin": "Wǒ běnlái xiǎng chī niúròu miàn, kěshì hòulái fāxiàn nà jiā cāntīng yǐjīng guān mén le, jiéguǒ wǒ qù chī shuǐjiǎo.",
+        "translation_en": "I originally wanted to eat beef noodles, but later I found out that restaurant was already closed, so I went to eat dumplings instead."
+      }
+    ]
   },
   {
     "id": "GR_D76_YINWEI_RESULT",
@@ -5576,7 +6644,19 @@
     ],
     "repair_feedback": {
       "word_order": "因為 + 原因，結果 + 意外結局"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "我本來覺得今天心情不好，可是後來遇到一個老朋友，結果很開心。",
+        "pinyin": "Wǒ běnlái juéde jīntiān xīnqíng bù hǎo, kěshì hòulái yù dào yī ge lǎo péngyou, jiéguǒ hěn kāixīn.",
+        "translation_en": "I originally felt in a bad mood today, but later I ran into an old friend, and in the end I was very happy."
+      },
+      {
+        "text": "他本來想學中文，可是後來覺得太難了，結果他放棄了。",
+        "pinyin": "Tā běnlái xiǎng xué zhōngwén, kěshì hòulái juéde tài nán le, jiéguǒ tā fàngqì le.",
+        "translation_en": "He originally wanted to learn Chinese, but later he thought it was too difficult, so he gave up."
+      }
+    ]
   },
   {
     "id": "GR_D76_FEELING_AFTER_EVENT",
@@ -5637,7 +6717,14 @@
     "repair_feedback": {
       "word_order": "事件，結果/所以 + 我覺得 + 感受",
       "no_shi": "不要說 '我是開心'"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "我本來覺得今天心情不好，可是後來遇到一個老朋友，結果很開心。",
+        "pinyin": "Wǒ běnlái juéde jīntiān xīnqíng bù hǎo, kěshì hòulái yù dào yī ge lǎo péngyou, jiéguǒ hěn kāixīn.",
+        "translation_en": "I originally felt in a bad mood today, but later I ran into an old friend, and in the end I was very happy."
+      }
+    ]
   },
   {
     "id": "GR_D77_RANHOU_NE",
@@ -5703,7 +6790,19 @@
     "repair_feedback": {
       "usage": "'然後呢？'=and then? (showing interest)",
       "tone": "語調上揚表示好奇，下降表示不耐煩"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "我昨天去了一個很有趣的地方。",
+        "pinyin": "Wǒ zuótiān qù le yī ge hěn yǒuqù de dìfāng.",
+        "translation_en": "I went to a very interesting place yesterday."
+      },
+      {
+        "text": "然後呢？",
+        "pinyin": "Ránhòu ne?",
+        "translation_en": "And then?"
+      }
+    ]
   },
   {
     "id": "GR_D77_HOU_LAI",
@@ -5767,7 +6866,19 @@
     "repair_feedback": {
       "word_order": "後來 + 句子",
       "vs_yihou": "'後來'=later (past)，'以後'=after (future)"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "後來我才知道他已經離開了。",
+        "pinyin": "Hòulái wǒ cái zhīdào tā yǐjīng líkāi le.",
+        "translation_en": "Only later did I find out that he had already left."
+      },
+      {
+        "text": "後來發生了很多事情。",
+        "pinyin": "Hòulái fāshēng le hěn duō shìqing.",
+        "translation_en": "Later, many things happened."
+      }
+    ]
   },
   {
     "id": "GR_D77_NI_DE_YISI_SHI",
@@ -5831,7 +6942,19 @@
     "repair_feedback": {
       "word_order": "你的意思是 + 理解 + ？",
       "politeness": "比 '什麼？' 禮貌很多"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "你的意思是我們要改時間嗎？",
+        "pinyin": "Nǐ de yìsi shì wǒmen yào gǎi shíjiān ma?",
+        "translation_en": "Do you mean we need to change the time?"
+      },
+      {
+        "text": "你是說他不會來了？",
+        "pinyin": "Nǐ shì shuō tā bú huì lái le?",
+        "translation_en": "Are you saying he's not coming?"
+      }
+    ]
   },
   {
     "id": "GR_D78_NAGE_FILLER",
@@ -5897,7 +7020,19 @@
     "repair_feedback": {
       "usage": "思考停頓時用，不要太頻繁",
       "pronunciation": "口語常發音成 'nèige'"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "那個...我想問你一個問題。",
+        "pinyin": "Nèige... wǒ xiǎng wèn nǐ yī ge wèntí.",
+        "translation_en": "Um... I want to ask you a question."
+      },
+      {
+        "text": "那個...我不知道該怎麼說。",
+        "pinyin": "Nèige... wǒ bù zhīdào gāi zěnme shuō.",
+        "translation_en": "Um... I don't know how to say it."
+      }
+    ]
   },
   {
     "id": "GR_D78_DUI_DUI_DUI",
@@ -5961,7 +7096,19 @@
     "repair_feedback": {
       "usage": "三個 '對'=非常同意",
       "formality": "朋友之間用，正式場合用 '是的'"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "對對對！我也是這樣想。",
+        "pinyin": "Duì duì duì! Wǒ yě shì zhèyàng xiǎng.",
+        "translation_en": "Yes yes yes! I think so too."
+      },
+      {
+        "text": "對對對，你說得沒錯。",
+        "pinyin": "Duì duì duì, nǐ shuō de méi cuò.",
+        "translation_en": "Exactly, you're absolutely right."
+      }
+    ]
   },
   {
     "id": "GR_D78_WO_SHI_SHUO",
@@ -6025,7 +7172,19 @@
     "repair_feedback": {
       "word_order": "我是說 + 澄清",
       "usage": "用於修正而非否認"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "我是說，我們可以明天再去。",
+        "pinyin": "Wǒ shì shuō, wǒmen kěyǐ míngtiān zài qù.",
+        "translation_en": "I mean, we can go again tomorrow."
+      },
+      {
+        "text": "我的意思是，不是現在。",
+        "pinyin": "Wǒ de yìsi shì, bú shì xiànzài.",
+        "translation_en": "What I mean is, not now."
+      }
+    ]
   },
   {
     "id": "GR_D79_QING_ZAI_SHUO_YI_CI",
@@ -6097,7 +7256,24 @@
     ],
     "repair_feedback": {
       "politeness": "一定要加 '不好意思' 或 '可以...嗎？'"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "不好意思，可以再說一次嗎？",
+        "pinyin": "Bù hǎo yìsi, kěyǐ zài shuō yī cì ma?",
+        "translation_en": "Excuse me, could you say that again?"
+      },
+      {
+        "text": "請再說一次，我沒聽清楚。",
+        "pinyin": "Qǐng zài shuō yī cì, wǒ méi tīng qīngchu.",
+        "translation_en": "Please say it again; I didn't hear clearly."
+      },
+      {
+        "text": "可以再說一次嗎？太快了。",
+        "pinyin": "Kěyǐ zài shuō yī cì ma? Tài kuài le.",
+        "translation_en": "Could you say it again? It was too fast."
+      }
+    ]
   },
   {
     "id": "GR_D79_MAN_YI_DIAN",
@@ -6162,7 +7338,19 @@
     "repair_feedback": {
       "word_order": "說 + 慢一點",
       "politeness": "說 '可以說慢一點嗎' 而非 '太慢了'"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "不好意思，可以說慢一點嗎？",
+        "pinyin": "Bù hǎo yìsi, kěyǐ shuō màn yīdiǎn ma?",
+        "translation_en": "Excuse me, could you speak a little slower?"
+      },
+      {
+        "text": "請你說慢一點，我的中文不太好。",
+        "pinyin": "Qǐng nǐ shuō màn yīdiǎn, wǒ de Zhōngwén bú tài hǎo.",
+        "translation_en": "Please speak a little slower; my Chinese isn't very good."
+      }
+    ]
   },
   {
     "id": "GR_D79_SHI_BU_SHI_MEAN",
@@ -6225,7 +7413,19 @@
     ],
     "repair_feedback": {
       "word_order": "陳述 + 是不是？"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "你的意思是明天不用來，是不是？",
+        "pinyin": "Nǐ de yìsi shì míngtiān bú yòng lái, shì bú shì?",
+        "translation_en": "You mean we don't need to come tomorrow, right?"
+      },
+      {
+        "text": "是不是這個意思？",
+        "pinyin": "Shì bú shì zhège yìsi?",
+        "translation_en": "Is that what it means?"
+      }
+    ]
   },
   {
     "id": "GR_D80_QING_DO",
@@ -6295,7 +7495,24 @@
     ],
     "repair_feedback": {
       "formality": "標誌用 '請' 和 '請勿'，不用 '不要'"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "請排隊。",
+        "pinyin": "Qǐng páiduì.",
+        "translation_en": "Please line up."
+      },
+      {
+        "text": "請勿吸煙。",
+        "pinyin": "Qǐng wù xīyān.",
+        "translation_en": "Please do not smoke."
+      },
+      {
+        "text": "請隨手關門。",
+        "pinyin": "Qǐng suíshǒu guān mén.",
+        "translation_en": "Please close the door behind you."
+      }
+    ]
   },
   {
     "id": "GR_D80_BU_KE",
@@ -6358,7 +7575,19 @@
     ],
     "repair_feedback": {
       "strength": "'禁止'=strictly prohibited，'請勿'=please don't"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "禁止停車。",
+        "pinyin": "Jìnzhǐ tíngchē.",
+        "translation_en": "No parking."
+      },
+      {
+        "text": "不可拍照。",
+        "pinyin": "Bù kě pāizhào.",
+        "translation_en": "No photography."
+      }
+    ]
   },
   {
     "id": "GR_D80_NOTICE_STYLE",
@@ -6420,7 +7649,19 @@
     ],
     "repair_feedback": {
       "style": "標誌=簡短、直接，常用 '請' 和 '禁止'"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "請勿踐踏草地。",
+        "pinyin": "Qǐng wù jiàntà cǎodì.",
+        "translation_en": "Please keep off the grass."
+      },
+      {
+        "text": "禁止進入。",
+        "pinyin": "Jìnzhǐ jìnrù.",
+        "translation_en": "No entry."
+      }
+    ]
   },
   {
     "id": "GR_D81_WEI_PHONE",
@@ -6491,7 +7732,24 @@
     "repair_feedback": {
       "usage": "'喂' 只在電話中使用",
       "tone": "語調上揚=等待回應，下降=確認"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "喂？你好。",
+        "pinyin": "Wéi? Nǐ hǎo.",
+        "translation_en": "Hello? Hi."
+      },
+      {
+        "text": "喂，請問是王先生嗎？",
+        "pinyin": "Wéi, qǐngwèn shì Wáng xiānsheng ma?",
+        "translation_en": "Hello, is this Mr. Wang?"
+      },
+      {
+        "text": "喂？我聽不到。",
+        "pinyin": "Wéi? Wǒ tīng bú dào.",
+        "translation_en": "Hello? I can't hear you."
+      }
+    ]
   },
   {
     "id": "GR_D81_QING_WEN_CALL",
@@ -6555,7 +7813,19 @@
     ],
     "repair_feedback": {
       "politeness": "打電話一定要先說 '請問' 再找人"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "請問王先生在嗎？",
+        "pinyin": "Qǐngwèn Wáng xiānsheng zài ma?",
+        "translation_en": "Is Mr. Wang there?"
+      },
+      {
+        "text": "請問李小姐在嗎？",
+        "pinyin": "Qǐngwèn Lǐ xiǎojiě zài ma?",
+        "translation_en": "Is Miss Li there?"
+      }
+    ]
   },
   {
     "id": "GR_D81_WO_XIANG_YAO_CALL",
@@ -6619,7 +7889,19 @@
     "repair_feedback": {
       "word_order": "我想找 + 人",
       "usage": "'找' on phone = 'speak with'"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "我想找王先生。",
+        "pinyin": "Wǒ xiǎng zhǎo Wáng xiānsheng.",
+        "translation_en": "I'd like to speak with Mr. Wang."
+      },
+      {
+        "text": "我想找客服人員。",
+        "pinyin": "Wǒ xiǎng zhǎo kèfú rényuán.",
+        "translation_en": "I'd like to speak with a customer service representative."
+      }
+    ]
   },
   {
     "id": "GR_D82_MESSAGE_ELLIPSIS",
@@ -6688,7 +7970,24 @@
     ],
     "repair_feedback": {
       "style": "訊息可以省略主語，但要清楚"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "知道了，謝謝！",
+        "pinyin": "Zhīdào le, xièxie!",
+        "translation_en": "Got it, thanks!"
+      },
+      {
+        "text": "收到了。",
+        "pinyin": "Shōudào le.",
+        "translation_en": "Received."
+      },
+      {
+        "text": "好，沒問題。",
+        "pinyin": "Hǎo, méi wèntí.",
+        "translation_en": "OK, no problem."
+      }
+    ]
   },
   {
     "id": "GR_D82_SHORT_CONFIRM",
@@ -6750,7 +8049,19 @@
     ],
     "repair_feedback": {
       "usage": "'好'=OK (casual)，'沒問題'=no problem，'了解'=understood (formal)"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "好，就這樣。",
+        "pinyin": "Hǎo, jiù zhèyàng.",
+        "translation_en": "OK, that's settled."
+      },
+      {
+        "text": "沒問題，交給我。",
+        "pinyin": "Méi wèntí, jiāo gěi wǒ.",
+        "translation_en": "No problem, leave it to me."
+      }
+    ]
   },
   {
     "id": "GR_D82_BUHAOYISI_MESSAGE",
@@ -6813,7 +8124,19 @@
     ],
     "repair_feedback": {
       "word_order": "不好意思/抱歉 + 說明"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "不好意思，現在才回你。",
+        "pinyin": "Bù hǎo yìsi, xiànzài cái huí nǐ.",
+        "translation_en": "Sorry, just replying to you now."
+      },
+      {
+        "text": "抱歉，明天不能去了。",
+        "pinyin": "Bàoqiàn, míngtiān bù néng qù le.",
+        "translation_en": "Sorry, I can't go tomorrow."
+      }
+    ]
   },
   {
     "id": "GR_D83_BU_RAN",
@@ -6879,7 +8202,19 @@
     ],
     "repair_feedback": {
       "word_order": "陳述，不然 + 替代建議"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "那家可能很多人，不然我們換一家？",
+        "pinyin": "Nà jiā kěnéng hěn duō rén, bùrán wǒmen huàn yī jiā?",
+        "translation_en": "That place might be crowded; how about we switch to a different one?"
+      },
+      {
+        "text": "這個有點貴，不然買那個？",
+        "pinyin": "Zhège yǒudiǎn guì, bùrán mǎi nà ge?",
+        "translation_en": "This is a bit expensive; how about buying that one?"
+      }
+    ]
   },
   {
     "id": "GR_D83_YAOBU",
@@ -6942,7 +8277,19 @@
     ],
     "repair_feedback": {
       "usage": "'要不'=how about (casual)，'要不要'=do you want"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "要不我們去吃飯？",
+        "pinyin": "Yàobù wǒmen qù chī fàn?",
+        "translation_en": "How about we go eat?"
+      },
+      {
+        "text": "要不明天再說？",
+        "pinyin": "Yàobù míngtiān zài shuō?",
+        "translation_en": "How about we talk about it tomorrow?"
+      }
+    ]
   },
   {
     "id": "GR_D83_JIU_ZHE_YANG",
@@ -7006,7 +8353,19 @@
     "repair_feedback": {
       "word_order": "那就這樣 + 吧/了",
       "softener": "一定要加 '吧' 或 '了'"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "好，那就這樣吧。",
+        "pinyin": "Hǎo, nà jiù zhèyàng ba.",
+        "translation_en": "OK, let's go with that then."
+      },
+      {
+        "text": "我們就這樣決定了。",
+        "pinyin": "Wǒmen jiù zhèyàng juédìng le.",
+        "translation_en": "We've decided on this then."
+      }
+    ]
   },
   {
     "id": "GR_D84_LAI_TAIWAN_DUOJIU",
@@ -7079,7 +8438,24 @@
     ],
     "repair_feedback": {
       "word_order": "來 + 地方 + 多久 + 了"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "你來台灣多久了？",
+        "pinyin": "Nǐ lái Táiwān duō jiǔ le?",
+        "translation_en": "How long have you been in Taiwan?"
+      },
+      {
+        "text": "我來台灣三年了。",
+        "pinyin": "Wǒ lái Táiwān sān nián le.",
+        "translation_en": "I've been in Taiwan for three years."
+      },
+      {
+        "text": "他來台北半年了。",
+        "pinyin": "Tā lái Táiběi bàn nián le.",
+        "translation_en": "He's been in Taipei for half a year."
+      }
+    ]
   },
   {
     "id": "GR_D84_WEILE",
@@ -7144,7 +8520,19 @@
     "repair_feedback": {
       "word_order": "為了 + 目的，+ 行動",
       "vs_yinwei": "'為了'=for the sake of，'因為'=because"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "為了學中文，我來到台灣。",
+        "pinyin": "Wèile xué Zhōngwén, wǒ lái dào Táiwān.",
+        "translation_en": "I came to Taiwan to learn Chinese."
+      },
+      {
+        "text": "為了家人，他決定換工作。",
+        "pinyin": "Wèile jiārén, tā juédìng huàn gōngzuò.",
+        "translation_en": "For the sake of his family, he decided to change jobs."
+      }
+    ]
   },
   {
     "id": "GR_D84_XUE_ZHONGWEN_GOAL",
@@ -7209,7 +8597,19 @@
     "repair_feedback": {
       "word_order": "在學 + 語言",
       "formality": "口語說 '在學中文'，不用 '學習'"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "我在學中文。",
+        "pinyin": "Wǒ zài xué Zhōngwén.",
+        "translation_en": "I'm learning Chinese."
+      },
+      {
+        "text": "我想學好中文。",
+        "pinyin": "Wǒ xiǎng xué hǎo Zhōngwén.",
+        "translation_en": "I want to learn Chinese well."
+      }
+    ]
   },
   {
     "id": "GR_D85_TOPIC_SHIFT",
@@ -7279,7 +8679,24 @@
     ],
     "repair_feedback": {
       "usage": "'對了'=by the way，用在相關但不同的話題"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "對了，你明天有空嗎？",
+        "pinyin": "Duì le, nǐ míngtiān yǒu kòng ma?",
+        "translation_en": "By the way, are you free tomorrow?"
+      },
+      {
+        "text": "對了，我差點忘了跟你說。",
+        "pinyin": "Duì le, wǒ chàdiǎn wàng le gēn nǐ shuō.",
+        "translation_en": "Oh, I almost forgot to tell you."
+      },
+      {
+        "text": "對了，你知道那家新開的餐廳嗎？",
+        "pinyin": "Duì le, nǐ zhīdào nà jiā xīn kāi de cāntīng ma?",
+        "translation_en": "By the way, do you know about that newly opened restaurant?"
+      }
+    ]
   },
   {
     "id": "GR_D85_NI_NE",
@@ -7342,7 +8759,19 @@
     ],
     "repair_feedback": {
       "usage": "答完後一定要反問，這是台灣對話習慣"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "我喜歡看電影，你呢？",
+        "pinyin": "Wǒ xǐhuān kàn diànyǐng, nǐ ne?",
+        "translation_en": "I like watching movies. And you?"
+      },
+      {
+        "text": "我吃飽了，你呢？",
+        "pinyin": "Wǒ chī bǎo le, nǐ ne?",
+        "translation_en": "I'm full. And you?"
+      }
+    ]
   },
   {
     "id": "GR_D85_SHUNBIAN_WEN",
@@ -7405,7 +8834,19 @@
     ],
     "repair_feedback": {
       "word_order": "順便 + 動詞 / 順便問一下 + 問題"
-    }
+    },
+    "drill_examples": [
+      {
+        "text": "順便問一下，你知道捷運站怎麼走嗎？",
+        "pinyin": "Shùnbiàn wèn yīxià, nǐ zhīdào jiéyùn zhàn zěnme zǒu ma?",
+        "translation_en": "While I'm asking, do you know how to get to the MRT station?"
+      },
+      {
+        "text": "你去超市的話，順便幫我買一瓶牛奶。",
+        "pinyin": "Nǐ qù chāoshì dehuà, shùnbiàn bāng wǒ mǎi yī píng niúnǎi.",
+        "translation_en": "If you're going to the supermarket, pick up a bottle of milk for me while you're there."
+      }
+    ]
   },
   {
     "id": "GR_D86_INTEGRATION_REVIEW",

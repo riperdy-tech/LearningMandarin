@@ -172,7 +172,7 @@
     "model_answer": "你好，我想要一杯小杯的拿鐵，可以嗎？",
     "model_pinyin": "Nǐ hǎo, wǒ xiǎng yào yī bēi xiǎo bēi de ná tiě, kě yǐ ma?",
     "model_translation_en": "Hello, I would like a small latte, okay?",
-    "related_sentence_id": "SEN_D31_031",
+    "related_sentence_id": "SEN_D31_001",
     "related_dialogue_id": "DLG_D31_01"
   },
   {
@@ -194,7 +194,7 @@
     "model_answer": "請問，可以幫我加珍珠嗎？",
     "model_pinyin": "Qǐng wèn, kě yǐ bāng wǒ jiā zhēn zhū ma?",
     "model_translation_en": "Excuse me, could you add boba for me?",
-    "related_sentence_id": "SEN_D31_035",
+    "related_sentence_id": "SEN_D31_004",
     "related_dialogue_id": "DLG_D31_03"
   },
   {
@@ -205,7 +205,7 @@
     "model_answer": "不好意思，可以再說一次嗎？我聽不懂。",
     "model_pinyin": "Bù hǎo yì si, kě yǐ zài shuō yī cì ma? Wǒ tīng bù dǒng.",
     "model_translation_en": "Excuse me, could you say it again? I didn't understand.",
-    "related_sentence_id": "SEN_D31_037",
+    "related_sentence_id": "SEN_D31_007",
     "related_dialogue_id": "DLG_D31_01"
   },
   {
@@ -227,7 +227,7 @@
     "model_answer": "我想要一杯小杯的拿鐵。",
     "model_pinyin": "Wǒ xiǎng yào yī bēi xiǎo bēi de ná tiě.",
     "model_translation_en": "I would like a small latte.",
-    "related_sentence_id": "SEN_D31_041",
+    "related_sentence_id": "SEN_D31_011",
     "related_dialogue_id": "DLG_D31_03"
   },
   {
@@ -282,7 +282,7 @@
     "model_answer": "不好意思，我想要一杯小杯的拿鐵。",
     "model_pinyin": "Bù hǎo yì si, wǒ xiǎng yào yī bēi xiǎo bēi de ná tiě.",
     "model_translation_en": "Excuse me, I would like a small latte.",
-    "related_sentence_id": "SEN_D31_051",
+    "related_sentence_id": "SEN_D31_021",
     "related_dialogue_id": "DLG_D31_02"
   },
   {
@@ -293,7 +293,7 @@
     "model_answer": "不好意思，請問這個價錢是多少？",
     "model_pinyin": "Bù hǎo yì si, qǐng wèn zhè ge jià qián shì duō shǎo?",
     "model_translation_en": "Excuse me, how much is this?",
-    "related_sentence_id": "SEN_D31_053",
+    "related_sentence_id": "SEN_D31_024",
     "related_dialogue_id": "DLG_D31_03"
   },
   {
@@ -315,7 +315,7 @@
     "model_answer": "不好意思，麻煩給我一個袋子。",
     "model_pinyin": "Bù hǎo yì si, má fan gěi wǒ yī ge dài zi.",
     "model_translation_en": "Excuse me, please give me a bag.",
-    "related_sentence_id": "SEN_D31_057",
+    "related_sentence_id": "SEN_D31_022",
     "related_dialogue_id": "DLG_D31_02"
   },
   {
@@ -568,7 +568,7 @@
     "model_answer": "我要用信用卡付款。",
     "model_pinyin": "Wǒ yào yòng xìnyòngkǎ fùkuǎn.",
     "model_translation_en": "I want to pay by credit card.",
-    "related_sentence_id": "SEN_D32_033",
+    "related_sentence_id": "SEN_D32_005",
     "related_dialogue_id": "DLG_D32_02"
   },
   {
@@ -601,7 +601,7 @@
     "model_answer": "我要用載具存發票。",
     "model_pinyin": "Wǒ yào yòng zàijù cún fāpiào.",
     "model_translation_en": "I want to store the receipt using the carrier (invoice carrier).",
-    "related_sentence_id": "SEN_D32_039",
+    "related_sentence_id": "SEN_D32_009",
     "related_dialogue_id": "DLG_D32_02"
   },
   {
@@ -722,7 +722,7 @@
     "model_answer": "我要一個塑膠袋。",
     "model_pinyin": "Wǒ yào yī ge sùjiāodài.",
     "model_translation_en": "I want one plastic bag.",
-    "related_sentence_id": "SEN_D32_061",
+    "related_sentence_id": "SEN_D32_031",
     "related_dialogue_id": "DLG_D32_01"
   },
   {
@@ -755,7 +755,7 @@
     "model_answer": "這個三明治有特價嗎？",
     "model_pinyin": "Zhège sānmíngzhì yǒu tèjià ma?",
     "model_translation_en": "Is this sandwich on sale?",
-    "related_sentence_id": "SEN_D32_067",
+    "related_sentence_id": "SEN_D32_006",
     "related_dialogue_id": "DLG_D32_01"
   },
   {
@@ -766,7 +766,7 @@
     "model_answer": "請幫我掃描這個條碼。",
     "model_pinyin": "Qǐng bāng wǒ sǎomiáo zhège tiáomǎ.",
     "model_translation_en": "Please scan this barcode for me.",
-    "related_sentence_id": "SEN_D32_069",
+    "related_sentence_id": "SEN_D32_004",
     "related_dialogue_id": "DLG_D32_02"
   },
   {
@@ -942,7 +942,7 @@
     "model_answer": "請問洗手間在電梯的旁邊嗎？",
     "model_pinyin": "Qǐngwèn xǐshǒujiān zài diàntī de pángbiān ma?",
     "model_translation_en": "Excuse me, is the restroom next to the elevator?",
-    "related_sentence_id": "SEN_D33_031",
+    "related_sentence_id": "SEN_D33_001",
     "related_dialogue_id": "DLG_D33_01"
   },
   {
@@ -997,7 +997,7 @@
     "model_answer": "請問洗手間在哪裡？",
     "model_pinyin": "Qǐngwèn xǐshǒujiān zài nǎlǐ?",
     "model_translation_en": "Excuse me, where is the restroom?",
-    "related_sentence_id": "SEN_D33_041",
+    "related_sentence_id": "SEN_D33_011",
     "related_dialogue_id": "DLG_D33_03"
   },
   {
@@ -1052,7 +1052,7 @@
     "model_answer": "請問洗手間從這裡到那裡怎麼走？",
     "model_pinyin": "Qǐngwèn xǐshǒujiān cóng zhèlǐ dào nàlǐ zěnme zǒu?",
     "model_translation_en": "Excuse me, how do I get from here to the restroom?",
-    "related_sentence_id": "SEN_D33_051",
+    "related_sentence_id": "SEN_D33_021",
     "related_dialogue_id": "DLG_D33_02"
   },
   {
@@ -1107,7 +1107,7 @@
     "model_answer": "請問洗手間在電梯的旁邊嗎？",
     "model_pinyin": "Qǐngwèn xǐshǒujiān zài diàntī de pángbiān ma?",
     "model_translation_en": "Excuse me, is the restroom next to the elevator?",
-    "related_sentence_id": "SEN_D33_061",
+    "related_sentence_id": "SEN_D33_001",
     "related_dialogue_id": "DLG_D33_01"
   },
   {
@@ -1118,7 +1118,7 @@
     "model_answer": "教室在二樓樓梯的右邊，不要走錯了。",
     "model_pinyin": "Jiàoshì zài èr lóu lóutī de yòubiān, bùyào zǒu cuò le.",
     "model_translation_en": "The classroom is on the second floor, to the right of the stairs; don't go the wrong way.",
-    "related_sentence_id": "SEN_D33_063",
+    "related_sentence_id": "SEN_D33_003",
     "related_dialogue_id": "DLG_D33_02"
   },
   {
@@ -1283,7 +1283,7 @@
     "model_answer": "你要喝珍珠奶茶嗎？",
     "model_pinyin": "Nǐ yào hē zhēnzhū nǎichá ma?",
     "model_translation_en": "Do you want to drink bubble tea?",
-    "related_sentence_id": "SEN_D34_031",
+    "related_sentence_id": "SEN_D34_001",
     "related_dialogue_id": "DLG_D34_03"
   },
   {
@@ -1294,7 +1294,7 @@
     "model_answer": "你要點牛肉麵嗎？",
     "model_pinyin": "Nǐ yào diǎn niúròumiàn ma?",
     "model_translation_en": "Do you want to order beef noodles?",
-    "related_sentence_id": "SEN_D34_033",
+    "related_sentence_id": "SEN_D34_003",
     "related_dialogue_id": "DLG_D34_01"
   },
   {
@@ -1305,7 +1305,7 @@
     "model_answer": "你要小菜嗎？",
     "model_pinyin": "Nǐ yào xiǎocài ma?",
     "model_translation_en": "Do you want some side dishes?",
-    "related_sentence_id": "SEN_D34_035",
+    "related_sentence_id": "SEN_D34_005",
     "related_dialogue_id": "DLG_D34_02"
   },
   {
@@ -1316,7 +1316,7 @@
     "model_answer": "你要喝熱湯嗎？",
     "model_pinyin": "Nǐ yào hē rè tāng ma?",
     "model_translation_en": "Do you want to drink hot soup?",
-    "related_sentence_id": "SEN_D34_037",
+    "related_sentence_id": "SEN_D34_006",
     "related_dialogue_id": "DLG_D34_03"
   },
   {
@@ -1338,7 +1338,7 @@
     "model_answer": "你要喝珍珠奶茶還是紅茶？",
     "model_pinyin": "Nǐ yào hē zhēnzhū nǎichá háishì hóngchá?",
     "model_translation_en": "Do you want to drink bubble tea or black tea?",
-    "related_sentence_id": "SEN_D34_041",
+    "related_sentence_id": "SEN_D34_011",
     "related_dialogue_id": "DLG_D34_02"
   },
   {
@@ -1349,7 +1349,7 @@
     "model_answer": "你要點水餃還是小菜？",
     "model_pinyin": "Nǐ yào diǎn shuǐjiǎo háishì xiǎocài?",
     "model_translation_en": "Do you want to order dumplings or side dishes?",
-    "related_sentence_id": "SEN_D34_043",
+    "related_sentence_id": "SEN_D34_013",
     "related_dialogue_id": "DLG_D34_03"
   },
   {
@@ -1382,7 +1382,7 @@
     "model_answer": "你要點主餐還是配菜？",
     "model_pinyin": "Nǐ yào diǎn zhǔcān háishì pèicài?",
     "model_translation_en": "Do you want to order a main dish or a side dish?",
-    "related_sentence_id": "SEN_D34_049",
+    "related_sentence_id": "SEN_D34_020",
     "related_dialogue_id": "DLG_D34_03"
   },
   {
@@ -1448,7 +1448,7 @@
     "model_answer": "你要喝珍珠奶茶嗎？",
     "model_pinyin": "Nǐ yào hē zhēnzhū nǎichá ma?",
     "model_translation_en": "Do you want to drink bubble tea?",
-    "related_sentence_id": "SEN_D34_061",
+    "related_sentence_id": "SEN_D34_001",
     "related_dialogue_id": "DLG_D34_03"
   },
   {
@@ -1459,7 +1459,7 @@
     "model_answer": "你要點牛肉麵嗎？",
     "model_pinyin": "Nǐ yào diǎn niúròumiàn ma?",
     "model_translation_en": "Do you want to order beef noodles?",
-    "related_sentence_id": "SEN_D34_063",
+    "related_sentence_id": "SEN_D34_003",
     "related_dialogue_id": "DLG_D34_01"
   },
   {
@@ -1470,7 +1470,7 @@
     "model_answer": "你要小菜嗎？",
     "model_pinyin": "Nǐ yào xiǎocài ma?",
     "model_translation_en": "Do you want some side dishes?",
-    "related_sentence_id": "SEN_D34_065",
+    "related_sentence_id": "SEN_D34_005",
     "related_dialogue_id": "DLG_D34_02"
   },
   {
@@ -1503,7 +1503,7 @@
     "model_answer": "你要喝珍珠奶茶還是紅茶？",
     "model_pinyin": "Nǐ yào hē zhēnzhū nǎichá háishì hóngchá?",
     "model_translation_en": "Do you want to drink bubble tea or black tea?",
-    "related_sentence_id": "SEN_D34_071",
+    "related_sentence_id": "SEN_D34_011",
     "related_dialogue_id": "DLG_D34_02"
   },
   {
@@ -1514,7 +1514,7 @@
     "model_answer": "你要點水餃還是小菜？",
     "model_pinyin": "Nǐ yào diǎn shuǐjiǎo háishì xiǎocài?",
     "model_translation_en": "Do you want to order dumplings or side dishes?",
-    "related_sentence_id": "SEN_D34_073",
+    "related_sentence_id": "SEN_D34_013",
     "related_dialogue_id": "DLG_D34_03"
   },
   {
@@ -1525,7 +1525,7 @@
     "model_answer": "你要點招牌牛肉麵還是滷肉飯？",
     "model_pinyin": "Nǐ yào diǎn zhāopái niúròu miàn háishì lǔròu fàn?",
     "model_translation_en": "Do you want to order the signature beef noodles or braised pork rice?",
-    "related_sentence_id": "SEN_D34_075",
+    "related_sentence_id": "SEN_D34_016",
     "related_dialogue_id": "DLG_D34_01"
   },
   {
@@ -1778,7 +1778,7 @@
     "model_answer": "可以不要辣嗎？",
     "model_pinyin": "Kěyǐ bù yào là ma?",
     "model_translation_en": "Can I have it without spice?",
-    "related_sentence_id": "SEN_D35_043",
+    "related_sentence_id": "SEN_D35_011",
     "related_dialogue_id": "DLG_D35_01"
   },
   {
@@ -1800,7 +1800,7 @@
     "model_answer": "可以重做一份嗎？",
     "model_pinyin": "Kěyǐ chóng zuò yī fèn ma?",
     "model_translation_en": "Can you remake one serving?",
-    "related_sentence_id": "SEN_D35_047",
+    "related_sentence_id": "SEN_D35_016",
     "related_dialogue_id": "DLG_D35_03"
   },
   {
@@ -2152,7 +2152,7 @@
     "model_answer": "我每天早上七點起床。",
     "model_pinyin": "Wǒ měitiān zǎoshang qī diǎn qǐchuáng.",
     "model_translation_en": "I get up at seven every morning.",
-    "related_sentence_id": "SEN_D36_041",
+    "related_sentence_id": "SEN_D36_011",
     "related_dialogue_id": "DLG_D36_03"
   },
   {
@@ -2163,7 +2163,7 @@
     "model_answer": "我們晚上八點看電視。",
     "model_pinyin": "Wǒmen wǎnshàng bā diǎn kàn diànshì.",
     "model_translation_en": "We watch TV at eight in the evening.",
-    "related_sentence_id": "SEN_D36_043",
+    "related_sentence_id": "SEN_D36_013",
     "related_dialogue_id": "DLG_D36_01"
   },
   {
@@ -2207,7 +2207,7 @@
     "model_answer": "我現在每天中午吃午餐。",
     "model_pinyin": "Wǒ xiànzài měitiān zhōngwǔ chī wǔcān.",
     "model_translation_en": "I now eat lunch every day at noon.",
-    "related_sentence_id": "SEN_D36_051",
+    "related_sentence_id": "SEN_D36_021",
     "related_dialogue_id": "DLG_D36_02"
   },
   {
@@ -2218,7 +2218,7 @@
     "model_answer": "我們現在早上七點起床。",
     "model_pinyin": "Wǒmen xiànzài zǎoshang qī diǎn qǐchuáng.",
     "model_translation_en": "We now get up at seven in the morning.",
-    "related_sentence_id": "SEN_D36_053",
+    "related_sentence_id": "SEN_D36_023",
     "related_dialogue_id": "DLG_D36_03"
   },
   {
@@ -2229,7 +2229,7 @@
     "model_answer": "我現在晚上十點睡覺。",
     "model_pinyin": "Wǒ xiànzài wǎnshàng shí diǎn shuìjiào.",
     "model_translation_en": "I now go to sleep at ten in the evening.",
-    "related_sentence_id": "SEN_D36_055",
+    "related_sentence_id": "SEN_D36_025",
     "related_dialogue_id": "DLG_D36_01"
   },
   {
@@ -2262,7 +2262,7 @@
     "model_answer": "我每天中午吃午餐。",
     "model_pinyin": "Wǒ měitiān zhōngwǔ chī wǔcān.",
     "model_translation_en": "I eat lunch every day at noon.",
-    "related_sentence_id": "SEN_D36_061",
+    "related_sentence_id": "SEN_D36_031",
     "related_dialogue_id": "DLG_D36_01"
   },
   {
@@ -2273,7 +2273,7 @@
     "model_answer": "我們每天上午上班。",
     "model_pinyin": "Wǒmen měitiān shàngwǔ shàngbān.",
     "model_translation_en": "We go to work every morning.",
-    "related_sentence_id": "SEN_D36_063",
+    "related_sentence_id": "SEN_D36_033",
     "related_dialogue_id": "DLG_D36_02"
   },
   {
@@ -2592,7 +2592,7 @@
     "model_answer": "你什麼時候有空？我們可以一起去喝咖啡。",
     "model_pinyin": "Nǐ shénme shíhòu yǒu kòng? Wǒmen kěyǐ yīqǐ qù hē kāfēi.",
     "model_translation_en": "When are you free? We can go drink coffee together.",
-    "related_sentence_id": "SEN_D37_051",
+    "related_sentence_id": "SEN_D37_021",
     "related_dialogue_id": "DLG_D37_02"
   },
   {
@@ -2614,7 +2614,7 @@
     "model_answer": "你什麼時候要見朋友？我們可以一起去喝咖啡聊天。",
     "model_pinyin": "Nǐ shénme shíhòu yào jiàn péngyǒu? Wǒmen kěyǐ yīqǐ qù hē kāfēi liáotiān.",
     "model_translation_en": "When are you meeting a friend? We can go drink coffee and chat together.",
-    "related_sentence_id": "SEN_D37_055",
+    "related_sentence_id": "SEN_D37_025",
     "related_dialogue_id": "DLG_D37_01"
   },
   {
@@ -2647,7 +2647,7 @@
     "model_answer": "我想約朋友一起去喝咖啡。",
     "model_pinyin": "Wǒ xiǎng yuē péngyǒu yīqǐ qù hē kāfēi.",
     "model_translation_en": "I want to make plans with a friend to go drink coffee together.",
-    "related_sentence_id": "SEN_D37_061",
+    "related_sentence_id": "SEN_D37_031",
     "related_dialogue_id": "DLG_D37_01"
   },
   {
@@ -2658,7 +2658,7 @@
     "model_answer": "他不想看電影，他想去逛街。",
     "model_pinyin": "Tā bù xiǎng kàn diànyǐng, tā xiǎng qù guàngjiē.",
     "model_translation_en": "He doesn't want to watch a movie; he wants to go shopping.",
-    "related_sentence_id": "SEN_D37_063",
+    "related_sentence_id": "SEN_D37_033",
     "related_dialogue_id": "DLG_D37_02"
   },
   {
@@ -2669,7 +2669,7 @@
     "model_answer": "你想約在哪裡見面？",
     "model_pinyin": "Nǐ xiǎng yuē zài nǎlǐ jiànmiàn?",
     "model_translation_en": "Where do you want to arrange to meet?",
-    "related_sentence_id": "SEN_D37_065",
+    "related_sentence_id": "SEN_D37_035",
     "related_dialogue_id": "DLG_D37_03"
   },
   {
@@ -2911,7 +2911,7 @@
     "model_answer": "你坐計程車去車站嗎？",
     "model_pinyin": "Nǐ zuò jìchéngchē qù chēzhàn ma?",
     "model_translation_en": "Are you taking a taxi to the station?",
-    "related_sentence_id": "SEN_D38_039",
+    "related_sentence_id": "SEN_D38_009",
     "related_dialogue_id": "DLG_D38_02"
   },
   {
@@ -2922,7 +2922,7 @@
     "model_answer": "從車站到醫院怎麼去？",
     "model_pinyin": "Cóng chēzhàn dào yīyuàn zěnme qù?",
     "model_translation_en": "How do I get from the station to the hospital?",
-    "related_sentence_id": "SEN_D38_041",
+    "related_sentence_id": "SEN_D38_011",
     "related_dialogue_id": "DLG_D38_03"
   },
   {
@@ -3252,7 +3252,7 @@
     "model_answer": "我坐過站了，現在要從紅線換到藍線。",
     "model_pinyin": "Wǒ zuò guò zhàn le, xiànzài yào cóng hóng xiàn huàn dào lán xiàn.",
     "model_translation_en": "I missed my stop, and now I need to transfer from the Red Line to the Blue Line.",
-    "related_sentence_id": "SEN_D39_031",
+    "related_sentence_id": "SEN_D39_001",
     "related_dialogue_id": "DLG_D39_01"
   },
   {
@@ -3362,7 +3362,7 @@
     "model_answer": "我還沒到車站，火車就開了。",
     "model_pinyin": "Wǒ hái méi dào chēzhàn, huǒchē jiù kāi le.",
     "model_translation_en": "I hadn't arrived at the station yet when the train left.",
-    "related_sentence_id": "SEN_D39_051",
+    "related_sentence_id": "SEN_D39_021",
     "related_dialogue_id": "DLG_D39_02"
   },
   {
@@ -3417,7 +3417,7 @@
     "model_answer": "我坐過站了，現在要從紅線換到藍線。",
     "model_pinyin": "Wǒ zuò guò zhàn le, xiànzài yào cóng hóng xiàn huàn dào lán xiàn.",
     "model_translation_en": "I missed my stop, now I need to transfer from the Red Line to the Blue Line.",
-    "related_sentence_id": "SEN_D39_061",
+    "related_sentence_id": "SEN_D39_001",
     "related_dialogue_id": "DLG_D39_01"
   },
   {
@@ -3692,7 +3692,7 @@
     "model_answer": "我的中文比他的中文流利。",
     "model_pinyin": "Wǒ de zhōngwén bǐ tā de zhōngwén liúlì.",
     "model_translation_en": "My Chinese is more fluent than his Chinese.",
-    "related_sentence_id": "SEN_D40_041",
+    "related_sentence_id": "SEN_D40_011",
     "related_dialogue_id": "DLG_D40_03"
   },
   {
@@ -3703,7 +3703,7 @@
     "model_answer": "今天的重點比昨天的重點多。",
     "model_pinyin": "Jīntiān de zhòngdiǎn bǐ zuótiān de zhòngdiǎn duō.",
     "model_translation_en": "Today's key points are more than yesterday's key points.",
-    "related_sentence_id": "SEN_D40_043",
+    "related_sentence_id": "SEN_D40_013",
     "related_dialogue_id": "DLG_D40_01"
   },
   {
@@ -3714,7 +3714,7 @@
     "model_answer": "這個答案比那個答案好。",
     "model_pinyin": "Zhège dá'àn bǐ nàge dá'àn hǎo.",
     "model_translation_en": "This answer is better than that answer.",
-    "related_sentence_id": "SEN_D40_045",
+    "related_sentence_id": "SEN_D40_015",
     "related_dialogue_id": "DLG_D40_02"
   },
   {
@@ -3967,7 +3967,7 @@
     "model_answer": "我因為肚子餓，所以想吃飯。",
     "model_pinyin": "Wǒ yīnwèi dùzi è, suǒyǐ xiǎng chī fàn.",
     "model_translation_en": "I am hungry, so I want to eat.",
-    "related_sentence_id": "SEN_D41_021",
+    "related_sentence_id": "SEN_D41_012",
     "related_dialogue_id": "DLG_D41_02"
   },
   {
@@ -4022,7 +4022,7 @@
     "model_answer": "因為我肚子餓，所以想吃飯。",
     "model_pinyin": "Yīnwèi wǒ dùzi è, suǒyǐ xiǎng chī fàn.",
     "model_translation_en": "Because I'm hungry, I want to eat.",
-    "related_sentence_id": "SEN_D41_031",
+    "related_sentence_id": "SEN_D41_001",
     "related_dialogue_id": "DLG_D41_01"
   },
   {
@@ -4055,7 +4055,7 @@
     "model_answer": "因為我忘記帶錢，所以不能買東西。",
     "model_pinyin": "Yīnwèi wǒ wàngjì dài qián, suǒyǐ bù néng mǎi dōngxī.",
     "model_translation_en": "Because I forgot to bring money, I can't buy anything.",
-    "related_sentence_id": "SEN_D41_037",
+    "related_sentence_id": "SEN_D41_006",
     "related_dialogue_id": "DLG_D41_01"
   },
   {
@@ -4077,7 +4077,7 @@
     "model_answer": "你為什麼不想吃？",
     "model_pinyin": "Nǐ wèishénme bù xiǎng chī?",
     "model_translation_en": "Why don't you want to eat?",
-    "related_sentence_id": "SEN_D41_041",
+    "related_sentence_id": "SEN_D41_011",
     "related_dialogue_id": "DLG_D41_03"
   },
   {
@@ -4088,7 +4088,7 @@
     "model_answer": "他為什麼不想喝咖啡？",
     "model_pinyin": "Tā wèishénme bù xiǎng hē kāfēi?",
     "model_translation_en": "Why doesn't he want to drink coffee?",
-    "related_sentence_id": "SEN_D41_043",
+    "related_sentence_id": "SEN_D41_013",
     "related_dialogue_id": "DLG_D41_01"
   },
   {
@@ -4132,7 +4132,7 @@
     "model_answer": "我因為肚子餓，所以想吃飯。",
     "model_pinyin": "Wǒ yīnwèi dùzi è, suǒyǐ xiǎng chī fàn.",
     "model_translation_en": "I'm hungry, so I want to eat.",
-    "related_sentence_id": "SEN_D41_051",
+    "related_sentence_id": "SEN_D41_012",
     "related_dialogue_id": "DLG_D41_02"
   },
   {
@@ -4176,7 +4176,7 @@
     "model_answer": "我們因為塞車了，所以來不及吃早餐。",
     "model_pinyin": "Wǒmen yīnwèi sāichē le, suǒyǐ láibují chī zǎocān.",
     "model_translation_en": "We were stuck in traffic, so we didn't have time to eat breakfast.",
-    "related_sentence_id": "SEN_D41_059",
+    "related_sentence_id": "SEN_D41_029",
     "related_dialogue_id": "DLG_D41_03"
   },
   {
@@ -4187,7 +4187,7 @@
     "model_answer": "因為我肚子餓，所以想吃飯。",
     "model_pinyin": "Yīnwèi wǒ dùzi è, suǒyǐ xiǎng chī fàn.",
     "model_translation_en": "Because I'm hungry, I want to eat.",
-    "related_sentence_id": "SEN_D41_061",
+    "related_sentence_id": "SEN_D41_001",
     "related_dialogue_id": "DLG_D41_01"
   },
   {
@@ -4198,7 +4198,7 @@
     "model_answer": "因為我感冒了，所以不想喝冰的。",
     "model_pinyin": "Yīnwèi wǒ gǎnmào le, suǒyǐ bù xiǎng hē bīng de.",
     "model_translation_en": "Because I have a cold, I don't want to drink cold drinks.",
-    "related_sentence_id": "SEN_D41_063",
+    "related_sentence_id": "SEN_D41_033",
     "related_dialogue_id": "DLG_D41_02"
   },
   {
@@ -4220,7 +4220,7 @@
     "model_answer": "因為我剛下班，所以想回家休息。",
     "model_pinyin": "Yīnwèi wǒ gāng xiàbān, suǒyǐ xiǎng huí jiā xiūxí.",
     "model_translation_en": "Because I just got off work, I want to go home and rest.",
-    "related_sentence_id": "SEN_D41_067",
+    "related_sentence_id": "SEN_D41_038",
     "related_dialogue_id": "DLG_D41_01"
   },
   {
@@ -4231,7 +4231,7 @@
     "model_answer": "因為路上塞車了，所以我遲到了。",
     "model_pinyin": "Yīnwèi lùshàng sāichē le, suǒyǐ wǒ chídào le.",
     "model_translation_en": "Because there was a traffic jam on the road, I was late.",
-    "related_sentence_id": "SEN_D41_069",
+    "related_sentence_id": "SEN_D41_008",
     "related_dialogue_id": "DLG_D41_02"
   },
   {
@@ -4429,7 +4429,7 @@
     "model_answer": "你喜歡安靜的地方還是熱鬧的地方？",
     "model_pinyin": "Nǐ xǐhuān ānjìng de dìfang háishì rènào de dìfang?",
     "model_translation_en": "Do you like quiet places or lively places?",
-    "related_sentence_id": "SEN_D42_036",
+    "related_sentence_id": "SEN_D42_006",
     "related_dialogue_id": "DLG_D42_03"
   },
   {
@@ -4462,7 +4462,7 @@
     "model_answer": "我比較喜歡清淡的口味，不要太辣。",
     "model_pinyin": "Wǒ bǐjiào xǐhuān qīngdàn de kǒuwèi, bùyào tài là.",
     "model_translation_en": "I prefer light flavors, not too spicy.",
-    "related_sentence_id": "SEN_D42_042",
+    "related_sentence_id": "SEN_D42_020",
     "related_dialogue_id": "DLG_D42_03"
   },
   {
@@ -4484,7 +4484,7 @@
     "model_answer": "你比較喜歡看電影還是聽音樂？",
     "model_pinyin": "Nǐ bǐjiào xǐhuān kàn diànyǐng háishì tīng yīnyuè?",
     "model_translation_en": "Do you prefer watching movies or listening to music?",
-    "related_sentence_id": "SEN_D42_046",
+    "related_sentence_id": "SEN_D42_017",
     "related_dialogue_id": "DLG_D42_02"
   },
   {
@@ -4517,7 +4517,7 @@
     "model_answer": "我覺得這家餐廳的牛肉麵看起來很好吃，可是好像有點貴。",
     "model_pinyin": "Wǒ juéde zhè jiā cāntīng de niúròumiàn kàn qǐlái hěn hǎochī, kěshì hǎoxiàng yǒudiǎn guì.",
     "model_translation_en": "I think the beef noodles at this restaurant look delicious, but they seem a bit expensive.",
-    "related_sentence_id": "SEN_D42_052",
+    "related_sentence_id": "SEN_D42_022",
     "related_dialogue_id": "DLG_D42_02"
   },
   {
@@ -4572,7 +4572,7 @@
     "model_answer": "你比較喜歡甜的還是鹹的小吃？",
     "model_pinyin": "Nǐ bǐjiào xǐhuān tián de háishì xián de xiǎochī?",
     "model_translation_en": "Do you prefer sweet or savory snacks?",
-    "related_sentence_id": "SEN_D42_062",
+    "related_sentence_id": "SEN_D42_032",
     "related_dialogue_id": "DLG_D42_01"
   },
   {
@@ -4594,7 +4594,7 @@
     "model_answer": "你喜歡安靜的地方還是熱鬧的地方？",
     "model_pinyin": "Nǐ xǐhuān ānjìng de dìfang háishì rènào de dìfang?",
     "model_translation_en": "Do you like quiet places or lively places?",
-    "related_sentence_id": "SEN_D42_066",
+    "related_sentence_id": "SEN_D42_006",
     "related_dialogue_id": "DLG_D42_03"
   },
   {
@@ -4869,7 +4869,7 @@
     "model_answer": "這件裙子太貴了，可以打折嗎？",
     "model_pinyin": "Zhè jiàn qúnzi tài guì le, kěyǐ dǎzhé ma?",
     "model_translation_en": "This skirt is too expensive; can it be discounted?",
-    "related_sentence_id": "SEN_D43_045",
+    "related_sentence_id": "SEN_D43_015",
     "related_dialogue_id": "DLG_D43_02"
   },
   {
@@ -4935,7 +4935,7 @@
     "model_answer": "這個包包有沒有中號的？",
     "model_pinyin": "Zhège bāobāo yǒu méiyǒu zhōnghào de?",
     "model_translation_en": "Do you have this bag in a medium size?",
-    "related_sentence_id": "SEN_D43_057",
+    "related_sentence_id": "SEN_D43_027",
     "related_dialogue_id": "DLG_D43_02"
   },
   {
@@ -4957,7 +4957,7 @@
     "model_answer": "這件上衣的尺寸是M號嗎？",
     "model_pinyin": "Zhè jiàn shàngyī de chǐcùn shì M hào ma?",
     "model_translation_en": "Is this shirt size M?",
-    "related_sentence_id": "SEN_D43_061",
+    "related_sentence_id": "SEN_D43_002",
     "related_dialogue_id": "DLG_D43_01"
   },
   {
@@ -4968,7 +4968,7 @@
     "model_answer": "這件外套有黑色的嗎？",
     "model_pinyin": "Zhè jiàn wàitào yǒu hēisè de ma?",
     "model_translation_en": "Does this jacket come in black?",
-    "related_sentence_id": "SEN_D43_063",
+    "related_sentence_id": "SEN_D43_033",
     "related_dialogue_id": "DLG_D43_02"
   },
   {
@@ -4979,7 +4979,7 @@
     "model_answer": "這雙鞋子有白色的嗎？",
     "model_pinyin": "Zhè shuāng xiézi yǒu báisè de ma?",
     "model_translation_en": "Do these shoes come in white?",
-    "related_sentence_id": "SEN_D43_065",
+    "related_sentence_id": "SEN_D43_006",
     "related_dialogue_id": "DLG_D43_03"
   },
   {
@@ -4990,7 +4990,7 @@
     "model_answer": "這件褲子穿起來很舒服，可是顏色不適合我。",
     "model_pinyin": "Zhè jiàn kùzi chuān qǐlái hěn shūfú, kěshì yánsè bù shìhé wǒ.",
     "model_translation_en": "These pants are comfortable to wear, but the color doesn't suit me.",
-    "related_sentence_id": "SEN_D43_067",
+    "related_sentence_id": "SEN_D43_036",
     "related_dialogue_id": "DLG_D43_01"
   },
   {
@@ -5265,7 +5265,7 @@
     "model_answer": "颱風天風很大，我有點緊張。",
     "model_pinyin": "Táifēng tiān fēng hěn dà, wǒ yǒudiǎn jǐnzhāng.",
     "model_translation_en": "On typhoon days the wind is very strong, I'm a bit nervous.",
-    "related_sentence_id": "SEN_D44_047",
+    "related_sentence_id": "SEN_D44_033",
     "related_dialogue_id": "DLG_D44_03"
   },
   {
@@ -5342,7 +5342,7 @@
     "model_answer": "今天天氣很熱，我心情不好。",
     "model_pinyin": "Jīntiān tiānqì hěn rè, wǒ xīnqíng bù hǎo.",
     "model_translation_en": "The weather is very hot today, and I'm in a bad mood.",
-    "related_sentence_id": "SEN_D44_061",
+    "related_sentence_id": "SEN_D44_031",
     "related_dialogue_id": "DLG_D44_01"
   },
   {
@@ -5562,7 +5562,7 @@
     "model_answer": "因為天氣很冷，所以我穿外套。",
     "model_pinyin": "Yīnwèi tiānqì hěn lěng, suǒyǐ wǒ chuān wàitào.",
     "model_translation_en": "Because the weather is very cold, I wear a jacket.",
-    "related_sentence_id": "SEN_D45_031",
+    "related_sentence_id": "SEN_D45_001",
     "related_dialogue_id": "DLG_D45_01"
   },
   {

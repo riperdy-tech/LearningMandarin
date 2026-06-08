@@ -1,0 +1,112 @@
+import fs from "node:fs";
+import path from "node:path";
+
+const root = process.cwd();
+const readJson = (file) => JSON.parse(fs.readFileSync(path.join(root, file), "utf8"));
+
+const sentences = [
+  ...readJson("mandarin_course/data/sentences_month1.json"),
+  ...readJson("mandarin_course/data/sentences_days31_45.json"),
+  ...readJson("mandarin_course/data/sentences_days46_90.json")
+];
+const listening = [
+  ...readJson("mandarin_course/data/listening_days31_45.json"),
+  ...readJson("mandarin_course/data/listening_days46_90.json")
+];
+const lessons = [
+  ...readJson("mandarin_course/lessons/lessons_month1.json"),
+  ...readJson("mandarin_course/lessons/lessons_days31_45.json"),
+  ...readJson("mandarin_course/lessons/lessons_days46_90.json")
+];
+const dialogues = [
+  ...readJson("mandarin_course/data/dialogues_days31_45.json"),
+  ...readJson("mandarin_course/data/dialogues_days46_90.json")
+];
+
+const sentenceById = new Map(sentences.map((item) => [item.id, item]));
+const errors = [];
+const warnings = [];
+
+const bannedListeningPatterns = [
+  "\u6211\u9700\u8981\u4e86", // 我需要了
+  "\u4f60\u9700\u8981\u4e86\u55ce", // 你需要了嗎
+  "\u4ed6\u6b63\u5728\u9700\u8981", // 他正在需要
+  "\u6628\u5929\u6211\u9700\u8981\u4e86", // 昨天我需要了
+  "\u6211\u559c\u6b61\u4e86", // 我喜歡了
+  "\u4f60\u559c\u6b61\u4e86\u55ce", // 你喜歡了嗎
+  "\u4ed6\u6b63\u5728\u559c\u6b61", // 他正在喜歡
+  "\u6628\u5929\u6211\u559c\u6b61\u4e86", // 昨天我喜歡了
+  "\u4ed6\u6b63\u5728\u53bb", // 他正在去
+  "\u4ed6\u6b63\u5728\u60f3", // 他正在想
+  "\u4f60\u6703\u6709\u55ce", // 你會有嗎
+  "\u53ef\u4ee5\u6709\u55ce", // 可以有嗎
+  "\u53ef\u4ee5\u559c\u6b61\u55ce" // 可以喜歡嗎
+];
+
+for (const item of listening) {
+  for (const pattern of bannedListeningPatterns) {
+    if (item.text?.includes(pattern)) {
+      errors.push(`${item.id}: unnatural listening pattern "${pattern}" in "${item.text}"`);
+    }
+  }
+
+  const sentence = sentenceById.get(item.sentence_id);
+  if (sentence && ["sentence", "short_dialogue"].includes(item.type) && item.text !== sentence.text) {
+    errors.push(`${item.id}: ${item.type} text does not match referenced ${item.sentence_id}`);
+  }
+}
+
+const sourceOrderJumps = [];
+for (let i = 1; i < lessons.length; i++) {
+  if (lessons[i].order !== lessons[i - 1].order + 1) {
+    sourceOrderJumps.push(`${lessons[i - 1].order}->${lessons[i].order}`);
+  }
+}
+if (sourceOrderJumps.length) {
+  errors.push(`lesson source order jumps: ${sourceOrderJumps.join(", ")}`);
+}
+
+const sentencesByDay = new Map();
+for (const sentence of sentences) {
+  const day = Number(sentence.id.match(/D(\d+)_/)?.[1]);
+  if (!day) continue;
+  if (!sentencesByDay.has(day)) sentencesByDay.set(day, []);
+  sentencesByDay.get(day).push(sentence);
+}
+for (const [day, daySentences] of [...sentencesByDay.entries()].sort((a, b) => a[0] - b[0])) {
+  const duplicateCount = daySentences.length - new Set(daySentences.map((item) => item.text)).size;
+  if (duplicateCount > 10) {
+    warnings.push(`Day ${day}: ${duplicateCount} duplicate sentence records; schedule for dedupe pass`);
+  }
+}
+
+for (const dialogue of dialogues) {
+  for (const turn of dialogue.turns ?? []) {
+    if (
+      turn.speaker === "\u5e97\u54e1" && // 店員
+      /(\u53ef\u4ee5\u5237\u5361\u55ce|\u6211\u5237\u5361|\u6211\u7528\u4fe1\u7528\u5361)/.test(turn.text ?? "")
+    ) {
+      errors.push(`${dialogue.id}/${turn.id}: likely clerk/customer role mismatch in "${turn.text}"`);
+    }
+    if (/one beef noodles|no spicy/i.test(turn.translation_en ?? "")) {
+      warnings.push(`${dialogue.id}/${turn.id}: awkward English translation "${turn.translation_en}"`);
+    }
+  }
+}
+
+console.log("TEACHER QUALITY AUDIT");
+console.log(`Errors: ${errors.length}`);
+console.log(`Warnings: ${warnings.length}`);
+
+if (warnings.length) {
+  console.log("\nWarnings:");
+  for (const warning of warnings) console.log(`  - ${warning}`);
+}
+
+if (errors.length) {
+  console.log("\nErrors:");
+  for (const error of errors) console.log(`  - ${error}`);
+  process.exit(1);
+}
+
+console.log("\nTeacher-quality hard checks passed.");

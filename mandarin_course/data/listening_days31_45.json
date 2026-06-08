@@ -129,7 +129,7 @@
     "translation_en": "black tea",
     "translation_ko": "홍차",
     "audio_id": "AUD_LIS_D31_11",
-    "sentence_id": "SEN_D31_031"
+    "sentence_id": "SEN_D31_001"
   },
   {
     "id": "LIS_D31_12",
@@ -147,16 +147,15 @@
   {
     "id": "LIS_D31_13",
     "lesson_id": "LESSON_D31",
-    "type": "short_dialogue",
+    "type": "sentence",
     "prompt_en": "Listen and identify the meaning.",
-    "text": "不好意思，可以再說一次嗎？我聽不懂。",
-    "pinyin": "Bù hǎo yì si, kě yǐ zài shuō yī cì ma? Wǒ tīng bù dǒng.",
-    "pinyin_numeric": "bu4 hao3 yi4 si5, ke3 yi3 zai4 shuo1 yi1 ci4 ma0? wo3 ting1 bu4 dong3.",
-    "translation_en": "Excuse me, could you say it again? I didn't understand.",
-    "translation_ko": "죄송합니다, 한 번 더 말씀해 주시겠어요? 못 알아들었어요.",
+    "text": "麻煩你，可以幫我點一杯紅茶嗎？",
+    "pinyin": "Máfan nǐ, kěyǐ bāng wǒ diǎn yī bēi hóngchá ma?",
+    "pinyin_numeric": "ma2fan ni3, ke3yi3 bang1 wo3 dian3 yi1 bei1 hong2cha2 ma0?",
+    "translation_en": "Excuse me, could you help me order a black tea?",
+    "translation_ko": "실례합니다, 홍차 한 잔 주문하는 것을 도와주시겠어요?",
     "audio_id": "AUD_LIS_D31_13",
-    "sentence_id": "SEN_D31_037",
-    "dialogue_id": "DLG_D31_01"
+    "sentence_id": "SEN_D31_002"
   },
   {
     "id": "LIS_D31_14",
@@ -670,7 +669,7 @@
     "translation_en": "third floor",
     "translation_ko": "3층",
     "audio_id": "AUD_LIS_D33_11",
-    "sentence_id": "SEN_D33_031"
+    "sentence_id": "SEN_D33_001"
   },
   {
     "id": "LIS_D33_12",
@@ -908,7 +907,7 @@
     "translation_en": "Do you want to order beef noodles?",
     "translation_ko": "소고기 국수 주문할래요?",
     "audio_id": "AUD_LIS_D34_09",
-    "sentence_id": "SEN_D34_033"
+    "sentence_id": "SEN_D34_003"
   },
   {
     "id": "LIS_D34_10",
@@ -947,7 +946,7 @@
     "translation_en": "Do you want to eat braised pork rice or beef noodles?",
     "translation_ko": "루로우판을 먹을래요, 소고기 국수를 먹을래요?",
     "audio_id": "AUD_LIS_D34_12",
-    "sentence_id": "SEN_D34_042"
+    "sentence_id": "SEN_D34_012"
   },
   {
     "id": "LIS_D34_13",
@@ -1032,28 +1031,28 @@
   {
     "id": "LIS_D34_19",
     "lesson_id": "LESSON_D34",
-    "type": "natural_variant",
+    "type": "sentence",
     "prompt_en": "Listen and identify the meaning.",
-    "text": "你要點牛肉麵嗎？",
-    "pinyin": "Nǐ yào diǎn niúròumiàn ma?",
-    "pinyin_numeric": "ni3 yao4 dian3 niu2rou4mian4 ma0",
-    "translation_en": "Do you want to order beef noodles?",
-    "translation_ko": "소고기 국수 주문할래요?",
+    "text": "你要吃滷肉飯嗎？",
+    "pinyin": "Nǐ yào chī lǔròufàn ma?",
+    "pinyin_numeric": "ni3 yao4 chi1 lu3rou4fan4 ma0",
+    "translation_en": "Do you want to eat braised pork rice?",
+    "translation_ko": "루로우판을 먹을래요?",
     "audio_id": "AUD_LIS_D34_19",
-    "sentence_id": "SEN_D34_063"
+    "sentence_id": "SEN_D34_002"
   },
   {
     "id": "LIS_D34_20",
     "lesson_id": "LESSON_D34",
-    "type": "distractor_variant",
+    "type": "sentence",
     "prompt_en": "Choose the sentence that does not match.",
-    "text": "你要辣的還是不要辣的？",
-    "pinyin": "Nǐ yào là de háishì bù là de?",
-    "pinyin_numeric": "ni3 yao4 la4 de0 hai2shi4 bu4 la4 de0",
-    "translation_en": "Do you want it spicy or not spicy?",
-    "translation_ko": "매운 걸로 드릴까요, 안 매운 걸로 드릴까요?",
+    "text": "你要小菜嗎？",
+    "pinyin": "Nǐ yào xiǎocài ma?",
+    "pinyin_numeric": "ni3 yao4 xiao3cai4 ma0",
+    "translation_en": "Do you want some side dishes?",
+    "translation_ko": "반찬을 드실래요?",
     "audio_id": "AUD_LIS_D34_20",
-    "sentence_id": "SEN_D34_066"
+    "sentence_id": "SEN_D34_005"
   },
   {
     "id": "LIS_D35_01",
@@ -1251,7 +1250,7 @@
     "translation_en": "Can I have it without spice?",
     "translation_ko": "맵지 않게 해 주실 수 있나요?",
     "audio_id": "AUD_LIS_D35_15",
-    "sentence_id": "SEN_D35_043"
+    "sentence_id": "SEN_D35_011"
   },
   {
     "id": "LIS_D35_16",
@@ -1507,15 +1506,15 @@
   {
     "id": "LIS_D36_15",
     "lesson_id": "LESSON_D36",
-    "type": "distractor_variant",
+    "type": "sentence",
     "prompt_en": "Choose the sentence that does not match.",
-    "text": "我們晚上八點看電視。",
-    "pinyin": "Wǒmen wǎnshàng bā diǎn kàn diànshì.",
-    "pinyin_numeric": "wo3men wan3shang4 ba1 dian3 kan4 dian4shi4",
-    "translation_en": "We watch TV at eight in the evening.",
-    "translation_ko": "우리는 저녁 8시에 텔레비전을 봅니다.",
+    "text": "他每天中午吃午餐。",
+    "pinyin": "Tā měitiān zhōngwǔ chī wǔcān.",
+    "pinyin_numeric": "ta1 mei3tian1 zhong1wu3 chi1 wu3can1",
+    "translation_en": "He eats lunch every noon.",
+    "translation_ko": "그는 매일 점심에 점심을 먹습니다.",
     "audio_id": "AUD_LIS_D36_15",
-    "sentence_id": "SEN_D36_043"
+    "sentence_id": "SEN_D36_002"
   },
   {
     "id": "LIS_D36_16",
@@ -1528,7 +1527,7 @@
     "translation_en": "brush teeth",
     "translation_ko": "양치하다",
     "audio_id": "AUD_LIS_D36_16",
-    "sentence_id": "SEN_D36_046"
+    "sentence_id": "SEN_D36_016"
   },
   {
     "id": "LIS_D36_17",
@@ -1546,29 +1545,28 @@
   {
     "id": "LIS_D36_18",
     "lesson_id": "LESSON_D36",
-    "type": "short_dialogue",
+    "type": "sentence",
     "prompt_en": "Listen and identify the meaning.",
-    "text": "他現在晚上在家看電視。",
-    "pinyin": "Tā xiànzài wǎnshàng zài jiā kàn diànshì.",
-    "pinyin_numeric": "ta1 xian4zai4 wan3shang4 zai4 jia1 kan4 dian4shi4.",
-    "translation_en": "He now watches TV at home in the evening.",
-    "translation_ko": "그는 지금 저녁에 집에서 텔레비전을 봅니다.",
+    "text": "我們每天晚上看電視。",
+    "pinyin": "Wǒmen měitiān wǎnshang kàn diànshì.",
+    "pinyin_numeric": "wo3men5 mei3tian1 wan3shang4 kan4 dian4shi4",
+    "translation_en": "We watch TV every evening.",
+    "translation_ko": "우리는 매일 저녁에 텔레비전을 봅니다.",
     "audio_id": "AUD_LIS_D36_18",
-    "sentence_id": "SEN_D36_052",
-    "dialogue_id": "DLG_D36_03"
+    "sentence_id": "SEN_D36_003"
   },
   {
     "id": "LIS_D36_19",
     "lesson_id": "LESSON_D36",
-    "type": "natural_variant",
+    "type": "sentence",
     "prompt_en": "Listen and identify the meaning.",
-    "text": "我現在晚上十點睡覺。",
-    "pinyin": "Wǒ xiànzài wǎnshàng shí diǎn shuìjiào.",
-    "pinyin_numeric": "wo3 xian4zai4 wan3shang4 shi2 dian3 shui4jiao4.",
-    "translation_en": "I now go to sleep at ten in the evening.",
-    "translation_ko": "저는 지금 저녁 10시에 잠을 잡니다.",
+    "text": "我每天上班以前先喝一杯咖啡。",
+    "pinyin": "Wǒ měitiān shàngbān yǐqián xiān hē yī bēi kāfēi.",
+    "pinyin_numeric": "wo3 mei3tian1 shang4ban1 yi3qian2 xian1 he1 yi1 bei1 ka1fei1",
+    "translation_en": "I drink a cup of coffee before going to work every day.",
+    "translation_ko": "저는 매일 출근하기 전에 먼저 커피 한 잔을 마십니다.",
     "audio_id": "AUD_LIS_D36_19",
-    "sentence_id": "SEN_D36_055"
+    "sentence_id": "SEN_D36_005"
   },
   {
     "id": "LIS_D36_20",
@@ -1824,15 +1822,15 @@
   {
     "id": "LIS_D37_19",
     "lesson_id": "LESSON_D37",
-    "type": "natural_variant",
+    "type": "sentence",
     "prompt_en": "Listen and identify the meaning.",
-    "text": "你什麼時候要見朋友？我們可以一起去喝咖啡聊天。",
-    "pinyin": "Nǐ shénme shíhòu yào jiàn péngyǒu? Wǒmen kěyǐ yīqǐ qù hē kāfēi liáotiān.",
-    "pinyin_numeric": "ni3 shen2me shi2hou4 yao4 jian4 peng2you3? wo3men ke3yi3 yi1qi3 qu4 he1 ka1fei1 liao2tian1.",
-    "translation_en": "When are you meeting a friend? We can go drink coffee and chat together.",
-    "translation_ko": "언제 친구를 만날 거예요? 같이 커피 마시면서 이야기할 수 있어요.",
+    "text": "你想跟我一起去看電影嗎？",
+    "pinyin": "Nǐ xiǎng gēn wǒ yīqǐ qù kàn diànyǐng ma?",
+    "pinyin_numeric": "ni3 xiang3 gen1 wo3 yi1qi3 qu4 kan4 dian4ying3 ma0",
+    "translation_en": "Do you want to go watch a movie with me?",
+    "translation_ko": "저랑 같이 영화 보러 가고 싶어요?",
     "audio_id": "AUD_LIS_D37_19",
-    "sentence_id": "SEN_D37_055"
+    "sentence_id": "SEN_D37_002"
   },
   {
     "id": "LIS_D37_20",
@@ -2254,7 +2252,7 @@
     "translation_en": "service suspended",
     "translation_ko": "운행 중단",
     "audio_id": "AUD_LIS_D39_11",
-    "sentence_id": "SEN_D39_031"
+    "sentence_id": "SEN_D39_001"
   },
   {
     "id": "LIS_D39_12",
@@ -2510,15 +2508,15 @@
   {
     "id": "LIS_D40_11",
     "lesson_id": "LESSON_D40",
-    "type": "isolated_word",
+    "type": "sentence",
     "prompt_en": "Listen and identify the meaning.",
-    "text": "複習",
-    "pinyin": "fùxí",
-    "pinyin_numeric": "fu4 xi2",
-    "translation_en": "to review",
-    "translation_ko": "복습하다",
+    "text": "我們先看弱點，然後再試一次，最後說得流利。",
+    "pinyin": "Wǒmen xiān kàn ruòdiǎn, ránhòu zài shì yī cì, zuìhòu shuō de liúlì.",
+    "pinyin_numeric": "wo3men xian1 kan4 ruo4dian3, ran2hou4 zai4 shi4 yi1 ci4, zui4hou4 shuo1 de5 liu2li4.",
+    "translation_en": "We first look at the weaknesses, then try again, and finally speak fluently.",
+    "translation_ko": "우리는 먼저 약점을 살펴보고, 그다음에 다시 한 번 시도하고, 마지막으로 유창하게 말합니다.",
     "audio_id": "AUD_LIS_D40_11",
-    "sentence_id": "SEN_D40_031"
+    "sentence_id": "SEN_D40_002"
   },
   {
     "id": "LIS_D40_12",
@@ -2563,28 +2561,28 @@
   {
     "id": "LIS_D40_15",
     "lesson_id": "LESSON_D40",
-    "type": "distractor_variant",
+    "type": "sentence",
     "prompt_en": "Choose the sentence that does not match.",
-    "text": "今天的重點比昨天的重點多。",
-    "pinyin": "Jīntiān de zhòngdiǎn bǐ zuótiān de zhòngdiǎn duō.",
-    "pinyin_numeric": "jin1tian1 de0 zhong4dian3 bi3 zuo2tian1 de0 zhong4dian3 duo1",
-    "translation_en": "Today's key points are more than yesterday's key points.",
-    "translation_ko": "오늘의 핵심 포인트가 어제보다 더 많습니다.",
+    "text": "他先複習句子，然後改正錯誤，再寫清楚，最後給我看。",
+    "pinyin": "Tā xiān fùxí jùzi, ránhòu gǎizhèng cuòwù, zài xiě qīngchu, zuìhòu gěi wǒ kàn.",
+    "pinyin_numeric": "ta1 xian1 fu4xi2 ju4zi, ran2hou4 gai3zheng4 cuo4wu4, zai4 xie3 qing1chu, zui4hou4 gei3 wo3 kan4.",
+    "translation_en": "He first reviews the sentences, then corrects the mistakes, then writes clearly, and finally shows me.",
+    "translation_ko": "그는 먼저 문장을 복습하고, 그다음에 오류를 고치고, 그다음에 명확하게 쓰고, 마지막으로 저에게 보여줍니다.",
     "audio_id": "AUD_LIS_D40_15",
-    "sentence_id": "SEN_D40_043"
+    "sentence_id": "SEN_D40_003"
   },
   {
     "id": "LIS_D40_16",
     "lesson_id": "LESSON_D40",
-    "type": "isolated_word",
+    "type": "sentence",
     "prompt_en": "Listen and identify the meaning.",
-    "text": "再試一次",
-    "pinyin": "zài shì yí cì",
-    "pinyin_numeric": "zai4 shi4 yi2 ci4",
-    "translation_en": "try once more",
-    "translation_ko": "다시 한 번 해 보다",
+    "text": "她先複習錯誤，然後再試一次，最後說得清楚。",
+    "pinyin": "Tā xiān fùxí cuòwù, ránhòu zài shì yī cì, zuìhòu shuō de qīngchu.",
+    "pinyin_numeric": "ta1 xian1 fu4xi2 cuo4wu4, ran2hou4 zai4 shi4 yi1 ci4, zui4hou4 shuo1 de5 qing1chu.",
+    "translation_en": "She first reviews the mistakes, then tries again, and finally speaks clearly.",
+    "translation_ko": "그녀는 먼저 오류를 복습하고, 그다음에 다시 한 번 시도하고, 마지막으로 명확하게 말합니다.",
     "audio_id": "AUD_LIS_D40_16",
-    "sentence_id": "SEN_D40_046"
+    "sentence_id": "SEN_D40_005"
   },
   {
     "id": "LIS_D40_17",
@@ -2782,7 +2780,7 @@
     "translation_en": "It rained.",
     "translation_ko": "비가 왔다",
     "audio_id": "AUD_LIS_D41_11",
-    "sentence_id": "SEN_D41_031"
+    "sentence_id": "SEN_D41_001"
   },
   {
     "id": "LIS_D41_12",
@@ -2808,7 +2806,7 @@
     "translation_en": "Because I forgot to bring money, I can't buy anything.",
     "translation_ko": "돈을 가져오는 걸 잊어서 물건을 살 수 없어요.",
     "audio_id": "AUD_LIS_D41_13",
-    "sentence_id": "SEN_D41_037",
+    "sentence_id": "SEN_D41_006",
     "dialogue_id": "DLG_D41_01"
   },
   {
@@ -2827,15 +2825,15 @@
   {
     "id": "LIS_D41_15",
     "lesson_id": "LESSON_D41",
-    "type": "distractor_variant",
+    "type": "sentence",
     "prompt_en": "Choose the sentence that does not match.",
-    "text": "他為什麼不想喝咖啡？",
-    "pinyin": "Tā wèishénme bù xiǎng hē kāfēi?",
-    "pinyin_numeric": "ta1 wei4 shen2 me0 bu4 xiang3 he1 ka1 fei1",
-    "translation_en": "Why doesn't he want to drink coffee?",
-    "translation_ko": "그는 왜 커피를 마시고 싶지 않나요?",
+    "text": "因為我口渴，所以想喝一杯水。",
+    "pinyin": "Yīnwèi wǒ kǒukě, suǒyǐ xiǎng hē yī bēi shuǐ.",
+    "pinyin_numeric": "yin1 wei4 wo3 kou3 ke3, suo3 yi3 xiang3 he1 yi1 bei1 shui3.",
+    "translation_en": "Because I am thirsty, I want to drink a glass of water.",
+    "translation_ko": "목이 말라서 물 한 잔을 마시고 싶어요.",
     "audio_id": "AUD_LIS_D41_15",
-    "sentence_id": "SEN_D41_043"
+    "sentence_id": "SEN_D41_002"
   },
   {
     "id": "LIS_D41_16",
@@ -2866,16 +2864,15 @@
   {
     "id": "LIS_D41_18",
     "lesson_id": "LESSON_D41",
-    "type": "short_dialogue",
+    "type": "sentence",
     "prompt_en": "Listen and identify the meaning.",
-    "text": "他因為口渴，所以想喝一杯水。",
-    "pinyin": "Tā yīnwèi kǒukě, suǒyǐ xiǎng hē yī bēi shuǐ.",
-    "pinyin_numeric": "ta1 yin1 wei4 kou3 ke3, suo3 yi3 xiang3 he1 yi1 bei1 shui3.",
-    "translation_en": "He's thirsty, so he wants to drink a glass of water.",
-    "translation_ko": "그는 목이 말라서 물 한 잔을 마시고 싶어요.",
+    "text": "因為我感冒了，所以不想喝冰的飲料。",
+    "pinyin": "Yīnwèi wǒ gǎnmào le, suǒyǐ bù xiǎng hē bīng de yǐnliào.",
+    "pinyin_numeric": "yin1 wei4 wo3 gan3 mao4 le5, suo3 yi3 bu4 xiang3 he1 bing1 de5 yin3 liao4.",
+    "translation_en": "Because I have a cold, I don't want to drink cold drinks.",
+    "translation_ko": "감기에 걸려서 차가운 음료를 마시고 싶지 않아요.",
     "audio_id": "AUD_LIS_D41_18",
-    "sentence_id": "SEN_D41_052",
-    "dialogue_id": "DLG_D41_03"
+    "sentence_id": "SEN_D41_003"
   },
   {
     "id": "LIS_D41_19",
@@ -3059,7 +3056,7 @@
     "translation_en": "I think the braised pork rice at this eatery looks delicious; let's choose this one.",
     "translation_ko": "이 식당의 루로우판이 맛있어 보여요. 이걸로 골라요.",
     "audio_id": "AUD_LIS_D42_12",
-    "sentence_id": "SEN_D42_035"
+    "sentence_id": "SEN_D42_005"
   },
   {
     "id": "LIS_D42_13",
@@ -3086,7 +3083,7 @@
     "translation_en": "Do you prefer sweet or savory?",
     "translation_ko": "당신은 단 것을 더 좋아하나요, 짠 것을 더 좋아하나요?",
     "audio_id": "AUD_LIS_D42_14",
-    "sentence_id": "SEN_D42_041"
+    "sentence_id": "SEN_D42_011"
   },
   {
     "id": "LIS_D42_15",
@@ -3130,16 +3127,15 @@
   {
     "id": "LIS_D42_18",
     "lesson_id": "LESSON_D42",
-    "type": "short_dialogue",
+    "type": "sentence",
     "prompt_en": "Listen and identify the meaning.",
-    "text": "你想喝紅茶還是綠茶？都可以，不要太甜。",
-    "pinyin": "Nǐ xiǎng hē hóngchá háishì lǜchá? Dōu kěyǐ, bùyào tài tián.",
-    "pinyin_numeric": "ni3 xiang3 he1 hong2cha2 hai2shi4 lv4cha2? dou1 ke3yi3, bu4yao4 tai4 tian2.",
-    "translation_en": "Do you want to drink black tea or green tea? Either is fine, just not too sweet.",
-    "translation_ko": "홍차를 마실래요, 녹차를 마실래요? 둘 다 괜찮아요, 너무 달지 않게요.",
+    "text": "你比較喜歡喝咖啡還是茶？",
+    "pinyin": "Nǐ bǐjiào xǐhuān hē kāfēi háishì chá?",
+    "pinyin_numeric": "ni3 bi3jiao4 xi3huan1 he1 ka1fei1 hai2shi4 cha2?",
+    "translation_en": "Do you prefer drinking coffee or tea?",
+    "translation_ko": "커피를 마시는 걸 더 좋아하세요, 아니면 차를 더 좋아하세요?",
     "audio_id": "AUD_LIS_D42_18",
-    "sentence_id": "SEN_D42_053",
-    "dialogue_id": "DLG_D42_03"
+    "sentence_id": "SEN_D42_002"
   },
   {
     "id": "LIS_D42_19",
@@ -3394,16 +3390,15 @@
   {
     "id": "LIS_D43_18",
     "lesson_id": "LESSON_D43",
-    "type": "short_dialogue",
+    "type": "sentence",
     "prompt_en": "Listen and identify the meaning.",
-    "text": "這條褲子有沒有小號的？",
-    "pinyin": "Zhè tiáo kùzi yǒu méiyǒu xiǎohào de?",
-    "pinyin_numeric": "zhe4 tiao2 ku4zi0 you3 mei2you3 xiao3hao4 de0",
-    "translation_en": "Do you have these pants in a small size?",
-    "translation_ko": "이 바지 작은 사이즈 있어요?",
+    "text": "這件上衣的尺寸是M號嗎？",
+    "pinyin": "Zhè jiàn shàngyī de chǐcùn shì M hào ma?",
+    "pinyin_numeric": "zhe4 jian4 shang4yi1 de5 chi3cun4 shi4 M hao4 ma0",
+    "translation_en": "Is this top size M?",
+    "translation_ko": "이 윗옷 사이즈가 M인가요?",
     "audio_id": "AUD_LIS_D43_18",
-    "sentence_id": "SEN_D43_052",
-    "dialogue_id": "DLG_D43_03"
+    "sentence_id": "SEN_D43_002"
   },
   {
     "id": "LIS_D43_19",

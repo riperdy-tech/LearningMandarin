@@ -188,8 +188,7 @@
     "example_ids": [
       "SEN_D46_001",
       "SEN_D46_012",
-      "SEN_D46_024",
-      "SEN_D46_031"
+      "SEN_D46_024"
     ],
     "audio_id": "AUD_VOC_D46_007",
     "day_introduced": 46,
@@ -219,8 +218,7 @@
     "example_ids": [
       "SEN_D46_002",
       "SEN_D46_013",
-      "SEN_D46_024",
-      "SEN_D46_032"
+      "SEN_D46_024"
     ],
     "audio_id": "AUD_VOC_D46_008",
     "day_introduced": 46,
@@ -305,8 +303,7 @@
     "cefr": "A2",
     "hsk_level": 2,
     "example_ids": [
-      "SEN_D46_060",
-      "SEN_D46_090"
+      "SEN_D46_060"
     ],
     "audio_id": "AUD_VOC_D46_011",
     "day_introduced": 46,
@@ -2065,8 +2062,7 @@
     "example_ids": [
       "SEN_D48_005",
       "SEN_D48_016",
-      "SEN_D48_027",
-      "SEN_D48_039"
+      "SEN_D48_027"
     ],
     "audio_id": "AUD_VOC_D48_005",
     "day_introduced": 48,
@@ -2342,8 +2338,7 @@
     "example_ids": [
       "SEN_D48_001",
       "SEN_D48_011",
-      "SEN_D48_021",
-      "SEN_D48_031"
+      "SEN_D48_021"
     ],
     "audio_id": "AUD_VOC_D48_014",
     "day_introduced": 48,
@@ -2431,7 +2426,6 @@
     "hsk_level": 2,
     "example_ids": [
       "SEN_D48_012",
-      "SEN_D48_042",
       "SEN_D48_052",
       "SEN_D48_068"
     ],
@@ -2463,8 +2457,7 @@
     "example_ids": [
       "SEN_D48_040",
       "SEN_D48_044",
-      "SEN_D48_053",
-      "SEN_D48_070"
+      "SEN_D48_053"
     ],
     "audio_id": "AUD_VOC_D48_018",
     "day_introduced": 48,
@@ -2611,9 +2604,7 @@
     "hsk_level": 2,
     "example_ids": [
       "SEN_D48_011",
-      "SEN_D48_021",
-      "SEN_D48_041",
-      "SEN_D48_051"
+      "SEN_D48_021"
     ],
     "audio_id": "AUD_VOC_D48_023",
     "day_introduced": 48,
@@ -3035,9 +3026,7 @@
     "hsk_level": 2,
     "example_ids": [
       "SEN_D49_001",
-      "SEN_D49_011",
-      "SEN_D49_021",
-      "SEN_D49_031"
+      "SEN_D49_011"
     ],
     "audio_id": "AUD_VOC_D49_003",
     "day_introduced": 49,
@@ -3067,8 +3056,7 @@
     "example_ids": [
       "SEN_D49_003",
       "SEN_D49_013",
-      "SEN_D49_022",
-      "SEN_D49_033"
+      "SEN_D49_022"
     ],
     "audio_id": "AUD_VOC_D49_004",
     "day_introduced": 49,
@@ -3097,10 +3085,7 @@
     "cefr": "A2",
     "hsk_level": 2,
     "example_ids": [
-      "SEN_D49_004",
-      "SEN_D49_014",
-      "SEN_D49_024",
-      "SEN_D49_034"
+      "SEN_D49_004"
     ],
     "audio_id": "AUD_VOC_D49_005",
     "day_introduced": 49,
@@ -3306,8 +3291,7 @@
     "example_ids": [
       "SEN_D49_007",
       "SEN_D49_019",
-      "SEN_D49_028",
-      "SEN_D49_038"
+      "SEN_D49_028"
     ],
     "audio_id": "AUD_VOC_D49_012",
     "day_introduced": 49,
@@ -4252,8 +4236,7 @@
     "example_ids": [
       "SEN_D50_009",
       "SEN_D50_026",
-      "SEN_D50_033",
-      "SEN_D50_063"
+      "SEN_D50_033"
     ],
     "audio_id": "AUD_VOC_D50_010",
     "day_introduced": 50,
@@ -4943,8 +4926,7 @@
     "example_ids": [
       "SEN_D50_007",
       "SEN_D50_009",
-      "SEN_D50_033",
-      "SEN_D50_063"
+      "SEN_D50_033"
     ],
     "audio_id": "AUD_VOC_D50_034",
     "day_introduced": 50,
@@ -5084,8 +5066,7 @@
     "example_ids": [
       "SEN_D51_001",
       "SEN_D51_011",
-      "SEN_D51_031",
-      "SEN_D51_041"
+      "SEN_D51_031"
     ],
     "audio_id": "AUD_VOC_D51_004",
     "day_introduced": 51,
@@ -5237,8 +5218,7 @@
     "example_ids": [
       "SEN_D51_003",
       "SEN_D51_013",
-      "SEN_D51_024",
-      "SEN_D51_043"
+      "SEN_D51_024"
     ],
     "audio_id": "AUD_VOC_D51_009",
     "day_introduced": 51,
@@ -5423,8 +5403,7 @@
     "example_ids": [
       "SEN_D51_010",
       "SEN_D51_020",
-      "SEN_D51_044",
-      "SEN_D51_074"
+      "SEN_D51_044"
     ],
     "audio_id": "AUD_VOC_D51_015",
     "day_introduced": 51,
@@ -5604,7 +5583,6 @@
     "example_ids": [
       "SEN_D51_004",
       "SEN_D51_026",
-      "SEN_D51_032",
       "SEN_D51_067"
     ],
     "audio_id": "AUD_VOC_D51_021",
@@ -5666,8 +5644,7 @@
     "example_ids": [
       "SEN_D51_004",
       "SEN_D51_012",
-      "SEN_D51_025",
-      "SEN_D51_032"
+      "SEN_D51_025"
     ],
     "audio_id": "AUD_VOC_D51_023",
     "day_introduced": 51,
@@ -6408,8 +6385,7 @@
     "example_ids": [
       "SEN_D52_012",
       "SEN_D52_027",
-      "SEN_D52_036",
-      "SEN_D52_042"
+      "SEN_D52_036"
     ],
     "audio_id": "AUD_VOC_D52_015",
     "day_introduced": 52,
@@ -6530,7 +6506,6 @@
     "hsk_level": 2,
     "example_ids": [
       "SEN_D52_035",
-      "SEN_D52_065",
       "SEN_D52_086"
     ],
     "audio_id": "AUD_VOC_D52_019",
@@ -6622,7 +6597,6 @@
     "hsk_level": 2,
     "example_ids": [
       "SEN_D52_019",
-      "SEN_D52_050",
       "SEN_D52_060",
       "SEN_D52_063"
     ],
@@ -6652,8 +6626,7 @@
     "hsk_level": 2,
     "example_ids": [
       "SEN_D52_060",
-      "SEN_D52_063",
-      "SEN_D52_087"
+      "SEN_D52_063"
     ],
     "audio_id": "AUD_VOC_D52_023",
     "day_introduced": 52,
@@ -8576,7 +8549,6 @@
     "example_ids": [
       "SEN_D58_004",
       "SEN_D58_035",
-      "SEN_D58_063",
       "SEN_D58_066"
     ],
     "audio_id": "AUD_VOC_D58_013",
@@ -9003,8 +8975,7 @@
     "example_ids": [
       "SEN_D58_005",
       "SEN_D58_009",
-      "SEN_D58_033",
-      "SEN_D58_039"
+      "SEN_D58_033"
     ],
     "audio_id": "AUD_VOC_D58_027",
     "day_introduced": 58,
@@ -9033,7 +9004,6 @@
     "hsk_level": 2,
     "example_ids": [
       "SEN_D58_009",
-      "SEN_D58_039",
       "SEN_D58_068"
     ],
     "audio_id": "AUD_VOC_D58_028",
@@ -9063,7 +9033,6 @@
     "hsk_level": 2,
     "example_ids": [
       "SEN_D58_009",
-      "SEN_D58_039",
       "SEN_D58_068"
     ],
     "audio_id": "AUD_VOC_D58_029",
@@ -9669,7 +9638,6 @@
     "hsk_level": 2,
     "example_ids": [
       "SEN_D59_003",
-      "SEN_D59_033",
       "SEN_D59_063",
       "SEN_D59_079"
     ],
@@ -9727,8 +9695,7 @@
     "example_ids": [
       "SEN_D59_002",
       "SEN_D59_008",
-      "SEN_D59_014",
-      "SEN_D59_032"
+      "SEN_D59_014"
     ],
     "audio_id": "AUD_VOC_D59_008",
     "day_introduced": 59,
@@ -9757,8 +9724,7 @@
     "example_ids": [
       "SEN_D59_003",
       "SEN_D59_013",
-      "SEN_D59_019",
-      "SEN_D59_033"
+      "SEN_D59_019"
     ],
     "audio_id": "AUD_VOC_D59_009",
     "day_introduced": 59,
@@ -10320,8 +10286,7 @@
     "example_ids": [
       "SEN_D59_018",
       "SEN_D59_022",
-      "SEN_D59_046",
-      "SEN_D59_052"
+      "SEN_D59_046"
     ],
     "audio_id": "AUD_VOC_D59_029",
     "day_introduced": 59,
@@ -10701,8 +10666,7 @@
     "example_ids": [
       "SEN_D59_010",
       "SEN_D59_017",
-      "SEN_D59_029",
-      "SEN_D59_040"
+      "SEN_D59_029"
     ],
     "audio_id": "AUD_VOC_D59_043",
     "day_introduced": 59,
@@ -11769,8 +11733,6 @@
     "hsk_level": 2,
     "example_ids": [
       "SEN_D61_001",
-      "SEN_D61_031",
-      "SEN_D61_061",
       "SEN_D61_068"
     ],
     "audio_id": "AUD_VOC_D61_037",
@@ -11881,8 +11843,7 @@
     "example_ids": [
       "SEN_D62_001",
       "SEN_D62_020",
-      "SEN_D62_056",
-      "SEN_D62_086"
+      "SEN_D62_056"
     ],
     "audio_id": "AUD_VOC_D62_001",
     "day_introduced": 62,
@@ -14309,7 +14270,6 @@
     "example_ids": [
       "SEN_D64_001",
       "SEN_D64_024",
-      "SEN_D64_031",
       "SEN_D64_061"
     ],
     "audio_id": "AUD_VOC_D64_005",
@@ -16342,8 +16302,7 @@
     "example_ids": [
       "SEN_D66_003",
       "SEN_D66_014",
-      "SEN_D66_023",
-      "SEN_D66_033"
+      "SEN_D66_023"
     ],
     "audio_id": "AUD_VOC_D66_037",
     "day_introduced": 66,
@@ -16870,7 +16829,6 @@
     "example_ids": [
       "SEN_D56_004",
       "SEN_D56_018",
-      "SEN_D56_034",
       "SEN_D56_043"
     ],
     "audio_id": "AUD_VOC_D56_005",
@@ -17201,8 +17159,7 @@
     "example_ids": [
       "SEN_D56_004",
       "SEN_D56_018",
-      "SEN_D56_026",
-      "SEN_D56_034"
+      "SEN_D56_026"
     ],
     "audio_id": "AUD_VOC_D56_016",
     "day_introduced": 56,
@@ -17325,7 +17282,6 @@
     "hsk_level": 2,
     "example_ids": [
       "SEN_D56_004",
-      "SEN_D56_034",
       "SEN_D56_065",
       "SEN_D56_090"
     ],
@@ -19264,8 +19220,7 @@
     "example_ids": [
       "SEN_D57_010",
       "SEN_D57_021",
-      "SEN_D57_039",
-      "SEN_D57_051"
+      "SEN_D57_039"
     ],
     "audio_id": "AUD_VOC_D57_044",
     "day_introduced": 57,
@@ -19426,8 +19381,7 @@
     "example_ids": [
       "SEN_D65_005",
       "SEN_D65_035",
-      "SEN_D65_047",
-      "SEN_D65_065"
+      "SEN_D65_047"
     ],
     "audio_id": "AUD_VOC_D65_005",
     "day_introduced": 65,
@@ -19560,8 +19514,7 @@
     "example_ids": [
       "SEN_D65_015",
       "SEN_D65_040",
-      "SEN_D65_070",
-      "SEN_D65_077"
+      "SEN_D65_070"
     ],
     "audio_id": "AUD_VOC_D65_010",
     "day_introduced": 65,
@@ -19592,7 +19545,6 @@
     "example_ids": [
       "SEN_D65_010",
       "SEN_D65_013",
-      "SEN_D65_043",
       "SEN_D65_073"
     ],
     "audio_id": "AUD_VOC_D65_011",
@@ -19674,8 +19626,7 @@
     "example_ids": [
       "SEN_D65_002",
       "SEN_D65_012",
-      "SEN_D65_022",
-      "SEN_D65_032"
+      "SEN_D65_022"
     ],
     "audio_id": "AUD_VOC_D65_014",
     "day_introduced": 65,
@@ -20084,7 +20035,6 @@
     "example_ids": [
       "SEN_D65_014",
       "SEN_D65_030",
-      "SEN_D65_044",
       "SEN_D65_075"
     ],
     "audio_id": "AUD_VOC_D65_029",
@@ -20277,8 +20227,7 @@
     "example_ids": [
       "SEN_D65_002",
       "SEN_D65_012",
-      "SEN_D65_022",
-      "SEN_D65_032"
+      "SEN_D65_022"
     ],
     "audio_id": "AUD_VOC_D65_036",
     "day_introduced": 65,
@@ -20412,8 +20361,7 @@
     "example_ids": [
       "SEN_D53_015",
       "SEN_D53_022",
-      "SEN_D53_050",
-      "SEN_D53_052"
+      "SEN_D53_050"
     ],
     "audio_id": "AUD_VOC_D53_001",
     "day_introduced": 53,
@@ -20472,8 +20420,7 @@
     "example_ids": [
       "SEN_D53_001",
       "SEN_D53_011",
-      "SEN_D53_021",
-      "SEN_D53_031"
+      "SEN_D53_021"
     ],
     "audio_id": "AUD_VOC_D53_003",
     "day_introduced": 53,
@@ -20504,8 +20451,7 @@
     "example_ids": [
       "SEN_D53_021",
       "SEN_D53_032",
-      "SEN_D53_045",
-      "SEN_D53_051"
+      "SEN_D53_045"
     ],
     "audio_id": "AUD_VOC_D53_004",
     "day_introduced": 53,
@@ -21118,8 +21064,7 @@
     "cefr": "A2",
     "hsk_level": 2,
     "example_ids": [
-      "SEN_D53_030",
-      "SEN_D53_059"
+      "SEN_D53_030"
     ],
     "audio_id": "AUD_VOC_D53_024",
     "day_introduced": 53,
@@ -22813,8 +22758,7 @@
     "cefr": "A2",
     "hsk_level": 2,
     "example_ids": [
-      "SEN_D68_058",
-      "SEN_D68_089"
+      "SEN_D68_058"
     ],
     "audio_id": "AUD_VOC_D68_005",
     "day_introduced": 68,
@@ -22976,9 +22920,7 @@
     "hsk_level": 2,
     "example_ids": [
       "SEN_D68_001",
-      "SEN_D68_011",
-      "SEN_D68_021",
-      "SEN_D68_031"
+      "SEN_D68_011"
     ],
     "audio_id": "AUD_VOC_D68_011",
     "day_introduced": 68,
@@ -23062,9 +23004,7 @@
     "hsk_level": 2,
     "example_ids": [
       "SEN_D68_002",
-      "SEN_D68_015",
-      "SEN_D68_022",
-      "SEN_D68_032"
+      "SEN_D68_015"
     ],
     "audio_id": "AUD_VOC_D68_014",
     "day_introduced": 68,
@@ -23154,7 +23094,6 @@
     "example_ids": [
       "SEN_D68_003",
       "SEN_D68_012",
-      "SEN_D68_033",
       "SEN_D68_044"
     ],
     "audio_id": "AUD_VOC_D68_017",
@@ -23186,8 +23125,7 @@
     "example_ids": [
       "SEN_D68_009",
       "SEN_D68_016",
-      "SEN_D68_048",
-      "SEN_D68_060"
+      "SEN_D68_048"
     ],
     "audio_id": "AUD_VOC_D68_018",
     "day_introduced": 68,
@@ -23218,7 +23156,6 @@
     "example_ids": [
       "SEN_D68_007",
       "SEN_D68_028",
-      "SEN_D68_037",
       "SEN_D68_045"
     ],
     "audio_id": "AUD_VOC_D68_019",
@@ -23474,8 +23411,7 @@
     "cefr": "A2",
     "hsk_level": 2,
     "example_ids": [
-      "SEN_D68_030",
-      "SEN_D68_053"
+      "SEN_D68_030"
     ],
     "audio_id": "AUD_VOC_D68_028",
     "day_introduced": 68,
@@ -23505,9 +23441,7 @@
     "hsk_level": 2,
     "example_ids": [
       "SEN_D68_004",
-      "SEN_D68_023",
-      "SEN_D68_034",
-      "SEN_D68_054"
+      "SEN_D68_034"
     ],
     "audio_id": "AUD_VOC_D68_029",
     "day_introduced": 68,
@@ -23986,8 +23920,7 @@
     "example_ids": [
       "SEN_D69_001",
       "SEN_D69_005",
-      "SEN_D69_031",
-      "SEN_D69_061"
+      "SEN_D69_031"
     ],
     "audio_id": "AUD_VOC_D69_001",
     "day_introduced": 69,
@@ -25916,8 +25849,7 @@
     "cefr": "A2",
     "hsk_level": 2,
     "example_ids": [
-      "SEN_D71_058",
-      "SEN_D71_088"
+      "SEN_D71_058"
     ],
     "audio_id": "AUD_VOC_D71_015",
     "day_introduced": 71,
@@ -27309,8 +27241,7 @@
     "example_ids": [
       "SEN_D72_005",
       "SEN_D72_014",
-      "SEN_D72_025",
-      "SEN_D72_035"
+      "SEN_D72_025"
     ],
     "audio_id": "AUD_VOC_D72_020",
     "day_introduced": 72,
@@ -28270,7 +28201,6 @@
     "hsk_level": 2,
     "example_ids": [
       "SEN_D73_026",
-      "SEN_D73_055",
       "SEN_D73_085"
     ],
     "audio_id": "AUD_VOC_D73_009",
@@ -29117,8 +29047,7 @@
     "example_ids": [
       "SEN_D73_010",
       "SEN_D73_026",
-      "SEN_D73_047",
-      "SEN_D73_055"
+      "SEN_D73_047"
     ],
     "audio_id": "AUD_VOC_D73_037",
     "day_introduced": 73,
@@ -33661,7 +33590,6 @@
     "hsk_level": 2,
     "example_ids": [
       "SEN_D79_002",
-      "SEN_D79_012",
       "SEN_D79_013",
       "SEN_D79_017"
     ],
@@ -36636,8 +36564,7 @@
     "example_ids": [
       "SEN_D81_008",
       "SEN_D81_015",
-      "SEN_D81_044",
-      "SEN_D81_074"
+      "SEN_D81_044"
     ],
     "audio_id": "AUD_VOC_D81_037",
     "day_introduced": 81,
@@ -36827,8 +36754,6 @@
     "hsk_level": 2,
     "example_ids": [
       "SEN_D82_002",
-      "SEN_D82_011",
-      "SEN_D82_016",
       "SEN_D82_023"
     ],
     "audio_id": "AUD_VOC_D82_004",
@@ -36938,9 +36863,7 @@
     "hsk_level": 2,
     "example_ids": [
       "SEN_D82_013",
-      "SEN_D82_018",
-      "SEN_D82_025",
-      "SEN_D82_043"
+      "SEN_D82_025"
     ],
     "audio_id": "AUD_VOC_D82_008",
     "day_introduced": 82,
@@ -38888,9 +38811,7 @@
     "hsk_level": 2,
     "example_ids": [
       "SEN_D84_012",
-      "SEN_D84_042",
-      "SEN_D84_047",
-      "SEN_D84_072"
+      "SEN_D84_047"
     ],
     "audio_id": "AUD_VOC_D84_007",
     "day_introduced": 84,
@@ -39139,7 +39060,6 @@
     "example_ids": [
       "SEN_D84_005",
       "SEN_D84_010",
-      "SEN_D84_036",
       "SEN_D84_068"
     ],
     "audio_id": "AUD_VOC_D84_016",
@@ -40996,8 +40916,7 @@
     "example_ids": [
       "SEN_D86_004",
       "SEN_D86_015",
-      "SEN_D86_025",
-      "SEN_D86_035"
+      "SEN_D86_025"
     ],
     "audio_id": "AUD_VOC_D86_010",
     "day_introduced": 86,
@@ -41027,8 +40946,7 @@
     "example_ids": [
       "SEN_D86_036",
       "SEN_D86_057",
-      "SEN_D86_065",
-      "SEN_D86_086"
+      "SEN_D86_065"
     ],
     "audio_id": "AUD_VOC_D86_011",
     "day_introduced": 86,
@@ -41738,7 +41656,6 @@
     "example_ids": [
       "SEN_D88_004",
       "SEN_D88_026",
-      "SEN_D88_034",
       "SEN_D88_055"
     ],
     "audio_id": "AUD_VOC_D88_008",
