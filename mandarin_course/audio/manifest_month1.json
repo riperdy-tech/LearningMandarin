@@ -1210,7 +1210,7 @@
     "kind": "sentence",
     "ref_id": "SEN_M1_D08_04",
     "text": "這個菜很好吃。",
-    "pinyin_numeric": "Zhe4ge5 cai4 hen3 hao3chi1.",
+    "pinyin_numeric": "zhe4 ge0 cai4 hen3 hao3chi1.",
     "path": "audio/month1/sentences/AUD_SEN_M1_D08_04.mp3",
     "status": "placeholder"
   },
@@ -1462,7 +1462,7 @@
     "kind": "vocab",
     "ref_id": "VOC_M1_073",
     "text": "哪裡",
-    "pinyin_numeric": "na3li3",
+    "pinyin_numeric": "na3 li3",
     "path": "audio/month1/vocab/AUD_VOC_M1_073.mp3",
     "status": "placeholder"
   },
@@ -1534,7 +1534,7 @@
     "kind": "sentence",
     "ref_id": "SEN_M1_D10_03",
     "text": "你去哪裡？",
-    "pinyin_numeric": "Ni3 qu4 na3li3?",
+    "pinyin_numeric": "Ni3 qu4 na3 li3?",
     "path": "audio/month1/sentences/AUD_SEN_M1_D10_03.mp3",
     "status": "placeholder"
   },
@@ -1552,7 +1552,7 @@
     "kind": "sentence",
     "ref_id": "SEN_M1_D10_05",
     "text": "這個字怎麼說？",
-    "pinyin_numeric": "Zhe4ge5 zi4 zenme3 shuo1?",
+    "pinyin_numeric": "zhe4 ge0 zi4 zenme3 shuo1?",
     "path": "audio/month1/sentences/AUD_SEN_M1_D10_05.mp3",
     "status": "placeholder"
   },
@@ -1570,7 +1570,7 @@
     "kind": "sentence",
     "ref_id": "SEN_M1_D10_07",
     "text": "餐廳在哪裡？",
-    "pinyin_numeric": "Can1ting1 zai4 na3li3?",
+    "pinyin_numeric": "Can1ting1 zai4 na3 li3?",
     "path": "audio/month1/sentences/AUD_SEN_M1_D10_07.mp3",
     "status": "placeholder"
   },
@@ -1876,7 +1876,7 @@
     "kind": "sentence",
     "ref_id": "SEN_M1_D12_03",
     "text": "這個餐廳很貴。",
-    "pinyin_numeric": "Zhe4ge5 can1ting1 hen3 gui4.",
+    "pinyin_numeric": "zhe4 ge0 can1ting1 hen3 gui4.",
     "path": "audio/month1/sentences/AUD_SEN_M1_D12_03.mp3",
     "status": "placeholder"
   },
@@ -2137,7 +2137,7 @@
     "kind": "sentence",
     "ref_id": "SEN_M1_D14_05",
     "text": "這個菜很貴嗎？",
-    "pinyin_numeric": "Zhe4ge5 cai4 hen3 gui4 ma0?",
+    "pinyin_numeric": "zhe4 ge0 cai4 hen3 gui4 ma0?",
     "path": "audio/month1/sentences/AUD_SEN_M1_D14_05.mp3",
     "status": "placeholder"
   },
@@ -2425,7 +2425,7 @@
     "kind": "sentence",
     "ref_id": "SEN_M1_D16_03",
     "text": "這個多少錢？",
-    "pinyin_numeric": "Zhe4ge5 duo1shao3 qian2?",
+    "pinyin_numeric": "zhe4 ge0 duo1shao3 qian2?",
     "path": "audio/month1/sentences/AUD_SEN_M1_D16_03.mp3",
     "status": "placeholder"
   },
@@ -2497,7 +2497,7 @@
     "kind": "vocab",
     "ref_id": "VOC_M1_118",
     "text": "可以",
-    "pinyin_numeric": "ke3yi3",
+    "pinyin_numeric": "ke3 yi3",
     "path": "audio/month1/vocab/AUD_VOC_M1_118.mp3",
     "status": "placeholder"
   },
@@ -2560,7 +2560,7 @@
     "kind": "sentence",
     "ref_id": "SEN_M1_D17_01",
     "text": "我可以坐這裡嗎？",
-    "pinyin_numeric": "Wo3 ke3yi3 zuo4 zhe4li3 ma0?",
+    "pinyin_numeric": "Wo3 ke3 yi3 zuo4 zhe4li3 ma0?",
     "path": "audio/month1/sentences/AUD_SEN_M1_D17_01.mp3",
     "status": "placeholder"
   },
@@ -2569,7 +2569,7 @@
     "kind": "sentence",
     "ref_id": "SEN_M1_D17_02",
     "text": "我可以用你的手機嗎？",
-    "pinyin_numeric": "Wo3 ke3yi3 yong4 ni3 de0 shouji1 ma0?",
+    "pinyin_numeric": "Wo3 ke3 yi3 yong4 ni3 de0 shouji1 ma0?",
     "path": "audio/month1/sentences/AUD_SEN_M1_D17_02.mp3",
     "status": "placeholder"
   },
@@ -2578,7 +2578,7 @@
     "kind": "sentence",
     "ref_id": "SEN_M1_D17_03",
     "text": "可以問一下嗎？",
-    "pinyin_numeric": "Ke3yi3 wen4 yi2xia4 ma0?",
+    "pinyin_numeric": "ke3 yi3 wen4 yi2xia4 ma0?",
     "path": "audio/month1/sentences/AUD_SEN_M1_D17_03.mp3",
     "status": "placeholder"
   },
@@ -2587,7 +2587,7 @@
     "kind": "sentence",
     "ref_id": "SEN_M1_D17_04",
     "text": "你可以說慢一點嗎？",
-    "pinyin_numeric": "Ni3 ke3yi3 shuo1 man4 yi4dian3 ma0?",
+    "pinyin_numeric": "Ni3 ke3 yi3 shuo1 man4 yi4dian3 ma0?",
     "path": "audio/month1/sentences/AUD_SEN_M1_D17_04.mp3",
     "status": "placeholder"
   },
@@ -2596,7 +2596,7 @@
     "kind": "sentence",
     "ref_id": "SEN_M1_D17_05",
     "text": "我可以試試嗎？",
-    "pinyin_numeric": "Wo3 ke3yi3 shi4shi4 ma0?",
+    "pinyin_numeric": "Wo3 ke3 yi3 shi4shi4 ma0?",
     "path": "audio/month1/sentences/AUD_SEN_M1_D17_05.mp3",
     "status": "placeholder"
   },
@@ -2605,7 +2605,7 @@
     "kind": "sentence",
     "ref_id": "SEN_M1_D17_06",
     "text": "我們可以喝咖啡嗎？",
-    "pinyin_numeric": "Wo3 men5 ke3yi3 he1 ka1fei1 ma0?",
+    "pinyin_numeric": "Wo3 men5 ke3 yi3 he1 ka1fei1 ma0?",
     "path": "audio/month1/sentences/AUD_SEN_M1_D17_06.mp3",
     "status": "placeholder"
   },
@@ -2614,7 +2614,7 @@
     "kind": "sentence",
     "ref_id": "SEN_M1_D17_07",
     "text": "這裡可以坐嗎？",
-    "pinyin_numeric": "Zhe4li3 ke3yi3 zuo4 ma0?",
+    "pinyin_numeric": "Zhe4li3 ke3 yi3 zuo4 ma0?",
     "path": "audio/month1/sentences/AUD_SEN_M1_D17_07.mp3",
     "status": "placeholder"
   },
@@ -3010,7 +3010,7 @@
     "kind": "vocab",
     "ref_id": "VOC_M1_145",
     "text": "那裡",
-    "pinyin_numeric": "na3li3",
+    "pinyin_numeric": "na3 li3",
     "path": "audio/month1/vocab/AUD_VOC_M1_145.mp3",
     "status": "placeholder"
   },
@@ -3073,7 +3073,7 @@
     "kind": "sentence",
     "ref_id": "SEN_M1_D20_06",
     "text": "你在哪裡工作？",
-    "pinyin_numeric": "Ni3 zai4 na3li3 gong1zuo4?",
+    "pinyin_numeric": "Ni3 zai4 na3 li3 gong1zuo4?",
     "path": "audio/month1/sentences/AUD_SEN_M1_D20_06.mp3",
     "status": "placeholder"
   },
@@ -3091,7 +3091,7 @@
     "kind": "sentence",
     "ref_id": "SEN_M1_D20_08",
     "text": "他在那裡喝咖啡。",
-    "pinyin_numeric": "Ta1 zai4 na3li3 he1 ka1fei1.",
+    "pinyin_numeric": "Ta1 zai4 na3 li3 he1 ka1fei1.",
     "path": "audio/month1/sentences/AUD_SEN_M1_D20_08.mp3",
     "status": "placeholder"
   },
@@ -3136,7 +3136,7 @@
     "kind": "sentence",
     "ref_id": "SEN_M1_D21_03",
     "text": "你可以坐這裡嗎？",
-    "pinyin_numeric": "Ni3 ke3yi3 zuo4 zhe4li3 ma0?",
+    "pinyin_numeric": "Ni3 ke3 yi3 zuo4 zhe4li3 ma0?",
     "path": "audio/month1/sentences/AUD_SEN_M1_D21_03.mp3",
     "status": "placeholder"
   },
@@ -3172,7 +3172,7 @@
     "kind": "sentence",
     "ref_id": "SEN_M1_D21_07",
     "text": "圖書館在哪裡？",
-    "pinyin_numeric": "Tu2shuguan3 zai4 na3li3?",
+    "pinyin_numeric": "Tu2shuguan3 zai4 na3 li3?",
     "path": "audio/month1/sentences/AUD_SEN_M1_D21_07.mp3",
     "status": "placeholder"
   },
@@ -3325,7 +3325,7 @@
     "kind": "sentence",
     "ref_id": "SEN_M1_D22_04",
     "text": "醫院在哪裡？",
-    "pinyin_numeric": "Yi1yuan4 zai4 na3li3?",
+    "pinyin_numeric": "Yi1yuan4 zai4 na3 li3?",
     "path": "audio/month1/sentences/AUD_SEN_M1_D22_04.mp3",
     "status": "placeholder"
   },
@@ -3442,7 +3442,7 @@
     "kind": "vocab",
     "ref_id": "VOC_M1_163",
     "text": "那個",
-    "pinyin_numeric": "na4ge5",
+    "pinyin_numeric": "na4 ge0",
     "path": "audio/month1/vocab/AUD_VOC_M1_163.mp3",
     "status": "placeholder"
   },
@@ -3460,7 +3460,7 @@
     "kind": "sentence",
     "ref_id": "SEN_M1_D23_02",
     "text": "這個菜比那個菜貴。",
-    "pinyin_numeric": "Zhe4ge5 cai4 bi3 na4ge5 cai4 gui4.",
+    "pinyin_numeric": "zhe4 ge0 cai4 bi3 na4 ge0 cai4 gui4.",
     "path": "audio/month1/sentences/AUD_SEN_M1_D23_02.mp3",
     "status": "placeholder"
   },
@@ -3622,7 +3622,7 @@
     "kind": "sentence",
     "ref_id": "SEN_M1_D24_03",
     "text": "廁所在哪裡？",
-    "pinyin_numeric": "Ce4suo3 zai4 na3li3?",
+    "pinyin_numeric": "Ce4suo3 zai4 na3 li3?",
     "path": "audio/month1/sentences/AUD_SEN_M1_D24_03.mp3",
     "status": "placeholder"
   },
@@ -3937,7 +3937,7 @@
     "kind": "sentence",
     "ref_id": "SEN_M1_D26_02",
     "text": "請幫我一下，可以嗎？",
-    "pinyin_numeric": "Qing3 bang1 wo3 yi2xia4, ke3yi3 ma0?",
+    "pinyin_numeric": "Qing3 bang1 wo3 yi2xia4, ke3 yi3 ma0?",
     "path": "audio/month1/sentences/AUD_SEN_M1_D26_02.mp3",
     "status": "placeholder"
   },
@@ -3991,7 +3991,7 @@
     "kind": "sentence",
     "ref_id": "SEN_M1_D26_08",
     "text": "可以請你說慢一點嗎？",
-    "pinyin_numeric": "Ke3yi3 qing3 ni3 shuo1 man4 yi4dian3 ma0?",
+    "pinyin_numeric": "ke3 yi3 qing3 ni3 shuo1 man4 yi4dian3 ma0?",
     "path": "audio/month1/sentences/AUD_SEN_M1_D26_08.mp3",
     "status": "placeholder"
   },
@@ -4450,7 +4450,7 @@
     "kind": "sentence",
     "ref_id": "SEN_M1_D30_05",
     "text": "我可以坐這裡嗎？",
-    "pinyin_numeric": "Wo3 ke3yi3 zuo4 zhe4li3 ma0?",
+    "pinyin_numeric": "Wo3 ke3 yi3 zuo4 zhe4li3 ma0?",
     "path": "audio/month1/sentences/AUD_SEN_M1_D30_05.mp3",
     "status": "placeholder"
   },

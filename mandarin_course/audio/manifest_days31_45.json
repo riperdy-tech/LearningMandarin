@@ -319,7 +319,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D31_001",
     "text": "你好，我想要一杯小杯的拿鐵，可以嗎？",
-    "pinyin_numeric": "ni3 hao3, wo3 xiang3 yao4 yi1 bei1 xiao3 bei1 de na2tie3, ke3yi3 ma0?",
+    "pinyin_numeric": "ni3 hao3, wo3 xiang3 yao4 yi1 bei1 xiao3 bei1 de na2tie3, ke3 yi3 ma0?",
     "path": "audio/AUD_SEN_D31_001.mp3",
     "status": "placeholder"
   },
@@ -328,7 +328,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D31_002",
     "text": "麻煩你，可以幫我點一杯紅茶嗎？",
-    "pinyin_numeric": "ma2fan ni3, ke3yi3 bang1 wo3 dian3 yi1 bei1 hong2cha2 ma0?",
+    "pinyin_numeric": "ma2fan ni3, ke3 yi3 bang1 wo3 dian3 yi1 bei1 hong2cha2 ma0?",
     "path": "audio/AUD_SEN_D31_002.mp3",
     "status": "placeholder"
   },
@@ -337,7 +337,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D31_003",
     "text": "不好意思，可以給我一個袋子嗎？",
-    "pinyin_numeric": "bu4 hao3 yi4si, ke3yi3 gei3 wo3 yi1 ge4 dai4zi ma0?",
+    "pinyin_numeric": "bu4 hao3 yi4si, ke3 yi3 gei3 wo3 yi1 ge4 dai4zi ma0?",
     "path": "audio/AUD_SEN_D31_003.mp3",
     "status": "placeholder"
   },
@@ -346,7 +346,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D31_004",
     "text": "請問，可以幫我加珍珠嗎？",
-    "pinyin_numeric": "qing3wen4, ke3yi3 bang1 wo3 jia1 zhen1zhu1 ma0?",
+    "pinyin_numeric": "qing3 wen4, ke3 yi3 bang1 wo3 jia1 zhen1zhu1 ma0?",
     "path": "audio/AUD_SEN_D31_004.mp3",
     "status": "placeholder"
   },
@@ -355,7 +355,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D31_005",
     "text": "我想要一杯綠茶，半糖，可以嗎？",
-    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 lv4cha2, ban4 tang2, ke3yi3 ma0?",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 lv4cha2, ban4 tang2, ke3 yi3 ma0?",
     "path": "audio/AUD_SEN_D31_005.mp3",
     "status": "placeholder"
   },
@@ -364,7 +364,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D31_006",
     "text": "麻煩你，可以給我中杯的豆漿嗎？",
-    "pinyin_numeric": "ma2fan ni3, ke3yi3 gei3 wo3 zhong1 bei1 de dou4jiang1 ma0?",
+    "pinyin_numeric": "ma2fan ni3, ke3 yi3 gei3 wo3 zhong1 bei1 de dou4jiang1 ma0?",
     "path": "audio/AUD_SEN_D31_006.mp3",
     "status": "placeholder"
   },
@@ -373,7 +373,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D31_007",
     "text": "不好意思，可以再說一次嗎？我聽不懂。",
-    "pinyin_numeric": "bu4 hao3 yi4si, ke3yi3 zai4 shuo1 yi1 ci4 ma0? Wo3 ting1 bu4 dong3.",
+    "pinyin_numeric": "bu4 hao3 yi4si, ke3 yi3 zai4 shuo1 yi1 ci4 ma0? Wo3 ting1 bu4 dong3.",
     "path": "audio/AUD_SEN_D31_007.mp3",
     "status": "placeholder"
   },
@@ -382,7 +382,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D31_008",
     "text": "請問，可以慢一點說嗎？",
-    "pinyin_numeric": "qing3wen4, ke3yi3 man4 yi1 dian3 shuo1 ma0?",
+    "pinyin_numeric": "qing3 wen4, ke3 yi3 man4 yi1 dian3 shuo1 ma0?",
     "path": "audio/AUD_SEN_D31_008.mp3",
     "status": "placeholder"
   },
@@ -391,7 +391,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D31_009",
     "text": "我想要一杯冰的紅茶，少冰，可以嗎？",
-    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 bing1 de hong2cha2, shao3 bing1, ke3yi3 ma0?",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 bing1 de hong2cha2, shao3 bing1, ke3 yi3 ma0?",
     "path": "audio/AUD_SEN_D31_009.mp3",
     "status": "placeholder"
   },
@@ -400,7 +400,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D31_010",
     "text": "麻煩你，可以幫我外帶嗎？",
-    "pinyin_numeric": "ma2fan ni3, ke3yi3 bang1 wo3 wai4dai4 ma0?",
+    "pinyin_numeric": "ma2fan ni3, ke3 yi3 bang1 wo3 wai4dai4 ma0?",
     "path": "audio/AUD_SEN_D31_010.mp3",
     "status": "placeholder"
   },
@@ -1135,7 +1135,7 @@
     "kind": "listening",
     "ref_id": "LIS_D31_02",
     "text": "請問，可以幫我加珍珠嗎？",
-    "pinyin_numeric": "qing3wen4, ke3yi3 bang1 wo3 jia1 zhen1zhu1 ma0?",
+    "pinyin_numeric": "qing3 wen4, ke3 yi3 bang1 wo3 jia1 zhen1zhu1 ma0?",
     "path": "audio/AUD_LIS_D31_02.mp3",
     "status": "placeholder"
   },
@@ -1144,7 +1144,7 @@
     "kind": "listening",
     "ref_id": "LIS_D31_03",
     "text": "不好意思，可以再說一次嗎？我聽不懂。",
-    "pinyin_numeric": "bu4 hao3 yi4si, ke3yi3 zai4 shuo1 yi1 ci4 ma0? Wo3 ting1 bu4 dong3.",
+    "pinyin_numeric": "bu4 hao3 yi4si, ke3 yi3 zai4 shuo1 yi1 ci4 ma0? Wo3 ting1 bu4 dong3.",
     "path": "audio/AUD_LIS_D31_03.mp3",
     "status": "placeholder"
   },
@@ -1153,7 +1153,7 @@
     "kind": "listening",
     "ref_id": "LIS_D31_04",
     "text": "麻煩你，可以幫我外帶嗎？",
-    "pinyin_numeric": "ma2fan ni3, ke3yi3 bang1 wo3 wai4dai4 ma0?",
+    "pinyin_numeric": "ma2fan ni3, ke3 yi3 bang1 wo3 wai4dai4 ma0?",
     "path": "audio/AUD_LIS_D31_04.mp3",
     "status": "placeholder"
   },
@@ -1216,7 +1216,7 @@
     "kind": "listening",
     "ref_id": "LIS_D31_11",
     "text": "不好意思，可以給我一個袋子嗎？",
-    "pinyin_numeric": "bu4 hao3 yi4si, ke3yi3 gei3 wo3 yi1 ge4 dai4zi ma0?",
+    "pinyin_numeric": "bu4 hao3 yi4si, ke3 yi3 gei3 wo3 yi1 ge4 dai4zi ma0?",
     "path": "audio/AUD_LIS_D31_11.mp3",
     "status": "placeholder"
   },
@@ -1234,7 +1234,7 @@
     "kind": "listening",
     "ref_id": "LIS_D31_13",
     "text": "麻煩你，可以幫我點一杯紅茶嗎？",
-    "pinyin_numeric": "ma2fan ni3, ke3yi3 bang1 wo3 dian3 yi1 bei1 hong2cha2 ma0?",
+    "pinyin_numeric": "ma2fan ni3, ke3 yi3 bang1 wo3 dian3 yi1 bei1 hong2cha2 ma0?",
     "path": "audio/AUD_LIS_D31_13.mp3",
     "status": "placeholder"
   },
@@ -1261,7 +1261,7 @@
     "kind": "listening",
     "ref_id": "LIS_D31_16",
     "text": "我想要一杯綠茶，半糖，可以嗎？",
-    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 lv4cha2, ban4 tang2, ke3yi3 ma0?",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 lv4cha2, ban4 tang2, ke3 yi3 ma0?",
     "path": "audio/AUD_LIS_D31_16.mp3",
     "status": "placeholder"
   },
@@ -1630,7 +1630,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D32_002",
     "text": "這個便當需要加熱嗎？",
-    "pinyin_numeric": "zhe4ge5 bian4dang1 xu1yao4 jia1re4 ma0",
+    "pinyin_numeric": "zhe4 ge0 bian4dang1 xu1yao4 jia1re4 ma0",
     "path": "audio/AUD_SEN_D32_002.mp3",
     "status": "placeholder"
   },
@@ -1648,7 +1648,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D32_004",
     "text": "請幫我掃描這個條碼。",
-    "pinyin_numeric": "qing3 bang1 wo3 sao3miao2 zhe4ge5 tiao2ma3",
+    "pinyin_numeric": "qing3 bang1 wo3 sao3miao2 zhe4 ge0 tiao2ma3",
     "path": "audio/AUD_SEN_D32_004.mp3",
     "status": "placeholder"
   },
@@ -1666,7 +1666,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D32_006",
     "text": "這個三明治有特價嗎？",
-    "pinyin_numeric": "zhe4ge5 san1ming2zhi4 you3 te4jia4 ma0",
+    "pinyin_numeric": "zhe4 ge0 san1ming2zhi4 you3 te4jia4 ma0",
     "path": "audio/AUD_SEN_D32_006.mp3",
     "status": "placeholder"
   },
@@ -1702,7 +1702,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D32_010",
     "text": "這個茶葉蛋買一送一嗎？",
-    "pinyin_numeric": "zhe4ge5 cha2ye4dan4 mai3 yi1 song4 yi1 ma0",
+    "pinyin_numeric": "zhe4 ge0 cha2ye4dan4 mai3 yi1 song4 yi1 ma0",
     "path": "audio/AUD_SEN_D32_010.mp3",
     "status": "placeholder"
   },
@@ -1918,7 +1918,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D32_036",
     "text": "這個飯糰有特價嗎？",
-    "pinyin_numeric": "zhe4ge5 fan4tuan2 you3 te4jia4 ma0?",
+    "pinyin_numeric": "zhe4 ge0 fan4tuan2 you3 te4jia4 ma0?",
     "path": "audio/AUD_SEN_D32_036.mp3",
     "status": "placeholder"
   },
@@ -2143,7 +2143,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D32_063",
     "text": "這個便當要加熱嗎？",
-    "pinyin_numeric": "zhe4ge4 bian4dang1 yao4 jia1re4 ma0?",
+    "pinyin_numeric": "zhe4 ge04 bian4dang1 yao4 jia1re4 ma0?",
     "path": "audio/AUD_SEN_D32_063.mp3",
     "status": "placeholder"
   },
@@ -2152,7 +2152,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D32_064",
     "text": "我可以用信用卡付款嗎？",
-    "pinyin_numeric": "wo3 ke3yi3 yong4 xin4yong4ka3 fu4kuan3 ma0?",
+    "pinyin_numeric": "wo3 ke3 yi3 yong4 xin4yong4ka3 fu4kuan3 ma0?",
     "path": "audio/AUD_SEN_D32_064.mp3",
     "status": "placeholder"
   },
@@ -2350,7 +2350,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D32_01",
     "text": "可以，請在這裡刷卡。",
-    "pinyin_numeric": "Ke3yi3, qing3 zai4 zhe4li3 shua1ka3.",
+    "pinyin_numeric": "ke3 yi3, qing3 zai4 zhe4li3 shua1ka3.",
     "path": "audio/AUD_DLG_D32_01_T5.mp3",
     "status": "placeholder"
   },
@@ -2368,7 +2368,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D32_02",
     "text": "不好意思，可以給我發票嗎？",
-    "pinyin_numeric": "Bu4 hao3 yi4si, ke3yi3 gei3 wo3 fa1piao4 ma?",
+    "pinyin_numeric": "Bu4 hao3 yi4si, ke3 yi3 gei3 wo3 fa1piao4 ma?",
     "path": "audio/AUD_DLG_D32_02_T1.mp3",
     "status": "placeholder"
   },
@@ -2422,7 +2422,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D32_03",
     "text": "沒關係，您可以用現金或電子支付。",
-    "pinyin_numeric": "Mei2 guan1xi, nin2 ke3yi3 yong4 xian4jin1 huo4 dian4zi3 zhi1fu4.",
+    "pinyin_numeric": "Mei2 guan1xi, nin2 ke3 yi3 yong4 xian4jin1 huo4 dian4zi3 zhi1fu4.",
     "path": "audio/AUD_DLG_D32_03_T2.mp3",
     "status": "placeholder"
   },
@@ -2476,7 +2476,7 @@
     "kind": "listening",
     "ref_id": "LIS_D32_02",
     "text": "請幫我掃描這個條碼。",
-    "pinyin_numeric": "qing3 bang1 wo3 sao3miao2 zhe4ge5 tiao2ma3",
+    "pinyin_numeric": "qing3 bang1 wo3 sao3miao2 zhe4 ge0 tiao2ma3",
     "path": "audio/AUD_LIS_D32_02.mp3",
     "status": "placeholder"
   },
@@ -2494,7 +2494,7 @@
     "kind": "listening",
     "ref_id": "LIS_D32_04",
     "text": "這個茶葉蛋買一送一嗎？",
-    "pinyin_numeric": "zhe4ge5 cha2ye4dan4 mai3 yi1 song4 yi1 ma0",
+    "pinyin_numeric": "zhe4 ge0 cha2ye4dan4 mai3 yi1 song4 yi1 ma0",
     "path": "audio/AUD_LIS_D32_04.mp3",
     "status": "placeholder"
   },
@@ -2557,7 +2557,7 @@
     "kind": "listening",
     "ref_id": "LIS_D32_11",
     "text": "這個便當需要加熱嗎？",
-    "pinyin_numeric": "zhe4ge5 bian4dang1 xu1yao4 jia1re4 ma0",
+    "pinyin_numeric": "zhe4 ge0 bian4dang1 xu1yao4 jia1re4 ma0",
     "path": "audio/AUD_LIS_D32_11.mp3",
     "status": "placeholder"
   },
@@ -2962,7 +2962,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D33_001",
     "text": "請問洗手間在電梯的旁邊嗎？",
-    "pinyin_numeric": "qing3wen4 xi3shou3jian1 zai4 dian4ti1 de0 pang2bian1 ma0",
+    "pinyin_numeric": "qing3 wen4 xi3shou3jian1 zai4 dian4ti1 de0 pang2bian1 ma0",
     "path": "audio/AUD_SEN_D33_001.mp3",
     "status": "placeholder"
   },
@@ -2971,7 +2971,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D33_002",
     "text": "出口在櫃台的前面，左轉就可以看到。",
-    "pinyin_numeric": "chu1kou3 zai4 gui4tai2 de0 qian2mian4, zuo3zhuan3 jiu4 ke3yi3 kan4dao4.",
+    "pinyin_numeric": "chu1kou3 zai4 gui4tai2 de0 qian2mian4, zuo3zhuan3 jiu4 ke3 yi3 kan4dao4.",
     "path": "audio/AUD_SEN_D33_002.mp3",
     "status": "placeholder"
   },
@@ -3016,7 +3016,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D33_007",
     "text": "請問櫃台在服務台的後面嗎？",
-    "pinyin_numeric": "qing3wen4 gui4tai2 zai4 fu2wu4tai2 de0 hou4mian4 ma0",
+    "pinyin_numeric": "qing3 wen4 gui4tai2 zai4 fu2wu4tai2 de0 hou4mian4 ma0",
     "path": "audio/AUD_SEN_D33_007.mp3",
     "status": "placeholder"
   },
@@ -3043,7 +3043,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D33_010",
     "text": "從入口直走，到櫃台前面左轉，就可以看到電梯。",
-    "pinyin_numeric": "cong2 ru4kou3 zhi2zou3, dao4 gui4tai2 qian2mian4 zuo3zhuan3, jiu4 ke3yi3 kan4dao4 dian4ti1.",
+    "pinyin_numeric": "cong2 ru4kou3 zhi2zou3, dao4 gui4tai2 qian2mian4 zuo3zhuan3, jiu4 ke3 yi3 kan4dao4 dian4ti1.",
     "path": "audio/AUD_SEN_D33_010.mp3",
     "status": "placeholder"
   },
@@ -3277,7 +3277,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D33_037",
     "text": "請問出口在樓梯的旁邊嗎？",
-    "pinyin_numeric": "qing3wen4 chu1kou3 zai4 lou2ti1 de0 pang2bian1 ma0",
+    "pinyin_numeric": "qing3 wen4 chu1kou3 zai4 lou2ti1 de0 pang2bian1 ma0",
     "path": "audio/AUD_SEN_D33_037.mp3",
     "status": "placeholder"
   },
@@ -3412,7 +3412,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D33_055",
     "text": "請問服務台從這裡到那裡要怎麼走？",
-    "pinyin_numeric": "qing3wen4 fu2wu4tai2 cong2 zhe4li3 dao4 na4li3 yao4 zen3 me0 zou3",
+    "pinyin_numeric": "qing3 wen4 fu2wu4tai2 cong2 zhe4li3 dao4 na4li3 yao4 zen3 me0 zou3",
     "path": "audio/AUD_SEN_D33_055.mp3",
     "status": "placeholder"
   },
@@ -3448,7 +3448,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D33_059",
     "text": "請問從這裡到辦公室要走樓梯上去嗎？",
-    "pinyin_numeric": "qing3wen4 cong2 zhe4li3 dao4 ban4gong1shi4 yao4 zou3 lou2ti1 shang4 qu4 ma0",
+    "pinyin_numeric": "qing3 wen4 cong2 zhe4li3 dao4 ban4gong1shi4 yao4 zou3 lou2ti1 shang4 qu4 ma0",
     "path": "audio/AUD_SEN_D33_059.mp3",
     "status": "placeholder"
   },
@@ -3754,7 +3754,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D33_03",
     "text": "不好意思，我好像走錯樓層了。請問教室在三樓嗎？",
-    "pinyin_numeric": "bu4 hao3 yi4 si5, wo3 hao3 xiang4 zou3 cuo4 lou2 ceng2 le5. qing3 wen4 jiao4 shi4 zai4 san1 lou2 ma5?",
+    "pinyin_numeric": "bu4 hao3 yi4 si5, wo3 hao3 xiang4 zou3 cuo4 lou2 ceng2 le5. qing3 wen4 jiao4 shi4 zai4 san1 lou2 ma0?",
     "path": "audio/AUD_DLG_D33_03_T1.mp3",
     "status": "placeholder"
   },
@@ -3772,7 +3772,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D33_03",
     "text": "好的，請問要怎麼上去？有電梯嗎？",
-    "pinyin_numeric": "hao3 de5, qing3 wen4 yao4 zen3 me0 shang4 qu4? you3 dian4 ti1 ma5?",
+    "pinyin_numeric": "hao3 de5, qing3 wen4 yao4 zen3 me0 shang4 qu4? you3 dian4 ti1 ma0?",
     "path": "audio/AUD_DLG_D33_03_T3.mp3",
     "status": "placeholder"
   },
@@ -3817,7 +3817,7 @@
     "kind": "listening",
     "ref_id": "LIS_D33_03",
     "text": "請問櫃台在服務台的後面嗎？",
-    "pinyin_numeric": "qing3wen4 gui4tai2 zai4 fu2wu4tai2 de0 hou4mian4 ma0",
+    "pinyin_numeric": "qing3 wen4 gui4tai2 zai4 fu2wu4tai2 de0 hou4mian4 ma0",
     "path": "audio/AUD_LIS_D33_03.mp3",
     "status": "placeholder"
   },
@@ -3826,7 +3826,7 @@
     "kind": "listening",
     "ref_id": "LIS_D33_04",
     "text": "從入口直走，到櫃台前面左轉，就可以看到電梯。",
-    "pinyin_numeric": "cong2 ru4kou3 zhi2zou3, dao4 gui4tai2 qian2mian4 zuo3zhuan3, jiu4 ke3yi3 kan4dao4 dian4ti1.",
+    "pinyin_numeric": "cong2 ru4kou3 zhi2zou3, dao4 gui4tai2 qian2mian4 zuo3zhuan3, jiu4 ke3 yi3 kan4dao4 dian4ti1.",
     "path": "audio/AUD_LIS_D33_04.mp3",
     "status": "placeholder"
   },
@@ -3889,7 +3889,7 @@
     "kind": "listening",
     "ref_id": "LIS_D33_11",
     "text": "出口在櫃台的前面，左轉就可以看到。",
-    "pinyin_numeric": "chu1kou3 zai4 gui4tai2 de0 qian2mian4, zuo3zhuan3 jiu4 ke3yi3 kan4dao4.",
+    "pinyin_numeric": "chu1kou3 zai4 gui4tai2 de0 qian2mian4, zuo3zhuan3 jiu4 ke3 yi3 kan4dao4.",
     "path": "audio/AUD_LIS_D33_11.mp3",
     "status": "placeholder"
   },
@@ -3907,7 +3907,7 @@
     "kind": "listening",
     "ref_id": "LIS_D33_13",
     "text": "請問出口在樓梯的旁邊嗎？",
-    "pinyin_numeric": "qing3wen4 chu1kou3 zai4 lou2ti1 de0 pang2bian1 ma0",
+    "pinyin_numeric": "qing3 wen4 chu1kou3 zai4 lou2ti1 de0 pang2bian1 ma0",
     "path": "audio/AUD_LIS_D33_13.mp3",
     "status": "placeholder"
   },
@@ -3961,7 +3961,7 @@
     "kind": "listening",
     "ref_id": "LIS_D33_19",
     "text": "請問服務台從這裡到那裡要怎麼走？",
-    "pinyin_numeric": "qing3wen4 fu2wu4tai2 cong2 zhe4li3 dao4 na4li3 yao4 zen3 me0 zou3",
+    "pinyin_numeric": "qing3 wen4 fu2wu4tai2 cong2 zhe4li3 dao4 na4li3 yao4 zen3 me0 zou3",
     "path": "audio/AUD_LIS_D33_19.mp3",
     "status": "placeholder"
   },
@@ -5572,7 +5572,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D35_010",
     "text": "沒有關係，再等一下就好。",
-    "pinyin_numeric": "mei2you3 guan1xi4, zai4 deng3 yi1xia4 jiu4 hao3",
+    "pinyin_numeric": "mei2 you3 guan1xi4, zai4 deng3 yi1xia4 jiu4 hao3",
     "path": "audio/AUD_SEN_D35_010.mp3",
     "status": "placeholder"
   },
@@ -5770,7 +5770,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D35_032",
     "text": "這個青菜可以少鹽嗎？",
-    "pinyin_numeric": "zhe4ge0 qing1cai4 ke3yi3 shao3 yan2 ma0?",
+    "pinyin_numeric": "zhe4 ge0 qing1cai4 ke3 yi3 shao3 yan2 ma0?",
     "path": "audio/AUD_SEN_D35_032.mp3",
     "status": "placeholder"
   },
@@ -5806,7 +5806,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D35_036",
     "text": "原本的炒麵太鹹了，可以重做一份少鹽的嗎？",
-    "pinyin_numeric": "yuan2ben3 de0 chao3mian4 tai4 xian2 le0, ke3yi3 chong2 zuo4 yi1 fen4 shao3 yan2 de0 ma0?",
+    "pinyin_numeric": "yuan2ben3 de0 chao3mian4 tai4 xian2 le0, ke3 yi3 chong2 zuo4 yi1 fen4 shao3 yan2 de0 ma0?",
     "path": "audio/AUD_SEN_D35_036.mp3",
     "status": "placeholder"
   },
@@ -5824,7 +5824,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D35_038",
     "text": "我的滷味少了豆腐，而且太油了，可以退掉嗎？",
-    "pinyin_numeric": "wo3 de0 lu3wei4 shao3 le0 dou4fu0, er2qie3 tai4 you2 le0, ke3yi3 tui4 diao4 ma0?",
+    "pinyin_numeric": "wo3 de0 lu3wei4 shao3 le0 dou4fu0, er2qie3 tai4 you2 le0, ke3 yi3 tui4 diao4 ma0?",
     "path": "audio/AUD_SEN_D35_038.mp3",
     "status": "placeholder"
   },
@@ -5842,7 +5842,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D35_040",
     "text": "沒有關係，再等一下，請幫我換一份不要辣的炒飯。",
-    "pinyin_numeric": "mei2you3 guan1xi4, zai4 deng3 yi1xia4, qing3 bang1 wo3 huan4 yi1 fen4 bu4 yao4 la4 de0 chao3fan4.",
+    "pinyin_numeric": "mei2 you3 guan1xi4, zai4 deng3 yi1xia4, qing3 bang1 wo3 huan4 yi1 fen4 bu4 yao4 la4 de0 chao3fan4.",
     "path": "audio/AUD_SEN_D35_040.mp3",
     "status": "placeholder"
   },
@@ -5851,7 +5851,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D35_041",
     "text": "可以幫我換成少鹽的嗎？",
-    "pinyin_numeric": "ke3yi3 bang1 wo3 huan4 cheng2 shao3 yan2 de0 ma0",
+    "pinyin_numeric": "ke3 yi3 bang1 wo3 huan4 cheng2 shao3 yan2 de0 ma0",
     "path": "audio/AUD_SEN_D35_041.mp3",
     "status": "placeholder"
   },
@@ -5860,7 +5860,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D35_045",
     "text": "可以加蛋嗎？",
-    "pinyin_numeric": "ke3yi3 jia1 dan4 ma0",
+    "pinyin_numeric": "ke3 yi3 jia1 dan4 ma0",
     "path": "audio/AUD_SEN_D35_045.mp3",
     "status": "placeholder"
   },
@@ -5869,7 +5869,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D35_046",
     "text": "可以幫我退掉這個嗎？",
-    "pinyin_numeric": "ke3yi3 bang1 wo3 tui4 diao4 zhe4ge0 ma0",
+    "pinyin_numeric": "ke3 yi3 bang1 wo3 tui4 diao4 zhe4 ge0 ma0",
     "path": "audio/AUD_SEN_D35_046.mp3",
     "status": "placeholder"
   },
@@ -5878,7 +5878,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D35_049",
     "text": "可以幫我確認訂單嗎？",
-    "pinyin_numeric": "ke3yi3 bang1 wo3 que4ren4 ding4dan1 ma0",
+    "pinyin_numeric": "ke3 yi3 bang1 wo3 que4ren4 ding4dan1 ma0",
     "path": "audio/AUD_SEN_D35_049.mp3",
     "status": "placeholder"
   },
@@ -5887,7 +5887,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D35_050",
     "text": "可以幫我打包嗎？",
-    "pinyin_numeric": "ke3yi3 bang1 wo3 da3bao1 ma0",
+    "pinyin_numeric": "ke3 yi3 bang1 wo3 da3bao1 ma0",
     "path": "audio/AUD_SEN_D35_050.mp3",
     "status": "placeholder"
   },
@@ -5923,7 +5923,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D35_054",
     "text": "剛剛我點錯了，可以換一份嗎？",
-    "pinyin_numeric": "gang1gang1 wo3 dian3 cuo4 le0, ke3yi3 huan4 yi1 fen4 ma0?",
+    "pinyin_numeric": "gang1gang1 wo3 dian3 cuo4 le0, ke3 yi3 huan4 yi1 fen4 ma0?",
     "path": "audio/AUD_SEN_D35_054.mp3",
     "status": "placeholder"
   },
@@ -5941,7 +5941,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D35_056",
     "text": "店員點錯了，我沒有要加蛋。",
-    "pinyin_numeric": "dian4yuan2 dian3 cuo4 le0, wo3 mei2you3 yao4 jia1 dan4.",
+    "pinyin_numeric": "dian4yuan2 dian3 cuo4 le0, wo3 mei2 you3 yao4 jia1 dan4.",
     "path": "audio/AUD_SEN_D35_056.mp3",
     "status": "placeholder"
   },
@@ -5959,7 +5959,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D35_058",
     "text": "不好意思，這份青菜太油了，可以重做嗎？",
-    "pinyin_numeric": "bu4 hao3yi4si0, zhe4 fen4 qing1cai4 tai4 you2 le0, ke3yi3 chong2zuo4 ma0?",
+    "pinyin_numeric": "bu4 hao3yi4si0, zhe4 fen4 qing1cai4 tai4 you2 le0, ke3 yi3 chong2zuo4 ma0?",
     "path": "audio/AUD_SEN_D35_058.mp3",
     "status": "placeholder"
   },
@@ -5977,7 +5977,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D35_061",
     "text": "我剛剛點錯了，可以幫我換一份嗎？",
-    "pinyin_numeric": "wo3 gang1gang1 dian3 cuo4 le0, ke3yi3 bang1 wo3 huan4 yi1 fen4 ma0",
+    "pinyin_numeric": "wo3 gang1gang1 dian3 cuo4 le0, ke3 yi3 bang1 wo3 huan4 yi1 fen4 ma0",
     "path": "audio/AUD_SEN_D35_061.mp3",
     "status": "placeholder"
   },
@@ -5995,7 +5995,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D35_063",
     "text": "這個青菜太油了，可以重做一份少油的嗎？",
-    "pinyin_numeric": "zhe4ge0 qing1cai4 tai4 you2 le0, ke3yi3 chong2zuo4 yi1 fen4 shao3 you2 de0 ma0",
+    "pinyin_numeric": "zhe4 ge0 qing1cai4 tai4 you2 le0, ke3 yi3 chong2zuo4 yi1 fen4 shao3 you2 de0 ma0",
     "path": "audio/AUD_SEN_D35_063.mp3",
     "status": "placeholder"
   },
@@ -6013,7 +6013,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D35_065",
     "text": "這個滷味太鹹了，可以退掉嗎？",
-    "pinyin_numeric": "zhe4ge0 lu3wei4 tai4 xian2 le0, ke3yi3 tui4 diao4 ma0?",
+    "pinyin_numeric": "zhe4 ge0 lu3wei4 tai4 xian2 le0, ke3 yi3 tui4 diao4 ma0?",
     "path": "audio/AUD_SEN_D35_065.mp3",
     "status": "placeholder"
   },
@@ -6040,7 +6040,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D35_068",
     "text": "這個豆腐不要辣，可是拿錯了，是辣的。",
-    "pinyin_numeric": "zhe4ge0 dou4fu0 bu4 yao4 la4, ke3shi4 na2 cuo4 le0, shi4 la4 de0.",
+    "pinyin_numeric": "zhe4 ge0 dou4fu0 bu4 yao4 la4, ke3shi4 na2 cuo4 le0, shi4 la4 de0.",
     "path": "audio/AUD_SEN_D35_068.mp3",
     "status": "placeholder"
   },
@@ -6058,7 +6058,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D35_070",
     "text": "沒有關係，再等一下，請確認訂單。",
-    "pinyin_numeric": "mei2you3 guan1xi4, zai4 deng3 yi1xia4, qing3 que4ren4 ding4dan1.",
+    "pinyin_numeric": "mei2 you3 guan1xi4, zai4 deng3 yi1xia4, qing3 que4ren4 ding4dan1.",
     "path": "audio/AUD_SEN_D35_070.mp3",
     "status": "placeholder"
   },
@@ -6067,7 +6067,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D35_071",
     "text": "可以幫我換一份青菜嗎？",
-    "pinyin_numeric": "ke3yi3 bang1 wo3 huan4 yi1 fen4 qing1cai4 ma0",
+    "pinyin_numeric": "ke3 yi3 bang1 wo3 huan4 yi1 fen4 qing1cai4 ma0",
     "path": "audio/AUD_SEN_D35_071.mp3",
     "status": "placeholder"
   },
@@ -6076,7 +6076,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D35_076",
     "text": "可以退掉這份雞排嗎？",
-    "pinyin_numeric": "ke3yi3 tui4 diao4 zhe4 fen4 ji1pai2 ma0",
+    "pinyin_numeric": "ke3 yi3 tui4 diao4 zhe4 fen4 ji1pai2 ma0",
     "path": "audio/AUD_SEN_D35_076.mp3",
     "status": "placeholder"
   },
@@ -6166,7 +6166,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D35_01",
     "text": "好的，炒飯不要辣。還要別的嗎？",
-    "pinyin_numeric": "Hao3 de5, chao3fan4 bu4 yao4 la4. Hai2 yao4 bie2 de5 ma5?",
+    "pinyin_numeric": "Hao3 de5, chao3fan4 bu4 yao4 la4. Hai2 yao4 bie2 de5 ma0?",
     "path": "audio/AUD_DLG_D35_01_T2.mp3",
     "status": "placeholder"
   },
@@ -6202,7 +6202,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D35_02",
     "text": "不好意思，我剛剛點的是牛肉麵，可是這個是滷肉飯。",
-    "pinyin_numeric": "Bu4 hao3 yi4si5, wo3 gang1gang1 dian3 de5 shi4 niu2rou4mian4, ke3shi4 zhe4ge5 shi4 lu3rou4fan4.",
+    "pinyin_numeric": "Bu4 hao3 yi4si5, wo3 gang1gang1 dian3 de5 shi4 niu2rou4mian4, ke3shi4 zhe4 ge0 shi4 lu3rou4fan4.",
     "path": "audio/AUD_DLG_D35_02_T1.mp3",
     "status": "placeholder"
   },
@@ -6220,7 +6220,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D35_02",
     "text": "沒有關係，可是可以快一點嗎？我有點餓。",
-    "pinyin_numeric": "Mei2 you3 guan1xi5, ke3shi4 ke3yi3 kuai4 yi1dian3 ma5? Wo3 you3 dian3 e4.",
+    "pinyin_numeric": "Mei2 you3 guan1xi5, ke3shi4 ke3 yi3 kuai4 yi1dian3 ma0? Wo3 you3 dian3 e4.",
     "path": "audio/AUD_DLG_D35_02_T3.mp3",
     "status": "placeholder"
   },
@@ -6256,7 +6256,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D35_03",
     "text": "可以，沒問題。原本的配菜是豆腐，要換成青菜，對嗎？",
-    "pinyin_numeric": "Ke3yi3, mei2 wen4ti2. Yuan2ben3 de5 pei4cai4 shi4 dou4fu5, yao4 huan4 cheng2 qing1cai4, dui4 ma5?",
+    "pinyin_numeric": "ke3 yi3, mei2 wen4ti2. Yuan2ben3 de5 pei4cai4 shi4 dou4fu5, yao4 huan4 cheng2 qing1cai4, dui4 ma0?",
     "path": "audio/AUD_DLG_D35_03_T2.mp3",
     "status": "placeholder"
   },
@@ -6319,7 +6319,7 @@
     "kind": "listening",
     "ref_id": "LIS_D35_04",
     "text": "沒有關係，再等一下就好。",
-    "pinyin_numeric": "mei2you3 guan1xi4, zai4 deng3 yi1xia4 jiu4 hao3",
+    "pinyin_numeric": "mei2 you3 guan1xi4, zai4 deng3 yi1xia4 jiu4 hao3",
     "path": "audio/AUD_LIS_D35_04.mp3",
     "status": "placeholder"
   },
@@ -6409,7 +6409,7 @@
     "kind": "listening",
     "ref_id": "LIS_D35_14",
     "text": "沒有關係，再等一下，請幫我換一份不要辣的炒飯。",
-    "pinyin_numeric": "mei2you3 guan1xi4, zai4 deng3 yi1xia4, qing3 bang1 wo3 huan4 yi1 fen4 bu4 yao4 la4 de0 chao3fan4.",
+    "pinyin_numeric": "mei2 you3 guan1xi4, zai4 deng3 yi1xia4, qing3 bang1 wo3 huan4 yi1 fen4 bu4 yao4 la4 de0 chao3fan4.",
     "path": "audio/AUD_LIS_D35_14.mp3",
     "status": "placeholder"
   },
@@ -6418,7 +6418,7 @@
     "kind": "listening",
     "ref_id": "LIS_D35_15",
     "text": "可以不要辣嗎？",
-    "pinyin_numeric": "ke3yi3 bu4 yao4 la4 ma0",
+    "pinyin_numeric": "ke3 yi3 bu4 yao4 la4 ma0",
     "path": "audio/AUD_LIS_D35_15.mp3",
     "status": "placeholder"
   },
@@ -6436,7 +6436,7 @@
     "kind": "listening",
     "ref_id": "LIS_D35_17",
     "text": "可以幫我確認訂單嗎？",
-    "pinyin_numeric": "ke3yi3 bang1 wo3 que4ren4 ding4dan1 ma0",
+    "pinyin_numeric": "ke3 yi3 bang1 wo3 que4ren4 ding4dan1 ma0",
     "path": "audio/AUD_LIS_D35_17.mp3",
     "status": "placeholder"
   },
@@ -6463,7 +6463,7 @@
     "kind": "listening",
     "ref_id": "LIS_D35_20",
     "text": "不好意思，這份青菜太油了，可以重做嗎？",
-    "pinyin_numeric": "bu4 hao3yi4si0, zhe4 fen4 qing1cai4 tai4 you2 le0, ke3yi3 chong2zuo4 ma0?",
+    "pinyin_numeric": "bu4 hao3yi4si0, zhe4 fen4 qing1cai4 tai4 you2 le0, ke3 yi3 chong2zuo4 ma0?",
     "path": "audio/AUD_LIS_D35_20.mp3",
     "status": "placeholder"
   },
@@ -7489,7 +7489,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D36_02",
     "text": "你中午在哪裡吃午餐？",
-    "pinyin_numeric": "Ni3 zhong1wu3 zai4 na3li3 chi1 wu3can1?",
+    "pinyin_numeric": "Ni3 zhong1wu3 zai4 na3 li3 chi1 wu3can1?",
     "path": "audio/AUD_DLG_D36_02_T1.mp3",
     "status": "placeholder"
   },
@@ -7588,7 +7588,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D36_03",
     "text": "太好了！我們晚上七點在餐廳門口見面，可以嗎？",
-    "pinyin_numeric": "Tai4 hao3 le! Wo3men wan3shang qi1 dian3 zai4 can1ting1 men2kou3 jian4mian4, ke3yi3 ma?",
+    "pinyin_numeric": "Tai4 hao3 le! Wo3men wan3shang qi1 dian3 zai4 can1ting1 men2kou3 jian4mian4, ke3 yi3 ma?",
     "path": "audio/AUD_DLG_D36_03_T6.mp3",
     "status": "placeholder"
   },
@@ -7597,7 +7597,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D36_03",
     "text": "可以，晚上見！",
-    "pinyin_numeric": "Ke3yi3, wan3shang jian4!",
+    "pinyin_numeric": "ke3 yi3, wan3shang jian4!",
     "path": "audio/AUD_DLG_D36_03_T7.mp3",
     "status": "placeholder"
   },
@@ -8137,7 +8137,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D37_005",
     "text": "你想去哪裡逛街？",
-    "pinyin_numeric": "ni3 xiang3 qu4 na3li3 guang4jie1",
+    "pinyin_numeric": "ni3 xiang3 qu4 na3 li3 guang4jie1",
     "path": "audio/AUD_SEN_D37_005.mp3",
     "status": "placeholder"
   },
@@ -8155,7 +8155,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D37_007",
     "text": "我們想提早見面，可以嗎？",
-    "pinyin_numeric": "wo3men xiang3 ti2zao3 jian4mian4, ke3yi3 ma0",
+    "pinyin_numeric": "wo3men xiang3 ti2zao3 jian4mian4, ke3 yi3 ma0",
     "path": "audio/AUD_SEN_D37_007.mp3",
     "status": "placeholder"
   },
@@ -8245,7 +8245,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D37_017",
     "text": "你這個週末要跟誰一起吃飯？",
-    "pinyin_numeric": "ni3 zhe4ge5 zhou1mo4 yao4 gen1 shei2 yi1qi3 chi1fan4",
+    "pinyin_numeric": "ni3 zhe4 ge0 zhou1mo4 yao4 gen1 shei2 yi1qi3 chi1fan4",
     "path": "audio/AUD_SEN_D37_017.mp3",
     "status": "placeholder"
   },
@@ -8281,7 +8281,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D37_021",
     "text": "你什麼時候有空？我們可以一起去喝咖啡。",
-    "pinyin_numeric": "ni3 shen2 me0 shi2hou you3 kong4? wo3men ke3yi3 yi1qi3 qu4 he1 ka1fei1.",
+    "pinyin_numeric": "ni3 shen2 me0 shi2hou you3 kong4? wo3men ke3 yi3 yi1qi3 qu4 he1 ka1fei1.",
     "path": "audio/AUD_SEN_D37_021.mp3",
     "status": "placeholder"
   },
@@ -8299,7 +8299,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D37_023",
     "text": "你什麼時候要吃飯？我們可以約在餐廳門口碰面。",
-    "pinyin_numeric": "ni3 shen2 me0 shi2hou yao4 chi1fan4? wo3men ke3yi3 yue1 zai4 can1ting1 men2kou3 peng4mian4.",
+    "pinyin_numeric": "ni3 shen2 me0 shi2hou yao4 chi1fan4? wo3men ke3 yi3 yue1 zai4 can1ting1 men2kou3 peng4mian4.",
     "path": "audio/AUD_SEN_D37_023.mp3",
     "status": "placeholder"
   },
@@ -8317,7 +8317,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D37_025",
     "text": "你什麼時候要見朋友？我們可以一起去喝咖啡聊天。",
-    "pinyin_numeric": "ni3 shen2 me0 shi2hou yao4 jian4 peng2you? wo3men ke3yi3 yi1qi3 qu4 he1 ka1fei1 liao2tian1.",
+    "pinyin_numeric": "ni3 shen2 me0 shi2hou yao4 jian4 peng2you? wo3men ke3 yi3 yi1qi3 qu4 he1 ka1fei1 liao2tian1.",
     "path": "audio/AUD_SEN_D37_025.mp3",
     "status": "placeholder"
   },
@@ -8335,7 +8335,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D37_027",
     "text": "你什麼時候要取消約會？我們可以改天再見面。",
-    "pinyin_numeric": "ni3 shen2 me0 shi2hou yao4 qu3xiao1 yue1hui4? wo3men ke3yi3 gai3tian1 zai4 jian4mian4.",
+    "pinyin_numeric": "ni3 shen2 me0 shi2hou yao4 qu3xiao1 yue1hui4? wo3men ke3 yi3 gai3tian1 zai4 jian4mian4.",
     "path": "audio/AUD_SEN_D37_027.mp3",
     "status": "placeholder"
   },
@@ -8344,7 +8344,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D37_028",
     "text": "她什麼時候要提早到？我們可以在咖啡店等她。",
-    "pinyin_numeric": "ta1 shen2 me0 shi2hou yao4 ti2zao3 dao4? wo3men ke3yi3 zai4 ka1fei1 dian4 deng3 ta1.",
+    "pinyin_numeric": "ta1 shen2 me0 shi2hou yao4 ti2zao3 dao4? wo3men ke3 yi3 zai4 ka1fei1 dian4 deng3 ta1.",
     "path": "audio/AUD_SEN_D37_028.mp3",
     "status": "placeholder"
   },
@@ -8353,7 +8353,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D37_029",
     "text": "你什麼時候要延後約會？我們可以下次再約。",
-    "pinyin_numeric": "ni3 shen2 me0 shi2hou yao4 yan2hou4 yue1hui4? wo3men ke3yi3 xia4ci4 zai4 yue1.",
+    "pinyin_numeric": "ni3 shen2 me0 shi2hou yao4 yan2hou4 yue1hui4? wo3men ke3 yi3 xia4ci4 zai4 yue1.",
     "path": "audio/AUD_SEN_D37_029.mp3",
     "status": "placeholder"
   },
@@ -8362,7 +8362,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D37_030",
     "text": "我們什麼時候要碰面？你可以在捷運站等我。",
-    "pinyin_numeric": "wo3men shen2 me0 shi2hou yao4 peng4mian4? ni3 ke3yi3 zai4 jie2yun4 zhan4 deng3 wo3.",
+    "pinyin_numeric": "wo3men shen2 me0 shi2hou yao4 peng4mian4? ni3 ke3 yi3 zai4 jie2yun4 zhan4 deng3 wo3.",
     "path": "audio/AUD_SEN_D37_030.mp3",
     "status": "placeholder"
   },
@@ -8407,7 +8407,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D37_035",
     "text": "你想約在哪裡見面？",
-    "pinyin_numeric": "ni3 xiang3 yue1 zai4 na3li3 jian4mian4?",
+    "pinyin_numeric": "ni3 xiang3 yue1 zai4 na3 li3 jian4mian4?",
     "path": "audio/AUD_SEN_D37_035.mp3",
     "status": "placeholder"
   },
@@ -8569,7 +8569,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D37_054",
     "text": "他什麼時候下班？我們可以約晚上一起逛街。",
-    "pinyin_numeric": "ta1 shen2 me0 shi2hou4 xia4ban1? wo3men ke3yi3 yue1 wan3shang4 yi1qi3 guang4jie1.",
+    "pinyin_numeric": "ta1 shen2 me0 shi2hou4 xia4ban1? wo3men ke3 yi3 yue1 wan3shang4 yi1qi3 guang4jie1.",
     "path": "audio/AUD_SEN_D37_054.mp3",
     "status": "placeholder"
   },
@@ -8578,7 +8578,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D37_056",
     "text": "我們什麼時候約時間？這個週末你有空嗎？",
-    "pinyin_numeric": "wo3men shen2 me0 shi2hou4 yue1 shi2jian1? zhe4ge zhou1mo4 ni3 you3 kong4 ma0?",
+    "pinyin_numeric": "wo3men shen2 me0 shi2hou4 yue1 shi2jian1? zhe4 ge0 zhou1mo4 ni3 you3 kong4 ma0?",
     "path": "audio/AUD_SEN_D37_056.mp3",
     "status": "placeholder"
   },
@@ -8605,7 +8605,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D37_059",
     "text": "你什麼時候要傳訊息？我們可以再聯絡。",
-    "pinyin_numeric": "ni3 shen2 me0 shi2hou4 yao4 chuan2 xun4xi1? wo3men ke3yi3 zai4 lian2luo4.",
+    "pinyin_numeric": "ni3 shen2 me0 shi2hou4 yao4 chuan2 xun4xi1? wo3men ke3 yi3 zai4 lian2luo4.",
     "path": "audio/AUD_SEN_D37_059.mp3",
     "status": "placeholder"
   },
@@ -8659,7 +8659,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D37_070",
     "text": "我想約她一起去逛街，她說可以啊。",
-    "pinyin_numeric": "wo3 xiang3 yue1 ta1 yi1qi3 qu4 guang4jie1, ta1 shuo1 ke3yi3 a.",
+    "pinyin_numeric": "wo3 xiang3 yue1 ta1 yi1qi3 qu4 guang4jie1, ta1 shuo1 ke3 yi3 a.",
     "path": "audio/AUD_SEN_D37_070.mp3",
     "status": "placeholder"
   },
@@ -8749,7 +8749,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D37_084",
     "text": "你什麼時候下班？我們可以一起去逛街。",
-    "pinyin_numeric": "ni3 shen2 me0 shi2hou xia4ban1? wo3men ke3yi3 yi1qi3 qu4 guang4jie1.",
+    "pinyin_numeric": "ni3 shen2 me0 shi2hou xia4ban1? wo3men ke3 yi3 yi1qi3 qu4 guang4jie1.",
     "path": "audio/AUD_SEN_D37_084.mp3",
     "status": "placeholder"
   },
@@ -8776,7 +8776,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D37_087",
     "text": "我們什麼時候去吃飯？我最近很忙，可是週末可以。",
-    "pinyin_numeric": "wo3men shen2 me0 shi2hou qu4 chi1fan4? wo3 zui4jin4 hen3 mang2, ke3shi4 zhou1mo4 ke3yi3.",
+    "pinyin_numeric": "wo3men shen2 me0 shi2hou qu4 chi1fan4? wo3 zui4jin4 hen3 mang2, ke3shi4 zhou1mo4 ke3 yi3.",
     "path": "audio/AUD_SEN_D37_087.mp3",
     "status": "placeholder"
   },
@@ -8785,7 +8785,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D37_088",
     "text": "你什麼時候要打電話？我們可以再聯絡。",
-    "pinyin_numeric": "ni3 shen2 me0 shi2hou yao4 da3 dian4hua4? wo3men ke3yi3 zai4 lian2luo4.",
+    "pinyin_numeric": "ni3 shen2 me0 shi2hou yao4 da3 dian4hua4? wo3men ke3 yi3 zai4 lian2luo4.",
     "path": "audio/AUD_SEN_D37_088.mp3",
     "status": "placeholder"
   },
@@ -8803,7 +8803,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D37_090",
     "text": "你什麼時候要傳訊息？我們可以約時間。",
-    "pinyin_numeric": "ni3 shen2 me0 shi2hou yao4 chuan2 xun4xi1? wo3men ke3yi3 yue1 shi2jian1.",
+    "pinyin_numeric": "ni3 shen2 me0 shi2hou yao4 chuan2 xun4xi1? wo3men ke3 yi3 yue1 shi2jian1.",
     "path": "audio/AUD_SEN_D37_090.mp3",
     "status": "placeholder"
   },
@@ -8812,7 +8812,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D37_01",
     "text": "你明天有空嗎？我們一起去喝咖啡，好不好？",
-    "pinyin_numeric": "Ni3 ming2tian1 you3 kong4 ma5? Wo3men yi1qi3 qu4 he1 ka1fei1, hao3 bu4 hao3?",
+    "pinyin_numeric": "Ni3 ming2tian1 you3 kong4 ma0? Wo3men yi1qi3 qu4 he1 ka1fei1, hao3 bu4 hao3?",
     "path": "audio/AUD_DLG_D37_01_T1.mp3",
     "status": "placeholder"
   },
@@ -8821,7 +8821,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D37_01",
     "text": "可以啊！我明天下午有空。你想去哪裡喝咖啡？",
-    "pinyin_numeric": "Ke3yi3 a5! Wo3 ming2tian1 xia4wu3 you3 kong4. Ni3 xiang3 qu4 na3li3 he1 ka1fei1?",
+    "pinyin_numeric": "ke3 yi3 a0! Wo3 ming2tian1 xia4wu3 you3 kong4. Ni3 xiang3 qu4 na3 li3 he1 ka1fei1?",
     "path": "audio/AUD_DLG_D37_01_T2.mp3",
     "status": "placeholder"
   },
@@ -8830,7 +8830,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D37_01",
     "text": "我們去車站前面的那家咖啡店，好嗎？那裡的咖啡很好喝。",
-    "pinyin_numeric": "Wo3men qu4 che1zhan4 qian2mian4 de5 na4 jia1 ka1fei1 dian4, hao3 ma5? Na4li3 de5 ka1fei1 hen3 hao3 he1.",
+    "pinyin_numeric": "Wo3men qu4 che1zhan4 qian2mian4 de5 na4 jia1 ka1fei1 dian4, hao3 ma0? Na4li3 de5 ka1fei1 hen3 hao3 he1.",
     "path": "audio/AUD_DLG_D37_01_T3.mp3",
     "status": "placeholder"
   },
@@ -8839,7 +8839,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D37_01",
     "text": "好啊！我們約下午兩點，在咖啡店門口碰面，可以嗎？",
-    "pinyin_numeric": "Hao3 a5! Wo3men yue1 xia4wu3 liang3 dian3, zai4 ka1fei1 dian4 men2kou3 peng4mian4, ke3yi3 ma5?",
+    "pinyin_numeric": "Hao3 a0! Wo3men yue1 xia4wu3 liang3 dian3, zai4 ka1fei1 dian4 men2kou3 peng4mian4, ke3 yi3 ma0?",
     "path": "audio/AUD_DLG_D37_01_T4.mp3",
     "status": "placeholder"
   },
@@ -8857,7 +8857,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D37_02",
     "text": "我們這個週末一起去看電影，好不好？",
-    "pinyin_numeric": "Wo3men zhe4ge5 zhou1mo4 yi1qi3 qu4 kan4 dian4ying3, hao3 bu4 hao3?",
+    "pinyin_numeric": "Wo3men zhe4 ge0 zhou1mo4 yi1qi3 qu4 kan4 dian4ying3, hao3 bu4 hao3?",
     "path": "audio/AUD_DLG_D37_02_T1.mp3",
     "status": "placeholder"
   },
@@ -8866,7 +8866,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D37_02",
     "text": "可以啊！你想看什麼電影？",
-    "pinyin_numeric": "Ke3yi3 a5! Ni3 xiang3 kan4 shen2 me0 dian4ying3?",
+    "pinyin_numeric": "ke3 yi3 a0! Ni3 xiang3 kan4 shen2 me0 dian4ying3?",
     "path": "audio/AUD_DLG_D37_02_T2.mp3",
     "status": "placeholder"
   },
@@ -8875,7 +8875,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D37_02",
     "text": "我想看那部新的中文電影。你星期六有空嗎？",
-    "pinyin_numeric": "Wo3 xiang3 kan4 na4 bu4 xin1 de5 zhong1wen2 dian4ying3. Ni3 xing1qi1liu4 you3 kong4 ma5?",
+    "pinyin_numeric": "Wo3 xiang3 kan4 na4 bu4 xin1 de5 zhong1wen2 dian4ying3. Ni3 xing1qi1liu4 you3 kong4 ma0?",
     "path": "audio/AUD_DLG_D37_02_T3.mp3",
     "status": "placeholder"
   },
@@ -8884,7 +8884,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D37_02",
     "text": "星期六上午我要上班，下午可以。我們約下午三點，在電影院門口碰面，好嗎？",
-    "pinyin_numeric": "Xing1qi1liu4 shang4wu3 wo3 yao4 shang4ban1, xia4wu3 ke3yi3. Wo3men yue1 xia4wu3 san1 dian3, zai4 dian4ying3yuan4 men2kou3 peng4mian4, hao3 ma5?",
+    "pinyin_numeric": "Xing1qi1liu4 shang4wu3 wo3 yao4 shang4ban1, xia4wu3 ke3 yi3. Wo3men yue1 xia4wu3 san1 dian3, zai4 dian4ying3yuan4 men2kou3 peng4mian4, hao3 ma0?",
     "path": "audio/AUD_DLG_D37_02_T4.mp3",
     "status": "placeholder"
   },
@@ -8893,7 +8893,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D37_02",
     "text": "好啊！星期六下午三點見。",
-    "pinyin_numeric": "Hao3 a5! Xing1qi1liu4 xia4wu3 san1 dian3 jian4.",
+    "pinyin_numeric": "Hao3 a0! Xing1qi1liu4 xia4wu3 san1 dian3 jian4.",
     "path": "audio/AUD_DLG_D37_02_T5.mp3",
     "status": "placeholder"
   },
@@ -8902,7 +8902,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D37_03",
     "text": "你明天有空嗎？我們一起去吃飯，好不好？",
-    "pinyin_numeric": "Ni3 ming2tian1 you3 kong4 ma5? Wo3men yi1qi3 qu4 chi1fan4, hao3 bu4 hao3?",
+    "pinyin_numeric": "Ni3 ming2tian1 you3 kong4 ma0? Wo3men yi1qi3 qu4 chi1fan4, hao3 bu4 hao3?",
     "path": "audio/AUD_DLG_D37_03_T1.mp3",
     "status": "placeholder"
   },
@@ -8920,7 +8920,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D37_03",
     "text": "沒關係。那這個週末呢？你有空嗎？",
-    "pinyin_numeric": "Mei2 guan1xi5. Na4 zhe4ge5 zhou1mo4 ne5? Ni3 you3 kong4 ma5?",
+    "pinyin_numeric": "Mei2 guan1xi5. Na4 zhe4 ge0 zhou1mo4 ne0? Ni3 you3 kong4 ma0?",
     "path": "audio/AUD_DLG_D37_03_T3.mp3",
     "status": "placeholder"
   },
@@ -8929,7 +8929,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D37_03",
     "text": "這個週末我也沒空，因為我要去台北見朋友。我們下次再約，好嗎？",
-    "pinyin_numeric": "Zhe4ge5 zhou1mo4 wo3 ye3 mei2 kong4, yin1wei4 wo3 yao4 qu4 Tai2bei3 jian4 peng2you3. Wo3men xia4 ci4 zai4 yue1, hao3 ma5?",
+    "pinyin_numeric": "zhe4 ge0 zhou1mo4 wo3 ye3 mei2 kong4, yin1wei4 wo3 yao4 qu4 Tai2bei3 jian4 peng2you3. Wo3men xia4 ci4 zai4 yue1, hao3 ma0?",
     "path": "audio/AUD_DLG_D37_03_T4.mp3",
     "status": "placeholder"
   },
@@ -8938,7 +8938,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D37_03",
     "text": "好啊，沒問題。下次再聯絡！",
-    "pinyin_numeric": "Hao3 a5, mei2 wen4ti2. Xia4 ci4 zai4 lian2luo4!",
+    "pinyin_numeric": "Hao3 a0, mei2 wen4ti2. Xia4 ci4 zai4 lian2luo4!",
     "path": "audio/AUD_DLG_D37_03_T5.mp3",
     "status": "placeholder"
   },
@@ -8965,7 +8965,7 @@
     "kind": "listening",
     "ref_id": "LIS_D37_03",
     "text": "我們想提早見面，可以嗎？",
-    "pinyin_numeric": "wo3men xiang3 ti2zao3 jian4mian4, ke3yi3 ma0",
+    "pinyin_numeric": "wo3men xiang3 ti2zao3 jian4mian4, ke3 yi3 ma0",
     "path": "audio/AUD_LIS_D37_03.mp3",
     "status": "placeholder"
   },
@@ -9019,7 +9019,7 @@
     "kind": "listening",
     "ref_id": "LIS_D37_09",
     "text": "你什麼時候要見朋友？我們可以一起去喝咖啡聊天。",
-    "pinyin_numeric": "ni3 shen2 me0 shi2hou yao4 jian4 peng2you? wo3men ke3yi3 yi1qi3 qu4 he1 ka1fei1 liao2tian1.",
+    "pinyin_numeric": "ni3 shen2 me0 shi2hou yao4 jian4 peng2you? wo3men ke3 yi3 yi1qi3 qu4 he1 ka1fei1 liao2tian1.",
     "path": "audio/AUD_LIS_D37_09.mp3",
     "status": "placeholder"
   },
@@ -9028,7 +9028,7 @@
     "kind": "listening",
     "ref_id": "LIS_D37_10",
     "text": "她什麼時候要提早到？我們可以在咖啡店等她。",
-    "pinyin_numeric": "ta1 shen2 me0 shi2hou yao4 ti2zao3 dao4? wo3men ke3yi3 zai4 ka1fei1 dian4 deng3 ta1.",
+    "pinyin_numeric": "ta1 shen2 me0 shi2hou yao4 ti2zao3 dao4? wo3men ke3 yi3 zai4 ka1fei1 dian4 deng3 ta1.",
     "path": "audio/AUD_LIS_D37_10.mp3",
     "status": "placeholder"
   },
@@ -9082,7 +9082,7 @@
     "kind": "listening",
     "ref_id": "LIS_D37_16",
     "text": "你想去哪裡逛街？",
-    "pinyin_numeric": "ni3 xiang3 qu4 na3li3 guang4jie1",
+    "pinyin_numeric": "ni3 xiang3 qu4 na3 li3 guang4jie1",
     "path": "audio/AUD_LIS_D37_16.mp3",
     "status": "placeholder"
   },
@@ -9586,7 +9586,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D38_012",
     "text": "從這裡到台北車站可以搭捷運嗎？",
-    "pinyin_numeric": "cong2 zhe4li3 dao4 Tai2bei3 che1zhan4 ke3yi3 da1 jie2yun4 ma0",
+    "pinyin_numeric": "cong2 zhe4li3 dao4 Tai2bei3 che1zhan4 ke3 yi3 da1 jie2yun4 ma0",
     "path": "audio/AUD_SEN_D38_012.mp3",
     "status": "placeholder"
   },
@@ -9604,7 +9604,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D38_014",
     "text": "從捷運站到學校走路比較慢，可以騎腳踏車。",
-    "pinyin_numeric": "cong2 jie2yun4 zhan4 dao4 xue2xiao4 zou3lu4 bi3jiao4 man4, ke3yi3 qi2 jiao3ta4che1",
+    "pinyin_numeric": "cong2 jie2yun4 zhan4 dao4 xue2xiao4 zou3lu4 bi3jiao4 man4, ke3 yi3 qi2 jiao3ta4che1",
     "path": "audio/AUD_SEN_D38_014.mp3",
     "status": "placeholder"
   },
@@ -9775,7 +9775,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D38_034",
     "text": "你坐公車去哪裡？",
-    "pinyin_numeric": "ni3 zuo4 gong1che1 qu4 na3li3?",
+    "pinyin_numeric": "ni3 zuo4 gong1che1 qu4 na3 li3?",
     "path": "audio/AUD_SEN_D38_034.mp3",
     "status": "placeholder"
   },
@@ -9847,7 +9847,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D38_045",
     "text": "從我家到公司可以搭公車嗎？",
-    "pinyin_numeric": "cong2 wo3 jia1 dao4 gong1si1 ke3yi3 da1 gong1che1 ma0",
+    "pinyin_numeric": "cong2 wo3 jia1 dao4 gong1si1 ke3 yi3 da1 gong1che1 ma0",
     "path": "audio/AUD_SEN_D38_045.mp3",
     "status": "placeholder"
   },
@@ -10045,7 +10045,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D38_068",
     "text": "你坐捷運去哪裡？",
-    "pinyin_numeric": "ni3 zuo4 jie2yun4 qu4 na3li3",
+    "pinyin_numeric": "ni3 zuo4 jie2yun4 qu4 na3 li3",
     "path": "audio/AUD_SEN_D38_068.mp3",
     "status": "placeholder"
   },
@@ -10090,7 +10090,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D38_075",
     "text": "從這裡到公園可以坐計程車，也可以騎腳踏車。",
-    "pinyin_numeric": "cong2 zhe4li3 dao4 gong1yuan2 ke3yi3 zuo4 ji4cheng2che1, ye3 ke3yi3 qi2 jiao3ta4che1",
+    "pinyin_numeric": "cong2 zhe4li3 dao4 gong1yuan2 ke3 yi3 zuo4 ji4cheng2che1, ye3 ke3 yi3 qi2 jiao3ta4che1",
     "path": "audio/AUD_SEN_D38_075.mp3",
     "status": "placeholder"
   },
@@ -10135,7 +10135,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D38_080",
     "text": "從這裡到銀行怎麼去？可以先搭公車，再轉捷運。",
-    "pinyin_numeric": "cong2 zhe4li3 dao4 yin2hang2 zen3 me0 qu4? ke3yi3 xian1 da1 gong1che1, zai4 zhuan3 jie2yun4.",
+    "pinyin_numeric": "cong2 zhe4li3 dao4 yin2hang2 zen3 me0 qu4? ke3 yi3 xian1 da1 gong1che1, zai4 zhuan3 jie2yun4.",
     "path": "audio/AUD_SEN_D38_080.mp3",
     "status": "placeholder"
   },
@@ -10216,7 +10216,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D38_01",
     "text": "不好意思，請問這個捷運站有到台北車站嗎？",
-    "pinyin_numeric": "bu4 hao3 yi4 si5, qing3 wen4 zhe4 ge5 jie2 yun4 zhan4 you3 dao4 Tai2 bei3 che1 zhan4 ma5?",
+    "pinyin_numeric": "bu4 hao3 yi4 si5, qing3 wen4 zhe4 ge5 jie2 yun4 zhan4 you3 dao4 Tai2 bei3 che1 zhan4 ma0?",
     "path": "audio/AUD_DLG_D38_01_T1.mp3",
     "status": "placeholder"
   },
@@ -10234,7 +10234,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D38_01",
     "text": "需要轉車嗎？",
-    "pinyin_numeric": "xu1 yao4 zhuan3 che1 ma5?",
+    "pinyin_numeric": "xu1 yao4 zhuan3 che1 ma0?",
     "path": "audio/AUD_DLG_D38_01_T3.mp3",
     "status": "placeholder"
   },
@@ -10261,7 +10261,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D38_02",
     "text": "請問，這個站牌有到學校的公車嗎？",
-    "pinyin_numeric": "qing3 wen4, zhe4 ge5 zhan4 pai2 you3 dao4 xue2 xiao4 de5 gong1 che1 ma5?",
+    "pinyin_numeric": "qing3 wen4, zhe4 ge5 zhan4 pai2 you3 dao4 xue2 xiao4 de5 gong1 che1 ma0?",
     "path": "audio/AUD_DLG_D38_02_T1.mp3",
     "status": "placeholder"
   },
@@ -10450,7 +10450,7 @@
     "kind": "listening",
     "ref_id": "LIS_D38_12",
     "text": "你坐公車去哪裡？",
-    "pinyin_numeric": "ni3 zuo4 gong1che1 qu4 na3li3?",
+    "pinyin_numeric": "ni3 zuo4 gong1che1 qu4 na3 li3?",
     "path": "audio/AUD_LIS_D38_12.mp3",
     "status": "placeholder"
   },
@@ -10918,7 +10918,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D39_004",
     "text": "請問，從這裡到台北車站，要從捷運換火車嗎？",
-    "pinyin_numeric": "qing3wen4, cong2 zhe4li3 dao4 Tai2bei3 Che1zhan4, yao4 cong2 jie2yun4 huan4 huo3che1 ma0?",
+    "pinyin_numeric": "qing3 wen4, cong2 zhe4li3 dao4 Tai2bei3 Che1zhan4, yao4 cong2 jie2yun4 huan4 huo3che1 ma0?",
     "path": "audio/AUD_SEN_D39_004.mp3",
     "status": "placeholder"
   },
@@ -10927,7 +10927,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D39_005",
     "text": "我走錯路了，現在要回頭，從這個路口左轉。",
-    "pinyin_numeric": "wo3 zou3 cuo4 lu4 le0, xian4zai4 yao4 hui2 tou2, cong2 zhe4ge0 lu4kou3 zuo3 zhuan3.",
+    "pinyin_numeric": "wo3 zou3 cuo4 lu4 le0, xian4zai4 yao4 hui2 tou2, cong2 zhe4 ge0 lu4kou3 zuo3 zhuan3.",
     "path": "audio/AUD_SEN_D39_005.mp3",
     "status": "placeholder"
   },
@@ -10945,7 +10945,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D39_007",
     "text": "麻煩你，我搭錯線了，可以幫我看一下地圖嗎？",
-    "pinyin_numeric": "ma2fan0 ni3, wo3 da1 cuo4 xian4 le0, ke3yi3 bang1 wo3 kan4 yi2xia4 di4tu2 ma0?",
+    "pinyin_numeric": "ma2fan0 ni3, wo3 da1 cuo4 xian4 le0, ke3 yi3 bang1 wo3 kan4 yi2xia4 di4tu2 ma0?",
     "path": "audio/AUD_SEN_D39_007.mp3",
     "status": "placeholder"
   },
@@ -11017,7 +11017,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D39_015",
     "text": "請問，我坐過站了，現在怎麼辦？",
-    "pinyin_numeric": "qing3wen4, wo3 zuo4 guo4 zhan4 le0, xian4zai4 zen3 me0 ban4?",
+    "pinyin_numeric": "qing3 wen4, wo3 zuo4 guo4 zhan4 le0, xian4zai4 zen3 me0 ban4?",
     "path": "audio/AUD_SEN_D39_015.mp3",
     "status": "placeholder"
   },
@@ -11044,7 +11044,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D39_018",
     "text": "我走錯路了，可以幫我開導航嗎？",
-    "pinyin_numeric": "wo3 zou3 cuo4 lu4 le0, ke3yi3 bang1 wo3 kai1 dao3hang2 ma0?",
+    "pinyin_numeric": "wo3 zou3 cuo4 lu4 le0, ke3 yi3 bang1 wo3 kai1 dao3hang2 ma0?",
     "path": "audio/AUD_SEN_D39_018.mp3",
     "status": "placeholder"
   },
@@ -11116,7 +11116,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D39_026",
     "text": "我還沒聽懂廣播，不知道下一站是哪裡。",
-    "pinyin_numeric": "wo3 hai2 mei2 ting1 dong3 guang3bo1, bu4 zhi1dao4 xia4 yi1 zhan4 shi4 na3li3",
+    "pinyin_numeric": "wo3 hai2 mei2 ting1 dong3 guang3bo1, bu4 zhi1dao4 xia4 yi1 zhan4 shi4 na3 li3",
     "path": "audio/AUD_SEN_D39_026.mp3",
     "status": "placeholder"
   },
@@ -11206,7 +11206,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D39_037",
     "text": "你搭錯線了，應該從這個出口出去，然後換線。",
-    "pinyin_numeric": "ni3 da1 cuo4 xian4 le0, ying1gai1 cong2 zhe4ge0 chu1kou3 chu1qu4, ran2hou4 huan4 xian4.",
+    "pinyin_numeric": "ni3 da1 cuo4 xian4 le0, ying1gai1 cong2 zhe4 ge0 chu1kou3 chu1qu4, ran2hou4 huan4 xian4.",
     "path": "audio/AUD_SEN_D39_037.mp3",
     "status": "placeholder"
   },
@@ -11593,7 +11593,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D39_087",
     "text": "我還沒聽廣播，不知道下一站是哪裡。",
-    "pinyin_numeric": "wo3 hai2 mei2 ting1 guang3bo1, bu4 zhi1dao4 xia4 yi1 zhan4 shi4 na3li3",
+    "pinyin_numeric": "wo3 hai2 mei2 ting1 guang3bo1, bu4 zhi1dao4 xia4 yi1 zhan4 shi4 na3 li3",
     "path": "audio/AUD_SEN_D39_087.mp3",
     "status": "placeholder"
   },
@@ -11638,7 +11638,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D39_01",
     "text": "沒關係，下一站是台北車站，你要在那裡下車嗎？",
-    "pinyin_numeric": "mei2 guan1 xi5, xia4 yi1 zhan4 shi4 Tai2 bei3 Che1 zhan4, ni3 yao4 zai4 na4 li3 xia4 che1 ma5?",
+    "pinyin_numeric": "mei2 guan1 xi5, xia4 yi1 zhan4 shi4 Tai2 bei3 Che1 zhan4, ni3 yao4 zai4 na4 li3 xia4 che1 ma0?",
     "path": "audio/AUD_DLG_D39_01_T2.mp3",
     "status": "placeholder"
   },
@@ -11701,7 +11701,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D39_02",
     "text": "好，那我要搭到台北車站，然後換藍線，對嗎？",
-    "pinyin_numeric": "hao3, na4 wo3 yao4 da1 dao4 Tai2 bei3 Che1 zhan4, ran2 hou4 huan4 lan2 xian4, dui4 ma5?",
+    "pinyin_numeric": "hao3, na4 wo3 yao4 da1 dao4 Tai2 bei3 Che1 zhan4, ran2 hou4 huan4 lan2 xian4, dui4 ma0?",
     "path": "audio/AUD_DLG_D39_02_T3.mp3",
     "status": "placeholder"
   },
@@ -11746,7 +11746,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D39_03",
     "text": "啊，原來是這樣。那我應該回頭，直走嗎？",
-    "pinyin_numeric": "a4, yuan2 lai2 shi4 zhe4 yang4. Na4 wo3 ying1 gai1 hui2 tou2, zhi2 zou3 ma5?",
+    "pinyin_numeric": "a4, yuan2 lai2 shi4 zhe4 yang4. Na4 wo3 ying1 gai1 hui2 tou2, zhi2 zou3 ma0?",
     "path": "audio/AUD_DLG_D39_03_T3.mp3",
     "status": "placeholder"
   },
@@ -11782,7 +11782,7 @@
     "kind": "listening",
     "ref_id": "LIS_D39_02",
     "text": "請問，從這裡到台北車站，要從捷運換火車嗎？",
-    "pinyin_numeric": "qing3wen4, cong2 zhe4li3 dao4 Tai2bei3 Che1zhan4, yao4 cong2 jie2yun4 huan4 huo3che1 ma0?",
+    "pinyin_numeric": "qing3 wen4, cong2 zhe4li3 dao4 Tai2bei3 Che1zhan4, yao4 cong2 jie2yun4 huan4 huo3che1 ma0?",
     "path": "audio/AUD_LIS_D39_02.mp3",
     "status": "placeholder"
   },
@@ -11791,7 +11791,7 @@
     "kind": "listening",
     "ref_id": "LIS_D39_03",
     "text": "麻煩你，我搭錯線了，可以幫我看一下地圖嗎？",
-    "pinyin_numeric": "ma2fan0 ni3, wo3 da1 cuo4 xian4 le0, ke3yi3 bang1 wo3 kan4 yi2xia4 di4tu2 ma0?",
+    "pinyin_numeric": "ma2fan0 ni3, wo3 da1 cuo4 xian4 le0, ke3 yi3 bang1 wo3 kan4 yi2xia4 di4tu2 ma0?",
     "path": "audio/AUD_LIS_D39_03.mp3",
     "status": "placeholder"
   },
@@ -11881,7 +11881,7 @@
     "kind": "listening",
     "ref_id": "LIS_D39_13",
     "text": "你搭錯線了，應該從這個出口出去，然後換線。",
-    "pinyin_numeric": "ni3 da1 cuo4 xian4 le0, ying1gai1 cong2 zhe4ge0 chu1kou3 chu1qu4, ran2hou4 huan4 xian4.",
+    "pinyin_numeric": "ni3 da1 cuo4 xian4 le0, ying1gai1 cong2 zhe4 ge0 chu1kou3 chu1qu4, ran2hou4 huan4 xian4.",
     "path": "audio/AUD_LIS_D39_13.mp3",
     "status": "placeholder"
   },
@@ -12142,7 +12142,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D40_012",
     "text": "這個句子比那個句子清楚。",
-    "pinyin_numeric": "zhe4ge0 ju4zi0 bi3 na4ge0 ju4zi0 qing1chu0.",
+    "pinyin_numeric": "zhe4 ge0 ju4zi0 bi3 na4 ge0 ju4zi0 qing1chu0.",
     "path": "audio/AUD_SEN_D40_012.mp3",
     "status": "placeholder"
   },
@@ -12169,7 +12169,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D40_015",
     "text": "這個答案比那個答案好。",
-    "pinyin_numeric": "zhe4ge0 da2'an4 bi3 na4ge0 da2'an4 hao3.",
+    "pinyin_numeric": "zhe4 ge0 da2'an4 bi3 na4 ge0 da2'an4 hao3.",
     "path": "audio/AUD_SEN_D40_015.mp3",
     "status": "placeholder"
   },
@@ -12205,7 +12205,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D40_019",
     "text": "這個重點比那個重點清楚。",
-    "pinyin_numeric": "zhe4ge0 zhong4dian3 bi3 na4ge0 zhong4dian3 qing1chu0.",
+    "pinyin_numeric": "zhe4 ge0 zhong4dian3 bi3 na4 ge0 zhong4dian3 qing1chu0.",
     "path": "audio/AUD_SEN_D40_019.mp3",
     "status": "placeholder"
   },
@@ -12259,7 +12259,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D40_025",
     "text": "你在哪裡複習弱點？",
-    "pinyin_numeric": "ni3 zai4 na3li3 fu4xi2 ruo4dian3?",
+    "pinyin_numeric": "ni3 zai4 na3 li3 fu4xi2 ruo4dian3?",
     "path": "audio/AUD_SEN_D40_025.mp3",
     "status": "placeholder"
   },
@@ -12412,7 +12412,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D40_048",
     "text": "這個重點比那個重點重要。",
-    "pinyin_numeric": "zhe4ge0 zhong4dian3 bi3 na4ge0 zhong4dian3 zhong4yao4",
+    "pinyin_numeric": "zhe4 ge0 zhong4dian3 bi3 na4 ge0 zhong4dian3 zhong4yao4",
     "path": "audio/AUD_SEN_D40_048.mp3",
     "status": "placeholder"
   },
@@ -12637,7 +12637,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D40_080",
     "text": "這個句子的錯誤比那個句子的錯誤少。",
-    "pinyin_numeric": "zhe4ge0 ju4zi0 de0 cuo4wu4 bi3 na4ge0 ju4zi0 de0 cuo4wu4 shao3.",
+    "pinyin_numeric": "zhe4 ge0 ju4zi0 de0 cuo4wu4 bi3 na4 ge0 ju4zi0 de0 cuo4wu4 shao3.",
     "path": "audio/AUD_SEN_D40_080.mp3",
     "status": "placeholder"
   },
@@ -12727,7 +12727,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D40_01",
     "text": "我用悠遊卡付款。可以幫我微波三明治嗎？",
-    "pinyin_numeric": "Wo3 yong4 you1you2ka3 fu4kuan3. Ke3yi3 bang1 wo3 wei1bo1 san1ming2zhi4 ma?",
+    "pinyin_numeric": "Wo3 yong4 you1you2ka3 fu4kuan3. ke3 yi3 bang1 wo3 wei1bo1 san1ming2zhi4 ma?",
     "path": "audio/AUD_DLG_D40_01_T4.mp3",
     "status": "placeholder"
   },
@@ -12808,7 +12808,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D40_02",
     "text": "好的。對了，我想問一下，這個週末你有空嗎？我們可以一起去夜市。",
-    "pinyin_numeric": "Hao3 de. Dui4 le, wo3 xiang3 wen4 yi1xia4, zhe4ge zhou1mo4 ni3 you3 kong4 ma? Wo3men ke3yi3 yi1qi3 qu4 ye4shi4.",
+    "pinyin_numeric": "Hao3 de. Dui4 le, wo3 xiang3 wen4 yi1xia4, zhe4 ge0 zhou1mo4 ni3 you3 kong4 ma? Wo3men ke3 yi3 yi1qi3 qu4 ye4shi4.",
     "path": "audio/AUD_DLG_D40_02_T5.mp3",
     "status": "placeholder"
   },
@@ -12817,7 +12817,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D40_02",
     "text": "這個週末我有空。好啊，我們一起去。你想去哪個夜市？",
-    "pinyin_numeric": "Zhe4ge zhou1mo4 wo3 you3 kong4. Hao3 a, wo3men yi1qi3 qu4. Ni3 xiang3 qu4 na3ge ye4shi4?",
+    "pinyin_numeric": "zhe4 ge0 zhou1mo4 wo3 you3 kong4. Hao3 a, wo3men yi1qi3 qu4. Ni3 xiang3 qu4 na3ge ye4shi4?",
     "path": "audio/AUD_DLG_D40_02_T6.mp3",
     "status": "placeholder"
   },
@@ -12844,7 +12844,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D40_03",
     "text": "不好意思，請問圖書館在哪裡？",
-    "pinyin_numeric": "Bu4 hao3 yi4si, qing3 wen4 tu2shu1guan3 zai4 na3li3?",
+    "pinyin_numeric": "Bu4 hao3 yi4si, qing3 wen4 tu2shu1guan3 zai4 na3 li3?",
     "path": "audio/AUD_DLG_D40_03_T1.mp3",
     "status": "placeholder"
   },
@@ -12862,7 +12862,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D40_03",
     "text": "抱歉，可以請你說慢一點嗎？我聽不太清楚。",
-    "pinyin_numeric": "Bao4qian4, ke3yi3 qing3 ni3 shuo1 man4 yi1dian3 ma? Wo3 ting1 bu4 tai4 qing1chu3.",
+    "pinyin_numeric": "Bao4qian4, ke3 yi3 qing3 ni3 shuo1 man4 yi1dian3 ma? Wo3 ting1 bu4 tai4 qing1chu3.",
     "path": "audio/AUD_DLG_D40_03_T3.mp3",
     "status": "placeholder"
   },
@@ -12952,7 +12952,7 @@
     "kind": "listening",
     "ref_id": "LIS_D40_07",
     "text": "這個重點比那個重點清楚。",
-    "pinyin_numeric": "zhe4ge0 zhong4dian3 bi3 na4ge0 zhong4dian3 qing1chu0.",
+    "pinyin_numeric": "zhe4 ge0 zhong4dian3 bi3 na4 ge0 zhong4dian3 qing1chu0.",
     "path": "audio/AUD_LIS_D40_07.mp3",
     "status": "placeholder"
   },
@@ -12970,7 +12970,7 @@
     "kind": "listening",
     "ref_id": "LIS_D40_09",
     "text": "你在哪裡複習弱點？",
-    "pinyin_numeric": "ni3 zai4 na3li3 fu4xi2 ruo4dian3?",
+    "pinyin_numeric": "ni3 zai4 na3 li3 fu4xi2 ruo4dian3?",
     "path": "audio/AUD_LIS_D40_09.mp3",
     "status": "placeholder"
   },
@@ -13600,7 +13600,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D41_025",
     "text": "你因為沒睡飽，所以不想去上班嗎？",
-    "pinyin_numeric": "ni3 yin1 wei4 mei2 shui4 bao3, suo3 yi3 bu4 xiang3 qu4 shang4 ban1 ma5?",
+    "pinyin_numeric": "ni3 yin1 wei4 mei2 shui4 bao3, suo3 yi3 bu4 xiang3 qu4 shang4 ban1 ma0?",
     "path": "audio/AUD_SEN_D41_025.mp3",
     "status": "placeholder"
   },
@@ -13645,7 +13645,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D41_030",
     "text": "你因為生病了，所以不想喝咖啡嗎？",
-    "pinyin_numeric": "ni3 yin1 wei4 sheng1 bing4 le5, suo3 yi3 bu4 xiang3 he1 ka1 fei1 ma5?",
+    "pinyin_numeric": "ni3 yin1 wei4 sheng1 bing4 le5, suo3 yi3 bu4 xiang3 he1 ka1 fei1 ma0?",
     "path": "audio/AUD_SEN_D41_030.mp3",
     "status": "placeholder"
   },
@@ -13789,7 +13789,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D41_055",
     "text": "你因為沒帶錢，所以不想買東西嗎？",
-    "pinyin_numeric": "ni3 yin1 wei4 mei2 dai4 qian2, suo3 yi3 bu4 xiang3 mai3 dong1 xi1 ma5?",
+    "pinyin_numeric": "ni3 yin1 wei4 mei2 dai4 qian2, suo3 yi3 bu4 xiang3 mai3 dong1 xi1 ma0?",
     "path": "audio/AUD_SEN_D41_055.mp3",
     "status": "placeholder"
   },
@@ -13825,7 +13825,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D41_060",
     "text": "你因為忘記帶悠遊卡，所以想用現金嗎？",
-    "pinyin_numeric": "ni3 yin1 wei4 wang4 ji4 dai4 you1 you2 ka3, suo3 yi3 xiang3 yong4 xian4 jin1 ma5?",
+    "pinyin_numeric": "ni3 yin1 wei4 wang4 ji4 dai4 you1 you2 ka3, suo3 yi3 xiang3 yong4 xian4 jin1 ma0?",
     "path": "audio/AUD_SEN_D41_060.mp3",
     "status": "placeholder"
   },
@@ -14032,7 +14032,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D41_02",
     "text": "原來是這樣。那你想喝什麼嗎？",
-    "pinyin_numeric": "Yuan2 lai2 shi4 zhe4 yang4. Na4 ni3 xiang3 he1 shen2 me0 ma5?",
+    "pinyin_numeric": "Yuan2 lai2 shi4 zhe4 yang4. Na4 ni3 xiang3 he1 shen2 me0 ma0?",
     "path": "audio/AUD_DLG_D41_02_T3.mp3",
     "status": "placeholder"
   },
@@ -14068,7 +14068,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D41_03",
     "text": "原來是這樣。你想省錢，對嗎？",
-    "pinyin_numeric": "Yuan2 lai2 shi4 zhe4 yang4. Ni3 xiang3 sheng3 qian2, dui4 ma5?",
+    "pinyin_numeric": "Yuan2 lai2 shi4 zhe4 yang4. Ni3 xiang3 sheng3 qian2, dui4 ma0?",
     "path": "audio/AUD_DLG_D41_03_T3.mp3",
     "status": "placeholder"
   },
@@ -14158,7 +14158,7 @@
     "kind": "listening",
     "ref_id": "LIS_D41_09",
     "text": "你因為沒睡飽，所以不想去上班嗎？",
-    "pinyin_numeric": "ni3 yin1 wei4 mei2 shui4 bao3, suo3 yi3 bu4 xiang3 qu4 shang4 ban1 ma5?",
+    "pinyin_numeric": "ni3 yin1 wei4 mei2 shui4 bao3, suo3 yi3 bu4 xiang3 qu4 shang4 ban1 ma0?",
     "path": "audio/AUD_LIS_D41_09.mp3",
     "status": "placeholder"
   },
@@ -14248,7 +14248,7 @@
     "kind": "listening",
     "ref_id": "LIS_D41_19",
     "text": "你因為沒帶錢，所以不想買東西嗎？",
-    "pinyin_numeric": "ni3 yin1 wei4 mei2 dai4 qian2, suo3 yi3 bu4 xiang3 mai3 dong1 xi1 ma5?",
+    "pinyin_numeric": "ni3 yin1 wei4 mei2 dai4 qian2, suo3 yi3 bu4 xiang3 mai3 dong1 xi1 ma0?",
     "path": "audio/AUD_LIS_D41_19.mp3",
     "status": "placeholder"
   },
@@ -14617,7 +14617,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D42_005",
     "text": "我覺得這家小吃店的滷肉飯看起來很好吃，我們選這個吧。",
-    "pinyin_numeric": "wo3 jue2de zhe4 jia1 xiao3chi1 dian4 de lu3rou4fan4 kan4 qi3lai2 hen3 hao3chi1, wo3men xuan3 zhe4ge ba.",
+    "pinyin_numeric": "wo3 jue2de zhe4 jia1 xiao3chi1 dian4 de lu3rou4fan4 kan4 qi3lai2 hen3 hao3chi1, wo3men xuan3 zhe4 ge0 ba.",
     "path": "audio/AUD_SEN_D42_005.mp3",
     "status": "placeholder"
   },
@@ -14761,7 +14761,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D42_023",
     "text": "你想喝紅茶還是綠茶？都可以，不要太甜。",
-    "pinyin_numeric": "ni3 xiang3 he1 hong2cha2 hai2shi4 lv4cha2? dou1 ke3yi3, bu4yao4 tai4 tian2.",
+    "pinyin_numeric": "ni3 xiang3 he1 hong2cha2 hai2shi4 lv4cha2? dou1 ke3 yi3, bu4yao4 tai4 tian2.",
     "path": "audio/AUD_SEN_D42_023.mp3",
     "status": "placeholder"
   },
@@ -14797,7 +14797,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D42_027",
     "text": "聽起來這個夜市的小菜很新鮮，我們去試試看吧。",
-    "pinyin_numeric": "ting1 qi3lai2 zhe4ge0 ye4shi4 de0 xiao3cai4 hen3 xin1xian1, wo3men qu4 shi4 shi4 kan4 ba0.",
+    "pinyin_numeric": "ting1 qi3lai2 zhe4 ge0 ye4shi4 de0 xiao3cai4 hen3 xin1xian1, wo3men qu4 shi4 shi4 kan4 ba0.",
     "path": "audio/AUD_SEN_D42_027.mp3",
     "status": "placeholder"
   },
@@ -14896,7 +14896,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D42_040",
     "text": "聽起來好像不錯，可是我覺得這個比較好。",
-    "pinyin_numeric": "ting1 qi3lai2 hao3xiang4 bu4cuo4, ke3shi4 wo3 jue2de zhe4ge bi3jiao4 hao3.",
+    "pinyin_numeric": "ting1 qi3lai2 hao3xiang4 bu4cuo4, ke3shi4 wo3 jue2de zhe4 ge0 bi3jiao4 hao3.",
     "path": "audio/AUD_SEN_D42_040.mp3",
     "status": "placeholder"
   },
@@ -14932,7 +14932,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D42_047",
     "text": "我比較喜歡聽音樂，因為可以一邊休息一邊聽。",
-    "pinyin_numeric": "wo3 bi3jiao4 xi3huan1 ting1 yin1yue4, yin1wei4 ke3yi3 yi4bian1 xiu1xi2 yi4bian1 ting1",
+    "pinyin_numeric": "wo3 bi3jiao4 xi3huan1 ting1 yin1yue4, yin1wei4 ke3 yi3 yi4bian1 xiu1xi2 yi4bian1 ting1",
     "path": "audio/AUD_SEN_D42_047.mp3",
     "status": "placeholder"
   },
@@ -14968,7 +14968,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D42_055",
     "text": "你選哪一個？這個看起來比較新鮮。",
-    "pinyin_numeric": "ni3 xuan3 na3 yi1ge0? zhe4ge0 kan4 qi3lai2 bi3jiao4 xin1xian1.",
+    "pinyin_numeric": "ni3 xuan3 na3 yi1ge0? zhe4 ge0 kan4 qi3lai2 bi3jiao4 xin1xian1.",
     "path": "audio/AUD_SEN_D42_055.mp3",
     "status": "placeholder"
   },
@@ -14986,7 +14986,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D42_057",
     "text": "我覺得這家店的咖啡聽起來不錯，可是好像沒有座位。",
-    "pinyin_numeric": "wo3 jue2de0 zhe4 jia1 dian4 de0 ka1fei1 ting1 qi3lai2 bu4cuo4, ke3shi4 hao3xiang4 mei2you3 zuo4wei4.",
+    "pinyin_numeric": "wo3 jue2de0 zhe4 jia1 dian4 de0 ka1fei1 ting1 qi3lai2 bu4cuo4, ke3shi4 hao3xiang4 mei2 you3 zuo4wei4.",
     "path": "audio/AUD_SEN_D42_057.mp3",
     "status": "placeholder"
   },
@@ -14995,7 +14995,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D42_058",
     "text": "你想吃飯還是吃麵？差不多，都可以。",
-    "pinyin_numeric": "ni3 xiang3 chi1 fan4 hai2shi4 chi1 mian4? cha4bu4duo1, dou1 ke3yi3.",
+    "pinyin_numeric": "ni3 xiang3 chi1 fan4 hai2shi4 chi1 mian4? cha4bu4duo1, dou1 ke3 yi3.",
     "path": "audio/AUD_SEN_D42_058.mp3",
     "status": "placeholder"
   },
@@ -15004,7 +15004,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D42_059",
     "text": "這家小吃店的滷肉飯真的很香，我每次來都點這個。",
-    "pinyin_numeric": "zhe4 jia1 xiao3chi1 dian4 de0 lu3rou4fan4 zhen1 de0 hen3 xiang1, wo3 mei3 ci4 lai2 dou1 dian3 zhe4ge0.",
+    "pinyin_numeric": "zhe4 jia1 xiao3chi1 dian4 de0 lu3rou4fan4 zhen1 de0 hen3 xiang1, wo3 mei3 ci4 lai2 dou1 dian3 zhe4 ge0.",
     "path": "audio/AUD_SEN_D42_059.mp3",
     "status": "placeholder"
   },
@@ -15013,7 +15013,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D42_060",
     "text": "你比較喜歡看電影還是聽音樂？我比較喜歡聽音樂，因為可以放鬆。",
-    "pinyin_numeric": "ni3 bi3jiao4 xi3huan1 kan4 dian4ying3 hai2shi4 ting1 yin1yue4? wo3 bi3jiao4 xi3huan1 ting1 yin1yue4, yin1wei4 ke3yi3 fang4song1.",
+    "pinyin_numeric": "ni3 bi3jiao4 xi3huan1 kan4 dian4ying3 hai2shi4 ting1 yin1yue4? wo3 bi3jiao4 xi3huan1 ting1 yin1yue4, yin1wei4 ke3 yi3 fang4song1.",
     "path": "audio/AUD_SEN_D42_060.mp3",
     "status": "placeholder"
   },
@@ -15085,7 +15085,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D42_075",
     "text": "我比較喜歡聽音樂，因為可以一邊做事一邊聽。",
-    "pinyin_numeric": "wo3 bi3jiao4 xi3huan1 ting1 yin1yue4, yin1wei4 ke3yi3 yi1bian1 zuo4 shi4 yi1bian1 ting1.",
+    "pinyin_numeric": "wo3 bi3jiao4 xi3huan1 ting1 yin1yue4, yin1wei4 ke3 yi3 yi1bian1 zuo4 shi4 yi1bian1 ting1.",
     "path": "audio/AUD_SEN_D42_075.mp3",
     "status": "placeholder"
   },
@@ -15148,7 +15148,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D42_083",
     "text": "你想喝咖啡還是茶？都可以，我不太愛喝甜的。",
-    "pinyin_numeric": "ni3 xiang3 he1 ka1fei1 hai2shi4 cha2? dou1 ke3yi3, wo3 bu4 tai4 ai4 he1 tian2 de0",
+    "pinyin_numeric": "ni3 xiang3 he1 ka1fei1 hai2shi4 cha2? dou1 ke3 yi3, wo3 bu4 tai4 ai4 he1 tian2 de0",
     "path": "audio/AUD_SEN_D42_083.mp3",
     "status": "placeholder"
   },
@@ -15193,7 +15193,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D42_088",
     "text": "你想吃炒飯還是炒麵？我都可以，不要太辣就好。",
-    "pinyin_numeric": "ni3 xiang3 chi1 chao3fan4 hai2shi4 chao3mian4? wo3 dou1 ke3yi3, bu4yao4 tai4 la4 jiu4 hao3",
+    "pinyin_numeric": "ni3 xiang3 chi1 chao3fan4 hai2shi4 chao3mian4? wo3 dou1 ke3 yi3, bu4yao4 tai4 la4 jiu4 hao3",
     "path": "audio/AUD_SEN_D42_088.mp3",
     "status": "placeholder"
   },
@@ -15265,7 +15265,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D42_02",
     "text": "你好，請問要喝什麼？",
-    "pinyin_numeric": "Ni3 hao3, qing3wen4 yao4 he1 shen2 me0?",
+    "pinyin_numeric": "Ni3 hao3, qing3 wen4 yao4 he1 shen2 me0?",
     "path": "audio/AUD_DLG_D42_02_T1.mp3",
     "status": "placeholder"
   },
@@ -15283,7 +15283,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D42_02",
     "text": "那可以選微糖，口味比較清淡。",
-    "pinyin_numeric": "Na4 ke3yi3 xuan3 wei1 tang2, kou3wei4 bi3jiao4 qing1dan4.",
+    "pinyin_numeric": "Na4 ke3 yi3 xuan3 wei1 tang2, kou3wei4 bi3jiao4 qing1dan4.",
     "path": "audio/AUD_DLG_D42_02_T3.mp3",
     "status": "placeholder"
   },
@@ -15310,7 +15310,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D42_03",
     "text": "這個週末你想做什麼？",
-    "pinyin_numeric": "Zhe4ge4 zhou1mo4 ni3 xiang3 zuo4 shen2 me0?",
+    "pinyin_numeric": "zhe4 ge04 zhou1mo4 ni3 xiang3 zuo4 shen2 me0?",
     "path": "audio/AUD_DLG_D42_03_T1.mp3",
     "status": "placeholder"
   },
@@ -15337,7 +15337,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D42_03",
     "text": "好啊，我覺得看電影比逛街更好。",
-    "pinyin_numeric": "Hao3 a5, wo3 jue2de5 kan4 dian4ying3 bi3 guang4jie1 geng4 hao3.",
+    "pinyin_numeric": "Hao3 a0, wo3 jue2de5 kan4 dian4ying3 bi3 guang4jie1 geng4 hao3.",
     "path": "audio/AUD_DLG_D42_03_T4.mp3",
     "status": "placeholder"
   },
@@ -15346,7 +15346,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D42_03",
     "text": "真的嗎？我比較喜歡逛街，可是也可以看電影。",
-    "pinyin_numeric": "Zhen1 de5 ma5? Wo3 bi3jiao4 xi3huan1 guang4jie1, ke3shi4 ye3 ke3yi3 kan4 dian4ying3.",
+    "pinyin_numeric": "Zhen1 de5 ma0? Wo3 bi3jiao4 xi3huan1 guang4jie1, ke3shi4 ye3 ke3 yi3 kan4 dian4ying3.",
     "path": "audio/AUD_DLG_D42_03_T5.mp3",
     "status": "placeholder"
   },
@@ -15364,7 +15364,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D42_03",
     "text": "好啊，聽起來不錯。",
-    "pinyin_numeric": "Hao3 a5, ting1 qi3lai2 bu4cuo4.",
+    "pinyin_numeric": "Hao3 a0, ting1 qi3lai2 bu4cuo4.",
     "path": "audio/AUD_DLG_D42_03_T7.mp3",
     "status": "placeholder"
   },
@@ -15436,7 +15436,7 @@
     "kind": "listening",
     "ref_id": "LIS_D42_08",
     "text": "你想喝紅茶還是綠茶？都可以，不要太甜。",
-    "pinyin_numeric": "ni3 xiang3 he1 hong2cha2 hai2shi4 lv4cha2? dou1 ke3yi3, bu4yao4 tai4 tian2.",
+    "pinyin_numeric": "ni3 xiang3 he1 hong2cha2 hai2shi4 lv4cha2? dou1 ke3 yi3, bu4yao4 tai4 tian2.",
     "path": "audio/AUD_LIS_D42_08.mp3",
     "status": "placeholder"
   },
@@ -15472,7 +15472,7 @@
     "kind": "listening",
     "ref_id": "LIS_D42_12",
     "text": "我覺得這家小吃店的滷肉飯看起來很好吃，我們選這個吧。",
-    "pinyin_numeric": "wo3 jue2de zhe4 jia1 xiao3chi1 dian4 de lu3rou4 fan4 kan4 qi3lai2 hen3 hao3chi1, wo3men xuan3 zhe4ge ba5.",
+    "pinyin_numeric": "wo3 jue2de zhe4 jia1 xiao3chi1 dian4 de lu3rou4 fan4 kan4 qi3lai2 hen3 hao3chi1, wo3men xuan3 zhe4 ge0 ba5.",
     "path": "audio/AUD_LIS_D42_12.mp3",
     "status": "placeholder"
   },
@@ -15544,7 +15544,7 @@
     "kind": "listening",
     "ref_id": "LIS_D42_20",
     "text": "這家小吃店的滷肉飯真的很香，我每次來都點這個。",
-    "pinyin_numeric": "zhe4 jia1 xiao3chi1 dian4 de0 lu3rou4fan4 zhen1 de0 hen3 xiang1, wo3 mei3 ci4 lai2 dou1 dian3 zhe4ge0.",
+    "pinyin_numeric": "zhe4 jia1 xiao3chi1 dian4 de0 lu3rou4fan4 zhen1 de0 hen3 xiang1, wo3 mei3 ci4 lai2 dou1 dian3 zhe4 ge0.",
     "path": "audio/AUD_LIS_D42_20.mp3",
     "status": "placeholder"
   },
@@ -15994,7 +15994,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D43_005",
     "text": "這件裙子太貴了，可以便宜一點嗎？",
-    "pinyin_numeric": "zhe4 jian4 qun2zi5 tai4 gui4 le5, ke3yi3 pian2yi2 yi1dian3 ma0",
+    "pinyin_numeric": "zhe4 jian4 qun2zi5 tai4 gui4 le5, ke3 yi3 pian2yi2 yi1dian3 ma0",
     "path": "audio/AUD_SEN_D43_005.mp3",
     "status": "placeholder"
   },
@@ -16057,7 +16057,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D43_012",
     "text": "這條褲子太長了，有沒有短一點的？",
-    "pinyin_numeric": "zhe4 tiao2 ku4zi0 tai4 chang2 le0, you3 mei2you3 duan3 yi1dian3 de0?",
+    "pinyin_numeric": "zhe4 tiao2 ku4zi0 tai4 chang2 le0, you3 mei2 you3 duan3 yi1dian3 de0?",
     "path": "audio/AUD_SEN_D43_012.mp3",
     "status": "placeholder"
   },
@@ -16066,7 +16066,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D43_013",
     "text": "這雙鞋子太小了，可以試穿大號的嗎？",
-    "pinyin_numeric": "zhe4 shuang1 xie2zi0 tai4 xiao3 le0, ke3yi3 shi4chuan1 da4hao4 de0 ma0?",
+    "pinyin_numeric": "zhe4 shuang1 xie2zi0 tai4 xiao3 le0, ke3 yi3 shi4chuan1 da4hao4 de0 ma0?",
     "path": "audio/AUD_SEN_D43_013.mp3",
     "status": "placeholder"
   },
@@ -16075,7 +16075,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D43_014",
     "text": "這件外套的尺寸太大了，有沒有中號的？",
-    "pinyin_numeric": "zhe4 jian4 wai4tao4 de0 chi3cun4 tai4 da4 le0, you3 mei2you3 zhong1hao4 de0?",
+    "pinyin_numeric": "zhe4 jian4 wai4tao4 de0 chi3cun4 tai4 da4 le0, you3 mei2 you3 zhong1hao4 de0?",
     "path": "audio/AUD_SEN_D43_014.mp3",
     "status": "placeholder"
   },
@@ -16084,7 +16084,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D43_015",
     "text": "這件裙子太貴了，可以打折嗎？",
-    "pinyin_numeric": "zhe4 jian4 qun2zi0 tai4 gui4 le0, ke3yi3 da3zhe2 ma0?",
+    "pinyin_numeric": "zhe4 jian4 qun2zi0 tai4 gui4 le0, ke3 yi3 da3zhe2 ma0?",
     "path": "audio/AUD_SEN_D43_015.mp3",
     "status": "placeholder"
   },
@@ -16111,7 +16111,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D43_018",
     "text": "這雙鞋子太緊了，有沒有大一點的尺寸？",
-    "pinyin_numeric": "zhe4 shuang1 xie2zi0 tai4 jin3 le0, you3 mei2you3 da4 yi1dian3 de0 chi3cun4?",
+    "pinyin_numeric": "zhe4 shuang1 xie2zi0 tai4 jin3 le0, you3 mei2 you3 da4 yi1dian3 de0 chi3cun4?",
     "path": "audio/AUD_SEN_D43_018.mp3",
     "status": "placeholder"
   },
@@ -16120,7 +16120,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D43_019",
     "text": "這件外套的顏色太普通了，有沒有特別一點的？",
-    "pinyin_numeric": "zhe4 jian4 wai4tao4 de0 yan2se4 tai4 pu3tong1 le0, you3 mei2you3 te4bie2 yi1dian3 de0?",
+    "pinyin_numeric": "zhe4 jian4 wai4tao4 de0 yan2se4 tai4 pu3tong1 le0, you3 mei2 you3 te4bie2 yi1dian3 de0?",
     "path": "audio/AUD_SEN_D43_019.mp3",
     "status": "placeholder"
   },
@@ -16138,7 +16138,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D43_021",
     "text": "這件上衣有沒有黑色的？",
-    "pinyin_numeric": "zhe4 jian4 shang4yi1 you3 mei2you3 hei1se4 de0",
+    "pinyin_numeric": "zhe4 jian4 shang4yi1 you3 mei2 you3 hei1se4 de0",
     "path": "audio/AUD_SEN_D43_021.mp3",
     "status": "placeholder"
   },
@@ -16147,7 +16147,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D43_022",
     "text": "這條褲子有沒有小號的？",
-    "pinyin_numeric": "zhe4 tiao2 ku4zi0 you3 mei2you3 xiao3hao4 de0",
+    "pinyin_numeric": "zhe4 tiao2 ku4zi0 you3 mei2 you3 xiao3hao4 de0",
     "path": "audio/AUD_SEN_D43_022.mp3",
     "status": "placeholder"
   },
@@ -16156,7 +16156,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D43_023",
     "text": "這件外套有沒有藍色的？",
-    "pinyin_numeric": "zhe4 jian4 wai4tao4 you3 mei2you3 lan2se4 de0",
+    "pinyin_numeric": "zhe4 jian4 wai4tao4 you3 mei2 you3 lan2se4 de0",
     "path": "audio/AUD_SEN_D43_023.mp3",
     "status": "placeholder"
   },
@@ -16165,7 +16165,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D43_024",
     "text": "這雙鞋子有沒有大號的？",
-    "pinyin_numeric": "zhe4 shuang1 xie2zi0 you3 mei2you3 da4hao4 de0",
+    "pinyin_numeric": "zhe4 shuang1 xie2zi0 you3 mei2 you3 da4hao4 de0",
     "path": "audio/AUD_SEN_D43_024.mp3",
     "status": "placeholder"
   },
@@ -16174,7 +16174,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D43_025",
     "text": "這件裙子有沒有白色的？",
-    "pinyin_numeric": "zhe4 jian4 qun2zi0 you3 mei2you3 bai2se4 de0",
+    "pinyin_numeric": "zhe4 jian4 qun2zi0 you3 mei2 you3 bai2se4 de0",
     "path": "audio/AUD_SEN_D43_025.mp3",
     "status": "placeholder"
   },
@@ -16183,7 +16183,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D43_026",
     "text": "這頂帽子有沒有紅色的？",
-    "pinyin_numeric": "zhe4 ding3 mao4zi0 you3 mei2you3 hong2se4 de0",
+    "pinyin_numeric": "zhe4 ding3 mao4zi0 you3 mei2 you3 hong2se4 de0",
     "path": "audio/AUD_SEN_D43_026.mp3",
     "status": "placeholder"
   },
@@ -16192,7 +16192,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D43_027",
     "text": "這個包包有沒有中號的？",
-    "pinyin_numeric": "zhe4 ge0 bao1bao1 you3 mei2you3 zhong1hao4 de0",
+    "pinyin_numeric": "zhe4 ge0 bao1bao1 you3 mei2 you3 zhong1hao4 de0",
     "path": "audio/AUD_SEN_D43_027.mp3",
     "status": "placeholder"
   },
@@ -16201,7 +16201,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D43_028",
     "text": "這件上衣有沒有灰色的？",
-    "pinyin_numeric": "zhe4 jian4 shang4yi1 you3 mei2you3 hui1se4 de0",
+    "pinyin_numeric": "zhe4 jian4 shang4yi1 you3 mei2 you3 hui1se4 de0",
     "path": "audio/AUD_SEN_D43_028.mp3",
     "status": "placeholder"
   },
@@ -16210,7 +16210,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D43_029",
     "text": "這條褲子有沒有中號的？",
-    "pinyin_numeric": "zhe4 tiao2 ku4zi0 you3 mei2you3 zhong1hao4 de0",
+    "pinyin_numeric": "zhe4 tiao2 ku4zi0 you3 mei2 you3 zhong1hao4 de0",
     "path": "audio/AUD_SEN_D43_029.mp3",
     "status": "placeholder"
   },
@@ -16219,7 +16219,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D43_030",
     "text": "這雙襪子有沒有黑色的？",
-    "pinyin_numeric": "zhe4 shuang1 wa4zi0 you3 mei2you3 hei1se4 de0",
+    "pinyin_numeric": "zhe4 shuang1 wa4zi0 you3 mei2 you3 hei1se4 de0",
     "path": "audio/AUD_SEN_D43_030.mp3",
     "status": "placeholder"
   },
@@ -16255,7 +16255,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D43_034",
     "text": "我想試穿這件藍色的裙子，可以嗎？",
-    "pinyin_numeric": "wo3 xiang3 shi4chuan1 zhe4 jian4 lan2se4 de5 qun2zi, ke3yi3 ma0",
+    "pinyin_numeric": "wo3 xiang3 shi4chuan1 zhe4 jian4 lan2se4 de5 qun2zi, ke3 yi3 ma0",
     "path": "audio/AUD_SEN_D43_034.mp3",
     "status": "placeholder"
   },
@@ -16300,7 +16300,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D43_039",
     "text": "試衣間在哪裡？我想試穿這件外套。",
-    "pinyin_numeric": "shi4yi1jian1 zai4 na3li3? wo3 xiang3 shi4chuan1 zhe4 jian4 wai4tao4.",
+    "pinyin_numeric": "shi4yi1jian1 zai4 na3 li3? wo3 xiang3 shi4chuan1 zhe4 jian4 wai4tao4.",
     "path": "audio/AUD_SEN_D43_039.mp3",
     "status": "placeholder"
   },
@@ -16318,7 +16318,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D43_041",
     "text": "這件上衣的顏色太深了，有沒有淺一點的？",
-    "pinyin_numeric": "zhe4 jian4 shang4yi1 de5 yan2se4 tai4 shen1 le5, you3 mei2you3 qian3 yi1dian3 de5?",
+    "pinyin_numeric": "zhe4 jian4 shang4yi1 de5 yan2se4 tai4 shen1 le5, you3 mei2 you3 qian3 yi1dian3 de5?",
     "path": "audio/AUD_SEN_D43_041.mp3",
     "status": "placeholder"
   },
@@ -16327,7 +16327,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D43_042",
     "text": "這條褲子太長了，可以幫我改短嗎？",
-    "pinyin_numeric": "zhe4 tiao2 ku4zi5 tai4 chang2 le5, ke3yi3 bang1 wo3 gai3 duan3 ma0?",
+    "pinyin_numeric": "zhe4 tiao2 ku4zi5 tai4 chang2 le5, ke3 yi3 bang1 wo3 gai3 duan3 ma0?",
     "path": "audio/AUD_SEN_D43_042.mp3",
     "status": "placeholder"
   },
@@ -16381,7 +16381,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D43_049",
     "text": "這件外套的顏色太亮了，有沒有暗一點的？",
-    "pinyin_numeric": "zhe4 jian4 wai4tao4 de5 yan2se4 tai4 liang4 le5, you3 mei2you3 an4 yi1dian3 de5?",
+    "pinyin_numeric": "zhe4 jian4 wai4tao4 de5 yan2se4 tai4 liang4 le5, you3 mei2 you3 an4 yi1dian3 de5?",
     "path": "audio/AUD_SEN_D43_049.mp3",
     "status": "placeholder"
   },
@@ -16390,7 +16390,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D43_050",
     "text": "這件裙子的尺寸太小了，可以換大一點的嗎？",
-    "pinyin_numeric": "zhe4 jian4 qun2zi5 de5 chi3cun4 tai4 xiao3 le5, ke3yi3 huan4 da4 yi1dian3 de5 ma0?",
+    "pinyin_numeric": "zhe4 jian4 qun2zi5 de5 chi3cun4 tai4 xiao3 le5, ke3 yi3 huan4 da4 yi1dian3 de5 ma0?",
     "path": "audio/AUD_SEN_D43_050.mp3",
     "status": "placeholder"
   },
@@ -16399,7 +16399,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D43_051",
     "text": "這件上衣有沒有白色的？",
-    "pinyin_numeric": "zhe4 jian4 shang4yi1 you3 mei2you3 bai2se4 de0",
+    "pinyin_numeric": "zhe4 jian4 shang4yi1 you3 mei2 you3 bai2se4 de0",
     "path": "audio/AUD_SEN_D43_051.mp3",
     "status": "placeholder"
   },
@@ -16408,7 +16408,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D43_053",
     "text": "這雙鞋子有沒有黑色的？",
-    "pinyin_numeric": "zhe4 shuang1 xie2zi0 you3 mei2you3 hei1se4 de0",
+    "pinyin_numeric": "zhe4 shuang1 xie2zi0 you3 mei2 you3 hei1se4 de0",
     "path": "audio/AUD_SEN_D43_053.mp3",
     "status": "placeholder"
   },
@@ -16417,7 +16417,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D43_054",
     "text": "這件外套有沒有大號的？",
-    "pinyin_numeric": "zhe4 jian4 wai4tao4 you3 mei2you3 da4hao4 de0",
+    "pinyin_numeric": "zhe4 jian4 wai4tao4 you3 mei2 you3 da4hao4 de0",
     "path": "audio/AUD_SEN_D43_054.mp3",
     "status": "placeholder"
   },
@@ -16426,7 +16426,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D43_055",
     "text": "這條裙子有沒有紅色的？",
-    "pinyin_numeric": "zhe4 tiao2 qun2zi0 you3 mei2you3 hong2se4 de0",
+    "pinyin_numeric": "zhe4 tiao2 qun2zi0 you3 mei2 you3 hong2se4 de0",
     "path": "audio/AUD_SEN_D43_055.mp3",
     "status": "placeholder"
   },
@@ -16435,7 +16435,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D43_056",
     "text": "這頂帽子有沒有藍色的？",
-    "pinyin_numeric": "zhe4 ding3 mao4zi0 you3 mei2you3 lan2se4 de0",
+    "pinyin_numeric": "zhe4 ding3 mao4zi0 you3 mei2 you3 lan2se4 de0",
     "path": "audio/AUD_SEN_D43_056.mp3",
     "status": "placeholder"
   },
@@ -16444,7 +16444,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D43_058",
     "text": "這件上衣有沒有綠色的？",
-    "pinyin_numeric": "zhe4 jian4 shang4yi1 you3 mei2you3 lv4se4 de0",
+    "pinyin_numeric": "zhe4 jian4 shang4yi1 you3 mei2 you3 lv4se4 de0",
     "path": "audio/AUD_SEN_D43_058.mp3",
     "status": "placeholder"
   },
@@ -16453,7 +16453,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D43_059",
     "text": "這條褲子有沒有灰色的？",
-    "pinyin_numeric": "zhe4 tiao2 ku4zi0 you3 mei2you3 hui1se4 de0",
+    "pinyin_numeric": "zhe4 tiao2 ku4zi0 you3 mei2 you3 hui1se4 de0",
     "path": "audio/AUD_SEN_D43_059.mp3",
     "status": "placeholder"
   },
@@ -16462,7 +16462,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D43_060",
     "text": "這雙襪子有沒有黃色的？",
-    "pinyin_numeric": "zhe4 shuang1 wa4zi0 you3 mei2you3 huang2se4 de0",
+    "pinyin_numeric": "zhe4 shuang1 wa4zi0 you3 mei2 you3 huang2se4 de0",
     "path": "audio/AUD_SEN_D43_060.mp3",
     "status": "placeholder"
   },
@@ -16489,7 +16489,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D43_066",
     "text": "這件衣服的尺寸太大了，有沒有小號的？",
-    "pinyin_numeric": "zhe4 jian4 yi1fu5 de5 chi3cun4 tai4 da4 le5, you3 mei2you3 xiao3 hao4 de5",
+    "pinyin_numeric": "zhe4 jian4 yi1fu5 de5 chi3cun4 tai4 da4 le5, you3 mei2 you3 xiao3 hao4 de5",
     "path": "audio/AUD_SEN_D43_066.mp3",
     "status": "placeholder"
   },
@@ -16516,7 +16516,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D43_070",
     "text": "請問，試衣間在哪裡？我想試穿這件褲子。",
-    "pinyin_numeric": "qing3wen4, shi4yi1jian1 zai4 na3li3? wo3 xiang3 shi4chuan1 zhe4 jian4 ku4zi5",
+    "pinyin_numeric": "qing3 wen4, shi4yi1jian1 zai4 na3 li3? wo3 xiang3 shi4chuan1 zhe4 jian4 ku4zi5",
     "path": "audio/AUD_SEN_D43_070.mp3",
     "status": "placeholder"
   },
@@ -16543,7 +16543,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D43_073",
     "text": "這雙鞋子太貴了，可以便宜一點嗎？",
-    "pinyin_numeric": "zhe4 shuang1 xie2zi0 tai4 gui4 le0, ke3yi3 pian2yi0 yi1dian3 ma0",
+    "pinyin_numeric": "zhe4 shuang1 xie2zi0 tai4 gui4 le0, ke3 yi3 pian2yi0 yi1dian3 ma0",
     "path": "audio/AUD_SEN_D43_073.mp3",
     "status": "placeholder"
   },
@@ -16561,7 +16561,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D43_075",
     "text": "這雙鞋子太小了，我可以試穿大一號的嗎？",
-    "pinyin_numeric": "zhe4 shuang1 xie2zi0 tai4 xiao3 le0, wo3 ke3yi3 shi4chuan4 da4 yi1 hao4 de0 ma0",
+    "pinyin_numeric": "zhe4 shuang1 xie2zi0 tai4 xiao3 le0, wo3 ke3 yi3 shi4chuan4 da4 yi1 hao4 de0 ma0",
     "path": "audio/AUD_SEN_D43_075.mp3",
     "status": "placeholder"
   },
@@ -16570,7 +16570,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D43_076",
     "text": "這件裙子的顏色太紅了，有沒有綠色的？",
-    "pinyin_numeric": "zhe4 jian4 qun2zi0 de0 yan2se4 tai4 hong2 le0, you3 mei2you3 lv4se4 de0",
+    "pinyin_numeric": "zhe4 jian4 qun2zi0 de0 yan2se4 tai4 hong2 le0, you3 mei2 you3 lv4se4 de0",
     "path": "audio/AUD_SEN_D43_076.mp3",
     "status": "placeholder"
   },
@@ -16597,7 +16597,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D43_079",
     "text": "這頂帽子太大了，有沒有小一號的？",
-    "pinyin_numeric": "zhe4 ding3 mao4zi0 tai4 da4 le0, you3 mei2you3 xiao3 yi1 hao4 de0",
+    "pinyin_numeric": "zhe4 ding3 mao4zi0 tai4 da4 le0, you3 mei2 you3 xiao3 yi1 hao4 de0",
     "path": "audio/AUD_SEN_D43_079.mp3",
     "status": "placeholder"
   },
@@ -16615,7 +16615,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D43_083",
     "text": "這件外套有沒有黑色的？",
-    "pinyin_numeric": "zhe4 jian4 wai4tao4 you3 mei2you3 hei1se4 de0",
+    "pinyin_numeric": "zhe4 jian4 wai4tao4 you3 mei2 you3 hei1se4 de0",
     "path": "audio/AUD_SEN_D43_083.mp3",
     "status": "placeholder"
   },
@@ -16624,7 +16624,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D43_084",
     "text": "這雙鞋子有沒有藍色的？",
-    "pinyin_numeric": "zhe4 shuang1 xie2zi0 you3 mei2you3 lan2se4 de0",
+    "pinyin_numeric": "zhe4 shuang1 xie2zi0 you3 mei2 you3 lan2se4 de0",
     "path": "audio/AUD_SEN_D43_084.mp3",
     "status": "placeholder"
   },
@@ -16633,7 +16633,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D43_085",
     "text": "這件裙子有沒有中號的？",
-    "pinyin_numeric": "zhe4 jian4 qun2zi0 you3 mei2you3 zhong1hao4 de0",
+    "pinyin_numeric": "zhe4 jian4 qun2zi0 you3 mei2 you3 zhong1hao4 de0",
     "path": "audio/AUD_SEN_D43_085.mp3",
     "status": "placeholder"
   },
@@ -16642,7 +16642,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D43_086",
     "text": "這件上衣有沒有大號的？",
-    "pinyin_numeric": "zhe4 jian4 shang4yi1 you3 mei2you3 da4hao4 de0",
+    "pinyin_numeric": "zhe4 jian4 shang4yi1 you3 mei2 you3 da4hao4 de0",
     "path": "audio/AUD_SEN_D43_086.mp3",
     "status": "placeholder"
   },
@@ -16651,7 +16651,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D43_088",
     "text": "這件外套有沒有紅色的？",
-    "pinyin_numeric": "zhe4 jian4 wai4tao4 you3 mei2you3 hong2se4 de0",
+    "pinyin_numeric": "zhe4 jian4 wai4tao4 you3 mei2 you3 hong2se4 de0",
     "path": "audio/AUD_SEN_D43_088.mp3",
     "status": "placeholder"
   },
@@ -16660,7 +16660,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D43_090",
     "text": "這件裙子有沒有綠色的？",
-    "pinyin_numeric": "zhe4 jian4 qun2zi0 you3 mei2you3 lv4se4 de0",
+    "pinyin_numeric": "zhe4 jian4 qun2zi0 you3 mei2 you3 lv4se4 de0",
     "path": "audio/AUD_SEN_D43_090.mp3",
     "status": "placeholder"
   },
@@ -16705,7 +16705,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D43_01",
     "text": "有，這件是中號的，你可以試穿看看。",
-    "pinyin_numeric": "You3, zhe4 jian4 shi4 zhong1 hao4 de, ni3 ke3yi3 shi4chuan1 kan4 kan4.",
+    "pinyin_numeric": "You3, zhe4 jian4 shi4 zhong1 hao4 de, ni3 ke3 yi3 shi4chuan1 kan4 kan4.",
     "path": "audio/AUD_DLG_D43_01_T5.mp3",
     "status": "placeholder"
   },
@@ -16714,7 +16714,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D43_01",
     "text": "好，謝謝。試衣間在哪裡？",
-    "pinyin_numeric": "Hao3, xie4xie4. Shi4yi1jian1 zai4 na3li3?",
+    "pinyin_numeric": "Hao3, xie4xie4. Shi4yi1jian1 zai4 na3 li3?",
     "path": "audio/AUD_DLG_D43_01_T6.mp3",
     "status": "placeholder"
   },
@@ -16750,7 +16750,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D43_02",
     "text": "九百六十塊？太貴了！可以便宜一點嗎？",
-    "pinyin_numeric": "Jiu3bai3 liu4shi2 kuai4? Tai4 gui4 le! Ke3yi3 pian2yi2 yi1dian3 ma?",
+    "pinyin_numeric": "Jiu3bai3 liu4shi2 kuai4? Tai4 gui4 le! ke3 yi3 pian2yi2 yi1dian3 ma?",
     "path": "audio/AUD_DLG_D43_02_T3.mp3",
     "status": "placeholder"
   },
@@ -16876,7 +16876,7 @@
     "kind": "listening",
     "ref_id": "LIS_D43_05",
     "text": "這雙鞋子太小了，可以試穿大號的嗎？",
-    "pinyin_numeric": "zhe4 shuang1 xie2zi0 tai4 xiao3 le0, ke3yi3 shi4chuan1 da4hao4 de0 ma0?",
+    "pinyin_numeric": "zhe4 shuang1 xie2zi0 tai4 xiao3 le0, ke3 yi3 shi4chuan1 da4hao4 de0 ma0?",
     "path": "audio/AUD_LIS_D43_05.mp3",
     "status": "placeholder"
   },
@@ -16894,7 +16894,7 @@
     "kind": "listening",
     "ref_id": "LIS_D43_07",
     "text": "這件外套的顏色太普通了，有沒有特別一點的？",
-    "pinyin_numeric": "zhe4 jian4 wai4tao4 de0 yan2se4 tai4 pu3tong1 le0, you3 mei2you3 te4bie2 yi1dian3 de0?",
+    "pinyin_numeric": "zhe4 jian4 wai4tao4 de0 yan2se4 tai4 pu3tong1 le0, you3 mei2 you3 te4bie2 yi1dian3 de0?",
     "path": "audio/AUD_LIS_D43_07.mp3",
     "status": "placeholder"
   },
@@ -16903,7 +16903,7 @@
     "kind": "listening",
     "ref_id": "LIS_D43_08",
     "text": "這條褲子有沒有小號的？",
-    "pinyin_numeric": "zhe4 tiao2 ku4zi0 you3 mei2you3 xiao3hao4 de0",
+    "pinyin_numeric": "zhe4 tiao2 ku4zi0 you3 mei2 you3 xiao3hao4 de0",
     "path": "audio/AUD_LIS_D43_08.mp3",
     "status": "placeholder"
   },
@@ -16912,7 +16912,7 @@
     "kind": "listening",
     "ref_id": "LIS_D43_09",
     "text": "這件裙子有沒有白色的？",
-    "pinyin_numeric": "zhe4 jian4 qun2zi0 you3 mei2you3 bai2se4 de0",
+    "pinyin_numeric": "zhe4 jian4 qun2zi0 you3 mei2 you3 bai2se4 de0",
     "path": "audio/AUD_LIS_D43_09.mp3",
     "status": "placeholder"
   },
@@ -16921,7 +16921,7 @@
     "kind": "listening",
     "ref_id": "LIS_D43_10",
     "text": "這件上衣有沒有灰色的？",
-    "pinyin_numeric": "zhe4 jian4 shang4yi1 you3 mei2you3 hui1se4 de0",
+    "pinyin_numeric": "zhe4 jian4 shang4yi1 you3 mei2 you3 hui1se4 de0",
     "path": "audio/AUD_LIS_D43_10.mp3",
     "status": "placeholder"
   },
@@ -16939,7 +16939,7 @@
     "kind": "listening",
     "ref_id": "LIS_D43_12",
     "text": "我想試穿這件藍色的裙子，可以嗎？",
-    "pinyin_numeric": "wo3 xiang3 shi4chuan1 zhe4 jian4 lan2se4 de5 qun2zi, ke3yi3 ma0",
+    "pinyin_numeric": "wo3 xiang3 shi4chuan1 zhe4 jian4 lan2se4 de5 qun2zi, ke3 yi3 ma0",
     "path": "audio/AUD_LIS_D43_12.mp3",
     "status": "placeholder"
   },
@@ -16975,7 +16975,7 @@
     "kind": "listening",
     "ref_id": "LIS_D43_16",
     "text": "這件裙子太貴了，可以便宜一點嗎？",
-    "pinyin_numeric": "zhe4 jian4 qun2zi5 tai4 gui4 le5, ke3yi3 pian2yi2 yi1dian3 ma0",
+    "pinyin_numeric": "zhe4 jian4 qun2zi5 tai4 gui4 le5, ke3 yi3 pian2yi2 yi1dian3 ma0",
     "path": "audio/AUD_LIS_D43_16.mp3",
     "status": "placeholder"
   },
@@ -16984,7 +16984,7 @@
     "kind": "listening",
     "ref_id": "LIS_D43_17",
     "text": "這件外套的顏色太亮了，有沒有暗一點的？",
-    "pinyin_numeric": "zhe4 jian4 wai4tao4 de5 yan2se4 tai4 liang4 le5, you3 mei2you3 an4 yi1dian3 de5?",
+    "pinyin_numeric": "zhe4 jian4 wai4tao4 de5 yan2se4 tai4 liang4 le5, you3 mei2 you3 an4 yi1dian3 de5?",
     "path": "audio/AUD_LIS_D43_17.mp3",
     "status": "placeholder"
   },
@@ -17002,7 +17002,7 @@
     "kind": "listening",
     "ref_id": "LIS_D43_19",
     "text": "這條裙子有沒有紅色的？",
-    "pinyin_numeric": "zhe4 tiao2 qun2zi0 you3 mei2you3 hong2se4 de0",
+    "pinyin_numeric": "zhe4 tiao2 qun2zi0 you3 mei2 you3 hong2se4 de0",
     "path": "audio/AUD_LIS_D43_19.mp3",
     "status": "placeholder"
   },
@@ -17011,7 +17011,7 @@
     "kind": "listening",
     "ref_id": "LIS_D43_20",
     "text": "這件上衣有沒有綠色的？",
-    "pinyin_numeric": "zhe4 jian4 shang4yi1 you3 mei2you3 lv4se4 de0",
+    "pinyin_numeric": "zhe4 jian4 shang4yi1 you3 mei2 you3 lv4se4 de0",
     "path": "audio/AUD_LIS_D43_20.mp3",
     "status": "placeholder"
   },
@@ -17371,7 +17371,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D44_005",
     "text": "今天天氣很悶熱，我沒有精神。",
-    "pinyin_numeric": "jin1tian1 tian1qi4 hen3 men1re4, wo3 mei2you3 jing1shen2.",
+    "pinyin_numeric": "jin1tian1 tian1qi4 hen3 men1re4, wo3 mei2 you3 jing1shen2.",
     "path": "audio/AUD_SEN_D44_005.mp3",
     "status": "placeholder"
   },
@@ -17416,7 +17416,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D44_010",
     "text": "昨天天氣很熱，所以我沒有去上班。",
-    "pinyin_numeric": "zuo2tian1 tian1qi4 hen3 re4, suo3yi3 wo3 mei2you3 qu4 shang4ban1.",
+    "pinyin_numeric": "zuo2tian1 tian1qi4 hen3 re4, suo3yi3 wo3 mei2 you3 qu4 shang4ban1.",
     "path": "audio/AUD_SEN_D44_010.mp3",
     "status": "placeholder"
   },
@@ -17506,7 +17506,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D44_020",
     "text": "今天多雲，我有點不喜歡，因為沒有太陽。",
-    "pinyin_numeric": "jin1tian1 duo1yun2, wo3 you3dian3 bu4 xi3huan1, yin1wei4 mei2you3 tai4yang2.",
+    "pinyin_numeric": "jin1tian1 duo1yun2, wo3 you3dian3 bu4 xi3huan1, yin1wei4 mei2 you3 tai4yang2.",
     "path": "audio/AUD_SEN_D44_020.mp3",
     "status": "placeholder"
   },
@@ -17641,7 +17641,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D44_035",
     "text": "陰天很悶熱，我沒有精神。",
-    "pinyin_numeric": "yin1tian1 hen3 men1re4, wo3 mei2you3 jing1shen2.",
+    "pinyin_numeric": "yin1tian1 hen3 men1re4, wo3 mei2 you3 jing1shen2.",
     "path": "audio/AUD_SEN_D44_035.mp3",
     "status": "placeholder"
   },
@@ -17776,7 +17776,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D44_051",
     "text": "今天天氣太熱了，我沒有精神。",
-    "pinyin_numeric": "jin1tian1 tian1qi4 tai4 re4 le0, wo3 mei2you3 jing1shen2.",
+    "pinyin_numeric": "jin1tian1 tian1qi4 tai4 re4 le0, wo3 mei2 you3 jing1shen2.",
     "path": "audio/AUD_SEN_D44_051.mp3",
     "status": "placeholder"
   },
@@ -18019,7 +18019,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D44_082",
     "text": "昨天太冷了，所以我沒有出門。",
-    "pinyin_numeric": "zuo2tian1 tai4 leng3 le0, suo3yi3 wo3 mei2you3 chu1men2.",
+    "pinyin_numeric": "zuo2tian1 tai4 leng3 le0, suo3yi3 wo3 mei2 you3 chu1men2.",
     "path": "audio/AUD_SEN_D44_082.mp3",
     "status": "placeholder"
   },
@@ -18091,7 +18091,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D44_090",
     "text": "今天陰天，天氣悶熱，我沒有精神。",
-    "pinyin_numeric": "jin1tian1 yin1tian1, tian1qi4 men1re4, wo3 mei2you3 jing1shen2.",
+    "pinyin_numeric": "jin1tian1 yin1tian1, tian1qi4 men1re4, wo3 mei2 you3 jing1shen2.",
     "path": "audio/AUD_SEN_D44_090.mp3",
     "status": "placeholder"
   },
@@ -18100,7 +18100,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D44_01",
     "text": "今天天氣好熱，你有沒有覺得？",
-    "pinyin_numeric": "Jin1tian1 tian1qi4 hao3 re4, ni3 you3 mei2you3 jue2de?",
+    "pinyin_numeric": "Jin1tian1 tian1qi4 hao3 re4, ni3 you3 mei2 you3 jue2de?",
     "path": "audio/AUD_DLG_D44_01_T1.mp3",
     "status": "placeholder"
   },
@@ -18190,7 +18190,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D44_02",
     "text": "我懂。不過下雨天可以放鬆，在家看書也不錯。",
-    "pinyin_numeric": "Wo3 dong3. Bu4guo4 xia4 yu3 tian1 ke3yi3 fang4song1, zai4 jia1 kan4 shu1 ye3 bu2cuo4.",
+    "pinyin_numeric": "Wo3 dong3. Bu4guo4 xia4 yu3 tian1 ke3 yi3 fang4song1, zai4 jia1 kan4 shu1 ye3 bu2cuo4.",
     "path": "audio/AUD_DLG_D44_02_T5.mp3",
     "status": "placeholder"
   },
@@ -18289,7 +18289,7 @@
     "kind": "listening",
     "ref_id": "LIS_D44_04",
     "text": "昨天天氣很熱，所以我沒有去上班。",
-    "pinyin_numeric": "zuo2tian1 tian1qi4 hen3 re4, suo3yi3 wo3 mei2you3 qu4 shang4ban1.",
+    "pinyin_numeric": "zuo2tian1 tian1qi4 hen3 re4, suo3yi3 wo3 mei2 you3 qu4 shang4ban1.",
     "path": "audio/AUD_LIS_D44_04.mp3",
     "status": "placeholder"
   },
@@ -18622,7 +18622,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D45_021",
     "text": "今天天氣很熱，我可以喝一杯冰水嗎？",
-    "pinyin_numeric": "jin1tian1 tian1qi4 hen3 re4, wo3 ke3yi3 he1 yi1 bei1 bing1 shui3 ma0",
+    "pinyin_numeric": "jin1tian1 tian1qi4 hen3 re4, wo3 ke3 yi3 he1 yi1 bei1 bing1 shui3 ma0",
     "path": "audio/AUD_SEN_D45_021.mp3",
     "status": "placeholder"
   },
@@ -18631,7 +18631,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D45_022",
     "text": "請問，我可以先看菜單再點餐嗎？",
-    "pinyin_numeric": "qing3wen4, wo3 ke3yi3 xian1 kan4 cai4dan1 zai4 dian3can1 ma0",
+    "pinyin_numeric": "qing3 wen4, wo3 ke3 yi3 xian1 kan4 cai4dan1 zai4 dian3can1 ma0",
     "path": "audio/AUD_SEN_D45_022.mp3",
     "status": "placeholder"
   },
@@ -18640,7 +18640,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D45_023",
     "text": "外面下雨了，我可以跟你一起撐傘嗎？",
-    "pinyin_numeric": "wai4mian4 xia4yu3 le0, wo3 ke3yi3 gen1 ni3 yi1qi3 cheng1 san3 ma0",
+    "pinyin_numeric": "wai4mian4 xia4yu3 le0, wo3 ke3 yi3 gen1 ni3 yi1qi3 cheng1 san3 ma0",
     "path": "audio/AUD_SEN_D45_023.mp3",
     "status": "placeholder"
   },
@@ -18649,7 +18649,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D45_024",
     "text": "我心情不好，你可以陪我散步一下嗎？",
-    "pinyin_numeric": "wo3 xin1qing2 bu4 hao3, ni3 ke3yi3 pei2 wo3 san4bu4 yi1xia4 ma0",
+    "pinyin_numeric": "wo3 xin1qing2 bu4 hao3, ni3 ke3 yi3 pei2 wo3 san4bu4 yi1xia4 ma0",
     "path": "audio/AUD_SEN_D45_024.mp3",
     "status": "placeholder"
   },
@@ -18658,7 +18658,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D45_025",
     "text": "這件外套太大了，我可以試穿小號的嗎？",
-    "pinyin_numeric": "zhe4 jian4 wai4tao4 tai4 da4 le0, wo3 ke3yi3 shi4chuan1 xiao3 hao4 de0 ma0",
+    "pinyin_numeric": "zhe4 jian4 wai4tao4 tai4 da4 le0, wo3 ke3 yi3 shi4chuan1 xiao3 hao4 de0 ma0",
     "path": "audio/AUD_SEN_D45_025.mp3",
     "status": "placeholder"
   },
@@ -18667,7 +18667,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D45_026",
     "text": "颱風要來了，我們可以先回家嗎？",
-    "pinyin_numeric": "tai2feng1 yao4 lai2 le0, wo3men ke3yi3 xian1 hui2 jia1 ma0",
+    "pinyin_numeric": "tai2feng1 yao4 lai2 le0, wo3men ke3 yi3 xian1 hui2 jia1 ma0",
     "path": "audio/AUD_SEN_D45_026.mp3",
     "status": "placeholder"
   },
@@ -18676,7 +18676,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D45_027",
     "text": "我壓力很大，可以放鬆一下聽音樂嗎？",
-    "pinyin_numeric": "wo3 ya1li4 hen3 da4, ke3yi3 fang4song1 yi1xia4 ting1 yin1yue4 ma0",
+    "pinyin_numeric": "wo3 ya1li4 hen3 da4, ke3 yi3 fang4song1 yi1xia4 ting1 yin1yue4 ma0",
     "path": "audio/AUD_SEN_D45_027.mp3",
     "status": "placeholder"
   },
@@ -18685,7 +18685,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D45_028",
     "text": "路很滑，你可以走慢一點嗎？",
-    "pinyin_numeric": "lu4 hen3 hua2, ni3 ke3yi3 zou3 man4 yi1dian3 ma0",
+    "pinyin_numeric": "lu4 hen3 hua2, ni3 ke3 yi3 zou3 man4 yi1dian3 ma0",
     "path": "audio/AUD_SEN_D45_028.mp3",
     "status": "placeholder"
   },
@@ -18694,7 +18694,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D45_029",
     "text": "我沒有帶傘，可以跟你借一把嗎？",
-    "pinyin_numeric": "wo3 mei2you3 dai4 san3, ke3yi3 gen1 ni3 jie4 yi1 ba3 ma0",
+    "pinyin_numeric": "wo3 mei2 you3 dai4 san3, ke3 yi3 gen1 ni3 jie4 yi1 ba3 ma0",
     "path": "audio/AUD_SEN_D45_029.mp3",
     "status": "placeholder"
   },
@@ -18703,7 +18703,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D45_030",
     "text": "天氣很冷，我可以穿你的外套嗎？",
-    "pinyin_numeric": "tian1qi4 hen3 leng3, wo3 ke3yi3 chuan1 ni3 de0 wai4tao4 ma0",
+    "pinyin_numeric": "tian1qi4 hen3 leng3, wo3 ke3 yi3 chuan1 ni3 de0 wai4tao4 ma0",
     "path": "audio/AUD_SEN_D45_030.mp3",
     "status": "placeholder"
   },
@@ -18712,7 +18712,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D45_032",
     "text": "因為今天下雨，所以我們沒有去公園。",
-    "pinyin_numeric": "yin1wei4 jin1tian1 xia4yu3, suo3yi3 wo3men mei2you3 qu4 gong1yuan2.",
+    "pinyin_numeric": "yin1wei4 jin1tian1 xia4yu3, suo3yi3 wo3men mei2 you3 qu4 gong1yuan2.",
     "path": "audio/AUD_SEN_D45_032.mp3",
     "status": "placeholder"
   },
@@ -18856,7 +18856,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D45_051",
     "text": "今天天氣很冷，我可以穿你的外套嗎？",
-    "pinyin_numeric": "jin1tian1 tian1qi4 hen3 leng3, wo3 ke3yi3 chuan1 ni3 de wai4tao4 ma0",
+    "pinyin_numeric": "jin1tian1 tian1qi4 hen3 leng3, wo3 ke3 yi3 chuan1 ni3 de wai4tao4 ma0",
     "path": "audio/AUD_SEN_D45_051.mp3",
     "status": "placeholder"
   },
@@ -18865,7 +18865,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D45_052",
     "text": "下雨了，你可以幫我帶傘嗎？",
-    "pinyin_numeric": "xia4yu3 le0, ni3 ke3yi3 bang1 wo3 dai4 san3 ma0",
+    "pinyin_numeric": "xia4yu3 le0, ni3 ke3 yi3 bang1 wo3 dai4 san3 ma0",
     "path": "audio/AUD_SEN_D45_052.mp3",
     "status": "placeholder"
   },
@@ -18874,7 +18874,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D45_053",
     "text": "我心情不好，你可以跟我一起散步嗎？",
-    "pinyin_numeric": "wo3 xin1qing2 bu4 hao3, ni3 ke3yi3 gen1 wo3 yi1qi3 san4bu4 ma0",
+    "pinyin_numeric": "wo3 xin1qing2 bu4 hao3, ni3 ke3 yi3 gen1 wo3 yi1qi3 san4bu4 ma0",
     "path": "audio/AUD_SEN_D45_053.mp3",
     "status": "placeholder"
   },
@@ -18883,7 +18883,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D45_055",
     "text": "這裡很悶熱，可以開窗戶嗎？",
-    "pinyin_numeric": "zhe4li3 hen3 men1re4, ke3yi3 kai1 chuang1hu4 ma0",
+    "pinyin_numeric": "zhe4li3 hen3 men1re4, ke3 yi3 kai1 chuang1hu4 ma0",
     "path": "audio/AUD_SEN_D45_055.mp3",
     "status": "placeholder"
   },
@@ -18892,7 +18892,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D45_057",
     "text": "我壓力很大，可以休息一下嗎？",
-    "pinyin_numeric": "wo3 ya1li4 hen3 da4, ke3yi3 xiu1xi2 yi1xia4 ma0",
+    "pinyin_numeric": "wo3 ya1li4 hen3 da4, ke3 yi3 xiu1xi2 yi1xia4 ma0",
     "path": "audio/AUD_SEN_D45_057.mp3",
     "status": "placeholder"
   },
@@ -18901,7 +18901,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D45_058",
     "text": "今天有太陽，我們可以去公園拍照嗎？",
-    "pinyin_numeric": "jin1tian1 you3 tai4yang2, wo3men ke3yi3 qu4 gong1yuan2 pai1zhao4 ma0",
+    "pinyin_numeric": "jin1tian1 you3 tai4yang2, wo3men ke3 yi3 qu4 gong1yuan2 pai1zhao4 ma0",
     "path": "audio/AUD_SEN_D45_058.mp3",
     "status": "placeholder"
   },
@@ -18910,7 +18910,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D45_059",
     "text": "你心情好嗎？可以跟我聊天嗎？",
-    "pinyin_numeric": "ni3 xin1qing2 hao3 ma0? ke3yi3 gen1 wo3 liao2tian1 ma0",
+    "pinyin_numeric": "ni3 xin1qing2 hao3 ma0? ke3 yi3 gen1 wo3 liao2tian1 ma0",
     "path": "audio/AUD_SEN_D45_059.mp3",
     "status": "placeholder"
   },
@@ -18919,7 +18919,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D45_060",
     "text": "天氣很舒服，我們可以在外面吃飯嗎？",
-    "pinyin_numeric": "tian1qi4 hen3 shu1fu2, wo3men ke3yi3 zai4 wai4mian4 chi1fan4 ma0",
+    "pinyin_numeric": "tian1qi4 hen3 shu1fu2, wo3men ke3 yi3 zai4 wai4mian4 chi1fan4 ma0",
     "path": "audio/AUD_SEN_D45_060.mp3",
     "status": "placeholder"
   },
@@ -19009,7 +19009,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D45_073",
     "text": "我覺得這個包包太貴了。",
-    "pinyin_numeric": "wo3 jue2de zhe4ge0 bao1 bao1 tai4 gui4 le0",
+    "pinyin_numeric": "wo3 jue2de zhe4 ge0 bao1 bao1 tai4 gui4 le0",
     "path": "audio/AUD_SEN_D45_073.mp3",
     "status": "placeholder"
   },
@@ -19027,7 +19027,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D45_075",
     "text": "你覺得這個顏色適合我嗎？",
-    "pinyin_numeric": "ni3 jue2de zhe4ge0 yan2se4 shi4he2 wo3 ma0",
+    "pinyin_numeric": "ni3 jue2de zhe4 ge0 yan2se4 shi4he2 wo3 ma0",
     "path": "audio/AUD_SEN_D45_075.mp3",
     "status": "placeholder"
   },
@@ -19045,7 +19045,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D45_077",
     "text": "他覺得這個問題很簡單。",
-    "pinyin_numeric": "ta1 jue2de zhe4ge0 wen4ti2 hen3 jian3dan1",
+    "pinyin_numeric": "ta1 jue2de zhe4 ge0 wen4ti2 hen3 jian3dan1",
     "path": "audio/AUD_SEN_D45_077.mp3",
     "status": "placeholder"
   },
@@ -19054,7 +19054,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D45_079",
     "text": "我覺得這個手機很漂亮。",
-    "pinyin_numeric": "wo3 jue2de zhe4ge0 shou3ji1 hen3 piao4liang0",
+    "pinyin_numeric": "wo3 jue2de zhe4 ge0 shou3ji1 hen3 piao4liang0",
     "path": "audio/AUD_SEN_D45_079.mp3",
     "status": "placeholder"
   },
@@ -19072,7 +19072,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D45_081",
     "text": "今天天氣很冷，我可以穿外套嗎？",
-    "pinyin_numeric": "jin1tian1 tian1qi4 hen3 leng3, wo3 ke3yi3 chuan1 wai4tao4 ma0",
+    "pinyin_numeric": "jin1tian1 tian1qi4 hen3 leng3, wo3 ke3 yi3 chuan1 wai4tao4 ma0",
     "path": "audio/AUD_SEN_D45_081.mp3",
     "status": "placeholder"
   },
@@ -19081,7 +19081,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D45_082",
     "text": "外面下雨了，我可以帶傘嗎？",
-    "pinyin_numeric": "wai4mian4 xia4 yu3 le0, wo3 ke3yi3 dai4 san3 ma0",
+    "pinyin_numeric": "wai4mian4 xia4 yu3 le0, wo3 ke3 yi3 dai4 san3 ma0",
     "path": "audio/AUD_SEN_D45_082.mp3",
     "status": "placeholder"
   },
@@ -19090,7 +19090,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D45_083",
     "text": "我心情不好，可以跟你聊天嗎？",
-    "pinyin_numeric": "wo3 xin1qing2 bu4 hao3, ke3yi3 gen1 ni3 liao2tian1 ma0",
+    "pinyin_numeric": "wo3 xin1qing2 bu4 hao3, ke3 yi3 gen1 ni3 liao2tian1 ma0",
     "path": "audio/AUD_SEN_D45_083.mp3",
     "status": "placeholder"
   },
@@ -19099,7 +19099,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D45_084",
     "text": "今天很熱，我可以喝一杯冰水嗎？",
-    "pinyin_numeric": "jin1tian1 hen3 re4, wo3 ke3yi3 he1 yi1 bei1 bing1 shui3 ma0",
+    "pinyin_numeric": "jin1tian1 hen3 re4, wo3 ke3 yi3 he1 yi1 bei1 bing1 shui3 ma0",
     "path": "audio/AUD_SEN_D45_084.mp3",
     "status": "placeholder"
   },
@@ -19108,7 +19108,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D45_087",
     "text": "路很滑，我們可以走慢一點嗎？",
-    "pinyin_numeric": "lu4 hen3 hua2, wo3men ke3yi3 zou3 man4 yi1dian3 ma0",
+    "pinyin_numeric": "lu4 hen3 hua2, wo3men ke3 yi3 zou3 man4 yi1dian3 ma0",
     "path": "audio/AUD_SEN_D45_087.mp3",
     "status": "placeholder"
   },
@@ -19117,7 +19117,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D45_088",
     "text": "我擔心天氣不好，可以帶傘嗎？",
-    "pinyin_numeric": "wo3 dan1xin1 tian1qi4 bu4 hao3, ke3yi3 dai4 san3 ma0",
+    "pinyin_numeric": "wo3 dan1xin1 tian1qi4 bu4 hao3, ke3 yi3 dai4 san3 ma0",
     "path": "audio/AUD_SEN_D45_088.mp3",
     "status": "placeholder"
   },
@@ -19126,7 +19126,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D45_089",
     "text": "今天很悶熱，我可以開窗戶嗎？",
-    "pinyin_numeric": "jin1tian1 hen3 men1re4, wo3 ke3yi3 kai1 chuang1hu4 ma0",
+    "pinyin_numeric": "jin1tian1 hen3 men1re4, wo3 ke3 yi3 kai1 chuang1hu4 ma0",
     "path": "audio/AUD_SEN_D45_089.mp3",
     "status": "placeholder"
   },
@@ -19135,7 +19135,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D45_090",
     "text": "我心情很開心，可以跟你一起散步嗎？",
-    "pinyin_numeric": "wo3 xin1qing2 hen3 kai1xin1, ke3yi3 gen1 ni3 yi1qi3 san4bu4 ma0",
+    "pinyin_numeric": "wo3 xin1qing2 hen3 kai1xin1, ke3 yi3 gen1 ni3 yi1qi3 san4bu4 ma0",
     "path": "audio/AUD_SEN_D45_090.mp3",
     "status": "placeholder"
   },
@@ -19180,7 +19180,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D45_01",
     "text": "總共八十塊，可以刷卡嗎？",
-    "pinyin_numeric": "Zong3gong4 ba1 shi2 kuai4, ke3yi3 shua1ka3 ma?",
+    "pinyin_numeric": "Zong3gong4 ba1 shi2 kuai4, ke3 yi3 shua1ka3 ma?",
     "path": "audio/AUD_DLG_D45_01_T5.mp3",
     "status": "placeholder"
   },
@@ -19189,7 +19189,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D45_01",
     "text": "可以，我刷卡。",
-    "pinyin_numeric": "Ke3yi3, wo3 shua1ka3.",
+    "pinyin_numeric": "ke3 yi3, wo3 shua1ka3.",
     "path": "audio/AUD_DLG_D45_01_T6.mp3",
     "status": "placeholder"
   },
@@ -19234,7 +19234,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D45_02",
     "text": "對，就是那個路口。捷運站入口在右邊。",
-    "pinyin_numeric": "Dui4, jiu4 shi4 na4ge lu4kou3. Jie2yun4 zhan4 ru4kou3 zai4 you4 bian1.",
+    "pinyin_numeric": "Dui4, jiu4 shi4 na4 ge0 lu4kou3. Jie2yun4 zhan4 ru4kou3 zai4 you4 bian1.",
     "path": "audio/AUD_DLG_D45_02_T4.mp3",
     "status": "placeholder"
   },
@@ -19261,7 +19261,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D45_03",
     "text": "這個週末你有空嗎？我們一起去看電影好不好？",
-    "pinyin_numeric": "Zhe4ge zhou1mo4 ni3 you3 kong4 ma? Wo3men yi1qi3 qu4 kan4 dian4ying3 hao3 bu4 hao3?",
+    "pinyin_numeric": "zhe4 ge0 zhou1mo4 ni3 you3 kong4 ma? Wo3men yi1qi3 qu4 kan4 dian4ying3 hao3 bu4 hao3?",
     "path": "audio/AUD_DLG_D45_03_T1.mp3",
     "status": "placeholder"
   },
@@ -19288,7 +19288,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D45_03",
     "text": "聽起來不錯！我們可以先去吃午餐，再看電影。",
-    "pinyin_numeric": "Ting1 qi3lai bu2cuo4! Wo3men ke3yi3 xian1 qu4 chi1 wu3can1, zai4 kan4 dian4ying3.",
+    "pinyin_numeric": "Ting1 qi3lai bu2cuo4! Wo3men ke3 yi3 xian1 qu4 chi1 wu3can1, zai4 kan4 dian4ying3.",
     "path": "audio/AUD_DLG_D45_03_T4.mp3",
     "status": "placeholder"
   },
@@ -19378,7 +19378,7 @@
     "kind": "listening",
     "ref_id": "LIS_D45_08",
     "text": "請問，我可以先看菜單再點餐嗎？",
-    "pinyin_numeric": "qing3wen4, wo3 ke3yi3 xian1 kan4 cai4dan1 zai4 dian3can1 ma0",
+    "pinyin_numeric": "qing3 wen4, wo3 ke3 yi3 xian1 kan4 cai4dan1 zai4 dian3can1 ma0",
     "path": "audio/AUD_LIS_D45_08.mp3",
     "status": "placeholder"
   },
@@ -19387,7 +19387,7 @@
     "kind": "listening",
     "ref_id": "LIS_D45_09",
     "text": "這件外套太大了，我可以試穿小號的嗎？",
-    "pinyin_numeric": "zhe4 jian4 wai4tao4 tai4 da4 le0, wo3 ke3yi3 shi4chuan1 xiao3 hao4 de0 ma0",
+    "pinyin_numeric": "zhe4 jian4 wai4tao4 tai4 da4 le0, wo3 ke3 yi3 shi4chuan1 xiao3 hao4 de0 ma0",
     "path": "audio/AUD_LIS_D45_09.mp3",
     "status": "placeholder"
   },
@@ -19396,7 +19396,7 @@
     "kind": "listening",
     "ref_id": "LIS_D45_10",
     "text": "路很滑，你可以走慢一點嗎？",
-    "pinyin_numeric": "lu4 hen3 hua2, ni3 ke3yi3 zou3 man4 yi1dian3 ma0",
+    "pinyin_numeric": "lu4 hen3 hua2, ni3 ke3 yi3 zou3 man4 yi1dian3 ma0",
     "path": "audio/AUD_LIS_D45_10.mp3",
     "status": "placeholder"
   }

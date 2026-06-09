@@ -63,8 +63,14 @@ function checkPinyinNumeric(item, label) {
   if (/\b(?:shen2me[05]?|wei4shen2me[05]?|zen3me[05]?|zhe4me[05]?)\b/i.test(numeric)) {
     errors.push(`${label}: fused common-word pinyin_numeric "${numeric}"; use syllable spacing such as "shen2 me0"`);
   }
+  if (/\b(?:qing3wen4|ke3yi3|mei2you3|na3li3|zhe4ge[05]?|na4ge[05]?)\b/i.test(numeric)) {
+    errors.push(`${label}: fused common-word pinyin_numeric "${numeric}"; use syllable spacing such as "ke3 yi3"`);
+  }
   if (/\bshen2 me(?:\b|[?!,.，。！？])|\bwei4 shen2 me(?:\b|[?!,.，。！？])|\bzen3 me(?:\b|[?!,.，。！？])|\bzhe4 me(?:\b|[?!,.，。！？])/i.test(numeric)) {
     errors.push(`${label}: missing neutral tone in pinyin_numeric "${numeric}"; use me0`);
+  }
+  if (/\b(?:ma5|ne5|a5)\b/i.test(numeric)) {
+    errors.push(`${label}: neutral particle uses tone 5 in pinyin_numeric "${numeric}"; use 0`);
   }
 }
 
@@ -75,6 +81,9 @@ function checkPronunciationFields(item, label) {
   for (const phoneme of item.phonemes ?? []) {
     if (/\b(?:shen2me[05]?|wei4shen2me[05]?|zen3me[05]?|zhe4me[05]?)\b/i.test(phoneme)) {
       errors.push(`${label}: fused phoneme "${phoneme}"; use syllable spacing such as "shen2 me0"`);
+    }
+    if (/\b(?:ke3yi3|na3li3|na4ge[05]?|ma5|ne5|a5)\b/i.test(phoneme)) {
+      errors.push(`${label}: inconsistent phoneme "${phoneme}"; use syllable spacing and neutral tone 0`);
     }
   }
 }

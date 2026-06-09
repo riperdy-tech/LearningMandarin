@@ -1948,9 +1948,9 @@
     "id": "VOC_M1_073",
     "char": "哪裡",
     "pinyin": "nǎlǐ",
-    "pinyin_numeric": "na3li3",
+    "pinyin_numeric": "na3 li3",
     "phonemes": [
-      "na3li3"
+      "na3 li3"
     ],
     "pos": "question",
     "meaning_en": "where",
@@ -2876,9 +2876,9 @@
     "id": "VOC_M1_118",
     "char": "可以",
     "pinyin": "kěyǐ",
-    "pinyin_numeric": "ke3yi3",
+    "pinyin_numeric": "ke3 yi3",
     "phonemes": [
-      "ke3yi3"
+      "ke3 yi3"
     ],
     "pos": "verb",
     "meaning_en": "can; may",
@@ -3467,9 +3467,9 @@
     "id": "VOC_M1_145",
     "char": "那裡",
     "pinyin": "nàlǐ",
-    "pinyin_numeric": "na3li3",
+    "pinyin_numeric": "na3 li3",
     "phonemes": [
-      "na3li3"
+      "na3 li3"
     ],
     "pos": "place",
     "meaning_en": "there",
@@ -3848,9 +3848,9 @@
     "id": "VOC_M1_163",
     "char": "那個",
     "pinyin": "nàge",
-    "pinyin_numeric": "na4ge5",
+    "pinyin_numeric": "na4 ge0",
     "phonemes": [
-      "na4ge5"
+      "na4 ge0"
     ],
     "pos": "pronoun",
     "meaning_en": "that one",

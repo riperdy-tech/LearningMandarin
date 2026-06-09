@@ -48,7 +48,7 @@
         "speaker": "A",
         "text": "然後呢？",
         "pinyin": "Ránhòu ne?",
-        "pinyin_numeric": "Ran2hou4 ne5?",
+        "pinyin_numeric": "Ran2hou4 ne0?",
         "translation_en": "And then?",
         "translation_ko": "그리고요?",
         "token_ids": [
@@ -202,7 +202,7 @@
         "speaker": "A",
         "text": "牛肉麵好吃嗎？",
         "pinyin": "Niúròumiàn hǎochī ma?",
-        "pinyin_numeric": "Niu2rou4mian4 hao3chi1 ma5?",
+        "pinyin_numeric": "Niu2rou4mian4 hao3chi1 ma0?",
         "translation_en": "Was the beef noodles delicious?",
         "translation_ko": "소고기 국수는 맛있었어요?",
         "token_ids": [
@@ -242,7 +242,7 @@
         "speaker": "A",
         "text": "你喜歡吃辣嗎？",
         "pinyin": "Nǐ xǐhuān chī là ma?",
-        "pinyin_numeric": "Ni3 xi3huan1 chi1 la4 ma5?",
+        "pinyin_numeric": "Ni3 xi3huan1 chi1 la4 ma0?",
         "translation_en": "Do you like eating spicy food?",
         "translation_ko": "매운 음식 좋아하세요?",
         "token_ids": [
@@ -323,7 +323,7 @@
         "speaker": "A",
         "text": "你昨天出門去了哪裡？",
         "pinyin": "Nǐ zuótiān chūmén qù le nǎlǐ?",
-        "pinyin_numeric": "Ni3 zuo2tian1 chu1men2 qu4 le5 na3li3?",
+        "pinyin_numeric": "Ni3 zuo2tian1 chu1men2 qu4 le5 na3 li3?",
         "translation_en": "Where did you go out to yesterday?",
         "translation_ko": "어디에 외출하셨어요?",
         "token_ids": [
@@ -363,7 +363,7 @@
         "speaker": "A",
         "text": "公園人多嗎？",
         "pinyin": "Gōngyuán rén duō ma?",
-        "pinyin_numeric": "Gong1yuan2 ren2 duo1 ma5?",
+        "pinyin_numeric": "Gong1yuan2 ren2 duo1 ma0?",
         "translation_en": "Were there many people in the park?",
         "translation_ko": "공원에 사람이 많았어요?",
         "token_ids": [
@@ -477,7 +477,7 @@
         "speaker": "A",
         "text": "你昨天做了什麼？可以從頭開始說嗎？",
         "pinyin": "Nǐ zuótiān zuò le shénme? Kěyǐ cóng tóu kāishǐ shuō ma?",
-        "pinyin_numeric": "Ni3 zuo2tian1 zuo4 le shen2 me0? Ke3yi3 cong2 tou2 kai1shi3 shuo1 ma?",
+        "pinyin_numeric": "Ni3 zuo2tian1 zuo4 le shen2 me0? ke3 yi3 cong2 tou2 kai1shi3 shuo1 ma?",
         "translation_en": "What did you do yesterday? Can you tell me from the beginning?",
         "translation_ko": "어제 뭐 하셨어요? 처음부터 말씀해 주시겠어요?",
         "token_ids": [
@@ -520,7 +520,7 @@
         "speaker": "A",
         "text": "然後呢？",
         "pinyin": "Ránhòu ne?",
-        "pinyin_numeric": "Ran2hou4 ne5?",
+        "pinyin_numeric": "Ran2hou4 ne0?",
         "translation_en": "And then?",
         "translation_ko": "그다음에는요?",
         "token_ids": [
@@ -649,7 +649,7 @@
         "speaker": "A",
         "text": "你下班以後都做什麼？可以說一下順序嗎？",
         "pinyin": "Nǐ xiàbān yǐhòu dōu zuò shénme? Kěyǐ shuō yīxià shùnxù ma?",
-        "pinyin_numeric": "Ni3 xia4ban1 yi3hou4 dou1 zuo4 shen2 me0? Ke3yi3 shuo1 yi1xia4 shun4xu4 ma?",
+        "pinyin_numeric": "Ni3 xia4ban1 yi3hou4 dou1 zuo4 shen2 me0? ke3 yi3 shuo1 yi1xia4 shun4xu4 ma?",
         "translation_en": "What do you usually do after work? Can you tell me the sequence?",
         "translation_ko": "퇴근 후에 보통 뭐 하세요? 순서를 말씀해 주시겠어요?",
         "token_ids": [
@@ -695,7 +695,7 @@
         "speaker": "A",
         "text": "回家以後呢？",
         "pinyin": "Huí jiā yǐhòu ne?",
-        "pinyin_numeric": "Hui2 jia1 yi3hou4 ne5?",
+        "pinyin_numeric": "Hui2 jia1 yi3hou4 ne0?",
         "translation_en": "And after going home?",
         "translation_ko": "집에 돌아간 다음에는요?",
         "token_ids": [
@@ -817,7 +817,7 @@
         "speaker": "A",
         "text": "你上個週末做了什麼？可以從頭開始講故事嗎？",
         "pinyin": "Nǐ shàng ge zhōumò zuò le shénme? Kěyǐ cóng tóu kāishǐ jiǎng gùshì ma?",
-        "pinyin_numeric": "Ni3 shang4 ge5 zhou1mo4 zuo4 le shen2 me0? Ke3yi3 cong2 tou2 kai1shi3 jiang3 gu4shi4 ma?",
+        "pinyin_numeric": "Ni3 shang4 ge5 zhou1mo4 zuo4 le shen2 me0? ke3 yi3 cong2 tou2 kai1shi3 jiang3 gu4shi4 ma?",
         "translation_en": "What did you do last weekend? Can you tell the story from the beginning?",
         "translation_ko": "지난 주말에 뭐 하셨어요? 처음부터 이야기를 들려주시겠어요?",
         "token_ids": [
@@ -864,7 +864,7 @@
         "speaker": "A",
         "text": "然後呢？",
         "pinyin": "Ránhòu ne?",
-        "pinyin_numeric": "Ran2hou4 ne5?",
+        "pinyin_numeric": "Ran2hou4 ne0?",
         "translation_en": "And then?",
         "translation_ko": "그다음에는요?",
         "token_ids": [
@@ -1107,7 +1107,7 @@
         "speaker": "A",
         "text": "聽起來很好玩。我從來沒有去過臺北，下次想去看看。",
         "pinyin": "Tīng qǐlái hěn hǎowán. Wǒ cónglái méiyǒu qùguò Táiběi, xià cì xiǎng qù kànkan.",
-        "pinyin_numeric": "Ting1 qi3lai2 hen3 hao3wan2. Wo3 cong2lai2 mei2you3 qu4guo4 Tai2bei3, xia4 ci4 xiang3 qu4 kan4kan.",
+        "pinyin_numeric": "Ting1 qi3lai2 hen3 hao3wan2. Wo3 cong2lai2 mei2 you3 qu4guo4 Tai2bei3, xia4 ci4 xiang3 qu4 kan4kan.",
         "translation_en": "That sounds fun. I've never been to Taipei, I want to go next time.",
         "translation_ko": "재미있을 것 같아요. 저는 타이베이에 가본 적이 한 번도 없어서, 다음에 가보고 싶어요.",
         "token_ids": [
@@ -1131,7 +1131,7 @@
         "speaker": "B",
         "text": "你一定要去！我可以幫你介紹好玩的地方。",
         "pinyin": "Nǐ yīdìng yào qù! Wǒ kěyǐ bāng nǐ jièshào hǎowán de dìfang.",
-        "pinyin_numeric": "Ni3 yi1ding4 yao4 qu4! Wo3 ke3yi3 bang1 ni3 jie4shao4 hao3wan2 de di4fang.",
+        "pinyin_numeric": "Ni3 yi1ding4 yao4 qu4! Wo3 ke3 yi3 bang1 ni3 jie4shao4 hao3wan2 de di4fang.",
         "translation_en": "You must go! I can help introduce you to fun places.",
         "translation_ko": "꼭 가보세요! 제가 재미있는 곳을 소개해 드릴게요.",
         "token_ids": [
@@ -1260,7 +1260,7 @@
         "speaker": "B",
         "text": "沒有，我從來沒有喝過。但是我很想試試看。",
         "pinyin": "Méiyǒu, wǒ cónglái méiyǒu hēguò. Dànshì wǒ hěn xiǎng shìshì kàn.",
-        "pinyin_numeric": "Mei2you3, wo3 cong2lai2 mei2you3 he1guo4. Dan4shi4 wo3 hen3 xiang3 shi4shi4 kan4.",
+        "pinyin_numeric": "mei2 you3, wo3 cong2lai2 mei2 you3 he1guo4. Dan4shi4 wo3 hen3 xiang3 shi4shi4 kan4.",
         "translation_en": "No, I've never had it. But I really want to try it.",
         "translation_ko": "아니요, 한 번도 마셔본 적이 없어요. 그런데 꼭 한번 먹어보고 싶어요.",
         "token_ids": [
@@ -1395,7 +1395,7 @@
         "speaker": "B",
         "text": "沒有，我從來沒有去過海邊。我都在臺北生活。",
         "pinyin": "Méiyǒu, wǒ cónglái méiyǒu qùguò hǎibiān. Wǒ dōu zài Táiběi shēnghuó.",
-        "pinyin_numeric": "Mei2you3, wo3 cong2lai2 mei2you3 qu4guo4 hai3bian1. Wo3 dou1 zai4 Tai2bei3 sheng1huo2.",
+        "pinyin_numeric": "mei2 you3, wo3 cong2lai2 mei2 you3 qu4guo4 hai3bian1. Wo3 dou1 zai4 Tai2bei3 sheng1huo2.",
         "translation_en": "No, I've never been to the beach. I've always lived in Taipei.",
         "translation_ko": "아니요, 저는 해변에 가본 적이 한 번도 없어요. 항상 타이베이에서 살았어요.",
         "token_ids": [
@@ -1439,7 +1439,7 @@
         "speaker": "B",
         "text": "我也很想，但是最近工作很忙，沒有時間。",
         "pinyin": "Wǒ yě hěn xiǎng, dànshì zuìjìn gōngzuò hěn máng, méiyǒu shíjiān.",
-        "pinyin_numeric": "Wo3 ye3 hen3 xiang3, dan4shi4 zui4jin4 gong1zuo4 hen3 mang2, mei2you3 shi2jian1.",
+        "pinyin_numeric": "Wo3 ye3 hen3 xiang3, dan4shi4 zui4jin4 gong1zuo4 hen3 mang2, mei2 you3 shi2jian1.",
         "translation_en": "I really want to, but I've been busy with work lately and don't have time.",
         "translation_ko": "저도 정말 가고 싶지만, 요즘 일이 너무 바빠서 시간이 없어요.",
         "token_ids": [
@@ -1461,7 +1461,7 @@
         "speaker": "A",
         "text": "沒關係，等你有空的時候再去。你可以先看照片。",
         "pinyin": "Méiguānxi, děng nǐ yǒu kòng de shíhou zài qù. Nǐ kěyǐ xiān kàn zhàopiàn.",
-        "pinyin_numeric": "Mei2guan1xi, deng3 ni3 you3 kong4 de shi2hou zai4 qu4. Ni3 ke3yi3 xian1 kan4 zhao4pian4.",
+        "pinyin_numeric": "Mei2guan1xi, deng3 ni3 you3 kong4 de shi2hou zai4 qu4. Ni3 ke3 yi3 xian1 kan4 zhao4pian4.",
         "translation_en": "No problem, go when you have free time. You can look at photos first.",
         "translation_ko": "괜찮아요, 시간이 날 때 가면 돼요. 먼저 사진을 보셔도 돼요.",
         "token_ids": [
@@ -1485,7 +1485,7 @@
         "speaker": "B",
         "text": "好主意！我從來沒有看過墾丁的照片，等一下來看看。",
         "pinyin": "Hǎo zhǔyì! Wǒ cónglái méiyǒu kànguò Kěndīng de zhàopiàn, děng yīxià lái kànkan.",
-        "pinyin_numeric": "Hao3 zhu3yi4! Wo3 cong2lai2 mei2you3 kan4guo4 Ken3ding1 de zhao4pian4, deng3 yi1xia4 lai2 kan4kan.",
+        "pinyin_numeric": "Hao3 zhu3yi4! Wo3 cong2lai2 mei2 you3 kan4guo4 Ken3ding1 de zhao4pian4, deng3 yi1xia4 lai2 kan4kan.",
         "translation_en": "Good idea! I've never seen photos of Kenting, I'll take a look later.",
         "translation_ko": "좋은 생각이에요! 컨딩 사진을 본 적이 한 번도 없어서, 잠시 후에 한번 볼게요.",
         "token_ids": [
@@ -1586,7 +1586,7 @@
         "speaker": "A",
         "text": "我現在在滑手機，沒有做什麼特別的事。",
         "pinyin": "Wǒ xiànzài zài huá shǒujī, méiyǒu zuò shénme tèbié de shì.",
-        "pinyin_numeric": "Wo3 xian4zai4 zai4 hua2 shou3ji1, mei2you3 zuo4 shen2 me0 te4bie2 de shi4.",
+        "pinyin_numeric": "Wo3 xian4zai4 zai4 hua2 shou3ji1, mei2 you3 zuo4 shen2 me0 te4bie2 de shi4.",
         "translation_en": "I'm scrolling on my phone, not doing anything special.",
         "translation_ko": "지금 핸드폰을 보고 있어요, 특별히 하는 일은 없어요.",
         "token_ids": [
@@ -1958,7 +1958,7 @@
         "speaker": "A",
         "text": "加油！你一定可以考得很好。",
         "pinyin": "Jiāyóu! Nǐ yīdìng kěyǐ kǎo dé hěn hǎo.",
-        "pinyin_numeric": "Jia1you2! Ni3 yi1ding4 ke3yi3 kao3 de2 hen3 hao3.",
+        "pinyin_numeric": "Jia1you2! Ni3 yi1ding4 ke3 yi3 kao3 de2 hen3 hao3.",
         "translation_en": "Keep it up! I'm sure you'll do well on the exam.",
         "translation_ko": "힘내세요! 분명히 시험 잘 볼 거예요.",
         "token_ids": [
@@ -2039,7 +2039,7 @@
         "speaker": "A",
         "text": "你會說中文嗎？",
         "pinyin": "Nǐ huì shuō zhōngwén ma?",
-        "pinyin_numeric": "Ni3 hui4 shuo1 zhong1wen2 ma5?",
+        "pinyin_numeric": "Ni3 hui4 shuo1 zhong1wen2 ma0?",
         "translation_en": "Can you speak Chinese?",
         "translation_ko": "중국어를 할 줄 아세요?",
         "token_ids": [
@@ -2102,7 +2102,7 @@
         "speaker": "A",
         "text": "你覺得說中文難嗎？",
         "pinyin": "Nǐ juéde shuō zhōngwén nán ma?",
-        "pinyin_numeric": "Ni3 jue2de5 shuo1 zhong1wen2 nan2 ma5?",
+        "pinyin_numeric": "Ni3 jue2de5 shuo1 zhong1wen2 nan2 ma0?",
         "translation_en": "Do you think speaking Chinese is difficult?",
         "translation_ko": "중국어 말하기가 어렵다고 생각하세요?",
         "token_ids": [
@@ -2218,7 +2218,7 @@
         "speaker": "A",
         "text": "你會煮菜嗎？",
         "pinyin": "Nǐ huì zhǔ cài ma?",
-        "pinyin_numeric": "Ni3 hui4 zhu3 cai4 ma5?",
+        "pinyin_numeric": "Ni3 hui4 zhu3 cai4 ma0?",
         "translation_en": "Can you cook?",
         "translation_ko": "요리할 줄 아세요?",
         "token_ids": [
@@ -2316,7 +2316,7 @@
         "speaker": "A",
         "text": "你可以教我嗎？",
         "pinyin": "Nǐ kěyǐ jiāo wǒ ma?",
-        "pinyin_numeric": "Ni3 ke3yi3 jiao1 wo3 ma5?",
+        "pinyin_numeric": "Ni3 ke3 yi3 jiao1 wo3 ma0?",
         "translation_en": "Can you teach me?",
         "translation_ko": "저를 가르쳐 주실 수 있나요?",
         "token_ids": [
@@ -2333,7 +2333,7 @@
         "speaker": "B",
         "text": "當然可以！我們一起煮。",
         "pinyin": "Dāngrán kěyǐ! Wǒmen yīqǐ zhǔ.",
-        "pinyin_numeric": "Dang1ran2 ke3yi3! Wo3men5 yi1qi3 zhu3.",
+        "pinyin_numeric": "Dang1ran2 ke3 yi3! Wo3men5 yi1qi3 zhu3.",
         "translation_en": "Of course! Let's cook together.",
         "translation_ko": "물론이죠! 같이 요리해요.",
         "token_ids": [
@@ -2395,7 +2395,7 @@
         "speaker": "A",
         "text": "你會看中文嗎？",
         "pinyin": "Nǐ huì kàn zhōngwén ma?",
-        "pinyin_numeric": "Ni3 hui4 kan4 zhong1wen2 ma5?",
+        "pinyin_numeric": "Ni3 hui4 kan4 zhong1wen2 ma0?",
         "translation_en": "Can you read Chinese?",
         "translation_ko": "중국어를 읽을 줄 아세요?",
         "token_ids": [
@@ -2464,7 +2464,7 @@
         "speaker": "A",
         "text": "你想學看中文嗎？",
         "pinyin": "Nǐ xiǎng xué kàn zhōngwén ma?",
-        "pinyin_numeric": "Ni3 xiang3 xue2 kan4 zhong1wen2 ma5?",
+        "pinyin_numeric": "Ni3 xiang3 xue2 kan4 zhong1wen2 ma0?",
         "translation_en": "Do you want to learn to read Chinese?",
         "translation_ko": "중국어 읽기를 배우고 싶으세요?",
         "token_ids": [
@@ -2499,7 +2499,7 @@
         "speaker": "A",
         "text": "你可以先學簡單的字。",
         "pinyin": "Nǐ kěyǐ xiān xué jiǎndān de zì.",
-        "pinyin_numeric": "Ni3 ke3yi3 xian1 xue2 jian3dan1 de5 zi4.",
+        "pinyin_numeric": "Ni3 ke3 yi3 xian1 xue2 jian3dan1 de5 zi4.",
         "translation_en": "You can start by learning simple characters.",
         "translation_ko": "간단한 글자부터 먼저 배울 수 있어요.",
         "token_ids": [
@@ -3307,7 +3307,7 @@
         "speaker": "A",
         "text": "那味道呢？哪一家的菜比較好吃？",
         "pinyin": "Nà wèidào ne? Nǎ yī jiā de cài bǐjiào hǎochī?",
-        "pinyin_numeric": "Na4 wei4 dao4 ne5? Na3 yi1 jia1 de cai4 bi3 jiao4 hao3 chi1?",
+        "pinyin_numeric": "Na4 wei4 dao4 ne0? Na3 yi1 jia1 de cai4 bi3 jiao4 hao3 chi1?",
         "translation_en": "What about the taste? Which restaurant's food is more delicious?",
         "translation_ko": "그럼 맛은요? 어느 식당 음식이 더 맛있어요?",
         "token_ids": [
@@ -3465,7 +3465,7 @@
         "speaker": "A",
         "text": "那價格呢？台北的物價是不是比較貴？",
         "pinyin": "Nà jiàgé ne? Táiběi de wùjià shì bùshì bǐjiào guì?",
-        "pinyin_numeric": "Na4 jia4 ge2 ne5? Tai2 bei3 de wu4 jia4 shi4 bu5 shi4 bi3 jiao4 gui4?",
+        "pinyin_numeric": "Na4 jia4 ge2 ne0? Tai2 bei3 de wu4 jia4 shi4 bu5 shi4 bi3 jiao4 gui4?",
         "translation_en": "What about prices? Is the cost of living in Taipei more expensive?",
         "translation_ko": "그럼 가격은요? 타이베이 물가가 더 비싸지 않나요?",
         "token_ids": [
@@ -3594,7 +3594,7 @@
         "speaker": "A",
         "text": "你明天晚上有空嗎？我想邀請你一起吃晚餐。",
         "pinyin": "Nǐ míngtiān wǎnshàng yǒu kòng ma? Wǒ xiǎng yāoqǐng nǐ yīqǐ chī wǎncān.",
-        "pinyin_numeric": "Ni3 ming2tian1 wan3shang4 you3 kong4 ma5? Wo3 xiang3 yao1qing3 ni3 yi1qi3 chi1 wan3can1.",
+        "pinyin_numeric": "Ni3 ming2tian1 wan3shang4 you3 kong4 ma0? Wo3 xiang3 yao1qing3 ni3 yi1qi3 chi1 wan3can1.",
         "translation_en": "Are you free tomorrow evening? I'd like to invite you to have dinner together.",
         "translation_ko": "내일 저녁에 시간 있으세요? 같이 저녁 식사하자고 초대하고 싶어요.",
         "token_ids": [
@@ -3616,7 +3616,7 @@
         "speaker": "B",
         "text": "明天晚上可以啊！我們去哪裡吃？",
         "pinyin": "Míngtiān wǎnshàng kěyǐ a! Wǒmen qù nǎlǐ chī?",
-        "pinyin_numeric": "Ming2tian1 wan3shang4 ke3yi3 a5! Wo3men qu4 na3li3 chi1?",
+        "pinyin_numeric": "Ming2tian1 wan3shang4 ke3 yi3 a0! Wo3men qu4 na3 li3 chi1?",
         "translation_en": "Tomorrow evening works! Where should we go out to eat?",
         "translation_ko": "내일 저녁 괜찮아요! 어디로 먹으러 갈까요?",
         "token_ids": [
@@ -3658,7 +3658,7 @@
         "speaker": "B",
         "text": "好啊！我喜歡吃牛肉麵。我們約幾點？",
         "pinyin": "Hǎo a! Wǒ xǐhuān chī niúròumiàn. Wǒmen yuē jǐ diǎn?",
-        "pinyin_numeric": "Hao3 a5! Wo3 xi3huan1 chi1 niu2rou4mian4. Wo3men yue1 ji3 dian3?",
+        "pinyin_numeric": "Hao3 a0! Wo3 xi3huan1 chi1 niu2rou4mian4. Wo3men yue1 ji3 dian3?",
         "translation_en": "Great! I like eating beef noodles. What time should we meet?",
         "translation_ko": "좋아요! 소고기 국수 좋아해요. 몇 시에 만날까요?",
         "token_ids": [
@@ -3679,7 +3679,7 @@
         "speaker": "A",
         "text": "我們約六點半在餐廳門口碰面，可以嗎？",
         "pinyin": "Wǒmen yuē liù diǎn bàn zài cāntīng ménkǒu pèngmiàn, kěyǐ ma?",
-        "pinyin_numeric": "Wo3men yue1 liu4 dian3 ban4 zai4 can1ting1 men2kou3 peng4mian4, ke3yi3 ma5?",
+        "pinyin_numeric": "Wo3men yue1 liu4 dian3 ban4 zai4 can1ting1 men2kou3 peng4mian4, ke3 yi3 ma0?",
         "translation_en": "Let's meet at 6:30 at the restaurant entrance, okay?",
         "translation_ko": "6시 30분에 식당 입구에서 만날까요, 괜찮으세요?",
         "token_ids": [
@@ -3700,7 +3700,7 @@
         "speaker": "B",
         "text": "沒問題啊！明天見。",
         "pinyin": "Méi wèntí a! Míngtiān jiàn.",
-        "pinyin_numeric": "Mei2 wen4ti2 a5! Ming2tian1 jian4.",
+        "pinyin_numeric": "Mei2 wen4ti2 a0! Ming2tian1 jian4.",
         "translation_en": "No problem! See you tomorrow.",
         "translation_ko": "문제없어요! 내일 뵙겠습니다.",
         "token_ids": [
@@ -3758,7 +3758,7 @@
         "speaker": "A",
         "text": "不好意思，我臨時有事，明天的約會可以改時間嗎？",
         "pinyin": "Bùhǎoyìsi, wǒ línshí yǒu shì, míngtiān de yuēhuì kěyǐ gǎi shíjiān ma?",
-        "pinyin_numeric": "Bu4hao3yi4si5, wo3 lin2shi2 you3 shi4, ming2tian1 de5 yue1hui4 ke3yi3 gai3 shi2jian1 ma5?",
+        "pinyin_numeric": "Bu4hao3yi4si5, wo3 lin2shi2 you3 shi4, ming2tian1 de5 yue1hui4 ke3 yi3 gai3 shi2jian1 ma0?",
         "translation_en": "Sorry, something came up suddenly. Can we reschedule tomorrow's appointment?",
         "translation_ko": "죄송합니다, 갑자기 일이 생겨서 내일 약속 시간을 변경할 수 있을까요?",
         "token_ids": [
@@ -3780,7 +3780,7 @@
         "speaker": "B",
         "text": "沒問題啊。你想改到什麼時候？",
         "pinyin": "Méi wèntí a. Nǐ xiǎng gǎi dào shénme shíhou?",
-        "pinyin_numeric": "Mei2 wen4ti2 a5. Ni3 xiang3 gai3 dao4 shen2 me0 shi2hou5?",
+        "pinyin_numeric": "Mei2 wen4ti2 a0. Ni3 xiang3 gai3 dao4 shen2 me0 shi2hou5?",
         "translation_en": "No problem. When would you like to change it to?",
         "translation_ko": "문제없어요. 언제로 변경하고 싶으세요?",
         "token_ids": [
@@ -3797,7 +3797,7 @@
         "speaker": "A",
         "text": "後天下午三點方便嗎？",
         "pinyin": "Hòutiān xiàwǔ sān diǎn fāngbiàn ma?",
-        "pinyin_numeric": "Hou4tian1 xia4wu3 san1 dian3 fang1bian4 ma5?",
+        "pinyin_numeric": "Hou4tian1 xia4wu3 san1 dian3 fang1bian4 ma0?",
         "translation_en": "Is the day after tomorrow at 3 PM convenient?",
         "translation_ko": "모레 오후 3시에 괜찮으세요?",
         "token_ids": [
@@ -3814,7 +3814,7 @@
         "speaker": "B",
         "text": "後天下午三點我可以。那我們改到後天下午三點。",
         "pinyin": "Hòutiān xiàwǔ sān diǎn wǒ kěyǐ. Nà wǒmen gǎi dào hòutiān xiàwǔ sān diǎn.",
-        "pinyin_numeric": "Hou4tian1 xia4wu3 san1 dian3 wo3 ke3yi3. Na4 wo3men gai3 dao4 hou4tian1 xia4wu3 san1 dian3.",
+        "pinyin_numeric": "Hou4tian1 xia4wu3 san1 dian3 wo3 ke3 yi3. Na4 wo3men gai3 dao4 hou4tian1 xia4wu3 san1 dian3.",
         "translation_en": "The day after tomorrow at 3 PM works for me. Then let's change it to that time.",
         "translation_ko": "모레 오후 3시 괜찮아요. 그럼 모레 오후 3시로 변경할게요.",
         "token_ids": [
@@ -3898,7 +3898,7 @@
         "speaker": "A",
         "text": "這個週末我們一起去夜市吃東西，好不好？",
         "pinyin": "Zhège zhōumò wǒmen yīqǐ qù yèshì chī dōngxi, hǎo bù hǎo?",
-        "pinyin_numeric": "Zhe4ge5 zhou1mo4 wo3men yi1qi3 qu4 ye4shi4 chi1 dong1xi5, hao3 bu4 hao3?",
+        "pinyin_numeric": "zhe4 ge0 zhou1mo4 wo3men yi1qi3 qu4 ye4shi4 chi1 dong1xi5, hao3 bu4 hao3?",
         "translation_en": "This weekend, let's go to the night market to eat together, okay?",
         "translation_ko": "이번 주말에 같이 야시장에 가서 먹을까요, 어떠세요?",
         "token_ids": [
@@ -3919,7 +3919,7 @@
         "speaker": "B",
         "text": "謝謝你的邀請，可是這個週末我已經有行程了，沒辦法去。",
         "pinyin": "Xièxiè nǐ de yāoqǐng, kěshì zhège zhōumò wǒ yǐjīng yǒu xíngchéng le, méi bànfǎ qù.",
-        "pinyin_numeric": "Xie4xie4 ni3 de5 yao1qing3, ke3shi4 zhe4ge5 zhou1mo4 wo3 yi3jing1 you3 xing2cheng2 le5, mei2 ban4fa3 qu4.",
+        "pinyin_numeric": "Xie4xie4 ni3 de5 yao1qing3, ke3shi4 zhe4 ge0 zhou1mo4 wo3 yi3jing1 you3 xing2cheng2 le5, mei2 ban4fa3 qu4.",
         "translation_en": "Thank you for the invitation, but I already have plans this weekend, so I can't go.",
         "translation_ko": "초대해 주셔서 감사합니다만, 이번 주말에 이미 일정이 있어서 갈 수 없어요.",
         "token_ids": [
@@ -3961,7 +3961,7 @@
         "speaker": "B",
         "text": "好啊！下次有空的時候再一起去。",
         "pinyin": "Hǎo a! Xià cì yǒu kòng de shíhou zài yīqǐ qù.",
-        "pinyin_numeric": "Hao3 a5! Xia4 ci4 you3 kong4 de5 shi2hou5 zai4 yi1qi3 qu4.",
+        "pinyin_numeric": "Hao3 a0! Xia4 ci4 you3 kong4 de5 shi2hou5 zai4 yi1qi3 qu4.",
         "translation_en": "Great! Let's go together next time when we're free.",
         "translation_ko": "좋아요! 다음에 시간 될 때 같이 가요.",
         "token_ids": [
@@ -4438,7 +4438,7 @@
         "speaker": "房東",
         "text": "是嗎？水龍頭有什麼問題？",
         "pinyin": "Shì ma? Shuǐlóngtóu yǒu shénme wèntí?",
-        "pinyin_numeric": "shi4 ma5? shui3 long2 tou2 you3 shen2 me0 wen4 ti2?",
+        "pinyin_numeric": "shi4 ma0? shui3 long2 tou2 you3 shen2 me0 wen4 ti2?",
         "translation_en": "Really? What's wrong with the faucet?",
         "translation_ko": "그래요? 수도꼭지에 무슨 문제가 있나요?",
         "token_ids": [
@@ -4473,7 +4473,7 @@
         "speaker": "房東",
         "text": "我了解了。我請修理師傅明天早上過去看看，可以嗎？",
         "pinyin": "Wǒ liǎojiě le. Wǒ qǐng xiūlǐ shīfu míngtiān zǎoshang guòqù kànkan, kěyǐ ma?",
-        "pinyin_numeric": "wo3 liao3 jie3 le5. wo3 qing3 xiu1 li3 shi1 fu4 ming2 tian1 zao3 shang4 guo4 qu4 kan4 kan5, ke3 yi3 ma5?",
+        "pinyin_numeric": "wo3 liao3 jie3 le5. wo3 qing3 xiu1 li3 shi1 fu4 ming2 tian1 zao3 shang4 guo4 qu4 kan4 kan5, ke3 yi3 ma0?",
         "translation_en": "I understand. I'll ask a repair person to come over tomorrow morning to take a look, okay?",
         "translation_ko": "알겠습니다. 제가 수리 기사님께 내일 아침에 가서 보시라고 할게요, 괜찮으세요?",
         "token_ids": [
@@ -4560,7 +4560,7 @@
         "speaker": "房客",
         "text": "師傅你好，我家的冷氣壞掉了，可以請你來看看嗎？",
         "pinyin": "Shīfu nǐ hǎo, wǒ jiā de lěngqì huài diào le, kěyǐ qǐng nǐ lái kànkan ma?",
-        "pinyin_numeric": "shi1 fu4 ni3 hao3, wo3 jia1 de leng3 qi4 huai4 diao4 le5, ke3 yi3 qing3 ni3 lai2 kan4 kan5 ma5?",
+        "pinyin_numeric": "shi1 fu4 ni3 hao3, wo3 jia1 de leng3 qi4 huai4 diao4 le5, ke3 yi3 qing3 ni3 lai2 kan4 kan5 ma0?",
         "translation_en": "Hello, repair person. My air conditioner at home is broken. Can you come and take a look?",
         "translation_ko": "기사님, 안녕하세요. 저희 집 에어컨이 고장 났는데, 와서 한번 봐 주실 수 있나요?",
         "token_ids": [
@@ -4604,7 +4604,7 @@
         "speaker": "房客",
         "text": "今天下午三點以後可以嗎？",
         "pinyin": "Jīntiān xiàwǔ sān diǎn yǐhòu kěyǐ ma?",
-        "pinyin_numeric": "jin1 tian1 xia4 wu3 san1 dian3 yi3 hou4 ke3 yi3 ma5?",
+        "pinyin_numeric": "jin1 tian1 xia4 wu3 san1 dian3 yi3 hou4 ke3 yi3 ma0?",
         "translation_en": "Can you come after 3 PM this afternoon?",
         "translation_ko": "오늘 오후 3시 이후에 괜찮으세요?",
         "token_ids": [
@@ -4721,7 +4721,7 @@
         "speaker": "房東",
         "text": "真的嗎？地板有沒有濕？",
         "pinyin": "Zhēn de ma? Dìbǎn yǒu méiyǒu shī?",
-        "pinyin_numeric": "zhen1 de5 ma5? di4 ban3 you3 mei2 you3 shi1?",
+        "pinyin_numeric": "zhen1 de5 ma0? di4 ban3 you3 mei2 you3 shi1?",
         "translation_en": "Really? Is the floor wet?",
         "translation_ko": "정말요? 바닥은 젖었나요?",
         "token_ids": [
@@ -4838,7 +4838,7 @@
         "speaker": "醫生",
         "text": "你好，請問你哪裡不舒服？",
         "pinyin": "Nǐ hǎo, qǐng wèn nǐ nǎlǐ bù shūfu?",
-        "pinyin_numeric": "Ni3 hao3, qing3 wen4 ni3 na3li3 bu4 shu1fu?",
+        "pinyin_numeric": "Ni3 hao3, qing3 wen4 ni3 na3 li3 bu4 shu1fu?",
         "translation_en": "Hello, where do you feel uncomfortable?",
         "translation_ko": "안녕하세요, 어디가 불편하신가요?",
         "token_ids": [
@@ -5022,7 +5022,7 @@
         "speaker": "房客",
         "text": "房間的冷氣壞掉了，天氣很熱，可以請人來修嗎？",
         "pinyin": "Fángjiān de lěngqì huài diào le, tiānqì hěn rè, kěyǐ qǐng rén lái xiū ma?",
-        "pinyin_numeric": "Fang2jian1 de leng3qi4 huai4 diao4 le, tian1qi4 hen3 re4, ke3yi3 qing3 ren2 lai2 xiu1 ma?",
+        "pinyin_numeric": "Fang2jian1 de leng3qi4 huai4 diao4 le, tian1qi4 hen3 re4, ke3 yi3 qing3 ren2 lai2 xiu1 ma?",
         "translation_en": "The air conditioner in the room is broken, it's very hot, can you ask someone to fix it?",
         "translation_ko": "방 에어컨이 고장 났어요, 날씨가 너무 더워서 수리하러 사람을 보내 주실 수 있나요?",
         "token_ids": [
@@ -5123,7 +5123,7 @@
         "speaker": "A",
         "text": "這個週末你有空嗎？我們一起去看電影好不好？",
         "pinyin": "Zhège zhōumò nǐ yǒu kòng ma? Wǒmen yīqǐ qù kàn diànyǐng hǎo bù hǎo?",
-        "pinyin_numeric": "Zhe4ge zhou1mo4 ni3 you3 kong4 ma? Wo3men yi1qi3 qu4 kan4 dian4ying3 hao3 bu4 hao3?",
+        "pinyin_numeric": "zhe4 ge0 zhou1mo4 ni3 you3 kong4 ma? Wo3men yi1qi3 qu4 kan4 dian4ying3 hao3 bu4 hao3?",
         "translation_en": "Are you free this weekend? How about we go see a movie together?",
         "translation_ko": "이번 주말에 시간 있어요? 같이 영화 보러 갈까요?",
         "token_ids": [
@@ -5169,7 +5169,7 @@
         "speaker": "A",
         "text": "那我們星期六下午兩點在電影院門口見面，可以嗎？",
         "pinyin": "Nà wǒmen xīngqīliù xiàwǔ liǎng diǎn zài diànyǐngyuàn ménkǒu jiànmiàn, kěyǐ ma?",
-        "pinyin_numeric": "Na4 wo3men xing1qi1liu4 xia4wu3 liang3 dian3 zai4 dian4ying3yuan4 men2kou3 jian4mian4, ke3yi3 ma?",
+        "pinyin_numeric": "Na4 wo3men xing1qi1liu4 xia4wu3 liang3 dian3 zai4 dian4ying3yuan4 men2kou3 jian4mian4, ke3 yi3 ma?",
         "translation_en": "Then let's meet at the movie theater entrance on Saturday at 2 PM, okay?",
         "translation_ko": "그럼 토요일 오후 2시에 영화관 입구에서 만날까요?",
         "token_ids": [
@@ -5282,7 +5282,7 @@
         "speaker": "A",
         "text": "真的嗎？發生什麼事？",
         "pinyin": "Zhēn de ma? Fāshēng shénme shì?",
-        "pinyin_numeric": "Zhen1 de5 ma5? Fa1sheng1 shen2 me0 shi4?",
+        "pinyin_numeric": "Zhen1 de5 ma0? Fa1sheng1 shen2 me0 shi4?",
         "translation_en": "Really? What happened?",
         "translation_ko": "정말? 무슨 일이 있었어?",
         "token_ids": [
@@ -5318,7 +5318,7 @@
         "speaker": "A",
         "text": "你有回去找嗎？",
         "pinyin": "Nǐ yǒu huí qù zhǎo ma?",
-        "pinyin_numeric": "Ni3 you3 hui2 qu4 zhao3 ma5?",
+        "pinyin_numeric": "Ni3 you3 hui2 qu4 zhao3 ma0?",
         "translation_en": "Did you go back to look for it?",
         "translation_ko": "다시 돌아가서 찾아봤어?",
         "token_ids": [
@@ -5334,7 +5334,7 @@
         "speaker": "B",
         "text": "有，可是店員說沒有看到。",
         "pinyin": "Yǒu, kěshì diànyuán shuō méiyǒu kàndào.",
-        "pinyin_numeric": "You3, ke3shi4 dian4yuan2 shuo1 mei2you3 kan4dao4.",
+        "pinyin_numeric": "You3, ke3shi4 dian4yuan2 shuo1 mei2 you3 kan4dao4.",
         "translation_en": "Yes, but the clerk said they didn't see it.",
         "translation_ko": "응, 그런데 직원이 못 봤다고 했어.",
         "token_ids": [
@@ -5352,7 +5352,7 @@
         "speaker": "A",
         "text": "那怎麼辦？裡面有重要的東西嗎？",
         "pinyin": "Nà zěnme bàn? Lǐmiàn yǒu zhòngyào de dōngxi ma?",
-        "pinyin_numeric": "Na4 zen3 me0 ban4? Li3mian4 you3 zhong4yao4 de5 dong1xi5 ma5?",
+        "pinyin_numeric": "Na4 zen3 me0 ban4? Li3mian4 you3 zhong4yao4 de5 dong1xi5 ma0?",
         "translation_en": "Then what to do? Are there important things inside?",
         "translation_ko": "그럼 어쩌려고? 안에 중요한 물건 있어?",
         "token_ids": [
@@ -5598,7 +5598,7 @@
         "speaker": "店員",
         "text": "不好意思，這是你的牛肉麵嗎？",
         "pinyin": "Bù hǎoyìsi, zhè shì nǐ de niúròumiàn ma?",
-        "pinyin_numeric": "Bu4 hao3yi4si5, zhe4 shi4 ni3 de5 niu2rou4mian4 ma5?",
+        "pinyin_numeric": "Bu4 hao3yi4si5, zhe4 shi4 ni3 de5 niu2rou4mian4 ma0?",
         "translation_en": "Excuse me, is this your beef noodle soup?",
         "translation_ko": "죄송합니다, 이게 손님의 소고기 국수인가요?",
         "token_ids": [
@@ -5651,7 +5651,7 @@
         "speaker": "客人",
         "text": "沒關係，那我的滷肉飯呢？",
         "pinyin": "Méiguānxì, nà wǒ de lǔròufàn ne?",
-        "pinyin_numeric": "Mei2guan1xi4, na4 wo3 de5 lu3rou4fan4 ne5?",
+        "pinyin_numeric": "Mei2guan1xi4, na4 wo3 de5 lu3rou4fan4 ne0?",
         "translation_en": "It's okay, but where is my braised pork rice?",
         "translation_ko": "괜찮아요, 그럼 제 루로우판은요?",
         "token_ids": [
@@ -5769,7 +5769,7 @@
         "speaker": "客人",
         "text": "不好意思，我的手機壞掉了，可以幫我嗎？",
         "pinyin": "Bù hǎo yìsi, wǒ de shǒujī huài diào le, kěyǐ bāng wǒ ma?",
-        "pinyin_numeric": "bu4 hao3 yi4 si5, wo3 de5 shou3 ji1 huai4 diao4 le5, ke3 yi3 bang1 wo3 ma5?",
+        "pinyin_numeric": "bu4 hao3 yi4 si5, wo3 de5 shou3 ji1 huai4 diao4 le5, ke3 yi3 bang1 wo3 ma0?",
         "translation_en": "Excuse me, my phone is broken. Can you help me?",
         "translation_ko": "죄송합니다. 제 휴대폰이 고장 났는데, 도와주실 수 있나요?",
         "token_ids": [
@@ -5805,7 +5805,7 @@
         "speaker": "客人",
         "text": "我想打電話給朋友，可是手機故障了。可以借電話嗎？",
         "pinyin": "Wǒ xiǎng dǎ diànhuà gěi péngyou, kěshì shǒujī gùzhàng le. Kěyǐ jiè diànhuà ma?",
-        "pinyin_numeric": "wo3 xiang3 da3 dian4 hua4 gei3 peng2 you5, ke3 shi4 shou3 ji1 gu4 zhang4 le5. ke3 yi3 jie4 dian4 hua4 ma5?",
+        "pinyin_numeric": "wo3 xiang3 da3 dian4 hua4 gei3 peng2 you5, ke3 shi4 shou3 ji1 gu4 zhang4 le5. ke3 yi3 jie4 dian4 hua4 ma0?",
         "translation_en": "I'd like to call my friend, but my phone is broken. Can I borrow a phone?",
         "translation_ko": "친구에게 전화를 하고 싶은데 휴대폰이 고장 났어요. 전화를 빌릴 수 있나요?",
         "token_ids": [
@@ -5950,7 +5950,7 @@
         "speaker": "A",
         "text": "喂，小明嗎？我現在需要幫忙。",
         "pinyin": "Wèi, Xiǎo Míng ma? Wǒ xiànzài xūyào bāngmáng.",
-        "pinyin_numeric": "wei4, Xiao3 Ming2 ma5? wo3 xian4 zai4 xu1 yao4 bang1 mang2.",
+        "pinyin_numeric": "wei4, Xiao3 Ming2 ma0? wo3 xian4 zai4 xu1 yao4 bang1 mang2.",
         "translation_en": "Hello, is this Xiaoming? I need help right now.",
         "translation_ko": "여보세요, 샤오밍 씨인가요? 지금 도움이 필요해요.",
         "token_ids": [
@@ -5982,7 +5982,7 @@
         "speaker": "A",
         "text": "我的車子故障了，停在路邊。可以來幫我嗎？",
         "pinyin": "Wǒ de chēzi gùzhàng le, tíng zài lùbiān. Kěyǐ lái bāng wǒ ma?",
-        "pinyin_numeric": "wo3 de5 che1 zi5 gu4 zhang4 le5, ting2 zai4 lu4 bian1. ke3 yi3 lai2 bang1 wo3 ma5?",
+        "pinyin_numeric": "wo3 de5 che1 zi5 gu4 zhang4 le5, ting2 zai4 lu4 bian1. ke3 yi3 lai2 bang1 wo3 ma0?",
         "translation_en": "My car broke down and is parked on the roadside. Can you come help me?",
         "translation_ko": "차가 고장 나서 길가에 세워뒀어요. 와서 도와줄 수 있나요?",
         "token_ids": [
@@ -6127,7 +6127,7 @@
         "speaker": "A",
         "text": "你好，請問你可以幫我一個忙嗎？",
         "pinyin": "Nǐ hǎo, qǐng wèn nǐ kěyǐ bāng wǒ yī ge máng ma?",
-        "pinyin_numeric": "ni3 hao3, qing3 wen4 ni3 ke3 yi3 bang1 wo3 yi1 ge5 mang2 ma5?",
+        "pinyin_numeric": "ni3 hao3, qing3 wen4 ni3 ke3 yi3 bang1 wo3 yi1 ge5 mang2 ma0?",
         "translation_en": "Hello, can you do me a favor?",
         "translation_ko": "안녕하세요, 부탁 하나 들어주실 수 있나요?",
         "token_ids": [
@@ -6187,7 +6187,7 @@
         "speaker": "B",
         "text": "沒關係，你知道他的名字嗎？我可以幫你找。",
         "pinyin": "Méi guānxi, nǐ zhīdào tā de míngzì ma? Wǒ kěyǐ bāng nǐ zhǎo.",
-        "pinyin_numeric": "mei2 guan1 xi5, ni3 zhi1 dao4 ta1 de5 ming2 zi4 ma5? wo3 ke3 yi3 bang1 ni3 zhao3.",
+        "pinyin_numeric": "mei2 guan1 xi5, ni3 zhi1 dao4 ta1 de5 ming2 zi4 ma0? wo3 ke3 yi3 bang1 ni3 zhao3.",
         "translation_en": "No problem, do you know his name? I can help you find it.",
         "translation_ko": "괜찮아요, 그분 이름을 아세요? 제가 찾아드릴게요.",
         "token_ids": [
@@ -6209,7 +6209,7 @@
         "speaker": "A",
         "text": "他叫王大明，住在台北。你有他的地址嗎？",
         "pinyin": "Tā jiào Wáng Dàmíng, zhù zài Táiběi. Nǐ yǒu tā de dìzhǐ ma?",
-        "pinyin_numeric": "ta1 jiao4 Wang2 Da4 ming2, zhu4 zai4 Tai2 bei3. ni3 you3 ta1 de5 di4 zhi3 ma5?",
+        "pinyin_numeric": "ta1 jiao4 Wang2 Da4 ming2, zhu4 zai4 Tai2 bei3. ni3 you3 ta1 de5 di4 zhi3 ma0?",
         "translation_en": "His name is Wang Daming, and he lives in Taipei. Do you have his address?",
         "translation_ko": "그분 이름은 왕다밍이고 타이베이에 살아요. 주소를 알고 계신가요?",
         "token_ids": [
@@ -6368,7 +6368,7 @@
         "speaker": "店員",
         "text": "我看一下。沒問題，我們可以幫您退貨。",
         "pinyin": "Wǒ kàn yīxià. Méi wèntí, wǒmen kěyǐ bāng nín tuìhuò.",
-        "pinyin_numeric": "Wo3 kan4 yi1xia4. Mei2 wen4ti2, wo3men ke3yi3 bang1 nin2 tui4huo4.",
+        "pinyin_numeric": "Wo3 kan4 yi1xia4. Mei2 wen4ti2, wo3men ke3 yi3 bang1 nin2 tui4huo4.",
         "translation_en": "Let me take a look. No problem, we can process the return for you.",
         "translation_ko": "한번 볼게요. 문제없습니다, 저희가 반품을 도와드릴 수 있습니다.",
         "token_ids": [
@@ -6562,7 +6562,7 @@
         "speaker": "店員",
         "text": "好的，我幫您查一下有沒有大一點的尺寸。",
         "pinyin": "Hǎo de, wǒ bāng nín chá yīxià yǒu méiyǒu dà yīdiǎn de chǐcùn.",
-        "pinyin_numeric": "Hao3 de, wo3 bang1 nin2 cha2 yi1xia4 you3 mei2you3 da4 yi1dian3 de chi3cun4.",
+        "pinyin_numeric": "Hao3 de, wo3 bang1 nin2 cha2 yi1xia4 you3 mei2 you3 da4 yi1dian3 de chi3cun4.",
         "translation_en": "Okay, let me check if we have a larger size.",
         "translation_ko": "네, 더 큰 사이즈가 있는지 확인해 보겠습니다.",
         "token_ids": [
@@ -6665,7 +6665,7 @@
         "speaker": "客人",
         "text": "你好，我想退貨，可是我沒有發票。",
         "pinyin": "Nǐ hǎo, wǒ xiǎng tuìhuò, kěshì wǒ méiyǒu fāpiào.",
-        "pinyin_numeric": "Ni3 hao3, wo3 xiang3 tui4huo4, ke3shi4 wo3 mei2you3 fa1piao4.",
+        "pinyin_numeric": "Ni3 hao3, wo3 xiang3 tui4huo4, ke3shi4 wo3 mei2 you3 fa1piao4.",
         "translation_en": "Hello, I'd like to return an item, but I don't have the receipt.",
         "translation_ko": "안녕하세요, 반품하고 싶은데 영수증이 없습니다.",
         "token_ids": [
@@ -6702,7 +6702,7 @@
         "speaker": "客人",
         "text": "沒有，我只有手機的付款紀錄。",
         "pinyin": "Méiyǒu, wǒ zhǐyǒu shǒujī de fùkuǎn jìlù.",
-        "pinyin_numeric": "Mei2you3, wo3 zhi3you3 shou3ji1 de fu4kuan3 ji4lu4.",
+        "pinyin_numeric": "mei2 you3, wo3 zhi3you3 shou3ji1 de fu4kuan3 ji4lu4.",
         "translation_en": "No, I only have the payment record on my phone.",
         "translation_ko": "없습니다, 휴대폰 결제 기록만 있어요.",
         "token_ids": [
@@ -6720,7 +6720,7 @@
         "speaker": "店員",
         "text": "可以，請讓我看看。",
         "pinyin": "Kěyǐ, qǐng ràng wǒ kànkan.",
-        "pinyin_numeric": "Ke3yi3, qing3 rang4 wo3 kan4kan.",
+        "pinyin_numeric": "ke3 yi3, qing3 rang4 wo3 kan4kan.",
         "translation_en": "That works. Please let me see it.",
         "translation_ko": "괜찮습니다. 보여주세요.",
         "token_ids": [
@@ -6750,7 +6750,7 @@
         "speaker": "店員",
         "text": "好的，我確認一下。沒問題，可以幫您退貨，但是會收一點手續費。",
         "pinyin": "Hǎo de, wǒ quèrèn yīxià. Méi wèntí, kěyǐ bāng nín tuìhuò, dànshì huì shōu yīdiǎn shǒuxùfèi.",
-        "pinyin_numeric": "Hao3 de, wo3 que4ren4 yi1xia4. Mei2 wen4ti2, ke3yi3 bang1 nin2 tui4huo4, dan4shi4 hui4 shou1 yi1dian3 shou3xu4fei4.",
+        "pinyin_numeric": "Hao3 de, wo3 que4ren4 yi1xia4. Mei2 wen4ti2, ke3 yi3 bang1 nin2 tui4huo4, dan4shi4 hui4 shou1 yi1dian3 shou3xu4fei4.",
         "translation_en": "Okay, let me confirm. No problem, I can process the return, but there will be a small handling fee.",
         "translation_ko": "네, 확인해 볼게요. 문제없습니다, 환불해 드릴 수 있지만 수수료가 조금 부과됩니다.",
         "token_ids": [
@@ -6852,7 +6852,7 @@
         "speaker": "B",
         "text": "好的，請問您要預約哪個時段？",
         "pinyin": "Hǎo de, qǐngwèn nín yào yùyuē nǎge shíduàn?",
-        "pinyin_numeric": "Hao3 de, qing3wen4 nin2 yao4 yu4yue1 na3ge shi2duan4?",
+        "pinyin_numeric": "Hao3 de, qing3 wen4 nin2 yao4 yu4yue1 na3ge shi2duan4?",
         "translation_en": "Sure, which time slot would you like to book?",
         "translation_ko": "네, 어떤 시간대로 예약하시겠습니까?",
         "token_ids": [
@@ -6871,7 +6871,7 @@
         "speaker": "A",
         "text": "下個星期二上午，可以嗎？",
         "pinyin": "Xià ge xīngqí'èr shàngwǔ, kěyǐ ma?",
-        "pinyin_numeric": "Xia4 ge xing1qi2er4 shang4wu3, ke3yi3 ma?",
+        "pinyin_numeric": "Xia4 ge xing1qi2er4 shang4wu3, ke3 yi3 ma?",
         "translation_en": "Next Tuesday morning, is that okay?",
         "translation_ko": "다음 주 화요일 오전에 가능할까요?",
         "token_ids": [
@@ -6888,7 +6888,7 @@
         "speaker": "B",
         "text": "可以，那個時段有空檔。請給我您的名字和電話。",
         "pinyin": "Kěyǐ, nàge shíduàn yǒu kòngdǎng. Qǐng gěi wǒ nín de míngzì hé diànhuà.",
-        "pinyin_numeric": "Ke3yi3, na4ge shi2duan4 you3 kong4dang3. Qing3 gei3 wo3 nin2 de ming2zi4 he2 dian4hua4.",
+        "pinyin_numeric": "ke3 yi3, na4 ge0 shi2duan4 you3 kong4dang3. Qing3 gei3 wo3 nin2 de ming2zi4 he2 dian4hua4.",
         "translation_en": "Yes, that slot is available. Please give me your name and phone number.",
         "translation_ko": "네, 그 시간대에 자리가 있습니다. 성함과 전화번호를 알려주세요.",
         "token_ids": [
@@ -7034,7 +7034,7 @@
         "speaker": "B",
         "text": "沒問題，請問您要改到什麼時候？",
         "pinyin": "Méi wèntí, qǐngwèn nín yào gǎi dào shénme shíhòu?",
-        "pinyin_numeric": "Mei2 wen4ti2, qing3wen4 nin2 yao4 gai3 dao4 shen2 me0 shi2hou4?",
+        "pinyin_numeric": "Mei2 wen4ti2, qing3 wen4 nin2 yao4 gai3 dao4 shen2 me0 shi2hou4?",
         "translation_en": "No problem, when would you like to reschedule to?",
         "translation_ko": "문제없습니다, 언제로 변경하시겠습니까?",
         "token_ids": [
@@ -7052,7 +7052,7 @@
         "speaker": "A",
         "text": "原本是下個星期二上午，可以改到星期三下午嗎？",
         "pinyin": "Yuánběn shì xià ge xīngqí'èr shàngwǔ, kěyǐ gǎi dào xīngqísān xiàwǔ ma?",
-        "pinyin_numeric": "Yuan2ben3 shi4 xia4 ge xing1qi2er4 shang4wu3, ke3yi3 gai3 dao4 xing1qi2san1 xia4wu3 ma?",
+        "pinyin_numeric": "Yuan2ben3 shi4 xia4 ge xing1qi2er4 shang4wu3, ke3 yi3 gai3 dao4 xing1qi2san1 xia4wu3 ma?",
         "translation_en": "Originally it was next Tuesday morning, can I change it to Wednesday afternoon?",
         "translation_ko": "원래는 다음 주 화요일 오전이었는데, 수요일 오후로 변경할 수 있을까요?",
         "token_ids": [
@@ -7075,7 +7075,7 @@
         "speaker": "B",
         "text": "我幫您看一下。星期三下午有空檔，可以改期。",
         "pinyin": "Wǒ bāng nín kàn yīxià. Xīngqísān xiàwǔ yǒu kòngdǎng, kěyǐ gǎiqī.",
-        "pinyin_numeric": "Wo3 bang1 nin2 kan4 yi1xia4. Xing1qi2san1 xia4wu3 you3 kong4dang3, ke3yi3 gai3qi1.",
+        "pinyin_numeric": "Wo3 bang1 nin2 kan4 yi1xia4. Xing1qi2san1 xia4wu3 you3 kong4dang3, ke3 yi3 gai3qi1.",
         "translation_en": "Let me check for you. Wednesday afternoon is available, so we can reschedule.",
         "translation_ko": "확인해 드리겠습니다. 수요일 오후에 자리가 있어서 변경 가능합니다.",
         "token_ids": [
@@ -7378,7 +7378,7 @@
         "speaker": "B",
         "text": "好啊，那我們就去咖啡店喝咖啡，看書。",
         "pinyin": "Hǎo a, nà wǒmen jiù qù kāfēi diàn hē kāfēi, kàn shū.",
-        "pinyin_numeric": "hao3 a5, na4 wo3 men5 jiu4 qu4 ka1 fei1 dian4 he1 ka1 fei1, kan4 shu1.",
+        "pinyin_numeric": "hao3 a0, na4 wo3 men5 jiu4 qu4 ka1 fei1 dian4 he1 ka1 fei1, kan4 shu1.",
         "translation_en": "Okay, then we'll go to a coffee shop to drink coffee and read books.",
         "translation_ko": "좋아요, 그럼 커피숍에 가서 커피 마시고 책을 봐요.",
         "token_ids": [
@@ -7684,7 +7684,7 @@
         "speaker": "B",
         "text": "好啊，那我們先去看看。要是關門的話，我們就換一家。",
         "pinyin": "Hǎo a, nà wǒmen xiān qù kànkan. Yàoshi guānmén dehuà, wǒmen jiù huàn yī jiā.",
-        "pinyin_numeric": "hao3 a5, na4 wo3 men5 xian1 qu4 kan4 kan5. yao4 shi4 guan1 men2 de5 hua4, wo3 men5 jiu4 huan4 yi1 jia1.",
+        "pinyin_numeric": "hao3 a0, na4 wo3 men5 xian1 qu4 kan4 kan5. yao4 shi4 guan1 men2 de5 hua4, wo3 men5 jiu4 huan4 yi1 jia1.",
         "translation_en": "Okay, let's go check first. If it's closed, we'll switch to another place.",
         "translation_ko": "좋아요, 그럼 먼저 가서 볼게요. 문을 닫았으면 다른 데로 바꿔요.",
         "token_ids": [
@@ -7834,7 +7834,7 @@
         "speaker": "A",
         "text": "那你覺得再去一次怎麼樣？不如我們這個週末一起去。",
         "pinyin": "Nà nǐ juéde zài qù yī cì zěnme yàng? Bùrú wǒmen zhège zhōumò yīqǐ qù.",
-        "pinyin_numeric": "Na4 ni3 jue2de zai4 qu4 yi1 ci4 zen3 me0 yang4? Bu4ru2 wo3men zhe4ge zhou1mo4 yi1qi3 qu4.",
+        "pinyin_numeric": "Na4 ni3 jue2de zai4 qu4 yi1 ci4 zen3 me0 yang4? Bu4ru2 wo3men zhe4 ge0 zhou1mo4 yi1qi3 qu4.",
         "translation_en": "Then how about going again? Why don't we go together this weekend?",
         "translation_ko": "그럼 다시 한 번 가는 게 어때요? 이번 주말에 같이 가는 게 낫겠어요.",
         "token_ids": [
@@ -7878,7 +7878,7 @@
         "speaker": "A",
         "text": "那我們可以再去吃一次，順便看夕陽。",
         "pinyin": "Nà wǒmen kěyǐ zài qù chī yī cì, shùnbiàn kàn xīyáng.",
-        "pinyin_numeric": "Na4 wo3men ke3yi3 zai4 qu4 chi1 yi1 ci4, shun4bian4 kan4 xi1yang2.",
+        "pinyin_numeric": "Na4 wo3men ke3 yi3 zai4 qu4 chi1 yi1 ci4, shun4bian4 kan4 xi1yang2.",
         "translation_en": "Then we can go out to eat it again and watch the sunset while we're at it.",
         "translation_ko": "그럼 다시 먹으러 가면서 석양도 보면 좋겠네요.",
         "token_ids": [
@@ -8176,7 +8176,7 @@
         "speaker": "B",
         "text": "你可以比較這兩支手機的價錢和功能。",
         "pinyin": "Nǐ kěyǐ bǐjiào zhè liǎng zhī shǒujī de jiàqián hé gōngnéng.",
-        "pinyin_numeric": "Ni3 ke3yi3 bi3jiao4 zhe4 liang3 zhi1 shou3ji1 de jia4qian2 he2 gong1neng2.",
+        "pinyin_numeric": "Ni3 ke3 yi3 bi3jiao4 zhe4 liang3 zhi1 shou3ji1 de jia4qian2 he2 gong1neng2.",
         "translation_en": "You can compare the price and features of these two phones.",
         "translation_ko": "이 두 휴대폰의 가격과 기능을 비교해 보세요.",
         "token_ids": [
@@ -8352,7 +8352,7 @@
         "speaker": "B",
         "text": "我從早上開始一直頭痛，到現在還沒有好。",
         "pinyin": "Wǒ cóng zǎoshang kāishǐ yìzhí tóutòng, dào xiànzài hái méiyǒu hǎo.",
-        "pinyin_numeric": "Wo3 cong2 zao3shang kai1shi3 yi4zhi2 tou2tong4, dao4 xian4zai4 hai2 mei2you3 hao3.",
+        "pinyin_numeric": "Wo3 cong2 zao3shang kai1shi3 yi4zhi2 tou2tong4, dao4 xian4zai4 hai2 mei2 you3 hao3.",
         "translation_en": "I've had a headache since this morning, and it still hasn't gotten better.",
         "translation_ko": "아침부터 계속 두통이 있는데, 아직도 낫지 않았어요.",
         "token_ids": [
@@ -8389,7 +8389,7 @@
         "speaker": "B",
         "text": "還沒有。我想先休息一下，如果還是很痛，再去看醫生。",
         "pinyin": "Hái méiyǒu. Wǒ xiǎng xiān xiūxi yíxià, rúguǒ háishì hěn tòng, zài qù kàn yīshēng.",
-        "pinyin_numeric": "Hai2 mei2you3. Wo3 xiang3 xian1 xiu1xi yi2xia4, ru2guo3 hai2shi4 hen3 tong4, zai4 qu4 kan4 yi1sheng1.",
+        "pinyin_numeric": "Hai2 mei2 you3. Wo3 xiang3 xian1 xiu1xi yi2xia4, ru2guo3 hai2shi4 hen3 tong4, zai4 qu4 kan4 yi1sheng1.",
         "translation_en": "Not yet. I want to rest first. If it still hurts a lot, then I'll go see a doctor.",
         "translation_ko": "아직요. 먼저 좀 쉬려고요. 그래도 계속 아프면 병원에 갈 거예요.",
         "token_ids": [
@@ -8534,7 +8534,7 @@
         "speaker": "A",
         "text": "有沒有發燒？",
         "pinyin": "Yǒu méiyǒu fāshāo?",
-        "pinyin_numeric": "You3 mei2you3 fa1shao1?",
+        "pinyin_numeric": "You3 mei2 you3 fa1shao1?",
         "translation_en": "Do you have a fever?",
         "translation_ko": "열은 있어요?",
         "token_ids": [
@@ -8549,7 +8549,7 @@
         "speaker": "B",
         "text": "沒有發燒，但是肚子越來越痛，有點受不了。",
         "pinyin": "Méiyǒu fāshāo, dànshì dùzi yuè lái yuè tòng, yǒudiǎn shòu bù liǎo.",
-        "pinyin_numeric": "Mei2you3 fa1shao1, dan4shi4 du4zi5 yue4 lai2 yue4 tong4, you3dian3 shou4 bu4 liao3.",
+        "pinyin_numeric": "mei2 you3 fa1shao1, dan4shi4 du4zi5 yue4 lai2 yue4 tong4, you3dian3 shou4 bu4 liao3.",
         "translation_en": "No fever, but my stomach hurts more and more. I can't stand it.",
         "translation_ko": "열은 없는데 배가 점점 더 아파요. 좀 참기 힘들어요.",
         "token_ids": [
@@ -8689,7 +8689,7 @@
         "speaker": "A",
         "text": "有沒有量體溫？發燒了嗎？",
         "pinyin": "Yǒu méiyǒu liáng tǐwēn? Fāshāo le ma?",
-        "pinyin_numeric": "You3 mei2you3 liang2 ti3wen1? Fa1shao1 le5 ma?",
+        "pinyin_numeric": "You3 mei2 you3 liang2 ti3wen1? Fa1shao1 le5 ma?",
         "translation_en": "Did you take your temperature? Do you have a fever?",
         "translation_ko": "체온은 재봤어요? 열이 있어요?",
         "token_ids": [
@@ -8749,7 +8749,7 @@
         "speaker": "B",
         "text": "還沒有，我打算等一下去藥房買藥。",
         "pinyin": "Hái méiyǒu, wǒ dǎsuàn děng yíxià qù yàofáng mǎi yào.",
-        "pinyin_numeric": "Hai2 mei2you3, wo3 da3suan4 deng3 yi2xia4 qu4 yao4fang2 mai3 yao4.",
+        "pinyin_numeric": "Hai2 mei2 you3, wo3 da3suan4 deng3 yi2xia4 qu4 yao4fang2 mai3 yao4.",
         "translation_en": "Not yet. I plan to go to the pharmacy to buy medicine later.",
         "translation_ko": "아직요. 잠시 후에 약국에 가서 약을 살 생각이에요.",
         "token_ids": [
@@ -8908,7 +8908,7 @@
         "speaker": "客人",
         "text": "我沒有量，但是覺得身體很熱。",
         "pinyin": "Wǒ méiyǒu liáng, dànshì juéde shēntǐ hěn rè.",
-        "pinyin_numeric": "Wo3 mei2you3 liang2, dan4shi4 jue2de shen1ti3 hen3 re4.",
+        "pinyin_numeric": "Wo3 mei2 you3 liang2, dan4shi4 jue2de shen1ti3 hen3 re4.",
         "translation_en": "I have not taken my temperature, but I feel very hot.",
         "translation_ko": "재보지는 않았는데, 몸이 많이 뜨겁습니다.",
         "token_ids": [
@@ -8946,7 +8946,7 @@
         "speaker": "客人",
         "text": "好的，謝謝你。那診所在哪裡？",
         "pinyin": "Hǎo de, xièxiè nǐ. Nà zhěnsuǒ zài nǎlǐ?",
-        "pinyin_numeric": "Hao3 de, xie4xie4 ni3. Na4 zhen3suo3 zai4 na3li3?",
+        "pinyin_numeric": "Hao3 de, xie4xie4 ni3. Na4 zhen3suo3 zai4 na3 li3?",
         "translation_en": "Okay, thank you. Where is the clinic?",
         "translation_ko": "네, 감사합니다. 그럼 진료소는 어디에 있나요?",
         "token_ids": [
@@ -9112,7 +9112,7 @@
         "speaker": "客人",
         "text": "沒有，這是第一次。",
         "pinyin": "Méiyǒu, zhè shì dì yī cì.",
-        "pinyin_numeric": "Mei2you3, zhe4 shi4 di4 yi1 ci4.",
+        "pinyin_numeric": "mei2 you3, zhe4 shi4 di4 yi1 ci4.",
         "translation_en": "No, this is the first time.",
         "translation_ko": "아니요, 처음입니다.",
         "token_ids": [
@@ -9684,7 +9684,7 @@
         "speaker": "同事A",
         "text": "明天早上九點必須開會，你記得嗎？",
         "pinyin": "Míngtiān zǎoshang jiǔ diǎn bìxū kāihuì, nǐ jìde ma?",
-        "pinyin_numeric": "Ming2tian1 zao3shang5 jiu3 dian3 bi4xu1 kai1hui4, ni3 ji4de5 ma5?",
+        "pinyin_numeric": "Ming2tian1 zao3shang5 jiu3 dian3 bi4xu1 kai1hui4, ni3 ji4de5 ma0?",
         "translation_en": "We must have a meeting at 9 AM tomorrow, do you remember?",
         "translation_ko": "내일 아침 9시에 꼭 회의가 있어요, 기억하시나요?",
         "token_ids": [
@@ -9705,7 +9705,7 @@
         "speaker": "同事B",
         "text": "我記得。我需要準備什麼嗎？",
         "pinyin": "Wǒ jìde. Wǒ xūyào zhǔnbèi shénme ma?",
-        "pinyin_numeric": "Wo3 ji4de5. Wo3 xu1yao4 zhun3bei4 shen2 me0 ma5?",
+        "pinyin_numeric": "Wo3 ji4de5. Wo3 xu1yao4 zhun3bei4 shen2 me0 ma0?",
         "translation_en": "I remember. Do I need to prepare anything?",
         "translation_ko": "기억해요. 뭘 준비해야 하나요?",
         "token_ids": [
@@ -9863,7 +9863,7 @@
         "speaker": "A",
         "text": "聽起來很好玩！你常常去哪裡爬山？",
         "pinyin": "Tīng qǐlái hěn hǎowán! Nǐ chángcháng qù nǎlǐ páshān?",
-        "pinyin_numeric": "Ting1 qi3lai2 hen3 hao3wan2! Ni3 chang2chang2 qu4 na3li3 pa2shan1?",
+        "pinyin_numeric": "Ting1 qi3lai2 hen3 hao3wan2! Ni3 chang2chang2 qu4 na3 li3 pa2shan1?",
         "translation_en": "Sounds fun! Where do you often go hiking?",
         "translation_ko": "재미있어 보이네요! 주로 어디로 등산 가세요?",
         "token_ids": [
@@ -9906,7 +9906,7 @@
         "speaker": "A",
         "text": "那下次可以一起去嗎？我也想試試看。",
         "pinyin": "Nà xiàcì kěyǐ yīqǐ qù ma? Wǒ yě xiǎng shì shì kàn.",
-        "pinyin_numeric": "Na4 xia4ci4 ke3yi3 yi1qi3 qu4 ma? Wo3 ye3 xiang3 shi4 shi4 kan4.",
+        "pinyin_numeric": "Na4 xia4ci4 ke3 yi3 yi1qi3 qu4 ma? Wo3 ye3 xiang3 shi4 shi4 kan4.",
         "translation_en": "Then can we go together next time? I also want to give it a try.",
         "translation_ko": "그럼 다음에 같이 가도 될까요? 저도 한번 해보고 싶어요.",
         "token_ids": [
@@ -9928,7 +9928,7 @@
         "speaker": "B",
         "text": "當然可以！我們可以約這個週末，你有空嗎？",
         "pinyin": "Dāngrán kěyǐ! Wǒmen kěyǐ yuē zhège zhōumò, nǐ yǒu kòng ma?",
-        "pinyin_numeric": "Dang1ran2 ke3yi3! Wo3men ke3yi3 yue1 zhe4ge zhou1mo4, ni3 you3 kong4 ma?",
+        "pinyin_numeric": "Dang1ran2 ke3 yi3! Wo3men ke3 yi3 yue1 zhe4 ge0 zhou1mo4, ni3 you3 kong4 ma?",
         "translation_en": "Of course! We can plan for this weekend. Are you free?",
         "translation_ko": "물론이죠! 이번 주말에 약속할 수 있어요. 시간 괜찮으세요?",
         "token_ids": [
@@ -9949,7 +9949,7 @@
         "speaker": "A",
         "text": "這個週末我有空，我們約好了！",
         "pinyin": "Zhège zhōumò wǒ yǒu kòng, wǒmen yuē hǎo le!",
-        "pinyin_numeric": "Zhe4ge zhou1mo4 wo3 you3 kong4, wo3men yue1 hao3 le!",
+        "pinyin_numeric": "zhe4 ge0 zhou1mo4 wo3 you3 kong4, wo3men yue1 hao3 le!",
         "translation_en": "I'm free this weekend. It's settled!",
         "translation_ko": "이번 주말에 시간 돼요. 약속 잡았네요!",
         "token_ids": [
@@ -10088,7 +10088,7 @@
         "speaker": "A",
         "text": "我也想學打籃球，你可以教我嗎？",
         "pinyin": "Wǒ yě xiǎng xué dǎ lánqiú, nǐ kěyǐ jiāo wǒ ma?",
-        "pinyin_numeric": "Wo3 ye3 xiang3 xue2 da3 lan2qiu2, ni3 ke3yi3 jiao1 wo3 ma?",
+        "pinyin_numeric": "Wo3 ye3 xiang3 xue2 da3 lan2qiu2, ni3 ke3 yi3 jiao1 wo3 ma?",
         "translation_en": "I also want to learn basketball; can you teach me?",
         "translation_ko": "저도 농구를 배우고 싶은데, 가르쳐 주실 수 있나요?",
         "token_ids": [
@@ -10110,7 +10110,7 @@
         "speaker": "B",
         "text": "沒問題！這個週末我們可以一起去打球。",
         "pinyin": "Méi wèntí! Zhège zhōumò wǒmen kěyǐ yīqǐ qù dǎ qiú.",
-        "pinyin_numeric": "Mei2 wen4ti2! Zhe4ge zhou1mo4 wo3men ke3yi3 yi1qi3 qu4 da3 qiu2.",
+        "pinyin_numeric": "Mei2 wen4ti2! zhe4 ge0 zhou1mo4 wo3men ke3 yi3 yi1qi3 qu4 da3 qiu2.",
         "translation_en": "No problem! We can go play together this weekend.",
         "translation_ko": "문제없어요! 이번 주말에 같이 하러 가요.",
         "token_ids": [
@@ -10255,7 +10255,7 @@
         "speaker": "A",
         "text": "好啊！我們可以約這個週末一起去看電影。",
         "pinyin": "Hǎo a! Wǒmen kěyǐ yuē zhège zhōumò yīqǐ qù kàn diànyǐng.",
-        "pinyin_numeric": "Hao3 a! Wo3men ke3yi3 yue1 zhe4ge zhou1mo4 yi1qi3 qu4 kan4 dian4ying3.",
+        "pinyin_numeric": "Hao3 a! Wo3men ke3 yi3 yue1 zhe4 ge0 zhou1mo4 yi1qi3 qu4 kan4 dian4ying3.",
         "translation_en": "Great! We can plan to go see a movie together this weekend.",
         "translation_ko": "좋아요! 이번 주말에 같이 영화 보러 가기로 해요.",
         "token_ids": [
@@ -10357,7 +10357,7 @@
         "speaker": "朋友",
         "text": "對啊，雖然價錢比較貴，不過份量也很多。",
         "pinyin": "Duì a, suīrán jiàqián bǐjiào guì, bùguò fènliàng yě hěn duō.",
-        "pinyin_numeric": "dui4 a5, sui1ran2 jia4qian2 bi3jiao4 gui4, bu2guo4 fen4liang4 ye3 hen3 duo1.",
+        "pinyin_numeric": "dui4 a0, sui1ran2 jia4qian2 bi3jiao4 gui4, bu2guo4 fen4liang4 ye3 hen3 duo1.",
         "translation_en": "Right, although the price is higher, the portion is also large.",
         "translation_ko": "맞아요, 가격은 비싸지만 양도 많아요.",
         "token_ids": [
@@ -10463,7 +10463,7 @@
         "speaker": "A",
         "text": "你這個週末有空嗎？我們一起去逛街。",
         "pinyin": "Nǐ zhège zhōumò yǒu kòng ma? Wǒmen yīqǐ qù guàngjiē.",
-        "pinyin_numeric": "ni3 zhe4ge5 zhou1mo4 you3 kong4 ma5? wo3men5 yi1qi3 qu4 guang4jie1.",
+        "pinyin_numeric": "ni3 zhe4 ge0 zhou1mo4 you3 kong4 ma0? wo3men5 yi1qi3 qu4 guang4jie1.",
         "translation_en": "Are you free this weekend? Let's go shopping.",
         "translation_ko": "이번 주말에 시간 있어요? 우리 같이 쇼핑 가요.",
         "token_ids": [
@@ -10482,7 +10482,7 @@
         "speaker": "B",
         "text": "雖然我這個週末很忙，但是我可以抽空跟你去一下。",
         "pinyin": "Suīrán wǒ zhège zhōumò hěn máng, dànshì wǒ kěyǐ chōukòng gēn nǐ qù yīxià.",
-        "pinyin_numeric": "sui1ran2 wo3 zhe4ge5 zhou1mo4 hen3 mang2, dan4shi4 wo3 ke3yi3 chou1kong4 gen1 ni3 qu4 yi1xia4.",
+        "pinyin_numeric": "sui1ran2 wo3 zhe4 ge0 zhou1mo4 hen3 mang2, dan4shi4 wo3 ke3 yi3 chou1kong4 gen1 ni3 qu4 yi1xia4.",
         "translation_en": "Although I'm very busy this weekend, I can spare some time to go with you.",
         "translation_ko": "이번 주말에 바쁘지만 시간을 내서 같이 갈 수 있어요.",
         "token_ids": [
@@ -10507,7 +10507,7 @@
         "speaker": "A",
         "text": "真的嗎？太好了！我們可以去喝咖啡，順便聊天。",
         "pinyin": "Zhēn de ma? Tài hǎo le! Wǒmen kěyǐ qù hē kāfēi, shùnbiàn liáotiān.",
-        "pinyin_numeric": "zhen1 de5 ma5? tai4 hao3 le5! wo3men5 ke3yi3 qu4 he1 ka1fei1, shun4bian4 liao2tian1.",
+        "pinyin_numeric": "zhen1 de5 ma0? tai4 hao3 le5! wo3men5 ke3 yi3 qu4 he1 ka1fei1, shun4bian4 liao2tian1.",
         "translation_en": "Really? That's great! We can go have coffee and chat while we're at it.",
         "translation_ko": "정말요? 너무 좋아요! 우리 커피 마시면서 이야기해요.",
         "token_ids": [
@@ -10527,7 +10527,7 @@
         "speaker": "B",
         "text": "好啊，不過我只能去兩個小時，因為我還有工作要做。",
         "pinyin": "Hǎo a, bùguò wǒ zhǐ néng qù liǎng ge xiǎoshí, yīnwèi wǒ hái yǒu gōngzuò yào zuò.",
-        "pinyin_numeric": "hao3 a5, bu2guo4 wo3 zhi3 neng2 qu4 liang3 ge5 xiao3shi2, yin1wei4 wo3 hai2 you3 gong1zuo4 yao4 zuo4.",
+        "pinyin_numeric": "hao3 a0, bu2guo4 wo3 zhi3 neng2 qu4 liang3 ge5 xiao3shi2, yin1wei4 wo3 hai2 you3 gong1zuo4 yao4 zuo4.",
         "translation_en": "Okay, but I can only go for two hours because I still have work to do.",
         "translation_ko": "좋아요, 하지만 일이 있어서 두 시간밖에 못 가요.",
         "token_ids": [
@@ -10670,7 +10670,7 @@
         "speaker": "A",
         "text": "真的嗎？那我們這個週末一起去看看，雖然遠，但是值得去。",
         "pinyin": "Zhēn de ma? Nà wǒmen zhège zhōumò yīqǐ qù kànkan, suīrán yuǎn, dànshì zhídé qù.",
-        "pinyin_numeric": "zhen1 de5 ma5? na4 wo3men5 zhe4ge5 zhou1mo4 yi1qi3 qu4 kan4kan5, sui1ran2 yuan3, dan4shi4 zhi2de2 qu4.",
+        "pinyin_numeric": "zhen1 de5 ma0? na4 wo3men5 zhe4 ge0 zhou1mo4 yi1qi3 qu4 kan4kan5, sui1ran2 yuan3, dan4shi4 zhi2de2 qu4.",
         "translation_en": "Really? Then let's go check it out this weekend. Although it's far, it's worth going.",
         "translation_ko": "정말요? 그럼 이번 주말에 같이 가 봐요. 멀지만 갈 가치가 있어요.",
         "token_ids": [
@@ -10694,7 +10694,7 @@
         "speaker": "B",
         "text": "好啊！我們可以搭捷運去，雖然要轉車，但是不會太久。",
         "pinyin": "Hǎo a! Wǒmen kěyǐ dā jiéyùn qù, suīrán yào zhuǎn chē, dànshì bù huì tài jiǔ.",
-        "pinyin_numeric": "hao3 a5! wo3men5 ke3yi3 da1 jie2yun4 qu4, sui1ran2 yao4 zhuan3 che1, dan4shi4 bu2 hui4 tai4 jiu3.",
+        "pinyin_numeric": "hao3 a0! wo3men5 ke3 yi3 da1 jie2yun4 qu4, sui1ran2 yao4 zhuan3 che1, dan4shi4 bu2 hui4 tai4 jiu3.",
         "translation_en": "Okay! We can take the MRT. Although we need to transfer, it won't take too long.",
         "translation_ko": "좋아요! MRT? 타고 가요. 환승해야 하지만 오래 걸리지 않을 거예요.",
         "token_ids": [
@@ -10776,7 +10776,7 @@
         "speaker": "客人",
         "text": "謝謝。請問有兩個人的座位嗎？",
         "pinyin": "Xièxie. Qǐngwèn yǒu liǎng gè rén de zuòwèi ma?",
-        "pinyin_numeric": "Xie4xie. Qing3wen4 you3 liang3 ge4 ren2 de zuo4wei4 ma?",
+        "pinyin_numeric": "Xie4xie. qing3 wen4 you3 liang3 ge4 ren2 de zuo4wei4 ma?",
         "translation_en": "Thank you. Do you have a seat for two people?",
         "translation_ko": "감사합니다. 두 명이 앉을 자리가 있나요?",
         "token_ids": [
@@ -11068,7 +11068,7 @@
         "speaker": "朋友A",
         "text": "不用，你可以在這裡等我，我馬上下來。",
         "pinyin": "Búyòng, nǐ kěyǐ zài zhèlǐ děng wǒ, wǒ mǎshàng xiàlái.",
-        "pinyin_numeric": "Bu2yong4, ni3 ke3yi3 zai4 zhe4li3 deng3 wo3, wo3 ma3shang4 xia4lai2.",
+        "pinyin_numeric": "Bu2yong4, ni3 ke3 yi3 zai4 zhe4li3 deng3 wo3, wo3 ma3shang4 xia4lai2.",
         "translation_en": "No need, you can wait here for me. I'll come down right away.",
         "translation_ko": "괜찮아, 여기서 기다려 줘. 금방 내려올게.",
         "token_ids": [
@@ -11321,7 +11321,7 @@
         "speaker": "店員",
         "text": "好的，請問你要點什麼？",
         "pinyin": "Hǎo de, qǐngwèn nǐ yào diǎn shénme?",
-        "pinyin_numeric": "Hao3 de, qing3wen4 ni3 yao4 dian3 shen2 me0?",
+        "pinyin_numeric": "Hao3 de, qing3 wen4 ni3 yao4 dian3 shen2 me0?",
         "translation_en": "Okay, what would you like to order?",
         "translation_ko": "네, 무엇을 주문하시겠습니까?",
         "token_ids": [
@@ -11462,7 +11462,7 @@
         "speaker": "客人",
         "text": "不好意思，我現在有事，可以晚一點再回來嗎？",
         "pinyin": "Bù hǎoyìsi, wǒ xiànzài yǒu shì, kěyǐ wǎn yīdiǎn zài huílái ma?",
-        "pinyin_numeric": "Bu4 hao3yi4si5, wo3 xian4zai4 you3 shi4, ke3yi3 wan3 yi1dian3 zai4 hui2lai2 ma5?",
+        "pinyin_numeric": "Bu4 hao3yi4si5, wo3 xian4zai4 you3 shi4, ke3 yi3 wan3 yi1dian3 zai4 hui2lai2 ma0?",
         "translation_en": "Excuse me, I have something to do now. Can I come back a little later?",
         "translation_ko": "죄송합니다, 지금 볼일이 있어서 조금 늦게 다시 와도 될까요?",
         "token_ids": [
@@ -11483,7 +11483,7 @@
         "speaker": "店員",
         "text": "可以啊。你要帶什麼東西回去嗎？",
         "pinyin": "Kěyǐ a. Nǐ yào dài shénme dōngxī huíqù ma?",
-        "pinyin_numeric": "Ke3yi3 a5. Ni3 yao4 dai4 shen2 me0 dong1xi1 hui2qu4 ma5?",
+        "pinyin_numeric": "ke3 yi3 a0. Ni3 yao4 dai4 shen2 me0 dong1xi1 hui2qu4 ma0?",
         "translation_en": "Sure. Do you need to take anything back?",
         "translation_ko": "네, 괜찮습니다. 가져가실 물건이 있으신가요?",
         "token_ids": [
@@ -11628,7 +11628,7 @@
         "speaker": "櫃檯人員",
         "text": "沒問題，我幫你處理。請問你的名字和預約時間是幾點？",
         "pinyin": "Méi wèntí, wǒ bāng nǐ chǔlǐ. Qǐngwèn nǐ de míngzì hé yùyuē shíjiān shì jǐ diǎn?",
-        "pinyin_numeric": "Mei2 wen4ti2, wo3 bang1 ni3 chu3li3. Qing3wen4 ni3 de ming2zi4 he2 yu4yue1 shi2jian1 shi4 ji3 dian3?",
+        "pinyin_numeric": "Mei2 wen4ti2, wo3 bang1 ni3 chu3li3. qing3 wen4 ni3 de ming2zi4 he2 yu4yue1 shi2jian1 shi4 ji3 dian3?",
         "translation_en": "No problem, I'll help you handle it. May I ask your name and what time the appointment was?",
         "translation_ko": "문제없습니다. 제가 처리해 드리겠습니다. 성함과 예약 시간이 몇 시인지 여쭤봐도 될까요?",
         "token_ids": [
@@ -11674,7 +11674,7 @@
         "speaker": "櫃檯人員",
         "text": "好的，我已經幫你取消預約了。假如你之後還需要看診，可以再預約。",
         "pinyin": "Hǎo de, wǒ yǐjīng bāng nǐ qǔxiāo yùyuē le. Jiǎrú nǐ zhīhòu hái xūyào kànzhěn, kěyǐ zài yùyuē.",
-        "pinyin_numeric": "Hao3 de5, wo3 yi3jing1 bang1 ni3 qu3xiao1 yu4yue1 le5. Jia3ru2 ni3 zhi1hou4 hai2 xu1yao4 kan4zhen3, ke3yi3 zai4 yu4yue1.",
+        "pinyin_numeric": "Hao3 de5, wo3 yi3jing1 bang1 ni3 qu3xiao1 yu4yue1 le5. Jia3ru2 ni3 zhi1hou4 hai2 xu1yao4 kan4zhen3, ke3 yi3 zai4 yu4yue1.",
         "translation_en": "Okay, I've canceled the appointment for you. If you still need to see a doctor later, you can make another appointment.",
         "translation_ko": "네, 예약 취소를 도와드렸습니다. 나중에 진료가 필요하시면 다시 예약하실 수 있습니다.",
         "token_ids": [
@@ -11701,7 +11701,7 @@
         "speaker": "病人",
         "text": "謝謝你。那假如我明天想預約，可以嗎？",
         "pinyin": "Xièxiè nǐ. Nà jiǎrú wǒ míngtiān xiǎng yùyuē, kěyǐ ma?",
-        "pinyin_numeric": "Xie4xie4 ni3. Na4 jia3ru2 wo3 ming2tian1 xiang3 yu4yue1, ke3yi3 ma5?",
+        "pinyin_numeric": "Xie4xie4 ni3. Na4 jia3ru2 wo3 ming2tian1 xiang3 yu4yue1, ke3 yi3 ma0?",
         "translation_en": "Thank you. If I'd like to make an appointment tomorrow, is that okay?",
         "translation_ko": "감사합니다. 그럼 내일 예약하고 싶으면 가능할까요?",
         "token_ids": [
@@ -11722,7 +11722,7 @@
         "speaker": "櫃檯人員",
         "text": "可以，你明天上午或下午都可以。請你打電話來預約。",
         "pinyin": "Kěyǐ, nǐ míngtiān shàngwǔ huò xiàwǔ dōu kěyǐ. Qǐng nǐ dǎ diànhuà lái yùyuē.",
-        "pinyin_numeric": "Ke3yi3, ni3 ming2tian1 shang4wu3 huo4 xia4wu3 dou1 ke3yi3. Qing3 ni3 da3 dian4hua4 lai2 yu4yue1.",
+        "pinyin_numeric": "ke3 yi3, ni3 ming2tian1 shang4wu3 huo4 xia4wu3 dou1 ke3 yi3. Qing3 ni3 da3 dian4hua4 lai2 yu4yue1.",
         "translation_en": "Yes, you can come tomorrow morning or afternoon. Please call to make an appointment.",
         "translation_ko": "가능합니다. 내일 오전이나 오후 모두 괜찮습니다. 전화로 예약해 주세요.",
         "token_ids": [
@@ -11856,7 +11856,7 @@
         "speaker": "客人",
         "text": "我坐在靠窗的那個位子。",
         "pinyin": "Wǒ zuò zài kào chuāng de nàge wèizi.",
-        "pinyin_numeric": "Wo3 zuo4 zai4 kao4 chuang1 de5 na4ge5 wei4zi5.",
+        "pinyin_numeric": "Wo3 zuo4 zai4 kao4 chuang1 de5 na4 ge0 wei4zi5.",
         "translation_en": "I was sitting at the seat by the window.",
         "translation_ko": "창가 쪽 자리에 앉아 있었어요.",
         "token_ids": [
@@ -11913,7 +11913,7 @@
         "speaker": "店員",
         "text": "找到了！是你的手機嗎？",
         "pinyin": "Zhǎodào le! Shì nǐ de shǒujī ma?",
-        "pinyin_numeric": "Zhao3dao4 le5! Shi4 ni3 de shou3ji1 ma5?",
+        "pinyin_numeric": "Zhao3dao4 le5! Shi4 ni3 de shou3ji1 ma0?",
         "translation_en": "Found it! Is this your phone?",
         "translation_ko": "찾았습니다! 이게 당신 핸드폰인가요?",
         "token_ids": [
@@ -11931,7 +11931,7 @@
         "speaker": "客人",
         "text": "對，就是這個！謝謝你幫我處理。",
         "pinyin": "Duì, jiùshì zhège! Xièxiè nǐ bāng wǒ chǔlǐ.",
-        "pinyin_numeric": "Dui4, jiu4shi4 zhe4ge5! Xie4xie4 ni3 bang1 wo3 chu3li3.",
+        "pinyin_numeric": "Dui4, jiu4shi4 zhe4 ge0! Xie4xie4 ni3 bang1 wo3 chu3li3.",
         "translation_en": "Yes, that's it! Thank you for helping me handle it.",
         "translation_ko": "네, 맞아요! 처리해 주셔서 감사합니다.",
         "token_ids": [
@@ -12023,7 +12023,7 @@
         "speaker": "櫃檯人員",
         "text": "沒問題，我幫你處理。請問你想改成什麼時候？",
         "pinyin": "Méi wèntí, wǒ bāng nǐ chǔlǐ. Qǐngwèn nǐ xiǎng gǎi chéng shénme shíhou?",
-        "pinyin_numeric": "Mei2 wen4ti2, wo3 bang1 ni3 chu3li3. Qing3wen4 ni3 xiang3 gai3 cheng2 shen2 me0 shi2hou5?",
+        "pinyin_numeric": "Mei2 wen4ti2, wo3 bang1 ni3 chu3li3. qing3 wen4 ni3 xiang3 gai3 cheng2 shen2 me0 shi2hou5?",
         "translation_en": "No problem, I'll help you handle it. When would you like to change it to?",
         "translation_ko": "문제없습니다. 제가 처리해 드리겠습니다. 언제로 변경하시겠습니까?",
         "token_ids": [
@@ -12070,7 +12070,7 @@
         "speaker": "櫃檯人員",
         "text": "我幫你看看。明天上午十點可以，我幫你改時間。",
         "pinyin": "Wǒ bāng nǐ kàn kàn. Míngtiān shàngwǔ shí diǎn kěyǐ, wǒ bāng nǐ gǎi shíjiān.",
-        "pinyin_numeric": "Wo3 bang1 ni3 kan4 kan5. Ming2tian1 shang4wu3 shi2 dian3 ke3yi3, wo3 bang1 ni3 gai3 shi2jian1.",
+        "pinyin_numeric": "Wo3 bang1 ni3 kan4 kan5. Ming2tian1 shang4wu3 shi2 dian3 ke3 yi3, wo3 bang1 ni3 gai3 shi2jian1.",
         "translation_en": "Let me check for you. Tomorrow at 10 AM is available, I'll reschedule for you.",
         "translation_ko": "확인해 드리겠습니다. 내일 오전 10시 가능합니다. 시간을 변경해 드리겠습니다.",
         "token_ids": [
@@ -12095,7 +12095,7 @@
         "speaker": "客人",
         "text": "太好了，謝謝你。那原本的預約就取消了嗎？",
         "pinyin": "Tài hǎo le, xièxiè nǐ. Nà yuánběn de yùyuē jiù qǔxiāo le ma?",
-        "pinyin_numeric": "Tai4 hao3 le5, xie4xie4 ni3. Na4 yuan2ben3 de5 yu4yue1 jiu4 qu3xiao1 le5 ma5?",
+        "pinyin_numeric": "Tai4 hao3 le5, xie4xie4 ni3. Na4 yuan2ben3 de5 yu4yue1 jiu4 qu3xiao1 le5 ma0?",
         "translation_en": "Great, thank you. So the original appointment is canceled?",
         "translation_ko": "정말 좋네요, 감사합니다. 그럼 원래 예약은 취소된 건가요?",
         "token_ids": [
@@ -12293,7 +12293,7 @@
         "speaker": "B",
         "text": "薪水還可以，不過我打算以後找全職的工作。",
         "pinyin": "Xīnshuǐ hái kěyǐ, bùguò wǒ dǎsuàn yǐhòu zhǎo quánzhí de gōngzuò.",
-        "pinyin_numeric": "Xin1shui3 hai2 ke3yi3, bu2guo4 wo3 da3suan4 yi3hou4 zhao3 quan2zhi2 de gong1zuo4.",
+        "pinyin_numeric": "Xin1shui3 hai2 ke3 yi3, bu2guo4 wo3 da3suan4 yi3hou4 zhao3 quan2zhi2 de gong1zuo4.",
         "translation_en": "The salary is okay, but I plan to find a full-time job later.",
         "translation_ko": "급여는 괜찮은데, 나중에 정규직을 찾을 생각이에요.",
         "token_ids": [
@@ -12358,7 +12358,7 @@
         "speaker": "A",
         "text": "你這個學期修幾門課？",
         "pinyin": "Nǐ zhège xuéqī xiū jǐ mén kè?",
-        "pinyin_numeric": "Ni3 zhe4ge xue2qi1 xiu1 ji3 men2 ke4?",
+        "pinyin_numeric": "Ni3 zhe4 ge0 xue2qi1 xiu1 ji3 men2 ke4?",
         "translation_en": "How many courses are you taking this semester?",
         "translation_ko": "이번 학기에 몇 과목을 수강하세요?",
         "token_ids": [
@@ -12516,7 +12516,7 @@
         "speaker": "A",
         "text": "你這個星期很忙嗎？",
         "pinyin": "Nǐ zhège xīngqī hěn máng ma?",
-        "pinyin_numeric": "Ni3 zhe4ge xing1qi1 hen3 mang2 ma?",
+        "pinyin_numeric": "Ni3 zhe4 ge0 xing1qi1 hen3 mang2 ma?",
         "translation_en": "Are you busy this week?",
         "translation_ko": "이번 주에 많이 바쁘세요?",
         "token_ids": [
@@ -12697,7 +12697,7 @@
         "speaker": "B",
         "text": "我星期二下午和星期四早上有空。你呢？",
         "pinyin": "Wǒ xīngqī'èr xiàwǔ hé xīngqīsì zǎoshang yǒu kòng. Nǐ ne?",
-        "pinyin_numeric": "Wo3 xing1qi2er4 xia4wu3 he2 xing1qi2si4 zao3shang5 you3 kong4. Ni3 ne5?",
+        "pinyin_numeric": "Wo3 xing1qi2er4 xia4wu3 he2 xing1qi2si4 zao3shang5 you3 kong4. Ni3 ne0?",
         "translation_en": "I'm free Tuesday afternoon and Thursday morning. And you?",
         "translation_ko": "저는 화요일 오후와 목요일 오전에 시간이 됩니다. 당신은요?",
         "token_ids": [
@@ -12719,7 +12719,7 @@
         "speaker": "A",
         "text": "我星期四早上可以。我們早上十點開會，好嗎？",
         "pinyin": "Wǒ xīngqīsì zǎoshang kěyǐ. Wǒmen zǎoshang shí diǎn kāihuì, hǎo ma?",
-        "pinyin_numeric": "Wo3 xing1qi2si4 zao3shang5 ke3yi3. Wo3men zao3shang5 shi2 dian3 kai1hui4, hao3 ma5?",
+        "pinyin_numeric": "Wo3 xing1qi2si4 zao3shang5 ke3 yi3. Wo3men zao3shang5 shi2 dian3 kai1hui4, hao3 ma0?",
         "translation_en": "Thursday morning works for me. Let's have the meeting at 10 AM, okay?",
         "translation_ko": "저는 목요일 오전에 괜찮습니다. 오전 10시에 회의하는 게 어떨까요?",
         "token_ids": [
@@ -12888,7 +12888,7 @@
         "speaker": "A",
         "text": "什麼問題？需要幫忙嗎？",
         "pinyin": "Shénme wèntí? Xūyào bāngmáng ma?",
-        "pinyin_numeric": "shen2 me0 wen4ti2? Xu1yao4 bang1mang2 ma5?",
+        "pinyin_numeric": "shen2 me0 wen4ti2? Xu1yao4 bang1mang2 ma0?",
         "translation_en": "What problem? Do you need help?",
         "translation_ko": "무슨 문제인가요? 도움이 필요하신가요?",
         "token_ids": [
@@ -12924,7 +12924,7 @@
         "speaker": "A",
         "text": "沒關係，你可以先整理有的資料。截止日期是下星期五。",
         "pinyin": "Méi guānxi, nǐ kěyǐ xiān zhěnglǐ yǒu de zīliào. Jiézhǐ rìqī shì xià xīngqīwǔ.",
-        "pinyin_numeric": "Mei2 guan1xi5, ni3 ke3yi3 xian1 zheng3li3 you3 de5 zi1liao4. Jie2zhi3 ri4qi1 shi4 xia4 xing1qi1wu3.",
+        "pinyin_numeric": "Mei2 guan1xi5, ni3 ke3 yi3 xian1 zheng3li3 you3 de5 zi1liao4. Jie2zhi3 ri4qi1 shi4 xia4 xing1qi1wu3.",
         "translation_en": "It's okay. You can organize the data you have first. The deadline is next Friday.",
         "translation_ko": "괜찮습니다. 가지고 있는 자료부터 먼저 정리하세요. 마감일은 다음 주 금요일입니다.",
         "token_ids": [
@@ -13019,7 +13019,7 @@
         "speaker": "A",
         "text": "不好意思，關於這個任務的截止日期，我想跟你討論一下。",
         "pinyin": "Bù hǎoyìsi, guānyú zhège rènwù de jiézhǐ rìqī, wǒ xiǎng gēn nǐ tǎolùn yīxià.",
-        "pinyin_numeric": "Bu4 hao3yi4si5, guan1yu2 zhe4ge5 ren4wu4 de5 jie2zhi3 ri4qi1, wo3 xiang3 gen1 ni3 tao3lun4 yi1xia4.",
+        "pinyin_numeric": "Bu4 hao3yi4si5, guan1yu2 zhe4 ge0 ren4wu4 de5 jie2zhi3 ri4qi1, wo3 xiang3 gen1 ni3 tao3lun4 yi1xia4.",
         "translation_en": "Excuse me, I'd like to discuss the deadline for this task with you.",
         "translation_ko": "죄송합니다만, 이 업무의 마감일에 대해 논의하고 싶습니다.",
         "token_ids": [
@@ -13043,7 +13043,7 @@
         "speaker": "B",
         "text": "怎麼了？有什麼問題嗎？",
         "pinyin": "Zěnme le? Yǒu shénme wèntí ma?",
-        "pinyin_numeric": "zen3 me0 le5? You3 shen2 me0 wen4ti2 ma5?",
+        "pinyin_numeric": "zen3 me0 le5? You3 shen2 me0 wen4ti2 ma0?",
         "translation_en": "What's wrong? Is there a problem?",
         "translation_ko": "왜 그러세요? 무슨 문제라도 있나요?",
         "token_ids": [
@@ -13085,7 +13085,7 @@
         "speaker": "B",
         "text": "我了解了。那你需要延長期限嗎？",
         "pinyin": "Wǒ liǎojiě le. Nà nǐ xūyào yáncháng qīxiàn ma?",
-        "pinyin_numeric": "Wo3 liao3jie3 le5. Na4 ni3 xu1yao4 yan2chang2 qi1xian4 ma5?",
+        "pinyin_numeric": "Wo3 liao3jie3 le5. Na4 ni3 xu1yao4 yan2chang2 qi1xian4 ma0?",
         "translation_en": "I understand. So, do you need an extension on the deadline?",
         "translation_ko": "이해했습니다. 그러면 마감일 연장이 필요하신가요?",
         "token_ids": [
@@ -13103,7 +13103,7 @@
         "speaker": "A",
         "text": "如果可以的話，我希望延長到下個星期一。",
         "pinyin": "Rúguǒ kěyǐ de huà, wǒ xīwàng yáncháng dào xià ge xīngqīyī.",
-        "pinyin_numeric": "Ru2guo3 ke3yi3 de5 hua4, wo3 xi1wang4 yan2chang2 dao4 xia4 ge5 xing1qi1yi1.",
+        "pinyin_numeric": "Ru2guo3 ke3 yi3 de5 hua4, wo3 xi1wang4 yan2chang2 dao4 xia4 ge5 xing1qi1yi1.",
         "translation_en": "If possible, I hope to extend it to next Monday.",
         "translation_ko": "가능하다면 다음 주 월요일까지 연장하고 싶습니다.",
         "token_ids": [
@@ -13232,7 +13232,7 @@
         "speaker": "B",
         "text": "我覺得很好吃，湯很濃，肉也很嫩。你覺得呢？",
         "pinyin": "Wǒ juéde hěn hǎochī, tāng hěn nóng, ròu yě hěn nèn. Nǐ juéde ne?",
-        "pinyin_numeric": "Wo3 jue2de hen3 hao3chi1, tang1 hen3 nong2, rou4 ye3 hen3 nen4. Ni3 jue2de ne5?",
+        "pinyin_numeric": "Wo3 jue2de hen3 hao3chi1, tang1 hen3 nong2, rou4 ye3 hen3 nen4. Ni3 jue2de ne0?",
         "translation_en": "I think it's delicious, the soup is rich and the meat is tender. What do you think?",
         "translation_ko": "맛있다고 생각해요. 국물이 진하고 고기도 부드러워요. 당신은 어떻게 생각해요?",
         "token_ids": [
@@ -13337,7 +13337,7 @@
         "speaker": "A",
         "text": "你覺得台北這個地方怎麼樣？",
         "pinyin": "Nǐ juéde Táiběi zhège dìfang zěnmeyàng?",
-        "pinyin_numeric": "Ni3 jue2de Tai2bei3 zhe4ge di4fang5 zen3 me0 yang4?",
+        "pinyin_numeric": "Ni3 jue2de Tai2bei3 zhe4 ge0 di4fang5 zen3 me0 yang4?",
         "translation_en": "What do you think of Taipei?",
         "translation_ko": "타이베이는 어때요?",
         "token_ids": [
@@ -13355,7 +13355,7 @@
         "speaker": "B",
         "text": "我認為台北很熱鬧，交通也很方便。你覺得呢？",
         "pinyin": "Wǒ rènwéi Táiběi hěn rènao, jiāotōng yě hěn fāngbiàn. Nǐ juéde ne?",
-        "pinyin_numeric": "Wo3 ren4wei2 Tai2bei3 hen3 re4nao5, jiao1tong1 ye3 hen3 fang1bian4. Ni3 jue2de ne5?",
+        "pinyin_numeric": "Wo3 ren4wei2 Tai2bei3 hen3 re4nao5, jiao1tong1 ye3 hen3 fang1bian4. Ni3 jue2de ne0?",
         "translation_en": "I think Taipei is very lively and the transportation is very convenient. What do you think?",
         "translation_ko": "저는 타이베이가 매우 번화하고 교통도 편리하다고 생각해요. 당신은 어떻게 생각해요?",
         "token_ids": [
@@ -13474,7 +13474,7 @@
         "speaker": "B",
         "text": "我覺得很好看，故事很有意思。你覺得呢？",
         "pinyin": "Wǒ juéde hěn hǎokàn, gùshì hěn yǒuyìsi. Nǐ juéde ne?",
-        "pinyin_numeric": "Wo3 jue2de hen3 hao3kan4, gu4shi4 hen3 you3yi4si5. Ni3 jue2de ne5?",
+        "pinyin_numeric": "Wo3 jue2de hen3 hao3kan4, gu4shi4 hen3 you3yi4si5. Ni3 jue2de ne0?",
         "translation_en": "I think it's very good, the story is very interesting. What do you think?",
         "translation_ko": "저는 아주 재미있다고 생각해요. 이야기가 아주 흥미로워요. 당신은 어떻게 생각해요?",
         "token_ids": [
@@ -13514,7 +13514,7 @@
         "speaker": "B",
         "text": "真的嗎？我覺得很好看啊。不過沒關係，看法不同很正常。",
         "pinyin": "Zhēn de ma? Wǒ juéde hěn hǎokàn a. Búguò méi guānxi, kànfǎ bùtóng hěn zhèngcháng.",
-        "pinyin_numeric": "Zhen1 de5 ma5? Wo3 jue2de hen3 hao3kan4 a5. Bu2guo4 mei2 guan1xi5, kan4fa3 bu4tong2 hen3 zheng4chang2.",
+        "pinyin_numeric": "Zhen1 de5 ma0? Wo3 jue2de hen3 hao3kan4 a0. Bu2guo4 mei2 guan1xi5, kan4fa3 bu4tong2 hen3 zheng4chang2.",
         "translation_en": "Really? I think it's very good. But it's okay, it's normal to have different opinions.",
         "translation_ko": "정말요? 저는 아주 재미있다고 생각하는데요. 그래도 괜찮아요, 의견이 다른 것은 정상이에요.",
         "token_ids": [
@@ -13578,7 +13578,7 @@
         "speaker": "A",
         "text": "你為什麼喜歡台灣？可以舉例說明嗎？",
         "pinyin": "Nǐ wèishénme xǐhuān Táiwān? Kěyǐ jǔlì shuōmíng ma?",
-        "pinyin_numeric": "Ni3 wei4 shen2 me0 xi3huan1 Tai2wan1? Ke3yi3 ju3li4 shuo1ming2 ma?",
+        "pinyin_numeric": "Ni3 wei4 shen2 me0 xi3huan1 Tai2wan1? ke3 yi3 ju3li4 shuo1ming2 ma?",
         "translation_en": "Why do you like Taiwan? Can you give examples to explain?",
         "translation_ko": "왜 대만을 좋아하세요? 예를 들어 설명해 주실 수 있나요?",
         "token_ids": [
@@ -13769,7 +13769,7 @@
         "speaker": "店員",
         "text": "你好，請問你要點什麼？",
         "pinyin": "Nǐhǎo, qǐngwèn nǐ yào diǎn shénme?",
-        "pinyin_numeric": "Ni3hao3, qing3wen4 ni3 yao4 dian3 shen2 me0?",
+        "pinyin_numeric": "Ni3hao3, qing3 wen4 ni3 yao4 dian3 shen2 me0?",
         "translation_en": "Hello, what would you like to order?",
         "translation_ko": "안녕하세요, 무엇을 주문하시겠어요?",
         "token_ids": [
@@ -13806,7 +13806,7 @@
         "speaker": "店員",
         "text": "好的。可以請問你為什麼選這個嗎？比如，你喜歡它的味道嗎？",
         "pinyin": "Hǎo de. Kěyǐ qǐngwèn nǐ wèishénme xuǎn zhège ma? Bǐrú, nǐ xǐhuān tā de wèidào ma?",
-        "pinyin_numeric": "Hao3 de. Ke3yi3 qing3wen4 ni3 wei4 shen2 me0 xuan3 zhe4ge ma? Bi3ru2, ni3 xi3huan1 ta1 de wei4dao4 ma?",
+        "pinyin_numeric": "Hao3 de. ke3 yi3 qing3 wen4 ni3 wei4 shen2 me0 xuan3 zhe4 ge0 ma? Bi3ru2, ni3 xi3huan1 ta1 de wei4dao4 ma?",
         "translation_en": "Okay. May I ask why you chose this? For example, do you like its taste?",
         "translation_ko": "네. 왜 이것을 선택하셨는지 여쭤봐도 될까요? 예를 들어, 맛이 좋아서이신가요?",
         "token_ids": [
@@ -13952,7 +13952,7 @@
         "speaker": "老師",
         "text": "今天我們要學怎麼舉例說明。比如，你可以說「台灣有很多好吃的東西，例如牛肉麵和滷肉飯」。",
         "pinyin": "Jīntiān wǒmen yào xué zěnme jǔlì shuōmíng. Bǐrú, nǐ kěyǐ shuō 'Táiwān yǒu hěnduō hàochī de dōngxī, lìrú niúròumiàn hé lǔròufàn'.",
-        "pinyin_numeric": "Jin1tian1 wo3men yao4 xue2 zen3 me0 ju3li4 shuo1ming2. Bi3ru2, ni3 ke3yi3 shuo1 'Tai2wan1 you3 hen3duo1 hao3chi1 de dong1xi1, li4ru4 niu2rou4mian4 he2 lu3rou4fan4'.",
+        "pinyin_numeric": "Jin1tian1 wo3men yao4 xue2 zen3 me0 ju3li4 shuo1ming2. Bi3ru2, ni3 ke3 yi3 shuo1 'Tai2wan1 you3 hen3duo1 hao3chi1 de dong1xi1, li4ru4 niu2rou4mian4 he2 lu3rou4fan4'.",
         "translation_en": "Today we're going to learn how to give examples to explain. For example, you can say 'Taiwan has a lot of delicious food, such as beef noodles and braised pork rice.'",
         "translation_ko": "오늘은 예를 들어 설명하는 방법을 배울 거예요. 예를 들어, '대만에는 맛있는 음식이 많아요, 예를 들어 소고기 국수와 루로우판이 있어요'라고 말할 수 있어요.",
         "token_ids": [
@@ -13985,7 +13985,7 @@
         "speaker": "學生",
         "text": "老師，我懂了。比如，我可以說「我喜歡運動，例如跑步和游泳」。",
         "pinyin": "Lǎoshī, wǒ dǒng le. Bǐrú, wǒ kěyǐ shuō 'wǒ xǐhuān yùndòng, lìrú pǎobù hé yóuyǒng'.",
-        "pinyin_numeric": "Lao3shi1, wo3 dong3 le. Bi3ru2, wo3 ke3yi3 shuo1 'wo3 xi3huan1 yun4dong4, li4ru4 pao3bu4 he2 you2yong3'.",
+        "pinyin_numeric": "Lao3shi1, wo3 dong3 le. Bi3ru2, wo3 ke3 yi3 shuo1 'wo3 xi3huan1 yun4dong4, li4ru4 pao3bu4 he2 you2yong3'.",
         "translation_en": "Teacher, I understand. For example, I can say 'I like sports, such as running and swimming.'",
         "translation_ko": "선생님, 이해했어요. 예를 들어, '저는 운동을 좋아해요, 예를 들어 달리기와 수영이요'라고 말할 수 있어요.",
         "token_ids": [
@@ -14061,7 +14061,7 @@
         "speaker": "老師",
         "text": "很好！你的例子很清楚。總之，舉例可以讓你的說明更容易懂。",
         "pinyin": "Hěn hǎo! Nǐ de lìzi hěn qīngchǔ. Zǒngzhī, jǔlì kěyǐ ràng nǐ de shuōmíng gèng róngyì dǒng.",
-        "pinyin_numeric": "Hen3 hao3! Ni3 de li4zi hen3 qing1chu3. Zong3zhi1, ju3li4 ke3yi3 rang4 ni3 de shuo1ming2 geng4 rong2yi4 dong3.",
+        "pinyin_numeric": "Hen3 hao3! Ni3 de li4zi hen3 qing1chu3. Zong3zhi1, ju3li4 ke3 yi3 rang4 ni3 de shuo1ming2 geng4 rong2yi4 dong3.",
         "translation_en": "Very good! Your example is very clear. In short, giving examples can make your explanation easier to understand.",
         "translation_ko": "아주 좋아요! 예시가 아주 명확해요. 요컨대, 예를 들면 설명을 더 이해하기 쉽게 만들 수 있어요.",
         "token_ids": [
@@ -14130,7 +14130,7 @@
         "speaker": "A",
         "text": "老闆，不好意思，這個任務的進度有點延遲。",
         "pinyin": "Lǎobǎn, bùhǎoyìsi, zhège rènwù de jìndù yǒudiǎn yánchí.",
-        "pinyin_numeric": "Lao3ban3, bu4hao3yi4si5, zhe4ge4 ren4wu4 de5 jin4du4 you3dian3 yan2chi2.",
+        "pinyin_numeric": "Lao3ban3, bu4hao3yi4si5, zhe4 ge04 ren4wu4 de5 jin4du4 you3dian3 yan2chi2.",
         "translation_en": "Boss, I'm sorry, the progress on this task is a bit delayed.",
         "translation_ko": "사장님, 죄송합니다. 이 작업의 진행이 조금 지연되었습니다.",
         "token_ids": [
@@ -14150,7 +14150,7 @@
         "speaker": "B",
         "text": "為什麼？你原本說這個星期五可以完成。",
         "pinyin": "Wèishénme? Nǐ yuánběn shuō zhège xīngqíwǔ kěyǐ wánchéng.",
-        "pinyin_numeric": "wei4 shen2 me0? Ni3 yuan2ben3 shuo1 zhe4ge4 xing1qi2wu3 ke3yi3 wan2cheng2.",
+        "pinyin_numeric": "wei4 shen2 me0? Ni3 yuan2ben3 shuo1 zhe4 ge04 xing1qi2wu3 ke3 yi3 wan2cheng2.",
         "translation_en": "Why? You originally said it could be completed this Friday.",
         "translation_ko": "왜요? 원래 이번 주 금요일에 완료할 수 있다고 하셨잖아요.",
         "token_ids": [
@@ -14292,7 +14292,7 @@
         "speaker": "店員",
         "text": "不好意思，請問您有帶購買證明嗎？",
         "pinyin": "Bùhǎoyìsi, qǐngwèn nín yǒu dài gòumǎi zhèngmíng ma?",
-        "pinyin_numeric": "Bu4hao3yi4si5, qing3wen4 nin2 you3 dai4 gou4mai3 zheng4ming2 ma5?",
+        "pinyin_numeric": "Bu4hao3yi4si5, qing3 wen4 nin2 you3 dai4 gou4mai3 zheng4ming2 ma0?",
         "translation_en": "I'm sorry, do you have the proof of purchase?",
         "translation_ko": "죄송합니다, 구매 증명서를 가지고 계신가요?",
         "token_ids": [
@@ -14407,7 +14407,7 @@
         "speaker": "A",
         "text": "我們晚上要去哪裡吃飯？你有什麼想法？",
         "pinyin": "Wǒmen wǎnshàng yào qù nǎlǐ chīfàn? Nǐ yǒu shénme xiǎngfǎ?",
-        "pinyin_numeric": "Wo3men5 wan3shang4 yao4 qu4 na3li3 chi1fan4? Ni3 you3 shen2 me0 xiang3fa3?",
+        "pinyin_numeric": "Wo3men5 wan3shang4 yao4 qu4 na3 li3 chi1fan4? Ni3 you3 shen2 me0 xiang3fa3?",
         "translation_en": "Where should we go for dinner tonight? What do you think?",
         "translation_ko": "저녁에 어디로 밥 먹으러 갈까요? 어떻게 생각하세요?",
         "token_ids": [
@@ -14429,7 +14429,7 @@
         "speaker": "B",
         "text": "我認為吃牛肉麵不錯，可是你覺得呢？",
         "pinyin": "Wǒ rènwéi chī niúròumiàn búcuò, kěshì nǐ juéde ne?",
-        "pinyin_numeric": "Wo3 ren4wei2 chi1 niu2rou4mian4 bu2cuo4, ke3shi4 ni3 jue2de5 ne5?",
+        "pinyin_numeric": "Wo3 ren4wei2 chi1 niu2rou4mian4 bu2cuo4, ke3shi4 ni3 jue2de5 ne0?",
         "translation_en": "I think beef noodles are good, but what do you think?",
         "translation_ko": "소고기 국수가 괜찮다고 생각하는데, 당신은 어떻게 생각하세요?",
         "token_ids": [
@@ -14471,7 +14471,7 @@
         "speaker": "B",
         "text": "水餃也可以啊！那我們去吃水餃吧。",
         "pinyin": "Shuǐjiǎo yě kěyǐ a! Nà wǒmen qù chī shuǐjiǎo ba.",
-        "pinyin_numeric": "Shui3jiao3 ye3 ke3yi3 a5! Na4 wo3men5 qu4 chi1 shui3jiao3 ba5.",
+        "pinyin_numeric": "Shui3jiao3 ye3 ke3 yi3 a0! Na4 wo3men5 qu4 chi1 shui3jiao3 ba5.",
         "translation_en": "Dumplings are fine too! Then let's go out to eat dumplings.",
         "translation_ko": "만두도 괜찮네요! 그럼 만두 먹으러 가요.",
         "token_ids": [
@@ -14490,7 +14490,7 @@
         "speaker": "A",
         "text": "好啊，就這麼決定。",
         "pinyin": "Hǎo a, jiù zhème juédìng.",
-        "pinyin_numeric": "Hao3 a5, jiu4 zhe4 me0 jue2ding4.",
+        "pinyin_numeric": "Hao3 a0, jiu4 zhe4 me0 jue2ding4.",
         "translation_en": "Okay, it's decided.",
         "translation_ko": "좋아요, 그렇게 결정합니다.",
         "token_ids": [
@@ -14569,7 +14569,7 @@
         "speaker": "B",
         "text": "真的嗎？那後來呢？",
         "pinyin": "Zhēn de ma? Nà hòulái ne?",
-        "pinyin_numeric": "zhen1 de5 ma5? Na4 hou4 lai2 ne5?",
+        "pinyin_numeric": "zhen1 de5 ma0? Na4 hou4 lai2 ne0?",
         "translation_en": "Really? And then what happened?",
         "translation_ko": "정말요? 그런데 나중에는요?",
         "token_ids": [
@@ -14604,7 +14604,7 @@
         "speaker": "B",
         "text": "那怎麼辦？你最後找到了嗎？",
         "pinyin": "Nà zěnme bàn? Nǐ zuìhòu zhǎodào le ma?",
-        "pinyin_numeric": "Na4 zen3 me0 ban4? Ni3 zui4 hou4 zhao3 dao4 le5 ma5?",
+        "pinyin_numeric": "Na4 zen3 me0 ban4? Ni3 zui4 hou4 zhao3 dao4 le5 ma0?",
         "translation_en": "What did you do then? Did you finally find it?",
         "translation_ko": "그럼 어떻게 했어요? 마침내 찾았어요?",
         "token_ids": [
@@ -14665,7 +14665,7 @@
         "speaker": "A",
         "text": "對啊，我覺得很開心，終於可以出門了。",
         "pinyin": "Duì a, wǒ juéde hěn kāixīn, zhōngyú kěyǐ chūmén le.",
-        "pinyin_numeric": "Dui4 a5, wo3 jue2 de5 hen3 kai1 xin1, zhong1 yu2 ke3 yi3 chu1 men2 le5.",
+        "pinyin_numeric": "Dui4 a0, wo3 jue2 de5 hen3 kai1 xin1, zhong1 yu2 ke3 yi3 chu1 men2 le5.",
         "translation_en": "Yeah, I felt very happy, and finally could go out.",
         "translation_ko": "네, 정말 기뻤어요. 드디어 나갈 수 있었어요.",
         "token_ids": [
@@ -14955,7 +14955,7 @@
         "speaker": "B",
         "text": "哎呀，那後來呢？",
         "pinyin": "Āiyā, nà hòulái ne?",
-        "pinyin_numeric": "Ai1 ya1, na4 hou4 lai2 ne5?",
+        "pinyin_numeric": "Ai1 ya1, na4 hou4 lai2 ne0?",
         "translation_en": "Oh dear, and then?",
         "translation_ko": "아이고, 그런데 나중에는요?",
         "token_ids": [
@@ -14990,7 +14990,7 @@
         "speaker": "B",
         "text": "天啊！那你一定很難過吧？",
         "pinyin": "Tiān a! Nà nǐ yídìng hěn nánguò ba?",
-        "pinyin_numeric": "Tian1 a5! Na4 ni3 yi2 ding4 hen3 nan2 guo4 ba5?",
+        "pinyin_numeric": "Tian1 a0! Na4 ni3 yi2 ding4 hen3 nan2 guo4 ba5?",
         "translation_en": "Oh my god! You must have been very upset, right?",
         "translation_ko": "세상에! 그럼 정말 속상했겠네요?",
         "token_ids": [
@@ -15007,7 +15007,7 @@
         "speaker": "A",
         "text": "對啊，我覺得很生氣，可是後來想想，也沒辦法。",
         "pinyin": "Duì a, wǒ juéde hěn shēngqì, kěshì hòulái xiǎngxiǎng, yě méi bànfǎ.",
-        "pinyin_numeric": "Dui4 a5, wo3 jue2 de5 hen3 sheng1 qi4, ke3 shi4 hou4 lai2 xiang3 xiang3, ye3 mei2 ban4 fa3.",
+        "pinyin_numeric": "Dui4 a0, wo3 jue2 de5 hen3 sheng1 qi4, ke3 shi4 hou4 lai2 xiang3 xiang3, ye3 mei2 ban4 fa3.",
         "translation_en": "Yeah, I felt very angry, but later I thought about it, there was nothing I could do.",
         "translation_ko": "네, 정말 화가 났는데 나중에 생각해보니 어쩔 수 없더라고요.",
         "token_ids": [
@@ -15093,7 +15093,7 @@
         "speaker": "B",
         "text": "真的嗎？然後呢？",
         "pinyin": "Zhēn de ma? Ránhòu ne?",
-        "pinyin_numeric": "zhen1 de5 ma5? ran2 hou4 ne5?",
+        "pinyin_numeric": "zhen1 de5 ma0? ran2 hou4 ne0?",
         "translation_en": "Really? And then?",
         "translation_ko": "정말요? 그리고요?",
         "token_ids": [
@@ -15131,7 +15131,7 @@
         "speaker": "B",
         "text": "然後呢？你怎麼做？",
         "pinyin": "Ránhòu ne? Nǐ zěnme zuò?",
-        "pinyin_numeric": "ran2 hou4 ne5? ni3 zen3 me0 zuo4?",
+        "pinyin_numeric": "ran2 hou4 ne0? ni3 zen3 me0 zuo4?",
         "translation_en": "And then? What did you do?",
         "translation_ko": "그리고요? 어떻게 하셨어요?",
         "token_ids": [
@@ -15165,7 +15165,7 @@
         "speaker": "B",
         "text": "原來是這樣！後來呢？",
         "pinyin": "Yuánlái shì zhèyàng! Hòulái ne?",
-        "pinyin_numeric": "yuan2 lai2 shi4 zhe4 yang4! hou4 lai2 ne5?",
+        "pinyin_numeric": "yuan2 lai2 shi4 zhe4 yang4! hou4 lai2 ne0?",
         "translation_en": "So that's how it was! And later?",
         "translation_ko": "그랬군요! 그다음에는요?",
         "token_ids": [
@@ -15266,7 +15266,7 @@
         "speaker": "B",
         "text": "怎麼了？可以講清楚一點嗎？",
         "pinyin": "Zěnme le? Kěyǐ jiǎng qīngchu yīdiǎn ma?",
-        "pinyin_numeric": "zen3 me0 le5? ke3 yi3 jiang3 qing1 chu5 yi1 dian3 ma5?",
+        "pinyin_numeric": "zen3 me0 le5? ke3 yi3 jiang3 qing1 chu5 yi1 dian3 ma0?",
         "translation_en": "What happened? Can you explain a bit more clearly?",
         "translation_ko": "어떻게 된 거예요? 좀 더 자세히 말해 주시겠어요?",
         "token_ids": [
@@ -15455,7 +15455,7 @@
         "speaker": "B",
         "text": "然後呢？你認識那個人嗎？",
         "pinyin": "Ránhòu ne? Nǐ rènshi nà ge rén ma?",
-        "pinyin_numeric": "ran2 hou4 ne5? ni3 ren4 shi5 na4 ge4 ren2 ma5?",
+        "pinyin_numeric": "ran2 hou4 ne0? ni3 ren4 shi5 na4 ge4 ren2 ma0?",
         "translation_en": "And then? Do you know that person?",
         "translation_ko": "그런데요? 그 사람을 아세요?",
         "token_ids": [
@@ -15494,7 +15494,7 @@
         "speaker": "B",
         "text": "然後呢？你有跟他說話嗎？",
         "pinyin": "Ránhòu ne? Nǐ yǒu gēn tā shuōhuà ma?",
-        "pinyin_numeric": "ran2 hou4 ne5? ni3 you3 gen1 ta1 shuo1 hua4 ma5?",
+        "pinyin_numeric": "ran2 hou4 ne0? ni3 you3 gen1 ta1 shuo1 hua4 ma0?",
         "translation_en": "And then? Did you talk to him?",
         "translation_ko": "그런데요? 그 사람과 이야기했어요?",
         "token_ids": [
@@ -15513,7 +15513,7 @@
         "speaker": "A",
         "text": "有啊，我問他能不能教我拍照。",
         "pinyin": "Yǒu a, wǒ wèn tā néng bù néng jiào wǒ pāizhào.",
-        "pinyin_numeric": "you3 a5, wo3 wen4 ta1 neng2 bu4 neng2 jiao4 wo3 pai1 zhao4.",
+        "pinyin_numeric": "you3 a0, wo3 wen4 ta1 neng2 bu4 neng2 jiao4 wo3 pai1 zhao4.",
         "translation_en": "Yes, I asked him if he could teach me to take photos.",
         "translation_ko": "네, 사진 찍는 법을 가르쳐 줄 수 있는지 물어봤어요.",
         "token_ids": [
@@ -15533,7 +15533,7 @@
         "speaker": "B",
         "text": "然後呢？他怎麼說？",
         "pinyin": "Ránhòu ne? Tā zěnme shuō?",
-        "pinyin_numeric": "ran2 hou4 ne5? ta1 zen3 me0 shuo1?",
+        "pinyin_numeric": "ran2 hou4 ne0? ta1 zen3 me0 shuo1?",
         "translation_en": "And then? What did he say?",
         "translation_ko": "그런데요? 그가 뭐라고 했어요?",
         "token_ids": [
@@ -15721,7 +15721,7 @@
         "speaker": "客人",
         "text": "對啊，就這樣。謝謝。",
         "pinyin": "Duì a, jiù zhèyàng. Xièxiè.",
-        "pinyin_numeric": "Dui4 a5, jiu4 zhe4 yang4. Xie4 xie5.",
+        "pinyin_numeric": "Dui4 a0, jiu4 zhe4 yang4. Xie4 xie5.",
         "translation_en": "Yeah, that's it. Thank you.",
         "translation_ko": "네, 그게 다예요. 감사합니다.",
         "token_ids": [
@@ -15781,7 +15781,7 @@
         "speaker": "A",
         "text": "你知道嗎，我昨天去了一家新的餐廳，就是說，在公司附近。",
         "pinyin": "Nǐ zhīdào ma, wǒ zuótiān qù le yī jiā xīn de cāntīng, jiùshì shuō, zài gōngsī fùjìn.",
-        "pinyin_numeric": "Ni3 zhi1 dao4 ma5, wo3 zuo2 tian1 qu4 le5 yi1 jia1 xin1 de5 can1 ting1, jiu4 shi4 shuo1, zai4 gong1 si1 fu4 jin4.",
+        "pinyin_numeric": "Ni3 zhi1 dao4 ma0, wo3 zuo2 tian1 qu4 le5 yi1 jia1 xin1 de5 can1 ting1, jiu4 shi4 shuo1, zai4 gong1 si1 fu4 jin4.",
         "translation_en": "You know, I went to a new restaurant yesterday, I mean, near the company.",
         "translation_ko": "있잖아, 나 어제 새 식당에 갔어, 그러니까, 회사 근처에.",
         "token_ids": [
@@ -15808,7 +15808,7 @@
         "speaker": "B",
         "text": "哦，是嗎？那家店怎麼樣？",
         "pinyin": "Ō, shì ma? Nà jiā diàn zěnme yàng?",
-        "pinyin_numeric": "O1, shi4 ma5? Na4 jia1 dian4 zen3 me0 yang4?",
+        "pinyin_numeric": "O1, shi4 ma0? Na4 jia1 dian4 zen3 me0 yang4?",
         "translation_en": "Oh, really? How was that place?",
         "translation_ko": "아, 그래? 그 가게 어땠어?",
         "token_ids": [
@@ -15853,7 +15853,7 @@
         "speaker": "B",
         "text": "這樣啊。那你會再去嗎？",
         "pinyin": "Zhèyàng a. Nà nǐ huì zài qù ma?",
-        "pinyin_numeric": "Zhe4 yang4 a5. Na4 ni3 hui4 zai4 qu4 ma5?",
+        "pinyin_numeric": "Zhe4 yang4 a0. Na4 ni3 hui4 zai4 qu4 ma0?",
         "translation_en": "I see. Would you go again?",
         "translation_ko": "그렇구나. 그럼 다시 갈 거야?",
         "token_ids": [
@@ -15942,7 +15942,7 @@
         "speaker": "A",
         "text": "我們下個星期六去九份，好嗎？",
         "pinyin": "Wǒmen xià ge xīngqī liù qù jiǔfèn, hǎo ma?",
-        "pinyin_numeric": "Wo3 men5 xia4 ge5 xing1 qi1 liu4 qu4 jiu3 fen4, hao3 ma5?",
+        "pinyin_numeric": "Wo3 men5 xia4 ge5 xing1 qi1 liu4 qu4 jiu3 fen4, hao3 ma0?",
         "translation_en": "Let's go to Jiufen next Saturday, okay?",
         "translation_ko": "우리 다음 주 토요일에 지우펀에 가는 게 어때?",
         "token_ids": [
@@ -15985,7 +15985,7 @@
         "speaker": "A",
         "text": "對啊，那裡有很多特產，還有好看的風景。",
         "pinyin": "Duì a, nà lǐ yǒu hěn duō tèchǎn, hái yǒu hǎo kàn de fēngjǐng.",
-        "pinyin_numeric": "Dui4 a5, na4 li3 you3 hen3 duo1 te4 chan3, hai2 you3 hao3 kan4 de5 feng1 jing3.",
+        "pinyin_numeric": "Dui4 a0, na4 li3 you3 hen3 duo1 te4 chan3, hai2 you3 hao3 kan4 de5 feng1 jing3.",
         "translation_en": "Yeah, there are lots of local specialties and beautiful scenery.",
         "translation_ko": "맞아, 거기 특산물도 많고 경치도 예뻐.",
         "token_ids": [
@@ -16027,7 +16027,7 @@
         "speaker": "A",
         "text": "我覺得坐火車比較好，因為不用擔心塞車。你覺得呢？",
         "pinyin": "Wǒ juéde zuò huǒchē bǐjiào hǎo, yīnwèi bùyòng dānxīn sāichē. Nǐ juéde ne?",
-        "pinyin_numeric": "Wo3 jue2 de5 zuo4 huo3 che1 bi3 jiao4 hao3, yin1 wei4 bu4 yong4 dan1 xin1 sai1 che1. Ni3 jue2 de5 ne5?",
+        "pinyin_numeric": "Wo3 jue2 de5 zuo4 huo3 che1 bi3 jiao4 hao3, yin1 wei4 bu4 yong4 dan1 xin1 sai1 che1. Ni3 jue2 de5 ne0?",
         "translation_en": "I think taking the train is better because we don't have to worry about traffic. What do you think?",
         "translation_ko": "나는 기차 타는 게 더 나은 것 같아, 차 막힐 걱정이 없으니까. 너는 어떻게 생각해?",
         "token_ids": [
@@ -16048,7 +16048,7 @@
         "speaker": "B",
         "text": "也對，那我們就坐火車。我再確認一下，是下個星期六上午出發，對嗎？",
         "pinyin": "Yě duì, nà wǒmen jiù zuò huǒchē. Wǒ zài quèrèn yīxià, shì xià ge xīngqī liù shàngwǔ chūfā, duì ma?",
-        "pinyin_numeric": "Ye3 dui4, na4 wo3 men5 jiu4 zuo4 huo3 che1. Wo3 zai4 que4 ren4 yi1 xia4, shi4 xia4 ge5 xing1 qi1 liu4 shang4 wu3 chu1 fa1, dui4 ma5?",
+        "pinyin_numeric": "Ye3 dui4, na4 wo3 men5 jiu4 zuo4 huo3 che1. Wo3 zai4 que4 ren4 yi1 xia4, shi4 xia4 ge5 xing1 qi1 liu4 shang4 wu3 chu1 fa1, dui4 ma0?",
         "translation_en": "That's right, so let's take the train. Let me confirm, we're leaving next Saturday morning, right?",
         "translation_ko": "그래, 그럼 기차 타자. 내가 다시 확인할게, 다음 주 토요일 오전에 출발하는 거 맞지?",
         "token_ids": [
@@ -16135,7 +16135,7 @@
         "speaker": "A",
         "text": "不好意思，我聽不懂你的意思。可以再說一次嗎？",
         "pinyin": "Bù hǎo yìsi, wǒ tīng bù dǒng nǐ de yìsi. Kěyǐ zài shuō yī cì ma?",
-        "pinyin_numeric": "bu4 hao3 yi4 si5, wo3 ting1 bu4 dong3 ni3 de5 yi4 si5. ke3 yi3 zai4 shuo1 yi1 ci4 ma5?",
+        "pinyin_numeric": "bu4 hao3 yi4 si5, wo3 ting1 bu4 dong3 ni3 de5 yi4 si5. ke3 yi3 zai4 shuo1 yi1 ci4 ma0?",
         "translation_en": "Excuse me, I don't understand what you mean. Can you say it again?",
         "translation_ko": "죄송합니다만, 무슨 뜻인지 모르겠어요. 한 번 더 말씀해 주시겠어요?",
         "token_ids": [
@@ -16204,7 +16204,7 @@
         "speaker": "B",
         "text": "不是的，是句子本身有錯誤。我們確認一下，好嗎？",
         "pinyin": "Bù shì de, shì jùzi běnshēn yǒu cuòwù. Wǒmen quèrèn yīxià, hǎo ma?",
-        "pinyin_numeric": "bu4 shi4 de5, shi4 ju4 zi5 ben3 shen1 you3 cuo4 wu4. wo3 men5 que4 ren4 yi1 xia4, hao3 ma5?",
+        "pinyin_numeric": "bu4 shi4 de5, shi4 ju4 zi5 ben3 shen1 you3 cuo4 wu4. wo3 men5 que4 ren4 yi1 xia4, hao3 ma0?",
         "translation_en": "No, it's the sentence itself that has a mistake. Let's confirm it, okay?",
         "translation_ko": "아니에요, 문장 자체에 오류가 있는 거예요. 확인해 볼까요?",
         "token_ids": [
@@ -16337,7 +16337,7 @@
         "speaker": "A",
         "text": "不好意思，你說得太快了。可以說慢一點嗎？",
         "pinyin": "Bù hǎo yìsi, nǐ shuō de tài kuài le. Kěyǐ shuō màn yīdiǎn ma?",
-        "pinyin_numeric": "bu4 hao3 yi4 si5, ni3 shuo1 de5 tai4 kuai4 le5. ke3 yi3 shuo1 man4 yi1 dian3 ma5?",
+        "pinyin_numeric": "bu4 hao3 yi4 si5, ni3 shuo1 de5 tai4 kuai4 le5. ke3 yi3 shuo1 man4 yi1 dian3 ma0?",
         "translation_en": "Excuse me, you spoke too fast. Can you speak a little slower?",
         "translation_ko": "죄송합니다만, 너무 빠르게 말씀하셨어요. 조금 천천히 말씀해 주시겠어요?",
         "token_ids": [
@@ -16381,7 +16381,7 @@
         "speaker": "A",
         "text": "嗯…我以為答案是「三」，可是你說的是「四」嗎？",
         "pinyin": "Ēn... wǒ yǐwéi dá'àn shì 'sān', kěshì nǐ shuō de shì 'sì' ma?",
-        "pinyin_numeric": "en1... wo3 yi3 wei2 da2 an4 shi4 'san1', ke3 shi4 ni3 shuo1 de5 shi4 'si4' ma5?",
+        "pinyin_numeric": "en1... wo3 yi3 wei2 da2 an4 shi4 'san1', ke3 shi4 ni3 shuo1 de5 shi4 'si4' ma0?",
         "translation_en": "Hmm... I thought the answer was 'three', but did you say 'four'?",
         "translation_ko": "음... 저는 답이 '3'이라고 생각했는데, '4'라고 말씀하셨나요?",
         "token_ids": [
@@ -16448,7 +16448,7 @@
         "speaker": "B",
         "text": "沒關係。答案是「三」。你明白了嗎？",
         "pinyin": "Méi guānxi. Dá'àn shì 'sān'. Nǐ míngbái le ma?",
-        "pinyin_numeric": "mei2 guan1 xi5. da2 an4 shi4 'san1'. ni3 ming2 bai2 le5 ma5?",
+        "pinyin_numeric": "mei2 guan1 xi5. da2 an4 shi4 'san1'. ni3 ming2 bai2 le5 ma0?",
         "translation_en": "No problem. The answer is 'three'. Do you understand?",
         "translation_ko": "괜찮아요. 답은 '3'입니다. 이해하셨나요?",
         "token_ids": [
@@ -16526,7 +16526,7 @@
         "speaker": "A",
         "text": "我想確認一下你的意思。你說的「改時間」是改到明天嗎？",
         "pinyin": "Wǒ xiǎng quèrèn yīxià nǐ de yìsi. Nǐ shuō de 'gǎi shíjiān' shì gǎi dào míngtiān ma?",
-        "pinyin_numeric": "wo3 xiang3 que4 ren4 yi1 xia4 ni3 de5 yi4 si5. ni3 shuo1 de5 'gai3 shi2 jian1' shi4 gai3 dao4 ming2 tian1 ma5?",
+        "pinyin_numeric": "wo3 xiang3 que4 ren4 yi1 xia4 ni3 de5 yi4 si5. ni3 shuo1 de5 'gai3 shi2 jian1' shi4 gai3 dao4 ming2 tian1 ma0?",
         "translation_en": "I'd like to confirm what you mean. Does 'reschedule' mean change to tomorrow?",
         "translation_ko": "무슨 뜻인지 확인하고 싶어요. '시간을 바꾸다'라는 게 내일로 바꾸는 건가요?",
         "token_ids": [
@@ -16603,7 +16603,7 @@
         "speaker": "B",
         "text": "對，就是這樣。我們再確認一次，好嗎？",
         "pinyin": "Duì, jiù shì zhèyàng. Wǒmen zài quèrèn yī cì, hǎo ma?",
-        "pinyin_numeric": "dui4, jiu4 shi4 zhe4 yang4. wo3 men5 zai4 que4 ren4 yi1 ci4, hao3 ma5?",
+        "pinyin_numeric": "dui4, jiu4 shi4 zhe4 yang4. wo3 men5 zai4 que4 ren4 yi1 ci4, hao3 ma0?",
         "translation_en": "Yes, that's right. Let's confirm once more, okay?",
         "translation_ko": "네, 그렇습니다. 한 번 더 확인할까요?",
         "token_ids": [
@@ -16855,7 +16855,7 @@
         "speaker": "客人",
         "text": "不好意思，請問這個標示是什麼意思？",
         "pinyin": "Bù hǎo yìsi, qǐngwèn zhège biāoshì shì shénme yìsi?",
-        "pinyin_numeric": "Bu4 hao3 yi4si, qing3wen4 zhe4ge biao1shi4 shi4 shen2 me0 yi4si?",
+        "pinyin_numeric": "Bu4 hao3 yi4si, qing3 wen4 zhe4 ge0 biao1shi4 shi4 shen2 me0 yi4si?",
         "translation_en": "Excuse me, what does this sign mean?",
         "translation_ko": "실례합니다, 이 표시가 무슨 뜻인가요?",
         "token_ids": [
@@ -16874,7 +16874,7 @@
         "speaker": "店員",
         "text": "那個是禁止吸菸的標示。",
         "pinyin": "Nàge shì jìnzhǐ xīyān de biāoshì.",
-        "pinyin_numeric": "Na4ge shi4 jin4zhi3 xi1yan1 de biao1shi4.",
+        "pinyin_numeric": "na4 ge0 shi4 jin4zhi3 xi1yan1 de biao1shi4.",
         "translation_en": "That's a no smoking sign.",
         "translation_ko": "그것은 금연 표시입니다.",
         "token_ids": [
@@ -16984,7 +16984,7 @@
         "speaker": "A",
         "text": "你看這個海報，上面說要填寫表格。",
         "pinyin": "Nǐ kàn zhège hǎibào, shàngmiàn shuō yào tiánxiě biǎogé.",
-        "pinyin_numeric": "Ni3 kan4 zhe4ge hai3bao4, shang4mian4 shuo1 yao4 tian2xie3 biao3ge2.",
+        "pinyin_numeric": "Ni3 kan4 zhe4 ge0 hai3bao4, shang4mian4 shuo1 yao4 tian2xie3 biao3ge2.",
         "translation_en": "Look at this poster, it says you need to fill out a form.",
         "translation_ko": "이 포스터를 보세요, 신청서를 작성해야 한다고 해요.",
         "token_ids": [
@@ -17643,7 +17643,7 @@
         "speaker": "B",
         "text": "可以，沒問題。在哪裡見面？",
         "pinyin": "Kěyǐ, méi wèntí. Zài nǎlǐ jiànmiàn?",
-        "pinyin_numeric": "Ke3yi3, mei2 wen4ti2. Zai4 na3li3 jian4mian4?",
+        "pinyin_numeric": "ke3 yi3, mei2 wen4ti2. Zai4 na3 li3 jian4mian4?",
         "translation_en": "Sure, no problem. Where shall we meet?",
         "translation_ko": "네, 괜찮아요. 어디서 만날까요?",
         "token_ids": [
@@ -18082,7 +18082,7 @@
         "speaker": "A",
         "text": "牛肉麵不錯，可是我想吃滷肉飯，有沒有賣滷肉飯的餐廳？",
         "pinyin": "Niúròumiàn bùcuò, kěshì wǒ xiǎng chī lǔròufàn, yǒu méiyǒu mài lǔròufàn de cāntīng?",
-        "pinyin_numeric": "Niu2rou4mian4 bu4cuo4, ke3shi4 wo3 xiang3 chi1 lu3rou4fan4, you3 mei2you3 mai4 lu3rou4fan4 de can1ting1?",
+        "pinyin_numeric": "Niu2rou4mian4 bu4cuo4, ke3shi4 wo3 xiang3 chi1 lu3rou4fan4, you3 mei2 you3 mai4 lu3rou4fan4 de can1ting1?",
         "translation_en": "Beef noodles are good, but I'd like braised pork rice. Is there a restaurant that sells braised pork rice?",
         "translation_ko": "소고기 국수도 좋지만 저는 루로우판을 먹고 싶어요. 루로우판을 파는 식당이 있나요?",
         "token_ids": [
@@ -18245,7 +18245,7 @@
         "speaker": "A",
         "text": "三點可以，不過我想提早到兩點半，因為我晚上還有事。",
         "pinyin": "Sān diǎn kěyǐ, bùguò wǒ xiǎng tízǎo dào liǎng diǎn bàn, yīnwèi wǒ wǎnshàng hái yǒu shì.",
-        "pinyin_numeric": "San1 dian3 ke3yi3, bu4guo4 wo3 xiang3 ti2zao3 dao4 liang3 dian3 ban4, yin1wei4 wo3 wan3shang4 hai2 you3 shi4.",
+        "pinyin_numeric": "San1 dian3 ke3 yi3, bu4guo4 wo3 xiang3 ti2zao3 dao4 liang3 dian3 ban4, yin1wei4 wo3 wan3shang4 hai2 you3 shi4.",
         "translation_en": "3 o'clock is fine, but I'd like to move it earlier to 2:30 because I have something to do in the evening.",
         "translation_ko": "3시도 괜찮은데, 제가 저녁에 일이 있어서 2시 30분으로 일찍 당기고 싶어요.",
         "token_ids": [
@@ -18355,7 +18355,7 @@
         "speaker": "A",
         "text": "不好意思，請問到台北車站要怎麼走？",
         "pinyin": "Bù hǎoyìsi, qǐngwèn dào Táiběi chēzhàn yào zěnme zǒu?",
-        "pinyin_numeric": "Bu4 hao3yi4si, qing3wen4 dao4 Tai2bei3 che1zhan4 yao4 zen3 me0 zou3?",
+        "pinyin_numeric": "Bu4 hao3yi4si, qing3 wen4 dao4 Tai2bei3 che1zhan4 yao4 zen3 me0 zou3?",
         "translation_en": "Excuse me, how do I get to Taipei Main Station?",
         "translation_ko": "실례합니다, 타이베이 역까지 어떻게 가나요?",
         "token_ids": [
@@ -18375,7 +18375,7 @@
         "speaker": "B",
         "text": "你可以搭捷運，也可以搭公車。你比較想選哪一種？",
         "pinyin": "Nǐ kěyǐ dā jiéyùn, yě kěyǐ dā gōngchē. Nǐ bǐjiào xiǎng xuǎn nǎ yī zhǒng?",
-        "pinyin_numeric": "Ni3 ke3yi3 da1 jie2yun4, ye3 ke3yi3 da1 gong1che1. Ni3 bi3jiao4 xiang3 xuan3 na3 yi1 zhong3?",
+        "pinyin_numeric": "Ni3 ke3 yi3 da1 jie2yun4, ye3 ke3 yi3 da1 gong1che1. Ni3 bi3jiao4 xiang3 xuan3 na3 yi1 zhong3?",
         "translation_en": "You can take the MRT or the bus. Which one would you prefer?",
         "translation_ko": "MRT? 타도 되고 버스를 타도 됩니다. 어떤 것을 더 선호하시나요?",
         "token_ids": [
@@ -18440,7 +18440,7 @@
         "speaker": "A",
         "text": "好，那我搭捷運。請問捷運站入口在哪裡？",
         "pinyin": "Hǎo, nà wǒ dā jiéyùn. Qǐngwèn jiéyùn zhàn rùkǒu zài nǎlǐ?",
-        "pinyin_numeric": "Hao3, na4 wo3 da1 jie2yun4. Qing3wen4 jie2yun4 zhan4 ru4kou3 zai4 na3li3?",
+        "pinyin_numeric": "Hao3, na4 wo3 da1 jie2yun4. qing3 wen4 jie2yun4 zhan4 ru4kou3 zai4 na3 li3?",
         "translation_en": "Okay, I'll take the MRT. Where is the MRT station entrance?",
         "translation_ko": "좋아요, 그럼 MRT? 타겠습니다. MRT? 입구가 어디에 있나요?",
         "token_ids": [
@@ -18544,7 +18544,7 @@
         "speaker": "A",
         "text": "你好，請問你從哪裡來？",
         "pinyin": "Nǐ hǎo, qǐng wèn nǐ cóng nǎlǐ lái?",
-        "pinyin_numeric": "Ni3 hao3, qing3 wen4 ni3 cong2 na3li3 lai2?",
+        "pinyin_numeric": "Ni3 hao3, qing3 wen4 ni3 cong2 na3 li3 lai2?",
         "translation_en": "Hello, may I ask where you are from?",
         "translation_ko": "안녕하세요, 어디에서 오셨나요?",
         "token_ids": [
@@ -18637,7 +18637,7 @@
         "speaker": "B",
         "text": "我已經學了半年。希望將來可以說得很流利。",
         "pinyin": "Wǒ yǐjīng xué le bàn nián. Xīwàng jiānglái kěyǐ shuō de hěn liúlì.",
-        "pinyin_numeric": "Wo3 yi3jing1 xue2 le ban4 nian2. Xi1wang4 jiang1lai2 ke3yi3 shuo1 de hen3 liu2li4.",
+        "pinyin_numeric": "Wo3 yi3jing1 xue2 le ban4 nian2. Xi1wang4 jiang1lai2 ke3 yi3 shuo1 de hen3 liu2li4.",
         "translation_en": "I've been learning for half a year. I hope to speak fluently in the future.",
         "translation_ko": "반 년째 배우고 있어요. 앞으로 유창하게 말할 수 있으면 좋겠어요.",
         "token_ids": [
@@ -18870,7 +18870,7 @@
         "speaker": "B",
         "text": "我希望將來可以通過中文考試。",
         "pinyin": "Wǒ xīwàng jiānglái kěyǐ tōngguò Zhōngwén kǎoshì.",
-        "pinyin_numeric": "Wo3 xi1wang4 jiang1lai2 ke3yi3 tong1guo4 Zhong1wen2 kao3shi4.",
+        "pinyin_numeric": "Wo3 xi1wang4 jiang1lai2 ke3 yi3 tong1guo4 Zhong1wen2 kao3shi4.",
         "translation_en": "I hope to pass the Chinese exam in the future.",
         "translation_ko": "앞으로 중국어 시험에 합격할 수 있으면 좋겠어요.",
         "token_ids": [
@@ -18972,7 +18972,7 @@
         "speaker": "A",
         "text": "你的故鄉在哪裡？",
         "pinyin": "Nǐ de gùxiāng zài nǎlǐ?",
-        "pinyin_numeric": "Ni3 de gu4xiang1 zai4 na3li3?",
+        "pinyin_numeric": "Ni3 de gu4xiang1 zai4 na3 li3?",
         "translation_en": "Where is your hometown?",
         "translation_ko": "고향이 어디인가요?",
         "token_ids": [
@@ -19212,7 +19212,7 @@
         "speaker": "A",
         "text": "真的嗎？那我們可以一起去看電影，你覺得怎麼樣？",
         "pinyin": "Zhēn de ma? Nà wǒmen kěyǐ yìqǐ qù kàn diànyǐng, nǐ juéde zěnmeyàng?",
-        "pinyin_numeric": "Zhen1 de5 ma5? Na4 wo3men5 ke3yi3 yi4qi3 qu4 kan4 dian4ying3, ni3 jue2de5 zen3 me0yang4?",
+        "pinyin_numeric": "Zhen1 de5 ma0? Na4 wo3men5 ke3 yi3 yi4qi3 qu4 kan4 dian4ying3, ni3 jue2de5 zen3 me0yang4?",
         "translation_en": "Really? Then we can go see a movie together, what do you think?",
         "translation_ko": "정말요? 그럼 우리 함께 영화 보러 갈 수 있는데, 어떻게 생각하세요?",
         "token_ids": [
@@ -19230,7 +19230,7 @@
         "speaker": "B",
         "text": "好啊！下次週末見面，再聊。",
         "pinyin": "Hǎo a! Xià cì zhōumò jiànmiàn, zài liáo.",
-        "pinyin_numeric": "Hao3 a5! Xia4 ci4 zhou1mo4 jian4mian4, zai4 liao2.",
+        "pinyin_numeric": "Hao3 a0! Xia4 ci4 zhou1mo4 jian4mian4, zai4 liao2.",
         "translation_en": "Sure! Let's meet next weekend and chat more.",
         "translation_ko": "좋아요! 다음 주말에 만나서 더 이야기해요.",
         "token_ids": [
@@ -19310,7 +19310,7 @@
         "speaker": "B",
         "text": "你好，我叫美玲，我是台灣人。你想學中文嗎？",
         "pinyin": "Nǐ hǎo, wǒ jiào Měi Líng, wǒ shì Táiwān rén. Nǐ xiǎng xué Zhōngwén ma?",
-        "pinyin_numeric": "Ni3 hao3, wo3 jiao4 Mei3 Ling2, wo3 shi4 Tai2wan1 ren2. Ni3 xiang3 xue2 Zhong1wen2 ma5?",
+        "pinyin_numeric": "Ni3 hao3, wo3 jiao4 Mei3 Ling2, wo3 shi4 Tai2wan1 ren2. Ni3 xiang3 xue2 Zhong1wen2 ma0?",
         "translation_en": "Hello, my name is Mei Ling, I'm Taiwanese. Do you want to learn Chinese?",
         "translation_ko": "안녕하세요, 저는 메이링이라고 합니다. 저는 대만 사람입니다. 중국어를 배우고 싶으세요?",
         "token_ids": [
@@ -19333,7 +19333,7 @@
         "speaker": "A",
         "text": "對啊，我想學中文，不過我的中文不太好。",
         "pinyin": "Duì a, wǒ xiǎng xué Zhōngwén, búguò wǒ de Zhōngwén bú tài hǎo.",
-        "pinyin_numeric": "Dui4 a5, wo3 xiang3 xue2 Zhong1wen2, bu2guo4 wo3 de5 Zhong1wen2 bu2 tai4 hao3.",
+        "pinyin_numeric": "Dui4 a0, wo3 xiang3 xue2 Zhong1wen2, bu2guo4 wo3 de5 Zhong1wen2 bu2 tai4 hao3.",
         "translation_en": "Yes, I'd like to learn Chinese, but my Chinese is not very good.",
         "translation_ko": "네, 중국어를 배우고 싶은데, 제 중국어가 별로 좋지 않습니다.",
         "token_ids": [
@@ -19355,7 +19355,7 @@
         "speaker": "B",
         "text": "沒關係，我們可以一起練習。你教我英文，我教你中文。",
         "pinyin": "Méi guānxi, wǒmen kěyǐ yìqǐ liànxí. Nǐ jiào wǒ Yīngwén, wǒ jiào nǐ Zhōngwén.",
-        "pinyin_numeric": "Mei2 guan1xi5, wo3men5 ke3yi3 yi4qi3 lian4xi2. Ni3 jiao4 wo3 Ying1wen2, wo3 jiao4 ni3 Zhong1wen2.",
+        "pinyin_numeric": "Mei2 guan1xi5, wo3men5 ke3 yi3 yi4qi3 lian4xi2. Ni3 jiao4 wo3 Ying1wen2, wo3 jiao4 ni3 Zhong1wen2.",
         "translation_en": "No problem, we can practice together. You teach me English, I teach you Chinese.",
         "translation_ko": "괜찮아요, 우리 함께 연습할 수 있어요. 당신이 저에게 영어를 가르치고, 제가 당신에게 중국어를 가르칠게요.",
         "token_ids": [
@@ -19379,7 +19379,7 @@
         "speaker": "A",
         "text": "太好了！你覺得我們什麼時候可以見面？",
         "pinyin": "Tài hǎo le! Nǐ juéde wǒmen shénme shíhou kěyǐ jiànmiàn?",
-        "pinyin_numeric": "Tai4 hao3 le5! Ni3 jue2de5 wo3men5 shen2 me0 shi2hou5 ke3yi3 jian4mian4?",
+        "pinyin_numeric": "Tai4 hao3 le5! Ni3 jue2de5 wo3men5 shen2 me0 shi2hou5 ke3 yi3 jian4mian4?",
         "translation_en": "Great! When do you think we can meet?",
         "translation_ko": "정말 좋아요! 우리 언제 만날 수 있을까요?",
         "token_ids": [
@@ -19399,7 +19399,7 @@
         "speaker": "B",
         "text": "這個週末方便嗎？我們可以約在咖啡店聊天。",
         "pinyin": "Zhège zhōumò fāngbiàn ma? Wǒmen kěyǐ yuē zài kāfēi diàn liáotiān.",
-        "pinyin_numeric": "Zhe4ge5 zhou1mo4 fang1bian4 ma5? Wo3men5 ke3yi3 yue1 zai4 ka1fei1 dian4 liao2tian1.",
+        "pinyin_numeric": "zhe4 ge0 zhou1mo4 fang1bian4 ma0? Wo3men5 ke3 yi3 yue1 zai4 ka1fei1 dian4 liao2tian1.",
         "translation_en": "Is this weekend convenient? We can meet at a coffee shop and chat.",
         "translation_ko": "이번 주말에 괜찮으세요? 커피숍에서 만나서 이야기할 수 있어요.",
         "token_ids": [
@@ -19420,7 +19420,7 @@
         "speaker": "A",
         "text": "好啊，下次見！",
         "pinyin": "Hǎo a, xià cì jiàn!",
-        "pinyin_numeric": "Hao3 a5, xia4 ci4 jian4!",
+        "pinyin_numeric": "Hao3 a0, xia4 ci4 jian4!",
         "translation_en": "Sure, see you next time!",
         "translation_ko": "좋아요, 다음에 뵙겠습니다!",
         "token_ids": [
@@ -19521,7 +19521,7 @@
         "speaker": "A",
         "text": "謝謝！最近你忙嗎？我剛搬來，還在整理東西。",
         "pinyin": "Xièxie! Zuìjìn nǐ máng ma? Wǒ gāng bān lái, hái zài zhěnglǐ dōngxi.",
-        "pinyin_numeric": "Xie4xie5! Zui4jin4 ni3 mang2 ma5? Wo3 gang1 ban1 lai2, hai2 zai4 zheng3li3 dong1xi5.",
+        "pinyin_numeric": "Xie4xie5! Zui4jin4 ni3 mang2 ma0? Wo3 gang1 ban1 lai2, hai2 zai4 zheng3li3 dong1xi5.",
         "translation_en": "Thank you! Have you been busy lately? I just moved in and am still organizing things.",
         "translation_ko": "감사합니다! 요즘 바쁘세요? 저는 이사 온 지 얼마 안 되어 아직 정리 중입니다.",
         "token_ids": [
@@ -19542,7 +19542,7 @@
         "speaker": "B",
         "text": "我也很忙，不過週末打算休息一下。你有空可以來我家坐坐。",
         "pinyin": "Wǒ yě hěn máng, búguò zhōumò dǎsuàn xiūxí yíxià. Nǐ yǒu kòng kěyǐ lái wǒ jiā zuò zuò.",
-        "pinyin_numeric": "Wo3 ye3 hen3 mang2, bu2guo4 zhou1mo4 da3suan4 xiu1xi5 yi2xia4. Ni3 you3 kong4 ke3yi3 lai2 wo3 jia1 zuo4 zuo5.",
+        "pinyin_numeric": "Wo3 ye3 hen3 mang2, bu2guo4 zhou1mo4 da3suan4 xiu1xi5 yi2xia4. Ni3 you3 kong4 ke3 yi3 lai2 wo3 jia1 zuo4 zuo5.",
         "translation_en": "I'm also very busy, but I plan to rest a bit on the weekend. If you're free, you can come over to my place and sit for a while.",
         "translation_ko": "저도 바쁘지만 주말에는 좀 쉴 생각입니다. 시간이 되시면 저희 집에 놀러 오세요.",
         "token_ids": [
@@ -19571,7 +19571,7 @@
         "speaker": "A",
         "text": "好啊，改天見！",
         "pinyin": "Hǎo a, gǎitiān jiàn!",
-        "pinyin_numeric": "Hao3 a5, gai3tian1 jian4!",
+        "pinyin_numeric": "Hao3 a0, gai3tian1 jian4!",
         "translation_en": "Sure, see you another day!",
         "translation_ko": "좋아요, 다음에 뵙겠습니다!",
         "token_ids": [
@@ -19736,7 +19736,7 @@
         "speaker": "B",
         "text": "好的，這是你的咖啡和找錢。你住附近嗎？",
         "pinyin": "Hǎo de, zhè shì nǐ de kāfēi hé zhǎo qián. Nǐ zhù fùjìn ma?",
-        "pinyin_numeric": "Hao3 de5, zhe4 shi4 ni3 de5 ka1 fei1 he2 zhao3 qian2. Ni3 zhu4 fu4 jin4 ma5?",
+        "pinyin_numeric": "Hao3 de5, zhe4 shi4 ni3 de5 ka1 fei1 he2 zhao3 qian2. Ni3 zhu4 fu4 jin4 ma0?",
         "translation_en": "Okay, here's your coffee and change. Do you live nearby?",
         "translation_ko": "네, 여기 커피와 거스름돈입니다. 근처에 사시나요?",
         "token_ids": [
@@ -19759,7 +19759,7 @@
         "speaker": "A",
         "text": "對，我剛搬到這裡。我想認識新朋友，你有空聊天嗎？",
         "pinyin": "Duì, wǒ gāng bān dào zhèlǐ. Wǒ xiǎng rènshi xīn péngyou, nǐ yǒu kòng liáotiān ma?",
-        "pinyin_numeric": "Dui4, wo3 gang1 ban1 dao4 zhe4 li3. Wo3 xiang3 ren4 shi5 xin1 peng2 you5, ni3 you3 kong4 liao2 tian1 ma5?",
+        "pinyin_numeric": "Dui4, wo3 gang1 ban1 dao4 zhe4 li3. Wo3 xiang3 ren4 shi5 xin1 peng2 you5, ni3 you3 kong4 liao2 tian1 ma0?",
         "translation_en": "Yes, I just moved here. I'd like to make new friends, do you have time to chat?",
         "translation_ko": "네, 방금 이곳으로 이사 왔어요. 새로운 친구를 사귀고 싶은데, 시간 돼서 이야기 좀 할 수 있을까요?",
         "token_ids": [
@@ -19785,7 +19785,7 @@
         "speaker": "B",
         "text": "好啊，我現在不忙。我們可以聊一下。",
         "pinyin": "Hǎo a, wǒ xiànzài bù máng. Wǒmen kěyǐ liáo yíxià.",
-        "pinyin_numeric": "Hao3 a5, wo3 xian4 zai4 bu4 mang2. Wo3 men5 ke3 yi3 liao2 yi2 xia4.",
+        "pinyin_numeric": "Hao3 a0, wo3 xian4 zai4 bu4 mang2. Wo3 men5 ke3 yi3 liao2 yi2 xia4.",
         "translation_en": "Sure, I'm not busy now. We can chat for a bit.",
         "translation_ko": "좋아요, 지금 바쁘지 않아요. 잠깐 이야기 나눠요.",
         "token_ids": [
@@ -19851,7 +19851,7 @@
         "speaker": "A",
         "text": "請問，這裡是修理手機的地方嗎？",
         "pinyin": "Qǐng wèn, zhèlǐ shì xiūlǐ shǒujī de dìfang ma?",
-        "pinyin_numeric": "Qing3 wen4, zhe4 li3 shi4 xiu1 li3 shou3 ji1 de5 di4 fang5 ma5?",
+        "pinyin_numeric": "Qing3 wen4, zhe4 li3 shi4 xiu1 li3 shou3 ji1 de5 di4 fang5 ma0?",
         "translation_en": "Excuse me, is this the place to repair phones?",
         "translation_ko": "실례합니다, 여기가 휴대폰 수리하는 곳인가요?",
         "token_ids": [
@@ -19915,7 +19915,7 @@
         "speaker": "B",
         "text": "沒問題。你要買東西嗎？我們這裡有便宜的充電線。",
         "pinyin": "Méi wèntí. Nǐ yào mǎi dōngxi ma? Wǒmen zhèlǐ yǒu piányi de chōngdiàn xiàn.",
-        "pinyin_numeric": "Mei2 wen4 ti2. Ni3 yao4 mai3 dong1 xi5 ma5? Wo3 men5 zhe4 li3 you3 pian2 yi5 de5 chong1 dian4 xian4.",
+        "pinyin_numeric": "Mei2 wen4 ti2. Ni3 yao4 mai3 dong1 xi5 ma0? Wo3 men5 zhe4 li3 you3 pian2 yi5 de5 chong1 dian4 xian4.",
         "translation_en": "No problem. Are you looking to buy something? We have affordable charging cables here.",
         "translation_ko": "괜찮아요. 물건 사실 건가요? 여기 싼 충전 케이블이 있어요.",
         "token_ids": [
@@ -19938,7 +19938,7 @@
         "speaker": "A",
         "text": "好啊，一條充電線多少錢？",
         "pinyin": "Hǎo a, yì tiáo chōngdiàn xiàn duōshao qián?",
-        "pinyin_numeric": "Hao3 a5, yi4 tiao2 chong1 dian4 xian4 duo1 shao5 qian2?",
+        "pinyin_numeric": "Hao3 a0, yi4 tiao2 chong1 dian4 xian4 duo1 shao5 qian2?",
         "translation_en": "Sure, how much is one charging cable?",
         "translation_ko": "좋아요, 충전 케이블 하나에 얼마인가요?",
         "token_ids": [
@@ -19954,7 +19954,7 @@
         "speaker": "B",
         "text": "一條一百塊。你要算便宜一點嗎？",
         "pinyin": "Yì tiáo yì bǎi kuài. Nǐ yào suàn piányi yì diǎn ma?",
-        "pinyin_numeric": "Yi4 tiao2 yi4 bai3 kuai4. Ni3 yao4 suan4 pian2 yi5 yi4 dian3 ma5?",
+        "pinyin_numeric": "Yi4 tiao2 yi4 bai3 kuai4. Ni3 yao4 suan4 pian2 yi5 yi4 dian3 ma0?",
         "translation_en": "One is one hundred dollars. Would you like me to make it a bit cheaper?",
         "translation_ko": "하나에 100대만 달러입니다. 좀 더 싸게 해 드릴까요?",
         "token_ids": [
@@ -19975,7 +19975,7 @@
         "speaker": "A",
         "text": "可以算八十塊嗎？",
         "pinyin": "Kěyǐ suàn bāshí kuài ma?",
-        "pinyin_numeric": "Ke3 yi3 suan4 ba1 shi2 kuai4 ma5?",
+        "pinyin_numeric": "Ke3 yi3 suan4 ba1 shi2 kuai4 ma0?",
         "translation_en": "Can you make it eighty dollars?",
         "translation_ko": "80대만 달러으로 해 주실 수 있나요?",
         "token_ids": [
@@ -20116,7 +20116,7 @@
         "speaker": "B",
         "text": "一個三明治三十五塊。你要買嗎？",
         "pinyin": "Yí ge sānmíngzhì sānshíwǔ kuài. Nǐ yào mǎi ma?",
-        "pinyin_numeric": "Yi2 ge5 san1 ming2 zhi4 san1 shi2 wu3 kuai4. Ni3 yao4 mai3 ma5?",
+        "pinyin_numeric": "Yi2 ge5 san1 ming2 zhi4 san1 shi2 wu3 kuai4. Ni3 yao4 mai3 ma0?",
         "translation_en": "One sandwich is thirty-five dollars. Would you like one?",
         "translation_ko": "샌드위치 하나에 35대만 달러입니다. 사시겠어요?",
         "token_ids": [
@@ -20163,7 +20163,7 @@
         "speaker": "B",
         "text": "好的，這是你的三明治和找錢。你住附近嗎？",
         "pinyin": "Hǎo de, zhè shì nǐ de sānmíngzhì hé zhǎo qián. Nǐ zhù fùjìn ma?",
-        "pinyin_numeric": "Hao3 de5, zhe4 shi4 ni3 de5 san1 ming2 zhi4 he2 zhao3 qian2. Ni3 zhu4 fu4 jin4 ma5?",
+        "pinyin_numeric": "Hao3 de5, zhe4 shi4 ni3 de5 san1 ming2 zhi4 he2 zhao3 qian2. Ni3 zhu4 fu4 jin4 ma0?",
         "translation_en": "Okay, here's your sandwich and change. Do you live nearby?",
         "translation_ko": "네, 여기 샌드위치와 거스름돈입니다. 근처에 사시나요?",
         "token_ids": [
@@ -20186,7 +20186,7 @@
         "speaker": "A",
         "text": "對，我住附近。我想認識新朋友，你有空聊天嗎？",
         "pinyin": "Duì, wǒ zhù fùjìn. Wǒ xiǎng rènshi xīn péngyou, nǐ yǒu kòng liáotiān ma?",
-        "pinyin_numeric": "Dui4, wo3 zhu4 fu4 jin4. Wo3 xiang3 ren4 shi5 xin1 peng2 you5, ni3 you3 kong4 liao2 tian1 ma5?",
+        "pinyin_numeric": "Dui4, wo3 zhu4 fu4 jin4. Wo3 xiang3 ren4 shi5 xin1 peng2 you5, ni3 you3 kong4 liao2 tian1 ma0?",
         "translation_en": "Yes, I live nearby. I'd like to make new friends, do you have time to chat?",
         "translation_ko": "네, 근처에 살아요. 새로운 친구를 사귀고 싶은데, 시간 돼서 이야기 좀 할 수 있을까요?",
         "token_ids": [
@@ -20211,7 +20211,7 @@
         "speaker": "B",
         "text": "好啊，我現在不忙。我們可以聊一下。",
         "pinyin": "Hǎo a, wǒ xiànzài bù máng. Wǒmen kěyǐ liáo yíxià.",
-        "pinyin_numeric": "Hao3 a5, wo3 xian4 zai4 bu4 mang2. Wo3 men5 ke3 yi3 liao2 yi2 xia4.",
+        "pinyin_numeric": "Hao3 a0, wo3 xian4 zai4 bu4 mang2. Wo3 men5 ke3 yi3 liao2 yi2 xia4.",
         "translation_en": "Sure, I'm not busy now. We can chat for a bit.",
         "translation_ko": "좋아요, 지금 바쁘지 않아요. 잠깐 이야기 나눠요.",
         "token_ids": [
@@ -20293,7 +20293,7 @@
         "speaker": "櫃台人員",
         "text": "好的，請問你哪裡不舒服？",
         "pinyin": "Hǎo de, qǐngwèn nǐ nǎlǐ bù shūfu?",
-        "pinyin_numeric": "Hao3 de, qing3wen4 ni3 na3li3 bu4 shu1fu?",
+        "pinyin_numeric": "Hao3 de, qing3 wen4 ni3 na3 li3 bu4 shu1fu?",
         "translation_en": "Okay, may I ask what's bothering you?",
         "translation_ko": "네, 어디가 불편하신가요?",
         "token_ids": [
@@ -20489,7 +20489,7 @@
         "speaker": "房客",
         "text": "謝謝。請問師傅什麼時候會來？",
         "pinyin": "Xièxie. Qǐngwèn shīfu shénme shíhou huì lái?",
-        "pinyin_numeric": "Xie4xie5. Qing3wen4 shi1fu4 shen2 me0 shi2hou5 hui4 lai2?",
+        "pinyin_numeric": "Xie4xie5. qing3 wen4 shi1fu4 shen2 me0 shi2hou5 hui4 lai2?",
         "translation_en": "Thank you. When will the repairman come?",
         "translation_ko": "감사합니다. 기사님은 언제 오시나요?",
         "token_ids": [
@@ -20508,7 +20508,7 @@
         "speaker": "房東",
         "text": "我幫你預約今天下午三點，可以嗎？",
         "pinyin": "Wǒ bāng nǐ yùyuē jīntiān xiàwǔ sān diǎn, kěyǐ ma?",
-        "pinyin_numeric": "Wo3 bang1 ni3 yu4yue1 jin1tian1 xia4wu3 san1 dian3, ke3yi3 ma?",
+        "pinyin_numeric": "Wo3 bang1 ni3 yu4yue1 jin1tian1 xia4wu3 san1 dian3, ke3 yi3 ma?",
         "translation_en": "I'll make an appointment for today at 3 PM, is that okay?",
         "translation_ko": "오늘 오후 3시로 예약해 드릴게요, 괜찮으신가요?",
         "token_ids": [
@@ -20529,7 +20529,7 @@
         "speaker": "房客",
         "text": "可以，沒問題。",
         "pinyin": "Kěyǐ, méi wèntí.",
-        "pinyin_numeric": "Ke3yi3, mei2 wen4ti2.",
+        "pinyin_numeric": "ke3 yi3, mei2 wen4ti2.",
         "translation_en": "Yes, no problem.",
         "translation_ko": "네, 괜찮습니다.",
         "token_ids": [
@@ -20648,7 +20648,7 @@
         "speaker": "病人",
         "text": "謝謝。請問這個藥怎麼吃？",
         "pinyin": "Xièxie. Qǐngwèn zhège yào zěnme chī?",
-        "pinyin_numeric": "Xie4xie5. Qing3wen4 zhe4ge5 yao4 zen3 me0 chi1?",
+        "pinyin_numeric": "Xie4xie5. qing3 wen4 zhe4 ge0 yao4 zen3 me0 chi1?",
         "translation_en": "Thank you. How should I take this medicine?",
         "translation_ko": "감사합니다. 이 약은 어떻게 먹나요?",
         "token_ids": [
@@ -20666,7 +20666,7 @@
         "speaker": "藥師",
         "text": "這個藥一天三次，飯後吃。一次吃一包。",
         "pinyin": "Zhège yào yī tiān sān cì, fàn hòu chī. Yī cì chī yī bāo.",
-        "pinyin_numeric": "Zhe4ge5 yao4 yi1 tian1 san1 ci4, fan4 hou4 chi1. Yi1 ci4 chi1 yi1 bao1.",
+        "pinyin_numeric": "zhe4 ge0 yao4 yi1 tian1 san1 ci4, fan4 hou4 chi1. Yi1 ci4 chi1 yi1 bao1.",
         "translation_en": "Take this medicine three times a day, after meals. One packet each time.",
         "translation_ko": "이 약은 하루 세 번, 식후에 드세요. 한 번에 한 봉지씩 드시면 됩니다.",
         "token_ids": [
@@ -20765,7 +20765,7 @@
         "speaker": "A",
         "text": "你好，這個星期六有空嗎？我想邀請你一起去看電影。",
         "pinyin": "Nǐ hǎo, zhège xīngqīliù yǒu kòng ma? Wǒ xiǎng yāoqǐng nǐ yīqǐ qù kàn diànyǐng.",
-        "pinyin_numeric": "Ni3 hao3, zhe4 ge5 xing1 qi1 liu4 you3 kong4 ma5? Wo3 xiang3 yao1 qing3 ni3 yi1 qi3 qu4 kan4 dian4 ying3.",
+        "pinyin_numeric": "Ni3 hao3, zhe4 ge5 xing1 qi1 liu4 you3 kong4 ma0? Wo3 xiang3 yao1 qing3 ni3 yi1 qi3 qu4 kan4 dian4 ying3.",
         "translation_en": "Hello, are you free this Saturday? I would like to invite you to go see a movie together.",
         "translation_ko": "안녕하세요, 이번 토요일에 시간 있으세요? 영화 보러 같이 가고 싶어서요.",
         "token_ids": [
@@ -20788,7 +20788,7 @@
         "speaker": "B",
         "text": "不好意思，我星期六已經有別的行程了。可以改期嗎？",
         "pinyin": "Bù hǎoyìsi, wǒ xīngqīliù yǐjīng yǒu bié de xíngchéng le. Kěyǐ gǎiqī ma?",
-        "pinyin_numeric": "Bu4 hao3 yi4 si5, wo3 xing1 qi1 liu4 yi3 jing1 you3 bie2 de5 xing2 cheng2 le5. Ke3 yi3 gai3 qi1 ma5?",
+        "pinyin_numeric": "Bu4 hao3 yi4 si5, wo3 xing1 qi1 liu4 yi3 jing1 you3 bie2 de5 xing2 cheng2 le5. Ke3 yi3 gai3 qi1 ma0?",
         "translation_en": "Sorry, I already have other plans on Saturday. Can we reschedule?",
         "translation_ko": "죄송합니다, 토요일은 이미 다른 일정이 있어요. 날짜를 변경할 수 있을까요?",
         "token_ids": [
@@ -20812,7 +20812,7 @@
         "speaker": "A",
         "text": "沒問題，那你星期天方便嗎？",
         "pinyin": "Méi wèntí, nà nǐ xīngqītiān fāngbiàn ma?",
-        "pinyin_numeric": "Mei2 wen4 ti2, na4 ni3 xing1 qi1 tian1 fang1 bian4 ma5?",
+        "pinyin_numeric": "Mei2 wen4 ti2, na4 ni3 xing1 qi1 tian1 fang1 bian4 ma0?",
         "translation_en": "No problem, then are you free on Sunday?",
         "translation_ko": "괜찮아요, 그럼 일요일에 괜찮으세요?",
         "token_ids": [
@@ -20850,7 +20850,7 @@
         "speaker": "A",
         "text": "好的，那我們星期天下午三點半在電影院門口見面，好嗎？",
         "pinyin": "Hǎo de, nà wǒmen xīngqītiān xiàwǔ sān diǎn bàn zài diànyǐngyuàn ménkǒu jiànmiàn, hǎo ma?",
-        "pinyin_numeric": "Hao3 de5, na4 wo3 men5 xing1 qi1 tian1 xia4 wu3 san1 dian3 ban4 zai4 dian4 ying3 yuan4 men2 kou3 jian4 mian4, hao3 ma5?",
+        "pinyin_numeric": "Hao3 de5, na4 wo3 men5 xing1 qi1 tian1 xia4 wu3 san1 dian3 ban4 zai4 dian4 ying3 yuan4 men2 kou3 jian4 mian4, hao3 ma0?",
         "translation_en": "Okay, then let's meet at the movie theater entrance at 3:30 PM on Sunday, okay?",
         "translation_ko": "좋아요, 그럼 일요일 오후 3시 30분에 영화관 입구에서 만날까요?",
         "token_ids": [
@@ -21021,7 +21021,7 @@
         "speaker": "A",
         "text": "好啊，抱歉造成你的麻煩。那我們改下個星期三晚上，好嗎？",
         "pinyin": "Hǎo a, bàoqiàn zàochéng nǐ de máfan. Nà wǒmen gǎi xià ge xīngqīsān wǎnshàng, hǎo ma?",
-        "pinyin_numeric": "Hao3 a5, bao4 qian4 zao4 cheng2 ni3 de5 ma2 fan5. Na4 wo3 men5 gai3 xia4 ge5 xing1 qi1 san1 wan3 shang4, hao3 ma5?",
+        "pinyin_numeric": "Hao3 a0, bao4 qian4 zao4 cheng2 ni3 de5 ma2 fan5. Na4 wo3 men5 gai3 xia4 ge5 xing1 qi1 san1 wan3 shang4, hao3 ma0?",
         "translation_en": "Okay, sorry for the trouble. Then let's change it to next Wednesday evening, okay?",
         "translation_ko": "네, 불편을 끼쳐 죄송합니다. 그럼 다음 주 수요일 저녁으로 변경할까요?",
         "token_ids": [
@@ -21173,7 +21173,7 @@
         "speaker": "A",
         "text": "好，那我們就約星期六下午三點，在捷運站出口見面，可以嗎？",
         "pinyin": "Hǎo, nà wǒmen jiù yuē xīngqīliù xiàwǔ sān diǎn, zài jiéyùn zhàn chūkǒu jiànmiàn, kěyǐ ma?",
-        "pinyin_numeric": "Hao3, na4 wo3 men5 jiu4 yue1 xing1 qi1 liu4 xia4 wu3 san1 dian3, zai4 jie2 yun4 zhan4 chu1 kou3 jian4 mian4, ke3 yi3 ma5?",
+        "pinyin_numeric": "Hao3, na4 wo3 men5 jiu4 yue1 xing1 qi1 liu4 xia4 wu3 san1 dian3, zai4 jie2 yun4 zhan4 chu1 kou3 jian4 mian4, ke3 yi3 ma0?",
         "translation_en": "Okay, then let's meet at the MRT station exit at 3 PM on Saturday, okay?",
         "translation_ko": "좋아요, 그럼 토요일 오후 3시에 MRT? 출구에서 만날까요?",
         "token_ids": [
@@ -21453,7 +21453,7 @@
         "speaker": "店員",
         "text": "歡迎光臨！請問需要什麼？",
         "pinyin": "Huānyíng guānglín! Qǐngwèn xūyào shénme?",
-        "pinyin_numeric": "Huan1ying2 guang1lin2! Qing3wen4 xu1yao4 shen2 me0?",
+        "pinyin_numeric": "Huan1ying2 guang1lin2! qing3 wen4 xu1yao4 shen2 me0?",
         "translation_en": "Welcome! What can I help you with?",
         "translation_ko": "어서 오세요! 무엇을 도와드릴까요?",
         "token_ids": [
@@ -21491,7 +21491,7 @@
         "speaker": "店員",
         "text": "好的，總共是六十五塊。請問要怎麼付款？",
         "pinyin": "Hǎo de, zǒnggòng shì liùshíwǔ kuài. Qǐngwèn yào zěnme fùkuǎn?",
-        "pinyin_numeric": "Hao3 de, zong3gong4 shi4 liu4shi2wu3 kuai4. Qing3wen4 yao4 zen3 me0 fu4kuan3?",
+        "pinyin_numeric": "Hao3 de, zong3gong4 shi4 liu4shi2wu3 kuai4. qing3 wen4 yao4 zen3 me0 fu4kuan3?",
         "translation_en": "Okay, that'll be 65 dollars total. How would you like to pay?",
         "translation_ko": "네, 총 65원입니다. 어떻게 결제하시겠습니까?",
         "token_ids": [
@@ -21606,7 +21606,7 @@
         "speaker": "A",
         "text": "不好意思，請問醫院怎麼走？",
         "pinyin": "Bù hǎo yìsi, qǐngwèn yīyuàn zěnme zǒu?",
-        "pinyin_numeric": "Bu4 hao3 yi4si, qing3wen4 yi1yuan4 zen3 me0 zou3?",
+        "pinyin_numeric": "Bu4 hao3 yi4si, qing3 wen4 yi1yuan4 zen3 me0 zou3?",
         "translation_en": "Excuse me, how do I get to the hospital?",
         "translation_ko": "실례합니다, 병원에 어떻게 가나요?",
         "token_ids": [
@@ -21751,7 +21751,7 @@
         "speaker": "店員",
         "text": "你好，歡迎光臨！請問今天想吃什麼？",
         "pinyin": "Nǐ hǎo, huānyíng guānglín! Qǐngwèn jīntiān xiǎng chī shénme?",
-        "pinyin_numeric": "Ni3 hao3, huan1ying2 guang1lin2! Qing3wen4 jin1tian1 xiang3 chi1 shen2 me0?",
+        "pinyin_numeric": "Ni3 hao3, huan1ying2 guang1lin2! qing3 wen4 jin1tian1 xiang3 chi1 shen2 me0?",
         "translation_en": "Hello, welcome! What would you like to eat today?",
         "translation_ko": "안녕하세요, 환영합니다! 오늘 무엇을 드시고 싶으세요?",
         "token_ids": [
@@ -21827,7 +21827,7 @@
         "speaker": "店員",
         "text": "沒問題。總共是兩百一十塊。請問要怎麼付款？",
         "pinyin": "Méi wèntí. Zǒnggòng shì liǎng bǎi yī shí kuài. Qǐngwèn yào zěnme fùkuǎn?",
-        "pinyin_numeric": "Mei2 wen4ti2. Zong3gong4 shi4 liang3 bai3 yi1 shi2 kuai4. Qing3wen4 yao4 zen3 me0 fu4kuan3?",
+        "pinyin_numeric": "Mei2 wen4ti2. Zong3gong4 shi4 liang3 bai3 yi1 shi2 kuai4. qing3 wen4 yao4 zen3 me0 fu4kuan3?",
         "translation_en": "No problem. The total is 210 dollars. How would you like to pay?",
         "translation_ko": "문제없습니다. 총 210원입니다. 어떻게 결제하시겠습니까?",
         "token_ids": [
@@ -21891,7 +21891,7 @@
         "speaker": "客人",
         "text": "謝謝，請問洗手間在哪裡？",
         "pinyin": "Xièxie, qǐngwèn xǐshǒujiān zài nǎlǐ?",
-        "pinyin_numeric": "Xie4xie, qing3wen4 xi3shou3jian1 zai4 na3li3?",
+        "pinyin_numeric": "Xie4xie, qing3 wen4 xi3shou3jian1 zai4 na3 li3?",
         "translation_en": "Thank you, where is the restroom?",
         "translation_ko": "감사합니다, 화장실이 어디에 있나요?",
         "token_ids": [
@@ -21954,7 +21954,7 @@
         "speaker": "A",
         "text": "你好，這個週末你有空嗎？我們一起去看電影好不好？",
         "pinyin": "Nǐ hǎo, zhège zhōumò nǐ yǒu kòng ma? Wǒmen yīqǐ qù kàn diànyǐng hǎo bù hǎo?",
-        "pinyin_numeric": "Ni3 hao3, zhe4ge zhou1mo4 ni3 you3 kong4 ma? Wo3men yi1qi3 qu4 kan4 dian4ying3 hao3 bu4 hao3?",
+        "pinyin_numeric": "Ni3 hao3, zhe4 ge0 zhou1mo4 ni3 you3 kong4 ma? Wo3men yi1qi3 qu4 kan4 dian4ying3 hao3 bu4 hao3?",
         "translation_en": "Hello, are you free this weekend? How about we go see a movie together?",
         "translation_ko": "안녕하세요, 이번 주말에 시간 있으세요? 같이 영화 보러 갈까요?",
         "token_ids": [
@@ -22000,7 +22000,7 @@
         "speaker": "A",
         "text": "我聽說最近有一部新的台灣電影，聽說很好看。我們去看那個好不好？",
         "pinyin": "Wǒ tīngshuō zuìjìn yǒu yī bù xīn de táiwān diànyǐng, tīngshuō hěn hǎokàn. Wǒmen qù kàn nàge hǎo bù hǎo?",
-        "pinyin_numeric": "Wo3 ting1shuo1 zui4jin4 you3 yi1 bu4 xin1 de tai2wan1 dian4ying3, ting1shuo1 hen3 hao3kan4. Wo3men qu4 kan4 na4ge hao3 bu4 hao3?",
+        "pinyin_numeric": "Wo3 ting1shuo1 zui4jin4 you3 yi1 bu4 xin1 de tai2wan1 dian4ying3, ting1shuo1 hen3 hao3kan4. Wo3men qu4 kan4 na4 ge0 hao3 bu4 hao3?",
         "translation_en": "I heard there's a new Taiwanese movie recently, and it's supposed to be very good. How about we go see that?",
         "translation_ko": "최근에 새 대만 영화가 나왔다고 들었는데, 재미있다고 해요. 그거 보러 갈까요?",
         "token_ids": [
@@ -22032,7 +22032,7 @@
         "speaker": "B",
         "text": "好啊！星期六下午兩點，在電影院門口見面，可以嗎？",
         "pinyin": "Hǎo a! Xīngqīliù xiàwǔ liǎng diǎn, zài diànyǐngyuàn ménkǒu jiànmiàn, kěyǐ ma?",
-        "pinyin_numeric": "Hao3 a! Xing1qi1liu4 xia4wu3 liang3 dian3, zai4 dian4ying3yuan4 men2kou3 jian4mian4, ke3yi3 ma?",
+        "pinyin_numeric": "Hao3 a! Xing1qi1liu4 xia4wu3 liang3 dian3, zai4 dian4ying3yuan4 men2kou3 jian4mian4, ke3 yi3 ma?",
         "translation_en": "Sure! Saturday at 2 PM, meet at the movie theater entrance, okay?",
         "translation_ko": "좋아요! 토요일 오후 2시에 영화관 입구에서 만날까요?",
         "token_ids": [

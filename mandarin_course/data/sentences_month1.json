@@ -1537,7 +1537,7 @@
     "id": "SEN_M1_D08_04",
     "text": "這個菜很好吃。",
     "pinyin": "Zhège cài hěn hǎochī.",
-    "pinyin_numeric": "Zhe4ge5 cai4 hen3 hao3chi1.",
+    "pinyin_numeric": "zhe4 ge0 cai4 hen3 hao3chi1.",
     "translation_en": "This dish is tasty.",
     "translation_ko": "이 요리는 맛있습니다.",
     "tokens": [
@@ -1910,7 +1910,7 @@
     "id": "SEN_M1_D10_03",
     "text": "你去哪裡？",
     "pinyin": "Nǐ qù nǎlǐ?",
-    "pinyin_numeric": "Ni3 qu4 na3li3?",
+    "pinyin_numeric": "Ni3 qu4 na3 li3?",
     "translation_en": "Where are you going?",
     "translation_ko": "어디에 갑니까?",
     "tokens": [
@@ -1958,7 +1958,7 @@
     "id": "SEN_M1_D10_05",
     "text": "這個字怎麼說？",
     "pinyin": "Zhège zì zěnme shuō?",
-    "pinyin_numeric": "Zhe4ge5 zi4 zenme3 shuo1?",
+    "pinyin_numeric": "zhe4 ge0 zi4 zenme3 shuo1?",
     "translation_en": "How do you say this character?",
     "translation_ko": "이 글자는 어떻게 말합니까?",
     "tokens": [
@@ -2006,7 +2006,7 @@
     "id": "SEN_M1_D10_07",
     "text": "餐廳在哪裡？",
     "pinyin": "Cāntīng zài nǎlǐ?",
-    "pinyin_numeric": "Can1ting1 zai4 na3li3?",
+    "pinyin_numeric": "Can1ting1 zai4 na3 li3?",
     "translation_en": "Where is the restaurant?",
     "translation_ko": "식당은 어디에 있습니까?",
     "tokens": [
@@ -2297,7 +2297,7 @@
     "id": "SEN_M1_D12_03",
     "text": "這個餐廳很貴。",
     "pinyin": "Zhège cāntīng hěn guì.",
-    "pinyin_numeric": "Zhe4ge5 can1ting1 hen3 gui4.",
+    "pinyin_numeric": "zhe4 ge0 can1ting1 hen3 gui4.",
     "translation_en": "This restaurant is expensive.",
     "translation_ko": "이 식당은 비쌉니다.",
     "tokens": [
@@ -2768,7 +2768,7 @@
     "id": "SEN_M1_D14_05",
     "text": "這個菜很貴嗎？",
     "pinyin": "Zhège cài hěn guì ma?",
-    "pinyin_numeric": "Zhe4ge5 cai4 hen3 gui4 ma0?",
+    "pinyin_numeric": "zhe4 ge0 cai4 hen3 gui4 ma0?",
     "translation_en": "Is this dish expensive?",
     "translation_ko": "이 요리는 비쌉니까?",
     "tokens": [
@@ -3116,7 +3116,7 @@
     "id": "SEN_M1_D16_03",
     "text": "這個多少錢？",
     "pinyin": "Zhège duōshao qián?",
-    "pinyin_numeric": "Zhe4ge5 duo1shao3 qian2?",
+    "pinyin_numeric": "zhe4 ge0 duo1shao3 qian2?",
     "translation_en": "How much does this cost?",
     "translation_ko": "이것은 얼마입니까?",
     "tokens": [
@@ -3268,7 +3268,7 @@
     "id": "SEN_M1_D17_01",
     "text": "我可以坐這裡嗎？",
     "pinyin": "Wǒ kěyǐ zuò zhèlǐ ma?",
-    "pinyin_numeric": "Wo3 ke3yi3 zuo4 zhe4li3 ma0?",
+    "pinyin_numeric": "Wo3 ke3 yi3 zuo4 zhe4li3 ma0?",
     "translation_en": "May I sit here?",
     "translation_ko": "여기에 앉아도 됩니까?",
     "tokens": [
@@ -3295,7 +3295,7 @@
     "id": "SEN_M1_D17_02",
     "text": "我可以用你的手機嗎？",
     "pinyin": "Wǒ kěyǐ yòng nǐ de shǒujī ma?",
-    "pinyin_numeric": "Wo3 ke3yi3 yong4 ni3 de0 shouji1 ma0?",
+    "pinyin_numeric": "Wo3 ke3 yi3 yong4 ni3 de0 shouji1 ma0?",
     "translation_en": "May I use your phone?",
     "translation_ko": "당신의 휴대폰을 사용해도 됩니까?",
     "tokens": [
@@ -3326,7 +3326,7 @@
     "id": "SEN_M1_D17_03",
     "text": "可以問一下嗎？",
     "pinyin": "Kěyǐ wèn yíxià ma?",
-    "pinyin_numeric": "Ke3yi3 wen4 yi2xia4 ma0?",
+    "pinyin_numeric": "ke3 yi3 wen4 yi2xia4 ma0?",
     "translation_en": "May I ask something?",
     "translation_ko": "잠깐 질문해도 됩니까?",
     "tokens": [
@@ -3351,7 +3351,7 @@
     "id": "SEN_M1_D17_04",
     "text": "你可以說慢一點嗎？",
     "pinyin": "Nǐ kěyǐ shuō màn yìdiǎn ma?",
-    "pinyin_numeric": "Ni3 ke3yi3 shuo1 man4 yi4dian3 ma0?",
+    "pinyin_numeric": "Ni3 ke3 yi3 shuo1 man4 yi4dian3 ma0?",
     "translation_en": "Can you speak a little slower?",
     "translation_ko": "조금 천천히 말해 줄 수 있습니까?",
     "tokens": [
@@ -3378,7 +3378,7 @@
     "id": "SEN_M1_D17_05",
     "text": "我可以試試嗎？",
     "pinyin": "Wǒ kěyǐ shìshi ma?",
-    "pinyin_numeric": "Wo3 ke3yi3 shi4shi4 ma0?",
+    "pinyin_numeric": "Wo3 ke3 yi3 shi4shi4 ma0?",
     "translation_en": "May I try it?",
     "translation_ko": "제가 한번 해봐도 됩니까?",
     "tokens": [
@@ -3405,7 +3405,7 @@
     "id": "SEN_M1_D17_06",
     "text": "我們可以喝咖啡嗎？",
     "pinyin": "Wǒmen kěyǐ hē kāfēi ma?",
-    "pinyin_numeric": "Wo3 men5 ke3yi3 he1 ka1fei1 ma0?",
+    "pinyin_numeric": "Wo3 men5 ke3 yi3 he1 ka1fei1 ma0?",
     "translation_en": "Can we drink coffee?",
     "translation_ko": "우리 커피 마셔도 됩니까?",
     "tokens": [
@@ -3430,7 +3430,7 @@
     "id": "SEN_M1_D17_07",
     "text": "這裡可以坐嗎？",
     "pinyin": "Zhèlǐ kěyǐ zuò ma?",
-    "pinyin_numeric": "Zhe4li3 ke3yi3 zuo4 ma0?",
+    "pinyin_numeric": "Zhe4li3 ke3 yi3 zuo4 ma0?",
     "translation_en": "Can people sit here?",
     "translation_ko": "여기 앉아도 됩니까?",
     "tokens": [
@@ -4026,7 +4026,7 @@
     "id": "SEN_M1_D20_06",
     "text": "你在哪裡工作？",
     "pinyin": "Nǐ zài nǎlǐ gōngzuò?",
-    "pinyin_numeric": "Ni3 zai4 na3li3 gong1zuo4?",
+    "pinyin_numeric": "Ni3 zai4 na3 li3 gong1zuo4?",
     "translation_en": "Where do you work?",
     "translation_ko": "어디에서 일합니까?",
     "tokens": [
@@ -4078,7 +4078,7 @@
     "id": "SEN_M1_D20_08",
     "text": "他在那裡喝咖啡。",
     "pinyin": "Tā zài nàlǐ hē kāfēi.",
-    "pinyin_numeric": "Ta1 zai4 na3li3 he1 ka1fei1.",
+    "pinyin_numeric": "Ta1 zai4 na3 li3 he1 ka1fei1.",
     "translation_en": "He drinks coffee there.",
     "translation_ko": "그는 저기에서 커피를 마십니다.",
     "tokens": [
@@ -4163,7 +4163,7 @@
     "id": "SEN_M1_D21_03",
     "text": "你可以坐這裡嗎？",
     "pinyin": "Nǐ kěyǐ zuò zhèlǐ ma?",
-    "pinyin_numeric": "Ni3 ke3yi3 zuo4 zhe4li3 ma0?",
+    "pinyin_numeric": "Ni3 ke3 yi3 zuo4 zhe4li3 ma0?",
     "translation_en": "Can you sit here?",
     "translation_ko": "여기에 앉을 수 있습니까?",
     "tokens": [
@@ -4263,7 +4263,7 @@
     "id": "SEN_M1_D21_07",
     "text": "圖書館在哪裡？",
     "pinyin": "Túshūguǎn zài nǎlǐ?",
-    "pinyin_numeric": "Tu2shuguan3 zai4 na3li3?",
+    "pinyin_numeric": "Tu2shuguan3 zai4 na3 li3?",
     "translation_en": "Where is the library?",
     "translation_ko": "도서관은 어디에 있습니까?",
     "tokens": [
@@ -4394,7 +4394,7 @@
     "id": "SEN_M1_D22_04",
     "text": "醫院在哪裡？",
     "pinyin": "Yīyuàn zài nǎlǐ?",
-    "pinyin_numeric": "Yi1yuan4 zai4 na3li3?",
+    "pinyin_numeric": "Yi1yuan4 zai4 na3 li3?",
     "translation_en": "Where is the hospital?",
     "translation_ko": "병원은 어디에 있습니까?",
     "tokens": [
@@ -4550,7 +4550,7 @@
     "id": "SEN_M1_D23_02",
     "text": "這個菜比那個菜貴。",
     "pinyin": "Zhège cài bǐ nàge cài guì.",
-    "pinyin_numeric": "Zhe4ge5 cai4 bi3 na4ge5 cai4 gui4.",
+    "pinyin_numeric": "zhe4 ge0 cai4 bi3 na4 ge0 cai4 gui4.",
     "translation_en": "This dish is more expensive than that dish.",
     "translation_ko": "이 요리는 저 요리보다 비쌉니다.",
     "tokens": [
@@ -4803,7 +4803,7 @@
     "id": "SEN_M1_D24_03",
     "text": "廁所在哪裡？",
     "pinyin": "Cèsuǒ zài nǎlǐ?",
-    "pinyin_numeric": "Ce4suo3 zai4 na3li3?",
+    "pinyin_numeric": "Ce4suo3 zai4 na3 li3?",
     "translation_en": "Where is the bathroom?",
     "translation_ko": "화장실은 어디에 있습니까?",
     "tokens": [
@@ -5193,7 +5193,7 @@
     "id": "SEN_M1_D26_02",
     "text": "請幫我一下，可以嗎？",
     "pinyin": "Qǐng bāng wǒ yíxià, kěyǐ ma?",
-    "pinyin_numeric": "Qing3 bang1 wo3 yi2xia4, ke3yi3 ma0?",
+    "pinyin_numeric": "Qing3 bang1 wo3 yi2xia4, ke3 yi3 ma0?",
     "translation_en": "Please help me for a moment, is that okay?",
     "translation_ko": "잠깐 도와주실 수 있습니까?",
     "tokens": [
@@ -5341,7 +5341,7 @@
     "id": "SEN_M1_D26_08",
     "text": "可以請你說慢一點嗎？",
     "pinyin": "Kěyǐ qǐng nǐ shuō màn yìdiǎn ma?",
-    "pinyin_numeric": "Ke3yi3 qing3 ni3 shuo1 man4 yi4dian3 ma0?",
+    "pinyin_numeric": "ke3 yi3 qing3 ni3 shuo1 man4 yi4dian3 ma0?",
     "translation_en": "Could you please speak a little slower?",
     "translation_ko": "조금 천천히 말해 주실 수 있습니까?",
     "tokens": [
@@ -6123,7 +6123,7 @@
     "id": "SEN_M1_D30_05",
     "text": "我可以坐這裡嗎？",
     "pinyin": "Wǒ kěyǐ zuò zhèlǐ ma?",
-    "pinyin_numeric": "Wo3 ke3yi3 zuo4 zhe4li3 ma0?",
+    "pinyin_numeric": "Wo3 ke3 yi3 zuo4 zhe4li3 ma0?",
     "translation_en": "May I sit here?",
     "translation_ko": "여기에 앉아도 됩니까?",
     "tokens": [

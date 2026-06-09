@@ -7822,11 +7822,11 @@
     "id": "VOC_D54_028",
     "char": "可以啊",
     "pinyin": "kě yǐ a",
-    "pinyin_numeric": "ke3 yi3 a5",
+    "pinyin_numeric": "ke3 yi3 a0",
     "phonemes": [
       "ke3",
       "yi3",
-      "a5"
+      "a0"
     ],
     "pos": "interjection",
     "meaning_en": "Sure! (informal agreement)",
@@ -7849,10 +7849,10 @@
     "id": "VOC_D54_029",
     "char": "好啊",
     "pinyin": "hǎo a",
-    "pinyin_numeric": "hao3 a5",
+    "pinyin_numeric": "hao3 a0",
     "phonemes": [
       "hao3",
-      "a5"
+      "a0"
     ],
     "pos": "interjection",
     "meaning_en": "Okay! (enthusiastic agreement)",
@@ -7983,12 +7983,12 @@
     "id": "VOC_D54_034",
     "char": "沒問題啊",
     "pinyin": "méi wèn tí a",
-    "pinyin_numeric": "mei2 wen4 ti2 a5",
+    "pinyin_numeric": "mei2 wen4 ti2 a0",
     "phonemes": [
       "mei2",
       "wen4",
       "ti2",
-      "a5"
+      "a0"
     ],
     "pos": "interjection",
     "meaning_en": "No problem! (informal agreement)",
@@ -12328,13 +12328,13 @@
     "id": "VOC_D62_020",
     "char": "可以幫我嗎",
     "pinyin": "kě yǐ bāng wǒ ma",
-    "pinyin_numeric": "ke3 yi3 bang1 wo3 ma5",
+    "pinyin_numeric": "ke3 yi3 bang1 wo3 ma0",
     "phonemes": [
       "ke3",
       "yi3",
       "bang1",
       "wo3",
-      "ma5"
+      "ma0"
     ],
     "pos": "phrase",
     "meaning_en": "Can you help me?",
@@ -28468,11 +28468,11 @@
     "id": "VOC_D73_019",
     "char": "同意嗎",
     "pinyin": "tóng yì ma",
-    "pinyin_numeric": "tong2 yi4 ma5",
+    "pinyin_numeric": "tong2 yi4 ma0",
     "phonemes": [
       "tong2",
       "yi4",
-      "ma5"
+      "ma0"
     ],
     "pos": "phrase",
     "meaning_en": "Do you agree?",
@@ -28495,12 +28495,12 @@
     "id": "VOC_D73_020",
     "char": "你覺得呢",
     "pinyin": "nǐ jué de ne",
-    "pinyin_numeric": "ni3 jue2 de5 ne5",
+    "pinyin_numeric": "ni3 jue2 de5 ne0",
     "phonemes": [
       "ni3",
       "jue2",
       "de5",
-      "ne5"
+      "ne0"
     ],
     "pos": "phrase",
     "meaning_en": "What do you think?",
@@ -29063,11 +29063,11 @@
     "id": "VOC_D73_038",
     "char": "確定嗎",
     "pinyin": "què dìng ma",
-    "pinyin_numeric": "que4 ding4 ma5",
+    "pinyin_numeric": "que4 ding4 ma0",
     "phonemes": [
       "que4",
       "ding4",
-      "ma5"
+      "ma0"
     ],
     "pos": "phrase",
     "meaning_en": "Are you sure?",
@@ -31880,11 +31880,11 @@
     "id": "VOC_D77_022",
     "char": "真的嗎",
     "pinyin": "zhēn de ma",
-    "pinyin_numeric": "zhen1 de5 ma5",
+    "pinyin_numeric": "zhen1 de5 ma0",
     "phonemes": [
       "zhen1",
       "de5",
-      "ma5"
+      "ma0"
     ],
     "pos": "phrase",
     "meaning_en": "really?",
@@ -31910,11 +31910,11 @@
     "id": "VOC_D77_023",
     "char": "然後呢",
     "pinyin": "rán hòu ne",
-    "pinyin_numeric": "ran2 hou4 ne5",
+    "pinyin_numeric": "ran2 hou4 ne0",
     "phonemes": [
       "ran2",
       "hou4",
-      "ne5"
+      "ne0"
     ],
     "pos": "phrase",
     "meaning_en": "and then? what happened next?",
@@ -32476,10 +32476,10 @@
     "id": "VOC_D78_004",
     "char": "對啊",
     "pinyin": "duì a",
-    "pinyin_numeric": "dui4 a5",
+    "pinyin_numeric": "dui4 a0",
     "phonemes": [
       "dui4",
-      "a5"
+      "a0"
     ],
     "pos": "filler",
     "meaning_en": "right, yeah (agreement filler)",
@@ -32688,10 +32688,10 @@
     "id": "VOC_D78_011",
     "char": "好嗎",
     "pinyin": "hǎo ma",
-    "pinyin_numeric": "hao3 ma5",
+    "pinyin_numeric": "hao3 ma0",
     "phonemes": [
       "hao3",
-      "ma5"
+      "ma0"
     ],
     "pos": "tag question",
     "meaning_en": "okay? alright? (to soften request)",
@@ -32719,11 +32719,11 @@
     "id": "VOC_D78_012",
     "char": "可以嗎",
     "pinyin": "kě yǐ ma",
-    "pinyin_numeric": "ke3 yi3 ma5",
+    "pinyin_numeric": "ke3 yi3 ma0",
     "phonemes": [
       "ke3",
       "yi3",
-      "ma5"
+      "ma0"
     ],
     "pos": "tag question",
     "meaning_en": "is it okay? (to soften request)",
@@ -33007,9 +33007,9 @@
     "id": "VOC_D78_022",
     "char": "啊",
     "pinyin": "a",
-    "pinyin_numeric": "a5",
+    "pinyin_numeric": "a0",
     "phonemes": [
-      "a5"
+      "a0"
     ],
     "pos": "filler",
     "meaning_en": "ah (exclamation or hesitation)",
@@ -34075,11 +34075,11 @@
     "id": "VOC_D79_027",
     "char": "真的嗎",
     "pinyin": "zhēn de ma",
-    "pinyin_numeric": "zhen1 de5 ma5",
+    "pinyin_numeric": "zhen1 de5 ma0",
     "phonemes": [
       "zhen1",
       "de5",
-      "ma5"
+      "ma0"
     ],
     "pos": "phrase",
     "meaning_en": "really?",
@@ -34102,11 +34102,11 @@
     "id": "VOC_D79_028",
     "char": "然後呢",
     "pinyin": "rán hòu ne",
-    "pinyin_numeric": "ran2 hou4 ne5",
+    "pinyin_numeric": "ran2 hou4 ne0",
     "phonemes": [
       "ran2",
       "hou4",
-      "ne5"
+      "ne0"
     ],
     "pos": "phrase",
     "meaning_en": "and then?",
@@ -35732,10 +35732,10 @@
     "id": "VOC_D81_007",
     "char": "在嗎",
     "pinyin": "zài ma",
-    "pinyin_numeric": "zai4 ma5",
+    "pinyin_numeric": "zai4 ma0",
     "phonemes": [
       "zai4",
-      "ma5"
+      "ma0"
     ],
     "pos": "phrase",
     "meaning_en": "are you there? / is (someone) available?",
@@ -40267,11 +40267,11 @@
     "id": "VOC_D85_022",
     "char": "真的嗎",
     "pinyin": "zhēn de ma",
-    "pinyin_numeric": "zhen1 de5 ma5",
+    "pinyin_numeric": "zhen1 de5 ma0",
     "phonemes": [
       "zhen1",
       "de5",
-      "ma5"
+      "ma0"
     ],
     "pos": "phrase",
     "meaning_en": "Really?",
@@ -40294,11 +40294,11 @@
     "id": "VOC_D85_023",
     "char": "然後呢",
     "pinyin": "rán hòu ne",
-    "pinyin_numeric": "ran2 hou4 ne5",
+    "pinyin_numeric": "ran2 hou4 ne0",
     "phonemes": [
       "ran2",
       "hou4",
-      "ne5"
+      "ne0"
     ],
     "pos": "phrase",
     "meaning_en": "And then? What happened next?",
@@ -40321,10 +40321,10 @@
     "id": "VOC_D85_024",
     "char": "對啊",
     "pinyin": "duì a",
-    "pinyin_numeric": "dui4 a5",
+    "pinyin_numeric": "dui4 a0",
     "phonemes": [
       "dui4",
-      "a5"
+      "a0"
     ],
     "pos": "phrase",
     "meaning_en": "Yeah; That's right",
