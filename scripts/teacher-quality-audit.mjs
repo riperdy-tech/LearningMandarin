@@ -71,6 +71,9 @@ function checkEnglishGloss(item, label) {
   if (/\bvery delicious\b|\bwater leakage situation\b|\bmy nose is allergic\b|\bbody is very hot\b/i.test(gloss)) {
     errors.push(`${label}: literal English gloss "${gloss}"`);
   }
+  if (/\bgo eat\b|\bchange the time\b|\bmake it a little cheaper\b/i.test(gloss)) {
+    errors.push(`${label}: unnatural English gloss "${gloss}"`);
+  }
 }
 
 function checkNestedEnglish(value, label) {

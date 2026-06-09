@@ -12019,7 +12019,7 @@
     "prompt_en": "Answer a question in this scenario: sounding less robotic in conversation.",
     "model_answer": "嗯，就是說，我們可以先去買東西，然後再去吃飯。",
     "model_pinyin": "Ēn, jiùshì shuō, wǒmen kěyǐ xiān qù mǎi dōngxī, ránhòu zài qù chīfàn.",
-    "model_translation_en": "Hmm, I mean, we can go shopping first, and then go eat.",
+    "model_translation_en": "Hmm, I mean, we can go shopping first, and then go out to eat.",
     "related_sentence_id": "SEN_D78_005",
     "related_dialogue_id": "DLG_D78_03"
   },
@@ -13680,7 +13680,7 @@
     "prompt_en": "Respond as one speaker in this scenario: short chat messages in Traditional Chinese.",
     "model_answer": "不好意思，我想改時間，明天下午可以嗎？",
     "model_pinyin": "Bù hǎo yì si, wǒ xiǎng gǎi shí jiān, míng tiān xià wǔ kě yǐ ma?",
-    "model_translation_en": "Excuse me, I'd like to change the time. Is tomorrow afternoon okay?",
+    "model_translation_en": "Excuse me, I'd like to reschedule. Is tomorrow afternoon okay?",
     "related_sentence_id": "SEN_D82_027",
     "related_dialogue_id": "DLG_D82_02"
   },
@@ -14065,7 +14065,7 @@
     "prompt_en": "Respond as one speaker in this scenario: choosing restaurant, time, route, option.",
     "model_answer": "考慮一下，我們就決定改時間到八點。",
     "model_pinyin": "Kǎolǜ yīxià, wǒmen jiù juédìng gǎi shíjiān dào bā diǎn.",
-    "model_translation_en": "After considering for a moment, we just decided to change the time to eight.",
+    "model_translation_en": "After considering for a moment, we just decided to move it to eight.",
     "related_sentence_id": "SEN_D83_027",
     "related_dialogue_id": "DLG_D83_02"
   },
@@ -15132,7 +15132,7 @@
     "prompt_en": "Repeat the model sentence with full phrase rhythm.",
     "model_answer": "請問，這附近有便利商店嗎？我想買東西。",
     "model_pinyin": "Qǐngwèn, zhè fùjìn yǒu biànlì shāngdiàn ma? Wǒ xiǎng mǎi dōngxi.",
-    "model_translation_en": "Excuse me, is there a convenience store nearby? I want to buy something.",
+    "model_translation_en": "Excuse me, is there a convenience store nearby? I would like to buy something.",
     "related_sentence_id": "SEN_D86_011",
     "related_dialogue_id": "DLG_D86_03"
   },
@@ -15154,7 +15154,7 @@
     "prompt_en": "Answer a question in this scenario: arrive at a new place, ask directions, buy something, make small talk.",
     "model_answer": "可以算便宜一點嗎？我常常來這裡買東西。",
     "model_pinyin": "Kěyǐ suàn piányí yīdiǎn ma? Wǒ chángcháng lái zhèlǐ mǎi dōngxi.",
-    "model_translation_en": "Can you make it a little cheaper? I often come here to buy things.",
+    "model_translation_en": "Can you give me a small discount? I often come here to buy things.",
     "related_sentence_id": "SEN_D86_015",
     "related_dialogue_id": "DLG_D86_02"
   },
@@ -15176,7 +15176,7 @@
     "prompt_en": "Create your own sentence using only known words.",
     "model_answer": "這個便當多少錢？我想買一個當午餐。",
     "model_pinyin": "Zhège biàndāng duōshao qián? Wǒ xiǎng mǎi yī gè dàng wǔcān.",
-    "model_translation_en": "How much is this bento box? I want to buy one for lunch.",
+    "model_translation_en": "How much is this bento box? I would like to buy one for lunch.",
     "related_sentence_id": "SEN_D86_019",
     "related_dialogue_id": "DLG_D86_01"
   },
@@ -15187,7 +15187,7 @@
     "prompt_en": "Repeat the model sentence with full phrase rhythm.",
     "model_answer": "請問，這附近有便利商店嗎？我想買東西。",
     "model_pinyin": "Qǐngwèn, zhè fùjìn yǒu biànlì shāngdiàn ma? Wǒ xiǎng mǎi dōngxi.",
-    "model_translation_en": "Excuse me, is there a convenience store nearby? I want to buy something.",
+    "model_translation_en": "Excuse me, is there a convenience store nearby? I would like to buy something.",
     "related_sentence_id": "SEN_D86_011",
     "related_dialogue_id": "DLG_D86_02"
   },
@@ -15198,7 +15198,7 @@
     "prompt_en": "Swap one word and say the new sentence aloud.",
     "model_answer": "請問，車站怎麼走？我想去對面買東西。",
     "model_pinyin": "Qǐngwèn, chēzhàn zěnme zǒu? Wǒ xiǎng qù duìmiàn mǎi dōngxi.",
-    "model_translation_en": "Excuse me, how do I get to the station? I want to go buy something across the street.",
+    "model_translation_en": "Excuse me, how do I get to the station? I would like to go buy something across the street.",
     "related_sentence_id": "SEN_D86_023",
     "related_dialogue_id": "DLG_D86_03"
   },
@@ -15209,7 +15209,7 @@
     "prompt_en": "Answer a question in this scenario: arrive at a new place, ask directions, buy something, make small talk.",
     "model_answer": "這個多少錢？可以算便宜一點嗎？",
     "model_pinyin": "Zhège duōshao qián? Kěyǐ suàn piányí yīdiǎn ma?",
-    "model_translation_en": "How much is this? Can you make it a little cheaper?",
+    "model_translation_en": "How much is this? Can you give me a small discount?",
     "related_sentence_id": "SEN_D86_025",
     "related_dialogue_id": "DLG_D86_01"
   },
@@ -15264,7 +15264,7 @@
     "prompt_en": "Answer a question in this scenario: arrive at a new place, ask directions, buy something, make small talk.",
     "model_answer": "可以算便宜一點嗎？",
     "model_pinyin": "Kěyǐ suàn piányí yīdiǎn ma?",
-    "model_translation_en": "Can you make it a little cheaper?",
+    "model_translation_en": "Can you give me a small discount?",
     "related_sentence_id": "SEN_D86_004",
     "related_dialogue_id": "DLG_D86_03"
   },
@@ -15286,7 +15286,7 @@
     "prompt_en": "Create your own sentence using only known words.",
     "model_answer": "我想買東西，請問哪裡有商店？",
     "model_pinyin": "Wǒ xiǎng mǎi dōngxī, qǐngwèn nǎlǐ yǒu shāngdiàn?",
-    "model_translation_en": "I want to buy something, excuse me, where is a store?",
+    "model_translation_en": "I would like to buy something, excuse me, where is a store?",
     "related_sentence_id": "SEN_D86_039",
     "related_dialogue_id": "DLG_D86_02"
   },
@@ -15297,7 +15297,7 @@
     "prompt_en": "Repeat the model sentence with full phrase rhythm.",
     "model_answer": "請問，這附近有便利商店嗎？我想買東西。",
     "model_pinyin": "Qǐngwèn, zhè fùjìn yǒu biànlì shāngdiàn ma? Wǒ xiǎng mǎi dōngxi.",
-    "model_translation_en": "Excuse me, is there a convenience store nearby? I want to buy something.",
+    "model_translation_en": "Excuse me, is there a convenience store nearby? I would like to buy something.",
     "related_sentence_id": "SEN_D86_011",
     "related_dialogue_id": "DLG_D86_03"
   },
@@ -15308,7 +15308,7 @@
     "prompt_en": "Swap one word and say the new sentence aloud.",
     "model_answer": "這個書很便宜，我想買一本。",
     "model_pinyin": "Zhège shū hěn piányi, wǒ xiǎng mǎi yī běn.",
-    "model_translation_en": "This book is very cheap. I want to buy one.",
+    "model_translation_en": "This book is very cheap. I would like to buy one.",
     "related_sentence_id": "SEN_D86_043",
     "related_dialogue_id": "DLG_D86_01"
   },
@@ -15341,7 +15341,7 @@
     "prompt_en": "Create your own sentence using only known words.",
     "model_answer": "請問，這個蘋果多少錢？我想買兩個。",
     "model_pinyin": "Qǐngwèn, zhège píngguǒ duōshao qián? Wǒ xiǎng mǎi liǎng gè.",
-    "model_translation_en": "Excuse me, how much are these apples? I want to buy two.",
+    "model_translation_en": "Excuse me, how much are these apples? I would like to buy two.",
     "related_sentence_id": "SEN_D86_049",
     "related_dialogue_id": "DLG_D86_01"
   },
@@ -15418,7 +15418,7 @@
     "prompt_en": "Swap one word and say the new sentence aloud.",
     "model_answer": "對面有一家商店，我想買東西。",
     "model_pinyin": "Duìmiàn yǒu yī jiā shāngdiàn, wǒ xiǎng mǎi dōngxī.",
-    "model_translation_en": "There's a shop across the street; I want to buy something.",
+    "model_translation_en": "There's a shop across the street; I would like to buy something.",
     "related_sentence_id": "SEN_D86_063",
     "related_dialogue_id": "DLG_D86_02"
   },
@@ -15440,7 +15440,7 @@
     "prompt_en": "Respond as one speaker in this scenario: arrive at a new place, ask directions, buy something, make small talk.",
     "model_answer": "請問，圖書館怎麼走？我想認識新朋友。",
     "model_pinyin": "Qǐngwèn, túshūguǎn zěnme zǒu? Wǒ xiǎng rènshi xīn péngyǒu.",
-    "model_translation_en": "Excuse me, how do I get to the library? I want to meet new friends.",
+    "model_translation_en": "Excuse me, how do I get to the library? I would like to meet new friends.",
     "related_sentence_id": "SEN_D86_067",
     "related_dialogue_id": "DLG_D86_01"
   },
@@ -15891,7 +15891,7 @@
     "prompt_en": "Create your own sentence using only known words.",
     "model_answer": "我們本來約好一起去逛街，但因為臨時下雨，所以取消了。",
     "model_pinyin": "Wǒmen běnlái yuē hǎo yīqǐ qù guàngjiē, dàn yīnwèi línshí xià yǔ, suǒyǐ qǔxiāo le.",
-    "model_translation_en": "We originally agreed to go shopping together, but because it suddenly rained, we canceled.",
+    "model_translation_en": "We originally agreed to go shopping, but because it started raining suddenly, we canceled.",
     "related_sentence_id": "SEN_D88_009",
     "related_dialogue_id": "DLG_D88_02"
   },
@@ -15924,7 +15924,7 @@
     "prompt_en": "Answer a question in this scenario: social plan with conflict and rescheduling.",
     "model_answer": "她邀請我一起去逛街，可是我婉拒了，因為我已經跟朋友約好了。",
     "model_pinyin": "Tā yāoqǐng wǒ yīqǐ qù guàngjiē, kěshì wǒ wǎnjù le, yīnwèi wǒ yǐjīng gēn péngyou yuē hǎo le.",
-    "model_translation_en": "She invited me to go shopping together, but I declined because I already had plans with a friend.",
+    "model_translation_en": "She invited me to go shopping, but I declined because I already had plans with a friend.",
     "related_sentence_id": "SEN_D88_015",
     "related_dialogue_id": "DLG_D88_02"
   },
@@ -15957,7 +15957,7 @@
     "prompt_en": "Repeat the model sentence with full phrase rhythm.",
     "model_answer": "我想邀請你一起去看電影，可是我的行程有衝突。",
     "model_pinyin": "Wǒ xiǎng yāoqǐng nǐ yīqǐ qù kàn diànyǐng, kěshì wǒ de xíngchéng yǒu chōngtū.",
-    "model_translation_en": "I want to invite you to watch a movie together, but my schedule has a conflict.",
+    "model_translation_en": "I would like to invite you to watch a movie together, but my schedule has a conflict.",
     "related_sentence_id": "SEN_D88_021",
     "related_dialogue_id": "DLG_D88_02"
   },
@@ -16210,7 +16210,7 @@
     "prompt_en": "Respond as one speaker in this scenario: social plan with conflict and rescheduling.",
     "model_answer": "我們本來要一起去逛街，但因為她臨時有約會，所以取消了。",
     "model_pinyin": "Wǒmen běnlái yào yīqǐ qù guàngjiē, dàn yīnwèi tā línshí yǒu yuēhuì, suǒyǐ qǔxiāo le.",
-    "model_translation_en": "We originally wanted to go shopping together, but because she had a sudden date, we canceled it.",
+    "model_translation_en": "We originally wanted to go shopping, but because she suddenly had another appointment, we canceled it.",
     "related_sentence_id": "SEN_D88_067",
     "related_dialogue_id": "DLG_D88_01"
   },
@@ -16221,7 +16221,7 @@
     "prompt_en": "Create your own sentence using only known words.",
     "model_answer": "我本來打算跟他一起去看球賽，但因為臨時要加班，所以只好取消了。",
     "model_pinyin": "Wǒ běnlái dǎsuàn gēn tā yīqǐ qù kàn qiúsài, dàn yīnwèi línshí yào jiābān, suǒyǐ zhǐhǎo qǔxiāo le.",
-    "model_translation_en": "I originally planned to go watch the ball game with him, but because I had to work overtime suddenly, I had to cancel.",
+    "model_translation_en": "I originally planned to go watch the game with him, but because I suddenly had to work overtime, I had to cancel.",
     "related_sentence_id": "SEN_D88_069",
     "related_dialogue_id": "DLG_D88_02"
   },
@@ -16276,7 +16276,7 @@
     "prompt_en": "Create your own sentence using only known words.",
     "model_answer": "如果這家餐廳沒有座位的話，我們就去別的地方吃。",
     "model_pinyin": "Rúguǒ zhè jiā cāntīng méiyǒu zuòwèi dehuà, wǒmen jiù qù bié de dìfāng chī.",
-    "model_translation_en": "If this restaurant has no seats, we'll go eat somewhere else.",
+    "model_translation_en": "If this restaurant has no tables available, we'll eat somewhere else.",
     "related_sentence_id": "SEN_D89_009",
     "related_dialogue_id": "DLG_D89_02"
   },

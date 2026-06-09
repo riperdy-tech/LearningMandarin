@@ -2919,7 +2919,7 @@
     "text": "嗯，就是說，我們可以先去買東西，然後再去吃飯。",
     "pinyin": "Ēn, jiùshì shuō, wǒmen kěyǐ xiān qù mǎi dōngxī, ránhòu zài qù chīfàn.",
     "pinyin_numeric": "en1, jiu4shi4 shuo1, wo3men5 ke3yi3 xian1 qu4 mai3 dong1xi1, ran2hou4 zai4 qu4 chi1fan4.",
-    "translation_en": "Hmm, I mean, we can go shopping first, and then go eat.",
+    "translation_en": "Hmm, I mean, we can go shopping first, and then go out to eat.",
     "translation_ko": "음, 그러니까 우리 먼저 쇼핑하고, 그다음에 밥 먹으러 가도 돼요.",
     "audio_id": "AUD_LIS_D78_05",
     "sentence_id": "SEN_D78_005"
@@ -3374,7 +3374,7 @@
     "text": "換句話說，你的意思是我們要改時間嗎？",
     "pinyin": "Huàn jùhuà shuō, nǐ de yìsi shì wǒmen yào gǎi shíjiān ma?",
     "pinyin_numeric": "huan4 ju4hua4 shuo1, ni3 de yi4si shi4 wo3men yao4 gai3 shi2jian1 ma?",
-    "translation_en": "In other words, do you mean we need to change the time?",
+    "translation_en": "In other words, do you mean we need to reschedule?",
     "translation_ko": "다시 말해, 당신의 뜻은 우리가 시간을 변경해야 한다는 건가요?",
     "audio_id": "AUD_LIS_D79_20",
     "sentence_id": "SEN_D79_020"
@@ -4388,7 +4388,7 @@
     "text": "要不然我們取消訂位，要不然我們改時間。",
     "pinyin": "Yàobùrán wǒmen qǔxiāo dìngwèi, yàobùrán wǒmen gǎi shíjiān.",
     "pinyin_numeric": "yao4 bu4 ran2 wo3 men5 qu3 xiao1 ding4 wei4, yao4 bu4 ran2 wo3 men5 gai3 shi2 jian1.",
-    "translation_en": "Either we cancel the reservation, or we change the time.",
+    "translation_en": "Either we cancel the reservation, or we reschedule.",
     "translation_ko": "우리는 예약을 취소하거나, 아니면 시간을 바꾸거나 해요.",
     "audio_id": "AUD_LIS_D83_18",
     "sentence_id": "SEN_D83_018"
@@ -4986,7 +4986,7 @@
     "text": "可以算便宜一點嗎？",
     "pinyin": "Kěyǐ suàn piányí yīdiǎn ma?",
     "pinyin_numeric": "ke3yi3 suan4 pian2yi2 yi1dian3 ma0?",
-    "translation_en": "Can you make it a little cheaper?",
+    "translation_en": "Can you give me a small discount?",
     "translation_ko": "조금 깎아주실 수 있나요?",
     "audio_id": "AUD_LIS_D86_04",
     "sentence_id": "SEN_D86_004"
@@ -5077,7 +5077,7 @@
     "text": "請問，這附近有便利商店嗎？我想買東西。",
     "pinyin": "Qǐngwèn, zhè fùjìn yǒu biànlì shāngdiàn ma? Wǒ xiǎng mǎi dōngxi.",
     "pinyin_numeric": "qing3wen4, zhe4 fu4jin4 you3 bian4li4 shang1dian4 ma0? wo3 xiang3 mai3 dong1xi.",
-    "translation_en": "Excuse me, is there a convenience store nearby? I want to buy something.",
+    "translation_en": "Excuse me, is there a convenience store nearby? I would like to buy something.",
     "translation_ko": "실례합니다, 이 근처에 편의점이 있나요? 물건을 사고 싶어요.",
     "audio_id": "AUD_LIS_D86_11",
     "sentence_id": "SEN_D86_011"
@@ -5090,7 +5090,7 @@
     "text": "請問，車站怎麼走？我想買車票。",
     "pinyin": "Qǐngwèn, chēzhàn zěnme zǒu? Wǒ xiǎng mǎi chēpiào.",
     "pinyin_numeric": "qing3wen4, che1zhan4 zen3me zou3? wo3 xiang3 mai3 che1piao4.",
-    "translation_en": "Excuse me, how do I get to the station? I want to buy a ticket.",
+    "translation_en": "Excuse me, how do I get to the station? I would like to buy a ticket.",
     "translation_ko": "실례합니다, 역까지 어떻게 가나요? 표를 사고 싶어요.",
     "audio_id": "AUD_LIS_D86_12",
     "sentence_id": "SEN_D86_012"
@@ -5116,7 +5116,7 @@
     "text": "這個茶葉蛋多少錢？我想買兩個。",
     "pinyin": "Zhège cháyèdàn duōshao qián? Wǒ xiǎng mǎi liǎng gè.",
     "pinyin_numeric": "zhe4ge cha2ye4dan4 duo1shao qian2? wo3 xiang3 mai3 liang3 ge4.",
-    "translation_en": "How much is this tea egg? I want to buy two.",
+    "translation_en": "How much is this tea egg? I would like to buy two.",
     "translation_ko": "이 차(茶)알은 얼마인가요? 두 개 사고 싶어요.",
     "audio_id": "AUD_LIS_D86_14",
     "sentence_id": "SEN_D86_014"
@@ -5129,7 +5129,7 @@
     "text": "可以算便宜一點嗎？我常常來這裡買東西。",
     "pinyin": "Kěyǐ suàn piányí yīdiǎn ma? Wǒ chángcháng lái zhèlǐ mǎi dōngxi.",
     "pinyin_numeric": "ke3yi3 suan4 pian2yi2 yi1dian3 ma0? wo3 chang2chang2 lai2 zhe4li3 mai3 dong1xi.",
-    "translation_en": "Can you make it a little cheaper? I often come here to buy things.",
+    "translation_en": "Can you give me a small discount? I often come here to buy things.",
     "translation_ko": "조금 깎아 주실 수 있나요? 저는 자주 여기서 물건을 사요.",
     "audio_id": "AUD_LIS_D86_15",
     "sentence_id": "SEN_D86_015"
@@ -5168,7 +5168,7 @@
     "text": "我想認識新朋友，請問你叫什麼名字？",
     "pinyin": "Wǒ xiǎng rènshi xīn péngyou, qǐngwèn nǐ jiào shénme míngzì?",
     "pinyin_numeric": "wo3 xiang3 ren4shi xin1 peng2you, qing3wen4 ni3 jiao4 shen2me ming2zi4?",
-    "translation_en": "I want to meet new friends. May I ask what your name is?",
+    "translation_en": "I would like to meet new friends. May I ask what your name is?",
     "translation_ko": "새 친구를 사귀고 싶은데, 이름이 어떻게 되세요?",
     "audio_id": "AUD_LIS_D86_18",
     "sentence_id": "SEN_D86_018"
@@ -5181,7 +5181,7 @@
     "text": "這個便當多少錢？我想買一個當午餐。",
     "pinyin": "Zhège biàndāng duōshao qián? Wǒ xiǎng mǎi yī gè dàng wǔcān.",
     "pinyin_numeric": "zhe4ge bian4dang1 duo1shao qian2? wo3 xiang3 mai3 yi1 ge4 dang4 wu3can1.",
-    "translation_en": "How much is this bento box? I want to buy one for lunch.",
+    "translation_en": "How much is this bento box? I would like to buy one for lunch.",
     "translation_ko": "이 도시락은 얼마인가요? 점심으로 하나 사고 싶어요.",
     "audio_id": "AUD_LIS_D86_19",
     "sentence_id": "SEN_D86_019"
@@ -5480,7 +5480,7 @@
     "text": "他本來要跟我們一起去吃飯，但因為臨時加班，所以改期了。",
     "pinyin": "Tā běnlái yào gēn wǒmen yīqǐ qù chīfàn, dàn yīnwèi línshí jiābān, suǒyǐ gǎiqī le.",
     "pinyin_numeric": "ta1 ben3lai2 yao4 gen1 wo3men yi1qi3 qu4 chi1fan4, dan4 yin1wei4 lin2shi2 jia1ban1, suo3yi3 gai3qi1 le5.",
-    "translation_en": "He originally wanted to go eat with us, but because he had to work overtime suddenly, he rescheduled.",
+    "translation_en": "He originally wanted to go out to eat with us, but because he suddenly had to work overtime, he rescheduled.",
     "translation_ko": "그는 원래 우리와 같이 밥 먹으러 가려고 했는데, 갑자기 야근이 생겨서 날짜를 변경했어요.",
     "audio_id": "AUD_LIS_D88_02",
     "sentence_id": "SEN_D88_002"
@@ -5571,7 +5571,7 @@
     "text": "我們本來約好一起去逛街，但因為臨時下雨，所以取消了。",
     "pinyin": "Wǒmen běnlái yuē hǎo yīqǐ qù guàngjiē, dàn yīnwèi línshí xià yǔ, suǒyǐ qǔxiāo le.",
     "pinyin_numeric": "wo3men5 ben3lai2 yue1 hao3 yi1qi3 qu4 guang4jie1, dan4 yin1wei4 lin2shi2 xia4 yu3, suo3yi3 qu3xiao1 le5.",
-    "translation_en": "We originally agreed to go shopping together, but because it suddenly rained, we canceled.",
+    "translation_en": "We originally agreed to go shopping, but because it started raining suddenly, we canceled.",
     "translation_ko": "우리는 원래 같이 쇼핑 가기로 했는데, 갑자기 비가 와서 취소했어요.",
     "audio_id": "AUD_LIS_D88_09",
     "sentence_id": "SEN_D88_009"
@@ -5649,7 +5649,7 @@
     "text": "她邀請我一起去逛街，可是我婉拒了，因為我已經跟朋友約好了。",
     "pinyin": "Tā yāoqǐng wǒ yīqǐ qù guàngjiē, kěshì wǒ wǎnjù le, yīnwèi wǒ yǐjīng gēn péngyou yuē hǎo le.",
     "pinyin_numeric": "ta1 yao1qing3 wo3 yi4qi3 qu4 guang4jie1, ke3shi4 wo3 wan3ju4 le5, yin1wei4 wo3 yi3jing1 gen1 peng2you5 yue1 hao3 le5.",
-    "translation_en": "She invited me to go shopping together, but I declined because I already had plans with a friend.",
+    "translation_en": "She invited me to go shopping, but I declined because I already had plans with a friend.",
     "translation_ko": "그녀가 같이 쇼핑 가자고 초대했지만, 이미 친구와 약속이 있어서 거절했어요.",
     "audio_id": "AUD_LIS_D88_15",
     "sentence_id": "SEN_D88_015"
@@ -5831,7 +5831,7 @@
     "text": "如果這家餐廳沒有座位的話，我們就去別的地方吃。",
     "pinyin": "Rúguǒ zhè jiā cāntīng méiyǒu zuòwèi dehuà, wǒmen jiù qù bié de dìfāng chī.",
     "pinyin_numeric": "ru2guo3 zhe4 jia1 can1ting1 mei2you3 zuo4wei4 de5hua4, wo3men jiu4 qu4 bie2 de5 di4fang1 chi1.",
-    "translation_en": "If this restaurant has no seats, we'll go eat somewhere else.",
+    "translation_en": "If this restaurant has no tables available, we'll eat somewhere else.",
     "translation_ko": "이 식당에 자리가 없다면, 다른 곳에 가서 먹어요.",
     "audio_id": "AUD_LIS_D89_09",
     "sentence_id": "SEN_D89_009"

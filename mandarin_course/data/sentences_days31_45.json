@@ -13528,7 +13528,7 @@
     "text": "他想要約朋友一起去吃飯。",
     "pinyin": "Tā xiǎng yào yuē péngyǒu yīqǐ qù chīfàn.",
     "pinyin_numeric": "ta1 xiang3 yao4 yue1 peng2you3 yi1qi3 qu4 chi1fan4",
-    "translation_en": "He wants to invite friends to go eat together.",
+    "translation_en": "He wants to invite friends to go out to eat together.",
     "translation_ko": "그는 친구들과 함께 밥을 먹으러 가고 싶어 해요.",
     "token_ids": [
       "VOC_M1_004",
@@ -14532,7 +14532,7 @@
     "text": "你想約誰一起去吃飯？",
     "pinyin": "Nǐ xiǎng yuē shéi yīqǐ qù chīfàn?",
     "pinyin_numeric": "ni3 xiang3 yue1 shei2 yi1qi3 qu4 chi1fan4?",
-    "translation_en": "Who do you want to invite to go eat together?",
+    "translation_en": "Who do you want to invite to go out to eat together?",
     "translation_ko": "누구랑 같이 밥 먹으러 가고 싶어요?",
     "token_ids": [
       "VOC_M1_003",
@@ -14730,7 +14730,7 @@
     "text": "我們想約下個星期一起去吃飯。",
     "pinyin": "Wǒmen xiǎng yuē xià ge xīngqī yīqǐ qù chīfàn.",
     "pinyin_numeric": "wo3men xiang3 yue1 xia4 ge4 xing1qi1 yi1qi3 qu4 chi1fan4.",
-    "translation_en": "We want to arrange to go eat together next week.",
+    "translation_en": "We want to arrange to go out to eat together next week.",
     "translation_ko": "우리는 다음 주에 같이 밥 먹으러 가기로 하고 싶어요.",
     "token_ids": [
       "VOC_M1_006",
@@ -14992,7 +14992,7 @@
     "text": "他明天要提早到，因為要改時間。",
     "pinyin": "Tā míngtiān yào tízǎo dào, yīnwèi yào gǎi shíjiān.",
     "pinyin_numeric": "ta1 ming2tian1 yao4 ti2zao3 dao4, yin1wei4 yao4 gai3 shi2jian1",
-    "translation_en": "He is going to arrive early tomorrow because he needs to change the time.",
+    "translation_en": "He is going to arrive early tomorrow because he needs to reschedule.",
     "translation_ko": "그는 내일 일찍 도착할 거예요. 시간을 변경해야 하거든요.",
     "token_ids": [
       "VOC_M1_004",
@@ -15472,7 +15472,7 @@
     "text": "她不想改時間，她想準時到。",
     "pinyin": "Tā bù xiǎng gǎi shíjiān, tā xiǎng zhǔnshí dào.",
     "pinyin_numeric": "ta1 bu4 xiang3 gai3 shi2jian1, ta1 xiang3 zhun3shi2 dao4.",
-    "translation_en": "She doesn't want to change the time; she wants to arrive on time.",
+    "translation_en": "She doesn't want to reschedule; she wants to arrive on time.",
     "translation_ko": "그녀는 시간을 바꾸고 싶지 않고, 정시에 도착하고 싶어요.",
     "token_ids": [
       "VOC_M1_005",
@@ -15507,7 +15507,7 @@
     "text": "我想約他一起去吃飯，可是他沒空。",
     "pinyin": "Wǒ xiǎng yuē tā yīqǐ qù chīfàn, kěshì tā méi kòng.",
     "pinyin_numeric": "wo3 xiang3 yue1 ta1 yi1qi3 qu4 chi1fan4, ke3shi4 ta1 mei2 kong4.",
-    "translation_en": "I want to make plans with him to go eat together, but he's not free.",
+    "translation_en": "I want to make plans to go out to eat with him, but he's not free.",
     "translation_ko": "그와 함께 밥을 먹으러 가기로 약속하고 싶은데, 그가 시간이 없어요.",
     "token_ids": [
       "VOC_M1_002",
@@ -15786,7 +15786,7 @@
     "text": "她想要改時間，因為她最近很忙。",
     "pinyin": "Tā xiǎng yào gǎi shíjiān, yīnwèi tā zuìjìn hěn máng.",
     "pinyin_numeric": "ta1 xiang3 yao4 gai3 shi2jian1, yin1wei4 ta1 zui4jin4 hen3 mang2",
-    "translation_en": "She wants to change the time because she's been very busy lately.",
+    "translation_en": "She wants to reschedule because she's been very busy lately.",
     "translation_ko": "그녀는 시간을 바꾸고 싶어 해요. 요즘 매우 바빠서요.",
     "token_ids": [
       "VOC_M1_005",
@@ -16065,7 +16065,7 @@
     "text": "我們什麼時候去吃飯？我最近很忙，可是週末可以。",
     "pinyin": "Wǒmen shénme shíhou qù chīfàn? Wǒ zuìjìn hěn máng, kěshì zhōumò kěyǐ.",
     "pinyin_numeric": "wo3men shen2me shi2hou qu4 chi1fan4? wo3 zui4jin4 hen3 mang2, ke3shi4 zhou1mo4 ke3yi3.",
-    "translation_en": "When shall we go eat? I've been busy lately, but I can do the weekend.",
+    "translation_en": "When shall we go out to eat? I've been busy lately, but I can do the weekend.",
     "translation_ko": "우리 언제 밥 먹으러 갈까요? 요즘 바쁘지만 주말에는 괜찮아요.",
     "token_ids": [
       "VOC_M1_006",

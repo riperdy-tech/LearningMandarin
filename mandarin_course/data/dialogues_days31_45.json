@@ -2452,7 +2452,7 @@
         "text": "我們一起去吃晚餐，然後看電影，好嗎？",
         "pinyin": "Wǒmen yìqǐ qù chī wǎncān, ránhòu kàn diànyǐng, hǎo ma?",
         "pinyin_numeric": "Wo3men yi4qi3 qu4 chi1 wan3can1, ran2hou4 kan4 dian4ying3, hao3 ma?",
-        "translation_en": "Shall we go eat dinner together, then watch a movie?",
+        "translation_en": "Shall we go out for dinner together, then watch a movie?",
         "translation_ko": "우리 함께 저녁 식사하러 가고, 그다음에 영화 보는 게 어떻습니까?",
         "token_ids": [
           "VOC_M1_006",
@@ -2908,7 +2908,7 @@
         "text": "你明天有空嗎？我們一起去吃飯，好不好？",
         "pinyin": "Nǐ míngtiān yǒu kòng ma? Wǒmen yīqǐ qù chīfàn, hǎo bù hǎo?",
         "pinyin_numeric": "Ni3 ming2tian1 you3 kong4 ma5? Wo3men yi1qi3 qu4 chi1fan4, hao3 bu4 hao3?",
-        "translation_en": "Are you free tomorrow? How about we go eat together?",
+        "translation_en": "Are you free tomorrow? How about we go out to eat together?",
         "translation_ko": "내일 시간 있으세요? 같이 밥 먹으러 갈까요?",
         "token_ids": [
           "VOC_M1_003",
@@ -6795,7 +6795,7 @@
         "text": "聽起來不錯！我們可以先去吃午餐，再看電影。",
         "pinyin": "Tīng qǐlai bùcuò! Wǒmen kěyǐ xiān qù chī wǔcān, zài kàn diànyǐng.",
         "pinyin_numeric": "Ting1 qi3lai bu2cuo4! Wo3men ke3yi3 xian1 qu4 chi1 wu3can1, zai4 kan4 dian4ying3.",
-        "translation_en": "Sounds great! We can go eat lunch first, then watch the movie.",
+        "translation_en": "Sounds great! We can go have lunch first, then watch the movie.",
         "translation_ko": "좋네요! 먼저 점심 먹고, 영화 보러 가요.",
         "token_ids": [
           "VOC_D42_033",

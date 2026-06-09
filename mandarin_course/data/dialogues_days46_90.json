@@ -3617,7 +3617,7 @@
         "text": "明天晚上可以啊！我們去哪裡吃？",
         "pinyin": "Míngtiān wǎnshàng kěyǐ a! Wǒmen qù nǎlǐ chī?",
         "pinyin_numeric": "Ming2tian1 wan3shang4 ke3yi3 a5! Wo3men qu4 na3li3 chi1?",
-        "translation_en": "Tomorrow evening works! Where should we go eat?",
+        "translation_en": "Tomorrow evening works! Where should we go out to eat?",
         "translation_ko": "내일 저녁 괜찮아요! 어디로 먹으러 갈까요?",
         "token_ids": [
           "VOC_M1_033",
@@ -3853,7 +3853,7 @@
     ],
     "comprehension_questions": [
       {
-        "question_en": "Why did A want to change the time?",
+        "question_en": "Why did A want to reschedule?",
         "question_ko": "A가 시간을 변경하려는 이유는 무엇입니까?",
         "options_en": [
           "Something came up",
@@ -7019,7 +7019,7 @@
         "text": "不好意思，我想改時間。",
         "pinyin": "Bù hǎoyìsi, wǒ xiǎng gǎi shíjiān.",
         "pinyin_numeric": "Bu4 hao3yi4si, wo3 xiang3 gai3 shi2jian1.",
-        "translation_en": "Excuse me, I'd like to change the time.",
+        "translation_en": "Excuse me, I'd like to reschedule.",
         "translation_ko": "죄송합니다, 시간을 변경하고 싶습니다.",
         "token_ids": [
           "VOC_D31_020",
@@ -7566,7 +7566,7 @@
         "text": "好，那我們就約九點。萬一你遲到的話，我們就改時間。",
         "pinyin": "Hǎo, nà wǒmen jiù yuē jiǔ diǎn. Wànyī nǐ chídào dehuà, wǒmen jiù gǎi shíjiān.",
         "pinyin_numeric": "hao3, na4 wo3 men5 jiu4 yue1 jiu3 dian3. wan4 yi1 ni3 chi2 dao4 de5 hua4, wo3 men5 jiu4 gai3 shi2 jian1.",
-        "translation_en": "Okay, let's meet at nine. In case you're late, we'll change the time.",
+        "translation_en": "Okay, let's meet at nine. In case you're late, we'll reschedule.",
         "translation_ko": "좋아요, 그럼 9시로 약속해요. 만약 늦으면 시간을 바꿔요.",
         "token_ids": [
           "VOC_M1_088",
@@ -7657,7 +7657,7 @@
         "text": "我想去那家餐廳吃牛肉麵，可是如果關門的話，我們就去吃滷肉飯。",
         "pinyin": "Wǒ xiǎng qù nà jiā cāntīng chī niúròu miàn, kěshì rúguǒ guānmén dehuà, wǒmen jiù qù chī lǔròu fàn.",
         "pinyin_numeric": "wo3 xiang3 qu4 na4 jia1 can1 ting1 chi1 niu2 rou4 mian4, ke3 shi4 ru2 guo3 guan1 men2 de5 hua4, wo3 men5 jiu4 qu4 chi1 lu3 rou4 fan4.",
-        "translation_en": "I want to go to that restaurant for beef noodles, but if it's closed, we'll go eat braised pork rice.",
+        "translation_en": "I want to go to that restaurant for beef noodles, but if it's closed, we'll go out to eat braised pork rice.",
         "translation_ko": "그 식당에 가서 소고기 국수를 먹고 싶은데, 문을 닫았으면 루로우판을 먹으러 가요.",
         "token_ids": [
           "VOC_M1_002",
@@ -7879,7 +7879,7 @@
         "text": "那我們可以再去吃一次，順便看夕陽。",
         "pinyin": "Nà wǒmen kěyǐ zài qù chī yī cì, shùnbiàn kàn xīyáng.",
         "pinyin_numeric": "Na4 wo3men ke3yi3 zai4 qu4 chi1 yi1 ci4, shun4bian4 kan4 xi1yang2.",
-        "translation_en": "Then we can go eat it again and watch the sunset while we're at it.",
+        "translation_en": "Then we can go out to eat it again and watch the sunset while we're at it.",
         "translation_ko": "그럼 다시 먹으러 가면서 석양도 보면 좋겠네요.",
         "token_ids": [
           "VOC_M1_006",
@@ -8154,7 +8154,7 @@
         "text": "我想買一個新手機，但是不知道要選哪一個。",
         "pinyin": "Wǒ xiǎng mǎi yī gè xīn shǒujī, dànshì bù zhīdào yào xuǎn nǎ yī gè.",
         "pinyin_numeric": "Wo3 xiang3 mai3 yi1 ge4 xin1 shou3ji1, dan4shi4 bu4 zhi1dao4 yao4 xuan3 na3 yi1 ge4.",
-        "translation_en": "I want to buy a new phone, but I don't know which one to choose.",
+        "translation_en": "I would like to buy a new phone, but I don't know which one to choose.",
         "translation_ko": "새 휴대폰을 사고 싶은데, 어떤 걸 골라야 할지 모르겠어요.",
         "token_ids": [
           "VOC_M1_002",
@@ -10464,7 +10464,7 @@
         "text": "你這個週末有空嗎？我們一起去逛街。",
         "pinyin": "Nǐ zhège zhōumò yǒu kòng ma? Wǒmen yīqǐ qù guàngjiē.",
         "pinyin_numeric": "ni3 zhe4ge5 zhou1mo4 you3 kong4 ma5? wo3men5 yi1qi3 qu4 guang4jie1.",
-        "translation_en": "Are you free this weekend? Let's go shopping together.",
+        "translation_en": "Are you free this weekend? Let's go shopping.",
         "translation_ko": "이번 주말에 시간 있어요? 우리 같이 쇼핑 가요.",
         "token_ids": [
           "VOC_M1_003",
@@ -11996,7 +11996,7 @@
         "text": "你好，我上個星期有預約今天下午三點，可是臨時有事，想改時間。",
         "pinyin": "Nǐ hǎo, wǒ shàngge xīngqī yǒu yùyuē jīntiān xiàwǔ sān diǎn, kěshì línshí yǒu shì, xiǎng gǎi shíjiān.",
         "pinyin_numeric": "Ni3 hao3, wo3 shang4ge5 xing1qi1 you3 yu4yue1 jin1tian1 xia4wu3 san1 dian3, ke3shi4 lin2shi2 you3 shi4, xiang3 gai3 shi2jian1.",
-        "translation_en": "Hello, I made an appointment last week for 3 PM today, but something came up, so I want to change the time.",
+        "translation_en": "Hello, I made an appointment last week for 3 PM today, but something came up, so I want to reschedule.",
         "translation_ko": "안녕하세요, 지난주에 오늘 오후 3시로 예약했는데 갑자기 일이 생겨서 시간을 변경하고 싶습니다.",
         "token_ids": [
           "VOC_M1_001",
@@ -12071,7 +12071,7 @@
         "text": "我幫你看看。明天上午十點可以，我幫你改時間。",
         "pinyin": "Wǒ bāng nǐ kàn kàn. Míngtiān shàngwǔ shí diǎn kěyǐ, wǒ bāng nǐ gǎi shíjiān.",
         "pinyin_numeric": "Wo3 bang1 ni3 kan4 kan5. Ming2tian1 shang4wu3 shi2 dian3 ke3yi3, wo3 bang1 ni3 gai3 shi2jian1.",
-        "translation_en": "Let me check for you. Tomorrow at 10 AM is available, I'll change the time for you.",
+        "translation_en": "Let me check for you. Tomorrow at 10 AM is available, I'll reschedule for you.",
         "translation_ko": "확인해 드리겠습니다. 내일 오전 10시 가능합니다. 시간을 변경해 드리겠습니다.",
         "token_ids": [
           "VOC_M1_002",
@@ -14472,7 +14472,7 @@
         "text": "水餃也可以啊！那我們去吃水餃吧。",
         "pinyin": "Shuǐjiǎo yě kěyǐ a! Nà wǒmen qù chī shuǐjiǎo ba.",
         "pinyin_numeric": "Shui3jiao3 ye3 ke3yi3 a5! Na4 wo3men5 qu4 chi1 shui3jiao3 ba5.",
-        "translation_en": "Dumplings are fine too! Then let's go eat dumplings.",
+        "translation_en": "Dumplings are fine too! Then let's go out to eat dumplings.",
         "translation_ko": "만두도 괜찮네요! 그럼 만두 먹으러 가요.",
         "token_ids": [
           "VOC_D34_004",
@@ -16527,7 +16527,7 @@
         "text": "我想確認一下你的意思。你說的「改時間」是改到明天嗎？",
         "pinyin": "Wǒ xiǎng quèrèn yīxià nǐ de yìsi. Nǐ shuō de 'gǎi shíjiān' shì gǎi dào míngtiān ma?",
         "pinyin_numeric": "wo3 xiang3 que4 ren4 yi1 xia4 ni3 de5 yi4 si5. ni3 shuo1 de5 'gai3 shi2 jian1' shi4 gai3 dao4 ming2 tian1 ma5?",
-        "translation_en": "I want to confirm what you mean. Does 'change the time' mean change to tomorrow?",
+        "translation_en": "I want to confirm what you mean. Does 'reschedule' mean change to tomorrow?",
         "translation_ko": "무슨 뜻인지 확인하고 싶어요. '시간을 바꾸다'라는 게 내일로 바꾸는 건가요?",
         "token_ids": [
           "VOC_M1_002",
@@ -20058,7 +20058,7 @@
         "text": "請問，便利商店怎麼走？我想買東西。",
         "pinyin": "Qǐng wèn, biànlì shāngdiàn zěnme zǒu? Wǒ xiǎng mǎi dōngxi.",
         "pinyin_numeric": "Qing3 wen4, bian4 li4 shang1 dian4 zen3 me5 zou3? Wo3 xiang3 mai3 dong1 xi5.",
-        "translation_en": "Excuse me, how do I get to the convenience store? I want to buy something.",
+        "translation_en": "Excuse me, how do I get to the convenience store? I would like to buy something.",
         "translation_ko": "실례합니다, 편의점은 어떻게 가나요? 물건을 사고 싶어요.",
         "token_ids": [
           "VOC_D33_026",
@@ -20766,7 +20766,7 @@
         "text": "你好，這個星期六有空嗎？我想邀請你一起去看電影。",
         "pinyin": "Nǐ hǎo, zhège xīngqīliù yǒu kòng ma? Wǒ xiǎng yāoqǐng nǐ yīqǐ qù kàn diànyǐng.",
         "pinyin_numeric": "Ni3 hao3, zhe4 ge5 xing1 qi1 liu4 you3 kong4 ma5? Wo3 xiang3 yao1 qing3 ni3 yi1 qi3 qu4 kan4 dian4 ying3.",
-        "translation_en": "Hello, are you free this Saturday? I want to invite you to go see a movie together.",
+        "translation_en": "Hello, are you free this Saturday? I would like to invite you to go see a movie together.",
         "translation_ko": "안녕하세요, 이번 토요일에 시간 있으세요? 영화 보러 같이 가고 싶어서요.",
         "token_ids": [
           "VOC_M1_001",

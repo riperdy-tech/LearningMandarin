@@ -2327,7 +2327,7 @@
     "prompt_en": "Swap one word and say the new sentence aloud.",
     "model_answer": "他想要約朋友一起去吃飯。",
     "model_pinyin": "Tā xiǎng yào yuē péngyǒu yīqǐ qù chīfàn.",
-    "model_translation_en": "He wants to invite friends to go eat together.",
+    "model_translation_en": "He wants to invite friends to go out to eat together.",
     "related_sentence_id": "SEN_D37_003",
     "related_dialogue_id": "DLG_D37_02"
   },
@@ -2679,7 +2679,7 @@
     "prompt_en": "Respond as one speaker in this scenario: planning to meet someone.",
     "model_answer": "我想約他一起去吃飯，可是他沒空。",
     "model_pinyin": "Wǒ xiǎng yuē tā yīqǐ qù chīfàn, kěshì tā méi kòng.",
-    "model_translation_en": "I want to make plans with him to go eat together, but he's not free.",
+    "model_translation_en": "I want to make plans to go out to eat with him, but he's not free.",
     "related_sentence_id": "SEN_D37_067",
     "related_dialogue_id": "DLG_D37_01"
   },

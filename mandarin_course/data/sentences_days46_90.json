@@ -67001,7 +67001,7 @@
     "text": "你下個月忙不忙？我想約你去面試練習。",
     "pinyin": "Nǐ xià ge yuè máng bù máng? Wǒ xiǎng yuē nǐ qù miànshì liànxí.",
     "pinyin_numeric": "ni3 xia4 ge0 yue4 mang2 bu4 mang2? wo3 xiang3 yue1 ni3 qu4 mian4shi4 lian4xi2.",
-    "translation_en": "Are you busy next month? I want to invite you to practice interviews.",
+    "translation_en": "Are you busy next month? I would like to invite you to practice interviews.",
     "translation_ko": "다음 달에 바쁘세요? 면접 연습을 하자고 초대하고 싶어요.",
     "token_ids": [
       "VOC_M1_003",
@@ -88004,7 +88004,7 @@
     "text": "嗯，就是說，我們可以先去買東西，然後再去吃飯。",
     "pinyin": "Ēn, jiùshì shuō, wǒmen kěyǐ xiān qù mǎi dōngxī, ránhòu zài qù chīfàn.",
     "pinyin_numeric": "en1, jiu4shi4 shuo1, wo3men5 ke3yi3 xian1 qu4 mai3 dong1xi1, ran2hou4 zai4 qu4 chi1fan4.",
-    "translation_en": "Hmm, I mean, we can go shopping first, and then go eat.",
+    "translation_en": "Hmm, I mean, we can go shopping first, and then go out to eat.",
     "translation_ko": "음, 그러니까 우리 먼저 쇼핑하고, 그다음에 밥 먹으러 가도 돼요.",
     "token_ids": [
       "VOC_D78_005",
@@ -90696,7 +90696,7 @@
     "text": "然後，我們先去買東西，再去吃飯，這樣子好嗎？",
     "pinyin": "Ránhòu, wǒmen xiān qù mǎi dōngxi, zài qù chīfàn, zhèyàng zi hǎo ma?",
     "pinyin_numeric": "ran2hou4, wo3men5 xian1 qu4 mai3 dong1xi5, zai4 qu4 chi1fan4, zhe4yang4 zi5 hao3 ma5?",
-    "translation_en": "And then, we'll go shopping first, then go eat, is that okay?",
+    "translation_en": "And then, we'll go shopping first, then go out to eat, is that okay?",
     "translation_ko": "그리고 나서, 우리 먼저 쇼핑하고, 밥 먹으러 가는 게 어때요?",
     "token_ids": [
       "VOC_M1_133",
@@ -91390,7 +91390,7 @@
     "text": "換句話說，你的意思是我們要改時間嗎？",
     "pinyin": "Huàn jùhuà shuō, nǐ de yìsi shì wǒmen yào gǎi shíjiān ma?",
     "pinyin_numeric": "huan4 ju4hua4 shuo1, ni3 de yi4si shi4 wo3men yao4 gai3 shi2jian1 ma?",
-    "translation_en": "In other words, do you mean we need to change the time?",
+    "translation_en": "In other words, do you mean we need to reschedule?",
     "translation_ko": "다시 말해, 당신의 뜻은 우리가 시간을 변경해야 한다는 건가요?",
     "token_ids": [
       "VOC_D78_032",
@@ -98441,7 +98441,7 @@
     "text": "我想外帶一份牛肉麵，請問要等多久？",
     "pinyin": "Wǒ xiǎng wàidài yī fèn niúròumiàn, qǐngwèn yào děng duōjiǔ?",
     "pinyin_numeric": "wo3 xiang3 wai4dai4 yi1 fen4 niu2rou4mian4, qing3wen4 yao4 deng3 duo1jiu3",
-    "translation_en": "I want to order one bowl of beef noodle soup for takeout. How long will it take?",
+    "translation_en": "I would like to order one bowl of beef noodle soup for takeout. How long will it take?",
     "translation_ko": "소고기 국수 하나를 포장하고 싶은데요, 얼마나 기다려야 하나요?",
     "token_ids": [
       "VOC_M1_002",
@@ -98478,7 +98478,7 @@
     "text": "我想訂外送，請問你們有送到這個地址嗎？",
     "pinyin": "Wǒ xiǎng dìng wàisòng, qǐngwèn nǐmen yǒu sòng dào zhège dìzhǐ ma?",
     "pinyin_numeric": "wo3 xiang3 ding4 wai4song4, qing3wen4 ni3men5 you3 song4 dao4 zhe4ge4 di4zhi3 ma0",
-    "translation_en": "I want to order delivery. Do you deliver to this address?",
+    "translation_en": "I would like to order delivery. Do you deliver to this address?",
     "translation_ko": "배달 주문을 하고 싶은데요, 이 주소로 배송되나요?",
     "token_ids": [
       "VOC_M1_002",
@@ -98598,7 +98598,7 @@
     "text": "我想請問你們的診所有看牙齒嗎？",
     "pinyin": "Wǒ xiǎng qǐngwèn nǐmen de zhěnsuǒ yǒu kàn yáchǐ ma?",
     "pinyin_numeric": "wo3 xiang3 qing3wen4 ni3men5 de0 zhen3suo3 you3 kan4 ya2chi3 ma0",
-    "translation_en": "I want to ask if your clinic provides dental care.",
+    "translation_en": "I would like to ask if your clinic provides dental care.",
     "translation_ko": "병원에서 치과 진료를 하나요?",
     "token_ids": [
       "VOC_M1_002",
@@ -99421,7 +99421,7 @@
     "text": "不好意思，我想改時間，明天下午可以嗎？",
     "pinyin": "Bù hǎo yì si, wǒ xiǎng gǎi shí jiān, míng tiān xià wǔ kě yǐ ma?",
     "pinyin_numeric": "bu4 hao3 yi4 si0, wo3 xiang3 gai3 shi2 jian1, ming2 tian1 xia4 wu3 ke3 yi3 ma0",
-    "translation_en": "Excuse me, I'd like to change the time. Is tomorrow afternoon okay?",
+    "translation_en": "Excuse me, I'd like to reschedule. Is tomorrow afternoon okay?",
     "translation_ko": "실례합니다, 시간을 변경하고 싶은데 내일 오후 괜찮으세요?",
     "token_ids": [
       "VOC_D31_020",
@@ -99823,7 +99823,7 @@
     "text": "他傳訊息給我了，說要改時間。",
     "pinyin": "Tā chuán xùnxí gěi wǒ le, shuō yào gǎi shíjiān.",
     "pinyin_numeric": "ta1 chuan2 xun4xi2 gei3 wo3 le0, shuo1 yao4 gai3 shi2jian1",
-    "translation_en": "He sent me a message, saying he wants to change the time.",
+    "translation_en": "He sent me a message saying he wants to reschedule.",
     "translation_ko": "그가 저한테 메시지를 보냈는데, 시간을 바꾸자고 했어요.",
     "token_ids": [
       "VOC_M1_004",
@@ -99913,7 +99913,7 @@
     "text": "你要改時間嗎？",
     "pinyin": "Nǐ yào gǎi shí jiān ma?",
     "pinyin_numeric": "ni3 yao4 gai3 shi2 jian1 ma0",
-    "translation_en": "Do you want to change the time?",
+    "translation_en": "Would you like to reschedule?",
     "translation_ko": "시간을 변경하시겠어요?",
     "token_ids": [
       "VOC_M1_003",
@@ -100136,7 +100136,7 @@
     "text": "不好意思，我想改時間，明天不行，後天可以嗎？",
     "pinyin": "Bù hǎo yì si, wǒ xiǎng gǎi shí jiān, míng tiān bù xíng, hòu tiān kě yǐ ma?",
     "pinyin_numeric": "bu4 hao3 yi4 si0, wo3 xiang3 gai3 shi2 jian1, ming2 tian1 bu4 xing2, hou4 tian1 ke3 yi3 ma0?",
-    "translation_en": "Excuse me, I'd like to change the time. Tomorrow doesn't work; is the day after tomorrow okay?",
+    "translation_en": "Excuse me, I'd like to reschedule. Tomorrow doesn't work; is the day after tomorrow okay?",
     "translation_ko": "죄송합니다, 시간을 바꾸고 싶은데요, 내일 안 되고 모레 괜찮을까요?",
     "token_ids": [
       "VOC_D31_020",
@@ -101498,7 +101498,7 @@
     "text": "要不然我們取消訂位，要不然我們改時間。",
     "pinyin": "Yàobùrán wǒmen qǔxiāo dìngwèi, yàobùrán wǒmen gǎi shíjiān.",
     "pinyin_numeric": "yao4 bu4 ran2 wo3 men5 qu3 xiao1 ding4 wei4, yao4 bu4 ran2 wo3 men5 gai3 shi2 jian1.",
-    "translation_en": "Either we cancel the reservation, or we change the time.",
+    "translation_en": "Either we cancel the reservation, or we reschedule.",
     "translation_ko": "우리는 예약을 취소하거나, 아니면 시간을 바꾸거나 해요.",
     "token_ids": [
       "VOC_M1_061",
@@ -101826,7 +101826,7 @@
     "text": "考慮一下，我們就決定改時間到八點。",
     "pinyin": "Kǎolǜ yīxià, wǒmen jiù juédìng gǎi shíjiān dào bā diǎn.",
     "pinyin_numeric": "kao3lv4 yi1xia4, wo3men jiu4 jue2ding4 gai3 shi2jian1 dao4 ba1 dian3.",
-    "translation_en": "After considering for a moment, we just decided to change the time to eight.",
+    "translation_en": "After considering for a moment, we just decided to move it to eight.",
     "translation_ko": "잠시 고려한 후에, 우리는 그냥 시간을 8시로 바꾸기로 결정했어요.",
     "token_ids": [
       "VOC_D52_008",
@@ -108664,7 +108664,7 @@
     "text": "可以算便宜一點嗎？",
     "pinyin": "Kěyǐ suàn piányí yīdiǎn ma?",
     "pinyin_numeric": "ke3yi3 suan4 pian2yi2 yi1dian3 ma0?",
-    "translation_en": "Can you make it a little cheaper?",
+    "translation_en": "Can you give me a small discount?",
     "translation_ko": "조금 깎아주실 수 있나요?",
     "token_ids": [
       "VOC_M1_118",
@@ -108904,7 +108904,7 @@
     "text": "請問，這附近有便利商店嗎？我想買東西。",
     "pinyin": "Qǐngwèn, zhè fùjìn yǒu biànlì shāngdiàn ma? Wǒ xiǎng mǎi dōngxi.",
     "pinyin_numeric": "qing3wen4, zhe4 fu4jin4 you3 bian4li4 shang1dian4 ma0? wo3 xiang3 mai3 dong1xi.",
-    "translation_en": "Excuse me, is there a convenience store nearby? I want to buy something.",
+    "translation_en": "Excuse me, is there a convenience store nearby? I would like to buy something.",
     "translation_ko": "실례합니다, 이 근처에 편의점이 있나요? 물건을 사고 싶어요.",
     "token_ids": [
       "VOC_D33_026",
@@ -108940,7 +108940,7 @@
     "text": "請問，車站怎麼走？我想買車票。",
     "pinyin": "Qǐngwèn, chēzhàn zěnme zǒu? Wǒ xiǎng mǎi chēpiào.",
     "pinyin_numeric": "qing3wen4, che1zhan4 zen3me zou3? wo3 xiang3 mai3 che1piao4.",
-    "translation_en": "Excuse me, how do I get to the station? I want to buy a ticket.",
+    "translation_en": "Excuse me, how do I get to the station? I would like to buy a ticket.",
     "translation_ko": "실례합니다, 역까지 어떻게 가나요? 표를 사고 싶어요.",
     "token_ids": [
       "VOC_D33_026",
@@ -109008,7 +109008,7 @@
     "text": "這個茶葉蛋多少錢？我想買兩個。",
     "pinyin": "Zhège cháyèdàn duōshao qián? Wǒ xiǎng mǎi liǎng gè.",
     "pinyin_numeric": "zhe4ge cha2ye4dan4 duo1shao qian2? wo3 xiang3 mai3 liang3 ge4.",
-    "translation_en": "How much is this tea egg? I want to buy two.",
+    "translation_en": "How much is this tea egg? I would like to buy two.",
     "translation_ko": "이 차(茶)알은 얼마인가요? 두 개 사고 싶어요.",
     "token_ids": [
       "VOC_M1_041",
@@ -109042,7 +109042,7 @@
     "text": "可以算便宜一點嗎？我常常來這裡買東西。",
     "pinyin": "Kěyǐ suàn piányí yīdiǎn ma? Wǒ chángcháng lái zhèlǐ mǎi dōngxi.",
     "pinyin_numeric": "ke3yi3 suan4 pian2yi2 yi1dian3 ma0? wo3 chang2chang2 lai2 zhe4li3 mai3 dong1xi.",
-    "translation_en": "Can you make it a little cheaper? I often come here to buy things.",
+    "translation_en": "Can you give me a small discount? I often come here to buy things.",
     "translation_ko": "조금 깎아 주실 수 있나요? 저는 자주 여기서 물건을 사요.",
     "token_ids": [
       "VOC_M1_118",
@@ -109153,7 +109153,7 @@
     "text": "我想認識新朋友，請問你叫什麼名字？",
     "pinyin": "Wǒ xiǎng rènshi xīn péngyou, qǐngwèn nǐ jiào shénme míngzì?",
     "pinyin_numeric": "wo3 xiang3 ren4shi xin1 peng2you, qing3wen4 ni3 jiao4 shen2me ming2zi4?",
-    "translation_en": "I want to meet new friends. May I ask what your name is?",
+    "translation_en": "I would like to meet new friends. May I ask what your name is?",
     "translation_ko": "새 친구를 사귀고 싶은데, 이름이 어떻게 되세요?",
     "token_ids": [
       "VOC_M1_002",
@@ -109192,7 +109192,7 @@
     "text": "這個便當多少錢？我想買一個當午餐。",
     "pinyin": "Zhège biàndāng duōshao qián? Wǒ xiǎng mǎi yī gè dàng wǔcān.",
     "pinyin_numeric": "zhe4ge bian4dang1 duo1shao qian2? wo3 xiang3 mai3 yi1 ge4 dang4 wu3can1.",
-    "translation_en": "How much is this bento box? I want to buy one for lunch.",
+    "translation_en": "How much is this bento box? I would like to buy one for lunch.",
     "translation_ko": "이 도시락은 얼마인가요? 점심으로 하나 사고 싶어요.",
     "token_ids": [
       "VOC_M1_041",
@@ -109302,7 +109302,7 @@
     "text": "請問，車站怎麼走？我想去對面買東西。",
     "pinyin": "Qǐngwèn, chēzhàn zěnme zǒu? Wǒ xiǎng qù duìmiàn mǎi dōngxi.",
     "pinyin_numeric": "qing3wen4, che1zhan4 zen3me zou3? wo3 xiang3 qu4 dui4mian4 mai3 dong1xi.",
-    "translation_en": "Excuse me, how do I get to the station? I want to go buy something across the street.",
+    "translation_en": "Excuse me, how do I get to the station? I would like to go buy something across the street.",
     "translation_ko": "실례합니다, 역까지 어떻게 가나요? 길 건너편에 물건을 사러 가고 싶어요.",
     "token_ids": [
       "VOC_D33_026",
@@ -109337,7 +109337,7 @@
     "text": "你認識住在附近的人嗎？我想跟他聊天。",
     "pinyin": "Nǐ rènshi zhù zài fùjìn de rén ma? Wǒ xiǎng gēn tā liáotiān.",
     "pinyin_numeric": "ni3 ren4shi zhu4 zai4 fu4jin4 de ren2 ma0? wo3 xiang3 gen1 ta1 liao2tian1.",
-    "translation_en": "Do you know someone who lives nearby? I want to chat with them.",
+    "translation_en": "Do you know someone who lives nearby? I would like to chat with them.",
     "translation_ko": "이 근처에 사는 사람을 아시나요? 그 사람과 이야기하고 싶어요.",
     "token_ids": [
       "VOC_M1_003",
@@ -109382,7 +109382,7 @@
     "text": "這個多少錢？可以算便宜一點嗎？",
     "pinyin": "Zhège duōshao qián? Kěyǐ suàn piányí yīdiǎn ma?",
     "pinyin_numeric": "zhe4ge duo1shao qian2? ke3yi3 suan4 pian2yi yi1dian3 ma0?",
-    "translation_en": "How much is this? Can you make it a little cheaper?",
+    "translation_en": "How much is this? Can you give me a small discount?",
     "translation_ko": "이거 얼마예요? 조금 깎아 주실 수 있나요?",
     "token_ids": [
       "VOC_M1_041",
@@ -109493,7 +109493,7 @@
     "text": "你認識那個店員嗎？我想跟他聊天，問他東西多少錢。",
     "pinyin": "Nǐ rènshi nàge diànyuán ma? Wǒ xiǎng gēn tā liáotiān, wèn tā dōngxi duōshao qián.",
     "pinyin_numeric": "ni3 ren4shi na4ge dian4yuan2 ma0? wo3 xiang3 gen1 ta1 liao2tian1, wen4 ta1 dong1xi duo1shao qian2.",
-    "translation_en": "Do you know that store clerk? I want to chat with them and ask how much things cost.",
+    "translation_en": "Do you know that store clerk? I would like to chat with them and ask how much things cost.",
     "translation_ko": "저 점원을 아시나요? 그분과 이야기하면서 물건 가격을 물어보고 싶어요.",
     "token_ids": [
       "VOC_M1_003",
@@ -109748,7 +109748,7 @@
     "text": "我想買東西，請問哪裡有商店？",
     "pinyin": "Wǒ xiǎng mǎi dōngxī, qǐngwèn nǎlǐ yǒu shāngdiàn?",
     "pinyin_numeric": "wo3 xiang3 mai3 dong1xi1, qing3wen4 na3li3 you3 shang1dian4",
-    "translation_en": "I want to buy something, excuse me, where is a store?",
+    "translation_en": "I would like to buy something, excuse me, where is a store?",
     "translation_ko": "물건을 사고 싶은데요, 실례합니다, 어디에 가게가 있나요?",
     "token_ids": [
       "VOC_M1_002",
@@ -109816,7 +109816,7 @@
     "text": "我想買一杯咖啡，請問多少錢？",
     "pinyin": "Wǒ xiǎng mǎi yī bēi kāfēi, qǐngwèn duōshao qián?",
     "pinyin_numeric": "wo3 xiang3 mai3 yi1 bei1 ka1fei1, qing3wen4 duo1shao qian2?",
-    "translation_en": "I want to buy a cup of coffee. How much is it?",
+    "translation_en": "I would like to buy a cup of coffee. How much is it?",
     "translation_ko": "커피 한 잔을 사고 싶은데, 얼마인가요?",
     "token_ids": [
       "VOC_M1_002",
@@ -109849,7 +109849,7 @@
     "text": "這個書很便宜，我想買一本。",
     "pinyin": "Zhège shū hěn piányi, wǒ xiǎng mǎi yī běn.",
     "pinyin_numeric": "zhe4ge5 shu1 hen3 pian2yi5, wo3 xiang3 mai3 yi1 ben3.",
-    "translation_en": "This book is very cheap. I want to buy one.",
+    "translation_en": "This book is very cheap. I would like to buy one.",
     "translation_ko": "이 책은 매우 싸네요. 한 권 사고 싶어요.",
     "token_ids": [
       "VOC_M1_041",
@@ -109885,7 +109885,7 @@
     "text": "請問，車站怎麼走？我想去那裡買車票。",
     "pinyin": "Qǐngwèn, chēzhàn zěnme zǒu? Wǒ xiǎng qù nàlǐ mǎi chēpiào.",
     "pinyin_numeric": "qing3wen4, che1zhan4 zen3me zou3? wo3 xiang3 qu4 na4li3 mai3 che1piao4.",
-    "translation_en": "Excuse me, how do I get to the station? I want to go there to buy a ticket.",
+    "translation_en": "Excuse me, how do I get to the station? I would like to go there to buy a ticket.",
     "translation_ko": "실례합니다, 역까지 어떻게 가나요? 거기에 가서 표를 사고 싶어요.",
     "token_ids": [
       "VOC_D33_026",
@@ -109960,7 +109960,7 @@
     "text": "我想買這個手機，可以算便宜一點嗎？",
     "pinyin": "Wǒ xiǎng mǎi zhège shǒujī, kěyǐ suàn piányi yīdiǎn ma?",
     "pinyin_numeric": "wo3 xiang3 mai3 zhe4ge5 shou3ji1, ke3yi3 suan4 pian2yi5 yi1dian3 ma0?",
-    "translation_en": "I want to buy this phone. Can you make it a little cheaper?",
+    "translation_en": "I would like to buy this phone. Can you give me a small discount?",
     "translation_ko": "이 핸드폰을 사고 싶은데, 좀 깎아 주실 수 있나요?",
     "token_ids": [
       "VOC_M1_002",
@@ -110080,7 +110080,7 @@
     "text": "請問，這個蘋果多少錢？我想買兩個。",
     "pinyin": "Qǐngwèn, zhège píngguǒ duōshao qián? Wǒ xiǎng mǎi liǎng gè.",
     "pinyin_numeric": "qing3wen4, zhe4ge5 ping2guo3 duo1shao qian2? wo3 xiang3 mai3 liang3 ge4.",
-    "translation_en": "Excuse me, how much are these apples? I want to buy two.",
+    "translation_en": "Excuse me, how much are these apples? I would like to buy two.",
     "translation_ko": "실례합니다, 이 사과는 얼마인가요? 두 개 사고 싶어요.",
     "token_ids": [
       "VOC_D33_026",
@@ -110116,7 +110116,7 @@
     "text": "我想買一杯奶茶，不要太多糖，可以嗎？",
     "pinyin": "Wǒ xiǎng mǎi yī bēi nǎichá, bù yào tài duō táng, kěyǐ ma?",
     "pinyin_numeric": "wo3 xiang3 mai3 yi1 bei1 nai3cha2, bu4 yao4 tai4 duo1 tang2, ke3yi3 ma0?",
-    "translation_en": "I want to buy a cup of milk tea. Can I have it not too sweet?",
+    "translation_en": "I would like to buy a cup of milk tea. Can I have it less sweet?",
     "translation_ko": "밀크티 한 잔을 사고 싶은데, 설탕을 너무 많이 넣지 않아도 될까요?",
     "token_ids": [
       "VOC_M1_002",
@@ -110417,7 +110417,7 @@
     "text": "對面有一家商店，我想買東西。",
     "pinyin": "Duìmiàn yǒu yī jiā shāngdiàn, wǒ xiǎng mǎi dōngxī.",
     "pinyin_numeric": "dui4mian4 you3 yi1 jia1 shang1dian4, wo3 xiang3 mai3 dong1xi1.",
-    "translation_en": "There's a shop across the street; I want to buy something.",
+    "translation_en": "There's a shop across the street; I would like to buy something.",
     "translation_ko": "맞은편에 가게가 하나 있는데, 물건을 사고 싶어요.",
     "token_ids": [
       "VOC_D33_033",
@@ -110520,7 +110520,7 @@
     "text": "請問，圖書館怎麼走？我想認識新朋友。",
     "pinyin": "Qǐngwèn, túshūguǎn zěnme zǒu? Wǒ xiǎng rènshi xīn péngyǒu.",
     "pinyin_numeric": "qing3wen4, tu2shu1guan3 zen3me zou3? Wo3 xiang3 ren4shi5 xin1 peng2you3.",
-    "translation_en": "Excuse me, how do I get to the library? I want to meet new friends.",
+    "translation_en": "Excuse me, how do I get to the library? I would like to meet new friends.",
     "translation_ko": "실례합니다, 도서관은 어떻게 가나요? 새로운 친구를 사귀고 싶어요.",
     "token_ids": [
       "VOC_D33_026",
@@ -110625,7 +110625,7 @@
     "text": "請問，你認識這附近的人嗎？我想買東西。",
     "pinyin": "Qǐngwèn, nǐ rènshi zhè fùjìn de rén ma? Wǒ xiǎng mǎi dōngxī.",
     "pinyin_numeric": "qing3wen4, ni3 ren4shi5 zhe4 fu4jin4 de5 ren2 ma? Wo3 xiang3 mai3 dong1xi1.",
-    "translation_en": "Excuse me, do you know anyone around here? I want to buy something.",
+    "translation_en": "Excuse me, do you know anyone around here? I would like to buy something.",
     "translation_ko": "실례합니다, 이 근처 사람을 아시나요? 물건을 사고 싶어요.",
     "token_ids": [
       "VOC_D33_026",
@@ -110665,7 +110665,7 @@
     "text": "請問，車站怎麼走？我想去買車票。",
     "pinyin": "Qǐngwèn, chēzhàn zěnme zǒu? Wǒ xiǎng qù mǎi chēpiào.",
     "pinyin_numeric": "qing3wen4, che1zhan4 zen3me zou3? wo3 xiang3 qu4 mai3 che1piao4.",
-    "translation_en": "Excuse me, how do I get to the station? I want to go buy a ticket.",
+    "translation_en": "Excuse me, how do I get to the station? I would like to go buy a ticket.",
     "translation_ko": "실례합니다, 역까지 어떻게 가나요? 표를 사러 가고 싶어요.",
     "token_ids": [
       "VOC_D33_026",
@@ -110699,7 +110699,7 @@
     "text": "請問，這個手機多少錢？我想買。",
     "pinyin": "Qǐngwèn, zhège shǒujī duōshao qián? Wǒ xiǎng mǎi.",
     "pinyin_numeric": "qing3wen4, zhe4ge shou3ji1 duo1shao qian2? wo3 xiang3 mai3.",
-    "translation_en": "Excuse me, how much is this phone? I want to buy it.",
+    "translation_en": "Excuse me, how much is this phone? I would like to buy it.",
     "translation_ko": "실례합니다, 이 핸드폰은 얼마인가요? 사고 싶어요.",
     "token_ids": [
       "VOC_D33_026",
@@ -110731,7 +110731,7 @@
     "text": "請問，這本書多少錢？可以算便宜一點嗎？",
     "pinyin": "Qǐngwèn, zhè běn shū duōshao qián? Kěyǐ suàn piányí yìdiǎn ma?",
     "pinyin_numeric": "qing3wen4, zhe4 ben3 shu1 duo1shao qian2? ke3yi3 suan4 pian2yi2 yi4dian3 ma0?",
-    "translation_en": "Excuse me, how much is this book? Can you make it a little cheaper?",
+    "translation_en": "Excuse me, how much is this book? Can you give me a small discount?",
     "translation_ko": "실례합니다, 이 책은 얼마인가요? 조금 깎아 주실 수 있나요?",
     "token_ids": [
       "VOC_D33_026",
@@ -110812,7 +110812,7 @@
     "text": "請問，這杯咖啡多少錢？我想買一杯。",
     "pinyin": "Qǐngwèn, zhè bēi kāfēi duōshao qián? Wǒ xiǎng mǎi yì bēi.",
     "pinyin_numeric": "qing3wen4, zhe4 bei1 ka1fei1 duo1shao qian2? wo3 xiang3 mai3 yi4 bei1.",
-    "translation_en": "Excuse me, how much is this cup of coffee? I want to buy one.",
+    "translation_en": "Excuse me, how much is this cup of coffee? I would like to buy one.",
     "translation_ko": "실례합니다, 이 커피 한 잔은 얼마인가요? 한 잔 사고 싶어요.",
     "token_ids": [
       "VOC_D33_026",
@@ -110886,7 +110886,7 @@
     "text": "請問，這個袋子多少錢？我想買一個。",
     "pinyin": "Qǐngwèn, zhège dàizi duōshao qián? Wǒ xiǎng mǎi yí ge.",
     "pinyin_numeric": "qing3wen4, zhe4ge dai4zi duo1shao qian2? wo3 xiang3 mai3 yi2 ge.",
-    "translation_en": "Excuse me, how much is this bag? I want to buy one.",
+    "translation_en": "Excuse me, how much is this bag? I would like to buy one.",
     "translation_ko": "실례합니다, 이 가방은 얼마인가요? 하나 사고 싶어요.",
     "token_ids": [
       "VOC_D33_026",
@@ -110957,7 +110957,7 @@
     "text": "請問，這件衣服多少錢？可以算便宜一點嗎？我想買。",
     "pinyin": "Qǐngwèn, zhè jiàn yīfu duōshao qián? Kěyǐ suàn piányí yìdiǎn ma? Wǒ xiǎng mǎi.",
     "pinyin_numeric": "qing3wen4, zhe4 jian4 yi1fu duo1shao qian2? ke3yi3 suan4 pian2yi2 yi4dian3 ma0? wo3 xiang3 mai3.",
-    "translation_en": "Excuse me, how much is this piece of clothing? Can you make it a little cheaper? I want to buy it.",
+    "translation_en": "Excuse me, how much is this piece of clothing? Can you give me a small discount? I would like to buy it.",
     "translation_ko": "실례합니다, 이 옷은 얼마인가요? 조금 깎아 주실 수 있나요? 사고 싶어요.",
     "token_ids": [
       "VOC_D33_026",
@@ -114661,7 +114661,7 @@
     "text": "他本來要跟我們一起去吃飯，但因為臨時加班，所以改期了。",
     "pinyin": "Tā běnlái yào gēn wǒmen yīqǐ qù chīfàn, dàn yīnwèi línshí jiābān, suǒyǐ gǎiqī le.",
     "pinyin_numeric": "ta1 ben3lai2 yao4 gen1 wo3men yi1qi3 qu4 chi1fan4, dan4 yin1wei4 lin2shi2 jia1ban1, suo3yi3 gai3qi1 le5.",
-    "translation_en": "He originally wanted to go eat with us, but because he had to work overtime suddenly, he rescheduled.",
+    "translation_en": "He originally wanted to go out to eat with us, but because he suddenly had to work overtime, he rescheduled.",
     "translation_ko": "그는 원래 우리와 같이 밥 먹으러 가려고 했는데, 갑자기 야근이 생겨서 날짜를 변경했어요.",
     "token_ids": [
       "VOC_M1_004",
@@ -115013,7 +115013,7 @@
     "text": "我們本來約好一起去逛街，但因為臨時下雨，所以取消了。",
     "pinyin": "Wǒmen běnlái yuē hǎo yīqǐ qù guàngjiē, dàn yīnwèi línshí xià yǔ, suǒyǐ qǔxiāo le.",
     "pinyin_numeric": "wo3men5 ben3lai2 yue1 hao3 yi1qi3 qu4 guang4jie1, dan4 yin1wei4 lin2shi2 xia4 yu3, suo3yi3 qu3xiao1 le5.",
-    "translation_en": "We originally agreed to go shopping together, but because it suddenly rained, we canceled.",
+    "translation_en": "We originally agreed to go shopping, but because it started raining suddenly, we canceled.",
     "translation_ko": "우리는 원래 같이 쇼핑 가기로 했는데, 갑자기 비가 와서 취소했어요.",
     "token_ids": [
       "VOC_M1_006",
@@ -115316,7 +115316,7 @@
     "text": "她邀請我一起去逛街，可是我婉拒了，因為我已經跟朋友約好了。",
     "pinyin": "Tā yāoqǐng wǒ yīqǐ qù guàngjiē, kěshì wǒ wǎnjù le, yīnwèi wǒ yǐjīng gēn péngyou yuē hǎo le.",
     "pinyin_numeric": "ta1 yao1qing3 wo3 yi4qi3 qu4 guang4jie1, ke3shi4 wo3 wan3ju4 le5, yin1wei4 wo3 yi3jing1 gen1 peng2you5 yue1 hao3 le5.",
-    "translation_en": "She invited me to go shopping together, but I declined because I already had plans with a friend.",
+    "translation_en": "She invited me to go shopping, but I declined because I already had plans with a friend.",
     "translation_ko": "그녀가 같이 쇼핑 가자고 초대했지만, 이미 친구와 약속이 있어서 거절했어요.",
     "token_ids": [
       "VOC_M1_005",
@@ -115626,7 +115626,7 @@
     "text": "我想邀請你一起去看電影，可是我的行程有衝突。",
     "pinyin": "Wǒ xiǎng yāoqǐng nǐ yīqǐ qù kàn diànyǐng, kěshì wǒ de xíngchéng yǒu chōngtū.",
     "pinyin_numeric": "wo3 xiang3 yao1qing3 ni3 yi1qi3 qu4 kan4 dian4ying3, ke3shi4 wo3 de xing2cheng2 you3 chong1tu1.",
-    "translation_en": "I want to invite you to watch a movie together, but my schedule has a conflict.",
+    "translation_en": "I would like to invite you to watch a movie together, but my schedule has a conflict.",
     "translation_ko": "당신을 영화 보러 초대하고 싶은데, 제 일정에 충돌이 있어요.",
     "token_ids": [
       "VOC_M1_002",
@@ -117540,7 +117540,7 @@
     "text": "我們本來要一起去逛街，但因為她臨時有約會，所以取消了。",
     "pinyin": "Wǒmen běnlái yào yīqǐ qù guàngjiē, dàn yīnwèi tā línshí yǒu yuēhuì, suǒyǐ qǔxiāo le.",
     "pinyin_numeric": "wo3men5 ben3lai2 yao4 yi4qi3 qu4 guang4jie1, dan4 yin1wei4 ta1 lin2shi2 you3 yue1hui4, suo3yi3 qu3xiao1 le5.",
-    "translation_en": "We originally wanted to go shopping together, but because she had a sudden date, we canceled it.",
+    "translation_en": "We originally wanted to go shopping, but because she suddenly had another appointment, we canceled it.",
     "translation_ko": "우리는 원래 함께 쇼핑하러 가려고 했는데, 그녀가 갑자기 데이트가 생겨서 취소했어요.",
     "token_ids": [
       "VOC_M1_006",
@@ -117643,7 +117643,7 @@
     "text": "我本來打算跟他一起去看球賽，但因為臨時要加班，所以只好取消了。",
     "pinyin": "Wǒ běnlái dǎsuàn gēn tā yīqǐ qù kàn qiúsài, dàn yīnwèi línshí yào jiābān, suǒyǐ zhǐhǎo qǔxiāo le.",
     "pinyin_numeric": "wo3 ben3lai2 da3suan4 gen1 ta1 yi4qi3 qu4 kan4 qiu2sai4, dan4 yin1wei4 lin2shi2 yao4 jia1ban1, suo3yi3 zhi3hao3 qu3xiao1 le5.",
-    "translation_en": "I originally planned to go watch the ball game with him, but because I had to work overtime suddenly, I had to cancel.",
+    "translation_en": "I originally planned to go watch the game with him, but because I suddenly had to work overtime, I had to cancel.",
     "translation_ko": "원래 그와 함께 야구 경기를 보러 가려고 했는데, 갑자기 야근을 해야 해서 취소할 수밖에 없었어요.",
     "token_ids": [
       "VOC_M1_002",
@@ -118248,7 +118248,7 @@
     "text": "你下個星期有空檔嗎？我想取消這次的約會。",
     "pinyin": "Nǐ xià ge xīngqī yǒu kòngdàng ma? Wǒ xiǎng qǔxiāo zhè cì de yuēhuì.",
     "pinyin_numeric": "ni3 xia4 ge5 xing1qi1 you3 kong4dang4 ma0? wo3 xiang3 qu3xiao1 zhe4 ci4 de yue1hui4.",
-    "translation_en": "Do you have a free slot next week? I want to cancel this appointment.",
+    "translation_en": "Do you have a free slot next week? I would like to cancel this appointment.",
     "translation_ko": "다음 주에 시간이 있으신가요? 이번 약속을 취소하고 싶어요.",
     "token_ids": [
       "VOC_M1_003",
@@ -118825,7 +118825,7 @@
     "text": "如果這家餐廳沒有座位的話，我們就去別的地方吃。",
     "pinyin": "Rúguǒ zhè jiā cāntīng méiyǒu zuòwèi dehuà, wǒmen jiù qù bié de dìfāng chī.",
     "pinyin_numeric": "ru2guo3 zhe4 jia1 can1ting1 mei2you3 zuo4wei4 de5hua4, wo3men jiu4 qu4 bie2 de5 di4fang1 chi1.",
-    "translation_en": "If this restaurant has no seats, we'll go eat somewhere else.",
+    "translation_en": "If this restaurant has no tables available, we'll eat somewhere else.",
     "translation_ko": "이 식당에 자리가 없다면, 다른 곳에 가서 먹어요.",
     "token_ids": [
       "VOC_D66_001",

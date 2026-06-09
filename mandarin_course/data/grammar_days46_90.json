@@ -4191,7 +4191,7 @@
       "time/plan",
       "了"
     ],
-    "explanation_en": "Use 改 (gǎi) to mean 'change' or 'modify'. 改時間 (gǎi shíjiān) means 'change the time/reschedule'. 改到 + new time means 'change to (a new time)'. This is essential for managing appointments.",
+    "explanation_en": "Use 改 (gǎi) to mean 'change' or 'modify'. 改時間 (gǎi shíjiān) means 'reschedule/reschedule'. 改到 + new time means 'change to (a new time)'. This is essential for managing appointments.",
     "title": "Reschedule with 改",
     "meaning": "to change; to modify; to reschedule",
     "when_to_use": [
@@ -4201,7 +4201,7 @@
     ],
     "when_not_to_use": [
       "Do not confuse 改 (modify/change) with 換 (exchange/swap)",
-      "改時間 = change the time, 換時間 = swap time slots with someone"
+      "改時間 = reschedule, 換時間 = swap time slots with someone"
     ],
     "pragmatic_notes": "In Taiwan, 改時間 is the standard way to say 'reschedule'. It's direct and clear: 我想改時間 (I want to reschedule).",
     "word_order_notes": "Subject + 改 + 了 + Time / 改到 + New Time.",
@@ -4704,7 +4704,7 @@
       "Do not confuse 不然 (otherwise) with 但是 (but)",
       "不然 can be used at the start of a suggestion: 不然我們去別的地方 (How about we go somewhere else?)"
     ],
-    "pragmatic_notes": "Taiwan speakers love 不然 for making alternative suggestions. '不然我們去吃火鍋' (How about we go eat hotpot instead?) is a very natural way to change plans.",
+    "pragmatic_notes": "Taiwan speakers love 不然 for making alternative suggestions. '不然我們去吃火鍋' (How about we go out to eat hotpot instead?) is a very natural way to change plans.",
     "word_order_notes": "Statement，不然 + Alternative.",
     "english_contrast": "English: 'Let's go, otherwise we'll be late.' Chinese: 我們走吧，不然會遲到。(We go BA, otherwise will late).",
     "korean_contrast": "Korean: '안 그러면 늦을 거야.' Chinese 不然 corresponds to Korean '안 그러면/그렇지 않으면'.",
@@ -7115,7 +7115,7 @@
       {
         "text": "你的意思是我們要改時間嗎？",
         "pinyin": "Nǐ de yìsi shì wǒmen yào gǎi shíjiān ma?",
-        "translation_en": "Do you mean we need to change the time?"
+        "translation_en": "Do you mean we need to reschedule?"
       },
       {
         "text": "你是說他不會來了？",
@@ -7151,7 +7151,7 @@
       {
         "text": "你的意思是我們要改時間嗎？",
         "pinyin": "Nǐ de yìsi shì wǒmen yào gǎi shíjiān ma?",
-        "translation_en": "Do you mean we need to change the time?"
+        "translation_en": "Do you mean we need to reschedule?"
       },
       {
         "text": "你是說他不會來了？",
@@ -8481,9 +8481,9 @@
       "Do not use 要不 in formal situations — use 要不要 or 要不要考慮",
       "要不 is very casual — perfect for friends and family"
     ],
-    "pragmatic_notes": "Taiwan speakers use 要不 constantly: 要不我們去逛逛？(How about we go browse?), 要不換個時間？(How about we change the time?). It's the sound of spontaneous planning.",
+    "pragmatic_notes": "Taiwan speakers use 要不 constantly: 要不我們去逛逛？(How about we go browse?), 要不換個時間？(How about we reschedule?). It's the sound of spontaneous planning.",
     "word_order_notes": "要不 + Suggestion？",
-    "english_contrast": "English: 'How about we go eat?' Chinese: 要不我們去吃飯？(Want-not we go eat?).",
+    "english_contrast": "English: 'How about we go out to eat?' Chinese: 要不我們去吃飯？(Want-not we go out to eat?).",
     "korean_contrast": "Korean: '우리 밥 먹으러 갈까?' Chinese 要不 corresponds to Korean '~을까?'.",
     "example_ids": [
       "SEN_D83_001",
@@ -8495,7 +8495,7 @@
       {
         "text": "要不我們去吃飯？",
         "pinyin": "Yàobù wǒmen qù chī fàn?",
-        "translation_en": "How about we go eat?"
+        "translation_en": "How about we go out to eat?"
       },
       {
         "text": "要不明天再說？",
@@ -8531,7 +8531,7 @@
       {
         "text": "要不我們去吃飯？",
         "pinyin": "Yàobù wǒmen qù chī fàn?",
-        "translation_en": "How about we go eat?"
+        "translation_en": "How about we go out to eat?"
       },
       {
         "text": "要不明天再說？",
