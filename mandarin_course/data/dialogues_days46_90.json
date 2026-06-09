@@ -11604,7 +11604,7 @@
         "text": "你好，我昨天有預約，可是今天早上喉嚨很痛，想取消預約。",
         "pinyin": "Nǐ hǎo, wǒ zuótiān yǒu yùyuē, kěshì jīntiān zǎoshang hóulóng hěn tòng, xiǎng qǔxiāo yùyuē.",
         "pinyin_numeric": "Ni3 hao3, wo3 zuo2tian1 you3 yu4yue1, ke3shi4 jin1tian1 zao3shang5 hou2long2 hen3 tong4, xiang3 qu3xiao1 yu4yue1.",
-        "translation_en": "Hello, I had an appointment yesterday, but my throat hurts a lot this morning, so I want to cancel the appointment.",
+        "translation_en": "Hello, I had an appointment yesterday, but my throat hurts a lot this morning, so I would like to cancel the appointment.",
         "translation_ko": "안녕하세요, 어제 예약을 했는데 오늘 아침에 목이 많이 아파서 예약을 취소하고 싶습니다.",
         "token_ids": [
           "VOC_M1_001",

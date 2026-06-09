@@ -4879,7 +4879,7 @@
     "prompt_en": "Respond as one speaker in this scenario: returning or exchanging an item.",
     "model_answer": "我想要退錢，因為這個東西已經破掉了。",
     "model_pinyin": "Wǒ xiǎng yào tuì qián, yīnwèi zhège dōngxi yǐjīng pò diào le.",
-    "model_translation_en": "I want a refund because this item is already torn.",
+    "model_translation_en": "I would like a refund because this item is already torn.",
     "related_sentence_id": "SEN_D63_007",
     "related_dialogue_id": "DLG_D63_01"
   },
@@ -4890,7 +4890,7 @@
     "prompt_en": "Create your own sentence using only known words.",
     "model_answer": "我要換貨，因為型號不對，我買錯了。",
     "model_pinyin": "Wǒ yào huànhuò, yīnwèi xínghào bù duì, wǒ mǎi cuò le.",
-    "model_translation_en": "I want to exchange it because the model is wrong; I bought the wrong one.",
+    "model_translation_en": "I would like to exchange it because the model is wrong; I bought the wrong one.",
     "related_sentence_id": "SEN_D63_009",
     "related_dialogue_id": "DLG_D63_02"
   },
@@ -4912,7 +4912,7 @@
     "prompt_en": "Swap one word and say the new sentence aloud.",
     "model_answer": "這個杯子破掉了，我要退錢。",
     "model_pinyin": "Zhège bēizi pò diào le, wǒ yào tuì qián.",
-    "model_translation_en": "This cup is broken; I want a refund.",
+    "model_translation_en": "This cup is broken; I would like a refund.",
     "related_sentence_id": "SEN_D63_013",
     "related_dialogue_id": "DLG_D63_01"
   },
@@ -5033,7 +5033,7 @@
     "prompt_en": "Answer a question in this scenario: returning or exchanging an item.",
     "model_answer": "這個包包破掉了，我要換貨。",
     "model_pinyin": "Zhège bāobāo pò diào le, wǒ yào huànhuò.",
-    "model_translation_en": "This bag is torn; I want to exchange it.",
+    "model_translation_en": "This bag is torn; I would like to exchange it.",
     "related_sentence_id": "SEN_D63_035",
     "related_dialogue_id": "DLG_D63_03"
   },
@@ -5044,7 +5044,7 @@
     "prompt_en": "Respond as one speaker in this scenario: returning or exchanging an item.",
     "model_answer": "我要換貨，因為送錯了。",
     "model_pinyin": "Wǒ yào huànhuò, yīnwèi sòng cuò le.",
-    "model_translation_en": "I want to exchange this because it was delivered incorrectly.",
+    "model_translation_en": "I would like to exchange this because it was delivered incorrectly.",
     "related_sentence_id": "SEN_D63_037",
     "related_dialogue_id": "DLG_D63_01"
   },
@@ -5055,7 +5055,7 @@
     "prompt_en": "Create your own sentence using only known words.",
     "model_answer": "我想要換貨，因為尺寸不合。",
     "model_pinyin": "Wǒ xiǎng yào huànhuò, yīnwèi chǐcùn bù hé.",
-    "model_translation_en": "I want to exchange this because the size doesn't fit.",
+    "model_translation_en": "I would like to exchange this because the size doesn't fit.",
     "related_sentence_id": "SEN_D63_039",
     "related_dialogue_id": "DLG_D63_02"
   },
@@ -5077,7 +5077,7 @@
     "prompt_en": "Swap one word and say the new sentence aloud.",
     "model_answer": "這個杯子破掉了，我要退錢。",
     "model_pinyin": "Zhège bēizi pò diào le, wǒ yào tuì qián.",
-    "model_translation_en": "This cup is broken; I want a refund.",
+    "model_translation_en": "This cup is broken; I would like a refund.",
     "related_sentence_id": "SEN_D63_013",
     "related_dialogue_id": "DLG_D63_01"
   },
@@ -5176,7 +5176,7 @@
     "prompt_en": "Repeat the model sentence with full phrase rhythm.",
     "model_answer": "我要換貨，因為顏色不對。",
     "model_pinyin": "Wǒ yào huànhuò, yīnwèi yánsè bù duì.",
-    "model_translation_en": "I want to exchange this because the color is wrong.",
+    "model_translation_en": "I would like to exchange this because the color is wrong.",
     "related_sentence_id": "SEN_D63_062",
     "related_dialogue_id": "DLG_D63_01"
   },
@@ -5220,7 +5220,7 @@
     "prompt_en": "Create your own sentence using only known words.",
     "model_answer": "我想換貨，可是要補差價嗎？",
     "model_pinyin": "Wǒ xiǎng huànhuò, kěshì yào bǔ chājià ma?",
-    "model_translation_en": "I want to exchange it, but do I need to pay the price difference?",
+    "model_translation_en": "I would like to exchange it, but do I need to pay the price difference?",
     "related_sentence_id": "SEN_D63_070",
     "related_dialogue_id": "DLG_D63_02"
   },
@@ -5231,7 +5231,7 @@
     "prompt_en": "Repeat the model sentence with full phrase rhythm.",
     "model_answer": "我要預約明天下午三點的門診。",
     "model_pinyin": "Wǒ yào yùyuē míngtiān xiàwǔ sān diǎn de ménzhěn.",
-    "model_translation_en": "I want to book an appointment for tomorrow afternoon at 3 PM.",
+    "model_translation_en": "I would like to book an appointment for tomorrow afternoon at 3 PM.",
     "related_sentence_id": "SEN_D64_001",
     "related_dialogue_id": "DLG_D64_01"
   },
@@ -5297,7 +5297,7 @@
     "prompt_en": "Swap one word and say the new sentence aloud.",
     "model_answer": "我想取消今天的預約。",
     "model_pinyin": "Wǒ xiǎng qǔxiāo jīntiān de yùyuē.",
-    "model_translation_en": "I want to cancel today's appointment.",
+    "model_translation_en": "I would like to cancel today's appointment.",
     "related_sentence_id": "SEN_D64_013",
     "related_dialogue_id": "DLG_D64_01"
   },
@@ -5341,7 +5341,7 @@
     "prompt_en": "Repeat the model sentence with full phrase rhythm.",
     "model_answer": "我想確認明天的預約時間。",
     "model_pinyin": "Wǒ xiǎng quèrèn míngtiān de yùyuē shíjiān.",
-    "model_translation_en": "I want to confirm the appointment time for tomorrow.",
+    "model_translation_en": "I would like to confirm the appointment time for tomorrow.",
     "related_sentence_id": "SEN_D64_021",
     "related_dialogue_id": "DLG_D64_02"
   },
@@ -5396,7 +5396,7 @@
     "prompt_en": "Repeat the model sentence with full phrase rhythm.",
     "model_answer": "我要預約明天下午三點的門診。",
     "model_pinyin": "Wǒ yào yùyuē míngtiān xiàwǔ sān diǎn de ménzhěn.",
-    "model_translation_en": "I want to book an appointment for tomorrow afternoon at 3 PM.",
+    "model_translation_en": "I would like to book an appointment for tomorrow afternoon at 3 PM.",
     "related_sentence_id": "SEN_D64_001",
     "related_dialogue_id": "DLG_D64_01"
   },
@@ -5506,7 +5506,7 @@
     "prompt_en": "Repeat the model sentence with full phrase rhythm.",
     "model_answer": "我想確認明天的預約時間。",
     "model_pinyin": "Wǒ xiǎng quèrèn míngtiān de yùyuē shíjiān.",
-    "model_translation_en": "I want to confirm the appointment time for tomorrow.",
+    "model_translation_en": "I would like to confirm the appointment time for tomorrow.",
     "related_sentence_id": "SEN_D64_021",
     "related_dialogue_id": "DLG_D64_02"
   },
@@ -5561,7 +5561,7 @@
     "prompt_en": "Repeat the model sentence with full phrase rhythm.",
     "model_answer": "我明天要預約下午三點的門診。",
     "model_pinyin": "Wǒ míngtiān yào yùyuē xiàwǔ sān diǎn de ménzhěn.",
-    "model_translation_en": "I want to book an appointment for tomorrow at 3 PM.",
+    "model_translation_en": "I would like to book an appointment for tomorrow at 3 PM.",
     "related_sentence_id": "SEN_D64_061",
     "related_dialogue_id": "DLG_D64_01"
   },
@@ -5572,7 +5572,7 @@
     "prompt_en": "Swap one word and say the new sentence aloud.",
     "model_answer": "我想取消今天上午十點的預約。",
     "model_pinyin": "Wǒ xiǎng qǔxiāo jīntiān shàngwǔ shí diǎn de yùyuē.",
-    "model_translation_en": "I want to cancel my appointment for today at 10 AM.",
+    "model_translation_en": "I would like to cancel my appointment for today at 10 AM.",
     "related_sentence_id": "SEN_D64_063",
     "related_dialogue_id": "DLG_D64_02"
   },
@@ -11139,7 +11139,7 @@
     "prompt_en": "Answer a question in this scenario: transactional independence checkpoint.",
     "model_answer": "因為我肚子餓了，所以我們先去餐廳吃飯吧。",
     "model_pinyin": "Yīnwèi wǒ dùzi è le, suǒyǐ wǒmen xiān qù cāntīng chī fàn ba.",
-    "model_translation_en": "Because I'm hungry, let's go eat at a restaurant first.",
+    "model_translation_en": "Because I'm hungry, let's go to a restaurant to eat first.",
     "related_sentence_id": "SEN_D75_025",
     "related_dialogue_id": "DLG_D75_01"
   },

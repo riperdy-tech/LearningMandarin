@@ -33570,7 +33570,7 @@
     "text": "這個手機壞掉了，我想要換貨。",
     "pinyin": "Zhège shǒujī huài diào le, wǒ xiǎng yào huànhuò.",
     "pinyin_numeric": "zhe4ge shou3ji1 huai4 diao4 le, wo3 xiang3 yao4 huan4huo4.",
-    "translation_en": "This phone is broken, I want to exchange it.",
+    "translation_en": "This phone is broken, I would like to exchange it.",
     "translation_ko": "이 핸드폰이 고장 나서 교환하고 싶습니다.",
     "token_ids": [
       "VOC_M1_041",
@@ -33641,7 +33641,7 @@
     "text": "我想換貨，因為顏色不對，我要藍色的。",
     "pinyin": "Wǒ xiǎng huànhuò, yīnwèi yánsè bù duì, wǒ yào lán sè de.",
     "pinyin_numeric": "wo3 xiang3 huan4huo4, yin1wei4 yan2se4 bu4 dui4, wo3 yao4 lan2 se4 de.",
-    "translation_en": "I want to exchange it because the color is wrong; I want the blue one.",
+    "translation_en": "I would like to exchange it because the color is wrong; I would like the blue one.",
     "translation_ko": "색상이 맞지 않아서 교환하고 싶습니다. 파란색을 원합니다.",
     "token_ids": [
       "VOC_M1_002",
@@ -33756,7 +33756,7 @@
     "text": "我想要退錢，因為這個東西已經破掉了。",
     "pinyin": "Wǒ xiǎng yào tuì qián, yīnwèi zhège dōngxi yǐjīng pò diào le.",
     "pinyin_numeric": "wo3 xiang3 yao4 tui4 qian2, yin1wei4 zhe4ge dong1xi yi3jing1 po4 diao4 le.",
-    "translation_en": "I want a refund because this item is already torn.",
+    "translation_en": "I would like a refund because this item is already torn.",
     "translation_ko": "이 물건이 이미 찢어져서 환불을 원합니다.",
     "token_ids": [
       "VOC_M1_002",
@@ -33830,7 +33830,7 @@
     "text": "我要換貨，因為型號不對，我買錯了。",
     "pinyin": "Wǒ yào huànhuò, yīnwèi xínghào bù duì, wǒ mǎi cuò le.",
     "pinyin_numeric": "wo3 yao4 huan4huo4, yin1wei4 xing2hao4 bu4 dui4, wo3 mai3 cuo4 le.",
-    "translation_en": "I want to exchange it because the model is wrong; I bought the wrong one.",
+    "translation_en": "I would like to exchange it because the model is wrong; I bought the wrong one.",
     "translation_ko": "모델이 맞지 않아서 교환하고 싶습니다. 제가 잘못 샀어요.",
     "token_ids": [
       "VOC_M1_002",
@@ -33968,7 +33968,7 @@
     "text": "這個杯子破掉了，我要退錢。",
     "pinyin": "Zhège bēizi pò diào le, wǒ yào tuì qián.",
     "pinyin_numeric": "zhe4 ge5 bei1 zi5 po4 diao4 le5, wo3 yao4 tui4 qian2.",
-    "translation_en": "This cup is broken; I want a refund.",
+    "translation_en": "This cup is broken; I would like a refund.",
     "translation_ko": "이 컵이 깨졌는데 환불해 주세요.",
     "token_ids": [
       "VOC_M1_041",
@@ -34073,7 +34073,7 @@
     "text": "這個顏色不對，我要換貨。",
     "pinyin": "Zhège yánsè bù duì, wǒ yào huànhuò.",
     "pinyin_numeric": "zhe4 ge5 yan2 se4 bu4 dui4, wo3 yao4 huan4 huo4.",
-    "translation_en": "This color is wrong; I want to exchange it.",
+    "translation_en": "This color is wrong; I would like to exchange it.",
     "translation_ko": "색상이 맞지 않아서 교환하고 싶습니다.",
     "token_ids": [
       "VOC_M1_041",
@@ -34209,7 +34209,7 @@
     "text": "這個手機殼有瑕疵，我要換貨。",
     "pinyin": "Zhège shǒujī ké yǒu xiácī, wǒ yào huànhuò.",
     "pinyin_numeric": "zhe4 ge5 shou3 ji1 ke2 you3 xia2 ci1, wo3 yao4 huan4 huo4.",
-    "translation_en": "This phone case has a defect; I want to exchange it.",
+    "translation_en": "This phone case has a defect; I would like to exchange it.",
     "translation_ko": "이 휴대폰 케이스에 하자가 있어서 교환하고 싶습니다.",
     "token_ids": [
       "VOC_M1_041",
@@ -34616,7 +34616,7 @@
     "text": "我要換貨，因為尺寸不合。",
     "pinyin": "Wǒ yào huànhuò, yīnwèi chǐcùn bù hé.",
     "pinyin_numeric": "wo3 yao4 huan4huo4, yin1wei4 chi3cun4 bu4 he2.",
-    "translation_en": "I want to exchange this because the size doesn't fit.",
+    "translation_en": "I would like to exchange this because the size doesn't fit.",
     "translation_ko": "사이즈가 맞지 않아서 교환하고 싶습니다.",
     "token_ids": [
       "VOC_M1_002",
@@ -34678,7 +34678,7 @@
     "text": "我想要退錢，因為顏色不對。",
     "pinyin": "Wǒ xiǎng yào tuì qián, yīnwèi yánsè bù duì.",
     "pinyin_numeric": "wo3 xiang3 yao4 tui4 qian2, yin1wei4 yan2se4 bu4 dui4.",
-    "translation_en": "I want a refund because the color is wrong.",
+    "translation_en": "I would like a refund because the color is wrong.",
     "translation_ko": "색상이 달라서 환불을 원합니다.",
     "token_ids": [
       "VOC_M1_002",
@@ -34707,7 +34707,7 @@
     "text": "這個包包破掉了，我要換貨。",
     "pinyin": "Zhège bāobāo pò diào le, wǒ yào huànhuò.",
     "pinyin_numeric": "zhe4ge bao1bao1 po4 diao4 le0, wo3 yao4 huan4huo4.",
-    "translation_en": "This bag is torn; I want to exchange it.",
+    "translation_en": "This bag is torn; I would like to exchange it.",
     "translation_ko": "이 가방이 찢어져서 교환하고 싶습니다.",
     "token_ids": [
       "VOC_M1_041",
@@ -34769,7 +34769,7 @@
     "text": "我要換貨，因為送錯了。",
     "pinyin": "Wǒ yào huànhuò, yīnwèi sòng cuò le.",
     "pinyin_numeric": "wo3 yao4 huan4huo4, yin1wei4 song4 cuo4 le0.",
-    "translation_en": "I want to exchange this because it was delivered incorrectly.",
+    "translation_en": "I would like to exchange this because it was delivered incorrectly.",
     "translation_ko": "잘못 배송되어서 교환하고 싶습니다.",
     "token_ids": [
       "VOC_M1_002",
@@ -34833,7 +34833,7 @@
     "text": "我想要換貨，因為尺寸不合。",
     "pinyin": "Wǒ xiǎng yào huànhuò, yīnwèi chǐcùn bù hé.",
     "pinyin_numeric": "wo3 xiang3 yao4 huan4huo4, yin1wei4 chi3cun4 bu4 he2.",
-    "translation_en": "I want to exchange this because the size doesn't fit.",
+    "translation_en": "I would like to exchange this because the size doesn't fit.",
     "translation_ko": "사이즈가 맞지 않아서 교환하고 싶습니다.",
     "token_ids": [
       "VOC_M1_002",
@@ -35472,7 +35472,7 @@
     "text": "我要換貨，因為顏色不對。",
     "pinyin": "Wǒ yào huànhuò, yīnwèi yánsè bù duì.",
     "pinyin_numeric": "wo3 yao4 huan4huo4, yin1wei4 yan2se4 bu4 dui4.",
-    "translation_en": "I want to exchange this because the color is wrong.",
+    "translation_en": "I would like to exchange this because the color is wrong.",
     "translation_ko": "색상이 달라서 교환하고 싶습니다.",
     "token_ids": [
       "VOC_M1_002",
@@ -35501,7 +35501,7 @@
     "text": "這個商品有瑕疵，我想退錢。",
     "pinyin": "Zhège shāngpǐn yǒu xiácī, wǒ xiǎng tuì qián.",
     "pinyin_numeric": "zhe4ge shang1pin3 you3 xia2ci1, wo3 xiang3 tui4 qian2.",
-    "translation_en": "This product has a defect; I want a refund.",
+    "translation_en": "This product has a defect; I would like a refund.",
     "translation_ko": "이 제품에 하자가 있어서 환불받고 싶습니다.",
     "token_ids": [
       "VOC_M1_041",
@@ -35571,7 +35571,7 @@
     "text": "這件衣服髒掉了，我要換一件新的。",
     "pinyin": "Zhè jiàn yīfu zāng diào le, wǒ yào huàn yī jiàn xīn de.",
     "pinyin_numeric": "zhe4 jian4 yi1fu zang1 diao4 le, wo3 yao4 huan4 yi1 jian4 xin1 de.",
-    "translation_en": "This piece of clothing is dirty; I want to exchange it for a new one.",
+    "translation_en": "This piece of clothing is dirty; I would like to exchange it for a new one.",
     "translation_ko": "이 옷이 더러워졌는데 새것으로 교환하고 싶습니다.",
     "token_ids": [
       "VOC_D43_001",
@@ -35740,7 +35740,7 @@
     "text": "我想換貨，可是要補差價嗎？",
     "pinyin": "Wǒ xiǎng huànhuò, kěshì yào bǔ chājià ma?",
     "pinyin_numeric": "wo3 xiang3 huan4huo4, ke3shi4 yao4 bu3 cha1jia4 ma0?",
-    "translation_en": "I want to exchange it, but do I need to pay the price difference?",
+    "translation_en": "I would like to exchange it, but do I need to pay the price difference?",
     "translation_ko": "교환하고 싶은데 차액을 지불해야 하나요?",
     "token_ids": [
       "VOC_M1_002",
@@ -35810,7 +35810,7 @@
     "text": "我買的書髒掉了，我想要退錢。",
     "pinyin": "Wǒ mǎi de shū zāng diào le, wǒ xiǎng yào tuì qián.",
     "pinyin_numeric": "wo3 mai3 de5 shu1 zang1 diao4 le5, wo3 xiang3 yao4 tui4 qian2.",
-    "translation_en": "The book I bought is dirty; I want a refund.",
+    "translation_en": "The book I bought is dirty; I would like a refund.",
     "translation_ko": "제가 산 책이 더러워졌는데 환불을 원합니다.",
     "token_ids": [
       "VOC_M1_002",
@@ -35916,7 +35916,7 @@
     "text": "我買的鞋子尺寸不合，想要換貨。",
     "pinyin": "Wǒ mǎi de xiézi chǐcùn bù hé, xiǎng yào huànhuò.",
     "pinyin_numeric": "wo3 mai3 de5 xie2 zi5 chi3 cun4 bu4 he2, xiang3 yao4 huan4 huo4.",
-    "translation_en": "The shoes I bought don't fit; I want to exchange them.",
+    "translation_en": "The shoes I bought don't fit; I would like to exchange them.",
     "translation_ko": "제가 산 신발이 사이즈가 맞지 않아서 교환하고 싶습니다.",
     "token_ids": [
       "VOC_M1_002",
@@ -36372,7 +36372,7 @@
     "text": "我要預約明天下午三點的門診。",
     "pinyin": "Wǒ yào yùyuē míngtiān xiàwǔ sān diǎn de ménzhěn.",
     "pinyin_numeric": "wo3 yao4 yu4yue1 ming2tian1 xia4wu3 san1 dian3 de0 men2zhen3.",
-    "translation_en": "I want to book an appointment for tomorrow afternoon at 3 PM.",
+    "translation_en": "I would like to book an appointment for tomorrow afternoon at 3 PM.",
     "translation_ko": "내일 오후 3시 진료 예약을 하고 싶습니다.",
     "token_ids": [
       "VOC_M1_002",
@@ -36775,7 +36775,7 @@
     "text": "我想取消今天的預約。",
     "pinyin": "Wǒ xiǎng qǔxiāo jīntiān de yùyuē.",
     "pinyin_numeric": "wo3 xiang3 qu3xiao1 jin1tian1 de5 yu4yue1",
-    "translation_en": "I want to cancel today's appointment.",
+    "translation_en": "I would like to cancel today's appointment.",
     "translation_ko": "오늘 예약을 취소하고 싶습니다.",
     "token_ids": [
       "VOC_M1_002",
@@ -37019,7 +37019,7 @@
     "text": "我想確認明天的預約時間。",
     "pinyin": "Wǒ xiǎng quèrèn míngtiān de yùyuē shíjiān.",
     "pinyin_numeric": "wo3 xiang3 que4ren4 ming2tian1 de yu4yue1 shi2jian1.",
-    "translation_en": "I want to confirm the appointment time for tomorrow.",
+    "translation_en": "I would like to confirm the appointment time for tomorrow.",
     "translation_ko": "내일 예약 시간을 확인하고 싶습니다.",
     "token_ids": [
       "VOC_M1_002",
@@ -38039,7 +38039,7 @@
     "text": "我想確認預約的細節。",
     "pinyin": "Wǒ xiǎng quèrèn yùyuē de xìjié.",
     "pinyin_numeric": "wo3 xiang3 que4ren4 yu4yue1 de xi4jie2.",
-    "translation_en": "I want to confirm the details of the appointment.",
+    "translation_en": "I would like to confirm the details of the appointment.",
     "translation_ko": "예약 세부 사항을 확인하고 싶습니다.",
     "token_ids": [
       "VOC_M1_002",
@@ -38199,7 +38199,7 @@
     "text": "我明天要預約下午三點的門診。",
     "pinyin": "Wǒ míngtiān yào yùyuē xiàwǔ sān diǎn de ménzhěn.",
     "pinyin_numeric": "wo3 ming2tian1 yao4 yu4yue1 xia4wu3 san1 dian3 de0 men2zhen3.",
-    "translation_en": "I want to book an appointment for tomorrow at 3 PM.",
+    "translation_en": "I would like to book an appointment for tomorrow at 3 PM.",
     "translation_ko": "내일 오후 3시에 진료 예약을 하고 싶습니다.",
     "token_ids": [
       "VOC_M1_002",
@@ -38272,7 +38272,7 @@
     "text": "我想取消今天上午十點的預約。",
     "pinyin": "Wǒ xiǎng qǔxiāo jīntiān shàngwǔ shí diǎn de yùyuē.",
     "pinyin_numeric": "wo3 xiang3 qu3xiao1 jin1tian1 shang4wu3 shi2 dian3 de0 yu4yue1.",
-    "translation_en": "I want to cancel my appointment for today at 10 AM.",
+    "translation_en": "I would like to cancel my appointment for today at 10 AM.",
     "translation_ko": "오늘 오전 10시 예약을 취소하고 싶습니다.",
     "token_ids": [
       "VOC_M1_002",
@@ -38635,7 +38635,7 @@
     "text": "我想把預約改期到下個星期。",
     "pinyin": "Wǒ xiǎng bǎ yùyuē gǎiqí dào xià gè xīngqī.",
     "pinyin_numeric": "wo3 xiang3 ba3 yu4yue1 gai3qi2 dao4 xia4 ge4 xing1qi1.",
-    "translation_en": "I want to reschedule the appointment to next week.",
+    "translation_en": "I would like to reschedule the appointment to next week.",
     "translation_ko": "예약을 다음 주로 변경하고 싶습니다.",
     "token_ids": [
       "VOC_M1_002",
@@ -38829,7 +38829,7 @@
     "text": "我想確認預約的號碼，謝謝。",
     "pinyin": "Wǒ xiǎng quèrèn yùyuē de hàomǎ, xièxie.",
     "pinyin_numeric": "wo3 xiang3 que4ren4 yu4yue1 de hao4ma3, xie4xie.",
-    "translation_en": "I want to confirm the appointment number, thank you.",
+    "translation_en": "I would like to confirm the appointment number, thank you.",
     "translation_ko": "예약 번호를 확인하고 싶습니다. 감사합니다.",
     "token_ids": [
       "VOC_M1_002",
@@ -38975,7 +38975,7 @@
     "text": "我想確認預約的行程有沒有取消。",
     "pinyin": "Wǒ xiǎng quèrèn yùyuē de xíngchéng yǒu méiyǒu qǔxiāo.",
     "pinyin_numeric": "wo3 xiang3 que4ren4 yu4yue1 de xing2cheng2 you3 mei2you3 qu3xiao1.",
-    "translation_en": "I want to confirm if the appointment schedule has been cancelled.",
+    "translation_en": "I would like to confirm whether the appointment has been cancelled.",
     "translation_ko": "예약 일정이 취소되었는지 확인하고 싶습니다.",
     "token_ids": [
       "VOC_M1_002",
@@ -40691,7 +40691,7 @@
     "text": "如果餐廳客滿的話，我們就去吃牛肉麵。",
     "pinyin": "Rúguǒ cāntīng kè mǎn de huà, wǒmen jiù qù chī niúròu miàn.",
     "pinyin_numeric": "ru2 guo3 can1 ting1 ke4 man3 de0 hua4, wo3 men0 jiu4 qu4 chi1 niu2 rou4 mian4.",
-    "translation_en": "If the restaurant is full, we'll go eat beef noodles.",
+    "translation_en": "If the restaurant is full, we'll go out for beef noodles.",
     "translation_ko": "식당이 만석이면 소고기 국수 먹으러 갈 거예요.",
     "token_ids": [
       "VOC_D66_001",
@@ -41288,7 +41288,7 @@
     "text": "假如餐廳客滿的話，我們就去吃牛肉麵當備案。",
     "pinyin": "Jiǎrú cāntīng kè mǎn de huà, wǒmen jiù qù chī niúròu miàn dāng bèi'àn.",
     "pinyin_numeric": "jia3 ru2 can1 ting1 ke4 man3 de0 hua4, wo3 men0 jiu4 qu4 chi1 niu2 rou4 mian4 dang1 bei4 an4.",
-    "translation_en": "If the restaurant is full, we'll go eat beef noodles as a backup plan.",
+    "translation_en": "If the restaurant is full, we'll go out for beef noodles as a backup plan.",
     "translation_ko": "식당이 만석이면 우리는 소고기 국수를 먹으러 가는 걸 대안으로 할게요.",
     "token_ids": [
       "VOC_D66_009",
@@ -57785,7 +57785,7 @@
     "text": "我想買這個包包，可是太貴了。",
     "pinyin": "Wǒ xiǎng mǎi zhège bāobāo, kěshì tài guì le.",
     "pinyin_numeric": "wo3 xiang3 mai3 zhe4ge0 bao1bao1, ke3shi4 tai4 gui4 le0.",
-    "translation_en": "I want to buy this bag, but it's too expensive.",
+    "translation_en": "I would like to buy this bag, but it's too expensive.",
     "translation_ko": "이 가방을 사고 싶지만, 너무 비싸요.",
     "token_ids": [
       "VOC_M1_002",
@@ -65732,7 +65732,7 @@
     "text": "假如故障還沒處理好，我想要取消預約。",
     "pinyin": "Jiǎrú gùzhàng hái méi chǔlǐ hǎo, wǒ xiǎng yào qǔxiāo yùyuē.",
     "pinyin_numeric": "jia3ru2 gu4zhang4 hai2 mei2 chu3li3 hao3, wo3 xiang3 yao4 qu3xiao1 yu4yue1.",
-    "translation_en": "If the malfunction hasn't been fixed yet, I want to cancel the appointment.",
+    "translation_en": "If the malfunction hasn't been fixed yet, I would like to cancel the appointment.",
     "translation_ko": "고장이 아직 처리되지 않았다면, 예약을 취소하고 싶습니다.",
     "token_ids": [
       "VOC_D66_009",
@@ -75193,7 +75193,7 @@
     "text": "這件衣服的尺寸太小，因此我想換一件大一點的。",
     "pinyin": "Zhè jiàn yīfú de chǐcùn tài xiǎo, yīncǐ wǒ xiǎng huàn yī jiàn dà yīdiǎn de.",
     "pinyin_numeric": "zhe4 jian4 yi1fu2 de0 chi3cun4 tai4 xiao3, yin1ci3 wo3 xiang3 huan4 yi1 jian4 da4 yi1dian3 de0.",
-    "translation_en": "This piece of clothing's size is too small, therefore I want to exchange it for a bigger one.",
+    "translation_en": "This piece of clothing's size is too small, therefore I would like to exchange it for a bigger one.",
     "translation_ko": "이 옷의 사이즈가 너무 작기 때문에 더 큰 것으로 교환하고 싶습니다.",
     "token_ids": [
       "VOC_D43_001",
@@ -78465,7 +78465,7 @@
     "text": "因為我肚子餓了，所以我們先去餐廳吃飯吧。",
     "pinyin": "Yīnwèi wǒ dùzi è le, suǒyǐ wǒmen xiān qù cāntīng chī fàn ba.",
     "pinyin_numeric": "yin1wei4 wo3 du4zi5 e4 le0, suo3yi3 wo3men xian1 qu4 can1ting1 chi1 fan4 ba0.",
-    "translation_en": "Because I'm hungry, let's go eat at a restaurant first.",
+    "translation_en": "Because I'm hungry, let's go to a restaurant to eat first.",
     "translation_ko": "배가 고파서 우리 먼저 식당에 가서 밥을 먹어요.",
     "token_ids": [
       "VOC_D34_011",
@@ -79712,7 +79712,7 @@
     "text": "因為這件衣服太小，所以我想換一件。",
     "pinyin": "Yīnwèi zhè jiàn yīfu tài xiǎo, suǒyǐ wǒ xiǎng huàn yī jiàn.",
     "pinyin_numeric": "yin1 wei4 zhe4 jian4 yi1 fu0 tai4 xiao3, suo3 yi3 wo3 xiang3 huan4 yi1 jian4.",
-    "translation_en": "Because this piece of clothing is too small, I want to exchange it for another one.",
+    "translation_en": "Because this piece of clothing is too small, I would like to exchange it for another one.",
     "translation_ko": "이 옷이 너무 작아서 다른 걸로 교환하고 싶어요.",
     "token_ids": [
       "VOC_D34_011",
@@ -79862,7 +79862,7 @@
     "text": "如果他有空的話，就會跟我們一起去吃牛肉麵。",
     "pinyin": "Rúguǒ tā yǒu kòng dehuà, jiù huì gēn wǒmen yīqǐ qù chī niúròumiàn.",
     "pinyin_numeric": "ru2guo3 ta1 you3 kong4 de5hua4, jiu4 hui4 gen1 wo3men5 yi1qi3 qu4 chi1 niu2rou4mian4.",
-    "translation_en": "If he is free, he will go eat beef noodles with us.",
+    "translation_en": "If he is free, he will go out for beef noodles with us.",
     "translation_ko": "그가 시간이 있으면, 우리와 함께 소고기 국수를 먹으러 갈 거예요.",
     "token_ids": [
       "VOC_D66_001",
@@ -80689,7 +80689,7 @@
     "text": "因為這件衣服太小了，所以我想換一件大的。",
     "pinyin": "Yīnwèi zhè jiàn yīfú tài xiǎo le, suǒyǐ wǒ xiǎng huàn yī jiàn dà de.",
     "pinyin_numeric": "yin1wei4 zhe4 jian4 yi1fu2 tai4 xiao3 le0, suo3yi3 wo3 xiang3 huan4 yi1 jian4 da4 de0.",
-    "translation_en": "Because this piece of clothing is too small, I want to exchange it for a larger one.",
+    "translation_en": "Because this piece of clothing is too small, I would like to exchange it for a larger one.",
     "translation_ko": "이 옷이 너무 작아서 큰 사이즈로 교환하고 싶어요.",
     "token_ids": [
       "VOC_D34_011",
