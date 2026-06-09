@@ -215,7 +215,7 @@
     "text": "我想去台北玩，可是我這個週末沒有空。",
     "pinyin": "Wǒ xiǎng qù Táiběi wán, kěshì wǒ zhège zhōumò méiyǒu kòng.",
     "pinyin_numeric": "wo3 xiang3 qu4 Tai2bei3 wan2, ke3shi4 wo3 zhe4ge0 zhou1mo4 mei2you3 kong4.",
-    "translation_en": "I want to go to Taipei to have fun, but I'm not free this weekend.",
+    "translation_en": "I'd like to go to Taipei for fun, but I'm not free this weekend.",
     "translation_ko": "저는 타이베이에 놀러 가고 싶지만, 이번 주말에는 시간이 없어요.",
     "audio_id": "AUD_LIS_D67_17",
     "sentence_id": "SEN_D67_017"
@@ -1879,7 +1879,7 @@
     "text": "因為我想省錢，所以不打算買新手機。",
     "pinyin": "Yīnwèi wǒ xiǎng shěng qián, suǒyǐ bù dǎsuàn mǎi xīn shǒujī.",
     "pinyin_numeric": "yin1 wei4 wo3 xiang3 sheng3 qian2, suo3 yi3 bu4 da3 suan4 mai3 xin1 shou3 ji1.",
-    "translation_en": "Because I want to save money, I don't plan to buy a new phone.",
+    "translation_en": "Because I'd like to save money, I don't plan to buy a new phone.",
     "translation_ko": "돈을 아끼고 싶어서 새 핸드폰을 살 계획이 없어요.",
     "audio_id": "AUD_LIS_D74_05",
     "sentence_id": "SEN_D74_005"
@@ -2230,7 +2230,7 @@
     "text": "雖然我喜歡喝咖啡，但是今天想喝茶。",
     "pinyin": "Suīrán wǒ xǐhuān hē kāfēi, dànshì jīntiān xiǎng hē chá.",
     "pinyin_numeric": "sui1ran2 wo3 xi3huan1 he1 ka1fei1, dan4shi4 jin1tian1 xiang3 he1 cha2.",
-    "translation_en": "Although I like drinking coffee, today I want to drink tea.",
+    "translation_en": "Although I like drinking coffee, today I'd like to drink tea.",
     "translation_ko": "커피 마시는 걸 좋아하지만 오늘은 차를 마시고 싶어요.",
     "audio_id": "AUD_LIS_D75_12",
     "sentence_id": "SEN_D75_012"
@@ -4479,7 +4479,7 @@
     "text": "我想學中文，因為我喜歡台灣的文化。",
     "pinyin": "Wǒ xiǎng xué Zhōngwén, yīnwèi wǒ xǐhuān Táiwān de wénhuà.",
     "pinyin_numeric": "wo3 xiang3 xue2 zhong1 wen2, yin1 wei4 wo3 xi3 huan1 tai2 wan1 de0 wen2 hua4",
-    "translation_en": "I want to learn Chinese because I like Taiwanese culture.",
+    "translation_en": "I'd like to learn Chinese because I like Taiwanese culture.",
     "translation_ko": "저는 중국어를 배우고 싶어요. 대만 문화를 좋아하기 때문이에요.",
     "audio_id": "AUD_LIS_D84_05",
     "sentence_id": "SEN_D84_005"
@@ -4544,7 +4544,7 @@
     "text": "我從美國來，我來台灣留學，因為我想學中文和了解文化。",
     "pinyin": "Wǒ cóng Měiguó lái, wǒ lái Táiwān liúxué, yīnwèi wǒ xiǎng xué Zhōngwén hé liǎojiě wénhuà.",
     "pinyin_numeric": "wo3 cong2 mei3 guo2 lai2, wo3 lai2 tai2 wan1 liu2 xue2, yin1 wei4 wo3 xiang3 xue2 zhong1 wen2 he2 liao3 jie3 wen2 hua4",
-    "translation_en": "I come from the United States; I came to Taiwan to study abroad because I want to learn Chinese and understand the culture.",
+    "translation_en": "I'm from the United States; I came to Taiwan to study abroad because I'd like to learn Chinese and understand the culture.",
     "translation_ko": "저는 미국에서 왔어요. 중국어를 배우고 문화를 이해하기 위해 대만에 유학 왔어요.",
     "audio_id": "AUD_LIS_D84_10",
     "sentence_id": "SEN_D84_010"
@@ -5038,7 +5038,7 @@
     "text": "我想去買東西，你知道哪裡有商店嗎？",
     "pinyin": "Wǒ xiǎng qù mǎi dōngxī, nǐ zhīdào nǎlǐ yǒu shāngdiàn ma?",
     "pinyin_numeric": "wo3 xiang3 qu4 mai3 dong1xi1, ni3 zhi1dao4 na3li3 you3 shang1dian4 ma0?",
-    "translation_en": "I want to go shopping, do you know where there is a store?",
+    "translation_en": "I'd like to go shopping. Do you know where there is a store?",
     "translation_ko": "물건을 사러 가고 싶은데, 어디에 가게가 있는지 아세요?",
     "audio_id": "AUD_LIS_D86_08",
     "sentence_id": "SEN_D86_008"
@@ -5194,7 +5194,7 @@
     "text": "請問，這附近有咖啡店嗎？我想喝咖啡。",
     "pinyin": "Qǐngwèn, zhè fùjìn yǒu kāfēi diàn ma? Wǒ xiǎng hē kāfēi.",
     "pinyin_numeric": "qing3wen4, zhe4 fu4jin4 you3 ka1fei1 dian4 ma0? wo3 xiang3 he1 ka1fei1.",
-    "translation_en": "Excuse me, is there a coffee shop nearby? I want to drink coffee.",
+    "translation_en": "Excuse me, is there a coffee shop nearby? I'd like some coffee.",
     "translation_ko": "실례합니다, 이 근처에 커피숍이 있나요? 커피를 마시고 싶어요.",
     "audio_id": "AUD_LIS_D86_20",
     "sentence_id": "SEN_D86_020"
@@ -5922,7 +5922,7 @@
     "text": "你正在做什麼？我想找你一起去吃午餐。",
     "pinyin": "Nǐ zhèngzài zuò shénme? Wǒ xiǎng zhǎo nǐ yīqǐ qù chī wǔcān.",
     "pinyin_numeric": "ni3 zheng4zai4 zuo4 shen2me5? wo3 xiang3 zhao3 ni3 yi1qi3 qu4 chi1 wu3can1.",
-    "translation_en": "What are you doing? I want to go have lunch with you.",
+    "translation_en": "What are you doing? I'd like to have lunch with you.",
     "translation_ko": "지금 뭐 하고 있어요? 당신과 함께 점심 먹으러 가고 싶어요.",
     "audio_id": "AUD_LIS_D89_16",
     "sentence_id": "SEN_D89_016"
@@ -5974,7 +5974,7 @@
     "text": "我們正在餐廳吃飯，你要不要一起來？",
     "pinyin": "Wǒmen zhèngzài cāntīng chīfàn, nǐ yào bùyào yīqǐ lái?",
     "pinyin_numeric": "wo3men zheng4zai4 can1ting1 chi1fan4, ni3 yao4 bu4yao4 yi1qi3 lai2?",
-    "translation_en": "We are eating at a restaurant; do you want to come along?",
+    "translation_en": "We're eating at a restaurant. Would you like to come along?",
     "translation_ko": "우리는 지금 식당에서 밥을 먹고 있어요. 같이 올래요?",
     "audio_id": "AUD_LIS_D89_20",
     "sentence_id": "SEN_D89_020"
