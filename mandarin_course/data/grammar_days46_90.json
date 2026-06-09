@@ -557,7 +557,7 @@
       {
         "text": "我吃過滷肉飯，很好吃。",
         "pinyin": "Wǒ chī guò lǔròufàn, hěn hǎochī.",
-        "translation_en": "I have eaten braised pork rice; it's very delicious."
+        "translation_en": "I have eaten braised pork rice; it is delicious."
       },
       {
         "text": "我們看過九份的風景，很漂亮。",
@@ -598,7 +598,7 @@
       {
         "text": "我吃過滷肉飯，很好吃。",
         "pinyin": "Wǒ chī guò lǔròufàn, hěn hǎochī.",
-        "translation_en": "I have eaten braised pork rice; it's very delicious."
+        "translation_en": "I have eaten braised pork rice; it is delicious."
       },
       {
         "text": "我們看過九份的風景，很漂亮。",
@@ -2029,7 +2029,7 @@
       {
         "text": "你要不要一起去吃飯？",
         "pinyin": "Nǐ yào bú yào yīqǐ qù chī fàn?",
-        "translation_en": "Do you want to go eat together?"
+        "translation_en": "Do you want to go out to eat together?"
       },
       {
         "text": "我們要不要去看電影？",
@@ -2070,7 +2070,7 @@
       {
         "text": "你要不要一起去吃飯？",
         "pinyin": "Nǐ yào bú yào yīqǐ qù chī fàn?",
-        "translation_en": "Do you want to go eat together?"
+        "translation_en": "Do you want to go out to eat together?"
       },
       {
         "text": "我們要不要去看電影？",
@@ -4864,7 +4864,7 @@
     ],
     "pragmatic_notes": "Taiwan speakers use 雖然...可是... frequently in conversation. It shows you can see both sides of a situation. 可是 is more casual than 但是 in Taiwan.",
     "word_order_notes": "雖然 + Clause A，可是/但是 + Clause B.",
-    "english_contrast": "English: 'Although it's expensive, it's delicious.' Chinese: 雖然很貴，可是很好吃。(Although very expensive, but very delicious).",
+    "english_contrast": "English: 'Although it's expensive, it's delicious.' Chinese: 雖然很貴，可是很好吃。(Although very expensive, but delicious).",
     "korean_contrast": "Korean: '비싸지만 맛있어요.' Chinese 雖然...可是 corresponds to Korean '~지만'.",
     "example_ids": [
       "SEN_D67_001",

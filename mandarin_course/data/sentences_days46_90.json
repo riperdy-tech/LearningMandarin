@@ -4456,7 +4456,7 @@
     "text": "我吃過滷肉飯，很好吃。",
     "pinyin": "Wǒ chī guò lǔròufàn, hěn hǎochī.",
     "pinyin_numeric": "wo3 chi1 guo4 lu3rou4fan4, hen3 hao3chi1",
-    "translation_en": "I have eaten braised pork rice; it's very delicious.",
+    "translation_en": "I have eaten braised pork rice; it is delicious.",
     "translation_ko": "루러우판을 먹어 본 적이 있는데, 아주 맛있어요.",
     "token_ids": [
       "VOC_M1_002",
@@ -4607,7 +4607,7 @@
     "text": "她做過臺灣小吃，很好吃。",
     "pinyin": "Tā zuò guò Táiwān xiǎochī, hěn hǎochī.",
     "pinyin_numeric": "ta1 zuo4 guo4 Tai2wan1 xiao3chi1, hen3 hao3chi1",
-    "translation_en": "She has made Taiwanese snacks; they are very delicious.",
+    "translation_en": "She has made Taiwanese snacks; they are delicious.",
     "translation_ko": "그녀는 대만 간식을 만들어 본 적이 있는데, 아주 맛있어요.",
     "token_ids": [
       "VOC_M1_005",
@@ -5139,7 +5139,7 @@
     "text": "他以前在臺中吃過很好吃的牛肉麵。",
     "pinyin": "Tā yǐqián zài Táizhōng chī guò hěn hǎochī de niúròumiàn.",
     "pinyin_numeric": "ta1 yi3qian2 zai4 Tai2zhong1 chi1 guo4 hen3 hao3chi1 de niu2rou4mian4.",
-    "translation_en": "He has eaten very delicious beef noodles in Taichung before.",
+    "translation_en": "He has eaten delicious beef noodles in Taichung before.",
     "translation_ko": "그는 예전에 타이중에서 아주 맛있는 소고기 국수를 먹어 본 적이 있습니다.",
     "token_ids": [
       "VOC_M1_004",
@@ -7082,7 +7082,7 @@
     "text": "他正在開會，等一下回你。",
     "pinyin": "Tā zhèngzài kāihuì, děng yīxià huí nǐ.",
     "pinyin_numeric": "ta1 zheng4zai4 kai1hui4, deng3 yi1xia4 hui2 ni3",
-    "translation_en": "He is in a meeting; he'll get back to you in a moment.",
+    "translation_en": "He is in a meeting; he will get back to you shortly.",
     "translation_ko": "그는 회의 중이에요. 잠시 후에 답장할게요.",
     "token_ids": [
       "VOC_M1_004",
@@ -16940,7 +16940,7 @@
     "text": "你明天有空嗎？要不要一起去看電影？",
     "pinyin": "Nǐ míngtiān yǒu kòng ma? Yào bù yào yīqǐ qù kàn diànyǐng?",
     "pinyin_numeric": "ni3 ming2tian1 you3 kong4 ma0? yao4 bu4 yao4 yi1qi3 qu4 kan4 dian4ying3?",
-    "translation_en": "Are you free tomorrow? Would you like to go watch a movie together?",
+    "translation_en": "Are you free tomorrow? Would you like to go see a movie together?",
     "translation_ko": "내일 시간 있어요? 같이 영화 보러 갈래요?",
     "token_ids": [
       "VOC_M1_003",
@@ -17579,7 +17579,7 @@
     "text": "不好意思，我們不能改時間了。",
     "pinyin": "Bù hǎo yìsi, wǒmen bù néng gǎi shíjiān le.",
     "pinyin_numeric": "bu4 hao3 yi4 si0, wo3 men0 bu4 neng2 gai3 shi2 jian1 le0.",
-    "translation_en": "I'm sorry, we can't change the time.",
+    "translation_en": "I'm sorry, we cannot reschedule.",
     "translation_ko": "죄송합니다만, 시간을 변경할 수 없어요.",
     "token_ids": [
       "VOC_D31_020",
@@ -19064,7 +19064,7 @@
     "text": "不好意思，我臨時有事，可以把時間改到下午嗎？",
     "pinyin": "Bù hǎoyìsi, wǒ línshí yǒu shì, kěyǐ bǎ shíjiān gǎi dào xiàwǔ ma?",
     "pinyin_numeric": "bu4 hao3 yi4 si5 wo3 lin2 shi2 you3 shi4 ke3 yi3 ba3 shi2 jian1 gai3 dao4 xia4 wu3 ma0",
-    "translation_en": "Sorry, something came up. Can we change the time to the afternoon?",
+    "translation_en": "Sorry, something came up. Can we move it to the afternoon?",
     "translation_ko": "죄송합니다, 갑자기 일이 생겨서 시간을 오후로 변경할 수 있을까요?",
     "token_ids": [
       "VOC_D31_020",
@@ -19380,7 +19380,7 @@
     "text": "我們把時間改到早上，因為下午我要去醫院。",
     "pinyin": "Wǒmen bǎ shíjiān gǎi dào zǎoshang, yīnwèi xiàwǔ wǒ yào qù yīyuàn.",
     "pinyin_numeric": "wo3 men5 ba3 shi2 jian1 gai3 dao4 zao3 shang4 yin1 wei4 xia4 wu3 wo3 yao4 qu4 yi1 yuan4",
-    "translation_en": "Let's change the time to the morning because I need to go to the hospital in the afternoon.",
+    "translation_en": "Let's move it to the morning because I need to go to the hospital in the afternoon.",
     "translation_ko": "오후에 병원에 가야 해서 시간을 아침으로 변경해요.",
     "token_ids": [
       "VOC_M1_006",
@@ -22562,7 +22562,7 @@
     "text": "請幫我處理漏水的情況。",
     "pinyin": "Qǐng bāng wǒ chǔlǐ lòushuǐ de qíngkuàng.",
     "pinyin_numeric": "qing3 bang1 wo3 chu3li3 lou4shui3 de0 qing2kuang4",
-    "translation_en": "Please help me deal with the water leakage situation.",
+    "translation_en": "Please help me deal with the leak.",
     "translation_ko": "누수 상황을 처리하는 것을 도와주세요.",
     "token_ids": [
       "VOC_M1_179",
@@ -25398,7 +25398,7 @@
     "text": "媽媽正在廚房煮飯，我們先等一下。",
     "pinyin": "Māma zhèngzài chúfáng zhǔ fàn, wǒmen xiān děng yīxià.",
     "pinyin_numeric": "ma1ma zheng4zai4 chu2fang2 zhu3 fan4, wo3men xian1 deng3 yi1xia4.",
-    "translation_en": "Mom is cooking in the kitchen; let's wait a moment first.",
+    "translation_en": "Mom is cooking in the kitchen; let's wait a bit first.",
     "translation_ko": "엄마가 지금 부엌에서 밥을 짓고 계세요. 우리 잠시 기다려요.",
     "token_ids": [
       "VOC_M1_027",
@@ -25965,7 +25965,7 @@
     "text": "我吃過台灣的滷肉飯，很好吃。",
     "pinyin": "Wǒ chī guò Táiwān de lǔròufàn, hěn hǎochī.",
     "pinyin_numeric": "wo3 chi1 guo4 tai2 wan1 de0 lu3 rou4 fan4, hen3 hao3 chi1.",
-    "translation_en": "I have eaten Taiwanese braised pork rice; it's very delicious.",
+    "translation_en": "I have eaten Taiwanese braised pork rice; it is delicious.",
     "translation_ko": "저는 대만의 루로우판을 먹어 봤는데, 아주 맛있어요.",
     "token_ids": [
       "VOC_M1_002",
@@ -26126,7 +26126,7 @@
     "text": "我從來沒有去過花蓮，下次想去。",
     "pinyin": "Wǒ cónglái méiyǒu qù guò Huālián, xiàcì xiǎng qù.",
     "pinyin_numeric": "wo3 cong2 lai2 mei2 you3 qu4 guo4 hua1 lian2, xia4 ci4 xiang3 qu4.",
-    "translation_en": "I have never been to Hualien; I want to go next time.",
+    "translation_en": "I have never been to Hualien; I would like to go next time.",
     "translation_ko": "저는 화롄에 가 본 적이 한 번도 없어요. 다음에 가고 싶어요.",
     "token_ids": [
       "VOC_M1_002",
@@ -26398,7 +26398,7 @@
     "text": "我媽媽正在煮飯，我們先等一下。",
     "pinyin": "Wǒ māmā zhèngzài zhǔ fàn, wǒmen xiān děng yīxià.",
     "pinyin_numeric": "wo3 ma1ma1 zheng4zai4 zhu3 fan4, wo3men xian1 deng3 yi1xia4.",
-    "translation_en": "My mom is cooking; let's wait a moment first.",
+    "translation_en": "My mom is cooking; let's wait a bit first.",
     "translation_ko": "우리 엄마가 지금 밥을 하고 계세요. 우리 먼저 잠시 기다려요.",
     "token_ids": [
       "VOC_M1_002",
@@ -27503,7 +27503,7 @@
     "text": "我昨天吃了牛肉麵，很好吃。",
     "pinyin": "Wǒ zuótiān chī le niúròumiàn, hěn hǎochī.",
     "pinyin_numeric": "wo3 zuo2tian1 chi1 le0 niu2rou4mian4, hen3 hao3chi1.",
-    "translation_en": "I ate beef noodles yesterday; they were very delicious.",
+    "translation_en": "I ate beef noodles yesterday; they were delicious.",
     "translation_ko": "어제 소고기 국수를 먹었는데 아주 맛있었어요.",
     "token_ids": [
       "VOC_M1_002",
@@ -42523,7 +42523,7 @@
     "text": "我曾經去過台灣的夜市，那裡的小吃很好吃。",
     "pinyin": "Wǒ céngjīng qù guò Táiwān de yèshì, nàlǐ de xiǎochī hěn hǎochī.",
     "pinyin_numeric": "wo3 ceng2jing1 qu4 guo4 tai2wan1 de0 ye4shi4, na4li3 de0 xiao3chi1 hen3 hao3chi1.",
-    "translation_en": "I have been to a night market in Taiwan before; the snacks there are very delicious.",
+    "translation_en": "I have been to a night market in Taiwan before; the snacks there are delicious.",
     "translation_ko": "저는 대만의 야시장에 가본 적이 있는데, 그곳의 간식이 아주 맛있어요.",
     "token_ids": [
       "VOC_M1_002",
@@ -42812,7 +42812,7 @@
     "text": "你曾經吃過台灣的滷肉飯嗎？我覺得很好吃。",
     "pinyin": "Nǐ céngjīng chī guò Táiwān de lǔròufàn ma? Wǒ juéde hěn hǎochī.",
     "pinyin_numeric": "ni3 ceng2jing1 chi1 guo4 tai2wan1 de0 lu3rou4fan4 ma0? wo3 jue2de0 hen3 hao3chi1.",
-    "translation_en": "Have you ever eaten Taiwanese braised pork rice? I think it's very delicious.",
+    "translation_en": "Have you ever eaten Taiwanese braised pork rice? I think it's delicious.",
     "translation_ko": "대만의 루로우판(돼지고기 덮밥)을 먹어본 적 있나요? 저는 아주 맛있다고 생각해요.",
     "token_ids": [
       "VOC_M1_003",
@@ -44082,7 +44082,7 @@
     "text": "他邀請我下個星期一起去吃飯。",
     "pinyin": "Tā yāoqǐng wǒ xià ge xīngqī yīqǐ qù chīfàn.",
     "pinyin_numeric": "ta1 yao1qing3 wo3 xia4 ge xing1qi1 yi1qi3 qu4 chi1fan4",
-    "translation_en": "He invited me to go eat together next week.",
+    "translation_en": "He invited me to go out to eat together next week.",
     "translation_ko": "그가 다음 주에 같이 밥 먹자고 저를 초대했어요.",
     "token_ids": [
       "VOC_M1_004",
@@ -46668,7 +46668,7 @@
     "text": "她發燒，身體很熱。",
     "pinyin": "Tā fāshāo, shēntǐ hěn rè.",
     "pinyin_numeric": "ta1 fa1shao1, shen1ti3 hen3 re4.",
-    "translation_en": "She has a fever and her body is very hot.",
+    "translation_en": "She has a fever and she feels very hot.",
     "translation_ko": "그녀는 열이 나고 몸이 아주 뜨거워요.",
     "token_ids": [
       "VOC_M1_005",
@@ -54999,7 +54999,7 @@
     "text": "我們有時候會一起去看球賽。",
     "pinyin": "Wǒmen yǒu shíhou huì yīqǐ qù kàn qiúsài.",
     "pinyin_numeric": "wo3 men5 you3 shi2 hou4 hui4 yi1 qi3 qu4 kan4 qiu2 sai4.",
-    "translation_en": "We sometimes go watch ball games together.",
+    "translation_en": "We sometimes go watch games together.",
     "translation_ko": "우리는 가끔 함께 경기 보러 갑니다.",
     "token_ids": [
       "VOC_M1_006",
@@ -55701,7 +55701,7 @@
     "text": "雖然我沒有吃過滷肉飯，但是我聽說很好吃。",
     "pinyin": "Suīrán wǒ méiyǒu chīguò lǔròufàn, dànshì wǒ tīngshuō hěn hǎochī.",
     "pinyin_numeric": "sui1ran2 wo3 mei2you3 chi1guo4 lu3rou4fan4, dan4shi4 wo3 ting1shuo1 hen3 hao3chi1.",
-    "translation_en": "Although I have never eaten braised pork rice, I heard it's very delicious.",
+    "translation_en": "Although I have never eaten braised pork rice, I heard it's delicious.",
     "translation_ko": "저는 루로우판을 먹어본 적은 없지만, 아주 맛있다고 들었어요.",
     "token_ids": [
       "VOC_D67_001",
@@ -72261,7 +72261,7 @@
     "text": "我認為我們可以一起去看電影。",
     "pinyin": "Wǒ rènwéi wǒmen kěyǐ yīqǐ qù kàn diànyǐng.",
     "pinyin_numeric": "wo3 ren4wei2 wo3men5 ke3yi3 yi1qi3 qu4 kan4 dian4ying3.",
-    "translation_en": "I think we can go watch a movie together.",
+    "translation_en": "I think we can go see a movie together.",
     "translation_ko": "저는 우리가 함께 영화를 보러 갈 수 있다고 생각합니다.",
     "token_ids": [
       "VOC_D73_021",
@@ -80263,7 +80263,7 @@
     "text": "雖然這家店的牛肉麵很好吃，但是份量太少了。",
     "pinyin": "Suīrán zhè jiā diàn de niúròu miàn hěn hǎochī, dànshì fènliàng tài shǎo le.",
     "pinyin_numeric": "sui1ran2 zhe4 jia1 dian4 de niu2rou4 mian4 hen3 hao3chi1, dan4shi4 fen4liang4 tai4 shao3 le5.",
-    "translation_en": "Although this shop's beef noodles are very delicious, the portion is too small.",
+    "translation_en": "Although this shop's beef noodles are delicious, the portion is too small.",
     "translation_ko": "이 가게의 소고기 국수는 매우 맛있지만, 양이 너무 적어요.",
     "token_ids": [
       "VOC_D67_001",
@@ -88505,7 +88505,7 @@
     "text": "嗯嗯，就是說，我們可以一起去看電影。",
     "pinyin": "Ēn ēn, jiùshì shuō, wǒmen kěyǐ yīqǐ qù kàn diànyǐng.",
     "pinyin_numeric": "en1 en1, jiu4shi4 shuo1, wo3men ke3yi3 yi1qi3 qu4 kan4 dian4ying3.",
-    "translation_en": "Uh-huh, I mean, we can go watch a movie together.",
+    "translation_en": "Uh-huh, I mean, we can go see a movie together.",
     "translation_ko": "네네, 그러니까 우리 같이 영화 보러 갈 수 있어요.",
     "token_ids": [
       "VOC_D78_019",
@@ -88536,7 +88536,7 @@
     "text": "那個，就是說，我們今天要不要一起去吃飯？",
     "pinyin": "Nàge, jiùshì shuō, wǒmen jīntiān yào bù yào yīqǐ qù chīfàn?",
     "pinyin_numeric": "na4ge5, jiu4shi4 shuo1, wo3men5 jin1tian1 yao4 bu4 yao4 yi1qi3 qu4 chi1fan4?",
-    "translation_en": "Um, I mean, do you want to go eat together today?",
+    "translation_en": "Um, I mean, do you want to go out to eat together today?",
     "translation_ko": "음, 그러니까, 우리 오늘 같이 밥 먹으러 갈래요?",
     "token_ids": [
       "VOC_M1_163",
@@ -89203,7 +89203,7 @@
     "text": "那個，就是說，我們明天要不要一起去吃飯？",
     "pinyin": "Nàge, jiùshì shuō, wǒmen míngtiān yào bù yào yīqǐ qù chīfàn?",
     "pinyin_numeric": "na4ge0, jiu4shi4 shuo1, wo3men ming2tian1 yao4 bu4 yao4 yi1qi3 qu4 chi1fan4?",
-    "translation_en": "Um, I mean, do you want to go eat together tomorrow?",
+    "translation_en": "Um, I mean, do you want to go out to eat together tomorrow?",
     "translation_ko": "음, 그러니까, 우리 내일 같이 밥 먹으러 갈래요?",
     "token_ids": [
       "VOC_M1_163",
@@ -89642,7 +89642,7 @@
     "text": "然後，那個，我們可以一起去看電影。",
     "pinyin": "Ránhòu, nàge, wǒmen kěyǐ yīqǐ qù kàn diànyǐng.",
     "pinyin_numeric": "ran2hou4, na4ge5, wo3men5 ke3yi3 yi1qi3 qu4 kan4 dian4ying3.",
-    "translation_en": "And then, um, we can go watch a movie together.",
+    "translation_en": "And then, um, we can go see a movie together.",
     "translation_ko": "그리고, 음, 우리 같이 영화 보러 갈 수 있어요.",
     "token_ids": [
       "VOC_M1_133",
@@ -122540,7 +122540,7 @@
     "text": "他不但會煮飯，而且煮得也很好吃。",
     "pinyin": "Tā bùdàn huì zhǔ fàn, érqiě zhǔ de yě hěn hǎochī.",
     "pinyin_numeric": "ta1 bu4dan4 hui4 zhu3 fan4, er2qie3 zhu3 de0 ye3 hen3 hao3chi1.",
-    "translation_en": "He can not only cook but also cooks very deliciously.",
+    "translation_en": "He can not only cook but also cooks deliciously.",
     "translation_ko": "그는 요리를 할 뿐만 아니라 아주 맛있게 합니다.",
     "token_ids": [
       "VOC_M1_004",

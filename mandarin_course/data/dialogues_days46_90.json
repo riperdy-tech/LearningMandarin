@@ -219,7 +219,7 @@
         "text": "很好吃，可是有點辣。我點的是招牌牛肉麵。",
         "pinyin": "Hěn hǎochī, kěshì yǒudiǎn là. Wǒ diǎn de shì zhāopái niúròumiàn.",
         "pinyin_numeric": "Hen3 hao3chi1, ke3shi4 you3dian3 la4. Wo3 dian3 de5 shi4 zhao1pai2 niu2rou4mian4.",
-        "translation_en": "It was very delicious, but a little spicy. I ordered the signature beef noodles.",
+        "translation_en": "It was delicious, but a little spicy. I ordered the signature beef noodles.",
         "translation_ko": "아주 맛있었는데, 조금 매웠어요. 시그니처 소고기 국수를 주문했어요.",
         "token_ids": [
           "VOC_M1_096",
@@ -8909,7 +8909,7 @@
         "text": "我沒有量，但是覺得身體很熱。",
         "pinyin": "Wǒ méiyǒu liáng, dànshì juéde shēntǐ hěn rè.",
         "pinyin_numeric": "Wo3 mei2you3 liang2, dan4shi4 jue2de shen1ti3 hen3 re4.",
-        "translation_en": "I haven't measured it, but I feel very hot.",
+        "translation_en": "I have not taken my temperature, but I feel very hot.",
         "translation_ko": "재보지는 않았는데, 몸이 많이 뜨겁습니다.",
         "token_ids": [
           "VOC_M1_002",

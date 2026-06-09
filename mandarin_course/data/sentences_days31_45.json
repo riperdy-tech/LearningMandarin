@@ -35424,7 +35424,7 @@
     "text": "他覺得牛肉麵很好吃。",
     "pinyin": "Tā juéde niúròumiàn hěn hǎochī.",
     "pinyin_numeric": "ta1 jue2de niu2rou4mian4 hen3 hao3chi1.",
-    "translation_en": "He thinks the beef noodle soup is very delicious.",
+    "translation_en": "He thinks the beef noodle soup is delicious.",
     "translation_ko": "그는 소고기 국수가 아주 맛있다고 생각해요.",
     "token_ids": [
       "VOC_M1_004",
@@ -36499,7 +36499,7 @@
     "text": "我覺得這家小吃店的滷肉飯很好吃。",
     "pinyin": "Wǒ juéde zhè jiā xiǎochī diàn de lǔròu fàn hěn hǎochī.",
     "pinyin_numeric": "wo3 jue2de zhe4 jia1 xiao3chi1 dian4 de0 lu3rou4 fan4 hen3 hao3chi1",
-    "translation_en": "I think the braised pork rice at this snack shop is very delicious.",
+    "translation_en": "I think the braised pork rice at this snack shop is delicious.",
     "translation_ko": "이 분식점의 루로우판이 아주 맛있다고 생각해요.",
     "token_ids": [
       "VOC_D42_031",

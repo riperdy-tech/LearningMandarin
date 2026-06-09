@@ -5462,7 +5462,7 @@
     "prompt_en": "Swap one word and say the new sentence aloud.",
     "model_answer": "他覺得牛肉麵很好吃。",
     "model_pinyin": "Tā juéde niúròumiàn hěn hǎochī.",
-    "model_translation_en": "He thinks the beef noodle soup is very delicious.",
+    "model_translation_en": "He thinks the beef noodle soup is delicious.",
     "related_sentence_id": "SEN_D45_013",
     "related_dialogue_id": "DLG_D45_01"
   },

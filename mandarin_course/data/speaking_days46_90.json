@@ -809,7 +809,7 @@
     "prompt_en": "Respond as one speaker in this scenario: talking about things you have done before.",
     "model_answer": "她做過臺灣小吃，很好吃。",
     "model_pinyin": "Tā zuò guò Táiwān xiǎochī, hěn hǎochī.",
-    "model_translation_en": "She has made Taiwanese snacks; they are very delicious.",
+    "model_translation_en": "She has made Taiwanese snacks; they are delicious.",
     "related_sentence_id": "SEN_D48_007",
     "related_dialogue_id": "DLG_D48_01"
   },
@@ -1249,7 +1249,7 @@
     "prompt_en": "Respond as one speaker in this scenario: what are you doing now?.",
     "model_answer": "他正在開會，等一下回你。",
     "model_pinyin": "Tā zhèngzài kāihuì, děng yīxià huí nǐ.",
-    "model_translation_en": "He is in a meeting; he'll get back to you in a moment.",
+    "model_translation_en": "He is in a meeting; he will get back to you shortly.",
     "related_sentence_id": "SEN_D49_017",
     "related_dialogue_id": "DLG_D49_03"
   },
@@ -3493,7 +3493,7 @@
     "prompt_en": "Answer a question in this scenario: talking to landlord or repair person.",
     "model_answer": "請幫我處理漏水的情況。",
     "model_pinyin": "Qǐng bāng wǒ chǔlǐ lòushuǐ de qíngkuàng.",
-    "model_translation_en": "Please help me deal with the water leakage situation.",
+    "model_translation_en": "Please help me deal with the leak.",
     "related_sentence_id": "SEN_D59_005",
     "related_dialogue_id": "DLG_D59_03"
   },
@@ -3922,7 +3922,7 @@
     "prompt_en": "Swap one word and say the new sentence aloud.",
     "model_answer": "媽媽正在廚房煮飯，我們先等一下。",
     "model_pinyin": "Māma zhèngzài chúfáng zhǔ fàn, wǒmen xiān děng yīxià.",
-    "model_translation_en": "Mom is cooking in the kitchen; let's wait a moment first.",
+    "model_translation_en": "Mom is cooking in the kitchen; let's wait a bit first.",
     "related_sentence_id": "SEN_D60_013",
     "related_dialogue_id": "DLG_D60_01"
   },
@@ -4021,7 +4021,7 @@
     "prompt_en": "Repeat the model sentence with full phrase rhythm.",
     "model_answer": "我吃過台灣的滷肉飯，很好吃。",
     "model_pinyin": "Wǒ chī guò Táiwān de lǔròufàn, hěn hǎochī.",
-    "model_translation_en": "I have eaten Taiwanese braised pork rice; it's very delicious.",
+    "model_translation_en": "I have eaten Taiwanese braised pork rice; it is delicious.",
     "related_sentence_id": "SEN_D60_031",
     "related_dialogue_id": "DLG_D60_01"
   },
@@ -6123,7 +6123,7 @@
     "prompt_en": "Swap one word and say the new sentence aloud.",
     "model_answer": "我曾經去過台灣的夜市，那裡的小吃很好吃。",
     "model_pinyin": "Wǒ céngjīng qù guò Táiwān de yèshì, nàlǐ de xiǎochī hěn hǎochī.",
-    "model_translation_en": "I have been to a night market in Taiwan before; the snacks there are very delicious.",
+    "model_translation_en": "I have been to a night market in Taiwan before; the snacks there are delicious.",
     "related_sentence_id": "SEN_D55_031",
     "related_dialogue_id": "DLG_D55_03"
   },
@@ -10325,7 +10325,7 @@
     "prompt_en": "Respond as one speaker in this scenario: saying what you think.",
     "model_answer": "我認為我們可以一起去看電影。",
     "model_pinyin": "Wǒ rènwéi wǒmen kěyǐ yīqǐ qù kàn diànyǐng.",
-    "model_translation_en": "I think we can go watch a movie together.",
+    "model_translation_en": "I think we can go see a movie together.",
     "related_sentence_id": "SEN_D73_017",
     "related_dialogue_id": "DLG_D73_03"
   },
@@ -12107,7 +12107,7 @@
     "prompt_en": "Repeat the model sentence with full phrase rhythm.",
     "model_answer": "那個，就是說，我們今天要不要一起去吃飯？",
     "model_pinyin": "Nàge, jiùshì shuō, wǒmen jīntiān yào bù yào yīqǐ qù chīfàn?",
-    "model_translation_en": "Um, I mean, do you want to go eat together today?",
+    "model_translation_en": "Um, I mean, do you want to go out to eat together today?",
     "related_sentence_id": "SEN_D78_021",
     "related_dialogue_id": "DLG_D78_02"
   },
@@ -12217,7 +12217,7 @@
     "prompt_en": "Repeat the model sentence with full phrase rhythm.",
     "model_answer": "那個，就是說，我們明天要不要一起去吃飯？",
     "model_pinyin": "Nàge, jiùshì shuō, wǒmen míngtiān yào bù yào yīqǐ qù chīfàn?",
-    "model_translation_en": "Um, I mean, do you want to go eat together tomorrow?",
+    "model_translation_en": "Um, I mean, do you want to go out to eat together tomorrow?",
     "related_sentence_id": "SEN_D78_041",
     "related_dialogue_id": "DLG_D78_03"
   },
@@ -12283,7 +12283,7 @@
     "prompt_en": "Swap one word and say the new sentence aloud.",
     "model_answer": "然後，那個，我們可以一起去看電影。",
     "model_pinyin": "Ránhòu, nàge, wǒmen kěyǐ yīqǐ qù kàn diànyǐng.",
-    "model_translation_en": "And then, um, we can go watch a movie together.",
+    "model_translation_en": "And then, um, we can go see a movie together.",
     "related_sentence_id": "SEN_D78_053",
     "related_dialogue_id": "DLG_D78_03"
   },
@@ -16606,7 +16606,7 @@
     "prompt_en": "Create your own sentence using only known words.",
     "model_answer": "他不但會煮飯，而且煮得也很好吃。",
     "model_pinyin": "Tā bùdàn huì zhǔ fàn, érqiě zhǔ de yě hěn hǎochī.",
-    "model_translation_en": "He can not only cook but also cooks very deliciously.",
+    "model_translation_en": "He can not only cook but also cooks deliciously.",
     "related_sentence_id": "SEN_D90_029",
     "related_dialogue_id": "DLG_D90_03"
   },

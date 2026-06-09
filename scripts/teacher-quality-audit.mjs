@@ -68,6 +68,9 @@ function checkEnglishGloss(item, label) {
   if (/\b(no spicy|one beef noodles|one beef noodle soup|bubble milk tea|less ice|with no spice)\b/i.test(gloss)) {
     errors.push(`${label}: awkward English gloss "${gloss}"`);
   }
+  if (/\bvery delicious\b|\bwater leakage situation\b|\bmy nose is allergic\b|\bbody is very hot\b/i.test(gloss)) {
+    errors.push(`${label}: literal English gloss "${gloss}"`);
+  }
 }
 
 function checkNestedEnglish(value, label) {
