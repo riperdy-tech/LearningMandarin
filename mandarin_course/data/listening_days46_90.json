@@ -3265,15 +3265,15 @@
   {
     "id": "LIS_D79_12",
     "lesson_id": "LESSON_D79",
-    "type": "short_dialogue",
+    "type": "sentence",
     "prompt_en": "Listen and understand: fixing misunderstanding",
-    "text": "對不起，我說錯了，請你再說一次。",
-    "pinyin": "Duìbuqǐ, wǒ shuō cuò le, qǐng nǐ zài shuō yī cì.",
-    "pinyin_numeric": "dui4buqi3, wo3 shuo1 cuo4 le, qing3 ni3 zai4 shuo1 yi1 ci4.",
-    "translation_en": "Sorry, I said it wrong. Please say it again.",
-    "translation_ko": "죄송합니다. 제가 잘못 말했어요. 다시 한 번 말씀해 주세요.",
+    "text": "你是不是說錯的意思？",
+    "pinyin": "Nǐ shì bù shì shuō cuò de yìsi?",
+    "pinyin_numeric": "ni3 shi4 bu4 shi4 shuo1 cuo4 de0 yi4 si0",
+    "translation_en": "Is it that you said it wrong?",
+    "translation_ko": "당신이 잘못 말한 건가요?",
     "audio_id": "AUD_LIS_D79_12",
-    "sentence_id": "SEN_D79_002"
+    "sentence_id": "SEN_D79_021"
   },
   {
     "id": "LIS_D79_13",
@@ -4032,15 +4032,15 @@
   {
     "id": "LIS_D82_11",
     "lesson_id": "LESSON_D82",
-    "type": "short_dialogue",
+    "type": "sentence",
     "prompt_en": "Listen and understand: short chat messages in Traditional Chinese",
-    "text": "你收到我的訊息了嗎？",
-    "pinyin": "Nǐ shōudào wǒ de xùnxī le ma?",
-    "pinyin_numeric": "ni3 shou1dao4 wo3 de0 xun4xi1 le0 ma0",
-    "translation_en": "Did you receive my message?",
-    "translation_ko": "제 메시지 받으셨어요?",
+    "text": "不好意思，你現在有空嗎？",
+    "pinyin": "Bù hǎo yì si, nǐ xiàn zài yǒu kòng ma?",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, ni3 xian4 zai4 you3 kong4 ma0",
+    "translation_en": "Excuse me, are you free now?",
+    "translation_ko": "실례합니다, 지금 시간 있으세요?",
     "audio_id": "AUD_LIS_D82_11",
-    "sentence_id": "SEN_D82_002"
+    "sentence_id": "SEN_D82_021"
   },
   {
     "id": "LIS_D82_12",
@@ -4097,67 +4097,67 @@
   {
     "id": "LIS_D82_16",
     "lesson_id": "LESSON_D82",
-    "type": "short_dialogue",
+    "type": "sentence",
     "prompt_en": "Listen and understand: short chat messages in Traditional Chinese",
-    "text": "你收到我的訊息了嗎？",
-    "pinyin": "Nǐ shōudào wǒ de xùnxī le ma?",
-    "pinyin_numeric": "ni3 shou1dao4 wo3 de0 xun4xi1 le0 ma0",
-    "translation_en": "Did you receive my message?",
-    "translation_ko": "제 메시지 받으셨어요?",
+    "text": "不好意思，可以跟你約明天見面嗎？",
+    "pinyin": "Bù hǎo yì si, kě yǐ gēn nǐ yuē míng tiān jiàn miàn ma?",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, ke3 yi3 gen1 ni3 yue1 ming2 tian1 jian4 mian4 ma0",
+    "translation_en": "Excuse me, can I make an appointment to meet you tomorrow?",
+    "translation_ko": "실례합니다, 내일 뵙기로 약속해도 될까요?",
     "audio_id": "AUD_LIS_D82_16",
-    "sentence_id": "SEN_D82_002"
+    "sentence_id": "SEN_D82_022"
   },
   {
     "id": "LIS_D82_17",
     "lesson_id": "LESSON_D82",
-    "type": "short_dialogue",
+    "type": "sentence",
     "prompt_en": "Listen and understand: short chat messages in Traditional Chinese",
-    "text": "你等一下有空嗎？",
-    "pinyin": "Nǐ děng yīxià yǒu kòng ma?",
-    "pinyin_numeric": "ni3 deng3 yi1xia4 you3 kong4 ma0",
-    "translation_en": "Are you free in a moment?",
-    "translation_ko": "잠시 후에 시간 괜찮으세요?",
+    "text": "不好意思，我收到你的訊息了，等一下回你。",
+    "pinyin": "Bù hǎo yì si, wǒ shōu dào nǐ de xùn xí le, děng yī xià huí nǐ.",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, wo3 shou1 dao4 ni3 de0 xun4 xi2 le0, deng3 yi1 xia4 hui2 ni3.",
+    "translation_en": "Excuse me, I received your message and will reply to you in a moment.",
+    "translation_ko": "실례합니다, 메시지 받았어요. 잠시 후에 답장할게요.",
     "audio_id": "AUD_LIS_D82_17",
-    "sentence_id": "SEN_D82_012"
+    "sentence_id": "SEN_D82_023"
   },
   {
     "id": "LIS_D82_18",
     "lesson_id": "LESSON_D82",
-    "type": "short_dialogue",
+    "type": "sentence",
     "prompt_en": "Listen and understand: short chat messages in Traditional Chinese",
-    "text": "我們約三點半見面好嗎？",
-    "pinyin": "Wǒmen yuē sān diǎn bàn jiànmiàn hǎo ma?",
-    "pinyin_numeric": "wo3men yue1 san1 dian3 ban4 jian4mian4 hao3 ma0",
-    "translation_en": "Shall we meet at 3:30?",
-    "translation_ko": "3시 30분에 만날까요?",
+    "text": "不好意思，我現在不方便講電話，可以傳訊息嗎？",
+    "pinyin": "Bù hǎo yì si, wǒ xiàn zài bù fāng biàn jiǎng diàn huà, kě yǐ chuán xùn xí ma?",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, wo3 xian4 zai4 bu4 fang1 bian4 jiang3 dian4 hua4, ke3 yi3 chuan2 xun4 xi2 ma0",
+    "translation_en": "Excuse me, I'm not available to talk on the phone right now. Can I send you a message?",
+    "translation_ko": "실례합니다, 지금 통화하기 어려워서 문자 보내도 될까요?",
     "audio_id": "AUD_LIS_D82_18",
-    "sentence_id": "SEN_D82_013"
+    "sentence_id": "SEN_D82_024"
   },
   {
     "id": "LIS_D82_19",
     "lesson_id": "LESSON_D82",
-    "type": "short_dialogue",
+    "type": "sentence",
     "prompt_en": "Listen and understand: short chat messages in Traditional Chinese",
-    "text": "你確定明天可以見面嗎？",
-    "pinyin": "Nǐ quèdìng míngtiān kěyǐ jiànmiàn ma?",
-    "pinyin_numeric": "ni3 que4ding4 ming2tian1 ke3yi3 jian4mian4 ma0",
-    "translation_en": "Are you sure we can meet tomorrow?",
-    "translation_ko": "내일 만날 수 있는 거 확실해요?",
+    "text": "不好意思，我們約三點半在車站見面，好嗎？",
+    "pinyin": "Bù hǎo yì si, wǒ men yuē sān diǎn bàn zài chē zhàn jiàn miàn, hǎo ma?",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, wo3 men0 yue1 san1 dian3 ban4 zai4 che1 zhan4 jian4 mian4, hao3 ma0",
+    "translation_en": "Excuse me, shall we meet at the station at 3:30?",
+    "translation_ko": "실례합니다, 3시 반에 역에서 만날까요?",
     "audio_id": "AUD_LIS_D82_19",
-    "sentence_id": "SEN_D82_014"
+    "sentence_id": "SEN_D82_025"
   },
   {
     "id": "LIS_D82_20",
     "lesson_id": "LESSON_D82",
-    "type": "short_dialogue",
+    "type": "sentence",
     "prompt_en": "Listen and understand: short chat messages in Traditional Chinese",
-    "text": "你現在方便打電話嗎？",
-    "pinyin": "Nǐ xiànzài fāngbiàn dǎ diànhuà ma?",
-    "pinyin_numeric": "ni3 xian4zai4 fang1bian4 da3 dian4hua4 ma0",
-    "translation_en": "Are you free to call now?",
-    "translation_ko": "지금 전화하시기 괜찮으세요?",
+    "text": "不好意思，我可能會遲到，路上塞車。",
+    "pinyin": "Bù hǎo yì si, wǒ kě néng huì chí dào, lù shàng sāi chē.",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, wo3 ke3 neng2 hui4 chi2 dao4, lu4 shang4 sai1 che1.",
+    "translation_en": "Excuse me, I might be late because of traffic on the road.",
+    "translation_ko": "실례합니다, 길이 막혀서 늦을 수도 있어요.",
     "audio_id": "AUD_LIS_D82_20",
-    "sentence_id": "SEN_D82_015"
+    "sentence_id": "SEN_D82_026"
   },
   {
     "id": "LIS_D83_01",
@@ -6466,16 +6466,15 @@
   {
     "id": "LIS_D46_18",
     "lesson_id": "LESSON_D46",
-    "type": "short_dialogue",
+    "type": "sentence",
     "prompt_en": "Listen and identify the meaning.",
-    "text": "我昨天吃早餐了，然後出門了。",
-    "pinyin": "Wǒ zuótiān chī zǎocān le, ránhòu chūmén le.",
-    "pinyin_numeric": "wo3 zuo2tian1 chi1 zao3can1 le0, ran2hou4 chu1men2 le0.",
-    "translation_en": "I ate breakfast yesterday, and then went out.",
-    "translation_ko": "저는 어제 아침을 먹었고, 그다음에 외출했어요.",
+    "text": "他昨天煮飯了。",
+    "pinyin": "Tā zuótiān zhǔ fàn le.",
+    "pinyin_numeric": "ta1 zuo2tian1 zhu3 fan4 le0",
+    "translation_en": "He cooked rice yesterday.",
+    "translation_ko": "그는 어제 밥을 지었어요.",
     "audio_id": "AUD_LIS_D46_18",
-    "sentence_id": "SEN_D46_022",
-    "dialogue_id": "DLG_D46_03"
+    "sentence_id": "SEN_D46_002"
   },
   {
     "id": "LIS_D46_19",
@@ -6730,16 +6729,15 @@
   {
     "id": "LIS_D47_18",
     "lesson_id": "LESSON_D47",
-    "type": "short_dialogue",
+    "type": "sentence",
     "prompt_en": "Listen and identify the meaning.",
-    "text": "他早上起床，先刷牙洗臉，然後吃早餐。",
-    "pinyin": "Tā zǎoshang qǐchuáng, xiān shuāyá xǐliǎn, ránhòu chī zǎocān.",
-    "pinyin_numeric": "ta1 zao3shang5 qi3chuang2, xian1 shua1ya2 xi3lian3, ran2hou4 chi1 zao3can1.",
-    "translation_en": "He got up in the morning, first brushed his teeth and washed his face, then ate breakfast.",
-    "translation_ko": "그는 아침에 일어나서, 먼저 이를 닦고 세수한 다음, 아침을 먹었어요.",
+    "text": "他先看書，然後聽音樂。",
+    "pinyin": "Tā xiān kàn shū, ránhòu tīng yīnyuè.",
+    "pinyin_numeric": "ta1 xian1 kan4 shu1, ran2hou4 ting1 yin1yue4.",
+    "translation_en": "He first reads a book, then listens to music.",
+    "translation_ko": "그는 먼저 책을 보고, 그다음에 음악을 들어요.",
     "audio_id": "AUD_LIS_D47_18",
-    "sentence_id": "SEN_D47_022",
-    "dialogue_id": "DLG_D47_03"
+    "sentence_id": "SEN_D47_002"
   },
   {
     "id": "LIS_D47_19",
@@ -7181,13 +7179,13 @@
     "lesson_id": "LESSON_D49",
     "type": "sentence",
     "prompt_en": "Listen and identify the meaning.",
-    "text": "她正在滑手機。",
-    "pinyin": "Tā zhèngzài huá shǒujī.",
-    "pinyin_numeric": "ta1 zheng4zai4 hua2 shou3ji1",
-    "translation_en": "She is scrolling on her phone.",
-    "translation_ko": "그녀는 핸드폰을 보고 있어요.",
+    "text": "我正在看書。",
+    "pinyin": "Wǒ zhèngzài kàn shū.",
+    "pinyin_numeric": "wo3 zheng4zai4 kan4 shu1",
+    "translation_en": "I am reading a book.",
+    "translation_ko": "저는 책을 보고 있어요.",
     "audio_id": "AUD_LIS_D49_12",
-    "sentence_id": "SEN_D49_004"
+    "sentence_id": "SEN_D49_002"
   },
   {
     "id": "LIS_D49_13",
@@ -7219,15 +7217,15 @@
   {
     "id": "LIS_D49_15",
     "lesson_id": "LESSON_D49",
-    "type": "distractor_variant",
+    "type": "sentence",
     "prompt_en": "Choose the sentence that does not match.",
-    "text": "他在上網嗎？",
-    "pinyin": "Tā zài shàngwǎng ma?",
-    "pinyin_numeric": "ta1 zai4 shang4wang3 ma0",
-    "translation_en": "Is he surfing the internet?",
-    "translation_ko": "그는 인터넷을 하고 있나요?",
+    "text": "他正在上網。",
+    "pinyin": "Tā zhèngzài shàngwǎng.",
+    "pinyin_numeric": "ta1 zheng4zai4 shang4wang3",
+    "translation_en": "He is browsing the internet.",
+    "translation_ko": "그는 인터넷을 하고 있어요.",
     "audio_id": "AUD_LIS_D49_15",
-    "sentence_id": "SEN_D49_013"
+    "sentence_id": "SEN_D49_003"
   },
   {
     "id": "LIS_D49_16",
@@ -7747,15 +7745,15 @@
   {
     "id": "LIS_D51_15",
     "lesson_id": "LESSON_D51",
-    "type": "distractor_variant",
+    "type": "sentence",
     "prompt_en": "Choose the sentence that does not match.",
-    "text": "他戴眼鏡，看起來很聰明。",
-    "pinyin": "Tā dài yǎnjìng, kàn qǐlái hěn cōngmíng.",
-    "pinyin_numeric": "ta1 dai4 yan3jing4, kan4 qi3lai2 hen3 cong1ming2",
-    "translation_en": "He wears glasses and looks very smart.",
-    "translation_ko": "그는 안경을 쓰고 있어서 매우 똑똑해 보여요.",
+    "text": "她看起來很年輕，可是已經三十歲了。",
+    "pinyin": "Tā kàn qǐlái hěn niánqīng, kěshì yǐjīng sānshí suì le.",
+    "pinyin_numeric": "ta1 kan4 qi3lai2 hen3 nian2qing1, ke3shi4 yi3jing1 san1shi2 sui4 le5",
+    "translation_en": "She looks very young, but she is already thirty years old.",
+    "translation_ko": "그녀는 아주 젊어 보이지만, 이미 서른 살입니다.",
     "audio_id": "AUD_LIS_D51_15",
-    "sentence_id": "SEN_D51_013"
+    "sentence_id": "SEN_D51_002"
   },
   {
     "id": "LIS_D51_16",
@@ -8765,13 +8763,13 @@
     "lesson_id": "LESSON_D59",
     "type": "sentence",
     "prompt_en": "Listen and identify the meaning.",
-    "text": "請幫我看看冷氣的問題。",
-    "pinyin": "Qǐng bāng wǒ kànkan lěngqì de wèntí.",
-    "pinyin_numeric": "qing3 bang1 wo3 kan4kan5 leng3qi4 de5 wen4ti2",
-    "translation_en": "Please help me take a look at the air conditioner problem.",
-    "translation_ko": "에어컨 문제를 봐 주세요.",
+    "text": "請幫我檢查馬桶。",
+    "pinyin": "Qǐng bāng wǒ jiǎnchá mǎtǒng.",
+    "pinyin_numeric": "qing3 bang1 wo3 jian3cha2 ma3tong3",
+    "translation_en": "Please help me check the toilet.",
+    "translation_ko": "변기 확인하는 것을 도와주세요.",
     "audio_id": "AUD_LIS_D59_12",
-    "sentence_id": "SEN_D59_004"
+    "sentence_id": "SEN_D59_002"
   },
   {
     "id": "LIS_D59_13",
@@ -8790,15 +8788,15 @@
   {
     "id": "LIS_D59_14",
     "lesson_id": "LESSON_D59",
-    "type": "natural_variant",
+    "type": "sentence",
     "prompt_en": "Listen and identify the meaning.",
-    "text": "請幫我處理牆壁的裂縫。",
-    "pinyin": "Qǐng bāng wǒ chǔlǐ qiángbì de lièfèng.",
-    "pinyin_numeric": "qing3 bang1 wo3 chu3li3 qiang2bi4 de5 lie4feng4",
-    "translation_en": "Please help me deal with the crack in the wall.",
-    "translation_ko": "벽의 균열을 처리해 주세요.",
+    "text": "請幫我換燈泡。",
+    "pinyin": "Qǐng bāng wǒ huàn dēngpào.",
+    "pinyin_numeric": "qing3 bang1 wo3 huan4 deng1pao4",
+    "translation_en": "Please help me change the light bulb.",
+    "translation_ko": "전구 교체하는 것을 도와주세요.",
     "audio_id": "AUD_LIS_D59_14",
-    "sentence_id": "SEN_D59_010"
+    "sentence_id": "SEN_D59_003"
   },
   {
     "id": "LIS_D59_15",
@@ -8842,16 +8840,15 @@
   {
     "id": "LIS_D59_18",
     "lesson_id": "LESSON_D59",
-    "type": "short_dialogue",
+    "type": "sentence",
     "prompt_en": "Listen and identify the meaning.",
-    "text": "可能是馬桶的問題，排水很慢。",
-    "pinyin": "Kěnéng shì mǎtǒng de wèntí, páishuǐ hěn màn.",
-    "pinyin_numeric": "ke3neng2 shi4 ma3tong3 de0 wen4ti2, pai2shui3 hen3 man4.",
-    "translation_en": "It might be a problem with the toilet; the drainage is very slow.",
-    "translation_ko": "변기 문제일 수도 있어서 배수가 아주 느려요.",
+    "text": "請幫我處理漏水的情況。",
+    "pinyin": "Qǐng bāng wǒ chǔlǐ lòushuǐ de qíngkuàng.",
+    "pinyin_numeric": "qing3 bang1 wo3 chu3li3 lou4shui3 de0 qing2kuang4",
+    "translation_en": "Please help me deal with the water leakage situation.",
+    "translation_ko": "누수 상황을 처리하는 것을 도와주세요.",
     "audio_id": "AUD_LIS_D59_18",
-    "sentence_id": "SEN_D59_022",
-    "dialogue_id": "DLG_D59_03"
+    "sentence_id": "SEN_D59_005"
   },
   {
     "id": "LIS_D59_19",
@@ -9238,16 +9235,15 @@
   {
     "id": "LIS_D61_18",
     "lesson_id": "LESSON_D61",
-    "type": "short_dialogue",
+    "type": "sentence",
     "prompt_en": "Listen and identify the meaning.",
-    "text": "因為昨天颱風，所以今天學校停課。",
-    "pinyin": "Yīnwèi zuótiān táifēng, suǒyǐ jīntiān xuéxiào tíng kè.",
-    "pinyin_numeric": "yin1wei4 zuo2tian1 tai2feng1, suo3yi3 jin1tian1 xue2xiao4 ting2 ke4.",
-    "translation_en": "Because there was a typhoon yesterday, school is canceled today.",
-    "translation_ko": "어제 태풍이 와서 오늘 학교가 휴교예요.",
+    "text": "因為塞車，所以我今天上班遲到了。",
+    "pinyin": "Yīnwèi sāichē, suǒyǐ wǒ jīntiān shàngbān chídào le.",
+    "pinyin_numeric": "yin1wei4 sai1che1, suo3yi3 wo3 jin1tian1 shang4ban1 chi2dao4 le5.",
+    "translation_en": "Because of traffic, I was late for work today.",
+    "translation_ko": "교통 체증 때문에 오늘 출근에 지각했어요.",
     "audio_id": "AUD_LIS_D61_18",
-    "sentence_id": "SEN_D61_022",
-    "dialogue_id": "DLG_D61_03"
+    "sentence_id": "SEN_D61_002"
   },
   {
     "id": "LIS_D61_19",
@@ -9727,15 +9723,15 @@
   {
     "id": "LIS_D63_15",
     "lesson_id": "LESSON_D63",
-    "type": "distractor_variant",
+    "type": "sentence",
     "prompt_en": "Choose the sentence that does not match.",
-    "text": "這個杯子破掉了，我要退錢。",
-    "pinyin": "Zhège bēizi pò diào le, wǒ yào tuì qián.",
-    "pinyin_numeric": "zhe4 ge5 bei1 zi5 po4 diao4 le5, wo3 yao4 tui4 qian2.",
-    "translation_en": "This cup is broken; I want a refund.",
-    "translation_ko": "이 컵이 깨졌는데 환불을 받고 싶습니다.",
+    "text": "這個手機壞掉了，我想要換貨。",
+    "pinyin": "Zhège shǒujī huài diào le, wǒ xiǎng yào huànhuò.",
+    "pinyin_numeric": "zhe4ge shou3ji1 huai4 diao4 le, wo3 xiang3 yao4 huan4huo4.",
+    "translation_en": "This phone is broken, I want to exchange it.",
+    "translation_ko": "이 핸드폰이 고장 나서 교환하고 싶습니다.",
     "audio_id": "AUD_LIS_D63_15",
-    "sentence_id": "SEN_D63_013"
+    "sentence_id": "SEN_D63_002"
   },
   {
     "id": "LIS_D63_16",
@@ -10217,13 +10213,13 @@
     "lesson_id": "LESSON_D66",
     "type": "sentence",
     "prompt_en": "Listen and identify the meaning.",
-    "text": "萬一塞車的話，我們就搭捷運。",
-    "pinyin": "Wànyī sāichē dehuà, wǒmen jiù dā jiéyùn.",
-    "pinyin_numeric": "wan4 yi1 sai1 che1 de0 hua4, wo3 men5 jiu4 da1 jie2 yun4.",
-    "translation_en": "If there is a traffic jam, then we'll take the MRT.",
-    "translation_ko": "만약 교통 체증이 있으면 지하철을 타요.",
+    "text": "要是你忙的話，就改天再見面。",
+    "pinyin": "Yàoshi nǐ máng de huà, jiù gǎitiān zài jiànmiàn.",
+    "pinyin_numeric": "yao4shi4 ni3 mang2 de0 hua4, jiu4 gai3tian1 zai4 jian4mian4.",
+    "translation_en": "If you are busy, then we'll meet another day.",
+    "translation_ko": "네가 바쁘다면, 다른 날에 다시 만나요.",
     "audio_id": "AUD_LIS_D66_12",
-    "sentence_id": "SEN_D66_004"
+    "sentence_id": "SEN_D66_002"
   },
   {
     "id": "LIS_D66_13",
@@ -10294,16 +10290,15 @@
   {
     "id": "LIS_D66_18",
     "lesson_id": "LESSON_D66",
-    "type": "short_dialogue",
+    "type": "sentence",
     "prompt_en": "Listen and identify the meaning.",
-    "text": "要是你沒空的話，我就自己去買東西。",
-    "pinyin": "Yàoshi nǐ méi kòng de huà, wǒ jiù zìjǐ qù mǎi dōngxī.",
-    "pinyin_numeric": "yao4 shi4 ni3 mei2 kong4 de0 hua4, wo3 jiu4 zi4 ji3 qu4 mai3 dong1 xi1.",
-    "translation_en": "If you're not free, I'll go shopping by myself.",
-    "translation_ko": "네가 시간이 없으면 나 혼자 쇼핑하러 갈게.",
+    "text": "如果找不到鑰匙的話，就用備用鑰匙。",
+    "pinyin": "Rúguǒ zhǎo bù dào yàoshi de huà, jiù yòng bèiyòng yàoshi.",
+    "pinyin_numeric": "ru2guo3 zhao3 bu4 dao4 yao4shi0 de0 hua4, jiu4 yong4 bei4yong4 yao4shi0.",
+    "translation_en": "If you can't find the key, then use the spare key.",
+    "translation_ko": "열쇠를 찾을 수 없으면, 예비 열쇠를 사용하세요.",
     "audio_id": "AUD_LIS_D66_18",
-    "sentence_id": "SEN_D66_022",
-    "dialogue_id": "DLG_D66_03"
+    "sentence_id": "SEN_D66_003"
   },
   {
     "id": "LIS_D66_19",
@@ -10466,15 +10461,15 @@
   {
     "id": "LIS_D55_11",
     "lesson_id": "LESSON_D55",
-    "type": "isolated_word",
+    "type": "sentence",
     "prompt_en": "Listen and identify the meaning.",
-    "text": "曾經",
-    "pinyin": "céng jīng",
-    "pinyin_numeric": "ceng2 jing1",
-    "translation_en": "once; ever (in the past)",
-    "translation_ko": "일찍이; 한때",
+    "text": "他正在看書，你不要打擾他。",
+    "pinyin": "Tā zhèngzài kàn shū, nǐ bùyào dǎrǎo tā.",
+    "pinyin_numeric": "ta1 zheng4zai4 kan4 shu1, ni3 bu4yao4 da3rao3 ta1.",
+    "translation_en": "He is reading a book; don't disturb him.",
+    "translation_ko": "그는 지금 책을 보고 있으니, 방해하지 마세요.",
     "audio_id": "AUD_LIS_D55_11",
-    "sentence_id": "SEN_D55_039"
+    "sentence_id": "SEN_D55_002"
   },
   {
     "id": "LIS_D55_12",
@@ -10532,15 +10527,15 @@
   {
     "id": "LIS_D55_16",
     "lesson_id": "LESSON_D55",
-    "type": "isolated_word",
+    "type": "sentence",
     "prompt_en": "Listen and identify the meaning.",
-    "text": "比較",
-    "pinyin": "bǐ jiào",
-    "pinyin_numeric": "bi3 jiao4",
-    "translation_en": "to compare; relatively",
-    "translation_ko": "비교하다; 비교적",
+    "text": "你能夠幫我拿一下那個袋子嗎？",
+    "pinyin": "Nǐ nénggòu bāng wǒ ná yīxià nàge dàizi ma?",
+    "pinyin_numeric": "ni3 neng2gou4 bang1 wo3 na2 yi1xia4 na4ge dai4zi ma0?",
+    "translation_en": "Can you help me grab that bag for a moment?",
+    "translation_ko": "저 가방을 잠깐 들어주실 수 있나요?",
     "audio_id": "AUD_LIS_D55_16",
-    "sentence_id": "SEN_D55_034"
+    "sentence_id": "SEN_D55_003"
   },
   {
     "id": "LIS_D55_17",
@@ -10745,13 +10740,13 @@
     "lesson_id": "LESSON_D56",
     "type": "sentence",
     "prompt_en": "Listen and identify the meaning.",
-    "text": "我鼻子過敏，一直流鼻水，很不舒服。",
-    "pinyin": "Wǒ bízi guòmǐn, yīzhí liú bíshuǐ, hěn bù shūfú.",
-    "pinyin_numeric": "wo3 bi2zi5 guo4min3, yi1zhi2 liu2 bi2shui3, hen3 bu4 shu1fu2.",
-    "translation_en": "My nose is allergic; I keep having a runny nose, and it's very uncomfortable.",
-    "translation_ko": "제 코가 알레르기라서 계속 콧물이 나고, 많이 불편해요.",
+    "text": "他肚子痛，已經痛了兩個小時。",
+    "pinyin": "Tā dùzi tòng, yǐjīng tòng le liǎng ge xiǎoshí.",
+    "pinyin_numeric": "ta1 du4zi5 tong4, yi3jing1 tong4 le liang3 ge5 xiao3shi2.",
+    "translation_en": "He has a stomachache; it has been hurting for two hours.",
+    "translation_ko": "그는 배가 아파요. 벌써 두 시간 동안 아팠어요.",
     "audio_id": "AUD_LIS_D56_12",
-    "sentence_id": "SEN_D56_004"
+    "sentence_id": "SEN_D56_002"
   },
   {
     "id": "LIS_D56_13",
@@ -11086,16 +11081,15 @@
   {
     "id": "LIS_D57_18",
     "lesson_id": "LESSON_D57",
-    "type": "short_dialogue",
+    "type": "sentence",
     "prompt_en": "Listen and identify the meaning.",
-    "text": "醫生說不可以吃藥前喝酒。",
-    "pinyin": "Yīshēng shuō bù kěyǐ chī yào qián hē jiǔ.",
-    "pinyin_numeric": "yi1sheng1 shuo1 bu4 ke3yi3 chi1 yao4 qian2 he1 jiu3",
-    "translation_en": "The doctor said you cannot drink alcohol before taking medicine.",
-    "translation_ko": "의사 선생님이 약 먹기 전에 술을 마시면 안 된다고 했어요.",
+    "text": "醫生說這個藥一天吃三次，飯後吃。",
+    "pinyin": "Yīshēng shuō zhège yào yī tiān chī sān cì, fàn hòu chī.",
+    "pinyin_numeric": "yi1sheng1 shuo1 zhe4ge yao4 yi1 tian1 chi1 san1 ci4, fan4 hou4 chi1.",
+    "translation_en": "The doctor said to take this medicine three times a day, after meals.",
+    "translation_ko": "의사 선생님이 이 약은 하루에 세 번, 식후에 드시라고 했어요.",
     "audio_id": "AUD_LIS_D57_18",
-    "sentence_id": "SEN_D57_022",
-    "dialogue_id": "DLG_D57_03"
+    "sentence_id": "SEN_D57_002"
   },
   {
     "id": "LIS_D57_19",
@@ -11311,15 +11305,15 @@
   {
     "id": "LIS_D65_15",
     "lesson_id": "LESSON_D65",
-    "type": "distractor_variant",
+    "type": "sentence",
     "prompt_en": "Choose the sentence that does not match.",
-    "text": "你應該要早點睡覺，不然明天會很累。",
-    "pinyin": "Nǐ yīnggāi yào zǎo diǎn shuìjiào, bùrán míngtiān huì hěn lèi.",
-    "pinyin_numeric": "ni3 ying1gai1 yao4 zao3 dian3 shui4jiao4, bu4ran2 ming2tian1 hui4 hen3 lei4.",
-    "translation_en": "You should go to bed early, otherwise you'll be very tired tomorrow.",
-    "translation_ko": "일찍 자야 해요, 그렇지 않으면 내일 많이 피곤할 거예요.",
+    "text": "你不需要買那麼多東西。",
+    "pinyin": "Nǐ bù xūyào mǎi nàme duō dōngxī.",
+    "pinyin_numeric": "ni3 bu4 xu1yao4 mai3 na4me duo1 dong1xi1",
+    "translation_en": "You don't need to buy so many things.",
+    "translation_ko": "당신은 그렇게 많은 물건을 살 필요가 없어요.",
     "audio_id": "AUD_LIS_D65_15",
-    "sentence_id": "SEN_D65_013"
+    "sentence_id": "SEN_D65_003"
   },
   {
     "id": "LIS_D65_16",
@@ -11614,16 +11608,15 @@
   {
     "id": "LIS_D53_18",
     "lesson_id": "LESSON_D53",
-    "type": "short_dialogue",
+    "type": "sentence",
     "prompt_en": "Listen and identify the meaning.",
-    "text": "你週末常常做什麼休閒活動？",
-    "pinyin": "Nǐ zhōumò chángcháng zuò shénme xiūxián huódòng?",
-    "pinyin_numeric": "ni3 zhou1mo4 chang2chang2 zuo4 shen2me xiu1xian2 huo2dong4?",
-    "translation_en": "What leisure activities do you often do on weekends?",
-    "translation_ko": "주말에 주로 어떤 여가 활동을 하시나요?",
+    "text": "他常常看小說，很少看漫畫。",
+    "pinyin": "Tā chángcháng kàn xiǎoshuō, hěn shǎo kàn mànhuà.",
+    "pinyin_numeric": "ta1 chang2chang2 kan4 xiao3shuo1, hen3 shao3 kan4 man4hua4.",
+    "translation_en": "He often reads novels, but rarely reads comics.",
+    "translation_ko": "그는 자주 소설을 읽고, 만화는 거의 보지 않습니다.",
     "audio_id": "AUD_LIS_D53_18",
-    "sentence_id": "SEN_D53_022",
-    "dialogue_id": "DLG_D53_03"
+    "sentence_id": "SEN_D53_002"
   },
   {
     "id": "LIS_D53_19",

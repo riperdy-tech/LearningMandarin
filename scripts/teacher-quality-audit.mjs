@@ -117,6 +117,26 @@ for (const item of listening) {
   }
 }
 
+const listeningByDay = new Map();
+for (const item of listening) {
+  const day = Number(item.id?.match(/D(\d+)/)?.[1] ?? 0);
+  if (!day) continue;
+  if (!listeningByDay.has(day)) listeningByDay.set(day, []);
+  listeningByDay.get(day).push(item);
+}
+for (const [day, dayItems] of [...listeningByDay.entries()].sort((a, b) => a[0] - b[0])) {
+  const counts = new Map();
+  for (const item of dayItems) {
+    const text = item.text?.trim();
+    if (!text) continue;
+    counts.set(text, (counts.get(text) ?? 0) + 1);
+  }
+  const duplicates = [...counts.entries()].filter(([, count]) => count > 1);
+  if (duplicates.length) {
+    errors.push(`Day ${day}: duplicate listening prompts: ${duplicates.map(([text, count]) => `"${text}" x${count}`).join("; ")}`);
+  }
+}
+
 for (const sentence of sentences) {
   checkPinyinNumeric(sentence, sentence.id);
   checkEnglishGloss(sentence, sentence.id);
