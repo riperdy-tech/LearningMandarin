@@ -1161,7 +1161,7 @@
     "prompt_en": "Repeat the model sentence with full phrase rhythm.",
     "model_answer": "你要喝珍珠奶茶嗎？",
     "model_pinyin": "Nǐ yào hē zhēnzhū nǎichá ma?",
-    "model_translation_en": "Do you want to drink bubble milk tea?",
+    "model_translation_en": "Do you want to drink bubble tea?",
     "related_sentence_id": "SEN_D34_001",
     "related_dialogue_id": "DLG_D34_01"
   },
@@ -4615,7 +4615,7 @@
     "prompt_en": "Create your own sentence using only known words.",
     "model_answer": "這家店的珍珠奶茶真的很好喝，我推薦你試試看。",
     "model_pinyin": "Zhè jiā diàn de zhēnzhū nǎichá zhēn de hěn hǎo hē, wǒ tuījiàn nǐ shì shì kàn.",
-    "model_translation_en": "The bubble milk tea at this shop is really good; I recommend you try it.",
+    "model_translation_en": "The bubble tea at this shop is really good; I recommend you try it.",
     "related_sentence_id": "SEN_D42_070",
     "related_dialogue_id": "DLG_D42_02"
   },

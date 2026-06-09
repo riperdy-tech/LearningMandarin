@@ -7226,7 +7226,7 @@
     "text": "你要喝珍珠奶茶嗎？",
     "pinyin": "Nǐ yào hē zhēnzhū nǎichá ma?",
     "pinyin_numeric": "ni3 yao4 he1 zhen1zhu1 nai3cha2 ma0",
-    "translation_en": "Would you like to drink bubble milk tea?",
+    "translation_en": "Would you like to drink bubble tea?",
     "translation_ko": "버블 밀크티를 마실래요?",
     "token_ids": [
       "VOC_M1_003",
@@ -28799,7 +28799,7 @@
     "text": "這家店的珍珠奶茶真的很好喝，我推薦你試試看。",
     "pinyin": "Zhè jiā diàn de zhēnzhū nǎichá zhēn de hěn hǎo hē, wǒ tuījiàn nǐ shì shì kàn.",
     "pinyin_numeric": "zhe4 jia1 dian4 de0 zhen1zhu1 nai3cha2 zhen1 de0 hen3 hao3 he1, wo3 tui1jian4 ni3 shi4 shi4 kan4.",
-    "translation_en": "The bubble milk tea at this shop is really good; I recommend you try it.",
+    "translation_en": "The bubble tea at this shop is really good; I recommend you try it.",
     "translation_ko": "이 가게의 버블 밀크티는 정말 맛있어요. 한번 드셔 보시길 추천해요.",
     "token_ids": [
       "VOC_M1_039",

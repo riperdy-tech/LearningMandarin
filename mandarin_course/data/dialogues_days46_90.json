@@ -8836,7 +8836,7 @@
         "text": "你好，我想要買成藥。",
         "pinyin": "Nǐ hǎo, wǒ xiǎng yào mǎi chéng yào.",
         "pinyin_numeric": "Ni3 hao3, wo3 xiang3 yao4 mai3 cheng2 yao4.",
-        "translation_en": "Hello, I want to buy some over-the-counter medicine.",
+        "translation_en": "Hello, I would like to buy some over-the-counter medicine.",
         "translation_ko": "안녕하세요, 일반약을 사고 싶습니다.",
         "token_ids": [
           "VOC_M1_001",
@@ -8888,7 +8888,7 @@
         "text": "你有發燒嗎？要不要先量體溫？",
         "pinyin": "Nǐ yǒu fāshāo ma? Yào bù yào xiān liáng tǐwēn?",
         "pinyin_numeric": "Ni3 you3 fa1shao1 ma? Yao4 bu4 yao4 xian1 liang2 ti3wen1?",
-        "translation_en": "Do you have a fever? Do you want to take your temperature first?",
+        "translation_en": "Do you have a fever? Would you like to take your temperature first?",
         "translation_ko": "열이 있나요? 먼저 체온을 재보시겠어요?",
         "token_ids": [
           "VOC_M1_003",
@@ -11306,7 +11306,7 @@
         "text": "你好，我要外帶。",
         "pinyin": "Nǐ hǎo, wǒ yào wàidài.",
         "pinyin_numeric": "Ni3 hao3, wo3 yao4 wai4dai4.",
-        "translation_en": "Hello, I'd like to take out.",
+        "translation_en": "Hello, I would like to order takeout.",
         "translation_ko": "안녕하세요, 포장하겠습니다.",
         "token_ids": [
           "VOC_M1_001",
@@ -11341,7 +11341,7 @@
         "text": "我要一份牛肉麵，帶回去吃。",
         "pinyin": "Wǒ yào yī fèn niúròumiàn, dài huíqù chī.",
         "pinyin_numeric": "Wo3 yao4 yi1 fen4 niu2rou4mian4, dai4 hui2qu4 chi1.",
-        "translation_en": "I'd like one beef noodle soup, to take home and eat.",
+        "translation_en": "I would like one bowl of beef noodle soup to go.",
         "translation_ko": "소고기 국수 한 그릇 주문할게요, 집에 가져가서 먹을 거예요.",
         "token_ids": [
           "VOC_M1_002",
@@ -11380,7 +11380,7 @@
         "text": "謝謝。我還要一杯紅茶，一起帶去。",
         "pinyin": "Xièxie. Wǒ hái yào yī bēi hóngchá, yīqǐ dài qù.",
         "pinyin_numeric": "Xie4xie5. Wo3 hai2 yao4 yi1 bei1 hong2cha2, yi1qi3 dai4 qu4.",
-        "translation_en": "Thank you. I also want a black tea, to take together.",
+        "translation_en": "Thank you. I would also like a black tea to go.",
         "translation_ko": "감사합니다. 홍차 한 잔도 같이 가져갈게요.",
         "token_ids": [
           "VOC_D31_003",
@@ -11434,7 +11434,7 @@
       }
     ],
     "shadowing_prompt": "Repeat each sentence, paying attention to 外帶, 帶回去, and 帶去.",
-    "free_response_prompt": "Practice ordering takeout: 'I would like one beef noodle soup and a black tea to go.'",
+    "free_response_prompt": "Practice ordering takeout: 'I would like one bowl of beef noodle soup and a black tea to go.'",
     "speaker_roles": [
       "客人",
       "店員"
@@ -13788,7 +13788,7 @@
         "text": "我想要一杯珍珠奶茶，半糖去冰。",
         "pinyin": "Wǒ xiǎng yào yī bēi zhēnzhū nǎichá, bàn táng qù bīng.",
         "pinyin_numeric": "Wo3 xiang3 yao4 yi1 bei1 zhen1zhu1 nai3cha2, ban4 tang2 qu4 bing1.",
-        "translation_en": "I'd like a cup of bubble tea, half sugar and no ice.",
+        "translation_en": "I would like a bubble tea with half sugar and no ice.",
         "translation_ko": "버블티 한 잔에 반당, 얼음 빼고 주세요.",
         "token_ids": [
           "VOC_M1_002",
@@ -15632,7 +15632,7 @@
         "text": "嗯，我想一下喔……那個，我要一杯珍珠奶茶，半糖少冰。",
         "pinyin": "Ēn, wǒ xiǎng yīxià ō…… nàge, wǒ yào yī bēi zhēnzhū nǎichá, bàn táng shǎo bīng.",
         "pinyin_numeric": "En1, wo3 xiang3 yi1 xia4 o1... na4 ge5, wo3 yao4 yi1 bei1 zhen1 zhu1 nai3 cha2, ban4 tang2 shao3 bing1.",
-        "translation_en": "Um, let me think... well, I'd like a bubble milk tea, half sugar and light ice.",
+        "translation_en": "Um, let me think... I would like a bubble tea with half sugar and light ice.",
         "translation_ko": "음, 잠깐 생각해볼게요... 저, 버블 밀크티 한 잔, 당 반, 얼음 적게 주세요.",
         "token_ids": [
           "VOC_D78_005",
@@ -15657,7 +15657,7 @@
         "text": "好的，半糖少冰。還要別的嗎？",
         "pinyin": "Hǎo de, bàn táng shǎo bīng. Hái yào bié de ma?",
         "pinyin_numeric": "Hao3 de5, ban4 tang2 shao3 bing1. Hai2 yao4 bie2 de5 ma3?",
-        "translation_en": "Okay, half sugar and light ice. Anything else?",
+        "translation_en": "Okay, half sugar, light ice. Anything else?",
         "translation_ko": "네, 당 반, 얼음 적게요. 다른 것도 필요하신가요?",
         "token_ids": [
           "VOC_M1_088",
@@ -15738,7 +15738,7 @@
         "question_en": "What did the customer order?",
         "question_ko": "손님은 무엇을 주문했습니까?",
         "options_en": [
-          "Bubble milk tea and ham sandwich",
+          "Bubble tea and ham sandwich",
           "Coffee and sandwich",
           "Tea and cake"
         ],
@@ -15749,7 +15749,7 @@
         ],
         "correct_index": 0,
         "id": "DLG_D78_01_Q1",
-        "answer_en": "Bubble milk tea and ham sandwich"
+        "answer_en": "Bubble tea and ham sandwich"
       }
     ],
     "shadowing_prompt": "Repeat after the customer, using natural pauses and fillers like '嗯', '那個', '就是說'.",
@@ -21770,7 +21770,7 @@
         "text": "你好，我想要一份牛肉麵，不要辣，謝謝。",
         "pinyin": "Nǐ hǎo, wǒ xiǎng yào yī fèn niúròumiàn, bù yào là, xièxie.",
         "pinyin_numeric": "Ni3 hao3, wo3 xiang3 yao4 yi1 fen4 niu2rou4mian4, bu4 yao4 la4, xie4xie.",
-        "translation_en": "Hello, I'd like one bowl of beef noodles, not spicy, thank you.",
+        "translation_en": "Hello, I would like one bowl of beef noodles, not spicy, thank you.",
         "translation_ko": "안녕하세요, 소고기 국수 한 그릇 주세요, 맵지 않게 해 주세요, 감사합니다.",
         "token_ids": [
           "VOC_M1_001",
@@ -21810,7 +21810,7 @@
         "text": "還要一杯紅茶，少冰，內用。",
         "pinyin": "Hái yào yī bēi hóngchá, shǎo bīng, nèiyòng.",
         "pinyin_numeric": "Hai2 yao4 yi1 bei1 hong2cha2, shao3 bing1, nei4yong4.",
-        "translation_en": "Also a cup of black tea, light ice, for here.",
+        "translation_en": "Also a cup of black tea with light ice, for here.",
         "translation_ko": "홍차 한 잔도 주세요, 얼음 적게, 매장에서 먹을게요.",
         "token_ids": [
           "VOC_D34_038",

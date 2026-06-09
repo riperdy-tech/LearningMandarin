@@ -65,7 +65,7 @@ function checkPinyinNumeric(item, label) {
 function checkEnglishGloss(item, label) {
   const gloss = item.translation_en ?? item.model_translation_en ?? item.answer_en ?? item.free_response_prompt;
   if (typeof gloss !== "string") return;
-  if (/\b(no spicy|one beef noodles|less ice|with no spice)\b/i.test(gloss)) {
+  if (/\b(no spicy|one beef noodles|one beef noodle soup|bubble milk tea|less ice|with no spice)\b/i.test(gloss)) {
     errors.push(`${label}: awkward English gloss "${gloss}"`);
   }
 }

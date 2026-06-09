@@ -1224,7 +1224,7 @@
         "text": "我要一份牛肉麵，不要辣。",
         "pinyin": "Wǒ yào yī fèn niúròu miàn, bù yào là.",
         "pinyin_numeric": "Wo3 yao4 yi1 fen4 niu2 rou4 mian4, bu4 yao4 la4.",
-        "translation_en": "I'd like one beef noodle soup, not spicy.",
+        "translation_en": "I'd like one bowl of beef noodle soup, not spicy.",
         "translation_ko": "소고기 국수 한 그릇 주세요, 맵지 않게요.",
         "token_ids": [
           "VOC_M1_002",
@@ -1371,7 +1371,7 @@
         "text": "我要一杯珍珠奶茶，半糖，少冰。",
         "pinyin": "Wǒ yào yī bēi zhēnzhū nǎichá, bàn táng, shǎo bīng.",
         "pinyin_numeric": "Wo3 yao4 yi1 bei1 zhen1 zhu1 nai3 cha2, ban4 tang2, shao3 bing1.",
-        "translation_en": "I'd like a bubble milk tea, half sugar, light ice.",
+        "translation_en": "I'd like a bubble tea, half sugar, light ice.",
         "translation_ko": "버블 밀크티 한 잔 주세요, 당도는 반, 얼음은 적게.",
         "token_ids": [
           "VOC_M1_002",
@@ -1471,7 +1471,7 @@
       }
     ],
     "shadowing_prompt": "Repeat each sentence after the speaker, paying attention to the tones.",
-    "free_response_prompt": "Pretend you are a customer. Order a bubble milk tea with half sugar and light ice, for takeaway.",
+    "free_response_prompt": "Pretend you are a customer. Order a bubble tea with half sugar and light ice, for takeaway.",
     "speaker_roles": [
       "店員",
       "客人"
@@ -4174,7 +4174,7 @@
         "text": "好的，滷肉飯和珍珠奶茶。請問珍珠奶茶要正常甜嗎？",
         "pinyin": "Hǎo de, lǔròufàn hé zhēnzhū nǎichá. Qǐng wèn zhēnzhū nǎichá yào zhèngcháng tián ma?",
         "pinyin_numeric": "Hao3 de, lu3rou4fan4 he2 zhen1zhu1 nai3cha2. Qing3 wen4 zhen1zhu1 nai3cha2 yao4 zheng4chang2 tian2 ma?",
-        "translation_en": "Okay, braised pork rice and bubble milk tea. Would you like the bubble milk tea with regular sweetness?",
+        "translation_en": "Okay, braised pork rice and bubble tea. Would you like the bubble tea with regular sweetness?",
         "translation_ko": "네, 루러우판과 버블 밀크티입니다. 버블 밀크티는 일반 당도로 할까요?",
         "token_ids": [
           "VOC_M1_088",
@@ -4228,7 +4228,7 @@
       },
       {
         "id": "DLG_D40_02_T5",
-        "speaker": "客人",
+        "speaker": "??A",
         "text": "好的。對了，我想問一下，這個週末你有空嗎？我們可以一起去夜市。",
         "pinyin": "Hǎo de. Duì le, wǒ xiǎng wèn yīxià, zhège zhōumò nǐ yǒu kòng ma? Wǒmen kěyǐ yīqǐ qù yèshì.",
         "pinyin_numeric": "Hao3 de. Dui4 le, wo3 xiang3 wen4 yi1xia4, zhe4ge zhou1mo4 ni3 you3 kong4 ma? Wo3men ke3yi3 yi1qi3 qu4 ye4shi4.",
@@ -4254,7 +4254,7 @@
       },
       {
         "id": "DLG_D40_02_T6",
-        "speaker": "店員",
+        "speaker": "??B",
         "text": "這個週末我有空。好啊，我們一起去。你想去哪個夜市？",
         "pinyin": "Zhège zhōumò wǒ yǒu kòng. Hǎo a, wǒmen yīqǐ qù. Nǐ xiǎng qù nǎge yèshì?",
         "pinyin_numeric": "Zhe4ge zhou1mo4 wo3 you3 kong4. Hao3 a, wo3men yi1qi3 qu4. Ni3 xiang3 qu4 na3ge ye4shi4?",
@@ -4278,7 +4278,7 @@
       },
       {
         "id": "DLG_D40_02_T7",
-        "speaker": "客人",
+        "speaker": "??A",
         "text": "我們去士林夜市，聽說那裡有很多好吃的。",
         "pinyin": "Wǒmen qù Shìlín yèshì, tīng shuō nàlǐ yǒu hěnduō hǎo chī de.",
         "pinyin_numeric": "Wo3men qu4 Shi4lin2 ye4shi4, ting1 shuo1 na4li3 you3 hen3duo1 hao3 chi1 de.",
@@ -4302,7 +4302,7 @@
       },
       {
         "id": "DLG_D40_02_T8",
-        "speaker": "店員",
+        "speaker": "??B",
         "text": "好主意！我們星期六晚上七點在捷運站見面，好嗎？",
         "pinyin": "Hǎo zhǔyì! Wǒmen xīngqīliù wǎnshàng qī diǎn zài jiéyùn zhàn jiànmiàn, hǎo ma?",
         "pinyin_numeric": "Hao3 zhu3yi4! Wo3men xing1qi1liu4 wan3shang4 qi1 dian3 zai4 jie2yun4 zhan4 jian4mian4, hao3 ma?",
@@ -4330,7 +4330,7 @@
         "question_en": "What did the customer order?",
         "question_ko": "손님은 무엇을 주문했습니까?",
         "options_en": [
-          "Braised pork rice and bubble milk tea",
+          "Braised pork rice and bubble tea",
           "Beef noodle soup and iced tea",
           "Fried rice and hot coffee"
         ],
@@ -4341,10 +4341,10 @@
         ],
         "correct_index": 0,
         "id": "DLG_D40_02_Q1",
-        "answer_en": "Braised pork rice and bubble milk tea"
+        "answer_en": "Braised pork rice and bubble tea"
       },
       {
-        "question_en": "What sweetness did the customer choose for the bubble milk tea?",
+        "question_en": "What sweetness did the customer choose for the bubble tea?",
         "question_ko": "손님은 버블 밀크티의 당도를 어떻게 선택했습니까?",
         "options_en": [
           "Regular sweetness",

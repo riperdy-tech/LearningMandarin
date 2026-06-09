@@ -1819,7 +1819,7 @@
       {
         "text": "你要喝珍珠奶茶嗎？",
         "pinyin": "Nǐ yào hē zhēnzhū nǎichá ma?",
-        "translation_en": "Do you want to drink bubble milk tea?"
+        "translation_en": "Do you want to drink bubble tea?"
       },
       {
         "text": "你要吃滷肉飯嗎？",
@@ -1861,7 +1861,7 @@
       {
         "text": "你要喝珍珠奶茶嗎？",
         "pinyin": "Nǐ yào hē zhēnzhū nǎichá ma?",
-        "translation_en": "Do you want to drink bubble milk tea?",
+        "translation_en": "Do you want to drink bubble tea?",
         "translation_ko": "버블 밀크티를 마실래요?"
       },
       {
@@ -1944,7 +1944,7 @@
           {
             "text": "珍珠奶茶",
             "pinyin": "zhēnzhū nǎichá",
-            "meaning_en": "bubble milk tea",
+            "meaning_en": "bubble tea",
             "meaning_ko": "버블티",
             "vocab_id": "VOC_D34_001"
           },
@@ -2161,7 +2161,7 @@
           {
             "text": "珍珠奶茶",
             "pinyin": "zhēnzhū nǎichá",
-            "meaning_en": "bubble milk tea",
+            "meaning_en": "bubble tea",
             "meaning_ko": "버블티",
             "vocab_id": "VOC_D34_001"
           },
@@ -2375,7 +2375,7 @@
           {
             "text": "珍珠奶茶",
             "pinyin": "zhēnzhū nǎichá",
-            "meaning_en": "bubble milk tea",
+            "meaning_en": "bubble tea",
             "meaning_ko": "버블티",
             "vocab_id": "VOC_D34_001"
           },

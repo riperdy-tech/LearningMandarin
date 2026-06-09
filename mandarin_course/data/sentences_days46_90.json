@@ -14564,7 +14564,7 @@
     "text": "珍珠奶茶的甜度，半糖比正常甜好喝。",
     "pinyin": "Zhēnzhū nǎichá de tiándù, bàntáng bǐ zhèngcháng tián hǎohē.",
     "pinyin_numeric": "zhen1zhu1 nai3cha2 de0 tian2du4, ban4tang2 bi3 zheng4chang2 tian2 hao3he1.",
-    "translation_en": "For the sweetness of bubble milk tea, half sugar tastes better than regular sweetness.",
+    "translation_en": "For the sweetness of bubble tea, half sugar tastes better than regular sweetness.",
     "translation_ko": "버블티의 당도는 반당이 일반 당도보다 더 맛있어요.",
     "token_ids": [
       "VOC_D34_001",
@@ -16257,7 +16257,7 @@
     "text": "珍珠奶茶的甜度比紅茶高。",
     "pinyin": "Zhēnzhū nǎichá de tiándù bǐ hóngchá gāo.",
     "pinyin_numeric": "zhen1zhu1 nai3cha2 de0 tian2du4 bi3 hong2cha2 gao1.",
-    "translation_en": "Bubble milk tea is sweeter than black tea.",
+    "translation_en": "Bubble tea is sweeter than black tea.",
     "translation_ko": "버블 밀크티는 홍차보다 단맛이 더 높습니다.",
     "token_ids": [
       "VOC_D34_001",
@@ -27771,7 +27771,7 @@
     "text": "我買了珍珠奶茶，很好喝。",
     "pinyin": "Wǒ mǎi le zhēnzhū nǎichá, hěn hǎohē.",
     "pinyin_numeric": "wo3 mai3 le0 zhen1zhu1 nai3cha2, hen3 hao3he1.",
-    "translation_en": "I bought bubble milk tea; it is very tasty.",
+    "translation_en": "I bought bubble tea; it is very tasty.",
     "translation_ko": "저는 버블 밀크티를 샀는데 아주 맛있었어요.",
     "token_ids": [
       "VOC_M1_002",
@@ -74319,7 +74319,7 @@
     "text": "因為他喜歡吃甜的，所以點了珍珠奶茶。",
     "pinyin": "Yīnwèi tā xǐhuān chī tián de, suǒyǐ diǎn le zhēnzhū nǎichá.",
     "pinyin_numeric": "yin1 wei4 ta1 xi3 huan1 chi1 tian2 de5, suo3 yi3 dian3 le5 zhen1 zhu1 nai3 cha2.",
-    "translation_en": "Because he likes sweet things, he ordered bubble milk tea.",
+    "translation_en": "Because he likes sweet things, he ordered bubble tea.",
     "translation_ko": "그는 단 음식을 좋아해서 버블 밀크티를 주문했어요.",
     "token_ids": [
       "VOC_D34_011",
@@ -79400,7 +79400,7 @@
     "text": "雖然這家店的珍珠奶茶很好喝，但是服務態度很差。",
     "pinyin": "Suīrán zhè jiā diàn de zhēnzhū nǎichá hěn hǎo hē, dànshì fúwù tàidù hěn chà.",
     "pinyin_numeric": "sui1ran2 zhe4 jia1 dian4 de zhen1zhu1 nai3cha2 hen3 hao3 he1, dan4shi4 fu2wu4 tai4du4 hen3 cha4.",
-    "translation_en": "Although the bubble milk tea at this shop is very good, the service attitude is very poor.",
+    "translation_en": "Although the bubble tea at this shop is very good, the service attitude is very poor.",
     "translation_ko": "이 가게의 버블 밀크티는 아주 맛있지만, 서비스 태도가 매우 나빠요.",
     "token_ids": [
       "VOC_D67_001",
@@ -97737,7 +97737,7 @@
     "text": "我想請問你們有賣珍珠奶茶嗎？",
     "pinyin": "Wǒ xiǎng qǐngwèn nǐmen yǒu mài zhēnzhū nǎichá ma?",
     "pinyin_numeric": "wo3 xiang3 qing3wen4 ni3men you3 mai4 zhen1zhu1 nai3cha2 ma0?",
-    "translation_en": "I'd like to ask if you sell bubble milk tea.",
+    "translation_en": "I'd like to ask if you sell bubble tea.",
     "translation_ko": "버블 밀크티를 파시나요?",
     "token_ids": [
       "VOC_M1_002",
@@ -98441,7 +98441,7 @@
     "text": "我想外帶一份牛肉麵，請問要等多久？",
     "pinyin": "Wǒ xiǎng wàidài yī fèn niúròumiàn, qǐngwèn yào děng duōjiǔ?",
     "pinyin_numeric": "wo3 xiang3 wai4dai4 yi1 fen4 niu2rou4mian4, qing3wen4 yao4 deng3 duo1jiu3",
-    "translation_en": "I want to order one beef noodle soup for takeout. How long will it take?",
+    "translation_en": "I want to order one bowl of beef noodle soup for takeout. How long will it take?",
     "translation_ko": "소고기 국수 하나를 포장하고 싶은데요, 얼마나 기다려야 하나요?",
     "token_ids": [
       "VOC_M1_002",
@@ -119496,7 +119496,7 @@
     "text": "你覺得這家店的珍珠奶茶好喝嗎？",
     "pinyin": "Nǐ juéde zhè jiā diàn de zhēnzhū nǎichá hǎo hē ma?",
     "pinyin_numeric": "ni3 jue2de zhe4 jia1 dian4 de zhen1zhu1 nai3cha2 hao3 he1 ma0.",
-    "translation_en": "Do you think the bubble milk tea at this shop is good?",
+    "translation_en": "Do you think the bubble tea at this shop is good?",
     "translation_ko": "이 가게의 버블 밀크티가 맛있다고 생각하세요?",
     "token_ids": [
       "VOC_M1_003",
@@ -121415,7 +121415,7 @@
     "text": "我覺得這家店的珍珠奶茶太甜了。",
     "pinyin": "Wǒ juéde zhè jiā diàn de zhēnzhū nǎichá tài tián le.",
     "pinyin_numeric": "wo3 jue2de zhe4 jia1 dian4 de zhen1zhu1 nai3cha2 tai4 tian2 le5.",
-    "translation_en": "I think the bubble milk tea at this shop is too sweet.",
+    "translation_en": "I think the bubble tea at this shop is too sweet.",
     "translation_ko": "저는 이 가게의 버블 밀크티가 너무 달다고 생각해요.",
     "token_ids": [
       "VOC_D42_031",
