@@ -4419,7 +4419,7 @@
     "pinyin": "Wǒ zuò jiéyùn qù xuéxiào.",
     "pinyin_numeric": "Wo3 zuo4 jie2yun4 qu4 xue2xiao4.",
     "translation_en": "I take the MRT to school.",
-    "translation_ko": "저는 지하철을 타고 학교에 갑니다.",
+    "translation_ko": "저는 MRT? 타고 학교에 갑니다.",
     "tokens": [
       "我",
       "坐",
@@ -4582,7 +4582,7 @@
     "pinyin": "Jiéyùn bǐ huǒchē kuài ma?",
     "pinyin_numeric": "Jie2yun4 bi3 huo3che1 kuai4 ma0?",
     "translation_en": "Is the MRT faster than the train?",
-    "translation_ko": "지하철이 기차보다 빠릅니까?",
+    "translation_ko": "MRT? 기차보다 빠릅니까?",
     "tokens": [
       "捷運",
       "比",
@@ -5093,7 +5093,7 @@
     "pinyin": "Wǒmen děi zuò jiéyùn qù xuéxiào.",
     "pinyin_numeric": "Wo3 men5 dei3 zuo4 jie2yun4 qu4 xue2xiao4.",
     "translation_en": "We have to take the MRT to school.",
-    "translation_ko": "우리는 지하철을 타고 학교에 가야 합니다.",
+    "translation_ko": "우리는 MRT? 타고 학교에 가야 합니다.",
     "tokens": [
       "我們",
       "得",
@@ -5712,7 +5712,7 @@
     "pinyin": "Wǒ huì zuò jiéyùn qù gōngsī.",
     "pinyin_numeric": "Wo3 hui4 zuo4 jie2yun4 qu4 gongsi1.",
     "translation_en": "I will take the MRT to the office.",
-    "translation_ko": "저는 지하철을 타고 회사에 갈 것입니다.",
+    "translation_ko": "저는 MRT? 타고 회사에 갈 것입니다.",
     "tokens": [
       "我",
       "會",
@@ -6202,7 +6202,7 @@
     "pinyin": "Míngtiān wǒ dǎsuàn zuò jiéyùn qù Táiběi.",
     "pinyin_numeric": "Ming2tian1 wo3 da3suan4 zuo4 jie2yun4 qu4 Tai2bei3.",
     "translation_en": "Tomorrow I plan to take the MRT to Taipei.",
-    "translation_ko": "내일 저는 지하철을 타고 타이베이에 갈 계획입니다.",
+    "translation_ko": "내일 저는 MRT? 타고 타이베이에 갈 계획입니다.",
     "tokens": [
       "明天",
       "我",

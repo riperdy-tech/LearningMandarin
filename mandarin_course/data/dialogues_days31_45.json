@@ -56,7 +56,7 @@
         "pinyin": "Hǎo de, zǒng gòng shì bā shí kuài. Nèi yòng hái shì wài dài?",
         "pinyin_numeric": "Hao3 de, zong3 gong4 shi4 ba1 shi2 kuai4. Nei4 yong4 hai2 shi4 wai4 dai4?",
         "translation_en": "Okay, that's 80 dollars total. For here or to go?",
-        "translation_ko": "네, 총 80위안입니다. 드시고 가시나요, 포장하시나요?",
+        "translation_ko": "네, 총 80대만 달러입니다. 드시고 가시나요, 포장하시나요?",
         "token_ids": [],
         "audio_id": "AUD_DLG_D31_01_T5"
       },
@@ -145,7 +145,7 @@
         "pinyin": "Dà bēi hóng chá shì sān shí wǔ kuài.",
         "pinyin_numeric": "Da4 bei1 hong2 cha2 shi4 san1 shi2 wu3 kuai4.",
         "translation_en": "The large black tea is 35 dollars.",
-        "translation_ko": "큰 홍차는 35위안입니다.",
+        "translation_ko": "큰 홍차는 35대만 달러입니다.",
         "token_ids": [],
         "audio_id": "AUD_DLG_D31_02_T2"
       },
@@ -167,7 +167,7 @@
         "pinyin": "Zhōng bēi shì èr shí wǔ kuài.",
         "pinyin_numeric": "Zhong1 bei1 shi4 er4 shi2 wu3 kuai4.",
         "translation_en": "The medium is 25 dollars.",
-        "translation_ko": "중간 사이즈는 25위안입니다.",
+        "translation_ko": "중간 사이즈는 25대만 달러입니다.",
         "token_ids": [],
         "audio_id": "AUD_DLG_D31_02_T4"
       },
@@ -189,7 +189,7 @@
         "pinyin": "Hǎo de, zhōng bēi hóng chá shǎo bīng bàn táng, zǒng gòng èr shí wǔ kuài.",
         "pinyin_numeric": "Hao3 de, zhong1 bei1 hong2 cha2 shao3 bing1 ban4 tang2, zong3 gong4 er4 shi2 wu3 kuai4.",
         "translation_en": "Okay, medium black tea with light ice and half sugar, total 25 dollars.",
-        "translation_ko": "네, 중간 사이즈 홍차에 얼음 적게, 반 당, 총 25위안입니다.",
+        "translation_ko": "네, 중간 사이즈 홍차에 얼음 적게, 반 당, 총 25대만 달러입니다.",
         "token_ids": [],
         "audio_id": "AUD_DLG_D31_02_T6"
       }
@@ -204,9 +204,9 @@
           "30 dollars"
         ],
         "options_ko": [
-          "35위안",
-          "25위안",
-          "30위안"
+          "35대만 달러",
+          "25대만 달러",
+          "30대만 달러"
         ],
         "correct_index": 1,
         "id": "DLG_D31_02_Q1",
@@ -1422,7 +1422,7 @@
         "pinyin": "Zǒnggòng liùshí kuài, qǐng zài zhèlǐ jiézhàng.",
         "pinyin_numeric": "Zong3 gong4 liu4 shi2 kuai4, qing3 zai4 zhe4 li3 jie2 zhang4.",
         "translation_en": "That's 60 dollars total. Please pay here.",
-        "translation_ko": "총 60위안입니다. 여기서 계산해 주세요.",
+        "translation_ko": "총 60대만 달러입니다. 여기서 계산해 주세요.",
         "token_ids": [
           "VOC_D32_031",
           "VOC_M1_017",
@@ -3056,7 +3056,7 @@
         "pinyin": "Bù hǎo yì si, qǐng wèn zhè ge jié yùn zhàn yǒu dào Tái běi chē zhàn ma?",
         "pinyin_numeric": "bu4 hao3 yi4 si5, qing3 wen4 zhe4 ge5 jie2 yun4 zhan4 you3 dao4 Tai2 bei3 che1 zhan4 ma5?",
         "translation_en": "Excuse me, does this MRT station go to Taipei Main Station?",
-        "translation_ko": "실례합니다, 이 지하철역이 타이베이 역까지 가나요?",
+        "translation_ko": "실례합니다, 이 MRT?이 타이베이 역까지 가나요?",
         "token_ids": [
           "VOC_D31_020",
           "VOC_D33_026",
@@ -4020,7 +4020,7 @@
         "pinyin": "Xièxie. Qǐng wèn jiéyùn zhàn zěnme zǒu?",
         "pinyin_numeric": "Xie4xie. Qing3 wen4 jie2yun4 zhan4 zen3 me0 zou3?",
         "translation_en": "Thank you. How do I get to the MRT station?",
-        "translation_ko": "감사합니다. 지하철역은 어떻게 가나요?",
+        "translation_ko": "감사합니다. MRT?은 어떻게 가나요?",
         "token_ids": [
           "VOC_D31_003",
           "VOC_D33_026",
@@ -4105,7 +4105,7 @@
       },
       {
         "question_en": "Where is the MRT station?",
-        "question_ko": "지하철역은 어디에 있습니까?",
+        "question_ko": "MRT?은 어디에 있습니까?",
         "options_en": [
           "Go straight, turn right",
           "Go straight, turn left, then walk two minutes",
@@ -4307,7 +4307,7 @@
         "pinyin": "Hǎo zhǔyì! Wǒmen xīngqīliù wǎnshàng qī diǎn zài jiéyùn zhàn jiànmiàn, hǎo ma?",
         "pinyin_numeric": "Hao3 zhu3yi4! Wo3men xing1qi1liu4 wan3shang4 qi1 dian3 zai4 jie2yun4 zhan4 jian4mian4, hao3 ma?",
         "translation_en": "Good idea! Let's meet at the MRT station on Saturday at 7 PM, okay?",
-        "translation_ko": "좋은 생각이에요! 토요일 저녁 7시에 지하철역에서 만나요, 괜찮으세요?",
+        "translation_ko": "좋은 생각이에요! 토요일 저녁 7시에 MRT?에서 만나요, 괜찮으세요?",
         "token_ids": [
           "VOC_M1_088",
           "VOC_M1_006",
@@ -4369,7 +4369,7 @@
           "Friday at 8 PM at the restaurant"
         ],
         "options_ko": [
-          "토요일 저녁 7시 지하철역",
+          "토요일 저녁 7시 MRT?",
           "일요일 저녁 6시 야시장",
           "금요일 저녁 8시 식당"
         ],
@@ -6557,7 +6557,7 @@
         "pinyin": "Bù hǎo yìsi, qǐng wèn jiéyùn zhàn zěnme zǒu?",
         "pinyin_numeric": "Bu4 hao3 yi4si, qing3 wen4 jie2yun4 zhan4 zen3 me0 zou3?",
         "translation_en": "Excuse me, how do I get to the MRT station?",
-        "translation_ko": "실례합니다, 지하철역은 어떻게 가나요?",
+        "translation_ko": "실례합니다, MRT?은 어떻게 가나요?",
         "token_ids": [
           "VOC_D31_020",
           "VOC_D33_026",
@@ -6613,7 +6613,7 @@
         "pinyin": "Duì, jiù shì nàge lùkǒu. Jiéyùn zhàn rùkǒu zài yòu biān.",
         "pinyin_numeric": "Dui4, jiu4 shi4 na4ge lu4kou3. Jie2yun4 zhan4 ru4kou3 zai4 you4 bian1.",
         "translation_en": "Yes, that intersection. The MRT station entrance is on the right.",
-        "translation_ko": "네, 바로 그 교차로입니다. 지하철역 입구는 오른쪽에 있어요.",
+        "translation_ko": "네, 바로 그 교차로입니다. MRT? 입구는 오른쪽에 있어요.",
         "token_ids": [
           "VOC_M1_007",
           "VOC_M1_163",
@@ -6660,7 +6660,7 @@
     "comprehension_questions": [
       {
         "question_en": "Where is the MRT station entrance?",
-        "question_ko": "지하철역 입구는 어디에 있습니까?",
+        "question_ko": "MRT? 입구는 어디에 있습니까?",
         "options_en": [
           "On the left after turning left",
           "On the right after turning left",

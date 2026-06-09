@@ -1933,7 +1933,7 @@
     "pinyin": "Cóng jiéyùn zhàn dào gōngyuán zǒulù dàgài shí fēnzhōng, bùyòng dā gōngchē.",
     "pinyin_numeric": "cong2 jie2yun4 zhan4 dao4 gong1yuan2 zou3lu4 da4gai4 shi2 fen1zhong1, bu4yong4 da1 gong1che1",
     "translation_en": "It's about a ten-minute walk from the MRT station to the park; no need to take the bus.",
-    "translation_ko": "지하철역에서 공원까지 걸어서 약 10분이니 버스를 탈 필요가 없어요.",
+    "translation_ko": "MRT?에서 공원까지 걸어서 약 10분이니 버스를 탈 필요가 없어요.",
     "audio_id": "AUD_LIS_D38_07",
     "sentence_id": "SEN_D38_019"
   },
@@ -1946,7 +1946,7 @@
     "pinyin": "Dā jiéyùn dào Táiběi chēzhàn yào èrshí fēnzhōng.",
     "pinyin_numeric": "da1 jie2yun4 dao4 Tai2bei3 che1zhan4 yao4 er4shi2 fen1zhong1.",
     "translation_en": "It takes twenty minutes to get to Taipei Main Station by MRT.",
-    "translation_ko": "지하철을 타고 타이베이 역까지 20분 걸립니다.",
+    "translation_ko": "MRT? 타고 타이베이 역까지 20분 걸립니다.",
     "audio_id": "AUD_LIS_D38_08",
     "sentence_id": "SEN_D38_022",
     "dialogue_id": "DLG_D38_02"
@@ -1973,7 +1973,7 @@
     "pinyin": "Cóng jiéyùn zhàn dào cāntīng yào wǔ fēnzhōng.",
     "pinyin_numeric": "cong2 jie2yun4 zhan4 dao4 can1ting1 yao4 wu3 fen1zhong1.",
     "translation_en": "It takes five minutes from the MRT station to the restaurant.",
-    "translation_ko": "지하철역에서 식당까지 5분 걸립니다.",
+    "translation_ko": "MRT?에서 식당까지 5분 걸립니다.",
     "audio_id": "AUD_LIS_D38_10",
     "sentence_id": "SEN_D38_028"
   },
@@ -1986,7 +1986,7 @@
     "pinyin": "Tā zuò jiéyùn qù Táiběi chēzhàn.",
     "pinyin_numeric": "ta1 zuo4 jie2yun4 qu4 Tai2bei3 che1zhan4",
     "translation_en": "He takes the MRT to Taipei Station.",
-    "translation_ko": "그는 지하철을 타고 타이베이 역에 갑니다.",
+    "translation_ko": "그는 MRT? 타고 타이베이 역에 갑니다.",
     "audio_id": "AUD_LIS_D38_11",
     "sentence_id": "SEN_D38_002"
   },
@@ -2078,7 +2078,7 @@
     "pinyin": "Dào Tái běi chē zhàn yào zuò jié yùn ma?",
     "pinyin_numeric": "dao4 Tai2 bei3 che1 zhan4 yao4 zuo4 jie2 yun4 ma0",
     "translation_en": "Do I need to take the MRT to get to Taipei Station?",
-    "translation_ko": "타이베이 역까지 지하철을 타야 하나요?",
+    "translation_ko": "타이베이 역까지 MRT? 타야 하나요?",
     "audio_id": "AUD_LIS_D38_18",
     "sentence_id": "SEN_D38_052",
     "dialogue_id": "DLG_D38_03"
@@ -2131,7 +2131,7 @@
     "pinyin": "Qǐngwèn, cóng zhèlǐ dào Táiběi Chēzhàn, yào cóng jiéyùn huàn huǒchē ma?",
     "pinyin_numeric": "qing3wen4, cong2 zhe4li3 dao4 Tai2bei3 Che1zhan4, yao4 cong2 jie2yun4 huan4 huo3che1 ma0?",
     "translation_en": "Excuse me, to get from here to Taipei Station, do I need to transfer from the MRT to the train?",
-    "translation_ko": "실례합니다, 여기에서 타이베이 역까지 가려면 지하철에서 기차로 갈아타야 하나요?",
+    "translation_ko": "실례합니다, 여기에서 타이베이 역까지 가려면 MRT?? 기차로 갈아타야 하나요?",
     "audio_id": "AUD_LIS_D39_02",
     "sentence_id": "SEN_D39_004"
   },
@@ -2237,7 +2237,7 @@
     "pinyin": "Wǒmen hái méi juédìng yào dā jiéyùn háishì gōngchē, yīnwèi pà sāichē.",
     "pinyin_numeric": "wo3men hai2 mei2 jue2ding4 yao4 da1 jie2yun4 hai2shi4 gong1che1, yin1wei4 pa4 sai1che1",
     "translation_en": "We haven't decided yet whether to take the MRT or the bus, because we're afraid of traffic jams.",
-    "translation_ko": "우리는 아직 지하철을 탈지 버스를 탈지 결정하지 못했어요. 교통 체증이 걱정되거든요.",
+    "translation_ko": "우리는 아직 MRT? 탈지 버스를 탈지 결정하지 못했어요. 교통 체증이 걱정되거든요.",
     "audio_id": "AUD_LIS_D39_10",
     "sentence_id": "SEN_D39_028"
   },

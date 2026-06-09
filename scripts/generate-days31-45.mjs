@@ -181,7 +181,7 @@ const FALLBACK_BY_TOPIC = {
     "不方便|bù fāngbiàn|bu4 fang1 bian4|phrase|not convenient|불편하다|social"
   ],
   transport: [
-    "捷運|jiéyùn|jie2 yun4|noun|MRT|지하철|transport",
+    "捷運|jiéyùn|jie2 yun4|noun|MRT|MRT|transport",
     "公車|gōngchē|gong1 che1|noun|bus|버스|transport",
     "計程車|jìchéngchē|ji4 cheng2 che1|noun|taxi|택시|transport",
     "車站|chēzhàn|che1 zhan4|noun|station|역|transport",
@@ -430,7 +430,7 @@ const DAY_EXTRA_WORDS = {
     "加值|jiāzhí|jia1 zhi2|verb|top up|충전하다|transport",
     "進站|jìn zhàn|jin4 zhan4|verb phrase|enter station|역에 들어가다|transport",
     "出站|chū zhàn|chu1 zhan4|verb phrase|exit station|역에서 나가다|transport",
-    "搭捷運|dā jiéyùn|da1 jie2 yun4|verb phrase|take the MRT|지하철을 타다|transport",
+    "搭捷運|dā jiéyùn|da1 jie2 yun4|verb phrase|take the MRT|MRT를 타다|transport",
     "搭公車|dā gōngchē|da1 gong1 che1|verb phrase|take the bus|버스를 타다|transport",
     "叫車|jiào chē|jiao4 che1|verb phrase|call a taxi|택시를 부르다|transport",
     "司機|sījī|si1 ji1|noun|driver|기사|transport",

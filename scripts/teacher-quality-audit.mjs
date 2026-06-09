@@ -79,6 +79,21 @@ function checkPronunciationFields(item, label) {
   }
 }
 
+function checkLocalizedTerms(item, label) {
+  const sourceText = [item.char, item.text].filter(Boolean).join(" ");
+  const koGloss = item.translation_ko ?? item.meaning_ko;
+  const enGloss = item.translation_en ?? item.meaning_en;
+  if (typeof koGloss === "string" && /[\u584a\u5143]/.test(sourceText) && /\uC704\uC548/.test(koGloss)) {
+    errors.push(`${label}: Taiwan money gloss uses Korean yuan term "${koGloss}"; use Taiwan dollars`);
+  }
+  if (typeof koGloss === "string" && sourceText.includes("\u6377\u904B") && /\uC9C0\uD558\uCCA0|\uC804\uCCA0|\uC5E0\uC54C\uD2F0/.test(koGloss)) {
+    errors.push(`${label}: inconsistent Korean MRT gloss "${koGloss}"; use MRT`);
+  }
+  if (typeof enGloss === "string" && sourceText.includes("\u6377\u904B") && /\bmetro\b/i.test(enGloss)) {
+    errors.push(`${label}: inconsistent English MRT gloss "${enGloss}"; use MRT`);
+  }
+}
+
 function checkEnglishGloss(item, label) {
   const gloss = item.translation_en ?? item.meaning_en ?? item.model_translation_en ?? item.answer_en ?? item.free_response_prompt;
   if (typeof gloss !== "string") return;
@@ -121,6 +136,7 @@ function checkNestedPronunciation(value, label) {
   const itemLabel = value.id ? `${label}:${value.id}` : label;
   checkPinyinNumeric(value, itemLabel);
   checkPronunciationFields(value, itemLabel);
+  checkLocalizedTerms(value, itemLabel);
   for (const [key, child] of Object.entries(value)) {
     if (child && typeof child === "object") {
       checkNestedPronunciation(child, `${label}.${key}`);
@@ -147,6 +163,7 @@ const bannedListeningPatterns = [
 for (const item of listening) {
   checkPinyinNumeric(item, item.id);
   checkPronunciationFields(item, item.id);
+  checkLocalizedTerms(item, item.id);
   checkEnglishGloss(item, item.id);
 
   for (const pattern of bannedListeningPatterns) {
@@ -190,12 +207,14 @@ for (const [day, dayItems] of [...listeningByDay.entries()].sort((a, b) => a[0] 
 for (const sentence of sentences) {
   checkPinyinNumeric(sentence, sentence.id);
   checkPronunciationFields(sentence, sentence.id);
+  checkLocalizedTerms(sentence, sentence.id);
   checkEnglishGloss(sentence, sentence.id);
 }
 
 for (const word of vocab) {
   checkPinyinNumeric(word, word.id);
   checkPronunciationFields(word, word.id);
+  checkLocalizedTerms(word, word.id);
   checkEnglishGloss(word, word.id);
 }
 

@@ -2253,7 +2253,7 @@
         "text": "一杯咖啡五十塊。",
         "pinyin": "Yì bēi kāfēi wǔshí kuài.",
         "translation_en": "One cup of coffee is fifty dollars.",
-        "translation_ko": "커피 한 잔은 50위안입니다.",
+        "translation_ko": "커피 한 잔은 50대만 달러입니다.",
         "slot_values": {}
       },
       {
@@ -3078,8 +3078,8 @@
           {
             "text": "捷運",
             "pinyin": "jiéyùn",
-            "meaning_en": "MRT; metro",
-            "meaning_ko": "지하철; MRT",
+            "meaning_en": "MRT",
+            "meaning_ko": "MRT; MRT",
             "vocab_id": "VOC_M1_154"
           },
           {

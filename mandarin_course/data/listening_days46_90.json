@@ -73,7 +73,7 @@
     "pinyin": "Suīrán Táiběi de jiéyùn hěn fāngbiàn, dànshì yǒu shíhou rén hěn duō.",
     "pinyin_numeric": "sui1ran2 Tai2bei3 de5 jie2yun4 hen3 fang1bian4, dan4shi4 you3 shi2hou5 ren2 hen3 duo1.",
     "translation_en": "Although the MRT in Taipei is very convenient, sometimes there are a lot of people.",
-    "translation_ko": "타이베이의 지하철은 매우 편리하지만, 가끔 사람이 많아요.",
+    "translation_ko": "타이베이의 MRT? 매우 편리하지만, 가끔 사람이 많아요.",
     "audio_id": "AUD_LIS_D67_06",
     "sentence_id": "SEN_D67_006"
   },
@@ -1945,7 +1945,7 @@
     "pinyin": "Yīnwèi zhè tiáo lù chángcháng sāichē, suǒyǐ wǒ gǎi dā jiéyùn.",
     "pinyin_numeric": "yin1 wei4 zhe4 tiao2 lu4 chang2 chang2 sai1 che1, suo3 yi3 wo3 gai3 da1 jie2 yun4.",
     "translation_en": "Because this road is often congested, I switched to taking the MRT.",
-    "translation_ko": "이 길은 자주 막혀서 지하철로 갈아탔어요.",
+    "translation_ko": "이 길은 자주 막혀서 MRT? 갈아탔어요.",
     "audio_id": "AUD_LIS_D74_10",
     "sentence_id": "SEN_D74_010"
   },
@@ -1984,7 +1984,7 @@
     "pinyin": "Wèile shěng qián, tā nìngyuàn zǒulù yě bù zuò jiéyùn, lìrú qù gōngsī.",
     "pinyin_numeric": "wei4le5 sheng3 qian2, ta1 ning4yuan4 zou3lu4 ye3 bu4 zuo4 jie2yun4, li4ru2 qu4 gong1si1.",
     "translation_en": "To save money, he would rather walk than take the MRT, for example, to go to the company.",
-    "translation_ko": "돈을 아끼기 위해 그는 지하철을 타지 않고 걷는 것을 택합니다. 예를 들어 회사에 갈 때 그렇습니다.",
+    "translation_ko": "돈을 아끼기 위해 그는 MRT? 타지 않고 걷는 것을 택합니다. 예를 들어 회사에 갈 때 그렇습니다.",
     "audio_id": "AUD_LIS_D74_13",
     "sentence_id": "SEN_D74_013"
   },
@@ -4181,7 +4181,7 @@
     "pinyin": "Zuò jiéyùn bùrú qí jiǎotàchē lái de kuài.",
     "pinyin_numeric": "zuo4 jie2yun4 bu4ru2 qi2 jiao3ta4che1 lai2 de5 kuai4.",
     "translation_en": "Taking the MRT is not as fast as riding a bike.",
-    "translation_ko": "지하철을 타는 것은 자전거를 타는 것만큼 빠르지 않아요.",
+    "translation_ko": "MRT? 타는 것은 자전거를 타는 것만큼 빠르지 않아요.",
     "audio_id": "AUD_LIS_D83_02",
     "sentence_id": "SEN_D83_002"
   },
@@ -5000,7 +5000,7 @@
     "pinyin": "Wǒ gěi nǐ yī bǎi kuài, nǐ zhǎo wǒ wǔ shí kuài.",
     "pinyin_numeric": "wo3 gei3 ni3 yi1 bai3 kuai4, ni3 zhao3 wo3 wu3 shi2 kuai4.",
     "translation_en": "I give you 100 dollars, you give me 50 dollars change.",
-    "translation_ko": "100위안을 드리면, 50위안을 거슬러 주세요.",
+    "translation_ko": "100대만 달러을 드리면, 50대만 달러을 거슬러 주세요.",
     "audio_id": "AUD_LIS_D86_05",
     "sentence_id": "SEN_D86_005"
   },
@@ -5143,7 +5143,7 @@
     "pinyin": "Zǒnggòng shì bāshíwǔ kuài, zhǎo nǐ shíwǔ kuài.",
     "pinyin_numeric": "zong3gong4 shi4 ba1shi2wu3 kuai4, zhao3 ni3 shi2wu3 kuai4.",
     "translation_en": "The total is 85 dollars, and here's your change of 15 dollars.",
-    "translation_ko": "총 85위안이고, 거스름돈 15위안입니다.",
+    "translation_ko": "총 85대만 달러이고, 거스름돈 15대만 달러입니다.",
     "audio_id": "AUD_LIS_D86_16",
     "sentence_id": "SEN_D86_016"
   },
@@ -6079,7 +6079,7 @@
     "pinyin": "Wǒmen cóng jiéyùn zhàn zǒu dào gōngyuán zhǐ yào wǔ fēnzhōng.",
     "pinyin_numeric": "wo3men cong2 jie2yun4 zhan4 zou3 dao4 gong1yuan2 zhi3 yao4 wu3 fen1zhong1.",
     "translation_en": "It only takes us five minutes to walk from the MRT station to the park.",
-    "translation_ko": "저희는 지하철역에서 공원까지 걸어서 5분밖에 안 걸립니다.",
+    "translation_ko": "저희는 MRT?에서 공원까지 걸어서 5분밖에 안 걸립니다.",
     "audio_id": "AUD_LIS_D90_08",
     "sentence_id": "SEN_D90_008"
   },
@@ -6222,7 +6222,7 @@
     "pinyin": "Chúle zuò jiéyùn yǐwài, nǐ yě kěyǐ dā gōngchē qù chēzhàn.",
     "pinyin_numeric": "chu2le zuo4 jie2yun4 yi3wai4, ni3 ye3 ke3yi3 da1 gong1che1 qu4 che1zhan4.",
     "translation_en": "Besides taking the MRT, you can also take the bus to the station.",
-    "translation_ko": "지하철을 타는 것 외에도 버스를 타고 역에 갈 수 있습니다.",
+    "translation_ko": "MRT? 타는 것 외에도 버스를 타고 역에 갈 수 있습니다.",
     "audio_id": "AUD_LIS_D90_19",
     "sentence_id": "SEN_D90_019"
   },
@@ -6537,7 +6537,7 @@
     "pinyin": "Wǒmen xiān zuò jiéyùn, ránhòu zǒulù dào xuéxiào.",
     "pinyin_numeric": "wo3men5 xian1 zuo4 jie2yun4, ran2hou4 zou3lu4 dao4 xue2xiao4.",
     "translation_en": "We first take the MRT, then walk to school.",
-    "translation_ko": "우리는 먼저 지하철을 타고, 그다음에 걸어서 학교에 가요.",
+    "translation_ko": "우리는 먼저 MRT? 타고, 그다음에 걸어서 학교에 가요.",
     "audio_id": "AUD_LIS_D47_03",
     "sentence_id": "SEN_D47_007",
     "dialogue_id": "DLG_D47_03"
@@ -6656,7 +6656,7 @@
     "pinyin": "Wǒmen xiān zuò jiéyùn, ránhòu zǒulù qù gōngyuán.",
     "pinyin_numeric": "wo3men xian1 zuo4 jie2yun4, ran2hou4 zou3lu4 qu4 gong1yuan2.",
     "translation_en": "We first took the MRT, and then walked to the park.",
-    "translation_ko": "우리는 먼저 지하철을 타고, 그다음에 걸어서 공원에 갔어요.",
+    "translation_ko": "우리는 먼저 MRT? 타고, 그다음에 걸어서 공원에 갔어요.",
     "audio_id": "AUD_LIS_D47_12",
     "sentence_id": "SEN_D47_034"
   },
@@ -6683,7 +6683,7 @@
     "pinyin": "Wǒmen xiān dā gōngchē, ránhòu zhuǎn jiéyùn.",
     "pinyin_numeric": "wo3men xian1 da1 gong1che1, ran2hou4 zhuan3 jie2yun4.",
     "translation_en": "We first took the bus, and then transferred to the MRT.",
-    "translation_ko": "우리는 먼저 버스를 타고, 그다음에 지하철로 갈아탔어요.",
+    "translation_ko": "우리는 먼저 버스를 타고, 그다음에 MRT? 갈아탔어요.",
     "audio_id": "AUD_LIS_D47_14",
     "sentence_id": "SEN_D47_040"
   },
@@ -6696,7 +6696,7 @@
     "pinyin": "Wǒmen xiān zǒulù qù chēzhàn, ránhòu dā jiéyùn, zài zhuǎn gōngchē.",
     "pinyin_numeric": "wo3men xian1 zou3lu4 qu4 che1zhan4, ran2hou4 da1 jie2yun4, zai4 zhuan3 gong1che1.",
     "translation_en": "We first walked to the station, then took the MRT, and then transferred to a bus.",
-    "translation_ko": "우리는 먼저 걸어서 역에 가고, 지하철을 탄 다음, 버스를 갈아탔어요.",
+    "translation_ko": "우리는 먼저 걸어서 역에 가고, MRT? 탄 다음, 버스를 갈아탔어요.",
     "audio_id": "AUD_LIS_D47_15",
     "sentence_id": "SEN_D47_043"
   },
@@ -7936,7 +7936,7 @@
     "pinyin": "Zuò jiéyùn méiyǒu qí jīchē fāngbiàn.",
     "pinyin_numeric": "zuo4 jie2yun4 mei2you3 qi2 ji1che1 fang1bian4",
     "translation_en": "Taking the MRT is not as convenient as riding a scooter.",
-    "translation_ko": "지하철을 타는 것은 오토바이를 타는 것만큼 편리하지 않아요.",
+    "translation_ko": "MRT? 타는 것은 오토바이를 타는 것만큼 편리하지 않아요.",
     "audio_id": "AUD_LIS_D52_09",
     "sentence_id": "SEN_D52_025"
   },
@@ -8028,7 +8028,7 @@
     "pinyin": "Zuò jiéyùn bǐ zuò gōngchē kuài, yě bǐjiào fāngbiàn.",
     "pinyin_numeric": "zuo4 jie2yun4 bi3 zuo4 gong1che1 kuai4, ye3 bi3jiao4 fang1bian4.",
     "translation_en": "Taking the MRT is faster than taking the bus, and also more convenient.",
-    "translation_ko": "지하철을 타는 것이 버스를 타는 것보다 빠르고 더 편리해요.",
+    "translation_ko": "MRT? 타는 것이 버스를 타는 것보다 빠르고 더 편리해요.",
     "audio_id": "AUD_LIS_D52_16",
     "sentence_id": "SEN_D52_003"
   },
@@ -10085,7 +10085,7 @@
     "pinyin": "Wànyī sāichē de huà, wǒmen jiù dā jiéyùn.",
     "pinyin_numeric": "wan4yi1 sai1che1 de0 hua4, wo3men jiu4 da1 jie2yun4.",
     "translation_en": "In case of traffic jam, then we'll take the MRT.",
-    "translation_ko": "만약 교통 체증이 나면, 우리는 지하철을 탈 거예요.",
+    "translation_ko": "만약 교통 체증이 나면, 우리는 MRT? 탈 거예요.",
     "audio_id": "AUD_LIS_D66_02",
     "sentence_id": "SEN_D66_004"
   },
@@ -10309,7 +10309,7 @@
     "pinyin": "Yàoshi jiéyùn wùdiǎn de huà, wǒmen jiù gǎi dā gōngchē.",
     "pinyin_numeric": "yao4 shi4 jie2 yun4 wu4 dian3 de0 hua4, wo3 men0 jiu4 gai3 da1 gong1 che1.",
     "translation_en": "If the MRT is delayed, we'll take the bus instead.",
-    "translation_ko": "지하철이 연착되면 버스로 갈아탈 거예요.",
+    "translation_ko": "MRT? 연착되면 버스로 갈아탈 거예요.",
     "audio_id": "AUD_LIS_D66_19",
     "sentence_id": "SEN_D66_055"
   },
@@ -10348,7 +10348,7 @@
     "pinyin": "Yǔqí zuò gōngchē, bùrú dā jiéyùn bǐjiào kuài.",
     "pinyin_numeric": "yu3qi2 zuo4 gong1che1, bu4ru2 da1 jie2yun4 bi3jiao4 kuai4.",
     "translation_en": "Rather than taking the bus, it's faster to take the MRT.",
-    "translation_ko": "버스를 타느니 차라리 지하철을 타는 것이 더 빨라요.",
+    "translation_ko": "버스를 타느니 차라리 MRT? 타는 것이 더 빨라요.",
     "audio_id": "AUD_LIS_D55_02",
     "sentence_id": "SEN_D55_004"
   },

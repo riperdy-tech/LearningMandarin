@@ -4463,7 +4463,7 @@
         "text": "他坐捷運去台北車站。",
         "pinyin": "Tā zuò jiéyùn qù Táiběi chēzhàn.",
         "translation_en": "He takes the MRT to Taipei Station.",
-        "translation_ko": "그는 지하철을 타고 타이베이 역에 갑니다."
+        "translation_ko": "그는 MRT? 타고 타이베이 역에 갑니다."
       },
       {
         "text": "我們坐計程車去餐廳。",
@@ -4481,7 +4481,7 @@
         "text": "她坐捷運去圖書館。",
         "pinyin": "Tā zuò jiéyùn qù túshūguǎn.",
         "translation_en": "She takes the MRT to the library.",
-        "translation_ko": "그녀는 지하철을 타고 도서관에 갑니다."
+        "translation_ko": "그녀는 MRT? 타고 도서관에 갑니다."
       },
       {
         "text": "我們坐計程車去醫院。",
@@ -4499,7 +4499,7 @@
         "text": "他坐捷運去商店。",
         "pinyin": "Tā zuò jiéyùn qù shāngdiàn.",
         "translation_en": "He takes the MRT to the store.",
-        "translation_ko": "그는 지하철을 타고 가게에 갑니다."
+        "translation_ko": "그는 MRT? 타고 가게에 갑니다."
       }
     ],
     "negative_examples": [
@@ -4690,7 +4690,7 @@
         "text": "從這裡到台北車站可以搭捷運嗎？",
         "pinyin": "Cóng zhèlǐ dào Táiběi chēzhàn kěyǐ dā jiéyùn ma?",
         "translation_en": "Can I take the MRT from here to Taipei Station?",
-        "translation_ko": "여기에서 타이베이 역까지 지하철을 탈 수 있나요?"
+        "translation_ko": "여기에서 타이베이 역까지 MRT? 탈 수 있나요?"
       },
       {
         "text": "從我家到公司搭公車大概要三十分鐘。",
@@ -4702,7 +4702,7 @@
         "text": "從捷運站到學校走路比較慢，可以騎腳踏車。",
         "pinyin": "Cóng jiéyùn zhàn dào xuéxiào zǒulù bǐjiào màn, kěyǐ qí jiǎotàchē.",
         "translation_en": "Walking from the MRT station to school is slower; you can ride a bike.",
-        "translation_ko": "지하철역에서 학교까지 걷는 것은 비교적 느리니 자전거를 탈 수 있어요."
+        "translation_ko": "MRT?에서 학교까지 걷는 것은 비교적 느리니 자전거를 탈 수 있어요."
       },
       {
         "text": "從圖書館到公園怎麼去？搭公車還是走路？",
@@ -4726,7 +4726,7 @@
         "text": "從我家到公司搭公車要轉車，可是搭捷運不用。",
         "pinyin": "Cóng wǒ jiā dào gōngsī dā gōngchē yào zhuǎn chē, kěshì dā jiéyùn bùyòng.",
         "translation_en": "From my home to the company, I need to transfer by bus, but not by MRT.",
-        "translation_ko": "우리 집에서 회사까지 버스는 환승해야 하지만 지하철은 환승할 필요가 없어요."
+        "translation_ko": "우리 집에서 회사까지 버스는 환승해야 하지만 MRT? 환승할 필요가 없어요."
       }
     ],
     "negative_examples": [
@@ -4916,7 +4916,7 @@
         "text": "搭捷運到台北車站要二十分鐘。",
         "pinyin": "Dā jiéyùn dào Táiběi chēzhàn yào èrshí fēnzhōng.",
         "translation_en": "It takes twenty minutes to get to Taipei Main Station by MRT.",
-        "translation_ko": "지하철을 타고 타이베이 역까지 20분 걸립니다."
+        "translation_ko": "MRT? 타고 타이베이 역까지 20분 걸립니다."
       },
       {
         "text": "到圖書館要多久？",
@@ -4952,7 +4952,7 @@
         "text": "從捷運站到餐廳要五分鐘。",
         "pinyin": "Cóng jiéyùn zhàn dào cāntīng yào wǔ fēnzhōng.",
         "translation_en": "It takes five minutes from the MRT station to the restaurant.",
-        "translation_ko": "지하철역에서 식당까지 5분 걸립니다."
+        "translation_ko": "MRT?에서 식당까지 5분 걸립니다."
       }
     ],
     "negative_examples": [
@@ -5151,7 +5151,7 @@
         "text": "請問，從這裡到台北車站，要從捷運換火車嗎？",
         "pinyin": "Qǐngwèn, cóng zhèlǐ dào Táiběi Chēzhàn, yào cóng jiéyùn huàn huǒchē ma?",
         "translation_en": "Excuse me, to get from here to Taipei Station, do I need to transfer from the MRT to the train?",
-        "translation_ko": "실례합니다, 여기에서 타이베이 역까지 가려면 지하철에서 기차로 갈아타야 하나요?"
+        "translation_ko": "실례합니다, 여기에서 타이베이 역까지 가려면 MRT?? 기차로 갈아타야 하나요?"
       },
       {
         "text": "我走錯路了，現在要回頭，從這個路口左轉。",
@@ -5175,7 +5175,7 @@
         "text": "因為停駛，我們必須從公車換捷運。",
         "pinyin": "Yīnwèi tíngshǐ, wǒmen bìxū cóng gōngchē huàn jiéyùn.",
         "translation_en": "Because the service is suspended, we have to transfer from the bus to the MRT.",
-        "translation_ko": "운행 중단으로 인해 버스에서 지하철로 갈아타야 해요."
+        "translation_ko": "운행 중단으로 인해 버스에서 MRT? 갈아타야 해요."
       }
     ],
     "negative_examples": [
@@ -5604,7 +5604,7 @@
         "text": "我們還沒決定要搭捷運還是公車，因為怕塞車。",
         "pinyin": "Wǒmen hái méi juédìng yào dā jiéyùn háishì gōngchē, yīnwèi pà sāichē.",
         "translation_en": "We haven't decided yet whether to take the MRT or the bus, because we're afraid of traffic jams.",
-        "translation_ko": "우리는 아직 지하철을 탈지 버스를 탈지 결정하지 못했어요. 교통 체증이 걱정되거든요."
+        "translation_ko": "우리는 아직 MRT? 탈지 버스를 탈지 결정하지 못했어요. 교통 체증이 걱정되거든요."
       }
     ],
     "negative_examples": [

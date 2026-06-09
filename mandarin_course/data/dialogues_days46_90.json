@@ -674,7 +674,7 @@
         "pinyin": "Hǎo. Wǒ xiàbān yǐhòu, xiān zǒulù qù jiéyùn zhàn, ránhòu dā jiéyùn huí jiā.",
         "pinyin_numeric": "Hao3. Wo3 xia4ban1 yi3hou4, xian1 zou3lu4 qu4 jie2yun4 zhan4, ran2hou4 da1 jie2yun4 hui2 jia1.",
         "translation_en": "Okay. After work, I first walk to the MRT station, then take the MRT home.",
-        "translation_ko": "네. 퇴근 후에, 먼저 걸어서 지하철역에 가고, 그다음에 지하철을 타고 집에 가요.",
+        "translation_ko": "네. 퇴근 후에, 먼저 걸어서 MRT?에 가고, 그다음에 MRT? 타고 집에 가요.",
         "token_ids": [
           "VOC_M1_088",
           "VOC_M1_002",
@@ -779,7 +779,7 @@
           "Read a book"
         ],
         "options_ko": [
-          "지하철역까지 걷는다",
+          "MRT?까지 걷는다",
           "저녁을 먹는다",
           "책을 본다"
         ],
@@ -3441,7 +3441,7 @@
         "pinyin": "Táiběi bǐjiào rènào, jiāotōng hěn fāngbiàn, jiéyùn lùxiàn hěnduō. Gāoxióng bǐjiào ānjìng, huánjìng hěn shūfú.",
         "pinyin_numeric": "Tai2 bei3 bi3 jiao4 re4 nao4, jiao1 tong1 hen3 fang1 bian4, jie2 yun4 lu4 xian4 hen3 duo1. Gao1 xiong2 bi3 jiao4 an1 jing4, huan2 jing4 hen3 shu1 fu2.",
         "translation_en": "Taipei is more lively, transportation is very convenient, and there are many MRT lines. Kaohsiung is quieter, and the environment is very comfortable.",
-        "translation_ko": "타이베이는 더 번화하고 교통이 편리하며 지하철 노선이 많아요. 가오슝은 더 조용하고 환경이 편안해요.",
+        "translation_ko": "타이베이는 더 번화하고 교통이 편리하며 MRT 노선이 많아요. 가오슝은 더 조용하고 환경이 편안해요.",
         "token_ids": [
           "VOC_M1_197",
           "VOC_D52_001",
@@ -4102,7 +4102,7 @@
         "pinyin": "Yī ge yuè yī wàn kuài, shuǐ diàn fèi lìngwài suàn.",
         "pinyin_numeric": "Yi1 ge5 yue4 yi1 wan4 kuai4, shui3 dian4 fei4 ling4 wai4 suan4.",
         "translation_en": "10,000 NT per month, utilities are separate.",
-        "translation_ko": "한 달에 만 위안이고, 수도·전기 요금은 별도예요.",
+        "translation_ko": "한 달에 만 대만 달러이고, 수도·전기 요금은 별도예요.",
         "token_ids": [
           "VOC_M1_009",
           "VOC_M1_041",
@@ -9162,7 +9162,7 @@
         "pinyin": "Guàhào fèi shì liǎng bǎi kuài.",
         "pinyin_numeric": "Gua4hao4 fei4 shi4 liang3 bai3 kuai4.",
         "translation_en": "The registration fee is 200 NT dollars.",
-        "translation_ko": "접수비는 200위안입니다.",
+        "translation_ko": "접수비는 200대만 달러입니다.",
         "token_ids": [
           "VOC_D56_045",
           "VOC_M1_007",
@@ -9183,9 +9183,9 @@
           "300 dollars"
         ],
         "options_ko": [
-          "100위안",
-          "200위안",
-          "300위안"
+          "100대만 달러",
+          "200대만 달러",
+          "300대만 달러"
         ],
         "correct_index": 1,
         "id": "DLG_D57_02_Q1",
@@ -10696,7 +10696,7 @@
         "pinyin": "Hǎo a! Wǒmen kěyǐ dā jiéyùn qù, suīrán yào zhuǎn chē, dànshì bù huì tài jiǔ.",
         "pinyin_numeric": "hao3 a5! wo3men5 ke3yi3 da1 jie2yun4 qu4, sui1ran2 yao4 zhuan3 che1, dan4shi4 bu2 hui4 tai4 jiu3.",
         "translation_en": "Okay! We can take the MRT. Although we need to transfer, it won't take too long.",
-        "translation_ko": "좋아요! 지하철을 타고 가요. 환승해야 하지만 오래 걸리지 않을 거예요.",
+        "translation_ko": "좋아요! MRT? 타고 가요. 환승해야 하지만 오래 걸리지 않을 거예요.",
         "token_ids": [
           "VOC_D37_023",
           "VOC_M1_006",
@@ -10725,7 +10725,7 @@
         ],
         "options_ko": [
           "버스로",
-          "지하철로",
+          "MRT?",
           "택시로",
           "걸어서"
         ],
@@ -14814,7 +14814,7 @@
         "pinyin": "Wǒmen xiān dā jiéyùn dào Táiběi chēzhàn, ránhòu zhuǎn huǒchē dào Ruìfāng, zài dā gōngchē shàngqù.",
         "pinyin_numeric": "Wo3 men5 xian1 da1 jie2 yun4 dao4 Tai2 bei3 che1 zhan4, ran2 hou4 zhuan3 huo3 che1 dao4 Rui4 fang1, zai4 da1 gong1 che1 shang4 qu4.",
         "translation_en": "We first took the MRT to Taipei Main Station, then transferred to a train to Ruifang, and then took a bus up.",
-        "translation_ko": "먼저 지하철을 타고 타이베이역에 가서 기차로 루이팡까지 간 다음, 버스를 타고 올라갔어요.",
+        "translation_ko": "먼저 MRT? 타고 타이베이역에 가서 기차로 루이팡까지 간 다음, 버스를 타고 올라갔어요.",
         "token_ids": [
           "VOC_M1_006",
           "VOC_M1_132",
@@ -14863,7 +14863,7 @@
         ],
         "options_ko": [
           "자동차로",
-          "지하철, 기차, 버스로",
+          "MRT, 기차, 버스로",
           "택시로"
         ],
         "correct_index": 1,
@@ -17662,7 +17662,7 @@
         "pinyin": "Zài jiéyùn zhàn chūkǒu yī, hǎo ma?",
         "pinyin_numeric": "Zai4 jie2yun4 zhan4 chu1kou3 yi1, hao3 ma?",
         "translation_en": "At MRT station exit 1, okay?",
-        "translation_ko": "지하철역 1번 출구에서 만날까요?",
+        "translation_ko": "MRT? 1번 출구에서 만날까요?",
         "token_ids": [
           "VOC_M1_139",
           "VOC_M1_154",
@@ -18377,7 +18377,7 @@
         "pinyin": "Nǐ kěyǐ dā jiéyùn, yě kěyǐ dā gōngchē. Nǐ bǐjiào xiǎng xuǎn nǎ yī zhǒng?",
         "pinyin_numeric": "Ni3 ke3yi3 da1 jie2yun4, ye3 ke3yi3 da1 gong1che1. Ni3 bi3jiao4 xiang3 xuan3 na3 yi1 zhong3?",
         "translation_en": "You can take the MRT or the bus. Which one would you prefer?",
-        "translation_ko": "지하철을 타도 되고 버스를 타도 됩니다. 어떤 것을 더 선호하시나요?",
+        "translation_ko": "MRT? 타도 되고 버스를 타도 됩니다. 어떤 것을 더 선호하시나요?",
         "token_ids": [
           "VOC_M1_003",
           "VOC_M1_118",
@@ -18417,7 +18417,7 @@
         "pinyin": "Jiéyùn bǐjiào kuài, dàgài shíwǔ fēnzhōng jiù dào le. Gōngchē kěnéng yào sānshí fēnzhōng.",
         "pinyin_numeric": "Jie2yun4 bi3jiao4 kuai4, da4gai4 shi2wu3 fen1zhong1 jiu4 dao4 le. Gong1che1 ke3neng2 yao4 san1shi2 fen1zhong1.",
         "translation_en": "The MRT is faster, about 15 minutes. The bus might take 30 minutes.",
-        "translation_ko": "지하철이 더 빠릅니다. 약 15분이면 도착해요. 버스는 30분 정도 걸릴 수 있어요.",
+        "translation_ko": "MRT? 더 빠릅니다. 약 15분이면 도착해요. 버스는 30분 정도 걸릴 수 있어요.",
         "token_ids": [
           "VOC_M1_154",
           "VOC_D52_001",
@@ -18442,7 +18442,7 @@
         "pinyin": "Hǎo, nà wǒ dā jiéyùn. Qǐngwèn jiéyùn zhàn rùkǒu zài nǎlǐ?",
         "pinyin_numeric": "Hao3, na4 wo3 da1 jie2yun4. Qing3wen4 jie2yun4 zhan4 ru4kou3 zai4 na3li3?",
         "translation_en": "Okay, I'll take the MRT. Where is the MRT station entrance?",
-        "translation_ko": "좋아요, 그럼 지하철을 타겠습니다. 지하철역 입구가 어디에 있나요?",
+        "translation_ko": "좋아요, 그럼 MRT? 타겠습니다. MRT? 입구가 어디에 있나요?",
         "token_ids": [
           "VOC_M1_088",
           "VOC_M1_002",
@@ -18506,7 +18506,7 @@
         ],
         "options_ko": [
           "버스",
-          "지하철",
+          "MRT",
           "도보"
         ],
         "correct_index": 1,
@@ -19691,7 +19691,7 @@
         "pinyin": "Yì bēi kāfēi liùshí kuài. Nǐ yào nèiyòng háishì wàidài?",
         "pinyin_numeric": "Yi4 bei1 ka1 fei1 liu4 shi2 kuai4. Ni3 yao4 nei4 yong4 hai2 shi4 wai4 dai4?",
         "translation_en": "One cup of coffee is sixty dollars. Will you have it here or take it away?",
-        "translation_ko": "커피 한 잔에 60위안입니다. 매장에서 드실 건가요, 테이크아웃하실 건가요?",
+        "translation_ko": "커피 한 잔에 60대만 달러입니다. 매장에서 드실 건가요, 테이크아웃하실 건가요?",
         "token_ids": [
           "VOC_M1_009",
           "VOC_M1_099",
@@ -19714,7 +19714,7 @@
         "pinyin": "Nèiyòng. Wǒ gěi nǐ yì bǎi kuài, qǐng zhǎo wǒ sìshí kuài.",
         "pinyin_numeric": "Nei4 yong4. Wo3 gei3 ni3 yi4 bai3 kuai4, qing3 zhao3 wo3 si4 shi2 kuai4.",
         "translation_en": "I'll have it here. I'll give you one hundred dollars, please give me forty dollars change.",
-        "translation_ko": "매장에서 먹을게요. 100위안 드릴 테니, 40위안 거슬러 주세요.",
+        "translation_ko": "매장에서 먹을게요. 100대만 달러 드릴 테니, 40대만 달러 거슬러 주세요.",
         "token_ids": [
           "VOC_D31_017",
           "VOC_M1_002",
@@ -19811,9 +19811,9 @@
           "100 dollars"
         ],
         "options_ko": [
-          "40위안",
-          "60위안",
-          "100위안"
+          "40대만 달러",
+          "60대만 달러",
+          "100대만 달러"
         ],
         "correct_index": 0,
         "id": "DLG_D86_01_Q1",
@@ -19956,7 +19956,7 @@
         "pinyin": "Yì tiáo yì bǎi kuài. Nǐ yào suàn piányi yì diǎn ma?",
         "pinyin_numeric": "Yi4 tiao2 yi4 bai3 kuai4. Ni3 yao4 suan4 pian2 yi5 yi4 dian3 ma5?",
         "translation_en": "One is one hundred dollars. Would you like me to make it a bit cheaper?",
-        "translation_ko": "하나에 100위안입니다. 좀 더 싸게 해 드릴까요?",
+        "translation_ko": "하나에 100대만 달러입니다. 좀 더 싸게 해 드릴까요?",
         "token_ids": [
           "VOC_M1_009",
           "VOC_M1_009",
@@ -19977,7 +19977,7 @@
         "pinyin": "Kěyǐ suàn bāshí kuài ma?",
         "pinyin_numeric": "Ke3 yi3 suan4 ba1 shi2 kuai4 ma5?",
         "translation_en": "Can you make it eighty dollars?",
-        "translation_ko": "80위안으로 해 주실 수 있나요?",
+        "translation_ko": "80대만 달러으로 해 주실 수 있나요?",
         "token_ids": [
           "VOC_M1_118",
           "VOC_D86_010",
@@ -19995,7 +19995,7 @@
         "pinyin": "Hǎo ba, bāshí kuài gěi nǐ. Xièxie!",
         "pinyin_numeric": "Hao3 ba5, ba1 shi2 kuai4 gei3 ni3. Xie4 xie5!",
         "translation_en": "Alright, eighty dollars for you. Thank you!",
-        "translation_ko": "좋아요, 80위안에 드릴게요. 감사합니다!",
+        "translation_ko": "좋아요, 80대만 달러에 드릴게요. 감사합니다!",
         "token_ids": [
           "VOC_M1_088",
           "VOC_M1_019",
@@ -20118,7 +20118,7 @@
         "pinyin": "Yí ge sānmíngzhì sānshíwǔ kuài. Nǐ yào mǎi ma?",
         "pinyin_numeric": "Yi2 ge5 san1 ming2 zhi4 san1 shi2 wu3 kuai4. Ni3 yao4 mai3 ma5?",
         "translation_en": "One sandwich is thirty-five dollars. Would you like one?",
-        "translation_ko": "샌드위치 하나에 35위안입니다. 사시겠어요?",
+        "translation_ko": "샌드위치 하나에 35대만 달러입니다. 사시겠어요?",
         "token_ids": [
           "VOC_M1_009",
           "VOC_M1_041",
@@ -20139,7 +20139,7 @@
         "pinyin": "Hǎo, wǒ mǎi yí ge. Wǒ gěi nǐ wǔshí kuài, qǐng zhǎo wǒ shíwǔ kuài.",
         "pinyin_numeric": "Hao3, wo3 mai3 yi2 ge5. Wo3 gei3 ni3 wu3 shi2 kuai4, qing3 zhao3 wo3 shi2 wu3 kuai4.",
         "translation_en": "Okay, I'll buy one. I'll give you fifty dollars, please give me fifteen dollars change.",
-        "translation_ko": "네, 하나 살게요. 50위안 드릴 테니, 15위안 거슬러 주세요.",
+        "translation_ko": "네, 하나 살게요. 50대만 달러 드릴 테니, 15대만 달러 거슬러 주세요.",
         "token_ids": [
           "VOC_M1_088",
           "VOC_M1_002",
@@ -20237,9 +20237,9 @@
           "50 dollars"
         ],
         "options_ko": [
-          "15위안",
-          "35위안",
-          "50위안"
+          "15대만 달러",
+          "35대만 달러",
+          "50대만 달러"
         ],
         "correct_index": 0,
         "id": "DLG_D86_03_Q1",
@@ -21175,7 +21175,7 @@
         "pinyin": "Hǎo, nà wǒmen jiù yuē xīngqīliù xiàwǔ sān diǎn, zài jiéyùn zhàn chūkǒu jiànmiàn, kěyǐ ma?",
         "pinyin_numeric": "Hao3, na4 wo3 men5 jiu4 yue1 xing1 qi1 liu4 xia4 wu3 san1 dian3, zai4 jie2 yun4 zhan4 chu1 kou3 jian4 mian4, ke3 yi3 ma5?",
         "translation_en": "Okay, then let's meet at the MRT station exit at 3 PM on Saturday, okay?",
-        "translation_ko": "좋아요, 그럼 토요일 오후 3시에 지하철역 출구에서 만날까요?",
+        "translation_ko": "좋아요, 그럼 토요일 오후 3시에 MRT? 출구에서 만날까요?",
         "token_ids": [
           "VOC_M1_088",
           "VOC_M1_006",

@@ -6078,10 +6078,10 @@
     "prompt_en": "Answer a question in this scenario: past, ongoing, ability, comparison review.",
     "model_answer": "Wǒ nénggòu yòng yōuyóukǎ zuò jiéyùn, kěshì bù huì yòng xìnyòngkǎ.",
     "model_pinyin": "wo3 neng2gou4 yong4 you1you2ka3 zuo4 jie2yun4, ke3shi4 bu4 hui4 yong4 xin4yong4ka3.",
-    "model_translation_en": "저는 유유카로 지하철을 탈 수 있지만, 신용카드는 사용할 줄 몰라요.",
+    "model_translation_en": "저는 유유카로 MRT? 탈 수 있지만, 신용카드는 사용할 줄 몰라요.",
     "related_sentence_id": "SEN_D55_023",
     "related_dialogue_id": "DLG_D55_02",
-    "model_translation_ko": "저는 유유카로 지하철을 탈 수 있지만, 신용카드는 사용할 줄 몰라요."
+    "model_translation_ko": "저는 유유카로 MRT? 탈 수 있지만, 신용카드는 사용할 줄 몰라요."
   },
   {
     "id": "SPK_D55_09",

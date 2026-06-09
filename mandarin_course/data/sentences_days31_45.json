@@ -14460,7 +14460,7 @@
     "pinyin": "Wǒmen shénme shíhou yào pèngmiàn? Nǐ kěyǐ zài jiéyùn zhàn děng wǒ.",
     "pinyin_numeric": "wo3men shen2 me0 shi2hou yao4 peng4mian4? ni3 ke3yi3 zai4 jie2yun4 zhan4 deng3 wo3.",
     "translation_en": "When shall we meet? You can wait for me at the MRT station.",
-    "translation_ko": "우리 언제 만날까요? 지하철역에서 저를 기다리셔도 돼요.",
+    "translation_ko": "우리 언제 만날까요? MRT?에서 저를 기다리셔도 돼요.",
     "token_ids": [
       "VOC_M1_006",
       "VOC_M1_071",
@@ -16245,7 +16245,7 @@
     "pinyin": "Tā zuò jiéyùn qù Táiběi chēzhàn.",
     "pinyin_numeric": "ta1 zuo4 jie2yun4 qu4 Tai2bei3 che1zhan4",
     "translation_en": "He takes the MRT to Taipei Station.",
-    "translation_ko": "그는 지하철을 타고 타이베이 역에 갑니다.",
+    "translation_ko": "그는 MRT? 타고 타이베이 역에 갑니다.",
     "token_ids": [
       "VOC_M1_004",
       "VOC_M1_120",
@@ -16336,7 +16336,7 @@
     "pinyin": "Tā zuò jiéyùn qù túshūguǎn.",
     "pinyin_numeric": "ta1 zuo4 jie2yun4 qu4 tu2shu1guan3",
     "translation_en": "She takes the MRT to the library.",
-    "translation_ko": "그녀는 지하철을 타고 도서관에 갑니다.",
+    "translation_ko": "그녀는 MRT? 타고 도서관에 갑니다.",
     "token_ids": [
       "VOC_M1_005",
       "VOC_M1_120",
@@ -16423,7 +16423,7 @@
     "pinyin": "Tā zuò jiéyùn qù shāngdiàn.",
     "pinyin_numeric": "ta1 zuo4 jie2yun4 qu4 shang1dian4",
     "translation_en": "He takes the MRT to the store.",
-    "translation_ko": "그는 지하철을 타고 가게에 갑니다.",
+    "translation_ko": "그는 MRT? 타고 가게에 갑니다.",
     "token_ids": [
       "VOC_M1_004",
       "VOC_M1_120",
@@ -16543,7 +16543,7 @@
     "pinyin": "Cóng zhèlǐ dào Táiběi chēzhàn kěyǐ dā jiéyùn ma?",
     "pinyin_numeric": "cong2 zhe4li3 dao4 Tai2bei3 che1zhan4 ke3yi3 da1 jie2yun4 ma0",
     "translation_en": "Can I take the MRT from here to Taipei Station?",
-    "translation_ko": "여기에서 타이베이 역까지 지하철을 탈 수 있나요?",
+    "translation_ko": "여기에서 타이베이 역까지 MRT? 탈 수 있나요?",
     "token_ids": [
       "VOC_D33_023",
       "VOC_M1_122",
@@ -16619,7 +16619,7 @@
     "pinyin": "Cóng jiéyùn zhàn dào xuéxiào zǒulù bǐjiào màn, kěyǐ qí jiǎotàchē.",
     "pinyin_numeric": "cong2 jie2yun4 zhan4 dao4 xue2xiao4 zou3lu4 bi3jiao4 man4, ke3yi3 qi2 jiao3ta4che1",
     "translation_en": "Walking from the MRT station to school is slower; you can ride a bike.",
-    "translation_ko": "지하철역에서 학교까지 걷는 것은 비교적 느리니 자전거를 탈 수 있어요.",
+    "translation_ko": "MRT?에서 학교까지 걷는 것은 비교적 느리니 자전거를 탈 수 있어요.",
     "token_ids": [
       "VOC_D33_023",
       "VOC_M1_154",
@@ -16768,7 +16768,7 @@
     "pinyin": "Cóng wǒ jiā dào gōngsī dā gōngchē yào zhuǎn chē, kěshì dā jiéyùn bùyòng.",
     "pinyin_numeric": "cong2 wo3 jia1 dao4 gong1si1 da1 gong1che1 yao4 zhuan3 che1, ke3shi4 da1 jie2yun4 bu4yong4",
     "translation_en": "From my home to the company, I need to transfer by bus, but not by MRT.",
-    "translation_ko": "우리 집에서 회사까지 버스는 환승해야 하지만 지하철은 환승할 필요가 없어요.",
+    "translation_ko": "우리 집에서 회사까지 버스는 환승해야 하지만 MRT? 환승할 필요가 없어요.",
     "token_ids": [
       "VOC_D33_023",
       "VOC_M1_002",
@@ -16809,7 +16809,7 @@
     "pinyin": "Cóng jiéyùn zhàn dào gōngyuán zǒulù dàgài shí fēnzhōng, bùyòng dā gōngchē.",
     "pinyin_numeric": "cong2 jie2yun4 zhan4 dao4 gong1yuan2 zou3lu4 da4gai4 shi2 fen1zhong1, bu4yong4 da1 gong1che1",
     "translation_en": "It's about a ten-minute walk from the MRT station to the park; no need to take the bus.",
-    "translation_ko": "지하철역에서 공원까지 걸어서 약 10분이니 버스를 탈 필요가 없어요.",
+    "translation_ko": "MRT?에서 공원까지 걸어서 약 10분이니 버스를 탈 필요가 없어요.",
     "token_ids": [
       "VOC_D33_023",
       "VOC_M1_154",
@@ -16914,7 +16914,7 @@
     "pinyin": "Dā jiéyùn dào Táiběi chēzhàn yào èrshí fēnzhōng.",
     "pinyin_numeric": "da1 jie2yun4 dao4 Tai2bei3 che1zhan4 yao4 er4shi2 fen1zhong1.",
     "translation_en": "It takes twenty minutes to get to Taipei Main Station by MRT.",
-    "translation_ko": "지하철을 타고 타이베이 역까지 20분 걸립니다.",
+    "translation_ko": "MRT? 타고 타이베이 역까지 20분 걸립니다.",
     "token_ids": [
       "VOC_D38_017",
       "VOC_D33_024",
@@ -17105,7 +17105,7 @@
     "pinyin": "Cóng jiéyùn zhàn dào cāntīng yào wǔ fēnzhōng.",
     "pinyin_numeric": "cong2 jie2yun4 zhan4 dao4 can1ting1 yao4 wu3 fen1zhong1.",
     "translation_en": "It takes five minutes from the MRT station to the restaurant.",
-    "translation_ko": "지하철역에서 식당까지 5분 걸립니다.",
+    "translation_ko": "MRT?에서 식당까지 5분 걸립니다.",
     "token_ids": [
       "VOC_D33_023",
       "VOC_M1_154",
@@ -17290,7 +17290,7 @@
     "pinyin": "Tā zuò jiéyùn qù xuéxiào shàngkè.",
     "pinyin_numeric": "ta1 zuo4 jie2yun4 qu4 xue2xiao4 shang4ke4.",
     "translation_en": "She takes the MRT to school for class.",
-    "translation_ko": "그녀는 지하철을 타고 학교에 가서 수업을 듣습니다.",
+    "translation_ko": "그녀는 MRT? 타고 학교에 가서 수업을 듣습니다.",
     "token_ids": [
       "VOC_M1_005",
       "VOC_M1_120",
@@ -17385,7 +17385,7 @@
     "pinyin": "Wǒ zuò jiéyùn qù túshūguǎn kànshū.",
     "pinyin_numeric": "wo3 zuo4 jie2yun4 qu4 tu2shu1guan3 kan4shu1.",
     "translation_en": "I take the MRT to the library to read.",
-    "translation_ko": "저는 지하철을 타고 도서관에 가서 책을 봅니다.",
+    "translation_ko": "저는 MRT? 타고 도서관에 가서 책을 봅니다.",
     "token_ids": [
       "VOC_M1_002",
       "VOC_M1_120",
@@ -17480,7 +17480,7 @@
     "pinyin": "Cóng túshūguǎn dào jiéyùnzhàn zěnme qù?",
     "pinyin_numeric": "cong2 tu2shu1guan3 dao4 jie2yun4zhan4 zen3 me0 qu4",
     "translation_en": "How do I get from the library to the MRT station?",
-    "translation_ko": "도서관에서 지하철역까지 어떻게 가나요?",
+    "translation_ko": "도서관에서 MRT?까지 어떻게 가나요?",
     "token_ids": [
       "VOC_D33_023",
       "VOC_M1_146",
@@ -17617,7 +17617,7 @@
     "pinyin": "Cóng jiéyùnzhàn dào cāntīng zěnme qù?",
     "pinyin_numeric": "cong2 jie2yun4zhan4 dao4 can1ting1 zen3 me0 qu4",
     "translation_en": "How do I get from the MRT station to the restaurant?",
-    "translation_ko": "지하철역에서 식당까지 어떻게 가나요?",
+    "translation_ko": "MRT?에서 식당까지 어떻게 가나요?",
     "token_ids": [
       "VOC_D33_023",
       "VOC_M1_154",
@@ -17757,7 +17757,7 @@
     "pinyin": "Dào Tái běi chē zhàn yào zuò jié yùn ma?",
     "pinyin_numeric": "dao4 Tai2 bei3 che1 zhan4 yao4 zuo4 jie2 yun4 ma0",
     "translation_en": "Do I need to take the MRT to get to Taipei Station?",
-    "translation_ko": "타이베이 역까지 지하철을 타야 하나요?",
+    "translation_ko": "타이베이 역까지 MRT? 타야 하나요?",
     "token_ids": [
       "VOC_D33_024",
       "VOC_M1_197",
@@ -17889,7 +17889,7 @@
     "pinyin": "Dào jié yùn zhàn zǒu lù yào shí wǔ fēn zhōng.",
     "pinyin_numeric": "dao4 jie2 yun4 zhan4 zou3 lu4 yao4 shi2 wu3 fen1 zhong1",
     "translation_en": "It takes fifteen minutes to walk to the MRT station.",
-    "translation_ko": "지하철역까지 걸어서 15분 걸려요.",
+    "translation_ko": "MRT?까지 걸어서 15분 걸려요.",
     "token_ids": [
       "VOC_D33_024",
       "VOC_M1_154",
@@ -18030,7 +18030,7 @@
     "pinyin": "Dào xué xiào zuò jié yùn yào èr shí wǔ fēn zhōng.",
     "pinyin_numeric": "dao4 xue2 xiao4 zuo4 jie2 yun4 yao4 er4 shi2 wu3 fen1 zhong1",
     "translation_en": "It takes twenty-five minutes to get to school by MRT.",
-    "translation_ko": "학교까지 지하철로 25분 걸려요.",
+    "translation_ko": "학교까지 MRT? 25분 걸려요.",
     "token_ids": [
       "VOC_D33_024",
       "VOC_M1_149",
@@ -18125,7 +18125,7 @@
     "pinyin": "Wǒ zuò jiéyùn qù xuéxiào.",
     "pinyin_numeric": "wo3 zuo4 jie2yun4 qu4 xue2xiao4",
     "translation_en": "I take the MRT to school.",
-    "translation_ko": "저는 지하철을 타고 학교에 갑니다.",
+    "translation_ko": "저는 MRT? 타고 학교에 갑니다.",
     "token_ids": [
       "VOC_M1_002",
       "VOC_M1_120",
@@ -18154,7 +18154,7 @@
     "pinyin": "Wǒmen zuò jiéyùn qù gōngyuán.",
     "pinyin_numeric": "wo3men zuo4 jie2yun4 qu4 gong1yuan2",
     "translation_en": "We take the MRT to the park.",
-    "translation_ko": "우리는 지하철을 타고 공원에 갑니다.",
+    "translation_ko": "우리는 MRT? 타고 공원에 갑니다.",
     "token_ids": [
       "VOC_M1_006",
       "VOC_M1_120",
@@ -18241,7 +18241,7 @@
     "pinyin": "Nǐ zuò jiéyùn qù nǎlǐ?",
     "pinyin_numeric": "ni3 zuo4 jie2yun4 qu4 na3li3",
     "translation_en": "Where do you take the MRT to?",
-    "translation_ko": "당신은 지하철을 타고 어디에 가나요?",
+    "translation_ko": "당신은 MRT? 타고 어디에 가나요?",
     "token_ids": [
       "VOC_M1_003",
       "VOC_M1_120",
@@ -18367,7 +18367,7 @@
     "pinyin": "Cóng jiéyùnzhàn dào xuéxiào zǒulù yào jǐ fēnzhōng?",
     "pinyin_numeric": "cong2 jie2yun4zhan4 dao4 xue2xiao4 zou3lu4 yao4 ji3 fen1zhong1",
     "translation_en": "How many minutes does it take to walk from the MRT station to the school?",
-    "translation_ko": "지하철역에서 학교까지 걸어서 몇 분 걸리나요?",
+    "translation_ko": "MRT?에서 학교까지 걸어서 몇 분 걸리나요?",
     "token_ids": [
       "VOC_D33_023",
       "VOC_M1_154",
@@ -18516,7 +18516,7 @@
     "pinyin": "Cóng chēzhàn dào bǎihuò gōngsī dā jiéyùn bǐjiào kuài, zuò jìchéngchē tài guì.",
     "pinyin_numeric": "cong2 che1zhan4 dao4 bai3huo4 gong1si1 da1 jie2yun4 bi3jiao4 kuai4, zuo4 ji4cheng2che1 tai4 gui4",
     "translation_en": "Taking the MRT from the station to the department store is faster; taking a taxi is too expensive.",
-    "translation_ko": "역에서 백화점까지 지하철 타는 게 더 빠르고, 택시는 너무 비싸요.",
+    "translation_ko": "역에서 백화점까지 MRT 타는 게 더 빠르고, 택시는 너무 비싸요.",
     "token_ids": [
       "VOC_D33_023",
       "VOC_M1_151",
@@ -18558,7 +18558,7 @@
     "pinyin": "Cóng xuéxiào dào jiéyùnzhàn zǒulù yào shí fēnzhōng, ránhòu dā jiéyùn dào Táiběi chēzhàn.",
     "pinyin_numeric": "cong2 xue2xiao4 dao4 jie2yun4zhan4 zou3lu4 yao4 shi2 fen1zhong1, ran2hou4 da1 jie2yun4 dao4 Tai2bei3 che1zhan4",
     "translation_en": "It takes ten minutes to walk from school to the MRT station, then take the MRT to Taipei Station.",
-    "translation_ko": "학교에서 지하철역까지 걸어서 10분 걸리고, 그다음에 지하철을 타고 타이베이 역까지 가요.",
+    "translation_ko": "학교에서 MRT?까지 걸어서 10분 걸리고, 그다음에 MRT? 타고 타이베이 역까지 가요.",
     "token_ids": [
       "VOC_D33_023",
       "VOC_M1_149",
@@ -18604,7 +18604,7 @@
     "pinyin": "Cóng zhèlǐ dào yínháng zěnme qù? Kěyǐ xiān dā gōngchē, zài zhuǎn jiéyùn.",
     "pinyin_numeric": "cong2 zhe4li3 dao4 yin2hang2 zen3 me0 qu4? ke3yi3 xian1 da1 gong1che1, zai4 zhuan3 jie2yun4.",
     "translation_en": "How do I get from here to the bank? You can take a bus first, then transfer to the MRT.",
-    "translation_ko": "여기에서 은행까지 어떻게 가나요? 먼저 버스를 타고, 그다음에 지하철로 환승하면 돼요.",
+    "translation_ko": "여기에서 은행까지 어떻게 가나요? 먼저 버스를 타고, 그다음에 MRT? 환승하면 돼요.",
     "token_ids": [
       "VOC_D33_023",
       "VOC_M1_122",
@@ -18646,7 +18646,7 @@
     "pinyin": "Dào jiéyùn zhàn zǒulù yào wǔ fēnzhōng ma?",
     "pinyin_numeric": "dao4 jie2yun4 zhan4 zou3lu4 yao4 wu3 fen1zhong1 ma0",
     "translation_en": "Does it take five minutes to walk to the MRT station?",
-    "translation_ko": "지하철역까지 걸어서 5분 걸리나요?",
+    "translation_ko": "MRT?까지 걸어서 5분 걸리나요?",
     "token_ids": [
       "VOC_D33_024",
       "VOC_M1_154",
@@ -18752,7 +18752,7 @@
     "pinyin": "Dào yīyuàn zuò jiéyùn yào sìshí fēnzhōng, suǒyǐ wǒmen yào zǎo diǎn chūfā.",
     "pinyin_numeric": "dao4 yi1yuan4 zuo4 jie2yun4 yao4 si4shi2 fen1zhong1, suo3yi3 wo3men yao4 zao3 dian3 chu1fa1",
     "translation_en": "It takes 40 minutes by MRT to the hospital, so we need to leave early.",
-    "translation_ko": "병원까지 지하철로 40분 걸리니까 일찍 출발해야 해요.",
+    "translation_ko": "병원까지 MRT? 40분 걸리니까 일찍 출발해야 해요.",
     "token_ids": [
       "VOC_D33_024",
       "VOC_M1_148",
@@ -18919,7 +18919,7 @@
     "pinyin": "Cóng jiéyùn zhàn dào xuéxiào zǒulù yào shí fēnzhōng, suǒyǐ bùyòng zhuǎn chē.",
     "pinyin_numeric": "cong2 jie2yun4 zhan4 dao4 xue2xiao4 zou3lu4 yao4 shi2 fen1zhong1, suo3yi3 bu4yong4 zhuan3 che1",
     "translation_en": "It takes 10 minutes to walk from the MRT station to school, so no need to transfer.",
-    "translation_ko": "지하철역에서 학교까지 걸어서 10분 걸리니까, 환승할 필요가 없어요.",
+    "translation_ko": "MRT?에서 학교까지 걸어서 10분 걸리니까, 환승할 필요가 없어요.",
     "token_ids": [
       "VOC_D33_023",
       "VOC_M1_154",
@@ -19069,7 +19069,7 @@
     "pinyin": "Qǐngwèn, cóng zhèlǐ dào Táiběi Chēzhàn, yào cóng jiéyùn huàn huǒchē ma?",
     "pinyin_numeric": "qing3wen4, cong2 zhe4li3 dao4 Tai2bei3 Che1zhan4, yao4 cong2 jie2yun4 huan4 huo3che1 ma0?",
     "translation_en": "Excuse me, to get from here to Taipei Station, do I need to transfer from the MRT to the train?",
-    "translation_ko": "실례합니다, 여기에서 타이베이 역까지 가려면 지하철에서 기차로 갈아타야 하나요?",
+    "translation_ko": "실례합니다, 여기에서 타이베이 역까지 가려면 MRT?? 기차로 갈아타야 하나요?",
     "token_ids": [
       "VOC_D33_026",
       "VOC_D33_023",
@@ -19224,7 +19224,7 @@
     "pinyin": "Yīnwèi tíngshǐ, wǒmen bìxū cóng gōngchē huàn jiéyùn.",
     "pinyin_numeric": "yin1wei4 ting2shi3, wo3men0 bi4xu1 cong2 gong1che1 huan4 jie2yun4.",
     "translation_en": "Because the service is suspended, we have to transfer from the bus to the MRT.",
-    "translation_ko": "운행 중단으로 인해 버스에서 지하철로 갈아타야 해요.",
+    "translation_ko": "운행 중단으로 인해 버스에서 MRT? 갈아타야 해요.",
     "token_ids": [
       "VOC_D34_011",
       "VOC_D39_011",
@@ -19914,7 +19914,7 @@
     "pinyin": "Wǒmen hái méi juédìng yào dā jiéyùn háishì gōngchē, yīnwèi pà sāichē.",
     "pinyin_numeric": "wo3men hai2 mei2 jue2ding4 yao4 da1 jie2yun4 hai2shi4 gong1che1, yin1wei4 pa4 sai1che1",
     "translation_en": "We haven't decided yet whether to take the MRT or the bus, because we're afraid of traffic jams.",
-    "translation_ko": "우리는 아직 지하철을 탈지 버스를 탈지 결정하지 못했어요. 교통 체증이 걱정되거든요.",
+    "translation_ko": "우리는 아직 MRT? 탈지 버스를 탈지 결정하지 못했어요. 교통 체증이 걱정되거든요.",
     "token_ids": [
       "VOC_M1_006",
       "VOC_M1_080",
@@ -20030,7 +20030,7 @@
     "pinyin": "Yīnwèi wùdiǎn, wǒmen láibují cóng jiéyùn huàn huǒchē.",
     "pinyin_numeric": "yin1wei4 wu4dian3, wo3men0 lai2bu4ji2 cong2 jie2yun4 huan4 huo3che1.",
     "translation_en": "Because of the delay, we didn't have time to transfer from the MRT to the train.",
-    "translation_ko": "지연 때문에 저희가 지하철에서 기차로 갈아탈 시간이 없었어요.",
+    "translation_ko": "지연 때문에 저희가 MRT?? 기차로 갈아탈 시간이 없었어요.",
     "token_ids": [
       "VOC_D34_011",
       "VOC_D39_010",
@@ -20257,7 +20257,7 @@
     "pinyin": "Wǒmen gǎn shíjiān, suǒyǐ cóng jiéyùn zhàn zhíjiē huàn jìchéngchē.",
     "pinyin_numeric": "wo3men0 gan3 shi2jian1, suo3yi3 cong2 jie2yun4 zhan4 zhi2jie1 huan4 ji4cheng2che1.",
     "translation_en": "We are in a hurry, so we are transferring directly from the MRT station to a taxi.",
-    "translation_ko": "저희는 시간이 촉박해서 지하철역에서 바로 택시로 갈아타요.",
+    "translation_ko": "저희는 시간이 촉박해서 MRT?에서 바로 택시로 갈아타요.",
     "token_ids": [
       "VOC_M1_006",
       "VOC_D39_014",
@@ -20788,7 +20788,7 @@
     "pinyin": "Tā hái méi juédìng yào dā jiéyùn háishì gōngchē, yīnwèi pà zuò cuò fāngxiàng.",
     "pinyin_numeric": "ta1 hai2 mei2 jue2ding4 yao4 da1 jie2yun4 hai2shi4 gong1che1, yin1wei4 pa4 zuo4 cuo4 fang1xiang4.",
     "translation_en": "She hasn't decided whether to take the MRT or the bus yet because she's afraid of going in the wrong direction.",
-    "translation_ko": "그녀는 방향을 잘못 탈까 봐 지하철을 탈지 버스를 탈지 아직 결정하지 못했어요.",
+    "translation_ko": "그녀는 방향을 잘못 탈까 봐 MRT? 탈지 버스를 탈지 아직 결정하지 못했어요.",
     "token_ids": [
       "VOC_M1_005",
       "VOC_M1_080",
@@ -20831,7 +20831,7 @@
     "pinyin": "Wǒmen hái méi wǎng huí zǒu, yīnwèi dǎoháng shuō qiánmiàn yǒu jiéyùn zhàn.",
     "pinyin_numeric": "wo3men0 hai2 mei2 wang3 hui2 zou3, yin1wei4 dao3hang2 shuo1 qian2mian4 you3 jie2yun4 zhan4.",
     "translation_en": "We haven't turned back yet because the navigation says there's an MRT station ahead.",
-    "translation_ko": "내비게이션에 앞에 지하철역이 있다고 해서 우리는 아직 되돌아가지 않았어요.",
+    "translation_ko": "내비게이션에 앞에 MRT?이 있다고 해서 우리는 아직 되돌아가지 않았어요.",
     "token_ids": [
       "VOC_M1_006",
       "VOC_M1_080",
@@ -21225,7 +21225,7 @@
     "pinyin": "Máfan nǐ, wǒ yào cóng jiéyùn zhàn chūkǒu yī huàn dào chūkǒu èr.",
     "pinyin_numeric": "ma2fan0 ni3, wo3 yao4 cong2 jie2yun4 zhan4 chu1kou3 yi1 huan4 dao4 chu1kou3 er4.",
     "translation_en": "Excuse me, I need to go from Exit 1 to Exit 2 of the MRT station.",
-    "translation_ko": "실례합니다. 지하철역 1번 출구에서 2번 출구로 가야 해요.",
+    "translation_ko": "실례합니다. MRT? 1번 출구에서 2번 출구로 가야 해요.",
     "token_ids": [
       "VOC_D39_018",
       "VOC_M1_002",
@@ -21263,7 +21263,7 @@
     "pinyin": "Yīnwèi sāichē, wǒmen yào cóng gōngchē huàn jiéyùn cái láidejí.",
     "pinyin_numeric": "yin1wei4 sai1che1, wo3men0 yao4 cong2 gong1che1 huan4 jie2yun4 cai2 lai2de2ji2.",
     "translation_en": "Because of the traffic jam, we need to transfer from the bus to the MRT to make it in time.",
-    "translation_ko": "교통 체증 때문에 저희는 버스에서 지하철로 갈아타야 시간에 맞출 수 있어요.",
+    "translation_ko": "교통 체증 때문에 저희는 버스에서 MRT? 갈아타야 시간에 맞출 수 있어요.",
     "token_ids": [
       "VOC_D34_011",
       "VOC_D38_008",
@@ -22821,7 +22821,7 @@
     "pinyin": "Tā zài jiéyùn shàng fùxí jùzi.",
     "pinyin_numeric": "ta1 zai4 jie2yun4 shang4 fu4xi2 ju4zi5.",
     "translation_en": "He is reviewing sentences on the MRT.",
-    "translation_ko": "그는 지하철에서 문장을 복습하고 있어요.",
+    "translation_ko": "그는 MRT?? 문장을 복습하고 있어요.",
     "token_ids": [
       "VOC_M1_004",
       "VOC_M1_139",
@@ -24551,7 +24551,7 @@
     "pinyin": "Wǒ zài jiéyùnzhàn fùxí jùzi.",
     "pinyin_numeric": "wo3 zai4 jie2yun4zhan4 fu4xi2 ju4zi5.",
     "translation_en": "I am reviewing sentences at the MRT station.",
-    "translation_ko": "저는 지하철역에서 문장을 복습하고 있어요.",
+    "translation_ko": "저는 MRT?에서 문장을 복습하고 있어요.",
     "token_ids": [
       "VOC_M1_002",
       "VOC_M1_139",
@@ -31460,7 +31460,7 @@
     "pinyin": "Zhè jiàn wàitào xiànzài dǎzhé, yuánjià yīqiān kuài, xiànzài zhǐyào qībǎi kuài.",
     "pinyin_numeric": "zhe4 jian4 wai4tao4 xian4zai4 da3zhe2, yuan2jia4 yi1qian1 kuai4, xian4zai4 zhi3yao4 qi1bai3 kuai4",
     "translation_en": "This jacket is on sale now; the original price was 1000 dollars, now it's only 700.",
-    "translation_ko": "이 외투는 지금 할인 중이에요. 정가는 1000위안인데, 지금은 700위안이에요.",
+    "translation_ko": "이 외투는 지금 할인 중이에요. 정가는 1000대만 달러인데, 지금은 700대만 달러이에요.",
     "token_ids": [
       "VOC_D43_010",
       "VOC_M1_104",
@@ -36465,7 +36465,7 @@
     "pinyin": "Nǐ juéde wǒmen yīnggāi zuò jiéyùn háishì dā gōngchē?",
     "pinyin_numeric": "ni3 jue2de wo3men0 ying1gai1 zuo4 jie2yun4 hai2shi4 da1 gong1che1",
     "translation_en": "Do you think we should take the MRT or the bus?",
-    "translation_ko": "우리가 지하철을 타야 할까요, 버스를 타야 할까요?",
+    "translation_ko": "우리가 MRT? 타야 할까요, 버스를 타야 할까요?",
     "token_ids": [
       "VOC_M1_003",
       "VOC_D73_001",
