@@ -135,6 +135,20 @@ for (const audio of audioManifests) {
 checkNestedEnglish(grammar, "grammar");
 checkNestedEnglish(speaking, "speaking");
 
+for (const grammarPoint of grammar) {
+  const day = Number(grammarPoint.id?.match(/D(\d+)/)?.[1] ?? 0);
+  if (day < 46 || day > 90) continue;
+  if ((grammarPoint.common_error_patterns ?? []).length < 3) {
+    errors.push(`${grammarPoint.id}: needs at least 3 common_error_patterns`);
+  }
+  const feedback = grammarPoint.repair_feedback ?? {};
+  for (const key of ["word_order", "meaning", "practice"]) {
+    if (typeof feedback[key] !== "string" || feedback[key].trim().length < 12) {
+      errors.push(`${grammarPoint.id}: missing repair_feedback.${key}`);
+    }
+  }
+}
+
 const sourceOrderJumps = [];
 for (let i = 1; i < lessons.length; i++) {
   if (lessons[i].order !== lessons[i - 1].order + 1) {

@@ -65,12 +65,14 @@
       "問朋友昨天做了什麼"
     ],
     "common_error_patterns": [
-      "把 '了' 放在動詞前面",
-      "忘了在句尾加 '了'"
+      "Using le with every past-time sentence even when the sentence only describes a state.",
+      "Putting le immediately after the subject instead of after the completed verb phrase.",
+      "Forgetting a clear time word when the learner wants to emphasize completed action."
     ],
     "repair_feedback": {
-      "word_order": "動詞 + 受詞 + 了，不是 了 + 動詞",
-      "missing_le": "說過去完成的事要加 '了'"
+      "word_order": "Put the time expression before the verb phrase, then put le after the completed action/object.",
+      "meaning": "Use le for a bounded completed event, not just because English uses past tense.",
+      "practice": "Repair one past-tense English sentence by deciding first: completed event or background state?"
     },
     "drill_examples": [
       {
@@ -154,12 +156,14 @@
       "用 '上個禮拜' 造句"
     ],
     "common_error_patterns": [
-      "把時間詞放在句尾（英文習慣）",
-      "時間詞和動詞位置顛倒"
+      "Using le with every past-time sentence even when the sentence only describes a state.",
+      "Putting le immediately after the subject instead of after the completed verb phrase.",
+      "Forgetting a clear time word when the learner wants to emphasize completed action."
     ],
     "repair_feedback": {
-      "word_order": "時間詞在動詞前面，如 '我昨天...'",
-      "english_interference": "不要像英文把 yesterday 放句尾"
+      "word_order": "Put the time expression before the verb phrase, then put le after the completed action/object.",
+      "meaning": "Use le for a bounded completed event, not just because English uses past tense.",
+      "practice": "Repair one past-tense English sentence by deciding first: completed event or background state?"
     },
     "drill_examples": [
       {
@@ -238,12 +242,14 @@
       "用 '了' 說一個完整的一天"
     ],
     "common_error_patterns": [
-      "受詞太長時忘了加 '了'",
-      "否定句誤加 '了'"
+      "Using le with every past-time sentence even when the sentence only describes a state.",
+      "Putting le immediately after the subject instead of after the completed verb phrase.",
+      "Forgetting a clear time word when the learner wants to emphasize completed action."
     ],
     "repair_feedback": {
-      "word_order": "時間 + 動詞 + 受詞 + 了",
-      "negation": "否定過去用 '沒有'，不加 '了'"
+      "word_order": "Put the time expression before the verb phrase, then put le after the completed action/object.",
+      "meaning": "Use le for a bounded completed event, not just because English uses past tense.",
+      "practice": "Repair one past-tense English sentence by deciding first: completed event or background state?"
     },
     "drill_examples": [
       {
@@ -322,12 +328,14 @@
       "告訴朋友怎麼從捷運站走到你家"
     ],
     "common_error_patterns": [
-      "'然後' 前面忘了逗號",
-      "一連串的 '然後' 太多"
+      "Choosing lai/qu from English perspective instead of speaker location.",
+      "Forgetting the direction complement after the main verb.",
+      "Using bring/take English one-to-one without checking movement direction."
     ],
     "repair_feedback": {
-      "word_order": "句子A，然後句子B",
-      "overuse": "不要每句都用 '然後'"
+      "word_order": "Verb + direction complement shows movement toward or away from the speaker/reference point.",
+      "meaning": "First choose the reference point; then choose lai or qu.",
+      "practice": "Describe moving one object toward you and one object away from you."
     },
     "drill_examples": [
       {
@@ -410,12 +418,14 @@
       "教朋友你國家的一道菜的做法"
     ],
     "common_error_patterns": [
-      "'先' 放在動詞後面",
-      "忘了 '先' 對應的 '然後'"
+      "Using le with every past-time sentence even when the sentence only describes a state.",
+      "Putting le immediately after the subject instead of after the completed verb phrase.",
+      "Forgetting a clear time word when the learner wants to emphasize completed action."
     ],
     "repair_feedback": {
-      "word_order": "先 + 動作1，然後 + 動作2",
-      "pairing": "'先' 和 '然後' 是配對使用的"
+      "word_order": "Put the time expression before the verb phrase, then put le after the completed action/object.",
+      "meaning": "Use le for a bounded completed event, not just because English uses past tense.",
+      "practice": "Repair one past-tense English sentence by deciding first: completed event or background state?"
     },
     "drill_examples": [
       {
@@ -483,15 +493,18 @@
       "描述昨天一連串發生的事"
     ],
     "production_drills": [
-      "用 '了' + '然後' 說出你上週末做的事"
+      "用 '了' + '然後' 說出你上週末做的事",
+      "Make a two-line exchange where another person responds naturally."
     ],
     "common_error_patterns": [
-      "每個動詞都加 '了'",
-      "'了' 放在 '然後' 前面"
+      "Using le with every past-time sentence even when the sentence only describes a state.",
+      "Putting le immediately after the subject instead of after the completed verb phrase.",
+      "Forgetting a clear time word when the learner wants to emphasize completed action."
     ],
     "repair_feedback": {
-      "word_order": "'了' 在每個完成動作的句尾",
-      "sequence": "做了A（了），然後做了B（了）"
+      "word_order": "Put the time expression before the verb phrase, then put le after the completed action/object.",
+      "meaning": "Use le for a bounded completed event, not just because English uses past tense.",
+      "practice": "Repair one past-tense English sentence by deciding first: completed event or background state?"
     },
     "drill_examples": [
       {
@@ -567,12 +580,14 @@
       "說一個你吃過最好吃的台灣食物"
     ],
     "common_error_patterns": [
-      "把 '過' 和 '了' 混用",
-      "'過' 放在受詞後面"
+      "Using le with every past-time sentence even when the sentence only describes a state.",
+      "Putting le immediately after the subject instead of after the completed verb phrase.",
+      "Forgetting a clear time word when the learner wants to emphasize completed action."
     ],
     "repair_feedback": {
-      "word_order": "動詞 + 過 + 受詞",
-      "vs_le": "'過'=經驗，'了'=完成，不一樣"
+      "word_order": "Put the time expression before the verb phrase, then put le after the completed action/object.",
+      "meaning": "Use le for a bounded completed event, not just because English uses past tense.",
+      "practice": "Repair one past-tense English sentence by deciding first: completed event or background state?"
     },
     "drill_examples": [
       {
@@ -652,12 +667,14 @@
       "說一個台灣人常做但你沒做過的事"
     ],
     "common_error_patterns": [
-      "只用 '沒有' 而忘了 '過'",
-      "'從來沒有' 後面忘了 '過'"
+      "Using le instead of guo for life experience.",
+      "Putting guo at the end of the sentence instead of right after the verb.",
+      "Forgetting mei/mei you in negative experience sentences."
     ],
     "repair_feedback": {
-      "word_order": "從來 + 沒有 + 動詞 + 過 + 受詞",
-      "missing_guo": "'從來沒有' 後面一定要有 '過'"
+      "word_order": "Place guo directly after the verb: qu guo, chi guo, kan guo.",
+      "meaning": "Use guo for whether an experience has happened before; use le for a completed event at a specific time.",
+      "practice": "Ask three Have you ever...? questions, then answer one with never."
     },
     "drill_examples": [
       {
@@ -725,12 +742,14 @@
       "說一個你以前常做但現在不做的事"
     ],
     "common_error_patterns": [
-      "'以前' 放在動詞後面",
-      "混淆 '以前' 和 '已經'"
+      "Using le instead of guo for life experience.",
+      "Putting guo at the end of the sentence instead of right after the verb.",
+      "Forgetting mei/mei you in negative experience sentences."
     ],
     "repair_feedback": {
-      "word_order": "以前 + 句子 / 主語 + 以前 + 動詞",
-      "vs_yijing": "'以前'=before，'已經'=already"
+      "word_order": "Place guo directly after the verb: qu guo, chi guo, kan guo.",
+      "meaning": "Use guo for whether an experience has happened before; use le for a completed event at a specific time.",
+      "practice": "Ask three Have you ever...? questions, then answer one with never."
     },
     "drill_examples": [
       {
@@ -805,12 +824,14 @@
       "打電話時說 '我在...' 解釋為何不能講話"
     ],
     "common_error_patterns": [
-      "用 '是' 表進行",
-      "在形容詞前加 '在'"
+      "Using zai with stative verbs like need, like, or know.",
+      "Forgetting that zai marks an action happening right now.",
+      "Putting zai after the verb."
     ],
     "repair_feedback": {
-      "word_order": "主語 + 在 + 動詞 + 受詞",
-      "not_shi": "不是 '我是吃飯'，而是 '我在吃飯'"
+      "word_order": "Put zai or zhengzai before the action verb.",
+      "meaning": "Use progressive markers only for ongoing actions, not states or preferences.",
+      "practice": "Sort five verbs into action-now or state, then make progressive sentences only for actions."
     },
     "drill_examples": [
       {
@@ -884,12 +905,14 @@
       "解釋為什麼現在不能出門"
     ],
     "common_error_patterns": [
-      "'正在' 用於習慣性動作",
-      "'正在' 後面加形容詞"
+      "Using zai with stative verbs like need, like, or know.",
+      "Forgetting that zai marks an action happening right now.",
+      "Putting zai after the verb."
     ],
     "repair_feedback": {
-      "word_order": "主語 + 正在 + 動詞 + 受詞 + 呢",
-      "habitual": "'正在' 只能用在說話的當下"
+      "word_order": "Put zai or zhengzai before the action verb.",
+      "meaning": "Use progressive markers only for ongoing actions, not states or preferences.",
+      "practice": "Sort five verbs into action-now or state, then make progressive sentences only for actions."
     },
     "drill_examples": [
       {
@@ -957,12 +980,14 @@
       "解釋為何現在不能聊天"
     ],
     "common_error_patterns": [
-      "'現在' 放在動詞後面",
-      "混淆 '現在' 和 '正在'"
+      "Using zai with stative verbs like need, like, or know.",
+      "Forgetting that zai marks an action happening right now.",
+      "Putting zai after the verb."
     ],
     "repair_feedback": {
-      "word_order": "現在 + 在 + 動詞",
-      "vs_zhengzai": "'現在'=now，'正在'=in the middle of"
+      "word_order": "Put zai or zhengzai before the action verb.",
+      "meaning": "Use progressive markers only for ongoing actions, not states or preferences.",
+      "practice": "Sort five verbs into action-now or state, then make progressive sentences only for actions."
     },
     "drill_examples": [
       {
@@ -1043,12 +1068,14 @@
       "說你會做什麼台灣菜"
     ],
     "common_error_patterns": [
-      "用 '可以' 表能力",
-      "'會' 放在受詞後面"
+      "Forgetting jiu in the result clause after ruguo.",
+      "Putting ruguo in both clauses.",
+      "Using English if word order and losing the result marker."
     ],
     "repair_feedback": {
-      "word_order": "主語 + 會 + 動詞 + 受詞",
-      "vs_keyi": "'會'=技能，'可以'=允許"
+      "word_order": "Use ruguo + condition, jiu + result when the result follows naturally.",
+      "meaning": "The first clause sets the condition; the second clause says what will happen.",
+      "practice": "Repair two English if sentences into ruguo...jiu... Chinese order."
     },
     "drill_examples": [
       {
@@ -1126,12 +1153,14 @@
       "說 '我不會...可是我會...'"
     ],
     "common_error_patterns": [
-      "用 '不能' 代替 '不會'",
-      "把 '不' 放在動詞後面"
+      "Choosing lai/qu from English perspective instead of speaker location.",
+      "Forgetting the direction complement after the main verb.",
+      "Using bring/take English one-to-one without checking movement direction."
     ],
     "repair_feedback": {
-      "word_order": "主語 + 不 + 會 + 動詞",
-      "vs_buneng": "'不會'=沒技能，'不能'=沒能力/不允許"
+      "word_order": "Verb + direction complement shows movement toward or away from the speaker/reference point.",
+      "meaning": "First choose the reference point; then choose lai or qu.",
+      "practice": "Describe moving one object toward you and one object away from you."
     },
     "drill_examples": [
       {
@@ -1205,12 +1234,14 @@
       "說一個你在學但還不太好的技能"
     ],
     "common_error_patterns": [
-      "把 '還' 放在 '不太' 後面",
-      "對完全不會的事說 '還不太會'"
+      "Choosing lai/qu from English perspective instead of speaker location.",
+      "Forgetting the direction complement after the main verb.",
+      "Using bring/take English one-to-one without checking movement direction."
     ],
     "repair_feedback": {
-      "word_order": "還 + 不太 + 會 + 動詞",
-      "usage": "有點會但不好才用 '還不太會'"
+      "word_order": "Verb + direction complement shows movement toward or away from the speaker/reference point.",
+      "meaning": "First choose the reference point; then choose lai or qu.",
+      "practice": "Describe moving one object toward you and one object away from you."
     },
     "drill_examples": [
       {
@@ -1290,12 +1321,14 @@
       "'我最喜歡的___是___'"
     ],
     "common_error_patterns": [
-      "簡單形容詞加 '的' 太囉嗦",
-      "'的' 放在名詞後面"
+      "Forgetting jiu in the result clause after ruguo.",
+      "Putting ruguo in both clauses.",
+      "Using English if word order and losing the result marker."
     ],
     "repair_feedback": {
-      "word_order": "修飾語 + 的 + 名詞",
-      "simple_adj": "單音節形容詞加單音節名詞不用 '的'"
+      "word_order": "Use ruguo + condition, jiu + result when the result follows naturally.",
+      "meaning": "The first clause sets the condition; the second clause says what will happen.",
+      "practice": "Repair two English if sentences into ruguo...jiu... Chinese order."
     },
     "drill_examples": [
       {
@@ -1372,12 +1405,14 @@
       "'台灣的___很___'"
     ],
     "common_error_patterns": [
-      "加 '是' 在形容詞前",
-      "忘了加 '很'"
+      "Using English order: A is more adjective than B.",
+      "Adding hen before the adjective in a bi comparison.",
+      "Forgetting that bu ru reverses the comparison direction."
     ],
     "repair_feedback": {
-      "word_order": "主語 + 很 + 形容詞",
-      "no_shi": "不要說 '我是很好'，說 '我很好'"
+      "word_order": "Use A bi B adjective. Do not add hen before the comparison adjective.",
+      "meaning": "Check which item is stronger, faster, cheaper, or preferred before choosing bi or bu ru.",
+      "practice": "Make one comparison about price, one about distance, and one about preference."
     },
     "drill_examples": [
       {
@@ -1446,12 +1481,14 @@
       "說 '那個在___的人是我的___'"
     ],
     "common_error_patterns": [
-      "忘了量詞",
-      "'的' 位置錯誤"
+      "Forgetting jiu in the result clause after ruguo.",
+      "Putting ruguo in both clauses.",
+      "Using English if word order and losing the result marker."
     ],
     "repair_feedback": {
-      "word_order": "那 + 量詞 + 名詞 + 的 + 描述",
-      "measure_word": "一定要有量詞"
+      "word_order": "Use ruguo + condition, jiu + result when the result follows naturally.",
+      "meaning": "The first clause sets the condition; the second clause says what will happen.",
+      "practice": "Repair two English if sentences into ruguo...jiu... Chinese order."
     },
     "drill_examples": [
       {
@@ -1527,12 +1564,14 @@
       "比較兩家你喜歡的餐廳"
     ],
     "common_error_patterns": [
-      "形容詞前加 '很'",
-      "'比' 放在形容詞後面"
+      "Using English order: A is more adjective than B.",
+      "Adding hen before the adjective in a bi comparison.",
+      "Forgetting that bu ru reverses the comparison direction."
     ],
     "repair_feedback": {
-      "word_order": "A + 比 + B + 形容詞",
-      "no_hen": "'比' 後面不加 '很'"
+      "word_order": "Use A bi B adjective. Do not add hen before the comparison adjective.",
+      "meaning": "Check which item is stronger, faster, cheaper, or preferred before choosing bi or bu ru.",
+      "practice": "Make one comparison about price, one about distance, and one about preference."
     },
     "drill_examples": [
       {
@@ -1609,12 +1648,14 @@
       "說 '我覺得___比較___'"
     ],
     "common_error_patterns": [
-      "'比較' 放錯位置",
-      "'比' 和 '比較' 重複使用"
+      "Using English order: A is more adjective than B.",
+      "Adding hen before the adjective in a bi comparison.",
+      "Forgetting that bu ru reverses the comparison direction."
     ],
     "repair_feedback": {
-      "word_order": "主語 + 比較 + 形容詞",
-      "vs_bi": "'比' + B + adj，'比較' + adj"
+      "word_order": "Use A bi B adjective. Do not add hen before the comparison adjective.",
+      "meaning": "Check which item is stronger, faster, cheaper, or preferred before choosing bi or bu ru.",
+      "practice": "Make one comparison about price, one about distance, and one about preference."
     },
     "drill_examples": [
       {
@@ -1688,12 +1729,14 @@
       "說一個東西沒有你想像的那麼貴"
     ],
     "common_error_patterns": [
-      "用 '不比' 代替 '沒有'",
-      "忘了 '那麼'"
+      "Using English order: A is more adjective than B.",
+      "Adding hen before the adjective in a bi comparison.",
+      "Forgetting that bu ru reverses the comparison direction."
     ],
     "repair_feedback": {
-      "word_order": "A + 沒有 + B + 那麼 + 形容詞",
-      "vs_bubi": "'沒有'=not as，'不比'=not more than"
+      "word_order": "Use A bi B adjective. Do not add hen before the comparison adjective.",
+      "meaning": "Check which item is stronger, faster, cheaper, or preferred before choosing bi or bu ru.",
+      "practice": "Make one comparison about price, one about distance, and one about preference."
     },
     "drill_examples": [
       {
@@ -1768,12 +1811,14 @@
       "'我常常去___，因為___'"
     ],
     "common_error_patterns": [
-      "'常常' 放在句尾",
-      "混淆 '常常' 和 '平常'"
+      "Choosing lai/qu from English perspective instead of speaker location.",
+      "Forgetting the direction complement after the main verb.",
+      "Using bring/take English one-to-one without checking movement direction."
     ],
     "repair_feedback": {
-      "word_order": "主語 + 常常 + 動詞",
-      "vs_pingchang": "'常常'=often，'平常'=usually/ordinarily"
+      "word_order": "Verb + direction complement shows movement toward or away from the speaker/reference point.",
+      "meaning": "First choose the reference point; then choose lai or qu.",
+      "practice": "Describe moving one object toward you and one object away from you."
     },
     "drill_examples": [
       {
@@ -1845,11 +1890,14 @@
       "'有時候我覺得___，有時候___'"
     ],
     "common_error_patterns": [
-      "'有時候' 放在動詞後面",
-      "用 '有時' 和 '有時候' 混淆"
+      "Choosing lai/qu from English perspective instead of speaker location.",
+      "Forgetting the direction complement after the main verb.",
+      "Using bring/take English one-to-one without checking movement direction."
     ],
     "repair_feedback": {
-      "word_order": "有時候 + 句子 / 主語 + 有時候 + 動詞"
+      "word_order": "Verb + direction complement shows movement toward or away from the speaker/reference point.",
+      "meaning": "First choose the reference point; then choose lai or qu.",
+      "practice": "Describe moving one object toward you and one object away from you."
     },
     "drill_examples": [
       {
@@ -1922,12 +1970,14 @@
       "'我喜歡___，可是我不喜歡___'"
     ],
     "common_error_patterns": [
-      "'喜歡' 後面加 '了'",
-      "'喜歡' 放在受詞後面"
+      "Translating English word order directly into Chinese.",
+      "Using the new pattern where a simpler older pattern would be more natural.",
+      "Forgetting the function word that makes the pattern work."
     ],
     "repair_feedback": {
-      "word_order": "主語 + 喜歡 + 動詞 + 受詞",
-      "no_le": "'喜歡' 是持續的，不加 '了'"
+      "word_order": "Say the core Chinese frame first, then fill in subject, time, verb, and object.",
+      "meaning": "Choose the pattern by meaning: time, reason, contrast, comparison, condition, or result.",
+      "practice": "Make one controlled sentence, one question, and one short answer with this pattern."
     },
     "drill_examples": [
       {
@@ -2007,12 +2057,14 @@
       "'要不要一起___？'"
     ],
     "common_error_patterns": [
-      "'要不要' 放在動詞後面",
-      "對長輩用 '要不要' 太隨便"
+      "Keeping English question word order.",
+      "Putting ma in a sentence that already has a question word.",
+      "Using shenme when zenme or na li is needed."
     ],
     "repair_feedback": {
-      "word_order": "要不要 + 動詞？",
-      "formality": "正式場合改用 '要不要一起...呢？'"
+      "word_order": "Keep Chinese statement word order; put the question word in the answer slot.",
+      "meaning": "Use ma for yes/no questions, not with shenme/na li/zenme questions.",
+      "practice": "Turn three statements into questions without moving the subject and verb."
     },
     "drill_examples": [
       {
@@ -2090,12 +2142,14 @@
       "'已經X點了，該___了'"
     ],
     "common_error_patterns": [
-      "忘了句尾的 '了'",
-      "'該' 和 '應該' 混淆"
+      "Choosing lai/qu from English perspective instead of speaker location.",
+      "Forgetting the direction complement after the main verb.",
+      "Using bring/take English one-to-one without checking movement direction."
     ],
     "repair_feedback": {
-      "word_order": "該 + 動詞 + 了",
-      "vs_yinggai": "'該...了'=it's time，'應該'=should"
+      "word_order": "Verb + direction complement shows movement toward or away from the speaker/reference point.",
+      "meaning": "First choose the reference point; then choose lai or qu.",
+      "practice": "Describe moving one object toward you and one object away from you."
     },
     "drill_examples": [
       {
@@ -2167,12 +2221,14 @@
       "'不好意思，請問___怎麼走？'"
     ],
     "common_error_patterns": [
-      "把 '不好意思' 放在句尾",
-      "道歉用 '不好意思' 而非 '對不起'"
+      "Forgetting jiu in the result clause after ruguo.",
+      "Putting ruguo in both clauses.",
+      "Using English if word order and losing the result marker."
     ],
     "repair_feedback": {
-      "word_order": "不好意思，+ 請求",
-      "vs_duibuqi": "'不好意思'=excuse me，'對不起'=I'm sorry"
+      "word_order": "Use ruguo + condition, jiu + result when the result follows naturally.",
+      "meaning": "The first clause sets the condition; the second clause says what will happen.",
+      "practice": "Repair two English if sentences into ruguo...jiu... Chinese order."
     },
     "drill_examples": [
       {
@@ -2223,13 +2279,18 @@
       "把陳述句改成問句"
     ],
     "production_drills": [
-      "用這個句型說你自己的經驗"
+      "用這個句型說你自己的經驗",
+      "Make a two-line exchange where another person responds naturally."
     ],
     "common_error_patterns": [
-      "詞序錯誤"
+      "Choosing lai/qu from English perspective instead of speaker location.",
+      "Forgetting the direction complement after the main verb.",
+      "Using bring/take English one-to-one without checking movement direction."
     ],
     "repair_feedback": {
-      "word_order": "注意詞序"
+      "word_order": "Verb + direction complement shows movement toward or away from the speaker/reference point.",
+      "meaning": "First choose the reference point; then choose lai or qu.",
+      "practice": "Describe moving one object toward you and one object away from you."
     }
   },
   {
@@ -2296,12 +2357,14 @@
       "'我___痛'，'我___不舒服'"
     ],
     "common_error_patterns": [
-      "用 '是' 描述症狀",
-      "'痛' 和 '不舒服' 用錯地方"
+      "Keeping English question word order.",
+      "Putting ma in a sentence that already has a question word.",
+      "Using shenme when zenme or na li is needed."
     ],
     "repair_feedback": {
-      "word_order": "身體部位 + 痛 / 不舒服",
-      "no_shi": "不要說 '我是頭痛'"
+      "word_order": "Keep Chinese statement word order; put the question word in the answer slot.",
+      "meaning": "Use ma for yes/no questions, not with shenme/na li/zenme questions.",
+      "practice": "Turn three statements into questions without moving the subject and verb."
     },
     "drill_examples": [
       {
@@ -2378,12 +2441,14 @@
       "'我今天有點___，可能___'"
     ],
     "common_error_patterns": [
-      "'有點' 用於正面形容詞",
-      "'有點' 放在名詞前面"
+      "Keeping English question word order.",
+      "Putting ma in a sentence that already has a question word.",
+      "Using shenme when zenme or na li is needed."
     ],
     "repair_feedback": {
-      "word_order": "有點 + 形容詞（通常是負面的）",
-      "positive_adj": "'有點好吃' 不對，用 '還不錯'"
+      "word_order": "Keep Chinese statement word order; put the question word in the answer slot.",
+      "meaning": "Use ma for yes/no questions, not with shenme/na li/zenme questions.",
+      "practice": "Turn three statements into questions without moving the subject and verb."
     },
     "drill_examples": [
       {
@@ -2455,12 +2520,14 @@
       "'我已經___了___天了'"
     ],
     "common_error_patterns": [
-      "忘了量詞直接用 '幾'",
-      "'幾天' 的問句和直述語調混淆"
+      "Choosing lai/qu from English perspective instead of speaker location.",
+      "Forgetting the direction complement after the main verb.",
+      "Using bring/take English one-to-one without checking movement direction."
     ],
     "repair_feedback": {
-      "word_order": "幾 + 量詞 + 名詞",
-      "question_vs_statement": "語調上升=問句，下降=直述"
+      "word_order": "Verb + direction complement shows movement toward or away from the speaker/reference point.",
+      "meaning": "First choose the reference point; then choose lai or qu.",
+      "practice": "Describe moving one object toward you and one object away from you."
     },
     "drill_examples": [
       {
@@ -2539,12 +2606,14 @@
       "'我要買___'，'我要看___'"
     ],
     "common_error_patterns": [
-      "在藥局用 '想' 而不用 '要'",
-      "'要' 和 '需要' 混淆"
+      "Choosing lai/qu from English perspective instead of speaker location.",
+      "Forgetting the direction complement after the main verb.",
+      "Using bring/take English one-to-one without checking movement direction."
     ],
     "repair_feedback": {
-      "word_order": "我要 + 動詞 + 受詞",
-      "vs_xiang": "買東西時 '要' 比 '想' 更直接合適"
+      "word_order": "Verb + direction complement shows movement toward or away from the speaker/reference point.",
+      "meaning": "First choose the reference point; then choose lai or qu.",
+      "practice": "Describe moving one object toward you and one object away from you."
     },
     "drill_examples": [
       {
@@ -2622,12 +2691,14 @@
       "'這個藥一天___次'"
     ],
     "common_error_patterns": [
-      "量詞用錯",
-      "'次' 放在時間詞前面"
+      "Translating English word order directly into Chinese.",
+      "Using the new pattern where a simpler older pattern would be more natural.",
+      "Forgetting the function word that makes the pattern work."
     ],
     "repair_feedback": {
-      "word_order": "一天 + 數字 + 次",
-      "measure": "'次'=occurrences，'遍'=complete times"
+      "word_order": "Say the core Chinese frame first, then fill in subject, time, verb, and object.",
+      "meaning": "Choose the pattern by meaning: time, reason, contrast, comparison, condition, or result.",
+      "practice": "Make one controlled sentence, one question, and one short answer with this pattern."
     },
     "drill_examples": [
       {
@@ -2699,12 +2770,14 @@
       "'可以___嗎？' 問三個醫療問題"
     ],
     "common_error_patterns": [
-      "用 '會' 問可行性",
-      "'可以' 放在受詞後面"
+      "Choosing lai/qu from English perspective instead of speaker location.",
+      "Forgetting the direction complement after the main verb.",
+      "Using bring/take English one-to-one without checking movement direction."
     ],
     "repair_feedback": {
-      "word_order": "可以 + 動詞 + 受詞 + 嗎？",
-      "vs_hui": "'可以'=allowed/possible，'會'=ability"
+      "word_order": "Verb + direction complement shows movement toward or away from the speaker/reference point.",
+      "meaning": "First choose the reference point; then choose lai or qu.",
+      "practice": "Describe moving one object toward you and one object away from you."
     },
     "drill_examples": [
       {
@@ -2783,12 +2856,14 @@
       "'這裡有___嗎？'"
     ],
     "common_error_patterns": [
-      "用 '是' 表示存在",
-      "'有' 放在地方前面"
+      "Translating English word order directly into Chinese.",
+      "Using the new pattern where a simpler older pattern would be more natural.",
+      "Forgetting the function word that makes the pattern work."
     ],
     "repair_feedback": {
-      "word_order": "地方 + 有 + 東西",
-      "vs_shi": "'有'=has/there is，'是'=is/identity"
+      "word_order": "Say the core Chinese frame first, then fill in subject, time, verb, and object.",
+      "meaning": "Choose the pattern by meaning: time, reason, contrast, comparison, condition, or result.",
+      "practice": "Make one controlled sentence, one question, and one short answer with this pattern."
     },
     "drill_examples": [
       {
@@ -2866,11 +2941,14 @@
       "'在___附近有___'"
     ],
     "common_error_patterns": [
-      "'在' 和 '有' 位置顛倒",
-      "少了 '在' 意思不清"
+      "Keeping English question word order.",
+      "Putting ma in a sentence that already has a question word.",
+      "Using shenme when zenme or na li is needed."
     ],
     "repair_feedback": {
-      "word_order": "在 + 地方 + 有 + 東西"
+      "word_order": "Keep Chinese statement word order; put the question word in the answer slot.",
+      "meaning": "Use ma for yes/no questions, not with shenme/na li/zenme questions.",
+      "practice": "Turn three statements into questions without moving the subject and verb."
     },
     "drill_examples": [
       {
@@ -2942,12 +3020,14 @@
       "'___壞了，可以幫我___嗎？'"
     ],
     "common_error_patterns": [
-      "用 '破了' 說機器故障",
-      "'壞了' 放在主語前面"
+      "Using le with every past-time sentence even when the sentence only describes a state.",
+      "Putting le immediately after the subject instead of after the completed verb phrase.",
+      "Forgetting a clear time word when the learner wants to emphasize completed action."
     ],
     "repair_feedback": {
-      "word_order": "東西 + 壞了 / 不能用了",
-      "vs_pole": "'壞了'=broken，'破了'=torn/punctured"
+      "word_order": "Put the time expression before the verb phrase, then put le after the completed action/object.",
+      "meaning": "Use le for a bounded completed event, not just because English uses past tense.",
+      "practice": "Repair one past-tense English sentence by deciding first: completed event or background state?"
     },
     "drill_examples": [
       {
@@ -3026,12 +3106,14 @@
       "'不好意思，麻煩你___'"
     ],
     "common_error_patterns": [
-      "只用 '請' 但沒說要做什麼",
-      "'麻煩你' 和 '謝謝' 一起用"
+      "Choosing lai/qu from English perspective instead of speaker location.",
+      "Forgetting the direction complement after the main verb.",
+      "Using bring/take English one-to-one without checking movement direction."
     ],
     "repair_feedback": {
-      "word_order": "請/麻煩你 + 動詞 + 受詞",
-      "politeness": "'麻煩你' 比 '請' 更有禮貌"
+      "word_order": "Verb + direction complement shows movement toward or away from the speaker/reference point.",
+      "meaning": "First choose the reference point; then choose lai or qu.",
+      "practice": "Describe moving one object toward you and one object away from you."
     },
     "drill_examples": [
       {
@@ -3108,12 +3190,14 @@
       "'我什麼時候可以___？'"
     ],
     "common_error_patterns": [
-      "'什麼時候' 和 '幾點' 不分",
-      "'什麼時候' 放在動詞後面"
+      "Keeping English question word order.",
+      "Putting ma in a sentence that already has a question word.",
+      "Using shenme when zenme or na li is needed."
     ],
     "repair_feedback": {
-      "word_order": "什麼時候 + 可以 + 動詞？",
-      "vs_jidian": "'什麼時候'=when (general)，'幾點'=what time"
+      "word_order": "Keep Chinese statement word order; put the question word in the answer slot.",
+      "meaning": "Use ma for yes/no questions, not with shenme/na li/zenme questions.",
+      "practice": "Turn three statements into questions without moving the subject and verb."
     },
     "drill_examples": [
       {
@@ -3184,12 +3268,14 @@
       "'我可能沒辦法___'"
     ],
     "common_error_patterns": [
-      "'可能' 和 '可以' 混淆",
-      "'可能' 放在動詞後面"
+      "Keeping English question word order.",
+      "Putting ma in a sentence that already has a question word.",
+      "Using shenme when zenme or na li is needed."
     ],
     "repair_feedback": {
-      "word_order": "可能 + 句子",
-      "vs_keyi": "'可能'=maybe，'可以'=can"
+      "word_order": "Keep Chinese statement word order; put the question word in the answer slot.",
+      "meaning": "Use ma for yes/no questions, not with shenme/na li/zenme questions.",
+      "practice": "Turn three statements into questions without moving the subject and verb."
     },
     "drill_examples": [
       {
@@ -3240,13 +3326,18 @@
       "把陳述句改成問句"
     ],
     "production_drills": [
-      "用這個句型說你自己的經驗"
+      "用這個句型說你自己的經驗",
+      "Make a two-line exchange where another person responds naturally."
     ],
     "common_error_patterns": [
-      "詞序錯誤"
+      "Keeping English question word order.",
+      "Putting ma in a sentence that already has a question word.",
+      "Using shenme when zenme or na li is needed."
     ],
     "repair_feedback": {
-      "word_order": "注意詞序"
+      "word_order": "Keep Chinese statement word order; put the question word in the answer slot.",
+      "meaning": "Use ma for yes/no questions, not with shenme/na li/zenme questions.",
+      "practice": "Turn three statements into questions without moving the subject and verb."
     }
   },
   {
@@ -3314,12 +3405,14 @@
       "'昨天發生了___'"
     ],
     "common_error_patterns": [
-      "'發生' 用於計畫好的事",
-      "忘了加 '了'"
+      "Using le with every past-time sentence even when the sentence only describes a state.",
+      "Putting le immediately after the subject instead of after the completed verb phrase.",
+      "Forgetting a clear time word when the learner wants to emphasize completed action."
     ],
     "repair_feedback": {
-      "word_order": "發生了 + 事情 / 事情 + 發生了",
-      "usage": "'發生'=happen unexpectedly"
+      "word_order": "Put the time expression before the verb phrase, then put le after the completed action/object.",
+      "meaning": "Use le for a bounded completed event, not just because English uses past tense.",
+      "practice": "Repair one past-tense English sentence by deciding first: completed event or background state?"
     },
     "drill_examples": [
       {
@@ -3396,12 +3489,14 @@
       "'我本來___，結果___'"
     ],
     "common_error_patterns": [
-      "'結果' 用於預期的結果",
-      "混淆 '結果' 和 '所以'"
+      "Using le with every past-time sentence even when the sentence only describes a state.",
+      "Putting le immediately after the subject instead of after the completed verb phrase.",
+      "Forgetting a clear time word when the learner wants to emphasize completed action."
     ],
     "repair_feedback": {
-      "word_order": "句子，結果 + 結果",
-      "vs_suoyi": "'結果'=as it turned out，'所以'=therefore"
+      "word_order": "Put the time expression before the verb phrase, then put le after the completed action/object.",
+      "meaning": "Use le for a bounded completed event, not just because English uses past tense.",
+      "practice": "Repair one past-tense English sentence by deciding first: completed event or background state?"
     },
     "drill_examples": [
       {
@@ -3474,11 +3569,14 @@
       "'因為___，所以___'"
     ],
     "common_error_patterns": [
-      "'所以' 放在 '因為' 前面",
-      "口語中只用 '因為' 忘了 '所以'"
+      "Using yinwei without a clear result clause.",
+      "Putting suoyi before the reason instead of before the result.",
+      "Translating English because too literally and making a fragment."
     ],
     "repair_feedback": {
-      "word_order": "因為 + 原因，所以 + 結果"
+      "word_order": "Use yinwei + reason, suoyi + result. In short answers, the reason alone can be enough.",
+      "meaning": "Make sure the listener can hear both cause and result.",
+      "practice": "Answer why questions with one short reason and one full yinwei...suoyi... sentence."
     },
     "drill_examples": [
       {
@@ -3557,12 +3655,14 @@
       "'可以幫我___嗎？'"
     ],
     "common_error_patterns": [
-      "'幫' 和 '給' 混淆",
-      "'幫我' 放在動詞後面"
+      "Forgetting jiu in the result clause after ruguo.",
+      "Putting ruguo in both clauses.",
+      "Using English if word order and losing the result marker."
     ],
     "repair_feedback": {
-      "word_order": "幫 + 人 + 動詞 + 受詞",
-      "vs_gei": "'幫'=help/for，'給'=give"
+      "word_order": "Use ruguo + condition, jiu + result when the result follows naturally.",
+      "meaning": "The first clause sets the condition; the second clause says what will happen.",
+      "practice": "Repair two English if sentences into ruguo...jiu... Chinese order."
     },
     "drill_examples": [
       {
@@ -3639,12 +3739,14 @@
       "'我需要___，你可以___嗎？'"
     ],
     "common_error_patterns": [
-      "'需要' 用於小事情太正式",
-      "'需要' 後面直接加動詞忘了 '要'"
+      "Choosing lai/qu from English perspective instead of speaker location.",
+      "Forgetting the direction complement after the main verb.",
+      "Using bring/take English one-to-one without checking movement direction."
     ],
     "repair_feedback": {
-      "word_order": "需要 + 名詞/動詞",
-      "formality": "需要比想要更正式"
+      "word_order": "Verb + direction complement shows movement toward or away from the speaker/reference point.",
+      "meaning": "First choose the reference point; then choose lai or qu.",
+      "practice": "Describe moving one object toward you and one object away from you."
     },
     "drill_examples": [
       {
@@ -3717,11 +3819,14 @@
       "'不好意思，可以幫我___嗎？'"
     ],
     "common_error_patterns": [
-      "忘了 '嗎'",
-      "'可以' 放在 '幫我' 後面"
+      "Keeping English question word order.",
+      "Putting ma in a sentence that already has a question word.",
+      "Using shenme when zenme or na li is needed."
     ],
     "repair_feedback": {
-      "word_order": "可以 + 幫我 + 動詞 + 嗎？"
+      "word_order": "Keep Chinese statement word order; put the question word in the answer slot.",
+      "meaning": "Use ma for yes/no questions, not with shenme/na li/zenme questions.",
+      "practice": "Turn three statements into questions without moving the subject and verb."
     },
     "drill_examples": [
       {
@@ -3801,12 +3906,14 @@
       "'我想___，可是___'"
     ],
     "common_error_patterns": [
-      "'想' 和 '要' 的心理強度不分",
-      "'想' 放在受詞後面"
+      "Translating English word order directly into Chinese.",
+      "Using the new pattern where a simpler older pattern would be more natural.",
+      "Forgetting the function word that makes the pattern work."
     ],
     "repair_feedback": {
-      "word_order": "主語 + 想 + 動詞",
-      "vs_yao": "'想'=would like，'要'=want/need"
+      "word_order": "Say the core Chinese frame first, then fill in subject, time, verb, and object.",
+      "meaning": "Choose the pattern by meaning: time, reason, contrast, comparison, condition, or result.",
+      "practice": "Make one controlled sentence, one question, and one short answer with this pattern."
     },
     "drill_examples": [
       {
@@ -3882,12 +3989,14 @@
       "'這個有問題，可以___嗎？'"
     ],
     "common_error_patterns": [
-      "用 '有問題' 直接說人（不禮貌）",
-      "'有問題' 放在主語前面"
+      "Keeping English question word order.",
+      "Putting ma in a sentence that already has a question word.",
+      "Using shenme when zenme or na li is needed."
     ],
     "repair_feedback": {
-      "word_order": "東西 + 有問題",
-      "politeness": "說人有問題不禮貌，說事情有問題OK"
+      "word_order": "Keep Chinese statement word order; put the question word in the answer slot.",
+      "meaning": "Use ma for yes/no questions, not with shenme/na li/zenme questions.",
+      "practice": "Turn three statements into questions without moving the subject and verb."
     },
     "drill_examples": [
       {
@@ -3959,12 +4068,14 @@
       "'可以換___嗎？'"
     ],
     "common_error_patterns": [
-      "用 '改' 而非 '換'",
-      "'換' 放在受詞後面"
+      "Forgetting jiu in the result clause after ruguo.",
+      "Putting ruguo in both clauses.",
+      "Using English if word order and losing the result marker."
     ],
     "repair_feedback": {
-      "word_order": "可以 + 換 + 受詞 + 嗎？",
-      "vs_gai": "'換'=exchange，'改'=change/modify"
+      "word_order": "Use ruguo + condition, jiu + result when the result follows naturally.",
+      "meaning": "The first clause sets the condition; the second clause says what will happen.",
+      "practice": "Repair two English if sentences into ruguo...jiu... Chinese order."
     },
     "drill_examples": [
       {
@@ -4044,12 +4155,14 @@
       "'我想預約___'"
     ],
     "common_error_patterns": [
-      "用 '訂' 而非 '預約'",
-      "忘了加 '了' 表示已預約"
+      "Keeping English question word order.",
+      "Putting ma in a sentence that already has a question word.",
+      "Using shenme when zenme or na li is needed."
     ],
     "repair_feedback": {
-      "word_order": "預約 + 了 + 時間",
-      "vs_ding": "'預約'=reserve time，'訂'=order/buy"
+      "word_order": "Keep Chinese statement word order; put the question word in the answer slot.",
+      "meaning": "Use ma for yes/no questions, not with shenme/na li/zenme questions.",
+      "practice": "Turn three statements into questions without moving the subject and verb."
     },
     "drill_examples": [
       {
@@ -4127,11 +4240,14 @@
       "'我想改時間，可以改到___嗎？'"
     ],
     "common_error_patterns": [
-      "用 '換' 而非 '改'",
-      "'改到' 後面忘了新時間"
+      "Forgetting jiu in the result clause after ruguo.",
+      "Putting ruguo in both clauses.",
+      "Using English if word order and losing the result marker."
     ],
     "repair_feedback": {
-      "word_order": "改 + 時間 + 了 / 改到 + 新時間"
+      "word_order": "Use ruguo + condition, jiu + result when the result follows naturally.",
+      "meaning": "The first clause sets the condition; the second clause says what will happen.",
+      "practice": "Repair two English if sentences into ruguo...jiu... Chinese order."
     },
     "drill_examples": [
       {
@@ -4203,12 +4319,14 @@
       "'我想確認一下___'"
     ],
     "common_error_patterns": [
-      "不用 '一下' 語氣太硬",
-      "'確認' 放在受詞後面"
+      "Choosing lai/qu from English perspective instead of speaker location.",
+      "Forgetting the direction complement after the main verb.",
+      "Using bring/take English one-to-one without checking movement direction."
     ],
     "repair_feedback": {
-      "word_order": "確認 + 一下 + 資訊",
-      "softener": "加 '一下' 讓語氣更溫和"
+      "word_order": "Verb + direction complement shows movement toward or away from the speaker/reference point.",
+      "meaning": "First choose the reference point; then choose lai or qu.",
+      "practice": "Describe moving one object toward you and one object away from you."
     },
     "drill_examples": [
       {
@@ -4288,12 +4406,14 @@
       "'你應該___'"
     ],
     "common_error_patterns": [
-      "用 '必須' 而非 '應該'（太強）",
-      "'應該' 放在動詞後面"
+      "Using yinwei without a clear result clause.",
+      "Putting suoyi before the reason instead of before the result.",
+      "Translating English because too literally and making a fragment."
     ],
     "repair_feedback": {
-      "word_order": "主語 + 應該 + 動詞",
-      "vs_bixu": "'應該'=should，'必須'=must"
+      "word_order": "Use yinwei + reason, suoyi + result. In short answers, the reason alone can be enough.",
+      "meaning": "Make sure the listener can hear both cause and result.",
+      "practice": "Answer why questions with one short reason and one full yinwei...suoyi... sentence."
     },
     "drill_examples": [
       {
@@ -4370,12 +4490,14 @@
       "'你需要帶___'"
     ],
     "common_error_patterns": [
-      "'需要' 放在動詞後面",
-      "'需要' 和 '想要' 混淆"
+      "Using English order: A is more adjective than B.",
+      "Adding hen before the adjective in a bi comparison.",
+      "Forgetting that bu ru reverses the comparison direction."
     ],
     "repair_feedback": {
-      "word_order": "需要 + 動詞/名詞",
-      "vs_xiangyao": "'需要'=need，'想要'=want"
+      "word_order": "Use A bi B adjective. Do not add hen before the comparison adjective.",
+      "meaning": "Check which item is stronger, faster, cheaper, or preferred before choosing bi or bu ru.",
+      "practice": "Make one comparison about price, one about distance, and one about preference."
     },
     "drill_examples": [
       {
@@ -4448,12 +4570,14 @@
       "'你必須___'"
     ],
     "common_error_patterns": [
-      "一般場合用 '必須' 太強硬",
-      "'必須' 放在受詞後面"
+      "Choosing lai/qu from English perspective instead of speaker location.",
+      "Forgetting the direction complement after the main verb.",
+      "Using bring/take English one-to-one without checking movement direction."
     ],
     "repair_feedback": {
-      "word_order": "必須 + 動詞",
-      "strength": "'必須' 是最強的說法，沒有選擇"
+      "word_order": "Verb + direction complement shows movement toward or away from the speaker/reference point.",
+      "meaning": "First choose the reference point; then choose lai or qu.",
+      "practice": "Describe moving one object toward you and one object away from you."
     },
     "drill_examples": [
       {
@@ -4533,11 +4657,14 @@
       "'如果___，我就___'"
     ],
     "common_error_patterns": [
-      "'就' 放在 '如果' 前面",
-      "忘了 '就' 句子不完整"
+      "Using le instead of guo for life experience.",
+      "Putting guo at the end of the sentence instead of right after the verb.",
+      "Forgetting mei/mei you in negative experience sentences."
     ],
     "repair_feedback": {
-      "word_order": "如果 + 條件，就 + 結果"
+      "word_order": "Place guo directly after the verb: qu guo, chi guo, kan guo.",
+      "meaning": "Use guo for whether an experience has happened before; use le for a completed event at a specific time.",
+      "practice": "Ask three Have you ever...? questions, then answer one with never."
     },
     "drill_examples": [
       {
@@ -4614,12 +4741,14 @@
       "'快點，不然___'"
     ],
     "common_error_patterns": [
-      "'不然' 放在建議前面口氣不對",
-      "混淆 '不然' 和 '但是'"
+      "Using le with every past-time sentence even when the sentence only describes a state.",
+      "Putting le immediately after the subject instead of after the completed verb phrase.",
+      "Forgetting a clear time word when the learner wants to emphasize completed action."
     ],
     "repair_feedback": {
-      "word_order": "建議/陳述，不然 + 替代方案",
-      "vs_danshi": "'不然'=otherwise，'但是'=but"
+      "word_order": "Put the time expression before the verb phrase, then put le after the completed action/object.",
+      "meaning": "Use le for a bounded completed event, not just because English uses past tense.",
+      "practice": "Repair one past-tense English sentence by deciding first: completed event or background state?"
     },
     "drill_examples": [
       {
@@ -4690,11 +4819,14 @@
       "'我可能___'"
     ],
     "common_error_patterns": [
-      "'可能' 放在動詞後面",
-      "混淆 '可能' 和 '可以'"
+      "Keeping English question word order.",
+      "Putting ma in a sentence that already has a question word.",
+      "Using shenme when zenme or na li is needed."
     ],
     "repair_feedback": {
-      "word_order": "可能 + 句子 / 可能會 + 動詞"
+      "word_order": "Keep Chinese statement word order; put the question word in the answer slot.",
+      "meaning": "Use ma for yes/no questions, not with shenme/na li/zenme questions.",
+      "practice": "Turn three statements into questions without moving the subject and verb."
     },
     "drill_examples": [
       {
@@ -4774,11 +4906,14 @@
       "'雖然___，可是___'"
     ],
     "common_error_patterns": [
-      "只用 '雖然' 沒有 '可是'",
-      "英文影響：只說 '但是' 不用 '雖然'"
+      "Using suiran without danshi/ke shi in the contrast clause.",
+      "Putting the contrast before the concession by accident.",
+      "Overusing but in English translation and losing the Chinese pair."
     ],
     "repair_feedback": {
-      "word_order": "雖然 + 讓步，可是 + 轉折"
+      "word_order": "Use suiran + concession, danshi/ke shi + contrast.",
+      "meaning": "The second clause carries the speaker?s main point.",
+      "practice": "Say one sentence about a problem, then contrast it with what you can still do."
     },
     "drill_examples": [
       {
@@ -4855,12 +4990,14 @@
       "'我想___，可是___'"
     ],
     "common_error_patterns": [
-      "'可是' 放在句首不連接前句",
-      "'可是' 和 '還是' 混淆"
+      "Using suiran without danshi/ke shi in the contrast clause.",
+      "Putting the contrast before the concession by accident.",
+      "Overusing but in English translation and losing the Chinese pair."
     ],
     "repair_feedback": {
-      "word_order": "句子A，可是 + 句子B",
-      "vs_haishi": "'可是'=but，'還是'=still"
+      "word_order": "Use suiran + concession, danshi/ke shi + contrast.",
+      "meaning": "The second clause carries the speaker?s main point.",
+      "practice": "Say one sentence about a problem, then contrast it with what you can still do."
     },
     "drill_examples": [
       {
@@ -4932,12 +5069,14 @@
       "'雖然___，我還是___'"
     ],
     "common_error_patterns": [
-      "'還是' 和 '或者' 混淆",
-      "'還是' 放在主語後面"
+      "Using le instead of guo for life experience.",
+      "Putting guo at the end of the sentence instead of right after the verb.",
+      "Forgetting mei/mei you in negative experience sentences."
     ],
     "repair_feedback": {
-      "word_order": "主語 + 還是 + 動詞",
-      "vs_huozhe": "'還是'=still，'或者'=or"
+      "word_order": "Place guo directly after the verb: qu guo, chi guo, kan guo.",
+      "meaning": "Use guo for whether an experience has happened before; use le for a completed event at a specific time.",
+      "practice": "Ask three Have you ever...? questions, then answer one with never."
     },
     "drill_examples": [
       {
@@ -5015,11 +5154,14 @@
       "'請你___來'，'他___去了'"
     ],
     "common_error_patterns": [
-      "方向搞反（以說話者為中心）",
-      "'來/去' 放在動詞前面"
+      "Choosing lai/qu from English perspective instead of speaker location.",
+      "Forgetting the direction complement after the main verb.",
+      "Using bring/take English one-to-one without checking movement direction."
     ],
     "repair_feedback": {
-      "word_order": "動詞 + 來（向我）/ 動詞 + 去（離我）"
+      "word_order": "Verb + direction complement shows movement toward or away from the speaker/reference point.",
+      "meaning": "First choose the reference point; then choose lai or qu.",
+      "practice": "Describe moving one object toward you and one object away from you."
     },
     "drill_examples": [
       {
@@ -5096,11 +5238,14 @@
       "'請___'，'他___了'"
     ],
     "common_error_patterns": [
-      "'進/出' 放在 '來/去' 後面",
-      "方向以對方為中心而非自己"
+      "Choosing lai/qu from English perspective instead of speaker location.",
+      "Forgetting the direction complement after the main verb.",
+      "Using bring/take English one-to-one without checking movement direction."
     ],
     "repair_feedback": {
-      "word_order": "動詞 + 進/出 + 來/去"
+      "word_order": "Verb + direction complement shows movement toward or away from the speaker/reference point.",
+      "meaning": "First choose the reference point; then choose lai or qu.",
+      "practice": "Describe moving one object toward you and one object away from you."
     },
     "drill_examples": [
       {
@@ -5172,12 +5317,14 @@
       "'請你___'，'我___'"
     ],
     "common_error_patterns": [
-      "'上/下' 放在 '來/去' 後面",
-      "上下車不用 '來/去'"
+      "Choosing lai/qu from English perspective instead of speaker location.",
+      "Forgetting the direction complement after the main verb.",
+      "Using bring/take English one-to-one without checking movement direction."
     ],
     "repair_feedback": {
-      "word_order": "動詞 + 上/下 + 來/去",
-      "vehicle": "上車/下車不用來/去"
+      "word_order": "Verb + direction complement shows movement toward or away from the speaker/reference point.",
+      "meaning": "First choose the reference point; then choose lai or qu.",
+      "practice": "Describe moving one object toward you and one object away from you."
     },
     "drill_examples": [
       {
@@ -5255,12 +5402,14 @@
       "'你可以帶___來嗎？'"
     ],
     "common_error_patterns": [
-      "'帶' 和 '拿' 混淆",
-      "'帶來/帶去' 方向搞反"
+      "Choosing lai/qu from English perspective instead of speaker location.",
+      "Forgetting the direction complement after the main verb.",
+      "Using bring/take English one-to-one without checking movement direction."
     ],
     "repair_feedback": {
-      "word_order": "帶 + 受詞 + 來/去",
-      "vs_na": "'帶'=bring/take along，'拿'=hold/carry"
+      "word_order": "Verb + direction complement shows movement toward or away from the speaker/reference point.",
+      "meaning": "First choose the reference point; then choose lai or qu.",
+      "practice": "Describe moving one object toward you and one object away from you."
     },
     "drill_examples": [
       {
@@ -5336,12 +5485,14 @@
       "'我要___了'"
     ],
     "common_error_patterns": [
-      "'回來/回去' 和 '回家' 混淆",
-      "方向搞反"
+      "Choosing lai/qu from English perspective instead of speaker location.",
+      "Forgetting the direction complement after the main verb.",
+      "Using bring/take English one-to-one without checking movement direction."
     ],
     "repair_feedback": {
-      "word_order": "回 + 來/去",
-      "vs_huijia": "'回來'=come back HERE，'回家'=go home"
+      "word_order": "Verb + direction complement shows movement toward or away from the speaker/reference point.",
+      "meaning": "First choose the reference point; then choose lai or qu.",
+      "practice": "Describe moving one object toward you and one object away from you."
     },
     "drill_examples": [
       {
@@ -5412,11 +5563,14 @@
       "'幫我把___拿來'"
     ],
     "common_error_patterns": [
-      "'拿' 和 '帶' 混用",
-      "方向補語省略"
+      "Forgetting jiu in the result clause after ruguo.",
+      "Putting ruguo in both clauses.",
+      "Using English if word order and losing the result marker."
     ],
     "repair_feedback": {
-      "word_order": "拿 + 受詞 + 來/去"
+      "word_order": "Use ruguo + condition, jiu + result when the result follows naturally.",
+      "meaning": "The first clause sets the condition; the second clause says what will happen.",
+      "practice": "Repair two English if sentences into ruguo...jiu... Chinese order."
     },
     "drill_examples": [
       {
@@ -5467,13 +5621,18 @@
       "把陳述句改成問句"
     ],
     "production_drills": [
-      "用這個句型說你自己的經驗"
+      "用這個句型說你自己的經驗",
+      "Make a two-line exchange where another person responds naturally."
     ],
     "common_error_patterns": [
-      "詞序錯誤"
+      "Keeping English question word order.",
+      "Putting ma in a sentence that already has a question word.",
+      "Using shenme when zenme or na li is needed."
     ],
     "repair_feedback": {
-      "word_order": "注意詞序"
+      "word_order": "Keep Chinese statement word order; put the question word in the answer slot.",
+      "meaning": "Use ma for yes/no questions, not with shenme/na li/zenme questions.",
+      "practice": "Turn three statements into questions without moving the subject and verb."
     }
   },
   {
@@ -5541,12 +5700,14 @@
       "'我在___上班'"
     ],
     "common_error_patterns": [
-      "用 '工作' 沒有 '在'",
-      "'上班' 和 '工作' 不分"
+      "Forgetting jiu in the result clause after ruguo.",
+      "Putting ruguo in both clauses.",
+      "Using English if word order and losing the result marker."
     ],
     "repair_feedback": {
-      "word_order": "在 + 地方 + 上班/工作",
-      "vs_gongzuo": "'上班'=go to work，'工作'=work (general)"
+      "word_order": "Use ruguo + condition, jiu + result when the result follows naturally.",
+      "meaning": "The first clause sets the condition; the second clause says what will happen.",
+      "practice": "Repair two English if sentences into ruguo...jiu... Chinese order."
     },
     "drill_examples": [
       {
@@ -5623,12 +5784,14 @@
       "'我當___'"
     ],
     "common_error_patterns": [
-      "用 '是' 不用 '當'",
-      "'當' 放在職業後面"
+      "Keeping English question word order.",
+      "Putting ma in a sentence that already has a question word.",
+      "Using shenme when zenme or na li is needed."
     ],
     "repair_feedback": {
-      "word_order": "當 + 職業",
-      "vs_shi": "'當'=serve as，'是'=is"
+      "word_order": "Keep Chinese statement word order; put the question word in the answer slot.",
+      "meaning": "Use ma for yes/no questions, not with shenme/na li/zenme questions.",
+      "practice": "Turn three statements into questions without moving the subject and verb."
     },
     "drill_examples": [
       {
@@ -5699,12 +5862,14 @@
       "'你最近___？'"
     ],
     "common_error_patterns": [
-      "說 '你是忙'",
-      "'忙不忙' 語序錯誤"
+      "Using bei for neutral English passive sentences where Chinese would use active voice.",
+      "Forgetting the agent or result after bei.",
+      "Using bei for positive routine events too often."
     ],
     "repair_feedback": {
-      "word_order": "主語 + 忙不忙？",
-      "no_shi": "不要加 '是'"
+      "word_order": "Use object + bei + agent + verb when the affected object is the focus.",
+      "meaning": "Bei often sounds negative or affected; use it carefully.",
+      "practice": "Decide if an event should be active, ba, or bei before translating."
     },
     "drill_examples": [
       {
@@ -5783,11 +5948,14 @@
       "'快要___了'"
     ],
     "common_error_patterns": [
-      "忘了句尾 '了'",
-      "'快要' 和 '就要' 語法不同"
+      "Using le with every past-time sentence even when the sentence only describes a state.",
+      "Putting le immediately after the subject instead of after the completed verb phrase.",
+      "Forgetting a clear time word when the learner wants to emphasize completed action."
     ],
     "repair_feedback": {
-      "word_order": "快要/就要 + 動詞 + 了"
+      "word_order": "Put the time expression before the verb phrase, then put le after the completed action/object.",
+      "meaning": "Use le for a bounded completed event, not just because English uses past tense.",
+      "practice": "Repair one past-tense English sentence by deciding first: completed event or background state?"
     },
     "drill_examples": [
       {
@@ -5864,12 +6032,14 @@
       "'不好意思，我在___'"
     ],
     "common_error_patterns": [
-      "說 '我在會議'",
-      "'開會' 和 '會議' 混淆"
+      "Using zai with stative verbs like need, like, or know.",
+      "Forgetting that zai marks an action happening right now.",
+      "Putting zai after the verb."
     ],
     "repair_feedback": {
-      "word_order": "在 + 開會",
-      "vs_huiyi": "'開會'=have a meeting，'會議'=meeting (noun)"
+      "word_order": "Put zai or zhengzai before the action verb.",
+      "meaning": "Use progressive markers only for ongoing actions, not states or preferences.",
+      "practice": "Sort five verbs into action-now or state, then make progressive sentences only for actions."
     },
     "drill_examples": [
       {
@@ -5941,12 +6111,14 @@
       "'我還沒___'"
     ],
     "common_error_patterns": [
-      "用 '沒有' 而非 '還沒'",
-      "'還沒' 放在主語前面"
+      "Keeping English question word order.",
+      "Putting ma in a sentence that already has a question word.",
+      "Using shenme when zenme or na li is needed."
     ],
     "repair_feedback": {
-      "word_order": "主語 + 還沒 + 動詞",
-      "vs_meiyou": "'還沒'=not yet，'沒有'=didn't"
+      "word_order": "Keep Chinese statement word order; put the question word in the answer slot.",
+      "meaning": "Use ma for yes/no questions, not with shenme/na li/zenme questions.",
+      "practice": "Turn three statements into questions without moving the subject and verb."
     },
     "drill_examples": [
       {
@@ -6025,12 +6197,14 @@
       "'我覺得___'"
     ],
     "common_error_patterns": [
-      "用 '我認為' 在輕鬆場合",
-      "'覺得' 放在受詞後面"
+      "Keeping English question word order.",
+      "Putting ma in a sentence that already has a question word.",
+      "Using shenme when zenme or na li is needed."
     ],
     "repair_feedback": {
-      "word_order": "主語 + 覺得 + 句子",
-      "vs_renwei": "'覺得'=feel/think (casual)，'認為'=believe (formal)"
+      "word_order": "Keep Chinese statement word order; put the question word in the answer slot.",
+      "meaning": "Use ma for yes/no questions, not with shenme/na li/zenme questions.",
+      "practice": "Turn three statements into questions without moving the subject and verb."
     },
     "drill_examples": [
       {
@@ -6107,12 +6281,14 @@
       "'我認為___'"
     ],
     "common_error_patterns": [
-      "輕鬆聊天用 '我認為' 太正式",
-      "'認為' 放在受詞後面"
+      "Keeping English question word order.",
+      "Putting ma in a sentence that already has a question word.",
+      "Using shenme when zenme or na li is needed."
     ],
     "repair_feedback": {
-      "word_order": "主語 + 認為 + 句子",
-      "formality": "開會用 '認為'，聊天用 '覺得'"
+      "word_order": "Keep Chinese statement word order; put the question word in the answer slot.",
+      "meaning": "Use ma for yes/no questions, not with shenme/na li/zenme questions.",
+      "practice": "Turn three statements into questions without moving the subject and verb."
     },
     "drill_examples": [
       {
@@ -6184,12 +6360,14 @@
       "'___不一定___'"
     ],
     "common_error_patterns": [
-      "混淆 '不一定' 和 '一定不'",
-      "'不一定' 放在名詞前面"
+      "Keeping English question word order.",
+      "Putting ma in a sentence that already has a question word.",
+      "Using shenme when zenme or na li is needed."
     ],
     "repair_feedback": {
-      "word_order": "主語 + 不一定 + 句子",
-      "vs_yidingbu": "'不一定'=not necessarily，'一定不'=definitely not"
+      "word_order": "Keep Chinese statement word order; put the question word in the answer slot.",
+      "meaning": "Use ma for yes/no questions, not with shenme/na li/zenme questions.",
+      "practice": "Turn three statements into questions without moving the subject and verb."
     },
     "drill_examples": [
       {
@@ -6267,12 +6445,14 @@
       "'畢竟___'"
     ],
     "common_error_patterns": [
-      "小事情用 '畢竟' 太重",
-      "'畢竟' 放在句子中間不順"
+      "Using yinwei without a clear result clause.",
+      "Putting suoyi before the reason instead of before the result.",
+      "Translating English because too literally and making a fragment."
     ],
     "repair_feedback": {
-      "word_order": "畢竟 + 根本原因",
-      "usage": "'畢竟'=after all，用在最重要的原因"
+      "word_order": "Use yinwei + reason, suoyi + result. In short answers, the reason alone can be enough.",
+      "meaning": "Make sure the listener can hear both cause and result.",
+      "practice": "Answer why questions with one short reason and one full yinwei...suoyi... sentence."
     },
     "drill_examples": [
       {
@@ -6348,12 +6528,14 @@
       "'比如___'"
     ],
     "common_error_patterns": [
-      "口語用 '例如' 太書面",
-      "'比如' 放在句子尾"
+      "Translating English word order directly into Chinese.",
+      "Using the new pattern where a simpler older pattern would be more natural.",
+      "Forgetting the function word that makes the pattern work."
     ],
     "repair_feedback": {
-      "word_order": "陳述，比如 + 例子",
-      "formality": "'比如'=casual，'例如'=formal"
+      "word_order": "Say the core Chinese frame first, then fill in subject, time, verb, and object.",
+      "meaning": "Choose the pattern by meaning: time, reason, contrast, comparison, condition, or result.",
+      "practice": "Make one controlled sentence, one question, and one short answer with this pattern."
     },
     "drill_examples": [
       {
@@ -6425,11 +6607,14 @@
       "'___，所以___'"
     ],
     "common_error_patterns": [
-      "'所以' 放在句首沒前文",
-      "'所以' 和 '因為' 只用一個"
+      "Using yinwei without a clear result clause.",
+      "Putting suoyi before the reason instead of before the result.",
+      "Translating English because too literally and making a fragment."
     ],
     "repair_feedback": {
-      "word_order": "原因，所以 + 結論"
+      "word_order": "Use yinwei + reason, suoyi + result. In short answers, the reason alone can be enough.",
+      "meaning": "Make sure the listener can hear both cause and result.",
+      "practice": "Answer why questions with one short reason and one full yinwei...suoyi... sentence."
     },
     "drill_examples": [
       {
@@ -6480,13 +6665,18 @@
       "把陳述句改成問句"
     ],
     "production_drills": [
-      "用這個句型說你自己的經驗"
+      "用這個句型說你自己的經驗",
+      "Make a two-line exchange where another person responds naturally."
     ],
     "common_error_patterns": [
-      "詞序錯誤"
+      "Keeping English question word order.",
+      "Putting ma in a sentence that already has a question word.",
+      "Using shenme when zenme or na li is needed."
     ],
     "repair_feedback": {
-      "word_order": "注意詞序"
+      "word_order": "Keep Chinese statement word order; put the question word in the answer slot.",
+      "meaning": "Use ma for yes/no questions, not with shenme/na li/zenme questions.",
+      "practice": "Turn three statements into questions without moving the subject and verb."
     }
   },
   {
@@ -6557,11 +6747,14 @@
       "'我本來___，可是後來___，結果___'"
     ],
     "common_error_patterns": [
-      "'本來' 用於未來計畫",
-      "三個連接詞只用一個"
+      "Using ba when the object is not specific or already known.",
+      "Forgetting the result after the verb in a ba sentence.",
+      "Keeping normal SVO order and adding ba without changing structure."
     ],
     "repair_feedback": {
-      "word_order": "本來 + 原計畫，可是後來 + 變化，結果 + 結局"
+      "word_order": "Use subject + ba + known object + verb + result/complement.",
+      "meaning": "Ba highlights what happens to a specific object.",
+      "practice": "Repair one normal SVO sentence by making the object specific and adding a result."
     },
     "drill_examples": [
       {
@@ -6639,11 +6832,14 @@
       "'因為___，結果___'"
     ],
     "common_error_patterns": [
-      "'結果' 用於預期中的事",
-      "因果關係不明顯用 '結果'"
+      "Using yinwei without a clear result clause.",
+      "Putting suoyi before the reason instead of before the result.",
+      "Translating English because too literally and making a fragment."
     ],
     "repair_feedback": {
-      "word_order": "因為 + 原因，結果 + 意外結局"
+      "word_order": "Use yinwei + reason, suoyi + result. In short answers, the reason alone can be enough.",
+      "meaning": "Make sure the listener can hear both cause and result.",
+      "practice": "Answer why questions with one short reason and one full yinwei...suoyi... sentence."
     },
     "drill_examples": [
       {
@@ -6711,12 +6907,14 @@
       "'___，結果我覺得___'"
     ],
     "common_error_patterns": [
-      "感受和事件沒有連接詞",
-      "用 '是' 描述感受"
+      "Keeping English question word order.",
+      "Putting ma in a sentence that already has a question word.",
+      "Using shenme when zenme or na li is needed."
     ],
     "repair_feedback": {
-      "word_order": "事件，結果/所以 + 我覺得 + 感受",
-      "no_shi": "不要說 '我是開心'"
+      "word_order": "Keep Chinese statement word order; put the question word in the answer slot.",
+      "meaning": "Use ma for yes/no questions, not with shenme/na li/zenme questions.",
+      "practice": "Turn three statements into questions without moving the subject and verb."
     },
     "drill_examples": [
       {
@@ -6784,12 +6982,14 @@
       "說完一段後問對方 '然後呢？'"
     ],
     "common_error_patterns": [
-      "'然後呢' 語氣不耐煩",
-      "連續太多次 '然後呢'"
+      "Choosing lai/qu from English perspective instead of speaker location.",
+      "Forgetting the direction complement after the main verb.",
+      "Using bring/take English one-to-one without checking movement direction."
     ],
     "repair_feedback": {
-      "usage": "'然後呢？'=and then? (showing interest)",
-      "tone": "語調上揚表示好奇，下降表示不耐煩"
+      "word_order": "Verb + direction complement shows movement toward or away from the speaker/reference point.",
+      "meaning": "First choose the reference point; then choose lai or qu.",
+      "practice": "Describe moving one object toward you and one object away from you."
     },
     "drill_examples": [
       {
@@ -6860,12 +7060,14 @@
       "'後來我才知道___'"
     ],
     "common_error_patterns": [
-      "'後來' 用於未來",
-      "混淆 '後來' 和 '以後'"
+      "Using le with every past-time sentence even when the sentence only describes a state.",
+      "Putting le immediately after the subject instead of after the completed verb phrase.",
+      "Forgetting a clear time word when the learner wants to emphasize completed action."
     ],
     "repair_feedback": {
-      "word_order": "後來 + 句子",
-      "vs_yihou": "'後來'=later (past)，'以後'=after (future)"
+      "word_order": "Put the time expression before the verb phrase, then put le after the completed action/object.",
+      "meaning": "Use le for a bounded completed event, not just because English uses past tense.",
+      "practice": "Repair one past-tense English sentence by deciding first: completed event or background state?"
     },
     "drill_examples": [
       {
@@ -6936,12 +7138,14 @@
       "'你的意思是___，是不是？'"
     ],
     "common_error_patterns": [
-      "聽不懂卻不確認",
-      "用 '什麼？' 而非 '你的意思是'"
+      "Keeping English question word order.",
+      "Putting ma in a sentence that already has a question word.",
+      "Using shenme when zenme or na li is needed."
     ],
     "repair_feedback": {
-      "word_order": "你的意思是 + 理解 + ？",
-      "politeness": "比 '什麼？' 禮貌很多"
+      "word_order": "Keep Chinese statement word order; put the question word in the answer slot.",
+      "meaning": "Use ma for yes/no questions, not with shenme/na li/zenme questions.",
+      "practice": "Turn three statements into questions without moving the subject and verb."
     },
     "drill_examples": [
       {
@@ -7014,12 +7218,14 @@
       "'那個...我想問你___'"
     ],
     "common_error_patterns": [
-      "正式場合用太多 '那個'",
-      "每句都加 '那個'"
+      "Keeping English question word order.",
+      "Putting ma in a sentence that already has a question word.",
+      "Using shenme when zenme or na li is needed."
     ],
     "repair_feedback": {
-      "usage": "思考停頓時用，不要太頻繁",
-      "pronunciation": "口語常發音成 'nèige'"
+      "word_order": "Keep Chinese statement word order; put the question word in the answer slot.",
+      "meaning": "Use ma for yes/no questions, not with shenme/na li/zenme questions.",
+      "practice": "Turn three statements into questions without moving the subject and verb."
     },
     "drill_examples": [
       {
@@ -7090,12 +7296,14 @@
       "'對對對！我也___'"
     ],
     "common_error_patterns": [
-      "'對對對' 用於正式場合",
-      "語氣敷衍"
+      "Keeping English question word order.",
+      "Putting ma in a sentence that already has a question word.",
+      "Using shenme when zenme or na li is needed."
     ],
     "repair_feedback": {
-      "usage": "三個 '對'=非常同意",
-      "formality": "朋友之間用，正式場合用 '是的'"
+      "word_order": "Keep Chinese statement word order; put the question word in the answer slot.",
+      "meaning": "Use ma for yes/no questions, not with shenme/na li/zenme questions.",
+      "practice": "Turn three statements into questions without moving the subject and verb."
     },
     "drill_examples": [
       {
@@ -7166,12 +7374,14 @@
       "'我是說___，不是___'"
     ],
     "common_error_patterns": [
-      "用 '我是說' 完全改變原意",
-      "'我是說' 语气不耐煩"
+      "Forgetting jiu in the result clause after ruguo.",
+      "Putting ruguo in both clauses.",
+      "Using English if word order and losing the result marker."
     ],
     "repair_feedback": {
-      "word_order": "我是說 + 澄清",
-      "usage": "用於修正而非否認"
+      "word_order": "Use ruguo + condition, jiu + result when the result follows naturally.",
+      "meaning": "The first clause sets the condition; the second clause says what will happen.",
+      "practice": "Repair two English if sentences into ruguo...jiu... Chinese order."
     },
     "drill_examples": [
       {
@@ -7251,11 +7461,14 @@
       "'不好意思，可以___嗎？'"
     ],
     "common_error_patterns": [
-      "只說 '什麼？' 不禮貌",
-      "'再說一次' 不加 '可以' 太直接"
+      "Using zai with stative verbs like need, like, or know.",
+      "Forgetting that zai marks an action happening right now.",
+      "Putting zai after the verb."
     ],
     "repair_feedback": {
-      "politeness": "一定要加 '不好意思' 或 '可以...嗎？'"
+      "word_order": "Put zai or zhengzai before the action verb.",
+      "meaning": "Use progressive markers only for ongoing actions, not states or preferences.",
+      "practice": "Sort five verbs into action-now or state, then make progressive sentences only for actions."
     },
     "drill_examples": [
       {
@@ -7332,12 +7545,14 @@
       "'不好意思，可以___嗎？'"
     ],
     "common_error_patterns": [
-      "說 '太慢了' 像批評",
-      "'慢一點' 放在動詞前面"
+      "Keeping English question word order.",
+      "Putting ma in a sentence that already has a question word.",
+      "Using shenme when zenme or na li is needed."
     ],
     "repair_feedback": {
-      "word_order": "說 + 慢一點",
-      "politeness": "說 '可以說慢一點嗎' 而非 '太慢了'"
+      "word_order": "Keep Chinese statement word order; put the question word in the answer slot.",
+      "meaning": "Use ma for yes/no questions, not with shenme/na li/zenme questions.",
+      "practice": "Turn three statements into questions without moving the subject and verb."
     },
     "drill_examples": [
       {
@@ -7408,11 +7623,14 @@
       "'你的意思是___，是不是？'"
     ],
     "common_error_patterns": [
-      "用 '是嗎' 而非 '是不是'",
-      "'是不是' 放在句子中間不順"
+      "Forgetting jiu in the result clause after ruguo.",
+      "Putting ruguo in both clauses.",
+      "Using English if word order and losing the result marker."
     ],
     "repair_feedback": {
-      "word_order": "陳述 + 是不是？"
+      "word_order": "Use ruguo + condition, jiu + result when the result follows naturally.",
+      "meaning": "The first clause sets the condition; the second clause says what will happen.",
+      "practice": "Repair two English if sentences into ruguo...jiu... Chinese order."
     },
     "drill_examples": [
       {
@@ -7490,11 +7708,14 @@
       "寫一個 '請隨手關門' 的標誌"
     ],
     "common_error_patterns": [
-      "'請勿' 和 '不要' 在標誌上混用",
-      "標誌用口語"
+      "Translating English word order directly into Chinese.",
+      "Using the new pattern where a simpler older pattern would be more natural.",
+      "Forgetting the function word that makes the pattern work."
     ],
     "repair_feedback": {
-      "formality": "標誌用 '請' 和 '請勿'，不用 '不要'"
+      "word_order": "Say the core Chinese frame first, then fill in subject, time, verb, and object.",
+      "meaning": "Choose the pattern by meaning: time, reason, contrast, comparison, condition, or result.",
+      "practice": "Make one controlled sentence, one question, and one short answer with this pattern."
     },
     "drill_examples": [
       {
@@ -7570,11 +7791,14 @@
       "說明哪裡可以看到這些標誌"
     ],
     "common_error_patterns": [
-      "口語用 '禁止' 太強硬",
-      "混淆 '不可' 和 '不能'"
+      "Translating English word order directly into Chinese.",
+      "Using the new pattern where a simpler older pattern would be more natural.",
+      "Forgetting the function word that makes the pattern work."
     ],
     "repair_feedback": {
-      "strength": "'禁止'=strictly prohibited，'請勿'=please don't"
+      "word_order": "Say the core Chinese frame first, then fill in subject, time, verb, and object.",
+      "meaning": "Choose the pattern by meaning: time, reason, contrast, comparison, condition, or result.",
+      "practice": "Make one controlled sentence, one question, and one short answer with this pattern."
     },
     "drill_examples": [
       {
@@ -7644,11 +7868,14 @@
       "寫三個常用的標誌"
     ],
     "common_error_patterns": [
-      "標誌太長太囉嗦",
-      "標誌用口語詞彙"
+      "Forgetting jiu in the result clause after ruguo.",
+      "Putting ruguo in both clauses.",
+      "Using English if word order and losing the result marker."
     ],
     "repair_feedback": {
-      "style": "標誌=簡短、直接，常用 '請' 和 '禁止'"
+      "word_order": "Use ruguo + condition, jiu + result when the result follows naturally.",
+      "meaning": "The first clause sets the condition; the second clause says what will happen.",
+      "practice": "Repair two English if sentences into ruguo...jiu... Chinese order."
     },
     "drill_examples": [
       {
@@ -7726,12 +7953,14 @@
       "打電話給朋友開頭說 '喂，我是___'"
     ],
     "common_error_patterns": [
-      "面對面說 '喂' 不禮貌",
-      "'喂' 語調不對"
+      "Choosing lai/qu from English perspective instead of speaker location.",
+      "Forgetting the direction complement after the main verb.",
+      "Using bring/take English one-to-one without checking movement direction."
     ],
     "repair_feedback": {
-      "usage": "'喂' 只在電話中使用",
-      "tone": "語調上揚=等待回應，下降=確認"
+      "word_order": "Verb + direction complement shows movement toward or away from the speaker/reference point.",
+      "meaning": "First choose the reference point; then choose lai or qu.",
+      "practice": "Describe moving one object toward you and one object away from you."
     },
     "drill_examples": [
       {
@@ -7808,11 +8037,14 @@
       "'喂，請問___在嗎？'"
     ],
     "common_error_patterns": [
-      "直接說 '___在嗎？' 不加 '請問'",
-      "忘了自我介紹"
+      "Keeping English question word order.",
+      "Putting ma in a sentence that already has a question word.",
+      "Using shenme when zenme or na li is needed."
     ],
     "repair_feedback": {
-      "politeness": "打電話一定要先說 '請問' 再找人"
+      "word_order": "Keep Chinese statement word order; put the question word in the answer slot.",
+      "meaning": "Use ma for yes/no questions, not with shenme/na li/zenme questions.",
+      "practice": "Turn three statements into questions without moving the subject and verb."
     },
     "drill_examples": [
       {
@@ -7883,12 +8115,14 @@
       "'喂，我想找___'"
     ],
     "common_error_patterns": [
-      "用 '我想跟___說話' 太囉嗦",
-      "'找' 和 '找' 混淆"
+      "Using suiran without danshi/ke shi in the contrast clause.",
+      "Putting the contrast before the concession by accident.",
+      "Overusing but in English translation and losing the Chinese pair."
     ],
     "repair_feedback": {
-      "word_order": "我想找 + 人",
-      "usage": "'找' on phone = 'speak with'"
+      "word_order": "Use suiran + concession, danshi/ke shi + contrast.",
+      "meaning": "The second clause carries the speaker?s main point.",
+      "practice": "Say one sentence about a problem, then contrast it with what you can still do."
     },
     "drill_examples": [
       {
@@ -7965,11 +8199,14 @@
       "'知道了'，'收到了'"
     ],
     "common_error_patterns": [
-      "訊息太正式像寫信",
-      "省略太多對方不懂"
+      "Using le with every past-time sentence even when the sentence only describes a state.",
+      "Putting le immediately after the subject instead of after the completed verb phrase.",
+      "Forgetting a clear time word when the learner wants to emphasize completed action."
     ],
     "repair_feedback": {
-      "style": "訊息可以省略主語，但要清楚"
+      "word_order": "Put the time expression before the verb phrase, then put le after the completed action/object.",
+      "meaning": "Use le for a bounded completed event, not just because English uses past tense.",
+      "practice": "Repair one past-tense English sentence by deciding first: completed event or background state?"
     },
     "drill_examples": [
       {
@@ -8044,11 +8281,14 @@
       "'好，明天見！'"
     ],
     "common_error_patterns": [
-      "正式場合只用 '好' 太隨便",
-      "用 '了解' 對朋友太冷淡"
+      "Choosing lai/qu from English perspective instead of speaker location.",
+      "Forgetting the direction complement after the main verb.",
+      "Using bring/take English one-to-one without checking movement direction."
     ],
     "repair_feedback": {
-      "usage": "'好'=OK (casual)，'沒問題'=no problem，'了解'=understood (formal)"
+      "word_order": "Verb + direction complement shows movement toward or away from the speaker/reference point.",
+      "meaning": "First choose the reference point; then choose lai or qu.",
+      "practice": "Describe moving one object toward you and one object away from you."
     },
     "drill_examples": [
       {
@@ -8119,11 +8359,14 @@
       "'不好意思，現在才回'"
     ],
     "common_error_patterns": [
-      "只說 '抱歉' 不解釋",
-      "'不好意思' 後面沒有說明"
+      "Keeping English question word order.",
+      "Putting ma in a sentence that already has a question word.",
+      "Using shenme when zenme or na li is needed."
     ],
     "repair_feedback": {
-      "word_order": "不好意思/抱歉 + 說明"
+      "word_order": "Keep Chinese statement word order; put the question word in the answer slot.",
+      "meaning": "Use ma for yes/no questions, not with shenme/na li/zenme questions.",
+      "practice": "Turn three statements into questions without moving the subject and verb."
     },
     "drill_examples": [
       {
@@ -8197,11 +8440,14 @@
       "'那家很多人，不然___？'"
     ],
     "common_error_patterns": [
-      "'不然' 口氣像否定對方",
-      "'不然' 放在建議後面"
+      "Keeping English question word order.",
+      "Putting ma in a sentence that already has a question word.",
+      "Using shenme when zenme or na li is needed."
     ],
     "repair_feedback": {
-      "word_order": "陳述，不然 + 替代建議"
+      "word_order": "Keep Chinese statement word order; put the question word in the answer slot.",
+      "meaning": "Use ma for yes/no questions, not with shenme/na li/zenme questions.",
+      "practice": "Turn three statements into questions without moving the subject and verb."
     },
     "drill_examples": [
       {
@@ -8272,11 +8518,14 @@
       "'要不我們去___？'"
     ],
     "common_error_patterns": [
-      "正式場合用 '要不' 太隨便",
-      "'要不' 和 '不然' 混淆"
+      "Choosing lai/qu from English perspective instead of speaker location.",
+      "Forgetting the direction complement after the main verb.",
+      "Using bring/take English one-to-one without checking movement direction."
     ],
     "repair_feedback": {
-      "usage": "'要不'=how about (casual)，'要不要'=do you want"
+      "word_order": "Verb + direction complement shows movement toward or away from the speaker/reference point.",
+      "meaning": "First choose the reference point; then choose lai or qu.",
+      "practice": "Describe moving one object toward you and one object away from you."
     },
     "drill_examples": [
       {
@@ -8347,12 +8596,14 @@
       "'好，那就___'"
     ],
     "common_error_patterns": [
-      "沒討論就用 '就這樣吧'（像命令）",
-      "少了 '吧' 語氣太硬"
+      "Forgetting jiu in the result clause after ruguo.",
+      "Putting ruguo in both clauses.",
+      "Using English if word order and losing the result marker."
     ],
     "repair_feedback": {
-      "word_order": "那就這樣 + 吧/了",
-      "softener": "一定要加 '吧' 或 '了'"
+      "word_order": "Use ruguo + condition, jiu + result when the result follows naturally.",
+      "meaning": "The first clause sets the condition; the second clause says what will happen.",
+      "practice": "Repair two English if sentences into ruguo...jiu... Chinese order."
     },
     "drill_examples": [
       {
@@ -8433,11 +8684,14 @@
       "'我來台灣___了'"
     ],
     "common_error_patterns": [
-      "用 '多久' 忘了 '了'",
-      "回答時用 '月' 而不用 '年'"
+      "Using le with every past-time sentence even when the sentence only describes a state.",
+      "Putting le immediately after the subject instead of after the completed verb phrase.",
+      "Forgetting a clear time word when the learner wants to emphasize completed action."
     ],
     "repair_feedback": {
-      "word_order": "來 + 地方 + 多久 + 了"
+      "word_order": "Put the time expression before the verb phrase, then put le after the completed action/object.",
+      "meaning": "Use le for a bounded completed event, not just because English uses past tense.",
+      "practice": "Repair one past-tense English sentence by deciding first: completed event or background state?"
     },
     "drill_examples": [
       {
@@ -8514,12 +8768,14 @@
       "'為了___，我___'"
     ],
     "common_error_patterns": [
-      "'為了' 和 '因為' 混淆",
-      "'為了' 放在動詞後面"
+      "Forgetting jiu in the result clause after ruguo.",
+      "Putting ruguo in both clauses.",
+      "Using English if word order and losing the result marker."
     ],
     "repair_feedback": {
-      "word_order": "為了 + 目的，+ 行動",
-      "vs_yinwei": "'為了'=for the sake of，'因為'=because"
+      "word_order": "Use ruguo + condition, jiu + result when the result follows naturally.",
+      "meaning": "The first clause sets the condition; the second clause says what will happen.",
+      "practice": "Repair two English if sentences into ruguo...jiu... Chinese order."
     },
     "drill_examples": [
       {
@@ -8591,12 +8847,14 @@
       "'我在學___，可是___'"
     ],
     "common_error_patterns": [
-      "說 '我在學習中文' 太正式",
-      "'學好' 和 '學會' 混淆"
+      "Using zai with stative verbs like need, like, or know.",
+      "Forgetting that zai marks an action happening right now.",
+      "Putting zai after the verb."
     ],
     "repair_feedback": {
-      "word_order": "在學 + 語言",
-      "formality": "口語說 '在學中文'，不用 '學習'"
+      "word_order": "Put zai or zhengzai before the action verb.",
+      "meaning": "Use progressive markers only for ongoing actions, not states or preferences.",
+      "practice": "Sort five verbs into action-now or state, then make progressive sentences only for actions."
     },
     "drill_examples": [
       {
@@ -8674,11 +8932,14 @@
       "'對了，你___？'"
     ],
     "common_error_patterns": [
-      "每句話都用 '對了'",
-      "完全不相關的話題用 '對了' 太突兀"
+      "Using le with every past-time sentence even when the sentence only describes a state.",
+      "Putting le immediately after the subject instead of after the completed verb phrase.",
+      "Forgetting a clear time word when the learner wants to emphasize completed action."
     ],
     "repair_feedback": {
-      "usage": "'對了'=by the way，用在相關但不同的話題"
+      "word_order": "Put the time expression before the verb phrase, then put le after the completed action/object.",
+      "meaning": "Use le for a bounded completed event, not just because English uses past tense.",
+      "practice": "Repair one past-tense English sentence by deciding first: completed event or background state?"
     },
     "drill_examples": [
       {
@@ -8754,11 +9015,14 @@
       "'我是___人，你呢？'"
     ],
     "common_error_patterns": [
-      "每句都用 '你呢'",
-      "'你呢' 語調不對"
+      "Choosing lai/qu from English perspective instead of speaker location.",
+      "Forgetting the direction complement after the main verb.",
+      "Using bring/take English one-to-one without checking movement direction."
     ],
     "repair_feedback": {
-      "usage": "答完後一定要反問，這是台灣對話習慣"
+      "word_order": "Verb + direction complement shows movement toward or away from the speaker/reference point.",
+      "meaning": "First choose the reference point; then choose lai or qu.",
+      "practice": "Describe moving one object toward you and one object away from you."
     },
     "drill_examples": [
       {
@@ -8829,11 +9093,14 @@
       "'順便問一下，___？'"
     ],
     "common_error_patterns": [
-      "完全無關的事用 '順便'",
-      "'順便' 放在動詞後面"
+      "Choosing lai/qu from English perspective instead of speaker location.",
+      "Forgetting the direction complement after the main verb.",
+      "Using bring/take English one-to-one without checking movement direction."
     ],
     "repair_feedback": {
-      "word_order": "順便 + 動詞 / 順便問一下 + 問題"
+      "word_order": "Verb + direction complement shows movement toward or away from the speaker/reference point.",
+      "meaning": "First choose the reference point; then choose lai or qu.",
+      "practice": "Describe moving one object toward you and one object away from you."
     },
     "drill_examples": [
       {
@@ -8884,13 +9151,18 @@
       "把陳述句改成問句"
     ],
     "production_drills": [
-      "用這個句型說你自己的經驗"
+      "用這個句型說你自己的經驗",
+      "Make a two-line exchange where another person responds naturally."
     ],
     "common_error_patterns": [
-      "詞序錯誤"
+      "Keeping English question word order.",
+      "Putting ma in a sentence that already has a question word.",
+      "Using shenme when zenme or na li is needed."
     ],
     "repair_feedback": {
-      "word_order": "注意詞序"
+      "word_order": "Keep Chinese statement word order; put the question word in the answer slot.",
+      "meaning": "Use ma for yes/no questions, not with shenme/na li/zenme questions.",
+      "practice": "Turn three statements into questions without moving the subject and verb."
     }
   },
   {
@@ -8929,13 +9201,18 @@
       "把陳述句改成問句"
     ],
     "production_drills": [
-      "用這個句型說你自己的經驗"
+      "用這個句型說你自己的經驗",
+      "Make a two-line exchange where another person responds naturally."
     ],
     "common_error_patterns": [
-      "詞序錯誤"
+      "Keeping English question word order.",
+      "Putting ma in a sentence that already has a question word.",
+      "Using shenme when zenme or na li is needed."
     ],
     "repair_feedback": {
-      "word_order": "注意詞序"
+      "word_order": "Keep Chinese statement word order; put the question word in the answer slot.",
+      "meaning": "Use ma for yes/no questions, not with shenme/na li/zenme questions.",
+      "practice": "Turn three statements into questions without moving the subject and verb."
     }
   },
   {
@@ -8974,13 +9251,18 @@
       "把陳述句改成問句"
     ],
     "production_drills": [
-      "用這個句型說你自己的經驗"
+      "用這個句型說你自己的經驗",
+      "Make a two-line exchange where another person responds naturally."
     ],
     "common_error_patterns": [
-      "詞序錯誤"
+      "Keeping English question word order.",
+      "Putting ma in a sentence that already has a question word.",
+      "Using shenme when zenme or na li is needed."
     ],
     "repair_feedback": {
-      "word_order": "注意詞序"
+      "word_order": "Keep Chinese statement word order; put the question word in the answer slot.",
+      "meaning": "Use ma for yes/no questions, not with shenme/na li/zenme questions.",
+      "practice": "Turn three statements into questions without moving the subject and verb."
     }
   },
   {
@@ -9019,13 +9301,18 @@
       "把陳述句改成問句"
     ],
     "production_drills": [
-      "用這個句型說你自己的經驗"
+      "用這個句型說你自己的經驗",
+      "Make a two-line exchange where another person responds naturally."
     ],
     "common_error_patterns": [
-      "詞序錯誤"
+      "Keeping English question word order.",
+      "Putting ma in a sentence that already has a question word.",
+      "Using shenme when zenme or na li is needed."
     ],
     "repair_feedback": {
-      "word_order": "注意詞序"
+      "word_order": "Keep Chinese statement word order; put the question word in the answer slot.",
+      "meaning": "Use ma for yes/no questions, not with shenme/na li/zenme questions.",
+      "practice": "Turn three statements into questions without moving the subject and verb."
     }
   },
   {
@@ -9064,13 +9351,18 @@
       "把陳述句改成問句"
     ],
     "production_drills": [
-      "用這個句型說你自己的經驗"
+      "用這個句型說你自己的經驗",
+      "Make a two-line exchange where another person responds naturally."
     ],
     "common_error_patterns": [
-      "詞序錯誤"
+      "Keeping English question word order.",
+      "Putting ma in a sentence that already has a question word.",
+      "Using shenme when zenme or na li is needed."
     ],
     "repair_feedback": {
-      "word_order": "注意詞序"
+      "word_order": "Keep Chinese statement word order; put the question word in the answer slot.",
+      "meaning": "Use ma for yes/no questions, not with shenme/na li/zenme questions.",
+      "practice": "Turn three statements into questions without moving the subject and verb."
     }
   }
 ]
