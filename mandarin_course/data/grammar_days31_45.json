@@ -201,7 +201,7 @@
       {
         "text": "我想要一杯中杯的紅茶，半糖。",
         "pinyin": "Wǒ xiǎng yào yī bēi zhōng bēi de hóng chá, bàn táng.",
-        "translation_en": "I want a medium black tea, half sugar."
+        "translation_en": "I would like a medium black tea, half sugar."
       },
       {
         "text": "我想要一杯豆漿，內用。",
@@ -211,7 +211,7 @@
       {
         "text": "我想要一杯冰的拿鐵，少冰。",
         "pinyin": "Wǒ xiǎng yào yī bēi bīng de ná tiě, shǎo bīng.",
-        "translation_en": "I want an iced latte, less ice."
+        "translation_en": "I would like an iced latte, light ice."
       }
     ],
     "drill_examples": [
@@ -224,7 +224,7 @@
       {
         "text": "我想要一杯中杯的紅茶，半糖。",
         "pinyin": "Wǒ xiǎng yào yī bēi zhōng bēi de hóng chá, bàn táng.",
-        "translation_en": "I want a medium black tea, half sugar.",
+        "translation_en": "I would like a medium black tea, half sugar.",
         "translation_ko": "중간 크기의 홍차 반당을 원합니다."
       },
       {
@@ -369,7 +369,7 @@
       {
         "text": "不好意思，我要一杯紅茶，半糖少冰。",
         "pinyin": "Bù hǎo yì si, wǒ yào yī bēi hóng chá, bàn táng shǎo bīng.",
-        "translation_en": "Excuse me, I'd like a black tea, half sugar and less ice."
+        "translation_en": "Excuse me, I'd like a black tea, half sugar and light ice."
       },
       {
         "text": "不好意思，請問這個價錢是多少？",
@@ -393,7 +393,7 @@
       {
         "text": "不好意思，我要一杯紅茶，半糖少冰。",
         "pinyin": "Bù hǎo yì si, wǒ yào yī bēi hóng chá, bàn táng shǎo bīng.",
-        "translation_en": "Excuse me, I'd like a black tea, half sugar and less ice.",
+        "translation_en": "Excuse me, I'd like a black tea, half sugar and light ice.",
         "translation_ko": "실례합니다, 홍차 한 잔에 당도 반, 얼음 적게 주세요."
       }
     ],
@@ -2452,7 +2452,7 @@
       "When you want to reduce but not eliminate a seasoning (use '少' instead)."
     ],
     "pragmatic_notes": "In Taiwan, it's common to say '不要辣' for no spice, especially at noodle shops or night markets. Using '不要' is direct but polite in this context.",
-    "word_order_notes": "Place '不要' before the food item and the seasoning. For example: '不要辣牛肉麵' (no spicy beef noodles).",
+    "word_order_notes": "Place '不要' before the food item and the seasoning. For example: '不要辣牛肉麵' (not spicy beef noodles).",
     "english_contrast": "In English, you might say 'no spice' or 'without spice'. In Chinese, the structure is '不要 + food + seasoning'.",
     "korean_contrast": "In Korean, you might say '매운 거 빼 주세요' (please remove the spicy). In Chinese, '不要' is more direct.",
     "example_ids": [

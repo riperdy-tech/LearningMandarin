@@ -22,7 +22,7 @@
         "text": "你好，我想要一杯小杯的拿鐵，少冰。",
         "pinyin": "Nǐ hǎo, wǒ xiǎng yào yī bēi xiǎo bēi de ná tiě, shǎo bīng.",
         "pinyin_numeric": "Ni3 hao3, wo3 xiang3 yao4 yi1 bei1 xiao3 bei1 de na2 tie3, shao3 bing1.",
-        "translation_en": "Hello, I'd like a small latte with less ice.",
+        "translation_en": "Hello, I'd like a small latte with light ice.",
         "translation_ko": "안녕하세요, 작은 사이즈 라떼 한 잔에 얼음 적게 해 주세요.",
         "token_ids": [],
         "audio_id": "AUD_DLG_D31_01_T2"
@@ -33,7 +33,7 @@
         "text": "好的，拿鐵小杯少冰。請問還要別的嗎？",
         "pinyin": "Hǎo de, ná tiě xiǎo bēi shǎo bīng. Qǐng wèn hái yào bié de ma?",
         "pinyin_numeric": "Hao3 de, na2 tie3 xiao3 bei1 shao3 bing1. Qing3 wen4 hai2 yao4 bie2 de ma?",
-        "translation_en": "Okay, small latte with less ice. Anything else?",
+        "translation_en": "Okay, small latte with light ice. Anything else?",
         "translation_ko": "네, 작은 라떼에 얼음 적게요. 다른 것도 필요하신가요?",
         "token_ids": [],
         "audio_id": "AUD_DLG_D31_01_T3"
@@ -88,7 +88,7 @@
         "question_en": "What did the customer order?",
         "question_ko": "손님은 무엇을 주문했습니까?",
         "options_en": [
-          "Small latte with less ice",
+          "Small latte with light ice",
           "Medium latte with no ice",
           "Large latte with ice"
         ],
@@ -99,11 +99,11 @@
         ],
         "correct_index": 0,
         "id": "DLG_D31_01_Q1",
-        "answer_en": "Small latte with less ice"
+        "answer_en": "Small latte with light ice"
       }
     ],
     "shadowing_prompt": "Repeat each line after the speaker, focusing on tone and rhythm.",
-    "free_response_prompt": "Pretend you are the customer. Order a small latte with less ice for takeout.",
+    "free_response_prompt": "Pretend you are the customer. Order a small latte with light ice for takeout.",
     "speaker_roles": [
       "店員",
       "客人"
@@ -177,7 +177,7 @@
         "text": "好，我要一杯中杯紅茶，少冰，半糖。",
         "pinyin": "Hǎo, wǒ yào yī bēi zhōng bēi hóng chá, shǎo bīng, bàn táng.",
         "pinyin_numeric": "Hao3, wo3 yao4 yi1 bei1 zhong1 bei1 hong2 cha2, shao3 bing1, ban4 tang2.",
-        "translation_en": "Okay, I'll have a medium black tea, less ice, half sugar.",
+        "translation_en": "Okay, I'll have a medium black tea, light ice, half sugar.",
         "translation_ko": "네, 중간 사이즈 홍차 한 잔에 얼음 적게, 반 당으로 주세요.",
         "token_ids": [],
         "audio_id": "AUD_DLG_D31_02_T5"
@@ -188,7 +188,7 @@
         "text": "好的，中杯紅茶少冰半糖，總共二十五塊。",
         "pinyin": "Hǎo de, zhōng bēi hóng chá shǎo bīng bàn táng, zǒng gòng èr shí wǔ kuài.",
         "pinyin_numeric": "Hao3 de, zhong1 bei1 hong2 cha2 shao3 bing1 ban4 tang2, zong3 gong4 er4 shi2 wu3 kuai4.",
-        "translation_en": "Okay, medium black tea with less ice and half sugar, total 25 dollars.",
+        "translation_en": "Okay, medium black tea with light ice and half sugar, total 25 dollars.",
         "translation_ko": "네, 중간 사이즈 홍차에 얼음 적게, 반 당, 총 25위안입니다.",
         "token_ids": [],
         "audio_id": "AUD_DLG_D31_02_T6"
@@ -214,7 +214,7 @@
       }
     ],
     "shadowing_prompt": "Repeat each line after the speaker, focusing on polite intonation.",
-    "free_response_prompt": "Pretend you are the customer. Ask for the price of a large black tea, then order a medium with less ice and half sugar.",
+    "free_response_prompt": "Pretend you are the customer. Ask for the price of a large black tea, then order a medium with light ice and half sugar.",
     "speaker_roles": [
       "客人",
       "店員"
@@ -410,7 +410,7 @@
         "text": "我要用信用卡付款。",
         "pinyin": "Wǒ yào yòng xìnyòngkǎ fùkuǎn.",
         "pinyin_numeric": "Wo3 yao4 yong4 xin4yong4ka3 fu4kuan3.",
-        "translation_en": "I want to pay by credit card.",
+        "translation_en": "I would like to pay by credit card.",
         "translation_ko": "신용카드로 결제할게요.",
         "token_ids": [
           "VOC_M1_002",
@@ -1371,7 +1371,7 @@
         "text": "我要一杯珍珠奶茶，半糖，少冰。",
         "pinyin": "Wǒ yào yī bēi zhēnzhū nǎichá, bàn táng, shǎo bīng.",
         "pinyin_numeric": "Wo3 yao4 yi1 bei1 zhen1 zhu1 nai3 cha2, ban4 tang2, shao3 bing1.",
-        "translation_en": "I'd like a bubble milk tea, half sugar, less ice.",
+        "translation_en": "I'd like a bubble milk tea, half sugar, light ice.",
         "translation_ko": "버블 밀크티 한 잔 주세요, 당도는 반, 얼음은 적게.",
         "token_ids": [
           "VOC_M1_002",
@@ -1471,7 +1471,7 @@
       }
     ],
     "shadowing_prompt": "Repeat each sentence after the speaker, paying attention to the tones.",
-    "free_response_prompt": "Pretend you are a customer. Order a bubble milk tea with half sugar and less ice, for takeaway.",
+    "free_response_prompt": "Pretend you are a customer. Order a bubble milk tea with half sugar and light ice, for takeaway.",
     "speaker_roles": [
       "店員",
       "客人"
@@ -1685,7 +1685,7 @@
         "text": "好的，炒飯不要辣。還要別的嗎？",
         "pinyin": "Hǎo de, chǎofàn bù yào là. Hái yào bié de ma?",
         "pinyin_numeric": "Hao3 de5, chao3fan4 bu4 yao4 la4. Hai2 yao4 bie2 de5 ma5?",
-        "translation_en": "Okay, fried rice with no spice. Anything else?",
+        "translation_en": "Okay, fried rice not spicy. Anything else?",
         "translation_ko": "네, 볶음밥 맵지 않게요. 다른 것 더 필요하세요?",
         "token_ids": [
           "VOC_M1_088",
@@ -1704,7 +1704,7 @@
         "text": "再一杯紅茶，少冰。",
         "pinyin": "Zài yī bēi hóngchá, shǎo bīng.",
         "pinyin_numeric": "Zai4 yi1 bei1 hong2cha2, shao3 bing1.",
-        "translation_en": "Also a cup of black tea, less ice.",
+        "translation_en": "Also a cup of black tea, light ice.",
         "translation_ko": "홍차 한 잔도 주세요, 얼음 적게요.",
         "token_ids": [
           "VOC_M1_134",
@@ -1753,7 +1753,7 @@
         "question_ko": "손님은 무엇을 주문했습니까?",
         "options_en": [
           "Fried rice with spicy",
-          "Fried rice no spicy and black tea",
+          "Fried rice, not spicy, and black tea",
           "Black tea only"
         ],
         "options_ko": [
@@ -1763,11 +1763,11 @@
         ],
         "correct_index": 1,
         "id": "DLG_D35_01_Q1",
-        "answer_en": "Fried rice no spicy and black tea"
+        "answer_en": "Fried rice, not spicy, and black tea"
       }
     ],
     "shadowing_prompt": "Repeat each line after the speaker, focusing on the tone of '不要辣' and '少冰'.",
-    "free_response_prompt": "Practice ordering a dish with a customization (e.g., no spicy, less salt) and a drink.",
+    "free_response_prompt": "Practice ordering a dish with a customization (e.g., not spicy, less salt) and a drink.",
     "speaker_roles": [
       "客人",
       "店員"
@@ -3245,7 +3245,7 @@
         "text": "大概十分鐘。你要去哪裡下車？",
         "pinyin": "Dà gài shí fēn zhōng. Nǐ yào qù nǎ lǐ xià chē?",
         "pinyin_numeric": "da4 gai4 shi2 fen1 zhong1. ni3 yao4 qu4 na3 li3 xia4 che1?",
-        "translation_en": "About ten minutes. Where do you want to get off?",
+        "translation_en": "About ten minutes. Where would you like to get off?",
         "translation_ko": "약 10분이에요. 어디서 내리실 건가요?",
         "token_ids": [
           "VOC_D38_039",
@@ -3479,7 +3479,7 @@
         "text": "沒關係，下一站是台北車站，你要在那裡下車嗎？",
         "pinyin": "Méi guānxi, xià yī zhàn shì Táiběi Chēzhàn, nǐ yào zài nàlǐ xià chē ma?",
         "pinyin_numeric": "mei2 guan1 xi5, xia4 yi1 zhan4 shi4 Tai2 bei3 Che1 zhan4, ni3 yao4 zai4 na4 li3 xia4 che1 ma5?",
-        "translation_en": "No problem. The next stop is Taipei Main Station. Do you want to get off there?",
+        "translation_en": "No problem. The next stop is Taipei Main Station. Would you like to get off there?",
         "translation_ko": "괜찮아요. 다음 역은 타이베이 역이에요. 거기서 내리실 건가요?",
         "token_ids": [
           "VOC_M1_080",
@@ -3932,7 +3932,7 @@
         "text": "我要一個三明治和一杯小杯熱拿鐵，內用。",
         "pinyin": "Wǒ yào yī ge sānmíngzhì hé yī bēi xiǎo bēi rè nátiě, nèiyòng.",
         "pinyin_numeric": "Wo3 yao4 yi1 ge san1ming2zhi4 he2 yi1 bei1 xiao3 bei1 re4 na2tie3, nei4yong4.",
-        "translation_en": "I want a sandwich and a small hot latte, for here.",
+        "translation_en": "I would like a sandwich and a small hot latte, for here.",
         "translation_ko": "샌드위치 하나랑 작은 컵 따뜻한 라떼 한 잔 주세요, 매장에서 먹을게요.",
         "token_ids": [
           "VOC_M1_002",
@@ -4153,7 +4153,7 @@
         "text": "你好，我想要一份滷肉飯和一杯珍珠奶茶，不要辣。",
         "pinyin": "Nǐ hǎo, wǒ xiǎng yào yī fèn lǔròufàn hé yī bēi zhēnzhū nǎichá, bù yào là.",
         "pinyin_numeric": "Ni3 hao3, wo3 xiang3 yao4 yi1 fen4 lu3rou4fan4 he2 yi1 bei1 zhen1zhu1 nai3cha2, bu4 yao4 la4.",
-        "translation_en": "Hello, I'd like one serving of braised pork rice and a bubble tea, with no spice.",
+        "translation_en": "Hello, I'd like one serving of braised pork rice and a bubble tea, not spicy.",
         "translation_ko": "안녕하세요, 루러우판 한 그릇과 버블 밀크티 한 잔 주세요, 맵지 않게 해주세요.",
         "token_ids": [
           "VOC_M1_001",
@@ -4174,7 +4174,7 @@
         "text": "好的，滷肉飯和珍珠奶茶。請問珍珠奶茶要正常甜嗎？",
         "pinyin": "Hǎo de, lǔròufàn hé zhēnzhū nǎichá. Qǐng wèn zhēnzhū nǎichá yào zhèngcháng tián ma?",
         "pinyin_numeric": "Hao3 de, lu3rou4fan4 he2 zhen1zhu1 nai3cha2. Qing3 wen4 zhen1zhu1 nai3cha2 yao4 zheng4chang2 tian2 ma?",
-        "translation_en": "Okay, braised pork rice and bubble milk tea. Would you like the bubble milk tea with normal sweetness?",
+        "translation_en": "Okay, braised pork rice and bubble milk tea. Would you like the bubble milk tea with regular sweetness?",
         "translation_ko": "네, 루러우판과 버블 밀크티입니다. 버블 밀크티는 일반 당도로 할까요?",
         "token_ids": [
           "VOC_M1_088",
@@ -4195,7 +4195,7 @@
         "text": "半糖就好，少冰。謝謝。",
         "pinyin": "Bàn táng jiù hǎo, shǎo bīng. Xièxie.",
         "pinyin_numeric": "Ban4 tang2 jiu4 hao3, shao3 bing1. Xie4xie.",
-        "translation_en": "Half sugar is fine, less ice. Thank you.",
+        "translation_en": "Half sugar is fine, light ice. Thank you.",
         "translation_ko": "반당으로 해주시고, 얼음 적게 넣어주세요. 감사합니다.",
         "token_ids": [
           "VOC_D31_027",
@@ -4232,7 +4232,7 @@
         "text": "好的。對了，我想問一下，這個週末你有空嗎？我們可以一起去夜市。",
         "pinyin": "Hǎo de. Duì le, wǒ xiǎng wèn yīxià, zhège zhōumò nǐ yǒu kòng ma? Wǒmen kěyǐ yīqǐ qù yèshì.",
         "pinyin_numeric": "Hao3 de. Dui4 le, wo3 xiang3 wen4 yi1xia4, zhe4ge zhou1mo4 ni3 you3 kong4 ma? Wo3men ke3yi3 yi1qi3 qu4 ye4shi4.",
-        "translation_en": "Okay. By the way, I want to ask, are you free this weekend? We can go to the night market together.",
+        "translation_en": "Okay. By the way, I would like to ask, are you free this weekend? We can go to the night market together.",
         "translation_ko": "네. 그런데, 이번 주말에 시간 있으세요? 같이 야시장에 갈 수 있어요.",
         "token_ids": [
           "VOC_M1_088",
@@ -4347,7 +4347,7 @@
         "question_en": "What sweetness did the customer choose for the bubble milk tea?",
         "question_ko": "손님은 버블 밀크티의 당도를 어떻게 선택했습니까?",
         "options_en": [
-          "Normal sweetness",
+          "Regular sweetness",
           "Half sugar",
           "Less sugar"
         ],
@@ -4755,7 +4755,7 @@
         "text": "原來是這樣。那你想喝什麼嗎？",
         "pinyin": "Yuánlái shì zhèyàng. Nà nǐ xiǎng hē shénme ma?",
         "pinyin_numeric": "Yuan2 lai2 shi4 zhe4 yang4. Na4 ni3 xiang3 he1 shen2 me5 ma5?",
-        "translation_en": "I see. Do you want to drink something?",
+        "translation_en": "I see. Would you like to drink something?",
         "translation_ko": "그렇군요. 그럼 뭘 마시고 싶어요?",
         "token_ids": [
           "VOC_M1_155",
@@ -4774,7 +4774,7 @@
         "text": "好，我想喝一杯紅茶，少冰。",
         "pinyin": "Hǎo, wǒ xiǎng hē yī bēi hóngchá, shǎo bīng.",
         "pinyin_numeric": "Hao3, wo3 xiang3 he1 yi1 bei1 hong2 cha2, shao3 bing1.",
-        "translation_en": "Okay, I'd like a cup of black tea, less ice.",
+        "translation_en": "Okay, I'd like a cup of black tea, light ice.",
         "translation_ko": "네, 홍차 한 잔에 얼음 적게 주세요.",
         "token_ids": [
           "VOC_M1_088",
@@ -5446,7 +5446,7 @@
         "text": "我想要黑色的，有中號嗎？",
         "pinyin": "Wǒ xiǎng yào hēisè de, yǒu zhōng hào ma?",
         "pinyin_numeric": "Wo3 xiang3 yao4 hei1se4 de, you3 zhong1 hao4 ma?",
-        "translation_en": "I want a black one. Do you have a medium size?",
+        "translation_en": "I would like a black one. Do you have a medium size?",
         "translation_ko": "검은색을 원하는데, 중간 사이즈가 있나요?",
         "token_ids": [
           "VOC_M1_002",
@@ -5749,7 +5749,7 @@
         "text": "我要小號的，有白色的嗎？",
         "pinyin": "Wǒ yào xiǎo hào de, yǒu báisè de ma?",
         "pinyin_numeric": "Wo3 yao4 xiao3 hao4 de, you3 bai2se4 de ma?",
-        "translation_en": "I want a small size. Do you have it in white?",
+        "translation_en": "I would like a small size. Do you have it in white?",
         "translation_ko": "작은 사이즈를 원하는데, 흰색이 있나요?",
         "token_ids": [
           "VOC_M1_002",
@@ -5922,7 +5922,7 @@
         "text": "我想喝一杯冰咖啡，你要不要也喝？",
         "pinyin": "Wǒ xiǎng hē yī bēi bīng kāfēi, nǐ yào bù yào yě hē?",
         "pinyin_numeric": "Wo3 xiang3 he1 yi1 bei1 bing1 ka1fei1, ni3 yao4 bu4 yao4 ye3 he1?",
-        "translation_en": "I want to drink an iced coffee, do you want one too?",
+        "translation_en": "I would like an iced coffee, do you want one too?",
         "translation_ko": "아이스 커피 한 잔 마시고 싶은데, 당신도 마실래요?",
         "token_ids": [
           "VOC_M1_002",

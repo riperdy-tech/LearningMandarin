@@ -3,6 +3,10 @@ import path from "node:path";
 
 const root = process.cwd();
 const readJson = (file) => JSON.parse(fs.readFileSync(path.join(root, file), "utf8"));
+const readJsonIfExists = (file) => {
+  const fullPath = path.join(root, file);
+  return fs.existsSync(fullPath) ? readJson(file) : [];
+};
 
 const sentences = [
   ...readJson("mandarin_course/data/sentences_month1.json"),
@@ -21,6 +25,16 @@ const lessons = [
 const dialogues = [
   ...readJson("mandarin_course/data/dialogues_days31_45.json"),
   ...readJson("mandarin_course/data/dialogues_days46_90.json")
+];
+const grammar = [
+  ...readJsonIfExists("mandarin_course/data/grammar_month1.json"),
+  ...readJson("mandarin_course/data/grammar_days31_45.json"),
+  ...readJson("mandarin_course/data/grammar_days46_90.json")
+];
+const speaking = [
+  ...readJsonIfExists("mandarin_course/data/speaking_month1.json"),
+  ...readJson("mandarin_course/data/speaking_days31_45.json"),
+  ...readJson("mandarin_course/data/speaking_days46_90.json")
 ];
 const vocab = [
   ...readJson("mandarin_course/data/vocab_month1.json"),
@@ -48,6 +62,29 @@ function checkPinyinNumeric(item, label) {
   }
 }
 
+function checkEnglishGloss(item, label) {
+  const gloss = item.translation_en ?? item.model_translation_en ?? item.answer_en ?? item.free_response_prompt;
+  if (typeof gloss !== "string") return;
+  if (/\b(no spicy|one beef noodles|less ice|with no spice)\b/i.test(gloss)) {
+    errors.push(`${label}: awkward English gloss "${gloss}"`);
+  }
+}
+
+function checkNestedEnglish(value, label) {
+  if (Array.isArray(value)) {
+    value.forEach((item, index) => checkNestedEnglish(item, `${label}[${index}]`));
+    return;
+  }
+  if (!value || typeof value !== "object") return;
+
+  checkEnglishGloss(value, value.id ? `${label}:${value.id}` : label);
+  for (const [key, child] of Object.entries(value)) {
+    if (child && typeof child === "object") {
+      checkNestedEnglish(child, `${label}.${key}`);
+    }
+  }
+}
+
 const bannedListeningPatterns = [
   "\u6211\u9700\u8981\u4e86", // 我需要了
   "\u4f60\u9700\u8981\u4e86\u55ce", // 你需要了嗎
@@ -66,6 +103,7 @@ const bannedListeningPatterns = [
 
 for (const item of listening) {
   checkPinyinNumeric(item, item.id);
+  checkEnglishGloss(item, item.id);
 
   for (const pattern of bannedListeningPatterns) {
     if (item.text?.includes(pattern)) {
@@ -81,15 +119,21 @@ for (const item of listening) {
 
 for (const sentence of sentences) {
   checkPinyinNumeric(sentence, sentence.id);
+  checkEnglishGloss(sentence, sentence.id);
 }
 
 for (const word of vocab) {
   checkPinyinNumeric(word, word.id);
+  checkEnglishGloss(word, word.id);
 }
 
 for (const audio of audioManifests) {
   checkPinyinNumeric(audio, `${audio.kind}:${audio.ref_id}`);
+  checkEnglishGloss(audio, `${audio.kind}:${audio.ref_id}`);
 }
+
+checkNestedEnglish(grammar, "grammar");
+checkNestedEnglish(speaking, "speaking");
 
 const sourceOrderJumps = [];
 for (let i = 1; i < lessons.length; i++) {
@@ -118,6 +162,7 @@ for (const [day, daySentences] of [...sentencesByDay.entries()].sort((a, b) => a
 for (const dialogue of dialogues) {
   for (const turn of dialogue.turns ?? []) {
     checkPinyinNumeric(turn, `${dialogue.id}/${turn.id}`);
+    checkEnglishGloss(turn, `${dialogue.id}/${turn.id}`);
     if (
       turn.speaker === "\u5e97\u54e1" && // 店員
       /(\u53ef\u4ee5\u5237\u5361\u55ce|\u6211\u5237\u5361|\u6211\u7528\u4fe1\u7528\u5361)/.test(turn.text ?? "")

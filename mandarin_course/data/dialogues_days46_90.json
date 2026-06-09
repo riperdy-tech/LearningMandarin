@@ -11434,7 +11434,7 @@
       }
     ],
     "shadowing_prompt": "Repeat each sentence, paying attention to 外帶, 帶回去, and 帶去.",
-    "free_response_prompt": "Practice ordering takeout: 'I want one beef noodle soup and a black tea to take out.'",
+    "free_response_prompt": "Practice ordering takeout: 'I would like one beef noodle soup and a black tea to go.'",
     "speaker_roles": [
       "客人",
       "店員"
@@ -15632,7 +15632,7 @@
         "text": "嗯，我想一下喔……那個，我要一杯珍珠奶茶，半糖少冰。",
         "pinyin": "Ēn, wǒ xiǎng yīxià ō…… nàge, wǒ yào yī bēi zhēnzhū nǎichá, bàn táng shǎo bīng.",
         "pinyin_numeric": "En1, wo3 xiang3 yi1 xia4 o1... na4 ge5, wo3 yao4 yi1 bei1 zhen1 zhu1 nai3 cha2, ban4 tang2 shao3 bing1.",
-        "translation_en": "Um, let me think... well, I'd like a bubble milk tea, half sugar and less ice.",
+        "translation_en": "Um, let me think... well, I'd like a bubble milk tea, half sugar and light ice.",
         "translation_ko": "음, 잠깐 생각해볼게요... 저, 버블 밀크티 한 잔, 당 반, 얼음 적게 주세요.",
         "token_ids": [
           "VOC_D78_005",
@@ -15657,7 +15657,7 @@
         "text": "好的，半糖少冰。還要別的嗎？",
         "pinyin": "Hǎo de, bàn táng shǎo bīng. Hái yào bié de ma?",
         "pinyin_numeric": "Hao3 de5, ban4 tang2 shao3 bing1. Hai2 yao4 bie2 de5 ma3?",
-        "translation_en": "Okay, half sugar and less ice. Anything else?",
+        "translation_en": "Okay, half sugar and light ice. Anything else?",
         "translation_ko": "네, 당 반, 얼음 적게요. 다른 것도 필요하신가요?",
         "token_ids": [
           "VOC_M1_088",
@@ -21810,7 +21810,7 @@
         "text": "還要一杯紅茶，少冰，內用。",
         "pinyin": "Hái yào yī bēi hóngchá, shǎo bīng, nèiyòng.",
         "pinyin_numeric": "Hai2 yao4 yi1 bei1 hong2cha2, shao3 bing1, nei4yong4.",
-        "translation_en": "Also a cup of black tea, less ice, for here.",
+        "translation_en": "Also a cup of black tea, light ice, for here.",
         "translation_ko": "홍차 한 잔도 주세요, 얼음 적게, 매장에서 먹을게요.",
         "token_ids": [
           "VOC_D34_038",

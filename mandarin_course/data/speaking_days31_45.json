@@ -50,7 +50,7 @@
     "prompt_en": "Create your own sentence using only known words.",
     "model_answer": "我想要一杯冰的紅茶，少冰，可以嗎？",
     "model_pinyin": "Wǒ xiǎng yào yī bēi bīng de hóngchá, shǎo bīng, kěyǐ ma?",
-    "model_translation_en": "I would like an iced black tea, less ice, okay?",
+    "model_translation_en": "I would like an iced black tea with light ice, please.",
     "related_sentence_id": "SEN_D31_009",
     "related_dialogue_id": "DLG_D31_02"
   },
@@ -83,7 +83,7 @@
     "prompt_en": "Answer a question in this scenario: asking for something at a café or shop.",
     "model_answer": "我想要一杯冰的拿鐵，少冰。",
     "model_pinyin": "Wǒ xiǎng yào yī bēi bīng de ná tiě, shǎo bīng.",
-    "model_translation_en": "I want an iced latte, less ice.",
+    "model_translation_en": "I would like an iced latte, light ice.",
     "related_sentence_id": "SEN_D31_015",
     "related_dialogue_id": "DLG_D31_02"
   },
@@ -94,7 +94,7 @@
     "prompt_en": "Respond as one speaker in this scenario: asking for something at a café or shop.",
     "model_answer": "我想要一杯中杯的紅茶，正常甜，外帶。",
     "model_pinyin": "Wǒ xiǎng yào yī bēi zhōng bēi de hóng chá, zhèng cháng tián, wài dài.",
-    "model_translation_en": "I want a medium black tea, normal sweetness, to go.",
+    "model_translation_en": "I would like a medium black tea, regular sweetness, to go.",
     "related_sentence_id": "SEN_D31_017",
     "related_dialogue_id": "DLG_D31_03"
   },
@@ -127,7 +127,7 @@
     "prompt_en": "Swap one word and say the new sentence aloud.",
     "model_answer": "不好意思，我要一杯紅茶，半糖少冰。",
     "model_pinyin": "Bù hǎo yì si, wǒ yào yī bēi hóng chá, bàn táng shǎo bīng.",
-    "model_translation_en": "Excuse me, I'd like a black tea, half sugar and less ice.",
+    "model_translation_en": "Excuse me, I'd like a black tea, half sugar and light ice.",
     "related_sentence_id": "SEN_D31_023",
     "related_dialogue_id": "DLG_D31_03"
   },
@@ -1711,7 +1711,7 @@
     "prompt_en": "Repeat the model sentence with full phrase rhythm.",
     "model_answer": "我的炒飯不要辣，謝謝。",
     "model_pinyin": "Wǒ de chǎofàn bù yào là, xièxie.",
-    "model_translation_en": "My fried rice, no spicy, please.",
+    "model_translation_en": "Please make my fried rice not spicy.",
     "related_sentence_id": "SEN_D35_031",
     "related_dialogue_id": "DLG_D35_01"
   },

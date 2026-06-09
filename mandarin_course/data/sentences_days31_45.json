@@ -267,7 +267,7 @@
     "text": "我想要一杯冰的紅茶，少冰，可以嗎？",
     "pinyin": "Wǒ xiǎng yào yī bēi bīng de hóngchá, shǎo bīng, kěyǐ ma?",
     "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 bing1 de hong2cha2, shao3 bing1, ke3yi3 ma0?",
-    "translation_en": "I would like an iced black tea, less ice, okay?",
+    "translation_en": "I would like an iced black tea, light ice, okay?",
     "translation_ko": "얼음 홍차 한 잔, 얼음 적게로 원하는데 괜찮을까요?",
     "token_ids": [
       "VOC_M1_002",
@@ -333,7 +333,7 @@
     "text": "我想要一杯小杯的拿鐵。",
     "pinyin": "Wǒ xiǎng yào yī bēi xiǎo bēi de ná tiě.",
     "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 xiao3 bei1 de0 na2 tie3.",
-    "translation_en": "I want a small latte.",
+    "translation_en": "I would like a small latte.",
     "translation_ko": "작은 라떼 한 잔을 원합니다.",
     "token_ids": [
       "VOC_M1_002",
@@ -366,7 +366,7 @@
     "text": "我想要一杯中杯的紅茶，半糖。",
     "pinyin": "Wǒ xiǎng yào yī bēi zhōng bēi de hóng chá, bàn táng.",
     "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 zhong1 bei1 de0 hong2 cha2, ban4 tang2.",
-    "translation_en": "I want a medium black tea, half sugar.",
+    "translation_en": "I would like a medium black tea, half sugar.",
     "translation_ko": "중간 크기의 홍차 반당을 원합니다.",
     "token_ids": [
       "VOC_M1_002",
@@ -401,7 +401,7 @@
     "text": "我想要一杯豆漿，內用。",
     "pinyin": "Wǒ xiǎng yào yī bēi dòu jiāng, nèi yòng.",
     "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 dou4 jiang1, nei4 yong4.",
-    "translation_en": "I want a cup of soy milk, for here.",
+    "translation_en": "I would like a cup of soy milk, for here.",
     "translation_ko": "두유 한 잔을 매장에서 마시고 싶습니다.",
     "token_ids": [
       "VOC_M1_002",
@@ -432,7 +432,7 @@
     "text": "我想要一杯冰的拿鐵，少冰。",
     "pinyin": "Wǒ xiǎng yào yī bēi bīng de ná tiě, shǎo bīng.",
     "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 bing1 de0 na2 tie3, shao3 bing1.",
-    "translation_en": "I want an iced latte, less ice.",
+    "translation_en": "I would like an iced latte, light ice.",
     "translation_ko": "얼음 적게 넣은 아이스 라떼 한 잔을 원합니다.",
     "token_ids": [
       "VOC_M1_002",
@@ -467,7 +467,7 @@
     "text": "我想要一杯大杯的拿鐵，加珍珠。",
     "pinyin": "Wǒ xiǎng yào yī bēi dà bēi de ná tiě, jiā zhēn zhū.",
     "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 da4 bei1 de0 na2 tie3, jia1 zhen1 zhu1.",
-    "translation_en": "I want a large latte with boba.",
+    "translation_en": "I would like a large latte with boba.",
     "translation_ko": "큰 라떼에 타피오카 펄을 추가하고 싶습니다.",
     "token_ids": [
       "VOC_M1_002",
@@ -502,7 +502,7 @@
     "text": "我想要一杯中杯的紅茶，正常甜，外帶。",
     "pinyin": "Wǒ xiǎng yào yī bēi zhōng bēi de hóng chá, zhèng cháng tián, wài dài.",
     "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 zhong1 bei1 de0 hong2 cha2, zheng4 chang2 tian2, wai4 dai4.",
-    "translation_en": "I want a medium black tea, normal sweetness, to go.",
+    "translation_en": "I would like a medium black tea, regular sweetness, to go.",
     "translation_ko": "중간 크기의 홍차 보통 당도로 포장해 주세요.",
     "token_ids": [
       "VOC_M1_002",
@@ -539,7 +539,7 @@
     "text": "我想要一杯小杯的綠茶，微糖。",
     "pinyin": "Wǒ xiǎng yào yī bēi xiǎo bēi de lǜ chá, wēi táng.",
     "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 xiao3 bei1 de0 lv4 cha2, wei1 tang2.",
-    "translation_en": "I want a small green tea, low sugar.",
+    "translation_en": "I would like a small green tea, low sugar.",
     "translation_ko": "작은 녹차 한 잔을 약간 단맛으로 원합니다.",
     "token_ids": [
       "VOC_M1_002",
@@ -574,7 +574,7 @@
     "text": "我想要一杯冰的豆漿，外帶。",
     "pinyin": "Wǒ xiǎng yào yī bēi bīng de dòu jiāng, wài dài.",
     "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 bing1 de0 dou4 jiang1, wai4 dai4.",
-    "translation_en": "I want an iced soy milk, to go.",
+    "translation_en": "I would like an iced soy milk, to go.",
     "translation_ko": "차가운 두유 한 잔을 포장해 주세요.",
     "token_ids": [
       "VOC_M1_002",
@@ -609,7 +609,7 @@
     "text": "我想要一杯大杯的綠茶，少冰，加珍珠。",
     "pinyin": "Wǒ xiǎng yào yī bēi dà bēi de lǜ chá, shǎo bīng, jiā zhēn zhū.",
     "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 da4 bei1 de0 lv4 cha2, shao3 bing1, jia1 zhen1 zhu1.",
-    "translation_en": "I want a large green tea, less ice, with boba.",
+    "translation_en": "I would like a large green tea, light ice, with boba.",
     "translation_ko": "큰 녹차 한 잔을 얼음 적게, 타피오카 펄 추가로 원합니다.",
     "token_ids": [
       "VOC_M1_002",
@@ -712,7 +712,7 @@
     "text": "不好意思，我要一杯紅茶，半糖少冰。",
     "pinyin": "Bù hǎo yì si, wǒ yào yī bēi hóng chá, bàn táng shǎo bīng.",
     "pinyin_numeric": "bu4 hao3 yi4 si0, wo3 yao4 yi1 bei1 hong2 cha2, ban4 tang2 shao3 bing1.",
-    "translation_en": "Excuse me, I'd like a black tea, half sugar and less ice.",
+    "translation_en": "Excuse me, I'd like a black tea, half sugar and light ice.",
     "translation_ko": "실례합니다, 홍차 한 잔에 당도 반, 얼음 적게 주세요.",
     "token_ids": [
       "VOC_D31_020",
@@ -1201,7 +1201,7 @@
     "text": "我想要一杯中杯的紅茶，微糖，少冰。",
     "pinyin": "Wǒ xiǎng yào yī bēi zhōng bēi de hóng chá, wēi táng, shǎo bīng.",
     "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 zhong1 bei1 de0 hong2 cha2, wei1 tang2, shao3 bing1.",
-    "translation_en": "I would like a medium black tea, low sugar, less ice.",
+    "translation_en": "I would like a medium black tea, low sugar, light ice.",
     "translation_ko": "중간 크기의 홍차를 약간 단맛에 얼음 적게 원합니다.",
     "token_ids": [
       "VOC_M1_002",
@@ -1384,7 +1384,7 @@
     "text": "不好意思，麻煩給我兩杯紅茶，一杯去冰，一杯少冰。",
     "pinyin": "Bù hǎo yì si, má fan gěi wǒ liǎng bēi hóng chá, yī bēi qù bīng, yī bēi shǎo bīng.",
     "pinyin_numeric": "bu4 hao3 yi4 si0, ma2 fan0 gei3 wo3 liang3 bei1 hong2 cha2, yi1 bei1 qu4 bing1, yi1 bei1 shao3 bing1.",
-    "translation_en": "Excuse me, please give me two cups of black tea, one with no ice and one with less ice.",
+    "translation_en": "Excuse me, please give me two cups of black tea, one with no ice and one with light ice.",
     "translation_ko": "실례합니다, 홍차 두 잔 주세요. 하나는 얼음 빼고, 하나는 얼음 적게 해 주세요.",
     "token_ids": [
       "VOC_D31_020",
@@ -1491,7 +1491,7 @@
     "text": "不好意思，我要一杯綠茶，微糖，少冰，內用。",
     "pinyin": "Bù hǎo yì si, wǒ yào yī bēi lǜ chá, wēi táng, shǎo bīng, nèi yòng.",
     "pinyin_numeric": "bu4 hao3 yi4 si0, wo3 yao4 yi1 bei1 lv4 cha2, wei1 tang2, shao3 bing1, nei4 yong4.",
-    "translation_en": "Excuse me, I'd like a cup of green tea, low sugar, less ice, for here.",
+    "translation_en": "Excuse me, I'd like a cup of green tea, low sugar, light ice, for here.",
     "translation_ko": "실례합니다, 녹차 한 잔, 당도 적게, 얼음 적게 해서 매장에서 먹겠습니다.",
     "token_ids": [
       "VOC_D31_020",
@@ -1936,7 +1936,7 @@
     "text": "我想要一杯豆漿，少冰。",
     "pinyin": "Wǒ xiǎng yào yī bēi dòu jiāng, shǎo bīng.",
     "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 dou4 jiang1, shao3 bing1.",
-    "translation_en": "I would like a cup of soy milk, less ice.",
+    "translation_en": "I would like a cup of soy milk, light ice.",
     "translation_ko": "두유 한 잔, 얼음 적게 주세요.",
     "token_ids": [
       "VOC_M1_002",
@@ -2103,7 +2103,7 @@
     "text": "我想要一杯小杯的拿鐵，半糖，少冰。",
     "pinyin": "Wǒ xiǎng yào yī bēi xiǎo bēi de ná tiě, bàn táng, shǎo bīng.",
     "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 xiao3 bei1 de0 na2 tie3, ban4 tang2, shao3 bing1.",
-    "translation_en": "I would like a small latte, half sugar, less ice.",
+    "translation_en": "I would like a small latte, half sugar, light ice.",
     "translation_ko": "작은 라떼 한 잔, 반당, 얼음 적게 주세요.",
     "token_ids": [
       "VOC_M1_002",
@@ -2282,7 +2282,7 @@
     "text": "我要一個飯糰和一杯咖啡。",
     "pinyin": "Wǒ yào yī gè fàntuán hé yī bēi kāfēi.",
     "pinyin_numeric": "wo3 yao4 yi1 ge4 fan4tuan2 he2 yi1 bei1 ka1fei1",
-    "translation_en": "I want one rice ball and one cup of coffee.",
+    "translation_en": "I would like one rice ball and one cup of coffee.",
     "translation_ko": "주먹밥 하나와 커피 한 잔을 원해요.",
     "token_ids": [
       "VOC_M1_002",
@@ -2348,7 +2348,7 @@
     "text": "我要買一個環保袋。",
     "pinyin": "Wǒ yào mǎi yī gè huánbǎo dài.",
     "pinyin_numeric": "wo3 yao4 mai3 yi1 ge4 huan2bao3 dai4",
-    "translation_en": "I want to buy one eco-friendly bag.",
+    "translation_en": "I would like to buy one eco-friendly bag.",
     "translation_ko": "친환경 봉투 하나를 살게요.",
     "token_ids": [
       "VOC_M1_002",
@@ -2408,7 +2408,7 @@
     "text": "我要用信用卡付款。",
     "pinyin": "Wǒ yào yòng xìnyòngkǎ fùkuǎn.",
     "pinyin_numeric": "wo3 yao4 yong4 xin4yong4ka3 fu4kuan3",
-    "translation_en": "I want to pay with a credit card.",
+    "translation_en": "I would like to pay with a credit card.",
     "translation_ko": "신용카드로 결제할게요.",
     "token_ids": [
       "VOC_M1_002",
@@ -2467,7 +2467,7 @@
     "text": "我要買一包餅乾和一瓶礦泉水。",
     "pinyin": "Wǒ yào mǎi yī bāo bǐnggān hé yī píng kuàngquánshuǐ.",
     "pinyin_numeric": "wo3 yao4 mai3 yi1 bao1 bing3gan1 he2 yi1 ping2 kuang4quan2shui3",
-    "translation_en": "I want to buy one pack of cookies and one bottle of mineral water.",
+    "translation_en": "I would like to buy one pack of cookies and one bottle of mineral water.",
     "translation_ko": "과자 한 봉지와 생수 한 병을 살게요.",
     "token_ids": [
       "VOC_M1_002",
@@ -2535,7 +2535,7 @@
     "text": "我要用載具存發票。",
     "pinyin": "Wǒ yào yòng zàijù cún fāpiào.",
     "pinyin_numeric": "wo3 yao4 yong4 zai4ju4 cun2 fa1piao4",
-    "translation_en": "I want to store the receipt using the carrier.",
+    "translation_en": "I would like to store the receipt using the carrier.",
     "translation_ko": "영수증을 클라우드에 저장할게요.",
     "token_ids": [
       "VOC_M1_002",
@@ -2593,7 +2593,7 @@
     "text": "你要不要一個塑膠袋？",
     "pinyin": "Nǐ yào bù yào yī gè sù jiāo dài?",
     "pinyin_numeric": "ni3 yao4 bu4 yao4 yi1 ge4 su4 jiao1 dai4",
-    "translation_en": "Do you want a plastic bag?",
+    "translation_en": "Would you like a plastic bag?",
     "translation_ko": "비닐봉지 하나 필요하세요?",
     "token_ids": [
       "VOC_M1_003",
@@ -2622,7 +2622,7 @@
     "text": "你要買這個便當嗎？",
     "pinyin": "Nǐ yào mǎi zhè ge biàn dāng ma?",
     "pinyin_numeric": "ni3 yao4 mai3 zhe4 ge4 bian4 dang1 ma0",
-    "translation_en": "Do you want to buy this bento box?",
+    "translation_en": "Would you like to buy this bento box?",
     "translation_ko": "이 도시락을 사시겠어요?",
     "token_ids": [
       "VOC_M1_003",
@@ -2680,7 +2680,7 @@
     "text": "你要不要買一送一的餅乾？",
     "pinyin": "Nǐ yào bù yào mǎi yī sòng yī de bǐng gān?",
     "pinyin_numeric": "ni3 yao4 bu4 yao4 mai3 yi1 song4 yi1 de0 bing3 gan1",
-    "translation_en": "Do you want to buy the buy-one-get-one-free cookies?",
+    "translation_en": "Would you like to buy the buy-one-get-one-free cookies?",
     "translation_ko": "하나 사면 하나 더 주는 쿠키를 사시겠어요?",
     "token_ids": [
       "VOC_M1_003",
@@ -2709,7 +2709,7 @@
     "text": "你要不要一張收據？",
     "pinyin": "Nǐ yào bù yào yī zhāng shōu jù?",
     "pinyin_numeric": "ni3 yao4 bu4 yao4 yi1 zhang1 shou1 ju4",
-    "translation_en": "Do you want a receipt?",
+    "translation_en": "Would you like a receipt?",
     "translation_ko": "영수증 필요하세요?",
     "token_ids": [
       "VOC_M1_003",
@@ -2737,7 +2737,7 @@
     "text": "你要用現金付款嗎？",
     "pinyin": "Nǐ yào yòng xiàn jīn fù kuǎn ma?",
     "pinyin_numeric": "ni3 yao4 yong4 xian4 jin1 fu4 kuan3 ma0",
-    "translation_en": "Do you want to pay with cash?",
+    "translation_en": "Would you like to pay with cash?",
     "translation_ko": "현금으로 결제하시겠어요?",
     "token_ids": [
       "VOC_M1_003",
@@ -2768,7 +2768,7 @@
     "text": "你要不要用載具？",
     "pinyin": "Nǐ yào bù yào yòng zài jù?",
     "pinyin_numeric": "ni3 yao4 bu4 yao4 yong4 zai4 ju4",
-    "translation_en": "Do you want to use the receipt carrier?",
+    "translation_en": "Would you like to use the receipt carrier?",
     "translation_ko": "영수증 저장 서비스를 이용하시겠어요?",
     "token_ids": [
       "VOC_M1_003",
@@ -2795,7 +2795,7 @@
     "text": "你要加熱這個飯糰嗎？",
     "pinyin": "Nǐ yào jiā rè zhè ge fàn tuán ma?",
     "pinyin_numeric": "ni3 yao4 jia1 re4 zhe4 ge4 fan4 tuan2 ma0",
-    "translation_en": "Do you want to heat up this rice ball?",
+    "translation_en": "Would you like me to heat up this rice ball?",
     "translation_ko": "이 주먹밥을 데워 드릴까요?",
     "token_ids": [
       "VOC_M1_003",
@@ -2827,7 +2827,7 @@
     "text": "你要不要一杯小杯的拿鐵？",
     "pinyin": "Nǐ yào bù yào yī bēi xiǎo bēi de ná tiě?",
     "pinyin_numeric": "ni3 yao4 bu4 yao4 yi1 bei1 xiao3 bei1 de0 na2 tie3",
-    "translation_en": "Do you want a small latte?",
+    "translation_en": "Would you like a small latte?",
     "translation_ko": "작은 라떼 한 잔 드릴까요?",
     "token_ids": [
       "VOC_M1_003",
@@ -2860,7 +2860,7 @@
     "text": "你要不要買這個特價的泡麵？",
     "pinyin": "Nǐ yào bù yào mǎi zhè ge tè jià de pào miàn?",
     "pinyin_numeric": "ni3 yao4 bu4 yao4 mai3 zhe4 ge4 te4 jia4 de0 pao4 mian4",
-    "translation_en": "Do you want to buy this instant noodle on sale?",
+    "translation_en": "Would you like to buy this pack of instant noodles on sale?",
     "translation_ko": "이 할인 중인 라면을 사시겠어요?",
     "token_ids": [
       "VOC_M1_003",
@@ -3124,7 +3124,7 @@
     "text": "這個泡麵跟那個餅乾總共多少錢？",
     "pinyin": "Zhège pàomiàn gēn nàge bǐnggān zǒnggòng duōshao qián?",
     "pinyin_numeric": "zhe4 ge4 pao4 mian4 gen1 na4 ge4 bing3 gan1 zong3 gong4 duo1 shao3 qian2",
-    "translation_en": "How much are this instant noodle and that cookie together?",
+    "translation_en": "How much are this pack of instant noodles and that cookie together?",
     "translation_ko": "이 라면과 그 과자는 총 얼마인가요?",
     "token_ids": [
       "VOC_M1_041",
@@ -3187,7 +3187,7 @@
     "text": "我要一個塑膠袋。",
     "pinyin": "Wǒ yào yī ge sùjiāodài.",
     "pinyin_numeric": "wo3 yao4 yi1 ge4 su4jiao1dai4.",
-    "translation_en": "I want one plastic bag.",
+    "translation_en": "I would like one plastic bag.",
     "translation_ko": "비닐봉지 하나 주세요.",
     "token_ids": [
       "VOC_M1_002",
@@ -3243,7 +3243,7 @@
     "text": "我要買一包餅乾和兩瓶礦泉水。",
     "pinyin": "Wǒ yào mǎi yī bāo bǐnggān hé liǎng píng kuàngquánshuǐ.",
     "pinyin_numeric": "wo3 yao4 mai3 yi1 bao1 bing3gan1 he2 liang3 ping2 kuang4quan2shui3.",
-    "translation_en": "I want to buy one pack of cookies and two bottles of mineral water.",
+    "translation_en": "I would like to buy one pack of cookies and two bottles of mineral water.",
     "translation_ko": "과자 한 봉지와 생수 두 병을 살게요.",
     "token_ids": [
       "VOC_M1_002",
@@ -3308,7 +3308,7 @@
     "text": "我要買一送一的茶葉蛋。",
     "pinyin": "Wǒ yào mǎi yī sòng yī de cháyèdàn.",
     "pinyin_numeric": "wo3 yao4 mai3 yi1 song4 yi1 de5 cha2ye4dan4.",
-    "translation_en": "I want to buy the buy-one-get-one-free tea eggs.",
+    "translation_en": "I would like to buy the buy-one-get-one-free tea eggs.",
     "translation_ko": "하나 사면 하나 더 주는 차(茶)알을 살게요.",
     "token_ids": [
       "VOC_M1_002",
@@ -3388,7 +3388,7 @@
     "text": "你要塑膠袋嗎？",
     "pinyin": "Nǐ yào sùjiāodài ma?",
     "pinyin_numeric": "ni3 yao4 su4jiao1dai4 ma0",
-    "translation_en": "Do you want a plastic bag?",
+    "translation_en": "Would you like a plastic bag?",
     "translation_ko": "비닐봉지 필요하세요?",
     "token_ids": [
       "VOC_M1_003",
@@ -3415,7 +3415,7 @@
     "text": "要不要環保袋？",
     "pinyin": "Yào bù yào huánbǎo dài?",
     "pinyin_numeric": "yao4 bu4 yao4 huan2bao3 dai4",
-    "translation_en": "Do you want an eco-friendly bag or not?",
+    "translation_en": "Would you like an eco-friendly bag?",
     "translation_ko": "에코백 필요하세요?",
     "token_ids": [
       "VOC_D53_034",
@@ -3438,7 +3438,7 @@
     "text": "你要收據嗎？",
     "pinyin": "Nǐ yào shōujù ma?",
     "pinyin_numeric": "ni3 yao4 shou1ju4 ma0",
-    "translation_en": "Do you want a receipt?",
+    "translation_en": "Would you like a receipt?",
     "translation_ko": "영수증 필요하세요?",
     "token_ids": [
       "VOC_M1_003",
@@ -3465,7 +3465,7 @@
     "text": "要不要載具？",
     "pinyin": "Yào bù yào zàijù?",
     "pinyin_numeric": "yao4 bu4 yao4 zai4ju4",
-    "translation_en": "Do you want an invoice carrier or not?",
+    "translation_en": "Would you like to use an invoice carrier?",
     "translation_ko": "인보이스 캐리어 필요하세요?",
     "token_ids": [
       "VOC_D53_034",
@@ -3488,7 +3488,7 @@
     "text": "你要用現金嗎？",
     "pinyin": "Nǐ yào yòng xiànjīn ma?",
     "pinyin_numeric": "ni3 yao4 yong4 xian4jin1 ma0",
-    "translation_en": "Do you want to pay with cash?",
+    "translation_en": "Would you like to pay with cash?",
     "translation_ko": "현금으로 계산하시겠어요?",
     "token_ids": [
       "VOC_M1_003",
@@ -3517,7 +3517,7 @@
     "text": "要不要刷卡？",
     "pinyin": "Yào bù yào shuākǎ?",
     "pinyin_numeric": "yao4 bu4 yao4 shua1ka3",
-    "translation_en": "Do you want to pay by card or not?",
+    "translation_en": "Would you like to pay by card or not?",
     "translation_ko": "카드로 결제하시겠어요?",
     "token_ids": [
       "VOC_D53_034",
@@ -3540,7 +3540,7 @@
     "text": "你要加熱便當嗎？",
     "pinyin": "Nǐ yào jiārè biàndāng ma?",
     "pinyin_numeric": "ni3 yao4 jia1re4 bian4dang1 ma0",
-    "translation_en": "Do you want to heat the bento?",
+    "translation_en": "Would you like me to heat the bento?",
     "translation_ko": "도시락을 데워 드릴까요?",
     "token_ids": [
       "VOC_M1_003",
@@ -3569,7 +3569,7 @@
     "text": "要不要買一送一？",
     "pinyin": "Yào bù yào mǎi yī sòng yī?",
     "pinyin_numeric": "yao4 bu4 yao4 mai3 yi1 song4 yi1",
-    "translation_en": "Do you want the buy-one-get-one-free deal or not?",
+    "translation_en": "Would you like the buy-one-get-one-free deal?",
     "translation_ko": "하나 사면 하나 더 주는 행사 하실래요?",
     "token_ids": [
       "VOC_D53_034",
@@ -3592,7 +3592,7 @@
     "text": "你要茶葉蛋嗎？",
     "pinyin": "Nǐ yào cháyèdàn ma?",
     "pinyin_numeric": "ni3 yao4 cha2ye4dan4 ma0",
-    "translation_en": "Do you want a tea egg?",
+    "translation_en": "Would you like a tea egg?",
     "translation_ko": "차이예단 드릴까요?",
     "token_ids": [
       "VOC_M1_003",
@@ -3619,7 +3619,7 @@
     "text": "要不要加珍珠？",
     "pinyin": "Yào bù yào jiā zhēnzhū?",
     "pinyin_numeric": "yao4 bu4 yao4 jia1 zhen1zhu1",
-    "translation_en": "Do you want to add boba or not?",
+    "translation_en": "Would you like to add boba?",
     "translation_ko": "타피오카 펄 추가하시겠어요?",
     "token_ids": [
       "VOC_D53_034",
@@ -3731,7 +3731,7 @@
     "text": "我要買這個泡麵跟那瓶礦泉水。",
     "pinyin": "Wǒ yào mǎi zhège pàomiàn gēn nà píng kuàngquánshuǐ.",
     "pinyin_numeric": "wo3 yao4 mai3 zhe4 ge5 pao4 mian4 gen1 na4 ping2 kuang4 quan2 shui3",
-    "translation_en": "I want to buy this instant noodle and that bottle of mineral water.",
+    "translation_en": "I would like to buy this pack of instant noodles and that bottle of mineral water.",
     "translation_ko": "이 라면과 그 생수 한 병을 사고 싶어요.",
     "token_ids": [
       "VOC_M1_002",
@@ -3825,7 +3825,7 @@
     "text": "這個口罩跟那個雨傘，我要結帳。",
     "pinyin": "Zhège kǒuzhào gēn nàge yǔsǎn, wǒ yào jiézhàng.",
     "pinyin_numeric": "zhe4 ge5 kou3 zhao4 gen1 na4 ge5 yu3 san3, wo3 yao4 jie2 zhang4",
-    "translation_en": "This mask and that umbrella, I want to check out.",
+    "translation_en": "I would like to check out with this mask and that umbrella.",
     "translation_ko": "이 마스크와 그 우산, 계산하고 싶어요.",
     "token_ids": [
       "VOC_M1_041",
@@ -3861,7 +3861,7 @@
     "text": "這個電池跟那條充電線，我要用信用卡付款。",
     "pinyin": "Zhège diànchí gēn nà tiáo chōngdiànxiàn, wǒ yào yòng xìnyòngkǎ fùkuǎn.",
     "pinyin_numeric": "zhe4 ge5 dian4 chi2 gen1 na4 tiao2 chong1 dian4 xian4, wo3 yao4 yong4 xin4 yong4 ka3 fu4 kuan3",
-    "translation_en": "This battery and that charging cable, I want to pay by credit card.",
+    "translation_en": "I would like to pay for this battery and that charging cable by credit card.",
     "translation_ko": "이 배터리와 그 충전 케이블, 신용카드로 결제할게요.",
     "token_ids": [
       "VOC_M1_041",
@@ -4091,7 +4091,7 @@
     "text": "我要買一個飯糰和一杯咖啡。",
     "pinyin": "Wǒ yào mǎi yī ge fàntuán hé yī bēi kāfēi.",
     "pinyin_numeric": "wo3 yao4 mai3 yi1 ge4 fan4tuan2 he2 yi1 bei1 ka1fei1.",
-    "translation_en": "I want to buy one rice ball and one cup of coffee.",
+    "translation_en": "I would like to buy one rice ball and one cup of coffee.",
     "translation_ko": "주먹밥 하나와 커피 한 잔을 사고 싶어요.",
     "token_ids": [
       "VOC_M1_002",
@@ -4157,7 +4157,7 @@
     "text": "你要不要買這個便當？",
     "pinyin": "Nǐ yào bù yào mǎi zhège biàndāng?",
     "pinyin_numeric": "ni3 yao4 bu4 yao4 mai3 zhe4 ge4 bian4 dang1?",
-    "translation_en": "Do you want to buy this bento box?",
+    "translation_en": "Would you like to buy this bento box?",
     "translation_ko": "이 도시락을 사시겠어요?",
     "token_ids": [
       "VOC_M1_003",
@@ -4186,7 +4186,7 @@
     "text": "要不要買一送一的餅乾？",
     "pinyin": "Yào bù yào mǎi mǎi yī sòng yī de bǐnggān?",
     "pinyin_numeric": "yao4 bu4 yao4 mai3 mai3 yi1 song4 yi1 de0 bing3 gan1?",
-    "translation_en": "Do you want to buy the buy-one-get-one-free cookies?",
+    "translation_en": "Would you like to buy the buy-one-get-one-free cookies?",
     "translation_ko": "하나 사면 하나 더 주는 쿠키를 사시겠어요?",
     "token_ids": [
       "VOC_D53_034",
@@ -4213,7 +4213,7 @@
     "text": "你要現金還是信用卡付款？",
     "pinyin": "Nǐ yào xiànjīn háishì xìnyòngkǎ fùkuǎn?",
     "pinyin_numeric": "ni3 yao4 xian4 jin1 hai2 shi4 xin4 yong4 ka3 fu4 kuan3?",
-    "translation_en": "Do you want to pay with cash or credit card?",
+    "translation_en": "Would you like to pay with cash or credit card?",
     "translation_ko": "현금으로 하시겠어요, 아니면 신용카드로 하시겠어요?",
     "token_ids": [
       "VOC_M1_003",
@@ -4244,7 +4244,7 @@
     "text": "你要加熱這個三明治嗎？",
     "pinyin": "Nǐ yào jiārè zhège sānmíngzhì ma?",
     "pinyin_numeric": "ni3 yao4 jia1 re4 zhe4 ge4 san1 ming2 zhi4 ma0?",
-    "translation_en": "Do you want to heat this sandwich?",
+    "translation_en": "Would you like me to heat this sandwich?",
     "translation_ko": "이 샌드위치를 데워 드릴까요?",
     "token_ids": [
       "VOC_M1_003",
@@ -4276,7 +4276,7 @@
     "text": "要不要買這個特價的泡麵？",
     "pinyin": "Yào bù yào mǎi zhège tèjià de pàomiàn?",
     "pinyin_numeric": "yao4 bu4 yao4 mai3 zhe4 ge4 te4 jia4 de0 pao4 mian4?",
-    "translation_en": "Do you want to buy this discounted instant noodle?",
+    "translation_en": "Would you like to buy this discounted instant noodle?",
     "translation_ko": "이 할인된 라면을 사시겠어요?",
     "token_ids": [
       "VOC_D53_034",
@@ -4332,7 +4332,7 @@
     "text": "要不要買這個飯糰？",
     "pinyin": "Yào bù yào mǎi zhège fàntuán?",
     "pinyin_numeric": "yao4 bu4 yao4 mai3 zhe4 ge4 fan4 tuan2?",
-    "translation_en": "Do you want to buy this rice ball?",
+    "translation_en": "Would you like to buy this rice ball?",
     "translation_ko": "이 주먹밥을 사시겠어요?",
     "token_ids": [
       "VOC_D53_034",
@@ -4359,7 +4359,7 @@
     "text": "我要買這個飯糰和那杯咖啡。",
     "pinyin": "Wǒ yào mǎi zhège fàntuán hé nà bēi kāfēi.",
     "pinyin_numeric": "wo3 yao4 mai3 zhe4 ge4 fan4 tuan2 he2 na4 bei1 ka1 fei1",
-    "translation_en": "I want to buy this rice ball and that cup of coffee.",
+    "translation_en": "I would like to buy this rice ball and that cup of coffee.",
     "translation_ko": "이 주먹밥과 저 커피 한 잔을 사고 싶어요.",
     "token_ids": [
       "VOC_M1_002",
@@ -4424,7 +4424,7 @@
     "text": "那個茶葉蛋要兩個。",
     "pinyin": "Nàge cháyèdàn yào liǎng ge.",
     "pinyin_numeric": "na4 ge4 cha2 ye4 dan4 yao4 liang3 ge0",
-    "translation_en": "I want two of those tea eggs.",
+    "translation_en": "I would like two of those tea eggs.",
     "translation_ko": "그 차가운 계란 두 개 주세요.",
     "token_ids": [
       "VOC_M1_163",
@@ -7226,7 +7226,7 @@
     "text": "你要喝珍珠奶茶嗎？",
     "pinyin": "Nǐ yào hē zhēnzhū nǎichá ma?",
     "pinyin_numeric": "ni3 yao4 he1 zhen1zhu1 nai3cha2 ma0",
-    "translation_en": "Do you want to drink bubble milk tea?",
+    "translation_en": "Would you like to drink bubble milk tea?",
     "translation_ko": "버블 밀크티를 마실래요?",
     "token_ids": [
       "VOC_M1_003",
@@ -7255,7 +7255,7 @@
     "text": "你要吃滷肉飯嗎？",
     "pinyin": "Nǐ yào chī lǔròufàn ma?",
     "pinyin_numeric": "ni3 yao4 chi1 lu3rou4fan4 ma0",
-    "translation_en": "Do you want to eat braised pork rice?",
+    "translation_en": "Would you like to eat braised pork rice?",
     "translation_ko": "루로우판을 먹을래요?",
     "token_ids": [
       "VOC_M1_003",
@@ -7284,7 +7284,7 @@
     "text": "你要點牛肉麵嗎？",
     "pinyin": "Nǐ yào diǎn niúròumiàn ma?",
     "pinyin_numeric": "ni3 yao4 dian3 niu2rou4mian4 ma0",
-    "translation_en": "Do you want to order beef noodles?",
+    "translation_en": "Would you like to order beef noodles?",
     "translation_ko": "소고기 국수를 주문할래요?",
     "token_ids": [
       "VOC_M1_003",
@@ -7313,7 +7313,7 @@
     "text": "你要一份水餃嗎？",
     "pinyin": "Nǐ yào yī fèn shuǐjiǎo ma?",
     "pinyin_numeric": "ni3 yao4 yi1 fen4 shui3jiao3 ma0",
-    "translation_en": "Do you want one serving of dumplings?",
+    "translation_en": "Would you like one serving of dumplings?",
     "translation_ko": "만두 한 인분을 드실래요?",
     "token_ids": [
       "VOC_M1_003",
@@ -7342,7 +7342,7 @@
     "text": "你要小菜嗎？",
     "pinyin": "Nǐ yào xiǎocài ma?",
     "pinyin_numeric": "ni3 yao4 xiao3cai4 ma0",
-    "translation_en": "Do you want some side dishes?",
+    "translation_en": "Would you like some side dishes?",
     "translation_ko": "반찬을 드실래요?",
     "token_ids": [
       "VOC_M1_003",
@@ -7369,7 +7369,7 @@
     "text": "你要喝熱湯嗎？",
     "pinyin": "Nǐ yào hē rè tāng ma?",
     "pinyin_numeric": "ni3 yao4 he1 re4 tang1 ma0",
-    "translation_en": "Do you want to drink hot soup?",
+    "translation_en": "Would you like to drink hot soup?",
     "translation_ko": "뜨거운 국물을 마실래요?",
     "token_ids": [
       "VOC_M1_003",
@@ -7398,7 +7398,7 @@
     "text": "你要加辣嗎？",
     "pinyin": "Nǐ yào jiā là ma?",
     "pinyin_numeric": "ni3 yao4 jia1 la4 ma0",
-    "translation_en": "Do you want to add spice?",
+    "translation_en": "Would you like it spicy?",
     "translation_ko": "매운 걸 추가할래요?",
     "token_ids": [
       "VOC_M1_003",
@@ -7426,7 +7426,7 @@
     "text": "你要點招牌菜嗎？",
     "pinyin": "Nǐ yào diǎn zhāopái cài ma?",
     "pinyin_numeric": "ni3 yao4 dian3 zhao1pai2 cai4 ma0",
-    "translation_en": "Do you want to order the signature dish?",
+    "translation_en": "Would you like to order the signature dish?",
     "translation_ko": "시그니처 요리를 주문할래요?",
     "token_ids": [
       "VOC_M1_003",
@@ -7457,7 +7457,7 @@
     "text": "你要喝冰水嗎？",
     "pinyin": "Nǐ yào hē bīng shuǐ ma?",
     "pinyin_numeric": "ni3 yao4 he1 bing1 shui3 ma0",
-    "translation_en": "Do you want to drink ice water?",
+    "translation_en": "Would you like to drink iced water?",
     "translation_ko": "얼음물을 마실래요?",
     "token_ids": [
       "VOC_M1_003",
@@ -7486,7 +7486,7 @@
     "text": "你要筷子嗎？",
     "pinyin": "Nǐ yào kuàizi ma?",
     "pinyin_numeric": "ni3 yao4 kuai4zi0 ma0",
-    "translation_en": "Do you want chopsticks?",
+    "translation_en": "Would you like chopsticks?",
     "translation_ko": "젓가락이 필요하세요?",
     "token_ids": [
       "VOC_M1_003",
@@ -7513,7 +7513,7 @@
     "text": "你要喝珍珠奶茶還是紅茶？",
     "pinyin": "Nǐ yào hē zhēnzhū nǎichá háishì hóngchá?",
     "pinyin_numeric": "ni3 yao4 he1 zhen1zhu1 nai3cha2 hai2shi4 hong2cha2",
-    "translation_en": "Do you want to drink bubble tea or black tea?",
+    "translation_en": "Would you like to drink bubble tea or black tea?",
     "translation_ko": "버블티를 마실래요, 홍차를 마실래요?",
     "token_ids": [
       "VOC_M1_003",
@@ -7544,7 +7544,7 @@
     "text": "你要吃滷肉飯還是牛肉麵？",
     "pinyin": "Nǐ yào chī lǔròu fàn háishì niúròu miàn?",
     "pinyin_numeric": "ni3 yao4 chi1 lu3rou4 fan4 hai2shi4 niu2rou4 mian4",
-    "translation_en": "Do you want to eat braised pork rice or beef noodles?",
+    "translation_en": "Would you like to eat braised pork rice or beef noodles?",
     "translation_ko": "루로우판을 먹을래요, 아니면 소고기 국수를 먹을래요?",
     "token_ids": [
       "VOC_M1_003",
@@ -7575,7 +7575,7 @@
     "text": "你要點水餃還是小菜？",
     "pinyin": "Nǐ yào diǎn shuǐjiǎo háishì xiǎocài?",
     "pinyin_numeric": "ni3 yao4 dian3 shui3jiao3 hai2shi4 xiao3cai4",
-    "translation_en": "Do you want to order dumplings or side dishes?",
+    "translation_en": "Would you like to order dumplings or side dishes?",
     "translation_ko": "만두를 주문할래요, 아니면 반찬을 주문할래요?",
     "token_ids": [
       "VOC_M1_003",
@@ -7606,7 +7606,7 @@
     "text": "你要喝冰水還是熱湯？",
     "pinyin": "Nǐ yào hē bīng shuǐ háishì rè tāng?",
     "pinyin_numeric": "ni3 yao4 he1 bing1 shui3 hai2shi4 re4 tang1",
-    "translation_en": "Do you want to drink cold water or hot soup?",
+    "translation_en": "Would you like to drink cold water or hot soup?",
     "translation_ko": "찬물을 마실래요, 아니면 뜨거운 국을 마실래요?",
     "token_ids": [
       "VOC_M1_003",
@@ -7637,7 +7637,7 @@
     "text": "你要吃辣的還是不辣的？",
     "pinyin": "Nǐ yào chī là de háishì bù là de?",
     "pinyin_numeric": "ni3 yao4 chi1 la4 de0 hai2shi4 bu4 la4 de0",
-    "translation_en": "Do you want to eat spicy or non-spicy?",
+    "translation_en": "Would you like to eat spicy or non-spicy?",
     "translation_ko": "매운 걸 먹을래요, 아니면 안 매운 걸 먹을래요?",
     "token_ids": [
       "VOC_M1_003",
@@ -7670,7 +7670,7 @@
     "text": "你要點招牌牛肉麵還是滷肉飯？",
     "pinyin": "Nǐ yào diǎn zhāopái niúròu miàn háishì lǔròu fàn?",
     "pinyin_numeric": "ni3 yao4 dian3 zhao1pai2 niu2rou4 mian4 hai2shi4 lu3rou4 fan4",
-    "translation_en": "Do you want to order the signature beef noodles or braised pork rice?",
+    "translation_en": "Would you like to order the signature beef noodles or braised pork rice?",
     "translation_ko": "시그니처 소고기 국수를 주문할래요, 아니면 루로우판을 주문할래요?",
     "token_ids": [
       "VOC_M1_003",
@@ -7703,7 +7703,7 @@
     "text": "你要喝飲料還是熱湯？",
     "pinyin": "Nǐ yào hē yǐnliào háishì rè tāng?",
     "pinyin_numeric": "ni3 yao4 he1 yin3liao4 hai2shi4 re4 tang1",
-    "translation_en": "Do you want to drink a beverage or hot soup?",
+    "translation_en": "Would you like to drink a beverage or hot soup?",
     "translation_ko": "음료를 마실래요, 아니면 뜨거운 국을 마실래요?",
     "token_ids": [
       "VOC_M1_003",
@@ -7734,7 +7734,7 @@
     "text": "你要吃一份水餃還是兩份？",
     "pinyin": "Nǐ yào chī yī fèn shuǐjiǎo háishì liǎng fèn?",
     "pinyin_numeric": "ni3 yao4 chi1 yi1 fen4 shui3jiao3 hai2shi4 liang3 fen4",
-    "translation_en": "Do you want to eat one serving of dumplings or two?",
+    "translation_en": "Would you like to eat one serving of dumplings or two?",
     "translation_ko": "만두 한 인분을 먹을래요, 아니면 두 인분을 먹을래요?",
     "token_ids": [
       "VOC_M1_003",
@@ -7798,7 +7798,7 @@
     "text": "你要點主餐還是配菜？",
     "pinyin": "Nǐ yào diǎn zhǔcān háishì pèicài?",
     "pinyin_numeric": "ni3 yao4 dian3 zhu3can1 hai2shi4 pei4cai4",
-    "translation_en": "Do you want to order a main dish or a side dish?",
+    "translation_en": "Would you like to order a main dish or a side dish?",
     "translation_ko": "메인 요리를 주문할래요, 아니면 반찬을 주문할래요?",
     "token_ids": [
       "VOC_M1_003",
@@ -7829,7 +7829,7 @@
     "text": "我不要辣，謝謝。",
     "pinyin": "Wǒ bù yào là, xiè xiè.",
     "pinyin_numeric": "wo3 bu4 yao4 la4, xie4 xie4.",
-    "translation_en": "I don't want spicy, thank you.",
+    "translation_en": "I do not want it spicy, thank you.",
     "translation_ko": "저는 맵지 않은 걸로 할게요, 감사합니다.",
     "token_ids": [
       "VOC_M1_002",
@@ -7854,7 +7854,7 @@
     "text": "我不要牛肉麵，我要滷肉飯。",
     "pinyin": "Wǒ bù yào niú ròu miàn, wǒ yào lǔ ròu fàn.",
     "pinyin_numeric": "wo3 bu4 yao4 niu2 rou4 mian4, wo3 yao4 lu3 rou4 fan4.",
-    "translation_en": "I don't want beef noodles, I want braised pork rice.",
+    "translation_en": "I do not want beef noodles; I would like braised pork rice.",
     "translation_ko": "저는 소고기 국수는 안 먹고, 루로우판을 먹을게요.",
     "token_ids": [
       "VOC_M1_002",
@@ -7887,7 +7887,7 @@
     "text": "你要辣的還是不要辣的？",
     "pinyin": "Nǐ yào là de háishì bù là de?",
     "pinyin_numeric": "ni3 yao4 la4 de0 hai2shi4 bu4 la4 de0",
-    "translation_en": "Do you want it spicy or not spicy?",
+    "translation_en": "Would you like it spicy or not spicy?",
     "translation_ko": "매운 걸로 드릴까요, 안 매운 걸로 드릴까요?",
     "token_ids": [
       "VOC_M1_003",
@@ -7918,7 +7918,7 @@
     "text": "你要加醬油嗎？",
     "pinyin": "Nǐ yào jiā jiàngyóu ma?",
     "pinyin_numeric": "ni3 yao4 jia1 jiang4you2 ma0",
-    "translation_en": "Do you want to add soy sauce?",
+    "translation_en": "Would you like to add soy sauce?",
     "translation_ko": "간장 넣을까요?",
     "token_ids": [
       "VOC_M1_003",
@@ -7946,7 +7946,7 @@
     "text": "你要筷子還是湯匙？",
     "pinyin": "Nǐ yào kuàizi háishì tāngchí?",
     "pinyin_numeric": "ni3 yao4 kuai4zi0 hai2shi4 tang1chi2",
-    "translation_en": "Do you want chopsticks or a spoon?",
+    "translation_en": "Would you like chopsticks or a spoon?",
     "translation_ko": "젓가락 드릴까요, 숟가락 드릴까요?",
     "token_ids": [
       "VOC_M1_003",
@@ -7975,7 +7975,7 @@
     "text": "你要外帶還是內用？",
     "pinyin": "Nǐ yào wàidài háishì nèiyòng?",
     "pinyin_numeric": "ni3 yao4 wai4dai4 hai2shi4 nei4yong4",
-    "translation_en": "Do you want takeout or eat here?",
+    "translation_en": "Would you like takeout or dine-in?",
     "translation_ko": "포장하실 건가요, 여기서 드실 건가요?",
     "token_ids": [
       "VOC_M1_003",
@@ -8004,7 +8004,7 @@
     "text": "你要吃招牌牛肉麵還是滷肉飯？",
     "pinyin": "Nǐ yào chī zhāopái niúròumiàn háishì lǔròufàn?",
     "pinyin_numeric": "ni3 yao4 chi1 zhao1pai2 niu2rou4mian4 hai2shi4 lu3rou4mian4",
-    "translation_en": "Do you want to eat the signature beef noodles or braised pork rice?",
+    "translation_en": "Would you like to eat the signature beef noodles or braised pork rice?",
     "translation_ko": "시그니처 소고기 국수 먹을래요, 루로우판 먹을래요?",
     "token_ids": [
       "VOC_M1_003",
@@ -8037,7 +8037,7 @@
     "text": "你要點一份還是兩份水餃？",
     "pinyin": "Nǐ yào diǎn yī fèn háishì liǎng fèn shuǐjiǎo?",
     "pinyin_numeric": "ni3 yao4 dian3 yi1 fen4 hai2shi4 liang3 fen4 shui3jiao3",
-    "translation_en": "Do you want to order one or two servings of dumplings?",
+    "translation_en": "Would you like to order one or two servings of dumplings?",
     "translation_ko": "만두 한 인분 주문할래요, 두 인분 주문할래요?",
     "token_ids": [
       "VOC_M1_003",
@@ -8070,7 +8070,7 @@
     "text": "你要喝珍珠奶茶還是綠茶？",
     "pinyin": "Nǐ yào hē zhēnzhū nǎichá háishì lǜchá?",
     "pinyin_numeric": "ni3 yao4 he1 zhen1zhu1 nai3cha2 hai2shi4 lv4cha2",
-    "translation_en": "Do you want to drink bubble tea or green tea?",
+    "translation_en": "Would you like to drink bubble tea or green tea?",
     "translation_ko": "버블티 마실래요, 녹차 마실래요?",
     "token_ids": [
       "VOC_M1_003",
@@ -8101,7 +8101,7 @@
     "text": "你要吃牛肉麵還是水餃？",
     "pinyin": "Nǐ yào chī niúròumiàn háishì shuǐjiǎo?",
     "pinyin_numeric": "ni3 yao4 chi1 niu2rou4mian4 hai2shi4 shui3jiao3",
-    "translation_en": "Do you want to eat beef noodles or dumplings?",
+    "translation_en": "Would you like to eat beef noodles or dumplings?",
     "translation_ko": "소고기 국수 먹을래요, 만두 먹을래요?",
     "token_ids": [
       "VOC_M1_003",
@@ -8132,7 +8132,7 @@
     "text": "你要喝飲料還是冰水？",
     "pinyin": "Nǐ yào hē yǐnliào háishì bīngshuǐ?",
     "pinyin_numeric": "ni3 yao4 he1 yin3liao4 hai2shi4 bing1shui3",
-    "translation_en": "Do you want to drink a beverage or cold water?",
+    "translation_en": "Would you like to drink a beverage or cold water?",
     "translation_ko": "음료 마실래요, 찬물 마실래요?",
     "token_ids": [
       "VOC_M1_003",
@@ -8163,7 +8163,7 @@
     "text": "我不要辣，因為我不太能吃辣。",
     "pinyin": "Wǒ bù yào là, yīnwèi wǒ bù tài néng chī là.",
     "pinyin_numeric": "wo3 bu4 yao4 la4, yin1 wei4 wo3 bu4 tai4 neng2 chi1 la4.",
-    "translation_en": "I don't want spicy, because I can't eat spicy food very well.",
+    "translation_en": "I do not want it spicy, because I can't eat spicy food very well.",
     "translation_ko": "저는 맵지 않은 걸로 할게요, 매운 걸 잘 못 먹어서요.",
     "token_ids": [
       "VOC_M1_002",
@@ -8198,7 +8198,7 @@
     "text": "我不要飲料，我只要一杯冰水。",
     "pinyin": "Wǒ bù yào yǐnliào, wǒ zhǐ yào yī bēi bīng shuǐ.",
     "pinyin_numeric": "wo3 bu4 yao4 yin3 liao4, wo3 zhi3 yao4 yi1 bei1 bing1 shui3.",
-    "translation_en": "I don't want a drink; I just want a glass of ice water.",
+    "translation_en": "I do not want a drink; I just want a glass of iced water.",
     "translation_ko": "음료는 안 마실게요, 그냥 얼음물 한 잔만 주세요.",
     "token_ids": [
       "VOC_M1_002",
@@ -8236,7 +8236,7 @@
     "text": "我不要小菜，因為我已經很飽了。",
     "pinyin": "Wǒ bù yào xiǎocài, yīnwèi wǒ yǐjīng hěn bǎo le.",
     "pinyin_numeric": "wo3 bu4 yao4 xiao3 cai4, yin1 wei4 wo3 yi3 jing1 hen3 bao3 le.",
-    "translation_en": "I don't want side dishes, because I'm already very full.",
+    "translation_en": "I do not want side dishes, because I'm already very full.",
     "translation_ko": "반찬은 안 먹을게요, 이미 배가 불러서요.",
     "token_ids": [
       "VOC_M1_002",
@@ -8273,7 +8273,7 @@
     "text": "我不要珍珠奶茶，因為太貴了。",
     "pinyin": "Wǒ bù yào zhēnzhū nǎichá, yīnwèi tài guì le.",
     "pinyin_numeric": "wo3 bu4 yao4 zhen1 zhu1 nai3 cha2, yin1 wei4 tai4 gui4 le.",
-    "translation_en": "I don't want bubble tea, because it's too expensive.",
+    "translation_en": "I do not want bubble tea, because it's too expensive.",
     "translation_ko": "버블티는 안 마실게요, 너무 비싸서요.",
     "token_ids": [
       "VOC_M1_002",
@@ -8304,7 +8304,7 @@
     "text": "我不要水餃，我要一份牛肉麵。",
     "pinyin": "Wǒ bù yào shuǐjiǎo, wǒ yào yī fèn niúròu miàn.",
     "pinyin_numeric": "wo3 bu4 yao4 shui3 jiao3, wo3 yao4 yi1 fen4 niu2 rou4 mian4.",
-    "translation_en": "I don't want dumplings; I want one serving of beef noodles.",
+    "translation_en": "I do not want dumplings; I would like one serving of beef noodles.",
     "translation_ko": "만두는 안 먹을게요, 소고기 국수 한 그릇 주세요.",
     "token_ids": [
       "VOC_M1_002",
@@ -8339,7 +8339,7 @@
     "text": "我不要熱湯，因為今天太熱了。",
     "pinyin": "Wǒ bù yào rè tāng, yīnwèi jīntiān tài rè le.",
     "pinyin_numeric": "wo3 bu4 yao4 re4 tang1, yin1 wei4 jin1 tian1 tai4 re4 le.",
-    "translation_en": "I don't want hot soup, because today is too hot.",
+    "translation_en": "I do not want hot soup, because today is too hot.",
     "translation_ko": "뜨거운 국은 안 먹을게요, 오늘 너무 더워서요.",
     "token_ids": [
       "VOC_M1_002",
@@ -8374,7 +8374,7 @@
     "text": "我不要筷子，我要湯匙。",
     "pinyin": "Wǒ bù yào kuàizi, wǒ yào tāngchí.",
     "pinyin_numeric": "wo3 bu4 yao4 kuai4 zi, wo3 yao4 tang1 chi2.",
-    "translation_en": "I don't want chopsticks; I want a spoon.",
+    "translation_en": "I do not want chopsticks; I would like a spoon.",
     "translation_ko": "젓가락은 안 쓸게요, 숟가락 주세요.",
     "token_ids": [
       "VOC_M1_002",
@@ -8407,7 +8407,7 @@
     "text": "我不要外帶，我要內用。",
     "pinyin": "Wǒ bù yào wàidài, wǒ yào nèiyòng.",
     "pinyin_numeric": "wo3 bu4 yao4 wai4 dai4, wo3 yao4 nei4 yong4.",
-    "translation_en": "I don't want takeout; I want to eat here.",
+    "translation_en": "I do not want takeout; I would like to eat here.",
     "translation_ko": "포장은 안 할게요, 매장에서 먹을게요.",
     "token_ids": [
       "VOC_M1_002",
@@ -8440,7 +8440,7 @@
     "text": "我不要加珍珠，因為我不喜歡。",
     "pinyin": "Wǒ bù yào jiā zhēnzhū, yīnwèi wǒ bù xǐhuān.",
     "pinyin_numeric": "wo3 bu4 yao4 jia1 zhen1 zhu1, yin1 wei4 wo3 bu4 xi3 huan1.",
-    "translation_en": "I don't want to add pearls, because I don't like them.",
+    "translation_en": "I do not want to add pearls, because I don't like them.",
     "translation_ko": "펄은 넣지 마세요, 제가 안 좋아해서요.",
     "token_ids": [
       "VOC_M1_002",
@@ -8473,7 +8473,7 @@
     "text": "你要推薦的招牌菜嗎？",
     "pinyin": "Nǐ yào tuījiàn de zhāopái cài ma?",
     "pinyin_numeric": "ni3 yao4 tui1jian4 de0 zhao1pai2 cai4 ma0",
-    "translation_en": "Do you want the recommended signature dish?",
+    "translation_en": "Would you like the recommended signature dish?",
     "translation_ko": "추천하는 시그니처 요리 드릴까요?",
     "token_ids": [
       "VOC_M1_003",
@@ -8506,7 +8506,7 @@
     "text": "你要加珍珠嗎？",
     "pinyin": "Nǐ yào jiā zhēnzhū ma?",
     "pinyin_numeric": "ni3 yao4 jia1 zhen1zhu1 ma0",
-    "translation_en": "Do you want to add tapioca pearls?",
+    "translation_en": "Would you like to add tapioca pearls?",
     "translation_ko": "타피오카 펄 추가할래요?",
     "token_ids": [
       "VOC_M1_003",
@@ -8533,7 +8533,7 @@
     "text": "你要外送還是內用？",
     "pinyin": "Nǐ yào wàisòng háishì nèiyòng?",
     "pinyin_numeric": "ni3 yao4 wai4song4 hai2shi4 nei4yong4",
-    "translation_en": "Do you want delivery or dine-in?",
+    "translation_en": "Would you like delivery or dine-in?",
     "translation_ko": "배달하실 건가요, 매장에서 드실 건가요?",
     "token_ids": [
       "VOC_M1_003",
@@ -8562,7 +8562,7 @@
     "text": "你要吃辣還是不辣？",
     "pinyin": "Nǐ yào chī là háishì bù là?",
     "pinyin_numeric": "ni3 yao4 chi1 la4 hai2shi4 bu4 la4",
-    "translation_en": "Do you want it spicy or not spicy?",
+    "translation_en": "Would you like it spicy or not spicy?",
     "translation_ko": "매운 걸 먹을래요, 안 매운 걸 먹을래요?",
     "token_ids": [
       "VOC_M1_003",
@@ -8593,7 +8593,7 @@
     "text": "你要點一份水餃還是兩份？",
     "pinyin": "Nǐ yào diǎn yī fèn shuǐjiǎo háishì liǎng fèn?",
     "pinyin_numeric": "ni3 yao4 dian3 yi1 fen4 shui3jiao3 hai2shi4 liang3 fen4",
-    "translation_en": "Do you want to order one serving of dumplings or two?",
+    "translation_en": "Would you like to order one serving of dumplings or two?",
     "translation_ko": "만두 한 인분을 주문할래요, 두 인분을 주문할래요?",
     "token_ids": [
       "VOC_M1_003",
@@ -8626,7 +8626,7 @@
     "text": "我不要辣，因為我不太會吃辣。",
     "pinyin": "Wǒ bù yào là, yīnwèi wǒ bù tài huì chī là.",
     "pinyin_numeric": "wo3 bu4 yao4 la4, yin1 wei4 wo3 bu4 tai4 hui4 chi1 la4.",
-    "translation_en": "I don't want spicy, because I can't really eat spicy food.",
+    "translation_en": "I do not want it spicy, because I can't really eat spicy food.",
     "translation_ko": "저는 맵지 않은 걸로 할게요, 매운 걸 잘 못 먹어서요.",
     "token_ids": [
       "VOC_M1_002",
@@ -8659,7 +8659,7 @@
     "text": "我不要飲料，我只要熱湯。",
     "pinyin": "Wǒ bù yào yǐnliào, wǒ zhǐ yào rè tāng.",
     "pinyin_numeric": "wo3 bu4 yao4 yin3 liao4, wo3 zhi3 yao4 re4 tang1.",
-    "translation_en": "I don't want a drink, I only want hot soup.",
+    "translation_en": "I do not want a drink, I only want hot soup.",
     "translation_ko": "음료는 안 마실게요, 뜨거운 국만 먹을게요.",
     "token_ids": [
       "VOC_M1_002",
@@ -8693,7 +8693,7 @@
     "text": "我不要水餃，因為我昨天吃過了。",
     "pinyin": "Wǒ bù yào shuǐjiǎo, yīnwèi wǒ zuótiān chī guò le.",
     "pinyin_numeric": "wo3 bu4 yao4 shui3 jiao3, yin1 wei4 wo3 zuo2 tian1 chi1 guo4 le5.",
-    "translation_en": "I don't want dumplings, because I ate them yesterday.",
+    "translation_en": "I do not want dumplings, because I ate them yesterday.",
     "translation_ko": "만두는 안 먹을게요, 어제 먹었거든요.",
     "token_ids": [
       "VOC_M1_002",
@@ -8729,7 +8729,7 @@
     "text": "我不要小菜，我只要主餐。",
     "pinyin": "Wǒ bù yào xiǎocài, wǒ zhǐ yào zhǔcān.",
     "pinyin_numeric": "wo3 bu4 yao4 xiao3 cai4, wo3 zhi3 yao4 zhu3 can1.",
-    "translation_en": "I don't want side dishes, I only want the main course.",
+    "translation_en": "I do not want side dishes, I only want the main course.",
     "translation_ko": "반찬은 안 먹을게요, 메인 요리만 먹을게요.",
     "token_ids": [
       "VOC_M1_002",
@@ -8763,7 +8763,7 @@
     "text": "我不要冰水，我要熱茶。",
     "pinyin": "Wǒ bù yào bīng shuǐ, wǒ yào rè chá.",
     "pinyin_numeric": "wo3 bu4 yao4 bing1 shui3, wo3 yao4 re4 cha2.",
-    "translation_en": "I don't want ice water, I want hot tea.",
+    "translation_en": "I do not want iced water; I would like hot tea.",
     "translation_ko": "얼음물은 안 마실게요, 뜨거운 차를 마실게요.",
     "token_ids": [
       "VOC_M1_002",
@@ -8798,7 +8798,7 @@
     "text": "我不要辣，可以嗎？",
     "pinyin": "Wǒ bù yào là, kěyǐ ma?",
     "pinyin_numeric": "wo3 bu4 yao4 la4, ke3 yi3 ma0",
-    "translation_en": "I don't want it spicy, is that okay?",
+    "translation_en": "I do not want it spicy, is that okay?",
     "translation_ko": "맵지 않게 해 주실 수 있나요?",
     "token_ids": [
       "VOC_M1_002",
@@ -8993,7 +8993,7 @@
     "text": "我不要辣，可是這碗湯太辣了。",
     "pinyin": "Wǒ bù yào là, kěshì zhè wǎn tāng tài là le.",
     "pinyin_numeric": "wo3 bu4 yao4 la4, ke3shi4 zhe4 wan3 tang1 tai4 la4 le0",
-    "translation_en": "I don't want it spicy, but this bowl of soup is too spicy.",
+    "translation_en": "I do not want it spicy, but this bowl of soup is too spicy.",
     "translation_ko": "맵지 않게 해 달라고 했는데, 이 국물이 너무 매워요.",
     "token_ids": [
       "VOC_M1_002",
@@ -9771,7 +9771,7 @@
     "text": "我的炒飯不要辣，謝謝。",
     "pinyin": "Wǒ de chǎofàn bù yào là, xièxie.",
     "pinyin_numeric": "wo3 de0 chao3fan4 bu4 yao4 la4, xie4xie0.",
-    "translation_en": "My fried rice, no spicy, please.",
+    "translation_en": "My fried rice, not spicy, please.",
     "translation_ko": "제 볶음밥은 맵지 않게 해 주세요, 감사합니다.",
     "token_ids": [
       "VOC_M1_002",
@@ -9866,7 +9866,7 @@
     "text": "這份滷味太油了，我想要換一份少油的。",
     "pinyin": "Zhè fèn lǔwèi tài yóu le, wǒ xiǎng yào huàn yī fèn shǎo yóu de.",
     "pinyin_numeric": "zhe4 fen4 lu3wei4 tai4 you2 le0, wo3 xiang3 yao4 huan4 yi1 fen4 shao3 you2 de0.",
-    "translation_en": "This braised dish is too oily; I want to exchange it for one with less oil.",
+    "translation_en": "This braised dish is too oily; I would like to exchange it for one with less oil.",
     "translation_ko": "이 조림 요리는 너무 기름져요. 기름을 적게 한 것으로 바꾸고 싶어요.",
     "token_ids": [
       "VOC_D34_034",
@@ -11004,7 +11004,7 @@
     "text": "我拿錯了，這杯飲料是少冰的，我要去冰。",
     "pinyin": "Wǒ ná cuò le, zhè bēi yǐnliào shì shǎo bīng de, wǒ yào qù bīng.",
     "pinyin_numeric": "wo3 na2 cuo4 le0, zhe4 bei1 yin3 liao4 shi4 shao3 bing1 de0, wo3 yao4 qu4 bing1.",
-    "translation_en": "I took the wrong one; this drink is less ice, but I wanted no ice.",
+    "translation_en": "I took the wrong one; this drink is light ice, but I wanted no ice.",
     "translation_ko": "제가 잘못 가져갔어요. 이 음료는 얼음 적게인데, 저는 얼음 빼 달라고 했어요.",
     "token_ids": [
       "VOC_M1_002",
@@ -25835,7 +25835,7 @@
     "text": "因為比較便宜，所以我想買。",
     "pinyin": "Yīnwèi bǐjiào piányí, suǒyǐ wǒ xiǎng mǎi.",
     "pinyin_numeric": "yin1 wei4 bi3 jiao4 pian2 yi2, suo3 yi3 wo3 xiang3 mai3",
-    "translation_en": "Because it's cheaper, I want to buy it.",
+    "translation_en": "Because it's cheaper, I would like to buy it.",
     "translation_ko": "더 싸기 때문에 사고 싶어요.",
     "token_ids": [
       "VOC_D34_011",
@@ -25945,7 +25945,7 @@
     "text": "因為想買書，所以需要省錢。",
     "pinyin": "Yīnwèi xiǎng mǎi shū, suǒyǐ xūyào shěng qián.",
     "pinyin_numeric": "yin1 wei4 xiang3 mai3 shu1, suo3 yi3 xu1 yao4 sheng3 qian2",
-    "translation_en": "Because I want to buy books, so I need to save money.",
+    "translation_en": "Because I would like to buy books, so I need to save money.",
     "translation_ko": "책을 사고 싶어서 돈을 아껴야 해요.",
     "token_ids": [
       "VOC_D34_011",
@@ -27397,7 +27397,7 @@
     "text": "你想喝紅茶還是綠茶？都可以，不要太甜。",
     "pinyin": "Nǐ xiǎng hē hóngchá háishì lǜchá? Dōu kěyǐ, bùyào tài tián.",
     "pinyin_numeric": "ni3 xiang3 he1 hong2cha2 hai2shi4 lv4cha2? dou1 ke3yi3, bu4yao4 tai4 tian2.",
-    "translation_en": "Do you want to drink black tea or green tea? Either is fine, just not too sweet.",
+    "translation_en": "Would you like to drink black tea or green tea? Either is fine, just not too sweet.",
     "translation_ko": "홍차 마실래요, 녹차 마실래요? 둘 다 괜찮아요, 너무 달지 않게요.",
     "token_ids": [
       "VOC_M1_003",
@@ -27608,7 +27608,7 @@
     "text": "你想吃炒飯還是炒麵？我覺得炒飯比較好，因為有加蛋。",
     "pinyin": "Nǐ xiǎng chī chǎofàn háishì chǎomiàn? Wǒ juéde chǎofàn bǐjiào hǎo, yīnwèi yǒu jiā dàn.",
     "pinyin_numeric": "ni3 xiang3 chi1 chao3fan4 hai2shi4 chao3mian4? wo3 jue2de0 chao3fan4 bi3jiao4 hao3, yin1wei4 you3 jia1 dan4.",
-    "translation_en": "Do you want to eat fried rice or fried noodles? I think fried rice is better because it has an egg added.",
+    "translation_en": "Would you like to eat fried rice or fried noodles? I think fried rice is better because it has an egg added.",
     "translation_ko": "볶음밥 먹을래요, 볶음면 먹을래요? 저는 계란이 들어가서 볶음밥이 더 나은 것 같아요.",
     "token_ids": [
       "VOC_M1_003",
@@ -28439,7 +28439,7 @@
     "text": "你想吃飯還是吃麵？差不多，都可以。",
     "pinyin": "Nǐ xiǎng chī fàn háishì chī miàn? Chàbùduō, dōu kěyǐ.",
     "pinyin_numeric": "ni3 xiang3 chi1 fan4 hai2shi4 chi1 mian4? cha4bu4duo1, dou1 ke3yi3.",
-    "translation_en": "Do you want to eat rice or noodles? It's about the same, either is fine.",
+    "translation_en": "Would you like to eat rice or noodles? It's about the same, either is fine.",
     "translation_ko": "밥을 먹을래요, 면을 먹을래요? 비슷해요, 둘 다 괜찮아요.",
     "token_ids": [
       "VOC_M1_003",
@@ -29471,7 +29471,7 @@
     "text": "我想試穿這件黑色的外套。",
     "pinyin": "Wǒ xiǎng shìchuān zhè jiàn hēisè de wàitào.",
     "pinyin_numeric": "wo3 xiang3 shi4chuan1 zhe4 jian4 hei1se4 de5 wai4tao4",
-    "translation_en": "I want to try on this black jacket.",
+    "translation_en": "I would like to try on this black jacket.",
     "translation_ko": "이 검은색 외투를 입어보고 싶어요.",
     "token_ids": [
       "VOC_M1_002",
@@ -30508,7 +30508,7 @@
     "text": "我想試穿這件藍色的裙子，可以嗎？",
     "pinyin": "Wǒ xiǎng shìchuān zhè jiàn lánsè de qúnzi, kěyǐ ma?",
     "pinyin_numeric": "wo3 xiang3 shi4chuan1 zhe4 jian4 lan2se4 de5 qun2zi, ke3yi3 ma0",
-    "translation_en": "I want to try on this blue skirt, is that okay?",
+    "translation_en": "I would like to try on this blue skirt, is that okay?",
     "translation_ko": "이 파란색 치마를 입어 봐도 될까요?",
     "token_ids": [
       "VOC_M1_002",
@@ -30725,7 +30725,7 @@
     "text": "這件裙子有白色的嗎？我想買一件。",
     "pinyin": "Zhè jiàn qúnzi yǒu báisè de ma? Wǒ xiǎng mǎi yī jiàn.",
     "pinyin_numeric": "zhe4 jian4 qun2zi you3 bai2se4 de5 ma0? wo3 xiang3 mai3 yi1 jian4.",
-    "translation_en": "Does this skirt come in white? I want to buy one.",
+    "translation_en": "Does this skirt come in white? I would like to buy one.",
     "translation_ko": "이 치마는 흰색이 있나요? 하나 사고 싶어요.",
     "token_ids": [
       "VOC_D43_011",
@@ -30875,7 +30875,7 @@
     "text": "這件外套的尺寸太大了，我想試穿中號。",
     "pinyin": "Zhè jiàn wàitào de chǐcùn tài dà le, wǒ xiǎng shìchuān zhōng hào.",
     "pinyin_numeric": "zhe4 jian4 wai4tao4 de5 chi3cun4 tai4 da4 le5, wo3 xiang3 shi4chuan1 zhong1 hao4.",
-    "translation_en": "The size of this jacket is too big; I want to try on a medium.",
+    "translation_en": "The size of this jacket is too big; I would like to try on a medium.",
     "translation_ko": "이 재킷의 사이즈가 너무 큰데, 중간 사이즈를 입어보고 싶어요.",
     "token_ids": [
       "VOC_D43_010",
@@ -30990,7 +30990,7 @@
     "text": "這雙襪子太薄了，我想要厚一點的。",
     "pinyin": "Zhè shuāng wàzi tài báo le, wǒ xiǎng yào hòu yīdiǎn de.",
     "pinyin_numeric": "zhe4 shuang1 wa4zi5 tai4 bao2 le5, wo3 xiang3 yao4 hou4 yi1dian3 de5.",
-    "translation_en": "These socks are too thin; I want thicker ones.",
+    "translation_en": "These socks are too thin; I would like thicker ones.",
     "translation_ko": "이 양말이 너무 얇은데, 더 두꺼운 걸 원해요.",
     "token_ids": [
       "VOC_D43_014",
@@ -31388,7 +31388,7 @@
     "text": "我想試穿這件藍色的裙子。",
     "pinyin": "Wǒ xiǎng shìchuān zhè jiàn lánsè de qúnzi.",
     "pinyin_numeric": "wo3 xiang3 shi4chuan1 zhe4 jian4 lan2se4 de5 qun2zi5",
-    "translation_en": "I want to try on this blue skirt.",
+    "translation_en": "I would like to try on this blue skirt.",
     "translation_ko": "이 파란색 치마를 입어보고 싶어요.",
     "token_ids": [
       "VOC_M1_002",
@@ -31826,7 +31826,7 @@
     "text": "這條短褲太短了，我想試穿長一點的。",
     "pinyin": "Zhè tiáo duǎn kù tài duǎn le, wǒ xiǎng shìchuàn cháng yī diǎn de.",
     "pinyin_numeric": "zhe4 tiao2 duan3 ku4 tai4 duan3 le0, wo3 xiang3 shi4chuan4 chang2 yi1 dian3 de0",
-    "translation_en": "These shorts are too short, I want to try on a longer pair.",
+    "translation_en": "These shorts are too short, I would like to try on a longer pair.",
     "translation_ko": "이 반바지가 너무 짧아요, 좀 더 긴 걸 입어 보고 싶어요.",
     "token_ids": [
       "VOC_D43_012",
@@ -32329,7 +32329,7 @@
     "text": "今天天氣很熱，我想喝一杯冰水。",
     "pinyin": "Jīntiān tiānqì hěn rè, wǒ xiǎng hē yī bēi bīng shuǐ.",
     "pinyin_numeric": "jin1tian1 tian1qi4 hen3 re4, wo3 xiang3 he1 yi1 bei1 bing1 shui3.",
-    "translation_en": "The weather is very hot today, and I want to drink a glass of ice water.",
+    "translation_en": "The weather is very hot today, and I want to drink a glass of iced water.",
     "translation_ko": "오늘 날씨가 매우 더워서, 저는 얼음물 한 잔을 마시고 싶어요.",
     "token_ids": [
       "VOC_M1_032",
@@ -32651,7 +32651,7 @@
     "text": "今天溫度三十度，我有點想喝冰水。",
     "pinyin": "Jīntiān wēndù sānshí dù, wǒ yǒudiǎn xiǎng hē bīng shuǐ.",
     "pinyin_numeric": "jin1tian1 wen1du4 san1shi2 du4, wo3 you3dian3 xiang3 he1 bing1 shui3.",
-    "translation_en": "It's 30 degrees today, so I feel like drinking some ice water.",
+    "translation_en": "It's 30 degrees today, so I feel like drinking some iced water.",
     "translation_ko": "오늘 기온이 30도라서 얼음물이 조금 마시고 싶어요.",
     "token_ids": [
       "VOC_M1_032",
@@ -33329,7 +33329,7 @@
     "text": "今天溫度三十度，天氣很熱，我很想喝冰水。",
     "pinyin": "Jīntiān wēndù sānshí dù, tiānqì hěn rè, wǒ hěn xiǎng hē bīng shuǐ.",
     "pinyin_numeric": "jin1tian1 wen1du4 san1shi2 du4, tian1qi4 hen3 re4, wo3 hen3 xiang3 he1 bing1 shui3.",
-    "translation_en": "Today the temperature is 30 degrees, the weather is very hot, and I really want to drink ice water.",
+    "translation_en": "Today the temperature is 30 degrees, the weather is very hot, and I really want to drink iced water.",
     "translation_ko": "오늘 기온이 30도라서 날씨가 매우 덥고, 얼음물을 마시고 싶어요.",
     "token_ids": [
       "VOC_M1_032",
@@ -34878,7 +34878,7 @@
     "text": "今天三十度，太熱了，我想喝冰水。",
     "pinyin": "Jīntiān sānshí dù, tài rè le, wǒ xiǎng hē bīng shuǐ.",
     "pinyin_numeric": "jin1tian1 san1shi2 du4, tai4 re4 le0, wo3 xiang3 he1 bing1 shui3.",
-    "translation_en": "It's 30 degrees today, too hot, I want to drink ice water.",
+    "translation_en": "It's 30 degrees today, too hot, I want to drink iced water.",
     "translation_ko": "오늘 30도라서 너무 더워요, 얼음물 마시고 싶어요.",
     "token_ids": [
       "VOC_M1_032",
@@ -35084,7 +35084,7 @@
     "text": "因為今天很熱，所以我想喝冰水。",
     "pinyin": "Yīnwèi jīntiān hěn rè, suǒyǐ wǒ xiǎng hē bīng shuǐ.",
     "pinyin_numeric": "yin1 wei4 jin1 tian1 hen3 re4, suo3 yi3 wo3 xiang3 he1 bing1 shui3.",
-    "translation_en": "Because it's very hot today, I want to drink ice water.",
+    "translation_en": "Because it's very hot today, I want to drink iced water.",
     "translation_ko": "오늘 매우 더워서 얼음물을 마시고 싶습니다.",
     "token_ids": [
       "VOC_D34_011",
@@ -35672,7 +35672,7 @@
     "text": "今天天氣很熱，我可以喝一杯冰水嗎？",
     "pinyin": "Jīntiān tiānqì hěn rè, wǒ kěyǐ hē yī bēi bīng shuǐ ma?",
     "pinyin_numeric": "jin1tian1 tian1qi4 hen3 re4, wo3 ke3yi3 he1 yi1 bei1 bing1 shui3 ma0",
-    "translation_en": "It's very hot today, can I drink a glass of ice water?",
+    "translation_en": "It's very hot today, can I drink a glass of iced water?",
     "translation_ko": "오늘 날씨가 매우 더운데, 얼음 물 한 잔 마셔도 될까요?",
     "token_ids": [
       "VOC_M1_032",
@@ -36177,7 +36177,7 @@
     "text": "因為今天很悶熱，所以我想喝冰水。",
     "pinyin": "Yīnwèi jīntiān hěn mēnrè, suǒyǐ wǒ xiǎng hē bīng shuǐ.",
     "pinyin_numeric": "yin1wei4 jin1tian1 hen3 men1re4, suo3yi3 wo3 xiang3 he1 bing1 shui3.",
-    "translation_en": "Because it's very muggy today, I want to drink ice water.",
+    "translation_en": "Because it's very muggy today, I want to drink iced water.",
     "translation_ko": "오늘 매우 후덥지근해서 얼음물을 마시고 싶습니다.",
     "token_ids": [
       "VOC_D34_011",
@@ -36999,7 +36999,7 @@
     "text": "因為天氣很悶熱，所以我想喝冰水。",
     "pinyin": "Yīnwèi tiānqì hěn mēnrè, suǒyǐ wǒ xiǎng hē bīng shuǐ.",
     "pinyin_numeric": "yin1 wei4 tian1 qi4 hen3 men1 re4, suo3 yi3 wo3 xiang3 he1 bing1 shui3.",
-    "translation_en": "Because the weather is very muggy, I want to drink ice water.",
+    "translation_en": "Because the weather is very muggy, I want to drink iced water.",
     "translation_ko": "날씨가 매우 후덥지근해서 얼음물을 마시고 싶습니다.",
     "token_ids": [
       "VOC_D34_011",
@@ -37530,7 +37530,7 @@
     "text": "今天很熱，我可以喝一杯冰水嗎？",
     "pinyin": "Jīntiān hěn rè, wǒ kěyǐ hē yī bēi bīng shuǐ ma?",
     "pinyin_numeric": "jin1tian1 hen3 re4, wo3 ke3yi3 he1 yi1 bei1 bing1 shui3 ma0",
-    "translation_en": "It's hot today, can I drink a glass of ice water?",
+    "translation_en": "It's hot today, can I drink a glass of iced water?",
     "translation_ko": "오늘 더운데, 얼음물 한 잔 마셔도 될까요?",
     "token_ids": [
       "VOC_M1_032",
