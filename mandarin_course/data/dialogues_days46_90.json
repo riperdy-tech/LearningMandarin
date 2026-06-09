@@ -5806,7 +5806,7 @@
         "text": "我想打電話給朋友，可是手機故障了。可以借電話嗎？",
         "pinyin": "Wǒ xiǎng dǎ diànhuà gěi péngyou, kěshì shǒujī gùzhàng le. Kěyǐ jiè diànhuà ma?",
         "pinyin_numeric": "wo3 xiang3 da3 dian4 hua4 gei3 peng2 you5, ke3 shi4 shou3 ji1 gu4 zhang4 le5. ke3 yi3 jie4 dian4 hua4 ma5?",
-        "translation_en": "I want to call my friend, but my phone is broken. Can I borrow a phone?",
+        "translation_en": "I'd like to call my friend, but my phone is broken. Can I borrow a phone?",
         "translation_ko": "친구에게 전화를 하고 싶은데 휴대폰이 고장 났어요. 전화를 빌릴 수 있나요?",
         "token_ids": [
           "VOC_M1_002",
@@ -11702,7 +11702,7 @@
         "text": "謝謝你。那假如我明天想預約，可以嗎？",
         "pinyin": "Xièxiè nǐ. Nà jiǎrú wǒ míngtiān xiǎng yùyuē, kěyǐ ma?",
         "pinyin_numeric": "Xie4xie4 ni3. Na4 jia3ru2 wo3 ming2tian1 xiang3 yu4yue1, ke3yi3 ma5?",
-        "translation_en": "Thank you. If I want to make an appointment tomorrow, is that okay?",
+        "translation_en": "Thank you. If I'd like to make an appointment tomorrow, is that okay?",
         "translation_ko": "감사합니다. 그럼 내일 예약하고 싶으면 가능할까요?",
         "token_ids": [
           "VOC_D31_003",
@@ -11996,7 +11996,7 @@
         "text": "你好，我上個星期有預約今天下午三點，可是臨時有事，想改時間。",
         "pinyin": "Nǐ hǎo, wǒ shàngge xīngqī yǒu yùyuē jīntiān xiàwǔ sān diǎn, kěshì línshí yǒu shì, xiǎng gǎi shíjiān.",
         "pinyin_numeric": "Ni3 hao3, wo3 shang4ge5 xing1qi1 you3 yu4yue1 jin1tian1 xia4wu3 san1 dian3, ke3shi4 lin2shi2 you3 shi4, xiang3 gai3 shi2jian1.",
-        "translation_en": "Hello, I made an appointment last week for 3 PM today, but something came up, so I want to reschedule.",
+        "translation_en": "Hello, I made an appointment last week for 3 PM today, but something came up, so I'd like to reschedule.",
         "translation_ko": "안녕하세요, 지난주에 오늘 오후 3시로 예약했는데 갑자기 일이 생겨서 시간을 변경하고 싶습니다.",
         "token_ids": [
           "VOC_M1_001",
@@ -16527,7 +16527,7 @@
         "text": "我想確認一下你的意思。你說的「改時間」是改到明天嗎？",
         "pinyin": "Wǒ xiǎng quèrèn yīxià nǐ de yìsi. Nǐ shuō de 'gǎi shíjiān' shì gǎi dào míngtiān ma?",
         "pinyin_numeric": "wo3 xiang3 que4 ren4 yi1 xia4 ni3 de5 yi4 si5. ni3 shuo1 de5 'gai3 shi2 jian1' shi4 gai3 dao4 ming2 tian1 ma5?",
-        "translation_en": "I want to confirm what you mean. Does 'reschedule' mean change to tomorrow?",
+        "translation_en": "I'd like to confirm what you mean. Does 'reschedule' mean change to tomorrow?",
         "translation_ko": "무슨 뜻인지 확인하고 싶어요. '시간을 바꾸다'라는 게 내일로 바꾸는 건가요?",
         "token_ids": [
           "VOC_M1_002",
@@ -18083,7 +18083,7 @@
         "text": "牛肉麵不錯，可是我想吃滷肉飯，有沒有賣滷肉飯的餐廳？",
         "pinyin": "Niúròumiàn bùcuò, kěshì wǒ xiǎng chī lǔròufàn, yǒu méiyǒu mài lǔròufàn de cāntīng?",
         "pinyin_numeric": "Niu2rou4mian4 bu4cuo4, ke3shi4 wo3 xiang3 chi1 lu3rou4fan4, you3 mei2you3 mai4 lu3rou4fan4 de can1ting1?",
-        "translation_en": "Beef noodles are good, but I want to eat braised pork rice. Is there a restaurant that sells braised pork rice?",
+        "translation_en": "Beef noodles are good, but I'd like braised pork rice. Is there a restaurant that sells braised pork rice?",
         "translation_ko": "소고기 국수도 좋지만 저는 루로우판을 먹고 싶어요. 루로우판을 파는 식당이 있나요?",
         "token_ids": [
           "VOC_D34_003",
@@ -19334,7 +19334,7 @@
         "text": "對啊，我想學中文，不過我的中文不太好。",
         "pinyin": "Duì a, wǒ xiǎng xué Zhōngwén, búguò wǒ de Zhōngwén bú tài hǎo.",
         "pinyin_numeric": "Dui4 a5, wo3 xiang3 xue2 Zhong1wen2, bu2guo4 wo3 de5 Zhong1wen2 bu2 tai4 hao3.",
-        "translation_en": "Yes, I want to learn Chinese, but my Chinese is not very good.",
+        "translation_en": "Yes, I'd like to learn Chinese, but my Chinese is not very good.",
         "translation_ko": "네, 중국어를 배우고 싶은데, 제 중국어가 별로 좋지 않습니다.",
         "token_ids": [
           "VOC_D78_004",
@@ -19916,7 +19916,7 @@
         "text": "沒問題。你要買東西嗎？我們這裡有便宜的充電線。",
         "pinyin": "Méi wèntí. Nǐ yào mǎi dōngxi ma? Wǒmen zhèlǐ yǒu piányi de chōngdiàn xiàn.",
         "pinyin_numeric": "Mei2 wen4 ti2. Ni3 yao4 mai3 dong1 xi5 ma5? Wo3 men5 zhe4 li3 you3 pian2 yi5 de5 chong1 dian4 xian4.",
-        "translation_en": "No problem. Do you want to buy something? We have cheap charging cables here.",
+        "translation_en": "No problem. Are you looking to buy something? We have affordable charging cables here.",
         "translation_ko": "괜찮아요. 물건 사실 건가요? 여기 싼 충전 케이블이 있어요.",
         "token_ids": [
           "VOC_D31_035",
@@ -19955,7 +19955,7 @@
         "text": "一條一百塊。你要算便宜一點嗎？",
         "pinyin": "Yì tiáo yì bǎi kuài. Nǐ yào suàn piányi yì diǎn ma?",
         "pinyin_numeric": "Yi4 tiao2 yi4 bai3 kuai4. Ni3 yao4 suan4 pian2 yi5 yi4 dian3 ma5?",
-        "translation_en": "One is one hundred dollars. Do you want it a bit cheaper?",
+        "translation_en": "One is one hundred dollars. Would you like me to make it a bit cheaper?",
         "translation_ko": "하나에 100위안입니다. 좀 더 싸게 해 드릴까요?",
         "token_ids": [
           "VOC_M1_009",
@@ -20117,7 +20117,7 @@
         "text": "一個三明治三十五塊。你要買嗎？",
         "pinyin": "Yí ge sānmíngzhì sānshíwǔ kuài. Nǐ yào mǎi ma?",
         "pinyin_numeric": "Yi2 ge5 san1 ming2 zhi4 san1 shi2 wu3 kuai4. Ni3 yao4 mai3 ma5?",
-        "translation_en": "One sandwich is thirty-five dollars. Do you want to buy it?",
+        "translation_en": "One sandwich is thirty-five dollars. Would you like one?",
         "translation_ko": "샌드위치 하나에 35위안입니다. 사시겠어요?",
         "token_ids": [
           "VOC_M1_009",
