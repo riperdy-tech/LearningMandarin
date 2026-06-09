@@ -51,7 +51,7 @@
     "id": "SEN_M1_D01_03",
     "text": "你是學生嗎？",
     "pinyin": "Nǐ shì xuéshēng ma?",
-    "pinyin_numeric": "Ni3 shi4 xue2 sheng1 ma0?",
+    "pinyin_numeric": "Ni3 shi4 xue2sheng1 ma0?",
     "translation_en": "Are you a student?",
     "translation_ko": "당신은 학생입니까?",
     "tokens": [
@@ -76,7 +76,7 @@
     "id": "SEN_M1_D01_04",
     "text": "他是老師。",
     "pinyin": "Tā shì lǎoshī.",
-    "pinyin_numeric": "Ta1 shi4 lao3 shi1.",
+    "pinyin_numeric": "Ta1 shi4 lao3shi1.",
     "translation_en": "He is a teacher.",
     "translation_ko": "그는 선생님입니다.",
     "tokens": [
@@ -99,7 +99,7 @@
     "id": "SEN_M1_D01_05",
     "text": "她是我的朋友。",
     "pinyin": "Tā shì wǒ de péngyǒu.",
-    "pinyin_numeric": "Ta1 shi4 wo3 de0 peng2 you3.",
+    "pinyin_numeric": "Ta1 shi4 wo3 de0 peng2you3.",
     "translation_en": "She is my friend.",
     "translation_ko": "그녀는 제 친구입니다.",
     "tokens": [
@@ -126,7 +126,7 @@
     "id": "SEN_M1_D01_06",
     "text": "我們是朋友。",
     "pinyin": "Wǒmen shì péngyǒu.",
-    "pinyin_numeric": "Wo3 men5 shi4 peng2 you3.",
+    "pinyin_numeric": "Wo3 men5 shi4 peng2you3.",
     "translation_en": "We are friends.",
     "translation_ko": "우리는 친구입니다.",
     "tokens": [
@@ -149,7 +149,7 @@
     "id": "SEN_M1_D01_07",
     "text": "你叫什麼名字？",
     "pinyin": "Nǐ jiào shénme míngzi?",
-    "pinyin_numeric": "Ni3 jiao4 shen2me5 ming2 zi5?",
+    "pinyin_numeric": "Ni3 jiao4 shen2me5 ming2zi5?",
     "translation_en": "What is your name?",
     "translation_ko": "이름이 무엇입니까?",
     "tokens": [
@@ -174,7 +174,7 @@
     "id": "SEN_M1_D01_08",
     "text": "我是韓國人。",
     "pinyin": "Wǒ shì Hánguó rén.",
-    "pinyin_numeric": "Wo3 shi4 Han2 guo2 ren2.",
+    "pinyin_numeric": "Wo3 shi4 Han2guo2 ren2.",
     "translation_en": "I am Korean.",
     "translation_ko": "저는 한국 사람입니다.",
     "tokens": [
@@ -199,7 +199,7 @@
     "id": "SEN_M1_D02_01",
     "text": "你是老師嗎？",
     "pinyin": "Nǐ shì lǎoshī ma?",
-    "pinyin_numeric": "Ni3 shi4 lao3 shi1 ma0?",
+    "pinyin_numeric": "Ni3 shi4 lao3shi1 ma0?",
     "translation_en": "Are you a teacher?",
     "translation_ko": "당신은 선생님입니까?",
     "tokens": [
@@ -224,7 +224,7 @@
     "id": "SEN_M1_D02_02",
     "text": "他是學生嗎？",
     "pinyin": "Tā shì xuéshēng ma?",
-    "pinyin_numeric": "Ta1 shi4 xue2 sheng1 ma0?",
+    "pinyin_numeric": "Ta1 shi4 xue2sheng1 ma0?",
     "translation_en": "Is he a student?",
     "translation_ko": "그는 학생입니까?",
     "tokens": [
@@ -348,7 +348,7 @@
     "id": "SEN_M1_D02_07",
     "text": "你有五個朋友嗎？",
     "pinyin": "Nǐ yǒu wǔ ge péngyǒu ma?",
-    "pinyin_numeric": "Ni3 you3 wu3 ge0 peng2 you3 ma0?",
+    "pinyin_numeric": "Ni3 you3 wu3 ge0 peng2you3 ma0?",
     "translation_en": "Do you have five friends?",
     "translation_ko": "친구가 다섯 명 있습니까?",
     "tokens": [
@@ -481,7 +481,7 @@
     "id": "SEN_M1_D03_04",
     "text": "他有八個朋友。",
     "pinyin": "Tā yǒu bā ge péngyǒu.",
-    "pinyin_numeric": "Ta1 you3 ba1 ge0 peng2 you3.",
+    "pinyin_numeric": "Ta1 you3 ba1 ge0 peng2you3.",
     "translation_en": "He has eight friends.",
     "translation_ko": "그는 친구가 여덟 명 있습니다.",
     "tokens": [
@@ -560,7 +560,7 @@
     "id": "SEN_M1_D03_07",
     "text": "這是一百嗎？",
     "pinyin": "Zhè shì yì bǎi ma?",
-    "pinyin_numeric": "Zhe4 shi4 yi4 bai3 ma0?",
+    "pinyin_numeric": "Zhe4 shi4 yi4bai3 ma0?",
     "translation_en": "Is this one hundred?",
     "translation_ko": "이것은 백입니까?",
     "tokens": [
@@ -586,7 +586,7 @@
     "id": "SEN_M1_D03_08",
     "text": "我的朋友有手機。",
     "pinyin": "Wǒ de péngyǒu yǒu shǒujī.",
-    "pinyin_numeric": "Wo3 de0 peng2 you3 you3 shouji1.",
+    "pinyin_numeric": "Wo3 de0 peng2you3 you3 shouji1.",
     "translation_en": "My friend has a phone.",
     "translation_ko": "제 친구는 휴대폰이 있습니다.",
     "tokens": [
@@ -663,7 +663,7 @@
     "id": "SEN_M1_D04_03",
     "text": "昨天媽媽在家。",
     "pinyin": "Zuótiān māma zài jiā.",
-    "pinyin_numeric": "Zuo2 tian1 mama1 zai4 jia1.",
+    "pinyin_numeric": "Zuo2tian1 mama1 zai4 jia1.",
     "translation_en": "Mom was at home yesterday.",
     "translation_ko": "어제 엄마는 집에 있었습니다.",
     "tokens": [
@@ -688,7 +688,7 @@
     "id": "SEN_M1_D04_04",
     "text": "我爸爸是老師。",
     "pinyin": "Wǒ bàba shì lǎoshī.",
-    "pinyin_numeric": "Wo3 baba4 shi4 lao3 shi1.",
+    "pinyin_numeric": "Wo3 baba4 shi4 lao3shi1.",
     "translation_en": "My dad is a teacher.",
     "translation_ko": "저희 아빠는 선생님입니다.",
     "tokens": [
@@ -738,7 +738,7 @@
     "id": "SEN_M1_D04_06",
     "text": "他弟弟是學生。",
     "pinyin": "Tā dìdi shì xuéshēng.",
-    "pinyin_numeric": "Ta1 didi4 shi4 xue2 sheng1.",
+    "pinyin_numeric": "Ta1 didi4 shi4 xue2sheng1.",
     "translation_en": "His younger brother is a student.",
     "translation_ko": "그의 남동생은 학생입니다.",
     "tokens": [
@@ -878,7 +878,7 @@
     "id": "SEN_M1_D05_03",
     "text": "我有十二個朋友。",
     "pinyin": "Wǒ yǒu shí'èr ge péngyǒu.",
-    "pinyin_numeric": "Wo3 you3 shi2 er4 ge0 peng2 you3.",
+    "pinyin_numeric": "Wo3 you3 shi2er4 ge0 peng2you3.",
     "translation_en": "I have twelve friends.",
     "translation_ko": "저는 친구가 열두 명 있습니다.",
     "tokens": [
@@ -934,7 +934,7 @@
     "id": "SEN_M1_D05_05",
     "text": "我今年二十歲。",
     "pinyin": "Wǒ jīnnián èrshí suì.",
-    "pinyin_numeric": "Wo3 jin1 nian2 er4 shi2 sui4.",
+    "pinyin_numeric": "Wo3 jin1nian2 er4shi2 sui4.",
     "translation_en": "I am twenty years old this year.",
     "translation_ko": "저는 올해 스무 살입니다.",
     "tokens": [
@@ -960,7 +960,7 @@
     "id": "SEN_M1_D05_06",
     "text": "這裡有十五個學生。",
     "pinyin": "Zhèlǐ yǒu shíwǔ ge xuéshēng.",
-    "pinyin_numeric": "Zhe4 li3 you3 shi2 wu3 ge0 xue2 sheng1.",
+    "pinyin_numeric": "Zhe4li3 you3 shi2wu3 ge0 xue2sheng1.",
     "translation_en": "There are fifteen students here.",
     "translation_ko": "여기에 학생 열다섯 명이 있습니다.",
     "tokens": [
@@ -987,7 +987,7 @@
     "id": "SEN_M1_D05_07",
     "text": "我們家有一個老師。",
     "pinyin": "Wǒmen jiā yǒu yí ge lǎoshī.",
-    "pinyin_numeric": "Wo3 men5 jia1 you3 yi2 ge0 lao3 shi1.",
+    "pinyin_numeric": "Wo3 men5 jia1 you3 yi2 ge0 lao3shi1.",
     "translation_en": "Our family has one teacher.",
     "translation_ko": "우리 가족에는 선생님 한 명이 있습니다.",
     "tokens": [
@@ -1016,7 +1016,7 @@
     "id": "SEN_M1_D05_08",
     "text": "他是我的朋友。",
     "pinyin": "Tā shì wǒ de péngyǒu.",
-    "pinyin_numeric": "Ta1 shi4 wo3 de0 peng2 you3.",
+    "pinyin_numeric": "Ta1 shi4 wo3 de0 peng2you3.",
     "translation_en": "He is my friend.",
     "translation_ko": "그는 제 친구입니다.",
     "tokens": [
@@ -1149,7 +1149,7 @@
     "id": "SEN_M1_D06_05",
     "text": "我想吃米飯。",
     "pinyin": "Wǒ xiǎng chī mǐfàn.",
-    "pinyin_numeric": "Wo3 xiang3 chi1 mi3 fan4.",
+    "pinyin_numeric": "Wo3 xiang3 chi1 mi3fan4.",
     "translation_en": "I want to eat rice.",
     "translation_ko": "저는 밥을 먹고 싶습니다.",
     "tokens": [
@@ -1245,7 +1245,7 @@
     "id": "SEN_M1_D07_01",
     "text": "你好，你叫什麼名字？",
     "pinyin": "Nǐ hǎo, nǐ jiào shénme míngzi?",
-    "pinyin_numeric": "Ni3 hao3, ni3 jiao4 shen2me5 ming2 zi5?",
+    "pinyin_numeric": "Ni3 hao3, ni3 jiao4 shen2me5 ming2zi5?",
     "translation_en": "Hello, what is your name?",
     "translation_ko": "안녕하세요, 이름이 무엇입니까?",
     "tokens": [
@@ -1487,7 +1487,7 @@
     "id": "SEN_M1_D08_02",
     "text": "你要牛奶嗎？",
     "pinyin": "Nǐ yào niúnǎi ma?",
-    "pinyin_numeric": "Ni3 yao4 niunai3 ma0?",
+    "pinyin_numeric": "Ni3 yao4 niu2nai3 ma0?",
     "translation_en": "Do you want milk?",
     "translation_ko": "우유를 원합니까?",
     "tokens": [
@@ -1512,7 +1512,7 @@
     "id": "SEN_M1_D08_03",
     "text": "我想吃雞蛋。",
     "pinyin": "Wǒ xiǎng chī jīdàn.",
-    "pinyin_numeric": "Wo3 xiang3 chi1 ji1 dan4.",
+    "pinyin_numeric": "Wo3 xiang3 chi1 ji1dan4.",
     "translation_en": "I want to eat eggs.",
     "translation_ko": "저는 계란을 먹고 싶습니다.",
     "tokens": [
@@ -1537,7 +1537,7 @@
     "id": "SEN_M1_D08_04",
     "text": "這個菜很好吃。",
     "pinyin": "Zhège cài hěn hǎochī.",
-    "pinyin_numeric": "Zhege4 cai4 hen3 hao3 chi1.",
+    "pinyin_numeric": "Zhe4ge5 cai4 hen3 hao3chi1.",
     "translation_en": "This dish is tasty.",
     "translation_ko": "이 요리는 맛있습니다.",
     "tokens": [
@@ -1565,7 +1565,7 @@
     "id": "SEN_M1_D08_05",
     "text": "爸爸想吃魚和米飯。",
     "pinyin": "Bàba xiǎng chī yú hé mǐfàn.",
-    "pinyin_numeric": "Baba4 xiang3 chi1 yu2 he2 mi3 fan4.",
+    "pinyin_numeric": "Baba4 xiang3 chi1 yu2 he2 mi3fan4.",
     "translation_en": "Dad wants to eat fish and rice.",
     "translation_ko": "아빠는 생선과 밥을 먹고 싶어 합니다.",
     "tokens": [
@@ -1618,7 +1618,7 @@
     "id": "SEN_M1_D08_07",
     "text": "我們去餐廳吃飯。",
     "pinyin": "Wǒmen qù cāntīng chīfàn.",
-    "pinyin_numeric": "Wo3 men5 qu4 can1 ting1 chi1 fan4.",
+    "pinyin_numeric": "Wo3 men5 qu4 can1ting1 chi1 fan4.",
     "translation_en": "We go to a restaurant to eat.",
     "translation_ko": "우리는 식당에 밥을 먹으러 갑니다.",
     "tokens": [
@@ -1643,7 +1643,7 @@
     "id": "SEN_M1_D08_08",
     "text": "妹妹喜歡蘋果和水果。",
     "pinyin": "Mèimei xǐhuan píngguǒ hé shuǐguǒ.",
-    "pinyin_numeric": "Meimei4 xi3 huan1 pingguo3 he2 shuiguo3.",
+    "pinyin_numeric": "Meimei4 xi3huan1 pingguo3 he2 shuiguo3.",
     "translation_en": "My younger sister likes apples and fruit.",
     "translation_ko": "여동생은 사과와 과일을 좋아합니다.",
     "tokens": [
@@ -1723,7 +1723,7 @@
     "id": "SEN_M1_D09_03",
     "text": "我們聽音樂。",
     "pinyin": "Wǒmen tīng yīnyuè.",
-    "pinyin_numeric": "Wo3 men5 ting1 yin1 yue4.",
+    "pinyin_numeric": "Wo3 men5 ting1 yin1yue4.",
     "translation_en": "We listen to music.",
     "translation_ko": "우리는 음악을 듣습니다.",
     "tokens": [
@@ -1744,7 +1744,7 @@
     "id": "SEN_M1_D09_04",
     "text": "她喜歡看電影。",
     "pinyin": "Tā xǐhuan kàn diànyǐng.",
-    "pinyin_numeric": "Ta1 xi3 huan1 kan4 dian4 ying3.",
+    "pinyin_numeric": "Ta1 xi3huan1 kan4 dian4ying3.",
     "translation_en": "She likes watching movies.",
     "translation_ko": "그녀는 영화를 보는 것을 좋아합니다.",
     "tokens": [
@@ -1792,7 +1792,7 @@
     "id": "SEN_M1_D09_06",
     "text": "我今天想寫名字。",
     "pinyin": "Wǒ jīntiān xiǎng xiě míngzi.",
-    "pinyin_numeric": "Wo3 jin1tian1 xiang3 xie3 ming2 zi5.",
+    "pinyin_numeric": "Wo3 jin1tian1 xiang3 xie3 ming2zi5.",
     "translation_en": "Today I want to write my name.",
     "translation_ko": "오늘 저는 제 이름을 쓰고 싶습니다.",
     "tokens": [
@@ -1841,7 +1841,7 @@
     "id": "SEN_M1_D09_08",
     "text": "我不想看電影。",
     "pinyin": "Wǒ bù xiǎng kàn diànyǐng.",
-    "pinyin_numeric": "Wo3 bu4 xiang3 kan4 dian4 ying3.",
+    "pinyin_numeric": "Wo3 bu4 xiang3 kan4 dian4ying3.",
     "translation_en": "I do not want to watch a movie.",
     "translation_ko": "저는 영화를 보고 싶지 않습니다.",
     "tokens": [
@@ -1910,7 +1910,7 @@
     "id": "SEN_M1_D10_03",
     "text": "你去哪裡？",
     "pinyin": "Nǐ qù nǎlǐ?",
-    "pinyin_numeric": "Ni3 qu4 na3 li3?",
+    "pinyin_numeric": "Ni3 qu4 na3li3?",
     "translation_en": "Where are you going?",
     "translation_ko": "어디에 갑니까?",
     "tokens": [
@@ -1958,7 +1958,7 @@
     "id": "SEN_M1_D10_05",
     "text": "這個字怎麼說？",
     "pinyin": "Zhège zì zěnme shuō?",
-    "pinyin_numeric": "Zhege4 zi4 zenme3 shuo1?",
+    "pinyin_numeric": "Zhe4ge5 zi4 zenme3 shuo1?",
     "translation_en": "How do you say this character?",
     "translation_ko": "이 글자는 어떻게 말합니까?",
     "tokens": [
@@ -1981,7 +1981,7 @@
     "id": "SEN_M1_D10_06",
     "text": "她叫什麼名字？",
     "pinyin": "Tā jiào shénme míngzi?",
-    "pinyin_numeric": "Ta1 jiao4 shen2me5 ming2 zi5?",
+    "pinyin_numeric": "Ta1 jiao4 shen2me5 ming2zi5?",
     "translation_en": "What is her name?",
     "translation_ko": "그녀의 이름은 무엇입니까?",
     "tokens": [
@@ -2006,7 +2006,7 @@
     "id": "SEN_M1_D10_07",
     "text": "餐廳在哪裡？",
     "pinyin": "Cāntīng zài nǎlǐ?",
-    "pinyin_numeric": "Canting1 zai4 na3 li3?",
+    "pinyin_numeric": "Can1ting1 zai4 na3li3?",
     "translation_en": "Where is the restaurant?",
     "translation_ko": "식당은 어디에 있습니까?",
     "tokens": [
@@ -2029,7 +2029,7 @@
     "id": "SEN_M1_D10_08",
     "text": "你喜歡什麼地方？",
     "pinyin": "Nǐ xǐhuan shénme dìfang?",
-    "pinyin_numeric": "Ni3 xi3 huan1 shen2me5 di4 fang5?",
+    "pinyin_numeric": "Ni3 xi3huan1 shen2me5 di4fang5?",
     "translation_en": "What place do you like?",
     "translation_ko": "어떤 장소를 좋아합니까?",
     "tokens": [
@@ -2226,7 +2226,7 @@
     "id": "SEN_M1_D11_08",
     "text": "你不喜歡電影嗎？",
     "pinyin": "Nǐ bù xǐhuan diànyǐng ma?",
-    "pinyin_numeric": "Ni3 bu4 xi3 huan1 dian4 ying3 ma0?",
+    "pinyin_numeric": "Ni3 bu4 xi3huan1 dian4ying3 ma0?",
     "translation_en": "Do you not like movies?",
     "translation_ko": "영화를 좋아하지 않습니까?",
     "tokens": [
@@ -2297,7 +2297,7 @@
     "id": "SEN_M1_D12_03",
     "text": "這個餐廳很貴。",
     "pinyin": "Zhège cāntīng hěn guì.",
-    "pinyin_numeric": "Zhege4 can1 ting1 hen3 gui4.",
+    "pinyin_numeric": "Zhe4ge5 can1ting1 hen3 gui4.",
     "translation_en": "This restaurant is expensive.",
     "translation_ko": "이 식당은 비쌉니다.",
     "tokens": [
@@ -2400,7 +2400,7 @@
     "id": "SEN_M1_D12_07",
     "text": "他有很多朋友。",
     "pinyin": "Tā yǒu hěn duō péngyǒu.",
-    "pinyin_numeric": "Ta1 you3 hen3 duo1 peng2 you3.",
+    "pinyin_numeric": "Ta1 you3 hen3 duo1 peng2you3.",
     "translation_en": "He has many friends.",
     "translation_ko": "그는 친구가 많습니다.",
     "tokens": [
@@ -2556,7 +2556,7 @@
     "id": "SEN_M1_D13_05",
     "text": "這裡有五本書。",
     "pinyin": "Zhèlǐ yǒu wǔ běn shū.",
-    "pinyin_numeric": "Zhe4 li3 you3 wu3 ben3 shu1.",
+    "pinyin_numeric": "Zhe4li3 you3 wu3 ben3 shu1.",
     "translation_en": "There are five books here.",
     "translation_ko": "여기에 책 다섯 권이 있습니다.",
     "tokens": [
@@ -2768,7 +2768,7 @@
     "id": "SEN_M1_D14_05",
     "text": "這個菜很貴嗎？",
     "pinyin": "Zhège cài hěn guì ma?",
-    "pinyin_numeric": "Zhege4 cai4 hen3 gui4 ma0?",
+    "pinyin_numeric": "Zhe4ge5 cai4 hen3 gui4 ma0?",
     "translation_en": "Is this dish expensive?",
     "translation_ko": "이 요리는 비쌉니까?",
     "tokens": [
@@ -2821,7 +2821,7 @@
     "id": "SEN_M1_D14_07",
     "text": "這家餐廳很好。",
     "pinyin": "Zhè jiā cāntīng hěn hǎo.",
-    "pinyin_numeric": "Zhe4 jia1 can1 ting1 hen3 hao3.",
+    "pinyin_numeric": "Zhe4 jia1 can1ting1 hen3 hao3.",
     "translation_en": "This restaurant is really good.",
     "translation_ko": "이 식당은 좋습니다.",
     "tokens": [
@@ -2877,7 +2877,7 @@
     "id": "SEN_M1_D15_01",
     "text": "現在幾點？",
     "pinyin": "Xiànzài jǐ diǎn?",
-    "pinyin_numeric": "Xianzai4 ji3 dian3?",
+    "pinyin_numeric": "Xian4zai4 ji3 dian3?",
     "translation_en": "What time is it now?",
     "translation_ko": "지금 몇 시입니까?",
     "tokens": [
@@ -2898,7 +2898,7 @@
     "id": "SEN_M1_D15_02",
     "text": "現在三點。",
     "pinyin": "Xiànzài sān diǎn.",
-    "pinyin_numeric": "Xianzai4 san1 dian3.",
+    "pinyin_numeric": "Xian4zai4 san1 dian3.",
     "translation_en": "It is three o'clock now.",
     "translation_ko": "지금 세 시입니다.",
     "tokens": [
@@ -2921,7 +2921,7 @@
     "id": "SEN_M1_D15_03",
     "text": "今天星期幾？",
     "pinyin": "Jīntiān xīngqī jǐ?",
-    "pinyin_numeric": "Jin1tian1 xing1 qi1 ji3?",
+    "pinyin_numeric": "Jin1tian1 xing1qi1 ji3?",
     "translation_en": "What day of the week is today?",
     "translation_ko": "오늘 무슨 요일입니까?",
     "tokens": [
@@ -2944,7 +2944,7 @@
     "id": "SEN_M1_D15_04",
     "text": "明天星期三。",
     "pinyin": "Míngtiān xīngqīsān.",
-    "pinyin_numeric": "Ming2tian1 xing1 qi1 san1.",
+    "pinyin_numeric": "Ming2tian1 xing1qi1 san1.",
     "translation_en": "Tomorrow is Wednesday.",
     "translation_ko": "내일은 수요일입니다.",
     "tokens": [
@@ -2992,7 +2992,7 @@
     "id": "SEN_M1_D15_06",
     "text": "下午我們去餐廳。",
     "pinyin": "Xiàwǔ wǒmen qù cāntīng.",
-    "pinyin_numeric": "Xia4 wu3 wo3 men5 qu4 can1 ting1.",
+    "pinyin_numeric": "Xia4 wu3 wo3 men5 qu4 can1ting1.",
     "translation_en": "In the afternoon we go to a restaurant.",
     "translation_ko": "오후에 우리는 식당에 갑니다.",
     "tokens": [
@@ -3017,7 +3017,7 @@
     "id": "SEN_M1_D15_07",
     "text": "我今年二十歲。",
     "pinyin": "Wǒ jīnnián èrshí suì.",
-    "pinyin_numeric": "Wo3 jin1 nian2 er4 shi2 sui4.",
+    "pinyin_numeric": "Wo3 jin1nian2 er4shi2 sui4.",
     "translation_en": "I am twenty this year.",
     "translation_ko": "저는 올해 스무 살입니다.",
     "tokens": [
@@ -3116,7 +3116,7 @@
     "id": "SEN_M1_D16_03",
     "text": "這個多少錢？",
     "pinyin": "Zhège duōshao qián?",
-    "pinyin_numeric": "Zhege4 duo1 shao3 qian2?",
+    "pinyin_numeric": "Zhe4ge5 duo1shao3 qian2?",
     "translation_en": "How much does this cost?",
     "translation_ko": "이것은 얼마입니까?",
     "tokens": [
@@ -3138,7 +3138,7 @@
     "id": "SEN_M1_D16_04",
     "text": "一杯咖啡五十塊。",
     "pinyin": "Yì bēi kāfēi wǔshí kuài.",
-    "pinyin_numeric": "Yi4 bei1 ka1fei1 wu3 shi2 kuai4.",
+    "pinyin_numeric": "Yi4 bei1 ka1fei1 wu3shi2 kuai4.",
     "translation_en": "One cup of coffee is fifty dollars.",
     "translation_ko": "커피 한 잔은 50달러입니다.",
     "tokens": [
@@ -3219,7 +3219,7 @@
     "id": "SEN_M1_D16_07",
     "text": "這本書多少錢？",
     "pinyin": "Zhè běn shū duōshao qián?",
-    "pinyin_numeric": "Zhe4 ben3 shu1 duo1 shao3 qian2?",
+    "pinyin_numeric": "Zhe4 ben3 shu1 duo1shao3 qian2?",
     "translation_en": "How much is this book?",
     "translation_ko": "이 책은 얼마입니까?",
     "tokens": [
@@ -3268,7 +3268,7 @@
     "id": "SEN_M1_D17_01",
     "text": "我可以坐這裡嗎？",
     "pinyin": "Wǒ kěyǐ zuò zhèlǐ ma?",
-    "pinyin_numeric": "Wo3 keyi3 zuo4 zhe4 li3 ma0?",
+    "pinyin_numeric": "Wo3 ke3yi3 zuo4 zhe4li3 ma0?",
     "translation_en": "May I sit here?",
     "translation_ko": "여기에 앉아도 됩니까?",
     "tokens": [
@@ -3295,7 +3295,7 @@
     "id": "SEN_M1_D17_02",
     "text": "我可以用你的手機嗎？",
     "pinyin": "Wǒ kěyǐ yòng nǐ de shǒujī ma?",
-    "pinyin_numeric": "Wo3 keyi3 yong4 ni3 de0 shouji1 ma0?",
+    "pinyin_numeric": "Wo3 ke3yi3 yong4 ni3 de0 shouji1 ma0?",
     "translation_en": "May I use your phone?",
     "translation_ko": "당신의 휴대폰을 사용해도 됩니까?",
     "tokens": [
@@ -3326,7 +3326,7 @@
     "id": "SEN_M1_D17_03",
     "text": "可以問一下嗎？",
     "pinyin": "Kěyǐ wèn yíxià ma?",
-    "pinyin_numeric": "Keyi3 wen4 yi1 xia4 ma0?",
+    "pinyin_numeric": "Ke3yi3 wen4 yi2xia4 ma0?",
     "translation_en": "May I ask something?",
     "translation_ko": "잠깐 질문해도 됩니까?",
     "tokens": [
@@ -3351,7 +3351,7 @@
     "id": "SEN_M1_D17_04",
     "text": "你可以說慢一點嗎？",
     "pinyin": "Nǐ kěyǐ shuō màn yìdiǎn ma?",
-    "pinyin_numeric": "Ni3 keyi3 shuo1 man4 yi4 dian3 ma0?",
+    "pinyin_numeric": "Ni3 ke3yi3 shuo1 man4 yi4dian3 ma0?",
     "translation_en": "Can you speak a little slower?",
     "translation_ko": "조금 천천히 말해 줄 수 있습니까?",
     "tokens": [
@@ -3378,7 +3378,7 @@
     "id": "SEN_M1_D17_05",
     "text": "我可以試試嗎？",
     "pinyin": "Wǒ kěyǐ shìshi ma?",
-    "pinyin_numeric": "Wo3 keyi3 shi4 shi4 ma0?",
+    "pinyin_numeric": "Wo3 ke3yi3 shi4shi4 ma0?",
     "translation_en": "May I try it?",
     "translation_ko": "제가 한번 해봐도 됩니까?",
     "tokens": [
@@ -3405,7 +3405,7 @@
     "id": "SEN_M1_D17_06",
     "text": "我們可以喝咖啡嗎？",
     "pinyin": "Wǒmen kěyǐ hē kāfēi ma?",
-    "pinyin_numeric": "Wo3 men5 keyi3 he1 ka1fei1 ma0?",
+    "pinyin_numeric": "Wo3 men5 ke3yi3 he1 ka1fei1 ma0?",
     "translation_en": "Can we drink coffee?",
     "translation_ko": "우리 커피 마셔도 됩니까?",
     "tokens": [
@@ -3430,7 +3430,7 @@
     "id": "SEN_M1_D17_07",
     "text": "這裡可以坐嗎？",
     "pinyin": "Zhèlǐ kěyǐ zuò ma?",
-    "pinyin_numeric": "Zhe4 li3 keyi3 zuo4 ma0?",
+    "pinyin_numeric": "Zhe4li3 ke3yi3 zuo4 ma0?",
     "translation_en": "Can people sit here?",
     "translation_ko": "여기 앉아도 됩니까?",
     "tokens": [
@@ -3455,7 +3455,7 @@
     "id": "SEN_M1_D17_08",
     "text": "你有問題嗎？",
     "pinyin": "Nǐ yǒu wèntí ma?",
-    "pinyin_numeric": "Ni3 you3 wenti2 ma0?",
+    "pinyin_numeric": "Ni3 you3 wen4ti2 ma0?",
     "translation_en": "Do you have a question?",
     "translation_ko": "질문이 있습니까?",
     "tokens": [
@@ -3480,7 +3480,7 @@
     "id": "SEN_M1_D18_01",
     "text": "我喜歡看電影。",
     "pinyin": "Wǒ xǐhuan kàn diànyǐng.",
-    "pinyin_numeric": "Wo3 xi3 huan1 kan4 dian4 ying3.",
+    "pinyin_numeric": "Wo3 xi3huan1 kan4 dian4ying3.",
     "translation_en": "I like watching movies.",
     "translation_ko": "저는 영화 보는 것을 좋아합니다.",
     "tokens": [
@@ -3530,7 +3530,7 @@
     "id": "SEN_M1_D18_03",
     "text": "她喜歡聽音樂。",
     "pinyin": "Tā xǐhuan tīng yīnyuè.",
-    "pinyin_numeric": "Ta1 xi3 huan1 ting1 yin1 yue4.",
+    "pinyin_numeric": "Ta1 xi3huan1 ting1 yin1yue4.",
     "translation_en": "She likes listening to music.",
     "translation_ko": "그녀는 음악 듣는 것을 좋아합니다.",
     "tokens": [
@@ -3553,7 +3553,7 @@
     "id": "SEN_M1_D18_04",
     "text": "我不喜歡喝咖啡。",
     "pinyin": "Wǒ bù xǐhuan hē kāfēi.",
-    "pinyin_numeric": "Wo3 bu4 xi3 huan1 he1 ka1fei1.",
+    "pinyin_numeric": "Wo3 bu4 xi3huan1 he1 ka1fei1.",
     "translation_en": "I do not like drinking coffee.",
     "translation_ko": "저는 커피 마시는 것을 좋아하지 않습니다.",
     "tokens": [
@@ -3576,7 +3576,7 @@
     "id": "SEN_M1_D18_05",
     "text": "你喜歡拍照嗎？",
     "pinyin": "Nǐ xǐhuan pāizhào ma?",
-    "pinyin_numeric": "Ni3 xi3 huan1 pai1 zhao4 ma0?",
+    "pinyin_numeric": "Ni3 xi3huan1 pai1zhao4 ma0?",
     "translation_en": "Do you like taking photos?",
     "translation_ko": "사진 찍는 것을 좋아합니까?",
     "tokens": [
@@ -3624,7 +3624,7 @@
     "id": "SEN_M1_D18_07",
     "text": "爸爸喜歡走路。",
     "pinyin": "Bàba xǐhuan zǒulù.",
-    "pinyin_numeric": "Baba4 xi3 huan1 zou3 lu4.",
+    "pinyin_numeric": "Baba4 xi3huan1 zou3 lu4.",
     "translation_en": "Dad likes walking.",
     "translation_ko": "아빠는 걷는 것을 좋아합니다.",
     "tokens": [
@@ -3647,7 +3647,7 @@
     "id": "SEN_M1_D18_08",
     "text": "我最喜歡茶。",
     "pinyin": "Wǒ zuì xǐhuan chá.",
-    "pinyin_numeric": "Wo3 zui4 xi3 huan1 cha2.",
+    "pinyin_numeric": "Wo3 zui4 xi3huan1 cha2.",
     "translation_en": "I like tea the most.",
     "translation_ko": "저는 차를 가장 좋아합니다.",
     "tokens": [
@@ -3703,7 +3703,7 @@
     "id": "SEN_M1_D19_02",
     "text": "他早上起床，然後吃早餐。",
     "pinyin": "Tā zǎoshang qǐchuáng, ránhòu chī zǎocān.",
-    "pinyin_numeric": "Ta1 zao3 shang5 qi3 chuang2, ran2 hou4 chi1 zaocan1.",
+    "pinyin_numeric": "Ta1 zao3shang5 qi3 chuang2, ran2 hou4 chi1 zaocan1.",
     "translation_en": "He gets up in the morning, then eats breakfast.",
     "translation_ko": "그는 아침에 일어나고 그다음 아침을 먹습니다.",
     "tokens": [
@@ -3730,7 +3730,7 @@
     "id": "SEN_M1_D19_03",
     "text": "我先去公司，再去餐廳。",
     "pinyin": "Wǒ xiān qù gōngsī, zài qù cāntīng.",
-    "pinyin_numeric": "Wo3 xian1 qu4 gongsi1, zai4 qu4 can1 ting1.",
+    "pinyin_numeric": "Wo3 xian1 qu4 gongsi1, zai4 qu4 can1ting1.",
     "translation_en": "I go to the office first, then to a restaurant.",
     "translation_ko": "저는 먼저 회사에 가고 그다음 식당에 갑니다.",
     "tokens": [
@@ -3761,7 +3761,7 @@
     "id": "SEN_M1_D19_04",
     "text": "我們先看電影，然後喝咖啡。",
     "pinyin": "Wǒmen xiān kàn diànyǐng, ránhòu hē kāfēi.",
-    "pinyin_numeric": "Wo3 men5 xian1 kan4 dian4 ying3, ran2 hou4 he1 ka1fei1.",
+    "pinyin_numeric": "Wo3 men5 xian1 kan4 dian4ying3, ran2 hou4 he1 ka1fei1.",
     "translation_en": "We watch a movie first, then drink coffee.",
     "translation_ko": "우리는 먼저 영화를 보고 그다음 커피를 마십니다.",
     "tokens": [
@@ -3788,7 +3788,7 @@
     "id": "SEN_M1_D19_05",
     "text": "最後我回家。",
     "pinyin": "Zuìhòu wǒ huí jiā.",
-    "pinyin_numeric": "Zuihou4 wo3 hui2 jia1.",
+    "pinyin_numeric": "Zui4hou4 wo3 hui2 jia1.",
     "translation_en": "Lastly, I go home.",
     "translation_ko": "마지막으로 저는 집에 돌아갑니다.",
     "tokens": [
@@ -3870,7 +3870,7 @@
     "id": "SEN_M1_D19_08",
     "text": "我們最後去公園走路。",
     "pinyin": "Wǒmen zuìhòu qù gōngyuán zǒulù.",
-    "pinyin_numeric": "Wo3 men5 zui4 hou4 qu4 gong1 yuan2 zou3 lu4.",
+    "pinyin_numeric": "Wo3 men5 zui4 hou4 qu4 gong1yuan2 zou3 lu4.",
     "translation_en": "Lastly we go to the park to walk.",
     "translation_ko": "마지막으로 우리는 공원에 걸으러 갑니다.",
     "tokens": [
@@ -3897,7 +3897,7 @@
     "id": "SEN_M1_D20_01",
     "text": "我在圖書館看書。",
     "pinyin": "Wǒ zài túshūguǎn kàn shū.",
-    "pinyin_numeric": "Wo3 zai4 tu2 shu1 guan3 kan4 shu1.",
+    "pinyin_numeric": "Wo3 zai4 tu2shuguan3 kan4 shu1.",
     "translation_en": "I am reading a book at the library.",
     "translation_ko": "저는 도서관에서 책을 읽고 있습니다.",
     "tokens": [
@@ -3922,7 +3922,7 @@
     "id": "SEN_M1_D20_02",
     "text": "學校在醫院的左邊。",
     "pinyin": "Xuéxiào zài yīyuàn de zuǒbiān.",
-    "pinyin_numeric": "Xuexiao4 zai4 yi1 yuan4 de0 zuo3 bian1.",
+    "pinyin_numeric": "Xue2xiao4 zai4 yi1 yuan4 de0 zuo3bian1.",
     "translation_en": "The school is to the left of the hospital.",
     "translation_ko": "학교는 병원 왼쪽에 있습니다.",
     "tokens": [
@@ -3949,7 +3949,7 @@
     "id": "SEN_M1_D20_03",
     "text": "超市在我們家前面。",
     "pinyin": "Chāoshì zài wǒmen jiā qiánmiàn.",
-    "pinyin_numeric": "Chaoshi4 zai4 wo3 men5 jia1 qian2 mian4.",
+    "pinyin_numeric": "Chao1shi4 zai4 wo3 men5 jia1 qian2mian4.",
     "translation_en": "The supermarket is in front of our home.",
     "translation_ko": "슈퍼마켓은 우리 집 앞에 있습니다.",
     "tokens": [
@@ -3976,7 +3976,7 @@
     "id": "SEN_M1_D20_04",
     "text": "手機在桌子上。",
     "pinyin": "Shǒujī zài zhuōzi shàng.",
-    "pinyin_numeric": "Shouji1 zai4 zhuo1 zi5 shang4.",
+    "pinyin_numeric": "Shouji1 zai4 zhuo1zi5 shang4.",
     "translation_en": "The phone is on the table.",
     "translation_ko": "휴대폰은 책상 위에 있습니다.",
     "tokens": [
@@ -4001,7 +4001,7 @@
     "id": "SEN_M1_D20_05",
     "text": "書在椅子下。",
     "pinyin": "Shū zài yǐzi xià.",
-    "pinyin_numeric": "Shu1 zai4 yi3 zi5 xia4.",
+    "pinyin_numeric": "Shu1 zai4 yi3zi5 xia4.",
     "translation_en": "The book is under the chair.",
     "translation_ko": "책은 의자 아래에 있습니다.",
     "tokens": [
@@ -4026,7 +4026,7 @@
     "id": "SEN_M1_D20_06",
     "text": "你在哪裡工作？",
     "pinyin": "Nǐ zài nǎlǐ gōngzuò?",
-    "pinyin_numeric": "Ni3 zai4 na3 li3 gong1zuo4?",
+    "pinyin_numeric": "Ni3 zai4 na3li3 gong1zuo4?",
     "translation_en": "Where do you work?",
     "translation_ko": "어디에서 일합니까?",
     "tokens": [
@@ -4051,7 +4051,7 @@
     "id": "SEN_M1_D20_07",
     "text": "我在這裡等你。",
     "pinyin": "Wǒ zài zhèlǐ děng nǐ.",
-    "pinyin_numeric": "Wo3 zai4 zhe4 li3 deng3 ni3.",
+    "pinyin_numeric": "Wo3 zai4 zhe4li3 deng3 ni3.",
     "translation_en": "I am waiting for you here.",
     "translation_ko": "저는 여기에서 당신을 기다립니다.",
     "tokens": [
@@ -4078,7 +4078,7 @@
     "id": "SEN_M1_D20_08",
     "text": "他在那裡喝咖啡。",
     "pinyin": "Tā zài nàlǐ hē kāfēi.",
-    "pinyin_numeric": "Ta1 zai4 na3 li3 he1 ka1fei1.",
+    "pinyin_numeric": "Ta1 zai4 na3li3 he1 ka1fei1.",
     "translation_en": "He drinks coffee there.",
     "translation_ko": "그는 저기에서 커피를 마십니다.",
     "tokens": [
@@ -4103,7 +4103,7 @@
     "id": "SEN_M1_D21_01",
     "text": "明天下午三點我們在公園見面。",
     "pinyin": "Míngtiān xiàwǔ sān diǎn wǒmen zài gōngyuán jiànmiàn.",
-    "pinyin_numeric": "Ming2tian1 xia4 wu3 san1 dian3 wo3 men5 zai4 gong1 yuan2 jianmian4.",
+    "pinyin_numeric": "Ming2tian1 xia4wu3 san1 dian3 wo3 men5 zai4 gong1yuan2 jianmian4.",
     "translation_en": "Tomorrow at 3 PM we meet at the park.",
     "translation_ko": "내일 오후 세 시에 우리는 공원에서 만납니다.",
     "tokens": [
@@ -4136,7 +4136,7 @@
     "id": "SEN_M1_D21_02",
     "text": "然後我們去咖啡店喝咖啡。",
     "pinyin": "Ránhòu wǒmen qù kāfēi diàn hē kāfēi.",
-    "pinyin_numeric": "Ranhou4 wo3 men5 qu4 ka1fei1 dian4 he1 ka1fei1.",
+    "pinyin_numeric": "Ran2hou4 wo3 men5 qu4 ka1fei1 dian4 he1 ka1fei1.",
     "translation_en": "Then we go to a cafe to drink coffee.",
     "translation_ko": "그다음 우리는 카페에 가서 커피를 마십니다.",
     "tokens": [
@@ -4163,7 +4163,7 @@
     "id": "SEN_M1_D21_03",
     "text": "你可以坐這裡嗎？",
     "pinyin": "Nǐ kěyǐ zuò zhèlǐ ma?",
-    "pinyin_numeric": "Ni3 keyi3 zuo4 zhe4 li3 ma0?",
+    "pinyin_numeric": "Ni3 ke3yi3 zuo4 zhe4li3 ma0?",
     "translation_en": "Can you sit here?",
     "translation_ko": "여기에 앉을 수 있습니까?",
     "tokens": [
@@ -4190,7 +4190,7 @@
     "id": "SEN_M1_D21_04",
     "text": "我想先看電影。",
     "pinyin": "Wǒ xiǎng xiān kàn diànyǐng.",
-    "pinyin_numeric": "Wo3 xiang3 xian1 kan4 dian4 ying3.",
+    "pinyin_numeric": "Wo3 xiang3 xian1 kan4 dian4ying3.",
     "translation_en": "I want to watch a movie first.",
     "translation_ko": "저는 먼저 영화를 보고 싶습니다.",
     "tokens": [
@@ -4215,7 +4215,7 @@
     "id": "SEN_M1_D21_05",
     "text": "她不喜歡喝咖啡。",
     "pinyin": "Tā bù xǐhuan hē kāfēi.",
-    "pinyin_numeric": "Ta1 bu4 xi3 huan1 he1 ka1fei1.",
+    "pinyin_numeric": "Ta1 bu4 xi3huan1 he1 ka1fei1.",
     "translation_en": "She does not like drinking coffee.",
     "translation_ko": "그녀는 커피 마시는 것을 좋아하지 않습니다.",
     "tokens": [
@@ -4238,7 +4238,7 @@
     "id": "SEN_M1_D21_06",
     "text": "我們最後去圖書館。",
     "pinyin": "Wǒmen zuìhòu qù túshūguǎn.",
-    "pinyin_numeric": "Wo3 men5 zui4 hou4 qu4 tu2 shu1 guan3.",
+    "pinyin_numeric": "Wo3 men5 zui4 hou4 qu4 tu2shuguan3.",
     "translation_en": "Lastly we go to the library.",
     "translation_ko": "마지막으로 우리는 도서관에 갑니다.",
     "tokens": [
@@ -4263,7 +4263,7 @@
     "id": "SEN_M1_D21_07",
     "text": "圖書館在哪裡？",
     "pinyin": "Túshūguǎn zài nǎlǐ?",
-    "pinyin_numeric": "Tushuguan3 zai4 na3 li3?",
+    "pinyin_numeric": "Tu2shuguan3 zai4 na3li3?",
     "translation_en": "Where is the library?",
     "translation_ko": "도서관은 어디에 있습니까?",
     "tokens": [
@@ -4286,7 +4286,7 @@
     "id": "SEN_M1_D21_08",
     "text": "今天的計畫很好。",
     "pinyin": "Jīntiān de jìhuà hěn hǎo.",
-    "pinyin_numeric": "Jin1tian1 de0 ji4 hua4 hen3 hao3.",
+    "pinyin_numeric": "Jin1tian1 de0 ji4hua4 hen3 hao3.",
     "translation_en": "Today's plan is good.",
     "translation_ko": "오늘 계획은 좋습니다.",
     "tokens": [
@@ -4313,7 +4313,7 @@
     "id": "SEN_M1_D22_01",
     "text": "我們下午去公園散步。",
     "pinyin": "Wǒmen xiàwǔ qù gōngyuán sànbù.",
-    "pinyin_numeric": "Wo3 men5 xia4 wu3 qu4 gong1 yuan2 sanbu4.",
+    "pinyin_numeric": "Wo3 men5 xia4wu3 qu4 gong1yuan2 sanbu4.",
     "translation_en": "We go to the park for a walk this afternoon.",
     "translation_ko": "우리는 오후에 공원에 산책하러 갑니다.",
     "tokens": [
@@ -4340,7 +4340,7 @@
     "id": "SEN_M1_D22_02",
     "text": "他明天坐火車來台中。",
     "pinyin": "Tā míngtiān zuò huǒchē lái Táizhōng.",
-    "pinyin_numeric": "Ta1 ming2tian1 zuo4 huo3 che1 lai2 Tai2 zhong1.",
+    "pinyin_numeric": "Ta1 ming2tian1 zuo4 huo3che1 lai2 Tai2 zhong1.",
     "translation_en": "He comes to Taichung by train tomorrow.",
     "translation_ko": "그는 내일 기차를 타고 타이중에 옵니다.",
     "tokens": [
@@ -4369,7 +4369,7 @@
     "id": "SEN_M1_D22_03",
     "text": "你去商店嗎？",
     "pinyin": "Nǐ qù shāngdiàn ma?",
-    "pinyin_numeric": "Ni3 qu4 shang1 dian4 ma0?",
+    "pinyin_numeric": "Ni3 qu4 shang1dian4 ma0?",
     "translation_en": "Are you going to the shop?",
     "translation_ko": "가게에 갑니까?",
     "tokens": [
@@ -4394,7 +4394,7 @@
     "id": "SEN_M1_D22_04",
     "text": "醫院在哪裡？",
     "pinyin": "Yīyuàn zài nǎlǐ?",
-    "pinyin_numeric": "Yiyuan4 zai4 na3 li3?",
+    "pinyin_numeric": "Yi1yuan4 zai4 na3li3?",
     "translation_en": "Where is the hospital?",
     "translation_ko": "병원은 어디에 있습니까?",
     "tokens": [
@@ -4444,7 +4444,7 @@
     "id": "SEN_M1_D22_06",
     "text": "車站在公園前面。",
     "pinyin": "Chēzhàn zài gōngyuán qiánmiàn.",
-    "pinyin_numeric": "Chezhan4 zai4 gong1 yuan2 qian2 mian4.",
+    "pinyin_numeric": "Che1zhan4 zai4 gong1yuan2 qian2mian4.",
     "translation_en": "The station is in front of the park.",
     "translation_ko": "역은 공원 앞에 있습니다.",
     "tokens": [
@@ -4469,7 +4469,7 @@
     "id": "SEN_M1_D22_07",
     "text": "爸爸坐飛機去台北。",
     "pinyin": "Bàba zuò fēijī qù Táiběi.",
-    "pinyin_numeric": "Baba4 zuo4 fei1 ji1 qu4 Tai2bei3.",
+    "pinyin_numeric": "Baba4 zuo4 fei1ji1 qu4 Tai2bei3.",
     "translation_en": "Dad takes a plane to Taipei.",
     "translation_ko": "아버지는 비행기를 타고 타이베이에 갑니다.",
     "tokens": [
@@ -4525,7 +4525,7 @@
     "id": "SEN_M1_D23_01",
     "text": "今天比昨天熱。",
     "pinyin": "Jīntiān bǐ zuótiān rè.",
-    "pinyin_numeric": "Jin1tian1 bi3 zuo2 tian1 re4.",
+    "pinyin_numeric": "Jin1tian1 bi3 zuo2tian1 re4.",
     "translation_en": "Today is hotter than yesterday.",
     "translation_ko": "오늘은 어제보다 덥습니다.",
     "tokens": [
@@ -4550,7 +4550,7 @@
     "id": "SEN_M1_D23_02",
     "text": "這個菜比那個菜貴。",
     "pinyin": "Zhège cài bǐ nàge cài guì.",
-    "pinyin_numeric": "Zhege4 cai4 bi3 nage4 cai4 gui4.",
+    "pinyin_numeric": "Zhe4ge5 cai4 bi3 na4ge5 cai4 gui4.",
     "translation_en": "This dish is more expensive than that dish.",
     "translation_ko": "이 요리는 저 요리보다 비쌉니다.",
     "tokens": [
@@ -4580,7 +4580,7 @@
     "id": "SEN_M1_D23_03",
     "text": "捷運比火車快嗎？",
     "pinyin": "Jiéyùn bǐ huǒchē kuài ma?",
-    "pinyin_numeric": "Jieyun4 bi3 huo3 che1 kuai4 ma0?",
+    "pinyin_numeric": "Jie2yun4 bi3 huo3che1 kuai4 ma0?",
     "translation_en": "Is the MRT faster than the train?",
     "translation_ko": "지하철이 기차보다 빠릅니까?",
     "tokens": [
@@ -4671,7 +4671,7 @@
     "id": "SEN_M1_D23_06",
     "text": "今天比昨天冷。",
     "pinyin": "Jīntiān bǐ zuótiān lěng.",
-    "pinyin_numeric": "Jin1tian1 bi3 zuo2 tian1 leng3.",
+    "pinyin_numeric": "Jin1tian1 bi3 zuo2tian1 leng3.",
     "translation_en": "Today is colder than yesterday.",
     "translation_ko": "오늘은 어제보다 춥습니다.",
     "tokens": [
@@ -4723,7 +4723,7 @@
     "id": "SEN_M1_D23_08",
     "text": "這家餐廳更貴。",
     "pinyin": "Zhè jiā cāntīng gèng guì.",
-    "pinyin_numeric": "Zhe4 jia1 can1 ting1 geng4 gui4.",
+    "pinyin_numeric": "Zhe4 jia1 can1ting1 geng4 gui4.",
     "translation_en": "This restaurant is even more expensive.",
     "translation_ko": "이 식당은 더 비쌉니다.",
     "tokens": [
@@ -4749,7 +4749,7 @@
     "id": "SEN_M1_D24_01",
     "text": "銀行在商店的前面。",
     "pinyin": "Yínháng zài shāngdiàn de qiánmiàn.",
-    "pinyin_numeric": "Yinhang2 zai4 shang1 dian4 de0 qian2 mian4.",
+    "pinyin_numeric": "Yin2hang2 zai4 shang1dian4 de0 qian2mian4.",
     "translation_en": "The bank is in front of the shop.",
     "translation_ko": "은행은 가게 앞에 있습니다.",
     "tokens": [
@@ -4776,7 +4776,7 @@
     "id": "SEN_M1_D24_02",
     "text": "圖書館在學校的後面。",
     "pinyin": "Túshūguǎn zài xuéxiào de hòumiàn.",
-    "pinyin_numeric": "Tushuguan3 zai4 xue2xiao4 de0 houmian4.",
+    "pinyin_numeric": "Tu2shuguan3 zai4 xue2xiao4 de0 houmian4.",
     "translation_en": "The library is behind the school.",
     "translation_ko": "도서관은 학교 뒤에 있습니다.",
     "tokens": [
@@ -4803,7 +4803,7 @@
     "id": "SEN_M1_D24_03",
     "text": "廁所在哪裡？",
     "pinyin": "Cèsuǒ zài nǎlǐ?",
-    "pinyin_numeric": "Ce4 suo3 zai4 na3 li3?",
+    "pinyin_numeric": "Ce4suo3 zai4 na3li3?",
     "translation_en": "Where is the bathroom?",
     "translation_ko": "화장실은 어디에 있습니까?",
     "tokens": [
@@ -4826,7 +4826,7 @@
     "id": "SEN_M1_D24_04",
     "text": "手機在包包裡面。",
     "pinyin": "Shǒujī zài bāobāo lǐmiàn.",
-    "pinyin_numeric": "Shouji1 zai4 bao1 bao5 li3 mian4.",
+    "pinyin_numeric": "Shouji1 zai4 bao1bao5 li3mian4.",
     "translation_en": "The phone is inside the bag.",
     "translation_ko": "휴대폰은 가방 안에 있습니다.",
     "tokens": [
@@ -4851,7 +4851,7 @@
     "id": "SEN_M1_D24_05",
     "text": "他在外面等你。",
     "pinyin": "Tā zài wàimiàn děng nǐ.",
-    "pinyin_numeric": "Ta1 zai4 wai4 mian4 deng3 ni3.",
+    "pinyin_numeric": "Ta1 zai4 wai4mian4 deng3 ni3.",
     "translation_en": "He is waiting for you outside.",
     "translation_ko": "그는 밖에서 당신을 기다립니다.",
     "tokens": [
@@ -4878,7 +4878,7 @@
     "id": "SEN_M1_D24_06",
     "text": "醫院在這條路的右邊。",
     "pinyin": "Yīyuàn zài zhè tiáo lù de yòubiān.",
-    "pinyin_numeric": "Yiyuan4 zai4 zhe4 tiao2 lu4 de0 you4 bian1.",
+    "pinyin_numeric": "Yi1yuan4 zai4 zhe4 tiao2 lu4 de0 you4bian1.",
     "translation_en": "The hospital is on the right side of this road.",
     "translation_ko": "병원은 이 길 오른쪽에 있습니다.",
     "tokens": [
@@ -4907,7 +4907,7 @@
     "id": "SEN_M1_D24_07",
     "text": "公園在車站的左邊。",
     "pinyin": "Gōngyuán zài chēzhàn de zuǒbiān.",
-    "pinyin_numeric": "Gongyuan2 zai4 che1 zhan4 de0 zuo3 bian1.",
+    "pinyin_numeric": "Gong1yuan2 zai4 che1 zhan4 de0 zuo3bian1.",
     "translation_en": "The park is to the left of the station.",
     "translation_ko": "공원은 역 왼쪽에 있습니다.",
     "tokens": [
@@ -4934,7 +4934,7 @@
     "id": "SEN_M1_D24_08",
     "text": "餐廳在銀行後面。",
     "pinyin": "Cāntīng zài yínháng hòumiàn.",
-    "pinyin_numeric": "Canting1 zai4 yin2 hang2 houmian4.",
+    "pinyin_numeric": "Can1ting1 zai4 yin2hang2 houmian4.",
     "translation_en": "The restaurant is behind the bank.",
     "translation_ko": "식당은 은행 뒤에 있습니다.",
     "tokens": [
@@ -4959,7 +4959,7 @@
     "id": "SEN_M1_D25_01",
     "text": "我需要去銀行取錢。",
     "pinyin": "Wǒ xūyào qù yínháng qǔ qián.",
-    "pinyin_numeric": "Wo3 xu1 yao4 qu4 yin2 hang2 qu3 qian2.",
+    "pinyin_numeric": "Wo3 xu1yao4 qu4 yin2hang2 qu3 qian2.",
     "translation_en": "I need to go to the bank to withdraw money.",
     "translation_ko": "저는 은행에 가서 돈을 찾아야 합니다.",
     "tokens": [
@@ -4987,7 +4987,7 @@
     "id": "SEN_M1_D25_02",
     "text": "抱歉，現在我必須走了。",
     "pinyin": "Bàoqiàn, xiànzài wǒ bìxū zǒu le.",
-    "pinyin_numeric": "Bao4 qian4, xianzai4 wo3 bi4 xu1 zou3 le0.",
+    "pinyin_numeric": "Bao4 qian4, xian4zai4 wo3 bi4xu1 zou3 le0.",
     "translation_en": "Sorry, I must leave now.",
     "translation_ko": "미안합니다, 지금 저는 가야 합니다.",
     "tokens": [
@@ -5040,7 +5040,7 @@
     "id": "SEN_M1_D25_04",
     "text": "你需要發票嗎？",
     "pinyin": "Nǐ xūyào fāpiào ma?",
-    "pinyin_numeric": "Ni3 xu1 yao4 fapiao4 ma0?",
+    "pinyin_numeric": "Ni3 xu1yao4 fa1piao4 ma0?",
     "translation_en": "Do you need a receipt?",
     "translation_ko": "영수증이 필요합니까?",
     "tokens": [
@@ -5065,7 +5065,7 @@
     "id": "SEN_M1_D25_05",
     "text": "我需要一張悠遊卡。",
     "pinyin": "Wǒ xūyào yì zhāng Yōuyóu Kǎ.",
-    "pinyin_numeric": "Wo3 xu1 yao4 yi4 zhang1 You2l?3 you2 Ka3.",
+    "pinyin_numeric": "Wo3 xu1yao4 yi4 zhang1 You1you2ka3.",
     "translation_en": "I need an EasyCard.",
     "translation_ko": "저는 유유카드 한 장이 필요합니다.",
     "tokens": [
@@ -5120,7 +5120,7 @@
     "id": "SEN_M1_D25_07",
     "text": "他必須早上去公司。",
     "pinyin": "Tā bìxū zǎoshang qù gōngsī.",
-    "pinyin_numeric": "Ta1 bi4 xu1 zao3 shang5 qu4 gongsi1.",
+    "pinyin_numeric": "Ta1 bi4xu1 zao3shang5 qu4 gongsi1.",
     "translation_en": "He must go to the office in the morning.",
     "translation_ko": "그는 아침에 회사에 가야 합니다.",
     "tokens": [
@@ -5147,7 +5147,7 @@
     "id": "SEN_M1_D25_08",
     "text": "我需要拿手機。",
     "pinyin": "Wǒ xūyào ná shǒujī.",
-    "pinyin_numeric": "Wo3 xu1 yao4 na2 shouji1.",
+    "pinyin_numeric": "Wo3 xu1yao4 na2 shouji1.",
     "translation_en": "I need to take my phone.",
     "translation_ko": "저는 휴대폰을 가져가야 합니다.",
     "tokens": [
@@ -5193,7 +5193,7 @@
     "id": "SEN_M1_D26_02",
     "text": "請幫我一下，可以嗎？",
     "pinyin": "Qǐng bāng wǒ yíxià, kěyǐ ma?",
-    "pinyin_numeric": "Qing3 bang1 wo3 yi1 xia4, keyi3 ma0?",
+    "pinyin_numeric": "Qing3 bang1 wo3 yi2xia4, ke3yi3 ma0?",
     "translation_en": "Please help me for a moment, is that okay?",
     "translation_ko": "잠깐 도와주실 수 있습니까?",
     "tokens": [
@@ -5243,7 +5243,7 @@
     "id": "SEN_M1_D26_04",
     "text": "請等一下。",
     "pinyin": "Qǐng děng yíxià.",
-    "pinyin_numeric": "Qing3 deng3 yi1 xia4.",
+    "pinyin_numeric": "Qing3 deng3 yi2xia4.",
     "translation_en": "Please wait a moment.",
     "translation_ko": "잠깐 기다려 주세요.",
     "tokens": [
@@ -5264,7 +5264,7 @@
     "id": "SEN_M1_D26_05",
     "text": "請給我菜單。",
     "pinyin": "Qǐng gěi wǒ càidān.",
-    "pinyin_numeric": "Qing3 gei3 wo3 cai4 dan1.",
+    "pinyin_numeric": "Qing3 gei3 wo3 cai4dan1.",
     "translation_en": "Please give me the menu.",
     "translation_ko": "메뉴를 주세요.",
     "tokens": [
@@ -5287,7 +5287,7 @@
     "id": "SEN_M1_D26_06",
     "text": "我要一個袋子。",
     "pinyin": "Wǒ yào yí ge dàizi.",
-    "pinyin_numeric": "Wo3 yao4 yi2 ge0 dai4 zi5.",
+    "pinyin_numeric": "Wo3 yao4 yi2 ge0 dai4zi5.",
     "translation_en": "I would like a bag.",
     "translation_ko": "봉투 하나 주세요.",
     "tokens": [
@@ -5314,7 +5314,7 @@
     "id": "SEN_M1_D26_07",
     "text": "你想一起喝咖啡嗎？",
     "pinyin": "Nǐ xiǎng yìqǐ hē kāfēi ma?",
-    "pinyin_numeric": "Ni3 xiang3 yi4 qi3 he1 ka1fei1 ma0?",
+    "pinyin_numeric": "Ni3 xiang3 yi4qi3 he1 ka1fei1 ma0?",
     "translation_en": "Do you want to drink coffee together?",
     "translation_ko": "같이 커피를 마시고 싶습니까?",
     "tokens": [
@@ -5341,7 +5341,7 @@
     "id": "SEN_M1_D26_08",
     "text": "可以請你說慢一點嗎？",
     "pinyin": "Kěyǐ qǐng nǐ shuō màn yìdiǎn ma?",
-    "pinyin_numeric": "Keyi3 qing3 ni3 shuo1 man4 yi4 dian3 ma0?",
+    "pinyin_numeric": "Ke3yi3 qing3 ni3 shuo1 man4 yi4dian3 ma0?",
     "translation_en": "Could you please speak a little slower?",
     "translation_ko": "조금 천천히 말해 주실 수 있습니까?",
     "tokens": [
@@ -5370,7 +5370,7 @@
     "id": "SEN_M1_D27_01",
     "text": "我的愛好是唱歌和跳舞。",
     "pinyin": "Wǒ de àihào shì chànggē hé tiàowǔ.",
-    "pinyin_numeric": "Wo3 de0 ai4 hao4 shi4 chang4 ge1 he2 tiao4 wu3.",
+    "pinyin_numeric": "Wo3 de0 ai4hao4 shi4 chang4ge1 he2 tiao4wu3.",
     "translation_en": "My hobbies are singing and dancing.",
     "translation_ko": "제 취미는 노래와 춤입니다.",
     "tokens": [
@@ -5400,7 +5400,7 @@
     "id": "SEN_M1_D27_02",
     "text": "我喜歡旅遊，也喜歡拍照。",
     "pinyin": "Wǒ xǐhuan lǚyóu, yě xǐhuan pāizhào.",
-    "pinyin_numeric": "Wo3 xi3 huan1 lül?3 you2, ye3 xi3 huan1 pai1 zhao4.",
+    "pinyin_numeric": "Wo3 xi3huan1 lv3you2, ye3 xi3huan1 pai1zhao4.",
     "translation_en": "I like traveling and also taking photos.",
     "translation_ko": "저는 여행도 좋아하고 사진 찍기도 좋아합니다.",
     "tokens": [
@@ -5429,7 +5429,7 @@
     "id": "SEN_M1_D27_03",
     "text": "他不喜歡運動。",
     "pinyin": "Tā bù xǐhuan yùndòng.",
-    "pinyin_numeric": "Ta1 bu4 xi3 huan1 yun4 dong4.",
+    "pinyin_numeric": "Ta1 bu4 xi3huan1 yun4dong4.",
     "translation_en": "He does not like exercising.",
     "translation_ko": "그는 운동을 좋아하지 않습니다.",
     "tokens": [
@@ -5452,7 +5452,7 @@
     "id": "SEN_M1_D27_04",
     "text": "你會游泳嗎？",
     "pinyin": "Nǐ huì yóuyǒng ma?",
-    "pinyin_numeric": "Ni3 hui4 you2 yong3 ma0?",
+    "pinyin_numeric": "Ni3 hui4 you2yong3 ma0?",
     "translation_en": "Can you swim?",
     "translation_ko": "수영할 수 있습니까?",
     "tokens": [
@@ -5477,7 +5477,7 @@
     "id": "SEN_M1_D27_05",
     "text": "妹妹最愛唱歌。",
     "pinyin": "Mèimei zuì ài chànggē.",
-    "pinyin_numeric": "Meimei4 zui4 ai4 chang4 ge1.",
+    "pinyin_numeric": "Meimei4 zui4 ai4 chang4ge1.",
     "translation_en": "My younger sister loves singing the most.",
     "translation_ko": "여동생은 노래를 가장 좋아합니다.",
     "tokens": [
@@ -5502,7 +5502,7 @@
     "id": "SEN_M1_D27_06",
     "text": "我們下午去公園跑步。",
     "pinyin": "Wǒmen xiàwǔ qù gōngyuán pǎobù.",
-    "pinyin_numeric": "Wo3 men5 xia4 wu3 qu4 gong1 yuan2 pao3 bu4.",
+    "pinyin_numeric": "Wo3 men5 xia4wu3 qu4 gong1yuan2 pao3bu4.",
     "translation_en": "We go to the park to run in the afternoon.",
     "translation_ko": "우리는 오후에 공원에 달리러 갑니다.",
     "tokens": [
@@ -5529,7 +5529,7 @@
     "id": "SEN_M1_D27_07",
     "text": "我的朋友喜歡跳舞。",
     "pinyin": "Wǒ de péngyǒu xǐhuan tiàowǔ.",
-    "pinyin_numeric": "Wo3 de0 peng2 you3 xi3 huan1 tiao4 wu3.",
+    "pinyin_numeric": "Wo3 de0 peng2you3 xi3huan1 tiao4wu3.",
     "translation_en": "My friend likes dancing.",
     "translation_ko": "제 친구는 춤추는 것을 좋아합니다.",
     "tokens": [
@@ -5556,7 +5556,7 @@
     "id": "SEN_M1_D27_08",
     "text": "你的愛好是什麼？",
     "pinyin": "Nǐ de àihào shì shénme?",
-    "pinyin_numeric": "Ni3 de0 ai4 hao4 shi4 shen2me5?",
+    "pinyin_numeric": "Ni3 de0 ai4hao4 shi4 shen2me5?",
     "translation_en": "What is your hobby?",
     "translation_ko": "취미가 무엇입니까?",
     "tokens": [
@@ -5610,7 +5610,7 @@
     "id": "SEN_M1_D28_02",
     "text": "我想學游泳。",
     "pinyin": "Wǒ xiǎng xué yóuyǒng.",
-    "pinyin_numeric": "Wo3 xiang3 xue2 you2 yong3.",
+    "pinyin_numeric": "Wo3 xiang3 xue2 you2yong3.",
     "translation_en": "I want to learn to swim.",
     "translation_ko": "저는 수영을 배우고 싶습니다.",
     "tokens": [
@@ -5633,7 +5633,7 @@
     "id": "SEN_M1_D28_03",
     "text": "我們打算下個星期見面。",
     "pinyin": "Wǒmen dǎsuàn xià ge xīngqī jiànmiàn.",
-    "pinyin_numeric": "Wo3 men5 da3 suan4 xia4 ge0 xing1 qi1 jianmian4.",
+    "pinyin_numeric": "Wo3 men5 da3suan4 xia4 ge0 xing1qi1 jianmian4.",
     "translation_en": "We plan to meet next week.",
     "translation_ko": "우리는 다음 주에 만날 계획입니다.",
     "tokens": [
@@ -5658,7 +5658,7 @@
     "id": "SEN_M1_D28_04",
     "text": "他希望學好中文。",
     "pinyin": "Tā xīwàng xué hǎo Zhōngwén.",
-    "pinyin_numeric": "Ta1 xi1 wang4 xue2 hao3 Zhong1wen2.",
+    "pinyin_numeric": "Ta1 xi1wang4 xue2 hao3 Zhong1wen2.",
     "translation_en": "He hopes to learn Chinese well.",
     "translation_ko": "그는 중국어를 잘 배우기를 바랍니다.",
     "tokens": [
@@ -5739,7 +5739,7 @@
     "id": "SEN_M1_D28_07",
     "text": "我們的計畫很好。",
     "pinyin": "Wǒmen de jìhuà hěn hǎo.",
-    "pinyin_numeric": "Wo3 men5 de0 ji4 hua4 hen3 hao3.",
+    "pinyin_numeric": "Wo3 men5 de0 ji4hua4 hen3 hao3.",
     "translation_en": "Our plan is good.",
     "translation_ko": "우리의 계획은 좋습니다.",
     "tokens": [
@@ -5766,7 +5766,7 @@
     "id": "SEN_M1_D28_08",
     "text": "她不打算喝咖啡。",
     "pinyin": "Tā bù dǎsuàn hē kāfēi.",
-    "pinyin_numeric": "Ta1 bu4 da3 suan4 he1 ka1fei1.",
+    "pinyin_numeric": "Ta1 bu4 da3suan4 he1 ka1fei1.",
     "translation_en": "She does not plan to drink coffee.",
     "translation_ko": "그녀는 커피를 마실 계획이 없습니다.",
     "tokens": [
@@ -5791,7 +5791,7 @@
     "id": "SEN_M1_D29_01",
     "text": "今天早上我先喝水。",
     "pinyin": "Jīntiān zǎoshang wǒ xiān hē shuǐ.",
-    "pinyin_numeric": "Jin1tian1 zao3 shang5 wo3 xian1 he1 shui3.",
+    "pinyin_numeric": "Jin1tian1 zao3shang5 wo3 xian1 he1 shui3.",
     "translation_en": "This morning I drink water first.",
     "translation_ko": "오늘 아침 저는 먼저 물을 마십니다.",
     "tokens": [
@@ -5820,7 +5820,7 @@
     "id": "SEN_M1_D29_02",
     "text": "然後我在家學中文。",
     "pinyin": "Ránhòu wǒ zài jiā xué Zhōngwén.",
-    "pinyin_numeric": "Ranhou4 wo3 zai4 jia1 xue2 Zhong1wen2.",
+    "pinyin_numeric": "Ran2hou4 wo3 zai4 jia1 xue2 Zhong1wen2.",
     "translation_en": "Then I study Chinese at home.",
     "translation_ko": "그다음 저는 집에서 중국어를 공부합니다.",
     "tokens": [
@@ -5905,7 +5905,7 @@
     "id": "SEN_M1_D29_05",
     "text": "晚上我沒有課。",
     "pinyin": "Wǎnshàng wǒ méiyǒu kè.",
-    "pinyin_numeric": "Wan3 shang5 wo3 mei2 you3 ke4.",
+    "pinyin_numeric": "Wan3shang5 wo3 mei2 you3 ke4.",
     "translation_en": "In the evening I do not have class.",
     "translation_ko": "저녁에 저는 수업이 없습니다.",
     "tokens": [
@@ -5930,7 +5930,7 @@
     "id": "SEN_M1_D29_06",
     "text": "我在圖書館看書。",
     "pinyin": "Wǒ zài túshūguǎn kàn shū.",
-    "pinyin_numeric": "Wo3 zai4 tu2 shu1 guan3 kan4 shu1.",
+    "pinyin_numeric": "Wo3 zai4 tu2shuguan3 kan4 shu1.",
     "translation_en": "I am reading a book at the library.",
     "translation_ko": "저는 도서관에서 책을 읽습니다.",
     "tokens": [
@@ -5955,7 +5955,7 @@
     "id": "SEN_M1_D29_07",
     "text": "最後我回家吃飯。",
     "pinyin": "Zuìhòu wǒ huí jiā chīfàn.",
-    "pinyin_numeric": "Zuihou4 wo3 hui2 jia1 chi1 fan4.",
+    "pinyin_numeric": "Zui4hou4 wo3 hui2 jia1 chi1 fan4.",
     "translation_en": "Finally I go home to eat.",
     "translation_ko": "마지막으로 집에 돌아가 밥을 먹습니다.",
     "tokens": [
@@ -6069,7 +6069,7 @@
     "id": "SEN_M1_D30_03",
     "text": "我喜歡台灣小吃。",
     "pinyin": "Wǒ xǐhuan Táiwān xiǎochī.",
-    "pinyin_numeric": "Wo3 xi3 huan1 Taiwan1 xiaochi1.",
+    "pinyin_numeric": "Wo3 xi3huan1 Taiwan1 xiaochi1.",
     "translation_en": "I like Taiwanese snacks.",
     "translation_ko": "저는 대만 간식을 좋아합니다.",
     "tokens": [
@@ -6094,7 +6094,7 @@
     "id": "SEN_M1_D30_04",
     "text": "今天下午我想去公園。",
     "pinyin": "Jīntiān xiàwǔ wǒ xiǎng qù gōngyuán.",
-    "pinyin_numeric": "Jin1tian1 xia4 wu3 wo3 xiang3 qu4 gong1 yuan2.",
+    "pinyin_numeric": "Jin1tian1 xia4wu3 wo3 xiang3 qu4 gong1yuan2.",
     "translation_en": "This afternoon I want to go to the park.",
     "translation_ko": "오늘 오후 저는 공원에 가고 싶습니다.",
     "tokens": [
@@ -6123,7 +6123,7 @@
     "id": "SEN_M1_D30_05",
     "text": "我可以坐這裡嗎？",
     "pinyin": "Wǒ kěyǐ zuò zhèlǐ ma?",
-    "pinyin_numeric": "Wo3 keyi3 zuo4 zhe4 li3 ma0?",
+    "pinyin_numeric": "Wo3 ke3yi3 zuo4 zhe4li3 ma0?",
     "translation_en": "May I sit here?",
     "translation_ko": "여기에 앉아도 됩니까?",
     "tokens": [
@@ -6150,7 +6150,7 @@
     "id": "SEN_M1_D30_06",
     "text": "圖書館在學校後面。",
     "pinyin": "Túshūguǎn zài xuéxiào hòumiàn.",
-    "pinyin_numeric": "Tushuguan3 zai4 xue2xiao4 houmian4.",
+    "pinyin_numeric": "Tu2shuguan3 zai4 xue2xiao4 houmian4.",
     "translation_en": "The library is behind the school.",
     "translation_ko": "도서관은 학교 뒤에 있습니다.",
     "tokens": [
@@ -6175,7 +6175,7 @@
     "id": "SEN_M1_D30_07",
     "text": "今天比昨天熱。",
     "pinyin": "Jīntiān bǐ zuótiān rè.",
-    "pinyin_numeric": "Jin1tian1 bi3 zuo2 tian1 re4.",
+    "pinyin_numeric": "Jin1tian1 bi3 zuo2tian1 re4.",
     "translation_en": "Today is hotter than yesterday.",
     "translation_ko": "오늘은 어제보다 덥습니다.",
     "tokens": [
@@ -6200,7 +6200,7 @@
     "id": "SEN_M1_D30_08",
     "text": "明天我打算坐捷運去台北。",
     "pinyin": "Míngtiān wǒ dǎsuàn zuò jiéyùn qù Táiběi.",
-    "pinyin_numeric": "Ming2tian1 wo3 da3 suan4 zuo4 jie2yun4 qu4 Tai2bei3.",
+    "pinyin_numeric": "Ming2tian1 wo3 da3suan4 zuo4 jie2yun4 qu4 Tai2bei3.",
     "translation_en": "Tomorrow I plan to take the MRT to Taipei.",
     "translation_ko": "내일 저는 지하철을 타고 타이베이에 갈 계획입니다.",
     "tokens": [

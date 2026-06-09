@@ -22,10 +22,31 @@ const dialogues = [
   ...readJson("mandarin_course/data/dialogues_days31_45.json"),
   ...readJson("mandarin_course/data/dialogues_days46_90.json")
 ];
+const vocab = [
+  ...readJson("mandarin_course/data/vocab_month1.json"),
+  ...readJson("mandarin_course/data/vocab_days31_45.json"),
+  ...readJson("mandarin_course/data/vocab_days46_90.json")
+];
+const audioManifests = [
+  ...readJson("mandarin_course/audio/manifest_month1.json"),
+  ...readJson("mandarin_course/audio/manifest_days31_45.json"),
+  ...readJson("mandarin_course/audio/manifest_days46_90.json")
+];
 
 const sentenceById = new Map(sentences.map((item) => [item.id, item]));
 const errors = [];
 const warnings = [];
+
+function checkPinyinNumeric(item, label) {
+  const numeric = item.pinyin_numeric;
+  if (typeof numeric !== "string") return;
+  if (/[^\x00-\x7F]/.test(numeric)) {
+    errors.push(`${label}: non-ASCII pinyin_numeric "${numeric}"`);
+  }
+  if (/[A-Za-z][?][A-Za-z0-9]/.test(numeric) || /[0-9][?][A-Za-z0-9]/.test(numeric)) {
+    errors.push(`${label}: corrupted pinyin_numeric "${numeric}"`);
+  }
+}
 
 const bannedListeningPatterns = [
   "\u6211\u9700\u8981\u4e86", // 我需要了
@@ -44,6 +65,8 @@ const bannedListeningPatterns = [
 ];
 
 for (const item of listening) {
+  checkPinyinNumeric(item, item.id);
+
   for (const pattern of bannedListeningPatterns) {
     if (item.text?.includes(pattern)) {
       errors.push(`${item.id}: unnatural listening pattern "${pattern}" in "${item.text}"`);
@@ -54,6 +77,18 @@ for (const item of listening) {
   if (sentence && ["sentence", "short_dialogue"].includes(item.type) && item.text !== sentence.text) {
     errors.push(`${item.id}: ${item.type} text does not match referenced ${item.sentence_id}`);
   }
+}
+
+for (const sentence of sentences) {
+  checkPinyinNumeric(sentence, sentence.id);
+}
+
+for (const word of vocab) {
+  checkPinyinNumeric(word, word.id);
+}
+
+for (const audio of audioManifests) {
+  checkPinyinNumeric(audio, `${audio.kind}:${audio.ref_id}`);
 }
 
 const sourceOrderJumps = [];
@@ -82,6 +117,7 @@ for (const [day, daySentences] of [...sentencesByDay.entries()].sort((a, b) => a
 
 for (const dialogue of dialogues) {
   for (const turn of dialogue.turns ?? []) {
+    checkPinyinNumeric(turn, `${dialogue.id}/${turn.id}`);
     if (
       turn.speaker === "\u5e97\u54e1" && // 店員
       /(\u53ef\u4ee5\u5237\u5361\u55ce|\u6211\u5237\u5361|\u6211\u7528\u4fe1\u7528\u5361)/.test(turn.text ?? "")

@@ -103,7 +103,7 @@
     "kind": "vocab",
     "ref_id": "VOC_D31_012",
     "text": "綠茶",
-    "pinyin_numeric": "lü4 cha2",
+    "pinyin_numeric": "lv4 cha2",
     "path": "audio/AUD_VOC_D31_012.mp3",
     "status": "placeholder"
   },
@@ -355,7 +355,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D31_005",
     "text": "我想要一杯綠茶，半糖，可以嗎？",
-    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 lü4cha2, ban4 tang2, ke3yi3 ma0?",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 lv4cha2, ban4 tang2, ke3yi3 ma0?",
     "path": "audio/AUD_SEN_D31_005.mp3",
     "status": "placeholder"
   },
@@ -534,7 +534,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D31_025",
     "text": "不好意思，我要一杯綠茶，去冰。",
-    "pinyin_numeric": "bu4 hao3 yi4 si0, wo3 yao4 yi1 bei1 lü4 cha2, qu4 bing1.",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, wo3 yao4 yi1 bei1 lv4 cha2, qu4 bing1.",
     "path": "audio/AUD_SEN_D31_025.mp3",
     "status": "placeholder"
   },
@@ -588,7 +588,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D31_033",
     "text": "不好意思，我想要一杯綠茶，半糖，可以嗎？",
-    "pinyin_numeric": "bu4 hao3 yi4 si5, wo3 xiang3 yao4 yi1 bei1 lü4 cha2, ban4 tang2, ke3 yi3 ma0?",
+    "pinyin_numeric": "bu4 hao3 yi4 si5, wo3 xiang3 yao4 yi1 bei1 lv4 cha2, ban4 tang2, ke3 yi3 ma0?",
     "path": "audio/AUD_SEN_D31_033.mp3",
     "status": "placeholder"
   },
@@ -731,7 +731,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D31_056",
     "text": "不好意思，我要一杯綠茶，微糖，少冰，內用。",
-    "pinyin_numeric": "bu4 hao3 yi4 si0, wo3 yao4 yi1 bei1 lü4 cha2, wei1 tang2, shao3 bing1, nei4 yong4.",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, wo3 yao4 yi1 bei1 lv4 cha2, wei1 tang2, shao3 bing1, nei4 yong4.",
     "path": "audio/AUD_SEN_D31_056.mp3",
     "status": "placeholder"
   },
@@ -856,7 +856,7 @@
     "id": "AUD_SEN_D31_073",
     "kind": "sentence",
     "ref_id": "SEN_D31_073",
-    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 da4 bei1 de0 lü4 cha2, qu4 bing1.",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 da4 bei1 de0 lv4 cha2, qu4 bing1.",
     "path": "audio/AUD_SEN_D31_073.mp3",
     "status": "placeholder"
   },
@@ -892,7 +892,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D31_077",
     "text": "我想要一杯中杯的綠茶，正常甜。",
-    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 zhong1 bei1 de0 lü4 cha2, zheng4 chang2 tian2.",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 zhong1 bei1 de0 lv4 cha2, zheng4 chang2 tian2.",
     "path": "audio/AUD_SEN_D31_077.mp3",
     "status": "placeholder"
   },
@@ -928,7 +928,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D31_086",
     "text": "不好意思，我要外帶一杯綠茶。",
-    "pinyin_numeric": "bu4 hao3 yi4 si0, wo3 yao4 wai4 dai4 yi1 bei1 lü4 cha2.",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, wo3 yao4 wai4 dai4 yi1 bei1 lv4 cha2.",
     "path": "audio/AUD_SEN_D31_086.mp3",
     "status": "placeholder"
   },
@@ -1198,7 +1198,7 @@
     "kind": "listening",
     "ref_id": "LIS_D31_09",
     "text": "不好意思，我要一杯綠茶，去冰。",
-    "pinyin_numeric": "bu4 hao3 yi4 si0, wo3 yao4 yi1 bei1 lü4 cha2, qu4 bing1.",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, wo3 yao4 yi1 bei1 lv4 cha2, qu4 bing1.",
     "path": "audio/AUD_LIS_D31_09.mp3",
     "status": "placeholder"
   },
@@ -10747,7 +10747,7 @@
     "kind": "vocab",
     "ref_id": "VOC_D39_025",
     "text": "紅綠燈",
-    "pinyin_numeric": "hong2 lü4 deng1",
+    "pinyin_numeric": "hong2 lv4 deng1",
     "path": "audio/AUD_VOC_D39_025.mp3",
     "status": "placeholder"
   },
@@ -11422,7 +11422,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D39_065",
     "text": "我搭錯線了，要從紅線換到綠線才對。",
-    "pinyin_numeric": "wo3 da1 cuo4 xian4 le0, yao4 cong2 hong2 xian4 huan4 dao4 lü4 xian4 cai2 dui4.",
+    "pinyin_numeric": "wo3 da1 cuo4 xian4 le0, yao4 cong2 hong2 xian4 huan4 dao4 lv4 xian4 cai2 dui4.",
     "path": "audio/AUD_SEN_D39_065.mp3",
     "status": "placeholder"
   },
@@ -11755,7 +11755,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D39_03",
     "text": "對，你回頭直走，到紅綠燈左轉，公園就在右邊。",
-    "pinyin_numeric": "dui4, ni3 hui2 tou2 zhi2 zou3, dao4 hong2 lü4 deng1 zuo3 zhuan3, gong1 yuan2 jiu4 zai4 you4 bian1.",
+    "pinyin_numeric": "dui4, ni3 hui2 tou2 zhi2 zou3, dao4 hong2 lv4 deng1 zuo3 zhuan3, gong1 yuan2 jiu4 zai4 you4 bian1.",
     "path": "audio/AUD_DLG_D39_03_T4.mp3",
     "status": "placeholder"
   },
@@ -14761,7 +14761,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D42_023",
     "text": "你想喝紅茶還是綠茶？都可以，不要太甜。",
-    "pinyin_numeric": "ni3 xiang3 he1 hong2cha2 hai2shi4 lü4cha2? dou1 ke3yi3, bu4yao4 tai4 tian2.",
+    "pinyin_numeric": "ni3 xiang3 he1 hong2cha2 hai2shi4 lv4cha2? dou1 ke3yi3, bu4yao4 tai4 tian2.",
     "path": "audio/AUD_SEN_D42_023.mp3",
     "status": "placeholder"
   },
@@ -15094,7 +15094,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D42_076",
     "text": "你比較喜歡哪一個，紅茶還是綠茶？",
-    "pinyin_numeric": "ni3 bi3jiao4 xi3huan1 na3 yi1ge0, hong2cha2 hai2shi4 lü4cha2?",
+    "pinyin_numeric": "ni3 bi3jiao4 xi3huan1 na3 yi1ge0, hong2cha2 hai2shi4 lv4cha2?",
     "path": "audio/AUD_SEN_D42_076.mp3",
     "status": "placeholder"
   },
@@ -15103,7 +15103,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D42_077",
     "text": "我比較喜歡綠茶，因為喝起來很香。",
-    "pinyin_numeric": "wo3 bi3jiao4 xi3huan1 lü4cha2, yin1wei4 he1 qi3lai2 hen3 xiang1.",
+    "pinyin_numeric": "wo3 bi3jiao4 xi3huan1 lv4cha2, yin1wei4 he1 qi3lai2 hen3 xiang1.",
     "path": "audio/AUD_SEN_D42_077.mp3",
     "status": "placeholder"
   },
@@ -15292,7 +15292,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D42_02",
     "text": "好，我要一杯綠茶，微糖，去冰。",
-    "pinyin_numeric": "Hao3, wo3 yao4 yi1 bei1 lü4cha2, wei1 tang2, qu4 bing1.",
+    "pinyin_numeric": "Hao3, wo3 yao4 yi1 bei1 lv4cha2, wei1 tang2, qu4 bing1.",
     "path": "audio/AUD_DLG_D42_02_T4.mp3",
     "status": "placeholder"
   },
@@ -15436,7 +15436,7 @@
     "kind": "listening",
     "ref_id": "LIS_D42_08",
     "text": "你想喝紅茶還是綠茶？都可以，不要太甜。",
-    "pinyin_numeric": "ni3 xiang3 he1 hong2cha2 hai2shi4 lü4cha2? dou1 ke3yi3, bu4yao4 tai4 tian2.",
+    "pinyin_numeric": "ni3 xiang3 he1 hong2cha2 hai2shi4 lv4cha2? dou1 ke3yi3, bu4yao4 tai4 tian2.",
     "path": "audio/AUD_LIS_D42_08.mp3",
     "status": "placeholder"
   },
@@ -15733,7 +15733,7 @@
     "kind": "vocab",
     "ref_id": "VOC_D43_021",
     "text": "綠色",
-    "pinyin_numeric": "lü4 se4",
+    "pinyin_numeric": "lv4 se4",
     "path": "audio/AUD_VOC_D43_021.mp3",
     "status": "placeholder"
   },
@@ -16570,7 +16570,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D43_076",
     "text": "這件裙子的顏色太紅了，有沒有綠色的？",
-    "pinyin_numeric": "zhe4 jian4 qun2zi0 de0 yan2se4 tai4 hong2 le0, you3 mei2you3 lü4se4 de0",
+    "pinyin_numeric": "zhe4 jian4 qun2zi0 de0 yan2se4 tai4 hong2 le0, you3 mei2you3 lv4se4 de0",
     "path": "audio/AUD_SEN_D43_076.mp3",
     "status": "placeholder"
   },
@@ -18514,7 +18514,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D45_009",
     "text": "因為天氣悶熱，所以我想喝綠茶。",
-    "pinyin_numeric": "yin1 wei4 tian1 qi4 men1 re4, suo3 yi3 wo3 xiang3 he1 lü4 cha2.",
+    "pinyin_numeric": "yin1 wei4 tian1 qi4 men1 re4, suo3 yi3 wo3 xiang3 he1 lv4 cha2.",
     "path": "audio/AUD_SEN_D45_009.mp3",
     "status": "placeholder"
   },

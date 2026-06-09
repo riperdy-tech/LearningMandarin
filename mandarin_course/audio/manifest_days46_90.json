@@ -2677,7 +2677,7 @@
     "kind": "vocab",
     "ref_id": "VOC_D48_012",
     "text": "旅行",
-    "pinyin_numeric": "lü3 xing2",
+    "pinyin_numeric": "lv3 xing2",
     "path": "audio/AUD_VOC_D48_012.mp3",
     "status": "placeholder"
   },
@@ -2965,7 +2965,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D48_009",
     "text": "你去過國外旅行嗎？",
-    "pinyin_numeric": "ni3 qu4 guo4 guo2wai4 lü3xing2 ma0",
+    "pinyin_numeric": "ni3 qu4 guo4 guo2wai4 lv3xing2 ma0",
     "path": "audio/AUD_SEN_D48_009.mp3",
     "status": "placeholder"
   },
@@ -3037,7 +3037,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D48_017",
     "text": "她沒有去過國外旅行。",
-    "pinyin_numeric": "ta1 mei2you3 qu4 guo4 guo2wai4 lü3xing2.",
+    "pinyin_numeric": "ta1 mei2you3 qu4 guo4 guo2wai4 lv3xing2.",
     "path": "audio/AUD_SEN_D48_017.mp3",
     "status": "placeholder"
   },
@@ -3091,7 +3091,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D48_023",
     "text": "我從來沒有去過國外旅行。",
-    "pinyin_numeric": "wo3 cong2lai2 mei2you3 qu4 guo4 guo2wai4 lü3xing2.",
+    "pinyin_numeric": "wo3 cong2lai2 mei2you3 qu4 guo4 guo2wai4 lv3xing2.",
     "path": "audio/AUD_SEN_D48_023.mp3",
     "status": "placeholder"
   },
@@ -3235,7 +3235,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D48_045",
     "text": "這是她第一次去國外旅行。",
-    "pinyin_numeric": "zhe4 shi4 ta1 di4 yi1 ci4 qu4 guo2wai4 lü3xing2.",
+    "pinyin_numeric": "zhe4 shi4 ta1 di4 yi1 ci4 qu4 guo2wai4 lv3xing2.",
     "path": "audio/AUD_SEN_D48_045.mp3",
     "status": "placeholder"
   },
@@ -3424,7 +3424,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D48_075",
     "text": "她從來沒有去過國外旅行。",
-    "pinyin_numeric": "ta1 cong2lai2 mei2you3 qu4 guo4 guo2wai4 lü3xing2.",
+    "pinyin_numeric": "ta1 cong2lai2 mei2you3 qu4 guo4 guo2wai4 lv3xing2.",
     "path": "audio/AUD_SEN_D48_075.mp3",
     "status": "placeholder"
   },
@@ -6952,7 +6952,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D51_007",
     "text": "那個女生看起來很溫柔，可是個性很認真。",
-    "pinyin_numeric": "na4ge5 nü3sheng1 kan4 qi3lai2 hen3 wen1rou2, ke3shi4 ge4xing4 hen3 ren4zhen1",
+    "pinyin_numeric": "na4ge5 nv3sheng1 kan4 qi3lai2 hen3 wen1rou2, ke3shi4 ge4xing4 hen3 ren4zhen1",
     "path": "audio/AUD_SEN_D51_007.mp3",
     "status": "placeholder"
   },
@@ -7024,7 +7024,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D51_015",
     "text": "那個女生穿著白色的衣服，長得很漂亮。",
-    "pinyin_numeric": "na4 ge5 nü3sheng1 chuan1 zhe5 bai2se4 de5 yi1fu5, zhang3 de5 hen3 piao4liang5",
+    "pinyin_numeric": "na4 ge5 nv3sheng1 chuan1 zhe5 bai2se4 de5 yi1fu5, zhang3 de5 hen3 piao4liang5",
     "path": "audio/AUD_SEN_D51_015.mp3",
     "status": "placeholder"
   },
@@ -7195,7 +7195,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D51_035",
     "text": "那個女生看起來很害羞，可是說話很大方。",
-    "pinyin_numeric": "na4 ge nü3 sheng1 kan4 qi3 lai2 hen3 hai4 xiu1, ke3 shi4 shuo1 hua4 hen3 da4 fang1.",
+    "pinyin_numeric": "na4 ge nv3 sheng1 kan4 qi3 lai2 hen3 hai4 xiu1, ke3 shi4 shuo1 hua4 hen3 da4 fang1.",
     "path": "audio/AUD_SEN_D51_035.mp3",
     "status": "placeholder"
   },
@@ -7267,7 +7267,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D51_045",
     "text": "那個女生穿著白色的衣服，很漂亮。",
-    "pinyin_numeric": "na4 ge4 nü3sheng1 chuan1 zhe5 bai2se4 de5 yi1fu2, hen3 piao4liang5",
+    "pinyin_numeric": "na4 ge4 nv3sheng1 chuan1 zhe5 bai2se4 de5 yi1fu2, hen3 piao4liang5",
     "path": "audio/AUD_SEN_D51_045.mp3",
     "status": "placeholder"
   },
@@ -7420,7 +7420,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D51_065",
     "text": "那個女生看起來很害羞，不太說話。",
-    "pinyin_numeric": "na4 ge4 nü3 sheng1 kan4 qi3 lai2 hen3 hai4 xiu1, bu2 tai4 shuo1 hua4.",
+    "pinyin_numeric": "na4 ge4 nv3 sheng1 kan4 qi3 lai2 hen3 hai4 xiu1, bu2 tai4 shuo1 hua4.",
     "path": "audio/AUD_SEN_D51_065.mp3",
     "status": "placeholder"
   },
@@ -7483,7 +7483,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D51_075",
     "text": "那個女生很漂亮，而且個性很溫柔。",
-    "pinyin_numeric": "na4 ge4 nü3 sheng1 hen3 piao4 liang5, er2 qie3 ge4 xing4 hen3 wen1 rou2.",
+    "pinyin_numeric": "na4 ge4 nv3 sheng1 hen3 piao4 liang5, er2 qie3 ge4 xing4 hen3 wen1 rou2.",
     "path": "audio/AUD_SEN_D51_075.mp3",
     "status": "placeholder"
   },
@@ -7645,7 +7645,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D51_02",
     "text": "有啊，我認識一個女生，她叫小美。",
-    "pinyin_numeric": "You3 a, wo3 ren4shi yi1 ge nü3sheng1, ta1 jiao4 Xiao3 Mei3.",
+    "pinyin_numeric": "You3 a, wo3 ren4shi yi1 ge nv3sheng1, ta1 jiao4 Xiao3 Mei3.",
     "path": "audio/AUD_DLG_D51_02_T2.mp3",
     "status": "placeholder"
   },
@@ -7789,7 +7789,7 @@
     "kind": "listening",
     "ref_id": "LIS_D51_03",
     "text": "那個女生看起來很溫柔，可是個性很認真。",
-    "pinyin_numeric": "na4ge5 nü3sheng1 kan4 qi3lai2 hen3 wen1rou2, ke3shi4 ge4xing4 hen3 ren4zhen1",
+    "pinyin_numeric": "na4ge5 nv3sheng1 kan4 qi3lai2 hen3 wen1rou2, ke3shi4 ge4xing4 hen3 ren4zhen1",
     "path": "audio/AUD_LIS_D51_03.mp3",
     "status": "placeholder"
   },
@@ -8014,7 +8014,7 @@
     "kind": "vocab",
     "ref_id": "VOC_D52_008",
     "text": "考慮",
-    "pinyin_numeric": "kao3 lü4",
+    "pinyin_numeric": "kao3 lv4",
     "path": "audio/AUD_VOC_D52_008.mp3",
     "status": "placeholder"
   },
@@ -8905,7 +8905,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D52_083",
     "text": "這杯紅茶的味道沒有那杯綠茶香。",
-    "pinyin_numeric": "zhe4 bei1 hong2cha2 de5 wei4dao4 mei2you3 na4 bei1 lü4cha2 xiang1",
+    "pinyin_numeric": "zhe4 bei1 hong2cha2 de5 wei4dao4 mei2you3 na4 bei1 lv4cha2 xiang1",
     "path": "audio/AUD_SEN_D52_083.mp3",
     "status": "placeholder"
   },
@@ -13900,7 +13900,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D60_040",
     "text": "你喝過台灣的綠茶嗎？很香。",
-    "pinyin_numeric": "ni3 he1 guo4 tai2 wan1 de0 lü4 cha2 ma0? hen3 xiang1.",
+    "pinyin_numeric": "ni3 he1 guo4 tai2 wan1 de0 lv4 cha2 ma0? hen3 xiang1.",
     "path": "audio/AUD_SEN_D60_040.mp3",
     "status": "placeholder"
   },
@@ -38605,7 +38605,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D74_009",
     "text": "因為他工作很忙，所以沒有時間去旅行。",
-    "pinyin_numeric": "yin1 wei4 ta1 gong1 zuo4 hen3 mang2, suo3 yi3 mei2 you3 shi2 jian1 qu4 lü3 xing2.",
+    "pinyin_numeric": "yin1 wei4 ta1 gong1 zuo4 hen3 mang2, suo3 yi3 mei2 you3 shi2 jian1 qu4 lv3 xing2.",
     "path": "audio/AUD_SEN_D74_009.mp3",
     "status": "placeholder"
   },
@@ -38668,7 +38668,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D74_016",
     "text": "我比較喜歡紅茶，例如綠茶不如紅茶香。",
-    "pinyin_numeric": "wo3 bi3jiao4 xi3huan1 hong2cha2, li4ru2 lü4cha2 bu4ru2 hong2cha2 xiang1.",
+    "pinyin_numeric": "wo3 bi3jiao4 xi3huan1 hong2cha2, li4ru2 lv4cha2 bu4ru2 hong2cha2 xiang1.",
     "path": "audio/AUD_SEN_D74_016.mp3",
     "status": "placeholder"
   },
@@ -39109,7 +39109,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D74_075",
     "text": "由於天氣很熱，因此他喜歡喝冰的飲料，比如綠茶。",
-    "pinyin_numeric": "you2yu2 tian1qi4 hen3 re4, yin1ci3 ta1 xi3huan1 he1 bing1 de yin3liao4, bi3ru2 lü4cha2.",
+    "pinyin_numeric": "you2yu2 tian1qi4 hen3 re4, yin1ci3 ta1 xi3huan1 he1 bing1 de yin3liao4, bi3ru2 lv4cha2.",
     "path": "audio/AUD_SEN_D74_075.mp3",
     "status": "placeholder"
   },
@@ -39478,7 +39478,7 @@
     "kind": "listening",
     "ref_id": "LIS_D74_09",
     "text": "因為他工作很忙，所以沒有時間去旅行。",
-    "pinyin_numeric": "yin1 wei4 ta1 gong1 zuo4 hen3 mang2, suo3 yi3 mei2 you3 shi2 jian1 qu4 lü3 xing2.",
+    "pinyin_numeric": "yin1 wei4 ta1 gong1 zuo4 hen3 mang2, suo3 yi3 mei2 you3 shi2 jian1 qu4 lv3 xing2.",
     "path": "audio/AUD_LIS_D74_09.mp3",
     "status": "placeholder"
   },
@@ -39541,7 +39541,7 @@
     "kind": "listening",
     "ref_id": "LIS_D74_16",
     "text": "我比較喜歡紅茶，例如綠茶不如紅茶香。",
-    "pinyin_numeric": "wo3 bi3jiao4 xi3huan1 hong2cha2, li4ru2 lü4cha2 bu4ru2 hong2cha2 xiang1.",
+    "pinyin_numeric": "wo3 bi3jiao4 xi3huan1 hong2cha2, li4ru2 lv4cha2 bu4ru2 hong2cha2 xiang1.",
     "path": "audio/AUD_LIS_D74_16.mp3",
     "status": "placeholder"
   },
@@ -42943,7 +42943,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D77_058",
     "text": "你的意思是，他回答的時候說「然後呢」嗎？",
-    "pinyin_numeric": "ni3 de0 yi4si5 shi4, ta1 hui2da2 de0 shi2hou5 shuo1 “ran2hou4 ne0” ma0",
+    "pinyin_numeric": "ni3 de0 yi4si5 shi4, ta1 hui2da2 de0 shi2hou5 shuo1 \"ran2hou4 ne0\" ma0",
     "path": "audio/AUD_SEN_D77_058.mp3",
     "status": "placeholder"
   },
@@ -42961,7 +42961,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D77_060",
     "text": "你的意思是，他問「真的嗎」是因為他不相信嗎？",
-    "pinyin_numeric": "ni3 de0 yi4si5 shi4, ta1 wen4 “zhen1 de0 ma0” shi4 yin1wei4 ta1 bu4 xiang1xin4 ma0",
+    "pinyin_numeric": "ni3 de0 yi4si5 shi4, ta1 wen4 \"zhen1 de0 ma0\" shi4 yin1wei4 ta1 bu4 xiang1xin4 ma0",
     "path": "audio/AUD_SEN_D77_060.mp3",
     "status": "placeholder"
   },
@@ -44698,7 +44698,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D78_01",
     "text": "嗯，我想一下喔……那個，我要一杯珍珠奶茶，半糖少冰。",
-    "pinyin_numeric": "En1, wo3 xiang3 yi1 xia4 o1…… na4 ge5, wo3 yao4 yi1 bei1 zhen1 zhu1 nai3 cha2, ban4 tang2 shao3 bing1.",
+    "pinyin_numeric": "En1, wo3 xiang3 yi1 xia4 o1... na4 ge5, wo3 yao4 yi1 bei1 zhen1 zhu1 nai3 cha2, ban4 tang2 shao3 bing1.",
     "path": "audio/AUD_DLG_D78_01_T2.mp3",
     "status": "placeholder"
   },
@@ -44716,7 +44716,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D78_01",
     "text": "我再看一下菜單……那個，我還想要一個三明治，呃沒有，就是說，火腿的。",
-    "pinyin_numeric": "Wo3 zai4 kan4 yi1 xia4 cai4 dan1…… na4 ge5, wo3 hai2 xiang3 yao4 yi1 ge5 san1 ming2 zhi4, e4 mei2 you3, jiu4 shi4 shuo1, huo3 tui3 de5.",
+    "pinyin_numeric": "Wo3 zai4 kan4 yi1 xia4 cai4 dan1... na4 ge5, wo3 hai2 xiang3 yao4 yi1 ge5 san1 ming2 zhi4, e4 mei2 you3, jiu4 shi4 shuo1, huo3 tui3 de5.",
     "path": "audio/AUD_DLG_D78_01_T4.mp3",
     "status": "placeholder"
   },
@@ -44761,7 +44761,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D78_02",
     "text": "我覺得還不錯，但是——哎，不是，我的意思是，它的招牌菜很好吃，可是服務有點慢。",
-    "pinyin_numeric": "Wo3 jue2 de5 hai2 bu4 cuo4, dan4 shi4——ai1, bu2 shi4, wo3 de5 yi4 si1 shi4, ta1 de5 zhao1 pai2 cai4 hen3 hao3 chi1, ke3 shi4 fu2 wu4 you3 dian3 man4.",
+    "pinyin_numeric": "Wo3 jue2 de5 hai2 bu4 cuo4, dan4 shi4--ai1, bu2 shi4, wo3 de5 yi4 si1 shi4, ta1 de5 zhao1 pai2 cai4 hen3 hao3 chi1, ke3 shi4 fu2 wu4 you3 dian3 man4.",
     "path": "audio/AUD_DLG_D78_02_T3.mp3",
     "status": "placeholder"
   },
@@ -44779,7 +44779,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D78_02",
     "text": "嗯……應該會吧，但是我想換一下說，下次去的時候要早一點。",
-    "pinyin_numeric": "En1…… ying1 gai1 hui4 ba5, dan4 shi4 wo3 xiang3 huan4 yi1 xia4 shuo1, xia4 ci4 qu4 de5 shi2 hou5 yao4 zao3 yi1 dian3.",
+    "pinyin_numeric": "En1... ying1 gai1 hui4 ba5, dan4 shi4 wo3 xiang3 huan4 yi1 xia4 shuo1, xia4 ci4 qu4 de5 shi2 hou5 yao4 zao3 yi1 dian3.",
     "path": "audio/AUD_DLG_D78_02_T5.mp3",
     "status": "placeholder"
   },
@@ -46840,7 +46840,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D80_013",
     "text": "這個標語寫著「禁止吸煙」，所以我們不可以抽煙。",
-    "pinyin_numeric": "zhe4 ge4 biao1 yu3 xie3 zhe0 “jin4 zhi3 xi1 yan1”, suo3 yi3 wo3 men5 bu4 ke3 yi3 chou1 yan1.",
+    "pinyin_numeric": "zhe4 ge4 biao1 yu3 xie3 zhe0 \"jin4 zhi3 xi1 yan1\", suo3 yi3 wo3 men5 bu4 ke3 yi3 chou1 yan1.",
     "path": "audio/AUD_SEN_D80_013.mp3",
     "status": "placeholder"
   },
@@ -47740,7 +47740,7 @@
     "kind": "listening",
     "ref_id": "LIS_D80_13",
     "text": "這個標語寫著「禁止吸煙」，所以我們不可以抽煙。",
-    "pinyin_numeric": "zhe4 ge4 biao1 yu3 xie3 zhe0 “jin4 zhi3 xi1 yan1”, suo3 yi3 wo3 men5 bu4 ke3 yi3 chou1 yan1.",
+    "pinyin_numeric": "zhe4 ge4 biao1 yu3 xie3 zhe0 \"jin4 zhi3 xi1 yan1\", suo3 yi3 wo3 men5 bu4 ke3 yi3 chou1 yan1.",
     "path": "audio/AUD_LIS_D80_13.mp3",
     "status": "placeholder"
   },
@@ -50953,7 +50953,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D83_019",
     "text": "要不然你考慮一下，要不然我考慮一下。",
-    "pinyin_numeric": "yao4 bu4 ran2 ni3 kao3 lü4 yi1 xia4, yao4 bu4 ran2 wo3 kao3 lü4 yi1 xia4.",
+    "pinyin_numeric": "yao4 bu4 ran2 ni3 kao3 lv4 yi1 xia4, yao4 bu4 ran2 wo3 kao3 lv4 yi1 xia4.",
     "path": "audio/AUD_SEN_D83_019.mp3",
     "status": "placeholder"
   },
@@ -51826,7 +51826,7 @@
     "kind": "listening",
     "ref_id": "LIS_D83_19",
     "text": "要不然你考慮一下，要不然我考慮一下。",
-    "pinyin_numeric": "yao4 bu4 ran2 ni3 kao3 lü4 yi1 xia4, yao4 bu4 ran2 wo3 kao3 lü4 yi1 xia4.",
+    "pinyin_numeric": "yao4 bu4 ran2 ni3 kao3 lv4 yi1 xia4, yao4 bu4 ran2 wo3 kao3 lv4 yi1 xia4.",
     "path": "audio/AUD_LIS_D83_19.mp3",
     "status": "placeholder"
   },
@@ -53842,7 +53842,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D85_038",
     "text": "說到旅行，你去過哪裡？",
-    "pinyin_numeric": "shuo1 dao4 lü3xing2, ni3 qu4guo4 na3li3",
+    "pinyin_numeric": "shuo1 dao4 lv3xing2, ni3 qu4guo4 na3li3",
     "path": "audio/AUD_SEN_D85_038.mp3",
     "status": "placeholder"
   },
@@ -53878,7 +53878,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D85_045",
     "text": "我放假的時候喜歡去旅行，你呢？",
-    "pinyin_numeric": "wo3 fang4jia4 de0 shi2hou0 xi3huan1 qu4 lü3xing2, ni3 ne0",
+    "pinyin_numeric": "wo3 fang4jia4 de0 shi2hou0 xi3huan1 qu4 lv3xing2, ni3 ne0",
     "path": "audio/AUD_SEN_D85_045.mp3",
     "status": "placeholder"
   },
@@ -57523,7 +57523,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D88_047",
     "text": "我邀請她一起去旅行，但她婉拒了，因為她最近很忙。",
-    "pinyin_numeric": "wo3 yao1qing3 ta1 yi4qi3 qu4 lü3xing2, dan4 ta1 wan3ju4 le5, yin1wei4 ta1 zui4jin4 hen3 mang2.",
+    "pinyin_numeric": "wo3 yao1qing3 ta1 yi4qi3 qu4 lv3xing2, dan4 ta1 wan3ju4 le5, yin1wei4 ta1 zui4jin4 hen3 mang2.",
     "path": "audio/AUD_SEN_D88_047.mp3",
     "status": "placeholder"
   },
@@ -57676,7 +57676,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D88_064",
     "text": "我們本來打算一起去旅行，但因為他的行程有衝突，所以只好延期了。",
-    "pinyin_numeric": "wo3men5 ben3lai2 da3suan4 yi4qi3 qu4 lü3xing2, dan4 yin1wei4 ta1 de5 xing2cheng2 you3 chong1tu1, suo3yi3 zhi3hao3 yan2qi1 le5.",
+    "pinyin_numeric": "wo3men5 ben3lai2 da3suan4 yi4qi3 qu4 lv3xing2, dan4 yin1wei4 ta1 de5 xing2cheng2 you3 chong1tu1, suo3yi3 zhi3hao3 yan2qi1 le5.",
     "path": "audio/AUD_SEN_D88_064.mp3",
     "status": "placeholder"
   },
@@ -58288,7 +58288,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D89_006",
     "text": "如果你不喜歡喝紅茶的話，就換成綠茶吧。",
-    "pinyin_numeric": "ru2guo3 ni3 bu4 xi3huan1 he1 hong2cha2 de5hua4, jiu4 huan4 cheng2 lü4cha2 ba5.",
+    "pinyin_numeric": "ru2guo3 ni3 bu4 xi3huan1 he1 hong2cha2 de5hua4, jiu4 huan4 cheng2 lv4cha2 ba5.",
     "path": "audio/AUD_SEN_D89_006.mp3",
     "status": "placeholder"
   },
@@ -59188,7 +59188,7 @@
     "kind": "listening",
     "ref_id": "LIS_D89_06",
     "text": "如果你不喜歡喝紅茶的話，就換成綠茶吧。",
-    "pinyin_numeric": "ru2guo3 ni3 bu4 xi3huan1 he1 hong2cha2 de5hua4, jiu4 huan4 cheng2 lü4cha2 ba5.",
+    "pinyin_numeric": "ru2guo3 ni3 bu4 xi3huan1 he1 hong2cha2 de5hua4, jiu4 huan4 cheng2 lv4cha2 ba5.",
     "path": "audio/AUD_LIS_D89_06.mp3",
     "status": "placeholder"
   },
@@ -59368,7 +59368,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D90_016",
     "text": "除了珍珠奶茶以外，我也很喜歡喝綠茶。",
-    "pinyin_numeric": "chu2le zhen1zhu1 nai3cha2 yi3wai4, wo3 ye3 hen3 xi3huan1 he1 lü4cha2.",
+    "pinyin_numeric": "chu2le zhen1zhu1 nai3cha2 yi3wai4, wo3 ye3 hen3 xi3huan1 he1 lv4cha2.",
     "path": "audio/AUD_SEN_D90_016.mp3",
     "status": "placeholder"
   },

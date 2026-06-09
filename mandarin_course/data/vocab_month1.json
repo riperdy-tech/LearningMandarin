@@ -993,9 +993,9 @@
     "id": "VOC_M1_034",
     "char": "昨天",
     "pinyin": "zuótiān",
-    "pinyin_numeric": "zuo2 tian1",
+    "pinyin_numeric": "zuo2tian1",
     "phonemes": [
-      "zuo2 tian1"
+      "zuo2tian1"
     ],
     "pos": "time",
     "meaning_en": "yesterday",
@@ -1032,7 +1032,7 @@
     "id": "VOC_M1_036",
     "char": "十二",
     "pinyin": "shí'èr",
-    "pinyin_numeric": "shi2 er4",
+    "pinyin_numeric": "shi2er4",
     "phonemes": [
       "shi4",
       "er"
@@ -1052,9 +1052,9 @@
     "id": "VOC_M1_037",
     "char": "十五",
     "pinyin": "shíwǔ",
-    "pinyin_numeric": "shi2 wu3",
+    "pinyin_numeric": "shi2wu3",
     "phonemes": [
-      "shi2 wu3"
+      "shi2wu3"
     ],
     "pos": "number",
     "meaning_en": "fifteen",
@@ -1071,9 +1071,9 @@
     "id": "VOC_M1_038",
     "char": "二十",
     "pinyin": "èrshí",
-    "pinyin_numeric": "er4 shi2",
+    "pinyin_numeric": "er4shi2",
     "phonemes": [
-      "er4 shi2"
+      "er4shi2"
     ],
     "pos": "number",
     "meaning_en": "twenty",
@@ -1183,9 +1183,9 @@
     "id": "VOC_M1_042",
     "char": "朋友",
     "pinyin": "péngyǒu",
-    "pinyin_numeric": "peng2 you3",
+    "pinyin_numeric": "peng2you3",
     "phonemes": [
-      "peng2 you3"
+      "peng2you3"
     ],
     "pos": "noun",
     "meaning_en": "friend",
@@ -1205,9 +1205,9 @@
     "id": "VOC_M1_043",
     "char": "米飯",
     "pinyin": "mǐfàn",
-    "pinyin_numeric": "mi3 fan4",
+    "pinyin_numeric": "mi3fan4",
     "phonemes": [
-      "mi3 fan4"
+      "mi3fan4"
     ],
     "pos": "noun",
     "meaning_en": "rice",
@@ -1550,9 +1550,9 @@
     "id": "VOC_M1_056",
     "char": "雞蛋",
     "pinyin": "jīdàn",
-    "pinyin_numeric": "ji1 dan4",
+    "pinyin_numeric": "ji1dan4",
     "phonemes": [
-      "ji1 dan4"
+      "ji1dan4"
     ],
     "pos": "noun",
     "meaning_en": "egg",
@@ -1628,9 +1628,9 @@
     "id": "VOC_M1_060",
     "char": "餐廳",
     "pinyin": "cāntīng",
-    "pinyin_numeric": "can1 ting1",
+    "pinyin_numeric": "can1ting1",
     "phonemes": [
-      "can1 ting1"
+      "can1ting1"
     ],
     "pos": "noun",
     "meaning_en": "restaurant",
@@ -1821,9 +1821,9 @@
     "id": "VOC_M1_068",
     "char": "喜歡",
     "pinyin": "xǐhuan",
-    "pinyin_numeric": "xi3 huan1",
+    "pinyin_numeric": "xi3huan1",
     "phonemes": [
-      "xi3 huan1"
+      "xi3huan1"
     ],
     "pos": "verb",
     "meaning_en": "to like",
@@ -1881,9 +1881,9 @@
     "id": "VOC_M1_070",
     "char": "電影",
     "pinyin": "diànyǐng",
-    "pinyin_numeric": "dian4 ying3",
+    "pinyin_numeric": "dian4ying3",
     "phonemes": [
-      "dian4 ying3"
+      "dian4ying3"
     ],
     "pos": "noun",
     "meaning_en": "movie",
@@ -1948,9 +1948,9 @@
     "id": "VOC_M1_073",
     "char": "哪裡",
     "pinyin": "nǎlǐ",
-    "pinyin_numeric": "na3 li3",
+    "pinyin_numeric": "na3li3",
     "phonemes": [
-      "na3 li3"
+      "na3li3"
     ],
     "pos": "question",
     "meaning_en": "where",
@@ -2031,9 +2031,9 @@
     "id": "VOC_M1_077",
     "char": "名字",
     "pinyin": "míngzi",
-    "pinyin_numeric": "ming2 zi5",
+    "pinyin_numeric": "ming2zi5",
     "phonemes": [
-      "ming2 zi5"
+      "ming2zi5"
     ],
     "pos": "noun",
     "meaning_en": "name",
@@ -2050,9 +2050,9 @@
     "id": "VOC_M1_078",
     "char": "地方",
     "pinyin": "dìfang",
-    "pinyin_numeric": "di4 fang5",
+    "pinyin_numeric": "di4fang5",
     "phonemes": [
-      "di4 fang5"
+      "di4fang5"
     ],
     "pos": "noun",
     "meaning_en": "place",
@@ -2589,9 +2589,9 @@
     "id": "VOC_M1_104",
     "char": "現在",
     "pinyin": "xiànzài",
-    "pinyin_numeric": "xianzai4",
+    "pinyin_numeric": "xian4zai4",
     "phonemes": [
-      "xianzai4"
+      "xian4zai4"
     ],
     "pos": "time",
     "meaning_en": "now",
@@ -2652,9 +2652,9 @@
     "id": "VOC_M1_107",
     "char": "下午",
     "pinyin": "xiàwǔ",
-    "pinyin_numeric": "xia4 wu3",
+    "pinyin_numeric": "xia4wu3",
     "phonemes": [
-      "xia4 wu3"
+      "xia4wu3"
     ],
     "pos": "time",
     "meaning_en": "afternoon; PM",
@@ -2676,9 +2676,9 @@
     "id": "VOC_M1_108",
     "char": "星期",
     "pinyin": "xīngqī",
-    "pinyin_numeric": "xing1 qi1",
+    "pinyin_numeric": "xing1qi1",
     "phonemes": [
-      "xing1 qi1"
+      "xing1qi1"
     ],
     "pos": "time",
     "meaning_en": "week; weekday",
@@ -2715,9 +2715,9 @@
     "id": "VOC_M1_110",
     "char": "早上",
     "pinyin": "zǎoshang",
-    "pinyin_numeric": "zao3 shang5",
+    "pinyin_numeric": "zao3shang5",
     "phonemes": [
-      "zao3 shang5"
+      "zao3shang5"
     ],
     "pos": "time",
     "meaning_en": "morning",
@@ -2778,9 +2778,9 @@
     "id": "VOC_M1_113",
     "char": "多少",
     "pinyin": "duōshao",
-    "pinyin_numeric": "duo1 shao3",
+    "pinyin_numeric": "duo1shao3",
     "phonemes": [
-      "duo1 shao3"
+      "duo1shao3"
     ],
     "pos": "question",
     "meaning_en": "how many; how much",
@@ -2876,9 +2876,9 @@
     "id": "VOC_M1_118",
     "char": "可以",
     "pinyin": "kěyǐ",
-    "pinyin_numeric": "keyi3",
+    "pinyin_numeric": "ke3yi3",
     "phonemes": [
-      "keyi3"
+      "ke3yi3"
     ],
     "pos": "verb",
     "meaning_en": "can; may",
@@ -2971,9 +2971,9 @@
     "id": "VOC_M1_122",
     "char": "這裡",
     "pinyin": "zhèlǐ",
-    "pinyin_numeric": "zhe4 li3",
+    "pinyin_numeric": "zhe4li3",
     "phonemes": [
-      "zhe4 li3"
+      "zhe4li3"
     ],
     "pos": "place",
     "meaning_en": "here",
@@ -2994,9 +2994,9 @@
     "id": "VOC_M1_123",
     "char": "一下",
     "pinyin": "yíxià",
-    "pinyin_numeric": "yi1 xia4",
+    "pinyin_numeric": "yi2xia4",
     "phonemes": [
-      "yi1 xia4"
+      "yi2xia4"
     ],
     "pos": "time",
     "meaning_en": "for a moment",
@@ -3015,9 +3015,9 @@
     "id": "VOC_M1_124",
     "char": "問題",
     "pinyin": "wèntí",
-    "pinyin_numeric": "wenti2",
+    "pinyin_numeric": "wen4ti2",
     "phonemes": [
-      "wenti2"
+      "wen4ti2"
     ],
     "pos": "noun",
     "meaning_en": "question; problem",
@@ -3117,9 +3117,9 @@
     "id": "VOC_M1_129",
     "char": "音樂",
     "pinyin": "yīnyuè",
-    "pinyin_numeric": "yin1 yue4",
+    "pinyin_numeric": "yin1yue4",
     "phonemes": [
-      "yin1 yue4"
+      "yin1yue4"
     ],
     "pos": "noun",
     "meaning_en": "music",
@@ -3136,9 +3136,9 @@
     "id": "VOC_M1_130",
     "char": "拍照",
     "pinyin": "pāizhào",
-    "pinyin_numeric": "pai1 zhao4",
+    "pinyin_numeric": "pai1zhao4",
     "phonemes": [
-      "pai1 zhao4"
+      "pai1zhao4"
     ],
     "pos": "verb",
     "meaning_en": "to take photos",
@@ -3407,9 +3407,9 @@
     "id": "VOC_M1_142",
     "char": "前面",
     "pinyin": "qiánmiàn",
-    "pinyin_numeric": "qian2 mian4",
+    "pinyin_numeric": "qian2mian4",
     "phonemes": [
-      "qian2 mian4"
+      "qian2mian4"
     ],
     "pos": "place",
     "meaning_en": "in front",
@@ -3467,9 +3467,9 @@
     "id": "VOC_M1_145",
     "char": "那裡",
     "pinyin": "nàlǐ",
-    "pinyin_numeric": "na3 li3",
+    "pinyin_numeric": "na3li3",
     "phonemes": [
-      "na3 li3"
+      "na3li3"
     ],
     "pos": "place",
     "meaning_en": "there",
@@ -3486,9 +3486,9 @@
     "id": "VOC_M1_146",
     "char": "圖書館",
     "pinyin": "túshūguǎn",
-    "pinyin_numeric": "tu2 shu1 guan3",
+    "pinyin_numeric": "tu2shuguan3",
     "phonemes": [
-      "tu2 shu1 guan3"
+      "tu2shuguan3"
     ],
     "pos": "place",
     "meaning_en": "library",
@@ -3510,9 +3510,9 @@
     "id": "VOC_M1_147",
     "char": "商店",
     "pinyin": "shāngdiàn",
-    "pinyin_numeric": "shang1 dian4",
+    "pinyin_numeric": "shang1dian4",
     "phonemes": [
-      "shang1 dian4"
+      "shang1dian4"
     ],
     "pos": "place",
     "meaning_en": "shop",
@@ -3572,9 +3572,9 @@
     "id": "VOC_M1_150",
     "char": "公園",
     "pinyin": "gōngyuán",
-    "pinyin_numeric": "gong1 yuan2",
+    "pinyin_numeric": "gong1yuan2",
     "phonemes": [
-      "gong1 yuan2"
+      "gong1yuan2"
     ],
     "pos": "place",
     "meaning_en": "park",
@@ -3615,9 +3615,9 @@
     "id": "VOC_M1_152",
     "char": "飛機",
     "pinyin": "fēijī",
-    "pinyin_numeric": "fei1 ji1",
+    "pinyin_numeric": "fei1ji1",
     "phonemes": [
-      "fei1 ji1"
+      "fei1ji1"
     ],
     "pos": "noun",
     "meaning_en": "airplane",
@@ -3634,9 +3634,9 @@
     "id": "VOC_M1_153",
     "char": "火車",
     "pinyin": "huǒchē",
-    "pinyin_numeric": "huo3 che1",
+    "pinyin_numeric": "huo3che1",
     "phonemes": [
-      "huo3 che1"
+      "huo3che1"
     ],
     "pos": "noun",
     "meaning_en": "train",
@@ -3848,9 +3848,9 @@
     "id": "VOC_M1_163",
     "char": "那個",
     "pinyin": "nàge",
-    "pinyin_numeric": "nage4",
+    "pinyin_numeric": "na4ge5",
     "phonemes": [
-      "nage4"
+      "na4ge5"
     ],
     "pos": "pronoun",
     "meaning_en": "that one",
@@ -3905,9 +3905,9 @@
     "id": "VOC_M1_166",
     "char": "裡面",
     "pinyin": "lǐmiàn",
-    "pinyin_numeric": "li3 mian4",
+    "pinyin_numeric": "li3mian4",
     "phonemes": [
-      "li3 mian4"
+      "li3mian4"
     ],
     "pos": "place",
     "meaning_en": "inside",
@@ -3924,9 +3924,9 @@
     "id": "VOC_M1_167",
     "char": "外面",
     "pinyin": "wàimiàn",
-    "pinyin_numeric": "wai4 mian4",
+    "pinyin_numeric": "wai4mian4",
     "phonemes": [
-      "wai4 mian4"
+      "wai4mian4"
     ],
     "pos": "place",
     "meaning_en": "outside",
@@ -3943,9 +3943,9 @@
     "id": "VOC_M1_168",
     "char": "銀行",
     "pinyin": "yínháng",
-    "pinyin_numeric": "yin2 hang2",
+    "pinyin_numeric": "yin2hang2",
     "phonemes": [
-      "yin2 hang2"
+      "yin2hang2"
     ],
     "pos": "place",
     "meaning_en": "bank",
@@ -3964,9 +3964,9 @@
     "id": "VOC_M1_169",
     "char": "廁所",
     "pinyin": "cèsuǒ",
-    "pinyin_numeric": "ce4 suo3",
+    "pinyin_numeric": "ce4suo3",
     "phonemes": [
-      "ce4 suo3"
+      "ce4suo3"
     ],
     "pos": "place",
     "meaning_en": "bathroom",
@@ -4002,9 +4002,9 @@
     "id": "VOC_M1_171",
     "char": "需要",
     "pinyin": "xūyào",
-    "pinyin_numeric": "xu1 yao4",
+    "pinyin_numeric": "xu1yao4",
     "phonemes": [
-      "xu1 yao4"
+      "xu1yao4"
     ],
     "pos": "verb",
     "meaning_en": "to need",
@@ -4044,9 +4044,9 @@
     "id": "VOC_M1_173",
     "char": "必須",
     "pinyin": "bìxū",
-    "pinyin_numeric": "bi4 xu1",
+    "pinyin_numeric": "bi4xu1",
     "phonemes": [
-      "bi4 xu1"
+      "bi4xu1"
     ],
     "pos": "verb",
     "meaning_en": "must",
@@ -4121,9 +4121,9 @@
     "id": "VOC_M1_177",
     "char": "發票",
     "pinyin": "fāpiào",
-    "pinyin_numeric": "fapiao4",
+    "pinyin_numeric": "fa1piao4",
     "phonemes": [
-      "fapiao4"
+      "fa1piao4"
     ],
     "pos": "noun",
     "meaning_en": "receipt; invoice",
@@ -4140,9 +4140,9 @@
     "id": "VOC_M1_178",
     "char": "悠遊卡",
     "pinyin": "Yōuyóu Kǎ",
-    "pinyin_numeric": "You2l?3 you2 Ka3",
+    "pinyin_numeric": "You1you2ka3",
     "phonemes": [
-      "youl?3 you2",
+      "youlv3you2",
       "ka3"
     ],
     "pos": "noun",
@@ -4241,9 +4241,9 @@
     "id": "VOC_M1_183",
     "char": "一起",
     "pinyin": "yìqǐ",
-    "pinyin_numeric": "yi4 qi3",
+    "pinyin_numeric": "yi4qi3",
     "phonemes": [
-      "yi4 qi3"
+      "yi4qi3"
     ],
     "pos": "adverb",
     "meaning_en": "together",
@@ -4279,9 +4279,9 @@
     "id": "VOC_M1_185",
     "char": "菜單",
     "pinyin": "càidān",
-    "pinyin_numeric": "cai4 dan1",
+    "pinyin_numeric": "cai4dan1",
     "phonemes": [
-      "cai4 dan1"
+      "cai4dan1"
     ],
     "pos": "noun",
     "meaning_en": "menu",
@@ -4298,9 +4298,9 @@
     "id": "VOC_M1_186",
     "char": "袋子",
     "pinyin": "dàizi",
-    "pinyin_numeric": "dai4 zi5",
+    "pinyin_numeric": "dai4zi5",
     "phonemes": [
-      "dai4 zi5"
+      "dai4zi5"
     ],
     "pos": "noun",
     "meaning_en": "bag",
@@ -4317,9 +4317,9 @@
     "id": "VOC_M1_187",
     "char": "愛好",
     "pinyin": "àihào",
-    "pinyin_numeric": "ai4 hao4",
+    "pinyin_numeric": "ai4hao4",
     "phonemes": [
-      "ai4 hao4"
+      "ai4hao4"
     ],
     "pos": "noun",
     "meaning_en": "hobby",
@@ -4337,9 +4337,9 @@
     "id": "VOC_M1_188",
     "char": "唱歌",
     "pinyin": "chànggē",
-    "pinyin_numeric": "chang4 ge1",
+    "pinyin_numeric": "chang4ge1",
     "phonemes": [
-      "chang4 ge1"
+      "chang4ge1"
     ],
     "pos": "verb",
     "meaning_en": "to sing",
@@ -4357,9 +4357,9 @@
     "id": "VOC_M1_189",
     "char": "跳舞",
     "pinyin": "tiàowǔ",
-    "pinyin_numeric": "tiao4 wu3",
+    "pinyin_numeric": "tiao4wu3",
     "phonemes": [
-      "tiao4 wu3"
+      "tiao4wu3"
     ],
     "pos": "verb",
     "meaning_en": "to dance",
@@ -4377,9 +4377,9 @@
     "id": "VOC_M1_190",
     "char": "運動",
     "pinyin": "yùndòng",
-    "pinyin_numeric": "yun4 dong4",
+    "pinyin_numeric": "yun4dong4",
     "phonemes": [
-      "yun4 dong4"
+      "yun4dong4"
     ],
     "pos": "verb",
     "meaning_en": "to exercise; sport",
@@ -4396,9 +4396,9 @@
     "id": "VOC_M1_191",
     "char": "旅遊",
     "pinyin": "lǚyóu",
-    "pinyin_numeric": "lül?3 you2",
+    "pinyin_numeric": "lv3you2",
     "phonemes": [
-      "lül?3 you2"
+      "lülv3you2"
     ],
     "pos": "verb",
     "meaning_en": "to travel",
@@ -4415,9 +4415,9 @@
     "id": "VOC_M1_192",
     "char": "跑步",
     "pinyin": "pǎobù",
-    "pinyin_numeric": "pao3 bu4",
+    "pinyin_numeric": "pao3bu4",
     "phonemes": [
-      "pao3 bu4"
+      "pao3bu4"
     ],
     "pos": "verb",
     "meaning_en": "to run",
@@ -4434,9 +4434,9 @@
     "id": "VOC_M1_193",
     "char": "游泳",
     "pinyin": "yóuyǒng",
-    "pinyin_numeric": "you2 yong3",
+    "pinyin_numeric": "you2yong3",
     "phonemes": [
-      "you2 yong3"
+      "you2yong3"
     ],
     "pos": "verb",
     "meaning_en": "to swim",
@@ -4474,9 +4474,9 @@
     "id": "VOC_M1_195",
     "char": "打算",
     "pinyin": "dǎsuàn",
-    "pinyin_numeric": "da3 suan4",
+    "pinyin_numeric": "da3suan4",
     "phonemes": [
-      "da3 suan4"
+      "da3suan4"
     ],
     "pos": "verb",
     "meaning_en": "to plan",
@@ -4495,9 +4495,9 @@
     "id": "VOC_M1_196",
     "char": "希望",
     "pinyin": "xīwàng",
-    "pinyin_numeric": "xi1 wang4",
+    "pinyin_numeric": "xi1wang4",
     "phonemes": [
-      "xi1 wang4"
+      "xi1wang4"
     ],
     "pos": "verb",
     "meaning_en": "to hope",
@@ -4553,9 +4553,9 @@
     "id": "VOC_M1_199",
     "char": "計畫",
     "pinyin": "jìhuà",
-    "pinyin_numeric": "ji4 hua4",
+    "pinyin_numeric": "ji4hua4",
     "phonemes": [
-      "ji4 hua4"
+      "ji4hua4"
     ],
     "pos": "noun",
     "meaning_en": "plan",
@@ -4572,11 +4572,11 @@
     "id": "VOC_M1_200",
     "char": "下個星期",
     "pinyin": "xià ge xīngqī",
-    "pinyin_numeric": "xia4 ge0 xing1 qi1",
+    "pinyin_numeric": "xia4 ge0 xing1qi1",
     "phonemes": [
       "xia4",
       "ge0",
-      "xing1 qi1"
+      "xing1qi1"
     ],
     "pos": "time",
     "meaning_en": "next week",

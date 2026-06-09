@@ -289,7 +289,7 @@
     "id": "VOC_D31_012",
     "char": "綠茶",
     "pinyin": "lǜchá",
-    "pinyin_numeric": "lü4 cha2",
+    "pinyin_numeric": "lv4 cha2",
     "phonemes": [
       "lü4",
       "cha2"
@@ -9239,7 +9239,7 @@
     "id": "VOC_D39_025",
     "char": "紅綠燈",
     "pinyin": "hónglǜdēng",
-    "pinyin_numeric": "hong2 lü4 deng1",
+    "pinyin_numeric": "hong2 lv4 deng1",
     "phonemes": [
       "hong2",
       "lü4",
@@ -12683,7 +12683,7 @@
     "id": "VOC_D43_021",
     "char": "綠色",
     "pinyin": "lǜsè",
-    "pinyin_numeric": "lü4 se4",
+    "pinyin_numeric": "lv4 se4",
     "phonemes": [
       "lü4",
       "se4"

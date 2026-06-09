@@ -3834,7 +3834,7 @@
         "speaker": "路人乙",
         "text": "對，你回頭直走，到紅綠燈左轉，公園就在右邊。",
         "pinyin": "Duì, nǐ huítóu zhí zǒu, dào hónglǜdēng zuǒ zhuǎn, gōngyuán jiù zài yòubiān.",
-        "pinyin_numeric": "dui4, ni3 hui2 tou2 zhi2 zou3, dao4 hong2 lü4 deng1 zuo3 zhuan3, gong1 yuan2 jiu4 zai4 you4 bian1.",
+        "pinyin_numeric": "dui4, ni3 hui2 tou2 zhi2 zou3, dao4 hong2 lv4 deng1 zuo3 zhuan3, gong1 yuan2 jiu4 zai4 you4 bian1.",
         "translation_en": "Yes. Turn back and go straight. At the traffic light, turn left. The park will be on your right.",
         "translation_ko": "네, 뒤로 돌아서 직진하세요. 신호등에서 좌회전하면 공원이 오른쪽에 있어요.",
         "token_ids": [
@@ -5137,7 +5137,7 @@
         "speaker": "客人",
         "text": "好，我要一杯綠茶，微糖，去冰。",
         "pinyin": "Hǎo, wǒ yào yī bēi lǜchá, wēi táng, qù bīng.",
-        "pinyin_numeric": "Hao3, wo3 yao4 yi1 bei1 lü4cha2, wei1 tang2, qu4 bing1.",
+        "pinyin_numeric": "Hao3, wo3 yao4 yi1 bei1 lv4cha2, wei1 tang2, qu4 bing1.",
         "translation_en": "Okay, I'll have a cup of green tea, low sugar, no ice.",
         "translation_ko": "네, 녹차 한 잔 주세요. 당도는 낮게, 얼음은 빼주세요.",
         "token_ids": [

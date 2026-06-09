@@ -4670,7 +4670,7 @@
     "id": "SEN_D48_009",
     "text": "你去過國外旅行嗎？",
     "pinyin": "Nǐ qù guò guówài lǚxíng ma?",
-    "pinyin_numeric": "ni3 qu4 guo4 guo2wai4 lü3xing2 ma0",
+    "pinyin_numeric": "ni3 qu4 guo4 guo2wai4 lv3xing2 ma0",
     "translation_en": "Have you traveled abroad?",
     "translation_ko": "해외 여행을 가 본 적이 있나요?",
     "token_ids": [
@@ -4914,7 +4914,7 @@
     "id": "SEN_D48_017",
     "text": "她沒有去過國外旅行。",
     "pinyin": "Tā méiyǒu qù guò guówài lǚxíng.",
-    "pinyin_numeric": "ta1 mei2you3 qu4 guo4 guo2wai4 lü3xing2.",
+    "pinyin_numeric": "ta1 mei2you3 qu4 guo4 guo2wai4 lv3xing2.",
     "translation_en": "She has never traveled abroad.",
     "translation_ko": "그녀는 해외 여행을 가 본 적이 없습니다.",
     "token_ids": [
@@ -5109,7 +5109,7 @@
     "id": "SEN_D48_023",
     "text": "我從來沒有去過國外旅行。",
     "pinyin": "Wǒ cónglái méiyǒu qù guò guówài lǚxíng.",
-    "pinyin_numeric": "wo3 cong2lai2 mei2you3 qu4 guo4 guo2wai4 lü3xing2.",
+    "pinyin_numeric": "wo3 cong2lai2 mei2you3 qu4 guo4 guo2wai4 lv3xing2.",
     "translation_en": "I have never traveled abroad before.",
     "translation_ko": "저는 예전에 해외 여행을 가 본 적이 전혀 없습니다.",
     "token_ids": [
@@ -5630,7 +5630,7 @@
     "id": "SEN_D48_045",
     "text": "這是她第一次去國外旅行。",
     "pinyin": "Zhè shì tā dì yī cì qù guówài lǚxíng.",
-    "pinyin_numeric": "zhe4 shi4 ta1 di4 yi1 ci4 qu4 guo2wai4 lü3xing2.",
+    "pinyin_numeric": "zhe4 shi4 ta1 di4 yi1 ci4 qu4 guo2wai4 lv3xing2.",
     "translation_en": "This is her first time traveling abroad.",
     "translation_ko": "이번이 그녀의 첫 해외 여행이에요.",
     "token_ids": [
@@ -6300,7 +6300,7 @@
     "id": "SEN_D48_075",
     "text": "她從來沒有去過國外旅行。",
     "pinyin": "Tā cónglái méiyǒu qù guò guówài lǚxíng.",
-    "pinyin_numeric": "ta1 cong2lai2 mei2you3 qu4 guo4 guo2wai4 lü3xing2.",
+    "pinyin_numeric": "ta1 cong2lai2 mei2you3 qu4 guo4 guo2wai4 lv3xing2.",
     "translation_en": "She has never traveled abroad.",
     "translation_ko": "그녀는 해외 여행을 가 본 적이 전혀 없습니다.",
     "token_ids": [
@@ -11804,7 +11804,7 @@
     "id": "SEN_D51_007",
     "text": "那個女生看起來很溫柔，可是個性很認真。",
     "pinyin": "Nàge nǚshēng kàn qǐlái hěn wēnróu, kěshì gèxìng hěn rènzhēn.",
-    "pinyin_numeric": "na4ge5 nü3sheng1 kan4 qi3lai2 hen3 wen1rou2, ke3shi4 ge4xing4 hen3 ren4zhen1",
+    "pinyin_numeric": "na4ge5 nv3sheng1 kan4 qi3lai2 hen3 wen1rou2, ke3shi4 ge4xing4 hen3 ren4zhen1",
     "translation_en": "That girl looks gentle, but she has a serious personality.",
     "translation_ko": "그 여학생은 부드러워 보이지만 성격은 아주 진지합니다.",
     "token_ids": [
@@ -12087,7 +12087,7 @@
     "id": "SEN_D51_015",
     "text": "那個女生穿著白色的衣服，長得很漂亮。",
     "pinyin": "Nà ge nǚshēng chuān zhe báisè de yīfu, zhǎng de hěn piàoliang.",
-    "pinyin_numeric": "na4 ge5 nü3sheng1 chuan1 zhe5 bai2se4 de5 yi1fu5, zhang3 de5 hen3 piao4liang5",
+    "pinyin_numeric": "na4 ge5 nv3sheng1 chuan1 zhe5 bai2se4 de5 yi1fu5, zhang3 de5 hen3 piao4liang5",
     "translation_en": "That girl is wearing white clothes and looks very pretty.",
     "translation_ko": "그 여학생은 흰색 옷을 입고 있으며, 매우 예쁘게 생겼습니다.",
     "token_ids": [
@@ -12776,7 +12776,7 @@
     "id": "SEN_D51_035",
     "text": "那個女生看起來很害羞，可是說話很大方。",
     "pinyin": "Nà ge nǚshēng kàn qǐlái hěn hàixiū, kěshì shuōhuà hěn dàfāng.",
-    "pinyin_numeric": "na4 ge nü3 sheng1 kan4 qi3 lai2 hen3 hai4 xiu1, ke3 shi4 shuo1 hua4 hen3 da4 fang1.",
+    "pinyin_numeric": "na4 ge nv3 sheng1 kan4 qi3 lai2 hen3 hai4 xiu1, ke3 shi4 shuo1 hua4 hen3 da4 fang1.",
     "translation_en": "That girl looks very shy, but she speaks very generously.",
     "translation_ko": "그 여학생은 매우 수줍어 보이지만, 말을 할 때는 매우 대범합니다.",
     "token_ids": [
@@ -13064,7 +13064,7 @@
     "id": "SEN_D51_045",
     "text": "那個女生穿著白色的衣服，很漂亮。",
     "pinyin": "Nà ge nǚshēng chuān zhe báisè de yīfú, hěn piàoliang.",
-    "pinyin_numeric": "na4 ge4 nü3sheng1 chuan1 zhe5 bai2se4 de5 yi1fu2, hen3 piao4liang5",
+    "pinyin_numeric": "na4 ge4 nv3sheng1 chuan1 zhe5 bai2se4 de5 yi1fu2, hen3 piao4liang5",
     "translation_en": "That girl is wearing white clothes and is very pretty.",
     "translation_ko": "그 여학생은 하얀 옷을 입고 있어서 매우 예뻐요.",
     "token_ids": [
@@ -13648,7 +13648,7 @@
     "id": "SEN_D51_065",
     "text": "那個女生看起來很害羞，不太說話。",
     "pinyin": "Nà ge nǚshēng kàn qǐlái hěn hàixiū, bú tài shuōhuà.",
-    "pinyin_numeric": "na4 ge4 nü3 sheng1 kan4 qi3 lai2 hen3 hai4 xiu1, bu2 tai4 shuo1 hua4.",
+    "pinyin_numeric": "na4 ge4 nv3 sheng1 kan4 qi3 lai2 hen3 hai4 xiu1, bu2 tai4 shuo1 hua4.",
     "translation_en": "That girl looks very shy and doesn't talk much.",
     "translation_ko": "그 여학생은 매우 수줍어 보이고, 말을 많이 하지 않습니다.",
     "token_ids": [
@@ -13886,7 +13886,7 @@
     "id": "SEN_D51_075",
     "text": "那個女生很漂亮，而且個性很溫柔。",
     "pinyin": "Nà ge nǚshēng hěn piàoliang, érqiě gèxìng hěn wēnróu.",
-    "pinyin_numeric": "na4 ge4 nü3 sheng1 hen3 piao4 liang5, er2 qie3 ge4 xing4 hen3 wen1 rou2.",
+    "pinyin_numeric": "na4 ge4 nv3 sheng1 hen3 piao4 liang5, er2 qie3 ge4 xing4 hen3 wen1 rou2.",
     "translation_en": "That girl is very pretty, and her personality is very gentle.",
     "translation_ko": "그 여학생은 매우 예쁘고, 성격도 아주 부드럽습니다.",
     "token_ids": [
@@ -16598,7 +16598,7 @@
     "id": "SEN_D52_083",
     "text": "這杯紅茶的味道沒有那杯綠茶香。",
     "pinyin": "Zhè bēi hóngchá de wèidào méiyǒu nà bēi lǜchá xiāng.",
-    "pinyin_numeric": "zhe4 bei1 hong2cha2 de5 wei4dao4 mei2you3 na4 bei1 lü4cha2 xiang1",
+    "pinyin_numeric": "zhe4 bei1 hong2cha2 de5 wei4dao4 mei2you3 na4 bei1 lv4cha2 xiang1",
     "translation_en": "The flavor of this black tea is not as fragrant as that cup of green tea.",
     "translation_ko": "이 홍차의 맛은 저 녹차만큼 향이 좋지 않습니다.",
     "token_ids": [
@@ -26266,7 +26266,7 @@
     "id": "SEN_D60_040",
     "text": "你喝過台灣的綠茶嗎？很香。",
     "pinyin": "Nǐ hē guò Táiwān de lǜchá ma? Hěn xiāng.",
-    "pinyin_numeric": "ni3 he1 guo4 tai2 wan1 de0 lü4 cha2 ma0? hen3 xiang1.",
+    "pinyin_numeric": "ni3 he1 guo4 tai2 wan1 de0 lv4 cha2 ma0? hen3 xiang1.",
     "translation_en": "Have you had Taiwanese green tea? It's very fragrant.",
     "translation_ko": "대만의 녹차를 마셔 본 적이 있나요? 아주 향기로워요.",
     "token_ids": [
@@ -74595,7 +74595,7 @@
     "id": "SEN_D74_009",
     "text": "因為他工作很忙，所以沒有時間去旅行。",
     "pinyin": "Yīnwèi tā gōngzuò hěn máng, suǒyǐ méiyǒu shíjiān qù lǚxíng.",
-    "pinyin_numeric": "yin1 wei4 ta1 gong1 zuo4 hen3 mang2, suo3 yi3 mei2 you3 shi2 jian1 qu4 lü3 xing2.",
+    "pinyin_numeric": "yin1 wei4 ta1 gong1 zuo4 hen3 mang2, suo3 yi3 mei2 you3 shi2 jian1 qu4 lv3 xing2.",
     "translation_en": "Because he is very busy with work, he doesn't have time to travel.",
     "translation_ko": "그는 일이 매우 바빠서 여행 갈 시간이 없어요.",
     "token_ids": [
@@ -74867,7 +74867,7 @@
     "id": "SEN_D74_016",
     "text": "我比較喜歡紅茶，例如綠茶不如紅茶香。",
     "pinyin": "Wǒ bǐjiào xǐhuān hóngchá, lìrú lǜchá bùrú hóngchá xiāng.",
-    "pinyin_numeric": "wo3 bi3jiao4 xi3huan1 hong2cha2, li4ru2 lü4cha2 bu4ru2 hong2cha2 xiang1.",
+    "pinyin_numeric": "wo3 bi3jiao4 xi3huan1 hong2cha2, li4ru2 lv4cha2 bu4ru2 hong2cha2 xiang1.",
     "translation_en": "I prefer black tea; for example, green tea is not as fragrant as black tea.",
     "translation_ko": "저는 홍차를 더 좋아합니다. 예를 들어 녹차는 홍차만큼 향이 좋지 않습니다.",
     "token_ids": [
@@ -76882,7 +76882,7 @@
     "id": "SEN_D74_075",
     "text": "由於天氣很熱，因此他喜歡喝冰的飲料，比如綠茶。",
     "pinyin": "Yóuyú tiānqì hěn rè, yīncǐ tā xǐhuān hē bīng de yǐnliào, bǐrú lǜchá.",
-    "pinyin_numeric": "you2yu2 tian1qi4 hen3 re4, yin1ci3 ta1 xi3huan1 he1 bing1 de yin3liao4, bi3ru2 lü4cha2.",
+    "pinyin_numeric": "you2yu2 tian1qi4 hen3 re4, yin1ci3 ta1 xi3huan1 he1 bing1 de yin3liao4, bi3ru2 lv4cha2.",
     "translation_en": "Because the weather is very hot, he likes to drink cold beverages, such as green tea.",
     "translation_ko": "날씨가 매우 덥기 때문에 그는 차가운 음료를 좋아합니다. 예를 들어 녹차가 있습니다.",
     "token_ids": [
@@ -86608,7 +86608,7 @@
     "id": "SEN_D77_058",
     "text": "你的意思是，他回答的時候說「然後呢」嗎？",
     "pinyin": "Nǐ de yìsi shì, tā huídá de shíhou shuō “ránhòu ne” ma?",
-    "pinyin_numeric": "ni3 de0 yi4si5 shi4, ta1 hui2da2 de0 shi2hou5 shuo1 “ran2hou4 ne0” ma0",
+    "pinyin_numeric": "ni3 de0 yi4si5 shi4, ta1 hui2da2 de0 shi2hou5 shuo1 \"ran2hou4 ne0\" ma0",
     "translation_en": "Do you mean he said 'and then?' when he answered?",
     "translation_ko": "당신의 말은 그가 대답할 때 '그리고 나서요?'라고 말했다는 뜻인가요?",
     "token_ids": [
@@ -86694,7 +86694,7 @@
     "id": "SEN_D77_060",
     "text": "你的意思是，他問「真的嗎」是因為他不相信嗎？",
     "pinyin": "Nǐ de yìsi shì, tā wèn “zhēn de ma” shì yīnwèi tā bù xiāngxìn ma?",
-    "pinyin_numeric": "ni3 de0 yi4si5 shi4, ta1 wen4 “zhen1 de0 ma0” shi4 yin1wei4 ta1 bu4 xiang1xin4 ma0",
+    "pinyin_numeric": "ni3 de0 yi4si5 shi4, ta1 wen4 \"zhen1 de0 ma0\" shi4 yin1wei4 ta1 bu4 xiang1xin4 ma0",
     "translation_en": "Do you mean he asked 'really?' because he didn't believe it?",
     "translation_ko": "당신의 말은 그가 '정말요?'라고 물은 것은 믿지 않았기 때문이라는 뜻인가요?",
     "token_ids": [
@@ -93626,7 +93626,7 @@
     "id": "SEN_D80_013",
     "text": "這個標語寫著「禁止吸煙」，所以我們不可以抽煙。",
     "pinyin": "Zhège biāoyǔ xiě zhe “jìnzhǐ xīyān”, suǒyǐ wǒmen bù kěyǐ chōuyān.",
-    "pinyin_numeric": "zhe4 ge4 biao1 yu3 xie3 zhe0 “jin4 zhi3 xi1 yan1”, suo3 yi3 wo3 men5 bu4 ke3 yi3 chou1 yan1.",
+    "pinyin_numeric": "zhe4 ge4 biao1 yu3 xie3 zhe0 \"jin4 zhi3 xi1 yan1\", suo3 yi3 wo3 men5 bu4 ke3 yi3 chou1 yan1.",
     "translation_en": "This sign says 'No Smoking,' so we cannot smoke.",
     "translation_ko": "이 표지판에 '금연'이라고 쓰여 있어서, 우리는 담배를 피울 수 없습니다.",
     "token_ids": [
@@ -101534,7 +101534,7 @@
     "id": "SEN_D83_019",
     "text": "要不然你考慮一下，要不然我考慮一下。",
     "pinyin": "Yàobùrán nǐ kǎolǜ yīxià, yàobùrán wǒ kǎolǜ yīxià.",
-    "pinyin_numeric": "yao4 bu4 ran2 ni3 kao3 lü4 yi1 xia4, yao4 bu4 ran2 wo3 kao3 lü4 yi1 xia4.",
+    "pinyin_numeric": "yao4 bu4 ran2 ni3 kao3 lv4 yi1 xia4, yao4 bu4 ran2 wo3 kao3 lv4 yi1 xia4.",
     "translation_en": "Either you think about it, or I think about it.",
     "translation_ko": "당신이 고려해 보거나, 아니면 제가 고려해 보거나 해요.",
     "token_ids": [
@@ -107158,7 +107158,7 @@
     "id": "SEN_D85_038",
     "text": "說到旅行，你去過哪裡？",
     "pinyin": "Shuō dào lǚxíng, nǐ qùguò nǎlǐ?",
-    "pinyin_numeric": "shuo1 dao4 lü3xing2, ni3 qu4guo4 na3li3",
+    "pinyin_numeric": "shuo1 dao4 lv3xing2, ni3 qu4guo4 na3li3",
     "translation_en": "Speaking of travel, where have you been?",
     "translation_ko": "여행에 관해서 말하자면, 어디 가 보셨어요?",
     "token_ids": [
@@ -107286,7 +107286,7 @@
     "id": "SEN_D85_045",
     "text": "我放假的時候喜歡去旅行，你呢？",
     "pinyin": "Wǒ fàngjià de shíhou xǐhuān qù lǚxíng, nǐ ne?",
-    "pinyin_numeric": "wo3 fang4jia4 de0 shi2hou0 xi3huan1 qu4 lü3xing2, ni3 ne0",
+    "pinyin_numeric": "wo3 fang4jia4 de0 shi2hou0 xi3huan1 qu4 lv3xing2, ni3 ne0",
     "translation_en": "I like to travel when I'm on vacation, and you?",
     "translation_ko": "저는 휴가 때 여행 가는 것을 좋아하는데, 당신은요?",
     "token_ids": [
@@ -116629,7 +116629,7 @@
     "id": "SEN_D88_047",
     "text": "我邀請她一起去旅行，但她婉拒了，因為她最近很忙。",
     "pinyin": "Wǒ yāoqǐng tā yīqǐ qù lǚxíng, dàn tā wǎnjù le, yīnwèi tā zuìjìn hěn máng.",
-    "pinyin_numeric": "wo3 yao1qing3 ta1 yi4qi3 qu4 lü3xing2, dan4 ta1 wan3ju4 le5, yin1wei4 ta1 zui4jin4 hen3 mang2.",
+    "pinyin_numeric": "wo3 yao1qing3 ta1 yi4qi3 qu4 lv3xing2, dan4 ta1 wan3ju4 le5, yin1wei4 ta1 zui4jin4 hen3 mang2.",
     "translation_en": "I invited her to travel together, but she declined because she's been very busy lately.",
     "translation_ko": "그녀를 여행에 초대했지만, 요즘 너무 바빠서 거절했어요.",
     "token_ids": [
@@ -117387,7 +117387,7 @@
     "id": "SEN_D88_064",
     "text": "我們本來打算一起去旅行，但因為他的行程有衝突，所以只好延期了。",
     "pinyin": "Wǒmen běnlái dǎsuàn yīqǐ qù lǚxíng, dàn yīnwèi tā de xíngchéng yǒu chōngtū, suǒyǐ zhǐhǎo yánqī le.",
-    "pinyin_numeric": "wo3men5 ben3lai2 da3suan4 yi4qi3 qu4 lü3xing2, dan4 yin1wei4 ta1 de5 xing2cheng2 you3 chong1tu1, suo3yi3 zhi3hao3 yan2qi1 le5.",
+    "pinyin_numeric": "wo3men5 ben3lai2 da3suan4 yi4qi3 qu4 lv3xing2, dan4 yin1wei4 ta1 de5 xing2cheng2 you3 chong1tu1, suo3yi3 zhi3hao3 yan2qi1 le5.",
     "translation_en": "We originally planned to travel together, but because his schedule conflicted, we had to postpone it.",
     "translation_ko": "우리는 원래 함께 여행 가기로 했는데, 그의 일정에 충돌이 생겨서 연기할 수밖에 없었어요.",
     "token_ids": [
@@ -118708,7 +118708,7 @@
     "id": "SEN_D89_006",
     "text": "如果你不喜歡喝紅茶的話，就換成綠茶吧。",
     "pinyin": "Rúguǒ nǐ bù xǐhuān hē hóngchá dehuà, jiù huàn chéng lǜchá ba.",
-    "pinyin_numeric": "ru2guo3 ni3 bu4 xi3huan1 he1 hong2cha2 de5hua4, jiu4 huan4 cheng2 lü4cha2 ba5.",
+    "pinyin_numeric": "ru2guo3 ni3 bu4 xi3huan1 he1 hong2cha2 de5hua4, jiu4 huan4 cheng2 lv4cha2 ba5.",
     "translation_en": "If you don't like drinking black tea, then switch to green tea.",
     "translation_ko": "홍차를 좋아하지 않는다면, 녹차로 바꾸세요.",
     "token_ids": [
@@ -122036,7 +122036,7 @@
     "id": "SEN_D90_016",
     "text": "除了珍珠奶茶以外，我也很喜歡喝綠茶。",
     "pinyin": "Chúle zhēnzhū nǎichá yǐwài, wǒ yě hěn xǐhuān hē lǜchá.",
-    "pinyin_numeric": "chu2le zhen1zhu1 nai3cha2 yi3wai4, wo3 ye3 hen3 xi3huan1 he1 lü4cha2.",
+    "pinyin_numeric": "chu2le zhen1zhu1 nai3cha2 yi3wai4, wo3 ye3 hen3 xi3huan1 he1 lv4cha2.",
     "translation_en": "Besides bubble tea, I also really like drinking green tea.",
     "translation_ko": "버블티 외에도 저는 녹차를 마시는 것을 아주 좋아합니다.",
     "token_ids": [

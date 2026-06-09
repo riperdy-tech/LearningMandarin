@@ -137,7 +137,7 @@
     "id": "SEN_D31_005",
     "text": "我想要一杯綠茶，半糖，可以嗎？",
     "pinyin": "Wǒ xiǎng yào yī bēi lǜchá, bàn táng, kěyǐ ma?",
-    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 lü4cha2, ban4 tang2, ke3yi3 ma0?",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 lv4cha2, ban4 tang2, ke3yi3 ma0?",
     "translation_en": "I would like a green tea, half sugar, okay?",
     "translation_ko": "녹차 한 잔, 반당으로 원하는데 괜찮을까요?",
     "token_ids": [
@@ -778,7 +778,7 @@
     "id": "SEN_D31_025",
     "text": "不好意思，我要一杯綠茶，去冰。",
     "pinyin": "Bù hǎo yì si, wǒ yào yī bēi lǜ chá, qù bīng.",
-    "pinyin_numeric": "bu4 hao3 yi4 si0, wo3 yao4 yi1 bei1 lü4 cha2, qu4 bing1.",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, wo3 yao4 yi1 bei1 lv4 cha2, qu4 bing1.",
     "translation_en": "Excuse me, I'd like a green tea, no ice.",
     "translation_ko": "실례합니다, 녹차 한 잔에 얼음 빼 주세요.",
     "token_ids": [
@@ -959,7 +959,7 @@
     "id": "SEN_D31_033",
     "text": "不好意思，我想要一杯綠茶，半糖，可以嗎？",
     "pinyin": "Bù hǎo yì si, wǒ xiǎng yào yī bēi lǜ chá, bàn táng, kě yǐ ma?",
-    "pinyin_numeric": "bu4 hao3 yi4 si5, wo3 xiang3 yao4 yi1 bei1 lü4 cha2, ban4 tang2, ke3 yi3 ma0?",
+    "pinyin_numeric": "bu4 hao3 yi4 si5, wo3 xiang3 yao4 yi1 bei1 lv4 cha2, ban4 tang2, ke3 yi3 ma0?",
     "translation_en": "Excuse me, I would like a green tea with half sugar, okay?",
     "translation_ko": "죄송합니다, 반당으로 녹차 한 잔을 원하는데 괜찮을까요?",
     "token_ids": [
@@ -1490,7 +1490,7 @@
     "id": "SEN_D31_056",
     "text": "不好意思，我要一杯綠茶，微糖，少冰，內用。",
     "pinyin": "Bù hǎo yì si, wǒ yào yī bēi lǜ chá, wēi táng, shǎo bīng, nèi yòng.",
-    "pinyin_numeric": "bu4 hao3 yi4 si0, wo3 yao4 yi1 bei1 lü4 cha2, wei1 tang2, shao3 bing1, nei4 yong4.",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, wo3 yao4 yi1 bei1 lv4 cha2, wei1 tang2, shao3 bing1, nei4 yong4.",
     "translation_en": "Excuse me, I'd like a cup of green tea, low sugar, less ice, for here.",
     "translation_ko": "실례합니다, 녹차 한 잔, 당도 적게, 얼음 적게 해서 매장에서 먹겠습니다.",
     "token_ids": [
@@ -2032,7 +2032,7 @@
     "id": "SEN_D31_077",
     "text": "我想要一杯中杯的綠茶，正常甜。",
     "pinyin": "Wǒ xiǎng yào yī bēi zhōng bēi de lǜ chá, zhèng cháng tián.",
-    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 zhong1 bei1 de0 lü4 cha2, zheng4 chang2 tian2.",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 zhong1 bei1 de0 lv4 cha2, zheng4 chang2 tian2.",
     "translation_en": "I would like a medium green tea, regular sweetness.",
     "translation_ko": "중간 크기의 녹차 한 잔, 보통 당도로 주세요.",
     "token_ids": [
@@ -2176,7 +2176,7 @@
     "id": "SEN_D31_086",
     "text": "不好意思，我要外帶一杯綠茶。",
     "pinyin": "Bù hǎo yì si, wǒ yào wài dài yī bēi lǜ chá.",
-    "pinyin_numeric": "bu4 hao3 yi4 si0, wo3 yao4 wai4 dai4 yi1 bei1 lü4 cha2.",
+    "pinyin_numeric": "bu4 hao3 yi4 si0, wo3 yao4 wai4 dai4 yi1 bei1 lv4 cha2.",
     "translation_en": "Excuse me, I'd like a green tea to go.",
     "translation_ko": "실례합니다, 녹차 한 잔 포장해 주세요.",
     "token_ids": [
@@ -21061,7 +21061,7 @@
     "id": "SEN_D39_065",
     "text": "我搭錯線了，要從紅線換到綠線才對。",
     "pinyin": "Wǒ dā cuò xiàn le, yào cóng hóng xiàn huàn dào lǜ xiàn cái duì.",
-    "pinyin_numeric": "wo3 da1 cuo4 xian4 le0, yao4 cong2 hong2 xian4 huan4 dao4 lü4 xian4 cai2 dui4.",
+    "pinyin_numeric": "wo3 da1 cuo4 xian4 le0, yao4 cong2 hong2 xian4 huan4 dao4 lv4 xian4 cai2 dui4.",
     "translation_en": "I took the wrong line, I need to transfer from the Red Line to the Green Line instead.",
     "translation_ko": "노선을 잘못 탔어요. 빨간 선에서 초록 선으로 갈아타야 맞아요.",
     "token_ids": [
@@ -27396,7 +27396,7 @@
     "id": "SEN_D42_023",
     "text": "你想喝紅茶還是綠茶？都可以，不要太甜。",
     "pinyin": "Nǐ xiǎng hē hóngchá háishì lǜchá? Dōu kěyǐ, bùyào tài tián.",
-    "pinyin_numeric": "ni3 xiang3 he1 hong2cha2 hai2shi4 lü4cha2? dou1 ke3yi3, bu4yao4 tai4 tian2.",
+    "pinyin_numeric": "ni3 xiang3 he1 hong2cha2 hai2shi4 lv4cha2? dou1 ke3yi3, bu4yao4 tai4 tian2.",
     "translation_en": "Do you want to drink black tea or green tea? Either is fine, just not too sweet.",
     "translation_ko": "홍차 마실래요, 녹차 마실래요? 둘 다 괜찮아요, 너무 달지 않게요.",
     "token_ids": [
@@ -28886,7 +28886,7 @@
     "id": "SEN_D42_076",
     "text": "你比較喜歡哪一個，紅茶還是綠茶？",
     "pinyin": "Nǐ bǐjiào xǐhuān nǎ yīge, hóngchá háishì lǜchá?",
-    "pinyin_numeric": "ni3 bi3jiao4 xi3huan1 na3 yi1ge0, hong2cha2 hai2shi4 lü4cha2?",
+    "pinyin_numeric": "ni3 bi3jiao4 xi3huan1 na3 yi1ge0, hong2cha2 hai2shi4 lv4cha2?",
     "translation_en": "Which one do you prefer, black tea or green tea?",
     "translation_ko": "당신은 홍차와 녹차 중 어느 것을 더 좋아하나요?",
     "token_ids": [
@@ -28917,7 +28917,7 @@
     "id": "SEN_D42_077",
     "text": "我比較喜歡綠茶，因為喝起來很香。",
     "pinyin": "Wǒ bǐjiào xǐhuān lǜchá, yīnwèi hē qǐlái hěn xiāng.",
-    "pinyin_numeric": "wo3 bi3jiao4 xi3huan1 lü4cha2, yin1wei4 he1 qi3lai2 hen3 xiang1.",
+    "pinyin_numeric": "wo3 bi3jiao4 xi3huan1 lv4cha2, yin1wei4 he1 qi3lai2 hen3 xiang1.",
     "translation_en": "I prefer green tea because it tastes fragrant.",
     "translation_ko": "저는 녹차를 더 좋아해요, 마실 때 향이 좋거든요.",
     "token_ids": [
@@ -31747,7 +31747,7 @@
     "id": "SEN_D43_076",
     "text": "這件裙子的顏色太紅了，有沒有綠色的？",
     "pinyin": "Zhè jiàn qúnzi de yánsè tài hóng le, yǒu méiyǒu lǜsè de?",
-    "pinyin_numeric": "zhe4 jian4 qun2zi0 de0 yan2se4 tai4 hong2 le0, you3 mei2you3 lü4se4 de0",
+    "pinyin_numeric": "zhe4 jian4 qun2zi0 de0 yan2se4 tai4 hong2 le0, you3 mei2you3 lv4se4 de0",
     "translation_en": "The color of this skirt is too red, do you have a green one?",
     "translation_ko": "이 치마의 색깔이 너무 빨간데, 초록색은 없나요?",
     "token_ids": [
@@ -35289,7 +35289,7 @@
     "id": "SEN_D45_009",
     "text": "因為天氣悶熱，所以我想喝綠茶。",
     "pinyin": "Yīnwèi tiānqì mēnrè, suǒyǐ wǒ xiǎng hē lǜchá.",
-    "pinyin_numeric": "yin1 wei4 tian1 qi4 men1 re4, suo3 yi3 wo3 xiang3 he1 lü4 cha2.",
+    "pinyin_numeric": "yin1 wei4 tian1 qi4 men1 re4, suo3 yi3 wo3 xiang3 he1 lv4 cha2.",
     "translation_en": "Because the weather is muggy, I want to drink green tea.",
     "translation_ko": "날씨가 후덥지근해서 녹차를 마시고 싶습니다.",
     "token_ids": [

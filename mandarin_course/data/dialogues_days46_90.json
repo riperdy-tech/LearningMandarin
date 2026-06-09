@@ -2750,7 +2750,7 @@
         "speaker": "B",
         "text": "有啊，我認識一個女生，她叫小美。",
         "pinyin": "Yǒu a, wǒ rènshi yī ge nǚshēng, tā jiào Xiǎo Měi.",
-        "pinyin_numeric": "You3 a, wo3 ren4shi yi1 ge nü3sheng1, ta1 jiao4 Xiao3 Mei3.",
+        "pinyin_numeric": "You3 a, wo3 ren4shi yi1 ge nv3sheng1, ta1 jiao4 Xiao3 Mei3.",
         "translation_en": "Yes, I met a girl. Her name is Xiao Mei.",
         "translation_ko": "네, 여자 친구를 한 명 사귀었어요. 이름은 샤오메이예요.",
         "token_ids": [
@@ -15631,7 +15631,7 @@
         "speaker": "客人",
         "text": "嗯，我想一下喔……那個，我要一杯珍珠奶茶，半糖少冰。",
         "pinyin": "Ēn, wǒ xiǎng yīxià ō…… nàge, wǒ yào yī bēi zhēnzhū nǎichá, bàn táng shǎo bīng.",
-        "pinyin_numeric": "En1, wo3 xiang3 yi1 xia4 o1…… na4 ge5, wo3 yao4 yi1 bei1 zhen1 zhu1 nai3 cha2, ban4 tang2 shao3 bing1.",
+        "pinyin_numeric": "En1, wo3 xiang3 yi1 xia4 o1... na4 ge5, wo3 yao4 yi1 bei1 zhen1 zhu1 nai3 cha2, ban4 tang2 shao3 bing1.",
         "translation_en": "Um, let me think... well, I'd like a bubble milk tea, half sugar and less ice.",
         "translation_ko": "음, 잠깐 생각해볼게요... 저, 버블 밀크티 한 잔, 당 반, 얼음 적게 주세요.",
         "token_ids": [
@@ -15676,7 +15676,7 @@
         "speaker": "客人",
         "text": "我再看一下菜單……那個，我還想要一個三明治，呃沒有，就是說，火腿的。",
         "pinyin": "Wǒ zài kàn yīxià càidān…… nàge, wǒ hái xiǎng yào yī ge sānmíngzhì, é méi yǒu, jiùshì shuō, huǒ tuǐ de.",
-        "pinyin_numeric": "Wo3 zai4 kan4 yi1 xia4 cai4 dan1…… na4 ge5, wo3 hai2 xiang3 yao4 yi1 ge5 san1 ming2 zhi4, e4 mei2 you3, jiu4 shi4 shuo1, huo3 tui3 de5.",
+        "pinyin_numeric": "Wo3 zai4 kan4 yi1 xia4 cai4 dan1... na4 ge5, wo3 hai2 xiang3 yao4 yi1 ge5 san1 ming2 zhi4, e4 mei2 you3, jiu4 shi4 shuo1, huo3 tui3 de5.",
         "translation_en": "Let me look at the menu again... um, I also want a sandwich, uh no, I mean, ham.",
         "translation_ko": "메뉴를 좀 더 볼게요... 저, 샌드위치도 하나 더, 어 아니, 그러니까, 햄으로요.",
         "token_ids": [
@@ -15825,7 +15825,7 @@
         "speaker": "A",
         "text": "我覺得還不錯，但是——哎，不是，我的意思是，它的招牌菜很好吃，可是服務有點慢。",
         "pinyin": "Wǒ juéde hái bùcuò, dànshì——āi, bùshì, wǒ de yìsi shì, tā de zhāopái cài hěn hǎo chī, kěshì fúwù yǒu diǎn màn.",
-        "pinyin_numeric": "Wo3 jue2 de5 hai2 bu4 cuo4, dan4 shi4——ai1, bu2 shi4, wo3 de5 yi4 si1 shi4, ta1 de5 zhao1 pai2 cai4 hen3 hao3 chi1, ke3 shi4 fu2 wu4 you3 dian3 man4.",
+        "pinyin_numeric": "Wo3 jue2 de5 hai2 bu4 cuo4, dan4 shi4--ai1, bu2 shi4, wo3 de5 yi4 si1 shi4, ta1 de5 zhao1 pai2 cai4 hen3 hao3 chi1, ke3 shi4 fu2 wu4 you3 dian3 man4.",
         "translation_en": "I thought it was okay, but—ah, no, I mean, its signature dish was delicious, but the service was a bit slow.",
         "translation_ko": "괜찮다고 생각했는데, 아, 아니, 내 말은, 그 가게 대표 메뉴는 맛있었는데 서비스가 좀 느렸어.",
         "token_ids": [
@@ -15872,7 +15872,7 @@
         "speaker": "A",
         "text": "嗯……應該會吧，但是我想換一下說，下次去的時候要早一點。",
         "pinyin": "Ēn…… yīnggāi huì ba, dànshì wǒ xiǎng huàn yīxià shuō, xià cì qù de shíhou yào zǎo yīdiǎn.",
-        "pinyin_numeric": "En1…… ying1 gai1 hui4 ba5, dan4 shi4 wo3 xiang3 huan4 yi1 xia4 shuo1, xia4 ci4 qu4 de5 shi2 hou5 yao4 zao3 yi1 dian3.",
+        "pinyin_numeric": "En1... ying1 gai1 hui4 ba5, dan4 shi4 wo3 xiang3 huan4 yi1 xia4 shuo1, xia4 ci4 qu4 de5 shi2 hou5 yao4 zao3 yi1 dian3.",
         "translation_en": "Hmm... probably, but let me rephrase, next time I'll go earlier.",
         "translation_ko": "음... 아마 갈 거야, 그런데 말을 바꾸자면, 다음에 갈 때는 좀 일찍 가려고.",
         "token_ids": [
