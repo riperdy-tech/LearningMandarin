@@ -346,7 +346,7 @@
       "bing1"
     ],
     "pos": "phrase",
-    "meaning_en": "less ice",
+    "meaning_en": "light ice",
     "meaning_ko": "얼음 적게",
     "semantic_domain": "cafe",
     "register": "neutral",
@@ -3036,7 +3036,7 @@
       "cha2"
     ],
     "pos": "noun",
-    "meaning_en": "bubble milk tea",
+    "meaning_en": "pearl milk tea",
     "meaning_ko": "버블티",
     "semantic_domain": "food",
     "register": "neutral",
@@ -6663,7 +6663,7 @@
       "jian1"
     ],
     "pos": "verb phrase",
-    "meaning_en": "change the time",
+    "meaning_en": "reschedule",
     "meaning_ko": "시간을 바꾸다",
     "semantic_domain": "social",
     "register": "neutral",
