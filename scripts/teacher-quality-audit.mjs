@@ -60,6 +60,23 @@ function checkPinyinNumeric(item, label) {
   if (/[A-Za-z][?][A-Za-z0-9]/.test(numeric) || /[0-9][?][A-Za-z0-9]/.test(numeric)) {
     errors.push(`${label}: corrupted pinyin_numeric "${numeric}"`);
   }
+  if (/\b(?:shen2me[05]?|wei4shen2me[05]?|zen3me[05]?|zhe4me[05]?)\b/i.test(numeric)) {
+    errors.push(`${label}: fused common-word pinyin_numeric "${numeric}"; use syllable spacing such as "shen2 me0"`);
+  }
+  if (/\bshen2 me(?:\b|[?!,.，。！？])|\bwei4 shen2 me(?:\b|[?!,.，。！？])|\bzen3 me(?:\b|[?!,.，。！？])|\bzhe4 me(?:\b|[?!,.，。！？])/i.test(numeric)) {
+    errors.push(`${label}: missing neutral tone in pinyin_numeric "${numeric}"; use me0`);
+  }
+}
+
+function checkPronunciationFields(item, label) {
+  if (typeof item.pinyin === "string" && /\bwèishéme\b/i.test(item.pinyin)) {
+    errors.push(`${label}: incorrect pinyin "${item.pinyin}"; use "wèishénme"`);
+  }
+  for (const phoneme of item.phonemes ?? []) {
+    if (/\b(?:shen2me[05]?|wei4shen2me[05]?|zen3me[05]?|zhe4me[05]?)\b/i.test(phoneme)) {
+      errors.push(`${label}: fused phoneme "${phoneme}"; use syllable spacing such as "shen2 me0"`);
+    }
+  }
 }
 
 function checkEnglishGloss(item, label) {
@@ -91,6 +108,23 @@ function checkNestedEnglish(value, label) {
   }
 }
 
+function checkNestedPronunciation(value, label) {
+  if (Array.isArray(value)) {
+    value.forEach((item, index) => checkNestedPronunciation(item, `${label}[${index}]`));
+    return;
+  }
+  if (!value || typeof value !== "object") return;
+
+  const itemLabel = value.id ? `${label}:${value.id}` : label;
+  checkPinyinNumeric(value, itemLabel);
+  checkPronunciationFields(value, itemLabel);
+  for (const [key, child] of Object.entries(value)) {
+    if (child && typeof child === "object") {
+      checkNestedPronunciation(child, `${label}.${key}`);
+    }
+  }
+}
+
 const bannedListeningPatterns = [
   "\u6211\u9700\u8981\u4e86", // 我需要了
   "\u4f60\u9700\u8981\u4e86\u55ce", // 你需要了嗎
@@ -109,6 +143,7 @@ const bannedListeningPatterns = [
 
 for (const item of listening) {
   checkPinyinNumeric(item, item.id);
+  checkPronunciationFields(item, item.id);
   checkEnglishGloss(item, item.id);
 
   for (const pattern of bannedListeningPatterns) {
@@ -151,21 +186,27 @@ for (const [day, dayItems] of [...listeningByDay.entries()].sort((a, b) => a[0] 
 
 for (const sentence of sentences) {
   checkPinyinNumeric(sentence, sentence.id);
+  checkPronunciationFields(sentence, sentence.id);
   checkEnglishGloss(sentence, sentence.id);
 }
 
 for (const word of vocab) {
   checkPinyinNumeric(word, word.id);
+  checkPronunciationFields(word, word.id);
   checkEnglishGloss(word, word.id);
 }
 
 for (const audio of audioManifests) {
   checkPinyinNumeric(audio, `${audio.kind}:${audio.ref_id}`);
+  checkPronunciationFields(audio, `${audio.kind}:${audio.ref_id}`);
   checkEnglishGloss(audio, `${audio.kind}:${audio.ref_id}`);
 }
 
 checkNestedEnglish(grammar, "grammar");
 checkNestedEnglish(speaking, "speaking");
+checkNestedPronunciation(grammar, "grammar");
+checkNestedPronunciation(dialogues, "dialogues");
+checkNestedPronunciation(speaking, "speaking");
 
 for (const grammarPoint of grammar) {
   const day = Number(grammarPoint.id?.match(/D(\d+)/)?.[1] ?? 0);

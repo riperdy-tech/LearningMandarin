@@ -6715,7 +6715,7 @@
     "id": "SEN_D49_001",
     "text": "你正在做什麼？",
     "pinyin": "Nǐ zhèngzài zuò shénme?",
-    "pinyin_numeric": "ni3 zheng4zai4 zuo4 shen2me0",
+    "pinyin_numeric": "ni3 zheng4zai4 zuo4 shen2 me0",
     "translation_en": "What are you doing right now?",
     "translation_ko": "지금 무엇을 하고 계세요?",
     "token_ids": [
@@ -6973,7 +6973,7 @@
     "id": "SEN_D49_011",
     "text": "你現在在做什麼？",
     "pinyin": "Nǐ xiànzài zài zuò shénme?",
-    "pinyin_numeric": "ni3 xian4zai4 zai4 zuo4 shen2me0",
+    "pinyin_numeric": "ni3 xian4zai4 zai4 zuo4 shen2 me0",
     "translation_en": "What are you doing now?",
     "translation_ko": "지금 뭐 하고 있어요?",
     "token_ids": [
@@ -17103,7 +17103,7 @@
     "id": "SEN_D54_009",
     "text": "我建議我們延後到下午三點，你覺得怎麼樣？",
     "pinyin": "Wǒ jiànyì wǒmen yánhòu dào xiàwǔ sān diǎn, nǐ juéde zěnme yàng?",
-    "pinyin_numeric": "wo3 jian4yi4 wo3men yan2hou4 dao4 xia4wu3 san1 dian3, ni3 jue2de0 zen3me yang4?",
+    "pinyin_numeric": "wo3 jian4yi4 wo3men yan2hou4 dao4 xia4wu3 san1 dian3, ni3 jue2de0 zen3 me0 yang4?",
     "translation_en": "I suggest we postpone it to 3 PM, what do you think?",
     "translation_ko": "오후 3시로 연기하는 게 어때요?",
     "token_ids": [
@@ -22743,7 +22743,7 @@
     "id": "SEN_D59_011",
     "text": "師傅，請問你什麼時候可以過來看看？",
     "pinyin": "Shīfu, qǐngwèn nǐ shénme shíhou kěyǐ guòlái kànkan?",
-    "pinyin_numeric": "shi1fu0, qing3wen4 ni3 shen2me shi2hou0 ke3yi3 guo4lai2 kan4kan0",
+    "pinyin_numeric": "shi1fu0, qing3wen4 ni3 shen2 me0 shi2hou0 ke3yi3 guo4lai2 kan4kan0",
     "translation_en": "Master, may I ask when you can come over to take a look?",
     "translation_ko": "사장님, 언제 오셔서 확인해 주실 수 있나요?",
     "token_ids": [
@@ -22778,7 +22778,7 @@
     "id": "SEN_D59_012",
     "text": "我什麼時候可以請你來修理馬桶？",
     "pinyin": "Wǒ shénme shíhou kěyǐ qǐng nǐ lái xiūlǐ mǎtǒng?",
-    "pinyin_numeric": "wo3 shen2me shi2hou0 ke3yi3 qing3 ni3 lai2 xiu1li3 ma3tong3",
+    "pinyin_numeric": "wo3 shen2 me0 shi2hou0 ke3yi3 qing3 ni3 lai2 xiu1li3 ma3tong3",
     "translation_en": "When can I ask you to come repair the toilet?",
     "translation_ko": "언제 변기 수리를 부탁드릴 수 있을까요?",
     "token_ids": [
@@ -22815,7 +22815,7 @@
     "id": "SEN_D59_013",
     "text": "水龍頭壞掉了，你什麼時候可以來換？",
     "pinyin": "Shuǐlóngtóu huài diào le, nǐ shénme shíhou kěyǐ lái huàn?",
-    "pinyin_numeric": "shui3long2tou2 huai4 diao4 le0, ni3 shen2me shi2hou0 ke3yi3 lai2 huan4",
+    "pinyin_numeric": "shui3long2tou2 huai4 diao4 le0, ni3 shen2 me0 shi2hou0 ke3yi3 lai2 huan4",
     "translation_en": "The faucet is broken; when can you come to replace it?",
     "translation_ko": "수도꼭지가 고장 났는데, 언제 오셔서 교체해 주실 수 있나요?",
     "token_ids": [
@@ -22851,7 +22851,7 @@
     "id": "SEN_D59_014",
     "text": "我什麼時候可以預約時間請你檢查冷氣？",
     "pinyin": "Wǒ shénme shíhou kěyǐ yùyuē shíjiān qǐng nǐ jiǎnchá lěngqì?",
-    "pinyin_numeric": "wo3 shen2me shi2hou0 ke3yi3 yu4yue1 shi2jian1 qing3 ni3 jian3cha2 leng3qi4",
+    "pinyin_numeric": "wo3 shen2 me0 shi2hou0 ke3yi3 yu4yue1 shi2jian1 qing3 ni3 jian3cha2 leng3qi4",
     "translation_en": "When can I schedule a time for you to check the air conditioner?",
     "translation_ko": "언제 에어컨 점검을 예약할 수 있을까요?",
     "token_ids": [
@@ -22888,7 +22888,7 @@
     "id": "SEN_D59_015",
     "text": "熱水器有奇怪的聲音，你什麼時候可以過來看看？",
     "pinyin": "Rèshuǐqì yǒu qíguài de shēngyīn, nǐ shénme shíhou kěyǐ guòlái kànkan?",
-    "pinyin_numeric": "re4shui3qi4 you3 qi2guai4 de0 sheng1yin1, ni3 shen2me shi2hou0 ke3yi3 guo4lai2 kan4kan0",
+    "pinyin_numeric": "re4shui3qi4 you3 qi2guai4 de0 sheng1yin1, ni3 shen2 me0 shi2hou0 ke3yi3 guo4lai2 kan4kan0",
     "translation_en": "The water heater is making a strange noise; when can you come over to take a look?",
     "translation_ko": "온수기에서 이상한 소리가 나는데, 언제 오셔서 확인해 주실 수 있나요?",
     "token_ids": [
@@ -22929,7 +22929,7 @@
     "id": "SEN_D59_016",
     "text": "冰箱不冷了，你什麼時候可以來修理？",
     "pinyin": "Bīngxiāng bù lěng le, nǐ shénme shíhou kěyǐ lái xiūlǐ?",
-    "pinyin_numeric": "bing1xiang1 bu4 leng3 le0, ni3 shen2me shi2hou0 ke3yi3 lai2 xiu1li3",
+    "pinyin_numeric": "bing1xiang1 bu4 leng3 le0, ni3 shen2 me0 shi2hou0 ke3yi3 lai2 xiu1li3",
     "translation_en": "The refrigerator is not cold anymore; when can you come to repair it?",
     "translation_ko": "냉장고가 차갑지 않은데, 언제 수리하러 오실 수 있나요?",
     "token_ids": [
@@ -22967,7 +22967,7 @@
     "id": "SEN_D59_017",
     "text": "我什麼時候可以請你來處理牆壁的裂縫？",
     "pinyin": "Wǒ shénme shíhou kěyǐ qǐng nǐ lái chǔlǐ qiángbì de lièfèng?",
-    "pinyin_numeric": "wo3 shen2me shi2hou0 ke3yi3 qing3 ni3 lai2 chu3li3 qiang2bi4 de0 lie4feng4",
+    "pinyin_numeric": "wo3 shen2 me0 shi2hou0 ke3yi3 qing3 ni3 lai2 chu3li3 qiang2bi4 de0 lie4feng4",
     "translation_en": "When can I ask you to come deal with the crack in the wall?",
     "translation_ko": "언제 벽에 금 간 것을 처리해 주실 수 있나요?",
     "token_ids": [
@@ -23008,7 +23008,7 @@
     "id": "SEN_D59_018",
     "text": "排水堵住了，你什麼時候可以過來看看？",
     "pinyin": "Páishuǐ dǔ zhù le, nǐ shénme shíhou kěyǐ guòlái kànkan?",
-    "pinyin_numeric": "pai2shui3 du3 zhu4 le0, ni3 shen2me shi2hou0 ke3yi3 guo4lai2 kan4kan0",
+    "pinyin_numeric": "pai2shui3 du3 zhu4 le0, ni3 shen2 me0 shi2hou0 ke3yi3 guo4lai2 kan4kan0",
     "translation_en": "The drain is clogged; when can you come over to take a look?",
     "translation_ko": "배수가 막혔는데, 언제 오셔서 확인해 주실 수 있나요?",
     "token_ids": [
@@ -23044,7 +23044,7 @@
     "id": "SEN_D59_019",
     "text": "門鎖壞掉了，你什麼時候可以來換一個新的？",
     "pinyin": "Mén suǒ huài diào le, nǐ shénme shíhou kěyǐ lái huàn yī ge xīn de?",
-    "pinyin_numeric": "men2 suo3 huai4 diao4 le0, ni3 shen2me shi2hou0 ke3yi3 lai2 huan4 yi1 ge0 xin1 de0",
+    "pinyin_numeric": "men2 suo3 huai4 diao4 le0, ni3 shen2 me0 shi2hou0 ke3yi3 lai2 huan4 yi1 ge0 xin1 de0",
     "translation_en": "The door lock is broken; when can you come to replace it with a new one?",
     "translation_ko": "문 잠금장치가 고장 났는데, 언제 새것으로 교체하러 오실 수 있나요?",
     "token_ids": [
@@ -23088,7 +23088,7 @@
     "id": "SEN_D59_020",
     "text": "我什麼時候可以請你來修理洗衣機？",
     "pinyin": "Wǒ shénme shíhou kěyǐ qǐng nǐ lái xiūlǐ xǐyījī?",
-    "pinyin_numeric": "wo3 shen2me shi2hou0 ke3yi3 qing3 ni3 lai2 xiu1li3 xi3yi1ji1",
+    "pinyin_numeric": "wo3 shen2 me0 shi2hou0 ke3yi3 qing3 ni3 lai2 xiu1li3 xi3yi1ji1",
     "translation_en": "When can I ask you to come repair the washing machine?",
     "translation_ko": "언제 세탁기 수리를 부탁드릴 수 있을까요?",
     "token_ids": [
@@ -23626,7 +23626,7 @@
     "id": "SEN_D59_041",
     "text": "師傅什麼時候可以過來修理水龍頭？",
     "pinyin": "Shīfù shénme shíhou kěyǐ guòlái xiūlǐ shuǐlóngtóu?",
-    "pinyin_numeric": "shi1fu4 shen2me shi2hou ke3yi3 guo4lai2 xiu1li3 shui3long2tou2",
+    "pinyin_numeric": "shi1fu4 shen2 me0 shi2hou ke3yi3 guo4lai2 xiu1li3 shui3long2tou2",
     "translation_en": "When can the repairman come to fix the faucet?",
     "translation_ko": "수리 기사님은 언제 오셔서 수도꼭지를 고칠 수 있나요?",
     "token_ids": [
@@ -23659,7 +23659,7 @@
     "id": "SEN_D59_042",
     "text": "馬桶壞掉了，什麼時候可以來看看？",
     "pinyin": "Mǎtǒng huài diào le, shénme shíhou kěyǐ lái kànkan?",
-    "pinyin_numeric": "ma3tong3 huai4 diao4 le0, shen2me shi2hou ke3yi3 lai2 kan4kan5",
+    "pinyin_numeric": "ma3tong3 huai4 diao4 le0, shen2 me0 shi2hou ke3yi3 lai2 kan4kan5",
     "translation_en": "The toilet is broken; when can you come take a look?",
     "translation_ko": "변기가 고장 났는데, 언제 와서 확인해 주실 수 있나요?",
     "token_ids": [
@@ -23693,7 +23693,7 @@
     "id": "SEN_D59_043",
     "text": "我什麼時候可以預約師傅來檢查冷氣？",
     "pinyin": "Wǒ shénme shíhou kěyǐ yùyuē shīfù lái jiǎnchá lěngqì?",
-    "pinyin_numeric": "wo3 shen2me shi2hou ke3yi3 yu4yue1 shi1fu4 lai2 jian3cha2 leng3qi4",
+    "pinyin_numeric": "wo3 shen2 me0 shi2hou ke3yi3 yu4yue1 shi1fu4 lai2 jian3cha2 leng3qi4",
     "translation_en": "When can I schedule a repairman to check the air conditioner?",
     "translation_ko": "언제 수리 기사님을 예약해서 에어컨 점검을 받을 수 있나요?",
     "token_ids": [
@@ -23730,7 +23730,7 @@
     "id": "SEN_D59_044",
     "text": "熱水器有奇怪的聲音，什麼時候可以過來看看？",
     "pinyin": "Rèshuǐqì yǒu qíguài de shēngyīn, shénme shíhou kěyǐ guòlái kànkan?",
-    "pinyin_numeric": "re4shui3qi4 you3 qi2guai4 de5 sheng1yin1, shen2me shi2hou ke3yi3 guo4lai2 kan4kan5",
+    "pinyin_numeric": "re4shui3qi4 you3 qi2guai4 de5 sheng1yin1, shen2 me0 shi2hou ke3yi3 guo4lai2 kan4kan5",
     "translation_en": "The water heater is making a strange noise; when can you come take a look?",
     "translation_ko": "온수기에서 이상한 소리가 나는데, 언제 와서 확인해 주실 수 있나요?",
     "token_ids": [
@@ -23769,7 +23769,7 @@
     "id": "SEN_D59_045",
     "text": "冰箱壞掉了，什麼時候可以來修理？",
     "pinyin": "Bīngxiāng huài diào le, shénme shíhou kěyǐ lái xiūlǐ?",
-    "pinyin_numeric": "bing1xiang1 huai4 diao4 le0, shen2me shi2hou ke3yi3 lai2 xiu1li3",
+    "pinyin_numeric": "bing1xiang1 huai4 diao4 le0, shen2 me0 shi2hou ke3yi3 lai2 xiu1li3",
     "translation_en": "The refrigerator is broken; when can you come fix it?",
     "translation_ko": "냉장고가 고장 났는데, 언제 와서 고칠 수 있나요?",
     "token_ids": [
@@ -23803,7 +23803,7 @@
     "id": "SEN_D59_046",
     "text": "排水堵住了，師傅什麼時候可以過來處理？",
     "pinyin": "Páishuǐ dǔ zhù le, shīfù shénme shíhou kěyǐ guòlái chǔlǐ?",
-    "pinyin_numeric": "pai2shui3 du3 zhu4 le0, shi1fu4 shen2me shi2hou ke3yi3 guo4lai2 chu3li3",
+    "pinyin_numeric": "pai2shui3 du3 zhu4 le0, shi1fu4 shen2 me0 shi2hou ke3yi3 guo4lai2 chu3li3",
     "translation_en": "The drain is clogged; when can the repairman come handle it?",
     "translation_ko": "배수가 막혔는데, 수리 기사님은 언제 오셔서 처리해 주실 수 있나요?",
     "token_ids": [
@@ -23839,7 +23839,7 @@
     "id": "SEN_D59_047",
     "text": "電燈開關壞了，什麼時候可以來換？",
     "pinyin": "Diàndēng kāiguān huài le, shénme shíhou kěyǐ lái huàn?",
-    "pinyin_numeric": "dian4deng1 kai1guan1 huai4 le0, shen2me shi2hou ke3yi3 lai2 huan4",
+    "pinyin_numeric": "dian4deng1 kai1guan1 huai4 le0, shen2 me0 shi2hou ke3yi3 lai2 huan4",
     "translation_en": "The light switch is broken; when can you come replace it?",
     "translation_ko": "전등 스위치가 고장 났는데, 언제 와서 교체할 수 있나요?",
     "token_ids": [
@@ -23875,7 +23875,7 @@
     "id": "SEN_D59_048",
     "text": "門鎖壞掉了，什麼時候可以來修理？",
     "pinyin": "Mén suǒ huài diào le, shénme shíhou kěyǐ lái xiūlǐ?",
-    "pinyin_numeric": "men2 suo3 huai4 diao4 le0, shen2me shi2hou ke3yi3 lai2 xiu1li3",
+    "pinyin_numeric": "men2 suo3 huai4 diao4 le0, shen2 me0 shi2hou ke3yi3 lai2 xiu1li3",
     "translation_en": "The door lock is broken; when can you come fix it?",
     "translation_ko": "문 잠금장치가 고장 났는데, 언제 와서 고칠 수 있나요?",
     "token_ids": [
@@ -23909,7 +23909,7 @@
     "id": "SEN_D59_049",
     "text": "洗衣機有漏水的問題，什麼時候可以過來看看？",
     "pinyin": "Xǐyījī yǒu lòushuǐ de wèntí, shénme shíhou kěyǐ guòlái kànkan?",
-    "pinyin_numeric": "xi3yi1ji1 you3 lou4shui3 de5 wen4ti2, shen2me shi2hou ke3yi3 guo4lai2 kan4kan5",
+    "pinyin_numeric": "xi3yi1ji1 you3 lou4shui3 de5 wen4ti2, shen2 me0 shi2hou ke3yi3 guo4lai2 kan4kan5",
     "translation_en": "The washing machine has a leaking problem; when can you come take a look?",
     "translation_ko": "세탁기에 물이 새는 문제가 있는데, 언제 와서 확인해 주실 수 있나요?",
     "token_ids": [
@@ -23948,7 +23948,7 @@
     "id": "SEN_D59_050",
     "text": "窗戶有裂縫，什麼時候可以來處理？",
     "pinyin": "Chuānghù yǒu lièfèng, shénme shíhou kěyǐ lái chǔlǐ?",
-    "pinyin_numeric": "chuang1hu4 you3 lie4feng4, shen2me shi2hou ke3yi3 lai2 chu3li3",
+    "pinyin_numeric": "chuang1hu4 you3 lie4feng4, shen2 me0 shi2hou ke3yi3 lai2 chu3li3",
     "translation_en": "The window has a crack; when can you come handle it?",
     "translation_ko": "창문에 금이 갔는데, 언제 와서 처리해 주실 수 있나요?",
     "token_ids": [
@@ -24510,7 +24510,7 @@
     "id": "SEN_D59_073",
     "text": "我們什麼時候可以約時間檢查冷氣？",
     "pinyin": "Wǒmen shénme shíhou kěyǐ yuē shíjiān jiǎnchá lěngqì?",
-    "pinyin_numeric": "wo3men shen2me shi2hou ke3yi3 yue1 shi2jian1 jian3cha2 leng3qi4",
+    "pinyin_numeric": "wo3men shen2 me0 shi2hou ke3yi3 yue1 shi2jian1 jian3cha2 leng3qi4",
     "translation_en": "When can we schedule a time to check the air conditioner?",
     "translation_ko": "에어컨 점검을 위해 언제 시간을 약속할 수 있나요?",
     "token_ids": [
@@ -24543,7 +24543,7 @@
     "id": "SEN_D59_075",
     "text": "冰箱不冷了，什麼時候可以請師傅來修理？",
     "pinyin": "Bīngxiāng bù lěng le, shénme shíhou kěyǐ qǐng shīfù lái xiūlǐ?",
-    "pinyin_numeric": "bing1xiang1 bu4 leng3 le, shen2me shi2hou ke3yi3 qing3 shi1fu4 lai2 xiu1li3",
+    "pinyin_numeric": "bing1xiang1 bu4 leng3 le, shen2 me0 shi2hou ke3yi3 qing3 shi1fu4 lai2 xiu1li3",
     "translation_en": "The refrigerator isn't cold anymore; when can we ask a repairman to fix it?",
     "translation_ko": "냉장고가 차갑지 않은데, 언제 수리 기사님을 불러서 고칠 수 있나요?",
     "token_ids": [
@@ -24583,7 +24583,7 @@
     "id": "SEN_D59_076",
     "text": "排水孔堵住了，什麼時候可以處理？",
     "pinyin": "Páishuǐkǒng dǔ zhù le, shénme shíhou kěyǐ chǔlǐ?",
-    "pinyin_numeric": "pai2shui3kong3 du3 zhu4 le, shen2me shi2hou ke3yi3 chu3li3",
+    "pinyin_numeric": "pai2shui3kong3 du3 zhu4 le, shen2 me0 shi2hou ke3yi3 chu3li3",
     "translation_en": "The drain is clogged; when can it be fixed?",
     "translation_ko": "배수구가 막혔는데, 언제 처리해 주실 수 있나요?",
     "token_ids": [
@@ -24616,7 +24616,7 @@
     "id": "SEN_D59_077",
     "text": "門鎖壞了，什麼時候可以換新的？",
     "pinyin": "Mén suǒ huài le, shénme shíhou kěyǐ huàn xīn de?",
-    "pinyin_numeric": "men2 suo3 huai4 le, shen2me shi2hou ke3yi3 huan4 xin1 de",
+    "pinyin_numeric": "men2 suo3 huai4 le, shen2 me0 shi2hou ke3yi3 huan4 xin1 de",
     "translation_en": "The door lock is broken; when can it be replaced with a new one?",
     "translation_ko": "문 잠금장치가 고장 났는데, 언제 새것으로 교체할 수 있나요?",
     "token_ids": [
@@ -24651,7 +24651,7 @@
     "id": "SEN_D59_078",
     "text": "牆壁有裂縫，什麼時候可以來修理？",
     "pinyin": "Qiángbì yǒu lièfèng, shénme shíhou kěyǐ lái xiūlǐ?",
-    "pinyin_numeric": "qiang2bi4 you3 lie4feng4, shen2me shi2hou ke3yi3 lai2 xiu1li3",
+    "pinyin_numeric": "qiang2bi4 you3 lie4feng4, shen2 me0 shi2hou ke3yi3 lai2 xiu1li3",
     "translation_en": "There's a crack in the wall; when can you come to fix it?",
     "translation_ko": "벽에 금이 갔는데, 언제 와서 수리해 주실 수 있나요?",
     "token_ids": [
@@ -24686,7 +24686,7 @@
     "id": "SEN_D59_079",
     "text": "電燈泡壞了，什麼時候可以換？",
     "pinyin": "Diàn dēngpào huài le, shénme shíhou kěyǐ huàn?",
-    "pinyin_numeric": "dian4 deng1pao4 huai4 le, shen2me shi2hou ke3yi3 huan4",
+    "pinyin_numeric": "dian4 deng1pao4 huai4 le, shen2 me0 shi2hou ke3yi3 huan4",
     "translation_en": "The light bulb is burned out; when can it be replaced?",
     "translation_ko": "전구가 나갔는데, 언제 교체할 수 있나요?",
     "token_ids": [
@@ -24718,7 +24718,7 @@
     "id": "SEN_D59_080",
     "text": "洗衣機有問題，什麼時候可以請師傅來檢查？",
     "pinyin": "Xǐyījī yǒu wèntí, shénme shíhou kěyǐ qǐng shīfù lái jiǎnchá?",
-    "pinyin_numeric": "xi3yi1ji1 you3 wen4ti2, shen2me shi2hou ke3yi3 qing3 shi1fu4 lai2 jian3cha2",
+    "pinyin_numeric": "xi3yi1ji1 you3 wen4ti2, shen2 me0 shi2hou ke3yi3 qing3 shi1fu4 lai2 jian3cha2",
     "translation_en": "The washing machine has a problem; when can we ask a repairman to check it?",
     "translation_ko": "세탁기에 문제가 있는데, 언제 수리 기사님을 불러서 점검할 수 있나요?",
     "token_ids": [
@@ -27359,7 +27359,7 @@
     "id": "SEN_D60_077",
     "text": "你正在做什麼？為什麼不來吃飯？",
     "pinyin": "Nǐ zhèngzài zuò shénme? Wèishénme bù lái chī fàn?",
-    "pinyin_numeric": "ni3 zheng4zai4 zuo4 shen2me? wei4shen2me bu4 lai2 chi1 fan4?",
+    "pinyin_numeric": "ni3 zheng4zai4 zuo4 shen2 me0? wei4 shen2 me0 bu4 lai2 chi1 fan4?",
     "translation_en": "What are you doing? Why aren't you coming to eat?",
     "translation_ko": "당신은 지금 무엇을 하고 있어요? 왜 밥 먹으러 오지 않아요?",
     "token_ids": [
@@ -31758,7 +31758,7 @@
     "id": "SEN_D62_038",
     "text": "你可以幫我檢查冰箱為什麼不冷嗎？",
     "pinyin": "Nǐ kěyǐ bāng wǒ jiǎnchá bīngxiāng wèishénme bù lěng ma?",
-    "pinyin_numeric": "ni3 ke3yi3 bang1 wo3 jian3cha2 bing1xiang1 wei4shen2me bu4 leng3 ma0",
+    "pinyin_numeric": "ni3 ke3yi3 bang1 wo3 jian3cha2 bing1xiang1 wei4 shen2 me0 bu4 leng3 ma0",
     "translation_en": "Can you help me check why the refrigerator isn't cold?",
     "translation_ko": "냉장고가 왜 차갑지 않은지 확인하는 것을 도와주실 수 있나요?",
     "token_ids": [
@@ -32594,7 +32594,7 @@
     "id": "SEN_D62_063",
     "text": "不好意思，可以幫我看看為什麼跳電了嗎？",
     "pinyin": "Bù hǎoyìsi, kěyǐ bāng wǒ kànkan wèishénme tiào diàn le ma?",
-    "pinyin_numeric": "bu4 hao3yi4si0, ke3yi3 bang1 wo3 kan4kan wei4shen2me tiao4 dian4 le0 ma0?",
+    "pinyin_numeric": "bu4 hao3yi4si0, ke3yi3 bang1 wo3 kan4kan wei4 shen2 me0 tiao4 dian4 le0 ma0?",
     "translation_en": "Excuse me, can you help me check why the power tripped?",
     "translation_ko": "죄송한데, 왜 차단기가 내려갔는지 좀 봐 주시겠어요?",
     "token_ids": [
@@ -37207,7 +37207,7 @@
     "id": "SEN_D64_027",
     "text": "他問我為什麼要取消預約。",
     "pinyin": "Tā wèn wǒ wèishénme yào qǔxiāo yùyuē.",
-    "pinyin_numeric": "ta1 wen4 wo3 wei4shen2me yao4 qu3xiao1 yu4yue1.",
+    "pinyin_numeric": "ta1 wen4 wo3 wei4 shen2 me0 yao4 qu3xiao1 yu4yue1.",
     "translation_en": "He asked me why I wanted to cancel the appointment.",
     "translation_ko": "그가 왜 예약을 취소하려는지 물었습니다.",
     "token_ids": [
@@ -37786,7 +37786,7 @@
     "id": "SEN_D64_047",
     "text": "你為什麼想改期？",
     "pinyin": "Nǐ wèishénme xiǎng gǎiqí?",
-    "pinyin_numeric": "ni3 wei4shen2me5 xiang3 gai3qi2?",
+    "pinyin_numeric": "ni3 wei4 shen2 me0 xiang3 gai3qi2?",
     "translation_en": "Why do you want to reschedule?",
     "translation_ko": "왜 일정을 변경하고 싶으세요?",
     "token_ids": [
@@ -42003,7 +42003,7 @@
     "id": "SEN_D55_009",
     "text": "你能夠告訴我怎麼去車站嗎？",
     "pinyin": "Nǐ nénggòu gàosu wǒ zěnme qù chēzhàn ma?",
-    "pinyin_numeric": "ni3 neng2gou4 gao4su4 wo3 zen3me5 qu4 che1zhan4 ma0?",
+    "pinyin_numeric": "ni3 neng2gou4 gao4su4 wo3 zen3 me0 qu4 che1zhan4 ma0?",
     "translation_en": "Can you tell me how to get to the station?",
     "translation_ko": "역에 어떻게 가는지 알려주실 수 있나요?",
     "token_ids": [
@@ -42972,7 +42972,7 @@
     "id": "SEN_D55_043",
     "text": "你正在看什麼書？",
     "pinyin": "Nǐ zhèngzài kàn shénme shū?",
-    "pinyin_numeric": "ni3 zheng4zai4 kan4 shen2me shu1",
+    "pinyin_numeric": "ni3 zheng4zai4 kan4 shen2 me0 shu1",
     "translation_en": "What book are you reading?",
     "translation_ko": "무슨 책을 읽고 있어요?",
     "token_ids": [
@@ -53191,7 +53191,7 @@
     "id": "SEN_D53_015",
     "text": "你平時有什麼休閒興趣？我喜歡聽廣播和看展覽。",
     "pinyin": "Nǐ píngshí yǒu shénme xiūxián xìngqù? Wǒ xǐhuān tīng guǎngbò hé kàn zhǎnlǎn.",
-    "pinyin_numeric": "ni3 ping2shi2 you3 shen2me5 xiu1xian2 xing4qu4? wo3 xi3huan1 ting1 guang3bo4 he2 kan4 zhan3lan3.",
+    "pinyin_numeric": "ni3 ping2shi2 you3 shen2 me0 xiu1xian2 xing4qu4? wo3 xi3huan1 ting1 guang3bo4 he2 kan4 zhan3lan3.",
     "translation_en": "What leisure interests do you usually have? I like listening to the radio and visiting exhibitions.",
     "translation_ko": "평소에 어떤 취미가 있으세요? 저는 라디오 듣기와 전시회 보는 것을 좋아합니다.",
     "token_ids": [
@@ -53454,7 +53454,7 @@
     "id": "SEN_D53_022",
     "text": "你週末常常做什麼休閒活動？",
     "pinyin": "Nǐ zhōumò chángcháng zuò shénme xiūxián huódòng?",
-    "pinyin_numeric": "ni3 zhou1mo4 chang2chang2 zuo4 shen2me xiu1xian2 huo2dong4?",
+    "pinyin_numeric": "ni3 zhou1mo4 chang2chang2 zuo4 shen2 me0 xiu1xian2 huo2dong4?",
     "translation_en": "What leisure activities do you often do on weekends?",
     "translation_ko": "주말에 자주 어떤 여가 활동을 하시나요?",
     "token_ids": [
@@ -54896,7 +54896,7 @@
     "id": "SEN_D53_075",
     "text": "你週末有時候會做什麼休閒活動？",
     "pinyin": "Nǐ zhōumò yǒu shíhou huì zuò shénme xiūxián huódòng?",
-    "pinyin_numeric": "ni3 zhou1 mo4 you3 shi2 hou4 hui4 zuo4 shen2 me5 xiu1 xian2 huo2 dong4?",
+    "pinyin_numeric": "ni3 zhou1 mo4 you3 shi2 hou4 hui4 zuo4 shen2 me0 xiu1 xian2 huo2 dong4?",
     "translation_en": "What leisure activities do you sometimes do on weekends?",
     "translation_ko": "주말에 가끔 어떤 여가 활동을 하시나요?",
     "token_ids": [
@@ -55242,7 +55242,7 @@
     "id": "SEN_D53_086",
     "text": "你放假的時候喜歡做什麼？",
     "pinyin": "Nǐ fàngjià de shíhou xǐhuān zuò shénme?",
-    "pinyin_numeric": "ni3 fang4jia4 de5 shi2hou5 xi3huan1 zuo4 shen2me5",
+    "pinyin_numeric": "ni3 fang4jia4 de5 shi2hou5 xi3huan1 zuo4 shen2 me0",
     "translation_en": "What do you like to do during your vacation?",
     "translation_ko": "휴가 때 무엇을 하는 것을 좋아하나요?",
     "token_ids": [
@@ -56317,7 +56317,7 @@
     "id": "SEN_D67_026",
     "text": "不管他怎麼說，我還是相信他。",
     "pinyin": "Bùguǎn tā zěnme shuō, wǒ háishì xiāngxìn tā.",
-    "pinyin_numeric": "bu4guan3 ta1 zen3me shuo1, wo3 hai2shi4 xiang1xin4 ta1.",
+    "pinyin_numeric": "bu4guan3 ta1 zen3 me0 shuo1, wo3 hai2shi4 xiang1xin4 ta1.",
     "translation_en": "No matter what he says, I still believe him.",
     "translation_ko": "그가 뭐라고 말해도, 저는 여전히 그를 믿어요.",
     "token_ids": [
@@ -60281,7 +60281,7 @@
     "id": "SEN_D69_004",
     "text": "你什麼時候要把雨傘帶回去？",
     "pinyin": "Nǐ shénme shíhou yào bǎ yǔsǎn dài huí qù?",
-    "pinyin_numeric": "ni3 shen2me shi2hou yao4 ba3 yu3san3 dai4 hui2 qu4?",
+    "pinyin_numeric": "ni3 shen2 me0 shi2hou yao4 ba3 yu3san3 dai4 hui2 qu4?",
     "translation_en": "When are you going to take the umbrella back?",
     "translation_ko": "언제 우산을 다시 가져갈 거예요?",
     "token_ids": [
@@ -60645,7 +60645,7 @@
     "id": "SEN_D69_015",
     "text": "你什麼時候要拿回去那本書？",
     "pinyin": "Nǐ shénme shíhou yào ná huíqù nà běn shū?",
-    "pinyin_numeric": "ni3 shen2me shi2hou yao4 na2 hui2qu4 na4 ben3 shu1",
+    "pinyin_numeric": "ni3 shen2 me0 shi2hou yao4 na2 hui2qu4 na4 ben3 shu1",
     "translation_en": "When are you going to take that book back?",
     "translation_ko": "그 책은 언제 가져갈 거예요?",
     "token_ids": [
@@ -60908,7 +60908,7 @@
     "id": "SEN_D69_023",
     "text": "你什麼時候要把那杯咖啡拿來？",
     "pinyin": "Nǐ shénme shíhou yào bǎ nà bēi kāfēi ná lái?",
-    "pinyin_numeric": "ni3 shen2me shi2hou yao4 ba3 na4 bei1 ka1fei1 na2 lai2",
+    "pinyin_numeric": "ni3 shen2 me0 shi2hou yao4 ba3 na4 bei1 ka1fei1 na2 lai2",
     "translation_en": "When are you going to bring that cup of coffee?",
     "translation_ko": "그 커피를 언제 가져올 거예요?",
     "token_ids": [
@@ -61628,7 +61628,7 @@
     "id": "SEN_D69_046",
     "text": "你什麼時候要把這些書拿回去學校？",
     "pinyin": "Nǐ shénme shíhou yào bǎ zhèxiē shū ná huíqù xuéxiào?",
-    "pinyin_numeric": "ni3 shen2me shi2hou yao4 ba3 zhe4xie1 shu1 na2 hui2qu4 xue2xiao4?",
+    "pinyin_numeric": "ni3 shen2 me0 shi2hou yao4 ba3 zhe4xie1 shu1 na2 hui2qu4 xue2xiao4?",
     "translation_en": "When are you going to take these books back to school?",
     "translation_ko": "이 책들은 언제 학교로 다시 가져갈 거예요?",
     "token_ids": [
@@ -62333,7 +62333,7 @@
     "id": "SEN_D69_073",
     "text": "你什麼時候送回來我的手機？",
     "pinyin": "Nǐ shénme shíhou sòng huílái wǒ de shǒujī?",
-    "pinyin_numeric": "ni3 shen2me shi2hou song4 hui2lai2 wo3 de5 shou3ji1",
+    "pinyin_numeric": "ni3 shen2 me0 shi2hou song4 hui2lai2 wo3 de5 shou3ji1",
     "translation_en": "When will you bring back my phone?",
     "translation_ko": "언제 제 핸드폰을 돌려보내 주실 건가요?",
     "token_ids": [
@@ -62483,7 +62483,7 @@
     "id": "SEN_D69_078",
     "text": "你什麼時候回來公司？",
     "pinyin": "Nǐ shénme shíhou huílái gōngsī?",
-    "pinyin_numeric": "ni3 shen2me shi2hou hui2lai2 gong1si1",
+    "pinyin_numeric": "ni3 shen2 me0 shi2hou hui2lai2 gong1si1",
     "translation_en": "When will you come back to the office?",
     "translation_ko": "언제 회사로 돌아오실 건가요?",
     "token_ids": [
@@ -62608,7 +62608,7 @@
     "id": "SEN_D69_086",
     "text": "你什麼時候把雨傘拿回來？",
     "pinyin": "Nǐ shénme shíhou bǎ yǔsǎn ná huí lái?",
-    "pinyin_numeric": "ni3 shen2me5 shi2hou5 ba3 yu3san3 na2 hui2 lai2",
+    "pinyin_numeric": "ni3 shen2 me0 shi2hou5 ba3 yu3san3 na2 hui2 lai2",
     "translation_en": "When will you bring the umbrella back?",
     "translation_ko": "언제 우산을 다시 가져올 거예요?",
     "token_ids": [
@@ -64665,7 +64665,7 @@
     "id": "SEN_D70_054",
     "text": "你為什麼想要取消預約？是時間不方便嗎？",
     "pinyin": "Nǐ wèishénme xiǎng yào qǔxiāo yùyuē? Shì shíjiān bù fāngbiàn ma?",
-    "pinyin_numeric": "ni3 wei4shen2me xiang3 yao4 qu3xiao1 yu4yue1? shi4 shi2jian1 bu4 fang1bian4 ma0?",
+    "pinyin_numeric": "ni3 wei4 shen2 me0 xiang3 yao4 qu3xiao1 yu4yue1? shi4 shi2jian1 bu4 fang1bian4 ma0?",
     "translation_en": "Why do you want to cancel the appointment? Is the time inconvenient?",
     "translation_ko": "왜 예약을 취소하고 싶으세요? 시간이 불편한가요?",
     "token_ids": [
@@ -67620,7 +67620,7 @@
     "id": "SEN_D71_047",
     "text": "你打算畢業以後當什麼？",
     "pinyin": "Nǐ dǎsuàn bìyè yǐhòu dāng shénme?",
-    "pinyin_numeric": "ni3 da3suan4 bi4ye4 yi3hou4 dang1 shen2me5?",
+    "pinyin_numeric": "ni3 da3suan4 bi4ye4 yi3hou4 dang1 shen2 me0?",
     "translation_en": "What do you plan to be after graduation?",
     "translation_ko": "졸업 후에 무엇이 될 계획인가요?",
     "token_ids": [
@@ -68510,7 +68510,7 @@
     "id": "SEN_D71_075",
     "text": "你為什麼想當兼職的工讀生？",
     "pinyin": "Nǐ wèishénme xiǎng dāng jiānzhí de gōngdúshēng?",
-    "pinyin_numeric": "ni3 wei4shen2me xiang3 dang1 jian1zhi2 de gong1du2sheng1?",
+    "pinyin_numeric": "ni3 wei4 shen2 me0 xiang3 dang1 jian1zhi2 de gong1du2sheng1?",
     "translation_en": "Why do you want to be a part-time student worker?",
     "translation_ko": "왜 아르바이트 학생으로 일하고 싶어요?",
     "token_ids": [
@@ -68618,7 +68618,7 @@
     "id": "SEN_D71_078",
     "text": "你當學生的時候，最喜歡什麼科目？",
     "pinyin": "Nǐ dāng xuéshēng de shíhou, zuì xǐhuān shénme kēmù?",
-    "pinyin_numeric": "ni3 dang1 xue2sheng1 de shi2hou, zui4 xi3huan1 shen2me ke1mu4?",
+    "pinyin_numeric": "ni3 dang1 xue2sheng1 de shi2hou, zui4 xi3huan1 shen2 me0 ke1mu4?",
     "translation_en": "When you were a student, what subject did you like the most?",
     "translation_ko": "학생이었을 때, 가장 좋아했던 과목이 뭐예요?",
     "token_ids": [
@@ -70420,7 +70420,7 @@
     "id": "SEN_D72_049",
     "text": "你們在討論什麼？這個提案很重要。",
     "pinyin": "Nǐmen zài tǎolùn shénme? Zhège tí'àn hěn zhòngyào.",
-    "pinyin_numeric": "ni3men zai4 tao3lun4 shen2me0? zhe4ge ti2'an4 hen3 zhong4yao4.",
+    "pinyin_numeric": "ni3men zai4 tao3lun4 shen2 me0? zhe4ge ti2'an4 hen3 zhong4yao4.",
     "translation_en": "What are you discussing? This proposal is very important.",
     "translation_ko": "무엇을 논의 중이신가요? 이 제안은 매우 중요해요.",
     "token_ids": [
@@ -71235,7 +71235,7 @@
     "id": "SEN_D72_074",
     "text": "你在做什麼？我在整理會議資料。",
     "pinyin": "Nǐ zài zuò shénme? Wǒ zài zhěnglǐ huìyì zīliào.",
-    "pinyin_numeric": "ni3 zai4 zuo4 shen2me0? wo3 zai4 zheng3li3 hui4yi4 zi1liao4.",
+    "pinyin_numeric": "ni3 zai4 zuo4 shen2 me0? wo3 zai4 zheng3li3 hui4yi4 zi1liao4.",
     "translation_en": "What are you doing? I am organizing the meeting materials.",
     "translation_ko": "뭐 하고 있어요? 저는 회의 자료를 정리하고 있어요.",
     "token_ids": [
@@ -71773,7 +71773,7 @@
     "id": "SEN_D73_002",
     "text": "你覺得今天的天氣怎麼樣？",
     "pinyin": "Nǐ juéde jīntiān de tiānqì zěnmeyàng?",
-    "pinyin_numeric": "ni3 jue2de jin1tian1 de tian1qi4 zen3me5yang4?",
+    "pinyin_numeric": "ni3 jue2de jin1tian1 de tian1qi4 zen3 me0yang4?",
     "translation_en": "What do you think of today's weather?",
     "translation_ko": "오늘 날씨가 어떻다고 생각하세요?",
     "token_ids": [
@@ -72289,7 +72289,7 @@
     "id": "SEN_D73_018",
     "text": "你覺得怎麼樣？我認為這樣比較好。",
     "pinyin": "Nǐ juéde zěnmeyàng? Wǒ rènwéi zhèyàng bǐjiào hǎo.",
-    "pinyin_numeric": "ni3 jue2de5 zen3me5yang4? wo3 ren4wei2 zhe4yang4 bi3jiao4 hao3.",
+    "pinyin_numeric": "ni3 jue2de5 zen3 me0yang4? wo3 ren4wei2 zhe4yang4 bi3jiao4 hao3.",
     "translation_en": "What do you think? I think this way is better.",
     "translation_ko": "어떻게 생각하세요? 저는 이렇게 하는 것이 더 낫다고 생각합니다.",
     "token_ids": [
@@ -72706,7 +72706,7 @@
     "id": "SEN_D73_032",
     "text": "你覺得這件衣服的顏色怎麼樣？",
     "pinyin": "Nǐ juéde zhè jiàn yīfu de yánsè zěnmeyàng?",
-    "pinyin_numeric": "ni3 jue2de zhe4 jian4 yi1fu de yan2se4 zen3me5yang4?",
+    "pinyin_numeric": "ni3 jue2de zhe4 jian4 yi1fu de yan2se4 zen3 me0yang4?",
     "translation_en": "What do you think of the color of this piece of clothing?",
     "translation_ko": "이 옷의 색깔에 대해 어떻게 생각하세요?",
     "token_ids": [
@@ -73049,7 +73049,7 @@
     "id": "SEN_D73_045",
     "text": "你覺得怎麼樣？我反對你的意見。",
     "pinyin": "Nǐ juéde zěnmeyàng? Wǒ fǎnduì nǐ de yìjiàn.",
-    "pinyin_numeric": "ni3 jue2de5 zen3me5yang4? wo3 fan3dui4 ni3 de5 yi4jian4.",
+    "pinyin_numeric": "ni3 jue2de5 zen3 me0yang4? wo3 fan3dui4 ni3 de5 yi4jian4.",
     "translation_en": "What do you think? I oppose your opinion.",
     "translation_ko": "어떻게 생각하세요? 저는 당신의 의견에 반대합니다.",
     "token_ids": [
@@ -73379,7 +73379,7 @@
     "id": "SEN_D73_059",
     "text": "你覺得怎麼樣？說不定他不一定來。",
     "pinyin": "Nǐ juéde zěnme yàng? Shuōbùdìng tā bù yīdìng lái.",
-    "pinyin_numeric": "ni3 jue2de zen3me yang4? shuo1bu4ding4 ta1 bu4 yi1ding4 lai2.",
+    "pinyin_numeric": "ni3 jue2de zen3 me0 yang4? shuo1bu4ding4 ta1 bu4 yi1ding4 lai2.",
     "translation_en": "What do you think? Maybe he isn't necessarily coming.",
     "translation_ko": "어떻게 생각해요? 아마 그가 꼭 올 것 같지는 않아요.",
     "token_ids": [
@@ -73910,7 +73910,7 @@
     "id": "SEN_D73_080",
     "text": "你覺得怎麼樣？我認為這樣做比較省錢。",
     "pinyin": "Nǐ juéde zěnmeyàng? Wǒ rènwéi zhèyàng zuò bǐjiào shěngqián.",
-    "pinyin_numeric": "ni3 jue2de zen3me yang4? wo3 ren4wei2 zhe4yang4 zuo4 bi3jiao4 sheng3qian2",
+    "pinyin_numeric": "ni3 jue2de zen3 me0 yang4? wo3 ren4wei2 zhe4yang4 zuo4 bi3jiao4 sheng3qian2",
     "translation_en": "What do you think? I think doing it this way saves more money.",
     "translation_ko": "어떻게 생각하세요? 저는 이렇게 하는 것이 돈을 더 절약한다고 생각해요.",
     "token_ids": [
@@ -84923,7 +84923,7 @@
     "id": "SEN_D77_014",
     "text": "然後呢？後來發生什麼事情？",
     "pinyin": "Ránhòu ne? Hòulái fāshēng shénme shìqíng?",
-    "pinyin_numeric": "ran2hou4 ne5? hou4lai2 fa1sheng1 shen2me5 shi4qing2?",
+    "pinyin_numeric": "ran2hou4 ne5? hou4lai2 fa1sheng1 shen2 me0 shi4qing2?",
     "translation_en": "And then? What happened later?",
     "translation_ko": "그리고요? 나중에 무슨 일이 일어났어요?",
     "token_ids": [
@@ -84992,7 +84992,7 @@
     "id": "SEN_D77_016",
     "text": "我問他為什麼，後來他解釋了意思。",
     "pinyin": "Wǒ wèn tā wèishénme, hòulái tā jiěshì le yìsi.",
-    "pinyin_numeric": "wo3 wen4 ta1 wei4shen2me5, hou4lai2 ta1 jie3shi4 le5 yi4si5.",
+    "pinyin_numeric": "wo3 wen4 ta1 wei4 shen2 me0, hou4lai2 ta1 jie3shi4 le5 yi4si5.",
     "translation_en": "I asked him why, and later he explained the meaning.",
     "translation_ko": "제가 그에게 이유를 물었고, 나중에 그는 의미를 설명했어요.",
     "token_ids": [
@@ -85718,7 +85718,7 @@
     "id": "SEN_D77_035",
     "text": "然後我問他：「到底為什麼？」他回答得很清楚。",
     "pinyin": "Ránhòu wǒ wèn tā: 'Dàodǐ wèishénme?' Tā huídá de hěn qīngchǔ.",
-    "pinyin_numeric": "ran2hou4 wo3 wen4 ta1: 'dao4di3 wei4shen2me0?' ta1 hui2da2 de0 hen3 qing1chu3.",
+    "pinyin_numeric": "ran2hou4 wo3 wen4 ta1: 'dao4di3 wei4 shen2 me0?' ta1 hui2da2 de0 hen3 qing1chu3.",
     "translation_en": "Then I asked him, 'Why exactly?' He answered very clearly.",
     "translation_ko": "그러고 나서 나는 그에게 '도대체 왜요?'라고 물었어요. 그는 아주 명확하게 대답했어요.",
     "token_ids": [
@@ -86057,7 +86057,7 @@
     "id": "SEN_D77_044",
     "text": "然後呢？後來發生了什麼事情？",
     "pinyin": "Ránhòu ne? Hòulái fāshēng le shénme shìqíng?",
-    "pinyin_numeric": "ran2hou4 ne0? hou4lai2 fa1sheng1 le0 shen2me shi4qing2?",
+    "pinyin_numeric": "ran2hou4 ne0? hou4lai2 fa1sheng1 le0 shen2 me0 shi4qing2?",
     "translation_en": "And then? What happened later?",
     "translation_ko": "그리고요? 나중에 무슨 일이 일어났어요?",
     "token_ids": [
@@ -86127,7 +86127,7 @@
     "id": "SEN_D77_046",
     "text": "你記得後來他怎麼回答那個問題嗎？",
     "pinyin": "Nǐ jìde hòulái tā zěnme huídá nàge wèntí ma?",
-    "pinyin_numeric": "ni3 ji4de0 hou4lai2 ta1 zen3me hui2da2 na4ge wen4ti2 ma0?",
+    "pinyin_numeric": "ni3 ji4de0 hou4lai2 ta1 zen3 me0 hui2da2 na4ge wen4ti2 ma0?",
     "translation_en": "Do you remember how he later answered that question?",
     "translation_ko": "그가 나중에 그 질문에 어떻게 대답했는지 기억하세요?",
     "token_ids": [
@@ -87296,7 +87296,7 @@
     "id": "SEN_D77_077",
     "text": "你記得那件事嗎？後來到底發生了什麼？",
     "pinyin": "Nǐ jìde nà jiàn shì ma? Hòulái dàodǐ fāshēng le shénme?",
-    "pinyin_numeric": "ni3 ji4de0 na4 jian4 shi4 ma0? Hou4lai2 dao4di3 fa1sheng1 le0 shen2me0?",
+    "pinyin_numeric": "ni3 ji4de0 na4 jian4 shi4 ma0? Hou4lai2 dao4di3 fa1sheng1 le0 shen2 me0?",
     "translation_en": "Do you remember that matter? What exactly happened later?",
     "translation_ko": "그 일을 기억하나요? 나중에 도대체 무슨 일이 일어났어요?",
     "token_ids": [
@@ -88381,7 +88381,7 @@
     "id": "SEN_D78_016",
     "text": "然後，那個什麼，我忘記帶鑰匙了。",
     "pinyin": "Ránhòu, nàge shénme, wǒ wàngjì dài yàoshi le.",
-    "pinyin_numeric": "ran2hou4, na4ge0 shen2me0, wo3 wang4ji4 dai4 yao4shi0 le0.",
+    "pinyin_numeric": "ran2hou4, na4ge0 shen2 me0, wo3 wang4ji4 dai4 yao4shi0 le0.",
     "translation_en": "And then, um, I forgot to bring my keys.",
     "translation_ko": "그리고, 그게 뭐랄까, 열쇠를 가져오는 걸 잊어버렸어요.",
     "token_ids": [
@@ -88633,7 +88633,7 @@
     "id": "SEN_D78_024",
     "text": "嗯，就是，那個什麼，我喜歡吃辣的。",
     "pinyin": "Ēn, jiùshì, nàge shénme, wǒ xǐhuān chī là de.",
-    "pinyin_numeric": "en1, jiu4shi4, na4ge5 shen2me5, wo3 xi3huan1 chi1 la4 de5.",
+    "pinyin_numeric": "en1, jiu4shi4, na4ge5 shen2 me0, wo3 xi3huan1 chi1 la4 de5.",
     "translation_en": "Hmm, it's just, um, what's it, I like eating spicy food.",
     "translation_ko": "음, 그러니까, 그게 뭐랄까, 저는 매운 걸 좋아해요.",
     "token_ids": [
@@ -88812,7 +88812,7 @@
     "id": "SEN_D78_029",
     "text": "嗯嗯，就是，那個什麼，我覺得這樣子比較划算。",
     "pinyin": "Ēn ēn, jiùshì, nàge shénme, wǒ juéde zhèyàng zi bǐjiào huásuàn.",
-    "pinyin_numeric": "en1 en1, jiu4shi4, na4ge5 shen2me5, wo3 jue2de5 zhe4yang4 zi5 bi3jiao4 hua2suan4.",
+    "pinyin_numeric": "en1 en1, jiu4shi4, na4ge5 shen2 me0, wo3 jue2de5 zhe4yang4 zi5 bi3jiao4 hua2suan4.",
     "translation_en": "Uh-huh, it's just, um, what's it, I think this way is more cost-effective.",
     "translation_ko": "응응, 그러니까, 그게 뭐랄까, 이렇게 하는 게 더 이득인 것 같아요.",
     "token_ids": [
@@ -89345,7 +89345,7 @@
     "id": "SEN_D78_045",
     "text": "對啊，那個什麼，牛肉麵好像不貴，對不對？",
     "pinyin": "Duì a, nàge shénme, niúròumiàn hǎoxiàng bù guì, duì bù duì?",
-    "pinyin_numeric": "dui4 a0, na4ge0 shen2me0, niu2rou4mian4 hao3xiang4 bu4 gui4, dui4 bu4 dui4?",
+    "pinyin_numeric": "dui4 a0, na4ge0 shen2 me0, niu2rou4mian4 hao3xiang4 bu4 gui4, dui4 bu4 dui4?",
     "translation_en": "Yeah, um, beef noodles seem not expensive, right?",
     "translation_ko": "맞아요, 그게 뭐라고, 소고기 국수는 비싸지 않은 것 같아요, 그렇죠?",
     "token_ids": [
@@ -89527,7 +89527,7 @@
     "id": "SEN_D78_050",
     "text": "其實，那個什麼，我明天下午有空，就是說，我們可以約兩點，好不好？",
     "pinyin": "Qíshí, nàge shénme, wǒ míngtiān xiàwǔ yǒu kòng, jiùshì shuō, wǒmen kěyǐ yuē liǎng diǎn, hǎo bù hǎo?",
-    "pinyin_numeric": "qi2shi2, na4ge0 shen2me0, wo3 ming2tian1 xia4wu3 you3 kong4, jiu4shi4 shuo1, wo3men ke3yi3 yue1 liang3 dian3, hao3 bu4 hao3?",
+    "pinyin_numeric": "qi2shi2, na4ge0 shen2 me0, wo3 ming2tian1 xia4wu3 you3 kong4, jiu4shi4 shuo1, wo3men ke3yi3 yue1 liang3 dian3, hao3 bu4 hao3?",
     "translation_en": "Actually, um, I'm free tomorrow afternoon, I mean, we can meet at two, okay?",
     "translation_ko": "사실, 그게 뭐라고, 저 내일 오후에 시간 있어요, 그러니까 우리 두 시에 만나요, 괜찮죠?",
     "token_ids": [
@@ -89738,7 +89738,7 @@
     "id": "SEN_D78_056",
     "text": "那個什麼，就是說，我忘記帶錢了。",
     "pinyin": "Nàge shénme, jiùshì shuō, wǒ wàngjì dài qián le.",
-    "pinyin_numeric": "na4ge5 shen2me5, jiu4shi4 shuo1, wo3 wang4ji4 dai4 qian2 le5.",
+    "pinyin_numeric": "na4ge5 shen2 me0, jiu4shi4 shuo1, wo3 wang4ji4 dai4 qian2 le5.",
     "translation_en": "Whatchamacallit, I mean, I forgot to bring money.",
     "translation_ko": "그게 뭐랄까, 그러니까요, 돈 가져오는 걸 깜빡했어요.",
     "token_ids": [
@@ -90556,7 +90556,7 @@
     "id": "SEN_D78_086",
     "text": "那個什麼，我的意思是，我們可以一起走路去。",
     "pinyin": "Nàge shénme, wǒ de yìsi shì, wǒmen kěyǐ yīqǐ zǒulù qù.",
-    "pinyin_numeric": "na4ge5 shen2me5, wo3 de5 yi4si5 shi4, wo3men5 ke3yi3 yi1qi3 zou3lu4 qu4.",
+    "pinyin_numeric": "na4ge5 shen2 me0, wo3 de5 yi4si5 shi4, wo3men5 ke3yi3 yi1qi3 zou3lu4 qu4.",
     "translation_en": "Um, what I mean is, we can walk there together.",
     "translation_ko": "음, 그러니까 제 말은, 우리 같이 걸어서 갈 수 있어요.",
     "token_ids": [
@@ -91155,7 +91155,7 @@
     "id": "SEN_D79_014",
     "text": "你的意思到底是什麼？請你解釋清楚。",
     "pinyin": "Nǐ de yìsi dàodǐ shì shénme? Qǐng nǐ jiěshì qīngchu.",
-    "pinyin_numeric": "ni3 de yi4si dao4di3 shi4 shen2me? qing3 ni3 jie3shi4 qing1chu.",
+    "pinyin_numeric": "ni3 de yi4si dao4di3 shi4 shen2 me0? qing3 ni3 jie3shi4 qing1chu.",
     "translation_en": "What exactly do you mean? Please explain clearly.",
     "translation_ko": "당신의 뜻이 도대체 무엇인가요? 분명히 설명해 주세요.",
     "token_ids": [
@@ -92151,7 +92151,7 @@
     "id": "SEN_D79_044",
     "text": "請你解釋一下，這個句子的意思是什麼？",
     "pinyin": "Qǐng nǐ jiěshì yīxià, zhège jùzi de yìsi shì shénme?",
-    "pinyin_numeric": "qing3 ni3 jie3shi4 yi1xia4, zhe4ge5 ju4zi5 de5 yi4si5 shi4 shen2me5?",
+    "pinyin_numeric": "qing3 ni3 jie3shi4 yi1xia4, zhe4ge5 ju4zi5 de5 yi4si5 shi4 shen2 me0?",
     "translation_en": "Please explain: what does this sentence mean?",
     "translation_ko": "설명해 주세요. 이 문장의 뜻이 무엇인가요?",
     "token_ids": [
@@ -95049,7 +95049,7 @@
     "id": "SEN_D80_055",
     "text": "請問這個標示是什麼意思？我看不懂。",
     "pinyin": "Qǐngwèn zhège biāoshì shì shénme yìsi? Wǒ kàn bù dǒng.",
-    "pinyin_numeric": "qing3wen4 zhe4ge biao1shi4 shi4 shen2me yi4si? wo3 kan4 bu4 dong3.",
+    "pinyin_numeric": "qing3wen4 zhe4ge biao1shi4 shi4 shen2 me0 yi4si? wo3 kan4 bu4 dong3.",
     "translation_en": "Excuse me, what does this sign mean? I don't understand it.",
     "translation_ko": "이 표지판이 무슨 뜻인가요? 이해가 안 됩니다.",
     "token_ids": [
@@ -96817,7 +96817,7 @@
     "id": "SEN_D81_019",
     "text": "我想取消預約，請問要怎麼處理？",
     "pinyin": "Wǒ xiǎng qǔxiāo yùyuē, qǐngwèn yào zěnme chǔlǐ?",
-    "pinyin_numeric": "wo3 xiang3 qu3xiao1 yu4yue1, qing3wen4 yao4 zen3me chu3li3?",
+    "pinyin_numeric": "wo3 xiang3 qu3xiao1 yu4yue1, qing3wen4 yao4 zen3 me0 chu3li3?",
     "translation_en": "I'd like to cancel my appointment. How should I handle it?",
     "translation_ko": "예약을 취소하고 싶은데요, 어떻게 처리해야 하나요?",
     "token_ids": [
@@ -99715,7 +99715,7 @@
     "id": "SEN_D82_037",
     "text": "我傳訊息給你了，你怎麼沒回？",
     "pinyin": "Wǒ chuán xùnxí gěi nǐ le, nǐ zěnme méi huí?",
-    "pinyin_numeric": "wo3 chuan2 xun4xi2 gei3 ni3 le0, ni3 zen3me0 mei2 hui2",
+    "pinyin_numeric": "wo3 chuan2 xun4xi2 gei3 ni3 le0, ni3 zen3 me0 mei2 hui2",
     "translation_en": "I sent you a message, why didn't you reply?",
     "translation_ko": "메시지 보냈는데, 왜 답장 안 했어요?",
     "token_ids": [
@@ -102695,7 +102695,7 @@
     "id": "SEN_D83_052",
     "text": "時間就這麼決定，明天晚上七點。",
     "pinyin": "Shíjiān jiù zhème juédìng, míngtiān wǎnshàng qī diǎn.",
-    "pinyin_numeric": "shi2jian1 jiu4 zhe4me jue2ding4, ming2tian1 wan3shang4 qi1 dian3.",
+    "pinyin_numeric": "shi2jian1 jiu4 zhe4 me0 jue2ding4, ming2tian1 wan3shang4 qi1 dian3.",
     "translation_en": "The time is settled like this, tomorrow evening at 7.",
     "translation_ko": "시간은 이렇게 정해졌습니다. 내일 저녁 7시입니다.",
     "token_ids": [
@@ -102765,7 +102765,7 @@
     "id": "SEN_D83_054",
     "text": "選擇就這麼辦，我們吃牛肉麵吧。",
     "pinyin": "Xuǎnzé jiù zhème bàn, wǒmen chī niúròumiàn ba.",
-    "pinyin_numeric": "xuan3ze2 jiu4 zhe4me ban4, wo3men chi1 niu2rou4mian4 ba0.",
+    "pinyin_numeric": "xuan3ze2 jiu4 zhe4 me0 ban4, wo3men chi1 niu2rou4mian4 ba0.",
     "translation_en": "The choice is settled like this; let's eat beef noodles.",
     "translation_ko": "선택은 이렇게 합시다. 우리 소고기 국수를 먹읍시다.",
     "token_ids": [
@@ -102798,7 +102798,7 @@
     "id": "SEN_D83_055",
     "text": "時間就這麼決定，我們提早半小時碰面。",
     "pinyin": "Shíjiān jiù zhème juédìng, wǒmen tízǎo bàn xiǎoshí pèngmiàn.",
-    "pinyin_numeric": "shi2jian1 jiu4 zhe4me jue2ding4, wo3men ti2zao3 ban4 xiao3shi2 peng4mian4.",
+    "pinyin_numeric": "shi2jian1 jiu4 zhe4 me0 jue2ding4, wo3men ti2zao3 ban4 xiao3shi2 peng4mian4.",
     "translation_en": "The time is settled like this; we'll meet half an hour earlier.",
     "translation_ko": "시간은 이렇게 정했습니다. 우리 30분 일찍 만납니다.",
     "token_ids": [
@@ -102869,7 +102869,7 @@
     "id": "SEN_D83_057",
     "text": "選擇就這麼決定，我們訂位這家餐廳。",
     "pinyin": "Xuǎnzé jiù zhème juédìng, wǒmen dìngwèi zhè jiā cāntīng.",
-    "pinyin_numeric": "xuan3ze2 jiu4 zhe4me jue2ding4, wo3men ding4wei4 zhe4 jia1 can1ting1.",
+    "pinyin_numeric": "xuan3ze2 jiu4 zhe4 me0 jue2ding4, wo3men ding4wei4 zhe4 jia1 can1ting1.",
     "translation_en": "The choice is settled like this; we'll make a reservation at this restaurant.",
     "translation_ko": "선택은 이렇게 정했습니다. 우리 이 식당에 예약합니다.",
     "token_ids": [
@@ -102905,7 +102905,7 @@
     "id": "SEN_D83_058",
     "text": "時間就這麼辦，我們延後到八點。",
     "pinyin": "Shíjiān jiù zhème bàn, wǒmen yánhòu dào bā diǎn.",
-    "pinyin_numeric": "shi2jian1 jiu4 zhe4me ban4, wo3men yan2hou4 dao4 ba1 dian3.",
+    "pinyin_numeric": "shi2jian1 jiu4 zhe4 me0 ban4, wo3men yan2hou4 dao4 ba1 dian3.",
     "translation_en": "The time is settled like this; we'll postpone it to 8 o'clock.",
     "translation_ko": "시간은 이렇게 합시다. 우리 8시로 연기해요.",
     "token_ids": [
@@ -102978,7 +102978,7 @@
     "id": "SEN_D83_060",
     "text": "選擇就這麼辦，我們考慮一下再決定。",
     "pinyin": "Xuǎnzé jiù zhème bàn, wǒmen kǎolǜ yīxià zài juédìng.",
-    "pinyin_numeric": "xuan3ze2 jiu4 zhe4me ban4, wo3men kao3lv4 yi1xia4 zai4 jue2ding4.",
+    "pinyin_numeric": "xuan3ze2 jiu4 zhe4 me0 ban4, wo3men kao3lv4 yi1xia4 zai4 jue2ding4.",
     "translation_en": "The choice is settled like this; we'll consider it a bit and then decide.",
     "translation_ko": "선택은 이렇게 합시다. 우리 잠시 고려한 후에 결정해요.",
     "token_ids": [
@@ -103224,7 +103224,7 @@
     "id": "SEN_D83_082",
     "text": "時間就這麼決定，我們七點碰面。",
     "pinyin": "Shíjiān jiù zhème juédìng, wǒmen qī diǎn pèngmiàn.",
-    "pinyin_numeric": "shi2jian1 jiu4 zhe4me jue2ding4, wo3men qi1 dian3 peng4mian4.",
+    "pinyin_numeric": "shi2jian1 jiu4 zhe4 me0 jue2ding4, wo3men qi1 dian3 peng4mian4.",
     "translation_en": "The time is settled like this; we'll meet at seven.",
     "translation_ko": "시간은 이렇게 정했어요. 우리 7시에 만나요.",
     "token_ids": [
@@ -103293,7 +103293,7 @@
     "id": "SEN_D83_084",
     "text": "選擇就這麼決定，我們點牛肉麵。",
     "pinyin": "Xuǎnzé jiù zhème juédìng, wǒmen diǎn niúròu miàn.",
-    "pinyin_numeric": "xuan3ze2 jiu4 zhe4me jue2ding4, wo3men dian3 niu2rou4 mian4.",
+    "pinyin_numeric": "xuan3ze2 jiu4 zhe4 me0 jue2ding4, wo3men dian3 niu2rou4 mian4.",
     "translation_en": "The choice is settled like this; we'll order beef noodles.",
     "translation_ko": "우리 소고기 국수를 시켜요.",
     "token_ids": [
@@ -103326,7 +103326,7 @@
     "id": "SEN_D83_085",
     "text": "建議就這麼辦，我們搭捷運比較快。",
     "pinyin": "Jiànyì jiù zhème bàn, wǒmen dā jiéyùn bǐjiào kuài.",
-    "pinyin_numeric": "jian4yi4 jiu4 zhe4me ban4, wo3men da1 jie2yun4 bi3jiao4 kuai4.",
+    "pinyin_numeric": "jian4yi4 jiu4 zhe4 me0 ban4, wo3men da1 jie2yun4 bi3jiao4 kuai4.",
     "translation_en": "The suggestion is settled like this; taking the MRT is faster.",
     "translation_ko": "제안은 이렇게 정했어요. 지하철을 타는 게 더 빨라요.",
     "token_ids": [
@@ -103430,7 +103430,7 @@
     "id": "SEN_D83_089",
     "text": "訂位就這麼辦，我們取消原本的。",
     "pinyin": "Dìngwèi jiù zhème bàn, wǒmen qǔxiāo yuánběn de.",
-    "pinyin_numeric": "ding4wei4 jiu4 zhe4me ban4, wo3men qu3xiao1 yuan2ben3 de0.",
+    "pinyin_numeric": "ding4wei4 jiu4 zhe4 me0 ban4, wo3men qu3xiao1 yuan2ben3 de0.",
     "translation_en": "The reservation is settled like this; we'll cancel the original one.",
     "translation_ko": "원래 것을 취소할게요.",
     "token_ids": [
@@ -103464,7 +103464,7 @@
     "id": "SEN_D83_090",
     "text": "碰面地點就這麼決定，在捷運站出口。",
     "pinyin": "Pèngmiàn dìdiǎn jiù zhème juédìng, zài jiéyùn zhàn chūkǒu.",
-    "pinyin_numeric": "peng4mian4 di4dian3 jiu4 zhe4me jue2ding4, zai4 jie2yun4 zhan4 chu1kou3.",
+    "pinyin_numeric": "peng4mian4 di4dian3 jiu4 zhe4 me0 jue2ding4, zai4 jie2yun4 zhan4 chu1kou3.",
     "translation_en": "The meeting point is settled like this; at the MRT station exit.",
     "translation_ko": "만날 장소는 이렇게 정했어요. 지하철역 출구에서요.",
     "token_ids": [
@@ -105997,7 +105997,7 @@
     "id": "SEN_D85_002",
     "text": "說到興趣，你覺得怎麼樣？",
     "pinyin": "Shuō dào xìngqù, nǐ juéde zěnmeyàng?",
-    "pinyin_numeric": "shuo1 dao4 xing4qu4, ni3 jue2de0 zen3me0yang4",
+    "pinyin_numeric": "shuo1 dao4 xing4qu4, ni3 jue2de0 zen3 me0yang4",
     "translation_en": "Speaking of hobbies, what do you think?",
     "translation_ko": "취미에 대해 말하자면, 어떻게 생각하세요?",
     "token_ids": [
@@ -106024,7 +106024,7 @@
     "id": "SEN_D85_003",
     "text": "對了，你週末打算做什麼？",
     "pinyin": "Duìle, nǐ zhōumò dǎsuàn zuò shénme?",
-    "pinyin_numeric": "dui4le0, ni3 zhou1mo4 da3suan4 zuo4 shen2me0",
+    "pinyin_numeric": "dui4le0, ni3 zhou1mo4 da3suan4 zuo4 shen2 me0",
     "translation_en": "By the way, what are you planning to do this weekend?",
     "translation_ko": "그런데, 주말에 뭐 하실 계획이세요?",
     "token_ids": [
@@ -106163,7 +106163,7 @@
     "id": "SEN_D85_007",
     "text": "對了，你覺得分享經驗怎麼樣？",
     "pinyin": "Duìle, nǐ juéde fēnxiǎng jīngyàn zěnmeyàng?",
-    "pinyin_numeric": "dui4le0, ni3 jue2de0 fen1xiang3 jing1yan4 zen3me0yang4",
+    "pinyin_numeric": "dui4le0, ni3 jue2de0 fen1xiang3 jing1yan4 zen3 me0yang4",
     "translation_en": "By the way, what do you think about sharing experiences?",
     "translation_ko": "그런데, 경험을 공유하는 게 어떻다고 생각하세요?",
     "token_ids": [
@@ -106228,7 +106228,7 @@
     "id": "SEN_D85_009",
     "text": "對了，你覺得改天再見怎麼樣？",
     "pinyin": "Duìle, nǐ juéde gǎitiān zàijiàn zěnmeyàng?",
-    "pinyin_numeric": "dui4le0, ni3 jue2de0 gai3tian1 zai4jian4 zen3me0yang4",
+    "pinyin_numeric": "dui4le0, ni3 jue2de0 gai3tian1 zai4jian4 zen3 me0yang4",
     "translation_en": "By the way, what do you think about meeting another day?",
     "translation_ko": "그런데, 다음에 다시 만나는 게 어떻다고 생각하세요?",
     "token_ids": [
@@ -106631,7 +106631,7 @@
     "id": "SEN_D85_022",
     "text": "順便問一下，你覺得這家餐廳怎麼樣？",
     "pinyin": "Shùnbiàn wèn yīxià, nǐ juéde zhè jiā cāntīng zěnmeyàng?",
-    "pinyin_numeric": "shun4bian4 wen4 yi1xia4, ni3 jue2de0 zhe4 jia1 can1ting1 zen3me0yang4",
+    "pinyin_numeric": "shun4bian4 wen4 yi1xia4, ni3 jue2de0 zhe4 jia1 can1ting1 zen3 me0yang4",
     "translation_en": "By the way, what do you think of this restaurant?",
     "translation_ko": "그런데, 이 식당 어때요?",
     "token_ids": [
@@ -106667,7 +106667,7 @@
     "id": "SEN_D85_023",
     "text": "順便問一下，你的興趣是什麼？",
     "pinyin": "Shùnbiàn wèn yīxià, nǐ de xìngqù shì shénme?",
-    "pinyin_numeric": "shun4bian4 wen4 yi1xia4, ni3 de0 xing4qu4 shi4 shen2me0",
+    "pinyin_numeric": "shun4bian4 wen4 yi1xia4, ni3 de0 xing4qu4 shi4 shen2 me0",
     "translation_en": "By the way, what are your hobbies?",
     "translation_ko": "그런데, 취미가 뭐예요?",
     "token_ids": [
@@ -106702,7 +106702,7 @@
     "id": "SEN_D85_024",
     "text": "順便問一下，你週末打算做什麼？",
     "pinyin": "Shùnbiàn wèn yīxià, nǐ zhōumò dǎsuàn zuò shénme?",
-    "pinyin_numeric": "shun4bian4 wen4 yi1xia4, ni3 zhou1mo4 da3suan4 zuo4 shen2me0",
+    "pinyin_numeric": "shun4bian4 wen4 yi1xia4, ni3 zhou1mo4 da3suan4 zuo4 shen2 me0",
     "translation_en": "By the way, what are you planning to do this weekend?",
     "translation_ko": "그런데, 주말에 뭐 할 계획이에요?",
     "token_ids": [
@@ -106845,7 +106845,7 @@
     "id": "SEN_D85_028",
     "text": "順便問一下，你放假的時候喜歡做什麼？",
     "pinyin": "Shùnbiàn wèn yīxià, nǐ fàngjià de shíhou xǐhuān zuò shénme?",
-    "pinyin_numeric": "shun4bian4 wen4 yi1xia4, ni3 fang4jia4 de0 shi2hou0 xi3huan1 zuo4 shen2me0",
+    "pinyin_numeric": "shun4bian4 wen4 yi1xia4, ni3 fang4jia4 de0 shi2hou0 xi3huan1 zuo4 shen2 me0",
     "translation_en": "By the way, what do you like to do on your days off?",
     "translation_ko": "그런데, 쉬는 날에는 뭐 하는 걸 좋아해요?",
     "token_ids": [
@@ -106882,7 +106882,7 @@
     "id": "SEN_D85_029",
     "text": "順便問一下，你覺得我們改天見面怎麼樣？",
     "pinyin": "Shùnbiàn wèn yīxià, nǐ juéde wǒmen gǎitiān jiànmiàn zěnmeyàng?",
-    "pinyin_numeric": "shun4bian4 wen4 yi1xia4, ni3 jue2de0 wo3men0 gai3tian1 jian4mian4 zen3me0yang4",
+    "pinyin_numeric": "shun4bian4 wen4 yi1xia4, ni3 jue2de0 wo3men0 gai3tian1 jian4mian4 zen3 me0yang4",
     "translation_en": "By the way, what do you think about meeting up another day?",
     "translation_ko": "그런데, 다음에 만나는 게 어때요?",
     "token_ids": [
@@ -106989,7 +106989,7 @@
     "id": "SEN_D85_033",
     "text": "對了，你放假的時候喜歡做什麼？",
     "pinyin": "Duìle, nǐ fàngjià de shíhou xǐhuān zuò shénme?",
-    "pinyin_numeric": "dui4le0, ni3 fang4jia4 de0 shi2hou0 xi3huan1 zuo4 shen2me0",
+    "pinyin_numeric": "dui4le0, ni3 fang4jia4 de0 shi2hou0 xi3huan1 zuo4 shen2 me0",
     "translation_en": "By the way, what do you like to do on your days off?",
     "translation_ko": "그런데, 쉬는 날에는 뭐 하는 걸 좋아하세요?",
     "token_ids": [
@@ -107023,7 +107023,7 @@
     "id": "SEN_D85_034",
     "text": "說到週末，你有什麼打算嗎？",
     "pinyin": "Shuō dào zhōumò, nǐ yǒu shénme dǎsuàn ma?",
-    "pinyin_numeric": "shuo1 dao4 zhou1mo4, ni3 you3 shen2me0 da3suan4 ma0",
+    "pinyin_numeric": "shuo1 dao4 zhou1mo4, ni3 you3 shen2 me0 da3suan4 ma0",
     "translation_en": "Speaking of the weekend, do you have any plans?",
     "translation_ko": "주말에 관해서 말하자면, 무슨 계획이 있으세요?",
     "token_ids": [
@@ -107058,7 +107058,7 @@
     "id": "SEN_D85_035",
     "text": "對了，你覺得這個地方怎麼樣？",
     "pinyin": "Duìle, nǐ juéde zhège dìfang zěnmeyàng?",
-    "pinyin_numeric": "dui4le0, ni3 jue2de0 zhe4ge0 di4fang0 zen3me0yang4",
+    "pinyin_numeric": "dui4le0, ni3 jue2de0 zhe4ge0 di4fang0 zen3 me0yang4",
     "translation_en": "By the way, what do you think of this place?",
     "translation_ko": "그런데, 이 장소는 어떠세요?",
     "token_ids": [
@@ -107189,7 +107189,7 @@
     "id": "SEN_D85_040",
     "text": "說到工作，你覺得怎麼樣？",
     "pinyin": "Shuō dào gōngzuò, nǐ juéde zěnmeyàng?",
-    "pinyin_numeric": "shuo1 dao4 gong1zuo4, ni3 jue2de0 zen3me0yang4",
+    "pinyin_numeric": "shuo1 dao4 gong1zuo4, ni3 jue2de0 zen3 me0yang4",
     "translation_en": "Speaking of work, what do you think?",
     "translation_ko": "일에 관해서 말하자면, 어떻게 생각하세요?",
     "token_ids": [
@@ -107521,7 +107521,7 @@
     "id": "SEN_D85_052",
     "text": "順便問一下，你覺得這家餐廳的菜怎麼樣？",
     "pinyin": "Shùnbiàn wèn yīxià, nǐ juéde zhè jiā cāntīng de cài zěnmeyàng?",
-    "pinyin_numeric": "shun4bian4 wen4 yi1xia4, ni3 jue2de0 zhe4 jia1 can1ting1 de0 cai4 zen3me0yang4",
+    "pinyin_numeric": "shun4bian4 wen4 yi1xia4, ni3 jue2de0 zhe4 jia1 can1ting1 de0 cai4 zen3 me0yang4",
     "translation_en": "By the way, what do you think of the food at this restaurant?",
     "translation_ko": "그런데 말인데, 이 식당 음식 어때요?",
     "token_ids": [
@@ -107638,7 +107638,7 @@
     "id": "SEN_D85_055",
     "text": "順便問一下，你對這個話題有什麼看法？",
     "pinyin": "Shùnbiàn wèn yīxià, nǐ duì zhège huàtí yǒu shénme kànfǎ?",
-    "pinyin_numeric": "shun4bian4 wen4 yi1xia4, ni3 dui4 zhe4ge0 hua4ti2 you3 shen2me0 kan4fa3",
+    "pinyin_numeric": "shun4bian4 wen4 yi1xia4, ni3 dui4 zhe4ge0 hua4ti2 you3 shen2 me0 kan4fa3",
     "translation_en": "By the way, what's your opinion on this topic?",
     "translation_ko": "그런데 말인데, 이 주제에 대해 어떻게 생각하세요?",
     "token_ids": [
@@ -107678,7 +107678,7 @@
     "id": "SEN_D85_056",
     "text": "順便問一下，你覺得他的自我介紹怎麼樣？",
     "pinyin": "Shùnbiàn wèn yīxià, nǐ juéde tā de zìwǒ jièshào zěnmeyàng?",
-    "pinyin_numeric": "shun4bian4 wen4 yi1xia4, ni3 jue2de0 ta1 de0 zi4wo3 jie4shao4 zen3me0yang4",
+    "pinyin_numeric": "shun4bian4 wen4 yi1xia4, ni3 jue2de0 ta1 de0 zi4wo3 jie4shao4 zen3 me0yang4",
     "translation_en": "By the way, what do you think of his self-introduction?",
     "translation_ko": "그런데 말인데, 그의 자기소개가 어땠어요?",
     "token_ids": [
@@ -107715,7 +107715,7 @@
     "id": "SEN_D85_057",
     "text": "順便問一下，你最近在忙什麼？",
     "pinyin": "Shùnbiàn wèn yīxià, nǐ zuìjìn zài máng shénme?",
-    "pinyin_numeric": "shun4bian4 wen4 yi1xia4, ni3 zui4jin4 zai4 mang2 shen2me0",
+    "pinyin_numeric": "shun4bian4 wen4 yi1xia4, ni3 zui4jin4 zai4 mang2 shen2 me0",
     "translation_en": "By the way, what have you been busy with lately?",
     "translation_ko": "그런데 말인데, 요즘 뭐 하느라 바빠요?",
     "token_ids": [
@@ -107748,7 +107748,7 @@
     "id": "SEN_D85_058",
     "text": "順便問一下，你對這個經驗有什麼有趣的分享？",
     "pinyin": "Shùnbiàn wèn yīxià, nǐ duì zhège jīngyàn yǒu shénme yǒuqù de fēnxiǎng?",
-    "pinyin_numeric": "shun4bian4 wen4 yi1xia4, ni3 dui4 zhe4ge0 jing1yan4 you3 shen2me0 you3qu4 de0 fen1xiang3",
+    "pinyin_numeric": "shun4bian4 wen4 yi1xia4, ni3 dui4 zhe4ge0 jing1yan4 you3 shen2 me0 you3qu4 de0 fen1xiang3",
     "translation_en": "By the way, do you have any interesting stories to share about this experience?",
     "translation_ko": "그런데 말인데, 이 경험에 대해 재미있는 이야기 있어요?",
     "token_ids": [
@@ -107833,7 +107833,7 @@
     "id": "SEN_D85_060",
     "text": "順便問一下，你覺得這個聊天室的話題怎麼樣？",
     "pinyin": "Shùnbiàn wèn yīxià, nǐ juéde zhège liáotiānshì de huàtí zěnmeyàng?",
-    "pinyin_numeric": "shun4bian4 wen4 yi1xia4, ni3 jue2de0 zhe4ge0 liao2tian1shi4 de0 hua4ti2 zen3me0yang4",
+    "pinyin_numeric": "shun4bian4 wen4 yi1xia4, ni3 jue2de0 zhe4ge0 liao2tian1shi4 de0 hua4ti2 zen3 me0yang4",
     "translation_en": "By the way, what do you think of the topics in this chat room?",
     "translation_ko": "그런데 말인데, 이 채팅방의 주제가 어때요?",
     "token_ids": [
@@ -107904,7 +107904,7 @@
     "id": "SEN_D85_065",
     "text": "對了，你覺得這家餐廳怎麼樣？",
     "pinyin": "Duì le, nǐ juéde zhè jiā cāntīng zěnme yàng?",
-    "pinyin_numeric": "dui4 le0, ni3 jue2de0 zhe4 jia1 can1ting1 zen3me0 yang4?",
+    "pinyin_numeric": "dui4 le0, ni3 jue2de0 zhe4 jia1 can1ting1 zen3 me0 yang4?",
     "translation_en": "By the way, what do you think of this restaurant?",
     "translation_ko": "그런데, 이 식당 어때요?",
     "token_ids": [
@@ -107937,7 +107937,7 @@
     "id": "SEN_D85_066",
     "text": "說到聊天，你喜歡聊什麼話題？",
     "pinyin": "Shuō dào liáotiān, nǐ xǐhuān liáo shénme huàtí?",
-    "pinyin_numeric": "shuo1 dao4 liao2tian1, ni3 xi3huan1 liao2 shen2me0 hua4ti2?",
+    "pinyin_numeric": "shuo1 dao4 liao2tian1, ni3 xi3huan1 liao2 shen2 me0 hua4ti2?",
     "translation_en": "Speaking of chatting, what topics do you like to talk about?",
     "translation_ko": "대화에 대해 말하자면, 어떤 주제를 좋아하세요?",
     "token_ids": [
@@ -107971,7 +107971,7 @@
     "id": "SEN_D85_067",
     "text": "對了，你最近有看什麼有趣的電影嗎？",
     "pinyin": "Duì le, nǐ zuìjìn yǒu kàn shénme yǒuqù de diànyǐng ma?",
-    "pinyin_numeric": "dui4 le0, ni3 zui4jin4 you3 kan4 shen2me0 you3qu4 de0 dian4ying3 ma0?",
+    "pinyin_numeric": "dui4 le0, ni3 zui4jin4 you3 kan4 shen2 me0 you3qu4 de0 dian4ying3 ma0?",
     "translation_en": "By the way, have you watched any interesting movies lately?",
     "translation_ko": "그런데, 요즘 재미있는 영화 본 거 있어요?",
     "token_ids": [
@@ -108046,7 +108046,7 @@
     "id": "SEN_D85_069",
     "text": "對了，你覺得這本書怎麼樣？",
     "pinyin": "Duì le, nǐ juéde zhè běn shū zěnme yàng?",
-    "pinyin_numeric": "dui4 le0, ni3 jue2de0 zhe4 ben3 shu1 zen3me0 yang4?",
+    "pinyin_numeric": "dui4 le0, ni3 jue2de0 zhe4 ben3 shu1 zen3 me0 yang4?",
     "translation_en": "By the way, what do you think of this book?",
     "translation_ko": "그런데, 이 책 어때요?",
     "token_ids": [
@@ -108365,7 +108365,7 @@
     "id": "SEN_D85_083",
     "text": "順便問一下，你喜歡什麼興趣？",
     "pinyin": "Shùnbiàn wèn yīxià, nǐ xǐhuān shénme xìngqù?",
-    "pinyin_numeric": "shun4bian4 wen4 yi1xia4, ni3 xi3huan1 shen2me0 xing4qu4",
+    "pinyin_numeric": "shun4bian4 wen4 yi1xia4, ni3 xi3huan1 shen2 me0 xing4qu4",
     "translation_en": "By the way, what hobbies do you like?",
     "translation_ko": "그런데, 취미가 뭐예요?",
     "token_ids": [
@@ -108510,7 +108510,7 @@
     "id": "SEN_D85_089",
     "text": "順便問一下，你覺得這本書怎麼樣？",
     "pinyin": "Shùnbiàn wèn yīxià, nǐ juéde zhè běn shū zěnmeyàng?",
-    "pinyin_numeric": "shun4bian4 wen4 yi1xia4, ni3 jue2de0 zhe4 ben3 shu1 zen3me0yang4",
+    "pinyin_numeric": "shun4bian4 wen4 yi1xia4, ni3 jue2de0 zhe4 ben3 shu1 zen3 me0yang4",
     "translation_en": "By the way, what do you think of this book?",
     "translation_ko": "그런데, 이 책 어때요?",
     "token_ids": [
@@ -108581,7 +108581,7 @@
     "id": "SEN_D86_001",
     "text": "請問，車站怎麼走？",
     "pinyin": "Qǐngwèn, chēzhàn zěnme zǒu?",
-    "pinyin_numeric": "qing3wen4, che1zhan4 zen3me zou3?",
+    "pinyin_numeric": "qing3wen4, che1zhan4 zen3 me0 zou3?",
     "translation_en": "Excuse me, how do I get to the station?",
     "translation_ko": "실례합니다, 역은 어떻게 가나요?",
     "token_ids": [
@@ -108876,7 +108876,7 @@
     "id": "SEN_D86_010",
     "text": "請問，到公園怎麼走？",
     "pinyin": "Qǐngwèn, dào gōngyuán zěnme zǒu?",
-    "pinyin_numeric": "qing3wen4, dao4 gong1yuan2 zen3me zou3?",
+    "pinyin_numeric": "qing3wen4, dao4 gong1yuan2 zen3 me0 zou3?",
     "translation_en": "Excuse me, how do I get to the park?",
     "translation_ko": "실례합니다, 공원까지 어떻게 가나요?",
     "token_ids": [
@@ -108939,7 +108939,7 @@
     "id": "SEN_D86_012",
     "text": "請問，車站怎麼走？我想買車票。",
     "pinyin": "Qǐngwèn, chēzhàn zěnme zǒu? Wǒ xiǎng mǎi chēpiào.",
-    "pinyin_numeric": "qing3wen4, che1zhan4 zen3me zou3? wo3 xiang3 mai3 che1piao4.",
+    "pinyin_numeric": "qing3wen4, che1zhan4 zen3 me0 zou3? wo3 xiang3 mai3 che1piao4.",
     "translation_en": "Excuse me, how do I get to the station? I would like to buy a ticket.",
     "translation_ko": "실례합니다, 역까지 어떻게 가나요? 표를 사고 싶어요.",
     "token_ids": [
@@ -109152,7 +109152,7 @@
     "id": "SEN_D86_018",
     "text": "我想認識新朋友，請問你叫什麼名字？",
     "pinyin": "Wǒ xiǎng rènshi xīn péngyou, qǐngwèn nǐ jiào shénme míngzì?",
-    "pinyin_numeric": "wo3 xiang3 ren4shi xin1 peng2you, qing3wen4 ni3 jiao4 shen2me ming2zi4?",
+    "pinyin_numeric": "wo3 xiang3 ren4shi xin1 peng2you, qing3wen4 ni3 jiao4 shen2 me0 ming2zi4?",
     "translation_en": "I would like to meet new friends. May I ask what your name is?",
     "translation_ko": "새 친구를 사귀고 싶은데, 이름이 어떻게 되세요?",
     "token_ids": [
@@ -109301,7 +109301,7 @@
     "id": "SEN_D86_023",
     "text": "請問，車站怎麼走？我想去對面買東西。",
     "pinyin": "Qǐngwèn, chēzhàn zěnme zǒu? Wǒ xiǎng qù duìmiàn mǎi dōngxi.",
-    "pinyin_numeric": "qing3wen4, che1zhan4 zen3me zou3? wo3 xiang3 qu4 dui4mian4 mai3 dong1xi.",
+    "pinyin_numeric": "qing3wen4, che1zhan4 zen3 me0 zou3? wo3 xiang3 qu4 dui4mian4 mai3 dong1xi.",
     "translation_en": "Excuse me, how do I get to the station? I would like to go buy something across the street.",
     "translation_ko": "실례합니다, 역까지 어떻게 가나요? 길 건너편에 물건을 사러 가고 싶어요.",
     "token_ids": [
@@ -109884,7 +109884,7 @@
     "id": "SEN_D86_044",
     "text": "請問，車站怎麼走？我想去那裡買車票。",
     "pinyin": "Qǐngwèn, chēzhàn zěnme zǒu? Wǒ xiǎng qù nàlǐ mǎi chēpiào.",
-    "pinyin_numeric": "qing3wen4, che1zhan4 zen3me zou3? wo3 xiang3 qu4 na4li3 mai3 che1piao4.",
+    "pinyin_numeric": "qing3wen4, che1zhan4 zen3 me0 zou3? wo3 xiang3 qu4 na4li3 mai3 che1piao4.",
     "translation_en": "Excuse me, how do I get to the station? I would like to go there to buy a ticket.",
     "translation_ko": "실례합니다, 역까지 어떻게 가나요? 거기에 가서 표를 사고 싶어요.",
     "token_ids": [
@@ -110519,7 +110519,7 @@
     "id": "SEN_D86_067",
     "text": "請問，圖書館怎麼走？我想認識新朋友。",
     "pinyin": "Qǐngwèn, túshūguǎn zěnme zǒu? Wǒ xiǎng rènshi xīn péngyǒu.",
-    "pinyin_numeric": "qing3wen4, tu2shu1guan3 zen3me zou3? Wo3 xiang3 ren4shi5 xin1 peng2you3.",
+    "pinyin_numeric": "qing3wen4, tu2shu1guan3 zen3 me0 zou3? Wo3 xiang3 ren4shi5 xin1 peng2you3.",
     "translation_en": "Excuse me, how do I get to the library? I would like to meet new friends.",
     "translation_ko": "실례합니다, 도서관은 어떻게 가나요? 새로운 친구를 사귀고 싶어요.",
     "token_ids": [
@@ -110664,7 +110664,7 @@
     "id": "SEN_D86_072",
     "text": "請問，車站怎麼走？我想去買車票。",
     "pinyin": "Qǐngwèn, chēzhàn zěnme zǒu? Wǒ xiǎng qù mǎi chēpiào.",
-    "pinyin_numeric": "qing3wen4, che1zhan4 zen3me zou3? wo3 xiang3 qu4 mai3 che1piao4.",
+    "pinyin_numeric": "qing3wen4, che1zhan4 zen3 me0 zou3? wo3 xiang3 qu4 mai3 che1piao4.",
     "translation_en": "Excuse me, how do I get to the station? I would like to go buy a ticket.",
     "translation_ko": "실례합니다, 역까지 어떻게 가나요? 표를 사러 가고 싶어요.",
     "token_ids": [
@@ -110921,7 +110921,7 @@
     "id": "SEN_D86_079",
     "text": "請問，圖書館怎麼走？我想去那裡看書。",
     "pinyin": "Qǐngwèn, túshūguǎn zěnme zǒu? Wǒ xiǎng qù nàlǐ kàn shū.",
-    "pinyin_numeric": "qing3wen4, tu2shu1guan3 zen3me zou3? wo3 xiang3 qu4 na4li3 kan4 shu1.",
+    "pinyin_numeric": "qing3wen4, tu2shu1guan3 zen3 me0 zou3? wo3 xiang3 qu4 na4li3 kan4 shu1.",
     "translation_en": "Excuse me, how do I get to the library? I want to go there to read.",
     "translation_ko": "실례합니다, 도서관까지 어떻게 가나요? 거기에 가서 책을 읽고 싶어요.",
     "token_ids": [
@@ -117028,7 +117028,7 @@
     "id": "SEN_D88_056",
     "text": "你什麼時候有空？我們來喬一下行程。",
     "pinyin": "Nǐ shénme shíhou yǒu kòng? Wǒmen lái qiáo yīxià xíngchéng.",
-    "pinyin_numeric": "ni3 shen2me shi2hou you3 kong4? wo3men lai2 qiao2 yi1xia4 xing2cheng2.",
+    "pinyin_numeric": "ni3 shen2 me0 shi2hou you3 kong4? wo3men lai2 qiao2 yi1xia4 xing2cheng2.",
     "translation_en": "When are you free? Let's negotiate the schedule.",
     "translation_ko": "언제 시간이 되세요? 일정을 조율해 봐요.",
     "token_ids": [
@@ -118439,7 +118439,7 @@
     "id": "SEN_D88_089",
     "text": "你的理由是什麼？為什麼要取消？",
     "pinyin": "Nǐ de lǐyóu shì shénme? Wèishénme yào qǔxiāo?",
-    "pinyin_numeric": "ni3 de li3you2 shi4 shen2me? wei4shen2me yao4 qu3xiao1?",
+    "pinyin_numeric": "ni3 de li3you2 shi4 shen2 me0? wei4 shen2 me0 yao4 qu3xiao1?",
     "translation_en": "What is your reason? Why do you want to cancel?",
     "translation_ko": "이유가 무엇인가요? 왜 취소하려고 하시나요?",
     "token_ids": [
@@ -119077,7 +119077,7 @@
     "id": "SEN_D89_016",
     "text": "你正在做什麼？我想找你一起去吃午餐。",
     "pinyin": "Nǐ zhèngzài zuò shénme? Wǒ xiǎng zhǎo nǐ yīqǐ qù chī wǔcān.",
-    "pinyin_numeric": "ni3 zheng4zai4 zuo4 shen2me5? wo3 xiang3 zhao3 ni3 yi1qi3 qu4 chi1 wu3can1.",
+    "pinyin_numeric": "ni3 zheng4zai4 zuo4 shen2 me0? wo3 xiang3 zhao3 ni3 yi1qi3 qu4 chi1 wu3can1.",
     "translation_en": "What are you doing? I'd like to have lunch with you.",
     "translation_ko": "지금 뭐 하고 있어요? 당신과 함께 점심 먹으러 가고 싶어요.",
     "token_ids": [
@@ -120247,7 +120247,7 @@
     "id": "SEN_D89_050",
     "text": "你正在做什麼？要不要一起喝咖啡？",
     "pinyin": "Nǐ zhèngzài zuò shénme? Yào bù yào yīqǐ hē kāfēi?",
-    "pinyin_numeric": "ni3 zheng4zai4 zuo4 shen2me0? yao4 bu4 yao4 yi1qi3 he1 ka1fei1?",
+    "pinyin_numeric": "ni3 zheng4zai4 zuo4 shen2 me0? yao4 bu4 yao4 yi1qi3 he1 ka1fei1?",
     "translation_en": "What are you doing? Would you like to have coffee together?",
     "translation_ko": "지금 뭐 하고 있어요? 같이 커피 마실래요?",
     "token_ids": [
@@ -120991,7 +120991,7 @@
     "id": "SEN_D89_074",
     "text": "你正在做什麼？為什麼這麼忙？",
     "pinyin": "Nǐ zhèngzài zuò shénme? Wèishénme zhème máng?",
-    "pinyin_numeric": "ni3 zheng4zai4 zuo4 shen2me5? wei4shen2me5 zhe4me5 mang2?",
+    "pinyin_numeric": "ni3 zheng4zai4 zuo4 shen2 me0? wei4 shen2 me0 zhe4 me0 mang2?",
     "translation_en": "What are you doing? Why are you so busy?",
     "translation_ko": "당신은 지금 무엇을 하고 있어요? 왜 이렇게 바빠요?",
     "token_ids": [
@@ -121195,7 +121195,7 @@
     "id": "SEN_D89_082",
     "text": "你覺得這個包包的大小怎麼樣？",
     "pinyin": "Nǐ juéde zhège bāobāo de dàxiǎo zěnmeyàng?",
-    "pinyin_numeric": "ni3 jue2de zhe4ge bao1bao1 de da4xiao3 zen3me5yang4?",
+    "pinyin_numeric": "ni3 jue2de zhe4ge bao1bao1 de da4xiao3 zen3 me0yang4?",
     "translation_en": "What do you think about the size of this bag?",
     "translation_ko": "이 가방의 크기가 어떻다고 생각하세요?",
     "token_ids": [
@@ -123039,7 +123039,7 @@
     "id": "SEN_D90_045",
     "text": "除了喝咖啡以外，你還想喝什麼？",
     "pinyin": "Chúle hē kāfēi yǐwài, nǐ hái xiǎng hē shénme?",
-    "pinyin_numeric": "chu2le he1 ka1fei1 yi3wai4, ni3 hai2 xiang3 he1 shen2me0?",
+    "pinyin_numeric": "chu2le he1 ka1fei1 yi3wai4, ni3 hai2 xiang3 he1 shen2 me0?",
     "translation_en": "Besides drinking coffee, what else would you like to drink?",
     "translation_ko": "커피 외에 또 무엇을 마시고 싶으세요?",
     "token_ids": [
@@ -123685,7 +123685,7 @@
     "id": "SEN_D90_080",
     "text": "除了學中文以外，我還在學怎麼煮台灣小吃。",
     "pinyin": "Chúle xué zhōngwén yǐwài, wǒ hái zài xué zěnme zhǔ táiwān xiǎochī.",
-    "pinyin_numeric": "chu2le xue2 zhong1wen2 yi3wai4, wo3 hai2 zai4 xue2 zen3me zhu3 tai2wan1 xiao3chi1.",
+    "pinyin_numeric": "chu2le xue2 zhong1wen2 yi3wai4, wo3 hai2 zai4 xue2 zen3 me0 zhu3 tai2wan1 xiao3chi1.",
     "translation_en": "Besides learning Chinese, I am also learning how to cook Taiwanese snacks.",
     "translation_ko": "중국어를 배우는 것 외에도 저는 대만 간식을 요리하는 방법을 배우고 있습니다.",
     "token_ids": [

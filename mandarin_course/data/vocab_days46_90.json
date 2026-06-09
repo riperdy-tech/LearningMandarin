@@ -28963,7 +28963,7 @@
     "id": "VOC_D73_035",
     "char": "你覺得怎麼樣",
     "pinyin": "nǐ jué de zěn me yàng",
-    "pinyin_numeric": "ni3 jue2 de5 zen3 me5 yang4",
+    "pinyin_numeric": "ni3 jue2 de5 zen3 me0 yang4",
     "phonemes": [
       "ni3",
       "jue2",
@@ -31942,7 +31942,7 @@
     "id": "VOC_D77_024",
     "char": "為什麼",
     "pinyin": "wèi shén me",
-    "pinyin_numeric": "wei4 shen2 me5",
+    "pinyin_numeric": "wei4 shen2 me0",
     "phonemes": [
       "wei4",
       "shen2",
@@ -31969,7 +31969,7 @@
     "id": "VOC_D77_025",
     "char": "怎麼了",
     "pinyin": "zěn me le",
-    "pinyin_numeric": "zen3 me5 le5",
+    "pinyin_numeric": "zen3 me0 le5",
     "phonemes": [
       "zen3",
       "me5",
@@ -32777,7 +32777,7 @@
     "id": "VOC_D78_014",
     "char": "那個什麼",
     "pinyin": "nà ge shén me",
-    "pinyin_numeric": "na4 ge5 shen2 me5",
+    "pinyin_numeric": "na4 ge5 shen2 me0",
     "phonemes": [
       "na4",
       "ge5",
@@ -32810,7 +32810,7 @@
     "id": "VOC_D78_015",
     "char": "怎麼說",
     "pinyin": "zěn me shuō",
-    "pinyin_numeric": "zen3 me5 shuo1",
+    "pinyin_numeric": "zen3 me0 shuo1",
     "phonemes": [
       "zen3",
       "me5",
@@ -34129,7 +34129,7 @@
     "id": "VOC_D79_029",
     "char": "怎麼了",
     "pinyin": "zěn me le",
-    "pinyin_numeric": "zen3 me5 le5",
+    "pinyin_numeric": "zen3 me0 le5",
     "phonemes": [
       "zen3",
       "me5",
@@ -38257,7 +38257,7 @@
     "id": "VOC_D83_027",
     "char": "怎麼辦",
     "pinyin": "zěn me bàn",
-    "pinyin_numeric": "zen3 me5 ban4",
+    "pinyin_numeric": "zen3 me0 ban4",
     "phonemes": [
       "zen3",
       "me5",
@@ -40477,7 +40477,7 @@
     "id": "VOC_D85_030",
     "char": "怎麼樣",
     "pinyin": "zěn me yàng",
-    "pinyin_numeric": "zen3 me5 yang4",
+    "pinyin_numeric": "zen3 me0 yang4",
     "phonemes": [
       "zen3",
       "me5",
@@ -40677,7 +40677,7 @@
     "id": "VOC_D86_002",
     "char": "怎麼走",
     "pinyin": "zěn me zǒu",
-    "pinyin_numeric": "zen3 me5 zou3",
+    "pinyin_numeric": "zen3 me0 zou3",
     "phonemes": [
       "zen3",
       "me5",

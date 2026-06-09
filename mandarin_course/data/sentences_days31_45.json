@@ -5255,7 +5255,7 @@
     "id": "SEN_D33_021",
     "text": "請問洗手間從這裡到那裡怎麼走？",
     "pinyin": "Qǐngwèn xǐshǒujiān cóng zhèlǐ dào nàlǐ zěnme zǒu?",
-    "pinyin_numeric": "qing3 wen4 xi3 shou3 jian1 cong2 zhe4 li3 dao4 na4 li3 zen3 me5 zou3",
+    "pinyin_numeric": "qing3 wen4 xi3 shou3 jian1 cong2 zhe4 li3 dao4 na4 li3 zen3 me0 zou3",
     "translation_en": "Excuse me, how do I get from here to the restroom?",
     "translation_ko": "실례합니다, 여기에서 화장실까지 어떻게 가나요?",
     "token_ids": [
@@ -5434,7 +5434,7 @@
     "id": "SEN_D33_026",
     "text": "請問從這裡到服務台怎麼走？",
     "pinyin": "Qǐngwèn cóng zhèlǐ dào fúwùtái zěnme zǒu?",
-    "pinyin_numeric": "qing3 wen4 cong2 zhe4 li3 dao4 fu2 wu4 tai2 zen3 me5 zou3",
+    "pinyin_numeric": "qing3 wen4 cong2 zhe4 li3 dao4 fu2 wu4 tai2 zen3 me0 zou3",
     "translation_en": "Excuse me, how do I get from here to the service counter?",
     "translation_ko": "실례합니다, 여기에서 서비스 데스크까지 어떻게 가나요?",
     "token_ids": [
@@ -6252,7 +6252,7 @@
     "id": "SEN_D33_055",
     "text": "請問服務台從這裡到那裡要怎麼走？",
     "pinyin": "Qǐngwèn fúwùtái cóng zhèlǐ dào nàlǐ yào zěnme zǒu?",
-    "pinyin_numeric": "qing3wen4 fu2wu4tai2 cong2 zhe4li3 dao4 na4li3 yao4 zen3me zou3",
+    "pinyin_numeric": "qing3wen4 fu2wu4tai2 cong2 zhe4li3 dao4 na4li3 yao4 zen3 me0 zou3",
     "translation_en": "Excuse me, how do I get from here to the service counter?",
     "translation_ko": "실례합니다, 여기에서 서비스 데스크까지 어떻게 가나요?",
     "token_ids": [
@@ -14106,7 +14106,7 @@
     "id": "SEN_D37_021",
     "text": "你什麼時候有空？我們可以一起去喝咖啡。",
     "pinyin": "Nǐ shénme shíhou yǒu kòng? Wǒmen kěyǐ yīqǐ qù hē kāfēi.",
-    "pinyin_numeric": "ni3 shen2me shi2hou you3 kong4? wo3men ke3yi3 yi1qi3 qu4 he1 ka1fei1.",
+    "pinyin_numeric": "ni3 shen2 me0 shi2hou you3 kong4? wo3men ke3yi3 yi1qi3 qu4 he1 ka1fei1.",
     "translation_en": "When are you free? We can go drink coffee together.",
     "translation_ko": "언제 시간 돼요? 같이 커피 마시러 갈 수 있어요.",
     "token_ids": [
@@ -14141,7 +14141,7 @@
     "id": "SEN_D37_022",
     "text": "我們什麼時候見面？我想跟你一起看電影。",
     "pinyin": "Wǒmen shénme shíhou jiànmiàn? Wǒ xiǎng gēn nǐ yīqǐ kàn diànyǐng.",
-    "pinyin_numeric": "wo3men shen2me shi2hou jian4mian4? wo3 xiang3 gen1 ni3 yi1qi3 kan4 dian4ying3.",
+    "pinyin_numeric": "wo3men shen2 me0 shi2hou jian4mian4? wo3 xiang3 gen1 ni3 yi1qi3 kan4 dian4ying3.",
     "translation_en": "When shall we meet? I want to watch a movie with you.",
     "translation_ko": "당신과 같이 영화 보고 싶어요.",
     "token_ids": [
@@ -14180,7 +14180,7 @@
     "id": "SEN_D37_023",
     "text": "你什麼時候要吃飯？我們可以約在餐廳門口碰面。",
     "pinyin": "Nǐ shénme shíhou yào chīfàn? Wǒmen kěyǐ yuē zài cāntīng ménkǒu pèngmiàn.",
-    "pinyin_numeric": "ni3 shen2me shi2hou yao4 chi1fan4? wo3men ke3yi3 yue1 zai4 can1ting1 men2kou3 peng4mian4.",
+    "pinyin_numeric": "ni3 shen2 me0 shi2hou yao4 chi1fan4? wo3men ke3yi3 yue1 zai4 can1ting1 men2kou3 peng4mian4.",
     "translation_en": "When do you want to eat? We can arrange to meet at the restaurant entrance.",
     "translation_ko": "언제 밥 먹을래요? 식당 입구에서 만나기로 할 수 있어요.",
     "token_ids": [
@@ -14221,7 +14221,7 @@
     "id": "SEN_D37_024",
     "text": "他什麼時候下班？我們打算一起去逛街。",
     "pinyin": "Tā shénme shíhou xiàbān? Wǒmen dǎsuàn yīqǐ qù guàngjiē.",
-    "pinyin_numeric": "ta1 shen2me shi2hou xia4ban1? wo3men da3suan4 yi1qi3 qu4 guang4jie1.",
+    "pinyin_numeric": "ta1 shen2 me0 shi2hou xia4ban1? wo3men da3suan4 yi1qi3 qu4 guang4jie1.",
     "translation_en": "When does he get off work? We plan to go shopping together.",
     "translation_ko": "그는 언제 퇴근해요? 우리 같이 쇼핑하러 갈 계획이에요.",
     "token_ids": [
@@ -14256,7 +14256,7 @@
     "id": "SEN_D37_025",
     "text": "你什麼時候要見朋友？我們可以一起去喝咖啡聊天。",
     "pinyin": "Nǐ shénme shíhou yào jiàn péngyou? Wǒmen kěyǐ yīqǐ qù hē kāfēi liáotiān.",
-    "pinyin_numeric": "ni3 shen2me shi2hou yao4 jian4 peng2you? wo3men ke3yi3 yi1qi3 qu4 he1 ka1fei1 liao2tian1.",
+    "pinyin_numeric": "ni3 shen2 me0 shi2hou yao4 jian4 peng2you? wo3men ke3yi3 yi1qi3 qu4 he1 ka1fei1 liao2tian1.",
     "translation_en": "When are you meeting a friend? We can go drink coffee and chat together.",
     "translation_ko": "언제 친구를 만날 거예요? 같이 커피 마시면서 이야기할 수 있어요.",
     "token_ids": [
@@ -14295,7 +14295,7 @@
     "id": "SEN_D37_026",
     "text": "我們什麼時候約時間？我想跟你一起去看電影。",
     "pinyin": "Wǒmen shénme shíhou yuē shíjiān? Wǒ xiǎng gēn nǐ yīqǐ qù kàn diànyǐng.",
-    "pinyin_numeric": "wo3men shen2me shi2hou yue1 shi2jian1? wo3 xiang3 gen1 ni3 yi1qi3 qu4 kan4 dian4ying3.",
+    "pinyin_numeric": "wo3men shen2 me0 shi2hou yue1 shi2jian1? wo3 xiang3 gen1 ni3 yi1qi3 qu4 kan4 dian4ying3.",
     "translation_en": "When shall we set a time? I want to go watch a movie with you.",
     "translation_ko": "우리 언제 시간을 정할까요? 당신과 같이 영화 보러 가고 싶어요.",
     "token_ids": [
@@ -14334,7 +14334,7 @@
     "id": "SEN_D37_027",
     "text": "你什麼時候要取消約會？我們可以改天再見面。",
     "pinyin": "Nǐ shénme shíhou yào qǔxiāo yuēhuì? Wǒmen kěyǐ gǎitiān zài jiànmiàn.",
-    "pinyin_numeric": "ni3 shen2me shi2hou yao4 qu3xiao1 yue1hui4? wo3men ke3yi3 gai3tian1 zai4 jian4mian4.",
+    "pinyin_numeric": "ni3 shen2 me0 shi2hou yao4 qu3xiao1 yue1hui4? wo3men ke3yi3 gai3tian1 zai4 jian4mian4.",
     "translation_en": "When do you want to cancel the date? We can meet another day.",
     "translation_ko": "언제 약속을 취소할 거예요? 우리 다른 날 다시 만날 수 있어요.",
     "token_ids": [
@@ -14374,7 +14374,7 @@
     "id": "SEN_D37_028",
     "text": "她什麼時候要提早到？我們可以在咖啡店等她。",
     "pinyin": "Tā shénme shíhou yào tízǎo dào? Wǒmen kěyǐ zài kāfēi diàn děng tā.",
-    "pinyin_numeric": "ta1 shen2me shi2hou yao4 ti2zao3 dao4? wo3men ke3yi3 zai4 ka1fei1 dian4 deng3 ta1.",
+    "pinyin_numeric": "ta1 shen2 me0 shi2hou yao4 ti2zao3 dao4? wo3men ke3yi3 zai4 ka1fei1 dian4 deng3 ta1.",
     "translation_en": "When does she want to arrive early? We can wait for her at the coffee shop.",
     "translation_ko": "그녀는 언제 일찍 도착할 거예요? 우리 커피숍에서 그녀를 기다릴 수 있어요.",
     "token_ids": [
@@ -14417,7 +14417,7 @@
     "id": "SEN_D37_029",
     "text": "你什麼時候要延後約會？我們可以下次再約。",
     "pinyin": "Nǐ shénme shíhou yào yánhòu yuēhuì? Wǒmen kěyǐ xiàcì zài yuē.",
-    "pinyin_numeric": "ni3 shen2me shi2hou yao4 yan2hou4 yue1hui4? wo3men ke3yi3 xia4ci4 zai4 yue1.",
+    "pinyin_numeric": "ni3 shen2 me0 shi2hou yao4 yan2hou4 yue1hui4? wo3men ke3yi3 xia4ci4 zai4 yue1.",
     "translation_en": "When do you want to postpone the date? We can arrange it next time.",
     "translation_ko": "언제 약속을 연기할 거예요? 우리 다음에 다시 약속할 수 있어요.",
     "token_ids": [
@@ -14458,7 +14458,7 @@
     "id": "SEN_D37_030",
     "text": "我們什麼時候要碰面？你可以在捷運站等我。",
     "pinyin": "Wǒmen shénme shíhou yào pèngmiàn? Nǐ kěyǐ zài jiéyùn zhàn děng wǒ.",
-    "pinyin_numeric": "wo3men shen2me shi2hou yao4 peng4mian4? ni3 ke3yi3 zai4 jie2yun4 zhan4 deng3 wo3.",
+    "pinyin_numeric": "wo3men shen2 me0 shi2hou yao4 peng4mian4? ni3 ke3yi3 zai4 jie2yun4 zhan4 deng3 wo3.",
     "translation_en": "When shall we meet? You can wait for me at the MRT station.",
     "translation_ko": "우리 언제 만날까요? 지하철역에서 저를 기다리셔도 돼요.",
     "token_ids": [
@@ -15164,7 +15164,7 @@
     "id": "SEN_D37_052",
     "text": "我們什麼時候見面？我想跟你一起去看電影。",
     "pinyin": "Wǒmen shénme shíhòu jiànmiàn? Wǒ xiǎng gēn nǐ yīqǐ qù kàn diànyǐng.",
-    "pinyin_numeric": "wo3men shen2me shi2hou4 jian4mian4? wo3 xiang3 gen1 ni3 yi1qi3 qu4 kan4 dian4ying3.",
+    "pinyin_numeric": "wo3men shen2 me0 shi2hou4 jian4mian4? wo3 xiang3 gen1 ni3 yi1qi3 qu4 kan4 dian4ying3.",
     "translation_en": "When shall we meet? I want to go watch a movie with you.",
     "translation_ko": "우리 언제 만날까요? 같이 영화 보러 가고 싶어요.",
     "token_ids": [
@@ -15203,7 +15203,7 @@
     "id": "SEN_D37_053",
     "text": "你什麼時候要吃飯？我們約在餐廳門口碰面。",
     "pinyin": "Nǐ shénme shíhòu yào chīfàn? Wǒmen yuē zài cāntīng ménkǒu pèngmiàn.",
-    "pinyin_numeric": "ni3 shen2me shi2hou4 yao4 chi1fan4? wo3men yue1 zai4 can1ting1 men2kou3 peng4mian4.",
+    "pinyin_numeric": "ni3 shen2 me0 shi2hou4 yao4 chi1fan4? wo3men yue1 zai4 can1ting1 men2kou3 peng4mian4.",
     "translation_en": "When do you want to eat? Let's meet at the restaurant entrance.",
     "translation_ko": "언제 밥을 먹고 싶어요? 식당 입구에서 만나기로 해요.",
     "token_ids": [
@@ -15242,7 +15242,7 @@
     "id": "SEN_D37_054",
     "text": "他什麼時候下班？我們可以約晚上一起逛街。",
     "pinyin": "Tā shénme shíhòu xiàbān? Wǒmen kěyǐ yuē wǎnshàng yīqǐ guàngjiē.",
-    "pinyin_numeric": "ta1 shen2me shi2hou4 xia4ban1? wo3men ke3yi3 yue1 wan3shang4 yi1qi3 guang4jie1.",
+    "pinyin_numeric": "ta1 shen2 me0 shi2hou4 xia4ban1? wo3men ke3yi3 yue1 wan3shang4 yi1qi3 guang4jie1.",
     "translation_en": "When does he get off work? We can plan to go shopping together in the evening.",
     "translation_ko": "그는 언제 퇴근하나요? 저녁에 같이 쇼핑하기로 할 수 있어요.",
     "token_ids": [
@@ -15281,7 +15281,7 @@
     "id": "SEN_D37_056",
     "text": "我們什麼時候約時間？這個週末你有空嗎？",
     "pinyin": "Wǒmen shénme shíhòu yuē shíjiān? Zhège zhōumò nǐ yǒu kòng ma?",
-    "pinyin_numeric": "wo3men shen2me shi2hou4 yue1 shi2jian1? zhe4ge zhou1mo4 ni3 you3 kong4 ma0?",
+    "pinyin_numeric": "wo3men shen2 me0 shi2hou4 yue1 shi2jian1? zhe4ge zhou1mo4 ni3 you3 kong4 ma0?",
     "translation_en": "When shall we set a time? Are you free this weekend?",
     "translation_ko": "우리 언제 시간을 정할까요? 이번 주말에 시간 있으세요?",
     "token_ids": [
@@ -15317,7 +15317,7 @@
     "id": "SEN_D37_057",
     "text": "你什麼時候要取消約會？因為我最近很忙。",
     "pinyin": "Nǐ shénme shíhòu yào qǔxiāo yuēhuì? Yīnwèi wǒ zuìjìn hěn máng.",
-    "pinyin_numeric": "ni3 shen2me shi2hou4 yao4 qu3xiao1 yue1hui4? yin1wei4 wo3 zui4jin4 hen3 mang2.",
+    "pinyin_numeric": "ni3 shen2 me0 shi2hou4 yao4 qu3xiao1 yue1hui4? yin1wei4 wo3 zui4jin4 hen3 mang2.",
     "translation_en": "When do you want to cancel the date? Because I've been very busy lately.",
     "translation_ko": "언제 약속을 취소할 거예요? 제가 요즘 너무 바빠서요.",
     "token_ids": [
@@ -15358,7 +15358,7 @@
     "id": "SEN_D37_058",
     "text": "她什麼時候要提早到？我們在咖啡店等她。",
     "pinyin": "Tā shénme shíhòu yào tízǎo dào? Wǒmen zài kāfēidiàn děng tā.",
-    "pinyin_numeric": "ta1 shen2me shi2hou4 yao4 ti2zao3 dao4? wo3men zai4 ka1fei1dian4 deng3 ta1.",
+    "pinyin_numeric": "ta1 shen2 me0 shi2hou4 yao4 ti2zao3 dao4? wo3men zai4 ka1fei1dian4 deng3 ta1.",
     "translation_en": "When will she arrive early? We'll wait for her at the coffee shop.",
     "translation_ko": "그녀는 언제 일찍 도착할까요? 우리는 커피숍에서 그녀를 기다릴 거예요.",
     "token_ids": [
@@ -15399,7 +15399,7 @@
     "id": "SEN_D37_059",
     "text": "你什麼時候要傳訊息？我們可以再聯絡。",
     "pinyin": "Nǐ shénme shíhòu yào chuán xùnxī? Wǒmen kěyǐ zài liánluò.",
-    "pinyin_numeric": "ni3 shen2me shi2hou4 yao4 chuan2 xun4xi1? wo3men ke3yi3 zai4 lian2luo4.",
+    "pinyin_numeric": "ni3 shen2 me0 shi2hou4 yao4 chuan2 xun4xi1? wo3men ke3yi3 zai4 lian2luo4.",
     "translation_en": "When will you send a message? We can get in touch again.",
     "translation_ko": "언제 메시지를 보낼 거예요? 다시 연락할 수 있어요.",
     "token_ids": [
@@ -15434,7 +15434,7 @@
     "id": "SEN_D37_060",
     "text": "我們什麼時候要約好？下次再一起去看電影。",
     "pinyin": "Wǒmen shénme shíhòu yào yuē hǎo? Xià cì zài yīqǐ qù kàn diànyǐng.",
-    "pinyin_numeric": "wo3men shen2me shi2hou4 yao4 yue1 hao3? xia4 ci4 zai4 yi1qi3 qu4 kan4 dian4ying3.",
+    "pinyin_numeric": "wo3men shen2 me0 shi2hou4 yao4 yue1 hao3? xia4 ci4 zai4 yi1qi3 qu4 kan4 dian4ying3.",
     "translation_en": "When shall we finalize our plans? Next time we'll go watch a movie together.",
     "translation_ko": "우리 언제 약속을 정할까요? 다음에 같이 영화 보러 가요.",
     "token_ids": [
@@ -15952,7 +15952,7 @@
     "id": "SEN_D37_084",
     "text": "你什麼時候下班？我們可以一起去逛街。",
     "pinyin": "Nǐ shénme shíhou xiàbān? Wǒmen kěyǐ yīqǐ qù guàngjiē.",
-    "pinyin_numeric": "ni3 shen2me shi2hou xia4ban1? wo3men ke3yi3 yi1qi3 qu4 guang4jie1.",
+    "pinyin_numeric": "ni3 shen2 me0 shi2hou xia4ban1? wo3men ke3yi3 yi1qi3 qu4 guang4jie1.",
     "translation_en": "When do you get off work? We can go shopping together.",
     "translation_ko": "언제 퇴근하세요? 같이 쇼핑하러 갈 수 있어요.",
     "token_ids": [
@@ -15987,7 +15987,7 @@
     "id": "SEN_D37_085",
     "text": "他什麼時候要來？我們約好了在咖啡店見面。",
     "pinyin": "Tā shénme shíhou yào lái? Wǒmen yuē hǎo le zài kāfēi diàn jiànmiàn.",
-    "pinyin_numeric": "ta1 shen2me shi2hou yao4 lai2? wo3men yue1 hao3 le0 zai4 ka1fei1 dian4 jian4mian4.",
+    "pinyin_numeric": "ta1 shen2 me0 shi2hou yao4 lai2? wo3men yue1 hao3 le0 zai4 ka1fei1 dian4 jian4mian4.",
     "translation_en": "When is he coming? We agreed to meet at the coffee shop.",
     "translation_ko": "그는 언제 올까요? 우리 커피숍에서 만나기로 약속했어요.",
     "token_ids": [
@@ -16026,7 +16026,7 @@
     "id": "SEN_D37_086",
     "text": "你什麼時候有空檔？我想跟你聊天。",
     "pinyin": "Nǐ shénme shíhou yǒu kòngdàng? Wǒ xiǎng gēn nǐ liáotiān.",
-    "pinyin_numeric": "ni3 shen2me shi2hou you3 kong4dang4? wo3 xiang3 gen1 ni3 liao2tian1.",
+    "pinyin_numeric": "ni3 shen2 me0 shi2hou you3 kong4dang4? wo3 xiang3 gen1 ni3 liao2tian1.",
     "translation_en": "When do you have a free slot? I want to chat with you.",
     "translation_ko": "언제 시간이 비나요? 당신과 이야기하고 싶어요.",
     "token_ids": [
@@ -16064,7 +16064,7 @@
     "id": "SEN_D37_087",
     "text": "我們什麼時候去吃飯？我最近很忙，可是週末可以。",
     "pinyin": "Wǒmen shénme shíhou qù chīfàn? Wǒ zuìjìn hěn máng, kěshì zhōumò kěyǐ.",
-    "pinyin_numeric": "wo3men shen2me shi2hou qu4 chi1fan4? wo3 zui4jin4 hen3 mang2, ke3shi4 zhou1mo4 ke3yi3.",
+    "pinyin_numeric": "wo3men shen2 me0 shi2hou qu4 chi1fan4? wo3 zui4jin4 hen3 mang2, ke3shi4 zhou1mo4 ke3yi3.",
     "translation_en": "When shall we go out to eat? I've been busy lately, but I can do the weekend.",
     "translation_ko": "우리 언제 밥 먹으러 갈까요? 요즘 바쁘지만 주말에는 괜찮아요.",
     "token_ids": [
@@ -16107,7 +16107,7 @@
     "id": "SEN_D37_088",
     "text": "你什麼時候要打電話？我們可以再聯絡。",
     "pinyin": "Nǐ shénme shíhou yào dǎ diànhuà? Wǒmen kěyǐ zài liánluò.",
-    "pinyin_numeric": "ni3 shen2me shi2hou yao4 da3 dian4hua4? wo3men ke3yi3 zai4 lian2luo4.",
+    "pinyin_numeric": "ni3 shen2 me0 shi2hou yao4 da3 dian4hua4? wo3men ke3yi3 zai4 lian2luo4.",
     "translation_en": "When are you going to call? We can get in touch again.",
     "translation_ko": "언제 전화할 거예요? 우리는 다시 연락할 수 있어요.",
     "token_ids": [
@@ -16142,7 +16142,7 @@
     "id": "SEN_D37_089",
     "text": "她什麼時候要見朋友？她說下個星期有空。",
     "pinyin": "Tā shénme shíhou yào jiàn péngyou? Tā shuō xià ge xīngqī yǒu kòng.",
-    "pinyin_numeric": "ta1 shen2me shi2hou yao4 jian4 peng2you3? ta1 shuo1 xia4 ge0 xing1qi1 you3 kong4.",
+    "pinyin_numeric": "ta1 shen2 me0 shi2hou yao4 jian4 peng2you3? ta1 shuo1 xia4 ge0 xing1qi1 you3 kong4.",
     "translation_en": "When is she meeting her friend? She said she's free next week.",
     "translation_ko": "그녀는 언제 친구를 만날까요? 다음 주에 시간이 있다고 했어요.",
     "token_ids": [
@@ -16179,7 +16179,7 @@
     "id": "SEN_D37_090",
     "text": "你什麼時候要傳訊息？我們可以約時間。",
     "pinyin": "Nǐ shénme shíhou yào chuán xùnxī? Wǒmen kěyǐ yuē shíjiān.",
-    "pinyin_numeric": "ni3 shen2me shi2hou yao4 chuan2 xun4xi1? wo3men ke3yi3 yue1 shi2jian1.",
+    "pinyin_numeric": "ni3 shen2 me0 shi2hou yao4 chuan2 xun4xi1? wo3men ke3yi3 yue1 shi2jian1.",
     "translation_en": "When are you going to send a message? We can set a time.",
     "translation_ko": "언제 메시지를 보낼 거예요? 우리 시간을 약속할 수 있어요.",
     "token_ids": [
@@ -16510,7 +16510,7 @@
     "id": "SEN_D38_011",
     "text": "從車站到醫院怎麼去？",
     "pinyin": "Cóng chēzhàn dào yīyuàn zěnme qù?",
-    "pinyin_numeric": "cong2 che1zhan4 dao4 yi1yuan4 zen3me5 qu4",
+    "pinyin_numeric": "cong2 che1zhan4 dao4 yi1yuan4 zen3 me0 qu4",
     "translation_en": "How do I get from the station to the hospital?",
     "translation_ko": "역에서 병원까지 어떻게 가나요?",
     "token_ids": [
@@ -16655,7 +16655,7 @@
     "id": "SEN_D38_015",
     "text": "從圖書館到公園怎麼去？搭公車還是走路？",
     "pinyin": "Cóng túshūguǎn dào gōngyuán zěnme qù? Dā gōngchē háishì zǒulù?",
-    "pinyin_numeric": "cong2 tu2shu1guan3 dao4 gong1yuan2 zen3me5 qu4? da1 gong1che1 hai2shi4 zou3lu4?",
+    "pinyin_numeric": "cong2 tu2shu1guan3 dao4 gong1yuan2 zen3 me0 qu4? da1 gong1che1 hai2shi4 zou3lu4?",
     "translation_en": "How do I get from the library to the park? By bus or on foot?",
     "translation_ko": "도서관에서 공원까지 어떻게 가나요? 버스를 타거나 걸어서요?",
     "token_ids": [
@@ -17478,7 +17478,7 @@
     "id": "SEN_D38_044",
     "text": "從圖書館到捷運站怎麼去？",
     "pinyin": "Cóng túshūguǎn dào jiéyùnzhàn zěnme qù?",
-    "pinyin_numeric": "cong2 tu2shu1guan3 dao4 jie2yun4zhan4 zen3me qu4",
+    "pinyin_numeric": "cong2 tu2shu1guan3 dao4 jie2yun4zhan4 zen3 me0 qu4",
     "translation_en": "How do I get from the library to the MRT station?",
     "translation_ko": "도서관에서 지하철역까지 어떻게 가나요?",
     "token_ids": [
@@ -17615,7 +17615,7 @@
     "id": "SEN_D38_048",
     "text": "從捷運站到餐廳怎麼去？",
     "pinyin": "Cóng jiéyùnzhàn dào cāntīng zěnme qù?",
-    "pinyin_numeric": "cong2 jie2yun4zhan4 dao4 can1ting1 zen3me qu4",
+    "pinyin_numeric": "cong2 jie2yun4zhan4 dao4 can1ting1 zen3 me0 qu4",
     "translation_en": "How do I get from the MRT station to the restaurant?",
     "translation_ko": "지하철역에서 식당까지 어떻게 가나요?",
     "token_ids": [
@@ -18438,7 +18438,7 @@
     "id": "SEN_D38_076",
     "text": "從圖書館到餐廳怎麼去？搭公車還是走路？",
     "pinyin": "Cóng túshūguǎn dào cāntīng zěnme qù? Dā gōngchē háishì zǒulù?",
-    "pinyin_numeric": "cong2 tu2shu1guan3 dao4 can1ting1 zen3me qu4? da1 gong1che1 hai2shi4 zou3lu4?",
+    "pinyin_numeric": "cong2 tu2shu1guan3 dao4 can1ting1 zen3 me0 qu4? da1 gong1che1 hai2shi4 zou3lu4?",
     "translation_en": "How do I get from the library to the restaurant? By bus or on foot?",
     "translation_ko": "도서관에서 식당까지 어떻게 가나요? 버스를 타나요, 걸어가나요?",
     "token_ids": [
@@ -18602,7 +18602,7 @@
     "id": "SEN_D38_080",
     "text": "從這裡到銀行怎麼去？可以先搭公車，再轉捷運。",
     "pinyin": "Cóng zhèlǐ dào yínháng zěnme qù? Kěyǐ xiān dā gōngchē, zài zhuǎn jiéyùn.",
-    "pinyin_numeric": "cong2 zhe4li3 dao4 yin2hang2 zen3me qu4? ke3yi3 xian1 da1 gong1che1, zai4 zhuan3 jie2yun4.",
+    "pinyin_numeric": "cong2 zhe4li3 dao4 yin2hang2 zen3 me0 qu4? ke3yi3 xian1 da1 gong1che1, zai4 zhuan3 jie2yun4.",
     "translation_en": "How do I get from here to the bank? You can take a bus first, then transfer to the MRT.",
     "translation_ko": "여기에서 은행까지 어떻게 가나요? 먼저 버스를 타고, 그다음에 지하철로 환승하면 돼요.",
     "token_ids": [
@@ -19296,7 +19296,7 @@
     "id": "SEN_D39_010",
     "text": "我趕時間，可是坐反方向了，怎麼辦？",
     "pinyin": "Wǒ gǎn shíjiān, kěshì zuò fǎn fāngxiàng le, zěnme bàn?",
-    "pinyin_numeric": "wo3 gan3 shi2jian1, ke3shi4 zuo4 fan3 fang1xiang4 le0, zen3me0 ban4?",
+    "pinyin_numeric": "wo3 gan3 shi2jian1, ke3shi4 zuo4 fan3 fang1xiang4 le0, zen3 me0 ban4?",
     "translation_en": "I'm in a hurry, but I got on the train going in the opposite direction. What should I do?",
     "translation_ko": "시간이 촉박한데 반대 방향으로 탔어요. 어떡하죠?",
     "token_ids": [
@@ -19454,7 +19454,7 @@
     "id": "SEN_D39_015",
     "text": "請問，我坐過站了，現在怎麼辦？",
     "pinyin": "Qǐngwèn, wǒ zuò guò zhàn le, xiànzài zěnme bàn?",
-    "pinyin_numeric": "qing3wen4, wo3 zuo4 guo4 zhan4 le0, xian4zai4 zen3me0 ban4?",
+    "pinyin_numeric": "qing3wen4, wo3 zuo4 guo4 zhan4 le0, xian4zai4 zen3 me0 ban4?",
     "translation_en": "Excuse me, I missed my stop. What should I do now?",
     "translation_ko": "실례합니다. 제가 정류장을 지나쳐 버렸어요. 지금 어떻게 해야 하나요?",
     "token_ids": [
@@ -20486,7 +20486,7 @@
     "id": "SEN_D39_045",
     "text": "末班車已經走了，我們怎麼辦？",
     "pinyin": "Mòbān chē yǐjīng zǒu le, wǒmen zěnme bàn?",
-    "pinyin_numeric": "mo4ban1 che1 yi3jing1 zou3 le0, wo3men0 zen3me0 ban4?",
+    "pinyin_numeric": "mo4ban1 che1 yi3jing1 zou3 le0, wo3men0 zen3 me0 ban4?",
     "translation_en": "The last train has already left; what should we do?",
     "translation_ko": "막차가 이미 떠났어요. 우리 어떡하죠?",
     "token_ids": [
@@ -21182,7 +21182,7 @@
     "id": "SEN_D39_068",
     "text": "導航說要從這裡換線，可是我不知道怎麼走。",
     "pinyin": "Dǎoháng shuō yào cóng zhèlǐ huàn xiàn, kěshì wǒ bù zhīdào zěnme zǒu.",
-    "pinyin_numeric": "dao3hang2 shuo1 yao4 cong2 zhe4li3 huan4 xian4, ke3shi4 wo3 bu4 zhi1dao4 zen3me0 zou3.",
+    "pinyin_numeric": "dao3hang2 shuo1 yao4 cong2 zhe4li3 huan4 xian4, ke3shi4 wo3 bu4 zhi1dao4 zen3 me0 zou3.",
     "translation_en": "The navigation says to transfer lines here, but I don't know how to go.",
     "translation_ko": "내비게이션이 여기서 노선을 갈아타라고 하는데, 어떻게 가야 할지 모르겠어요.",
     "token_ids": [
@@ -21327,7 +21327,7 @@
     "id": "SEN_D39_075",
     "text": "末班車已經走了，怎麼辦？",
     "pinyin": "Mòbān chē yǐjīng zǒu le, zěnme bàn?",
-    "pinyin_numeric": "mo4ban1 che1 yi3jing1 zou3 le0, zen3me0 ban4?",
+    "pinyin_numeric": "mo4ban1 che1 yi3jing1 zou3 le0, zen3 me0 ban4?",
     "translation_en": "The last train has already left. What should we do?",
     "translation_ko": "막차가 이미 떠났어요. 어떻게 하죠?",
     "token_ids": [
@@ -26307,7 +26307,7 @@
     "id": "SEN_D41_073",
     "text": "你為什麼想喝咖啡？",
     "pinyin": "Nǐ wèishénme xiǎng hē kāfēi?",
-    "pinyin_numeric": "ni3 wei4shen2me0 xiang3 he1 ka1fei1",
+    "pinyin_numeric": "ni3 wei4 shen2 me0 xiang3 he1 ka1fei1",
     "translation_en": "Why do you want to drink coffee?",
     "translation_ko": "왜 커피를 마시고 싶으세요?",
     "token_ids": [
@@ -26334,7 +26334,7 @@
     "id": "SEN_D41_075",
     "text": "他為什麼不想買？",
     "pinyin": "Tā wèishénme bù xiǎng mǎi?",
-    "pinyin_numeric": "ta1 wei4shen2me0 bu4 xiang3 mai3",
+    "pinyin_numeric": "ta1 wei4 shen2 me0 bu4 xiang3 mai3",
     "translation_en": "Why doesn't he want to buy it?",
     "translation_ko": "그는 왜 사고 싶지 않나요?",
     "token_ids": [
@@ -26388,7 +26388,7 @@
     "id": "SEN_D41_077",
     "text": "你為什麼想休息？",
     "pinyin": "Nǐ wèishénme xiǎng xiūxí?",
-    "pinyin_numeric": "ni3 wei4shen2me0 xiang3 xiu1xi2",
+    "pinyin_numeric": "ni3 wei4 shen2 me0 xiang3 xiu1xi2",
     "translation_en": "Why do you want to rest?",
     "translation_ko": "왜 쉬고 싶으세요?",
     "token_ids": [
@@ -26444,7 +26444,7 @@
     "id": "SEN_D41_079",
     "text": "她為什麼不想喝？",
     "pinyin": "Tā wèishénme bù xiǎng hē?",
-    "pinyin_numeric": "ta1 wei4shen2me0 bu4 xiang3 he1",
+    "pinyin_numeric": "ta1 wei4 shen2 me0 bu4 xiang3 he1",
     "translation_en": "Why doesn't she want to drink?",
     "translation_ko": "그녀는 왜 마시고 싶지 않나요?",
     "token_ids": [
@@ -30408,7 +30408,7 @@
     "id": "SEN_D43_031",
     "text": "你穿什麼尺寸的衣服？",
     "pinyin": "Nǐ chuān shénme chǐcùn de yīfu?",
-    "pinyin_numeric": "ni3 chuan1 shen2me chi3cun4 de5 yi1fu5",
+    "pinyin_numeric": "ni3 chuan1 shen2 me0 chi3cun4 de5 yi1fu5",
     "translation_en": "What size clothes do you wear?",
     "translation_ko": "무슨 사이즈 옷을 입으세요?",
     "token_ids": [

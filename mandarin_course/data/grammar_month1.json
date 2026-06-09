@@ -1315,7 +1315,7 @@
           },
           {
             "text": "為什麼",
-            "pinyin": "wèishéme",
+            "pinyin": "wèishénme",
             "meaning_en": "why",
             "meaning_ko": "왜",
             "vocab_id": "VOC_M1_074"
@@ -1375,7 +1375,7 @@
       },
       {
         "text": "你為什麼學中文？",
-        "pinyin": "Nǐ wèishéme xué Zhōngwén?",
+        "pinyin": "Nǐ wèishénme xué Zhōngwén?",
         "translation_en": "Why do you study Chinese?",
         "translation_ko": "왜 중국어를 배웁니까?",
         "slot_values": {}

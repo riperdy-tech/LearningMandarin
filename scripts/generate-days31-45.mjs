@@ -195,7 +195,7 @@ const FALLBACK_BY_TOPIC = {
   reason: [
     "因為|yīnwèi|yin1 wei4|conjunction|because|왜냐하면|reason",
     "所以|suǒyǐ|suo3 yi3|conjunction|so|그래서|reason",
-    "為什麼|wèishéme|wei4 shen2 me0|question word|why|왜|reason",
+    "為什麼|wèishénme|wei4 shen2 me0|question word|why|왜|reason",
     "理由|lǐyóu|li3 you2|noun|reason|이유|reason",
     "太貴|tài guì|tai4 gui4|phrase|too expensive|너무 비싸다|reason",
     "太遠|tài yuǎn|tai4 yuan3|phrase|too far|너무 멀다|reason",

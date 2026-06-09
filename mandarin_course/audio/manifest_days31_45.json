@@ -955,7 +955,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D31_01",
     "text": "你好，請問想要喝什麼？",
-    "pinyin_numeric": "Ni3 hao3, qing3 wen4 xiang3 yao4 he1 shen2 me?",
+    "pinyin_numeric": "Ni3 hao3, qing3 wen4 xiang3 yao4 he1 shen2 me0?",
     "path": "audio/AUD_DLG_D31_01_T1.mp3",
     "status": "placeholder"
   },
@@ -1072,7 +1072,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D31_03",
     "text": "你好，請問想要喝什麼？",
-    "pinyin_numeric": "Ni3 hao3, qing3 wen4 xiang3 yao4 he1 shen2 me?",
+    "pinyin_numeric": "Ni3 hao3, qing3 wen4 xiang3 yao4 he1 shen2 me0?",
     "path": "audio/AUD_DLG_D31_03_T1.mp3",
     "status": "placeholder"
   },
@@ -1090,7 +1090,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D31_03",
     "text": "沒問題。請問...想要喝什麼？",
-    "pinyin_numeric": "Mei2 wen4 ti2. Qing3 wen4... xiang3 yao4 he1 shen2 me?",
+    "pinyin_numeric": "Mei2 wen4 ti2. Qing3 wen4... xiang3 yao4 he1 shen2 me0?",
     "path": "audio/AUD_DLG_D31_03_T3.mp3",
     "status": "placeholder"
   },
@@ -3142,7 +3142,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D33_021",
     "text": "請問洗手間從這裡到那裡怎麼走？",
-    "pinyin_numeric": "qing3 wen4 xi3 shou3 jian1 cong2 zhe4 li3 dao4 na4 li3 zen3 me5 zou3",
+    "pinyin_numeric": "qing3 wen4 xi3 shou3 jian1 cong2 zhe4 li3 dao4 na4 li3 zen3 me0 zou3",
     "path": "audio/AUD_SEN_D33_021.mp3",
     "status": "placeholder"
   },
@@ -3187,7 +3187,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D33_026",
     "text": "請問從這裡到服務台怎麼走？",
-    "pinyin_numeric": "qing3 wen4 cong2 zhe4 li3 dao4 fu2 wu4 tai2 zen3 me5 zou3",
+    "pinyin_numeric": "qing3 wen4 cong2 zhe4 li3 dao4 fu2 wu4 tai2 zen3 me0 zou3",
     "path": "audio/AUD_SEN_D33_026.mp3",
     "status": "placeholder"
   },
@@ -3412,7 +3412,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D33_055",
     "text": "請問服務台從這裡到那裡要怎麼走？",
-    "pinyin_numeric": "qing3wen4 fu2wu4tai2 cong2 zhe4li3 dao4 na4li3 yao4 zen3me zou3",
+    "pinyin_numeric": "qing3wen4 fu2wu4tai2 cong2 zhe4li3 dao4 na4li3 yao4 zen3 me0 zou3",
     "path": "audio/AUD_SEN_D33_055.mp3",
     "status": "placeholder"
   },
@@ -3772,7 +3772,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D33_03",
     "text": "好的，請問要怎麼上去？有電梯嗎？",
-    "pinyin_numeric": "hao3 de5, qing3 wen4 yao4 zen3 me5 shang4 qu4? you3 dian4 ti1 ma5?",
+    "pinyin_numeric": "hao3 de5, qing3 wen4 yao4 zen3 me0 shang4 qu4? you3 dian4 ti1 ma5?",
     "path": "audio/AUD_DLG_D33_03_T3.mp3",
     "status": "placeholder"
   },
@@ -3961,7 +3961,7 @@
     "kind": "listening",
     "ref_id": "LIS_D33_19",
     "text": "請問服務台從這裡到那裡要怎麼走？",
-    "pinyin_numeric": "qing3wen4 fu2wu4tai2 cong2 zhe4li3 dao4 na4li3 yao4 zen3me zou3",
+    "pinyin_numeric": "qing3wen4 fu2wu4tai2 cong2 zhe4li3 dao4 na4li3 yao4 zen3 me0 zou3",
     "path": "audio/AUD_LIS_D33_19.mp3",
     "status": "placeholder"
   },
@@ -4789,7 +4789,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D34_01",
     "text": "你好，請問要點什麼？",
-    "pinyin_numeric": "Ni3 hao3, qing3 wen4 yao4 dian3 shen2 me?",
+    "pinyin_numeric": "Ni3 hao3, qing3 wen4 yao4 dian3 shen2 me0?",
     "path": "audio/AUD_DLG_D34_01_T1.mp3",
     "status": "placeholder"
   },
@@ -4825,7 +4825,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D34_01",
     "text": "請問要喝什麼飲料嗎？",
-    "pinyin_numeric": "Qing3 wen4 yao4 he1 shen2 me yin3 liao4 ma?",
+    "pinyin_numeric": "Qing3 wen4 yao4 he1 shen2 me0 yin3 liao4 ma?",
     "path": "audio/AUD_DLG_D34_01_T5.mp3",
     "status": "placeholder"
   },
@@ -4843,7 +4843,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D34_02",
     "text": "你好，請問要喝什麼？",
-    "pinyin_numeric": "Ni3 hao3, qing3 wen4 yao4 he1 shen2 me?",
+    "pinyin_numeric": "Ni3 hao3, qing3 wen4 yao4 he1 shen2 me0?",
     "path": "audio/AUD_DLG_D34_02_T1.mp3",
     "status": "placeholder"
   },
@@ -4897,7 +4897,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D34_03",
     "text": "你好，我第一次來，請問有什麼推薦？",
-    "pinyin_numeric": "Ni3 hao3, wo3 di4 yi1 ci4 lai2, qing3 wen4 you3 shen2 me tui1 jian4?",
+    "pinyin_numeric": "Ni3 hao3, wo3 di4 yi1 ci4 lai2, qing3 wen4 you3 shen2 me0 tui1 jian4?",
     "path": "audio/AUD_DLG_D34_03_T1.mp3",
     "status": "placeholder"
   },
@@ -7525,7 +7525,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D36_02",
     "text": "你晚上做什麼？",
-    "pinyin_numeric": "Ni3 wan3shang zuo4 shen2me?",
+    "pinyin_numeric": "Ni3 wan3shang zuo4 shen2 me0?",
     "path": "audio/AUD_DLG_D36_02_T5.mp3",
     "status": "placeholder"
   },
@@ -7552,7 +7552,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D36_03",
     "text": "今天晚上我有空。你想做什麼？",
-    "pinyin_numeric": "Jin1tian1 wan3shang wo3 you3 kong4. Ni3 xiang3 zuo4 shen2me?",
+    "pinyin_numeric": "Jin1tian1 wan3shang wo3 you3 kong4. Ni3 xiang3 zuo4 shen2 me0?",
     "path": "audio/AUD_DLG_D36_03_T2.mp3",
     "status": "placeholder"
   },
@@ -7570,7 +7570,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D36_03",
     "text": "好，沒問題。你想吃什麼？",
-    "pinyin_numeric": "Hao3, mei2 wen4ti2. Ni3 xiang3 chi1 shen2me?",
+    "pinyin_numeric": "Hao3, mei2 wen4ti2. Ni3 xiang3 chi1 shen2 me0?",
     "path": "audio/AUD_DLG_D36_03_T4.mp3",
     "status": "placeholder"
   },
@@ -8281,7 +8281,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D37_021",
     "text": "你什麼時候有空？我們可以一起去喝咖啡。",
-    "pinyin_numeric": "ni3 shen2me shi2hou you3 kong4? wo3men ke3yi3 yi1qi3 qu4 he1 ka1fei1.",
+    "pinyin_numeric": "ni3 shen2 me0 shi2hou you3 kong4? wo3men ke3yi3 yi1qi3 qu4 he1 ka1fei1.",
     "path": "audio/AUD_SEN_D37_021.mp3",
     "status": "placeholder"
   },
@@ -8290,7 +8290,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D37_022",
     "text": "我們什麼時候見面？我想跟你一起看電影。",
-    "pinyin_numeric": "wo3men shen2me shi2hou jian4mian4? wo3 xiang3 gen1 ni3 yi1qi3 kan4 dian4ying3.",
+    "pinyin_numeric": "wo3men shen2 me0 shi2hou jian4mian4? wo3 xiang3 gen1 ni3 yi1qi3 kan4 dian4ying3.",
     "path": "audio/AUD_SEN_D37_022.mp3",
     "status": "placeholder"
   },
@@ -8299,7 +8299,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D37_023",
     "text": "你什麼時候要吃飯？我們可以約在餐廳門口碰面。",
-    "pinyin_numeric": "ni3 shen2me shi2hou yao4 chi1fan4? wo3men ke3yi3 yue1 zai4 can1ting1 men2kou3 peng4mian4.",
+    "pinyin_numeric": "ni3 shen2 me0 shi2hou yao4 chi1fan4? wo3men ke3yi3 yue1 zai4 can1ting1 men2kou3 peng4mian4.",
     "path": "audio/AUD_SEN_D37_023.mp3",
     "status": "placeholder"
   },
@@ -8308,7 +8308,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D37_024",
     "text": "他什麼時候下班？我們打算一起去逛街。",
-    "pinyin_numeric": "ta1 shen2me shi2hou xia4ban1? wo3men da3suan4 yi1qi3 qu4 guang4jie1.",
+    "pinyin_numeric": "ta1 shen2 me0 shi2hou xia4ban1? wo3men da3suan4 yi1qi3 qu4 guang4jie1.",
     "path": "audio/AUD_SEN_D37_024.mp3",
     "status": "placeholder"
   },
@@ -8317,7 +8317,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D37_025",
     "text": "你什麼時候要見朋友？我們可以一起去喝咖啡聊天。",
-    "pinyin_numeric": "ni3 shen2me shi2hou yao4 jian4 peng2you? wo3men ke3yi3 yi1qi3 qu4 he1 ka1fei1 liao2tian1.",
+    "pinyin_numeric": "ni3 shen2 me0 shi2hou yao4 jian4 peng2you? wo3men ke3yi3 yi1qi3 qu4 he1 ka1fei1 liao2tian1.",
     "path": "audio/AUD_SEN_D37_025.mp3",
     "status": "placeholder"
   },
@@ -8326,7 +8326,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D37_026",
     "text": "我們什麼時候約時間？我想跟你一起去看電影。",
-    "pinyin_numeric": "wo3men shen2me shi2hou yue1 shi2jian1? wo3 xiang3 gen1 ni3 yi1qi3 qu4 kan4 dian4ying3.",
+    "pinyin_numeric": "wo3men shen2 me0 shi2hou yue1 shi2jian1? wo3 xiang3 gen1 ni3 yi1qi3 qu4 kan4 dian4ying3.",
     "path": "audio/AUD_SEN_D37_026.mp3",
     "status": "placeholder"
   },
@@ -8335,7 +8335,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D37_027",
     "text": "你什麼時候要取消約會？我們可以改天再見面。",
-    "pinyin_numeric": "ni3 shen2me shi2hou yao4 qu3xiao1 yue1hui4? wo3men ke3yi3 gai3tian1 zai4 jian4mian4.",
+    "pinyin_numeric": "ni3 shen2 me0 shi2hou yao4 qu3xiao1 yue1hui4? wo3men ke3yi3 gai3tian1 zai4 jian4mian4.",
     "path": "audio/AUD_SEN_D37_027.mp3",
     "status": "placeholder"
   },
@@ -8344,7 +8344,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D37_028",
     "text": "她什麼時候要提早到？我們可以在咖啡店等她。",
-    "pinyin_numeric": "ta1 shen2me shi2hou yao4 ti2zao3 dao4? wo3men ke3yi3 zai4 ka1fei1 dian4 deng3 ta1.",
+    "pinyin_numeric": "ta1 shen2 me0 shi2hou yao4 ti2zao3 dao4? wo3men ke3yi3 zai4 ka1fei1 dian4 deng3 ta1.",
     "path": "audio/AUD_SEN_D37_028.mp3",
     "status": "placeholder"
   },
@@ -8353,7 +8353,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D37_029",
     "text": "你什麼時候要延後約會？我們可以下次再約。",
-    "pinyin_numeric": "ni3 shen2me shi2hou yao4 yan2hou4 yue1hui4? wo3men ke3yi3 xia4ci4 zai4 yue1.",
+    "pinyin_numeric": "ni3 shen2 me0 shi2hou yao4 yan2hou4 yue1hui4? wo3men ke3yi3 xia4ci4 zai4 yue1.",
     "path": "audio/AUD_SEN_D37_029.mp3",
     "status": "placeholder"
   },
@@ -8362,7 +8362,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D37_030",
     "text": "我們什麼時候要碰面？你可以在捷運站等我。",
-    "pinyin_numeric": "wo3men shen2me shi2hou yao4 peng4mian4? ni3 ke3yi3 zai4 jie2yun4 zhan4 deng3 wo3.",
+    "pinyin_numeric": "wo3men shen2 me0 shi2hou yao4 peng4mian4? ni3 ke3yi3 zai4 jie2yun4 zhan4 deng3 wo3.",
     "path": "audio/AUD_SEN_D37_030.mp3",
     "status": "placeholder"
   },
@@ -8551,7 +8551,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D37_052",
     "text": "我們什麼時候見面？我想跟你一起去看電影。",
-    "pinyin_numeric": "wo3men shen2me shi2hou4 jian4mian4? wo3 xiang3 gen1 ni3 yi1qi3 qu4 kan4 dian4ying3.",
+    "pinyin_numeric": "wo3men shen2 me0 shi2hou4 jian4mian4? wo3 xiang3 gen1 ni3 yi1qi3 qu4 kan4 dian4ying3.",
     "path": "audio/AUD_SEN_D37_052.mp3",
     "status": "placeholder"
   },
@@ -8560,7 +8560,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D37_053",
     "text": "你什麼時候要吃飯？我們約在餐廳門口碰面。",
-    "pinyin_numeric": "ni3 shen2me shi2hou4 yao4 chi1fan4? wo3men yue1 zai4 can1ting1 men2kou3 peng4mian4.",
+    "pinyin_numeric": "ni3 shen2 me0 shi2hou4 yao4 chi1fan4? wo3men yue1 zai4 can1ting1 men2kou3 peng4mian4.",
     "path": "audio/AUD_SEN_D37_053.mp3",
     "status": "placeholder"
   },
@@ -8569,7 +8569,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D37_054",
     "text": "他什麼時候下班？我們可以約晚上一起逛街。",
-    "pinyin_numeric": "ta1 shen2me shi2hou4 xia4ban1? wo3men ke3yi3 yue1 wan3shang4 yi1qi3 guang4jie1.",
+    "pinyin_numeric": "ta1 shen2 me0 shi2hou4 xia4ban1? wo3men ke3yi3 yue1 wan3shang4 yi1qi3 guang4jie1.",
     "path": "audio/AUD_SEN_D37_054.mp3",
     "status": "placeholder"
   },
@@ -8578,7 +8578,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D37_056",
     "text": "我們什麼時候約時間？這個週末你有空嗎？",
-    "pinyin_numeric": "wo3men shen2me shi2hou4 yue1 shi2jian1? zhe4ge zhou1mo4 ni3 you3 kong4 ma0?",
+    "pinyin_numeric": "wo3men shen2 me0 shi2hou4 yue1 shi2jian1? zhe4ge zhou1mo4 ni3 you3 kong4 ma0?",
     "path": "audio/AUD_SEN_D37_056.mp3",
     "status": "placeholder"
   },
@@ -8587,7 +8587,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D37_057",
     "text": "你什麼時候要取消約會？因為我最近很忙。",
-    "pinyin_numeric": "ni3 shen2me shi2hou4 yao4 qu3xiao1 yue1hui4? yin1wei4 wo3 zui4jin4 hen3 mang2.",
+    "pinyin_numeric": "ni3 shen2 me0 shi2hou4 yao4 qu3xiao1 yue1hui4? yin1wei4 wo3 zui4jin4 hen3 mang2.",
     "path": "audio/AUD_SEN_D37_057.mp3",
     "status": "placeholder"
   },
@@ -8596,7 +8596,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D37_058",
     "text": "她什麼時候要提早到？我們在咖啡店等她。",
-    "pinyin_numeric": "ta1 shen2me shi2hou4 yao4 ti2zao3 dao4? wo3men zai4 ka1fei1dian4 deng3 ta1.",
+    "pinyin_numeric": "ta1 shen2 me0 shi2hou4 yao4 ti2zao3 dao4? wo3men zai4 ka1fei1dian4 deng3 ta1.",
     "path": "audio/AUD_SEN_D37_058.mp3",
     "status": "placeholder"
   },
@@ -8605,7 +8605,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D37_059",
     "text": "你什麼時候要傳訊息？我們可以再聯絡。",
-    "pinyin_numeric": "ni3 shen2me shi2hou4 yao4 chuan2 xun4xi1? wo3men ke3yi3 zai4 lian2luo4.",
+    "pinyin_numeric": "ni3 shen2 me0 shi2hou4 yao4 chuan2 xun4xi1? wo3men ke3yi3 zai4 lian2luo4.",
     "path": "audio/AUD_SEN_D37_059.mp3",
     "status": "placeholder"
   },
@@ -8614,7 +8614,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D37_060",
     "text": "我們什麼時候要約好？下次再一起去看電影。",
-    "pinyin_numeric": "wo3men shen2me shi2hou4 yao4 yue1 hao3? xia4 ci4 zai4 yi1qi3 qu4 kan4 dian4ying3.",
+    "pinyin_numeric": "wo3men shen2 me0 shi2hou4 yao4 yue1 hao3? xia4 ci4 zai4 yi1qi3 qu4 kan4 dian4ying3.",
     "path": "audio/AUD_SEN_D37_060.mp3",
     "status": "placeholder"
   },
@@ -8749,7 +8749,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D37_084",
     "text": "你什麼時候下班？我們可以一起去逛街。",
-    "pinyin_numeric": "ni3 shen2me shi2hou xia4ban1? wo3men ke3yi3 yi1qi3 qu4 guang4jie1.",
+    "pinyin_numeric": "ni3 shen2 me0 shi2hou xia4ban1? wo3men ke3yi3 yi1qi3 qu4 guang4jie1.",
     "path": "audio/AUD_SEN_D37_084.mp3",
     "status": "placeholder"
   },
@@ -8758,7 +8758,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D37_085",
     "text": "他什麼時候要來？我們約好了在咖啡店見面。",
-    "pinyin_numeric": "ta1 shen2me shi2hou yao4 lai2? wo3men yue1 hao3 le0 zai4 ka1fei1 dian4 jian4mian4.",
+    "pinyin_numeric": "ta1 shen2 me0 shi2hou yao4 lai2? wo3men yue1 hao3 le0 zai4 ka1fei1 dian4 jian4mian4.",
     "path": "audio/AUD_SEN_D37_085.mp3",
     "status": "placeholder"
   },
@@ -8767,7 +8767,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D37_086",
     "text": "你什麼時候有空檔？我想跟你聊天。",
-    "pinyin_numeric": "ni3 shen2me shi2hou you3 kong4dang4? wo3 xiang3 gen1 ni3 liao2tian1.",
+    "pinyin_numeric": "ni3 shen2 me0 shi2hou you3 kong4dang4? wo3 xiang3 gen1 ni3 liao2tian1.",
     "path": "audio/AUD_SEN_D37_086.mp3",
     "status": "placeholder"
   },
@@ -8776,7 +8776,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D37_087",
     "text": "我們什麼時候去吃飯？我最近很忙，可是週末可以。",
-    "pinyin_numeric": "wo3men shen2me shi2hou qu4 chi1fan4? wo3 zui4jin4 hen3 mang2, ke3shi4 zhou1mo4 ke3yi3.",
+    "pinyin_numeric": "wo3men shen2 me0 shi2hou qu4 chi1fan4? wo3 zui4jin4 hen3 mang2, ke3shi4 zhou1mo4 ke3yi3.",
     "path": "audio/AUD_SEN_D37_087.mp3",
     "status": "placeholder"
   },
@@ -8785,7 +8785,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D37_088",
     "text": "你什麼時候要打電話？我們可以再聯絡。",
-    "pinyin_numeric": "ni3 shen2me shi2hou yao4 da3 dian4hua4? wo3men ke3yi3 zai4 lian2luo4.",
+    "pinyin_numeric": "ni3 shen2 me0 shi2hou yao4 da3 dian4hua4? wo3men ke3yi3 zai4 lian2luo4.",
     "path": "audio/AUD_SEN_D37_088.mp3",
     "status": "placeholder"
   },
@@ -8794,7 +8794,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D37_089",
     "text": "她什麼時候要見朋友？她說下個星期有空。",
-    "pinyin_numeric": "ta1 shen2me shi2hou yao4 jian4 peng2you3? ta1 shuo1 xia4 ge0 xing1qi1 you3 kong4.",
+    "pinyin_numeric": "ta1 shen2 me0 shi2hou yao4 jian4 peng2you3? ta1 shuo1 xia4 ge0 xing1qi1 you3 kong4.",
     "path": "audio/AUD_SEN_D37_089.mp3",
     "status": "placeholder"
   },
@@ -8803,7 +8803,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D37_090",
     "text": "你什麼時候要傳訊息？我們可以約時間。",
-    "pinyin_numeric": "ni3 shen2me shi2hou yao4 chuan2 xun4xi1? wo3men ke3yi3 yue1 shi2jian1.",
+    "pinyin_numeric": "ni3 shen2 me0 shi2hou yao4 chuan2 xun4xi1? wo3men ke3yi3 yue1 shi2jian1.",
     "path": "audio/AUD_SEN_D37_090.mp3",
     "status": "placeholder"
   },
@@ -8866,7 +8866,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D37_02",
     "text": "可以啊！你想看什麼電影？",
-    "pinyin_numeric": "Ke3yi3 a5! Ni3 xiang3 kan4 shen2me5 dian4ying3?",
+    "pinyin_numeric": "Ke3yi3 a5! Ni3 xiang3 kan4 shen2 me0 dian4ying3?",
     "path": "audio/AUD_DLG_D37_02_T2.mp3",
     "status": "placeholder"
   },
@@ -9010,7 +9010,7 @@
     "kind": "listening",
     "ref_id": "LIS_D37_08",
     "text": "我們什麼時候見面？我想跟你一起看電影。",
-    "pinyin_numeric": "wo3men shen2me shi2hou jian4mian4? wo3 xiang3 gen1 ni3 yi1qi3 kan4 dian4ying3.",
+    "pinyin_numeric": "wo3men shen2 me0 shi2hou jian4mian4? wo3 xiang3 gen1 ni3 yi1qi3 kan4 dian4ying3.",
     "path": "audio/AUD_LIS_D37_08.mp3",
     "status": "placeholder"
   },
@@ -9019,7 +9019,7 @@
     "kind": "listening",
     "ref_id": "LIS_D37_09",
     "text": "你什麼時候要見朋友？我們可以一起去喝咖啡聊天。",
-    "pinyin_numeric": "ni3 shen2me shi2hou yao4 jian4 peng2you? wo3men ke3yi3 yi1qi3 qu4 he1 ka1fei1 liao2tian1.",
+    "pinyin_numeric": "ni3 shen2 me0 shi2hou yao4 jian4 peng2you? wo3men ke3yi3 yi1qi3 qu4 he1 ka1fei1 liao2tian1.",
     "path": "audio/AUD_LIS_D37_09.mp3",
     "status": "placeholder"
   },
@@ -9028,7 +9028,7 @@
     "kind": "listening",
     "ref_id": "LIS_D37_10",
     "text": "她什麼時候要提早到？我們可以在咖啡店等她。",
-    "pinyin_numeric": "ta1 shen2me shi2hou yao4 ti2zao3 dao4? wo3men ke3yi3 zai4 ka1fei1 dian4 deng3 ta1.",
+    "pinyin_numeric": "ta1 shen2 me0 shi2hou yao4 ti2zao3 dao4? wo3men ke3yi3 zai4 ka1fei1 dian4 deng3 ta1.",
     "path": "audio/AUD_LIS_D37_10.mp3",
     "status": "placeholder"
   },
@@ -9100,7 +9100,7 @@
     "kind": "listening",
     "ref_id": "LIS_D37_18",
     "text": "我們什麼時候見面？我想跟你一起去看電影。",
-    "pinyin_numeric": "wo3men shen2me shi2hou4 jian4mian4? wo3 xiang3 gen1 ni3 yi1qi3 qu4 kan4 dian4ying3.",
+    "pinyin_numeric": "wo3men shen2 me0 shi2hou4 jian4mian4? wo3 xiang3 gen1 ni3 yi1qi3 qu4 kan4 dian4ying3.",
     "path": "audio/AUD_LIS_D37_18.mp3",
     "status": "placeholder"
   },
@@ -9118,7 +9118,7 @@
     "kind": "listening",
     "ref_id": "LIS_D37_20",
     "text": "她什麼時候要提早到？我們在咖啡店等她。",
-    "pinyin_numeric": "ta1 shen2me shi2hou4 yao4 ti2zao3 dao4? wo3men zai4 ka1fei1dian4 deng3 ta1.",
+    "pinyin_numeric": "ta1 shen2 me0 shi2hou4 yao4 ti2zao3 dao4? wo3men zai4 ka1fei1dian4 deng3 ta1.",
     "path": "audio/AUD_LIS_D37_20.mp3",
     "status": "placeholder"
   },
@@ -9577,7 +9577,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D38_011",
     "text": "從車站到醫院怎麼去？",
-    "pinyin_numeric": "cong2 che1zhan4 dao4 yi1yuan4 zen3me5 qu4",
+    "pinyin_numeric": "cong2 che1zhan4 dao4 yi1yuan4 zen3 me0 qu4",
     "path": "audio/AUD_SEN_D38_011.mp3",
     "status": "placeholder"
   },
@@ -9613,7 +9613,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D38_015",
     "text": "從圖書館到公園怎麼去？搭公車還是走路？",
-    "pinyin_numeric": "cong2 tu2shu1guan3 dao4 gong1yuan2 zen3me5 qu4? da1 gong1che1 hai2shi4 zou3lu4?",
+    "pinyin_numeric": "cong2 tu2shu1guan3 dao4 gong1yuan2 zen3 me0 qu4? da1 gong1che1 hai2shi4 zou3lu4?",
     "path": "audio/AUD_SEN_D38_015.mp3",
     "status": "placeholder"
   },
@@ -9838,7 +9838,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D38_044",
     "text": "從圖書館到捷運站怎麼去？",
-    "pinyin_numeric": "cong2 tu2shu1guan3 dao4 jie2yun4zhan4 zen3me qu4",
+    "pinyin_numeric": "cong2 tu2shu1guan3 dao4 jie2yun4zhan4 zen3 me0 qu4",
     "path": "audio/AUD_SEN_D38_044.mp3",
     "status": "placeholder"
   },
@@ -9874,7 +9874,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D38_048",
     "text": "從捷運站到餐廳怎麼去？",
-    "pinyin_numeric": "cong2 jie2yun4zhan4 dao4 can1ting1 zen3me qu4",
+    "pinyin_numeric": "cong2 jie2yun4zhan4 dao4 can1ting1 zen3 me0 qu4",
     "path": "audio/AUD_SEN_D38_048.mp3",
     "status": "placeholder"
   },
@@ -10099,7 +10099,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D38_076",
     "text": "從圖書館到餐廳怎麼去？搭公車還是走路？",
-    "pinyin_numeric": "cong2 tu2shu1guan3 dao4 can1ting1 zen3me qu4? da1 gong1che1 hai2shi4 zou3lu4?",
+    "pinyin_numeric": "cong2 tu2shu1guan3 dao4 can1ting1 zen3 me0 qu4? da1 gong1che1 hai2shi4 zou3lu4?",
     "path": "audio/AUD_SEN_D38_076.mp3",
     "status": "placeholder"
   },
@@ -10135,7 +10135,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D38_080",
     "text": "從這裡到銀行怎麼去？可以先搭公車，再轉捷運。",
-    "pinyin_numeric": "cong2 zhe4li3 dao4 yin2hang2 zen3me qu4? ke3yi3 xian1 da1 gong1che1, zai4 zhuan3 jie2yun4.",
+    "pinyin_numeric": "cong2 zhe4li3 dao4 yin2hang2 zen3 me0 qu4? ke3yi3 xian1 da1 gong1che1, zai4 zhuan3 jie2yun4.",
     "path": "audio/AUD_SEN_D38_080.mp3",
     "status": "placeholder"
   },
@@ -10972,7 +10972,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D39_010",
     "text": "我趕時間，可是坐反方向了，怎麼辦？",
-    "pinyin_numeric": "wo3 gan3 shi2jian1, ke3shi4 zuo4 fan3 fang1xiang4 le0, zen3me0 ban4?",
+    "pinyin_numeric": "wo3 gan3 shi2jian1, ke3shi4 zuo4 fan3 fang1xiang4 le0, zen3 me0 ban4?",
     "path": "audio/AUD_SEN_D39_010.mp3",
     "status": "placeholder"
   },
@@ -11017,7 +11017,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D39_015",
     "text": "請問，我坐過站了，現在怎麼辦？",
-    "pinyin_numeric": "qing3wen4, wo3 zuo4 guo4 zhan4 le0, xian4zai4 zen3me0 ban4?",
+    "pinyin_numeric": "qing3wen4, wo3 zuo4 guo4 zhan4 le0, xian4zai4 zen3 me0 ban4?",
     "path": "audio/AUD_SEN_D39_015.mp3",
     "status": "placeholder"
   },
@@ -11278,7 +11278,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D39_045",
     "text": "末班車已經走了，我們怎麼辦？",
-    "pinyin_numeric": "mo4ban1 che1 yi3jing1 zou3 le0, wo3men0 zen3me0 ban4?",
+    "pinyin_numeric": "mo4ban1 che1 yi3jing1 zou3 le0, wo3men0 zen3 me0 ban4?",
     "path": "audio/AUD_SEN_D39_045.mp3",
     "status": "placeholder"
   },
@@ -11449,7 +11449,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D39_068",
     "text": "導航說要從這裡換線，可是我不知道怎麼走。",
-    "pinyin_numeric": "dao3hang2 shuo1 yao4 cong2 zhe4li3 huan4 xian4, ke3shi4 wo3 bu4 zhi1dao4 zen3me0 zou3.",
+    "pinyin_numeric": "dao3hang2 shuo1 yao4 cong2 zhe4li3 huan4 xian4, ke3shi4 wo3 bu4 zhi1dao4 zen3 me0 zou3.",
     "path": "audio/AUD_SEN_D39_068.mp3",
     "status": "placeholder"
   },
@@ -11485,7 +11485,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D39_075",
     "text": "末班車已經走了，怎麼辦？",
-    "pinyin_numeric": "mo4ban1 che1 yi3jing1 zou3 le0, zen3me0 ban4?",
+    "pinyin_numeric": "mo4ban1 che1 yi3jing1 zou3 le0, zen3 me0 ban4?",
     "path": "audio/AUD_SEN_D39_075.mp3",
     "status": "placeholder"
   },
@@ -11800,7 +11800,7 @@
     "kind": "listening",
     "ref_id": "LIS_D39_04",
     "text": "我趕時間，可是坐反方向了，怎麼辦？",
-    "pinyin_numeric": "wo3 gan3 shi2jian1, ke3shi4 zuo4 fan3 fang1xiang4 le0, zen3me0 ban4?",
+    "pinyin_numeric": "wo3 gan3 shi2jian1, ke3shi4 zuo4 fan3 fang1xiang4 le0, zen3 me0 ban4?",
     "path": "audio/AUD_LIS_D39_04.mp3",
     "status": "placeholder"
   },
@@ -12700,7 +12700,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D40_01",
     "text": "你好，請問需要什麼？",
-    "pinyin_numeric": "Ni3 hao3, qing3 wen4 xu1yao4 shen2me?",
+    "pinyin_numeric": "Ni3 hao3, qing3 wen4 xu1yao4 shen2 me0?",
     "path": "audio/AUD_DLG_D40_01_T1.mp3",
     "status": "placeholder"
   },
@@ -12718,7 +12718,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D40_01",
     "text": "好的，總共一百二十塊。請問要怎麼付款？",
-    "pinyin_numeric": "Hao3 de, zong3gong4 yi1 bai3 er4 shi2 kuai4. Qing3 wen4 yao4 zen3me fu4kuan3?",
+    "pinyin_numeric": "Hao3 de, zong3gong4 yi1 bai3 er4 shi2 kuai4. Qing3 wen4 yao4 zen3 me0 fu4kuan3?",
     "path": "audio/AUD_DLG_D40_01_T3.mp3",
     "status": "placeholder"
   },
@@ -12745,7 +12745,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D40_01",
     "text": "謝謝。請問捷運站怎麼走？",
-    "pinyin_numeric": "Xie4xie. Qing3 wen4 jie2yun4 zhan4 zen3me zou3?",
+    "pinyin_numeric": "Xie4xie. Qing3 wen4 jie2yun4 zhan4 zen3 me0 zou3?",
     "path": "audio/AUD_DLG_D40_01_T6.mp3",
     "status": "placeholder"
   },
@@ -13870,7 +13870,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D41_073",
     "text": "你為什麼想喝咖啡？",
-    "pinyin_numeric": "ni3 wei4shen2me0 xiang3 he1 ka1fei1",
+    "pinyin_numeric": "ni3 wei4 shen2 me0 xiang3 he1 ka1fei1",
     "path": "audio/AUD_SEN_D41_073.mp3",
     "status": "placeholder"
   },
@@ -13879,7 +13879,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D41_075",
     "text": "他為什麼不想買？",
-    "pinyin_numeric": "ta1 wei4shen2me0 bu4 xiang3 mai3",
+    "pinyin_numeric": "ta1 wei4 shen2 me0 bu4 xiang3 mai3",
     "path": "audio/AUD_SEN_D41_075.mp3",
     "status": "placeholder"
   },
@@ -13897,7 +13897,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D41_077",
     "text": "你為什麼想休息？",
-    "pinyin_numeric": "ni3 wei4shen2me0 xiang3 xiu1xi2",
+    "pinyin_numeric": "ni3 wei4 shen2 me0 xiang3 xiu1xi2",
     "path": "audio/AUD_SEN_D41_077.mp3",
     "status": "placeholder"
   },
@@ -13915,7 +13915,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D41_079",
     "text": "她為什麼不想喝？",
-    "pinyin_numeric": "ta1 wei4shen2me0 bu4 xiang3 he1",
+    "pinyin_numeric": "ta1 wei4 shen2 me0 bu4 xiang3 he1",
     "path": "audio/AUD_SEN_D41_079.mp3",
     "status": "placeholder"
   },
@@ -13987,7 +13987,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D41_01",
     "text": "沒關係。你為什麼遲到？",
-    "pinyin_numeric": "Mei2 guan1 xi5. Ni3 wei4 shen2 me5 chi2 dao4?",
+    "pinyin_numeric": "Mei2 guan1 xi5. Ni3 wei4 shen2 me0 chi2 dao4?",
     "path": "audio/AUD_DLG_D41_01_T2.mp3",
     "status": "placeholder"
   },
@@ -14014,7 +14014,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D41_02",
     "text": "你為什麼不想吃午餐？",
-    "pinyin_numeric": "Ni3 wei4 shen2 me5 bu4 xiang3 chi1 wu3 can1?",
+    "pinyin_numeric": "Ni3 wei4 shen2 me0 bu4 xiang3 chi1 wu3 can1?",
     "path": "audio/AUD_DLG_D41_02_T1.mp3",
     "status": "placeholder"
   },
@@ -14032,7 +14032,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D41_02",
     "text": "原來是這樣。那你想喝什麼嗎？",
-    "pinyin_numeric": "Yuan2 lai2 shi4 zhe4 yang4. Na4 ni3 xiang3 he1 shen2 me5 ma5?",
+    "pinyin_numeric": "Yuan2 lai2 shi4 zhe4 yang4. Na4 ni3 xiang3 he1 shen2 me0 ma5?",
     "path": "audio/AUD_DLG_D41_02_T3.mp3",
     "status": "placeholder"
   },
@@ -14050,7 +14050,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D41_03",
     "text": "你為什麼想買這個手機？",
-    "pinyin_numeric": "Ni3 wei4 shen2 me5 xiang3 mai3 zhe4 ge5 shou3 ji1?",
+    "pinyin_numeric": "Ni3 wei4 shen2 me0 xiang3 mai3 zhe4 ge5 shou3 ji1?",
     "path": "audio/AUD_DLG_D41_03_T1.mp3",
     "status": "placeholder"
   },
@@ -15220,7 +15220,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D42_01",
     "text": "你喜歡吃什麼菜？",
-    "pinyin_numeric": "Ni3 xi3huan1 chi1 shen2me cai4?",
+    "pinyin_numeric": "Ni3 xi3huan1 chi1 shen2 me0 cai4?",
     "path": "audio/AUD_DLG_D42_01_T1.mp3",
     "status": "placeholder"
   },
@@ -15238,7 +15238,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D42_01",
     "text": "那你最喜歡吃什麼？",
-    "pinyin_numeric": "Na4 ni3 zui4 xi3huan1 chi1 shen2me?",
+    "pinyin_numeric": "Na4 ni3 zui4 xi3huan1 chi1 shen2 me0?",
     "path": "audio/AUD_DLG_D42_01_T3.mp3",
     "status": "placeholder"
   },
@@ -15265,7 +15265,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D42_02",
     "text": "你好，請問要喝什麼？",
-    "pinyin_numeric": "Ni3 hao3, qing3wen4 yao4 he1 shen2me?",
+    "pinyin_numeric": "Ni3 hao3, qing3wen4 yao4 he1 shen2 me0?",
     "path": "audio/AUD_DLG_D42_02_T1.mp3",
     "status": "placeholder"
   },
@@ -15310,7 +15310,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D42_03",
     "text": "這個週末你想做什麼？",
-    "pinyin_numeric": "Zhe4ge4 zhou1mo4 ni3 xiang3 zuo4 shen2me?",
+    "pinyin_numeric": "Zhe4ge4 zhou1mo4 ni3 xiang3 zuo4 shen2 me0?",
     "path": "audio/AUD_DLG_D42_03_T1.mp3",
     "status": "placeholder"
   },
@@ -16228,7 +16228,7 @@
     "kind": "sentence",
     "ref_id": "SEN_D43_031",
     "text": "你穿什麼尺寸的衣服？",
-    "pinyin_numeric": "ni3 chuan1 shen2me chi3cun4 de5 yi1fu5",
+    "pinyin_numeric": "ni3 chuan1 shen2 me0 chi3cun4 de5 yi1fu5",
     "path": "audio/AUD_SEN_D43_031.mp3",
     "status": "placeholder"
   },
@@ -16669,7 +16669,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D43_01",
     "text": "你好，請問你需要什麼？",
-    "pinyin_numeric": "Ni3 hao3, qing3 wen4 ni3 xu1yao4 shen2me?",
+    "pinyin_numeric": "Ni3 hao3, qing3 wen4 ni3 xu1yao4 shen2 me0?",
     "path": "audio/AUD_DLG_D43_01_T1.mp3",
     "status": "placeholder"
   },
@@ -16687,7 +16687,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D43_01",
     "text": "好的，請問你要什麼顏色？",
-    "pinyin_numeric": "Hao3 de, qing3 wen4 ni3 yao4 shen2me yan2se4?",
+    "pinyin_numeric": "Hao3 de, qing3 wen4 ni3 yao4 shen2 me0 yan2se4?",
     "path": "audio/AUD_DLG_D43_01_T3.mp3",
     "status": "placeholder"
   },
@@ -16786,7 +16786,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D43_03",
     "text": "好的，請問你要什麼尺寸？",
-    "pinyin_numeric": "Hao3 de, qing3 wen4 ni3 yao4 shen2me chi3cun4?",
+    "pinyin_numeric": "Hao3 de, qing3 wen4 ni3 yao4 shen2 me0 chi3cun4?",
     "path": "audio/AUD_DLG_D43_03_T2.mp3",
     "status": "placeholder"
   },
@@ -18172,7 +18172,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D44_02",
     "text": "為什麼？下雨天讓你心情不好嗎？",
-    "pinyin_numeric": "Wei4shen2me? Xia4 yu3 tian1 rang4 ni3 xin1qing2 bu4 hao3 ma?",
+    "pinyin_numeric": "wei4 shen2 me0? Xia4 yu3 tian1 rang4 ni3 xin1qing2 bu4 hao3 ma?",
     "path": "audio/AUD_DLG_D44_02_T3.mp3",
     "status": "placeholder"
   },
@@ -18208,7 +18208,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D44_03",
     "text": "你今天看起來很累，怎麼了？",
-    "pinyin_numeric": "Ni3 jin1tian1 kan4 qi3lai2 hen3 lei4, zen3me le?",
+    "pinyin_numeric": "Ni3 jin1tian1 kan4 qi3lai2 hen3 lei4, zen3 me0 le?",
     "path": "audio/AUD_DLG_D44_03_T1.mp3",
     "status": "placeholder"
   },
@@ -19144,7 +19144,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D45_01",
     "text": "你好，請問要喝什麼？",
-    "pinyin_numeric": "Ni3 hao3, qing3 wen4 yao4 he1 shen2me?",
+    "pinyin_numeric": "Ni3 hao3, qing3 wen4 yao4 he1 shen2 me0?",
     "path": "audio/AUD_DLG_D45_01_T1.mp3",
     "status": "placeholder"
   },
@@ -19207,7 +19207,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D45_02",
     "text": "不好意思，請問捷運站怎麼走？",
-    "pinyin_numeric": "Bu4 hao3 yi4si, qing3 wen4 jie2yun4 zhan4 zen3me zou3?",
+    "pinyin_numeric": "Bu4 hao3 yi4si, qing3 wen4 jie2yun4 zhan4 zen3 me0 zou3?",
     "path": "audio/AUD_DLG_D45_02_T1.mp3",
     "status": "placeholder"
   },
@@ -19270,7 +19270,7 @@
     "kind": "dialogue",
     "ref_id": "DLG_D45_03",
     "text": "好啊！星期六下午我有空。你想看什麼電影？",
-    "pinyin_numeric": "Hao3 a! Xing1qi1liu4 xia4wu3 wo3 you3 kong4. Ni3 xiang3 kan4 shen2me dian4ying3?",
+    "pinyin_numeric": "Hao3 a! Xing1qi1liu4 xia4wu3 wo3 you3 kong4. Ni3 xiang3 kan4 shen2 me0 dian4ying3?",
     "path": "audio/AUD_DLG_D45_03_T2.mp3",
     "status": "placeholder"
   },

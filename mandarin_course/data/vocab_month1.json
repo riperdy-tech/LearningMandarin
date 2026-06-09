@@ -1905,9 +1905,9 @@
     "id": "VOC_M1_071",
     "char": "什麼",
     "pinyin": "shénme",
-    "pinyin_numeric": "shen2me5",
+    "pinyin_numeric": "shen2 me0",
     "phonemes": [
-      "shen2me5"
+      "shen2 me0"
     ],
     "pos": "question",
     "meaning_en": "what",
@@ -1971,10 +1971,10 @@
   {
     "id": "VOC_M1_074",
     "char": "為什麼",
-    "pinyin": "wèishéme",
-    "pinyin_numeric": "wei4shen2me5",
+    "pinyin": "wèishénme",
+    "pinyin_numeric": "wei4 shen2 me0",
     "phonemes": [
-      "wei4shen2me5"
+      "wei4 shen2 me0"
     ],
     "pos": "question",
     "meaning_en": "why",
