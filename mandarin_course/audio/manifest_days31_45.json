@@ -423,14 +423,6 @@
     "status": "placeholder"
   },
   {
-    "id": "AUD_SEN_D31_013",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_013",
-    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 da4 bei1 de0 lv4 cha2, qu4 bing1.",
-    "path": "audio/AUD_SEN_D31_013.mp3",
-    "status": "placeholder"
-  },
-  {
     "id": "AUD_SEN_D31_014",
     "kind": "sentence",
     "ref_id": "SEN_D31_014",
@@ -638,14 +630,6 @@
     "status": "placeholder"
   },
   {
-    "id": "AUD_SEN_D31_043",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_043",
-    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 da4 bei1 de0 lv4 cha2, qu4 bing1.",
-    "path": "audio/AUD_SEN_D31_043.mp3",
-    "status": "placeholder"
-  },
-  {
     "id": "AUD_SEN_D31_045",
     "kind": "sentence",
     "ref_id": "SEN_D31_045",
@@ -850,14 +834,6 @@
     "text": "可以幫我外帶嗎？",
     "pinyin_numeric": "ke3 yi3 bang1 wo3 wai4 dai4 ma0",
     "path": "audio/AUD_SEN_D31_070.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D31_073",
-    "kind": "sentence",
-    "ref_id": "SEN_D31_073",
-    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 da4 bei1 de0 lv4 cha2, qu4 bing1.",
-    "path": "audio/AUD_SEN_D31_073.mp3",
     "status": "placeholder"
   },
   {

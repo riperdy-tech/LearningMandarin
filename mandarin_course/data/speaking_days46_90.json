@@ -6076,12 +6076,12 @@
     "lesson_id": "LESSON_D55",
     "type": "answer_question",
     "prompt_en": "Answer a question in this scenario: past, ongoing, ability, comparison review.",
-    "model_answer": "Wǒ nénggòu yòng yōuyóukǎ zuò jiéyùn, kěshì bù huì yòng xìnyòngkǎ.",
-    "model_pinyin": "wo3 neng2gou4 yong4 you1you2ka3 zuo4 jie2yun4, ke3shi4 bu4 hui4 yong4 xin4yong4ka3.",
-    "model_translation_en": "저는 유유카로 MRT? 탈 수 있지만, 신용카드는 사용할 줄 몰라요.",
+    "model_answer": "我能夠用悠遊卡坐捷運，可是不會用信用卡。",
+    "model_pinyin": "Wǒ nénggòu yòng yōyóukǎ zuò jiéyùn, kěshì bù huì yòng xìnyòngkǎ.",
+    "model_translation_en": "I can use an EasyCard to take the MRT, but I don't know how to use a credit card.",
     "related_sentence_id": "SEN_D55_023",
     "related_dialogue_id": "DLG_D55_02",
-    "model_translation_ko": "저는 유유카로 MRT? 탈 수 있지만, 신용카드는 사용할 줄 몰라요."
+    "model_translation_ko": "저는 유유카로 MRT를 탈 수 있지만, 신용카드는 사용할 줄 몰라요."
   },
   {
     "id": "SPK_D55_09",
@@ -9696,8 +9696,8 @@
     "lesson_id": "LESSON_D71",
     "type": "substitution_drill",
     "prompt_en": "Swap one word and say the new sentence aloud.",
-    "model_answer": "Nǐ yǐqián dāng guò xuéshēng huì zhǎng ma?",
-    "model_pinyin": "Ni3 yi3qian2 dang1 guo4 xue2sheng1 hui4 zhang3 ma0?",
+    "model_answer": "你以前當過學生會長嗎？",
+    "model_pinyin": "Nǐ yǐqián dāng guò xuéshēng huì zhǎng ma?",
     "model_translation_en": "Have you ever been the student council president before?",
     "related_sentence_id": "SEN_D71_043",
     "related_dialogue_id": "DLG_D71_01"

@@ -42219,18 +42219,42 @@
   },
   {
     "id": "SEN_D55_023",
-    "text": "Wǒ nénggòu yòng yōuyóukǎ zuò jiéyùn, kěshì bù huì yòng xìnyòngkǎ.",
-    "pinyin": "wo3 neng2gou4 yong4 you1you2ka3 zuo4 jie2yun4, ke3shi4 bu4 hui4 yong4 xin4yong4ka3.",
-    "pinyin_numeric": "I can use the EasyCard to take the MRT, but I don't know how to use a credit card.",
+    "text": "我能夠用悠遊卡坐捷運，可是不會用信用卡。",
+    "pinyin": "Wǒ nénggòu yòng yōyóukǎ zuò jiéyùn, kěshì bù huì yòng xìnyòngkǎ.",
+    "pinyin_numeric": "wo3 neng2 gou4 yong4 you1 you2 ka3 zuo4 jie2 yun4, ke3 shi4 bu4 hui4 yong4 xin4 yong4 ka3.",
     "translation_en": "I can use an EasyCard to take the MRT, but I don't know how to use a credit card.",
-    "translation_ko": null,
-    "token_ids": [],
+    "translation_ko": "저는 유유카로 MRT를 탈 수 있지만, 신용카드는 사용할 줄 몰라요.",
+    "token_ids": [
+      "VOC_M1_002",
+      "VOC_D55_003",
+      "VOC_M1_119",
+      "VOC_M1_178",
+      "VOC_M1_120",
+      "VOC_M1_154",
+      "VOC_D35_023",
+      "VOC_M1_079",
+      "VOC_D50_001",
+      "VOC_M1_119",
+      "VOC_D32_006"
+    ],
     "grammar_ids": [
       "GR_D55_REVIEW_NARRATION"
     ],
     "audio_id": "AUD_SEN_D55_023",
     "day_introduced": 55,
-    "tokens": [],
+    "tokens": [
+      "我",
+      "能夠",
+      "用",
+      "悠遊卡",
+      "坐",
+      "捷運",
+      "可是",
+      "不",
+      "會",
+      "用",
+      "信用卡"
+    ],
     "difficulty": 2,
     "production_type": "practice"
   },
@@ -67489,13 +67513,24 @@
     "pinyin_numeric": "ni3 yi3qian2 dang1 guo4 xue2sheng1 hui4 zhang3 ma0?",
     "translation_en": "Have you ever been the student council president before?",
     "translation_ko": "예전에 학생회장을 해본 적이 있나요?",
-    "token_ids": [],
+    "token_ids": [
+      "VOC_M1_003",
+      "VOC_D36_034",
+      "VOC_D71_004",
+      "VOC_M1_016"
+    ],
     "grammar_ids": [
       "GR_D71_DANG_ROLE"
     ],
     "audio_id": "AUD_SEN_D71_043",
     "day_introduced": 71,
-    "tokens": [],
+    "tokens": [
+      "你",
+      "以前",
+      "當過",
+      "學生會長",
+      "嗎"
+    ],
     "difficulty": 2,
     "production_type": "practice"
   },

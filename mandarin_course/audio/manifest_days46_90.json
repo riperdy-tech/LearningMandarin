@@ -21936,8 +21936,8 @@
     "id": "AUD_SEN_D55_023",
     "kind": "sentence",
     "ref_id": "SEN_D55_023",
-    "text": "Wǒ nénggòu yòng yōuyóukǎ zuò jiéyùn, kěshì bù huì yòng xìnyòngkǎ.",
-    "pinyin_numeric": "I can use the EasyCard to take the MRT, but I don't know how to use a credit card.",
+    "text": "我能夠用悠遊卡坐捷運，可是不會用信用卡。",
+    "pinyin_numeric": "wo3 neng2 gou4 yong4 you1 you2 ka3 zuo4 jie2 yun4, ke3 shi4 bu4 hui4 yong4 xin4 yong4 ka3.",
     "path": "audio/AUD_SEN_D55_023.mp3",
     "status": "placeholder"
   },
@@ -46917,15 +46917,6 @@
     "status": "placeholder"
   },
   {
-    "id": "AUD_SEN_D80_022",
-    "kind": "sentence",
-    "ref_id": "SEN_D80_022",
-    "text": "Qǐng zhùyì, zhèlǐ jìnzhǐ pāizhào.",
-    "pinyin_numeric": "qing3 zhu4yi4, zhe4li3 jin4zhi3 pai1zhao4.",
-    "path": "audio/AUD_SEN_D80_022.mp3",
-    "status": "placeholder"
-  },
-  {
     "id": "AUD_SEN_D80_023",
     "kind": "sentence",
     "ref_id": "SEN_D80_023",
@@ -51351,87 +51342,6 @@
     "text": "改地點不如換時間來得簡單。",
     "pinyin_numeric": "gai3 di4dian3 bu4ru2 huan4 shi2jian1 lai2 de5 jian3dan1.",
     "path": "audio/AUD_SEN_D83_070.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D83_072",
-    "kind": "sentence",
-    "ref_id": "SEN_D83_072",
-    "text": "要不然我們約六點，要不然就約七點半。",
-    "pinyin_numeric": "yao4bu4ran2 wo3men yue1 liu4 dian3, yao4bu4ran2 jiu4 yue1 qi1 dian3 ban4.",
-    "path": "audio/AUD_SEN_D83_072.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D83_073",
-    "kind": "sentence",
-    "ref_id": "SEN_D83_073",
-    "text": "要不然走這條路線，要不然就走那條路線。",
-    "pinyin_numeric": "yao4bu4ran2 zou3 zhe4 tiao2 lu4xian4, yao4bu4ran2 jiu4 zou3 na4 tiao2 lu4xian4.",
-    "path": "audio/AUD_SEN_D83_073.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D83_074",
-    "kind": "sentence",
-    "ref_id": "SEN_D83_074",
-    "text": "要不然你選這個，要不然就選那個。",
-    "pinyin_numeric": "yao4bu4ran2 ni3 xuan3 zhe4 ge0, yao4bu4ran2 jiu4 xuan3 na4 ge0.",
-    "path": "audio/AUD_SEN_D83_074.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D83_075",
-    "kind": "sentence",
-    "ref_id": "SEN_D83_075",
-    "text": "要不然我們提早出發，要不然就延後碰面。",
-    "pinyin_numeric": "yao4bu4ran2 wo3men ti2zao3 chu1fa1, yao4bu4ran2 jiu4 yan2hou4 peng4mian4.",
-    "path": "audio/AUD_SEN_D83_075.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D83_076",
-    "kind": "sentence",
-    "ref_id": "SEN_D83_076",
-    "text": "要不然取消訂位，要不然就改時間。",
-    "pinyin_numeric": "yao4bu4ran2 qu3xiao1 ding4wei4, yao4bu4ran2 jiu4 gai3 shi2jian1.",
-    "path": "audio/AUD_SEN_D83_076.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D83_077",
-    "kind": "sentence",
-    "ref_id": "SEN_D83_077",
-    "text": "要不然你考慮一下，要不然就馬上決定。",
-    "pinyin_numeric": "yao4bu4ran2 ni3 kao3lv4 yi1xia4, yao4bu4ran2 jiu4 ma3shang4 jue2ding4.",
-    "path": "audio/AUD_SEN_D83_077.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D83_078",
-    "kind": "sentence",
-    "ref_id": "SEN_D83_078",
-    "text": "要不然我們直達，要不然就轉車。",
-    "pinyin_numeric": "yao4bu4ran2 wo3men zhi2da2, yao4bu4ran2 jiu4 zhuan3 che1.",
-    "path": "audio/AUD_SEN_D83_078.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D83_079",
-    "kind": "sentence",
-    "ref_id": "SEN_D83_079",
-    "text": "要不然你問路，要不然就用導航。",
-    "pinyin_numeric": "yao4bu4ran2 ni3 wen4 lu4, yao4bu4ran2 jiu4 yong4 dao3hang2.",
-    "path": "audio/AUD_SEN_D83_079.mp3",
-    "status": "placeholder"
-  },
-  {
-    "id": "AUD_SEN_D83_080",
-    "kind": "sentence",
-    "ref_id": "SEN_D83_080",
-    "text": "要不然我們在路口碰面，要不然就在捷運站出口。",
-    "pinyin_numeric": "yao4bu4ran2 wo3men zai4 lu4kou3 peng4mian4, yao4bu4ran2 jiu4 zai4 jie2yun4 zhan4 chu1kou3.",
-    "path": "audio/AUD_SEN_D83_080.mp3",
     "status": "placeholder"
   },
   {

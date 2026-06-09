@@ -80,6 +80,9 @@ function checkPronunciationFields(item, label) {
       errors.push(`${label}: corrupted ${key} "${item[key]}"`);
     }
   }
+  if (typeof item.text === "string" && /^SEN_|^LIS_|^DLG_|^AUD_/.test(label) && /[A-Za-z\u00C0-\u024F]/.test(item.text) && !/[\u3400-\u9FFF]/.test(item.text)) {
+    errors.push(`${label}: Chinese text field appears to contain pinyin "${item.text}"`);
+  }
   if (typeof item.pinyin === "string" && /\?[A-Za-z]|[A-Za-z]\?[A-Za-z]/.test(item.pinyin)) {
     errors.push(`${label}: corrupted pinyin "${item.pinyin}"`);
   }
@@ -229,6 +232,12 @@ for (const sentence of sentences) {
   checkPronunciationFields(sentence, sentence.id);
   checkLocalizedTerms(sentence, sentence.id);
   checkEnglishGloss(sentence, sentence.id);
+  if (!Array.isArray(sentence.tokens) || sentence.tokens.length === 0) {
+    errors.push(`${sentence.id}: missing sentence.tokens`);
+  }
+  if (!Array.isArray(sentence.token_ids) || sentence.token_ids.length === 0) {
+    errors.push(`${sentence.id}: missing sentence.token_ids`);
+  }
 }
 
 for (const word of vocab) {
@@ -242,6 +251,9 @@ for (const audio of audioManifests) {
   checkPinyinNumeric(audio, `${audio.kind}:${audio.ref_id}`);
   checkPronunciationFields(audio, `${audio.kind}:${audio.ref_id}`);
   checkEnglishGloss(audio, `${audio.kind}:${audio.ref_id}`);
+  if (audio.kind === "sentence" && !sentenceById.has(audio.ref_id)) {
+    errors.push(`audio:${audio.id}: sentence audio ref_id ${audio.ref_id} does not exist`);
+  }
 }
 
 checkNestedEnglish(grammar, "grammar");
