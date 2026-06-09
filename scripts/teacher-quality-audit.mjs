@@ -141,7 +141,7 @@ for (const [day, dayItems] of [...listeningByDay.entries()].sort((a, b) => a[0] 
   if (duplicates.length) {
     errors.push(`Day ${day}: duplicate listening prompts: ${duplicates.map(([text, count]) => `"${text}" x${count}`).join("; ")}`);
   }
-  if (day >= 31 && day <= 45) {
+  if (day >= 31 && day <= 66) {
     const isolatedCount = dayItems.filter((item) => item.type === "isolated_word").length;
     if (isolatedCount > 2) {
       errors.push(`Day ${day}: too many isolated-word listening prompts (${isolatedCount}); use sentence-level prompts instead`);
