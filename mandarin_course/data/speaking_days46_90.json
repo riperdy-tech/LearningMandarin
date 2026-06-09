@@ -15099,7 +15099,7 @@
     "prompt_en": "Answer a question in this scenario: arrive at a new place, ask directions, buy something, make small talk.",
     "model_answer": "我給你一百塊，你找我五十塊。",
     "model_pinyin": "Wǒ gěi nǐ yī bǎi kuài, nǐ zhǎo wǒ wǔ shí kuài.",
-    "model_translation_en": "I give you 100 dollars, you give me 50 dollars change.",
+    "model_translation_en": "I'll give you 100 dollars; please give me 50 dollars in change.",
     "related_sentence_id": "SEN_D86_005",
     "related_dialogue_id": "DLG_D86_03"
   },
@@ -15330,7 +15330,7 @@
     "prompt_en": "Respond as one speaker in this scenario: arrive at a new place, ask directions, buy something, make small talk.",
     "model_answer": "我給你一百塊，你找我多少錢？",
     "model_pinyin": "Wǒ gěi nǐ yī bǎi kuài, nǐ zhǎo wǒ duōshao qián?",
-    "model_translation_en": "I give you one hundred dollars. How much change do you give me?",
+    "model_translation_en": "If I give you one hundred dollars, how much change will I get?",
     "related_sentence_id": "SEN_D86_047",
     "related_dialogue_id": "DLG_D86_03"
   },

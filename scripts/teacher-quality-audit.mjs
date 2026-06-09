@@ -106,6 +106,9 @@ function checkEnglishGloss(item, label) {
   if (/\bgo eat\b|\bgo drink\b|\bchange the time\b|\bmake it a little cheaper\b|\bhow much money\b|\bwhat (?:job|work) do you do\b/i.test(gloss)) {
     errors.push(`${label}: unnatural English gloss "${gloss}"`);
   }
+  if (/\bI give you \d+ dollars\b|\byou give me \d+ dollars change\b|\bHow much change do you give me\b/i.test(gloss)) {
+    errors.push(`${label}: literal payment English gloss "${gloss}"`);
+  }
   if (/\bweather is very\b|\bBecause there is sun\b|\bmood is very\b|\bmood is too good\b/i.test(gloss)) {
     errors.push(`${label}: literal weather/mood English gloss "${gloss}"`);
   }

@@ -108691,7 +108691,7 @@
     "text": "我給你一百塊，你找我五十塊。",
     "pinyin": "Wǒ gěi nǐ yī bǎi kuài, nǐ zhǎo wǒ wǔ shí kuài.",
     "pinyin_numeric": "wo3 gei3 ni3 yi1 bai3 kuai4, ni3 zhao3 wo3 wu3 shi2 kuai4.",
-    "translation_en": "I give you 100 dollars, you give me 50 dollars change.",
+    "translation_en": "I'll give you 100 dollars; please give me 50 dollars in change.",
     "translation_ko": "100대만 달러을 드리면, 50대만 달러을 거슬러 주세요.",
     "token_ids": [
       "VOC_M1_002",
@@ -109996,7 +109996,7 @@
     "text": "我給你一百塊，你找我多少錢？",
     "pinyin": "Wǒ gěi nǐ yī bǎi kuài, nǐ zhǎo wǒ duōshao qián?",
     "pinyin_numeric": "wo3 gei3 ni3 yi1 bai3 kuai4, ni3 zhao3 wo3 duo1shao qian2?",
-    "translation_en": "I give you one hundred dollars. How much change do you give me?",
+    "translation_en": "If I give you one hundred dollars, how much change will I get?",
     "translation_ko": "백 대만 달러을 드리는데, 거스름돈은 얼마인가요?",
     "token_ids": [
       "VOC_M1_002",
