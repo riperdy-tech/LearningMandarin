@@ -121,15 +121,15 @@
   {
     "id": "LIS_D31_11",
     "lesson_id": "LESSON_D31",
-    "type": "isolated_word",
+    "type": "sentence",
     "prompt_en": "Listen and identify the meaning.",
-    "text": "紅茶",
-    "pinyin": "hóngchá",
-    "pinyin_numeric": "hong2 cha2",
-    "translation_en": "black tea",
-    "translation_ko": "홍차",
+    "text": "不好意思，可以給我一個袋子嗎？",
+    "pinyin": "Bù hǎo yìsi, kěyǐ gěi wǒ yī ge dàizi ma?",
+    "pinyin_numeric": "bu4 hao3 yi4si, ke3yi3 gei3 wo3 yi1 ge4 dai4zi ma0?",
+    "translation_en": "Excuse me, could you give me a bag?",
+    "translation_ko": "죄송합니다, 봉투 하나를 주시겠어요?",
     "audio_id": "AUD_LIS_D31_11",
-    "sentence_id": "SEN_D31_001"
+    "sentence_id": "SEN_D31_003"
   },
   {
     "id": "LIS_D31_12",
@@ -173,15 +173,15 @@
   {
     "id": "LIS_D31_16",
     "lesson_id": "LESSON_D31",
-    "type": "isolated_word",
+    "type": "sentence",
     "prompt_en": "Listen and identify the meaning.",
-    "text": "外帶",
-    "pinyin": "wàidài",
-    "pinyin_numeric": "wai4 dai4",
-    "translation_en": "to go",
-    "translation_ko": "포장하다",
+    "text": "我想要一杯綠茶，半糖，可以嗎？",
+    "pinyin": "Wǒ xiǎng yào yī bēi lǜchá, bàn táng, kěyǐ ma?",
+    "pinyin_numeric": "wo3 xiang3 yao4 yi1 bei1 lv4cha2, ban4 tang2, ke3yi3 ma0?",
+    "translation_en": "I would like a green tea, half sugar, okay?",
+    "translation_ko": "녹차 한 잔, 반당으로 원하는데 괜찮을까요?",
     "audio_id": "AUD_LIS_D31_16",
-    "sentence_id": "SEN_D31_046"
+    "sentence_id": "SEN_D31_005"
   },
   {
     "id": "LIS_D31_17",
@@ -397,15 +397,15 @@
   {
     "id": "LIS_D32_11",
     "lesson_id": "LESSON_D32",
-    "type": "isolated_word",
+    "type": "sentence",
     "prompt_en": "Listen and identify the meaning.",
-    "text": "會員",
-    "pinyin": "huìyuán",
-    "pinyin_numeric": "hui4 yuan2",
-    "translation_en": "member",
-    "translation_ko": "회원",
+    "text": "這個便當需要加熱嗎？",
+    "pinyin": "Zhège biàndāng xūyào jiārè ma?",
+    "pinyin_numeric": "zhe4ge5 bian4dang1 xu1yao4 jia1re4 ma0",
+    "translation_en": "Does this bento need to be heated?",
+    "translation_ko": "이 도시락은 데워야 하나요?",
     "audio_id": "AUD_LIS_D32_11",
-    "sentence_id": "SEN_D32_031"
+    "sentence_id": "SEN_D32_002"
   },
   {
     "id": "LIS_D32_12",
@@ -463,15 +463,15 @@
   {
     "id": "LIS_D32_16",
     "lesson_id": "LESSON_D32",
-    "type": "isolated_word",
+    "type": "sentence",
     "prompt_en": "Listen and identify the meaning.",
-    "text": "微波",
-    "pinyin": "wéibō",
-    "pinyin_numeric": "wei2 bo1",
-    "translation_en": "to microwave",
-    "translation_ko": "전자레인지로 데우다",
+    "text": "我要買一個環保袋。",
+    "pinyin": "Wǒ yào mǎi yī gè huánbǎo dài.",
+    "pinyin_numeric": "wo3 yao4 mai3 yi1 ge4 huan2bao3 dai4",
+    "translation_en": "I would like to buy one eco-friendly bag.",
+    "translation_ko": "친환경 봉투 하나를 살게요.",
     "audio_id": "AUD_LIS_D32_16",
-    "sentence_id": "SEN_D32_046"
+    "sentence_id": "SEN_D32_003"
   },
   {
     "id": "LIS_D32_17",
@@ -661,15 +661,15 @@
   {
     "id": "LIS_D33_11",
     "lesson_id": "LESSON_D33",
-    "type": "isolated_word",
+    "type": "sentence",
     "prompt_en": "Listen and identify the meaning.",
-    "text": "三樓",
-    "pinyin": "sān lóu",
-    "pinyin_numeric": "san1 lou2",
-    "translation_en": "third floor",
-    "translation_ko": "3층",
+    "text": "出口在櫃台的前面，左轉就可以看到。",
+    "pinyin": "Chūkǒu zài guìtái de qiánmiàn, zuǒzhuǎn jiù kěyǐ kàndào.",
+    "pinyin_numeric": "chu1kou3 zai4 gui4tai2 de0 qian2mian4, zuo3zhuan3 jiu4 ke3yi3 kan4dao4.",
+    "translation_en": "The exit is in front of the counter; turn left and you'll see it.",
+    "translation_ko": "출구는 카운터 앞에 있고, 왼쪽으로 돌면 보입니다.",
     "audio_id": "AUD_LIS_D33_11",
-    "sentence_id": "SEN_D33_001"
+    "sentence_id": "SEN_D33_002"
   },
   {
     "id": "LIS_D33_12",
@@ -727,15 +727,15 @@
   {
     "id": "LIS_D33_16",
     "lesson_id": "LESSON_D33",
-    "type": "isolated_word",
+    "type": "sentence",
     "prompt_en": "Listen and identify the meaning.",
-    "text": "旁邊",
-    "pinyin": "pángbiān",
-    "pinyin_numeric": "pang2 bian1",
-    "translation_en": "beside",
-    "translation_ko": "옆",
+    "text": "教室在二樓樓梯的右邊，不要走錯了。",
+    "pinyin": "Jiàoshì zài èr lóu lóutī de yòubiān, bùyào zǒu cuò le.",
+    "pinyin_numeric": "jiao4shi4 zai4 er4 lou2 lou2ti1 de0 you4bian1, bu2yao4 zou3 cuo4 le0.",
+    "translation_en": "The classroom is on the second floor to the right of the stairs; don't go the wrong way.",
+    "translation_ko": "교실은 2층 계단 오른쪽에 있으니 잘못 가지 마세요.",
     "audio_id": "AUD_LIS_D33_16",
-    "sentence_id": "SEN_D33_046"
+    "sentence_id": "SEN_D33_003"
   },
   {
     "id": "LIS_D33_17",
@@ -925,15 +925,15 @@
   {
     "id": "LIS_D34_11",
     "lesson_id": "LESSON_D34",
-    "type": "isolated_word",
+    "type": "sentence",
     "prompt_en": "Listen and identify the meaning.",
-    "text": "因為",
-    "pinyin": "yīnwèi",
-    "pinyin_numeric": "yin1 wei4",
-    "translation_en": "because",
-    "translation_ko": "왜냐하면",
+    "text": "你要點招牌菜嗎？",
+    "pinyin": "Nǐ yào diǎn zhāopái cài ma?",
+    "pinyin_numeric": "ni3 yao4 dian3 zhao1pai2 cai4 ma0",
+    "translation_en": "Would you like to order the signature dish?",
+    "translation_ko": "시그니처 요리를 주문할래요?",
     "audio_id": "AUD_LIS_D34_11",
-    "sentence_id": "SEN_D34_039"
+    "sentence_id": "SEN_D34_008"
   },
   {
     "id": "LIS_D34_12",
@@ -991,15 +991,15 @@
   {
     "id": "LIS_D34_16",
     "lesson_id": "LESSON_D34",
-    "type": "isolated_word",
+    "type": "sentence",
     "prompt_en": "Listen and identify the meaning.",
-    "text": "太晚",
-    "pinyin": "tài wǎn",
-    "pinyin_numeric": "tai4 wan3",
-    "translation_en": "too late",
-    "translation_ko": "너무 늦다",
+    "text": "你要喝珍珠奶茶還是紅茶？",
+    "pinyin": "Nǐ yào hē zhēnzhū nǎichá háishì hóngchá?",
+    "pinyin_numeric": "ni3 yao4 he1 zhen1zhu1 nai3cha2 hai2shi4 hong2cha2",
+    "translation_en": "Would you like to drink bubble tea or black tea?",
+    "translation_ko": "버블티를 마실래요, 홍차를 마실래요?",
     "audio_id": "AUD_LIS_D34_16",
-    "sentence_id": "SEN_D34_054"
+    "sentence_id": "SEN_D34_011"
   },
   {
     "id": "LIS_D34_17",
@@ -1189,15 +1189,15 @@
   {
     "id": "LIS_D35_11",
     "lesson_id": "LESSON_D35",
-    "type": "isolated_word",
+    "type": "sentence",
     "prompt_en": "Listen and identify the meaning.",
-    "text": "送錯",
-    "pinyin": "sòng cuò",
-    "pinyin_numeric": "song4 cuo4",
-    "translation_en": "bring the wrong item",
-    "translation_ko": "잘못 가져다주다",
+    "text": "這份炒飯太油了，可以少油嗎？",
+    "pinyin": "Zhè fèn chǎofàn tài yóu le, kěyǐ shǎo yóu ma?",
+    "pinyin_numeric": "zhe4 fen4 chao3fan4 tai4 you2 le0, ke3 yi3 shao3 you2 ma0",
+    "translation_en": "This fried rice is too oily, can you make it less oily?",
+    "translation_ko": "이 볶음밥이 너무 기름져요, 기름을 적게 해 주실 수 있나요?",
     "audio_id": "AUD_LIS_D35_11",
-    "sentence_id": "SEN_D35_031"
+    "sentence_id": "SEN_D35_002"
   },
   {
     "id": "LIS_D35_12",
@@ -1255,15 +1255,15 @@
   {
     "id": "LIS_D35_16",
     "lesson_id": "LESSON_D35",
-    "type": "isolated_word",
+    "type": "sentence",
     "prompt_en": "Listen and identify the meaning.",
-    "text": "等太久",
-    "pinyin": "děng tài jiǔ",
-    "pinyin_numeric": "deng3 tai4 jiu3",
-    "translation_en": "wait too long",
-    "translation_ko": "너무 오래 기다리다",
+    "text": "我剛剛點錯了，可以換一份嗎？",
+    "pinyin": "Wǒ gānggāng diǎn cuò le, kěyǐ huàn yī fèn ma?",
+    "pinyin_numeric": "wo3 gang1gang1 dian3 cuo4 le0, ke3 yi3 huan4 yi1 fen4 ma0",
+    "translation_en": "I just ordered wrong, can I exchange it for another one?",
+    "translation_ko": "방금 잘못 주문했는데, 다른 걸로 바꿀 수 있나요?",
     "audio_id": "AUD_LIS_D35_16",
-    "sentence_id": "SEN_D35_046"
+    "sentence_id": "SEN_D35_003"
   },
   {
     "id": "LIS_D35_17",
@@ -1453,15 +1453,15 @@
   {
     "id": "LIS_D36_11",
     "lesson_id": "LESSON_D36",
-    "type": "isolated_word",
+    "type": "sentence",
     "prompt_en": "Listen and identify the meaning.",
-    "text": "沒空",
-    "pinyin": "méi kòng",
-    "pinyin_numeric": "mei2 kong4",
-    "translation_en": "not free",
-    "translation_ko": "시간이 없다",
+    "text": "他每天下班以後去公園散步。",
+    "pinyin": "Tā měitiān xiàbān yǐhòu qù gōngyuán sànbù.",
+    "pinyin_numeric": "ta1 mei3tian1 xia4ban1 yi3hou4 qu4 gong1yuan2 san4bu4",
+    "translation_en": "He goes for a walk in the park after getting off work every day.",
+    "translation_ko": "그는 매일 퇴근 후에 공원에 가서 산책합니다.",
     "audio_id": "AUD_LIS_D36_11",
-    "sentence_id": "SEN_D36_031"
+    "sentence_id": "SEN_D36_006"
   },
   {
     "id": "LIS_D36_12",
@@ -1519,15 +1519,15 @@
   {
     "id": "LIS_D36_16",
     "lesson_id": "LESSON_D36",
-    "type": "isolated_word",
+    "type": "sentence",
     "prompt_en": "Listen and identify the meaning.",
-    "text": "刷牙",
-    "pinyin": "shuāyá",
-    "pinyin_numeric": "shua1 ya2",
-    "translation_en": "brush teeth",
-    "translation_ko": "양치하다",
+    "text": "她每天下課以後跟朋友一起走路回家。",
+    "pinyin": "Tā měitiān xiàkè yǐhòu gēn péngyǒu yīqǐ zǒulù huí jiā.",
+    "pinyin_numeric": "ta1 mei3tian1 xia4ke4 yi3hou4 gen1 peng2you3 yi1qi3 zou3lu4 hui2 jia1",
+    "translation_en": "She walks home with friends after class every day.",
+    "translation_ko": "그녀는 매일 수업 후에 친구와 함께 걸어서 집에 갑니다.",
     "audio_id": "AUD_LIS_D36_16",
-    "sentence_id": "SEN_D36_016"
+    "sentence_id": "SEN_D36_008"
   },
   {
     "id": "LIS_D36_17",
@@ -1716,15 +1716,15 @@
   {
     "id": "LIS_D37_11",
     "lesson_id": "LESSON_D37",
-    "type": "isolated_word",
+    "type": "sentence",
     "prompt_en": "Listen and identify the meaning.",
-    "text": "取消",
-    "pinyin": "qǔxiāo",
-    "pinyin_numeric": "qu3 xiao1",
-    "translation_en": "cancel",
-    "translation_ko": "취소하다",
+    "text": "他想要約朋友一起去吃飯。",
+    "pinyin": "Tā xiǎng yào yuē péngyǒu yīqǐ qù chīfàn.",
+    "pinyin_numeric": "ta1 xiang3 yao4 yue1 peng2you3 yi1qi3 qu4 chi1fan4",
+    "translation_en": "He wants to invite friends to go out to eat together.",
+    "translation_ko": "그는 친구들과 함께 밥을 먹으러 가고 싶어 해요.",
     "audio_id": "AUD_LIS_D37_11",
-    "sentence_id": "SEN_D37_031"
+    "sentence_id": "SEN_D37_003"
   },
   {
     "id": "LIS_D37_12",
@@ -1782,15 +1782,15 @@
   {
     "id": "LIS_D37_16",
     "lesson_id": "LESSON_D37",
-    "type": "isolated_word",
+    "type": "sentence",
     "prompt_en": "Listen and identify the meaning.",
-    "text": "早到",
-    "pinyin": "zǎo dào",
-    "pinyin_numeric": "zao3 dao4",
-    "translation_en": "arrive early",
-    "translation_ko": "일찍 도착하다",
+    "text": "你想去哪裡逛街？",
+    "pinyin": "Nǐ xiǎng qù nǎlǐ guàngjiē?",
+    "pinyin_numeric": "ni3 xiang3 qu4 na3li3 guang4jie1",
+    "translation_en": "Where do you want to go shopping?",
+    "translation_ko": "어디로 쇼핑하러 가고 싶어요?",
     "audio_id": "AUD_LIS_D37_16",
-    "sentence_id": "SEN_D37_046"
+    "sentence_id": "SEN_D37_005"
   },
   {
     "id": "LIS_D37_17",
@@ -1980,15 +1980,15 @@
   {
     "id": "LIS_D38_11",
     "lesson_id": "LESSON_D38",
-    "type": "isolated_word",
+    "type": "sentence",
     "prompt_en": "Listen and identify the meaning.",
-    "text": "車票",
-    "pinyin": "chēpiào",
-    "pinyin_numeric": "che1 piao4",
-    "translation_en": "transport ticket",
-    "translation_ko": "차표",
+    "text": "他坐捷運去台北車站。",
+    "pinyin": "Tā zuò jiéyùn qù Táiběi chēzhàn.",
+    "pinyin_numeric": "ta1 zuo4 jie2yun4 qu4 Tai2bei3 che1zhan4",
+    "translation_en": "He takes the MRT to Taipei Station.",
+    "translation_ko": "그는 지하철을 타고 타이베이 역에 갑니다.",
     "audio_id": "AUD_LIS_D38_11",
-    "sentence_id": "SEN_D38_031"
+    "sentence_id": "SEN_D38_002"
   },
   {
     "id": "LIS_D38_12",
@@ -2046,15 +2046,15 @@
   {
     "id": "LIS_D38_16",
     "lesson_id": "LESSON_D38",
-    "type": "isolated_word",
+    "type": "sentence",
     "prompt_en": "Listen and identify the meaning.",
-    "text": "出站",
-    "pinyin": "chū zhàn",
-    "pinyin_numeric": "chu1 zhan4",
-    "translation_en": "exit station",
-    "translation_ko": "역에서 나가다",
+    "text": "我們坐計程車去餐廳。",
+    "pinyin": "Wǒmen zuò jìchéngchē qù cāntīng.",
+    "pinyin_numeric": "wo3men zuo4 ji4cheng2che1 qu4 can1ting1",
+    "translation_en": "We take a taxi to the restaurant.",
+    "translation_ko": "우리는 택시를 타고 식당에 갑니다.",
     "audio_id": "AUD_LIS_D38_16",
-    "sentence_id": "SEN_D38_046"
+    "sentence_id": "SEN_D38_003"
   },
   {
     "id": "LIS_D38_17",
@@ -2244,15 +2244,15 @@
   {
     "id": "LIS_D39_11",
     "lesson_id": "LESSON_D39",
-    "type": "isolated_word",
+    "type": "sentence",
     "prompt_en": "Listen and identify the meaning.",
-    "text": "停駛",
-    "pinyin": "tíng shǐ",
-    "pinyin_numeric": "ting2 shi3",
-    "translation_en": "service suspended",
-    "translation_ko": "운행 중단",
+    "text": "我們坐錯車了，必須在下一站下車，然後往回走。",
+    "pinyin": "Wǒmen zuò cuò chē le, bìxū zài xià yí zhàn xià chē, ránhòu wǎng huí zǒu.",
+    "pinyin_numeric": "wo3men0 zuo4 cuo4 che1 le0, bi4xu1 zai4 xia4 yi1 zhan4 xia4 che1, ran2hou4 wang3 hui2 zou3.",
+    "translation_en": "We got on the wrong train; we have to get off at the next station and go back.",
+    "translation_ko": "저희가 잘못된 열차를 탔어요. 다음 역에서 내려서 다시 돌아가야 해요.",
     "audio_id": "AUD_LIS_D39_11",
-    "sentence_id": "SEN_D39_001"
+    "sentence_id": "SEN_D39_002"
   },
   {
     "id": "LIS_D39_12",
@@ -2310,15 +2310,15 @@
   {
     "id": "LIS_D39_16",
     "lesson_id": "LESSON_D39",
-    "type": "isolated_word",
+    "type": "sentence",
     "prompt_en": "Listen and identify the meaning.",
-    "text": "還來得及",
-    "pinyin": "hái lái de jí",
-    "pinyin_numeric": "hai2 lai2 de0 ji2",
-    "translation_en": "still have time",
-    "translation_ko": "아직 늦지 않았다",
+    "text": "因為誤點，我來不及換線，所以遲到了。",
+    "pinyin": "Yīnwèi wù diǎn, wǒ láibují huàn xiàn, suǒyǐ chídào le.",
+    "pinyin_numeric": "yin1wei4 wu4 dian3, wo3 lai2bu4ji2 huan4 xian4, suo3yi3 chi2dao4 le0.",
+    "translation_en": "Because of the delay, I didn't have time to transfer lines, so I was late.",
+    "translation_ko": "지연 때문에 환승할 시간이 없어서 지각했어요.",
     "audio_id": "AUD_LIS_D39_16",
-    "sentence_id": "SEN_D39_046"
+    "sentence_id": "SEN_D39_003"
   },
   {
     "id": "LIS_D39_17",
@@ -2772,15 +2772,15 @@
   {
     "id": "LIS_D41_11",
     "lesson_id": "LESSON_D41",
-    "type": "isolated_word",
+    "type": "sentence",
     "prompt_en": "Listen and identify the meaning.",
-    "text": "下雨了",
-    "pinyin": "xià yǔ le",
-    "pinyin_numeric": "xia4 yu3 le0",
-    "translation_en": "It rained.",
-    "translation_ko": "비가 왔다",
+    "text": "因為我想省錢，所以不想買那個手機。",
+    "pinyin": "Yīnwèi wǒ xiǎng shěng qián, suǒyǐ bù xiǎng mǎi nàge shǒujī.",
+    "pinyin_numeric": "yin1 wei4 wo3 xiang3 sheng3 qian2, suo3 yi3 bu4 xiang3 mai3 na4 ge5 shou3 ji1.",
+    "translation_en": "Because I want to save money, I don't want to buy that phone.",
+    "translation_ko": "돈을 아끼고 싶어서 그 핸드폰을 사고 싶지 않아요.",
     "audio_id": "AUD_LIS_D41_11",
-    "sentence_id": "SEN_D41_001"
+    "sentence_id": "SEN_D41_005"
   },
   {
     "id": "LIS_D41_12",
@@ -2838,15 +2838,15 @@
   {
     "id": "LIS_D41_16",
     "lesson_id": "LESSON_D41",
-    "type": "isolated_word",
+    "type": "sentence",
     "prompt_en": "Listen and identify the meaning.",
-    "text": "來不及吃",
-    "pinyin": "lái bù jí chī",
-    "pinyin_numeric": "lai2 bu4 ji2 chi1",
-    "translation_en": "no time to eat",
-    "translation_ko": "먹을 시간이 없어요",
+    "text": "因為路上塞車了，所以我遲到了。",
+    "pinyin": "Yīnwèi lùshàng sāichē le, suǒyǐ wǒ chídào le.",
+    "pinyin_numeric": "yin1 wei4 lu4 shang4 sai1 che1 le5, suo3 yi3 wo3 chi2 dao4 le5.",
+    "translation_en": "Because there was a traffic jam on the road, I was late.",
+    "translation_ko": "길이 막혀서 지각했어요.",
     "audio_id": "AUD_LIS_D41_16",
-    "sentence_id": "SEN_D41_046"
+    "sentence_id": "SEN_D41_008"
   },
   {
     "id": "LIS_D41_17",
@@ -3035,15 +3035,15 @@
   {
     "id": "LIS_D42_11",
     "lesson_id": "LESSON_D42",
-    "type": "isolated_word",
+    "type": "sentence",
     "prompt_en": "Listen and identify the meaning.",
-    "text": "濃",
-    "pinyin": "nóng",
-    "pinyin_numeric": "nong2",
-    "translation_en": "strong; rich",
-    "translation_ko": "진하다",
+    "text": "我最喜歡吃牛肉麵，因為湯很香。",
+    "pinyin": "Wǒ zuì xǐhuān chī niúròumiàn, yīnwèi tāng hěn xiāng.",
+    "pinyin_numeric": "wo3 zui4 xi3huan1 chi1 niu2rou4mian4, yin1wei4 tang1 hen3 xiang1.",
+    "translation_en": "I like eating beef noodles the most because the soup is very fragrant.",
+    "translation_ko": "저는 소고기 국수를 가장 좋아해요. 국물이 아주 고소하기 때문이에요.",
     "audio_id": "AUD_LIS_D42_11",
-    "sentence_id": "SEN_D42_032"
+    "sentence_id": "SEN_D42_003"
   },
   {
     "id": "LIS_D42_12",
@@ -3101,15 +3101,15 @@
   {
     "id": "LIS_D42_16",
     "lesson_id": "LESSON_D42",
-    "type": "isolated_word",
+    "type": "sentence",
     "prompt_en": "Listen and identify the meaning.",
-    "text": "哪一個",
-    "pinyin": "nǎ yí ge",
-    "pinyin_numeric": "na3 yi2 ge0",
-    "translation_en": "which one",
-    "translation_ko": "어느 것",
+    "text": "你喜歡安靜的地方還是熱鬧的地方？",
+    "pinyin": "Nǐ xǐhuān ānjìng de dìfang háishì rènào de dìfang?",
+    "pinyin_numeric": "ni3 xi3huan1 an1jing4 de di4fang hai2shi4 re4nao4 de di4fang?",
+    "translation_en": "Do you like quiet places or lively places?",
+    "translation_ko": "조용한 곳을 좋아하세요, 아니면 시끌벅적한 곳을 좋아하세요?",
     "audio_id": "AUD_LIS_D42_16",
-    "sentence_id": "SEN_D42_047"
+    "sentence_id": "SEN_D42_006"
   },
   {
     "id": "LIS_D42_17",
@@ -3298,15 +3298,15 @@
   {
     "id": "LIS_D43_11",
     "lesson_id": "LESSON_D43",
-    "type": "isolated_word",
+    "type": "sentence",
     "prompt_en": "Listen and identify the meaning.",
-    "text": "裙子",
-    "pinyin": "qúnzi",
-    "pinyin_numeric": "qun2 zi0",
-    "translation_en": "skirt",
-    "translation_ko": "치마",
+    "text": "我想試穿這件黑色的外套。",
+    "pinyin": "Wǒ xiǎng shìchuān zhè jiàn hēisè de wàitào.",
+    "pinyin_numeric": "wo3 xiang3 shi4chuan1 zhe4 jian4 hei1se4 de5 wai4tao4",
+    "translation_en": "I would like to try on this black jacket.",
+    "translation_ko": "이 검은색 외투를 입어보고 싶어요.",
     "audio_id": "AUD_LIS_D43_11",
-    "sentence_id": "SEN_D43_031"
+    "sentence_id": "SEN_D43_003"
   },
   {
     "id": "LIS_D43_12",
@@ -3364,15 +3364,15 @@
   {
     "id": "LIS_D43_16",
     "lesson_id": "LESSON_D43",
-    "type": "isolated_word",
+    "type": "sentence",
     "prompt_en": "Listen and identify the meaning.",
-    "text": "包包",
-    "pinyin": "bāobāo",
-    "pinyin_numeric": "bao1 bao1",
-    "translation_en": "bag; purse",
-    "translation_ko": "가방",
+    "text": "這件裙子太貴了，可以便宜一點嗎？",
+    "pinyin": "Zhè jiàn qúnzi tài guì le, kěyǐ piányí yīdiǎn ma?",
+    "pinyin_numeric": "zhe4 jian4 qun2zi5 tai4 gui4 le5, ke3yi3 pian2yi2 yi1dian3 ma0",
+    "translation_en": "This skirt is too expensive. Can you make it a bit cheaper?",
+    "translation_ko": "이 치마가 너무 비싸요. 조금 깎아 주실 수 있나요?",
     "audio_id": "AUD_LIS_D43_16",
-    "sentence_id": "SEN_D43_046"
+    "sentence_id": "SEN_D43_005"
   },
   {
     "id": "LIS_D43_17",
@@ -3561,15 +3561,15 @@
   {
     "id": "LIS_D44_11",
     "lesson_id": "LESSON_D44",
-    "type": "isolated_word",
+    "type": "sentence",
     "prompt_en": "Listen and identify the meaning.",
-    "text": "小心",
-    "pinyin": "xiǎoxīn",
-    "pinyin_numeric": "xiao3 xin1",
-    "translation_en": "be careful",
-    "translation_ko": "조심하세요",
+    "text": "昨天天氣很冷，所以我不想去公園。",
+    "pinyin": "Zuótiān tiānqì hěn lěng, suǒyǐ wǒ bù xiǎng qù gōngyuán.",
+    "pinyin_numeric": "zuo2tian1 tian1qi4 hen3 leng3, suo3yi3 wo3 bu4 xiang3 qu4 gong1yuan2.",
+    "translation_en": "The weather was very cold yesterday, so I didn't want to go to the park.",
+    "translation_ko": "어제 날씨가 매우 추워서 저는 공원에 가고 싶지 않았어요.",
     "audio_id": "AUD_LIS_D44_11",
-    "sentence_id": "SEN_D44_031"
+    "sentence_id": "SEN_D44_002"
   },
   {
     "id": "LIS_D44_12",
@@ -3627,15 +3627,15 @@
   {
     "id": "LIS_D44_16",
     "lesson_id": "LESSON_D44",
-    "type": "isolated_word",
+    "type": "sentence",
     "prompt_en": "Listen and identify the meaning.",
-    "text": "風",
-    "pinyin": "fēng",
-    "pinyin_numeric": "feng1",
-    "translation_en": "wind",
-    "translation_ko": "바람",
+    "text": "今天天氣很舒服，我們一起去散步好嗎？",
+    "pinyin": "Jīntiān tiānqì hěn shūfu, wǒmen yīqǐ qù sànbù hǎo ma?",
+    "pinyin_numeric": "jin1tian1 tian1qi4 hen3 shu1fu5, wo3men5 yi1qi3 qu4 san4bu4 hao3 ma0?",
+    "translation_en": "The weather is very comfortable today. Shall we go for a walk together?",
+    "translation_ko": "오늘 날씨가 매우 쾌적해요. 같이 산책할까요?",
     "audio_id": "AUD_LIS_D44_16",
-    "sentence_id": "SEN_D44_046"
+    "sentence_id": "SEN_D44_003"
   },
   {
     "id": "LIS_D44_17",
