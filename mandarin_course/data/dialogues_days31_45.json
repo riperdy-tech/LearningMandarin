@@ -6436,9 +6436,9 @@
       {
         "id": "DLG_D45_01_T5",
         "speaker": "店員",
-        "text": "??????????????",
-        "pinyin": "Z?ngg?ng b?sh? ku?i. Q?ngw?n y?o z?nme f?ku?n?",
-        "pinyin_numeric": "zong3gong4 ba1shi2 kuai4. qing3 wen4 yao4 zen3 me0 fu4kuan3?",
+        "text": "總共八十塊。請問要怎麼付款？",
+        "pinyin": "Zǒnggòng bāshí kuài. Qǐngwèn yào zěnme fùkuǎn?",
+        "pinyin_numeric": "zong3 gong4 ba1 shi2 kuai4. qing3 wen4 yao4 zen3 me0 fu4 kuan3?",
         "translation_en": "That is 80 dollars total. How would you like to pay?",
         "translation_ko": "총 80달러입니다. 어떻게 결제하시겠습니까?",
         "token_ids": [
@@ -6456,9 +6456,9 @@
       {
         "id": "DLG_D45_01_T6",
         "speaker": "客人",
-        "text": "????",
-        "pinyin": "W? shu?k?.",
-        "pinyin_numeric": "wo3 shua1ka3.",
+        "text": "我刷卡。",
+        "pinyin": "Wǒ shuākǎ.",
+        "pinyin_numeric": "wo3 shua1 ka3.",
         "translation_en": "I will pay by card.",
         "translation_ko": "카드로 결제하겠습니다.",
         "token_ids": [

@@ -75,6 +75,14 @@ function checkPinyinNumeric(item, label) {
 }
 
 function checkPronunciationFields(item, label) {
+  for (const key of ["text", "char"]) {
+    if (typeof item[key] === "string" && item[key].includes("?")) {
+      errors.push(`${label}: corrupted ${key} "${item[key]}"`);
+    }
+  }
+  if (typeof item.pinyin === "string" && /\?[A-Za-z]|[A-Za-z]\?[A-Za-z]/.test(item.pinyin)) {
+    errors.push(`${label}: corrupted pinyin "${item.pinyin}"`);
+  }
   if (typeof item.pinyin === "string" && /\bwèishéme\b/i.test(item.pinyin)) {
     errors.push(`${label}: incorrect pinyin "${item.pinyin}"; use "wèishénme"`);
   }
