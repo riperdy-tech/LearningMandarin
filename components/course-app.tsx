@@ -1587,16 +1587,16 @@ function ReferenceStrip({
               <p className="text-sm font-black text-jade-700">Writing support</p>
             </div>
           </CardHeader>
-          <CardContent className="max-h-[34rem] overflow-y-auto">
+          <CardContent className="max-h-[28rem] overflow-y-auto">
             {writing.length === 0 || !writingItem ? (
               <EmptyState text="No writing items are attached to this lesson yet." />
             ) : (
-              <div className="grid gap-4 md:grid-cols-[9rem_minmax(0,1fr)]">
-                <div className="grid max-h-72 grid-cols-3 gap-2 overflow-y-auto pr-1 md:grid-cols-2">
+              <div className="grid gap-3 md:grid-cols-[7rem_minmax(0,1fr)]">
+                <div className="grid max-h-56 grid-cols-4 gap-2 overflow-y-auto pr-1 md:grid-cols-2">
                   {writing.map((item, index) => (
                     <button
                       className={cn(
-                        "aspect-square rounded-lg han text-3xl font-black transition",
+                        "aspect-square rounded-lg han text-2xl font-black transition",
                         item.char === writingItem.char ? "bg-ink text-white" : "bg-black/[0.035] hover:bg-black/10"
                       )}
                       key={`${item.char}-${index}`}
@@ -1609,8 +1609,8 @@ function ReferenceStrip({
                 </div>
                 <div className="min-w-0">
                   <div className="flex flex-wrap items-center gap-3">
-                    <div className="grid h-24 w-24 place-items-center rounded-lg bg-paper ring-1 ring-black/10">
-                      <span className="han text-6xl font-black text-ink">{writingItem.char}</span>
+                    <div className="grid h-20 w-20 place-items-center rounded-lg bg-paper ring-1 ring-black/10">
+                      <span className="han text-5xl font-black text-ink">{writingItem.char}</span>
                     </div>
                     <div>
                       <Badge>Radical {writingItem.radical}</Badge>
@@ -1622,7 +1622,7 @@ function ReferenceStrip({
                     </div>
                   </div>
                   <StrokeAnimation char={writingItem.char} />
-                  <div className="mt-4 flex flex-wrap gap-2">
+                  <div className="mt-3 flex max-h-24 flex-wrap gap-2 overflow-y-auto pr-1">
                     {writingItem.strokes.map((stroke, index) => (
                       <span
                         className="rounded-lg bg-jade-50 px-3 py-2 text-sm font-bold text-jade-900 ring-1 ring-jade-500/20"
@@ -1642,12 +1642,12 @@ function ReferenceStrip({
                       MDBG
                     </ReferenceLink>
                   </div>
-                  <div className="mt-5">
+                  <div className="mt-4">
                     <p className="text-xs font-black uppercase text-ink/45">Words with this character</p>
                     {relatedWords.length === 0 ? (
                       <p className="mt-2 text-sm font-semibold text-ink/50">No related word is visible in today's lesson.</p>
                     ) : (
-                      <div className="mt-2 grid max-h-64 gap-2 overflow-y-auto pr-1">
+                      <div className="mt-2 grid max-h-36 gap-2 overflow-y-auto pr-1">
                         {relatedWords.map((item) => (
                           <div className="rounded-lg bg-white p-3 ring-1 ring-black/10" key={item.id}>
                             <div className="flex flex-wrap items-start justify-between gap-3">
@@ -1721,8 +1721,8 @@ function StrokeAnimation({ char }: { char: string }) {
       .then((HanziWriter) => {
         if (cancelled) return;
         writerRef.current = HanziWriter.create(targetId, char, {
-          width: 154,
-          height: 154,
+          width: 124,
+          height: 124,
           padding: 8,
           charDataLoader: (character, onComplete, onError) => {
             fetch(getHanziWriterDataUrl(character))
@@ -1759,19 +1759,16 @@ function StrokeAnimation({ char }: { char: string }) {
   }
 
   return (
-    <div className="mt-4 rounded-lg bg-paper p-4 ring-1 ring-black/10">
+    <div className="mt-3 rounded-lg bg-paper p-3 ring-1 ring-black/10">
       <div className="flex flex-wrap items-center justify-between gap-3">
         <div>
           <p className="text-xs font-black uppercase text-ink/45">Stroke animation</p>
-          <p className="mt-1 text-sm font-semibold text-ink/55">
-            Real stroke-order data loads online for the selected character.
-          </p>
         </div>
         <Button disabled={status !== "ready"} onClick={replay} size="sm" variant="secondary">
           Replay
         </Button>
       </div>
-      <div className="mt-3 grid min-h-40 place-items-center rounded-lg bg-white">
+      <div className="mt-2 grid min-h-32 place-items-center rounded-lg bg-white">
         <div id={targetId} />
         {status === "loading" && <p className="text-sm font-bold text-ink/45">Loading stroke data...</p>}
         {status === "error" && (
