@@ -2316,7 +2316,7 @@
     "prompt_en": "Repeat the model sentence with full phrase rhythm.",
     "model_answer": "我想約你一起去喝咖啡。",
     "model_pinyin": "Wǒ xiǎng yuē nǐ yīqǐ qù hē kāfēi.",
-    "model_translation_en": "I want to invite you to go drink coffee together.",
+    "model_translation_en": "I want to invite you to go have coffee together.",
     "related_sentence_id": "SEN_D37_001",
     "related_dialogue_id": "DLG_D37_01"
   },
@@ -2426,7 +2426,7 @@
     "prompt_en": "Repeat the model sentence with full phrase rhythm.",
     "model_answer": "你什麼時候有空？我們可以一起去喝咖啡。",
     "model_pinyin": "Nǐ shénme shíhou yǒu kòng? Wǒmen kěyǐ yīqǐ qù hē kāfēi.",
-    "model_translation_en": "When are you free? We can go drink coffee together.",
+    "model_translation_en": "When are you free? We can go have coffee together.",
     "related_sentence_id": "SEN_D37_021",
     "related_dialogue_id": "DLG_D37_02"
   },
@@ -2448,7 +2448,7 @@
     "prompt_en": "Answer a question in this scenario: planning to meet someone.",
     "model_answer": "你什麼時候要見朋友？我們可以一起去喝咖啡聊天。",
     "model_pinyin": "Nǐ shénme shíhou yào jiàn péngyou? Wǒmen kěyǐ yīqǐ qù hē kāfēi liáotiān.",
-    "model_translation_en": "When are you meeting a friend? We can go drink coffee and chat together.",
+    "model_translation_en": "When are you meeting a friend? We can go have coffee and chat together.",
     "related_sentence_id": "SEN_D37_025",
     "related_dialogue_id": "DLG_D37_01"
   },
@@ -2481,7 +2481,7 @@
     "prompt_en": "Repeat the model sentence with full phrase rhythm.",
     "model_answer": "我想約朋友一起去喝咖啡。",
     "model_pinyin": "Wǒ xiǎng yuē péngyǒu yīqǐ qù hē kāfēi.",
-    "model_translation_en": "I want to invite a friend to go drink coffee together.",
+    "model_translation_en": "I want to invite a friend to go have coffee together.",
     "related_sentence_id": "SEN_D37_031",
     "related_dialogue_id": "DLG_D37_01"
   },
@@ -2525,7 +2525,7 @@
     "prompt_en": "Create your own sentence using only known words.",
     "model_answer": "你想約誰一起去喝咖啡？",
     "model_pinyin": "Nǐ xiǎng yuē shéi yīqǐ qù hē kāfēi?",
-    "model_translation_en": "Who do you want to invite to go drink coffee together?",
+    "model_translation_en": "Who do you want to invite to go have coffee together?",
     "related_sentence_id": "SEN_D37_039",
     "related_dialogue_id": "DLG_D37_02"
   },
@@ -2536,7 +2536,7 @@
     "prompt_en": "Repeat the model sentence with full phrase rhythm.",
     "model_answer": "我們要約會，一起去喝咖啡好嗎？",
     "model_pinyin": "Wǒmen yào yuēhuì, yīqǐ qù hē kāfēi hǎo ma?",
-    "model_translation_en": "We are going on a date; shall we go drink coffee together?",
+    "model_translation_en": "We are going on a date; shall we go have coffee together?",
     "related_sentence_id": "SEN_D37_041",
     "related_dialogue_id": "DLG_D37_03"
   },
@@ -2591,7 +2591,7 @@
     "prompt_en": "Repeat the model sentence with full phrase rhythm.",
     "model_answer": "你什麼時候有空？我們可以一起去喝咖啡。",
     "model_pinyin": "Nǐ shénme shíhòu yǒu kòng? Wǒmen kěyǐ yīqǐ qù hē kāfēi.",
-    "model_translation_en": "When are you free? We can go drink coffee together.",
+    "model_translation_en": "When are you free? We can go have coffee together.",
     "related_sentence_id": "SEN_D37_021",
     "related_dialogue_id": "DLG_D37_02"
   },
@@ -2613,7 +2613,7 @@
     "prompt_en": "Answer a question in this scenario: planning to meet someone.",
     "model_answer": "你什麼時候要見朋友？我們可以一起去喝咖啡聊天。",
     "model_pinyin": "Nǐ shénme shíhòu yào jiàn péngyǒu? Wǒmen kěyǐ yīqǐ qù hē kāfēi liáotiān.",
-    "model_translation_en": "When are you meeting a friend? We can go drink coffee and chat together.",
+    "model_translation_en": "When are you meeting a friend? We can go have coffee and chat together.",
     "related_sentence_id": "SEN_D37_025",
     "related_dialogue_id": "DLG_D37_01"
   },
@@ -2646,7 +2646,7 @@
     "prompt_en": "Repeat the model sentence with full phrase rhythm.",
     "model_answer": "我想約朋友一起去喝咖啡。",
     "model_pinyin": "Wǒ xiǎng yuē péngyǒu yīqǐ qù hē kāfēi.",
-    "model_translation_en": "I want to make plans with a friend to go drink coffee together.",
+    "model_translation_en": "I want to make plans with a friend to go have coffee together.",
     "related_sentence_id": "SEN_D37_031",
     "related_dialogue_id": "DLG_D37_01"
   },
@@ -5011,7 +5011,7 @@
     "prompt_en": "Repeat the model sentence with full phrase rhythm.",
     "model_answer": "今天天氣很熱，我有點累。",
     "model_pinyin": "Jīntiān tiānqì hěn rè, wǒ yǒudiǎn lèi.",
-    "model_translation_en": "The weather is very hot today, and I'm a bit tired.",
+    "model_translation_en": "It's very hot today, and I'm a bit tired.",
     "related_sentence_id": "SEN_D44_001",
     "related_dialogue_id": "DLG_D44_01"
   },
@@ -5022,7 +5022,7 @@
     "prompt_en": "Swap one word and say the new sentence aloud.",
     "model_answer": "今天天氣很舒服，我們一起去散步好嗎？",
     "model_pinyin": "Jīntiān tiānqì hěn shūfu, wǒmen yīqǐ qù sànbù hǎo ma?",
-    "model_translation_en": "The weather is very comfortable today. Shall we go for a walk together?",
+    "model_translation_en": "It's really pleasant today. Shall we go for a walk together?",
     "related_sentence_id": "SEN_D44_003",
     "related_dialogue_id": "DLG_D44_02"
   },
@@ -5033,7 +5033,7 @@
     "prompt_en": "Answer a question in this scenario: small talk about weather and feelings.",
     "model_answer": "今天天氣很悶熱，我沒有精神。",
     "model_pinyin": "Jīntiān tiānqì hěn mēnrè, wǒ méiyǒu jīngshén.",
-    "model_translation_en": "The weather is very muggy today, and I have no energy.",
+    "model_translation_en": "It's very muggy today, and I have no energy.",
     "related_sentence_id": "SEN_D44_005",
     "related_dialogue_id": "DLG_D44_03"
   },
@@ -5044,7 +5044,7 @@
     "prompt_en": "Respond as one speaker in this scenario: small talk about weather and feelings.",
     "model_answer": "今天天氣很熱，我想喝一杯冰水。",
     "model_pinyin": "Jīntiān tiānqì hěn rè, wǒ xiǎng hē yī bēi bīng shuǐ.",
-    "model_translation_en": "The weather is very hot today, and I want to drink a glass of ice water.",
+    "model_translation_en": "It's very hot today, and I want to drink a glass of ice water.",
     "related_sentence_id": "SEN_D44_007",
     "related_dialogue_id": "DLG_D44_01"
   },
@@ -5055,7 +5055,7 @@
     "prompt_en": "Create your own sentence using only known words.",
     "model_answer": "今天天氣很舒服，所以我的心情很開心。",
     "model_pinyin": "Jīntiān tiānqì hěn shūfu, suǒyǐ wǒ de xīnqíng hěn kāixīn.",
-    "model_translation_en": "The weather is very comfortable today, so my mood is very happy.",
+    "model_translation_en": "It's really pleasant today, so I'm very happy.",
     "related_sentence_id": "SEN_D44_009",
     "related_dialogue_id": "DLG_D44_02"
   },
@@ -5176,7 +5176,7 @@
     "prompt_en": "Repeat the model sentence with full phrase rhythm.",
     "model_answer": "今天天氣很熱，我心情不好。",
     "model_pinyin": "Jīntiān tiānqì hěn rè, wǒ xīnqíng bù hǎo.",
-    "model_translation_en": "The weather is very hot today, and I'm in a bad mood.",
+    "model_translation_en": "It's very hot today, and I'm in a bad mood.",
     "related_sentence_id": "SEN_D44_031",
     "related_dialogue_id": "DLG_D44_01"
   },
@@ -5220,7 +5220,7 @@
     "prompt_en": "Create your own sentence using only known words.",
     "model_answer": "天氣很冷的時候，穿外套很舒服。",
     "model_pinyin": "Tiānqì hěn lěng de shíhou, chuān wàitào hěn shūfu.",
-    "model_translation_en": "When the weather is very cold, wearing a jacket is comfortable.",
+    "model_translation_en": "When it's very cold, wearing a jacket is comfortable.",
     "related_sentence_id": "SEN_D44_039",
     "related_dialogue_id": "DLG_D44_02"
   },
@@ -5242,7 +5242,7 @@
     "prompt_en": "Swap one word and say the new sentence aloud.",
     "model_answer": "晴天讓我有點開心，心情很好。",
     "model_pinyin": "Qíngtiān ràng wǒ yǒudiǎn kāixīn, xīnqíng hěn hǎo.",
-    "model_translation_en": "The sunny day makes me a little happy, my mood is very good.",
+    "model_translation_en": "The sunny day makes me a little happy, I'm in a good mood.",
     "related_sentence_id": "SEN_D44_043",
     "related_dialogue_id": "DLG_D44_01"
   },
@@ -5319,7 +5319,7 @@
     "prompt_en": "Respond as one speaker in this scenario: small talk about weather and feelings.",
     "model_answer": "今天天氣太舒服了，我心情很好。",
     "model_pinyin": "Jīntiān tiānqì tài shūfu le, wǒ xīnqíng hěn hǎo.",
-    "model_translation_en": "The weather is very comfortable today; I'm in a great mood.",
+    "model_translation_en": "It's really pleasant today; I'm in a great mood.",
     "related_sentence_id": "SEN_D44_057",
     "related_dialogue_id": "DLG_D44_02"
   },
@@ -5341,7 +5341,7 @@
     "prompt_en": "Repeat the model sentence with full phrase rhythm.",
     "model_answer": "今天天氣很熱，我心情不好。",
     "model_pinyin": "Jīntiān tiānqì hěn rè, wǒ xīnqíng bù hǎo.",
-    "model_translation_en": "The weather is very hot today, and I'm in a bad mood.",
+    "model_translation_en": "It's very hot today, and I'm in a bad mood.",
     "related_sentence_id": "SEN_D44_031",
     "related_dialogue_id": "DLG_D44_01"
   },
@@ -5352,7 +5352,7 @@
     "prompt_en": "Swap one word and say the new sentence aloud.",
     "model_answer": "晴天很舒服，我的心情也很好。",
     "model_pinyin": "Qíngtiān hěn shūfú, wǒ de xīnqíng yě hěn hǎo.",
-    "model_translation_en": "Sunny weather is very comfortable, and my mood is also very good.",
+    "model_translation_en": "Sunny weather feels pleasant, and I'm also in a good mood.",
     "related_sentence_id": "SEN_D44_063",
     "related_dialogue_id": "DLG_D44_02"
   },
@@ -5363,7 +5363,7 @@
     "prompt_en": "Answer a question in this scenario: small talk about weather and feelings.",
     "model_answer": "下雨天很涼快，我的心情很放鬆。",
     "model_pinyin": "Xiàyǔ tiān hěn liángkuài, wǒ de xīnqíng hěn fàngsōng.",
-    "model_translation_en": "Rainy weather is very cool, and my mood is very relaxed.",
+    "model_translation_en": "Rainy weather feels cool, and I feel very relaxed.",
     "related_sentence_id": "SEN_D44_065",
     "related_dialogue_id": "DLG_D44_03"
   },
@@ -5374,7 +5374,7 @@
     "prompt_en": "Respond as one speaker in this scenario: small talk about weather and feelings.",
     "model_answer": "今天溫度三十度，天氣很熱，我壓力很大。",
     "model_pinyin": "Jīntiān wēndù sānshí dù, tiānqì hěn rè, wǒ yālì hěn dà.",
-    "model_translation_en": "Today the temperature is 30 degrees, the weather is very hot, and I am very stressed.",
+    "model_translation_en": "Today the temperature is 30 degrees, it's very hot, and I'm very stressed.",
     "related_sentence_id": "SEN_D44_067",
     "related_dialogue_id": "DLG_D44_01"
   },
@@ -5396,7 +5396,7 @@
     "prompt_en": "Repeat the model sentence with full phrase rhythm.",
     "model_answer": "因為天氣很冷，所以我穿外套。",
     "model_pinyin": "Yīnwèi tiānqì hěn lěng, suǒyǐ wǒ chuān wàitào.",
-    "model_translation_en": "Because the weather is very cold, I wear a jacket.",
+    "model_translation_en": "Because it's very cold, I wear a jacket.",
     "related_sentence_id": "SEN_D45_001",
     "related_dialogue_id": "DLG_D45_01"
   },
@@ -5429,7 +5429,7 @@
     "prompt_en": "Respond as one speaker in this scenario: survival fluency checkpoint.",
     "model_answer": "因為今天有太陽，所以天氣很舒服。",
     "model_pinyin": "Yīnwèi jīntiān yǒu tàiyáng, suǒyǐ tiānqì hěn shūfú.",
-    "model_translation_en": "Because there is sun today, the weather is very comfortable.",
+    "model_translation_en": "Because it's sunny today, the weather is really pleasant.",
     "related_sentence_id": "SEN_D45_007",
     "related_dialogue_id": "DLG_D45_01"
   },
@@ -5561,7 +5561,7 @@
     "prompt_en": "Repeat the model sentence with full phrase rhythm.",
     "model_answer": "因為天氣很冷，所以我穿外套。",
     "model_pinyin": "Yīnwèi tiānqì hěn lěng, suǒyǐ wǒ chuān wàitào.",
-    "model_translation_en": "Because the weather is very cold, I wear a jacket.",
+    "model_translation_en": "Because it's very cold, I wear a jacket.",
     "related_sentence_id": "SEN_D45_001",
     "related_dialogue_id": "DLG_D45_01"
   },
@@ -5605,7 +5605,7 @@
     "prompt_en": "Create your own sentence using only known words.",
     "model_answer": "因為天氣很舒服，所以我的心情很好。",
     "model_pinyin": "Yīnwèi tiānqì hěn shūfu, suǒyǐ wǒ de xīnqíng hěn hǎo.",
-    "model_translation_en": "Because the weather is very comfortable, my mood is very good.",
+    "model_translation_en": "Because the weather is really pleasant, I'm in a good mood.",
     "related_sentence_id": "SEN_D45_039",
     "related_dialogue_id": "DLG_D45_02"
   }

@@ -13464,7 +13464,7 @@
     "text": "我想約你一起去喝咖啡。",
     "pinyin": "Wǒ xiǎng yuē nǐ yīqǐ qù hē kāfēi.",
     "pinyin_numeric": "wo3 xiang3 yue1 ni3 yi1qi3 qu4 he1 ka1fei1",
-    "translation_en": "I want to invite you to go drink coffee together.",
+    "translation_en": "I want to invite you to go have coffee together.",
     "translation_ko": "당신과 함께 커피를 마시러 가고 싶어요.",
     "token_ids": [
       "VOC_M1_002",
@@ -13495,7 +13495,7 @@
     "text": "你想跟我一起去看電影嗎？",
     "pinyin": "Nǐ xiǎng gēn wǒ yīqǐ qù kàn diànyǐng ma?",
     "pinyin_numeric": "ni3 xiang3 gen1 wo3 yi1qi3 qu4 kan4 dian4ying3 ma0",
-    "translation_en": "Do you want to go watch a movie with me?",
+    "translation_en": "Do you want to go see a movie with me?",
     "translation_ko": "저랑 같이 영화 보러 가고 싶어요?",
     "token_ids": [
       "VOC_M1_003",
@@ -14107,7 +14107,7 @@
     "text": "你什麼時候有空？我們可以一起去喝咖啡。",
     "pinyin": "Nǐ shénme shíhou yǒu kòng? Wǒmen kěyǐ yīqǐ qù hē kāfēi.",
     "pinyin_numeric": "ni3 shen2 me0 shi2hou you3 kong4? wo3men ke3yi3 yi1qi3 qu4 he1 ka1fei1.",
-    "translation_en": "When are you free? We can go drink coffee together.",
+    "translation_en": "When are you free? We can go have coffee together.",
     "translation_ko": "언제 시간 돼요? 같이 커피 마시러 갈 수 있어요.",
     "token_ids": [
       "VOC_M1_003",
@@ -14257,7 +14257,7 @@
     "text": "你什麼時候要見朋友？我們可以一起去喝咖啡聊天。",
     "pinyin": "Nǐ shénme shíhou yào jiàn péngyou? Wǒmen kěyǐ yīqǐ qù hē kāfēi liáotiān.",
     "pinyin_numeric": "ni3 shen2 me0 shi2hou yao4 jian4 peng2you? wo3men ke3yi3 yi1qi3 qu4 he1 ka1fei1 liao2tian1.",
-    "translation_en": "When are you meeting a friend? We can go drink coffee and chat together.",
+    "translation_en": "When are you meeting a friend? We can go have coffee and chat together.",
     "translation_ko": "언제 친구를 만날 거예요? 같이 커피 마시면서 이야기할 수 있어요.",
     "token_ids": [
       "VOC_M1_003",
@@ -14296,7 +14296,7 @@
     "text": "我們什麼時候約時間？我想跟你一起去看電影。",
     "pinyin": "Wǒmen shénme shíhou yuē shíjiān? Wǒ xiǎng gēn nǐ yīqǐ qù kàn diànyǐng.",
     "pinyin_numeric": "wo3men shen2 me0 shi2hou yue1 shi2jian1? wo3 xiang3 gen1 ni3 yi1qi3 qu4 kan4 dian4ying3.",
-    "translation_en": "When shall we set a time? I want to go watch a movie with you.",
+    "translation_en": "When shall we set a time? I want to go see a movie with you.",
     "translation_ko": "우리 언제 시간을 정할까요? 당신과 같이 영화 보러 가고 싶어요.",
     "token_ids": [
       "VOC_M1_006",
@@ -14501,7 +14501,7 @@
     "text": "我想約朋友一起去喝咖啡。",
     "pinyin": "Wǒ xiǎng yuē péngyǒu yīqǐ qù hē kāfēi.",
     "pinyin_numeric": "wo3 xiang3 yue1 peng2you3 yi1qi3 qu4 he1 ka1fei1.",
-    "translation_en": "I want to invite a friend to go drink coffee together.",
+    "translation_en": "I want to invite a friend to go have coffee together.",
     "translation_ko": "친구랑 같이 커피 마시러 가고 싶어요.",
     "token_ids": [
       "VOC_M1_002",
@@ -14761,7 +14761,7 @@
     "text": "你想約誰一起去喝咖啡？",
     "pinyin": "Nǐ xiǎng yuē shéi yīqǐ qù hē kāfēi?",
     "pinyin_numeric": "ni3 xiang3 yue1 shei2 yi1qi3 qu4 he1 ka1fei1?",
-    "translation_en": "Who do you want to invite to go drink coffee together?",
+    "translation_en": "Who do you want to invite to go have coffee together?",
     "translation_ko": "누구랑 같이 커피 마시러 가고 싶어요?",
     "token_ids": [
       "VOC_M1_003",
@@ -14831,7 +14831,7 @@
     "text": "我們要約會，一起去喝咖啡好嗎？",
     "pinyin": "Wǒmen yào yuēhuì, yīqǐ qù hē kāfēi hǎo ma?",
     "pinyin_numeric": "wo3men yao4 yue1hui4, yi1qi3 qu4 he1 ka1fei1 hao3 ma0",
-    "translation_en": "We are going on a date; shall we go drink coffee together?",
+    "translation_en": "We are going on a date; shall we go have coffee together?",
     "translation_ko": "우리는 데이트를 할 거예요. 같이 커피 마시러 갈까요?",
     "token_ids": [
       "VOC_M1_006",
@@ -15165,7 +15165,7 @@
     "text": "我們什麼時候見面？我想跟你一起去看電影。",
     "pinyin": "Wǒmen shénme shíhòu jiànmiàn? Wǒ xiǎng gēn nǐ yīqǐ qù kàn diànyǐng.",
     "pinyin_numeric": "wo3men shen2 me0 shi2hou4 jian4mian4? wo3 xiang3 gen1 ni3 yi1qi3 qu4 kan4 dian4ying3.",
-    "translation_en": "When shall we meet? I want to go watch a movie with you.",
+    "translation_en": "When shall we meet? I want to go see a movie with you.",
     "translation_ko": "우리 언제 만날까요? 같이 영화 보러 가고 싶어요.",
     "token_ids": [
       "VOC_M1_006",
@@ -15435,7 +15435,7 @@
     "text": "我們什麼時候要約好？下次再一起去看電影。",
     "pinyin": "Wǒmen shénme shíhòu yào yuē hǎo? Xià cì zài yīqǐ qù kàn diànyǐng.",
     "pinyin_numeric": "wo3men shen2 me0 shi2hou4 yao4 yue1 hao3? xia4 ci4 zai4 yi1qi3 qu4 kan4 dian4ying3.",
-    "translation_en": "When shall we finalize our plans? Next time we'll go watch a movie together.",
+    "translation_en": "When shall we finalize our plans? Next time we'll go see a movie together.",
     "translation_ko": "우리 언제 약속을 정할까요? 다음에 같이 영화 보러 가요.",
     "token_ids": [
       "VOC_M1_006",
@@ -32125,7 +32125,7 @@
     "text": "今天天氣很熱，我有點累。",
     "pinyin": "Jīntiān tiānqì hěn rè, wǒ yǒudiǎn lèi.",
     "pinyin_numeric": "jin1tian1 tian1qi4 hen3 re4, wo3 you3dian3 lei4.",
-    "translation_en": "The weather is very hot today, and I'm a bit tired.",
+    "translation_en": "It's very hot today, and I'm a bit tired.",
     "translation_ko": "오늘 날씨가 매우 덥고, 저는 조금 피곤해요.",
     "token_ids": [
       "VOC_M1_032",
@@ -32193,7 +32193,7 @@
     "text": "今天天氣很舒服，我們一起去散步好嗎？",
     "pinyin": "Jīntiān tiānqì hěn shūfu, wǒmen yīqǐ qù sànbù hǎo ma?",
     "pinyin_numeric": "jin1tian1 tian1qi4 hen3 shu1fu5, wo3men5 yi1qi3 qu4 san4bu4 hao3 ma0?",
-    "translation_en": "The weather is very comfortable today. Shall we go for a walk together?",
+    "translation_en": "It's really pleasant today. Shall we go for a walk together?",
     "translation_ko": "오늘 날씨가 매우 쾌적해요. 같이 산책할까요?",
     "token_ids": [
       "VOC_M1_032",
@@ -32257,7 +32257,7 @@
     "text": "今天天氣很悶熱，我沒有精神。",
     "pinyin": "Jīntiān tiānqì hěn mēnrè, wǒ méiyǒu jīngshén.",
     "pinyin_numeric": "jin1tian1 tian1qi4 hen3 men1re4, wo3 mei2you3 jing1shen2.",
-    "translation_en": "The weather is very muggy today, and I have no energy.",
+    "translation_en": "It's very muggy today, and I have no energy.",
     "translation_ko": "오늘 날씨가 매우 후덥지근해서, 저는 기운이 없어요.",
     "token_ids": [
       "VOC_M1_032",
@@ -32329,7 +32329,7 @@
     "text": "今天天氣很熱，我想喝一杯冰水。",
     "pinyin": "Jīntiān tiānqì hěn rè, wǒ xiǎng hē yī bēi bīng shuǐ.",
     "pinyin_numeric": "jin1tian1 tian1qi4 hen3 re4, wo3 xiang3 he1 yi1 bei1 bing1 shui3.",
-    "translation_en": "The weather is very hot today, and I want to drink a glass of iced water.",
+    "translation_en": "It's very hot today, and I'd like a glass of iced water.",
     "translation_ko": "오늘 날씨가 매우 더워서, 저는 얼음물 한 잔을 마시고 싶어요.",
     "token_ids": [
       "VOC_M1_032",
@@ -32401,7 +32401,7 @@
     "text": "今天天氣很舒服，所以我的心情很開心。",
     "pinyin": "Jīntiān tiānqì hěn shūfu, suǒyǐ wǒ de xīnqíng hěn kāixīn.",
     "pinyin_numeric": "jin1tian1 tian1qi4 hen3 shu1fu5, suo3yi3 wo3 de5 xin1qing2 hen3 kai1xin1.",
-    "translation_en": "The weather is very comfortable today, so my mood is very happy.",
+    "translation_en": "It's really pleasant today, so I'm very happy.",
     "translation_ko": "오늘 날씨가 매우 쾌적해서, 제 기분이 아주 즐거워요.",
     "token_ids": [
       "VOC_M1_032",
@@ -33063,7 +33063,7 @@
     "text": "今天天氣很舒服，我心情太好了。",
     "pinyin": "Jīntiān tiānqì hěn shūfú, wǒ xīnqíng tài hǎo le.",
     "pinyin_numeric": "jin1tian1 tian1qi4 hen3 shu1fu2, wo3 xin1qing2 tai4 hao3 le0.",
-    "translation_en": "The weather is very comfortable today, my mood is too good.",
+    "translation_en": "It's really pleasant today, I'm in a great mood.",
     "translation_ko": "오늘 날씨가 너무 쾌적해서 기분이 너무 좋아요.",
     "token_ids": [
       "VOC_M1_032",
@@ -33168,7 +33168,7 @@
     "text": "今天天氣很熱，我心情不好。",
     "pinyin": "Jīntiān tiānqì hěn rè, wǒ xīnqíng bù hǎo.",
     "pinyin_numeric": "jin1tian1 tian1qi4 hen3 re4, wo3 xin1qing2 bu4 hao3.",
-    "translation_en": "The weather is very hot today, and I'm in a bad mood.",
+    "translation_en": "It's very hot today, and I'm in a bad mood.",
     "translation_ko": "오늘 날씨가 매우 더워서 기분이 안 좋아요.",
     "token_ids": [
       "VOC_M1_032",
@@ -33197,7 +33197,7 @@
     "text": "下雨天很涼快，心情很舒服。",
     "pinyin": "Xiàyǔ tiān hěn liángkuài, xīnqíng hěn shūfu.",
     "pinyin_numeric": "xia4yu3 tian1 hen3 liang2kuai4, xin1qing2 hen3 shu1fu.",
-    "translation_en": "Rainy days are cool, and my mood is very comfortable.",
+    "translation_en": "Rainy days are cool, and I feel comfortable.",
     "translation_ko": "비 오는 날은 시원해서 기분이 아주 편안해요.",
     "token_ids": [
       "VOC_D44_002",
@@ -33263,7 +33263,7 @@
     "text": "晴天太陽很大，可是心情很開心。",
     "pinyin": "Qíngtiān tàiyáng hěn dà, kěshì xīnqíng hěn kāixīn.",
     "pinyin_numeric": "qing2tian1 tai4yang2 hen3 da4, ke3shi4 xin1qing2 hen3 kai1xin1.",
-    "translation_en": "On sunny days the sun is strong, but my mood is very happy.",
+    "translation_en": "On sunny days the sun is strong, but I'm very happy.",
     "translation_ko": "맑은 날은 태양이 강하지만 기분은 아주 즐거워요.",
     "token_ids": [
       "VOC_D44_012",
@@ -33329,7 +33329,7 @@
     "text": "今天溫度三十度，天氣很熱，我很想喝冰水。",
     "pinyin": "Jīntiān wēndù sānshí dù, tiānqì hěn rè, wǒ hěn xiǎng hē bīng shuǐ.",
     "pinyin_numeric": "jin1tian1 wen1du4 san1shi2 du4, tian1qi4 hen3 re4, wo3 hen3 xiang3 he1 bing1 shui3.",
-    "translation_en": "Today the temperature is 30 degrees, the weather is very hot, and I really want to drink iced water.",
+    "translation_en": "Today the temperature is 30 degrees, it's very hot, and I'd really like some iced water.",
     "translation_ko": "오늘 기온이 30도라서 날씨가 매우 덥고, 얼음물을 마시고 싶어요.",
     "token_ids": [
       "VOC_M1_032",
@@ -33435,7 +33435,7 @@
     "text": "天氣很冷的時候，穿外套很舒服。",
     "pinyin": "Tiānqì hěn lěng de shíhou, chuān wàitào hěn shūfu.",
     "pinyin_numeric": "tian1qi4 hen3 leng3 de5 shi2hou4, chuan1 wai4tao4 hen3 shu1fu.",
-    "translation_en": "When the weather is very cold, wearing a jacket is comfortable.",
+    "translation_en": "When it's very cold, wearing a jacket is comfortable.",
     "translation_ko": "날씨가 매우 추울 때 외투를 입으면 편안해요.",
     "token_ids": [
       "VOC_D44_001",
@@ -33466,7 +33466,7 @@
     "text": "今天天氣很舒服，我的心情很好。",
     "pinyin": "Jīntiān tiānqì hěn shūfu, wǒ de xīnqíng hěn hǎo.",
     "pinyin_numeric": "jin1tian1 tian1qi4 hen3 shu1fu, wo3 de5 xin1qing2 hen3 hao3.",
-    "translation_en": "The weather is very comfortable today, and my mood is very good.",
+    "translation_en": "It's really pleasant today, and I'm in a good mood.",
     "translation_ko": "오늘 날씨가 아주 쾌적해서 기분이 아주 좋아요.",
     "token_ids": [
       "VOC_M1_032",
@@ -33568,7 +33568,7 @@
     "text": "晴天讓我有點開心，心情很好。",
     "pinyin": "Qíngtiān ràng wǒ yǒudiǎn kāixīn, xīnqíng hěn hǎo.",
     "pinyin_numeric": "qing2tian1 rang4 wo3 you3dian3 kai1xin1, xin1qing2 hen3 hao3.",
-    "translation_en": "The sunny day makes me a little happy, my mood is very good.",
+    "translation_en": "The sunny day makes me a little happy, I'm in a good mood.",
     "translation_ko": "맑은 날씨가 저를 조금 기쁘게 해요, 기분이 아주 좋아요.",
     "token_ids": [
       "VOC_D44_012",
@@ -33701,7 +33701,7 @@
     "text": "今天天氣很舒服，我心情有點放鬆。",
     "pinyin": "Jīntiān tiānqì hěn shūfu, wǒ xīnqíng yǒudiǎn fàngsōng.",
     "pinyin_numeric": "jin1tian1 tian1qi4 hen3 shu1fu0, wo3 xin1qing2 you3dian3 fang4song1.",
-    "translation_en": "Today's weather is very comfortable, I feel a bit relaxed.",
+    "translation_en": "Today's weather is really pleasant, I feel a bit relaxed.",
     "translation_ko": "오늘 날씨가 아주 쾌적해서, 제 기분이 좀 편안해요.",
     "token_ids": [
       "VOC_M1_032",
@@ -34166,7 +34166,7 @@
     "text": "晴天很舒服，我的心情也很好。",
     "pinyin": "Qíngtiān hěn shūfú, wǒ de xīnqíng yě hěn hǎo.",
     "pinyin_numeric": "qing2tian1 hen3 shu1fu2, wo3 de xin1qing2 ye3 hen3 hao3.",
-    "translation_en": "Sunny weather is very comfortable, and my mood is also very good.",
+    "translation_en": "Sunny weather feels pleasant, and I'm also in a good mood.",
     "translation_ko": "맑은 날씨가 매우 쾌적하고 제 기분도 아주 좋아요.",
     "token_ids": [
       "VOC_D44_012",
@@ -34201,7 +34201,7 @@
     "text": "下雨天很涼快，我的心情很放鬆。",
     "pinyin": "Xiàyǔ tiān hěn liángkuài, wǒ de xīnqíng hěn fàngsōng.",
     "pinyin_numeric": "xia4yu3 tian1 hen3 liang2kuai4, wo3 de xin1qing2 hen3 fang4song1.",
-    "translation_en": "Rainy weather is very cool, and my mood is very relaxed.",
+    "translation_en": "Rainy weather feels cool, and I feel very relaxed.",
     "translation_ko": "비 오는 날씨가 매우 시원해서 제 기분이 매우 편안해요.",
     "token_ids": [
       "VOC_D44_002",
@@ -34273,7 +34273,7 @@
     "text": "今天溫度三十度，天氣很熱，我壓力很大。",
     "pinyin": "Jīntiān wēndù sānshí dù, tiānqì hěn rè, wǒ yālì hěn dà.",
     "pinyin_numeric": "jin1tian1 wen1du4 san1shi2 du4, tian1qi4 hen3 re4, wo3 ya1li4 hen3 da4.",
-    "translation_en": "Today the temperature is 30 degrees, the weather is very hot, and I am very stressed.",
+    "translation_en": "Today the temperature is 30 degrees, it's very hot, and I'm very stressed.",
     "translation_ko": "오늘 기온이 30도이고 날씨가 매우 더워서 스트레스가 많아요.",
     "token_ids": [
       "VOC_M1_032",
@@ -34310,7 +34310,7 @@
     "text": "多雲天氣很舒服，我心情很好。",
     "pinyin": "Duōyún tiānqì hěn shūfú, wǒ xīnqíng hěn hǎo.",
     "pinyin_numeric": "duo1yun2 tian1qi4 hen3 shu1fu2, wo3 xin1qing2 hen3 hao3.",
-    "translation_en": "Cloudy weather is very comfortable, and my mood is very good.",
+    "translation_en": "Cloudy weather feels pleasant, and I'm in a good mood.",
     "translation_ko": "구름 낀 날씨가 매우 쾌적해서 기분이 아주 좋아요.",
     "token_ids": [
       "VOC_D44_014",
@@ -34378,7 +34378,7 @@
     "text": "下雨天路很滑，要小心，可是天氣很涼快。",
     "pinyin": "Xiàyǔ tiān lù hěn huá, yào xiǎoxīn, kěshì tiānqì hěn liángkuài.",
     "pinyin_numeric": "xia4yu3 tian1 lu4 hen3 hua2, yao4 xiao3xin1, ke3shi4 tian1qi4 hen3 liang2kuai4.",
-    "translation_en": "Rainy weather makes the roads very slippery, so be careful, but the weather is very cool.",
+    "translation_en": "Rainy weather makes the roads very slippery, so be careful, but it's very cool.",
     "translation_ko": "비 오는 날씨에 길이 매우 미끄러우니 조심해야 하지만 날씨는 매우 시원해요.",
     "token_ids": [
       "VOC_D44_002",
@@ -34807,7 +34807,7 @@
     "text": "今天下午天氣很舒服，我心情很開心。",
     "pinyin": "Jīntiān xiàwǔ tiānqì hěn shūfú, wǒ xīnqíng hěn kāixīn.",
     "pinyin_numeric": "jin1tian1 xia4wu3 tian1qi4 hen3 shu1fu2, wo3 xin1qing2 hen3 kai1xin1.",
-    "translation_en": "The weather is very comfortable this afternoon, I'm in a happy mood.",
+    "translation_en": "It's really pleasant this afternoon, I'm happy.",
     "translation_ko": "오늘 오후 날씨가 아주 쾌적해서 기분이 좋아요.",
     "token_ids": [
       "VOC_M1_032",
@@ -34878,7 +34878,7 @@
     "text": "今天三十度，太熱了，我想喝冰水。",
     "pinyin": "Jīntiān sānshí dù, tài rè le, wǒ xiǎng hē bīng shuǐ.",
     "pinyin_numeric": "jin1tian1 san1shi2 du4, tai4 re4 le0, wo3 xiang3 he1 bing1 shui3.",
-    "translation_en": "It's 30 degrees today, too hot, I want to drink iced water.",
+    "translation_en": "It's 30 degrees today, too hot, I'd like some iced water.",
     "translation_ko": "오늘 30도라서 너무 더워요, 얼음물 마시고 싶어요.",
     "token_ids": [
       "VOC_M1_032",
@@ -35020,7 +35020,7 @@
     "text": "因為天氣很冷，所以我穿外套。",
     "pinyin": "Yīnwèi tiānqì hěn lěng, suǒyǐ wǒ chuān wàitào.",
     "pinyin_numeric": "yin1 wei4 tian1 qi4 hen3 leng3, suo3 yi3 wo3 chuan1 wai4 tao4.",
-    "translation_en": "Because the weather is very cold, I wear a jacket.",
+    "translation_en": "Because it's very cold, I wear a jacket.",
     "translation_ko": "날씨가 매우 추워서 외투를 입습니다.",
     "token_ids": [
       "VOC_D34_011",
@@ -35084,7 +35084,7 @@
     "text": "因為今天很熱，所以我想喝冰水。",
     "pinyin": "Yīnwèi jīntiān hěn rè, suǒyǐ wǒ xiǎng hē bīng shuǐ.",
     "pinyin_numeric": "yin1 wei4 jin1 tian1 hen3 re4, suo3 yi3 wo3 xiang3 he1 bing1 shui3.",
-    "translation_en": "Because it's very hot today, I want to drink iced water.",
+    "translation_en": "Because it's very hot today, I'd like some iced water.",
     "translation_ko": "오늘 매우 더워서 얼음물을 마시고 싶습니다.",
     "token_ids": [
       "VOC_D34_011",
@@ -35222,7 +35222,7 @@
     "text": "因為今天有太陽，所以天氣很舒服。",
     "pinyin": "Yīnwèi jīntiān yǒu tàiyáng, suǒyǐ tiānqì hěn shūfú.",
     "pinyin_numeric": "yin1 wei4 jin1 tian1 you3 tai4 yang2, suo3 yi3 tian1 qi4 hen3 shu1 fu2.",
-    "translation_en": "Because there is sun today, the weather is very comfortable.",
+    "translation_en": "Because it's sunny today, the weather is really pleasant.",
     "translation_ko": "오늘 해가 나서 날씨가 매우 쾌적합니다.",
     "token_ids": [
       "VOC_D34_011",
@@ -36177,7 +36177,7 @@
     "text": "因為今天很悶熱，所以我想喝冰水。",
     "pinyin": "Yīnwèi jīntiān hěn mēnrè, suǒyǐ wǒ xiǎng hē bīng shuǐ.",
     "pinyin_numeric": "yin1wei4 jin1tian1 hen3 men1re4, suo3yi3 wo3 xiang3 he1 bing1 shui3.",
-    "translation_en": "Because it's very muggy today, I want to drink iced water.",
+    "translation_en": "Because it's very muggy today, I'd like some iced water.",
     "translation_ko": "오늘 매우 후덥지근해서 얼음물을 마시고 싶습니다.",
     "token_ids": [
       "VOC_D34_011",
@@ -36254,7 +36254,7 @@
     "text": "因為天氣很舒服，所以我的心情很好。",
     "pinyin": "Yīnwèi tiānqì hěn shūfu, suǒyǐ wǒ de xīnqíng hěn hǎo.",
     "pinyin_numeric": "yin1wei4 tian1qi4 hen3 shu1fu5, suo3yi3 wo3 de5 xin1qing2 hen3 hao3.",
-    "translation_en": "Because the weather is very comfortable, my mood is very good.",
+    "translation_en": "Because the weather is really pleasant, I'm in a good mood.",
     "translation_ko": "날씨가 매우 쾌적해서 제 기분이 아주 좋습니다.",
     "token_ids": [
       "VOC_D34_011",
@@ -36854,7 +36854,7 @@
     "text": "天氣很舒服，我們可以在外面吃飯嗎？",
     "pinyin": "Tiānqì hěn shūfú, wǒmen kěyǐ zài wàimiàn chīfàn ma?",
     "pinyin_numeric": "tian1qi4 hen3 shu1fu2, wo3men ke3yi3 zai4 wai4mian4 chi1fan4 ma0",
-    "translation_en": "The weather is very comfortable, can we eat outside?",
+    "translation_en": "The weather is really pleasant. Can we eat outside?",
     "translation_ko": "날씨가 매우 쾌적한데, 밖에서 식사해도 될까요?",
     "token_ids": [
       "VOC_D44_001",
@@ -36924,7 +36924,7 @@
     "text": "因為今天有太陽，所以我的心情很好。",
     "pinyin": "Yīnwèi jīntiān yǒu tàiyáng, suǒyǐ wǒ de xīnqíng hěn hǎo.",
     "pinyin_numeric": "yin1 wei4 jin1 tian1 you3 tai4 yang2, suo3 yi3 wo3 de0 xin1 qing2 hen3 hao3.",
-    "translation_en": "Because there is sun today, my mood is very good.",
+    "translation_en": "Because it's sunny today, I'm in a good mood.",
     "translation_ko": "오늘 해가 나서 제 기분이 아주 좋습니다.",
     "token_ids": [
       "VOC_D34_011",
@@ -36999,7 +36999,7 @@
     "text": "因為天氣很悶熱，所以我想喝冰水。",
     "pinyin": "Yīnwèi tiānqì hěn mēnrè, suǒyǐ wǒ xiǎng hē bīng shuǐ.",
     "pinyin_numeric": "yin1 wei4 tian1 qi4 hen3 men1 re4, suo3 yi3 wo3 xiang3 he1 bing1 shui3.",
-    "translation_en": "Because the weather is very muggy, I want to drink iced water.",
+    "translation_en": "Because it's very muggy, I'd like some iced water.",
     "translation_ko": "날씨가 매우 후덥지근해서 얼음물을 마시고 싶습니다.",
     "token_ids": [
       "VOC_D34_011",
@@ -37112,7 +37112,7 @@
     "text": "因為天氣很涼快，所以我們去公園散步。",
     "pinyin": "Yīnwèi tiānqì hěn liángkuài, suǒyǐ wǒmen qù gōngyuán sànbù.",
     "pinyin_numeric": "yin1 wei4 tian1 qi4 hen3 liang2 kuai4, suo3 yi3 wo3 men qu4 gong1 yuan2 san4 bu4.",
-    "translation_en": "Because the weather is very cool, we go for a walk in the park.",
+    "translation_en": "Because it's very cool, we go for a walk in the park.",
     "translation_ko": "날씨가 매우 시원해서 우리는 공원에 산책하러 갑니다.",
     "token_ids": [
       "VOC_D34_011",
@@ -37670,7 +37670,7 @@
     "text": "我心情很開心，可以跟你一起散步嗎？",
     "pinyin": "Wǒ xīnqíng hěn kāixīn, kěyǐ gēn nǐ yīqǐ sànbù ma?",
     "pinyin_numeric": "wo3 xin1qing2 hen3 kai1xin1, ke3yi3 gen1 ni3 yi1qi3 san4bu4 ma0",
-    "translation_en": "I'm in a happy mood, can I take a walk with you?",
+    "translation_en": "I'm happy, can I take a walk with you?",
     "translation_ko": "기분이 좋은데, 당신과 함께 산책해도 될까요?",
     "token_ids": [
       "VOC_M1_002",

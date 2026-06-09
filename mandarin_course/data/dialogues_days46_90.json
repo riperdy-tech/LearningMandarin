@@ -4342,7 +4342,7 @@
         "text": "謝謝，因為天氣很熱，沒有冷氣不舒服。",
         "pinyin": "Xièxiè, yīnwèi tiānqì hěn rè, méiyǒu lěngqì bù shūfu.",
         "pinyin_numeric": "Xie4 xie4, yin1 wei4 tian1 qi4 hen3 re4, mei2 you3 leng3 qi4 bu4 shu1 fu5.",
-        "translation_en": "Thank you, because the weather is very hot, it's uncomfortable without AC.",
+        "translation_en": "Thank you, because it's very hot, it's uncomfortable without AC.",
         "translation_ko": "감사합니다. 날씨가 매우 더워서 에어컨이 없으면 불편해요.",
         "token_ids": [
           "VOC_D31_003",
@@ -5023,7 +5023,7 @@
         "text": "房間的冷氣壞掉了，天氣很熱，可以請人來修嗎？",
         "pinyin": "Fángjiān de lěngqì huài diào le, tiānqì hěn rè, kěyǐ qǐng rén lái xiū ma?",
         "pinyin_numeric": "Fang2jian1 de leng3qi4 huai4 diao4 le, tian1qi4 hen3 re4, ke3yi3 qing3 ren2 lai2 xiu1 ma?",
-        "translation_en": "The air conditioner in the room is broken, the weather is very hot, can you ask someone to fix it?",
+        "translation_en": "The air conditioner in the room is broken, it's very hot, can you ask someone to fix it?",
         "translation_ko": "방 에어컨이 고장 났어요, 날씨가 너무 더워서 수리하러 사람을 보내 주실 수 있나요?",
         "token_ids": [
           "VOC_D58_002",
@@ -10256,7 +10256,7 @@
         "text": "好啊！我們可以約這個週末一起去看電影。",
         "pinyin": "Hǎo a! Wǒmen kěyǐ yuē zhège zhōumò yīqǐ qù kàn diànyǐng.",
         "pinyin_numeric": "Hao3 a! Wo3men ke3yi3 yue1 zhe4ge zhou1mo4 yi1qi3 qu4 kan4 dian4ying3.",
-        "translation_en": "Great! We can plan to go watch a movie together this weekend.",
+        "translation_en": "Great! We can plan to go see a movie together this weekend.",
         "translation_ko": "좋아요! 이번 주말에 같이 영화 보러 가기로 해요.",
         "token_ids": [
           "VOC_D37_023",
@@ -12202,7 +12202,7 @@
         "text": "你現在做什麼工作？",
         "pinyin": "Nǐ xiànzài zuò shénme gōngzuò?",
         "pinyin_numeric": "Ni3 xian4zai4 zuo4 shen2 me0 gong1zuo4?",
-        "translation_en": "What job do you do now?",
+        "translation_en": "What do you do for work now?",
         "translation_ko": "지금 무슨 일을 하세요?",
         "token_ids": [
           "VOC_M1_003",
@@ -19213,7 +19213,7 @@
         "text": "真的嗎？那我們可以一起去看電影，你覺得怎麼樣？",
         "pinyin": "Zhēn de ma? Nà wǒmen kěyǐ yìqǐ qù kàn diànyǐng, nǐ juéde zěnmeyàng?",
         "pinyin_numeric": "Zhen1 de5 ma5? Na4 wo3men5 ke3yi3 yi4qi3 qu4 kan4 dian4ying3, ni3 jue2de5 zen3 me0yang4?",
-        "translation_en": "Really? Then we can go watch a movie together, what do you think?",
+        "translation_en": "Really? Then we can go see a movie together, what do you think?",
         "translation_ko": "정말요? 그럼 우리 함께 영화 보러 갈 수 있는데, 어떻게 생각하세요?",
         "token_ids": [
           "VOC_D77_022",

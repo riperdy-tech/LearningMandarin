@@ -2789,7 +2789,7 @@
     "prompt_en": "Respond as one speaker in this scenario: making, accepting, declining, and changing plans.",
     "model_answer": "你方便把時間提早到下午兩點嗎？",
     "model_pinyin": "Nǐ fāngbiàn bǎ shíjiān tízǎo dào xiàwǔ liǎng diǎn ma?",
-    "model_translation_en": "Is it convenient for you to move the time earlier to 2 PM?",
+    "model_translation_en": "Is it convenient for you to move it earlier to 2 PM?",
     "related_sentence_id": "SEN_D54_017",
     "related_dialogue_id": "DLG_D54_03"
   },
@@ -11018,7 +11018,7 @@
     "prompt_en": "Swap one word and say the new sentence aloud.",
     "model_answer": "如果天氣很冷的話，你就要穿外套。",
     "model_pinyin": "Rúguǒ tiānqì hěn lěng dehuà, nǐ jiù yào chuān wàitào.",
-    "model_translation_en": "If the weather is very cold, you should wear a jacket.",
+    "model_translation_en": "If it's very cold, you should wear a jacket.",
     "related_sentence_id": "SEN_D75_003",
     "related_dialogue_id": "DLG_D75_02"
   },
@@ -11084,7 +11084,7 @@
     "prompt_en": "Answer a question in this scenario: transactional independence checkpoint.",
     "model_answer": "雖然今天天氣很冷，但是我還是想去公園走路。",
     "model_pinyin": "Suīrán jīntiān tiānqì hěn lěng, dànshì wǒ háishì xiǎng qù gōngyuán zǒulù.",
-    "model_translation_en": "Although the weather is very cold today, I still want to go for a walk in the park.",
+    "model_translation_en": "Although it's very cold today, I still want to go for a walk in the park.",
     "related_sentence_id": "SEN_D75_015",
     "related_dialogue_id": "DLG_D75_02"
   },
@@ -16386,7 +16386,7 @@
     "prompt_en": "Create your own sentence using only known words.",
     "model_answer": "我覺得今天的天氣很舒服。",
     "model_pinyin": "Wǒ juéde jīntiān de tiānqì hěn shūfú.",
-    "model_translation_en": "I think today's weather is very comfortable.",
+    "model_translation_en": "I think today's weather is really pleasant.",
     "related_sentence_id": "SEN_D89_029",
     "related_dialogue_id": "DLG_D89_03"
   },

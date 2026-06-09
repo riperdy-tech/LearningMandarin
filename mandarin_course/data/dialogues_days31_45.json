@@ -5251,7 +5251,7 @@
         "text": "那我們去看電影，選一個安靜的電影院。",
         "pinyin": "Nà wǒmen qù kàn diànyǐng, xuǎn yī ge ānjìng de diànyǐngyuàn.",
         "pinyin_numeric": "Na4 wo3men qu4 kan4 dian4ying3, xuan3 yi1 ge5 an1jing4 de dian4ying3yuan4.",
-        "translation_en": "Then let's go watch a movie and choose a quiet cinema.",
+        "translation_en": "Then let's go see a movie and choose a quiet cinema.",
         "translation_ko": "그럼 영화 보러 가요. 조용한 영화관을 골라요.",
         "token_ids": [
           "VOC_M1_006",

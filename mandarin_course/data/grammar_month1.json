@@ -1355,7 +1355,7 @@
       {
         "text": "你做什麼工作？",
         "pinyin": "Nǐ zuò shénme gōngzuò?",
-        "translation_en": "What work do you do?",
+        "translation_en": "What do you do for work?",
         "translation_ko": "무슨 일을 합니까?",
         "slot_values": {}
       },

@@ -17399,7 +17399,7 @@
     "text": "你方便把時間提早到下午兩點嗎？",
     "pinyin": "Nǐ fāngbiàn bǎ shíjiān tízǎo dào xiàwǔ liǎng diǎn ma?",
     "pinyin_numeric": "ni3 fang1bian4 ba3 shi2jian1 ti2zao3 dao4 xia4wu3 liang3 dian3 ma0",
-    "translation_en": "Is it convenient for you to move the time earlier to 2 PM?",
+    "translation_en": "Is it convenient for you to move it earlier to 2 PM?",
     "translation_ko": "시간을 오후 2시로 앞당기는 게 괜찮으세요?",
     "token_ids": [
       "VOC_M1_003",
@@ -19184,7 +19184,7 @@
     "text": "抱歉，我那天沒空，我們把時間改到後天好嗎？",
     "pinyin": "Bàoqiàn, wǒ nèitiān méi kòng, wǒmen bǎ shíjiān gǎi dào hòutiān hǎo ma?",
     "pinyin_numeric": "bao4 qian4 wo3 nei4 tian1 mei2 kong4 wo3 men5 ba3 shi2 jian1 gai3 dao4 hou4 tian1 hao3 ma0",
-    "translation_en": "Sorry, I'm not free that day. Shall we move the time to the day after tomorrow?",
+    "translation_en": "Sorry, I'm not free that day. Shall we move it to the day after tomorrow?",
     "translation_ko": "죄송합니다, 그날은 시간이 안 돼서 모레로 시간을 변경할까요?",
     "token_ids": [
       "VOC_M1_175",
@@ -54999,7 +54999,7 @@
     "text": "我們有時候會一起去看球賽。",
     "pinyin": "Wǒmen yǒu shíhou huì yīqǐ qù kàn qiúsài.",
     "pinyin_numeric": "wo3 men5 you3 shi2 hou4 hui4 yi1 qi3 qu4 kan4 qiu2 sai4.",
-    "translation_en": "We sometimes go watch games together.",
+    "translation_en": "We sometimes go to games together.",
     "translation_ko": "우리는 가끔 함께 경기 보러 갑니다.",
     "token_ids": [
       "VOC_M1_006",
@@ -76883,7 +76883,7 @@
     "text": "由於天氣很熱，因此他喜歡喝冰的飲料，比如綠茶。",
     "pinyin": "Yóuyú tiānqì hěn rè, yīncǐ tā xǐhuān hē bīng de yǐnliào, bǐrú lǜchá.",
     "pinyin_numeric": "you2yu2 tian1qi4 hen3 re4, yin1ci3 ta1 xi3huan1 he1 bing1 de yin3liao4, bi3ru2 lv4cha2.",
-    "translation_en": "Because the weather is very hot, he likes to drink cold beverages, such as green tea.",
+    "translation_en": "Because it's very hot, he likes to drink cold beverages, such as green tea.",
     "translation_ko": "날씨가 매우 덥기 때문에 그는 차가운 음료를 좋아합니다. 예를 들어 녹차가 있습니다.",
     "token_ids": [
       "VOC_D74_017",
@@ -77207,7 +77207,7 @@
     "text": "由於天氣很冷，因此他決定穿外套出門。",
     "pinyin": "Yóuyú tiānqì hěn lěng, yīncǐ tā juédìng chuān wàitào chūmén.",
     "pinyin_numeric": "you2yu2 tian1qi4 hen3 leng3, yin1ci3 ta1 jue2ding4 chuan1 wai4tao4 chu1men2.",
-    "translation_en": "Because the weather is very cold, he decided to wear a jacket when going out.",
+    "translation_en": "Because it's very cold, he decided to wear a jacket when going out.",
     "translation_ko": "날씨가 매우 추워서 그는 외출할 때 외투를 입기로 결정했습니다.",
     "token_ids": [
       "VOC_D74_017",
@@ -77619,7 +77619,7 @@
     "text": "如果天氣很冷的話，你就要穿外套。",
     "pinyin": "Rúguǒ tiānqì hěn lěng dehuà, nǐ jiù yào chuān wàitào.",
     "pinyin_numeric": "ru2guo3 tian1qi4 hen3 leng3 de0hua4, ni3 jiu4 yao4 chuan1 wai4tao4.",
-    "translation_en": "If the weather is very cold, you should wear a jacket.",
+    "translation_en": "If it's very cold, you should wear a jacket.",
     "translation_ko": "날씨가 매우 추우면 외투를 입어야 해요.",
     "token_ids": [
       "VOC_D66_001",
@@ -78071,7 +78071,7 @@
     "text": "雖然今天天氣很冷，但是我還是想去公園走路。",
     "pinyin": "Suīrán jīntiān tiānqì hěn lěng, dànshì wǒ háishì xiǎng qù gōngyuán zǒulù.",
     "pinyin_numeric": "sui1ran2 jin1tian1 tian1qi4 hen3 leng3, dan4shi4 wo3 hai2shi4 xiang3 qu4 gong1yuan2 zou3lu4.",
-    "translation_en": "Although the weather is very cold today, I still want to go for a walk in the park.",
+    "translation_en": "Although it's very cold today, I still want to go for a walk in the park.",
     "translation_ko": "오늘 날씨가 매우 춥지만 저는 그래도 공원에 산책하러 가고 싶어요.",
     "token_ids": [
       "VOC_D67_001",
@@ -79115,7 +79115,7 @@
     "text": "雖然天氣很冷，但是他還是只穿一件短袖。",
     "pinyin": "Suīrán tiānqì hěn lěng, dànshì tā háishì zhǐ chuān yī jiàn duǎnxiù.",
     "pinyin_numeric": "sui1ran2 tian1qi4 hen3 leng3, dan4shi4 ta1 hai2shi4 zhi3 chuan1 yi1 jian4 duan3xiu4.",
-    "translation_en": "Although the weather is very cold, he still only wears a short-sleeved shirt.",
+    "translation_en": "Although it's very cold, he still only wears a short-sleeved shirt.",
     "translation_ko": "날씨가 매우 춥지만, 그는 여전히 반팔 하나만 입어요.",
     "token_ids": [
       "VOC_D67_001",
@@ -80222,7 +80222,7 @@
     "text": "雖然今天天氣很冷，但是我還是想去公園散步。",
     "pinyin": "Suīrán jīntiān tiānqì hěn lěng, dànshì wǒ háishì xiǎng qù gōngyuán sànbù.",
     "pinyin_numeric": "sui1ran2 jin1tian1 tian1qi4 hen3 leng3, dan4shi4 wo3 hai2shi4 xiang3 qu4 gong1yuan2 san4bu4.",
-    "translation_en": "Although the weather is very cold today, I still want to go for a walk in the park.",
+    "translation_en": "Although it's very cold today, I still want to go for a walk in the park.",
     "translation_ko": "오늘 날씨가 매우 춥지만, 저는 여전히 공원에 산책하러 가고 싶어요.",
     "token_ids": [
       "VOC_D67_001",
@@ -119534,7 +119534,7 @@
     "text": "我覺得今天的天氣很舒服。",
     "pinyin": "Wǒ juéde jīntiān de tiānqì hěn shūfú.",
     "pinyin_numeric": "wo3 jue2de jin1tian1 de tian1qi4 hen3 shu1fu2.",
-    "translation_en": "I think today's weather is very comfortable.",
+    "translation_en": "I think today's weather is really pleasant.",
     "translation_ko": "오늘 날씨가 아주 쾌적하다고 생각해요.",
     "token_ids": [
       "VOC_D42_031",

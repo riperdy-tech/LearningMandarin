@@ -3752,12 +3752,12 @@
       {
         "text": "我想約你一起去喝咖啡。",
         "pinyin": "Wǒ xiǎng yuē nǐ yīqǐ qù hē kāfēi.",
-        "translation_en": "I want to invite you to go drink coffee together."
+        "translation_en": "I want to invite you to go have coffee together."
       },
       {
         "text": "你想跟我一起去看電影嗎？",
         "pinyin": "Nǐ xiǎng gēn wǒ yīqǐ qù kàn diànyǐng ma?",
-        "translation_en": "Do you want to go watch a movie with me?"
+        "translation_en": "Do you want to go see a movie with me?"
       },
       {
         "text": "他想要約朋友一起去吃飯。",
@@ -3794,13 +3794,13 @@
       {
         "text": "我想約你一起去喝咖啡。",
         "pinyin": "Wǒ xiǎng yuē nǐ yīqǐ qù hē kāfēi.",
-        "translation_en": "I want to invite you to go drink coffee together.",
+        "translation_en": "I want to invite you to go have coffee together.",
         "translation_ko": "당신과 함께 커피를 마시러 가고 싶어요."
       },
       {
         "text": "你想跟我一起去看電影嗎？",
         "pinyin": "Nǐ xiǎng gēn wǒ yīqǐ qù kàn diànyǐng ma?",
-        "translation_en": "Do you want to go watch a movie with me?",
+        "translation_en": "Do you want to go see a movie with me?",
         "translation_ko": "저랑 같이 영화 보러 가고 싶어요?"
       },
       {
@@ -4193,7 +4193,7 @@
       {
         "text": "你什麼時候有空？我們可以一起去喝咖啡。",
         "pinyin": "Nǐ shénme shíhou yǒu kòng? Wǒmen kěyǐ yīqǐ qù hē kāfēi.",
-        "translation_en": "When are you free? We can go drink coffee together."
+        "translation_en": "When are you free? We can go have coffee together."
       },
       {
         "text": "我們什麼時候見面？我想跟你一起看電影。",
@@ -4213,12 +4213,12 @@
       {
         "text": "你什麼時候要見朋友？我們可以一起去喝咖啡聊天。",
         "pinyin": "Nǐ shénme shíhou yào jiàn péngyou? Wǒmen kěyǐ yīqǐ qù hē kāfēi liáotiān.",
-        "translation_en": "When are you meeting a friend? We can go drink coffee and chat together."
+        "translation_en": "When are you meeting a friend? We can go have coffee and chat together."
       },
       {
         "text": "我們什麼時候約時間？我想跟你一起去看電影。",
         "pinyin": "Wǒmen shénme shíhou yuē shíjiān? Wǒ xiǎng gēn nǐ yīqǐ qù kàn diànyǐng.",
-        "translation_en": "When shall we set a time? I want to go watch a movie with you."
+        "translation_en": "When shall we set a time? I want to go see a movie with you."
       },
       {
         "text": "你什麼時候要取消約會？我們可以改天再見面。",
@@ -4235,7 +4235,7 @@
       {
         "text": "你什麼時候有空？我們可以一起去喝咖啡。",
         "pinyin": "Nǐ shénme shíhou yǒu kòng? Wǒmen kěyǐ yīqǐ qù hē kāfēi.",
-        "translation_en": "When are you free? We can go drink coffee together.",
+        "translation_en": "When are you free? We can go have coffee together.",
         "translation_ko": "언제 시간 돼요? 같이 커피 마시러 갈 수 있어요."
       },
       {
@@ -4259,13 +4259,13 @@
       {
         "text": "你什麼時候要見朋友？我們可以一起去喝咖啡聊天。",
         "pinyin": "Nǐ shénme shíhou yào jiàn péngyou? Wǒmen kěyǐ yīqǐ qù hē kāfēi liáotiān.",
-        "translation_en": "When are you meeting a friend? We can go drink coffee and chat together.",
+        "translation_en": "When are you meeting a friend? We can go have coffee and chat together.",
         "translation_ko": "언제 친구를 만날 거예요? 같이 커피 마시면서 이야기할 수 있어요."
       },
       {
         "text": "我們什麼時候約時間？我想跟你一起去看電影。",
         "pinyin": "Wǒmen shénme shíhou yuē shíjiān? Wǒ xiǎng gēn nǐ yīqǐ qù kàn diànyǐng.",
-        "translation_en": "When shall we set a time? I want to go watch a movie with you.",
+        "translation_en": "When shall we set a time? I want to go see a movie with you.",
         "translation_ko": "우리 언제 시간을 정할까요? 당신과 같이 영화 보러 가고 싶어요."
       },
       {
@@ -8344,7 +8344,7 @@
       {
         "text": "今天天氣很熱，我有點累。",
         "pinyin": "Jīntiān tiānqì hěn rè, wǒ yǒudiǎn lèi.",
-        "translation_en": "The weather is very hot today, and I'm a bit tired."
+        "translation_en": "It's very hot today, and I'm a bit tired."
       },
       {
         "text": "昨天天氣很冷，所以我不想去公園。",
@@ -8354,7 +8354,7 @@
       {
         "text": "今天天氣很舒服，我們一起去散步好嗎？",
         "pinyin": "Jīntiān tiānqì hěn shūfu, wǒmen yīqǐ qù sànbù hǎo ma?",
-        "translation_en": "The weather is very comfortable today. Shall we go for a walk together?"
+        "translation_en": "It's really pleasant today. Shall we go for a walk together?"
       },
       {
         "text": "明天天氣很冷，你必須穿外套。",
@@ -8364,7 +8364,7 @@
       {
         "text": "今天天氣很悶熱，我沒有精神。",
         "pinyin": "Jīntiān tiānqì hěn mēnrè, wǒ méiyǒu jīngshén.",
-        "translation_en": "The weather is very muggy today, and I have no energy."
+        "translation_en": "It's very muggy today, and I have no energy."
       },
       {
         "text": "昨天天氣很涼快，所以我的心情很好。",
@@ -8374,7 +8374,7 @@
       {
         "text": "今天天氣很熱，我想喝一杯冰水。",
         "pinyin": "Jīntiān tiānqì hěn rè, wǒ xiǎng hē yī bēi bīng shuǐ.",
-        "translation_en": "The weather is very hot today, and I want to drink a glass of ice water."
+        "translation_en": "It's very hot today, and I'd like a glass of iced water."
       },
       {
         "text": "明天天氣很冷，我打算在家休息。",
@@ -8386,7 +8386,7 @@
       {
         "text": "今天天氣很熱，我有點累。",
         "pinyin": "Jīntiān tiānqì hěn rè, wǒ yǒudiǎn lèi.",
-        "translation_en": "The weather is very hot today, and I'm a bit tired.",
+        "translation_en": "It's very hot today, and I'm a bit tired.",
         "translation_ko": "오늘 날씨가 매우 덥고, 저는 조금 피곤해요."
       },
       {
@@ -8398,7 +8398,7 @@
       {
         "text": "今天天氣很舒服，我們一起去散步好嗎？",
         "pinyin": "Jīntiān tiānqì hěn shūfu, wǒmen yīqǐ qù sànbù hǎo ma?",
-        "translation_en": "The weather is very comfortable today. Shall we go for a walk together?",
+        "translation_en": "It's really pleasant today. Shall we go for a walk together?",
         "translation_ko": "오늘 날씨가 매우 쾌적해요. 같이 산책할까요?"
       },
       {
@@ -8410,7 +8410,7 @@
       {
         "text": "今天天氣很悶熱，我沒有精神。",
         "pinyin": "Jīntiān tiānqì hěn mēnrè, wǒ méiyǒu jīngshén.",
-        "translation_en": "The weather is very muggy today, and I have no energy.",
+        "translation_en": "It's very muggy today, and I have no energy.",
         "translation_ko": "오늘 날씨가 매우 후덥지근해서, 저는 기운이 없어요."
       },
       {
@@ -8422,7 +8422,7 @@
       {
         "text": "今天天氣很熱，我想喝一杯冰水。",
         "pinyin": "Jīntiān tiānqì hěn rè, wǒ xiǎng hē yī bēi bīng shuǐ.",
-        "translation_en": "The weather is very hot today, and I want to drink a glass of ice water.",
+        "translation_en": "It's very hot today, and I'd like a glass of iced water.",
         "translation_ko": "오늘 날씨가 매우 더워서, 저는 얼음물 한 잔을 마시고 싶어요."
       },
       {
@@ -8810,7 +8810,7 @@
       {
         "text": "今天天氣很舒服，我心情太好了。",
         "pinyin": "Jīntiān tiānqì hěn shūfú, wǒ xīnqíng tài hǎo le.",
-        "translation_en": "The weather is very comfortable today, my mood is too good."
+        "translation_en": "It's really pleasant today, I'm in a great mood."
       }
     ],
     "drill_examples": [
@@ -8859,7 +8859,7 @@
       {
         "text": "今天天氣很舒服，我心情太好了。",
         "pinyin": "Jīntiān tiānqì hěn shūfú, wǒ xīnqíng tài hǎo le.",
-        "translation_en": "The weather is very comfortable today, my mood is very good.",
+        "translation_en": "It's really pleasant today, I'm in a good mood.",
         "translation_ko": "오늘 날씨가 너무 쾌적해서 기분이 너무 좋아요."
       }
     ],
@@ -8993,7 +8993,7 @@
       {
         "text": "因為天氣很冷，所以我穿外套。",
         "pinyin": "Yīnwèi tiānqì hěn lěng, suǒyǐ wǒ chuān wàitào.",
-        "translation_en": "Because the weather is very cold, I wear a jacket."
+        "translation_en": "Because it's very cold, I wear a jacket."
       },
       {
         "text": "因為下雨了，所以我們沒有去公園。",
@@ -9003,7 +9003,7 @@
       {
         "text": "因為今天很熱，所以我想喝冰水。",
         "pinyin": "Yīnwèi jīntiān hěn rè, suǒyǐ wǒ xiǎng hē bīng shuǐ.",
-        "translation_en": "Because it's very hot today, I want to drink ice water."
+        "translation_en": "Because it's very hot today, I'd like some iced water."
       },
       {
         "text": "因為颱風來了，所以我們今天不用上班。",
@@ -9023,7 +9023,7 @@
       {
         "text": "因為今天有太陽，所以天氣很舒服。",
         "pinyin": "Yīnwèi jīntiān yǒu tàiyáng, suǒyǐ tiānqì hěn shūfú.",
-        "translation_en": "Because there is sun today, the weather is very comfortable."
+        "translation_en": "Because it's sunny today, the weather is really pleasant."
       },
       {
         "text": "因為壓力很大，所以我覺得很緊張。",
@@ -9035,7 +9035,7 @@
       {
         "text": "因為天氣很冷，所以我穿外套。",
         "pinyin": "Yīnwèi tiānqì hěn lěng, suǒyǐ wǒ chuān wàitào.",
-        "translation_en": "Because the weather is very cold, I wear a jacket.",
+        "translation_en": "Because it's very cold, I wear a jacket.",
         "translation_ko": "날씨가 매우 추워서 외투를 입습니다."
       },
       {
@@ -9047,7 +9047,7 @@
       {
         "text": "因為今天很熱，所以我想喝冰水。",
         "pinyin": "Yīnwèi jīntiān hěn rè, suǒyǐ wǒ xiǎng hē bīng shuǐ.",
-        "translation_en": "Because it's very hot today, I want to drink ice water.",
+        "translation_en": "Because it's very hot today, I'd like some iced water.",
         "translation_ko": "오늘 매우 더워서 얼음물을 마시고 싶습니다."
       },
       {
@@ -9071,7 +9071,7 @@
       {
         "text": "因為今天有太陽，所以天氣很舒服。",
         "pinyin": "Yīnwèi jīntiān yǒu tàiyáng, suǒyǐ tiānqì hěn shūfú.",
-        "translation_en": "Because there is sun today, the weather is very comfortable.",
+        "translation_en": "Because it's sunny today, the weather is really pleasant.",
         "translation_ko": "오늘 해가 나서 날씨가 매우 쾌적합니다."
       },
       {
