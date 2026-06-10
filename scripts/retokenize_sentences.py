@@ -30,12 +30,21 @@ SENTENCE_TARGETS = [
 ]
 
 
+# Multi-word chunks (verb phrases, tag questions, fillers) must not become
+# single chips: lessons teach their parts as separate vocab, and a merged chip
+# blocks per-word lookup/audio. Match only real words.
+PHRASE_POS = ("phrase", "tag question", "filler")
+
+
 def load_vocab() -> dict[str, str]:
     out: dict[str, str] = {}
     for f in VOCAB_FILES:
         for v in json.loads(f.read_text(encoding="utf-8")):
             char = v.get("char")
             vid = v.get("id")
+            pos = (v.get("pos") or "").lower()
+            if any(p in pos for p in PHRASE_POS):
+                continue
             if char and vid and char not in out:
                 out[char] = vid
     return out

@@ -2900,13 +2900,13 @@ function buildMixedSentences(data: CourseData, lesson: LessonItem, allVocab: Voc
       });
     });
 
-  const vocab = allVocab.filter((item) => learnedIds.has(item.id));
+  const vocab = allVocab.filter((item) => learnedIds.has(item.id) && !isPhrasePos(item.pos));
   const exact = (char: string) => vocab.find((item) => item.char === char);
   const has = (char: string) => Boolean(exact(char));
   const findOne = (...chars: string[]) => chars.map(exact).find(Boolean);
   const byMeaning = (needles: string[]) =>
     vocab.filter((item) => needles.some((needle) => item.meaning_en.toLowerCase().includes(needle)));
-  const take = (items: VocabularyItem[], offset = 0) => items[(lesson.order + offset) % Math.max(items.length, 1)];
+  const take = <T,>(items: T[], offset = 0): T | undefined => items[(lesson.order + offset) % Math.max(items.length, 1)];
 
   const pronouns = ["我", "你", "他", "她", "我們", "他們"].map(exact).filter(Boolean) as VocabularyItem[];
   const numbers = ["一", "二", "三", "四", "五", "六", "七", "八", "九", "十", "兩"].map(exact).filter(Boolean) as VocabularyItem[];
@@ -2915,6 +2915,8 @@ function buildMixedSentences(data: CourseData, lesson: LessonItem, allVocab: Voc
     ...["學生", "老師", "韓國人"].map(exact).filter(Boolean) as VocabularyItem[]
   ].filter(uniqueVocab);
   const foods = byMeaning(["water", "tea", "coffee", "rice", "noodle", "milk", "dish", "meat", "egg", "fish", "fruit", "apple"]);
+  const drinkables = byMeaning(["water", "tea", "coffee", "milk"]);
+  const countables = byMeaning(["book", "phone", "bag", "table", "chair", "apple"]).filter((item) => item.char.length <= 2);
   const objects = [
     ...foods,
     ...byMeaning(["book", "phone", "computer", "music", "character", "chinese", "bag", "table", "chair"])
@@ -2925,7 +2927,6 @@ function buildMixedSentences(data: CourseData, lesson: LessonItem, allVocab: Voc
   ].filter(uniqueVocab);
   const adjectives = byMeaning(["big", "small", "good", "many", "few", "hot", "cold", "happy", "busy", "fast"]);
   const timeWords = ["今天", "明天", "早上", "晚上", "今年"].map(exact).filter(Boolean) as VocabularyItem[];
-  const verbs = ["喝", "吃", "看", "聽", "說", "寫", "學", "做", "去", "買", "喜歡"].map(exact).filter(Boolean) as VocabularyItem[];
 
   const mixed: GeneratedSentence[] = [];
   const add = (text: string, translation: string, translationKo?: string) => {
@@ -2943,26 +2944,30 @@ function buildMixedSentences(data: CourseData, lesson: LessonItem, allVocab: Voc
   const subject2 = take(pronouns, 2);
   const identity = take(identities, 1);
   const object = take(objects, 2);
-  const object2 = take(objects, 5);
+  const drink = take(drinkables, 2);
+  const countable = take(countables, 5);
   const location = take(locations, 3);
   const adjective = take(adjectives, 4);
   const time = take(timeWords, 5);
   const number = take(numbers, 6);
-  const verb = take(verbs, 7);
+  const voPair = take(
+    VERB_OBJECT_PAIRS.filter(({ verb: v, obj }) => has(v) && has(obj)),
+    7
+  );
 
   const subjEN = subject ? englishSubject(subject) : null;
   const subj2EN = subject2 ? englishSubject(subject2) : null;
   if (subject && subjEN && identity && has("是")) add(`${subject.char}是${identity.char}。`, `${capitalizeFirst(subjEN.subj)} ${subjEN.be} ${identityPhrase(identity)}.`);
   if (identity && has("是") && has("嗎")) add(`你是${identity.char}嗎？`, `Are you ${identityPhrase(identity)}?`);
-  if (subject && subjEN && object && has("的") && has("這") && has("是")) add(`這是${subject.char}的${object.char}。`, `This is ${subjEN.possessive} ${cleanMeaning(object)}.`);
-  if (subject && subjEN && object && number && has("有")) add(`${subject.char}有${number.char}個${object.char}。`, `${capitalizeFirst(subjEN.subj)} ${subjEN.have} ${cleanMeaning(number)} ${cleanMeaning(object)}.`);
-  if (subject && subjEN && object && has("想") && has("喝")) add(`${subject.char}想喝${object.char}。`, `${capitalizeFirst(subjEN.subj)} ${subjEN.conjugate("want")} to drink ${cleanMeaning(object)}.`);
-  if (subject && subjEN && object && has("要")) add(`${subject.char}要${object.char}。`, `${capitalizeFirst(subjEN.subj)} ${subjEN.conjugate("want")} ${cleanMeaning(object)}.`);
-  if (subject && subjEN && object && has("喜歡")) add(`${subject.char}喜歡${object.char}。`, `${capitalizeFirst(subjEN.subj)} ${subjEN.conjugate("like")} ${cleanMeaning(object)}.`);
-  if (subject && subjEN && object && verb) add(`${subject.char}${verb.char}${object.char}。`, `${capitalizeFirst(subjEN.subj)} ${subjEN.conjugate(cleanMeaning(verb))} ${cleanMeaning(object)}.`);
+  if (subject && subjEN && countable && has("的") && has("這") && has("是")) add(`這是${subject.char}的${countable.char}。`, `This is ${subjEN.possessive} ${cleanMeaning(countable)}.`);
+  if (subject && subjEN && countable && number && has("有")) add(`${subject.char}有${number.char}個${countable.char}。`, `${capitalizeFirst(subjEN.subj)} ${subjEN.have} ${cleanMeaning(number)} ${objectPhrase(countable, cleanMeaning(number) !== "one")}.`);
+  if (subject && subjEN && drink && has("想") && has("喝")) add(`${subject.char}想喝${drink.char}。`, `${capitalizeFirst(subjEN.subj)} ${subjEN.conjugate("want")} to drink ${cleanMeaning(drink)}.`);
+  if (subject && subjEN && object && has("要")) add(`${subject.char}要${object.char}。`, `${capitalizeFirst(subjEN.subj)} ${subjEN.conjugate("want")} ${objectPhrase(object)}.`);
+  if (subject && subjEN && object && has("喜歡")) add(`${subject.char}喜歡${object.char}。`, `${capitalizeFirst(subjEN.subj)} ${subjEN.conjugate("like")} ${objectPhrase(object, true)}.`);
+  if (subject && subjEN && voPair) add(`${subject.char}${voPair.verb}${voPair.obj}。`, `${capitalizeFirst(subjEN.subj)} ${subjEN.conjugate(voPair.en)} ${voPair.enObj}.`);
   if (subject2 && subj2EN && location && has("在")) add(`${subject2.char}在${location.char}。`, `${capitalizeFirst(subj2EN.subj)} ${subj2EN.be} at ${cleanMeaning(location)}.`);
   if (subject && subjEN && location && has("想") && has("去")) add(`${subject.char}想去${location.char}。`, `${capitalizeFirst(subjEN.subj)} ${subjEN.conjugate("want")} to go to ${cleanMeaning(location)}.`);
-  if (time && subject && subjEN && object && has("喝")) add(`${time.char}${subject.char}喝${object.char}。`, `${capitalizeFirst(cleanMeaning(time))}, ${subjEN.subj} ${subjEN.conjugate("drink")} ${cleanMeaning(object)}.`);
+  if (time && subject && subjEN && drink && has("喝")) add(`${time.char}${subject.char}喝${drink.char}。`, `${capitalizeFirst(cleanMeaning(time))}, ${subjEN.subj} ${subjEN.conjugate("drink")} ${cleanMeaning(drink)}.`);
   if (object && adjective && has("很")) add(`${object.char}很${adjective.char}。`, `${capitalizeFirst(cleanMeaning(object))} is very ${cleanMeaning(adjective)}.`);
   if (subject && subjEN && has("想") && has("什麼") && has("喝")) add(`${subject.char}想喝什麼？`, `What does ${subjEN.subj} want to drink?`);
   if (subject && location && has("哪裡") && has("在")) add(`${location.char}在哪裡？`, `Where is ${cleanMeaning(location)}?`);
@@ -3362,12 +3367,47 @@ const ENGLISH_SUBJECTS: Record<string, EnglishSubject> = {
 };
 
 function conjugateThirdSingular(verb: string): string {
-  if (verb === "go") return "goes";
-  if (verb === "do") return "does";
-  if (verb === "have") return "has";
-  if (/(s|x|z|ch|sh)$/.test(verb)) return `${verb}es`;
-  if (/[^aeiou]y$/.test(verb)) return `${verb.slice(0, -1)}ies`;
-  return `${verb}s`;
+  // Only the head verb conjugates ("listen to" -> "listens to").
+  const [head, ...rest] = verb.split(" ");
+  const tail = rest.length > 0 ? ` ${rest.join(" ")}` : "";
+  if (head === "go") return `goes${tail}`;
+  if (head === "do") return `does${tail}`;
+  if (head === "have") return `has${tail}`;
+  if (/(s|x|z|ch|sh)$/.test(head)) return `${head}es${tail}`;
+  if (/[^aeiou]y$/.test(head)) return `${head.slice(0, -1)}ies${tail}`;
+  return `${head}s${tail}`;
+}
+
+const VERB_OBJECT_PAIRS: Array<{ verb: string; obj: string; en: string; enObj: string }> = [
+  { verb: "看", obj: "書", en: "read", enObj: "books" },
+  { verb: "聽", obj: "音樂", en: "listen to", enObj: "music" },
+  { verb: "吃", obj: "米飯", en: "eat", enObj: "rice" },
+  { verb: "喝", obj: "茶", en: "drink", enObj: "tea" },
+  { verb: "買", obj: "水果", en: "buy", enObj: "fruit" },
+  { verb: "說", obj: "中文", en: "speak", enObj: "Chinese" },
+  { verb: "學", obj: "中文", en: "study", enObj: "Chinese" },
+  { verb: "看", obj: "電影", en: "watch", enObj: "movies" }
+];
+
+const MASS_NOUNS = new Set(["water", "tea", "coffee", "milk", "rice", "fruit", "music", "meat", "fish", "chinese", "chinese language", "work", "snack", "street food"]);
+
+function pluralize(noun: string): string {
+  if (/(s|x|z|ch|sh)$/.test(noun)) return `${noun}es`;
+  if (/[^aeiou]y$/.test(noun)) return `${noun.slice(0, -1)}ies`;
+  return `${noun}s`;
+}
+
+function objectPhrase(item: VocabularyItem, plural = false): string {
+  const m = cleanMeaning(item);
+  if (MASS_NOUNS.has(m)) return m;
+  if (plural) return pluralize(m);
+  return /^[aeiou]/.test(m) ? `an ${m}` : `a ${m}`;
+}
+
+function isPhrasePos(pos: string | undefined): boolean {
+  if (!pos) return false;
+  const p = pos.toLowerCase();
+  return p.includes("phrase") || p === "tag question" || p === "filler";
 }
 
 function englishSubject(item: VocabularyItem): EnglishSubject {
@@ -3578,7 +3618,7 @@ function collectSegmentsIntoVocab(allVocab: VocabularyItem[], text: string, targ
 
 function segmentChineseText(text: string, vocab: VocabularyItem[]) {
   const entries = vocab
-    .filter((item) => item.char && isLikelyChinese(item.char))
+    .filter((item) => item.char && isLikelyChinese(item.char) && !isPhrasePos(item.pos))
     .sort((a, b) => b.char.length - a.char.length);
   // Build a map of single-character vocab entries as fallback lookup
   const singleCharVocab = new Map<string, VocabularyItem>();
